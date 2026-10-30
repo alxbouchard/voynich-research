@@ -1,0 +1,63 @@
+{
+  "version": "phase20-calibration-v1",
+  "status": "Frozen locally before generation and fitting; no external preregistration",
+  "languages": {
+    "latin": "Latin_Pliny",
+    "italian": "Italian_Paradiso"
+  },
+  "fit_letters": [
+    250,
+    500,
+    1000
+  ],
+  "repetitions": 2,
+  "transfer_letters": 500,
+  "gap_words": 50,
+  "selection_seed": 2026103020,
+  "encryption_seed": 2026103021,
+  "optimizer_seed": 2026103022,
+  "cipher": "one 26-letter bijection; spaces removed; same key for fit and transfer",
+  "restarts": 16,
+  "steps": 60000,
+  "initializer_temperature": "0.02 * fit_letters * (0.0001 ** (step/steps))",
+  "initializer_polish_passes": 8,
+  "refinement_starts": 4,
+  "refinement_passes": 6,
+  "modes": [
+    "greedy",
+    "exact"
+  ],
+  "character_weight": 0.05,
+  "word_weight": 0.95,
+  "word_interpolation": [
+    0.129793302623898,
+    0.226872659329747,
+    0.643334038046355
+  ],
+  "character_interpolation": [
+    0.0950848948641174,
+    0.229797965264228,
+    0.675117139871655
+  ],
+  "single_letter_word_pseudocount": 0.1,
+  "character_unigram_pseudocount": 0.1,
+  "initializer_quadgram_pseudocount": 0.01,
+  "gate": {
+    "character_accuracy": 0.95,
+    "boundary_f1": 0.9,
+    "required": "all 12 transfer passages; exact arm"
+  },
+  "no_voynich_fit": true,
+  "no_target_language_selection": true,
+  "input_sha256": {
+    "voynich_phase10/data/latin_train_boundary.txt": "62310037befd731421d54b07e814bc5d42138248b91ebc933f7ce9284f24c1dd",
+    "voynich_phase10/data/italian_train_boundary.txt": "474e25fbf142b4a060ac345740a6c76f9ac3e1c13cb6656006011275c365151b",
+    "voynich_phase10/data/source_inputs.json": "b952a4cbfffa12330b0db72d5600b4fe62f0ab57d483b88adaa1bc83f1a31d28"
+  },
+  "code_sha256": {
+    "src/calibration.py": "6a39d96686c87f6b0a089f0f9e39314aaa91a5226477fea7584ad988d6f70adc",
+    "src/joint_solver.cpp": "bce7b031e09fd9c2f76ccb60445465fd65f3945f05d26545c65b008bc9f481a3",
+    "src/verify_calibration.py": "949b9fb62a8e71200b102bdf2f71a0e44d32cf1c1ded4bd34f0128cde42d7d85",
+    "src/audit_author_segmentation.py": "c2102a27d456e8c9032c22daed796a5c025a8da5baff3b9f650868e543d9c260"
+  }
+}

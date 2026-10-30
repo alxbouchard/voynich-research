@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "candidate": "true_key",
+      "mode": "greedy",
+      "difference": 0.0
+    },
+    {
+      "candidate": "true_key",
+      "mode": "exact",
+      "difference": 0.0
+    },
+    {
+      "candidate": "returned_key",
+      "mode": "greedy",
+      "difference": 7.105427357601002e-15
+    },
+    {
+      "candidate": "returned_key",
+      "mode": "exact",
+      "difference": 7.105427357601002e-15
+    },
+    {
+      "language": "latin",
+      "letters": "traeiiret",
+      "paths": 11,
+      "difference": 7.105427357601002e-15
+    },
+    {
+      "language": "latin",
+      "letters": "eeraeteea",
+      "paths": 6,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "rsaesssre",
+      "paths": 2,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "sseitrett",
+      "paths": 9,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "staiereet",
+      "paths": 4,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "seiteiisi",
+      "paths": 45,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "tsaeeieia",
+      "paths": 4,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "sarestret",
+      "paths": 12,
+      "difference": 0.0
+    },
+    {
+      "language": "latin",
+      "letters": "esessasea",
+      "paths": 6,
+      "difference": 1.4210854715202004e-14
+    },
+    {
+      "language": "latin",
+      "letters": "rateesrrt",
+      "paths": 3,
+      "difference": 1.4210854715202004e-14
+    },
+    {
+      "language": "latin",
+      "letters": "srreststs",
+      "paths": 4,
+      "difference": 1.4210854715202004e-14
+    },
+    {
+      "language": "latin",
+      "letters": "eitaeirit",
+      "paths": 9,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "etrteeasi",
+      "paths": 18,
+      "difference": 7.105427357601002e-15
+    },
+    {
+      "language": "italian",
+      "letters": "rtrsrersr",
+      "paths": 6,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "tsatstree",
+      "paths": 14,
+      "difference": 7.105427357601002e-15
+    },
+    {
+      "language": "italian",
+      "letters": "estaaassi",
+      "paths": 6,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "teatiteat",
+      "paths": 8,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "eeairirae",
+      "paths": 18,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "ssteestee",
+      "paths": 11,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "aaietirra",
+      "paths": 10,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "isiraiiit",
+      "paths": 7,
+      "difference": 7.105427357601002e-15
+    },
+    {
+      "language": "italian",
+      "letters": "israrsria",
+      "paths": 2,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "etetsaaas",
+      "paths": 10,
+      "difference": 0.0
+    },
+    {
+      "language": "italian",
+      "letters": "rriseirei",
+      "paths": 22,
+      "difference": 7.105427357601002e-15
+    }
+  ],
+  "scope": "Known development fixture and short random strings; no reserved calibration plaintext or encryption keys used."
+}
