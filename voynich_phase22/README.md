@@ -3,7 +3,13 @@
 La phase 22 conserve les clés et toutes les séparations trouvées par la phase 21.
 Elle autorise des coupures supplémentaires soutenues par le contexte de lettres,
 puis vérifie séparément les fusions corrigées et les fausses coupures ajoutées.
-Aucun essai sur Voynich n'est prévu dans cette phase.
+Aucun essai sur Voynich n'est exécuté dans cette phase.
+
+**Résultat : aucune fusion corrigée et aucune fausse coupure ajoutée sur les
+12 nouveaux passages de transfert. Sur les passages d'ajustement des clés,
+une fusion est corrigée mais deux fausses coupures sont ajoutées. L'objectif
+n'est pas atteint ; la correction n'est pas retenue comme amélioration.**
+Voir le [rapport](RAPPORT.md) et la [vérification](results/verification.json).
 
 ## Développement et gel
 
@@ -40,11 +46,17 @@ python3 voynich_phase22/src/develop.py
 python3 voynich_phase22/src/study.py prepare
 python3 voynich_phase22/src/study.py fit
 python3 voynich_phase22/src/study.py evaluate
-python3 voynich_phase22/src/verify.py
+python3 voynich_phase22/src/run_verification.py
+python3 voynich_phase22/src/diagnose.py
+MPLCONFIGDIR=/tmp/voynich-matplotlib python3 voynich_phase22/src/report.py
 ```
 
 `prepare` refuse d'écraser une série de contrôles existante. Pour reproduire les
 contrôles publiés, utiliser une copie de travail propre au commit de gel.
+Le lanceur `run_verification.py` et les scripts de rapport/diagnostic, ajoutés
+après les résultats, sont à prendre dans le commit final ; les autres scripts
+restent identiques au gel. Voir l'[addendum](AUDIT_ADDENDUM.md) pour le conflit
+de noms de modules corrigé au lancement de l'audit.
 Les modèles et exécutables sont reconstruits dans `tmp/`, non redistribué.
 Les commandes, empreintes d'entrées, résultats et vérités d'évaluation sont archivés.
 
@@ -52,5 +64,9 @@ Le programme Python indépendant recalcule les scores et les optima contraints.
 Le développement inclut aussi des vérifications exhaustives sur de petites chaînes
 et un contrôle indépendant de 256 contextes du classifieur. Il ne s'agit pas
 d'une réplication par une équipe extérieure.
+
+Pour vérifier uniquement l'intégrité des fichiers archivés, sans relancer les
+calculs : `python3 voynich_phase22/src/manifest.py`. L'inventaire est postérieur
+à l'expérience et distinct du gel du protocole.
 
 Les dérivations des phases 20 et 21 restent sous CC BY-SA 4.0 ; voir `NOTICE.md`.

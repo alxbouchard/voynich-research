@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/italian_500_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_2_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/italian_500_2/fit.txt": "02590224adf7272a812c97a5c886daacb31f5944ebe1231effbca8960ac3375f",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_2_starts.txt": "27d7cfab91b42da37eb2bab7b1a4e4bece0a24e87e9eb2779d38a293cfcdc230"
+    }
+  },
+  "seconds": 3.625302583212033,
+  "result": {
+    "key": "cefuhvtrdbwgnjikyxzmoqalsp",
+    "evaluations": 977,
+    "final_start_scores": [
+      -1060.5110179392266,
+      -1742.1470539619595
+    ],
+    "fit": {
+      "score": -1060.5110179392266,
+      "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+    }
+  }
+}

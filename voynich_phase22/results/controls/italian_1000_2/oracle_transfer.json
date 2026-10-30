@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_1000_2_oracle_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_1000_2_oracle_transfer.txt": "b495e194d5c9b397de5fbee7d5b3ceb3117f3f17da83f094ed355d4afcdd8416"
+    }
+  },
+  "seconds": 0.10107833310030401,
+  "result": {
+    "corrected": {
+      "score": -1073.2693901884672,
+      "segmentation": "piu su tona occhio mortale alcun tanto non dista qualunque in mar e piu giu s abbandona quanto li da beatrice la mia vista ma nulla mi facea che sua effige non discendea a me per mezzo mista o donna in cui la mia speranza vige e che s offristi per la mia salute in inferno lasciar le tue vestige di tante cose quant i ho vedute dal tuo podere e da la tua bontateri conosco la grazia e la virtute tu m hai di servo tratto a libertate per tutte quelle vie per tutt i modi che di cio fare a vei la potestate la tua magnificenza in me custo di si che l anima mia che fatt hai sana piacente a te dal corpo si disnodi cosi ora i e quella si"
+    },
+    "baseline": {
+      "score": -1073.2693901884672,
+      "segmentation": "piu su tona occhio mortale alcun tanto non dista qualunque in mar e piu giu s abbandona quanto li da beatrice la mia vista ma nulla mi facea che sua effige non discendea a me per mezzo mista o donna in cui la mia speranza vige e che s offristi per la mia salute in inferno lasciar le tue vestige di tante cose quant i ho vedute dal tuo podere e da la tua bontateri conosco la grazia e la virtute tu m hai di servo tratto a libertate per tutte quelle vie per tutt i modi che di cio fare a vei la potestate la tua magnificenza in me custo di si che l anima mia che fatt hai sana piacente a te dal corpo si disnodi cosi ora i e quella si"
+    },
+    "added_positions": []
+  }
+}

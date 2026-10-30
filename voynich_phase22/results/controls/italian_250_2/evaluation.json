@@ -1,0 +1,172 @@
+{
+  "case": "italian_250_2",
+  "language": "italian",
+  "rows": {
+    "recovered": {
+      "key": "xmjbqdetofauirznwyhgclpvks",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 255,
+          "correct_letters": 255,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9836065573770492,
+          "boundary_recall": 0.9836065573770492,
+          "boundary_f1": 0.9836065573770492,
+          "boundary_tp": 60,
+          "boundary_fp": 1,
+          "boundary_fn": 1,
+          "score": -539.7713490062378,
+          "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+        },
+        "corrected": {
+          "letters": 255,
+          "correct_letters": 255,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9836065573770492,
+          "boundary_recall": 0.9836065573770492,
+          "boundary_f1": 0.9836065573770492,
+          "boundary_tp": 60,
+          "boundary_fp": 1,
+          "boundary_fn": 1,
+          "score": -539.7713490062378,
+          "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 1,
+          "corrected_fp": 1,
+          "baseline_fn": 1,
+          "corrected_fn": 1,
+          "baseline_f1": 0.9836065573770492,
+          "corrected_f1": 0.9836065573770492
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 494,
+          "character_accuracy": 0.988,
+          "boundary_precision": 0.9669421487603306,
+          "boundary_recall": 0.9512195121951219,
+          "boundary_f1": 0.9590163934426229,
+          "boundary_tp": 117,
+          "boundary_fp": 4,
+          "boundary_fn": 6,
+          "score": -1119.7445119977845,
+          "segmentation": "lo mio temprando col dolce lacerwo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor quilawwandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto liwero fu da ogne altro disire fin che l piacere etterno che diretto raggiava inweatrice dalwe l viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 494,
+          "character_accuracy": 0.988,
+          "boundary_precision": 0.9669421487603306,
+          "boundary_recall": 0.9512195121951219,
+          "boundary_f1": 0.9590163934426229,
+          "boundary_tp": 117,
+          "boundary_fp": 4,
+          "boundary_fn": 6,
+          "score": -1119.7445119977845,
+          "segmentation": "lo mio temprando col dolce lacerwo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor quilawwandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto liwero fu da ogne altro disire fin che l piacere etterno che diretto raggiava inweatrice dalwe l viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 6,
+          "corrected_fn": 6,
+          "baseline_f1": 0.9590163934426229,
+          "corrected_f1": 0.9590163934426229
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "zmkwqdetofauirxnbjhgclpvys",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 255,
+          "correct_letters": 255,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9836065573770492,
+          "boundary_recall": 0.9836065573770492,
+          "boundary_f1": 0.9836065573770492,
+          "boundary_tp": 60,
+          "boundary_fp": 1,
+          "boundary_fn": 1,
+          "score": -539.7713490062378,
+          "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+        },
+        "corrected": {
+          "letters": 255,
+          "correct_letters": 255,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9836065573770492,
+          "boundary_recall": 0.9836065573770492,
+          "boundary_f1": 0.9836065573770492,
+          "boundary_tp": 60,
+          "boundary_fp": 1,
+          "boundary_fn": 1,
+          "score": -539.7713490062378,
+          "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 1,
+          "corrected_fp": 1,
+          "baseline_fn": 1,
+          "corrected_fn": 1,
+          "baseline_f1": 0.9836065573770492,
+          "corrected_f1": 0.9836065573770492
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.976,
+          "boundary_recall": 0.991869918699187,
+          "boundary_f1": 0.9838709677419355,
+          "boundary_tp": 122,
+          "boundary_fp": 3,
+          "boundary_fn": 1,
+          "score": -941.6250254916358,
+          "segmentation": "lo mio temprando col dolce l acerbo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor qui l abbandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto libero fu da ogne altro disire fin che l piacere etterno che diretto raggiava in beatrice dal bel viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.976,
+          "boundary_recall": 0.991869918699187,
+          "boundary_f1": 0.9838709677419355,
+          "boundary_tp": 122,
+          "boundary_fp": 3,
+          "boundary_fn": 1,
+          "score": -941.6250254916358,
+          "segmentation": "lo mio temprando col dolce l acerbo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor qui l abbandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto libero fu da ogne altro disire fin che l piacere etterno che diretto raggiava in beatrice dal bel viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 3,
+          "corrected_fp": 3,
+          "baseline_fn": 1,
+          "corrected_fn": 1,
+          "baseline_f1": 0.9838709677419355,
+          "corrected_f1": 0.9838709677419355
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": true,
+  "NOT_TRANSLATION": true
+}

@@ -42,6 +42,26 @@ mêmes nouveaux textes. Le découpage progresse dans 12/12 cas ; 5/12 passent
 les seuils, contre 0/12 pour le modèle fermé. Conserver le seuil strict,
 y compris le résultat 0,899328859 inférieur à 0,90. Aucun essai Voynich.
 
+## Phase 22 — corriger les fusions sans réintroduire de coupures
+
+Le 30 octobre 2026, utiliser les 48 anciens passages comme développement
+pour choisir parmi 24 configurations. Le seuil 0,90 et le poids 1 corrigent
+six fusions sans nouvelle fausse coupure sur ce développement. Figer le
+protocole et les calculs dans `9f96418`, puis sélectionner douze nouvelles
+paires de passages, excluant ceux des deux phases précédentes avec 50 mots
+de marge. Conserver les clés de phase 21 et toutes les frontières initiales.
+Sur les douze transferts, aucune frontière n'est corrigée ou ajoutée :
+126 frontières oubliées et 103 fausses coupures restent présentes. Sur
+les passages d'ajustement, une frontière est rétablie mais deux coupures
+erronées sont ajoutées. Ne pas retenir la correction comme amélioration.
+
+Le premier audit échoue au chargement d'un module homonyme de phase 21.
+Ajouter après les résultats un lanceur explicite, sans modifier le
+vérificateur figé ni les calculs, puis contrôler 96 sorties et 96 optima.
+Déclarer séparément le diagnostic explicatif ajouté après les résultats :
+123/126 omissions sont sous le seuil de contexte. Conserver tous les essais,
+les paramètres et le résultat négatif. Aucun essai sur le manuscrit.
+
 ## Règle pour les prochaines contributions
 
 Conserver les hypothèses abandonnées, expliquer chaque changement de protocole, enregistrer les versions et graines, distinguer les résultats calculés des interprétations et réserver des données avant d'ajuster les clés. Toute traduction proposée doit fournir une règle reproductible, des prédictions hors ajustement et des vérifications linguistiques indépendantes.

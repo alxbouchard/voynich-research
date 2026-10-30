@@ -30,4 +30,6 @@ Phase 20 exécutée : [rapport et figure](../voynich_phase20/RAPPORT.md) · [pro
 
 Phase 21 exécutée : [rapport et figure](../voynich_phase21/RAPPORT.md) · [méthode et reproduction](../voynich_phase21/README.md) · [protocole figé](../voynich_phase21/PROTOCOL.json) · [résultats](../voynich_phase21/results/). Les mots inconnus sont permis ; douze nouveaux contrôles évaluent la correction après développement sur les anciens. Cinq réussites conjointes, donc aucune application au Voynich. Aucun PDF de phase 21 n'est annoncé.
 
+Phase 22 exécutée : [rapport et figure](../voynich_phase22/RAPPORT.md) · [méthode et reproduction](../voynich_phase22/README.md) · [protocole figé](../voynich_phase22/PROTOCOL.json) · [résultats](../voynich_phase22/results/) · [addendum d'exécution](../voynich_phase22/AUDIT_ADDENDUM.md). La correction prudente ne rétablit aucune frontière sur les nouveaux transferts ; elle n'est pas retenue comme amélioration. Aucun PDF de phase 22 n'est annoncé.
+
 Les fichiers `source_archive_phase` de l’inventaire indiquent la provenance exacte de chaque pièce. Les fichiers gzip sont restaurés avec `python3 tools/hydrate.py`.

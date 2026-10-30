@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/italian_500_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_1_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/italian_500_1/fit.txt": "c59f8a236eb29afa5cab1a88a7cb193894e9fa311769a34ca4c9562349ee78e1",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_1_starts.txt": "ccc1dbae61cfce2deb690e2b38410245e80affe9cf9ace908d77bccb66a7b3b3"
+    }
+  },
+  "seconds": 3.3005119170993567,
+  "result": {
+    "key": "eqavitwgyfozdpsjcbhxnumlkr",
+    "evaluations": 977,
+    "final_start_scores": [
+      -1133.584527850645,
+      -2396.8159197329105
+    ],
+    "fit": {
+      "score": -1133.584527850645,
+      "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+    }
+  }
+}

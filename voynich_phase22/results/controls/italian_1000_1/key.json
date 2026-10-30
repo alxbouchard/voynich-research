@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/italian_1000_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_1000_1_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/italian_1000_1/fit.txt": "379128627e7d76c65da2181b85984d0e6b5dd134b14f753ec7c382562df5618f",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_1000_1_starts.txt": "bbc73a0cc00faf77d3314b1fa6d5d3e777b1b308795256f5c8b62d5e284d7a54"
+    }
+  },
+  "seconds": 8.160887459060177,
+  "result": {
+    "key": "oqzgnuhvsbxdfkeayirmwtclpj",
+    "evaluations": 977,
+    "final_start_scores": [
+      -2125.6386713695347,
+      -2807.0379244512023
+    ],
+    "fit": {
+      "score": -2125.6386713695347,
+      "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+    }
+  }
+}

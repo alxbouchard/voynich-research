@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_1_recovered_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_1_recovered_transfer.txt": "7794830d1c041d9344d4f9c137436f97c9d420c1460ce53693e415b146c16c40"
+    }
+  },
+  "seconds": 0.0805132919922471,
+  "result": {
+    "corrected": {
+      "score": -1357.6637823612687,
+      "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+    },
+    "baseline": {
+      "score": -1357.6637823612687,
+      "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+    },
+    "added_positions": []
+  }
+}

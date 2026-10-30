@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_1000_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_1_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_1000_1/fit.txt": "74b6db871f2c354e65a15debd80435990a98fe65db813d03760710d5552fb698",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_1_starts.txt": "ff657267cac7cc6dfd300c05f4c9b5ef78f8c32d3f80e34a16a6c94acf7be922"
+    }
+  },
+  "seconds": 6.9398982499260455,
+  "result": {
+    "key": "rexvawluzbnqgdisoyckfhptjm",
+    "evaluations": 1302,
+    "final_start_scores": [
+      -2534.5916761795534,
+      -2534.5916761795534
+    ],
+    "fit": {
+      "score": -2534.5916761795534,
+      "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properantque in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturantque celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+    }
+  }
+}

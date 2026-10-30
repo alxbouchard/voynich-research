@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_1_oracle_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_1_oracle_transfer.txt": "475222d05899becd3d5d8c4e3f577f9a69099758989393a435953a06218aa150"
+    }
+  },
+  "seconds": 0.09593924996443093,
+  "result": {
+    "corrected": {
+      "score": -1031.58007752467,
+      "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+    },
+    "baseline": {
+      "score": -1031.58007752467,
+      "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+    },
+    "added_positions": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_1000_1_recovered_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_1000_1_recovered_transfer.txt": "6bb73ae09b2d6ed2e967b6b42d7a57ab1c1753779a4a48de1d37d633a50c851d"
+    }
+  },
+  "seconds": 0.10254370886832476,
+  "result": {
+    "corrected": {
+      "score": -1010.5361103629946,
+      "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+    },
+    "baseline": {
+      "score": -1010.5361103629946,
+      "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+    },
+    "added_positions": []
+  }
+}

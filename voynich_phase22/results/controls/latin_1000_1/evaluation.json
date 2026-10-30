@@ -1,0 +1,178 @@
+{
+  "case": "latin_1000_1",
+  "language": "latin",
+  "rows": {
+    "recovered": {
+      "key": "rexvawluzbnqgdisoyckfhptjm",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 1001,
+          "correct_letters": 1001,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9125,
+          "boundary_recall": 0.8795180722891566,
+          "boundary_f1": 0.8957055214723927,
+          "boundary_tp": 146,
+          "boundary_fp": 14,
+          "boundary_fn": 20,
+          "score": -2534.5916761795534,
+          "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properantque in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturantque celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+        },
+        "corrected": {
+          "letters": 1001,
+          "correct_letters": 1001,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9012345679012346,
+          "boundary_recall": 0.8795180722891566,
+          "boundary_f1": 0.8902439024390244,
+          "boundary_tp": 146,
+          "boundary_fp": 16,
+          "boundary_fn": 20,
+          "score": -2532.4523606885614,
+          "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properant que in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturant que celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 2,
+          "baseline_fp": 14,
+          "corrected_fp": 16,
+          "baseline_fn": 20,
+          "corrected_fn": 20,
+          "baseline_f1": 0.8957055214723927,
+          "corrected_f1": 0.8902439024390244
+        },
+        "added_positions": [
+          718,
+          790
+        ]
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 501,
+          "correct_letters": 501,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9036144578313253,
+          "boundary_recall": 0.872093023255814,
+          "boundary_f1": 0.8875739644970414,
+          "boundary_tp": 75,
+          "boundary_fp": 8,
+          "boundary_fn": 11,
+          "score": -1357.6637823612687,
+          "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+        },
+        "corrected": {
+          "letters": 501,
+          "correct_letters": 501,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9036144578313253,
+          "boundary_recall": 0.872093023255814,
+          "boundary_f1": 0.8875739644970414,
+          "boundary_tp": 75,
+          "boundary_fp": 8,
+          "boundary_fn": 11,
+          "score": -1357.6637823612687,
+          "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 8,
+          "corrected_fp": 8,
+          "baseline_fn": 11,
+          "corrected_fn": 11,
+          "baseline_f1": 0.8875739644970414,
+          "corrected_f1": 0.8875739644970414
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "rexvawluzbnqgdisoycjfhptkm",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 1001,
+          "correct_letters": 1001,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9125,
+          "boundary_recall": 0.8795180722891566,
+          "boundary_f1": 0.8957055214723927,
+          "boundary_tp": 146,
+          "boundary_fp": 14,
+          "boundary_fn": 20,
+          "score": -2534.5916761795534,
+          "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properantque in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturantque celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+        },
+        "corrected": {
+          "letters": 1001,
+          "correct_letters": 1001,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9012345679012346,
+          "boundary_recall": 0.8795180722891566,
+          "boundary_f1": 0.8902439024390244,
+          "boundary_tp": 146,
+          "boundary_fp": 16,
+          "boundary_fn": 20,
+          "score": -2532.4523606885614,
+          "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properant que in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturant que celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 2,
+          "baseline_fp": 14,
+          "corrected_fp": 16,
+          "baseline_fn": 20,
+          "corrected_fn": 20,
+          "baseline_f1": 0.8957055214723927,
+          "corrected_f1": 0.8902439024390244
+        },
+        "added_positions": [
+          718,
+          790
+        ]
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 501,
+          "correct_letters": 501,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9036144578313253,
+          "boundary_recall": 0.872093023255814,
+          "boundary_f1": 0.8875739644970414,
+          "boundary_tp": 75,
+          "boundary_fp": 8,
+          "boundary_fn": 11,
+          "score": -1357.6637823612687,
+          "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+        },
+        "corrected": {
+          "letters": 501,
+          "correct_letters": 501,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9036144578313253,
+          "boundary_recall": 0.872093023255814,
+          "boundary_f1": 0.8875739644970414,
+          "boundary_tp": 75,
+          "boundary_fp": 8,
+          "boundary_fn": 11,
+          "score": -1357.6637823612687,
+          "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 8,
+          "corrected_fp": 8,
+          "baseline_fn": 11,
+          "corrected_fn": 11,
+          "baseline_f1": 0.8875739644970414,
+          "corrected_f1": 0.8875739644970414
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

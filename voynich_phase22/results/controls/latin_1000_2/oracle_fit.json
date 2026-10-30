@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_2_oracle_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_2_oracle_fit.txt": "f591cc224fd30a157951ab4aca6f584e3700e3f25ac4ba762e47e3602802b214"
+    }
+  },
+  "seconds": 0.08986566588282585,
+  "result": {
+    "corrected": {
+      "score": -2907.401802113403,
+      "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siore corticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+    },
+    "baseline": {
+      "score": -2909.448256659744,
+      "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siorecorticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+    },
+    "added_positions": [
+      912
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "language": "latin",
+    "known_types": 4718,
+    "unknown_training_tokens": 6222,
+    "training_tokens": 51300,
+    "maximum_unknown_length": 24,
+    "open_files": {
+      "bigrams.tsv": "449742497c479d94923fe2da8ea6e1c0c943af163040fc9d5f9dd09e05d394ef",
+      "boundary1.bin": "1f3ef863cfd1cb957d87cc99010457ea76452786d344d937e3b1f8260813f9bc",
+      "boundary2.bin": "07bafe0253c268fd63eddb0d0cafe9a9663c5a9dfbd4d408dc149dcc3327e745",
+      "boundary3.tsv": "b30c3d08960673acb76657ed8d2c7846d78fc78eb6ddf74a09df495dbaf65776",
+      "char1.bin": "b431e7619386dae22069d24eb8d7476a9dcf3b2e295d2685247bae6f841d0611",
+      "char2.bin": "0218aa431055d7d8fc54c81ea6dbdbec489b27c90ea33b6b80676f69c8c92a36",
+      "char3.bin": "9eb16622531284aafa66935e1c30c4ba3051e8e743cc34aacb369f6246ffc9e0",
+      "length.bin": "17bc2442db7d06629155ee0f0e939e70be95c49f1aa7c967f03f86d0e72db73a",
+      "spelling.bin": "0a1b302b85ec90c82dae406cbd55df50f8319b9bd00e11bbb8f5746306a6fc85",
+      "trigrams.tsv": "9f3a722eb46bc781da921e872c2abd63756f2fd454fabb9270caaa949225801f",
+      "words.tsv": "6e0e09b21c0a0be98865e199e519da4dbeceec11d23e0d4cc11986e9718ed2f1"
+    },
+    "closed": {
+      "language": "latin",
+      "training_words": 51300,
+      "dictionary_words": 10955,
+      "training_file": "voynich_phase10/data/latin_train_boundary.txt",
+      "files": {
+        "bigrams.tsv": "dada75ff30137c25131ce8baa5cbfa2b052ee83fb6ee1c623ce0d9589d399c58",
+        "char1.bin": "b431e7619386dae22069d24eb8d7476a9dcf3b2e295d2685247bae6f841d0611",
+        "char2.bin": "0218aa431055d7d8fc54c81ea6dbdbec489b27c90ea33b6b80676f69c8c92a36",
+        "char3.bin": "9eb16622531284aafa66935e1c30c4ba3051e8e743cc34aacb369f6246ffc9e0",
+        "freq.bin": "8ec006f2706ea7422156133d8dab600419fe3d02c46a84e8a9d84779e445851e",
+        "quad.bin": "681a38fa082470b2e5a020ed049cb87b3447eb9bea874b507b84ff71619fa9d6",
+        "trigrams.tsv": "3ba3156ce886e5304dee2b47097af5fd65a08f971d3f9503e6c7f2777dc8d837",
+        "words.tsv": "6d3623251a58bce31c23798f5f1554d7d8077308e8ab9b492572c06ddc14f36f"
+      }
+    },
+    "boundary_training_gaps": 317079,
+    "boundary_training_spaces": 51299,
+    "boundary_prior": 0.16178617946946974,
+    "boundary_backoff_strength": 20
+  },
+  {
+    "language": "italian",
+    "known_types": 4113,
+    "unknown_training_tokens": 5718,
+    "training_tokens": 68192,
+    "maximum_unknown_length": 24,
+    "open_files": {
+      "bigrams.tsv": "9dba9a6cf0c412e5ff9b61e7e87c1f364966351c098a180f5d824e3084287f8b",
+      "boundary1.bin": "bff18040efeb7aa6e19aac2f10761dd33cb8831eefdeb6a4ed2e47d023ad7b5a",
+      "boundary2.bin": "baf0d7f37523d4f58721eb8a18a11298bb7bf6a1348020d038e302194983334c",
+      "boundary3.tsv": "f931fbd83e28928730621acb0bcb15d4f5e7c65344de223fae38621b736f6a98",
+      "char1.bin": "b634abc1c21d4ee7210681ad4a0d8bdd5fbc626676c2281d71804e58160933f8",
+      "char2.bin": "d07df7c6f690f5d0638a383287ae0dabd001c19f03e8a613bd3ba7229164b77a",
+      "char3.bin": "a5f2db10641a529fd05dfb71e016d6eba84dbb8e6bae1ed012f83c7747d11ecc",
+      "length.bin": "0782c7c98e6208d76fb9c9cb8b8e4c924a8cd80cea5a2d10362fd4c6d4655912",
+      "spelling.bin": "80f10babf36d3a224ea922b68dd03ac61a34be1e2a66e5753a5f0561c88e9664",
+      "trigrams.tsv": "1d47dfe2192b8e20c7dbcfe75914d9353c27b68353cda7b843719dc142d9c807",
+      "words.tsv": "35ea4f498832443e1cf23c469d641ce42b6e4cd32095a8f8fe8849b88a23497b"
+    },
+    "closed": {
+      "language": "italian",
+      "training_words": 68192,
+      "dictionary_words": 9843,
+      "training_file": "voynich_phase10/data/italian_train_boundary.txt",
+      "files": {
+        "bigrams.tsv": "3a86b66b3a085d71301ad99d107fd4bd8a92f83ee6c96355f8e8b7b9dfa5a877",
+        "char1.bin": "b634abc1c21d4ee7210681ad4a0d8bdd5fbc626676c2281d71804e58160933f8",
+        "char2.bin": "d07df7c6f690f5d0638a383287ae0dabd001c19f03e8a613bd3ba7229164b77a",
+        "char3.bin": "a5f2db10641a529fd05dfb71e016d6eba84dbb8e6bae1ed012f83c7747d11ecc",
+        "freq.bin": "f973c927070fad000d8c729b9260dc30b12fd85e4dc1c37e6f97c8343f88f144",
+        "quad.bin": "339bf7301597ca75f8f3b39d45a724b168cdee756e5c1af35f35ff8e230e34aa",
+        "trigrams.tsv": "cdfeabd1dd8c641ca0738631ea431a6c2dc7f504cb0073e93282e73024b22c34",
+        "words.tsv": "b1b7903a17d51460b9f187b501faa0284004623cf40b9be73cd4296604a7f02f"
+      }
+    },
+    "boundary_training_gaps": 268868,
+    "boundary_training_spaces": 68191,
+    "boundary_prior": 0.25362259547435917,
+    "boundary_backoff_strength": 20
+  }
+]

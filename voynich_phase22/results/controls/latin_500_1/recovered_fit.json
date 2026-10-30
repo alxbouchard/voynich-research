@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_500_1_recovered_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_500_1_recovered_fit.txt": "0a54e2ca5de531af327f7941b7e88a3626e8ded0c6c6d96f657e099284247bab"
+    }
+  },
+  "seconds": 0.0808731249999255,
+  "result": {
+    "corrected": {
+      "score": -1456.6087031208067,
+      "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+    },
+    "baseline": {
+      "score": -1456.6087031208067,
+      "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+    },
+    "added_positions": []
+  }
+}

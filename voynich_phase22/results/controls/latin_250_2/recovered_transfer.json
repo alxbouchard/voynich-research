@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_2_recovered_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_2_recovered_transfer.txt": "cd1d5671086f694249de00edaa04f91ab51101a936b2b3fe1a37fb320c9c359e"
+    }
+  },
+  "seconds": 0.079090042039752,
+  "result": {
+    "corrected": {
+      "score": -1427.8932373429723,
+      "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibulaquaeca hocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculaecoma neque v ac super hacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta nahium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+    },
+    "baseline": {
+      "score": -1427.8932373429723,
+      "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibulaquaeca hocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculaecoma neque v ac super hacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta nahium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+    },
+    "added_positions": []
+  }
+}

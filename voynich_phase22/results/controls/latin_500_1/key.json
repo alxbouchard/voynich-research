@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_500_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_500_1_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_500_1/fit.txt": "faabc723d6b7c09b2c2d91c1c4674cc244a89bf72f5a21eeea28bf66c3d82855",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_500_1_starts.txt": "11b013425803a876f4d9a41d0d4ef7591850a8f926b7199e3c9b0a073c0d0d0a"
+    }
+  },
+  "seconds": 3.2913337079808116,
+  "result": {
+    "key": "hkfpysrgqbxvdcijtnuwoemzal",
+    "evaluations": 1302,
+    "final_start_scores": [
+      -1456.6087031208067,
+      -2021.818269945575
+    ],
+    "fit": {
+      "score": -1456.6087031208067,
+      "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+    }
+  }
+}

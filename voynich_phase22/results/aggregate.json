@@ -1,0 +1,232 @@
+{
+  "aggregate": {
+    "recovered": {
+      "baseline": {
+        "correct_letters": 6008,
+        "total_letters": 6026,
+        "accuracy": 0.9970129439097245,
+        "boundary_f1_macro": 0.8975672775672464,
+        "boundary_f1_micro": 0.9097359085534096,
+        "boundary_tp": 1154,
+        "boundary_fp": 103,
+        "boundary_fn": 126,
+        "passes_both": 6
+      },
+      "corrected": {
+        "correct_letters": 6008,
+        "total_letters": 6026,
+        "accuracy": 0.9970129439097245,
+        "boundary_f1_macro": 0.8975672775672464,
+        "boundary_f1_micro": 0.9097359085534096,
+        "boundary_tp": 1154,
+        "boundary_fp": 103,
+        "boundary_fn": 126,
+        "passes_both": 6
+      }
+    },
+    "oracle": {
+      "baseline": {
+        "correct_letters": 6026,
+        "total_letters": 6026,
+        "accuracy": 1.0,
+        "boundary_f1_macro": 0.9029968433975538,
+        "boundary_f1_micro": 0.9150275373721479,
+        "boundary_tp": 1163,
+        "boundary_fp": 99,
+        "boundary_fn": 117,
+        "passes_both": 6
+      },
+      "corrected": {
+        "correct_letters": 6026,
+        "total_letters": 6026,
+        "accuracy": 1.0,
+        "boundary_f1_macro": 0.9029968433975538,
+        "boundary_f1_micro": 0.9150275373721479,
+        "boundary_tp": 1163,
+        "boundary_fp": 99,
+        "boundary_fn": 117,
+        "passes_both": 6
+      }
+    }
+  },
+  "key_diagnostics": [
+    {
+      "case": "latin_250_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "latin_500_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "p",
+          "predicted": "j",
+          "true": "z",
+          "fit_count": 0,
+          "transfer_count": 1
+        }
+      ]
+    },
+    {
+      "case": "latin_1000_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "latin_250_2",
+      "all_fit_observed_mappings_correct": false,
+      "wrong_mappings": [
+        {
+          "cipher": "l",
+          "predicted": "h",
+          "true": "v",
+          "fit_count": 3,
+          "transfer_count": 3
+        },
+        {
+          "cipher": "y",
+          "predicted": "v",
+          "true": "h",
+          "fit_count": 1,
+          "transfer_count": 1
+        }
+      ]
+    },
+    {
+      "case": "latin_500_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "latin_1000_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "italian_250_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "d",
+          "predicted": "w",
+          "true": "z",
+          "fit_count": 0,
+          "transfer_count": 3
+        },
+        {
+          "cipher": "j",
+          "predicted": "k",
+          "true": "b",
+          "fit_count": 0,
+          "transfer_count": 4
+        }
+      ]
+    },
+    {
+      "case": "italian_500_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "italian_1000_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "italian_250_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "q",
+          "predicted": "w",
+          "true": "b",
+          "fit_count": 0,
+          "transfer_count": 6
+        }
+      ]
+    },
+    {
+      "case": "italian_500_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    },
+    {
+      "case": "italian_1000_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": []
+    }
+  ],
+  "added_boundary_decisions": [
+    {
+      "case": "latin_1000_1",
+      "mode": "recovered",
+      "split": "fit",
+      "gap": 718,
+      "correct": false,
+      "baseline_token": "properantque",
+      "corrected_token": "properant que",
+      "true_letters": "properantque",
+      "true_boundaries_inside_token": []
+    },
+    {
+      "case": "latin_1000_1",
+      "mode": "recovered",
+      "split": "fit",
+      "gap": 790,
+      "correct": false,
+      "baseline_token": "maturantque",
+      "corrected_token": "maturant que",
+      "true_letters": "maturantque",
+      "true_boundaries_inside_token": []
+    },
+    {
+      "case": "latin_1000_1",
+      "mode": "oracle",
+      "split": "fit",
+      "gap": 718,
+      "correct": false,
+      "baseline_token": "properantque",
+      "corrected_token": "properant que",
+      "true_letters": "properantque",
+      "true_boundaries_inside_token": []
+    },
+    {
+      "case": "latin_1000_1",
+      "mode": "oracle",
+      "split": "fit",
+      "gap": 790,
+      "correct": false,
+      "baseline_token": "maturantque",
+      "corrected_token": "maturant que",
+      "true_letters": "maturantque",
+      "true_boundaries_inside_token": []
+    },
+    {
+      "case": "latin_1000_2",
+      "mode": "recovered",
+      "split": "fit",
+      "gap": 912,
+      "correct": true,
+      "baseline_token": "siorecorticem",
+      "corrected_token": "siore corticem",
+      "true_letters": "siorecorticem",
+      "true_boundaries_inside_token": [
+        5
+      ]
+    },
+    {
+      "case": "latin_1000_2",
+      "mode": "oracle",
+      "split": "fit",
+      "gap": 912,
+      "correct": true,
+      "baseline_token": "siorecorticem",
+      "corrected_token": "siore corticem",
+      "true_letters": "siorecorticem",
+      "true_boundaries_inside_token": [
+        5
+      ]
+    }
+  ]
+}

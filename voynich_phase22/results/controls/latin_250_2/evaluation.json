@@ -1,0 +1,172 @@
+{
+  "case": "latin_250_2",
+  "language": "latin",
+  "rows": {
+    "recovered": {
+      "key": "lrcpynugwbqhtxikoejasmdfvz",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 257,
+          "correct_letters": 253,
+          "character_accuracy": 0.9844357976653697,
+          "boundary_precision": 0.9302325581395349,
+          "boundary_recall": 0.8333333333333334,
+          "boundary_f1": 0.8791208791208791,
+          "boundary_tp": 40,
+          "boundary_fp": 3,
+          "boundary_fn": 8,
+          "score": -738.1278530174756,
+          "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat vederaemira proditur natura ad experienda hinasi has fiat eligno eius hinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+        },
+        "corrected": {
+          "letters": 257,
+          "correct_letters": 253,
+          "character_accuracy": 0.9844357976653697,
+          "boundary_precision": 0.9302325581395349,
+          "boundary_recall": 0.8333333333333334,
+          "boundary_f1": 0.8791208791208791,
+          "boundary_tp": 40,
+          "boundary_fp": 3,
+          "boundary_fn": 8,
+          "score": -738.1278530174756,
+          "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat vederaemira proditur natura ad experienda hinasi has fiat eligno eius hinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 3,
+          "corrected_fp": 3,
+          "baseline_fn": 8,
+          "corrected_fn": 8,
+          "baseline_f1": 0.8791208791208791,
+          "corrected_f1": 0.8791208791208791
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 496,
+          "character_accuracy": 0.992,
+          "boundary_precision": 0.7532467532467533,
+          "boundary_recall": 0.7837837837837838,
+          "boundary_f1": 0.7682119205298014,
+          "boundary_tp": 58,
+          "boundary_fp": 19,
+          "boundary_fn": 16,
+          "score": -1427.8932373429723,
+          "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibulaquaeca hocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculaecoma neque v ac super hacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta nahium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 496,
+          "character_accuracy": 0.992,
+          "boundary_precision": 0.7532467532467533,
+          "boundary_recall": 0.7837837837837838,
+          "boundary_f1": 0.7682119205298014,
+          "boundary_tp": 58,
+          "boundary_fp": 19,
+          "boundary_fn": 16,
+          "score": -1427.8932373429723,
+          "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibulaquaeca hocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculaecoma neque v ac super hacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta nahium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 19,
+          "corrected_fp": 19,
+          "baseline_fn": 16,
+          "corrected_fn": 16,
+          "baseline_f1": 0.7682119205298014,
+          "corrected_f1": 0.7682119205298014
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "lrcpznugkbqvtxijoewasmdfhy",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 257,
+          "correct_letters": 257,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9285714285714286,
+          "boundary_recall": 0.8125,
+          "boundary_f1": 0.8666666666666667,
+          "boundary_tp": 39,
+          "boundary_fp": 3,
+          "boundary_fn": 9,
+          "score": -739.2834084193197,
+          "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat hederaemira proditur natura ad experienda vinasivas fiat eligno eius vinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+        },
+        "corrected": {
+          "letters": 257,
+          "correct_letters": 257,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9285714285714286,
+          "boundary_recall": 0.8125,
+          "boundary_f1": 0.8666666666666667,
+          "boundary_tp": 39,
+          "boundary_fp": 3,
+          "boundary_fn": 9,
+          "score": -739.2834084193197,
+          "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat hederaemira proditur natura ad experienda vinasivas fiat eligno eius vinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 3,
+          "corrected_fp": 3,
+          "baseline_fn": 9,
+          "corrected_fn": 9,
+          "baseline_f1": 0.8666666666666667,
+          "corrected_f1": 0.8666666666666667
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.7894736842105263,
+          "boundary_recall": 0.8108108108108109,
+          "boundary_f1": 0.8,
+          "boundary_tp": 60,
+          "boundary_fp": 16,
+          "boundary_fn": 14,
+          "score": -1378.3305516454009,
+          "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibula quae cavocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculae comaneque hac supervacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta navium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.7894736842105263,
+          "boundary_recall": 0.8108108108108109,
+          "boundary_f1": 0.8,
+          "boundary_tp": 60,
+          "boundary_fp": 16,
+          "boundary_fn": 14,
+          "score": -1378.3305516454009,
+          "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibula quae cavocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculae comaneque hac supervacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta navium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 16,
+          "corrected_fp": 16,
+          "baseline_fn": 14,
+          "corrected_fn": 14,
+          "baseline_f1": 0.8,
+          "corrected_f1": 0.8
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

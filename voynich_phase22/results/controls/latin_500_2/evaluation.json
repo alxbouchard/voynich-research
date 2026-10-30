@@ -1,0 +1,172 @@
+{
+  "case": "latin_500_2",
+  "language": "latin",
+  "rows": {
+    "recovered": {
+      "key": "wqghvkrjamufelztnicxopsybd",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8518518518518519,
+          "boundary_f1": 0.8625,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 12,
+          "score": -1380.8509817104007,
+          "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8518518518518519,
+          "boundary_f1": 0.8625,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 12,
+          "score": -1380.8509817104007,
+          "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 10,
+          "corrected_fp": 10,
+          "baseline_fn": 12,
+          "corrected_fn": 12,
+          "baseline_f1": 0.8625,
+          "corrected_f1": 0.8625
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8023255813953488,
+          "boundary_f1": 0.8363636363636363,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 17,
+          "score": -1392.4155908498242,
+          "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+        },
+        "corrected": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8023255813953488,
+          "boundary_f1": 0.8363636363636363,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 17,
+          "score": -1392.4155908498242,
+          "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 10,
+          "corrected_fp": 10,
+          "baseline_fn": 17,
+          "corrected_fn": 17,
+          "baseline_f1": 0.8363636363636363,
+          "corrected_f1": 0.8363636363636363
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "zqghvwrjamufelktnicxopsybd",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8518518518518519,
+          "boundary_f1": 0.8625,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 12,
+          "score": -1380.8509817104007,
+          "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8518518518518519,
+          "boundary_f1": 0.8625,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 12,
+          "score": -1380.8509817104007,
+          "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 10,
+          "corrected_fp": 10,
+          "baseline_fn": 12,
+          "corrected_fn": 12,
+          "baseline_f1": 0.8625,
+          "corrected_f1": 0.8625
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8023255813953488,
+          "boundary_f1": 0.8363636363636363,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 17,
+          "score": -1392.4155908498242,
+          "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+        },
+        "corrected": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.8023255813953488,
+          "boundary_f1": 0.8363636363636363,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 17,
+          "score": -1392.4155908498242,
+          "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 10,
+          "corrected_fp": 10,
+          "baseline_fn": 17,
+          "corrected_fn": 17,
+          "baseline_f1": 0.8363636363636363,
+          "corrected_f1": 0.8363636363636363
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

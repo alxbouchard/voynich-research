@@ -18,10 +18,25 @@ La [phase 21](../voynich_phase21/RAPPORT.md) évalue cette correction sur
 douze nouveaux chiffrés et passages disjoints des anciens. Le découpage
 progresse dans tous les cas, mais cinq seulement passent les deux seuils.
 Les coupures inutiles diminuent fortement, tandis que les mots voisins
-sont plus souvent fusionnés. La prochaine piste est un modèle plus précis
-des frontières de mots, notamment en latin, et une représentation explicite
-des signes jamais observés. Les nouveaux contrôles devront à leur tour
-devenir des données de développement si leurs erreurs guident une correction.
+sont plus souvent fusionnés. Les 48 passages des phases 20 et 21 deviennent
+ensuite le développement du correcteur de frontières de phase 22.
+
+La [phase 22](../voynich_phase22/RAPPORT.md) conserve les frontières existantes
+et n'ajoute que des coupures soutenues par le contexte et le score lexical.
+Les six corrections sans erreur du développement ne se reproduisent pas :
+aucune modification sur les douze nouveaux transferts. Sur les passages
+d'ajustement des clés, une fusion est corrigée mais deux coupures erronées
+sont ajoutées. Cette configuration n'est pas retenue comme amélioration.
+Le diagnostic postérieur constate que 123 des 126 frontières oubliées de
+transfert sont sous le seuil de contexte, les trois autres étant rejetées
+par le score global. Les paramètres restent figés.
+
+La prochaine piste serait de mieux distinguer un mot inconnu entier de
+deux mots fusionnés, avec possibilité d'abstention, tout en laissant
+explicitement indéterminées les correspondances de signes jamais observés.
+Elle reste à tester. Les contrôles de phase 22 devront devenir du développement
+si leurs erreurs guident cette correction ; une nouvelle validation devra
+réserver d'autres passages avant tout réglage.
 
 Le [brouillon initial](../voynich_phase18/PROTOCOL_DRAFT.md), les protocoles figés de [phase 18](../voynich_phase18/PROTOCOL.json) et de [phase 19](../voynich_phase19/PROTOCOL.json), les sorties et les limites restent archivés. Les pistes sur l'initiale et le modèle italien n'atteignaient pas ensemble le critère de phase 18 sur les deux groupes ; elles ne sont pas réajustées dans la phase 19.
 

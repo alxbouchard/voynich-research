@@ -14,6 +14,8 @@ Le texte latin César et ses dérivés normalisés restent sous CC BY-SA 4.0 sel
 
 La phase 21 ajoute un modèle de mots inconnus et une calibration sur de nouveaux passages ; ses scripts et adaptations sont sous CC BY-SA 4.0. Elle conserve l'attribution du score combiné à Hauer, Hayward et Kondrak et réutilise le code de phase 20 sans modifier ses fichiers. Voir [la notice de phase 21](voynich_phase21/README.md).
 
+La phase 22 ajoute un classifieur de frontières et une segmentation contrainte après fixation des clés de phase 21. Ses adaptations sont sous CC BY-SA 4.0 et les fichiers des phases précédentes restent inchangés. Voir [l'attribution de phase 22](voynich_phase22/NOTICE.md).
+
 Les sources intégrales non autorisées à la redistribution de certains décodeurs ne sont pas ajoutées. Les scripts d'acquisition conservent leurs versions et empreintes. Les traductions revendiquées par des projets tiers ne sont pas redistribuées comme résultats de ce projet.
 
 Aucune licence globale n'est déclarée pour le dépôt à ce stade. Les droits des documents et programmes originaux du projet ne doivent pas être interprétés comme modifiant les droits des tiers.

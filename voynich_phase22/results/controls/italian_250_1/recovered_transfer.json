@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_1_recovered_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_1_recovered_transfer.txt": "7bbef0e25c1b8f9d75d0a99df08e700237b962007491367ac29aa3faad41b7d5"
+    }
+  },
+  "seconds": 0.1025107498280704,
+  "result": {
+    "corrected": {
+      "score": -1221.7963313341713,
+      "segmentation": "quella corda che cio che scocca driwwa in segno lieto vero e che come forma non s accorda molte fiate al intenwion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco d inuke si l impeto primo latterra torto da falso piacere non dei piu ammirar sekenestimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarekke intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+    },
+    "baseline": {
+      "score": -1221.7963313341713,
+      "segmentation": "quella corda che cio che scocca driwwa in segno lieto vero e che come forma non s accorda molte fiate al intenwion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco d inuke si l impeto primo latterra torto da falso piacere non dei piu ammirar sekenestimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarekke intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+    },
+    "added_positions": []
+  }
+}

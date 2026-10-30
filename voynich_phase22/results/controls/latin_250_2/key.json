@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_250_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_2_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_250_2/fit.txt": "67fb208ce5238493a5409d8eaa92aa647d9736f94df382b5afa28539c3b8bb3b",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_2_starts.txt": "422de22cb0c6b2511100681db66340c8c04702a97f9868ebe9ed18f41ca07507"
+    }
+  },
+  "seconds": 1.6175631249789149,
+  "result": {
+    "key": "lrcpynugwbqhtxikoejasmdfvz",
+    "evaluations": 1302,
+    "final_start_scores": [
+      -738.1278530174756,
+      -738.1278530174756
+    ],
+    "fit": {
+      "score": -738.1278530174756,
+      "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat vederaemira proditur natura ad experienda hinasi has fiat eligno eius hinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+    }
+  }
+}

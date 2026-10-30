@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_1_recovered_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_1_recovered_fit.txt": "cbb5f792d3462ee270758bf3d9e80e46c1653a1a2af5d7139059f18f019533a7"
+    }
+  },
+  "seconds": 0.10127520794048905,
+  "result": {
+    "corrected": {
+      "score": -549.3549301998074,
+      "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+    },
+    "baseline": {
+      "score": -549.3549301998074,
+      "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+    },
+    "added_positions": []
+  }
+}

@@ -107,7 +107,41 @@ anciens contrôles ; les nouveaux passages excluent ceux de phase 20 avec
 une marge de 50 mots. Cinq des douze contrôles passent les seuils ; aucun
 calcul sur le manuscrit n'est lancé. Voir [la notice](../voynich_phase21/README.md).
 
-## 8. Images, modèles et ressources externes
+## 8. Phase 22
+
+Python, NumPy et C++17 sont requis ; Matplotlib sert aux figures.
+Le protocole et les calculs sont figés dans `9f96418`, avant sélection
+des nouveaux passages. Le [rapport](../voynich_phase22/RAPPORT.md) conserve
+le résultat négatif, et l'[addendum](../voynich_phase22/AUDIT_ADDENDUM.md)
+explique le lanceur d'audit ajouté ensuite pour éviter un conflit de noms.
+
+Vérifier les résultats archivés sans recalculer :
+
+```sh
+python3 voynich_phase22/src/manifest.py
+```
+
+Pour réexécuter, utiliser une copie de travail propre au commit de gel,
+avec les sources historiques restaurées. Ajouter depuis le commit final
+les scripts `run_verification.py`, `diagnose.py` et `report.py` uniquement.
+`prepare` refuse d'écraser les contrôles déjà présents.
+
+```sh
+python3 tools/hydrate.py
+python3 voynich_phase22/src/study.py prepare
+python3 voynich_phase22/src/study.py fit
+python3 voynich_phase22/src/study.py evaluate
+python3 voynich_phase22/src/run_verification.py
+python3 voynich_phase22/src/diagnose.py
+MPLCONFIGDIR=/tmp/voynich-matplotlib python3 voynich_phase22/src/report.py
+```
+
+Les modèles et exécutables sont reconstruits dans le dossier temporaire de
+phase 22. Les anciens contrôles de phases 20 et 21 sont exclus avec 50 mots
+de marge. Aucun calcul sur le manuscrit n'est exécuté. Voir la
+[notice complète](../voynich_phase22/README.md).
+
+## 9. Images, modèles et ressources externes
 
 Les sources photographiques Yale, les TIFF multispectraux et certaines matrices binaires ne sont pas inclus dans Git. Leur inventaire est dans `artifacts/omitted_binary_assets.json`. Les sources officielles sont décrites dans `docs/SOURCES.md` et les manifestes d'origine. Certaines petites figures dérivées sont également omises ; elles peuvent être régénérées lorsque les données sources correspondantes sont présentes.
 
@@ -115,7 +149,7 @@ Les archives de reproduction complètes déjà produites restent les ensembles l
 
 Pour la phase 17, la cryptanalyse utilise les deux fichiers IVTFF inclus. L'analyse spectrale requiert en plus `data/f116v_native_roi_22bands.npz`, ou les captures brutes référencées. Ne pas annoncer une reproduction spectrale si seule la cryptanalyse a été exécutée.
 
-## 9. Portée de la validation de cette migration
+## 10. Portée de la validation de cette migration
 
 La migration vérifie les archives ZIP utilisées, les octets des fichiers sélectionnés, les rapports PDF et les chemins de documentation. Elle ne réexécute pas les 17 séries de calculs. Les comptes rendus de vérification historique sont archivés dans chaque dossier `results/`.
 

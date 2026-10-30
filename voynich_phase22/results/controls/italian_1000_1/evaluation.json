@@ -1,0 +1,172 @@
+{
+  "case": "italian_1000_1",
+  "language": "italian",
+  "rows": {
+    "recovered": {
+      "key": "oqzgnuhvsbxdfkeayirmwtclpj",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 1003,
+          "correct_letters": 1003,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9195402298850575,
+          "boundary_recall": 0.963855421686747,
+          "boundary_f1": 0.9411764705882353,
+          "boundary_tp": 240,
+          "boundary_fp": 21,
+          "boundary_fn": 9,
+          "score": -2125.6386713695347,
+          "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+        },
+        "corrected": {
+          "letters": 1003,
+          "correct_letters": 1003,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9195402298850575,
+          "boundary_recall": 0.963855421686747,
+          "boundary_f1": 0.9411764705882353,
+          "boundary_tp": 240,
+          "boundary_fp": 21,
+          "boundary_fn": 9,
+          "score": -2125.6386713695347,
+          "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 21,
+          "corrected_fp": 21,
+          "baseline_fn": 9,
+          "corrected_fn": 9,
+          "baseline_f1": 0.9411764705882353,
+          "corrected_f1": 0.9411764705882353
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 506,
+          "correct_letters": 506,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9689922480620154,
+          "boundary_recall": 0.9689922480620154,
+          "boundary_f1": 0.9689922480620154,
+          "boundary_tp": 125,
+          "boundary_fp": 4,
+          "boundary_fn": 4,
+          "score": -1010.5361103629946,
+          "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+        },
+        "corrected": {
+          "letters": 506,
+          "correct_letters": 506,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9689922480620154,
+          "boundary_recall": 0.9689922480620154,
+          "boundary_f1": 0.9689922480620154,
+          "boundary_tp": 125,
+          "boundary_fp": 4,
+          "boundary_fn": 4,
+          "score": -1010.5361103629946,
+          "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 4,
+          "corrected_fn": 4,
+          "baseline_f1": 0.9689922480620154,
+          "corrected_f1": 0.9689922480620154
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "oqzgnuhvsbjdfxeawirmytclpk",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 1003,
+          "correct_letters": 1003,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9195402298850575,
+          "boundary_recall": 0.963855421686747,
+          "boundary_f1": 0.9411764705882353,
+          "boundary_tp": 240,
+          "boundary_fp": 21,
+          "boundary_fn": 9,
+          "score": -2125.6386713695347,
+          "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+        },
+        "corrected": {
+          "letters": 1003,
+          "correct_letters": 1003,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9195402298850575,
+          "boundary_recall": 0.963855421686747,
+          "boundary_f1": 0.9411764705882353,
+          "boundary_tp": 240,
+          "boundary_fp": 21,
+          "boundary_fn": 9,
+          "score": -2125.6386713695347,
+          "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 21,
+          "corrected_fp": 21,
+          "baseline_fn": 9,
+          "corrected_fn": 9,
+          "baseline_f1": 0.9411764705882353,
+          "corrected_f1": 0.9411764705882353
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 506,
+          "correct_letters": 506,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9689922480620154,
+          "boundary_recall": 0.9689922480620154,
+          "boundary_f1": 0.9689922480620154,
+          "boundary_tp": 125,
+          "boundary_fp": 4,
+          "boundary_fn": 4,
+          "score": -1010.5361103629946,
+          "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+        },
+        "corrected": {
+          "letters": 506,
+          "correct_letters": 506,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9689922480620154,
+          "boundary_recall": 0.9689922480620154,
+          "boundary_f1": 0.9689922480620154,
+          "boundary_tp": 125,
+          "boundary_fp": 4,
+          "boundary_fn": 4,
+          "score": -1010.5361103629946,
+          "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 4,
+          "corrected_fn": 4,
+          "baseline_f1": 0.9689922480620154,
+          "corrected_f1": 0.9689922480620154
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": true,
+  "NOT_TRANSLATION": true
+}

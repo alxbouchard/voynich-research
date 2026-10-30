@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/phase21_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_250_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_1_starts.txt",
+      "1.0",
+      "0.0",
+      "2"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "d3c2aa368afd28ef1f5c1656308ada7091da40f6eae62ecb144305168e89a4ab",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/data/controls/latin_250_1/fit.txt": "ad7be422f3b3d5dd5db12f7e19e12a67310d09f0889af275e6c50218143c8176",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_1_starts.txt": "882a2e97461d9c39504738dd47ea986e861303464d648cf198dcee1084803d46"
+    }
+  },
+  "seconds": 1.3450576670002192,
+  "result": {
+    "key": "bjvpymdltexoacsunrqfkighzw",
+    "evaluations": 977,
+    "final_start_scores": [
+      -665.0302614615443,
+      -887.3587496861601
+    ],
+    "fit": {
+      "score": -665.0302614615443,
+      "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+    }
+  }
+}

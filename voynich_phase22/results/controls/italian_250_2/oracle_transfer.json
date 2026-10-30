@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_2_oracle_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_2_oracle_transfer.txt": "78f9660fd2528f9ae57a2b09fd18f6d8dfc112d532d6fbfb507ddc14a6fae081"
+    }
+  },
+  "seconds": 0.10046500014141202,
+  "result": {
+    "corrected": {
+      "score": -941.6250254916358,
+      "segmentation": "lo mio temprando col dolce l acerbo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor qui l abbandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto libero fu da ogne altro disire fin che l piacere etterno che diretto raggiava in beatrice dal bel viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+    },
+    "baseline": {
+      "score": -941.6250254916358,
+      "segmentation": "lo mio temprando col dolce l acerbo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor qui l abbandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto libero fu da ogne altro disire fin che l piacere etterno che diretto raggiava in beatrice dal bel viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+    },
+    "added_positions": []
+  }
+}
