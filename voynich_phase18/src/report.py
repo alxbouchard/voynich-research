@@ -5,6 +5,7 @@ from pathlib import Path
 
 import matplotlib
 matplotlib.use('Agg')
+matplotlib.rcParams['svg.hashsalt'] = 'voynich-phase18'
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -77,7 +78,11 @@ def main():
         ax.grid(axis='x', alpha=.15)
     fig.suptitle('Clés de position : résultats et témoins mélangés\nPoint = Voynich ; barre grise = étendue des 19 témoins', fontsize=13)
     for extension in ['png', 'svg']:
-        fig.savefig(ROOT/'results'/f'position_comparison.{extension}', dpi=180)
+        path = ROOT/'results'/f'position_comparison.{extension}'
+        options = {'metadata': {'Date': None}} if extension == 'svg' else {}
+        fig.savefig(path, dpi=180, **options)
+        if extension == 'svg':
+            path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
     plt.close(fig)
     if candidates:
         conclusion = ('Le critère exploratoire de poursuite est atteint pour : **'+', '.join(candidates)+
