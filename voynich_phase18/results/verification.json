@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "fits_checked": 284,
+  "heldout_letter_predictions_checked": 6260056,
+  "null_split_invariants_checked": 76,
+  "max_retained_role_histogram_l1_after_short_span_filter": 212,
+  "null_filter_caveat": "Role counts are preserved before short spans are excluded. Shuffling can exchange a letter with an excluded short span, so retained-only counts can differ slightly.",
+  "real_results_checked": true,
+  "scope": "Rescore all saved fits without the optimizer or its encoder/scoring functions.\n\nInput/case preparation and frozen LMs are shared; decoding, position masks,\nquadgram scoring and accuracies are recomputed separately in this program.\nThis is an internal cross-check, not an independent scholarly replication.\n"
+}

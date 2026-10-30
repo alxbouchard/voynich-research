@@ -1,8 +1,12 @@
 # Pistes ouvertes et critères de progrès
 
-## Prochain test : clé selon la position
+## Résultat nouveau : clé selon la position
 
-La phase 10 changeait de table après un mot finissant par EVA `y`. La phase 18 proposée doit tester séparément une table pour l'initiale d'un mot et une table pour sa finale. Le [projet de protocole](../voynich_phase18/PROTOCOL_DRAFT.md) n'est pas encore exécuté.
+La phase 18 est [exécutée et vérifiée](../voynich_phase18/RAPPORT.md). Les deux familles retrouvent les contrôles connus. La clé distincte en finale, évaluée par le modèle de langue latin, est la seule combinaison qui remplit le critère exploratoire de poursuite : gain positif au-delà des 19 mélanges sur ZL/A et ZL/B, avec gains positifs sur IT/A et IT/B. Cela n'identifie pas le latin comme langue du manuscrit et n'établit aucune traduction.
+
+La prochaine étape utile est de vérifier si ce signal résiste à des **générateurs sans message plus structurés**, à des chiffres porteurs de sens et à de nouvelles partitions par cahier. Les mélanges devraient laisser les segments courts exclus fixes, afin de préserver exactement les distributions sur les caractères effectivement notés. Il faudra également mesurer la stabilité des clés. Aucun calcul de phase 19 n'est exécuté à ce stade.
+
+Le [brouillon initial](../voynich_phase18/PROTOCOL_DRAFT.md), le [protocole figé](../voynich_phase18/PROTOCOL.json), les sorties et les limites restent archivés. Les pistes sur l'initiale et le modèle italien n'atteignent pas ensemble ce critère sur les deux groupes ; ne pas les relancer uniquement jusqu'à obtenir un résultat favorable.
 
 ## Autres pistes non épuisées
 
