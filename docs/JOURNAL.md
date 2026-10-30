@@ -17,7 +17,8 @@ Ce journal est rétrospectif. Il ne constitue pas un préenregistrement externe.
 | Phase 16 | Identifier comme antérieur le rapprochement f116v/f104r ; ne pas revendiquer une découverte nouvelle. |
 | Phase 17 | Déclarer postérieurs aux premiers résultats les diagnostics de mélange et l'extension vers `maria`. Régénérer les PNG dérivés tronqués à partir des données natives valides et vérifier les pixels. |
 | Consolidation Git | Vérifier les archives sources ; récupérer la phase 5 dans la dépendance de phase 6 ; compresser sans perte les gros textes ; inventorier les fichiers binaires omis. |
-| Phase 18 | Définir une nouvelle piste de clés selon la position dans le mot. Aucun ajustement exécuté à ce stade. |
+| Phase 18, préparation | Définir une nouvelle piste de clés selon la position dans le mot. Le brouillon conservé décrit cet état antérieur à l'exécution. |
+| Phase 18, 30 octobre 2026 | Figer localement le protocole et le solveur avant calibration (`876da79`), exécuter 16 contrôles puis les comparaisons Voynich/mélanges, soit 284 ajustements. Aucun réglage changé après observation. Le critère exploratoire est atteint seulement pour finale/modèle latin ; aucun sens attribué. Le vérificateur ajouté ensuite relève que l'exclusion des segments courts peut légèrement modifier les fréquences retenues après mélange : limite conservée, à corriger dans une étude ultérieure. |
 
 ## Règle pour les prochaines contributions
 

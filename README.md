@@ -4,17 +4,17 @@
 
 **Documentation sur Google Drive : [ouvrir le dossier partagé](https://drive.google.com/drive/folders/1bHdug2Ng5kM1uNuCQiDq9LqFK9kDE2hm?usp=sharing).** Ce dossier a été fourni par Alex pour centraliser la documentation de recherche. Ses autorisations de partage sont gérées dans Google Drive.
 
-Ce dépôt réunit les 17 phases d'une étude exploratoire du manuscrit Voynich, Beinecke MS 408, menée avec l'assistance de ChatGPT/Codex. Il conserve les expériences réellement exécutées, leurs sources, les résultats négatifs, les corrections et les limites. Il ne constitue ni un article évalué par les pairs ni une expertise paléographique indépendante.
+Ce dépôt réunit les 18 phases d'une étude exploratoire du manuscrit Voynich, Beinecke MS 408, menée avec l'assistance de ChatGPT/Codex. Il conserve les expériences réellement exécutées, leurs sources, les résultats négatifs, les corrections et les limites. Il ne constitue ni un article évalué par les pairs ni une expertise paléographique indépendante.
 
 ## Commencer
 
-- [Bilan des 17 phases](docs/BILAN.md) : question, résultat et limite de chaque étape.
+- [Bilan des 18 phases](docs/BILAN.md) : question, résultat et limite de chaque étape.
 - [Index détaillé des phases](docs/PHASES.md) : rapports PDF, texte intégral, protocoles, code et résultats.
 - [Reproduire les calculs](docs/REPRODUCTION.md) : installation, restauration des fichiers compressés et dépendances externes.
 - [Sources et ressources](docs/SOURCES.md) : transcriptions, images Yale, imagerie multispectrale et travaux étudiés.
 - [Journal et corrections](docs/JOURNAL.md) : évolution des hypothèses et traçabilité de cette migration.
 - [Pistes ouvertes](docs/PISTES.md) : tests possibles et critères de réussite.
-- [Phase 18, projet de protocole](voynich_phase18/PROTOCOL_DRAFT.md) : clés selon la position dans les mots. **Non exécutée.**
+- [Phase 18, rapport et résultats](voynich_phase18/RAPPORT.md) : clés selon la position dans les mots, calibration et comparaison aux mélanges. [Protocole figé](voynich_phase18/PROTOCOL.json) ; [brouillon historique](voynich_phase18/PROTOCOL_DRAFT.md) conservé.
 
 ## Ce que nous avons établi
 
@@ -26,14 +26,14 @@ Les espaces incertains restent des variantes. Les rapprochements entre les marge
 
 Les dossiers historiques `voynich_20261028/` et `voynich_phase2/` à `voynich_phase17/` restent côte à côte pour préserver les chemins des scripts. Le dossier de phase 1 s'appelle `voynich_20261028` pour une raison historique. Chaque phase conserve ses propres conventions de filtrage, ses unités et ses critères ; les chiffres ne sont pas automatiquement comparables entre phases.
 
-Les gros fichiers textuels sont conservés sous forme gzip, sans perte, dans `artifacts/compressed/`. Leur chemin d'origine et leur SHA-256 figurent dans [l'inventaire](artifacts/file_index.json). Les images sources et les grandes matrices binaires sont référencées séparément. Les 17 rapports PDF et leur extraction textuelle sont inclus.
+Les gros fichiers textuels sont conservés sous forme gzip, sans perte, dans `artifacts/compressed/`. Leur chemin d'origine et leur SHA-256 figurent dans [l'inventaire](artifacts/file_index.json). Les images sources et les grandes matrices binaires sont référencées séparément. Les 17 rapports PDF et leur extraction textuelle sont inclus. La phase 18 ajoute un rapport Markdown, une figure et ses résultats structurés.
 
 ```bash
 python3 tools/verify_snapshot.py
 python3 tools/hydrate.py
 ```
 
-La première commande vérifie l'intégrité de cette édition. Elle ne réexécute pas les 17 expériences. Consulter ensuite les instructions de la phase concernée.
+La première commande vérifie l'intégrité de l'archive initiale des phases 1 à 17. Elle ne réexécute pas ces expériences et ne couvre pas les ajouts de phase 18. Pour ceux-ci, voir [la notice et le vérificateur](voynich_phase18/README.md). Consulter ensuite les instructions de la phase concernée.
 
 ## Lire les résultats correctement
 

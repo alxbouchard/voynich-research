@@ -22,6 +22,6 @@ Les rapports sont conservés intégralement. Les extractions texte facilitent la
 | 16 | [PDF](../voynich_phase16/output/Voynich_phase16_points_appui_historiques.pdf) | [Lire](phases/16_rapport_integral.txt) | [Notice](../voynich_phase16/README.txt) · [Dossier](../voynich_phase16/) · [Protocole](../voynich_phase16/PROTOCOL.json) · [Résultats](../voynich_phase16/results) |
 | 17 | [PDF](../voynich_phase17/output/Voynich_phase17_spectral_et_cryptanalyse.pdf) | [Lire](phases/17_rapport_integral.txt) | [Notice](../voynich_phase17/README.txt) · [Dossier](../voynich_phase17/) · [Protocole](../voynich_phase17/PROTOCOL.json) · [Résultats](../voynich_phase17/results) |
 
-Phase 18 : [projet de protocole non exécuté](../voynich_phase18/PROTOCOL_DRAFT.md).
+Phase 18 exécutée : [rapport Markdown et figure](../voynich_phase18/RAPPORT.md) · [notice](../voynich_phase18/README.md) · [protocole figé](../voynich_phase18/PROTOCOL.json) · [résultats](../voynich_phase18/results). Le [brouillon historique](../voynich_phase18/PROTOCOL_DRAFT.md) reste conservé. Aucun PDF de phase 18 n'est annoncé.
 
 Les fichiers `source_archive_phase` de l’inventaire indiquent la provenance exacte de chaque pièce. Les fichiers gzip sont restaurés avec `python3 tools/hydrate.py`.
