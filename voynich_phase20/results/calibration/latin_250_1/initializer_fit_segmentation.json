@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_1_initializer_fit.txt",
+      "exact"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_1_initializer_fit.txt": "dffa628ef8ffdccea2fe50966876b1f5a2a5bd02bce9a200690f92cd81c0f69b"
+    }
+  },
+  "seconds": 0.04763429192826152,
+  "result": {
+    "score": -1090.6648404394787,
+    "segmentation": "si v in cantu r h o die a populo romano servi re se dicunt ita est profecto multis fortuna par c i t in poenam r o m u l u s f r o n de a corona vi t hos tum hos t i l i u m quod fide nam primus in r u p is se t avus hic t ulli hos t i l ii regis fuit p de c i u m patre m tribunum militum f r o n de ad o navi t exercitus ab eo ser v at u s imperatore"
+  }
+}

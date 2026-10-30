@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian",
+      "greedy",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_250_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian_250_2_starts.txt",
+      "6"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_250_2/fit.txt": "561bc4fb1ae501b999cef80e20bf8981541aaf5d90620ba2bde9afb7092854cf",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian_250_2_starts.txt": "4b91ef5156f94a2285a59a3accf70ae840f093e98ea5615ae44d69dc459717f3"
+    }
+  },
+  "seconds": 0.12590624997392297,
+  "result": {
+    "key": "fcmphvoartxingwkzudjlyqsbe",
+    "evaluations": 1304,
+    "final_start_scores": [
+      -585.4570331101945,
+      -585.4570331101945,
+      -585.4570331101945,
+      -585.4570331101945
+    ],
+    "fit": {
+      "score": -585.4570331101945,
+      "segmentation": "la bellezza mia che per le scale del etterno palazzo piu s accende com hai veduto quanto piu si sale seno n si temp er asseta n t o splende che l tuo mortal podere al suo fu l g ore sarebbe fronda che tr o no scoscende noi se m levati al settimo splendore che sotto l petto del leone ardente raggia mo misto giu del suo"
+    }
+  }
+}

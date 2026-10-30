@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin",
+      "exact",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_500_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_500_1_starts.txt",
+      "6"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_500_1/fit.txt": "bf83ee17680b3fba868f2c4a429dcee88b1a21b56bec62bdbb9132ac5ccef59e",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_500_1_starts.txt": "9c4093c242f926c82d6ab3a3cccf01fb6afd0fd6b39371f8688e4d90cdd3c7bb"
+    }
+  },
+  "seconds": 0.4495612911414355,
+  "result": {
+    "key": "hdasqkwzemcvxgpitjrbofyuln",
+    "evaluations": 1304,
+    "final_start_scores": [
+      -2345.6192969920944,
+      -2345.6192969920944,
+      -2345.6192969920944,
+      -2345.6192969920944
+    ],
+    "fit": {
+      "score": -2345.6192969920926,
+      "segmentation": "apr i cis a qui l o n is situ ex o pacis h o r r id i o r vir usque prae fere n s f r i g id a hieme deteriora c minus c o p i os a et de c o l o r quidam arbitrantur in m o n t u os is copia praestant i o rem ac colore et d u l c i o rem fieri o d o re quoque g ratio rem dum res in a sit de c o c tam autem minus picis reddere quoniam in ser u m ab ea t te n u i o resque esse ipsa s arbores quam in p l an is sed has et illa s se re n ita te s ter i l i o res fructum quaedam proximo anno ab in cis u l a r g i u n t u r aliae secundo quaedam tertio expletur autem p l a g a res in a non cortice nec c i c at r i c e quae in hac a r b o re non c o i t inter haec genera pro p r iam quidam f e c e res ap p i num"
+    }
+  }
+}

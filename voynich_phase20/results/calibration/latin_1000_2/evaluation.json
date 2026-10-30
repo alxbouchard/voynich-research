@@ -1,0 +1,136 @@
+{
+  "case": "latin_1000_2",
+  "language": "latin",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.4508670520231214,
+    "transfer": 0.4827586206896552
+  },
+  "rows": {
+    "initializer": {
+      "key": "yoceulqargxjtkdnifphbsmvzw",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 1006,
+        "correct_letters": 1005,
+        "character_accuracy": 0.9990059642147118,
+        "boundary_precision": 0.3333333333333333,
+        "boundary_recall": 0.9186046511627907,
+        "boundary_f1": 0.4891640866873065,
+        "boundary_tp": 158,
+        "boundary_fp": 316,
+        "boundary_fn": 14,
+        "score": -5332.619921107358,
+        "segmentation": "et eorum alii p ut res c e n te s u c o ipsam a ter i e alii pari u n t u r sicut in arboribus ex eo qui c e r a s te s vocat u r cum tantum e r o sit ut circum agat se genera tali u m haec nasci pro hi b et in aliis a mari t u d o ut c u p res s o in aliis d uri t i aut b u x o tradunt et abietem c i r c a g e r m i nationes de c orti c a tam qua diximus luna a quis non c o r r u m p i a l ex an d r i magni comites prodi de r u n t in t w l o r u b r i maris insula arbores esse ex quibus naves fierent quas duce n t is annis durant e sin v e n t a se t si me r g e re n t uri n c o r r u p t a sin eadem esse f r uti c e m b ac u l is tantum idonea e crassi t u d in is v a r i u m t i g r i u m m ac u l is p o n de r o sum et cum in s p is si ora de c id at vi t r i modo f r agi l e m apud nos materia e f in d u n t u r ali quae sponte ob id a r c hi te c t i eas f imo in l ita s sic c a r i iubent ut ad f latus ne n o c e an t pondus sustinere v ali d a e ab i e s l a r ix et iam in t r aversum positae r ob u r o l ea in cur v an t u r c e d u n t que p o n de r i illis re nituntur nec te me r erumpunt u r priusque c a r i e quam viribus deficiunt et palmae a r b o r v ali d a in diversum enim cur v at u re t populus cetera omnia in inferior ap an dant u r palmae x contrario f o r n i c at i m p in u se t c u p res s u s adversus c a r i e m t in i a s que firmissima e facile p an dat uri u g l an s fiunt enim et ex ea trabes f r an g is e prae n u n t i at"
+      },
+      "transfer": {
+        "letters": 508,
+        "correct_letters": 508,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.32793522267206476,
+        "boundary_recall": 0.9418604651162791,
+        "boundary_f1": 0.4864864864864865,
+        "boundary_tp": 81,
+        "boundary_fp": 166,
+        "boundary_fn": 5,
+        "score": -2751.262740262818,
+        "segmentation": "aut alio genere operi u n t u r s tam in eam in hoc usu probant v e nam et vocant f e r u l ac eam a r g u me n t o simili t u d in is quoniam lacu nos a et c r is p a in omni genere g l uti num ab dicant quaedam et inter se et cum aliis in s o c i ab i l i a g l ut in o sicut r ob u r nec fere c o hae re n t nisi si milia natura ut si quis l ap idem l i g num que c o n i u n g at cornu m maxime o di t s o r b u s c a r p in u s b u x u s postea t i l i a cui cum que operi facilia f l e xi l i a omnia quae l e n t a diximus praeter quem o r u se t c apr i f i c u s fora b i l i a ac se c t i l i aquae modi c eum id a a r id a enim latius quam ter a s c e d u n t viri di a praeter r ob u re t b u x u m pertinacius res is t u n t ser r a r u m que"
+      },
+      "fit_observed_key_accuracy": 0.9545454545454546
+    },
+    "greedy": {
+      "key": "woceulqargxjtkdnifphbsmvzy",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 1006,
+        "correct_letters": 1006,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3326271186440678,
+        "boundary_recall": 0.9127906976744186,
+        "boundary_f1": 0.48757763975155277,
+        "boundary_tp": 157,
+        "boundary_fp": 315,
+        "boundary_fn": 15,
+        "score": -5395.820592330496,
+        "segmentation": "et eorum alii p u tres c e n te s u c o ipsam a ter i e alii pari u n t u r sicuti n arboribus ex eo qui c e r a s te s vocat u r cum tantum e r o situ t circum agat se genera tali u m haec nasci pro hi b et in aliis a mari t u d o ut c u p res s o in aliis d uri t i aut b u x o tradunt et abietem c i r c a g e r m i nationes de c orti c a tam qua diximus luna a quis non c o r r u m p i a l ex an d r i magni comites prodi de r u n t in t y l o r u b r i maris insula arbores esse ex quibus naves fierent quas duce n t is annis durant e sin v e n t a s etsi me r g e re n t uri n c o r r u p t a sin eadem esse f r uti c e m b ac u l is tantum idonea e crassi t u di n is v a r i u m t i g r i u m m ac u l is p o n de r o sum et cum in s p is si ora de c i dat vi t r i modo f r agi l e m apud nos materia e f in d u n t u r aliqua e sponte ob id a r c hi te c t i eas f imo in l ita s sic c a r i iubent ut ad f latus ne n o c ea n t pondus sustinere v ali d a ea b i e s l a r ix etiam in t r aversum positae r ob u r o l ea in cur v an t u r c e d u n t que p o n de r i illis re nituntur nec te me r erumpunt u r priusque c a r i e quam viribus deficiunt et palmae a r b o r v ali d a in diversum enim cur v at u re t populus cetera omnia in inferior ap an dant u r palmae x contrario f o r n i c at i m p in u se t c u p res s u s adversus c a r i e m t in i a s que firmissima e facile p an datur i u g l an s fiunt enim et ex ea trabes f r an g is e prae n u n t i at"
+      },
+      "transfer": {
+        "letters": 508,
+        "correct_letters": 508,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.321285140562249,
+        "boundary_recall": 0.9302325581395349,
+        "boundary_f1": 0.47761194029850745,
+        "boundary_tp": 80,
+        "boundary_fp": 169,
+        "boundary_fn": 6,
+        "score": -2813.597949228412,
+        "segmentation": "a u tali o genere operi u n t u r s tam in eam in hoc usu probant v e nam et vocant f e r u l ac eam a r g u me n t o simili t u di n is quoniam lacu nos a et c r is p a in omni genere g l uti num ab dicant quaedam et inter se et cum aliis in s o c i ab i l i a g l uti n o sicut r ob u r nec fere c o h aere n t nisi simili a natura ut si quis l ap idem l i g num que c o n i u n g at cornu m maxime o di t s o r b u s c a r p in u s b u x u s postea t i l i a cui cum que operi facilia f l ex i l i a omnia quae l e n t a diximus praeter quem o r u se t c apr i f i c u s fora b i l i a ac se c t i l i aquae modi c eum id a a r id a enim latius quam ter a s c e d u n t viri di a praeter r ob u re t b u x u m pertinacius res is t u n t ser r a r u m que"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "woceulqargxjtkdnifphbsmvzy",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 1006,
+        "correct_letters": 1006,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3333333333333333,
+        "boundary_recall": 0.9186046511627907,
+        "boundary_f1": 0.4891640866873065,
+        "boundary_tp": 158,
+        "boundary_fp": 316,
+        "boundary_fn": 14,
+        "score": -5332.406787113507,
+        "segmentation": "et eorum alii p ut res c e n te s u c o ipsam a ter i e alii pari u n t u r sicut in arboribus ex eo qui c e r a s te s vocat u r cum tantum e r o sit ut circum agat se genera tali u m haec nasci pro hi b et in aliis a mari t u d o ut c u p res s o in aliis d uri t i aut b u x o tradunt et abietem c i r c a g e r m i nationes de c orti c a tam qua diximus luna a quis non c o r r u m p i a l ex an d r i magni comites prodi de r u n t in t y l o r u b r i maris insula arbores esse ex quibus naves fierent quas duce n t is annis durant e sin v e n t a se t si me r g e re n t uri n c o r r u p t a sin eadem esse f r uti c e m b ac u l is tantum idonea e crassi t u d in is v a r i u m t i g r i u m m ac u l is p o n de r o sum et cum in s p is si ora de c id at vi t r i modo f r agi l e m apud nos materia e f in d u n t u r ali quae sponte ob id a r c hi te c t i eas f imo in l ita s sic c a r i iubent ut ad f latus ne n o c e an t pondus sustinere v ali d a e ab i e s l a r ix et iam in t r aversum positae r ob u r o l ea in cur v an t u r c e d u n t que p o n de r i illis re nituntur nec te me r erumpunt u r priusque c a r i e quam viribus deficiunt et palmae a r b o r v ali d a in diversum enim cur v at u re t populus cetera omnia in inferior ap an dant u r palmae x contrario f o r n i c at i m p in u se t c u p res s u s adversus c a r i e m t in i a s que firmissima e facile p an dat uri u g l an s fiunt enim et ex ea trabes f r an g is e prae n u n t i at"
+      },
+      "transfer": {
+        "letters": 508,
+        "correct_letters": 508,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.32793522267206476,
+        "boundary_recall": 0.9418604651162791,
+        "boundary_f1": 0.4864864864864865,
+        "boundary_tp": 81,
+        "boundary_fp": 166,
+        "boundary_fn": 5,
+        "score": -2751.262740262818,
+        "segmentation": "aut alio genere operi u n t u r s tam in eam in hoc usu probant v e nam et vocant f e r u l ac eam a r g u me n t o simili t u d in is quoniam lacu nos a et c r is p a in omni genere g l uti num ab dicant quaedam et inter se et cum aliis in s o c i ab i l i a g l ut in o sicut r ob u r nec fere c o hae re n t nisi si milia natura ut si quis l ap idem l i g num que c o n i u n g at cornu m maxime o di t s o r b u s c a r p in u s b u x u s postea t i l i a cui cum que operi facilia f l e xi l i a omnia quae l e n t a diximus praeter quem o r u se t c apr i f i c u s fora b i l i a ac se c t i l i aquae modi c eum id a a r id a enim latius quam ter a s c e d u n t viri di a praeter r ob u re t b u x u m pertinacius res is t u n t ser r a r u m que"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "zoceulqargxktwdnifphbsmvjy",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 1006,
+        "correct_letters": 1006,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3333333333333333,
+        "boundary_recall": 0.9186046511627907,
+        "boundary_f1": 0.4891640866873065,
+        "boundary_tp": 158,
+        "boundary_fp": 316,
+        "boundary_fn": 14,
+        "score": -5332.406787113507,
+        "segmentation": "et eorum alii p ut res c e n te s u c o ipsam a ter i e alii pari u n t u r sicut in arboribus ex eo qui c e r a s te s vocat u r cum tantum e r o sit ut circum agat se genera tali u m haec nasci pro hi b et in aliis a mari t u d o ut c u p res s o in aliis d uri t i aut b u x o tradunt et abietem c i r c a g e r m i nationes de c orti c a tam qua diximus luna a quis non c o r r u m p i a l ex an d r i magni comites prodi de r u n t in t y l o r u b r i maris insula arbores esse ex quibus naves fierent quas duce n t is annis durant e sin v e n t a se t si me r g e re n t uri n c o r r u p t a sin eadem esse f r uti c e m b ac u l is tantum idonea e crassi t u d in is v a r i u m t i g r i u m m ac u l is p o n de r o sum et cum in s p is si ora de c id at vi t r i modo f r agi l e m apud nos materia e f in d u n t u r ali quae sponte ob id a r c hi te c t i eas f imo in l ita s sic c a r i iubent ut ad f latus ne n o c e an t pondus sustinere v ali d a e ab i e s l a r ix et iam in t r aversum positae r ob u r o l ea in cur v an t u r c e d u n t que p o n de r i illis re nituntur nec te me r erumpunt u r priusque c a r i e quam viribus deficiunt et palmae a r b o r v ali d a in diversum enim cur v at u re t populus cetera omnia in inferior ap an dant u r palmae x contrario f o r n i c at i m p in u se t c u p res s u s adversus c a r i e m t in i a s que firmissima e facile p an dat uri u g l an s fiunt enim et ex ea trabes f r an g is e prae n u n t i at"
+      },
+      "transfer": {
+        "letters": 508,
+        "correct_letters": 508,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.32793522267206476,
+        "boundary_recall": 0.9418604651162791,
+        "boundary_f1": 0.4864864864864865,
+        "boundary_tp": 81,
+        "boundary_fp": 166,
+        "boundary_fn": 5,
+        "score": -2751.262740262818,
+        "segmentation": "aut alio genere operi u n t u r s tam in eam in hoc usu probant v e nam et vocant f e r u l ac eam a r g u me n t o simili t u d in is quoniam lacu nos a et c r is p a in omni genere g l uti num ab dicant quaedam et inter se et cum aliis in s o c i ab i l i a g l ut in o sicut r ob u r nec fere c o hae re n t nisi si milia natura ut si quis l ap idem l i g num que c o n i u n g at cornu m maxime o di t s o r b u s c a r p in u s b u x u s postea t i l i a cui cum que operi facilia f l e xi l i a omnia quae l e n t a diximus praeter quem o r u se t c apr i f i c u s fora b i l i a ac se c t i l i aquae modi c eum id a a r id a enim latius quam ter a s c e d u n t viri di a praeter r ob u re t b u x u m pertinacius res is t u n t ser r a r u m que"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

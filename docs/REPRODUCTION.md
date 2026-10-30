@@ -67,7 +67,28 @@ python3 voynich_phase19/src/verify.py
 
 La commande `run` réutilise uniquement des résultats dont les empreintes correspondent. Pour refaire tous les ajustements, déplacer d'abord `voynich_phase19/results/` dans une copie du dépôt. Le vérificateur reconstruit les six corpus générés et les scores avec un code distinct, sans relancer l'optimisation. L'échantillon Timm–Schinner est réanalysé depuis l'archive ; son générateur d'origine n'est pas réexécuté. Voir [la notice](../voynich_phase19/README.md).
 
-## 6. Images, modèles et ressources externes
+## 6. Phase 20
+
+Les douze contrôles utilisent les corpus de phase 10 déjà archivés, Python,
+NumPy et un compilateur C++17. Le diagnostic anglais préparatoire utilise
+d'autres ressources ; il n'est pas nécessaire de télécharger les modèles
+NYT pour refaire la calibration latine/italienne.
+
+```sh
+python3 tools/hydrate.py
+python3 voynich_phase20/src/calibration.py prepare
+python3 voynich_phase20/src/calibration.py fit
+python3 voynich_phase20/src/calibration.py evaluate
+python3 voynich_phase20/src/verify_calibration.py
+```
+
+Pour réexécuter les ajustements, déplacer préalablement `results/calibration/`
+dans une copie du dépôt. Les paramètres et empreintes du moteur sont figés ;
+un changement requiert un nouveau protocole. Voir [le détail](../voynich_phase20/CALIBRATION.md).
+Un seul des douze contrôles passe les seuils ; aucune étape de ces commandes
+ne lance d'ajustement sur le manuscrit.
+
+## 7. Images, modèles et ressources externes
 
 Les sources photographiques Yale, les TIFF multispectraux et certaines matrices binaires ne sont pas inclus dans Git. Leur inventaire est dans `artifacts/omitted_binary_assets.json`. Les sources officielles sont décrites dans `docs/SOURCES.md` et les manifestes d'origine. Certaines petites figures dérivées sont également omises ; elles peuvent être régénérées lorsque les données sources correspondantes sont présentes.
 
@@ -75,7 +96,7 @@ Les archives de reproduction complètes déjà produites restent les ensembles l
 
 Pour la phase 17, la cryptanalyse utilise les deux fichiers IVTFF inclus. L'analyse spectrale requiert en plus `data/f116v_native_roi_22bands.npz`, ou les captures brutes référencées. Ne pas annoncer une reproduction spectrale si seule la cryptanalyse a été exécutée.
 
-## 7. Portée de la validation de cette migration
+## 8. Portée de la validation de cette migration
 
 La migration vérifie les archives ZIP utilisées, les octets des fichiers sélectionnés, les rapports PDF et les chemins de documentation. Elle ne réexécute pas les 17 séries de calculs. Les comptes rendus de vérification historique sont archivés dans chaque dossier `results/`.
 

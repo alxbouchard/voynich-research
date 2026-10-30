@@ -1,15 +1,225 @@
 {
-  "scope": "Prepared after the development diagnostic; integrity inventory, not a preregistration. Excludes local models, temporary files and caches.",
+  "scope": "Post-experiment integrity inventory, not a preregistration. Excludes local models, temporary files and caches.",
   "files": [
     {
+      "path": "CALIBRATION.md",
+      "bytes": 7583,
+      "sha256": "77752dabcf877e9dfb015cbeae2dc22f10445b7004051f643701d150f12025a9"
+    },
+    {
+      "path": "CALIBRATION_PROTOCOL.json",
+      "bytes": 2137,
+      "sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236"
+    },
+    {
+      "path": "RAPPORT.md",
+      "bytes": 7357,
+      "sha256": "f16107a869d6eff1b6c0f82b7c5f4fe25699522f8854e550c1f0a81102e5b0c1"
+    },
+    {
       "path": "README.md",
-      "bytes": 7503,
-      "sha256": "3b780c1fc3d66217587c12ebbbbcc2281e7e9b4ec3791bb08b9aab876523fdf9"
+      "bytes": 8362,
+      "sha256": "ec0e1d1a8a6971b70f61e25cb76a332bb928e604ed29b74d184367c19e1bae72"
     },
     {
       "path": "data/authors_model_sources.json",
       "bytes": 2234,
       "sha256": "d27b482b644a8c454c0d049ed1aba4b25f57bd8c820a2a3d73849bba3cb5e030"
+    },
+    {
+      "path": "data/calibration/cases.json",
+      "bytes": 4887,
+      "sha256": "950f3e0f7b4e732d8efb92687d6d0bdb95aa9ff9543bf787627308ad4aa34f48"
+    },
+    {
+      "path": "data/calibration/environment.json",
+      "bytes": 517,
+      "sha256": "4d3789d3c2fbead57fb23c68c826d0e54a8c9a350ba7915e3cfd95e456ab4cb5"
+    },
+    {
+      "path": "data/calibration/italian_1000_1/fit.txt",
+      "bytes": 1002,
+      "sha256": "be2df6f4db67652e1762fbbf7e6f2e105a577587be8541f2d05e3e68568308c2"
+    },
+    {
+      "path": "data/calibration/italian_1000_1/transfer.txt",
+      "bytes": 502,
+      "sha256": "4fd52fe7db9f4c2e682a5adbaf8dda9b931574984504e61ac1734501eeff0f25"
+    },
+    {
+      "path": "data/calibration/italian_1000_1/truth.json",
+      "bytes": 2213,
+      "sha256": "5121cfe0d327c428bc95707209188ceb2fb2098ad8877984c98d9f974ab020c0"
+    },
+    {
+      "path": "data/calibration/italian_1000_2/fit.txt",
+      "bytes": 1001,
+      "sha256": "18c11f3ed947c4cb9f7d19e03186d8e90796f1426e674aaa2a82fe645e5f8308"
+    },
+    {
+      "path": "data/calibration/italian_1000_2/transfer.txt",
+      "bytes": 504,
+      "sha256": "204d42140d9c95c670b8e7eec6622e5dba3c209c5874380e08b29a3cadd52a55"
+    },
+    {
+      "path": "data/calibration/italian_1000_2/truth.json",
+      "bytes": 2178,
+      "sha256": "7a8b8ba2f73415b9091a4fcffb84c0cf180efe5495466f04966c58c0315c732d"
+    },
+    {
+      "path": "data/calibration/italian_250_1/fit.txt",
+      "bytes": 251,
+      "sha256": "90fbf3be4164469a79afeab00763cd0b3dc85fe2062e0f0515dcf1d409537875"
+    },
+    {
+      "path": "data/calibration/italian_250_1/transfer.txt",
+      "bytes": 501,
+      "sha256": "0e9a9256189040d38357c8868ff38efd5b552bc2d98d884668c716e1699e52b9"
+    },
+    {
+      "path": "data/calibration/italian_250_1/truth.json",
+      "bytes": 1252,
+      "sha256": "9f0662273fca00d9bf081cc170dd96a24b69321a70e754ad2a07d04020f9670b"
+    },
+    {
+      "path": "data/calibration/italian_250_2/fit.txt",
+      "bytes": 253,
+      "sha256": "561bc4fb1ae501b999cef80e20bf8981541aaf5d90620ba2bde9afb7092854cf"
+    },
+    {
+      "path": "data/calibration/italian_250_2/transfer.txt",
+      "bytes": 503,
+      "sha256": "4356e66127d585c560891c23b8eacf7f0759915fe52de14652f29b3deaff6692"
+    },
+    {
+      "path": "data/calibration/italian_250_2/truth.json",
+      "bytes": 1253,
+      "sha256": "ffeac0fece91336a9efea9eae02843f4bb6245b7af5ea4a7b1c5b47f3acbd743"
+    },
+    {
+      "path": "data/calibration/italian_500_1/fit.txt",
+      "bytes": 504,
+      "sha256": "30306dd4c8b2d96ecd7892cd4485621fddd558277b2b64622e0eea528dbdbadb"
+    },
+    {
+      "path": "data/calibration/italian_500_1/transfer.txt",
+      "bytes": 501,
+      "sha256": "4e8dcef336e7393cf885344c7744ec04f3b8831381c030be9280a406de236e8d"
+    },
+    {
+      "path": "data/calibration/italian_500_1/truth.json",
+      "bytes": 1583,
+      "sha256": "ffcfbe80853aea2b52537641fe9ab29d11db5cd105a2d28fd4ccb44b40be3a81"
+    },
+    {
+      "path": "data/calibration/italian_500_2/fit.txt",
+      "bytes": 504,
+      "sha256": "95aceed01149453c7dadb2bee82e3c90e7b97e0030522c56d3e542c3aca7c883"
+    },
+    {
+      "path": "data/calibration/italian_500_2/transfer.txt",
+      "bytes": 502,
+      "sha256": "3b692e7bb59a789f937398b10c66bbf52c2f8767baacf056412c19e49cf96f2a"
+    },
+    {
+      "path": "data/calibration/italian_500_2/truth.json",
+      "bytes": 1583,
+      "sha256": "31f8f4345c58b8e14d84be0c8728214ccc90f809b513a1fdf262d9beebfa7e04"
+    },
+    {
+      "path": "data/calibration/latin_1000_1/fit.txt",
+      "bytes": 1002,
+      "sha256": "8e562183079f0047b1b6baface441aed4debcf5e37adc177f122567430ec42b8"
+    },
+    {
+      "path": "data/calibration/latin_1000_1/transfer.txt",
+      "bytes": 502,
+      "sha256": "fc0ad9040a114e04d0e272ca9060f4604feaf9bc5ba20edece35cad5db7efa0f"
+    },
+    {
+      "path": "data/calibration/latin_1000_1/truth.json",
+      "bytes": 2079,
+      "sha256": "cde0ccb7d02a6cf5868381da543385407c92085616a3f28be79c9490d0f06506"
+    },
+    {
+      "path": "data/calibration/latin_1000_2/fit.txt",
+      "bytes": 1007,
+      "sha256": "84fe97cc5d46ec180a31c3f89b20902e87d6f7ed5f2c888fac8bf18f6305e029"
+    },
+    {
+      "path": "data/calibration/latin_1000_2/transfer.txt",
+      "bytes": 509,
+      "sha256": "2bfdb886266376a66e4d26aa525d54e46510b6872328100acf3f37794549470c"
+    },
+    {
+      "path": "data/calibration/latin_1000_2/truth.json",
+      "bytes": 2089,
+      "sha256": "59089d7626255a03a00934d6c0a649db1f207e92d3ca312991d42c0927ece154"
+    },
+    {
+      "path": "data/calibration/latin_250_1/fit.txt",
+      "bytes": 253,
+      "sha256": "92986d03207bf06486381d4a8b8ae34d0b494f9078a8f2fd54dc038733ca455d"
+    },
+    {
+      "path": "data/calibration/latin_250_1/transfer.txt",
+      "bytes": 504,
+      "sha256": "3fd2a05ff2f0325f64e60dd177854e53a554d5c325b9db263a02e2e8cf8233b7"
+    },
+    {
+      "path": "data/calibration/latin_250_1/truth.json",
+      "bytes": 1204,
+      "sha256": "e2a780ba79a6c355e0bac9c94a8d387b6fc196283ee0d32fa495ca7d66804c1d"
+    },
+    {
+      "path": "data/calibration/latin_250_2/fit.txt",
+      "bytes": 251,
+      "sha256": "ef252b2fc14029a8ababcd7b864e6a3fdd75dfdb07a1d38bb7d978a6a17bde45"
+    },
+    {
+      "path": "data/calibration/latin_250_2/transfer.txt",
+      "bytes": 507,
+      "sha256": "c28c18bdd93531d63d0dc194a099f36ab60eb7c0b3a3f8ba268fd6358479529c"
+    },
+    {
+      "path": "data/calibration/latin_250_2/truth.json",
+      "bytes": 1201,
+      "sha256": "bb97a40aba685a98229c0b371fd7a8887168fc0ab459907e42665686527364f2"
+    },
+    {
+      "path": "data/calibration/latin_500_1/fit.txt",
+      "bytes": 504,
+      "sha256": "bf83ee17680b3fba868f2c4a429dcee88b1a21b56bec62bdbb9132ac5ccef59e"
+    },
+    {
+      "path": "data/calibration/latin_500_1/transfer.txt",
+      "bytes": 504,
+      "sha256": "6eb6fdf6d07476d988c0075877a1e9b771637131c98ec22b361afe45ac4dd45b"
+    },
+    {
+      "path": "data/calibration/latin_500_1/truth.json",
+      "bytes": 1492,
+      "sha256": "d67a597381b372429be1a46e9a11540e24fedb0adf1cc6933644c1c424ce212f"
+    },
+    {
+      "path": "data/calibration/latin_500_2/fit.txt",
+      "bytes": 503,
+      "sha256": "1e57790e0c7b4c3bcdd0526ad325758df56cffaab8428ade01ac3887ff2a9407"
+    },
+    {
+      "path": "data/calibration/latin_500_2/transfer.txt",
+      "bytes": 501,
+      "sha256": "43c89ed8e50d6b4e46a8852faa82cb2207f63524edb5958b6fe11254aadc5b31"
+    },
+    {
+      "path": "data/calibration/latin_500_2/truth.json",
+      "bytes": 1488,
+      "sha256": "de0f2f33c8a20c4759462dc4b1841d446fec9c3e54730d99ba90562431121006"
+    },
+    {
+      "path": "data/calibration/models.json",
+      "bytes": 1772,
+      "sha256": "68085d61919960a1153d74f41db63043b88fd156436e3d2b9f4c21ab82078229"
     },
     {
       "path": "data/vendor_sources.json",
@@ -62,6 +272,761 @@
       "sha256": "d54d491a5f8c0ba297e7f2558bdb4f8f995a2cbe7759434b78b3151b5dd33c2b"
     },
     {
+      "path": "results/calibration/aggregate.json",
+      "bytes": 3913,
+      "sha256": "7c4247c4dc3d06ea38d70aa67e4893c0486509f5e22d926a8d2874a56b032185"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/evaluation.json",
+      "bytes": 11909,
+      "sha256": "cea6d0d4bf6e7c95b41614592eee1cdd040bade17847d5ea13c874aae071510d"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/exact.json",
+      "bytes": 2687,
+      "sha256": "bcaab7a03301a44c439f202acc42797b31dddfdc66db60d671628eab83bb857b"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/exact_fit_segmentation.json",
+      "bytes": 2194,
+      "sha256": "fa29f74fac1c07935942e865ec8e05a47dc4e950eb1da105c1b8adbf54c8ef53"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/exact_transfer_segmentation.json",
+      "bytes": 1539,
+      "sha256": "5a213e3f79a08a142cc7f75a0f183e11cfec7561215069bdd64d2507a8bbab5a"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/greedy.json",
+      "bytes": 2679,
+      "sha256": "af18bd807e42db48bfa832bd88332faf44e051b903966a7b545cfd123725ef02"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/greedy_fit_segmentation.json",
+      "bytes": 2187,
+      "sha256": "656c23de75f53e0e3617916e6e92bf1a9bdbd8b4f16670e302b82241ea4ab56e"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/greedy_transfer_segmentation.json",
+      "bytes": 1538,
+      "sha256": "71231f2a81bb7d6c78afe3e5e1545366f0982fc21c68e559d7f331c75a397321"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/initializer.json",
+      "bytes": 2422,
+      "sha256": "cfaefbaab2d660ee9f1d73a64ddc266d9bdfe799b7ccea609e9fabb9d9e2799c"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/initializer_fit_segmentation.json",
+      "bytes": 2206,
+      "sha256": "8ed4b50a9eac500eae401774d48224c0c949bb8f2f27d514922fbb4f2e6132cb"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/initializer_transfer_segmentation.json",
+      "bytes": 1551,
+      "sha256": "0028d86ddf72dafb8dbe8d9ccc593b85aa317498f6567ad38f15241ed3d6d66c"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 2228,
+      "sha256": "ab56fefab2145c6a83aaa2489d1230263ab4a474012709e0eb9e7869bd7a3924"
+    },
+    {
+      "path": "results/calibration/italian_1000_1/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1573,
+      "sha256": "5e040029e97c6badd863fd075c3ecb26c4861fc269e3da4d4d5b8a696f507a27"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/evaluation.json",
+      "bytes": 11857,
+      "sha256": "662fb6bfba0ef2ba2f0d41faab15b4aa676cbc598e93d3e9d1cd6a4e13faf171"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/exact.json",
+      "bytes": 2678,
+      "sha256": "6400258828178a4e6ebe65bcba531d76c0d2771eabcea06461cce560c5d3b757"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/exact_fit_segmentation.json",
+      "bytes": 2184,
+      "sha256": "46ab6ee5a6233f31646e52db37c0a3e89589f5bc87dff4059aabcf22f88951e3"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/exact_transfer_segmentation.json",
+      "bytes": 1528,
+      "sha256": "460cdf5a75fb7a53170b68bef7fc54702018f656b4a0a4eb079ba95ef7bd5f49"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/greedy.json",
+      "bytes": 2677,
+      "sha256": "1e04c956589149cd6aacac029893991740b23f64627d69c165665678b3e0c067"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/greedy_fit_segmentation.json",
+      "bytes": 2186,
+      "sha256": "fd8fc4938f8fbc5c23cd30b6f9278aa2700b0f256add25bfdc02ae413035caaa"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/greedy_transfer_segmentation.json",
+      "bytes": 1529,
+      "sha256": "997f1add9e02baca4041cc4edafa3050267e0f6608d610a76585f0ff0bc47e64"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/initializer.json",
+      "bytes": 2423,
+      "sha256": "1fa3bd6b121490825d974845ce8a1fddd2e676270d3c19df6447c5efb0baa397"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/initializer_fit_segmentation.json",
+      "bytes": 2196,
+      "sha256": "82f13a05893419cbe00509cd88b581a00b695555d37b02cf32b4991410a869d3"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/initializer_transfer_segmentation.json",
+      "bytes": 1540,
+      "sha256": "5b5e82bf63cc9ea34a78ab49d259bf6463fd65efe14d74c6f57b9174e208d29a"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 2218,
+      "sha256": "c9bda6580ead10edbe1c184e22366d102ad711152f465b6cb83b6ab11bcfd5cd"
+    },
+    {
+      "path": "results/calibration/italian_1000_2/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1562,
+      "sha256": "318b04c4bf17f23cb8821546deba0779fda85cfa951e19409d6f7d59bd6f523d"
+    },
+    {
+      "path": "results/calibration/italian_250_1/evaluation.json",
+      "bytes": 7971,
+      "sha256": "4283ed83fd3853ff8870af1cd66b48f0ada63a5d62367d302a90e219023c1723"
+    },
+    {
+      "path": "results/calibration/italian_250_1/exact.json",
+      "bytes": 1686,
+      "sha256": "8bcb8c764e6bcd263710ae813ba1b854ce8fce9850e0fa36544191b64bb752b6"
+    },
+    {
+      "path": "results/calibration/italian_250_1/exact_fit_segmentation.json",
+      "bytes": 1198,
+      "sha256": "59410fec5a800ccf5e490511b0a0e7c2376eac1f5171da6ca6370383e1ac3ccd"
+    },
+    {
+      "path": "results/calibration/italian_250_1/exact_transfer_segmentation.json",
+      "bytes": 1554,
+      "sha256": "f2dbbdf042ce008c6059028c403ad289ae1b4265784855854bda5d3fd37fc38b"
+    },
+    {
+      "path": "results/calibration/italian_250_1/greedy.json",
+      "bytes": 1684,
+      "sha256": "82bf31329f1c73887f734d9b27b0c520ae28a0e55358a0aaf68003728dd58f63"
+    },
+    {
+      "path": "results/calibration/italian_250_1/greedy_fit_segmentation.json",
+      "bytes": 1197,
+      "sha256": "16da4a7fbf0e29ac88ca4b340f75a1cc42a14812397471220c35009a9f8e086d"
+    },
+    {
+      "path": "results/calibration/italian_250_1/greedy_transfer_segmentation.json",
+      "bytes": 1554,
+      "sha256": "b919c4bafcfe58a0462893c3d6af1222fd33348b8f08f03dd1a985ec7dd0610d"
+    },
+    {
+      "path": "results/calibration/italian_250_1/initializer.json",
+      "bytes": 2434,
+      "sha256": "732346e4c797996293231e06083e0327dca46c9ce5ad93090b1fd5e3c037ce58"
+    },
+    {
+      "path": "results/calibration/italian_250_1/initializer_fit_segmentation.json",
+      "bytes": 1207,
+      "sha256": "59796267c9d674df518f974b7ddf62eb5d85aac3c917fdd53ffdc941b3f9cd88"
+    },
+    {
+      "path": "results/calibration/italian_250_1/initializer_transfer_segmentation.json",
+      "bytes": 1566,
+      "sha256": "90571fb0e7c03c9439965c152e1135e894083f9269538e76f16bec8b7e3c7389"
+    },
+    {
+      "path": "results/calibration/italian_250_1/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1233,
+      "sha256": "c3b756af962919886e28f1f0aded925fe0dfe938ced32b397fe24207e0d341b5"
+    },
+    {
+      "path": "results/calibration/italian_250_1/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1559,
+      "sha256": "0d325dff28a7e0da075be54c406cd6ddafc601a29779afaafd76d5e53b4148d7"
+    },
+    {
+      "path": "results/calibration/italian_250_2/evaluation.json",
+      "bytes": 7767,
+      "sha256": "67b6b770dd4569f2ac53cfbefdf76b308fcfb3ae32657de60b6a35618a9396ac"
+    },
+    {
+      "path": "results/calibration/italian_250_2/exact.json",
+      "bytes": 1676,
+      "sha256": "757b12f5ce34214c1ac28795c0d068f1d54494b9e0b5d90bdf206b99f6a3cd06"
+    },
+    {
+      "path": "results/calibration/italian_250_2/exact_fit_segmentation.json",
+      "bytes": 1187,
+      "sha256": "cca1c3674304d29012a5d3ce0e8dfa3b083e3893b69991d47b55656ce6dd1370"
+    },
+    {
+      "path": "results/calibration/italian_250_2/exact_transfer_segmentation.json",
+      "bytes": 1511,
+      "sha256": "1e3d8e86ddce047959e2699d40c1ff5e3557b123a0a5e1c9ffac8271ab03c557"
+    },
+    {
+      "path": "results/calibration/italian_250_2/greedy.json",
+      "bytes": 1677,
+      "sha256": "630243018b253ca7afaae1e5029809489ed6d20e443c3a2abdd83f33eaf64229"
+    },
+    {
+      "path": "results/calibration/italian_250_2/greedy_fit_segmentation.json",
+      "bytes": 1190,
+      "sha256": "039f3abc1a120ff81e7226b0f0d6eceea9ac7910807b192eacd73d29d7f11935"
+    },
+    {
+      "path": "results/calibration/italian_250_2/greedy_transfer_segmentation.json",
+      "bytes": 1521,
+      "sha256": "e97de3c6d5c58ac185c5e33840a29d17cb801e07c4d68257bfa288534f77a05a"
+    },
+    {
+      "path": "results/calibration/italian_250_2/initializer.json",
+      "bytes": 2435,
+      "sha256": "b074520a057394993fafc16a05d10a85f6cd90a36c86faebac49fd2a7fb503b1"
+    },
+    {
+      "path": "results/calibration/italian_250_2/initializer_fit_segmentation.json",
+      "bytes": 1199,
+      "sha256": "698b77af1075a67c9478015d92180a0685bb2d4e4ad2e5fde1272c5011167cd8"
+    },
+    {
+      "path": "results/calibration/italian_250_2/initializer_transfer_segmentation.json",
+      "bytes": 1523,
+      "sha256": "2036adc81c2adb18d7f2f4f7cbba0b5c33a232689c4789f9b4559bb1af5163d3"
+    },
+    {
+      "path": "results/calibration/italian_250_2/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1222,
+      "sha256": "c559b3e5ded4373e94b0791fe7c2972747b7a55f8e1587773631689fbab2180c"
+    },
+    {
+      "path": "results/calibration/italian_250_2/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1546,
+      "sha256": "cc9931f371913c99bdb33c66b76824e53fa588b4f6ca5342d64729708470abb6"
+    },
+    {
+      "path": "results/calibration/italian_500_1/evaluation.json",
+      "bytes": 9214,
+      "sha256": "479553b8e72b2624c8db626b9f28ab66212e2eb2cc214840758eda4697247dbe"
+    },
+    {
+      "path": "results/calibration/italian_500_1/exact.json",
+      "bytes": 2011,
+      "sha256": "735f64f2df581b8ee0458b6f1460f8295ccb67573335977d2deaf07a5c90a26e"
+    },
+    {
+      "path": "results/calibration/italian_500_1/exact_fit_segmentation.json",
+      "bytes": 1525,
+      "sha256": "949280be8052745638fb221416b24ee5387a071bbc848d99e0ac8aab4cafcf3e"
+    },
+    {
+      "path": "results/calibration/italian_500_1/exact_transfer_segmentation.json",
+      "bytes": 1534,
+      "sha256": "58af55add869c78e772920a98c4ed693d376148673d6641ec2075d068d4f9873"
+    },
+    {
+      "path": "results/calibration/italian_500_1/greedy.json",
+      "bytes": 2014,
+      "sha256": "cdb9676af8c25eaf2a8ef694c02027d203545f744697f5ba8ecf4ba3e732fd3a"
+    },
+    {
+      "path": "results/calibration/italian_500_1/greedy_fit_segmentation.json",
+      "bytes": 1523,
+      "sha256": "29bc8757de57e2789ec682d7c6ce4b66a54e2167181c03e5ae66b0d99cadad94"
+    },
+    {
+      "path": "results/calibration/italian_500_1/greedy_transfer_segmentation.json",
+      "bytes": 1536,
+      "sha256": "f5c8d72ad7324513abc0d012e2eeffcaa2d07a329f29a28e4adfa322e51da514"
+    },
+    {
+      "path": "results/calibration/italian_500_1/initializer.json",
+      "bytes": 2421,
+      "sha256": "039a5d69b6df3ca697d4100b05532b741fd448bb053db40ebcfc1ea60f2e475d"
+    },
+    {
+      "path": "results/calibration/italian_500_1/initializer_fit_segmentation.json",
+      "bytes": 1536,
+      "sha256": "a088d7ef6bc8938252d2feb40c88ea6ac5f7cfe89a1430a7ffde7b803c04a2c6"
+    },
+    {
+      "path": "results/calibration/italian_500_1/initializer_transfer_segmentation.json",
+      "bytes": 1545,
+      "sha256": "b35978af8083fcb82d0cbb85b4e596c300fc5a1539dd0e7e290cbe8c1d962a87"
+    },
+    {
+      "path": "results/calibration/italian_500_1/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1558,
+      "sha256": "c56d69cafc12dd8c5c1fd2f008b8d088400a137461af8693bfd2264c4da8e113"
+    },
+    {
+      "path": "results/calibration/italian_500_1/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1567,
+      "sha256": "e3a659f9a777be8ac243c31f24795645838783b19d201e4b1d3ffe6366aeba7a"
+    },
+    {
+      "path": "results/calibration/italian_500_2/evaluation.json",
+      "bytes": 9290,
+      "sha256": "d78ff9334a9b34d1f19fab0dc015c940f113d898048b26c14677b422481c95c1"
+    },
+    {
+      "path": "results/calibration/italian_500_2/exact.json",
+      "bytes": 2014,
+      "sha256": "b0eef53e9cbe6c5638a8fc9b673683114b026a7eb8e9fab56464d6541d33e932"
+    },
+    {
+      "path": "results/calibration/italian_500_2/exact_fit_segmentation.json",
+      "bytes": 1522,
+      "sha256": "a7a8861c35f117e3703745e072d9d54b9412d6259b7b5b7eb042ff3518161250"
+    },
+    {
+      "path": "results/calibration/italian_500_2/exact_transfer_segmentation.json",
+      "bytes": 1540,
+      "sha256": "3a9514e91d9e562fbf17886d0e520c165d0c84c85704abfaab0217c5dc90f256"
+    },
+    {
+      "path": "results/calibration/italian_500_2/greedy.json",
+      "bytes": 2002,
+      "sha256": "9878261284dd6e6908c19aaa63228777ab8be05dbd66e507b75e60a185724d6e"
+    },
+    {
+      "path": "results/calibration/italian_500_2/greedy_fit_segmentation.json",
+      "bytes": 1519,
+      "sha256": "4abc84a3e5389c266189c34596e6e9b941db2772f454ae20b286e79bf9cc95d6"
+    },
+    {
+      "path": "results/calibration/italian_500_2/greedy_transfer_segmentation.json",
+      "bytes": 1545,
+      "sha256": "c2c111ff4cd6cf1343bda03661389e6fd1691a567601a5b92d8893e81989d506"
+    },
+    {
+      "path": "results/calibration/italian_500_2/initializer.json",
+      "bytes": 2436,
+      "sha256": "0f2efd4b863773efb31443de90f81969b002a900da7c0e9479957322def8720f"
+    },
+    {
+      "path": "results/calibration/italian_500_2/initializer_fit_segmentation.json",
+      "bytes": 1531,
+      "sha256": "a3c8fd6cb7c6c97d58b71f35dc699efa03ec485cb60591770c59e382f3053ce5"
+    },
+    {
+      "path": "results/calibration/italian_500_2/initializer_transfer_segmentation.json",
+      "bytes": 1553,
+      "sha256": "1187af2b36cb7f3b908b98be82edbaafa6d1a54cb6a0e6be3a363261bd3ccfdf"
+    },
+    {
+      "path": "results/calibration/italian_500_2/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1555,
+      "sha256": "0e795ab7e62cf062ccdbf2869669a8c897aa41dc1cff3f9e5022f483de6bebf5"
+    },
+    {
+      "path": "results/calibration/italian_500_2/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1566,
+      "sha256": "b947177322f424e85809f4a2eb13a4c4915a2b925756ff9802e5a77202441dfb"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/evaluation.json",
+      "bytes": 12987,
+      "sha256": "8dbbb571ff1524b72b6c68ed8d7fc3aca51fc05df3a3c740ced899ddfb7f7240"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/exact.json",
+      "bytes": 2825,
+      "sha256": "b314bcd88c07de79a63f0e0050a0206d75cbe3bbfbee0192b0399ec0198054ae"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/exact_fit_segmentation.json",
+      "bytes": 2336,
+      "sha256": "179d36e596f3a752725a68db487f389cefe17cad094d5f58c4c7878098e2a079"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/exact_transfer_segmentation.json",
+      "bytes": 1613,
+      "sha256": "188032257e1b97a62b22c8123a808f3856dcfe41a32a6dd4a68eb0812c4d8462"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/greedy.json",
+      "bytes": 2828,
+      "sha256": "c8bbb861c03bdf27a04448de20573cd34a9211edcbae0252de8b3ebcefac9cb4"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/greedy_fit_segmentation.json",
+      "bytes": 2344,
+      "sha256": "b8b9ba82b8fd7b54f4522e63303e8de323ab7515925551189243a6b414efe290"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/greedy_transfer_segmentation.json",
+      "bytes": 1616,
+      "sha256": "4cb481eb4e0b8bb65ae0902f11765da7eb9037512d880fbe18bf7d872a31dec7"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/initializer.json",
+      "bytes": 2418,
+      "sha256": "5150cfda1328e652d15c894d4941e405f268cb6c46a23f444e925a83fe37b2d6"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/initializer_fit_segmentation.json",
+      "bytes": 2348,
+      "sha256": "cd0622a24d8b4cda1dc8875c2260ee7370ea3cbc16fd63c21662df234821c83b"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/initializer_transfer_segmentation.json",
+      "bytes": 1626,
+      "sha256": "bb3691f19f9c7171ea3161e0614bb46f2f41139b01a62374a573f1f8934ca628"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 2371,
+      "sha256": "96889e9d7be8dc755822f038bc9472abaf3bcabddbe9b56680814cccae8be03b"
+    },
+    {
+      "path": "results/calibration/latin_1000_1/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1647,
+      "sha256": "b3bd2fe670db5f8a50dbf90c9a1f064822717092d5ec4e31e9e98be2b320dc79"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/evaluation.json",
+      "bytes": 13004,
+      "sha256": "e774c3c1bbcc4555e202300927035d3ed8c666a45174494bb926fe32b5284509"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/exact.json",
+      "bytes": 2830,
+      "sha256": "21fb998287b5055eb4487b39e32cbf9cfb17ccb21f6474e33d5970981e963346"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/exact_fit_segmentation.json",
+      "bytes": 2343,
+      "sha256": "9e8304a4ba8152313662bd3cdaeb1aa98a1f58dea83586738be2eda4a3e502f9"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/exact_transfer_segmentation.json",
+      "bytes": 1630,
+      "sha256": "4573faf47a6a5002e331506da7a5e145283dde60f11f693a5f663ac0bcaa2100"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/greedy.json",
+      "bytes": 2829,
+      "sha256": "d4dc91512f3464e3dc204b62c207f4ba003b3fee4e35dd394a02479e14cbbf36"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/greedy_fit_segmentation.json",
+      "bytes": 2345,
+      "sha256": "9555eee82d3e96d57ff665894378faa2178d5f304cefc5e485f6e225e50844fb"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/greedy_transfer_segmentation.json",
+      "bytes": 1634,
+      "sha256": "92293afe874dcad79491ce914ba179571c93c571fdda9ea69e6fac4ff5d9376c"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/initializer.json",
+      "bytes": 2431,
+      "sha256": "d243f98909011081e89834d9be7e86dce86cade1ec76ba141062abec15ee3062"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/initializer_fit_segmentation.json",
+      "bytes": 2356,
+      "sha256": "42323a34c038c11adaa7cd966384fad77c2ed75c18346f44bda42ff298da923b"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/initializer_transfer_segmentation.json",
+      "bytes": 1642,
+      "sha256": "499e722da41b712c7b56da4f3d24344b085768392787392a56ca52fb37f0b124"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 2377,
+      "sha256": "36e3e7ffb971e69b94e08864e1af4a8529eb0b777eb20c354155b8ab4ce392ad"
+    },
+    {
+      "path": "results/calibration/latin_1000_2/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1663,
+      "sha256": "78615eccfb0ce4e7528de58146555c7d4be8df7cd754933ad83690acc5f117c7"
+    },
+    {
+      "path": "results/calibration/latin_250_1/evaluation.json",
+      "bytes": 8236,
+      "sha256": "c3f44d069f468516b878e97c3925147ab4d745e24e47f5428be3a70d06a4f757"
+    },
+    {
+      "path": "results/calibration/latin_250_1/exact.json",
+      "bytes": 1704,
+      "sha256": "a5ff3f50676fed931e279db6083a07f0d08baa53eb6ed65b1dd80ab45ea2b784"
+    },
+    {
+      "path": "results/calibration/latin_250_1/exact_fit_segmentation.json",
+      "bytes": 1216,
+      "sha256": "7c483dd0dc9fd5e08631aac85319a539d48c72051461e1755a9e63034ef7b806"
+    },
+    {
+      "path": "results/calibration/latin_250_1/exact_transfer_segmentation.json",
+      "bytes": 1589,
+      "sha256": "bd4e1599777c0540914b951106d74d914acc76941404eb3b66c2ca9363c5f0c4"
+    },
+    {
+      "path": "results/calibration/latin_250_1/greedy.json",
+      "bytes": 1709,
+      "sha256": "3d908442bdc2ed84ef8bfece516a70147ea878ef018f31f63c65bd674024f8b2"
+    },
+    {
+      "path": "results/calibration/latin_250_1/greedy_fit_segmentation.json",
+      "bytes": 1222,
+      "sha256": "1c0be2fdeb00626374a37988a7c84a42d3fbd8c9788f68cfb9c64ed1dcc235ed"
+    },
+    {
+      "path": "results/calibration/latin_250_1/greedy_transfer_segmentation.json",
+      "bytes": 1595,
+      "sha256": "3f953b48bb6f469c952bc64683e2a195cce192f83e040020d33395a449ca84ed"
+    },
+    {
+      "path": "results/calibration/latin_250_1/initializer.json",
+      "bytes": 2426,
+      "sha256": "e007980d9aa1845b070b53129c6982d52d2827050fa5262b5fed21a859f95d22"
+    },
+    {
+      "path": "results/calibration/latin_250_1/initializer_fit_segmentation.json",
+      "bytes": 1227,
+      "sha256": "afd0bb91caaf25ac774a35167249ebcfbc263d1310995bd4c71a568e54351b01"
+    },
+    {
+      "path": "results/calibration/latin_250_1/initializer_transfer_segmentation.json",
+      "bytes": 1601,
+      "sha256": "e8729ad87383bd56c6441f537fb298d60ab8f851e83a1b447901a1e5b900b0a4"
+    },
+    {
+      "path": "results/calibration/latin_250_1/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1249,
+      "sha256": "ba1facb100b4f87ee520be99dcb19843190318449aacd32ac4664c41e99c2e05"
+    },
+    {
+      "path": "results/calibration/latin_250_1/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1624,
+      "sha256": "8364e6ccc10edd7b9ff6bb9bb47286c76d226c2110d497808617c7efb0908404"
+    },
+    {
+      "path": "results/calibration/latin_250_2/evaluation.json",
+      "bytes": 8518,
+      "sha256": "0002137624674914f626ac07f4659771f3ada21449f86605706dc197f826e401"
+    },
+    {
+      "path": "results/calibration/latin_250_2/exact.json",
+      "bytes": 1696,
+      "sha256": "85b1dc2da91077ae026c4831e7bd78618157dd62cc92b628d7834961dfd08154"
+    },
+    {
+      "path": "results/calibration/latin_250_2/exact_fit_segmentation.json",
+      "bytes": 1216,
+      "sha256": "c2e869ca7a0e9bbc0d4d4aba66d864b5cedf22d1e7b97c89c757daddb4743240"
+    },
+    {
+      "path": "results/calibration/latin_250_2/exact_transfer_segmentation.json",
+      "bytes": 1636,
+      "sha256": "ff68e6c43e1eb8dc34e3e71a081efda511ed497a1449736516c97f7e5e5404be"
+    },
+    {
+      "path": "results/calibration/latin_250_2/greedy.json",
+      "bytes": 1704,
+      "sha256": "6067e7c5ec927ecabe7afa274b9b40dd6045cd7c0facfea4255aaa777acbed4f"
+    },
+    {
+      "path": "results/calibration/latin_250_2/greedy_fit_segmentation.json",
+      "bytes": 1218,
+      "sha256": "a00a2f674495de7b915eeca10b084c0d6d0ae21e11f020988870a6e7c0250fe0"
+    },
+    {
+      "path": "results/calibration/latin_250_2/greedy_transfer_segmentation.json",
+      "bytes": 1644,
+      "sha256": "e22b92b9041b0afc0888a06596b196a43ccb7a8589a5fd0246a9a8ae77c6ec8f"
+    },
+    {
+      "path": "results/calibration/latin_250_2/initializer.json",
+      "bytes": 2426,
+      "sha256": "28065bf8fcd24a6630f3e0594bc2be8d68331b26b6e661022de1e3dc660dc785"
+    },
+    {
+      "path": "results/calibration/latin_250_2/initializer_fit_segmentation.json",
+      "bytes": 1230,
+      "sha256": "12a11d5cb5465c68295b5237334fbcf1c60ef537d6bc8a234787ec3e14c78343"
+    },
+    {
+      "path": "results/calibration/latin_250_2/initializer_transfer_segmentation.json",
+      "bytes": 1651,
+      "sha256": "cfdf684801aa0e8ebe0a81b95cd18efb9e01f38d94d66ee22c20f64e8ba7ceed"
+    },
+    {
+      "path": "results/calibration/latin_250_2/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1253,
+      "sha256": "252e8b69722c806481aa1b146839af4dc1e2e1a2a0738a08b4f7ff38c7eae19e"
+    },
+    {
+      "path": "results/calibration/latin_250_2/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1647,
+      "sha256": "7bf5c8cbe042e9c4d7026bd202e950142b574c1ad245366da6e98fe45ed7de0a"
+    },
+    {
+      "path": "results/calibration/latin_500_1/evaluation.json",
+      "bytes": 9906,
+      "sha256": "1675867bd6467d0b15df772d8be8d4304867582334e4180fd1c2a8057dea7655"
+    },
+    {
+      "path": "results/calibration/latin_500_1/exact.json",
+      "bytes": 2065,
+      "sha256": "9d8e9794f080417e150b810523f67243f5040125166b88f84271475b8b68b0f6"
+    },
+    {
+      "path": "results/calibration/latin_500_1/exact_fit_segmentation.json",
+      "bytes": 1577,
+      "sha256": "a9c678714b18baefaa08df38834cb53ddb4180a5f8bb486dd422bfe8267e10d0"
+    },
+    {
+      "path": "results/calibration/latin_500_1/exact_transfer_segmentation.json",
+      "bytes": 1628,
+      "sha256": "5e42725f198543f4269d9504ff5181431980a43f38a1d853eb6f09be3f62d2dd"
+    },
+    {
+      "path": "results/calibration/latin_500_1/greedy.json",
+      "bytes": 2063,
+      "sha256": "9f99cc2f84ef9224ee0ab6a22bcf4fb513bcb87d6e68fa07746841a6a2fc4836"
+    },
+    {
+      "path": "results/calibration/latin_500_1/greedy_fit_segmentation.json",
+      "bytes": 1581,
+      "sha256": "beaabff482826505ec5d7f818d73fbe7d5c044ba7d77b3795251c752d560b6d0"
+    },
+    {
+      "path": "results/calibration/latin_500_1/greedy_transfer_segmentation.json",
+      "bytes": 1633,
+      "sha256": "331b1dd18fbf518f0389d4598187d970b93922539e58cb14a1122ac39f8fec48"
+    },
+    {
+      "path": "results/calibration/latin_500_1/initializer.json",
+      "bytes": 2415,
+      "sha256": "5681f1de921c144b70d31599a0cc8b62244d0ef1ee7122b245a12258a5877e4d"
+    },
+    {
+      "path": "results/calibration/latin_500_1/initializer_fit_segmentation.json",
+      "bytes": 1590,
+      "sha256": "bbc27cf5b64559c91ec7761088cc9dc9a978c42f5aa841f71bcabf9b7c5e41c0"
+    },
+    {
+      "path": "results/calibration/latin_500_1/initializer_transfer_segmentation.json",
+      "bytes": 1641,
+      "sha256": "e3e6d0cc6ba43683ed8224dbc1b3e4275cefdac21ba01449c9463c8a6b479051"
+    },
+    {
+      "path": "results/calibration/latin_500_1/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1612,
+      "sha256": "0c6ef224056533125cee95903507599c987ab45554be0d957cf5173a19ba329e"
+    },
+    {
+      "path": "results/calibration/latin_500_1/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1663,
+      "sha256": "fc808a6c847e94d51b08f6858a2676acc500e3fcd323cf410438759477424ee7"
+    },
+    {
+      "path": "results/calibration/latin_500_2/evaluation.json",
+      "bytes": 9661,
+      "sha256": "615a5ee0234103d7ab2a96279743d4dae50635bb1c5ae26f0e9ed81734f8875c"
+    },
+    {
+      "path": "results/calibration/latin_500_2/exact.json",
+      "bytes": 2082,
+      "sha256": "44a4cb97ef1dc86c8147fbf48f6ada7c8a68ad33f655dd75a6d8c89d8ba49ef4"
+    },
+    {
+      "path": "results/calibration/latin_500_2/exact_fit_segmentation.json",
+      "bytes": 1600,
+      "sha256": "351a868011c10a186a95c683e6b4b02c54566c77c409b33edc78990f18c795d3"
+    },
+    {
+      "path": "results/calibration/latin_500_2/exact_transfer_segmentation.json",
+      "bytes": 1557,
+      "sha256": "c3584961a85aa501be5f5fe656bac02ac90e7fea79cdf100e9cf2b496a3168c2"
+    },
+    {
+      "path": "results/calibration/latin_500_2/greedy.json",
+      "bytes": 2089,
+      "sha256": "aa9bb37e222e99eb124763467e3468d4f11b8f98b555da28c4cda387699eed02"
+    },
+    {
+      "path": "results/calibration/latin_500_2/greedy_fit_segmentation.json",
+      "bytes": 1603,
+      "sha256": "0d1c4d61fe1b15435f9017a96f665ff20bc04bbbc081ae49285a973361e12548"
+    },
+    {
+      "path": "results/calibration/latin_500_2/greedy_transfer_segmentation.json",
+      "bytes": 1561,
+      "sha256": "e66fc6f3e1e5ffc8aa4601117abec559a2c661f989ef8970085bf2199e482a48"
+    },
+    {
+      "path": "results/calibration/latin_500_2/initializer.json",
+      "bytes": 2415,
+      "sha256": "198c87c968cf06e50f1c66552e9f9d6a8b7041b4bcdd980591430eebd2c6440a"
+    },
+    {
+      "path": "results/calibration/latin_500_2/initializer_fit_segmentation.json",
+      "bytes": 1612,
+      "sha256": "bfd9560b2f5042d802c0a68db190a5afdd1cfaf6824128c1cff7739cf7d7394e"
+    },
+    {
+      "path": "results/calibration/latin_500_2/initializer_transfer_segmentation.json",
+      "bytes": 1569,
+      "sha256": "5fe26fcf43808dc6041818e637f74778da270b67b13c65f8948cbec60222f9f7"
+    },
+    {
+      "path": "results/calibration/latin_500_2/oracle_correct_letters_fit_segmentation.json",
+      "bytes": 1634,
+      "sha256": "fd9168f9d235b6b8672c018c016a37007919462600781a3b1d7b39394423ff41"
+    },
+    {
+      "path": "results/calibration/latin_500_2/oracle_correct_letters_transfer_segmentation.json",
+      "bytes": 1591,
+      "sha256": "5386807f9120ee0417e1807133a9f41cf686529ebbed0e5b4fdd550bf4d22f34"
+    },
+    {
+      "path": "results/calibration/provenance_verification.json",
+      "bytes": 423,
+      "sha256": "d461e8c4ad09db2cda43420204b502acd4eccdbe4c94b9890020f62b81ca7833"
+    },
+    {
+      "path": "results/calibration/summary.json",
+      "bytes": 127103,
+      "sha256": "b6f056462039278c13a7a5e5b2d76e455215ee8060e4c4428688f4e1e81f968e"
+    },
+    {
+      "path": "results/calibration/unknown_key_controls.png",
+      "bytes": 110898,
+      "sha256": "689a859c44b5c0c6cc9e1434646c61a9b6e8989d32842804fad2ef8b70a5257e"
+    },
+    {
+      "path": "results/calibration/unknown_key_controls.svg",
+      "bytes": 91277,
+      "sha256": "f90a0550672ffba2fc9aef0f4f939f66c898cfabcc61f1ea1f59cb251a537d11"
+    },
+    {
+      "path": "results/calibration/verification.json",
+      "bytes": 373,
+      "sha256": "41bd04fb2cee515c2a024f81dabb3da74c52b8b0e8bcccf94c0de88c200e8abb"
+    },
+    {
+      "path": "results/calibration_development_checks.json",
+      "bytes": 3443,
+      "sha256": "fb77322c4ee29aba1fbb6569a6f154c402ab881f6070fe378df3cc914ef23bef"
+    },
+    {
       "path": "results/segmentation_verification.json",
       "bytes": 1238,
       "sha256": "1292aee82c6d7dfef426c8bb1e81a58c5ade2e9a263281704e2f418a8ec89447"
@@ -77,9 +1042,39 @@
       "sha256": "c2102a27d456e8c9032c22daed796a5c025a8da5baff3b9f650868e543d9c260"
     },
     {
+      "path": "src/audit_calibration_provenance.py",
+      "bytes": 2881,
+      "sha256": "1490631d9b132f226dc776c9bb3ef72430084f950d5d9fe58ab495b0f18f6333"
+    },
+    {
+      "path": "src/calibration.py",
+      "bytes": 13598,
+      "sha256": "6a39d96686c87f6b0a089f0f9e39314aaa91a5226477fea7584ad988d6f70adc"
+    },
+    {
+      "path": "src/joint_solver.cpp",
+      "bytes": 10350,
+      "sha256": "bce7b031e09fd9c2f76ccb60445465fd65f3945f05d26545c65b008bc9f481a3"
+    },
+    {
+      "path": "src/manifest.py",
+      "bytes": 1356,
+      "sha256": "adf24f97695eb9eb02a3c8396422b923dc6d6006242e7330736e29123a405c25"
+    },
+    {
+      "path": "src/report_calibration.py",
+      "bytes": 12922,
+      "sha256": "ba5fea048094e50556fc75632250195a7b0dac954d23165202bd34db6257c3e5"
+    },
+    {
       "path": "src/smoke_authors.py",
       "bytes": 3246,
       "sha256": "3104f25b70511e0d35db46579ad3b5154346c0f5db3af9718f81b48c18ae3405"
+    },
+    {
+      "path": "src/verify_calibration.py",
+      "bytes": 8289,
+      "sha256": "949b9fb62a8e71200b102bdf2f71a0e44d32cf1c1ded4bd34f0128cde42d7d85"
     },
     {
       "path": "src/verify_segmentation.py",

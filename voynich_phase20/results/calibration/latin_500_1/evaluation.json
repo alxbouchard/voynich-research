@@ -1,0 +1,136 @@
+{
+  "case": "latin_500_1",
+  "language": "latin",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.40229885057471265,
+    "transfer": 0.5476190476190477
+  },
+  "rows": {
+    "initializer": {
+      "key": "hdasqkwzemcvxgpitjrbofyuln",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3981042654028436,
+        "boundary_recall": 0.9767441860465116,
+        "boundary_f1": 0.5656565656565656,
+        "boundary_tp": 84,
+        "boundary_fp": 127,
+        "boundary_fn": 2,
+        "score": -2345.6192969920926,
+        "segmentation": "apr i cis a qui l o n is situ ex o pacis h o r r id i o r vir usque prae fere n s f r i g id a hieme deteriora c minus c o p i os a et de c o l o r quidam arbitrantur in m o n t u os is copia praestant i o rem ac colore et d u l c i o rem fieri o d o re quoque g ratio rem dum res in a sit de c o c tam autem minus picis reddere quoniam in ser u m ab ea t te n u i o resque esse ipsa s arbores quam in p l an is sed has et illa s se re n ita te s ter i l i o res fructum quaedam proximo anno ab in cis u l a r g i u n t u r aliae secundo quaedam tertio expletur autem p l a g a res in a non cortice nec c i c at r i c e quae in hac a r b o re non c o i t inter haec genera pro p r iam quidam f e c e res ap p i num"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.31225296442687744,
+        "boundary_recall": 0.9518072289156626,
+        "boundary_f1": 0.47023809523809523,
+        "boundary_tp": 79,
+        "boundary_fp": 174,
+        "boundary_fn": 4,
+        "score": -2786.186464974522,
+        "segmentation": "et ipsa f o l i o multum que h o me r i prae c o n i o et ac h illis has t a nobili t a tam a ter i e s est ad plurima utili se a quidem quae fit in id at r o ad is in tantum c e d r o similis ut e mentes f a l l at cortice ab l at o g r a e c i duo genera eius f e c e re longa me n o de m alteram brevem duriore m f u scio rem que l a u re is f o l iis b u me l iam vocant in m ac e d o n i a amplissima m l e n t is si m a m que alii situ di vi se re c a m p est rem enim esse c r is p a m m o n t a nam s p is s a m f o l i a earum iumentis morti f e r a ceteris r u m in an t i u m in n o c u a g r a e c i prodi de re in italia nec iumentis n o c e n t contra ser p e n te s vero s u c o ex p res s o ad p o tum et in posita u l c e r i o p i f e r a"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "hdasqkwzemcvxgpitjrbofyuln",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3915094339622642,
+        "boundary_recall": 0.9651162790697675,
+        "boundary_f1": 0.5570469798657718,
+        "boundary_tp": 83,
+        "boundary_fp": 129,
+        "boundary_fn": 3,
+        "score": -2355.804179551429,
+        "segmentation": "apr i cis a qui l o n is situ ex o pacis h o r r id i o r vir usque prae fere n s f r i g id a hieme deteriora c minus c o p i os a et de c o l o r quidam arbitrantur in m o n t u os is copia praestant i o rem ac colore et d u l c i o rem fieri o d o re quoque g ratio rem dum res in a sit de c o c tam autem minus picis reddere quoniam in ser u m ab ea t te n u i o resque esse ipsa s arbores quam in p l an is sed has et illa s ser e n ita t est e r i l i o res fructum quaedam proximo anno ab in cis u l a r g i u n t u r aliae secundo quaedam tertio expletur autem p l a g a res in a non cortice nec c i c at r i c e quae in hac a r b o re non c o i t inter haec genera pro p r iam quidam f e c e res ap p i num"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.30196078431372547,
+        "boundary_recall": 0.927710843373494,
+        "boundary_f1": 0.4556213017751479,
+        "boundary_tp": 77,
+        "boundary_fp": 178,
+        "boundary_fn": 6,
+        "score": -2853.069810042801,
+        "segmentation": "et ipsa f o l i o multum que h o me r i prae c o n i o et ac h illis has t a nobili t a tam a ter i e s est ad plurima utili se a quidem quae fit in i dat r o a dis in tantum c e d r o similis ut e mentes f a l l at cortice ab l at o g r a e c i duo genera eius f e c e re longa me n o de m alteram brevem duriore m f u scio rem que l a u rei s f o l iis b u me l iam vocant in m ac e d o n i a amplissima m l e n t is si m a m que aliis i t u di vis e re c a m p est rem enim esse c r is p a m m o n t a nam s p is s a m f o l i a earum iumentis morti f e r a ceteris r u m in an t i u m in n o c u a g r a e c i prodi de rei n italia nec iumentis n o c e n t contra ser p e n te s vero s u c o ex p res s o ad p o tum et in posita u l c e r i o p i f e r a"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "hdasqkwzemcvxgpitjrbofyuln",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3981042654028436,
+        "boundary_recall": 0.9767441860465116,
+        "boundary_f1": 0.5656565656565656,
+        "boundary_tp": 84,
+        "boundary_fp": 127,
+        "boundary_fn": 2,
+        "score": -2345.6192969920926,
+        "segmentation": "apr i cis a qui l o n is situ ex o pacis h o r r id i o r vir usque prae fere n s f r i g id a hieme deteriora c minus c o p i os a et de c o l o r quidam arbitrantur in m o n t u os is copia praestant i o rem ac colore et d u l c i o rem fieri o d o re quoque g ratio rem dum res in a sit de c o c tam autem minus picis reddere quoniam in ser u m ab ea t te n u i o resque esse ipsa s arbores quam in p l an is sed has et illa s se re n ita te s ter i l i o res fructum quaedam proximo anno ab in cis u l a r g i u n t u r aliae secundo quaedam tertio expletur autem p l a g a res in a non cortice nec c i c at r i c e quae in hac a r b o re non c o i t inter haec genera pro p r iam quidam f e c e res ap p i num"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.31225296442687744,
+        "boundary_recall": 0.9518072289156626,
+        "boundary_f1": 0.47023809523809523,
+        "boundary_tp": 79,
+        "boundary_fp": 174,
+        "boundary_fn": 4,
+        "score": -2786.186464974522,
+        "segmentation": "et ipsa f o l i o multum que h o me r i prae c o n i o et ac h illis has t a nobili t a tam a ter i e s est ad plurima utili se a quidem quae fit in id at r o ad is in tantum c e d r o similis ut e mentes f a l l at cortice ab l at o g r a e c i duo genera eius f e c e re longa me n o de m alteram brevem duriore m f u scio rem que l a u re is f o l iis b u me l iam vocant in m ac e d o n i a amplissima m l e n t is si m a m que alii situ di vi se re c a m p est rem enim esse c r is p a m m o n t a nam s p is s a m f o l i a earum iumentis morti f e r a ceteris r u m in an t i u m in n o c u a g r a e c i prodi de re in italia nec iumentis n o c e n t contra ser p e n te s vero s u c o ex p res s o ad p o tum et in posita u l c e r i o p i f e r a"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "hdasqykjemcvxgpitzrbofwuln",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3981042654028436,
+        "boundary_recall": 0.9767441860465116,
+        "boundary_f1": 0.5656565656565656,
+        "boundary_tp": 84,
+        "boundary_fp": 127,
+        "boundary_fn": 2,
+        "score": -2345.6192969920926,
+        "segmentation": "apr i cis a qui l o n is situ ex o pacis h o r r id i o r vir usque prae fere n s f r i g id a hieme deteriora c minus c o p i os a et de c o l o r quidam arbitrantur in m o n t u os is copia praestant i o rem ac colore et d u l c i o rem fieri o d o re quoque g ratio rem dum res in a sit de c o c tam autem minus picis reddere quoniam in ser u m ab ea t te n u i o resque esse ipsa s arbores quam in p l an is sed has et illa s se re n ita te s ter i l i o res fructum quaedam proximo anno ab in cis u l a r g i u n t u r aliae secundo quaedam tertio expletur autem p l a g a res in a non cortice nec c i c at r i c e quae in hac a r b o re non c o i t inter haec genera pro p r iam quidam f e c e res ap p i num"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.31225296442687744,
+        "boundary_recall": 0.9518072289156626,
+        "boundary_f1": 0.47023809523809523,
+        "boundary_tp": 79,
+        "boundary_fp": 174,
+        "boundary_fn": 4,
+        "score": -2786.186464974522,
+        "segmentation": "et ipsa f o l i o multum que h o me r i prae c o n i o et ac h illis has t a nobili t a tam a ter i e s est ad plurima utili se a quidem quae fit in id at r o ad is in tantum c e d r o similis ut e mentes f a l l at cortice ab l at o g r a e c i duo genera eius f e c e re longa me n o de m alteram brevem duriore m f u scio rem que l a u re is f o l iis b u me l iam vocant in m ac e d o n i a amplissima m l e n t is si m a m que alii situ di vi se re c a m p est rem enim esse c r is p a m m o n t a nam s p is s a m f o l i a earum iumentis morti f e r a ceteris r u m in an t i u m in n o c u a g r a e c i prodi de re in italia nec iumentis n o c e n t contra ser p e n te s vero s u c o ex p res s o ad p o tum et in posita u l c e r i o p i f e r a"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

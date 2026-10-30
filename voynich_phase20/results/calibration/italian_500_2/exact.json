@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian",
+      "exact",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_500_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian_500_2_starts.txt",
+      "6"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_500_2/fit.txt": "95aceed01149453c7dadb2bee82e3c90e7b97e0030522c56d3e542c3aca7c883",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian_500_2_starts.txt": "9ffadf76361c237ab8b484dd3dac8c19b148cd9d6b5df6e24f908151a9f23503"
+    }
+  },
+  "seconds": 0.5157530829310417,
+  "result": {
+    "key": "olmuacdtxrpgqyvkzjewnibhfs",
+    "evaluations": 1304,
+    "final_start_scores": [
+      -1197.2677128523633,
+      -1197.2677128523633,
+      -1197.2677128523633,
+      -1197.2677128523633
+    ],
+    "fit": {
+      "score": -1197.267712852363,
+      "segmentation": "com piacermi venia gaia indi s p ir o sanz esser mi pro fer t a da te la voglia tua discerno meglio che tu qualunque cosa te piu certa per ch io la veggio nel verace speglio che fa di se pare g l io a l altre cose e nulla face lui di se pare g li o tu vuo g li udir quant e che dio mi puose nel ecce l so giardin o ove costei a cosi lunga scala ti dispuose e quanto fu diletto a li occhi miei e la propria cagion del gran disdegno e li dio ma ch usai e che fei or f i g l uo l mio non il g u star del legno fu per se la cagion di tanto essilio ma solamente il trapassar del segno quindi onde mosse tua donna virgilio quattro milia tre cento e due vo lumi"
+    }
+  }
+}

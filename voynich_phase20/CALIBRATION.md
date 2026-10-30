@@ -1,5 +1,9 @@
 # Phase 20 — contrôles à clé inconnue du solveur
 
+**Étude exécutée : 1/12 contrôle passe les deux seuils ; aucun essai Voynich.**
+Voir le [rapport complet](RAPPORT.md). Le protocole fixé avant calcul reste
+décrit ci-dessous ; aucun paramètre n'a été adapté aux résultats.
+
 ## Protocole fixé avant génération et ajustement
 
 Ce test fait suite au diagnostic de développement sur la phrase anglaise
@@ -104,10 +108,12 @@ et recalcule les optimums de segmentation des sorties exactes et des lettres
 correctes. Cette vérification interne partage les sources et modèles.
 
 ```sh
+python3 tools/hydrate.py
 python3 voynich_phase20/src/calibration.py prepare
 python3 voynich_phase20/src/calibration.py fit
 python3 voynich_phase20/src/calibration.py evaluate
 python3 voynich_phase20/src/verify_calibration.py
+python3 voynich_phase20/src/audit_calibration_provenance.py
 ```
 
 Python 3, NumPy et un compilateur C++17 sont nécessaires. Aucun nouveau
@@ -117,6 +123,13 @@ les ajustements, en y déplaçant d'abord `results/calibration/`. Une sortie
 existante n'est réutilisée que si son identité de commande, d'entrées,
 de protocole et de programme concorde. Les modèles et exécutables restent
 dans `tmp/` ; les chiffrés, vérités d'évaluation et résultats sont archivés.
+
+Pour reconstruire le rapport et les figures, ajouter Matplotlib et lancer
+`python3 voynich_phase20/src/report_calibration.py` après la vérification.
+L'intégrité des fichiers archivés se vérifie séparément avec
+`python3 voynich_phase20/src/manifest.py`. Une nouvelle exécution peut modifier
+les durées et métadonnées d'environnement ; l'inventaire existant décrit
+les résultats publiés, pas toutes les réexécutions futures.
 
 Les scripts et le nouveau moteur restent sous CC BY-SA 4.0 ; les attributions
 et limites des corpus sont celles de la [notice de phase 20](README.md)

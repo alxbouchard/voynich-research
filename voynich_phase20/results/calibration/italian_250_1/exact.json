@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian",
+      "exact",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_250_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian_250_1_starts.txt",
+      "6"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_250_1/fit.txt": "90fbf3be4164469a79afeab00763cd0b3dc85fe2062e0f0515dcf1d409537875",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian_250_1_starts.txt": "7212ec09c442630a3661e143aedbb4f954b249f715820434108b4866da0b0c35"
+    }
+  },
+  "seconds": 0.3532678331248462,
+  "result": {
+    "key": "rnbpjmqclyudawvxofzsikgeth",
+    "evaluations": 1304,
+    "final_start_scores": [
+      -631.0051928129614,
+      -631.0051928129614,
+      -631.0051928129614,
+      -631.0051928129614
+    ],
+    "fit": {
+      "score": -631.0051928129612,
+      "segmentation": "s ten da la vista piu lontan a li vedrai come convien ch igualmente r i s p le n da or come ai colpi de li cal dir ai de la neve riman nudo il su g g et t o e dal colore e da l freddo prima i cosi rimaso te ne l intelletto voglio in formar di luce si vivace che ti tremo l era nel suo aspetto dentro da l ciel de la divina pace si"
+    }
+  }
+}

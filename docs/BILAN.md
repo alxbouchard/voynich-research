@@ -1,6 +1,6 @@
 # Bilan des expériences
 
-**Aucune traduction validée.** Ce tableau résume les rapports archivés et les phases 18–19 exécutées le 30 octobre 2026. Il ne constitue pas une nouvelle réplication des phases 1 à 17.
+**Aucune traduction validée.** Ce tableau résume les rapports archivés et les phases 18–20 exécutées le 30 octobre 2026. Il ne constitue pas une nouvelle réplication des phases 1 à 17.
 
 | Phase | Question et travail exécuté | Résultat principal | Limite ou correction |
 |---|---|---|---|
@@ -23,6 +23,7 @@
 | 17 | Traiter 22 bandes de f116v ; tester le motif hypothétique `six marix morix vix`. | Ambiguïté initiale persistante. Aucun alignement bijectif ; quelques alignements homophoniques sans espaces. | Le texte supposé clair n'est pas assuré. f104r échoue à l'extension testée ; f79r ne reproduit pas tout l'agencement marginal. |
 | 18 | Tester deux tables de substitution selon l'initiale ou la finale, avec calibration et pages réservées. | 16 contrôles : 99,9926 à 99,9954 % des lettres retrouvées. 284 ajustements. La famille finale/modèle latin dépasse les 19 mélanges pour ZL/A et ZL/B ; gains également positifs pour IT/A et IT/B. | Signal exploratoire de structure, sans langue ni traduction identifiée. Témoins peu structurés ; léger changement des fréquences effectivement notées après exclusion des segments courts. [Rapport](../voynich_phase18/RAPPORT.md). |
 | 19 | Vérifier si le signal des finales apparaît dans des textes sans message : six générations de Markov et l'échantillon publié Timm–Schinner, avec témoins corrigés. | Quatre des six générations de Markov et l’échantillon Timm franchissent le même critère que le Voynich. 368 ajustements ; fréquences des caractères effectivement notés exactement préservées par les mélanges. [Résultats complets](../voynich_phase19/RAPPORT.md). | Le signal n'est pas spécifique d'un message dans ce dispositif. Cela ne prouve pas l'absence de sens du manuscrit. Les générations héritent des statistiques d'apprentissage ; l'échantillon Timm n'est pas une nouvelle exécution de son générateur. |
+| 20 | Tester des clés inconnues du solveur et le découpage des mots sur douze chiffrés latins/italiens, avec transfert à d'autres passages. | 5 983/6 028 lettres réservées retrouvées (99,25 %) ; F1 des espaces amélioré dans 11/12 cas par rapport au découpage glouton, mais 1/12 seulement passe les deux seuils. [Rapport](../voynich_phase20/RAPPORT.md). | La récupération des lettres vient surtout de l'initialisation. Dictionnaire incomplet et préférence erronée du modèle dans un contrôle ; aucun essai Voynich après cet échec de calibration. |
 
 Les pourcentages de contrôles ne décrivent jamais le pourcentage de Voynich décodé.
 

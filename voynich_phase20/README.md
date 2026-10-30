@@ -1,8 +1,17 @@
-# Phase 20 — préparation : déchiffrement et limites de mots
+# Phase 20 — déchiffrement et limites de mots
 
-30 octobre 2026. **Diagnostic de développement uniquement. Aucune clé,
-langue ou traduction du Voynich validée. Aucun ajustement de phase 20 sur
-le manuscrit n'a été exécuté.**
+30 octobre 2026. **Calibration à clé inconnue exécutée : un contrôle sur
+douze satisfait les deux seuils fixés. Aucun ajustement de phase 20 sur
+le Voynich, aucune langue ni traduction du manuscrit validées.**
+
+[Rapport de calibration](RAPPORT.md) · [protocole et reproduction](CALIBRATION.md)
+· [paramètres figés](CALIBRATION_PROTOCOL.json) · [résultats](results/calibration/summary.json).
+
+Les passages réservés contiennent 6 028 lettres : le bras exact en retrouve
+5 983 (99,25 %), essentiellement grâce à l'initialisation. Le placement des
+espaces reste insuffisant, même à lettres correctes connues. Le seuil prévu
+avant calcul ferme donc l'application interprétée au Voynich. Le diagnostic
+anglais préparatoire ci-dessous reste conservé avec ses limites d'origine.
 
 La [phase 19](../voynich_phase19/RAPPORT.md) montre que des textes générés
 sans message reproduisent le signal des finales. Pour poursuivre, nous
@@ -14,7 +23,7 @@ homophoniques avec un score de quatre caractères, en EVA et en signes
 composés, dans les deux sens. Retirer les espaces à nouveau ne suffit donc
 pas à constituer une nouvelle expérience. L'apport envisagé ici est de
 faire intervenir les limites de mots et un modèle lexical dans le score
-des clés. Le travail présenté ci-dessous ne réalise encore que le diagnostic
+des clés. Le diagnostic préparatoire présenté ci-dessous ne réalise que le calcul
 de segmentation à lettres décodées fixées.
 
 ## Méthode externe et exécution
@@ -85,28 +94,32 @@ constitue pas une réplication externe.
 [Audit détaillé](results/authors_exact_segmentation_audit.json) ·
 [Vérification avec le code des auteurs](results/segmentation_verification.json).
 
-## Limites et travail restant
+## Limites du diagnostic préparatoire
 
 - Le correctif a été développé après observation de l'erreur : ce n'est pas
   un test aveugle ou un protocole préinscrit.
-- Le calcul exact choisit des espaces pour deux chaînes de lettres connues.
-  Il n'a pas recherché une clé inconnue avec ce nouveau score.
+- Dans ce diagnostic, le calcul exact choisit des espaces pour deux chaînes
+  de lettres connues, sans rechercher une clé inconnue. La calibration
+  ultérieure à clé inconnue est présentée dans le rapport lié en tête.
 - Il se limite aux segmentations entièrement couvertes par le dictionnaire.
   Il ne modélise pas encore les mots inconnus, les variantes historiques,
   les unités graphiques incertaines ou les syllabes.
 - L'anglais sert seulement au contrôle du programme publié. Rien ici
   n'identifie l'anglais comme langue du Voynich.
-- La durée et la mémoire d'une recherche complète de clé avec ce score
-  restent à mesurer. Le gain sur cet exemple ne garantit pas une meilleure
+- Ce diagnostic ne mesurait pas la durée ou la mémoire d'une recherche
+  complète de clé avec ce score. Le gain sur cet exemple ne garantit pas une meilleure
   récupération sur d'autres textes.
 
-Avant un essai interprétable sur le manuscrit, il reste à intégrer le score
-à la recherche de clé, définir et figer la calibration, puis récupérer des
-textes et limites de mots sur des contrôles réservés. Les témoins sans
-message de phase 19 devront recevoir le même traitement. Aucun texte
-Voynich n'est présenté comme décodé à partir de ce diagnostic.
+Le score a ensuite été intégré à un moteur de recherche de clé et testé
+selon un protocole figé, avec le résultat défavorable décrit dans le
+[rapport](RAPPORT.md). Il faudra corriger et recalibrer cette configuration
+avant de la comparer aux témoins sans message et au manuscrit. Aucun texte
+Voynich n'est présenté comme décodé.
 
-## Reproduction
+## Reproduction du diagnostic anglais préparatoire
+
+Pour les douze contrôles latins et italiens, suivre plutôt
+[les instructions de calibration](CALIBRATION.md#vérification-et-reproduction).
 
 Python 3 et Perl avec leurs bibliothèques standard suffisent. Depuis la
 racine du dépôt, les modèles occupent environ 0,87 Go avec leurs archives.

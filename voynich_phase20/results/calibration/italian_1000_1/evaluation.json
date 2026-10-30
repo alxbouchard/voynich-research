@@ -1,0 +1,136 @@
+{
+  "case": "italian_1000_1",
+  "language": "italian",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.10465116279069768,
+    "transfer": 0.10077519379844961
+  },
+  "rows": {
+    "initializer": {
+      "key": "vmcbiuntfrjypwxzaqgdsehkol",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 1001,
+        "correct_letters": 1001,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7832817337461301,
+        "boundary_recall": 0.9844357976653697,
+        "boundary_f1": 0.8724137931034482,
+        "boundary_tp": 253,
+        "boundary_fp": 70,
+        "boundary_fn": 4,
+        "score": -2383.509939126033,
+        "segmentation": "e buon son rari con questa di s t in z io n prendi l mio detto e cosi puote star con quel che credi del primo padre e del nostro diletto e questo ti sia sempre piombo a piedi per far ti mover lento com uom lasso e al si e al no che tu non vedi ch e quelli e tra li stolti bene a basso che sanza di s t in z io ne a f ferma e ne g a ne l un cosi come ne l altro passo per ch elli ncontra ch e piu volte piega lo p p in io n corre n te in falsa parte e poi l affetto l intelletto lega vie piu che ndarno da riva si parte perche non torna tal quale si move ch i p esca per lo vero e non ha l arte e di cio sono al mondo aperte prove par meni de me li s so e b risso e molti li quali andaro e non sapea n dove si fe sa belli o e arr io e quel li stolti che furon come spade a le s c r i t tu re in render torti li diritti volti non sien le genti ancor troppo sicure a giudica r si come quei ch estima le biade in campo pria che sien mature ch i ho veduto tutto l verno prima lo prun mostrar s ir i gi d o e feroce poscia portar la r o sa in su la cima e legno vidi gia dritto e veloce correr lo mar per tutto suo cammino per ire al fine a l intrar de la foce non creda donna ber t a e ser mar ti no per veder e un fura re altro o f fer e re veder li dentro a l consiglio divino che quel puo surger e e quel puo cadere dal centro"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 501,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7721518987341772,
+        "boundary_recall": 0.953125,
+        "boundary_f1": 0.8531468531468531,
+        "boundary_tp": 122,
+        "boundary_fp": 36,
+        "boundary_fn": 6,
+        "score": -1215.499116044461,
+        "segmentation": "e di quel di beatrice a cui si cominciar dopo lui piacque a costui fa mestieri e nol vidi cen e con la voce ne pensando ancora d un altro vero andare a la radice dite li se la luce onde s in fior a vostra sustanza r i marra con voi etternalmente si com ell e ora e se rimane di te com e poi che sa rete visi b il ir i fatti esser p ora ch al veder non vi noi come da piu letizia pinti e tratti a la fiata quei che vanno a rota levan la voce era l le gran o li atti cosi a l orazion pronta e divota li santi cerchi mostrar nova gioia nel t or ne a ree ne la mira nota qual si la men t a perche qui si mo i a per viver cola su non vide quiv e lor e f r i geri o"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "vmcbiuntfrjypwxzaqgdsehkol",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 1001,
+        "correct_letters": 1001,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7532051282051282,
+        "boundary_recall": 0.914396887159533,
+        "boundary_f1": 0.8260105448154658,
+        "boundary_tp": 235,
+        "boundary_fp": 77,
+        "boundary_fn": 22,
+        "score": -2578.7863387022576,
+        "segmentation": "e buon son rari con questa di s ti n z io n prendi l mio detto e cosi puote star con quel che credi del primo padre e del nostro diletto e questo ti sia sempre piombo a piedi per f arti mover lento com uom lasso e al sie al no che t uno n ve diche quelli e tra li stolti bene a basso che sanza di s ti n z io ne a f ferma en e g a nel un cosi come nel altro passo perche l l incontra che piu volte piega lo p p in io n corre n te in falsa parte e poi l affetto l intelletto lega vie piu che ndarno da riva si parte perche non t ornata l quale si move chi p esca per lo vero e non ha l arte e dici o sono al mondo aperte prove p arme ni de m eli s so e b risso e molti li quali andaro e non sapea n dove si fe sa belli o e arr io e quelli stolti che furon come spade ale s c r i t tu rei n render torti li diritti volti non sien le genti ancor troppo sicure a giudica r si come quei ch estima le biade in campo pria che sien mature chi ho veduto tutto l verno prima lo prun mostrar si r i gi d o e feroce poscia portar la r o sai n su laci ma e legno vidi gia dritto e veloce correr lo mar per tutto suo cammino per i real fine al intrar del a foce non creda donna b erta e ser m arti no per vedere un fura re altro o f fer er e veder li dentro al consiglio divino che quel puo surger ee quel puo cadere dal centro"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 501,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.6948051948051948,
+        "boundary_recall": 0.8359375,
+        "boundary_f1": 0.7588652482269503,
+        "boundary_tp": 107,
+        "boundary_fp": 47,
+        "boundary_fn": 21,
+        "score": -1333.2556616250397,
+        "segmentation": "ed i quel di beatrice a cui si cominciar dopo lui piacque a costui fa mestieri e nol vidi cen e con la voce ne pensando ancora d un altrove r o andare ala radice ditel i se la luce onde si n fior a vostra sustanza r i marra con voi etternalmente si come l le ora e se rimane dite come poi che sare te visi b il ir i fatti esser p ora ch al veder non vino i come da piu letizia pinti e tratti ala fiata quei che vanno a rota levan la voce er allegra noli atti cosi al orazion pronta e divota li santi cerchi mostrar nova gioia nel t or ne a ree nel a miran o t a qual si l amen t a perche qui s imo i ape r viver cola s uno n vide quiv e lor e f r i geri o"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "vmcbiuntfrjypwxzaqgdsehkol",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 1001,
+        "correct_letters": 1001,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7832817337461301,
+        "boundary_recall": 0.9844357976653697,
+        "boundary_f1": 0.8724137931034482,
+        "boundary_tp": 253,
+        "boundary_fp": 70,
+        "boundary_fn": 4,
+        "score": -2383.509939126033,
+        "segmentation": "e buon son rari con questa di s t in z io n prendi l mio detto e cosi puote star con quel che credi del primo padre e del nostro diletto e questo ti sia sempre piombo a piedi per far ti mover lento com uom lasso e al si e al no che tu non vedi ch e quelli e tra li stolti bene a basso che sanza di s t in z io ne a f ferma e ne g a ne l un cosi come ne l altro passo per ch elli ncontra ch e piu volte piega lo p p in io n corre n te in falsa parte e poi l affetto l intelletto lega vie piu che ndarno da riva si parte perche non torna tal quale si move ch i p esca per lo vero e non ha l arte e di cio sono al mondo aperte prove par meni de me li s so e b risso e molti li quali andaro e non sapea n dove si fe sa belli o e arr io e quel li stolti che furon come spade a le s c r i t tu re in render torti li diritti volti non sien le genti ancor troppo sicure a giudica r si come quei ch estima le biade in campo pria che sien mature ch i ho veduto tutto l verno prima lo prun mostrar s ir i gi d o e feroce poscia portar la r o sa in su la cima e legno vidi gia dritto e veloce correr lo mar per tutto suo cammino per ire al fine a l intrar de la foce non creda donna ber t a e ser mar ti no per veder e un fura re altro o f fer e re veder li dentro a l consiglio divino che quel puo surger e e quel puo cadere dal centro"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 501,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7721518987341772,
+        "boundary_recall": 0.953125,
+        "boundary_f1": 0.8531468531468531,
+        "boundary_tp": 122,
+        "boundary_fp": 36,
+        "boundary_fn": 6,
+        "score": -1215.499116044461,
+        "segmentation": "e di quel di beatrice a cui si cominciar dopo lui piacque a costui fa mestieri e nol vidi cen e con la voce ne pensando ancora d un altro vero andare a la radice dite li se la luce onde s in fior a vostra sustanza r i marra con voi etternalmente si com ell e ora e se rimane di te com e poi che sa rete visi b il ir i fatti esser p ora ch al veder non vi noi come da piu letizia pinti e tratti a la fiata quei che vanno a rota levan la voce era l le gran o li atti cosi a l orazion pronta e divota li santi cerchi mostrar nova gioia nel t or ne a ree ne la mira nota qual si la men t a perche qui si mo i a per viver cola su non vide quiv e lor e f r i geri o"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "vmcbiuntfrxkpwjzaqgdsehyol",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 1001,
+        "correct_letters": 1001,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7832817337461301,
+        "boundary_recall": 0.9844357976653697,
+        "boundary_f1": 0.8724137931034482,
+        "boundary_tp": 253,
+        "boundary_fp": 70,
+        "boundary_fn": 4,
+        "score": -2383.509939126033,
+        "segmentation": "e buon son rari con questa di s t in z io n prendi l mio detto e cosi puote star con quel che credi del primo padre e del nostro diletto e questo ti sia sempre piombo a piedi per far ti mover lento com uom lasso e al si e al no che tu non vedi ch e quelli e tra li stolti bene a basso che sanza di s t in z io ne a f ferma e ne g a ne l un cosi come ne l altro passo per ch elli ncontra ch e piu volte piega lo p p in io n corre n te in falsa parte e poi l affetto l intelletto lega vie piu che ndarno da riva si parte perche non torna tal quale si move ch i p esca per lo vero e non ha l arte e di cio sono al mondo aperte prove par meni de me li s so e b risso e molti li quali andaro e non sapea n dove si fe sa belli o e arr io e quel li stolti che furon come spade a le s c r i t tu re in render torti li diritti volti non sien le genti ancor troppo sicure a giudica r si come quei ch estima le biade in campo pria che sien mature ch i ho veduto tutto l verno prima lo prun mostrar s ir i gi d o e feroce poscia portar la r o sa in su la cima e legno vidi gia dritto e veloce correr lo mar per tutto suo cammino per ire al fine a l intrar de la foce non creda donna ber t a e ser mar ti no per veder e un fura re altro o f fer e re veder li dentro a l consiglio divino che quel puo surger e e quel puo cadere dal centro"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 501,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7721518987341772,
+        "boundary_recall": 0.953125,
+        "boundary_f1": 0.8531468531468531,
+        "boundary_tp": 122,
+        "boundary_fp": 36,
+        "boundary_fn": 6,
+        "score": -1215.499116044461,
+        "segmentation": "e di quel di beatrice a cui si cominciar dopo lui piacque a costui fa mestieri e nol vidi cen e con la voce ne pensando ancora d un altro vero andare a la radice dite li se la luce onde s in fior a vostra sustanza r i marra con voi etternalmente si com ell e ora e se rimane di te com e poi che sa rete visi b il ir i fatti esser p ora ch al veder non vi noi come da piu letizia pinti e tratti a la fiata quei che vanno a rota levan la voce era l le gran o li atti cosi a l orazion pronta e divota li santi cerchi mostrar nova gioia nel t or ne a ree ne la mira nota qual si la men t a perche qui si mo i a per viver cola su non vide quiv e lor e f r i geri o"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

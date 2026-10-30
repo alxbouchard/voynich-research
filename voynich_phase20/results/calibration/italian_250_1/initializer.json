@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian",
+      "init",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_250_1/fit.txt",
+      "2026103028",
+      "16",
+      "60000"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_250_1/fit.txt": "90fbf3be4164469a79afeab00763cd0b3dc85fe2062e0f0515dcf1d409537875"
+    }
+  },
+  "seconds": 0.3258906251285225,
+  "result": {
+    "restarts": [
+      {
+        "score": -2299.5924576074813,
+        "key": "rnbpjmqclyudawvxofzsikgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnwpkmyclzudaxvqofbsijgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnwpjmxclqudazvkofysibgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnqpbmkclxudayvzofjsiwgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnjpkmqclxudabvyofzsiwgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnxpwmqclkudayvzofbsijgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnjpwmqclyudaxvbofzsikgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnbpzmkclxudayvwofqsijgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnjpymxclbudawvzofksiqgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnjpzmyclkudaxvqofbsiwgeth"
+      },
+      {
+        "score": -2299.5924576074813,
+        "key": "rnypwmxclbudaqvzofksijgeth"
+      },
+      {
+        "score": -2655.157403012536,
+        "key": "rsjfhvxdnbucekmqipylowgatz"
+      },
+      {
+        "score": -2660.4667972736597,
+        "key": "rlhpxdwvnyucikmbegjsoqfatz"
+      },
+      {
+        "score": -2678.341728975588,
+        "key": "rsqvypkdnbucowmzifxlejgath"
+      },
+      {
+        "score": -3274.248712604781,
+        "key": "lpzgquvsewtomydjcfxnikhrab"
+      },
+      {
+        "score": -3282.3469177762986,
+        "key": "tojdwgxnayverksbcmzuiqhlpf"
+      }
+    ]
+  }
+}
