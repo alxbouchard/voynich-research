@@ -1,0 +1,30 @@
+{
+  "status": "Exploratory local protocol, fixed before numerical image analysis and crib scan; not preregistered externally",
+  "question": "Can raw f116v imaging reduce reading ambiguity, and can a literal proposed charm be located under a fixed substitution model?",
+  "not_blind": "Existing readings and f104r correspondence were known before this study.",
+  "spectral": {
+    "folio": "f116v",
+    "captures": "001-022 inclusive",
+    "orientation": "Rotate 90 degrees counterclockwise, no resampling",
+    "crop_xyxy": [2400, 550, 6050, 1570],
+    "reference_band": 6,
+    "registration": "Integer translation by bounded normalized high-pass correlation, range -6 to +6 pixels per axis; validate on three disjoint areas; no elastic warping",
+    "normalization": "3x3 median filter, then negative log ratio to 101x101 local mean; this is relative contrast, not physical reflectance calibration",
+    "pca": "50,000 sampled pixels, fixed seed 20261030; standardized bands; first three components retained from all bands, reflection 001-012, and fluorescence 013-022",
+    "native_band_audit": "All 22 native bands retained. A PCA feature alone is not evidence of writing or a new character.",
+    "claim_limit": "No identification of ink chemistry, hand, chronology or sound values from these images. Repeated bands are not independent historical witnesses."
+  },
+  "crib": {
+    "text": "six marix morix vix",
+    "qualification": "Tentative published marginal reading, not independently known plaintext and not a demonstrated translation of any main-text passage",
+    "corpora": ["ZL3b-n", "IT2a-n"],
+    "tokenizations": ["EVA literal", "composed cth ckh cph cfh ch sh"],
+    "spacing": ["first bracket alternative, commas split", "first bracket alternative, commas removed"],
+    "models": ["bijection of glyph units to Latin characters", "homophonic cipher with deterministic decryption and multiple glyphs permitted for one Latin character"],
+    "search": "Four consecutive words with lengths 3,5,5,3 within one paragraph; separately 16-unit windows ignoring word boundaries within one paragraph",
+    "directions": ["forward", "reverse concatenated symbol sequence"],
+    "exclusions": "f116v excluded; uncertain signs, nonalphabetic data, missing text and illustration gaps cannot be wildcards",
+    "controls": "Synthetic positive examples, contradictory repeated symbols, and exhaustive independent mapping verification of every accepted candidate",
+    "claim_limit": "A match is only a constraint-compatible candidate; no language, translation, or decipherment claim without independent held-out prediction. Failure rejects only these finite model/reading combinations."
+  }
+}

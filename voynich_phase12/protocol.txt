@@ -1,0 +1,45 @@
+PHASE 12 - RECONSTRUCTION A PARTIR DES REGLES PUBLIEES
+Protocole fixé avant calculs quantitatifs, après lecture du guide et du code.
+Date : 29 octobre 2026 UTC. Aucune traduction validée n'est présupposée.
+
+Source : Scott Schechter, commit 71f2f3c91e9113d285ab21e024f1dd70c1f43c44.
+Le guide 07-reproduction-guide.md annonce quatre groupes EVA toujours nuls :
+cth, ckh, cph, cfh. L'audit compare, sur les entrées publiées et les occurrences
+en prose, les sorties du décodeur original avant et après leur suppression.
+Un résultat différent est une divergence avec la règle universelle du guide,
+pas une preuve que le signe a tel sens dans le manuscrit. L'auteur explore
+lui-même d'autres interprétations dans 18-null-analysis.md ; le test ne les
+réfute pas, mais mesure l'insuffisance de la règle telle que publiée.
+
+Reconstruction : conserver uniquement les 18 paires de départ du Round 1
+(étape 6 du guide), sans consulter le glossaire complet pour choisir une
+lecture. Deux variantes sont fixées : ensemble original de préfixes nuls
+d/l/ol/p/op/ch, puis ensemble étendu o/d/l/p/ol/op/ch/sh/s/k/qo.
+Toujours retirer les quatre signes ci-dessus. Enumérer, sans priorité de
+dictionnaire, toutes les suppressions suivantes : préfixe nul (répétable),
+ch ou f strictement médial, t/g/p final. Ne pas appliquer les corrections
+paléographiques (n/m, i/ii etc.) ni inventer un sens pour les mots non atteints.
+Les transitions ch/f respectent les unités de la tokenisation du décodeur ;
+les préfixes sont des suites de ces unités, jamais une coupe interne à sh/ch.
+Prendre toutes les lectures de départ accessibles, sans retenir arbitrairement
+la première. Décompter absence, réponse unique, plusieurs réponses.
+
+Les mots de départ sont ceux du guide, pas des traductions confirmées. Les
+résultats n'en confirment pas le sens. Une concordance avec le glossaire complet
+est une mesure de cohérence interne, pas d'exactitude linguistique.
+Tous les mots sont traités avec le même algorithme. Les folios f1r, f75r et
+f103r sont détaillés à titre de démonstration et non comme validation aveugle.
+
+Corps principal : lignes IVTFF dont la classe de locus commence par P, donc
+prose +P, @P, *P et =P incluses. Exclure des analyses quantitatives les mots
+dont la transcription brute contient ?, !, *, [, ], une virgule ou un
+caractère autre que a-z après suppression des balises et commentaires.
+Rapporter les exclusions. Pour comparaison historique, décompter aussi les
+sorties du parseur original sur toutes ses lignes sans en modifier les règles.
+
+Complément linguistique : vérifier les affirmations centrales de conjugaison
+de NOCERE à l'aide d'une grammaire et d'un dictionnaire universitaires. Limiter
+la conclusion au latin standard et aux formes/étiquettes effectivement citées.
+Ne pas transformer l'absence dans une référence en preuve d'inexistence dans
+tous les dialectes médiévaux. Ne pas ajuster les 18 significations de départ
+pour obtenir une meilleure couverture après observation des résultats.

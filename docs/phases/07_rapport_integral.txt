@@ -1,0 +1,166 @@
+[Page 1]
+VOYNICH  /  PHASE 7  /  EXPÉRIENCES SUR LES FRONTIÈRES
+28 OCT. 2026
+PRÉDICTION GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+1
+Un résultat concret : prévoir une partie
+de l’écriture
+Sur les cahiers exclus de l’apprentissage, un modèle local retrouve environ neuf espaces nets sur
+dix. Environ neuf espaces proposés sur dix correspondent aussi à la transcription. Il ne connaît ni la
+langue ni le sens des mots. Il prédit une convention graphique à partir des signes voisins.
+Transcription
+Espaces nets retrouvés
+Propositions correctes
+Cahiers exclus à tour de
+rôle
+ZL
+90,0 %
+90,1 %
+14
+IT
+89,2 %
+89,4 %
+14
+Chaque cahier est testé avec un modèle appris sur les autres. Le contexte utilise jusqu’à deux
+caractères EVA de chaque côté de la position examinée. Les espaces incertains sont exclus de
+l’apprentissage des étiquettes et du calcul de cette performance. Les deux transcriptions portent
+sur le même manuscrit : elles constituent une vérification de sensibilité, pas deux manuscrits
+indépendants.
+Un deuxième test ne voit aucun espace, même pendant l’apprentissage. Il apprend des groupes
+récurrents de signes puis les applique au cahier exclu. Avec 64 regroupements successifs, ces
+groupes traversent 19,88 % des espaces incertains de ZL, contre 2,52 % des espaces nets. Le
+rapport est d’environ 7,9.
+Ce résultat ne justifie pas de retirer tous les espaces. Les espaces nets correspondent à des
+barrières statistiques fortes. Les incertains forment une catégorie intermédiaire, à conserver comme
+telle jusqu’à l’examen des images. Le problème n’est donc pas simplement « garder ou supprimer
+tous les blancs ».
+Livrable utile pour la suite
+Une annotation de 2 394 séparations incertaines associe à chacune son locus, son contexte, la
+probabilité de séparation estimée hors cahier et le résultat du regroupement sans espaces. Toutes
+les marques originales sont conservées. Aucune correction automatique et aucun sens supposé ne
+sont imposés.
+Il s’agit d’une avancée méthodologique dans ce dossier, pas d’une découverte revendiquée comme nouvelle dans la
+littérature. L’hypothèse des unités et frontières est notamment étudiée par Rozanova et Temerev [1]. Nos calculs
+utilisent une implémentation propre, des données filtrées différemment et des validations distinctes.
+
+
+[Page 2]
+VOYNICH  /  PHASE 7  /  EXPÉRIENCES SUR LES FRONTIÈRES
+28 OCT. 2026
+PRÉDICTION GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+2
+Le test prédictif et ses témoins
+La source est l’IVTFF brut : « . » marque un espace jugé net par le transcripteur, « , » un espace
+incertain [2]. Les alternatives de signes, caractères illisibles et interruptions par dessin coupent le
+flux ; les fragments de moins de quatre caractères sont exclus. Les lignes ne sont jamais
+concaténées. Seuls les paragraphes classés Currier A ou B sont retenus.
+Deux modèles ont été fixés avant exécution : une paire de caractères voisins, puis un contexte de
+quatre caractères avec repli lissé vers la paire. Le seuil de décision reste 0,5. Aucun seuil n’est
+choisi sur les résultats de test. Les 14 cahiers se remplacent successivement comme ensemble
+exclu ; les témoins sont répartis en huit blocs contigus.
+Texte
+Rappel : espaces
+retrouvés
+Précision : propositions
+correctes
+F1
+Voynich ZL
+90,0 %
+90,1 %
+0,900
+Voynich IT
+89,2 %
+89,4 %
+0,893
+Pline, latin
+36,5 %
+87,8 %
+0,515
+Dante, italien
+65,7 %
+84,1 %
+0,737
+Naibbe sur Pline
+90,8 %
+93,7 %
+0,922
+Générateur Timm
+83,5 %
+78,1 %
+0,807
+Le contrôle Naibbe fait mieux que le Voynich. Un vrai texte transformé par un chiffre peut donc
+rendre ses séparateurs très prévisibles. Le générateur Timm, conçu sans message linguistique,
+obtient lui aussi une bonne performance. Retrouver les espaces n’identifie ni une langue ni la
+présence de sens.
+L’incertitude estimée par rééchantillonnage des cahiers donne pour ZL un rappel de 87,9 à 92,3 %
+et une précision de 89,6 à 90,9 % (quantiles 2,5-97,5 %). Ces intervalles rééchantillonnent des
+prédictions déjà calculées ; les modèles des plis partagent une grande partie de leur apprentissage.
+Ils ne constituent pas une confirmation indépendante.
+Comparabilité limitée : Pline contient environ 52 000 caractères, les autres témoins entre 51 000 et 172 000. Les
+genres, langues et partitions diffèrent. Ce tableau décrit ces six jeux précis avec un modèle identique ; il ne classe
+pas universellement les langues. Les données témoins et leur disposition artificielle héritent des limites
+documentées en phase 6.
+
+
+[Page 3]
+VOYNICH  /  PHASE 7  /  EXPÉRIENCES SUR LES FRONTIÈRES
+28 OCT. 2026
+PRÉDICTION GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+3
+Apprendre des groupes sans aucun
+espace
+Le regroupement fréquent de paires, ou BPE, apprend uniquement sur les chaînes de caractères
+privées de leurs séparateurs. Ses règles sont figées puis appliquées au cahier absent de
+l’apprentissage. Un espace est dit « traversé » lorsqu’il tombe à l’intérieur d’un groupe ainsi formé.
+Les groupes sont graphiques : leur statut de lettre, syllabe ou mot reste inconnu.
+Le test principal est fixé à 64 regroupements ; 0, 32 et 128 sont des sensibilités. L’analyse en unités composées
+commence par dix regroupements EVA définis à l’avance. Elle maintient le contraste : 21,47 % des incertains sont
+traversés, contre 2,75 % des espaces nets.
+Le contraste se retrouve dans A et B : en EVA brut à 64 regroupements, 22,63 % contre 3,41 % dans
+A ; 18,53 % contre 2,13 % dans B. L’écart global entre catégories vaut 17,36 points, avec un
+intervalle descriptif par cahier de 14,71 à 19,69 points.
+Un témoin replace les frontières en permutant les longueurs des morceaux dans chaque fragment,
+sans changer les lettres. Sur 100 tirages, environ 55 % de ces frontières artificielles sont traversées.
+Les frontières nettes observées sont donc beaucoup plus respectées que ces frontières déplacées.
+Ce contrôle ne reproduit toutefois pas toutes les contraintes possibles d’un système d’écriture.
+
+
+[Page 4]
+VOYNICH  /  PHASE 7  /  EXPÉRIENCES SUR LES FRONTIÈRES
+28 OCT. 2026
+PRÉDICTION GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+4
+Ce que cela change pour la transcription
+Deux classes à préserver
+Il faut garder les espaces nets comme contraintes fortes et traiter les séparations incertaines
+comme des alternatives pondérées. Un point de code EVA n’est pas automatiquement une lettre
+linguistique ; un groupe appris n’est pas automatiquement une syllabe. Notre résultat rend la
+recherche suivante plus précise sans décider de la langue.
+Comparaison directe ZL / IT
+Le rapprochement strict conserve 1 913 loci avec un flux de lettres identique et un seul fragment
+retenu de chaque côté. Parmi les 1 089 positions incertaines ZL de cet ensemble, IT sépare 700
+positions et en joint 389. À l’inverse, 12 227 des 12 270 espaces nets ZL sont également séparés
+dans IT. Les ambiguïtés de segmentation sont donc localisées, mais cet accord partage l’objet et les
+conventions de transcription.
+Vérification complémentaire sur des mesures publiées
+J’ai recalculé un petit jeu de mesures d’encre publié avec [1] : après leurs exclusions, 265 espaces
+nets mesurent en moyenne 4,98 pixels, contre 3,14 pour 21 incertains. Les distributions se
+chevauchent fortement (AUC 0,631). Ce sont les mesures des auteurs sur six feuillets, et non de
+nouvelles mesures d’image réalisées ici. Elles ne déterminent pas la fonction linguistique des
+espaces.
+Vérification et limites
+729 103 positions ont été recalculées, les premiers regroupements de chaque jeu contrôlés par une
+deuxième implémentation et les groupes primaires reconstruisent exactement leurs chaînes
+sources. Les prédictions peuvent échouer localement ; les exemples interactifs montrent ces
+erreurs. Les cahiers ont déjà été examinés dans les phases précédentes : cette validation est
+nouvelle pour ces modèles, pas vierge de toute exploration antérieure.
+Sources et reproduction
+[1] Rozanova et Temerev, prépublication du 17 août 2026, arXiv:2608.17096v1. Code et mesures publiés dans
+lrozanova/voynich-units. Pas de réplication intégrale ni de validation par les pairs revendiquée.
+[2] René Zandbergen, format IVTFF et conventions de transcription.
+[3] Michael A. Greshko (2025), The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich
+Manuscript-like ciphertext, DOI 10.1080/01611194.2025.2566408.
+[4] Torsten Timm et Andreas Schinner (2019/2020), A possible generating algorithm of the Voynich manuscript, DOI
+10.1080/01611194.2019.1596999.
+L’archive contient le protocole préalable, les données, les annotations, toutes les prédictions et règles apprises, les
+témoins, les licences, les scripts et les empreintes SHA-256. Aucune traduction n’est fournie.

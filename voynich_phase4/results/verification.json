@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    "4 control accuracies independently recalculated",
+    "36 solver objectives recomputed in Python",
+    "all train/test statistics recomputed",
+    "16 within-line null histograms match train and test",
+    "16 real cases have disjoint leaf pools",
+    "parser does not choose explicit alternatives",
+    "all key symbols present in fit and output index valid"
+  ],
+  "not_verified": [
+    "meaning of any Voynich candidate",
+    "independent paleographic reading of all glyphs",
+    "general impossibility of homophonic or other ciphers"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "total_positions_models_verified": 190328,
+  "max_probability_or_gain_error": 9.020562075079397e-16,
+  "all_test_leaves_disjoint_from_training": true,
+  "independent_null_draws": 4,
+  "cases": [
+    {
+      "positions_models_verified": 9366,
+      "max_abs_error": 8.881784197001252e-16,
+      "joint_gain": 0.007240066832795198,
+      "pooled_gain": 0.08199116419658269,
+      "case": "ZL_A",
+      "first_permutation_independent": "PASS"
+    },
+    {
+      "positions_models_verified": 23688,
+      "max_abs_error": 7.771561172376096e-16,
+      "joint_gain": 0.0029671846031201258,
+      "pooled_gain": 0.1856923083887655,
+      "case": "ZL_B"
+    },
+    {
+      "positions_models_verified": 11978,
+      "max_abs_error": 8.881784197001252e-16,
+      "joint_gain": 0.009027125394832221,
+      "pooled_gain": 0.08967811956568172,
+      "case": "IT_A"
+    },
+    {
+      "positions_models_verified": 29848,
+      "max_abs_error": 8.881784197001252e-16,
+      "joint_gain": 0.0031238132244285014,
+      "pooled_gain": 0.2024875080024814,
+      "case": "IT_B"
+    },
+    {
+      "positions_models_verified": 10480,
+      "max_abs_error": 9.020562075079397e-16,
+      "joint_gain": -0.07227838045807514,
+      "pooled_gain": -0.013012361085134247,
+      "case": "Latin_Pliny"
+    },
+    {
+      "positions_models_verified": 41660,
+      "max_abs_error": 8.881784197001252e-16,
+      "joint_gain": 0.03994499391648811,
+      "pooled_gain": 0.12479359414285121,
+      "case": "Italian_Paradiso"
+    },
+    {
+      "positions_models_verified": 41660,
+      "max_abs_error": 6.661338147750939e-16,
+      "joint_gain": -0.027470806161370296,
+      "pooled_gain": -0.0023395080635257993,
+      "case": "Naibbe_Pliny",
+      "first_permutation_independent": "PASS"
+    },
+    {
+      "positions_models_verified": 12688,
+      "max_abs_error": 8.881784197001252e-16,
+      "joint_gain": -0.03564381323138563,
+      "pooled_gain": -0.004700598420069184,
+      "case": "Timm_generated"
+    },
+    {
+      "positions_models_verified": 4480,
+      "max_abs_error": 4.440892098500626e-16,
+      "joint_gain": 0.0,
+      "pooled_gain": 1.969840993497943,
+      "case": "Toy_dependent"
+    },
+    {
+      "positions_models_verified": 4480,
+      "max_abs_error": 6.279698983036042e-16,
+      "joint_gain": 0.0,
+      "pooled_gain": 0.002301581831154014,
+      "case": "Toy_independent"
+    }
+  ],
+  "scope": "Primary raw alpha32 models only fully recomputed. Sensitivity models use the tested vector implementation. Manual metadata and linguistic interpretation are not validated by arithmetic checks."
+}

@@ -1,0 +1,19 @@
+{
+ "date":"2026-10-28",
+ "status":"Exploratory follow-up fixed before phase9 outcome calculations; not independent preregistration",
+ "question":"Does the previous token's ending improve held-out prediction of the current token's initial unit beyond coarse line/paragraph position and section/hand metadata?",
+ "inputs":"Frozen strict phase6 token slots: any uncertain-space chunk, alternative, unreadable symbol or drawing interruption remains an excluded barrier, never corrected. Originals restricted to P0 paragraph loci; controls keep their artificial ZL layout.",
+ "primary_cohort":"Current and preceding token must be strictly interior slots of a line, known and nonempty. No crossing unknown slots or lines.",
+ "folds":"Leave one whole quire out for Voynich, independently per Currier A/B and ZL/IT. Controls: eight contiguous groups of whole template pages. No test labels used in fitting.",
+ "models":"Hierarchical smoothed multinomial: global prior (symmetric pseudocount 0.5), section/hand, then section/hand x horizontal quartile x vertical paragraph quartile (single line is fifth category), then same context plus preceding final unit. Last two models compared.",
+ "smoothing_primary":32,
+ "smoothing_sensitivity":[8,128],
+ "representation_primary":"26 raw EVA letters (Latin alphabet for text controls)",
+ "representation_sensitivity":"Greedy fixed composites ckh,cth,cph,cfh,ch,sh,iiiin,iiin,iin,in plus letters. Graphic units only, no phonological claim.",
+ "primary_measure":"Mean held-out log2(P_neighbor(actual initial)/P_position(actual initial)) in bits per eligible target. Report losses, accuracy and all negative outcomes.",
+ "null":"199 permutations of source-end labels within page x identical horizontal/vertical position stratum, leaving all target labels and metadata fixed. Refit and re-evaluate every permutation. This is a conditional randomization diagnostic, not a valid-text generator or definitive inferential test.",
+ "null_seed":20261028,
+ "bootstrap":"2000 quire/block-cluster resamples of fixed out-of-fold gains; descriptive due to overlapping training folds. No refit in bootstrap.",
+ "secondary":"Lags 1,2,3 on the same target cohort, source must remain interior and entire intervening sequence known; clean-full-line sensitivity; adjacent identical tokens excluded sensitivity; decompose gain into q-versus-other and within-non-q contributions for Voynich.",
+ "limits":"Positions are transcription-slot proxies, not measured ink coordinates. Paragraph start/end flags parsed from raw IVTFF. ZL/IT share physical source and conventions. Controls differ in size, genre and layout; no classifier of meaning or language. Results cannot identify any key or translated word."
+}

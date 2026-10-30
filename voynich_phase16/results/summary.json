@@ -1,0 +1,3274 @@
+{
+  "ZL": {
+    "target_rows": 1,
+    "counts": {
+      "strict": {
+        "oror": 5,
+        "aror": 4,
+        "sheey": 127,
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "ororsheey": 0,
+        "arorsheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "split": {
+        "oror": 6,
+        "aror": 6,
+        "sheey": 148,
+        "oror sheey": 0,
+        "aror sheey": 1,
+        "ororsheey": 0,
+        "arorsheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "join": {
+        "oror": 6,
+        "aror": 4,
+        "sheey": 128,
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "ororsheey": 0,
+        "arorsheey": 1,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      }
+    },
+    "cross_line": {
+      "strict": {
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "split": {
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "join": {
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      }
+    },
+    "coverage": {
+      "left_j": {
+        "clean_word_occurrences": 32154,
+        "fully_mapped_occurrences": 12802,
+        "clean_word_types": 6940,
+        "fully_mapped_types": 2398,
+        "clean_prose_lines": 1852,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "abf ep xheaj"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "xbec iexihj abl ieaj pieaj sel ieabc"
+          },
+          {
+            "locus": "f8r.8",
+            "words": [
+              "dcho",
+              "dain"
+            ],
+            "decoded": "aie abf"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "pecbf"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "abfea jihblea"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "jxij ijxj iec iel jxij abg"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "pieabf ihe c iheaj"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tcheychedy"
+            ],
+            "decoded": "oie xihjihaj"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "ajxiec abcj"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "exiel ihj pexj"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "ael aiel abg"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "el ibc ea bc ihbc"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "iexihel aiel"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dol",
+              "chodoldy"
+            ],
+            "decoded": "ec blij jxbl ael ieaelaj"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "s",
+              "ain",
+              "aldy"
+            ],
+            "decoded": "eseaiel p bf blaj"
+          },
+          {
+            "locus": "f67r2.23",
+            "words": [
+              "oparchy",
+              "salsain"
+            ],
+            "decoded": "esbcij pblpbf"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofar",
+              "ar"
+            ],
+            "decoded": "peabc eobc bc"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "eiel elel"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "abcj"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "ablj jihj"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "dara"
+            ],
+            "decoded": "pelp abcb"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "jixj"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "pbfe"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "pblaj"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "abfj"
+          },
+          {
+            "locus": "f84v.41",
+            "words": [
+              "sor",
+              "otes",
+              "doltedy",
+              "otol",
+              "chedy"
+            ],
+            "decoded": "pec exhp aelxhaj exel ihaj"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "pelihj"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "abcij"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "eihaj"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "roseer"
+            ],
+            "decoded": "cephhc"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "ecbc elabc bf"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "abc elhhj el jj"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "jxhheaj xheabc blihj pj"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soysar",
+              "cheor"
+            ],
+            "decoded": "pejpbc ihec"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "jihea"
+          }
+        ]
+      },
+      "left_k": {
+        "clean_word_occurrences": 32154,
+        "fully_mapped_occurrences": 12802,
+        "clean_word_types": 6940,
+        "fully_mapped_types": 2398,
+        "clean_prose_lines": 1852,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "abf ep xheak"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "xbec iexihk abl ieak pieak sel ieabc"
+          },
+          {
+            "locus": "f8r.8",
+            "words": [
+              "dcho",
+              "dain"
+            ],
+            "decoded": "aie abf"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "pecbf"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "abfea kihblea"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "kxik ikxk iec iel kxik abg"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "pieabf ihe c iheak"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tcheychedy"
+            ],
+            "decoded": "oie xihkihak"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "akxiec abck"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "exiel ihk pexk"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "ael aiel abg"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "el ibc ea bc ihbc"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "iexihel aiel"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dol",
+              "chodoldy"
+            ],
+            "decoded": "ec blik kxbl ael ieaelak"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "s",
+              "ain",
+              "aldy"
+            ],
+            "decoded": "eseaiel p bf blak"
+          },
+          {
+            "locus": "f67r2.23",
+            "words": [
+              "oparchy",
+              "salsain"
+            ],
+            "decoded": "esbcik pblpbf"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofar",
+              "ar"
+            ],
+            "decoded": "peabc eobc bc"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "eiel elel"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "abck"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "ablk kihk"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "dara"
+            ],
+            "decoded": "pelp abcb"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "kixk"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "pbfe"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "pblak"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "abfk"
+          },
+          {
+            "locus": "f84v.41",
+            "words": [
+              "sor",
+              "otes",
+              "doltedy",
+              "otol",
+              "chedy"
+            ],
+            "decoded": "pec exhp aelxhak exel ihak"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "pelihk"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "abcik"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "eihak"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "roseer"
+            ],
+            "decoded": "cephhc"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "ecbc elabc bf"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "abc elhhk el kk"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "kxhheak xheabc blihk pk"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soysar",
+              "cheor"
+            ],
+            "decoded": "pekpbc ihec"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "kihea"
+          }
+        ]
+      },
+      "right_j": {
+        "clean_word_occurrences": 32154,
+        "fully_mapped_occurrences": 12802,
+        "clean_word_types": 6940,
+        "fully_mapped_types": 2398,
+        "clean_prose_lines": 1852,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "bcg fq yifbl"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "ycfd jfyjil bcm jfbl qjfbl tfm jfbcd"
+          },
+          {
+            "locus": "f8r.8",
+            "words": [
+              "dcho",
+              "dain"
+            ],
+            "decoded": "bjf bcg"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "qfdcg"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "bcgfb ljicmfb"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "lyjl jlyl jfd jfm lyjl bch"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "qjfbcg jif d jifbl"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tcheychedy"
+            ],
+            "decoded": "pjf yjiljibl"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "blyjfd bcdl"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "fyjfm jil qfyl"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "bfm bjfm bch"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "fm jcd fb cd jicd"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "jfyjifm bjfm"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dol",
+              "chodoldy"
+            ],
+            "decoded": "fd cmjl lycm bfm jfbfmbl"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "s",
+              "ain",
+              "aldy"
+            ],
+            "decoded": "ftfbjfm q cg cmbl"
+          },
+          {
+            "locus": "f67r2.23",
+            "words": [
+              "oparchy",
+              "salsain"
+            ],
+            "decoded": "ftcdjl qcmqcg"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofar",
+              "ar"
+            ],
+            "decoded": "qfbcd fpcd cd"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "fjfm fmfm"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "bcdl"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "bcml ljil"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "dara"
+            ],
+            "decoded": "qfmq bcdc"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "ljyl"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "qcgf"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "qcmbl"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "bcgl"
+          },
+          {
+            "locus": "f84v.41",
+            "words": [
+              "sor",
+              "otes",
+              "doltedy",
+              "otol",
+              "chedy"
+            ],
+            "decoded": "qfd fyiq bfmyibl fyfm jibl"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "qfmjil"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "bcdjl"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "fjibl"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "roseer"
+            ],
+            "decoded": "dfqiid"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "fdcd fmbcd cg"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "bcd fmiil fm ll"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "lyiifbl yifbcd cmjil ql"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soysar",
+              "cheor"
+            ],
+            "decoded": "qflqcd jifd"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "ljifb"
+          }
+        ]
+      },
+      "right_k": {
+        "clean_word_occurrences": 32154,
+        "fully_mapped_occurrences": 12802,
+        "clean_word_types": 6940,
+        "fully_mapped_types": 2398,
+        "clean_prose_lines": 1852,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "bcg fq yifbl"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "ycfd kfykil bcm kfbl qkfbl tfm kfbcd"
+          },
+          {
+            "locus": "f8r.8",
+            "words": [
+              "dcho",
+              "dain"
+            ],
+            "decoded": "bkf bcg"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "qfdcg"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "bcgfb lkicmfb"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "lykl klyl kfd kfm lykl bch"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "qkfbcg kif d kifbl"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tcheychedy"
+            ],
+            "decoded": "pkf ykilkibl"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "blykfd bcdl"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "fykfm kil qfyl"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "bfm bkfm bch"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "fm kcd fb cd kicd"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "kfykifm bkfm"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dol",
+              "chodoldy"
+            ],
+            "decoded": "fd cmkl lycm bfm kfbfmbl"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "s",
+              "ain",
+              "aldy"
+            ],
+            "decoded": "ftfbkfm q cg cmbl"
+          },
+          {
+            "locus": "f67r2.23",
+            "words": [
+              "oparchy",
+              "salsain"
+            ],
+            "decoded": "ftcdkl qcmqcg"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofar",
+              "ar"
+            ],
+            "decoded": "qfbcd fpcd cd"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "fkfm fmfm"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "bcdl"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "bcml lkil"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "dara"
+            ],
+            "decoded": "qfmq bcdc"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "lkyl"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "qcgf"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "qcmbl"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "bcgl"
+          },
+          {
+            "locus": "f84v.41",
+            "words": [
+              "sor",
+              "otes",
+              "doltedy",
+              "otol",
+              "chedy"
+            ],
+            "decoded": "qfd fyiq bfmyibl fyfm kibl"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "qfmkil"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "bcdkl"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "fkibl"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "roseer"
+            ],
+            "decoded": "dfqiid"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "fdcd fmbcd cg"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "bcd fmiil fm ll"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "lyiifbl yifbcd cmkil ql"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soysar",
+              "cheor"
+            ],
+            "decoded": "qflqcd kifd"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "lkifb"
+          }
+        ]
+      }
+    }
+  },
+  "IT": {
+    "target_rows": 0,
+    "counts": {
+      "strict": {
+        "oror": 5,
+        "aror": 6,
+        "sheey": 144,
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "ororsheey": 0,
+        "arorsheey": 1,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "split": {
+        "oror": 5,
+        "aror": 6,
+        "sheey": 144,
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "ororsheey": 0,
+        "arorsheey": 1,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "join": {
+        "oror": 5,
+        "aror": 6,
+        "sheey": 144,
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "ororsheey": 0,
+        "arorsheey": 1,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      }
+    },
+    "cross_line": {
+      "strict": {
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "split": {
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      },
+      "join": {
+        "oror sheey": 0,
+        "aror sheey": 0,
+        "oror tcheey": 0,
+        "aror dshey": 0,
+        "arorl sheey": 0,
+        "aror shedy": 0
+      }
+    },
+    "coverage": {
+      "left_j": {
+        "clean_word_occurrences": 37759,
+        "fully_mapped_occurrences": 15559,
+        "clean_word_types": 8026,
+        "fully_mapped_types": 2770,
+        "clean_prose_lines": 4051,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "abf ep xheaj"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "xbec iexihj abl ieaj pieaj sel ieabc"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "pecbf"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "abfea jihblea"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "jxij ijxj iec iel jxij abg"
+          },
+          {
+            "locus": "f17v.18",
+            "words": [
+              "otor",
+              "cheeor",
+              "ol",
+              "chol",
+              "dor",
+              "chr",
+              "or",
+              "eees"
+            ],
+            "decoded": "exec ihhec el iel aec ic ec hhhp"
+          },
+          {
+            "locus": "f20r.4",
+            "words": [
+              "ochol",
+              "ol",
+              "teey",
+              "otolchey"
+            ],
+            "decoded": "eiel el xhhj exelihj"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "pieabf ihe c iheaj"
+          },
+          {
+            "locus": "f27r.8",
+            "words": [
+              "ytchy",
+              "chy",
+              "tchol",
+              "dy",
+              "tchey",
+              "dain",
+              "chol",
+              "dal"
+            ],
+            "decoded": "jxij ij xiel aj xihj abf iel abl"
+          },
+          {
+            "locus": "f28v.9",
+            "words": [
+              "sor",
+              "chear",
+              "chl",
+              "s",
+              "choly",
+              "dar"
+            ],
+            "decoded": "pec ihbc il p ielj abc"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tchey",
+              "chedy"
+            ],
+            "decoded": "oie xihj ihaj"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "ajxiec abcj"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "exiel ihj pexj"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "ael aiel abg"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "el ibc ea bc ihbc"
+          },
+          {
+            "locus": "f42r.6",
+            "words": [
+              "dorain",
+              "char"
+            ],
+            "decoded": "aecbf ibc"
+          },
+          {
+            "locus": "f43v.10",
+            "words": [
+              "tar",
+              "chor",
+              "ar",
+              "aldar",
+              "chdy",
+              "daldar",
+              "chepy",
+              "yteedy",
+              "ypchey",
+              "pchedy",
+              "yfor"
+            ],
+            "decoded": "xbc iec bc blabc iaj ablabc ihsj jxhhaj jsihj sihaj joec"
+          },
+          {
+            "locus": "f47v.10",
+            "words": [
+              "chotcho",
+              "ltchey",
+              "o",
+              "tcho",
+              "tchy",
+              "dy",
+              "chol",
+              "chody",
+              "dar"
+            ],
+            "decoded": "iexie lxihj e xie xij aj iel ieaj abc"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "iexihel aiel"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dal",
+              "chodoldy"
+            ],
+            "decoded": "ec blij jxbl abl ieaelaj"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "dain",
+              "aldy"
+            ],
+            "decoded": "eseaiel abf blaj"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofor",
+              "ar"
+            ],
+            "decoded": "peabc eoec bc"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "eiel elel"
+          },
+          {
+            "locus": "f67r2.50",
+            "words": [
+              "choeey",
+              "sar"
+            ],
+            "decoded": "iehhj pbc"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "abcj"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "ablj jihj"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "daro"
+            ],
+            "decoded": "pelp abce"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "jixj"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "pbfe"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "pblaj"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "abfj"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "pelihj"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "abcij"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "eihaj"
+          },
+          {
+            "locus": "f85r1.35",
+            "words": [
+              "sar",
+              "chedar",
+              "olpchdy",
+              "otol",
+              "otchedy"
+            ],
+            "decoded": "pbc ihabc elsiaj exel exihaj"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "sosees"
+            ],
+            "decoded": "pephhp"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "ecbc elabc bf"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "abc elhhj el jj"
+          },
+          {
+            "locus": "f87r.16",
+            "words": [
+              "yteeos",
+              "cheol",
+              "dcheeol"
+            ],
+            "decoded": "jxhhep ihel aihhel"
+          },
+          {
+            "locus": "f89r1.18",
+            "words": [
+              "dals",
+              "al",
+              "dal",
+              "cheody",
+              "dainaldy",
+              "al",
+              "daldal"
+            ],
+            "decoded": "ablp bl abl iheaj abfblaj bl ablabl"
+          },
+          {
+            "locus": "f94r.9",
+            "words": [
+              "otar",
+              "chdy",
+              "dytchdy"
+            ],
+            "decoded": "exbc iaj ajxiaj"
+          },
+          {
+            "locus": "f96r.12",
+            "words": [
+              "dcheor",
+              "cheol",
+              "cheodain",
+              "ol",
+              "dy",
+              "d",
+              "chs",
+              "archeody"
+            ],
+            "decoded": "aihec ihel iheabf el aj a ip bciheaj"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "jxhheaj xheabc blihj pj"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soy",
+              "sar",
+              "cheor"
+            ],
+            "decoded": "pej pbc ihec"
+          },
+          {
+            "locus": "f105r.23",
+            "words": [
+              "dchees",
+              "opchey",
+              "aeeodeey",
+              "chefchey"
+            ],
+            "decoded": "aihhp esihj bhheahhj ihoihj"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "jihea"
+          },
+          {
+            "locus": "f115v.28",
+            "words": [
+              "ychey",
+              "lcho",
+              "lor",
+              "chedy",
+              "chol",
+              "chedy",
+              "chdy"
+            ],
+            "decoded": "jihj lie lec ihaj iel ihaj iaj"
+          },
+          {
+            "locus": "f116r.14",
+            "words": [
+              "sain",
+              "chey",
+              "chear",
+              "ain",
+              "chll",
+              "s",
+              "oleedy"
+            ],
+            "decoded": "pbf ihj ihbc bf ill p elhhaj"
+          }
+        ]
+      },
+      "left_k": {
+        "clean_word_occurrences": 37759,
+        "fully_mapped_occurrences": 15559,
+        "clean_word_types": 8026,
+        "fully_mapped_types": 2770,
+        "clean_prose_lines": 4051,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "abf ep xheak"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "xbec iexihk abl ieak pieak sel ieabc"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "pecbf"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "abfea kihblea"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "kxik ikxk iec iel kxik abg"
+          },
+          {
+            "locus": "f17v.18",
+            "words": [
+              "otor",
+              "cheeor",
+              "ol",
+              "chol",
+              "dor",
+              "chr",
+              "or",
+              "eees"
+            ],
+            "decoded": "exec ihhec el iel aec ic ec hhhp"
+          },
+          {
+            "locus": "f20r.4",
+            "words": [
+              "ochol",
+              "ol",
+              "teey",
+              "otolchey"
+            ],
+            "decoded": "eiel el xhhk exelihk"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "pieabf ihe c iheak"
+          },
+          {
+            "locus": "f27r.8",
+            "words": [
+              "ytchy",
+              "chy",
+              "tchol",
+              "dy",
+              "tchey",
+              "dain",
+              "chol",
+              "dal"
+            ],
+            "decoded": "kxik ik xiel ak xihk abf iel abl"
+          },
+          {
+            "locus": "f28v.9",
+            "words": [
+              "sor",
+              "chear",
+              "chl",
+              "s",
+              "choly",
+              "dar"
+            ],
+            "decoded": "pec ihbc il p ielk abc"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tchey",
+              "chedy"
+            ],
+            "decoded": "oie xihk ihak"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "akxiec abck"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "exiel ihk pexk"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "ael aiel abg"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "el ibc ea bc ihbc"
+          },
+          {
+            "locus": "f42r.6",
+            "words": [
+              "dorain",
+              "char"
+            ],
+            "decoded": "aecbf ibc"
+          },
+          {
+            "locus": "f43v.10",
+            "words": [
+              "tar",
+              "chor",
+              "ar",
+              "aldar",
+              "chdy",
+              "daldar",
+              "chepy",
+              "yteedy",
+              "ypchey",
+              "pchedy",
+              "yfor"
+            ],
+            "decoded": "xbc iec bc blabc iak ablabc ihsk kxhhak ksihk sihak koec"
+          },
+          {
+            "locus": "f47v.10",
+            "words": [
+              "chotcho",
+              "ltchey",
+              "o",
+              "tcho",
+              "tchy",
+              "dy",
+              "chol",
+              "chody",
+              "dar"
+            ],
+            "decoded": "iexie lxihk e xie xik ak iel ieak abc"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "iexihel aiel"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dal",
+              "chodoldy"
+            ],
+            "decoded": "ec blik kxbl abl ieaelak"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "dain",
+              "aldy"
+            ],
+            "decoded": "eseaiel abf blak"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofor",
+              "ar"
+            ],
+            "decoded": "peabc eoec bc"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "eiel elel"
+          },
+          {
+            "locus": "f67r2.50",
+            "words": [
+              "choeey",
+              "sar"
+            ],
+            "decoded": "iehhk pbc"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "abck"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "ablk kihk"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "daro"
+            ],
+            "decoded": "pelp abce"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "kixk"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "pbfe"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "pblak"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "abfk"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "pelihk"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "abcik"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "eihak"
+          },
+          {
+            "locus": "f85r1.35",
+            "words": [
+              "sar",
+              "chedar",
+              "olpchdy",
+              "otol",
+              "otchedy"
+            ],
+            "decoded": "pbc ihabc elsiak exel exihak"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "sosees"
+            ],
+            "decoded": "pephhp"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "ecbc elabc bf"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "abc elhhk el kk"
+          },
+          {
+            "locus": "f87r.16",
+            "words": [
+              "yteeos",
+              "cheol",
+              "dcheeol"
+            ],
+            "decoded": "kxhhep ihel aihhel"
+          },
+          {
+            "locus": "f89r1.18",
+            "words": [
+              "dals",
+              "al",
+              "dal",
+              "cheody",
+              "dainaldy",
+              "al",
+              "daldal"
+            ],
+            "decoded": "ablp bl abl iheak abfblak bl ablabl"
+          },
+          {
+            "locus": "f94r.9",
+            "words": [
+              "otar",
+              "chdy",
+              "dytchdy"
+            ],
+            "decoded": "exbc iak akxiak"
+          },
+          {
+            "locus": "f96r.12",
+            "words": [
+              "dcheor",
+              "cheol",
+              "cheodain",
+              "ol",
+              "dy",
+              "d",
+              "chs",
+              "archeody"
+            ],
+            "decoded": "aihec ihel iheabf el ak a ip bciheak"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "kxhheak xheabc blihk pk"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soy",
+              "sar",
+              "cheor"
+            ],
+            "decoded": "pek pbc ihec"
+          },
+          {
+            "locus": "f105r.23",
+            "words": [
+              "dchees",
+              "opchey",
+              "aeeodeey",
+              "chefchey"
+            ],
+            "decoded": "aihhp esihk bhheahhk ihoihk"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "kihea"
+          },
+          {
+            "locus": "f115v.28",
+            "words": [
+              "ychey",
+              "lcho",
+              "lor",
+              "chedy",
+              "chol",
+              "chedy",
+              "chdy"
+            ],
+            "decoded": "kihk lie lec ihak iel ihak iak"
+          },
+          {
+            "locus": "f116r.14",
+            "words": [
+              "sain",
+              "chey",
+              "chear",
+              "ain",
+              "chll",
+              "s",
+              "oleedy"
+            ],
+            "decoded": "pbf ihk ihbc bf ill p elhhak"
+          }
+        ]
+      },
+      "right_j": {
+        "clean_word_occurrences": 37759,
+        "fully_mapped_occurrences": 15559,
+        "clean_word_types": 8026,
+        "fully_mapped_types": 2770,
+        "clean_prose_lines": 4051,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "bcg fq yifbl"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "ycfd jfyjil bcm jfbl qjfbl tfm jfbcd"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "qfdcg"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "bcgfb ljicmfb"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "lyjl jlyl jfd jfm lyjl bch"
+          },
+          {
+            "locus": "f17v.18",
+            "words": [
+              "otor",
+              "cheeor",
+              "ol",
+              "chol",
+              "dor",
+              "chr",
+              "or",
+              "eees"
+            ],
+            "decoded": "fyfd jiifd fm jfm bfd jd fd iiiq"
+          },
+          {
+            "locus": "f20r.4",
+            "words": [
+              "ochol",
+              "ol",
+              "teey",
+              "otolchey"
+            ],
+            "decoded": "fjfm fm yiil fyfmjil"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "qjfbcg jif d jifbl"
+          },
+          {
+            "locus": "f27r.8",
+            "words": [
+              "ytchy",
+              "chy",
+              "tchol",
+              "dy",
+              "tchey",
+              "dain",
+              "chol",
+              "dal"
+            ],
+            "decoded": "lyjl jl yjfm bl yjil bcg jfm bcm"
+          },
+          {
+            "locus": "f28v.9",
+            "words": [
+              "sor",
+              "chear",
+              "chl",
+              "s",
+              "choly",
+              "dar"
+            ],
+            "decoded": "qfd jicd jm q jfml bcd"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tchey",
+              "chedy"
+            ],
+            "decoded": "pjf yjil jibl"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "blyjfd bcdl"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "fyjfm jil qfyl"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "bfm bjfm bch"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "fm jcd fb cd jicd"
+          },
+          {
+            "locus": "f42r.6",
+            "words": [
+              "dorain",
+              "char"
+            ],
+            "decoded": "bfdcg jcd"
+          },
+          {
+            "locus": "f43v.10",
+            "words": [
+              "tar",
+              "chor",
+              "ar",
+              "aldar",
+              "chdy",
+              "daldar",
+              "chepy",
+              "yteedy",
+              "ypchey",
+              "pchedy",
+              "yfor"
+            ],
+            "decoded": "ycd jfd cd cmbcd jbl bcmbcd jitl lyiibl ltjil tjibl lpfd"
+          },
+          {
+            "locus": "f47v.10",
+            "words": [
+              "chotcho",
+              "ltchey",
+              "o",
+              "tcho",
+              "tchy",
+              "dy",
+              "chol",
+              "chody",
+              "dar"
+            ],
+            "decoded": "jfyjf myjil f yjf yjl bl jfm jfbl bcd"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "jfyjifm bjfm"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dal",
+              "chodoldy"
+            ],
+            "decoded": "fd cmjl lycm bcm jfbfmbl"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "dain",
+              "aldy"
+            ],
+            "decoded": "ftfbjfm bcg cmbl"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofor",
+              "ar"
+            ],
+            "decoded": "qfbcd fpfd cd"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "fjfm fmfm"
+          },
+          {
+            "locus": "f67r2.50",
+            "words": [
+              "choeey",
+              "sar"
+            ],
+            "decoded": "jfiil qcd"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "bcdl"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "bcml ljil"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "daro"
+            ],
+            "decoded": "qfmq bcdf"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "ljyl"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "qcgf"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "qcmbl"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "bcgl"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "qfmjil"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "bcdjl"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "fjibl"
+          },
+          {
+            "locus": "f85r1.35",
+            "words": [
+              "sar",
+              "chedar",
+              "olpchdy",
+              "otol",
+              "otchedy"
+            ],
+            "decoded": "qcd jibcd fmtjbl fyfm fyjibl"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "sosees"
+            ],
+            "decoded": "qfqiiq"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "fdcd fmbcd cg"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "bcd fmiil fm ll"
+          },
+          {
+            "locus": "f87r.16",
+            "words": [
+              "yteeos",
+              "cheol",
+              "dcheeol"
+            ],
+            "decoded": "lyiifq jifm bjiifm"
+          },
+          {
+            "locus": "f89r1.18",
+            "words": [
+              "dals",
+              "al",
+              "dal",
+              "cheody",
+              "dainaldy",
+              "al",
+              "daldal"
+            ],
+            "decoded": "bcmq cm bcm jifbl bcgcmbl cm bcmbcm"
+          },
+          {
+            "locus": "f94r.9",
+            "words": [
+              "otar",
+              "chdy",
+              "dytchdy"
+            ],
+            "decoded": "fycd jbl blyjbl"
+          },
+          {
+            "locus": "f96r.12",
+            "words": [
+              "dcheor",
+              "cheol",
+              "cheodain",
+              "ol",
+              "dy",
+              "d",
+              "chs",
+              "archeody"
+            ],
+            "decoded": "bjifd jifm jifbcg fm bl b jq cdjifbl"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "lyiifbl yifbcd cmjil ql"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soy",
+              "sar",
+              "cheor"
+            ],
+            "decoded": "qfl qcd jifd"
+          },
+          {
+            "locus": "f105r.23",
+            "words": [
+              "dchees",
+              "opchey",
+              "aeeodeey",
+              "chefchey"
+            ],
+            "decoded": "bjiiq ftjil ciifbiil jipjil"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "ljifb"
+          },
+          {
+            "locus": "f115v.28",
+            "words": [
+              "ychey",
+              "lcho",
+              "lor",
+              "chedy",
+              "chol",
+              "chedy",
+              "chdy"
+            ],
+            "decoded": "ljil mjf mfd jibl jfm jibl jbl"
+          },
+          {
+            "locus": "f116r.14",
+            "words": [
+              "sain",
+              "chey",
+              "chear",
+              "ain",
+              "chll",
+              "s",
+              "oleedy"
+            ],
+            "decoded": "qcg jil jicd cg jmm q fmiibl"
+          }
+        ]
+      },
+      "right_k": {
+        "clean_word_occurrences": 37759,
+        "fully_mapped_occurrences": 15559,
+        "clean_word_types": 8026,
+        "fully_mapped_types": 2770,
+        "clean_prose_lines": 4051,
+        "fully_mapped_prose_lines": [
+          {
+            "locus": "f1r.10",
+            "words": [
+              "dain",
+              "os",
+              "teody"
+            ],
+            "decoded": "bcg fq yifbl"
+          },
+          {
+            "locus": "f1v.10",
+            "words": [
+              "taor",
+              "chotchey",
+              "dal",
+              "chody",
+              "schody",
+              "pol",
+              "chodar"
+            ],
+            "decoded": "ycfd kfykil bcm kfbl qkfbl tfm kfbcd"
+          },
+          {
+            "locus": "f8v.11",
+            "words": [
+              "sorain"
+            ],
+            "decoded": "qfdcg"
+          },
+          {
+            "locus": "f16r.4",
+            "words": [
+              "dainod",
+              "ychealod"
+            ],
+            "decoded": "bcgfb lkicmfb"
+          },
+          {
+            "locus": "f16v.5",
+            "words": [
+              "ytchy",
+              "chyty",
+              "chor",
+              "chol",
+              "ytchy",
+              "dan"
+            ],
+            "decoded": "lykl klyl kfd kfm lykl bch"
+          },
+          {
+            "locus": "f17v.18",
+            "words": [
+              "otor",
+              "cheeor",
+              "ol",
+              "chol",
+              "dor",
+              "chr",
+              "or",
+              "eees"
+            ],
+            "decoded": "fyfd kiifd fm kfm bfd kd fd iiiq"
+          },
+          {
+            "locus": "f20r.4",
+            "words": [
+              "ochol",
+              "ol",
+              "teey",
+              "otolchey"
+            ],
+            "decoded": "fkfm fm yiil fyfmkil"
+          },
+          {
+            "locus": "f20r.8",
+            "words": [
+              "schodain",
+              "cheo",
+              "r",
+              "cheody"
+            ],
+            "decoded": "qkfbcg kif d kifbl"
+          },
+          {
+            "locus": "f27r.8",
+            "words": [
+              "ytchy",
+              "chy",
+              "tchol",
+              "dy",
+              "tchey",
+              "dain",
+              "chol",
+              "dal"
+            ],
+            "decoded": "lykl kl ykfm bl ykil bcg kfm bcm"
+          },
+          {
+            "locus": "f28v.9",
+            "words": [
+              "sor",
+              "chear",
+              "chl",
+              "s",
+              "choly",
+              "dar"
+            ],
+            "decoded": "qfd kicd km q kfml bcd"
+          },
+          {
+            "locus": "f32r.6",
+            "words": [
+              "fcho",
+              "tchey",
+              "chedy"
+            ],
+            "decoded": "pkf ykil kibl"
+          },
+          {
+            "locus": "f32r.9",
+            "words": [
+              "dytchor",
+              "dary"
+            ],
+            "decoded": "blykfd bcdl"
+          },
+          {
+            "locus": "f32r.16",
+            "words": [
+              "otchol",
+              "chey",
+              "soty"
+            ],
+            "decoded": "fykfm kil qfyl"
+          },
+          {
+            "locus": "f32r.19",
+            "words": [
+              "dol",
+              "dchol",
+              "dan"
+            ],
+            "decoded": "bfm bkfm bch"
+          },
+          {
+            "locus": "f35v.13",
+            "words": [
+              "ol",
+              "char",
+              "od",
+              "ar",
+              "chear"
+            ],
+            "decoded": "fm kcd fb cd kicd"
+          },
+          {
+            "locus": "f42r.6",
+            "words": [
+              "dorain",
+              "char"
+            ],
+            "decoded": "bfdcg kcd"
+          },
+          {
+            "locus": "f43v.10",
+            "words": [
+              "tar",
+              "chor",
+              "ar",
+              "aldar",
+              "chdy",
+              "daldar",
+              "chepy",
+              "yteedy",
+              "ypchey",
+              "pchedy",
+              "yfor"
+            ],
+            "decoded": "ycd kfd cd cmbcd kbl bcmbcd kitl lyiibl ltkil tkibl lpfd"
+          },
+          {
+            "locus": "f47v.10",
+            "words": [
+              "chotcho",
+              "ltchey",
+              "o",
+              "tcho",
+              "tchy",
+              "dy",
+              "chol",
+              "chody",
+              "dar"
+            ],
+            "decoded": "kfykf mykil f ykf ykl bl kfm kfbl bcd"
+          },
+          {
+            "locus": "f49r.11",
+            "words": [
+              "chotcheol",
+              "dchol"
+            ],
+            "decoded": "kfykifm bkfm"
+          },
+          {
+            "locus": "f54v.15",
+            "words": [
+              "or",
+              "alchy",
+              "ytal",
+              "dal",
+              "chodoldy"
+            ],
+            "decoded": "fd cmkl lycm bcm kfbfmbl"
+          },
+          {
+            "locus": "f67r2.13",
+            "words": [
+              "opodchol",
+              "dain",
+              "aldy"
+            ],
+            "decoded": "ftfbkfm bcg cmbl"
+          },
+          {
+            "locus": "f67r2.24",
+            "words": [
+              "sodar",
+              "ofor",
+              "ar"
+            ],
+            "decoded": "qfbcd fpfd cd"
+          },
+          {
+            "locus": "f67r2.30",
+            "words": [
+              "ochol",
+              "olol"
+            ],
+            "decoded": "fkfm fmfm"
+          },
+          {
+            "locus": "f67r2.50",
+            "words": [
+              "choeey",
+              "sar"
+            ],
+            "decoded": "kfiil qcd"
+          },
+          {
+            "locus": "f68r1.6",
+            "words": [
+              "dary"
+            ],
+            "decoded": "bcdl"
+          },
+          {
+            "locus": "f75r.48",
+            "words": [
+              "daly",
+              "ychey"
+            ],
+            "decoded": "bcml lkil"
+          },
+          {
+            "locus": "f75r.49",
+            "words": [
+              "sols",
+              "daro"
+            ],
+            "decoded": "qfmq bcdf"
+          },
+          {
+            "locus": "f75r.50",
+            "words": [
+              "ychty"
+            ],
+            "decoded": "lkyl"
+          },
+          {
+            "locus": "f75r.51",
+            "words": [
+              "saino"
+            ],
+            "decoded": "qcgf"
+          },
+          {
+            "locus": "f75r.52",
+            "words": [
+              "saldy"
+            ],
+            "decoded": "qcmbl"
+          },
+          {
+            "locus": "f75r.53",
+            "words": [
+              "dainy"
+            ],
+            "decoded": "bcgl"
+          },
+          {
+            "locus": "f84v.47",
+            "words": [
+              "solchey"
+            ],
+            "decoded": "qfmkil"
+          },
+          {
+            "locus": "f84v.49",
+            "words": [
+              "darchy"
+            ],
+            "decoded": "bcdkl"
+          },
+          {
+            "locus": "f84v.51",
+            "words": [
+              "ochedy"
+            ],
+            "decoded": "fkibl"
+          },
+          {
+            "locus": "f85r1.35",
+            "words": [
+              "sar",
+              "chedar",
+              "olpchdy",
+              "otol",
+              "otchedy"
+            ],
+            "decoded": "qcd kibcd fmtkbl fyfm fykibl"
+          },
+          {
+            "locus": "f85r2.6",
+            "words": [
+              "sosees"
+            ],
+            "decoded": "qfqiiq"
+          },
+          {
+            "locus": "f85r2.17",
+            "words": [
+              "orar",
+              "oldar",
+              "ain"
+            ],
+            "decoded": "fdcd fmbcd cg"
+          },
+          {
+            "locus": "f86v4.9",
+            "words": [
+              "dar",
+              "oleey",
+              "ol",
+              "yy"
+            ],
+            "decoded": "bcd fmiil fm ll"
+          },
+          {
+            "locus": "f87r.16",
+            "words": [
+              "yteeos",
+              "cheol",
+              "dcheeol"
+            ],
+            "decoded": "lyiifq kifm bkiifm"
+          },
+          {
+            "locus": "f89r1.18",
+            "words": [
+              "dals",
+              "al",
+              "dal",
+              "cheody",
+              "dainaldy",
+              "al",
+              "daldal"
+            ],
+            "decoded": "bcmq cm bcm kifbl bcgcmbl cm bcmbcm"
+          },
+          {
+            "locus": "f94r.9",
+            "words": [
+              "otar",
+              "chdy",
+              "dytchdy"
+            ],
+            "decoded": "fycd kbl blykbl"
+          },
+          {
+            "locus": "f96r.12",
+            "words": [
+              "dcheor",
+              "cheol",
+              "cheodain",
+              "ol",
+              "dy",
+              "d",
+              "chs",
+              "archeody"
+            ],
+            "decoded": "bkifd kifm kifbcg fm bl b kq cdkifbl"
+          },
+          {
+            "locus": "f96v.6",
+            "words": [
+              "yteeody",
+              "teodar",
+              "alchey",
+              "sy"
+            ],
+            "decoded": "lyiifbl yifbcd cmkil ql"
+          },
+          {
+            "locus": "f96v.13",
+            "words": [
+              "soy",
+              "sar",
+              "cheor"
+            ],
+            "decoded": "qfl qcd kifd"
+          },
+          {
+            "locus": "f105r.23",
+            "words": [
+              "dchees",
+              "opchey",
+              "aeeodeey",
+              "chefchey"
+            ],
+            "decoded": "bkiiq ftkil ciifbiil kipkil"
+          },
+          {
+            "locus": "f114r.3",
+            "words": [
+              "ycheod"
+            ],
+            "decoded": "lkifb"
+          },
+          {
+            "locus": "f115v.28",
+            "words": [
+              "ychey",
+              "lcho",
+              "lor",
+              "chedy",
+              "chol",
+              "chedy",
+              "chdy"
+            ],
+            "decoded": "lkil mkf mfd kibl kfm kibl kbl"
+          },
+          {
+            "locus": "f116r.14",
+            "words": [
+              "sain",
+              "chey",
+              "chear",
+              "ain",
+              "chll",
+              "s",
+              "oleedy"
+            ],
+            "decoded": "qcg kil kicd cg kmm q fmiibl"
+          }
+        ]
+      }
+    }
+  }
+}

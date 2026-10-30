@@ -1,0 +1,553 @@
+[Page 1]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+1
+Décoder le Voynich : ce que les tests
+établissent
+Une recherche documentaire approfondie, deux expériences nouvelles et leurs fichiers de
+reproduction. Ce dossier poursuit les phases précédentes sur le manuscrit Voynich, conservé à Yale
+sous la cote MS 408. Il ne présente aucune traduction comme acquise.
+Travail réalisé dans cette phase
+Résultat vérifié
+17 références principales examinées
+Sources matérielles, articles, actes et prépublications ;
+niveau d’accès indiqué pour chacune.
+80 exécutions nouvelles du solveur
+16 contrôles de calibration, 32 configurations du manuscrit
+et 32 témoins mélangés.
+8 jeux de données de voisinage
+Deux transcriptions, deux variétés A/B et quatre témoins ;
+1 600 randomisations.
+Audit indépendant des calculs
+80 fonctions de score recalculées et 227 810
+comparaisons de distance vérifiées.
+Le résultat principal
+Le solveur corrigé sait récupérer les textes témoins, mais ne fournit pas de lecture du manuscrit. Sur
+les unités tenues à l’écart de l’ajustement, les quatre contrôles latins dépassent 99,85 % de
+récupération ; les quatre contrôles italiens atteignent 100 %. Ce sont des essais synthétiques ciblés,
+pas une mesure de capacité générale à lire une écriture inconnue.
+Les 32 sorties du manuscrit respectent désormais la segmentation imposée pendant l’ajustement.
+Quatorze la respectent entièrement sur les feuillets réservés, contre zéro avant correction. Cela
+corrige un défaut du modèle ; cela ne transforme pas les sorties en latin ou en italien.
+La piste à privilégier
+Étudier ensemble les signes, les espaces et les voisinages. Dans les deux transcriptions, les
+dépendances entre la fin d’un mot et le début du suivant persistent après les mélanges de contrôle.
+Elles peuvent venir d’une langue, d’un codage, d’une convention graphique ou d’un procédé de
+génération : leur sens reste indéterminé.
+Statut : exploration reproductible, non article évalué par les pairs. Les jugements de lisibilité sont une inspection
+interne, non une validation linguistique aveugle. Les lectures candidates sont explicitement marquées « aucune
+traduction validée ».
+
+
+[Page 2]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+2
+Repartir de l’objet et des signes
+Ce que les sources matérielles permettent de dire
+Le rapport radiocarbone original de Greg Hodgins donne, pour sa calibration combinée, un intervalle
+de 1404 à 1438 à 95,4 %. Il distingue explicitement l’âge du parchemin de la date d’écriture [17].
+Cette contrainte historique n’identifie ni une langue ni un système de chiffre.
+Le rapport McCrone du 1er avril 2009 décrit des prélèvements et l’emploi de microscopie, de
+spectroscopie infrarouge, de diffraction X et d’analyse élémentaire au microscope électronique. Les
+deux premières pages ont été examinées ici [2]. Aucune nouvelle analyse chimique ou
+multispectrale n’a été réalisée.
+L’étude paléographique de Lisa Fagin Davis propose cinq mains [3]. Cette attribution est une donnée
+de recherche à prendre en compte dans les comparaisons. Un identifiant de main n’est ni l’identité
+d’un auteur ni la preuve d’une langue distincte. Currier A et B désignent ici des classes de
+distribution, sans présumer deux langues.
+Transcrire, déchiffrer, traduire
+Niveau
+Ce qui serait nécessaire
+État du dossier
+Transcription
+Relier chaque signe visible à un identifiant et
+conserver les hésitations.
+Transcriptions ZL et IT existantes ;
+ambiguïtés exclues ou coupures explicites.
+Déchiffrement
+Une règle stable transforme les signes en
+unités interprétables.
+Aucune règle validée sur le manuscrit.
+Traduction
+Une langue et une grammaire justifient le
+sens des passages.
+Aucun passage traduit avec validation.
+La phase 3 avait aligné 384 loci sur un pilote de 12 pages et examiné huit zones d’image avec l’aide
+des transcriptions. Les formes okcheor, otcheody et otald restent des points de repère provisoires.
+Leur signification est inconnue. okols n’est pas retenu comme mot sûr lorsque l’espace est ambigu.
+Ce travail n’équivaut pas à deux lectures paléographiques indépendantes à l’aveugle.
+Une amélioration de contraste peut faciliter l’examen d’encre déjà visible. Une reconstruction générative ne
+constitue jamais une preuve de la forme originale d’un signe. Une identification supposée de plante ne doit pas
+fournir arbitrairement le mot à obtenir.
+
+
+[Page 3]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+3
+Pourquoi la littérature reste divisée
+Famille de travaux
+Ce qu’elle apporte
+Ce qu’elle ne démontre pas
+Structure linguistique
+[4-7]
+Prévisibilité des signes, vocabulaires
+différenciés et organisation lexicale à
+plusieurs échelles.
+Ni langue déterminée ni sens de mots
+récupéré.
+Génération par copie
+[8-9,15]
+Des procédés sans message peuvent
+produire certaines régularités voisines
+du Voynich.
+Que le manuscrit a effectivement été
+fabriqué ainsi.
+Chiffres constructifs
+[10,14]
+Un texte porteur de sens peut être
+transformé en séquences présentant
+plusieurs propriétés comparables.
+Que le procédé proposé est la clé
+historique.
+Comparaisons calibrées
+[16]
+Confronter générateurs et chiffres avec
+contrôles, budget de recherche et
+observations réservées.
+L’exclusion de tous les systèmes
+possibles.
+Les publications récentes changent les tests à faire
+Deux articles publiés en ligne en septembre 2026 traitent, respectivement, de contraintes de
+position des signes [14] et d’évolution du vocabulaire [15]. Seuls leurs résumés éditeurs étaient
+accessibles. Je les utilise pour définir des questions, sans présenter leurs conclusions comme
+indépendamment vérifiées.
+La prépublication de Zhang et Sheng du 25 octobre 2026 compare plusieurs générateurs et chiffres,
+puis recherche des traces de langue sans déchiffrement. Certains chiffres à clé variable réduisent
+l’écart avec les modèles de copie. Le code est annoncé pour une publication ultérieure [16]. Notre
+diagnostic de voisinage ne reproduit pas leur protocole complet, notamment leur test de récurrence
+des paires de mots entre blocs de pages.
+Conséquence pour notre recherche
+Une ressemblance statistique peut être produite par des mécanismes différents. Un score favorable
+doit donc servir à choisir un test supplémentaire. Il ne peut pas attribuer un sens. Le désaccord entre
+travaux justifie des témoins contradictoires : vrais textes chiffrés, séquences sans message,
+permutations et données encore non utilisées pour choisir les modèles.
+Cette revue est ciblée, non exhaustive. Les 17 références combinent sources institutionnelles, recherches publiées
+et prépublications. Les niveaux d’accès sont détaillés aux pages 10 et 11 ; « source trouvée » ne signifie pas «
+étude intégralement répliquée ».
+
+
+[Page 4]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+4
+Les outils d’un spécialiste, avec leur
+statut
+Approche
+Application dans ce dossier
+Suite utile
+Codicologie et
+matériaux
+Rapports originaux et notice Yale
+consultés.
+Vérifier ordre des cahiers, changements de
+main et campagnes d’écriture ; accès
+matériel requis pour de nouvelles analyses.
+Paléographie et
+transcription
+Pilote visuel antérieur ; comparaison de
+deux transcriptions ; lectures incertaines
+signalées.
+Double transcription aveugle des zones
+discriminantes, avec coordonnées et
+arbitrage documenté.
+Statistique et théorie
+de l’information
+Fréquences, segmentation, témoins
+mélangés, distances entre mots,
+information mutuelle.
+Contrôles appariés en longueur et genre,
+incertitude entre pages et validation
+externe.
+Cryptanalyse
+homophonique
+Recherche de correspondances plusieurs
+signes vers une unité, modèles de
+langue et calibration.
+Élargir au bruit et aux inventaires attestés ;
+vérifier que les contrôles restent
+résolubles.
+Chiffres syllabiques et
+nomenclateurs
+Modèle limité lettres + digrammes
+exécuté. Travaux historiques consultés
+[11-12].
+Vraies syllabes, abréviations, mots codés
+et clés par section : essais distincts à
+préenregistrer.
+Modèles neuronaux
+Méthode de récurrence de symboles
+étudiée dans la littérature [13].
+Entraînement et comparaison sur contrôles
+seulement ; aucune exécution de
+Transformer ici.
+Hypothèse de
+génération sans
+message
+Analyse d’un échantillon publié de Timm
+et Schinner.
+Réexécuter plusieurs familles et
+paramètres avec un budget identique aux
+modèles chiffrés.
+Validation sémantique
+Aucun sens attribué aux formes
+récurrentes.
+Clé figée, prédictions sur pages intactes et
+examen par lecteurs indépendants.
+Le choix des outils doit suivre les questions et les contrôles disponibles. Ajouter des familles de modèles augmente
+aussi la possibilité de trouver par hasard une lecture séduisante. Les essais doivent garder la trace des échecs et
+des modifications de méthode.
+
+
+[Page 5]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+5
+Expérience A : corriger le solveur
+La phase précédente autorisait une incohérence : une sortie pouvait contenir deux lettres séparées
+que notre propre règle aurait regroupées en un digramme. La correction impose cette cohérence sur
+les transitions observées dans les données d’ajustement. Elle n’utilise pas les transitions des
+feuillets réservés.
+Un modèle délibérément limité
+Chaque inventaire contient 23 lettres normalisées et neuf digrammes fréquents, soit 32 unités. CV
+signifie consonne-voyelle, VC voyelle-consonne ; il s’agit de formes orthographiques, pas d’une
+syllabification linguistique. Les corpus sans espaces peuvent former des digrammes à cheval sur des
+mots. Plusieurs signes chiffrés peuvent correspondre à la même unité.
+Le score combine des séquences de quatre unités et une pénalité sur les fréquences. Chaque étape
+emploie huit redémarrages et 60 000 propositions par redémarrage. La version corrigée part de la
+clé apprise en phase 5, la répare, puis la raffine. La vraie clé des contrôles n’est jamais fournie au
+programme de recherche.
+Contrôles : deux clés par
+ligne
+Unités exactes sur
+texte réservé
+Erreurs par clé
+Segmentation réservée
+Latin CV
+99,8627 %
+31 / 22 571
+100 %
+Latin VC
+99,8588 %
+31 / 21 953
+99,64 % des segments
+Italien CV
+100 %
+0 / 95 503
+100 %
+Italien VC
+100 %
+0 / 92 993
+100 %
+Échecs de calibration conservés
+Une première recherche sous contrainte, initialisée par les seules fréquences, échouait sur les
+contrôles latins VC et italiens CV : environ 10 % de récupération pour les premiers, 62,8 % et 0 %
+pour les seconds. Le passage par la clé déjà apprise a permis de les résoudre. Ces échecs figurent
+dans l’archive. L’option de température plus élevée est codée mais n’a pas été exécutée.
+La calibration utilise deux clés sur le même texte par modèle, pas huit ouvrages indépendants. Les contrôles sont
+propres, sans erreurs de transcription ajoutées. Leur réussite ne mesure donc ni la robustesse au bruit ni
+l’adéquation historique du modèle. Le faible défaut résiduel de segmentation du contrôle latin VC est conservé,
+sans correction sur le texte réservé.
+
+
+[Page 6]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+6
+Expérience A : résultat sur le
+manuscrit
+Les 32 configurations croisent deux langues cibles, deux inventaires CV/VC, Currier A/B, EVA brut ou
+unités composées, et ordre direct ou inversé. Elles utilisent la transcription ZL et les mêmes
+séparations de feuillets que la phase 5. Chacune possède un témoin aux signes mélangés à
+l’intérieur des segments, traité avec le même budget.
+Modèle cible
+Segmentation entièrement
+cohérente sur réserve
+Score min. à max.
+Digrammes du meilleur
+score
+Latin CV
+4 / 8
+15,54 à 17,61
+0,037 %
+Latin VC
+4 / 8
+16,96 à 19,58
+0,060 %
+Italien CV
+2 / 8
+15,62 à 16,58
+0,385 %
+Italien VC
+4 / 8
+15,81 à 16,95
+0,000 %
+Scores en bits par séquence de quatre unités, non en bits par caractère. Ils dépendent de l’inventaire et du modèle
+de langue : les comparer directement entre latin et italien ne permet pas de choisir une langue. Le « meilleur »
+score de chaque groupe est sélectionné après consultation des résultats réservés ; il n’est pas une confirmation
+indépendante.
+Le problème que le score masque
+Les quatre sorties les mieux notées utilisent entre 14 et 16 unités distinctes. Les digrammes y
+représentent au plus 0,385 % des unités, et zéro pour le meilleur candidat italien VC. La recherche
+tend donc à contourner l’option syllabique. Une cohérence de segmentation presque parfaite peut
+être obtenue avec une sortie peu diversifiée.
+Exemple de sortie du meilleur score latin VC, sans insertion de mots :
+goareaedomomocolliarimarime
+meaedimarimpe
+aimeadromimedolmarcolliaromoaeacromacrompoi
+Cette séquence n’est pas une traduction. Aucune lecture grammaticale suivie et aucune prédiction
+sémantique externe n’ont été validées. Les 32 configurations obtiennent un meilleur score que leur
+témoin mélangé ; un unique mélange par configuration ne fournit cependant pas une distribution
+d’incertitude, et cet avantage indique seulement que l’ordre des signes compte.
+Portée exacte du résultat négatif
+Ces essais n’apportent pas de soutien à une lecture par les quatre inventaires testés. Ils ne réfutent
+ni toutes les langues ni tous les chiffres syllabiques. Le budget de recherche est fini ; les espaces, le
+bruit, les abréviations et les changements de clé restent insuffisamment modélisés.
+
+
+[Page 7]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+7
+Expérience B : les mots voisins
+Le test conserve les lignes et les pages des paragraphes dans ZL et IT, puis traite séparément A et B.
+Une lecture alternative, un signe illisible ou une séparation incertaine crée une exclusion ou une
+barrière. Aucune paire n’est comptée à travers une barrière ou une fin de ligne.
+Deux contrôles par jeu de données
+Premier contrôle : mélanger les mots retenus à l’intérieur de leur page. Second contrôle : fixer le
+premier et le dernier mot retenu de chaque ligne, puis mélanger les positions intérieures dans la
+page. Chaque condition utilise 100 tirages. Les fréquences par page, les positions disponibles et les
+barrières sont conservées.
+Texte
+Mots utilisés
+Répétition exacte
+Voisin EVA à distance
+1
+Excès après
+mélange*
+ZL A
+9 474
+1,13 %
+3,99 %
++1,28 pt
+ZL B
+19 670
+1,02 %
+3,45 %
++0,72 pt
+IT A
+11 081
+1,11 %
+4,02 %
++1,30 pt
+IT B
+22 797
+0,92 %
+3,23 %
++0,54 pt
+Pline, latin
+8 954
+0,00 %
+0,30 %
+-0,11 pt
+Dante, italien
+32 824
+0,06 %
+1,90 %
+-1,29 pt
+Naibbe sur Pline
+32 824
+0,14 %
+1,24 %
+-0,21 pt
+Générateur Timm
+10 823
+0,96 %
+4,54 %
++0,82 pt
+* Différence avec la moyenne des 100 mélanges à extrémités de ligne fixées, en points de pourcentage. Distance 1
+: une insertion, suppression ou substitution ; les mots identiques sont comptés séparément. Une mesure
+supplémentaire en unités composées est conservée dans les résultats.
+Ce que les témoins révèlent
+L’excès de voisins proches apparaît dans ZL et IT, en A comme en B. Il apparaît aussi dans
+l’échantillon publié du générateur de Timm. Ce signal local peut donc exister sans message à
+traduire. Les répétitions exactes et les ressemblances à une modification près ne doivent pas être
+confondues : elles réagissent différemment aux mélanges.
+Les quatre témoins sont placés sur une géométrie artificielle de lignes ZL. Dante est tronqué à 32 824 mots sur 33
+409 ; Naibbe à 32 824 sur 34 809. Pline et Timm conservent respectivement 8 954 et 10 823 mots. La ligne initiale
+de Timm issue du manuscrit est retirée, mais le générateur reste conçu et amorcé pour l’imiter. Ces témoins ne
+forment pas un classificateur universel de langue.
+
+
+[Page 8]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+8
+La frontière entre deux mots compte
+L’information mutuelle mesure ici la dépendance entre la dernière lettre EVA d’un mot et la première
+du suivant. Elle est calculée sur les paires retenues à l’intérieur des lignes. Le graphique compare la
+valeur observée à celle des mélanges qui fixent les extrémités des lignes.
+Points colorés : observations. Barres grises : quantiles 2,5 % et 97,5 % des 100 mélanges ; point gris : leur
+moyenne. Ces barres décrivent les mélanges, pas un intervalle de confiance autour de l’observation.
+Interprétation circonscrite
+L’excès d’information par rapport aux mélanges est d’environ 0,097 bit en ZL A et 0,207 en ZL B ; IT
+confirme la même direction avec 0,109 et 0,228. Le témoin italien montre aussi une dépendance
+importante. Ce signal n’est donc pas une signature propre au Voynich ni une mesure directe de
+sens.
+Les échantillons Naibbe et Timm testés n’atteignent pas les valeurs du sous-ensemble B. Cela ne
+rejette pas ces familles de procédés : un seul texte ou paramétrage a été examiné pour chacun. Il
+faut expliquer simultanément les voisinages, les frontières, les positions dans la ligne et les
+changements entre sections.
+Toutes ces comparaisons sont exploratoires. Les valeurs p brutes figurent dans les fichiers, sans correction des
+comparaisons multiples ; aucune probabilité de « présence d’un langage » n’en est déduite.
+
+
+[Page 9]
+DOSSIER DE RECHERCHE  /  PHASE 6
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+9
+La prochaine recherche doit prédire
+Priorité 1 : fixer les signes et les frontières
+Constituer un petit ensemble de zones à forte valeur discriminante, relu sans proposition de
+traduction. Conserver plusieurs transcriptions lorsque nécessaire. Tester ensuite si les dépendances
+traversant les espaces diminuent avec des regroupements de signes justifiés par les images. Une
+amélioration obtenue seulement en fusionnant arbitrairement les formes ne serait pas probante.
+Priorité 2 : confronter des modèles explicites
+Comparer, à budget égal, substitution fixe, chiffre à expansion, nomenclateur, clés par section et
+génération par copie. Chaque modèle doit produire du texte sur la géométrie du manuscrit. Les
+règles de changement de clé et le taux d’erreur doivent être pénalisés : autoriser une exception
+pour chaque difficulté rendrait tout texte explicable.
+Priorité 3 : étendre les contrôles historiques
+Remplacer le face-à-face César/Pline et Dante par plusieurs auteurs, genres et traditions
+d’abréviation. Séparer ouvrages d’entraînement et d’évaluation, puis ajouter des erreurs mesurées.
+Les corpus modernes peuvent aider à construire des méthodes, mais ne suffisent pas à calibrer une
+lecture médiévale.
+Ce qui compterait comme un déchiffrement
+Exigence
+Preuve attendue
+Règles fixées avant le test
+Inventaire, segmentation et clé publiés sans ajustement mot par mot.
+Généralisation
+Lecture suivie sur des feuillets jamais utilisés pour choisir les règles.
+Explication complète
+Grammaire, variantes et erreurs documentées ; peu d’exceptions ad hoc.
+Prédictions externes
+Étiquettes, nombres ou relations textuelles prédits avant leur examen.
+Reproduction indépendante
+D’autres lecteurs récupèrent les mêmes passages avec les mêmes règles.
+Les feuillets réservés actuels ont déjà servi à comparer plusieurs essais et phases. Ils permettent des diagnostics,
+mais ne sont plus une réserve totalement intacte pour une annonce finale. Un nouveau lot de confirmation ou une
+validation externe sera nécessaire.
+Décision actuelle : poursuivre l’étude des frontières et des modèles concurrents, conserver les
+résultats négatifs, et ne publier aucune traduction du manuscrit. Le dossier fournit une base
+contrôlable pour cette suite ; il n’en garantit pas le succès.
+
+
+[Page 10]
+BIBLIOGRAPHIE ANNOTÉE  /  CONSULTATION AU 28 OCTOBRE 2026
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+10
+Sources et niveau de lecture (1/2)
+[1] Yale, Beinecke Library. Notice du manuscrit MS 408
+Notice institutionnelle consultée. Identification de l’objet et accès aux reproductions. Les intitulés des sections
+illustrées ne sont pas des traductions.
+[2] McCrone Associates, 2009. Materials Analysis of the Voynich Manuscript, projet MA47613
+Rapport original du 1er avril 2009. Pages 1 et 2 examinées visuellement : prélèvements et méthodes analytiques.
+Les autres pages n’ont pas fait l’objet d’une revue complète ici.
+[3] Lisa Fagin Davis, 2020. How Many Glyphs and How Many Scribes? Digital Paleography and the Voynich
+Manuscript
+Manuscript Studies 5(1), 164-180. Notice et résumé consultés, avec le compte rendu institutionnel de Yale de 2024.
+Attribution de cinq mains proposée par une étude paléographique ; aucune expertise indépendante menée ici.
+[4] Claire Bowern et Luke Lindemann, 2021. The Linguistics of the Voynich Manuscript
+Annual Review of Linguistics 7, 285-308. Résumé éditeur consulté. Revue linguistique qui maintient l’hypothèse
+d’un contenu linguistique ; ni langue ni lecture déduites pour notre étude.
+[5] Luke Lindemann et Claire Bowern, 2020, révision 2021. Character Entropy in Modern and Historical Texts:
+Comparison Metrics for an Undeciphered Manuscript
+Prépublication, version 2. Résumé et présentation des corpus consultés. Comparaisons stratifiées par transcription,
+variété et main ; prévisibilité inhabituelle des caractères malgré des regroupements de signes.
+[6] Sravana Reddy et Kevin Knight, 2011. What We Know About The Voynich Manuscript
+Actes du workshop LaTeCH, 78-86. PDF consulté, notamment introduction et sections sur la transcription et les
+vocabulaires A/B. Point de départ méthodologique ; ses informations historiques doivent être vérifiées par les
+sources matérielles.
+[7] Marcelo A. Montemurro et Damián H. Zanette, 2013. Keywords and Co-Occurrence Patterns in the Voynich
+Manuscript: An Information-Theoretic Analysis
+PLOS ONE 8(6), e66344. Texte accessible ; résumé et introduction examinés. Les auteurs interprètent l’organisation
+lexicale à grande distance en faveur d’un message. Cette interprétation n’est pas un déchiffrement.
+[8] Torsten Timm et Andreas Schinner, 2019/2020. A possible generating algorithm of the Voynich manuscript
+Cryptologia 44(1). Résumé et dépôt des auteurs consultés. Échantillon publié dans
+TorstenTimm/SelfCitationTextgenerator analysé ici ; générateur non réexécuté. Un modèle de copie et modification
+ne prouve pas le procédé historique.
+[9] Daniel E. Gaskell et Claire Bowern, 2022. Gibberish after all? Voynichese is statistically similar to
+human-produced samples of meaningless text
+Actes de l’International Conference on the Voynich Manuscript. Résumé et documentation du dépôt des auteurs lus.
+Ressemblances avec des productions humaines sans sens ; corpus non téléchargé ni réanalysé dans cette phase.
+
+
+[Page 11]
+BIBLIOGRAPHIE ANNOTÉE  /  CONSULTATION AU 28 OCTOBRE 2026
+28 OCTOBRE 2026
+VOYNICH · MS 408 · AUCUNE TRADUCTION VALIDÉE
+11
+Sources et niveau de lecture (2/2)
+[10] Michael A. Greshko, 2025. The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich
+Manuscript-like ciphertext
+Cryptologia. Notice/résumé et implémentation publique utilisée dans les phases antérieures. Construction
+démonstrative, non clé du manuscrit. Le fichier chiffré déjà produit sur Pline sert de témoin descriptif ici.
+[11] George Lasry, 2024. Deciphering Historical Syllabic Ciphers
+Notice institutionnelle de l’Université de Tartu et extraits indexés consultés. Téléchargement du PDF en erreur 503.
+Notre modèle lettres + neuf digrammes ne constitue pas une réplication de sa méthode syllabique historique.
+[12] Nils Kopal, 2019. Cryptanalysis of Homophonic Substitution Ciphers Using Simulated Annealing with Fixed
+Temperature
+Actes HistoCrypt. Résumé institutionnel consulté lors de la phase 4. Référence algorithmique pour la recherche de
+clés ; aucune prétention à reproduire exactement son implémentation.
+[13] Nishant Kambhatla, Logan Born et Anoop Sarkar, 2023. Decipherment as Regression: Solving Historical
+Substitution Ciphers by Learning Symbol Recurrence Relations
+Findings EACL, 2136-2152. Résumé officiel consulté. Transformer entraîné sur des récurrences de symboles et des
+chiffres synthétiques. Méthode pertinente pour un comparatif futur, non entraînée ni exécutée ici.
+[14] Rod Kinnison, 2026. The Voynich Manuscript’s positional entropy collapse: comparative evidence from
+languages and ciphers
+Cryptologia, publication en ligne le 7 septembre. Résumé éditeur uniquement ; accès intégral bloqué. Un chiffre à
+expansion reproduirait plusieurs profils statistiques. Aucune clé historique récupérée dans le résultat consulté.
+[15] Torsten Timm, 2026. The challenge of analyzing a dynamic text: why the Voynich manuscript resists
+conventional interpretation
+Cryptologia, publication en ligne le 7 septembre. Résumé éditeur uniquement ; accès intégral bloqué. Argument en
+faveur d’une évolution du vocabulaire et de l’auto-copie. L’argument de l’auteur n’est pas traité comme un fait
+démontré.
+[16] Xin Zhang et Victor S. Sheng, 2026. Does the Voynich Manuscript Mean Anything? Calibrated Tests Find Little
+Trace of Language
+Prépublication v1 du 25 octobre, sans validation par les pairs établie. HTML consulté, dont sections sur les
+voisinages et annexe d’implémentation. Le code est annoncé pour une publication ultérieure ; aucune réplication
+intégrale revendiquée.
+[17] Greg Hodgins, NSF-Arizona AMS Laboratory, 2009. Dating Results for Voynich Manuscript Parchment Leaves 8,
+26, 47 and 68
+Rapport original du 17 février, hébergé sur voynich.nu. Méthodes, conclusion et figure 7 consultées. Intervalle
+combiné de calibration publié : 1404-1438 à 95,4 %. Il date le parchemin, pas directement l’écriture.
+Données et logiciels de cette étude
+ZL3b-n et IT2a-n : versions et crédits dans les métadonnées des phases précédentes, source
+voynich.nu/transcr.html. Corpus de César : Perseus, licence CC BY-SA 4.0 conservée. Dante et Pline : provenance et
+normalisation documentées dans l’archive. Échantillon Timm : dépôt des auteurs, licence MIT conservée. Naibbe :
+crédit et licence Greshko conservés.
+L’archive contient le protocole, les inventaires, les clés candidates, les résultats complets, les contrôles échoués, les
+graines aléatoires, les données nécessaires, les scripts et un manifeste SHA-256. Les articles consultés ne sont pas
+redistribués. La vérification indépendante des résultats externes n’est pas revendiquée.

@@ -1,0 +1,48 @@
+{
+  "key": "reouespczerbiqaooentettaonnlafimdiaiavlishrgoelc",
+  "training_objective": -310442.412247021,
+  "symbols": 48,
+  "training_chars": 24000,
+  "quadgrams": 23100,
+  "restarts": 8,
+  "steps": 60000,
+  "lambda": 4,
+  "restart_objectives": [
+    -380513.004034679,
+    -385086.921330383,
+    -310442.412247021,
+    -310442.412247021,
+    -310442.412247021,
+    -310442.412247021,
+    -310442.412247021,
+    -310442.412247021
+  ],
+  "case": "control_italian_2",
+  "language": "italian",
+  "seconds": 6.95,
+  "temperature_multiplier": 0.002,
+  "seed": 20261028,
+  "train_metrics": {
+    "chars": 24000,
+    "quadgrams": 23100,
+    "bits_per_quadgram": 13.430473105596342,
+    "output_unigram_entropy": 4.003092057859926,
+    "output_distinct_letters": 21,
+    "kl_to_model_bits": 0.0020675365391727685
+  },
+  "test_metrics": {
+    "chars": 109933,
+    "quadgrams": 105808,
+    "bits_per_quadgram": 13.420221319786622,
+    "output_unigram_entropy": 4.0115782409130665,
+    "output_distinct_letters": 21,
+    "kl_to_model_bits": 0.0013869889978116623
+  },
+  "candidate_preview_NON_TRANSLATION": "itadistanzaiodubitavaediceadilledilleframedillediceaalamiadonnachemidisetaconled\nolcistillemaquellareverenzachesindonnadituttomepurperbeepericemirichinavacomeluo\nmchassonnapocosoffersemecotalbeatriceecomincioraggiandomidunrisotalchenelfocofar\nialuomfelicesecondomioinfallibileavvisocomegiustavendettagiustamentepunitafosset\nhainpensiermisomaiotisolverotostolamenteetuascoltachelemieparoledigransentenzati\nfaranpresentepernonsoffrirealavirtuchevolefrenoasuoprodequelluomchenonnacquedann\nandosedannotuttasuaproleondelumanaspecieinfermagiacquegiupersecolimoltiingrandee\nrrorefinchalverbodidiodiscenderpiacqueulanaturachedalsuofattoreseraallungataunia\nseinpersonaconlattosoldelsuoetternoamoreordrizzailvisoaquelchorsiragionaquestana\nturaalsuofattoreunitaqualfucreatafusinceraebuonamapersestessapurfuellasbanditadi\nparadisoperochesitorsedaviadiveritaedasuavitalapenadunquechelacroceporsesalanatu\nraassunta",
+  "objective_independently_verified": true,
+  "control": true,
+  "encryption_seed": 20261130,
+  "heldout_character_accuracy": 1.0,
+  "heldout_errors": 0,
+  "true_plaintext_bits_per_quadgram": 13.420221319786622
+}

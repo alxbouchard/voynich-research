@@ -1,0 +1,19 @@
+{
+  "archive_files_hash_verified": 94,
+  "fresh_compilation": true,
+  "checks": [
+    {
+      "script": "build.py",
+      "output": "CPU kernel compiled on Linux-6.18.55-x86_64-with-glibc2.39"
+    },
+    {
+      "script": "verify_engine.py",
+      "output": "{\"distance_pairs_exactly_verified\": 2400, \"group_assignment_cases\": 50, \"original_serial_state_aliasing_reproduced\": true, \"empty_to_nonempty_distance_original\": 0, \"empty_to_nonempty_distance_corrected\": 1, \"upstream_files_git_hash_verified\": 11}"
+    },
+    {
+      "script": "verify_results.py",
+      "output": "{\"result_files_verified\": 49, \"all_objectives_recomputed\": true, \"all_heldout_candidates_recomputed\": true, \"frozen_files_sha256_verified\": 8}"
+    }
+  ],
+  "fixed_seed_100_step_control_exactly_reproduced": true
+}

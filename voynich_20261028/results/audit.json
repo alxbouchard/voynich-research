@@ -1,0 +1,1779 @@
+{
+  "submitted_sample": {
+    "label": "Exact sample submitted in the conversation",
+    "tokens": 103,
+    "characters_no_spaces": 648,
+    "characters_with_spaces": 750,
+    "types": 26,
+    "qokeedy": 70,
+    "e_count": 161,
+    "e_percent": 24.84567901234568,
+    "H0_no_spaces": 3.125811914377974,
+    "H0_with_spaces": 3.2743680304053737,
+    "H_within_word": [
+      3.125811914377974,
+      0.7017262311236989,
+      0.2454800670121437,
+      0.17735544854306065
+    ],
+    "top_words": [
+      [
+        "qokeedy",
+        70
+      ],
+      [
+        "shedy",
+        6
+      ],
+      [
+        "sheedy",
+        2
+      ],
+      [
+        "qokain",
+        2
+      ],
+      [
+        "shey",
+        2
+      ],
+      [
+        "fachys",
+        1
+      ],
+      [
+        "ykal",
+        1
+      ],
+      [
+        "ar",
+        1
+      ],
+      [
+        "ataiin",
+        1
+      ],
+      [
+        "shol",
+        1
+      ]
+    ],
+    "top_trigrams_with_spaces": [
+      [
+        "edy",
+        79
+      ],
+      [
+        "dy ",
+        78
+      ],
+      [
+        " qo",
+        75
+      ],
+      [
+        "qok",
+        75
+      ],
+      [
+        "oke",
+        73
+      ],
+      [
+        "eed",
+        72
+      ],
+      [
+        "y q",
+        72
+      ],
+      [
+        "kee",
+        70
+      ],
+      [
+        " sh",
+        13
+      ],
+      [
+        "she",
+        11
+      ]
+    ],
+    "character_counts": {
+      "f": 1,
+      "a": 13,
+      "c": 4,
+      "h": 17,
+      "y": 87,
+      "s": 16,
+      "k": 77,
+      "l": 5,
+      "r": 9,
+      "t": 3,
+      "i": 8,
+      "n": 5,
+      "o": 83,
+      "e": 161,
+      "d": 84,
+      "q": 75
+    },
+    "length_histogram": {
+      "2": 3,
+      "3": 2,
+      "4": 8,
+      "5": 7,
+      "6": 12,
+      "7": 71
+    },
+    "fibonacci_5_8_13_percent": 6.796116504854369,
+    "fibonacci_any_percent": 11.650485436893204,
+    "q_at_start_percent": 100.0,
+    "y_at_end_percent": 95.40229885057471,
+    "words_ending_y_percent": 80.58252427184466,
+    "unassigned_letters": {},
+    "mapping_character_coverage_percent": 100.0,
+    "mapping_token_coverage_percent": 100.0
+  },
+  "corpora": {
+    "ZL3b-n.txt": {
+      "full": {
+        "label": "ZL3b-n.txt",
+        "tokens": 38623,
+        "characters_no_spaces": 192557,
+        "characters_with_spaces": 231179,
+        "types": 8002,
+        "qokeedy": 307,
+        "e_count": 20244,
+        "e_percent": 10.513250621893777,
+        "H0_no_spaces": 3.864498775617191,
+        "H0_with_spaces": 3.869822249434474,
+        "H_within_word": [
+          3.864498775617191,
+          2.1074232756584834,
+          1.8883257467555359,
+          1.7698269152715693
+        ],
+        "top_words": [
+          [
+            "daiin",
+            848
+          ],
+          [
+            "ol",
+            560
+          ],
+          [
+            "chedy",
+            506
+          ],
+          [
+            "aiin",
+            504
+          ],
+          [
+            "shedy",
+            434
+          ],
+          [
+            "ar",
+            403
+          ],
+          [
+            "chol",
+            395
+          ],
+          [
+            "or",
+            390
+          ],
+          [
+            "chey",
+            351
+          ],
+          [
+            "s",
+            350
+          ]
+        ],
+        "top_trigrams_with_spaces": [
+          [
+            "dy ",
+            6792
+          ],
+          [
+            " ch",
+            6081
+          ],
+          [
+            "in ",
+            5926
+          ],
+          [
+            " qo",
+            5250
+          ],
+          [
+            "che",
+            5053
+          ],
+          [
+            "iin",
+            4294
+          ],
+          [
+            "aii",
+            4273
+          ],
+          [
+            "edy",
+            4213
+          ],
+          [
+            "ey ",
+            3999
+          ],
+          [
+            "y q",
+            3707
+          ]
+        ],
+        "character_counts": {
+          "f": 496,
+          "a": 14693,
+          "c": 13189,
+          "h": 17796,
+          "y": 17776,
+          "s": 7302,
+          "k": 11027,
+          "l": 10598,
+          "r": 7550,
+          "t": 6950,
+          "i": 11867,
+          "n": 6149,
+          "o": 25432,
+          "e": 20244,
+          "d": 13116,
+          "p": 1661,
+          "m": 1062,
+          "q": 5405,
+          "g": 150,
+          "v": 11,
+          "b": 15,
+          "j": 13,
+          "u": 8,
+          "z": 9,
+          "x": 38
+        },
+        "length_histogram": {
+          "1": 1397,
+          "2": 2459,
+          "3": 3531,
+          "4": 6917,
+          "5": 9524,
+          "6": 7502,
+          "7": 4447,
+          "8": 1845,
+          "9": 694,
+          "10": 209,
+          "11": 63,
+          "12": 25,
+          "13": 9,
+          "14": 1
+        },
+        "fibonacci_5_8_13_percent": 29.459130569867696,
+        "fibonacci_any_percent": 48.5850400020713,
+        "q_at_start_percent": 99.35245143385754,
+        "y_at_end_percent": 87.78690369036903,
+        "words_ending_y_percent": 40.403386583124046,
+        "unassigned_letters": {
+          "p": 1661,
+          "m": 1062,
+          "g": 150,
+          "v": 11,
+          "b": 15,
+          "j": 13,
+          "u": 8,
+          "z": 9,
+          "x": 38
+        },
+        "mapping_character_coverage_percent": 98.45915754815458,
+        "mapping_token_coverage_percent": 92.53553582062501
+      },
+      "f1r": {
+        "label": "ZL3b-n.txt f1r",
+        "tokens": 207,
+        "characters_no_spaces": 967,
+        "characters_with_spaces": 1173,
+        "types": 159,
+        "qokeedy": 0,
+        "e_count": 52,
+        "e_percent": 5.377456049638056,
+        "H0_no_spaces": 3.785319562991336,
+        "H0_with_spaces": 3.790945616833942,
+        "H_within_word": [
+          3.785319562991336,
+          1.9908486866221538,
+          1.3703766895160503,
+          1.051939268240178
+        ],
+        "top_words": [
+          [
+            "daiin",
+            7
+          ],
+          [
+            "chol",
+            7
+          ],
+          [
+            "dain",
+            6
+          ],
+          [
+            "or",
+            4
+          ],
+          [
+            "dar",
+            4
+          ],
+          [
+            "shol",
+            3
+          ],
+          [
+            "y",
+            3
+          ],
+          [
+            "cthar",
+            3
+          ],
+          [
+            "shody",
+            3
+          ],
+          [
+            "sho",
+            3
+          ]
+        ],
+        "top_trigrams_with_spaces": [
+          [
+            "in ",
+            44
+          ],
+          [
+            " sh",
+            33
+          ],
+          [
+            "aii",
+            30
+          ],
+          [
+            "iin",
+            29
+          ],
+          [
+            " ch",
+            28
+          ],
+          [
+            "sho",
+            25
+          ],
+          [
+            "ey ",
+            25
+          ],
+          [
+            " da",
+            23
+          ],
+          [
+            "dai",
+            23
+          ],
+          [
+            "ar ",
+            20
+          ]
+        ],
+        "character_counts": {
+          "f": 5,
+          "a": 89,
+          "c": 79,
+          "h": 119,
+          "y": 77,
+          "s": 66,
+          "k": 45,
+          "l": 33,
+          "r": 44,
+          "t": 37,
+          "i": 87,
+          "n": 49,
+          "o": 113,
+          "e": 52,
+          "d": 60,
+          "p": 11,
+          "m": 1
+        },
+        "length_histogram": {
+          "1": 7,
+          "2": 12,
+          "3": 25,
+          "4": 55,
+          "5": 52,
+          "6": 27,
+          "7": 20,
+          "8": 3,
+          "9": 5,
+          "10": 1
+        },
+        "fibonacci_5_8_13_percent": 26.570048309178745,
+        "fibonacci_any_percent": 47.82608695652174,
+        "q_at_start_percent": null,
+        "y_at_end_percent": 77.92207792207792,
+        "words_ending_y_percent": 28.985507246376812,
+        "unassigned_letters": {
+          "p": 11,
+          "m": 1
+        },
+        "mapping_character_coverage_percent": 98.75904860392968,
+        "mapping_token_coverage_percent": 94.20289855072464
+      },
+      "f1r_raw_lines": [
+        {
+          "locus": "f1r.1,@P0",
+          "raw": "<%>fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<!@254;>"
+        },
+        {
+          "locus": "f1r.2,+P0",
+          "raw": "sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan"
+        },
+        {
+          "locus": "f1r.3,+P0",
+          "raw": "syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy"
+        },
+        {
+          "locus": "f1r.4,+P0",
+          "raw": "soiin.oteey.oteo[s:r],roloty.cthiar,daiin.okaiin.or.okan"
+        },
+        {
+          "locus": "f1r.5,+P0",
+          "raw": "sair,y.chear.cthaiin.cphar.cfhaiin"
+        },
+        {
+          "locus": "f1r.6,=Pt",
+          "raw": "ydaraishy<$>"
+        },
+        {
+          "locus": "f1r.7,*P0",
+          "raw": "<%><!@252;>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary"
+        },
+        {
+          "locus": "f1r.8,+P0",
+          "raw": "yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos"
+        },
+        {
+          "locus": "f1r.9,+P0",
+          "raw": "daiin.shos.cfhol.shody"
+        },
+        {
+          "locus": "f1r.10,=Pt",
+          "raw": "dain.os.teody<$>"
+        },
+        {
+          "locus": "f1r.11,*P0",
+          "raw": "<%><!@253;>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es"
+        },
+        {
+          "locus": "f1r.12,+P0",
+          "raw": "oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin"
+        },
+        {
+          "locus": "f1r.13,+P0",
+          "raw": "shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d"
+        },
+        {
+          "locus": "f1r.14,+P0",
+          "raw": "dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod"
+        },
+        {
+          "locus": "f1r.15,+P0",
+          "raw": "daiin.shckhey.{ck}eo.r.char.shey.kol.chol.chol.kor.chal"
+        },
+        {
+          "locus": "f1r.16,+P0",
+          "raw": "sho.chol.shodan.kshy.kchy.d.or.chodaiin.sho.koeam"
+        },
+        {
+          "locus": "f1r.17,+P0",
+          "raw": "ycho.tchey.chekain.sheo,pshol.dydyd.cthy.dai[{cto}:@194;]y"
+        },
+        {
+          "locus": "f1r.18,+P0",
+          "raw": "yto.shol.she.kodshey.cphealy.dar,ain.dain.ckhyds"
+        },
+        {
+          "locus": "f1r.19,+P0",
+          "raw": "dchar.shcthaiin.okaiir.chey.@192;chy.@130;tol.cthols.dlo{ct}o"
+        },
+        {
+          "locus": "f1r.20,+P0",
+          "raw": "shok.chor.chey.dain.ckhey"
+        },
+        {
+          "locus": "f1r.21,=Pt",
+          "raw": "otol.daiiin<$>"
+        },
+        {
+          "locus": "f1r.22,*P0",
+          "raw": "<%>cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.cha.ro,dar"
+        },
+        {
+          "locus": "f1r.23,+P0",
+          "raw": "ydoin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar"
+        },
+        {
+          "locus": "f1r.24,+P0",
+          "raw": "cho.?o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar"
+        },
+        {
+          "locus": "f1r.25,+P0",
+          "raw": "ycheey.okeey.oky.daiin.okchey.kokaiin.o?chol.k?dchy.dal"
+        },
+        {
+          "locus": "f1r.26,+P0",
+          "raw": "dcheo.shody.koshey.cthy.ok,chey.keey.keey,dal.chtor"
+        },
+        {
+          "locus": "f1r.27,+P0",
+          "raw": "?eo?.chol.chok.choty.chotey"
+        },
+        {
+          "locus": "f1r.28,=Pt",
+          "raw": "dchaiin<$>"
+        }
+      ],
+      "full_with_uncertain_spaces_joined": {
+        "label": "ZL3b-n.txt commas joined",
+        "tokens": 35879,
+        "characters_no_spaces": 192410,
+        "characters_with_spaces": 228288,
+        "types": 9075,
+        "qokeedy": 304,
+        "e_count": 20239,
+        "e_percent": 10.518684060080037,
+        "H0_no_spaces": 3.8644156323100045,
+        "H0_with_spaces": 3.8845543174796937,
+        "H_within_word": [
+          3.8644156323100045,
+          2.1280462717701454,
+          1.9078577033640183,
+          1.7891530189162772
+        ],
+        "top_words": [
+          [
+            "daiin",
+            788
+          ],
+          [
+            "chedy",
+            449
+          ],
+          [
+            "ol",
+            387
+          ],
+          [
+            "shedy",
+            380
+          ],
+          [
+            "chol",
+            334
+          ],
+          [
+            "aiin",
+            315
+          ],
+          [
+            "qokeedy",
+            304
+          ],
+          [
+            "qokeey",
+            302
+          ],
+          [
+            "chey",
+            293
+          ],
+          [
+            "qokain",
+            278
+          ]
+        ],
+        "top_trigrams_with_spaces": [
+          [
+            "dy ",
+            6687
+          ],
+          [
+            "in ",
+            5823
+          ],
+          [
+            " ch",
+            5737
+          ],
+          [
+            " qo",
+            5192
+          ],
+          [
+            "che",
+            5053
+          ],
+          [
+            "iin",
+            4290
+          ],
+          [
+            "aii",
+            4270
+          ],
+          [
+            "edy",
+            4218
+          ],
+          [
+            "ey ",
+            3895
+          ],
+          [
+            "y q",
+            3667
+          ]
+        ],
+        "character_counts": {
+          "f": 495,
+          "a": 14672,
+          "c": 13179,
+          "h": 17786,
+          "y": 17759,
+          "s": 7297,
+          "k": 11021,
+          "l": 10587,
+          "r": 7534,
+          "t": 6946,
+          "i": 11857,
+          "n": 6145,
+          "o": 25419,
+          "e": 20239,
+          "d": 13106,
+          "p": 1660,
+          "m": 1061,
+          "q": 5403,
+          "g": 150,
+          "v": 11,
+          "b": 15,
+          "j": 13,
+          "u": 8,
+          "z": 9,
+          "x": 38
+        },
+        "length_histogram": {
+          "1": 643,
+          "2": 1624,
+          "3": 2782,
+          "4": 5882,
+          "5": 8825,
+          "6": 7461,
+          "7": 4749,
+          "8": 2164,
+          "9": 974,
+          "10": 415,
+          "11": 185,
+          "12": 101,
+          "13": 35,
+          "14": 21,
+          "15": 10,
+          "16": 3,
+          "17": 3,
+          "19": 2
+        },
+        "fibonacci_5_8_13_percent": 30.72549402157251,
+        "fibonacci_any_percent": 44.797792580618186,
+        "q_at_start_percent": 98.2972422728114,
+        "y_at_end_percent": 85.12866715468213,
+        "words_ending_y_percent": 42.136068452298005,
+        "unassigned_letters": {
+          "p": 1660,
+          "m": 1061,
+          "g": 150,
+          "v": 11,
+          "b": 15,
+          "j": 13,
+          "u": 8,
+          "z": 9,
+          "x": 38
+        },
+        "mapping_character_coverage_percent": 98.45901980146562,
+        "mapping_token_coverage_percent": 92.01204046935533
+      },
+      "page_metadata_for_claimed_examples": {
+        "f1r": {
+          "Q": "A",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "T",
+          "L": "A",
+          "H": "1",
+          "C": "1",
+          "X": "V"
+        },
+        "f68r1": {
+          "Q": "I",
+          "P": "H",
+          "F": "z",
+          "B": "1",
+          "I": "A",
+          "H": "4"
+        },
+        "f68r2": {
+          "Q": "I",
+          "P": "I",
+          "F": "z",
+          "B": "1",
+          "I": "A",
+          "H": "4"
+        },
+        "f68r3": {
+          "Q": "I",
+          "P": "J",
+          "F": "z",
+          "B": "1",
+          "I": "A",
+          "H": "4"
+        },
+        "f75r": {
+          "Q": "M",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "B",
+          "L": "B",
+          "H": "2",
+          "C": "2"
+        },
+        "fRos": {
+          "Q": "N",
+          "P": "D",
+          "B": "1",
+          "I": "C",
+          "L": "B",
+          "H": "4",
+          "C": "3"
+        },
+        "f87r": {
+          "Q": "O",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "H",
+          "L": "A",
+          "H": "1",
+          "C": "4"
+        },
+        "f103r": {
+          "Q": "T",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "S",
+          "L": "B",
+          "H": "3",
+          "C": "X"
+        },
+        "f116v": {
+          "Q": "T",
+          "P": "X",
+          "F": "z",
+          "B": "1",
+          "I": "T",
+          "H": "3",
+          "X": "V"
+        }
+      },
+      "section_tests": [
+        {
+          "symbol": "e",
+          "estimable": true,
+          "effect_percentage_points": 3.504305644175523,
+          "p": 0.0125,
+          "permutations": 1999,
+          "dropped_mixed_leaves": [],
+          "strata": [
+            {
+              "currier": "B",
+              "hand": "2",
+              "positive_leaves": 10,
+              "negative_leaves": 10,
+              "leaves": [
+                "f26",
+                "f31",
+                "f33",
+                "f34",
+                "f39",
+                "f40",
+                "f43",
+                "f46",
+                "f50",
+                "f55",
+                "f75",
+                "f76",
+                "f77",
+                "f78",
+                "f79",
+                "f80",
+                "f81",
+                "f82",
+                "f83",
+                "f84"
+              ]
+            }
+          ],
+          "holm_p": 0.037500000000000006
+        },
+        {
+          "symbol": "k",
+          "estimable": true,
+          "effect_percentage_points": 0.5582893944762357,
+          "p": 0.19,
+          "permutations": 1999,
+          "dropped_mixed_leaves": [],
+          "strata": [
+            {
+              "currier": "B",
+              "hand": "2",
+              "positive_leaves": 10,
+              "negative_leaves": 10,
+              "leaves": [
+                "f26",
+                "f31",
+                "f33",
+                "f34",
+                "f39",
+                "f40",
+                "f43",
+                "f46",
+                "f50",
+                "f55",
+                "f75",
+                "f76",
+                "f77",
+                "f78",
+                "f79",
+                "f80",
+                "f81",
+                "f82",
+                "f83",
+                "f84"
+              ]
+            }
+          ],
+          "holm_p": 0.38
+        },
+        {
+          "symbol": "o",
+          "estimable": false,
+          "p": 1.0,
+          "strata": [],
+          "dropped_mixed_leaves": [],
+          "holm_p": 1
+        }
+      ],
+      "quoted_excerpt_checks": [
+        {
+          "claimed_page": "f1r",
+          "excerpt": "fachys ykal ar ataiin shol shory cthres ykor sheedy",
+          "page_ids": [
+            "f1r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f68r",
+          "excerpt": "oteol dain otaiin sheol",
+          "page_ids": [
+            "f68r1",
+            "f68r2",
+            "f68r3"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f75r",
+          "excerpt": "sheor chedy qokeey",
+          "page_ids": [
+            "f75r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f86v",
+          "excerpt": "daiin chol daiir shey",
+          "page_ids": [
+            "f86v4",
+            "f86v6",
+            "f86v5",
+            "f86v3"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f87r",
+          "excerpt": "chedy qotol",
+          "page_ids": [
+            "f87r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f103r",
+          "excerpt": "qotedy chedy qotedy",
+          "page_ids": [
+            "f103r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        }
+      ]
+    },
+    "IT2a-n.txt": {
+      "full": {
+        "label": "IT2a-n.txt",
+        "tokens": 37759,
+        "characters_no_spaces": 191009,
+        "characters_with_spaces": 228767,
+        "types": 8026,
+        "qokeedy": 305,
+        "e_count": 20007,
+        "e_percent": 10.474375552984414,
+        "H0_no_spaces": 3.8611282527593014,
+        "H0_with_spaces": 3.8701040186738442,
+        "H_within_word": [
+          3.8611282527593014,
+          2.1204360841194387,
+          1.8961066881723638,
+          1.77877743836928
+        ],
+        "top_words": [
+          [
+            "daiin",
+            863
+          ],
+          [
+            "ol",
+            537
+          ],
+          [
+            "chedy",
+            501
+          ],
+          [
+            "aiin",
+            469
+          ],
+          [
+            "shedy",
+            426
+          ],
+          [
+            "chol",
+            396
+          ],
+          [
+            "or",
+            363
+          ],
+          [
+            "ar",
+            350
+          ],
+          [
+            "chey",
+            344
+          ],
+          [
+            "dar",
+            318
+          ]
+        ],
+        "top_trigrams_with_spaces": [
+          [
+            "dy ",
+            6710
+          ],
+          [
+            " ch",
+            5968
+          ],
+          [
+            "in ",
+            5901
+          ],
+          [
+            " qo",
+            5252
+          ],
+          [
+            "che",
+            5008
+          ],
+          [
+            "iin",
+            4225
+          ],
+          [
+            "aii",
+            4182
+          ],
+          [
+            "edy",
+            4149
+          ],
+          [
+            "ey ",
+            3958
+          ],
+          [
+            "y q",
+            3709
+          ]
+        ],
+        "character_counts": {
+          "f": 503,
+          "a": 14251,
+          "c": 13276,
+          "h": 17811,
+          "y": 17611,
+          "s": 7364,
+          "k": 10906,
+          "l": 10492,
+          "r": 7429,
+          "t": 6921,
+          "i": 11707,
+          "n": 6127,
+          "o": 25368,
+          "e": 20007,
+          "d": 12940,
+          "p": 1627,
+          "m": 1114,
+          "q": 5414,
+          "g": 95,
+          "z": 2,
+          "x": 35,
+          "v": 9
+        },
+        "length_histogram": {
+          "1": 771,
+          "2": 2282,
+          "3": 3534,
+          "4": 6824,
+          "5": 9600,
+          "6": 7549,
+          "7": 4465,
+          "8": 1792,
+          "9": 662,
+          "10": 198,
+          "11": 46,
+          "12": 25,
+          "13": 8,
+          "14": 2,
+          "15": 1
+        },
+        "fibonacci_5_8_13_percent": 30.191477528536243,
+        "fibonacci_any_percent": 47.63632511454223,
+        "q_at_start_percent": 99.37199852234946,
+        "y_at_end_percent": 87.34881608085855,
+        "words_ending_y_percent": 40.73995603697132,
+        "unassigned_letters": {
+          "p": 1627,
+          "m": 1114,
+          "g": 95,
+          "z": 2,
+          "x": 35,
+          "v": 9
+        },
+        "mapping_character_coverage_percent": 98.49117057311436,
+        "mapping_token_coverage_percent": 92.5633623771816
+      },
+      "f1r": {
+        "label": "IT2a-n.txt f1r",
+        "tokens": 202,
+        "characters_no_spaces": 958,
+        "characters_with_spaces": 1159,
+        "types": 155,
+        "qokeedy": 0,
+        "e_count": 48,
+        "e_percent": 5.010438413361169,
+        "H0_no_spaces": 3.7872242618967666,
+        "H0_with_spaces": 3.7959044064464003,
+        "H_within_word": [
+          3.7872242618967666,
+          1.9833687009541896,
+          1.3689592659579073,
+          1.0605003366731636
+        ],
+        "top_words": [
+          [
+            "daiin",
+            7
+          ],
+          [
+            "chol",
+            7
+          ],
+          [
+            "dain",
+            6
+          ],
+          [
+            "y",
+            4
+          ],
+          [
+            "shol",
+            3
+          ],
+          [
+            "or",
+            3
+          ],
+          [
+            "cthar",
+            3
+          ],
+          [
+            "shody",
+            3
+          ],
+          [
+            "chor",
+            3
+          ],
+          [
+            "cthy",
+            3
+          ]
+        ],
+        "top_trigrams_with_spaces": [
+          [
+            "in ",
+            43
+          ],
+          [
+            " sh",
+            33
+          ],
+          [
+            "aii",
+            30
+          ],
+          [
+            "iin",
+            29
+          ],
+          [
+            " ch",
+            25
+          ],
+          [
+            "sho",
+            24
+          ],
+          [
+            " da",
+            24
+          ],
+          [
+            "ey ",
+            24
+          ],
+          [
+            "dai",
+            24
+          ],
+          [
+            "cho",
+            21
+          ]
+        ],
+        "character_counts": {
+          "f": 5,
+          "a": 88,
+          "c": 78,
+          "h": 119,
+          "y": 78,
+          "s": 64,
+          "k": 44,
+          "l": 34,
+          "r": 43,
+          "t": 38,
+          "i": 85,
+          "n": 49,
+          "o": 113,
+          "e": 48,
+          "d": 59,
+          "p": 12,
+          "m": 1
+        },
+        "length_histogram": {
+          "1": 8,
+          "2": 9,
+          "3": 21,
+          "4": 55,
+          "5": 52,
+          "6": 28,
+          "7": 19,
+          "8": 3,
+          "9": 6,
+          "10": 1
+        },
+        "fibonacci_5_8_13_percent": 27.22772277227723,
+        "fibonacci_any_percent": 46.039603960396036,
+        "q_at_start_percent": null,
+        "y_at_end_percent": 79.48717948717949,
+        "words_ending_y_percent": 30.693069306930692,
+        "unassigned_letters": {
+          "p": 12,
+          "m": 1
+        },
+        "mapping_character_coverage_percent": 98.64300626304802,
+        "mapping_token_coverage_percent": 93.56435643564356
+      },
+      "f1r_raw_lines": [
+        {
+          "locus": "f1r.1,@P0",
+          "raw": "<%>fachys.ykal.ar.ataiin.shol.shory.cthres.y.kor.sholdy"
+        },
+        {
+          "locus": "f1r.2,+P0",
+          "raw": "sory.ckhar.or.y.kair.chtaiin.shar.are.cthar.cthar.dan"
+        },
+        {
+          "locus": "f1r.3,+P0",
+          "raw": "syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sa"
+        },
+        {
+          "locus": "f1r.4,+P0",
+          "raw": "ooiin.oteey.oteos.roloty.cth?ar.daiin.otaiin.or.okan"
+        },
+        {
+          "locus": "f1r.5,+P0",
+          "raw": "dair.y.chear.cthaiin.cphar.cfhaiin"
+        },
+        {
+          "locus": "f1r.6,=Pt",
+          "raw": "ydaraishy<$>"
+        },
+        {
+          "locus": "f1r.7,*P0",
+          "raw": "<%>?.odar.o.y.shol.cphoy.oydar.sh.s.cfhoaiin.shodary"
+        },
+        {
+          "locus": "f1r.8,+P0",
+          "raw": "yshey.shody.okchoy.otchol.chocthy.oschy.dain.chor.kos"
+        },
+        {
+          "locus": "f1r.9,+P0",
+          "raw": "daiin.shos.cfhol.shody"
+        },
+        {
+          "locus": "f1r.10,=Pt",
+          "raw": "dain.os.teody<$>"
+        },
+        {
+          "locus": "f1r.11,*P0",
+          "raw": "<%>?.ydain.cphesaiin.ol.s.cphey.ytain.shoshy.cphodales"
+        },
+        {
+          "locus": "f1r.12,+P0",
+          "raw": "oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin"
+        },
+        {
+          "locus": "f1r.13,+P0",
+          "raw": "shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.she.oldain.d"
+        },
+        {
+          "locus": "f1r.14,+P0",
+          "raw": "dain.oiin.chol.odaiin.chodain.chdy.okain.dan.cthy.kod"
+        },
+        {
+          "locus": "f1r.15,+P0",
+          "raw": "daiin.shckhey.ckeor.chor.shey.kol.chol.chol.kor.chal"
+        },
+        {
+          "locus": "f1r.16,+P0",
+          "raw": "sho.chol.shodan.kshy.kchy.dor.chodaiin.sho.kchom"
+        },
+        {
+          "locus": "f1r.17,+P0",
+          "raw": "ycho.tchey.chokain.sheo.pshol.dydyd.cthy.daicthy"
+        },
+        {
+          "locus": "f1r.18,+P0",
+          "raw": "yto.shol.she.kodshey.cphealy.dasain.dain.ckhyds"
+        },
+        {
+          "locus": "f1r.19,+P0",
+          "raw": "dchar.shcthaiin.okaiir.chey.rchy.potol.cthols.dlocta"
+        },
+        {
+          "locus": "f1r.20,+P0",
+          "raw": "shok.chor.chey.dain.ckhey"
+        },
+        {
+          "locus": "f1r.21,=Pt",
+          "raw": "otol.daiiin<$>"
+        },
+        {
+          "locus": "f1r.22,*P0",
+          "raw": "<%>cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.chy.ro.d?"
+        },
+        {
+          "locus": "f1r.23,+P0",
+          "raw": "?doin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar"
+        },
+        {
+          "locus": "f1r.24,+P0",
+          "raw": "cho?o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar"
+        },
+        {
+          "locus": "f1r.25,+P0",
+          "raw": "ycheey.okay.oky.daiin.okchey.kokaiin.??chol.k??chy.dal"
+        },
+        {
+          "locus": "f1r.26,+P0",
+          "raw": "d?eeo.shody.koshey.cthy.okchey.keey.keey.dal.chtor"
+        },
+        {
+          "locus": "f1r.27,+P0",
+          "raw": "?eo.chol.chok.choty.chotey"
+        },
+        {
+          "locus": "f1r.28,=Pt",
+          "raw": "dchaiin<$>"
+        }
+      ],
+      "full_with_uncertain_spaces_joined": {
+        "label": "IT2a-n.txt commas joined",
+        "tokens": 37759,
+        "characters_no_spaces": 191009,
+        "characters_with_spaces": 228767,
+        "types": 8026,
+        "qokeedy": 305,
+        "e_count": 20007,
+        "e_percent": 10.474375552984414,
+        "H0_no_spaces": 3.8611282527593014,
+        "H0_with_spaces": 3.8701040186738442,
+        "H_within_word": [
+          3.8611282527593014,
+          2.1204360841194387,
+          1.8961066881723638,
+          1.77877743836928
+        ],
+        "top_words": [
+          [
+            "daiin",
+            863
+          ],
+          [
+            "ol",
+            537
+          ],
+          [
+            "chedy",
+            501
+          ],
+          [
+            "aiin",
+            469
+          ],
+          [
+            "shedy",
+            426
+          ],
+          [
+            "chol",
+            396
+          ],
+          [
+            "or",
+            363
+          ],
+          [
+            "ar",
+            350
+          ],
+          [
+            "chey",
+            344
+          ],
+          [
+            "dar",
+            318
+          ]
+        ],
+        "top_trigrams_with_spaces": [
+          [
+            "dy ",
+            6710
+          ],
+          [
+            " ch",
+            5968
+          ],
+          [
+            "in ",
+            5901
+          ],
+          [
+            " qo",
+            5252
+          ],
+          [
+            "che",
+            5008
+          ],
+          [
+            "iin",
+            4225
+          ],
+          [
+            "aii",
+            4182
+          ],
+          [
+            "edy",
+            4149
+          ],
+          [
+            "ey ",
+            3958
+          ],
+          [
+            "y q",
+            3709
+          ]
+        ],
+        "character_counts": {
+          "f": 503,
+          "a": 14251,
+          "c": 13276,
+          "h": 17811,
+          "y": 17611,
+          "s": 7364,
+          "k": 10906,
+          "l": 10492,
+          "r": 7429,
+          "t": 6921,
+          "i": 11707,
+          "n": 6127,
+          "o": 25368,
+          "e": 20007,
+          "d": 12940,
+          "p": 1627,
+          "m": 1114,
+          "q": 5414,
+          "g": 95,
+          "z": 2,
+          "x": 35,
+          "v": 9
+        },
+        "length_histogram": {
+          "1": 771,
+          "2": 2282,
+          "3": 3534,
+          "4": 6824,
+          "5": 9600,
+          "6": 7549,
+          "7": 4465,
+          "8": 1792,
+          "9": 662,
+          "10": 198,
+          "11": 46,
+          "12": 25,
+          "13": 8,
+          "14": 2,
+          "15": 1
+        },
+        "fibonacci_5_8_13_percent": 30.191477528536243,
+        "fibonacci_any_percent": 47.63632511454223,
+        "q_at_start_percent": 99.37199852234946,
+        "y_at_end_percent": 87.34881608085855,
+        "words_ending_y_percent": 40.73995603697132,
+        "unassigned_letters": {
+          "p": 1627,
+          "m": 1114,
+          "g": 95,
+          "z": 2,
+          "x": 35,
+          "v": 9
+        },
+        "mapping_character_coverage_percent": 98.49117057311436,
+        "mapping_token_coverage_percent": 92.5633623771816
+      },
+      "page_metadata_for_claimed_examples": {
+        "f1r": {
+          "Q": "A",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "T",
+          "L": "A",
+          "H": "1",
+          "C": "1",
+          "X": "V"
+        },
+        "f68r1": {
+          "Q": "I",
+          "P": "H",
+          "F": "z",
+          "B": "1",
+          "I": "A",
+          "H": "4"
+        },
+        "f68r2": {
+          "Q": "I",
+          "P": "I",
+          "F": "z",
+          "B": "1",
+          "I": "A",
+          "H": "4"
+        },
+        "f68r3": {
+          "Q": "I",
+          "P": "J",
+          "F": "z",
+          "B": "1",
+          "I": "A",
+          "H": "4"
+        },
+        "f75r": {
+          "Q": "M",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "B",
+          "L": "B",
+          "H": "2",
+          "C": "2"
+        },
+        "f87r": {
+          "Q": "O",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "H",
+          "L": "A",
+          "H": "1",
+          "C": "4"
+        },
+        "f103r": {
+          "Q": "T",
+          "P": "A",
+          "F": "a",
+          "B": "1",
+          "I": "S",
+          "L": "B",
+          "H": "3",
+          "C": "X"
+        }
+      },
+      "section_tests": [
+        {
+          "symbol": "e",
+          "estimable": true,
+          "effect_percentage_points": 3.499610085356529,
+          "p": 0.016,
+          "permutations": 1999,
+          "dropped_mixed_leaves": [],
+          "strata": [
+            {
+              "currier": "B",
+              "hand": "2",
+              "positive_leaves": 10,
+              "negative_leaves": 10,
+              "leaves": [
+                "f26",
+                "f31",
+                "f33",
+                "f34",
+                "f39",
+                "f40",
+                "f43",
+                "f46",
+                "f50",
+                "f55",
+                "f75",
+                "f76",
+                "f77",
+                "f78",
+                "f79",
+                "f80",
+                "f81",
+                "f82",
+                "f83",
+                "f84"
+              ]
+            }
+          ],
+          "holm_p": 0.048
+        },
+        {
+          "symbol": "k",
+          "estimable": true,
+          "effect_percentage_points": 0.5210549723726241,
+          "p": 0.1985,
+          "permutations": 1999,
+          "dropped_mixed_leaves": [],
+          "strata": [
+            {
+              "currier": "B",
+              "hand": "2",
+              "positive_leaves": 10,
+              "negative_leaves": 10,
+              "leaves": [
+                "f26",
+                "f31",
+                "f33",
+                "f34",
+                "f39",
+                "f40",
+                "f43",
+                "f46",
+                "f50",
+                "f55",
+                "f75",
+                "f76",
+                "f77",
+                "f78",
+                "f79",
+                "f80",
+                "f81",
+                "f82",
+                "f83",
+                "f84"
+              ]
+            }
+          ],
+          "holm_p": 0.397
+        },
+        {
+          "symbol": "o",
+          "estimable": false,
+          "p": 1.0,
+          "strata": [],
+          "dropped_mixed_leaves": [],
+          "holm_p": 1
+        }
+      ],
+      "quoted_excerpt_checks": [
+        {
+          "claimed_page": "f1r",
+          "excerpt": "fachys ykal ar ataiin shol shory cthres ykor sheedy",
+          "page_ids": [
+            "f1r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f68r",
+          "excerpt": "oteol dain otaiin sheol",
+          "page_ids": [
+            "f68r1",
+            "f68r2",
+            "f68r3"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f75r",
+          "excerpt": "sheor chedy qokeey",
+          "page_ids": [
+            "f75r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f86v",
+          "excerpt": "daiin chol daiir shey",
+          "page_ids": [
+            "f86v4",
+            "f86v6",
+            "f86v5",
+            "f86v3"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f87r",
+          "excerpt": "chedy qotol",
+          "page_ids": [
+            "f87r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        },
+        {
+          "claimed_page": "f103r",
+          "excerpt": "qotedy chedy qotedy",
+          "page_ids": [
+            "f103r"
+          ],
+          "found_in_any_line": false,
+          "found_in_concatenated_loci": false
+        }
+      ]
+    }
+  },
+  "semantic_label_invariance": {
+    "explanation": "A bijective permutation of assigned meaning labels leaves every text-based likelihood, frequency, entropy and n-gram score exactly unchanged.",
+    "original_qokeedy": [
+      "initiation",
+      "solar/cycle",
+      "earth/growth",
+      "water/purification",
+      "water/purification",
+      "descent/matter",
+      "termination"
+    ],
+    "alternative_qokeedy": [
+      "unverified-label-0",
+      "unverified-label-1",
+      "unverified-label-2",
+      "unverified-label-3",
+      "unverified-label-4",
+      "unverified-label-5",
+      "unverified-label-6"
+    ],
+    "semantic_translation_accuracy": null,
+    "reason": "No independently readable target text or fixed compositional grammar exists."
+  }
+}

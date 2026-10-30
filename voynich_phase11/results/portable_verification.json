@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "fresh_archive_extraction": true,
+  "source_files_verified": 45,
+  "numerical_result_files_identical": [
+    "scott_audit.json",
+    "zfd_v3_reproduction.json",
+    "zfd_v3_semantic.json",
+    "zfd_canonical_semantic.json",
+    "verification.json"
+  ],
+  "commands": [
+    [
+      "python",
+      "src/fetch_sources.py"
+    ],
+    [
+      "node",
+      "src/audit_scott.mjs"
+    ],
+    [
+      "python",
+      "src/audit_zfd.py"
+    ],
+    [
+      "python",
+      "src/verify_results.py"
+    ]
+  ],
+  "network_redownload_tested": false,
+  "input_note": "Verified pinned source bytes copied from initial connector retrieval; no source modification."
+}

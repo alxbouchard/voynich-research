@@ -1,0 +1,282 @@
+[Page 1]
+VOYNICH · PHASE 4 · AUCUNE TRADUCTION VALIDÉE
+1
+VOYNICH · PHASE 4 · 28 OCTOBRE 2026
+Tester une clé
+homophonique
+Résultat : aucune traduction validée. Cette phase teste une hypothèse plus souple que la
+substitution simple : plusieurs signes peuvent représenter la même lettre. Le solveur dépasse le
+seuil prévu sur les textes de contrôle, mais ses sorties du Voynich ne permettent pas d’attribuer
+un sens au manuscrit.
+Ce qui a été réalisé
+Résultat
+Contrôles à clé cachée, alphabet de 48 signes
+4 essais : 2 clés latines et 2 clés italiennes
+Lettres retrouvées hors ajustement de la clé
+Latin : 96,784 % ; italien : 100 %
+Configurations Voynich
+16 essais : 2 langues × 2 groupes × 2 unités ×
+2 sens
+Comparaisons par mélange de l’ordre des signes
+16 témoins, chacun ajusté avec le même
+budget
+Sens nouveau établi pour un mot
+Aucun
+Le constat le plus utile
+Sur le contrôle latin, le solveur commet 921 erreurs sur 28 640 lettres évaluées. Pourtant,
+sa sortie erronée obtient un meilleur score de séquences de quatre lettres que le texte exact.
+Une amélioration statistique ne constitue donc pas une validation du déchiffrement.
+Les 16 sorties du Voynich battent leur témoin mélangé sur ce score. Cela indique une organisation locale
+exploitable dans la transcription, pas l’identification d’une langue ou d’un message. Les meilleurs candidats ont été
+choisis après comparaison des variantes ; leur sélection reste exploratoire.
+Livrables : ce rapport, les codes Python et C++, les sources et crédits, les graines aléatoires, les clés candidates,
+les entrées chiffrées, les sorties complètes et les vérifications. Les candidats sont explicitement marqués comme
+non traduits.
+
+
+[Page 2]
+VOYNICH · PHASE 4 · AUCUNE TRADUCTION VALIDÉE
+2
+PROTOCOLE ET CONTRÔLES
+Ce que le test mesure
+Le modèle impose une clé fixe : chaque unité chiffrée donne exactement une lettre ; plusieurs
+unités peuvent donner la même lettre. Un recuit simulé recherche la clé à partir des fréquences
+de groupes de quatre lettres, avec une pénalité sur les fréquences des lettres de sortie. Le recuit
+est une approche connue pour ces chiffres [4] ; le code employé ici est une implémentation
+propre, avec refroidissement.
+Contrôle
+Corpus du modèle
+Texte chiffré à
+retrouver
+Évaluation
+Latin, 2 clés
+César, Guerre des Gaules : 317
+080 lettres
+Pline, Histoire naturelle
+XVI
+28 640 lettres ; 921 erreurs
+par clé
+Italien, 2 clés
+Dante, Enfer + Purgatoire :
+268 869 lettres
+Dante, Paradis, première
+copie uniquement
+109 933 lettres ; 0 erreur par
+clé
+Pour chaque clé, 24 000 lettres servent à l’ajustement ; le reste sert à l’évaluation. Deux clés ne constituent pas
+deux textes indépendants. Le contrôle italien reste du même auteur que son modèle. Les contrôles synthétiques ne
+reproduisent ni les erreurs de lecture ni tous les mécanismes possibles du Voynich. La dernière lettre isolée du
+contrôle latin est exclue, car les segments de moins de quatre lettres ne sont pas évalués.
+Paramètres et séparation des données
+Chaque essai utilise 8 départs, 60 000 propositions par départ, puis une amélioration locale. La pénalité vaut 4 et la
+température initiale 0,002 fois la longueur ajustée. Aucun paramètre n’a été changé après le premier contrôle. Le
+seuil prévu était de 95 % de lettres exactes pour chacune des deux clés de chaque langue.
+Pour le Voynich, la source est ZL3b. Les groupes Currier A et B sont traités séparément, avec des clés distinctes.
+Une feuille physique sur cinq, dans l’ordre trié des identifiants, est réservée à l’évaluation. Les deux faces et
+panneaux regroupés d’une même feuille restent dans le même ensemble. La clé est ajustée sur au plus 24 000
+unités ; les pages réservées ne servent pas à cet ajustement.
+« Réservé » ne signifie pas historiquement inédit : les phases précédentes ont déjà étudié ce corpus. La direction
+inverse renverse chaque segment retenu ; elle ne renverse ni l’ordre des pages ni celui du manuscrit.
+
+
+[Page 3]
+VOYNICH · PHASE 4 · AUCUNE TRADUCTION VALIDÉE
+3
+RÉSULTATS · MODÈLE LATIN
+Latin : des scores trompeurs
+Scores sur les segments réservés, en bits par fenêtre de quatre lettres. Plus bas signifie plus compatible avec
+ce modèle local. Ce ne sont ni des pourcentages de traduction correcte ni des entropies par caractère. Le témoin
+conserve les mêmes signes et les mêmes longueurs dans chaque segment, en mélangeant leur ordre.
+Groupe / unités
+Sens
+Ajusté
+Réservé
+Mélangé
+Lettres*
+A / EVA
+direct
+14,520
+15,000
+19,396
+15
+A / EVA
+inverse
+14,697
+15,143
+19,416
+16
+A / composées
+direct
+14,855
+14,969
+19,224
+18
+A / composées
+inverse
+15,266
+15,607
+19,263
+18
+B / EVA
+direct
+15,001
+15,081
+19,106
+14
+B / EVA
+inverse
+14,407
+14,770
+19,555
+15
+B / composées
+direct
+14,899
+15,075
+19,295
+20
+B / composées
+inverse
+14,614
+14,810
+19,021
+20
+* Nombre de lettres distinctes produites sur l’ensemble réservé. EVA sépare les caractères de la translittération ;
+les unités composées regroupent certaines formes comme ch, sh ou iin à l’intérieur des mots. Ce sont des
+conventions de test, pas un alphabet original certifié.
+Le meilleur score ne donne pas une lecture
+Extrait automatique, sans traduction ni insertion interprétative de mots :
+rntserntd
+ummerernioseranidierntmioisersioeerinciernicants
+persedisedisedissersisidiersetisersetietanisetiseranide
+eteeraatanierienitisummernianisernieranteratisetanieummes
+Le meilleur essai, B / EVA / inverse, obtient 14,770. Le texte latin exact du contrôle obtient
+14,835, et sa version erronée 14,589. Ces textes différents ne définissent pas un classement
+sémantique ; surtout, le contrôle démontre directement que ce score peut préférer des erreurs.
+Dans le contrôle latin, les substitutions erronées incluent f → t, g → t et x → s. Le modèle homophonique peut ainsi
+fusionner abusivement des lettres pour favoriser des motifs fréquents. La pénalité de fréquence limite ce
+comportement sans le supprimer.
+
+
+[Page 4]
+VOYNICH · PHASE 4 · AUCUNE TRADUCTION VALIDÉE
+4
+RÉSULTATS · MODÈLE ITALIEN
+Italien : aucun sens établi
+Scores sur les segments réservés, en bits par fenêtre de quatre lettres. Plus bas signifie plus compatible avec
+ce modèle local. Ce ne sont ni des pourcentages de traduction correcte ni des entropies par caractère. Le témoin
+conserve les mêmes signes et les mêmes longueurs dans chaque segment, en mélangeant leur ordre.
+Groupe / unités
+Sens
+Ajusté
+Réservé
+Mélangé
+Lettres*
+A / EVA
+direct
+14,281
+14,550
+19,436
+14
+A / EVA
+inverse
+14,708
+15,035
+19,134
+16
+A / composées
+direct
+15,180
+15,476
+19,349
+19
+A / composées
+inverse
+15,214
+15,264
+19,337
+18
+B / EVA
+direct
+14,734
+14,716
+19,347
+16
+B / EVA
+inverse
+14,806
+15,032
+19,341
+17
+B / composées
+direct
+15,012
+15,207
+19,451
+21
+B / composées
+inverse
+15,057
+15,274
+19,508
+21
+* Nombre de lettres distinctes produites sur l’ensemble réservé. EVA sépare les caractères de la translittération ;
+les unités composées regroupent certaines formes comme ch, sh ou iin à l’intérieur des mots. Ce sont des
+conventions de test, pas un alphabet original certifié.
+Le meilleur score ne donne pas une lecture
+Extrait automatique, sans traduction ni insertion interprétative de mots :
+vaatoaolararanacciateratero
+riaoleraterso
+aeroaltarerolacratnacciataraaiantarantarsai
+aoaccratiloerolacciatesantearoantiasaracciao
+Le meilleur essai est A / EVA / direct, avec 14,550 et 14 lettres de sortie. Le Paradis correctement
+retrouvé obtient 13,420 sur le même type de score. Ce décalage ne mesure pas une distance à
+une « vraie » traduction du Voynich, dont nous ne disposons pas.
+Les sorties contiennent des fragments ressemblant à des suites italiennes, mais aucun passage n’a été validé avec
+une syntaxe, un sens et des correspondances indépendantes. Aucun mot du manuscrit ne reçoit ici une traduction.
+Un seul mélange par configuration ne permet pas un test de significativité robuste.
+
+
+[Page 5]
+VOYNICH · PHASE 4 · AUCUNE TRADUCTION VALIDÉE
+5
+LECTURES, LIMITES ET SUITE
+Ce qui reste ouvert
+Les incertitudes de la transcription sont conservées dans le traitement : les variantes explicites [a:b], les signes
+illisibles, les signes rares codés et les interruptions graphiques coupent la séquence. Aucune première variante
+n’est imposée. Les unités trop rares sont également exclues avec une coupure. Les espaces sont ensuite retirés à
+l’intérieur de chaque segment.
+Les virgules, qui signalent des espaces incertains, sont traitées comme des frontières pour construire les unités
+composées. L’autre segmentation n’est pas testée dans cette phase. Les petits segments de moins de quatre
+unités sont exclus. Les taux de conservation et les listes de feuilles sont fournis dans encoding_audit.json.
+Correspondance issue du pilote
+Statut dans cette phase
+okcheor · otcheody · otald
+Formes provisoirement robustes dans les variantes étudiées ;
+sens inconnu
+okols / okolssheey
+Dépend d’une séparation incertaine ; pas une ancre lexicale
+robuste
+Ces répétitions ne sont pas du texte clair connu. Avec une clé fixe, deux suites identiques donnent
+automatiquement la même sortie ; cela n’ajoute aucune preuve de traduction.
+Portée de la conclusion
+Cette expérience ne réfute ni le latin, ni l’italien, ni l’homophonie en général. Elle ne couvre pas les syllabaires, les
+nomenclateurs, les signes nuls, les clés variables, toutes les segmentations ou les langues médiévales possibles.
+Les corpus de César et Dante restent des approximations historiques. Aucun contrôle contradictoire d’expert
+paléographe n’a été ajouté ici.
+Prochaine priorité proposée : améliorer les unités de lecture sur les fac-similés et comparer des modèles où un
+signe peut coder une syllabe. Tout nouveau mécanisme devra d’abord réussir des contrôles adaptés, puis produire
+des lectures cohérentes sur des pages qui n’ont pas servi à choisir ses règles. Ce travail futur n’est pas présenté
+comme déjà exécuté.
+Sources et reproduction
+[1] René Zandbergen et Gabriel Landini, transcription ZL3b, 2025 ; les crédits d’IT2a et le format IVTFF sont
+conservés dans les sources du dossier.
+[2] Perseus Digital Library, César, De Bello Gallico, édition XML sous CC BY-SA 4.0 ; l’édition normalisée conserve
+cette licence.
+[3] Michael A. Greshko, corpus de contrôle et licence du dépôt naibbe-cipher. Citation requise : The Naibbe cipher,
+2025, doi:10.1080/01611194.2025.2566408.
+[4] Nils Kopal, Cryptanalysis of Homophonic Substitution Ciphers Using Simulated Annealing with Fixed
+Temperature, HistoCrypt 2019, p. 107-116, article source.
+Vérification : les 36 objectifs du solveur sont recalculés indépendamment en Python ; les exactitudes des contrôles,
+les mélanges et la séparation des feuilles sont vérifiés. L’archive contient un manifeste SHA-256, les licences et les
+commandes de reproduction.

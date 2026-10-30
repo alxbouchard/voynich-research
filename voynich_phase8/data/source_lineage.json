@@ -1,0 +1,23 @@
+[
+  {
+    "upstream_path": "voynich_phase7/data/inputs.json",
+    "upstream_sha256": "46a333fae100acd3fb66d96bfdc21858f0679d57f5513c650d5489a4a792f26d",
+    "snapshot": "data/source_inputs.json",
+    "snapshot_sha256": "27eccf45bb9f20cf7693b8e1809f43fcaf6cbef31ec7bb8ea7ab46630bf3b438",
+    "selection": "Only ZL and IT"
+  },
+  {
+    "upstream_path": "voynich_phase7/results/ZL_predictions.json",
+    "upstream_sha256": "dcf9c2048d459eff8d23e84dacee8a3c8f752cddc3c4a5d2478b1b4f5305f104",
+    "snapshot": "data/source_predictions.json",
+    "snapshot_sha256": "605716222f9f62e1a5b3e7818614ab95c1b68f6c17440fc90baf65c4b2cf2e22",
+    "selection": "ZL only; raw BPE64 where relevant"
+  },
+  {
+    "upstream_path": "voynich_phase7/results/ZL_bpe.json",
+    "upstream_sha256": "7227985dd01dcbf37b9d201f13790c1c1769c7e0c94e76ec33cde98891568c8d",
+    "snapshot": "data/source_bpe64.json",
+    "snapshot_sha256": "7a1ec3263d5576e93e7f4504e436e932396e029ece3ae756963fe38caa1bc193",
+    "selection": "ZL only; raw BPE64 where relevant"
+  }
+]

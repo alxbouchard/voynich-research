@@ -1,0 +1,26 @@
+VOYNICH - PHASE 12 : RECONSTRUCTION DE REGLES ET CONTROLE LINGUISTIQUE
+
+Aucune traduction validée. Les 18 significations de départ sont des hypothèses
+empruntées au guide étudié. Leur propagation automatique ne prouve pas leur sens.
+L'expérience teste un sous-ensemble explicite des règles, pas la totalité de
+toutes les interprétations proposées par l'auteur.
+
+Reproduction, Python 3.12 et Node 18+ :
+  python src/fetch_sources.py
+  node src/export_upstream.mjs
+  python src/analyse.py
+  python src/verify.py
+
+Les fichiers amont se téléchargent aux commits et empreintes fixés dans le
+manifeste. Un accès à raw.githubusercontent.com est nécessaire. Aucun fichier
+amont n'est exécuté par le téléchargeur. Le script Node suivant charge ensuite
+le décodeur inspecté, en exposant ses fonctions sans appeler son main().
+
+Les résultats agrégés sont sous results/. Les candidats complets sont produits
+sous tmp/ lors d'une reproduction ; ils ne constituent pas une transcription
+traduite validée. Les sources tierces ne sont pas redistribuées dans l'archive.
+data/linguistic_review.json indique les références de la vérification manuelle
+du latin. Le vérificateur informatique ne prétend pas valider cette grammaire.
+
+Le PDF se régénère facultativement avec src/make_report.py (ReportLab requis).
+Les calculs utilisent seulement les bibliothèques standard de Python et Node.

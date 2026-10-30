@@ -1,0 +1,109 @@
+{
+  "case": "IT_A",
+  "layout": "original manuscript line/page layout",
+  "words": 11081,
+  "uncertain_slots": 608,
+  "types": 3243,
+  "pages": 114,
+  "adjacent_pairs": 8952,
+  "observed": {
+    "identical_adjacent": 0.011058981233243968,
+    "distinct_edit1_EVA": 0.040214477211796246,
+    "distinct_edit1_composed": 0.05540661304736372,
+    "last_first_mutual_information_bits": 0.1279378322910531
+  },
+  "nulls": {
+    "all_page_slots": {
+      "identical_adjacent": {
+        "mean": 0.00819928507596068,
+        "p025": 0.006590705987488829,
+        "p975": 0.009718498659517426,
+        "observed_minus_mean": 0.002859696157283289,
+        "exploratory_upper_tail_p": 0.019801980198019802
+      },
+      "distinct_edit1_EVA": {
+        "mean": 0.025382037533512064,
+        "p025": 0.022441912421805182,
+        "p975": 0.02809707327971403,
+        "observed_minus_mean": 0.014832439678284182,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      },
+      "distinct_edit1_composed": {
+        "mean": 0.037793789097408395,
+        "p025": 0.03367683199285076,
+        "p975": 0.04184260500446827,
+        "observed_minus_mean": 0.017612823949955322,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      },
+      "last_first_mutual_information_bits": {
+        "mean": 0.019312556008546464,
+        "p025": 0.016592018969315385,
+        "p975": 0.022598723324622722,
+        "observed_minus_mean": 0.10862527628250664,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      }
+    },
+    "line_ends_fixed": {
+      "identical_adjacent": {
+        "mean": 0.008948838248436102,
+        "p025": 0.007202301161751564,
+        "p975": 0.011017091152815009,
+        "observed_minus_mean": 0.002110142984807866,
+        "exploratory_upper_tail_p": 0.039603960396039604
+      },
+      "distinct_edit1_EVA": {
+        "mean": 0.027179401251117074,
+        "p025": 0.024240393208221626,
+        "p975": 0.02993744414655943,
+        "observed_minus_mean": 0.013035075960679172,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      },
+      "distinct_edit1_composed": {
+        "mean": 0.0404088471849866,
+        "p025": 0.03691633154602324,
+        "p975": 0.043789097408400354,
+        "observed_minus_mean": 0.014997765862377117,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      },
+      "last_first_mutual_information_bits": {
+        "mean": 0.019360253661320555,
+        "p025": 0.015673631896523765,
+        "p975": 0.023201709155229983,
+        "observed_minus_mean": 0.10857757862973255,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      }
+    }
+  },
+  "strata_section_hand_min500pairs": {
+    "H|1": {
+      "pairs": 6136,
+      "observed": {
+        "identical_adjacent": 0.011897001303780965,
+        "distinct_edit1_EVA": 0.043350717079530636,
+        "distinct_edit1_composed": 0.06095176010430248,
+        "last_first_mutual_information_bits": 0.13494717784535432
+      }
+    },
+    "S|3": {
+      "pairs": 652,
+      "observed": {
+        "identical_adjacent": 0.004601226993865031,
+        "distinct_edit1_EVA": 0.032208588957055216,
+        "distinct_edit1_composed": 0.046012269938650305,
+        "last_first_mutual_information_bits": 0.2326557380610784
+      }
+    },
+    "P|1": {
+      "pairs": 1992,
+      "observed": {
+        "identical_adjacent": 0.010040160642570281,
+        "distinct_edit1_EVA": 0.033634538152610444,
+        "distinct_edit1_composed": 0.0426706827309237,
+        "last_first_mutual_information_bits": 0.1903848010122102
+      }
+    }
+  },
+  "permutations_each": 100,
+  "seed": 20261031,
+  "warning": "Exploratory, no multiple-testing correction. Raw/composed measures on natural-language controls are orthographic comparisons, not linguistic syllabification. Different lengths and artificial control layout preclude a universal language classifier."
+}

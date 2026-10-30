@@ -1,0 +1,372 @@
+[
+  {
+    "name": "control_latin_1",
+    "true_training": {
+      "characters": 23967,
+      "quadgrams": 22152,
+      "bits_per_quadgram": 14.726279805265877,
+      "kl_bits": 0.013305760608900067,
+      "objective": -327492.14690430375
+    },
+    "found_training": {
+      "characters": 23967,
+      "quadgrams": 22152,
+      "bits_per_quadgram": 14.496201705809666,
+      "kl_bits": 0.02175482054765841,
+      "objective": -323205.45132335863
+    },
+    "wrong_mappings": [
+      {
+        "cipher": "b",
+        "after_y": 1,
+        "output": "t",
+        "training_occurrences": 7,
+        "true_output": "b"
+      },
+      {
+        "cipher": "e",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 26,
+        "true_output": "d"
+      },
+      {
+        "cipher": "g",
+        "after_y": 0,
+        "output": "t",
+        "training_occurrences": 269,
+        "true_output": "f"
+      },
+      {
+        "cipher": "g",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 33,
+        "true_output": "m"
+      },
+      {
+        "cipher": "j",
+        "after_y": 0,
+        "output": "e",
+        "training_occurrences": 29,
+        "true_output": "y"
+      },
+      {
+        "cipher": "l",
+        "after_y": 1,
+        "output": "t",
+        "training_occurrences": 11,
+        "true_output": "g"
+      },
+      {
+        "cipher": "n",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 17,
+        "true_output": "r"
+      },
+      {
+        "cipher": "p",
+        "after_y": 0,
+        "output": "s",
+        "training_occurrences": 138,
+        "true_output": "x"
+      },
+      {
+        "cipher": "q",
+        "after_y": 1,
+        "output": "t",
+        "training_occurrences": 15,
+        "true_output": "h"
+      },
+      {
+        "cipher": "r",
+        "after_y": 0,
+        "output": "x",
+        "training_occurrences": 2,
+        "true_output": "z"
+      },
+      {
+        "cipher": "s",
+        "after_y": 1,
+        "output": "e",
+        "training_occurrences": 23,
+        "true_output": "u"
+      },
+      {
+        "cipher": "w",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 13,
+        "true_output": "l"
+      },
+      {
+        "cipher": "y",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 22,
+        "true_output": "v"
+      }
+    ]
+  },
+  {
+    "name": "control_latin_2",
+    "true_training": {
+      "characters": 23967,
+      "quadgrams": 22152,
+      "bits_per_quadgram": 14.726279805265877,
+      "kl_bits": 0.013305760608900067,
+      "objective": -327492.14690430375
+    },
+    "found_training": {
+      "characters": 23967,
+      "quadgrams": 22152,
+      "bits_per_quadgram": 14.496201705809666,
+      "kl_bits": 0.02175482054765841,
+      "objective": -323205.45132335863
+    },
+    "wrong_mappings": [
+      {
+        "cipher": "b",
+        "after_y": 0,
+        "output": "x",
+        "training_occurrences": 2,
+        "true_output": "z"
+      },
+      {
+        "cipher": "c",
+        "after_y": 1,
+        "output": "t",
+        "training_occurrences": 15,
+        "true_output": "h"
+      },
+      {
+        "cipher": "e",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 26,
+        "true_output": "d"
+      },
+      {
+        "cipher": "i",
+        "after_y": 0,
+        "output": "t",
+        "training_occurrences": 269,
+        "true_output": "f"
+      },
+      {
+        "cipher": "k",
+        "after_y": 1,
+        "output": "t",
+        "training_occurrences": 11,
+        "true_output": "g"
+      },
+      {
+        "cipher": "l",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 33,
+        "true_output": "m"
+      },
+      {
+        "cipher": "m",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 13,
+        "true_output": "l"
+      },
+      {
+        "cipher": "o",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 17,
+        "true_output": "r"
+      },
+      {
+        "cipher": "q",
+        "after_y": 1,
+        "output": "e",
+        "training_occurrences": 23,
+        "true_output": "u"
+      },
+      {
+        "cipher": "s",
+        "after_y": 0,
+        "output": "s",
+        "training_occurrences": 138,
+        "true_output": "x"
+      },
+      {
+        "cipher": "v",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 22,
+        "true_output": "v"
+      },
+      {
+        "cipher": "w",
+        "after_y": 0,
+        "output": "e",
+        "training_occurrences": 29,
+        "true_output": "y"
+      },
+      {
+        "cipher": "y",
+        "after_y": 1,
+        "output": "t",
+        "training_occurrences": 7,
+        "true_output": "b"
+      }
+    ]
+  },
+  {
+    "name": "control_italian_1",
+    "true_training": {
+      "characters": 23977,
+      "quadgrams": 21406,
+      "bits_per_quadgram": 13.383556807185053,
+      "kl_bits": 0.0020845433459985687,
+      "objective": -286688.3413978313
+    },
+    "found_training": {
+      "characters": 23977,
+      "quadgrams": 21406,
+      "bits_per_quadgram": 13.35472538937899,
+      "kl_bits": 0.002529073377418921,
+      "objective": -286113.8100545281
+    },
+    "wrong_mappings": [
+      {
+        "cipher": "a",
+        "after_y": 1,
+        "output": "a",
+        "training_occurrences": 49,
+        "true_output": "e"
+      },
+      {
+        "cipher": "c",
+        "after_y": 1,
+        "output": "l",
+        "training_occurrences": 47,
+        "true_output": "f"
+      },
+      {
+        "cipher": "d",
+        "after_y": 1,
+        "output": "r",
+        "training_occurrences": 5,
+        "true_output": "h"
+      },
+      {
+        "cipher": "h",
+        "after_y": 1,
+        "output": "a",
+        "training_occurrences": 20,
+        "true_output": "o"
+      },
+      {
+        "cipher": "i",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 42,
+        "true_output": "v"
+      },
+      {
+        "cipher": "s",
+        "after_y": 1,
+        "output": "r",
+        "training_occurrences": 13,
+        "true_output": "b"
+      },
+      {
+        "cipher": "v",
+        "after_y": 1,
+        "output": "l",
+        "training_occurrences": 18,
+        "true_output": "g"
+      },
+      {
+        "cipher": "y",
+        "after_y": 1,
+        "output": "i",
+        "training_occurrences": 10,
+        "true_output": "u"
+      }
+    ]
+  },
+  {
+    "name": "control_italian_2",
+    "true_training": {
+      "characters": 23977,
+      "quadgrams": 21406,
+      "bits_per_quadgram": 13.383556807185053,
+      "kl_bits": 0.0020845433459985687,
+      "objective": -286688.3413978313
+    },
+    "found_training": {
+      "characters": 23977,
+      "quadgrams": 21406,
+      "bits_per_quadgram": 13.35472538937899,
+      "kl_bits": 0.002529073377418921,
+      "objective": -286113.8100545281
+    },
+    "wrong_mappings": [
+      {
+        "cipher": "e",
+        "after_y": 1,
+        "output": "i",
+        "training_occurrences": 10,
+        "true_output": "u"
+      },
+      {
+        "cipher": "f",
+        "after_y": 1,
+        "output": "s",
+        "training_occurrences": 42,
+        "true_output": "v"
+      },
+      {
+        "cipher": "h",
+        "after_y": 1,
+        "output": "a",
+        "training_occurrences": 49,
+        "true_output": "e"
+      },
+      {
+        "cipher": "o",
+        "after_y": 1,
+        "output": "a",
+        "training_occurrences": 20,
+        "true_output": "o"
+      },
+      {
+        "cipher": "r",
+        "after_y": 1,
+        "output": "l",
+        "training_occurrences": 47,
+        "true_output": "f"
+      },
+      {
+        "cipher": "s",
+        "after_y": 1,
+        "output": "r",
+        "training_occurrences": 13,
+        "true_output": "b"
+      },
+      {
+        "cipher": "t",
+        "after_y": 1,
+        "output": "l",
+        "training_occurrences": 18,
+        "true_output": "g"
+      },
+      {
+        "cipher": "z",
+        "after_y": 1,
+        "output": "r",
+        "training_occurrences": 5,
+        "true_output": "h"
+      }
+    ]
+  }
+]

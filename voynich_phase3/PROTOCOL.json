@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "status": "Exploratory transcription pilot, fixed selection before image inspection; not a preregistered decipherment test.",
+  "anchor_pairs": [
+    {"word":"okols","label":"f100r.21","body":"f89v2.21"},
+    {"word":"okcheor","label":"f100v.10","body":"f93r.12"},
+    {"word":"otcheody","label":"f68r1.10","body":"f114v.31"},
+    {"word":"otald","label":"f70v2.10","body":"f47v.13"}
+  ],
+  "pages": ["f100r","f89v2","f100v","f93r","f68r1","f114v","f70v2","f47v","f1r","f2r","f75r","f103r"],
+  "comparison_pages": {
+    "f1r":"Opening page, paragraphs and additional marginal marks; audited in phase 1.",
+    "f2r":"Simple botanical layout to compare text-image separation.",
+    "f75r":"Bathing section, different illustration and paragraph layout.",
+    "f103r":"Dense starred paragraph layout, useful stress case for alignment."
+  },
+  "comparison_sampling":"Purposive layout coverage, not random or statistically representative.",
+  "alignment":"Source loci aligned by page and numeric locus. Report raw equality, textual equality after markup handling, missing loci and ambiguous variants separately. Inspect eight anchor occurrences in original-resolution images. Never force a geometric location from transcription agreement alone.",
+  "limits":"No meaning assigned to any EVA form. Image agreement is a provisional assistant reading, not independent expert validation. Remaining lines are imported scholarly readings unless explicitly reviewed."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "exact_pairs": 1089,
+  "independent_pairwise_auc_comparisons": 272300,
+  "auc": 0.7288652221814176,
+  "correct_predictions_against_IT": 716,
+  "high_certainty_disagreements_with_IT": 67,
+  "exact_pixel_crops_verified": 7,
+  "source_image_hashes_verified": 4,
+  "uncertain_boundaries_preserved": 2394,
+  "automatic_corrections": 0,
+  "limits": "Verifies data, calculations, cropping and provenance, not correctness of manual glyph identification."
+}

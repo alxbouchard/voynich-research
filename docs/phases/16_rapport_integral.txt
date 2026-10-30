@@ -1,0 +1,134 @@
+[Page 1]
+VOYNICH | PHASE 16 | AUDIT DES ANNOTATIONS
+29 octobre 2026 | Étude exploratoire | Aucune traduction validée
+1
+Un rapprochement graphique,
+pas encore une lecture
+Deux pistes vérifiées : la table marginale de f1r et les signes mêlés aux annotations de f116v. Une
+comparaison avec f104r mérite d’être conservée. Aucun mot ni aucune phrase du texte principal n’a
+reçu un sens validé.
+f116v et f104r : le lien précis
+La translittération ZL donne oror.sheey sur f116v. Une autre lecture publiée propose aror sheey. Sur
+f104r.28, ZL écrit aror,sheey et IT arorsheey. La virgule ZL marque un espace incertain. Les deux corpus
+concordent donc sur la suite de signes de f104r, pas sur son découpage.
+f116v, traitement multispectral.
+Premier signe encore discuté : o / a.
+f104r.28, photographie Yale.
+Suite transcrite aror,sheey / arorsheey.
+Recherche hors f116v
+ZL
+IT
+oror sheey, espaces sûrs
+0
+0
+aror sheey, espaces sûrs
+0
+0
+aror sheey / arorsheey, espace incertain admis
+1 : f104r.28
+1 : f104r.28
+Les recherches entre lignes consécutives d’un même paragraphe n’ajoutent aucune occurrence. IT ne
+contient pas f116v : il ne fournit donc pas une seconde lecture indépendante de l’annotation cible.
+Ce que ce lien permet, et ce qu’il ne permet pas
+Il fournit deux endroits à comparer signe par signe. Il ne prouve ni une citation, ni une recette, ni une
+équivalence entre les annotations en alphabet latin et le texte principal. Le rapprochement était déjà
+signalé par Anton le 21 avril 2016, puis discuté en 2017. Cette phase le vérifie ; elle ne le découvre pas.
+Images : Beinecke Rare Book & Manuscript Library MS 408, f104r et f116v. Multispectral : The Lazarus Project and The Chester
+F. Carlson Center for Imaging Science at Rochester Institute of Technology. Traitements de Roger Easton.
+
+
+[Page 2]
+VOYNICH | PHASE 16 | AUDIT DES ANNOTATIONS
+29 octobre 2026 | Étude exploratoire | Aucune traduction validée
+2
+Essai de la table marginale
+La table préliminaire publiée par Lisa Fagin Davis en 2024 aligne des lettres latines et des signes du
+manuscrit. Nous avons recodé manuellement un sous-ensemble en EVA, sans compléter les entrées
+illisibles. Les ambiguïtés j/k donnent quatre clés fixes, sans apprentissage.
+Groupes EVA retenus
+Lettres, colonne gauche
+Lettres, colonne droite
+d · a · r · o
+a · b · c · e
+b · c · d · f
+in · n · e · ch
+f · g · h · i
+g · h · i · j ou k
+l · f · s · p · t
+l · o · p · s · x
+m · p · q · t · y
+y
+j ou k
+l
+Ces correspondances restent conditionnelles à la lecture de la table et au regroupement des signes. Les
+formes composées cth, ckh, cph, cfh, ch, sh et in sont conservées ; un signe sans valeur reste entre
+crochets.
+Résultat mécanique
+Corpus
+Groupes entièrement substituables
+Proportion
+ZL
+12 802 / 32 154
+39,81 %
+IT
+15 559 / 37 759
+41,21 %
+Ce pourcentage mesure la couverture de la table partielle, pas le déchiffrement. Le dénominateur
+contient uniquement les groupes alphabétiques sans marque d’incertitude, hors f116v. Les quatre clés
+couvrent les mêmes groupes. ZL et IT représentent le même manuscrit.
+Exemple contrôlable : f1r.10
+Entrée EVA
+Substitution obtenue
+dain os teody
+Colonne gauche : abf ep xhea[j/k]
+Même entrée
+Colonne droite : bcg fq yifbl
+Les lignes entièrement substituables sont toutes conservées dans les résultats : 35 en ZL et 48 en IT,
+dont plusieurs très courtes. Aucun de ces résultats n’est présenté comme une traduction. Aucun test
+linguistique exhaustif n’a été réalisé sur toutes les langues ou sur les entrées omises.
+Décision : cette table partielle ne fournit pas une clé validée. Sa couverture limitée ne suffit pas non
+plus à réfuter toutes les interprétations possibles des annotations marginales.
+Source de la table : Lisa Fagin Davis, « Multispectral Imaging and the Voynich Manuscript », 8 septembre 2024, figure
+screenshot-696.png. Le tableau source et les images examinées sont conservés dans le dossier de recherche.
+
+
+[Page 3]
+VOYNICH | PHASE 16 | AUDIT DES ANNOTATIONS
+29 octobre 2026 | Étude exploratoire | Aucune traduction validée
+3
+Preuve, limites et suite utile
+Une vérification reproductible
+Deux versions figées du corpus : ZL3b-n (13 mai 2025) et IT2a-n (version modifiée le 25 juin 2025). Trois
+traitements des espaces et variantes : lecture stricte ; première variante publiée et virgules séparatrices
+; première variante et virgules supprimées. Les interruptions par un dessin sont toujours des barrières.
+Les rares signes inconnus ne servent jamais de jokers.
+Les requêtes jointes arorsheey et ororsheey ont été ajoutées après le premier calcul pour documenter
+l’occurrence de f104r.28. Cet ajout est déclaré dans ADDENDUM.txt. Le protocole est local et exploratoire
+; les résultats négatifs publiés étaient connus avant l’essai. Aucun seuil statistique ni gain de
+significativité n’est revendiqué.
+Vérifications effectuées : recalcul identique ; recherche littérale indépendante du cas f104r.28 ;
+concordances reliées aux lignes originales ; contrôle d’exclusion de f116v ; six recadrages PNG comparés
+aux pixels sources après correction EXIF. La reproduction depuis l’archive extraite vérifie les mêmes
+résultats.
+Pourquoi la piste ne donne pas encore du texte clair
+Nous ne disposons pas d’un passage dont le sens soit connu indépendamment et dont l’équivalence avec
+le texte principal soit démontrée. L’écriture voisine peut être un commentaire, une copie, un essai de
+lecture ou un ajout sans rapport. Une ressemblance de formes ne tranche pas entre ces possibilités.
+L’examen des images a été guidé par les transcriptions existantes. Il ne constitue pas une lecture
+paléographique à l’aveugle. Les images visible et multispectrale montrent la même inscription ; elles ne
+sont pas deux témoins historiques indépendants. Aucune identité de main ou date précise des
+annotations n’est établie ici.
+La prochaine preuve à chercher : un parallèle historique daté pour une formule marginale,
+conservant plusieurs mots dans le même ordre et vérifiable sur son manuscrit source. Il faudra
+ensuite démontrer son lien avec f104r ou un autre passage. Sans ce second lien, même une lecture
+correcte de la marge ne déchiffre pas le livre.
+Sources et accès aux données
+Images de Yale, MS 408
+Jeu public d’images de 2014, publié en 2024
+Lisa Fagin Davis, billet et table préliminaire, 2024
+Anton, comparaison f104r / f116v, 21 avril 2016
+Koen Gheuens, étude des graphies de f116v, 2023
+René Zandbergen, corpus et conventions EVA / IVTFF
+Dossier : données, sources des images, coordonnées des recadrages, protocole, addendum, scripts, sorties JSON, vérification
+et empreintes SHA-256. Les fichiers temporaires d’accès sont exclus. Toutes les sorties textuelles sont des translittérations ou
+substitutions, jamais des traductions.

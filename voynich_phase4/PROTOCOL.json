@@ -1,0 +1,11 @@
+{
+ "date":"2026-10-28",
+ "status":"Exploratory extension before new results; not external preregistration.",
+ "hypothesis":"Fixed deterministic homophonic decryption: several cipher symbols may decode to one Latin letter; every cipher symbol has one output letter.",
+ "limits":"Not a syllabary, nomenclator, variable key, null cipher, or general Voynich decipherment. EVA and composed tokens remain experimental units.",
+ "objective":"Joint four-letter log likelihood minus lambda times output-length times KL(output letter frequencies || language model frequencies). Initial lambda=4, temperature multiplier=.002. Calibration changes allowed only on synthetic controls and must be recorded.",
+ "controls":"48-symbol homophonic encryption with concealed key, 24k letters for key fitting and separate remainder for evaluation. Latin: Caesar model, Pliny target. Italian: Inferno/Purgatorio model, deduplicated first Paradiso target. Two random keys per language. Require >=95 percent recovery for each language before its real cases.",
+ "real_plan":"Latin/Italian x Currier A/B x EVA/composed units x forward/reverse: 16 cases. Fixed group split by physical leaf. Same optimum applied to held-out lines. Explicit alternative readings and unreadable signs become hard breaks; no first-choice forced decoding. Later variants, if any, logged separately.",
+ "anchors":"Three robust forms have unknown meanings. They are not known-plaintext cribs; identical decoded strings under a fixed key are automatic and not validation.",
+ "evaluation":"Scores, held-out previews marked NON_TRANSLATION, output entropy, collapsed letter counts and matched shuffled controls. No interpretation of a best score as translation. Prior phases have used the corpus; held-out here means not fitted by the current solver, not historically unseen research material."
+}

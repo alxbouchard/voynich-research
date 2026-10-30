@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "status": "Fixed before phase8 outcome computation; exploratory follow-up to phase7, not independent preregistration",
+  "goal": "Test uncertain-boundary predictions against IT and inspect original image evidence",
+  "transcription_match": "Exactly phase7 rule: one surviving span per locus in each transcription, identical letter stream; fragments may exclude edges",
+  "model": "Frozen ZL phase7 four-character predictor, quire held out. No training or threshold tuning in phase8",
+  "primary_threshold": 0.5,
+  "abstention_thresholds": [0.1,0.9],
+  "secondary_models": ["phase7 pair predictor", "space-blind raw BPE64 internal/edge"],
+  "metrics": ["agreement with IT", "confusion counts", "ROC AUC", "Brier", "coverage and selective agreement", "fixed decile reliability"],
+  "bootstrap": {"unit": "quire", "draws": 2000, "seed": 20261028, "refit": false},
+  "image_selection": "For each of f1r,f75r,f103r, select lowest and highest frozen four-context probability among ZL uncertain positions; ties by locus,span,offset. Select before viewing chosen lines. Six positions total, no replacements for failures.",
+  "image_review": "Assistant, non-blind, guided by transcriptions and predictions. This is a targeted feasibility audit, not representative measurement or expert independent validation. Preserve inconclusive sites.",
+  "image_geometry": "Record manually localized boundaries on unmodified Yale images. Crop only for inspection, no synthesis or generative restoration. If geometry cannot be localized reliably, abstain.",
+  "conclusions": "No semantic reading, no automatic corrections to source. Model probabilities are not calibrated truth probabilities. IT is a second transcription of the same manuscript, not ground truth."
+}

@@ -1,0 +1,1978 @@
+[
+  {
+    "case": "ZL_A",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 4683,
+      "folds": 11,
+      "gain_bits": 0.08199116419658271,
+      "position_loss_bits": 2.9281022291961674,
+      "neighbor_loss_bits": 2.8461110649995853,
+      "position_accuracy": 0.286781977364937,
+      "neighbor_accuracy": 0.2897715139867606,
+      "q_binary_gain_bits": 0.015854337370046604,
+      "non_q_within_gain_bits": 0.06613682682653611,
+      "q_target_count": 569
+    },
+    "bootstrap": {
+      "clusters": 11,
+      "draws": 2000,
+      "gain_ci": [
+        0.07167411632599337,
+        0.09089008354396269
+      ],
+      "q_binary_ci": [
+        0.009580569441016143,
+        0.023237622127831408
+      ],
+      "non_q_ci": [
+        0.058870926557000415,
+        0.0734369596604193
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "A",
+          "n": 604,
+          "unseen_style": 98,
+          "unseen_joint_neighbor_context": 105
+        },
+        {
+          "group": "B",
+          "n": 376,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "C",
+          "n": 589,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 8
+        },
+        {
+          "group": "D",
+          "n": 327,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 6
+        },
+        {
+          "group": "E",
+          "n": 161,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 0
+        },
+        {
+          "group": "F",
+          "n": 313,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        },
+        {
+          "group": "G",
+          "n": 366,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 4
+        },
+        {
+          "group": "H",
+          "n": 383,
+          "unseen_style": 383,
+          "unseen_joint_neighbor_context": 383
+        },
+        {
+          "group": "O",
+          "n": 684,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 30
+        },
+        {
+          "group": "Q",
+          "n": 134,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "S",
+          "n": 746,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 50
+        }
+      ],
+      "unseen_style_fraction": 0.10271193679265428,
+      "unseen_joint_context_fraction": 0.12641469143711295
+    },
+    "folds": [
+      {
+        "group": "A",
+        "n": 604,
+        "gain_bits": 0.08424958645462131
+      },
+      {
+        "group": "B",
+        "n": 376,
+        "gain_bits": 0.09504979882562767
+      },
+      {
+        "group": "C",
+        "n": 589,
+        "gain_bits": 0.0740434431525058
+      },
+      {
+        "group": "D",
+        "n": 327,
+        "gain_bits": 0.0723878603943317
+      },
+      {
+        "group": "E",
+        "n": 161,
+        "gain_bits": 0.030503289931051013
+      },
+      {
+        "group": "F",
+        "n": 313,
+        "gain_bits": 0.07089928637505027
+      },
+      {
+        "group": "G",
+        "n": 366,
+        "gain_bits": 0.08302707774531375
+      },
+      {
+        "group": "H",
+        "n": 383,
+        "gain_bits": 0.10648160104309562
+      },
+      {
+        "group": "O",
+        "n": 684,
+        "gain_bits": 0.06867608632681041
+      },
+      {
+        "group": "Q",
+        "n": 134,
+        "gain_bits": 0.06740755309239765
+      },
+      {
+        "group": "S",
+        "n": 746,
+        "gain_bits": 0.10157748506608201
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 4683,
+        "folds": 11,
+        "gain_bits": 0.07671548011309194,
+        "position_loss_bits": 2.9705989105722828,
+        "neighbor_loss_bits": 2.8938834304591907,
+        "position_accuracy": 0.287636130685458,
+        "neighbor_accuracy": 0.2852872090540252,
+        "q_binary_gain_bits": 0.015632480925318378,
+        "non_q_within_gain_bits": 0.06108299918777358,
+        "q_target_count": 569
+      },
+      "alpha_128": {
+        "n": 4683,
+        "folds": 11,
+        "gain_bits": 0.08155408932674102,
+        "position_loss_bits": 2.9020135229077333,
+        "neighbor_loss_bits": 2.820459433580992,
+        "position_accuracy": 0.2884902840059791,
+        "neighbor_accuracy": 0.293401665598975,
+        "q_binary_gain_bits": 0.015461392856148356,
+        "non_q_within_gain_bits": 0.06609269647059265,
+        "q_target_count": 569
+      },
+      "clean_line": {
+        "n": 1664,
+        "folds": 11,
+        "gain_bits": 0.06087724994290692,
+        "position_loss_bits": 2.865995037154232,
+        "neighbor_loss_bits": 2.8051177872113247,
+        "position_accuracy": 0.30528846153846156,
+        "neighbor_accuracy": 0.3016826923076923,
+        "q_binary_gain_bits": 0.017613337871882802,
+        "non_q_within_gain_bits": 0.043263912071024105,
+        "q_target_count": 218
+      },
+      "no_repeat": {
+        "n": 4619,
+        "folds": 11,
+        "gain_bits": 0.08288823449555108,
+        "position_loss_bits": 2.9354018011671497,
+        "neighbor_loss_bits": 2.8525135666715986,
+        "position_accuracy": 0.28447715955834596,
+        "neighbor_accuracy": 0.2833946741718987,
+        "q_binary_gain_bits": 0.015720133695918716,
+        "non_q_within_gain_bits": 0.06716810079963237,
+        "q_target_count": 565
+      },
+      "composed": {
+        "n": 4683,
+        "folds": 11,
+        "gain_bits": 0.0772253322382194,
+        "position_loss_bits": 3.424476139527216,
+        "neighbor_loss_bits": 3.347250807288996,
+        "position_accuracy": 0.2169549434123425,
+        "neighbor_accuracy": 0.21994448003416614,
+        "q_binary_gain_bits": 0.016234240284218545,
+        "non_q_within_gain_bits": 0.06099109195400086,
+        "q_target_count": 569
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 1996,
+        "folds": 11,
+        "gain_bits": 0.07548287927016913,
+        "position_loss_bits": 2.9715177356717293,
+        "neighbor_loss_bits": 2.8960348564015606,
+        "position_accuracy": 0.2635270541082164,
+        "neighbor_accuracy": 0.26753507014028055,
+        "q_binary_gain_bits": 0.015593947118033002,
+        "non_q_within_gain_bits": 0.05988893215213611,
+        "q_target_count": 230
+      },
+      "2": {
+        "n": 1996,
+        "folds": 11,
+        "gain_bits": -0.010615384198925817,
+        "position_loss_bits": 2.9715177356717293,
+        "neighbor_loss_bits": 2.9821331198706553,
+        "position_accuracy": 0.2635270541082164,
+        "neighbor_accuracy": 0.25801603206412826,
+        "q_binary_gain_bits": -0.0013165951319806183,
+        "non_q_within_gain_bits": -0.0092987890669452,
+        "q_target_count": 230
+      },
+      "3": {
+        "n": 1996,
+        "folds": 11,
+        "gain_bits": -0.03679287113628372,
+        "position_loss_bits": 2.9715177356717293,
+        "neighbor_loss_bits": 3.008310606808013,
+        "position_accuracy": 0.2635270541082164,
+        "neighbor_accuracy": 0.25701402805611223,
+        "q_binary_gain_bits": -0.0030442970049916964,
+        "non_q_within_gain_bits": -0.03374857413129203,
+        "q_target_count": 230
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.006329876467259341,
+      "q025": -0.014363265398806174,
+      "q975": 0.001300080226244465,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "ZL_B",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 11844,
+      "folds": 9,
+      "gain_bits": 0.1856923083887656,
+      "position_loss_bits": 3.044293053454109,
+      "neighbor_loss_bits": 2.8586007450653437,
+      "position_accuracy": 0.24113475177304963,
+      "neighbor_accuracy": 0.3262411347517731,
+      "q_binary_gain_bits": 0.07803760868314809,
+      "non_q_within_gain_bits": 0.10765469970561752,
+      "q_target_count": 2714
+    },
+    "bootstrap": {
+      "clusters": 9,
+      "draws": 2000,
+      "gain_ci": [
+        0.1389203797241111,
+        0.21694479060097677
+      ],
+      "q_binary_ci": [
+        0.02243007624706671,
+        0.11173649192073239
+      ],
+      "non_q_ci": [
+        0.09593212280089279,
+        0.13333765496984373
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "D",
+          "n": 162,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 9
+        },
+        {
+          "group": "E",
+          "n": 443,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 15
+        },
+        {
+          "group": "F",
+          "n": 477,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 59
+        },
+        {
+          "group": "G",
+          "n": 205,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 8
+        },
+        {
+          "group": "H",
+          "n": 244,
+          "unseen_style": 148,
+          "unseen_joint_neighbor_context": 174
+        },
+        {
+          "group": "M",
+          "n": 3401,
+          "unseen_style": 3080,
+          "unseen_joint_neighbor_context": 3098
+        },
+        {
+          "group": "N",
+          "n": 722,
+          "unseen_style": 49,
+          "unseen_joint_neighbor_context": 107
+        },
+        {
+          "group": "Q",
+          "n": 276,
+          "unseen_style": 276,
+          "unseen_joint_neighbor_context": 276
+        },
+        {
+          "group": "T",
+          "n": 5914,
+          "unseen_style": 5914,
+          "unseen_joint_neighbor_context": 5914
+        }
+      ],
+      "unseen_style_fraction": 0.7993076663289429,
+      "unseen_joint_context_fraction": 0.8156028368794326
+    },
+    "folds": [
+      {
+        "group": "D",
+        "n": 162,
+        "gain_bits": 0.012099603119043536
+      },
+      {
+        "group": "E",
+        "n": 443,
+        "gain_bits": 0.21732983311587653
+      },
+      {
+        "group": "F",
+        "n": 477,
+        "gain_bits": 0.10083164994635183
+      },
+      {
+        "group": "G",
+        "n": 205,
+        "gain_bits": 0.21989615351524083
+      },
+      {
+        "group": "H",
+        "n": 244,
+        "gain_bits": 0.05479457325050746
+      },
+      {
+        "group": "M",
+        "n": 3401,
+        "gain_bits": 0.22874266027869905
+      },
+      {
+        "group": "N",
+        "n": 722,
+        "gain_bits": 0.20681078016326818
+      },
+      {
+        "group": "Q",
+        "n": 276,
+        "gain_bits": 0.14251932368395145
+      },
+      {
+        "group": "T",
+        "n": 5914,
+        "gain_bits": 0.1738164795722451
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 11844,
+        "folds": 9,
+        "gain_bits": 0.18075861350057223,
+        "position_loss_bits": 3.0771427129201308,
+        "neighbor_loss_bits": 2.8963840994195587,
+        "position_accuracy": 0.2383485309017224,
+        "neighbor_accuracy": 0.3268321513002364,
+        "q_binary_gain_bits": 0.07765263036595006,
+        "non_q_within_gain_bits": 0.10310598313462217,
+        "q_target_count": 2714
+      },
+      "alpha_128": {
+        "n": 11844,
+        "folds": 9,
+        "gain_bits": 0.18631117605885453,
+        "position_loss_bits": 3.0268678390071133,
+        "neighbor_loss_bits": 2.840556662948259,
+        "position_accuracy": 0.24062816616008106,
+        "neighbor_accuracy": 0.32404593042890917,
+        "q_binary_gain_bits": 0.07773507964966493,
+        "non_q_within_gain_bits": 0.10857609640918962,
+        "q_target_count": 2714
+      },
+      "clean_line": {
+        "n": 5613,
+        "folds": 9,
+        "gain_bits": 0.18483951980366506,
+        "position_loss_bits": 3.0134647019193963,
+        "neighbor_loss_bits": 2.8286251821157316,
+        "position_accuracy": 0.22928915018706575,
+        "neighbor_accuracy": 0.3388562266167825,
+        "q_binary_gain_bits": 0.08877668928906253,
+        "non_q_within_gain_bits": 0.09606283051460253,
+        "q_target_count": 1386
+      },
+      "no_repeat": {
+        "n": 11705,
+        "folds": 9,
+        "gain_bits": 0.18552189902381294,
+        "position_loss_bits": 3.048511433691814,
+        "neighbor_loss_bits": 2.8629895346680008,
+        "position_accuracy": 0.2420333190944041,
+        "neighbor_accuracy": 0.32456215292609997,
+        "q_binary_gain_bits": 0.07690639348263499,
+        "non_q_within_gain_bits": 0.10861550554117799,
+        "q_target_count": 2649
+      },
+      "composed": {
+        "n": 11844,
+        "folds": 9,
+        "gain_bits": 0.18617501285063906,
+        "position_loss_bits": 3.1580062398026025,
+        "neighbor_loss_bits": 2.971831226951964,
+        "position_accuracy": 0.23969942586963863,
+        "neighbor_accuracy": 0.3243836541708882,
+        "q_binary_gain_bits": 0.07813031529167994,
+        "non_q_within_gain_bits": 0.10804469755895914,
+        "q_target_count": 2714
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 6820,
+        "folds": 9,
+        "gain_bits": 0.20385359918837573,
+        "position_loss_bits": 3.090871160177625,
+        "neighbor_loss_bits": 2.8870175609892494,
+        "position_accuracy": 0.2436950146627566,
+        "neighbor_accuracy": 0.3241935483870968,
+        "q_binary_gain_bits": 0.08332759928091148,
+        "non_q_within_gain_bits": 0.12052599990746424,
+        "q_target_count": 1492
+      },
+      "2": {
+        "n": 6820,
+        "folds": 9,
+        "gain_bits": -0.011601572483472955,
+        "position_loss_bits": 3.090871160177625,
+        "neighbor_loss_bits": 3.1024727326610986,
+        "position_accuracy": 0.2436950146627566,
+        "neighbor_accuracy": 0.237683284457478,
+        "q_binary_gain_bits": -0.0014917510948659239,
+        "non_q_within_gain_bits": -0.010109821388607035,
+        "q_target_count": 1492
+      },
+      "3": {
+        "n": 6820,
+        "folds": 9,
+        "gain_bits": -0.004558584135598313,
+        "position_loss_bits": 3.090871160177625,
+        "neighbor_loss_bits": 3.095429744313224,
+        "position_accuracy": 0.2436950146627566,
+        "neighbor_accuracy": 0.24824046920821113,
+        "q_binary_gain_bits": 0.00037144014053710713,
+        "non_q_within_gain_bits": -0.004930024276135422,
+        "q_target_count": 1492
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.005959620630293553,
+      "q025": -0.010791354493828424,
+      "q975": -0.0004319593896852019,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "IT_A",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 5989,
+      "folds": 11,
+      "gain_bits": 0.08967811956568172,
+      "position_loss_bits": 2.9748942388864363,
+      "neighbor_loss_bits": 2.8852161193207544,
+      "position_accuracy": 0.27917849390549343,
+      "neighbor_accuracy": 0.2818500584404742,
+      "q_binary_gain_bits": 0.013959925485621253,
+      "non_q_within_gain_bits": 0.07571819408006047,
+      "q_target_count": 685
+    },
+    "bootstrap": {
+      "clusters": 11,
+      "draws": 2000,
+      "gain_ci": [
+        0.0748923028361124,
+        0.10341123261897632
+      ],
+      "q_binary_ci": [
+        0.008711873768657456,
+        0.019797051671046288
+      ],
+      "non_q_ci": [
+        0.06175615532883688,
+        0.08983044496967148
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "A",
+          "n": 755,
+          "unseen_style": 129,
+          "unseen_joint_neighbor_context": 136
+        },
+        {
+          "group": "B",
+          "n": 519,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 4
+        },
+        {
+          "group": "C",
+          "n": 725,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 9
+        },
+        {
+          "group": "D",
+          "n": 428,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 7
+        },
+        {
+          "group": "E",
+          "n": 227,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "F",
+          "n": 403,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "G",
+          "n": 505,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 6
+        },
+        {
+          "group": "H",
+          "n": 492,
+          "unseen_style": 492,
+          "unseen_joint_neighbor_context": 492
+        },
+        {
+          "group": "O",
+          "n": 851,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 48
+        },
+        {
+          "group": "Q",
+          "n": 152,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "S",
+          "n": 932,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 36
+        }
+      ],
+      "unseen_style_fraction": 0.10369009851394223,
+      "unseen_joint_context_fraction": 0.12439472366004341
+    },
+    "folds": [
+      {
+        "group": "A",
+        "n": 755,
+        "gain_bits": 0.0663474686400473
+      },
+      {
+        "group": "B",
+        "n": 519,
+        "gain_bits": 0.12442886214469641
+      },
+      {
+        "group": "C",
+        "n": 725,
+        "gain_bits": 0.0651033864459
+      },
+      {
+        "group": "D",
+        "n": 428,
+        "gain_bits": 0.10525682438798256
+      },
+      {
+        "group": "E",
+        "n": 227,
+        "gain_bits": 0.016405494413019577
+      },
+      {
+        "group": "F",
+        "n": 403,
+        "gain_bits": 0.07891459606915348
+      },
+      {
+        "group": "G",
+        "n": 505,
+        "gain_bits": 0.07981530583932259
+      },
+      {
+        "group": "H",
+        "n": 492,
+        "gain_bits": 0.11650289055117714
+      },
+      {
+        "group": "O",
+        "n": 851,
+        "gain_bits": 0.1011834143540747
+      },
+      {
+        "group": "Q",
+        "n": 152,
+        "gain_bits": 0.08382961286763453
+      },
+      {
+        "group": "S",
+        "n": 932,
+        "gain_bits": 0.10532134760980827
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 5989,
+        "folds": 11,
+        "gain_bits": 0.0814937729417798,
+        "position_loss_bits": 3.010422394569837,
+        "neighbor_loss_bits": 2.928928621628057,
+        "position_accuracy": 0.277842711638003,
+        "neighbor_accuracy": 0.277842711638003,
+        "q_binary_gain_bits": 0.013294362473417972,
+        "non_q_within_gain_bits": 0.06819941046836182,
+        "q_target_count": 685
+      },
+      "alpha_128": {
+        "n": 5989,
+        "folds": 11,
+        "gain_bits": 0.09161513541794,
+        "position_loss_bits": 2.950919494232704,
+        "neighbor_loss_bits": 2.8593043588147644,
+        "position_accuracy": 0.2790115211220571,
+        "neighbor_accuracy": 0.2871931875104358,
+        "q_binary_gain_bits": 0.013814702574799892,
+        "non_q_within_gain_bits": 0.07780043284314012,
+        "q_target_count": 685
+      },
+      "clean_line": {
+        "n": 3849,
+        "folds": 11,
+        "gain_bits": 0.0874816574603623,
+        "position_loss_bits": 2.9555984476900696,
+        "neighbor_loss_bits": 2.8681167902297076,
+        "position_accuracy": 0.2782540919719408,
+        "neighbor_accuracy": 0.2865679397246038,
+        "q_binary_gain_bits": 0.018251942773578132,
+        "non_q_within_gain_bits": 0.06922971468678414,
+        "q_target_count": 476
+      },
+      "no_repeat": {
+        "n": 5909,
+        "folds": 11,
+        "gain_bits": 0.0905125841541938,
+        "position_loss_bits": 2.9817829871343884,
+        "neighbor_loss_bits": 2.891270402980194,
+        "position_accuracy": 0.27720426468099507,
+        "neighbor_accuracy": 0.28092739888305973,
+        "q_binary_gain_bits": 0.013892437527313728,
+        "non_q_within_gain_bits": 0.07662014662688009,
+        "q_target_count": 680
+      },
+      "composed": {
+        "n": 5989,
+        "folds": 11,
+        "gain_bits": 0.09219350982138312,
+        "position_loss_bits": 3.468829057059482,
+        "neighbor_loss_bits": 3.3766355472380987,
+        "position_accuracy": 0.20554349641008515,
+        "neighbor_accuracy": 0.20804808816162965,
+        "q_binary_gain_bits": 0.014525488221096108,
+        "non_q_within_gain_bits": 0.07766802160028702,
+        "q_target_count": 685
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 3044,
+        "folds": 11,
+        "gain_bits": 0.08399653837411176,
+        "position_loss_bits": 3.009000656509516,
+        "neighbor_loss_bits": 2.925004118135405,
+        "position_accuracy": 0.2457293035479632,
+        "neighbor_accuracy": 0.24342969776609724,
+        "q_binary_gain_bits": 0.014896347746078696,
+        "non_q_within_gain_bits": 0.06910019062803306,
+        "q_target_count": 358
+      },
+      "2": {
+        "n": 3044,
+        "folds": 11,
+        "gain_bits": -0.01655014048407489,
+        "position_loss_bits": 3.009000656509516,
+        "neighbor_loss_bits": 3.0255507969935915,
+        "position_accuracy": 0.2457293035479632,
+        "neighbor_accuracy": 0.2371879106438896,
+        "q_binary_gain_bits": -0.00017484727884404969,
+        "non_q_within_gain_bits": -0.01637529320523084,
+        "q_target_count": 358
+      },
+      "3": {
+        "n": 3044,
+        "folds": 11,
+        "gain_bits": -0.02621259624850898,
+        "position_loss_bits": 3.009000656509516,
+        "neighbor_loss_bits": 3.0352132527580253,
+        "position_accuracy": 0.2457293035479632,
+        "neighbor_accuracy": 0.2388304862023653,
+        "q_binary_gain_bits": -0.00284372018659263,
+        "non_q_within_gain_bits": -0.023368876061916347,
+        "q_target_count": 358
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.006886668731179271,
+      "q025": -0.013245016257716336,
+      "q975": -0.0007655117216183246,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "IT_B",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 14924,
+      "folds": 9,
+      "gain_bits": 0.20248750800248141,
+      "position_loss_bits": 3.1204913284827183,
+      "neighbor_loss_bits": 2.9180038204802363,
+      "position_accuracy": 0.23626373626373626,
+      "neighbor_accuracy": 0.3067542213883677,
+      "q_binary_gain_bits": 0.07698183092247804,
+      "non_q_within_gain_bits": 0.1255056770800034,
+      "q_target_count": 3074
+    },
+    "bootstrap": {
+      "clusters": 9,
+      "draws": 2000,
+      "gain_ci": [
+        0.15590283908140834,
+        0.22804236448187065
+      ],
+      "q_binary_ci": [
+        0.02339222937792399,
+        0.10895055187828147
+      ],
+      "non_q_ci": [
+        0.10965318477151359,
+        0.15272676214500766
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "D",
+          "n": 228,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 15
+        },
+        {
+          "group": "E",
+          "n": 555,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 16
+        },
+        {
+          "group": "F",
+          "n": 611,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 71
+        },
+        {
+          "group": "G",
+          "n": 263,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 6
+        },
+        {
+          "group": "H",
+          "n": 323,
+          "unseen_style": 200,
+          "unseen_joint_neighbor_context": 223
+        },
+        {
+          "group": "M",
+          "n": 4279,
+          "unseen_style": 3873,
+          "unseen_joint_neighbor_context": 3890
+        },
+        {
+          "group": "N",
+          "n": 896,
+          "unseen_style": 66,
+          "unseen_joint_neighbor_context": 109
+        },
+        {
+          "group": "Q",
+          "n": 347,
+          "unseen_style": 347,
+          "unseen_joint_neighbor_context": 347
+        },
+        {
+          "group": "T",
+          "n": 7422,
+          "unseen_style": 7422,
+          "unseen_joint_neighbor_context": 7422
+        }
+      ],
+      "unseen_style_fraction": 0.7979094076655052,
+      "unseen_joint_context_fraction": 0.810707585097829
+    },
+    "folds": [
+      {
+        "group": "D",
+        "n": 228,
+        "gain_bits": -0.030380189820325216
+      },
+      {
+        "group": "E",
+        "n": 555,
+        "gain_bits": 0.21910925738689963
+      },
+      {
+        "group": "F",
+        "n": 611,
+        "gain_bits": 0.12477612231303264
+      },
+      {
+        "group": "G",
+        "n": 263,
+        "gain_bits": 0.2066238036072722
+      },
+      {
+        "group": "H",
+        "n": 323,
+        "gain_bits": 0.10672932023526696
+      },
+      {
+        "group": "M",
+        "n": 4279,
+        "gain_bits": 0.23675530344027
+      },
+      {
+        "group": "N",
+        "n": 896,
+        "gain_bits": 0.24489085116500764
+      },
+      {
+        "group": "Q",
+        "n": 347,
+        "gain_bits": 0.1782914861179566
+      },
+      {
+        "group": "T",
+        "n": 7422,
+        "gain_bits": 0.19507214788368063
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 14924,
+        "folds": 9,
+        "gain_bits": 0.19790553080047443,
+        "position_loss_bits": 3.148387186693513,
+        "neighbor_loss_bits": 2.9504816558930385,
+        "position_accuracy": 0.23512463146609489,
+        "neighbor_accuracy": 0.3056151165907263,
+        "q_binary_gain_bits": 0.07694089474758779,
+        "non_q_within_gain_bits": 0.12096463605288664,
+        "q_target_count": 3074
+      },
+      "alpha_128": {
+        "n": 14924,
+        "folds": 9,
+        "gain_bits": 0.20296243846977396,
+        "position_loss_bits": 3.1045656920382734,
+        "neighbor_loss_bits": 2.9016032535684997,
+        "position_accuracy": 0.2408201554543018,
+        "neighbor_accuracy": 0.30782632002144195,
+        "q_binary_gain_bits": 0.07632255585891153,
+        "non_q_within_gain_bits": 0.12663988261086243,
+        "q_target_count": 3074
+      },
+      "clean_line": {
+        "n": 13922,
+        "folds": 9,
+        "gain_bits": 0.20515324453784237,
+        "position_loss_bits": 3.1143062238590704,
+        "neighbor_loss_bits": 2.909152979321228,
+        "position_accuracy": 0.23581381985346933,
+        "neighbor_accuracy": 0.30828903893118803,
+        "q_binary_gain_bits": 0.07784301495224417,
+        "non_q_within_gain_bits": 0.12731022958559818,
+        "q_target_count": 2917
+      },
+      "no_repeat": {
+        "n": 14766,
+        "folds": 9,
+        "gain_bits": 0.20262542382160983,
+        "position_loss_bits": 3.1228033154146044,
+        "neighbor_loss_bits": 2.9201778915929943,
+        "position_accuracy": 0.2382500338615739,
+        "neighbor_accuracy": 0.30644724366788567,
+        "q_binary_gain_bits": 0.07595747512201924,
+        "non_q_within_gain_bits": 0.12666794869959055,
+        "q_target_count": 3011
+      },
+      "composed": {
+        "n": 14924,
+        "folds": 9,
+        "gain_bits": 0.20534734146055897,
+        "position_loss_bits": 3.2464769413997776,
+        "neighbor_loss_bits": 3.0411295999392185,
+        "position_accuracy": 0.23693379790940766,
+        "neighbor_accuracy": 0.3054811042615921,
+        "q_binary_gain_bits": 0.07701327273868976,
+        "non_q_within_gain_bits": 0.1283340687218692,
+        "q_target_count": 3074
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 10142,
+        "folds": 9,
+        "gain_bits": 0.20694661971148873,
+        "position_loss_bits": 3.1508706763689545,
+        "neighbor_loss_bits": 2.943924056657466,
+        "position_accuracy": 0.241668309998028,
+        "neighbor_accuracy": 0.2992506408992309,
+        "q_binary_gain_bits": 0.07440069468476991,
+        "non_q_within_gain_bits": 0.13254592502671883,
+        "q_target_count": 1956
+      },
+      "2": {
+        "n": 10142,
+        "folds": 9,
+        "gain_bits": -0.0014474767079597306,
+        "position_loss_bits": 3.1508706763689545,
+        "neighbor_loss_bits": 3.152318153076915,
+        "position_accuracy": 0.241668309998028,
+        "neighbor_accuracy": 0.23811871425754289,
+        "q_binary_gain_bits": 0.0001166031917128305,
+        "non_q_within_gain_bits": -0.0015640798996725603,
+        "q_target_count": 1956
+      },
+      "3": {
+        "n": 10142,
+        "folds": 9,
+        "gain_bits": -0.006364094180189692,
+        "position_loss_bits": 3.1508706763689545,
+        "neighbor_loss_bits": 3.1572347705491444,
+        "position_accuracy": 0.241668309998028,
+        "neighbor_accuracy": 0.24275290869650956,
+        "q_binary_gain_bits": 0.000258221543920913,
+        "non_q_within_gain_bits": -0.006622315724110607,
+        "q_target_count": 1956
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.006046819692484589,
+      "q025": -0.011355662301582276,
+      "q975": -0.0015983547987847818,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "Latin_Pliny",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 5240,
+      "folds": 8,
+      "gain_bits": -0.013012361085134238,
+      "position_loss_bits": 4.177423510334964,
+      "neighbor_loss_bits": 4.190435871420099,
+      "position_accuracy": 0.09122137404580152,
+      "neighbor_accuracy": 0.10362595419847329,
+      "q_binary_gain_bits": 0.0010931109418120635,
+      "non_q_within_gain_bits": -0.014105472026946304,
+      "q_target_count": 270
+    },
+    "bootstrap": {
+      "clusters": 8,
+      "draws": 2000,
+      "gain_ci": [
+        -0.021049287762182966,
+        -0.002561005358589508
+      ],
+      "q_binary_ci": [
+        -0.0024847471452061273,
+        0.004203722055104704
+      ],
+      "non_q_ci": [
+        -0.02153080581107877,
+        -0.004759282110630529
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "0",
+          "n": 642,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "1",
+          "n": 619,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "2",
+          "n": 550,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "3",
+          "n": 601,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "4",
+          "n": 579,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        },
+        {
+          "group": "5",
+          "n": 708,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 4
+        },
+        {
+          "group": "6",
+          "n": 826,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 10
+        },
+        {
+          "group": "7",
+          "n": 715,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 10
+        }
+      ],
+      "unseen_style_fraction": 0.0,
+      "unseen_joint_context_fraction": 0.0064885496183206106
+    },
+    "folds": [
+      {
+        "group": "0",
+        "n": 642,
+        "gain_bits": -0.030062679991119216
+      },
+      {
+        "group": "1",
+        "n": 619,
+        "gain_bits": -0.016421602852167795
+      },
+      {
+        "group": "2",
+        "n": 550,
+        "gain_bits": -0.005712517790620489
+      },
+      {
+        "group": "3",
+        "n": 601,
+        "gain_bits": -0.012588836166291943
+      },
+      {
+        "group": "4",
+        "n": 579,
+        "gain_bits": -0.01613907521841313
+      },
+      {
+        "group": "5",
+        "n": 708,
+        "gain_bits": -0.010872628087324355
+      },
+      {
+        "group": "6",
+        "n": 826,
+        "gain_bits": -0.02493620401974989
+      },
+      {
+        "group": "7",
+        "n": 715,
+        "gain_bits": 0.013465546450447499
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 5240,
+        "folds": 8,
+        "gain_bits": -0.025618063810665805,
+        "position_loss_bits": 4.1946872446300025,
+        "neighbor_loss_bits": 4.220305308440668,
+        "position_accuracy": 0.09122137404580152,
+        "neighbor_accuracy": 0.10095419847328244,
+        "q_binary_gain_bits": 0.0009110990541887859,
+        "non_q_within_gain_bits": -0.026529162864854593,
+        "q_target_count": 270
+      },
+      "alpha_128": {
+        "n": 5240,
+        "folds": 8,
+        "gain_bits": -0.0011213398130123654,
+        "position_loss_bits": 4.158470188216076,
+        "neighbor_loss_bits": 4.159591528029089,
+        "position_accuracy": 0.09293893129770993,
+        "neighbor_accuracy": 0.10400763358778627,
+        "q_binary_gain_bits": 0.0012884640754747935,
+        "non_q_within_gain_bits": -0.002409803888487157,
+        "q_target_count": 270
+      },
+      "clean_line": {
+        "n": 5240,
+        "folds": 8,
+        "gain_bits": -0.013012361085134238,
+        "position_loss_bits": 4.177423510334964,
+        "neighbor_loss_bits": 4.190435871420099,
+        "position_accuracy": 0.09122137404580152,
+        "neighbor_accuracy": 0.10362595419847329,
+        "q_binary_gain_bits": 0.0010931109418120635,
+        "non_q_within_gain_bits": -0.014105472026946304,
+        "q_target_count": 270
+      },
+      "no_repeat": {
+        "n": 5240,
+        "folds": 8,
+        "gain_bits": -0.013012361085134238,
+        "position_loss_bits": 4.177423510334964,
+        "neighbor_loss_bits": 4.190435871420099,
+        "position_accuracy": 0.09122137404580152,
+        "neighbor_accuracy": 0.10362595419847329,
+        "q_binary_gain_bits": 0.0010931109418120635,
+        "non_q_within_gain_bits": -0.014105472026946304,
+        "q_target_count": 270
+      },
+      "composed": {
+        "n": 5240,
+        "folds": 8,
+        "gain_bits": -0.008589613812963115,
+        "position_loss_bits": 4.273081587972719,
+        "neighbor_loss_bits": 4.281671201785682,
+        "position_accuracy": 0.09274809160305343,
+        "neighbor_accuracy": 0.10152671755725191,
+        "q_binary_gain_bits": 0.0010851555932094796,
+        "non_q_within_gain_bits": -0.009674769406172599,
+        "q_target_count": 270
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 3123,
+        "folds": 8,
+        "gain_bits": -0.03981132939124194,
+        "position_loss_bits": 4.167983776847748,
+        "neighbor_loss_bits": 4.20779510623899,
+        "position_accuracy": 0.09542106948447006,
+        "neighbor_accuracy": 0.1053474223503042,
+        "q_binary_gain_bits": 0.0001804237790600917,
+        "non_q_within_gain_bits": -0.039991753170302034,
+        "q_target_count": 155
+      },
+      "2": {
+        "n": 3123,
+        "folds": 8,
+        "gain_bits": -0.04381187045849511,
+        "position_loss_bits": 4.167983776847748,
+        "neighbor_loss_bits": 4.211795647306244,
+        "position_accuracy": 0.09542106948447006,
+        "neighbor_accuracy": 0.09638168427793788,
+        "q_binary_gain_bits": 0.0003829632124509031,
+        "non_q_within_gain_bits": -0.04419483367094601,
+        "q_target_count": 155
+      },
+      "3": {
+        "n": 3123,
+        "folds": 8,
+        "gain_bits": -0.0482672297622897,
+        "position_loss_bits": 4.167983776847748,
+        "neighbor_loss_bits": 4.2162510066100385,
+        "position_accuracy": 0.09542106948447006,
+        "neighbor_accuracy": 0.09702209414024976,
+        "q_binary_gain_bits": -0.003901350320491266,
+        "non_q_within_gain_bits": -0.044365879441798435,
+        "q_target_count": 155
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.031159638046557588,
+      "q025": -0.039995937063067595,
+      "q975": -0.023247214356619483,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "Italian_Paradiso",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 20830,
+      "folds": 8,
+      "gain_bits": 0.12479359414285121,
+      "position_loss_bits": 4.028335744504287,
+      "neighbor_loss_bits": 3.9035421503614356,
+      "position_accuracy": 0.12256361017762842,
+      "neighbor_accuracy": 0.14234277484397503,
+      "q_binary_gain_bits": 0.0027431268515734648,
+      "non_q_within_gain_bits": 0.12205046729127775,
+      "q_target_count": 686
+    },
+    "bootstrap": {
+      "clusters": 8,
+      "draws": 2000,
+      "gain_ci": [
+        0.11924691649723654,
+        0.1325801516112431
+      ],
+      "q_binary_ci": [
+        0.0023122654652058187,
+        0.003214851820976254
+      ],
+      "non_q_ci": [
+        0.11682168428294615,
+        0.12955170813737013
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "0",
+          "n": 1261,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        },
+        {
+          "group": "1",
+          "n": 1151,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 0
+        },
+        {
+          "group": "2",
+          "n": 1186,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "3",
+          "n": 1678,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "4",
+          "n": 3296,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "5",
+          "n": 3532,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 52
+        },
+        {
+          "group": "6",
+          "n": 1807,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "7",
+          "n": 6919,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 7
+        }
+      ],
+      "unseen_style_fraction": 0.0,
+      "unseen_joint_context_fraction": 0.0032165146423427746
+    },
+    "folds": [
+      {
+        "group": "0",
+        "n": 1261,
+        "gain_bits": 0.1247609976800323
+      },
+      {
+        "group": "1",
+        "n": 1151,
+        "gain_bits": 0.11164597966040762
+      },
+      {
+        "group": "2",
+        "n": 1186,
+        "gain_bits": 0.11812578895674562
+      },
+      {
+        "group": "3",
+        "n": 1678,
+        "gain_bits": 0.14220896209352415
+      },
+      {
+        "group": "4",
+        "n": 3296,
+        "gain_bits": 0.13058037931170455
+      },
+      {
+        "group": "5",
+        "n": 3532,
+        "gain_bits": 0.12392448127758049
+      },
+      {
+        "group": "6",
+        "n": 1807,
+        "gain_bits": 0.14024149908235797
+      },
+      {
+        "group": "7",
+        "n": 6919,
+        "gain_bits": 0.11755860880339554
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": 0.1291224367764074,
+        "position_loss_bits": 4.032892570847342,
+        "neighbor_loss_bits": 3.903770134070934,
+        "position_accuracy": 0.12203552568410946,
+        "neighbor_accuracy": 0.14215074411905904,
+        "q_binary_gain_bits": 0.0028916175325253506,
+        "non_q_within_gain_bits": 0.12623081924388205,
+        "q_target_count": 686
+      },
+      "alpha_128": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": 0.11115270137210874,
+        "position_loss_bits": 4.023982193506658,
+        "neighbor_loss_bits": 3.912829492134549,
+        "position_accuracy": 0.12405184829572731,
+        "neighbor_accuracy": 0.14373499759961594,
+        "q_binary_gain_bits": 0.002325253993523968,
+        "non_q_within_gain_bits": 0.10882744737858475,
+        "q_target_count": 686
+      },
+      "clean_line": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": 0.12479359414285121,
+        "position_loss_bits": 4.028335744504287,
+        "neighbor_loss_bits": 3.9035421503614356,
+        "position_accuracy": 0.12256361017762842,
+        "neighbor_accuracy": 0.14234277484397503,
+        "q_binary_gain_bits": 0.0027431268515734648,
+        "non_q_within_gain_bits": 0.12205046729127775,
+        "q_target_count": 686
+      },
+      "no_repeat": {
+        "n": 20819,
+        "folds": 8,
+        "gain_bits": 0.12479762813700436,
+        "position_loss_bits": 4.0283991443387865,
+        "neighbor_loss_bits": 3.9036015162017823,
+        "position_accuracy": 0.12272443441087467,
+        "neighbor_accuracy": 0.14265814880637878,
+        "q_binary_gain_bits": 0.002746021530104119,
+        "non_q_within_gain_bits": 0.12205160660690025,
+        "q_target_count": 686
+      },
+      "composed": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": 0.1345689627480107,
+        "position_loss_bits": 4.201375420209974,
+        "neighbor_loss_bits": 4.066806457461962,
+        "position_accuracy": 0.09918386941910706,
+        "neighbor_accuracy": 0.12304368698991838,
+        "q_binary_gain_bits": 0.0034589792906727507,
+        "non_q_within_gain_bits": 0.13110998345733793,
+        "q_target_count": 686
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 13512,
+        "folds": 8,
+        "gain_bits": 0.11830715616066054,
+        "position_loss_bits": 4.030881193339542,
+        "neighbor_loss_bits": 3.9125740371788815,
+        "position_accuracy": 0.12581409117821196,
+        "neighbor_accuracy": 0.14357608052101836,
+        "q_binary_gain_bits": 0.00221326461828323,
+        "non_q_within_gain_bits": 0.11609389154237729,
+        "q_target_count": 448
+      },
+      "2": {
+        "n": 13512,
+        "folds": 8,
+        "gain_bits": -0.0073814693073043025,
+        "position_loss_bits": 4.030881193339542,
+        "neighbor_loss_bits": 4.038262662646846,
+        "position_accuracy": 0.12581409117821196,
+        "neighbor_accuracy": 0.1209295441089402,
+        "q_binary_gain_bits": -0.0007040341514535644,
+        "non_q_within_gain_bits": -0.006677435155850739,
+        "q_target_count": 448
+      },
+      "3": {
+        "n": 13512,
+        "folds": 8,
+        "gain_bits": -0.011271332780216404,
+        "position_loss_bits": 4.030881193339542,
+        "neighbor_loss_bits": 4.042152526119758,
+        "position_accuracy": 0.12581409117821196,
+        "neighbor_accuracy": 0.1220396684428656,
+        "q_binary_gain_bits": -0.0008159158484128372,
+        "non_q_within_gain_bits": -0.010455416931803567,
+        "q_target_count": 448
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.006741375230192968,
+      "q025": -0.009772852971909048,
+      "q975": -0.004260417808178033,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "Naibbe_Pliny",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 20830,
+      "folds": 8,
+      "gain_bits": -0.0023395080635258206,
+      "position_loss_bits": 3.185790859004177,
+      "neighbor_loss_bits": 3.1881303670677026,
+      "position_accuracy": 0.2511281805088814,
+      "neighbor_accuracy": 0.2508881421027364,
+      "q_binary_gain_bits": -0.00029124017802747087,
+      "non_q_within_gain_bits": -0.0020482678854983503,
+      "q_target_count": 3832
+    },
+    "bootstrap": {
+      "clusters": 8,
+      "draws": 2000,
+      "gain_ci": [
+        -0.0048862008553977295,
+        0.0009484965109379501
+      ],
+      "q_binary_ci": [
+        -0.0009368890675414604,
+        0.0005131492180771512
+      ],
+      "non_q_ci": [
+        -0.004155881322969773,
+        0.0008400535821620419
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "0",
+          "n": 1261,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        },
+        {
+          "group": "1",
+          "n": 1151,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        },
+        {
+          "group": "2",
+          "n": 1186,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        },
+        {
+          "group": "3",
+          "n": 1678,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "4",
+          "n": 3296,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "5",
+          "n": 3532,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 44
+        },
+        {
+          "group": "6",
+          "n": 1807,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "7",
+          "n": 6919,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 9
+        }
+      ],
+      "unseen_style_fraction": 0.0,
+      "unseen_joint_context_fraction": 0.002976476236197792
+    },
+    "folds": [
+      {
+        "group": "0",
+        "n": 1261,
+        "gain_bits": -0.006726715178560074
+      },
+      {
+        "group": "1",
+        "n": 1151,
+        "gain_bits": -0.0021010857728484184
+      },
+      {
+        "group": "2",
+        "n": 1186,
+        "gain_bits": 0.002017219827550504
+      },
+      {
+        "group": "3",
+        "n": 1678,
+        "gain_bits": -0.005502699416165869
+      },
+      {
+        "group": "4",
+        "n": 3296,
+        "gain_bits": 0.0027377738504007357
+      },
+      {
+        "group": "5",
+        "n": 3532,
+        "gain_bits": -2.5443288293022376e-05
+      },
+      {
+        "group": "6",
+        "n": 1807,
+        "gain_bits": 0.0002928524373859879
+      },
+      {
+        "group": "7",
+        "n": 6919,
+        "gain_bits": -0.0058466728956070215
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": -0.0036688106692866597,
+        "position_loss_bits": 3.1884115268159223,
+        "neighbor_loss_bits": 3.19208033748521,
+        "position_accuracy": 0.2510321651464234,
+        "neighbor_accuracy": 0.2503600576092175,
+        "q_binary_gain_bits": -0.00035250269382303,
+        "non_q_within_gain_bits": -0.0033163079754636306,
+        "q_target_count": 3832
+      },
+      "alpha_128": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": -0.001065589518698239,
+        "position_loss_bits": 3.1829359576726866,
+        "neighbor_loss_bits": 3.184001547191385,
+        "position_accuracy": 0.2511281805088814,
+        "neighbor_accuracy": 0.2511281805088814,
+        "q_binary_gain_bits": -0.0001881774775456941,
+        "non_q_within_gain_bits": -0.0008774120411525444,
+        "q_target_count": 3832
+      },
+      "clean_line": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": -0.0023395080635258206,
+        "position_loss_bits": 3.185790859004177,
+        "neighbor_loss_bits": 3.1881303670677026,
+        "position_accuracy": 0.2511281805088814,
+        "neighbor_accuracy": 0.2508881421027364,
+        "q_binary_gain_bits": -0.00029124017802747087,
+        "non_q_within_gain_bits": -0.0020482678854983503,
+        "q_target_count": 3832
+      },
+      "no_repeat": {
+        "n": 20801,
+        "folds": 8,
+        "gain_bits": -0.002340770895327235,
+        "position_loss_bits": 3.1867226691630064,
+        "neighbor_loss_bits": 3.1890634400583338,
+        "position_accuracy": 0.2509494735830008,
+        "neighbor_accuracy": 0.2507091005240133,
+        "q_binary_gain_bits": -0.00029083174431879027,
+        "non_q_within_gain_bits": -0.002049939151008445,
+        "q_target_count": 3822
+      },
+      "composed": {
+        "n": 20830,
+        "folds": 8,
+        "gain_bits": -0.00282981398189408,
+        "position_loss_bits": 3.370871098258841,
+        "neighbor_loss_bits": 3.373700912240734,
+        "position_accuracy": 0.2511281805088814,
+        "neighbor_accuracy": 0.2497839654344695,
+        "q_binary_gain_bits": -0.00035081269194912895,
+        "non_q_within_gain_bits": -0.002479001289944951,
+        "q_target_count": 3832
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 13512,
+        "folds": 8,
+        "gain_bits": -0.005455032628597073,
+        "position_loss_bits": 3.190733351840266,
+        "neighbor_loss_bits": 3.1961883844688628,
+        "position_accuracy": 0.251850207223209,
+        "neighbor_accuracy": 0.25007400828892834,
+        "q_binary_gain_bits": -0.00038784937109958287,
+        "non_q_within_gain_bits": -0.005067183257497491,
+        "q_target_count": 2502
+      },
+      "2": {
+        "n": 13512,
+        "folds": 8,
+        "gain_bits": -0.00730438314260278,
+        "position_loss_bits": 3.190733351840266,
+        "neighbor_loss_bits": 3.198037734982869,
+        "position_accuracy": 0.251850207223209,
+        "neighbor_accuracy": 0.2516281823564239,
+        "q_binary_gain_bits": -0.0006308768249994149,
+        "non_q_within_gain_bits": -0.0066735063176033655,
+        "q_target_count": 2502
+      },
+      "3": {
+        "n": 13512,
+        "folds": 8,
+        "gain_bits": -0.007020502929777091,
+        "position_loss_bits": 3.190733351840266,
+        "neighbor_loss_bits": 3.1977538547700433,
+        "position_accuracy": 0.251850207223209,
+        "neighbor_accuracy": 0.2502960331557134,
+        "q_binary_gain_bits": -0.0010724828080552866,
+        "non_q_within_gain_bits": -0.0059480201217218046,
+        "q_target_count": 2502
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.00541321752211822,
+      "q025": -0.007289571541555693,
+      "q975": -0.0037424201937510788,
+      "exploratory_upper_tail": 0.005
+    }
+  },
+  {
+    "case": "Timm_generated",
+    "model": "Posthoc pooled multiplicative correction, fixed addendum before results",
+    "primary": {
+      "n": 6344,
+      "folds": 8,
+      "gain_bits": -0.0047005984200691915,
+      "position_loss_bits": 3.0348226104987606,
+      "neighbor_loss_bits": 3.0395232089188298,
+      "position_accuracy": 0.26592055485498106,
+      "neighbor_accuracy": 0.25709331651954603,
+      "q_binary_gain_bits": -0.0017736124552192754,
+      "non_q_within_gain_bits": -0.002926985964849916,
+      "q_target_count": 239
+    },
+    "bootstrap": {
+      "clusters": 8,
+      "draws": 2000,
+      "gain_ci": [
+        -0.01591817065500959,
+        0.009906120506491702
+      ],
+      "q_binary_ci": [
+        -0.003085792864529349,
+        -0.0005657771298908378
+      ],
+      "non_q_ci": [
+        -0.013783620248631992,
+        0.011052425303561951
+      ],
+      "note": "Fixed held-out scores, no refit; overlapping training sets and common transcription source limit independence."
+    },
+    "coverage_original_joint_model": {
+      "folds": [
+        {
+          "group": "0",
+          "n": 788,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 0
+        },
+        {
+          "group": "1",
+          "n": 639,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 0
+        },
+        {
+          "group": "2",
+          "n": 648,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 1
+        },
+        {
+          "group": "3",
+          "n": 698,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 5
+        },
+        {
+          "group": "4",
+          "n": 750,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 4
+        },
+        {
+          "group": "5",
+          "n": 948,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 3
+        },
+        {
+          "group": "6",
+          "n": 849,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 13
+        },
+        {
+          "group": "7",
+          "n": 1024,
+          "unseen_style": 0,
+          "unseen_joint_neighbor_context": 2
+        }
+      ],
+      "unseen_style_fraction": 0.0,
+      "unseen_joint_context_fraction": 0.004413619167717529
+    },
+    "folds": [
+      {
+        "group": "0",
+        "n": 788,
+        "gain_bits": -0.0022737542121225446
+      },
+      {
+        "group": "1",
+        "n": 639,
+        "gain_bits": 0.007529424453338577
+      },
+      {
+        "group": "2",
+        "n": 648,
+        "gain_bits": 0.006398759718187717
+      },
+      {
+        "group": "3",
+        "n": 698,
+        "gain_bits": -0.0109394892908135
+      },
+      {
+        "group": "4",
+        "n": 750,
+        "gain_bits": -0.03163555927251706
+      },
+      {
+        "group": "5",
+        "n": 948,
+        "gain_bits": 0.02741068911390598
+      },
+      {
+        "group": "6",
+        "n": 849,
+        "gain_bits": -0.0176236388345677
+      },
+      {
+        "group": "7",
+        "n": 1024,
+        "gain_bits": -0.016256843272358053
+      }
+    ],
+    "sensitivity": {
+      "alpha_8": {
+        "n": 6344,
+        "folds": 8,
+        "gain_bits": -0.012931538300228945,
+        "position_loss_bits": 3.046474250540875,
+        "neighbor_loss_bits": 3.059405788841104,
+        "position_accuracy": 0.2648171500630517,
+        "neighbor_accuracy": 0.25583228247162676,
+        "q_binary_gain_bits": -0.002202344963673698,
+        "non_q_within_gain_bits": -0.010729193336555247,
+        "q_target_count": 239
+      },
+      "alpha_128": {
+        "n": 6344,
+        "folds": 8,
+        "gain_bits": 0.003061913254737072,
+        "position_loss_bits": 3.021708239317032,
+        "neighbor_loss_bits": 3.018646326062295,
+        "position_accuracy": 0.2708070617906683,
+        "neighbor_accuracy": 0.2605611601513241,
+        "q_binary_gain_bits": -0.0012634561526482905,
+        "non_q_within_gain_bits": 0.004325369407385363,
+        "q_target_count": 239
+      },
+      "clean_line": {
+        "n": 6344,
+        "folds": 8,
+        "gain_bits": -0.0047005984200691915,
+        "position_loss_bits": 3.0348226104987606,
+        "neighbor_loss_bits": 3.0395232089188298,
+        "position_accuracy": 0.26592055485498106,
+        "neighbor_accuracy": 0.25709331651954603,
+        "q_binary_gain_bits": -0.0017736124552192754,
+        "non_q_within_gain_bits": -0.002926985964849916,
+        "q_target_count": 239
+      },
+      "no_repeat": {
+        "n": 6288,
+        "folds": 8,
+        "gain_bits": -0.00537018229827452,
+        "position_loss_bits": 3.0407506512604585,
+        "neighbor_loss_bits": 3.046120833558733,
+        "position_accuracy": 0.26049618320610685,
+        "neighbor_accuracy": 0.25604325699745545,
+        "q_binary_gain_bits": -0.0017749372366872476,
+        "non_q_within_gain_bits": -0.003595245061587273,
+        "q_target_count": 239
+      },
+      "composed": {
+        "n": 6344,
+        "folds": 8,
+        "gain_bits": -0.014043000494786868,
+        "position_loss_bits": 3.1830085145978817,
+        "neighbor_loss_bits": 3.1970515150926677,
+        "position_accuracy": 0.25756620428751575,
+        "neighbor_accuracy": 0.2459016393442623,
+        "q_binary_gain_bits": -0.001852993308929647,
+        "non_q_within_gain_bits": -0.012190007185857223,
+        "q_target_count": 239
+      }
+    },
+    "lags": {
+      "1": {
+        "n": 3778,
+        "folds": 8,
+        "gain_bits": -0.004566168337521479,
+        "position_loss_bits": 3.047291466882283,
+        "neighbor_loss_bits": 3.0518576352198044,
+        "position_accuracy": 0.26283748014822655,
+        "neighbor_accuracy": 0.25357331921651666,
+        "q_binary_gain_bits": -0.002382336880747992,
+        "non_q_within_gain_bits": -0.0021838314567734856,
+        "q_target_count": 145
+      },
+      "2": {
+        "n": 3778,
+        "folds": 8,
+        "gain_bits": -0.02532573357187971,
+        "position_loss_bits": 3.047291466882283,
+        "neighbor_loss_bits": 3.0726172004541628,
+        "position_accuracy": 0.26283748014822655,
+        "neighbor_accuracy": 0.2543673901535204,
+        "q_binary_gain_bits": -0.004532185283988968,
+        "non_q_within_gain_bits": -0.02079354828789074,
+        "q_target_count": 145
+      },
+      "3": {
+        "n": 3778,
+        "folds": 8,
+        "gain_bits": -0.01855817906827565,
+        "position_loss_bits": 3.047291466882283,
+        "neighbor_loss_bits": 3.0658496459505584,
+        "position_accuracy": 0.26283748014822655,
+        "neighbor_accuracy": 0.2673372154579142,
+        "q_binary_gain_bits": 0.00038816086837272754,
+        "non_q_within_gain_bits": -0.01894633993664838,
+        "q_target_count": 145
+      }
+    },
+    "null": {
+      "draws": 199,
+      "mean": -0.012015849428142714,
+      "q025": -0.019365905972567515,
+      "q975": -0.005483319518215822,
+      "exploratory_upper_tail": 0.015
+    }
+  }
+]

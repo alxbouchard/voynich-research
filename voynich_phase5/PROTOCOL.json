@@ -1,0 +1,13 @@
+{
+ "date":"2026-10-28",
+ "status":"Exploratory protocol written before phase-5 results; not an external preregistration.",
+ "hypothesis":"Each cipher unit decodes to one of 32 fixed plaintext units: 23 normalized letters and 9 frequent CV or VC digraphs. Multiple cipher units may share a plaintext unit. No nulls, dynamic keys or longer units.",
+ "dictionary":"Letters a-z excluding j,k,w; nine CV or VC pairs selected only from the language-model training corpus. Vowels a,e,i,o,u. Greedy pair-first segmentation of normalized, spaceless text. Orthographic approximation, not linguistic syllabification.",
+ "models":"Latin: Caesar; control: Pliny. Italian: first Inferno and Purgatorio; control: first Paradiso. Dante duplicate already removed. Joint quadgram model over units, pseudocount .01, unigram penalty lambda=4. Scores per four-unit window, NOT per letter and not directly comparable to phase 4.",
+ "controls":"Two hidden random 48-symbol homophonic keys per language and CV/VC inventory, eight controls. 24k cipher units to fit; remainder to evaluate. Require at least 95% exact plaintext-unit recovery on both keys before applying that language/inventory to Voynich. Record failures and any control-only calibration.",
+ "real_plan":"2 languages x CV/VC x Currier A/B x EVA/composed x forward/reverse = up to 32 cases, each with a matched within-segment shuffled null. Exclude language/inventory whose controls fail. Same physical-leaf split as phase 4, cap 24k fitting units.",
+ "uncertainty":"Explicit alternatives, unreadable/rare signs and drawing interruptions break streams. No forced first reading. Uncertain commas remain word boundaries before composed grouping; no semantic cribs from illustrations.",
+ "budget":"Initial 8 restarts x 60000 proposals, same budget real and null. Any changed settings chosen on controls only and recorded.",
+ "checks":"Independent recomputation of objective and exact unit accuracy; dictionary longest-match roundtrip on sources; matched null histograms; leaf disjointness; decoded-length expansion and canonical resegmentation diagnostics. No meaning assigned from scores.",
+ "next_evidence":"A fixed key must give coherent, independently supportable readings outside its fitting pages. The earlier three stable repeated forms are not known plaintext. This phase does not certify any additional image transcription."
+}

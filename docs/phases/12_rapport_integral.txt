@@ -1,0 +1,116 @@
+[Page 1]
+Voynich · Phase 12 · Règles et contrôle linguistique
+1
+VOYNICH · PHASE 12 · OCTOBRE 2026
+Reconstruire les règles
+Aucune traduction validée. Cette phase tente une lecture automatique à partir des seules
+règles de suppression et des 18 mots de départ du guide de Scott Schechter. Elle vérifie aussi
+deux affirmations indépendantes : les signes déclarés sans contenu et la conjugaison latine
+présentée comme preuve.
+1. Une règle universelle ne reproduit pas toutes les lectures
+Le guide demande de retirer systématiquement les groupes EVA cth, ckh, cph, cfh, supposés
+sans information. Le code consulte pourtant le glossaire avant cette suppression. Sur 1 845
+occurrences de prose contenant ces groupes et reconnues par le code, appliquer la suppression
+en premier conserve 1 732 lectures, en change 95 et en perd 18.
+Forme EVA
+Après suppression
+Lecture directe
+Lecture après suppression
+Occurrences
+shckhy
+shy
+HEUS
+HIC
+60
+sheckhy
+shey
+HEUS
+HEC
+35
+Ces 95 divergences concernent deux formes avec ckh, soit 5,20 % des 1 827 occurrences dont
+les deux lectures existent. Elles montrent une incompatibilité entre la règle universelle du guide
+et certaines entrées du glossaire. Elles ne donnent pas le sens réel de ckh. Le document
+18-null-analysis.md envisage lui-même que ces signes portent de l’information.
+2. Propagation sans le glossaire complet
+Un programme distinct part des 18 paires du guide et explore toutes les suppressions autorisées
+: préfixes, ch/f médians, t/g/p finaux et les quatre groupes ci-dessus. Il conserve toutes les
+réponses accessibles. Le glossaire complet sert ensuite uniquement à comparer les résultats,
+jamais à choisir une lecture.
+Variante
+Occurrences avec candidat
+Dont plusieurs
+réponses
+Désaccord avec le glossaire*
+Préfixes originaux
+5 496 / 34 411 (15,97 %)
+0
+406 / 5 490
+Préfixes étendus
+6 485 / 34 411 (18,85 %)
+164
+1 226 / 6 438
+* Dénominateur : occurrences où le programme original fournit aussi une lecture. Il s’agit d’accord interne, pas
+d’exactitude de traduction. Dans la variante étendue, qokol peut conserver NOCET ou devenir GRATIA après retrait du
+préfixe qo. La procédure seule ne choisit pas entre ces attributions.
+Portée limitée : ce test porte sur la propagation des mots de départ. Il n’implémente pas l’ensemble des tables de
+substitution, la reconstruction des voyelles ou les choix guidés par le contexte. Sa faible couverture ne réfute donc pas le
+système complet. Les 18 sens de départ restent eux-mêmes non confirmés.
+
+
+[Page 2]
+Voynich · Phase 12 · Règles et contrôle linguistique
+2
+Contrôle linguistique et résultats
+3. L’argument des conjugaisons nécessite une correction
+Le dépôt présente plusieurs formes de NOCERE comme des conjugaisons correctes. Le
+dictionnaire Lewis et Short classe noceo dans la deuxième conjugaison, avec le parfait nocui. Les
+tableaux d’Allen et Greenough permettent de vérifier les personnes et temps revendiqués [1-3].
+Forme du dépôt
+Étiquette revendiquée
+Forme du latin standard
+NOCIS
+2e personne singulier, présent
+NOCES
+NOCITIS
+2e personne pluriel, présent
+NOCETIS
+NOCERAT
+3e personne singulier, plus-que-parfait
+NOCUERAT
+Les formes de référence se déduisent du thème noce- au présent et de nocu- au parfait : noc-e-s,
+noc-e-tis, nocu-erat. Des formes comme NOCET et NOCUIT sont, elles, compatibles avec le latin.
+Cette vérification ne permet pas d’affirmer que toute variante médiévale ou occitane est
+impossible. Une variante invoquée pour sauver l’analyse doit toutefois être attestée précisément,
+avec la valeur grammaticale annoncée.
+Démonstration sur trois folios
+Folio
+Occurrences retenues
+Candidats, règles originales
+Candidats, règles étendues
+f1r
+202
+29
+40
+f75r
+422
+85
+95
+f103r
+522
+102
+109
+Ces folios illustrent l’application des règles ; ils ne sont pas inconnus de l’auteur et ne constituent
+pas une validation aveugle. Aucun passage complet n’est confirmé par cet essai. Les sorties sont
+des variantes des 18 significations de départ, pas des sens nouveaux découverts.
+Traçabilité et vérification
+Le corpus conserve 34 411 occurrences de prose, soit 7 069 formes différentes ; 80 occurrences incertaines ou atypiques
+sont exclues. Toutes les classes de lignes P sont incluses. Le parseur original, toutes classes confondues, retrouve
+séparément les 37 886 occurrences de la phase précédente. Un second algorithme vérifie indépendamment les 14 138
+prédictions (deux variantes × 7 069 formes). Les 12 fichiers amont sont vérifiés par empreintes Git et SHA256.
+Source expérimentale : github.com/scott-schechter/voynich-decoded, commit
+71f2f3c91e9113d285ab21e024f1dd70c1f43c44. Fichiers : 07-reproduction-guide.md, 02-verb-paradigms.md,
+18-null-analysis.md, decode.js et glossary-export.js. Le protocole, le code et les mesures sont joints dans l’archive.
+[1] Lewis et Short, entrée noceo, Perseus / Tufts.
+[2] Allen et Greenough, deuxième conjugaison, présent, Dickinson College.
+[3] Allen et Greenough, deuxième conjugaison, plus-que-parfait, Dickinson College. Sources consultées le 29 octobre 2026
+UTC.

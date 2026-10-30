@@ -1,0 +1,85 @@
+{
+  "access_date": "2026-10-28",
+  "scope": "Targeted primary-source review, not an exhaustive literature review.",
+  "primary_sources": [
+    {
+      "id": "S1",
+      "title": "The Beinecke Cipher (Voynich) Manuscript",
+      "author": "Yale University Library",
+      "url": "https://beinecke.library.yale.edu/beinecke/collections/beinecke-cipher-voynich-manuscript"
+    },
+    {
+      "id": "S2",
+      "title": "Voynich MS: Transliteration of the Text",
+      "author": "René Zandbergen",
+      "url": "https://www.voynich.nu/transcr.html"
+    },
+    {
+      "id": "S3",
+      "title": "ZL3b-n, version 3b, 13 May 2025",
+      "author": "René Zandbergen, acknowledging Gabriel Landini",
+      "url": "https://www.voynich.nu/data/ZL3b-n.txt"
+    },
+    {
+      "id": "S4",
+      "title": "IT2a-n, version 2a, modified 25 June 2025",
+      "author": "Takeshi Takahashi, Landini-Stolfi interlinear extraction",
+      "url": "https://www.voynich.nu/data/IT2a-n.txt"
+    },
+    {
+      "id": "S5",
+      "title": "IVTFF, format 2.0.1, document 2.0.2, 8 July 2025",
+      "author": "René Zandbergen",
+      "url": "https://www.voynich.nu/software/ivtt/IVTFF_format.pdf"
+    },
+    {
+      "id": "S6",
+      "title": "Character Entropy in Modern and Historical Texts",
+      "author": "Luke Lindemann and Claire Bowern",
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2010.14697"
+    },
+    {
+      "id": "S7",
+      "title": "The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext",
+      "author": "Michael A. Greshko",
+      "year": 2025,
+      "doi": "10.1080/01611194.2025.2566408",
+      "url": "https://doi.org/10.1080/01611194.2025.2566408"
+    },
+    {
+      "id": "S8",
+      "title": "Naibbe cipher code and datasets",
+      "author": "Michael A. Greshko",
+      "url": "https://github.com/greshko/naibbe-cipher"
+    }
+  ],
+  "github_source_files": [
+    {
+      "file": "controls/naibbe_cv_vc_reuse.py",
+      "github_blob_sha": "77c9a6d72f92fc5dec52756676a34dcc10b7fe56",
+      "source_url": "https://github.com/greshko/naibbe-cipher/blob/main/naibbe_cv_vc_reuse.py"
+    },
+    {
+      "file": "controls/decrypt_naibbe.py",
+      "github_blob_sha": "b56a1e6e615a7b2e31ad386efdf7e6f2ef2b9d7b",
+      "source_url": "https://github.com/greshko/naibbe-cipher/blob/main/decrypt_naibbe.py"
+    },
+    {
+      "file": "controls/references/naibbe_tables.csv",
+      "github_blob_sha": "5cd34fb81d80faf3b4d57dbf1719c05ffde25302",
+      "source_url": "https://github.com/greshko/naibbe-cipher/blob/main/references/naibbe_tables.csv"
+    },
+    {
+      "file": "controls/input/nathist_book16.txt",
+      "github_blob_sha": "453d8e1cb7a6626c02bb53467c329ab127d89006",
+      "source_url": "https://github.com/greshko/naibbe-cipher/blob/main/input/examples/nathist_book16.txt"
+    },
+    {
+      "file": "controls/LICENSE_GRESHKO",
+      "github_blob_sha": "6570cbe139bc3530b7d5f6f73d9aa8bc796950e5",
+      "source_url": "https://github.com/greshko/naibbe-cipher/blob/main/LICENSE"
+    }
+  ],
+  "history": "Historical summaries mention February 2026 experiments, but their original files were not resolved. Their scores are not treated as current verified evidence."
+}

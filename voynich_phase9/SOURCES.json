@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "authors": "Sravana Reddy, Kevin Knight",
+      "year": 2011,
+      "title": "What We Know About The Voynich Manuscript",
+      "url": "https://aclanthology.org/W11-1511/",
+      "read": "Section 5.2 and related tables from primary PDF",
+      "relevance": "Preceding word endings predict next beginnings; this property is not a novel discovery of our study."
+    },
+    {
+      "authors": "Patrick Feaster",
+      "year": 2022,
+      "title": "Rightward and Downward Grapheme Distributions in the Voynich Manuscript",
+      "url": "https://ceur-ws.org/Vol-3313/paper12.pdf",
+      "read": "Primary PDF downloaded; positional-confounding discussion and introduction inspected.",
+      "relevance": "Position in lines and paragraphs can confound adjacent-edge frequencies."
+    },
+    {
+      "authors": "Liudmila Rozanova, Alexander Temerev",
+      "year": 2026,
+      "title": "A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space",
+      "url": "https://arxiv.org/abs/2608.17096",
+      "status": "Preprint v1, 17 August 2026",
+      "read": "Methods 2.10 and relevant edge-dependence results and limitations",
+      "relevance": "Published edge diagnostics and cipher/generator controls; our model and filtering differ."
+    },
+    {
+      "authors": "Michael A. Greshko",
+      "year": 2025,
+      "title": "The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext",
+      "doi": "10.1080/01611194.2025.2566408",
+      "relevance": "Existing phase1 generated sample reused via phase6, not regenerated here; mandatory attribution per bundled license."
+    },
+    {
+      "authors": "Torsten Timm, Andreas Schinner",
+      "year": "2019/2020",
+      "title": "A possible generating algorithm of the Voynich manuscript",
+      "doi": "10.1080/01611194.2019.1596999",
+      "relevance": "Published generated sample reused via phase6, seed line excluded; no new generator run."
+    },
+    {
+      "authors": "René Zandbergen / Takeshi Takahashi",
+      "url": "https://voynich.nu/extra/sp_transcr.html",
+      "relevance": "Frozen ZL3b-n / IT2a-n transcription and metadata conventions."
+    }
+  ]
+}

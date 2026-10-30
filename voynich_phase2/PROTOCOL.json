@@ -1,0 +1,14 @@
+{
+  "status": "Exploratory continuation, frozen before new key-search results; not external preregistration.",
+  "seed": 20261029,
+  "data": "Reuse both authenticated whole IVTFF transcriptions from phase 1; fail closed on source hash.",
+  "key_recovery": "Monoalphabetic substitution with 26 Latin-letter symbols, frequency initialisation and simulated annealing of quadgram conditional likelihood. Tune only on a synthetic control with withheld key. Compare out-of-training text without refitting.",
+  "experiments": [
+    "Known plaintext hidden-key monoalphabetic Latin control",
+    "EVA-letter substitution for full ZL, ZL Currier A, ZL Currier B, and IT",
+    "Published Naibbe morphological tables with a concealed global permutation of their plaintext alphabet: control first, then real Voynich parsed spans",
+    "Exact label inventory, possible same-word correspondences and externally grounded limits on interpreting later month names"
+  ],
+  "language_scope": "Latin first; obtain independent public corpora if accessible. Failing the selected families cannot reject all ciphers or languages.",
+  "candidate_rule": "Do not present fragments or the best optimisation score as translated content. Require high held-out recovery on known-key controls, coverage and intelligible independent evidence. Preserve failures and raw candidates marked NON_TRANSLATION."
+}

@@ -1,0 +1,32 @@
+{
+  "created": "2026-10-28 America/Toronto",
+  "objective": "Pilot global lexicon matching with corrected CPU CSA adaptation",
+  "training_source_types": 96,
+  "target_lexicon_types": 256,
+  "glyph_encodings": [
+    "EVA",
+    "cth/ckh/cph/cfh/ch/sh as atomic units"
+  ],
+  "train_test_split": "reused physical-leaf split from phase10; heldout evaluation restricted to word types absent from ALL training pages",
+  "validation_warning": "These pages were used in prior project phases. Algorithmic holdout, not a project-wide untouched discovery set.",
+  "language_warning": "Latin and Italian are convenience baselines, neither historically exhaustive nor language identification.",
+  "initial_calibration_steps": 5000,
+  "annealers": 8,
+  "penalty": 4,
+  "max_calibrated_steps": 20000,
+  "gate": "Report known-answer recovery before interpreting Voynich; if insufficient, real scores only computational diagnostics.",
+  "null": "Permutation inside each distinct source word, fixed across occurrences; same type lengths and glyph counts; duplicates allowed as source groups.",
+  "score": "Mean minimum generalized edit distance to reference lexicon on unseen heldout types. Lower is closer; not translation accuracy.",
+  "corrections": [
+    "serial candidate copying",
+    "independent initial states",
+    "best visited state retention",
+    "GED(empty,nonempty)=1"
+  ],
+  "not_implemented": [
+    "joint phonetic segmentation model",
+    "automatic semantic translation",
+    "full historical-language lexica",
+    "image-driven glyph reclassification"
+  ]
+}

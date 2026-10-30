@@ -1,0 +1,44 @@
+{
+  "phase": 10,
+  "written_utc": "2026-10-28T23:28:42.812835+00:00",
+  "status": "fixed before calibration and real fitting",
+  "hypothesis": "One raw EVA character maps to one Latin alphabet letter, many-to-one allowed. Base table everywhere except first character of a known token after a known token ending in EVA y within same line; then separate table. No semantic interpretation assigned.",
+  "models": [
+    "blind one table",
+    "contextual two tables"
+  ],
+  "language_models": [
+    "Latin Caesar",
+    "Italian Dante Inferno/Purgatorio"
+  ],
+  "controls": "Latin Pliny and Italian Paradiso, two random bijective contextual encryption keys each; trigger y forced to base encoding of most frequent plaintext word-final letter in training prefix, alternative independent random permutation. No plaintext/key passed to optimizer.",
+  "fit": {
+    "cap_characters": 24000,
+    "restarts": 8,
+    "steps_each": 60000,
+    "lambda_KL": 4,
+    "initial_temperature_multiplier_N": 0.002,
+    "seed_base": 20261110
+  },
+  "calibration_gate": {
+    "heldout_all_char_accuracy_min": 0.95,
+    "heldout_context_changed_char_accuracy_min": 0.9,
+    "min_test_char_coverage": 0.995,
+    "all_four_must_pass": true,
+    "failure_policy": "Stop real application; document failure and investigate separately without treating real negative result as exclusion."
+  },
+  "real_primary": [
+    "ZL_A",
+    "ZL_B"
+  ],
+  "replication_sensitivity": [
+    "IT_A",
+    "IT_B"
+  ],
+  "split": "Physical leaves sorted in union of four Voynich cases; every fifth starting index zero reserved test; all other leaves training pool. Prefix of full lines up to 24000 known characters. Test never used to select keys. Same split ZL/IT.",
+  "null": "19 deterministic shuffles per primary case; permute known interior word slots within each line, leave first/last slots and None barriers fixed; do not change line or whole-word inventory; shuffle train/test separately and refit both models. Weak null, does not preserve boundary relationships.",
+  "score": "Heldout average negative log2 training-LM quadgram probability on common known-output windows between two models. Improvement = blind bits minus contextual bits. More positive is better. This is a language-model diagnostic, not translation accuracy on Voynich.",
+  "uncertainty": "Commas, alternatives and unreadable groups remain None barriers, no changes to transcription. No line boundaries crossed. Raw EVA characters only.",
+  "comparison": "No p-value claimed from 19 null fits; report full range and count of null gains as large as observed. No parameter or language selection using heldout. All candidates are NOT translations.",
+  "success_for_real": "Never declare decryption from LM score; require stable recoverable key, linguistically coherent heldout text, independent validation; these tests alone insufficient."
+}

@@ -1,0 +1,171 @@
+{
+  "pages": [
+    {
+      "page": "f100r",
+      "loci_union": 27,
+      "loci_ZL": 27,
+      "loci_IT": 27,
+      "counts": {
+        "accord_diplomatique": 16,
+        "accord_apres_normalisation": 2,
+        "divergence": 9
+      },
+      "loci_with_review_flags": 8,
+      "loci_with_uncertainty": 8
+    },
+    {
+      "page": "f89v2",
+      "loci_union": 28,
+      "loci_ZL": 27,
+      "loci_IT": 28,
+      "counts": {
+        "accord_diplomatique": 8,
+        "divergence": 19,
+        "absent_ZL": 1
+      },
+      "loci_with_review_flags": 11,
+      "loci_with_uncertainty": 11
+    },
+    {
+      "page": "f100v",
+      "loci_union": 22,
+      "loci_ZL": 22,
+      "loci_IT": 22,
+      "counts": {
+        "accord_diplomatique": 12,
+        "divergence": 10
+      },
+      "loci_with_review_flags": 3,
+      "loci_with_uncertainty": 2
+    },
+    {
+      "page": "f93r",
+      "loci_union": 32,
+      "loci_ZL": 32,
+      "loci_IT": 32,
+      "counts": {
+        "divergence": 16,
+        "accord_diplomatique": 15,
+        "accord_apres_normalisation": 1
+      },
+      "loci_with_review_flags": 8,
+      "loci_with_uncertainty": 8
+    },
+    {
+      "page": "f68r1",
+      "loci_union": 37,
+      "loci_ZL": 37,
+      "loci_IT": 37,
+      "counts": {
+        "accord_diplomatique": 28,
+        "divergence": 9
+      },
+      "loci_with_review_flags": 2,
+      "loci_with_uncertainty": 1
+    },
+    {
+      "page": "f114v",
+      "loci_union": 41,
+      "loci_ZL": 41,
+      "loci_IT": 41,
+      "counts": {
+        "accord_diplomatique": 19,
+        "divergence": 21,
+        "accord_apres_normalisation": 1
+      },
+      "loci_with_review_flags": 18,
+      "loci_with_uncertainty": 18
+    },
+    {
+      "page": "f70v2",
+      "loci_union": 33,
+      "loci_ZL": 33,
+      "loci_IT": 33,
+      "counts": {
+        "divergence": 14,
+        "accord_diplomatique": 17,
+        "accord_apres_normalisation": 2
+      },
+      "loci_with_review_flags": 6,
+      "loci_with_uncertainty": 6
+    },
+    {
+      "page": "f47v",
+      "loci_union": 14,
+      "loci_ZL": 14,
+      "loci_IT": 14,
+      "counts": {
+        "accord_diplomatique": 7,
+        "accord_apres_normalisation": 4,
+        "divergence": 3
+      },
+      "loci_with_review_flags": 3,
+      "loci_with_uncertainty": 3
+    },
+    {
+      "page": "f1r",
+      "loci_union": 28,
+      "loci_ZL": 28,
+      "loci_IT": 28,
+      "counts": {
+        "accord_apres_normalisation": 1,
+        "divergence": 20,
+        "accord_diplomatique": 7
+      },
+      "loci_with_review_flags": 17,
+      "loci_with_uncertainty": 16
+    },
+    {
+      "page": "f2r",
+      "loci_union": 15,
+      "loci_ZL": 15,
+      "loci_IT": 13,
+      "counts": {
+        "accord_diplomatique": 6,
+        "divergence": 5,
+        "accord_apres_normalisation": 2,
+        "absent_IT": 2
+      },
+      "loci_with_review_flags": 5,
+      "loci_with_uncertainty": 5
+    },
+    {
+      "page": "f75r",
+      "loci_union": 53,
+      "loci_ZL": 53,
+      "loci_IT": 53,
+      "counts": {
+        "divergence": 31,
+        "accord_diplomatique": 15,
+        "accord_apres_normalisation": 7
+      },
+      "loci_with_review_flags": 20,
+      "loci_with_uncertainty": 20
+    },
+    {
+      "page": "f103r",
+      "loci_union": 54,
+      "loci_ZL": 54,
+      "loci_IT": 54,
+      "counts": {
+        "divergence": 31,
+        "accord_apres_normalisation": 9,
+        "accord_diplomatique": 14
+      },
+      "loci_with_review_flags": 29,
+      "loci_with_uncertainty": 29
+    }
+  ],
+  "total_loci_union": 384,
+  "counts": {
+    "accord_diplomatique": 164,
+    "accord_apres_normalisation": 29,
+    "divergence": 188,
+    "absent_ZL": 1,
+    "absent_IT": 2
+  },
+  "loci_with_review_flags": 130,
+  "loci_with_uncertainty": 127,
+  "stable_pairs_under_tested_segmentations": 3,
+  "limitation": "Computational agreement is not palaeographic certainty. Normalisation selects first alternatives and splits uncertain spaces; diplomatic strings retain them."
+}

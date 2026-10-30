@@ -1,0 +1,66 @@
+VOYNICH, PHASE 13 : APPARIEMENT GLOBAL DE LEXIQUES
+Date de recherche : 28 octobre 2026, Montréal.
+
+Ce dossier contient une ADAPTATION CPU de CSA_OptMatcher (Fabio Tamburini,
+2025), pas une exécution inchangée de son logiciel ni une reproduction
+complète des chiffres de son article. Aucune traduction du Voynich n'est
+validée par cette expérience.
+
+Installation et vérification (Python 3, compilateur C++, NumPy, SciPy) :
+  python3 -m venv .venv
+  . .venv/bin/activate
+  pip install -r requirements.txt
+  python3 src/build.py
+  python3 src/verify_engine.py
+  python3 src/verify_results.py
+
+Exécuter un témoin connu :
+  python3 src/run.py control_mono --steps 5000 --annealers 8
+
+Exécuter les cas exploratoires Voynich et leurs témoins :
+  python3 src/batch.py real
+
+Exécuter les réglages recommandés dans l'article (cas N=2,M=1) :
+  python3 src/default_settings.py
+
+Le programme de l'article emploie 16 recuits et 100 000 pas. Ce pilote
+emploie 8 recuits et 5 000 pas ; certains témoins sont prolongés à 20 000.
+Les graines sont enregistrées. Les fichiers de résultats indiquent les
+paramètres réellement exécutés. Les secondes varient avec la machine.
+Testé ici sur Linux et Python 3.12. L'installation sur Mac M4 n'a pas été
+testée ; le script de compilation prévoit macOS sans dépendre de CUDA.
+
+Sources et transformations :
+- vendor/ conserve les sources publiques et licences d'origine.
+- data/upstream_manifest.json contient leurs empreintes Git.
+- src/engine.py et src/cost.cpp sont l'adaptation, sous GPL-3.0-or-later.
+- data/cases.json contient les données exactes utilisées, les alphabets,
+  les transcriptions, les références latines/italiennes et les pages.
+- data/default_cases.json contient les variantes avec paramètres de l'article.
+- data/input_sources.json relie les entrées aux phases précédentes.
+- src/prepare.py documente la création depuis les anciennes phases. Il n'est
+  pas nécessaire de le relancer : l'archive inclut déjà toutes les entrées.
+
+Différences avec l'amont : calcul sur CPU sans PyTorch, valeurs de signes
+limitées à une lettre cible, minimum sur les variantes calculé exactement
+par programmation dynamique, copie indépendante des propositions, mémoire
+du meilleur état visité, distance vide/non-vide corrigée à 1.
+Les règles de probabilités du recuit couplé et l'appariement hongrois groupé
+sont conservés. Le noyau a été comparé à une énumération exhaustive des
+variantes ; l'appariement groupé à la fonction originale de l'auteur.
+
+Limites : 96 formes d'apprentissage, 256 mots de référence par langue.
+Les mots réservés sont absents de toutes les pages d'apprentissage du cas,
+mais ces pages avaient déjà été examinées dans des phases antérieures.
+Les témoins mélangés conservent longueur et composition de chaque mot,
+pas toutes les dépendances graphiques du Voynich. Un seul témoin mélangé
+par cas ne suffit pas pour calculer une significativité statistique.
+Les distances et les candidats ne sont PAS des traductions.
+
+Les modèles de segmentation phonétique conjointe et le regroupement des
+glyphes à partir des images ne sont pas exécutés dans cette phase.
+
+Publication de référence :
+https://doi.org/10.3389/frai.2025.1581129
+Code : https://github.com/ftamburin/CSA_OptMatcher
+Distance : https://github.com/ftamburin/EditDistanceWild

@@ -1,0 +1,1419 @@
+{
+  "seed": 13010,
+  "steps": 5000,
+  "annealers": 8,
+  "energy": 32.32418137418138,
+  "state": [
+    34,
+    3,
+    0,
+    57,
+    13,
+    48,
+    44,
+    45,
+    16,
+    19,
+    1,
+    42,
+    24,
+    41,
+    10,
+    37,
+    56,
+    9,
+    2,
+    38,
+    5,
+    50,
+    23,
+    6,
+    51,
+    55,
+    59,
+    47,
+    12,
+    30,
+    15,
+    32,
+    33,
+    35,
+    36,
+    22,
+    8,
+    39,
+    40,
+    11,
+    31,
+    43,
+    14,
+    26,
+    46,
+    21,
+    17,
+    49,
+    4,
+    7,
+    52,
+    20,
+    53,
+    54,
+    58,
+    25,
+    18,
+    27,
+    28,
+    29
+  ],
+  "mapping": {
+    "-": [
+      "_"
+    ],
+    "a": [
+      "o"
+    ],
+    "b": [
+      "b"
+    ],
+    "d": [
+      "d"
+    ],
+    "e": [
+      "z"
+    ],
+    "g": [
+      "g"
+    ],
+    "h": [
+      "h"
+    ],
+    "i": [
+      "ā"
+    ],
+    "k": [
+      "k"
+    ],
+    "l": [
+      "l"
+    ],
+    "m": [
+      "m"
+    ],
+    "n": [
+      "n"
+    ],
+    "o": [
+      "-"
+    ],
+    "p": [
+      "p"
+    ],
+    "r": [
+      "r"
+    ],
+    "s": [
+      "a"
+    ],
+    "t": [
+      "t"
+    ],
+    "u": [
+      "w"
+    ],
+    "w": [
+      "ḫ"
+    ],
+    "y": [
+      "y"
+    ],
+    "z": [
+      "ɣ"
+    ],
+    "ī": [
+      "u"
+    ],
+    "š": [
+      "i",
+      "š"
+    ],
+    "ʔ": [
+      "ʔ"
+    ],
+    "ʕ": [
+      "ʕ"
+    ],
+    "ḥ": [
+      "ḥ"
+    ],
+    "ḫ": [
+      "s"
+    ],
+    "ḳ": [
+      "ḳ"
+    ],
+    "ṣ": [
+      "̣",
+      "ṣ"
+    ],
+    "ṭ": [
+      "ṭ"
+    ]
+  },
+  "evaluations": 40009,
+  "trace": [
+    {
+      "step": 1000,
+      "best_energy": 48.65194805194805,
+      "seconds": 8.970661249004479
+    },
+    {
+      "step": 2000,
+      "best_energy": 43.08520923520923,
+      "seconds": 17.133939327999542
+    },
+    {
+      "step": 3000,
+      "best_energy": 32.86804861804862,
+      "seconds": 25.881128845001513
+    },
+    {
+      "step": 4000,
+      "best_energy": 32.34322899322899,
+      "seconds": 33.93897526799992
+    },
+    {
+      "step": 5000,
+      "best_energy": 32.32418137418138,
+      "seconds": 42.44151328300359
+    }
+  ],
+  "seconds": 42.44236178199935,
+  "matches": [
+    {
+      "source": [
+        "ʕgl"
+      ],
+      "target": [
+        "ʕgl"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔmr"
+      ],
+      "target": [
+        "zmr"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ṭbḫ"
+      ],
+      "target": [
+        "ṭbḫ"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "rʔy"
+      ],
+      "target": [
+        "my"
+      ],
+      "cost": 0.5714285714285714
+    },
+    {
+      "source": [
+        "ʔrk"
+      ],
+      "target": [
+        "ʔarw"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "ʔmt"
+      ],
+      "target": [
+        "ʔamt"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʔḳnʔ"
+      ],
+      "target": [
+        "iḳnu"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "klb"
+      ],
+      "target": [
+        "klb"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔdr"
+      ],
+      "target": [
+        "ʔdr"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "hzy"
+      ],
+      "target": [
+        "mɣy"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "bʔ"
+      ],
+      "target": [
+        "baʔ"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "dlt"
+      ],
+      "target": [
+        "dm-t"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "ḥlb"
+      ],
+      "target": [
+        "ḥsn"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "ʔrw"
+      ],
+      "target": [
+        "yrḫ"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "gdʔ"
+      ],
+      "target": [
+        "gdy"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "br"
+      ],
+      "target": [
+        "bz"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ʕrt"
+      ],
+      "target": [
+        "ḥrt_"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "ʕz"
+      ],
+      "target": [
+        "ʕz"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ʔrṣ"
+      ],
+      "target": [
+        "mrṣ"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "šʔr"
+      ],
+      "target": [
+        "šiʔr"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "šlm"
+      ],
+      "target": [
+        "šlm"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "khn"
+      ],
+      "target": [
+        "khn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "dbr"
+      ],
+      "target": [
+        "ḥdt_"
+      ],
+      "cost": 0.6
+    },
+    {
+      "source": [
+        "sp"
+      ],
+      "target": [
+        "p"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "pr"
+      ],
+      "target": [
+        "pr"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "špṭ"
+      ],
+      "target": [
+        "spṭ"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "lb"
+      ],
+      "target": [
+        "lb"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "bḳr"
+      ],
+      "target": [
+        "bšr"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "kbkb"
+      ],
+      "target": [
+        "kbkb"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʕṣm"
+      ],
+      "target": [
+        "ḳṣm"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ʔyl"
+      ],
+      "target": [
+        "ʔayl"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ṣʕr"
+      ],
+      "target": [
+        "ṣɣr"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "bʕl"
+      ],
+      "target": [
+        "bʕl"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔḥd"
+      ],
+      "target": [
+        "ʔaḥd",
+        "ʔaḥādu"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "yṣlt"
+      ],
+      "target": [
+        "ṣlʕ"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "šnm"
+      ],
+      "target": [
+        "lšn"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "ḥṣr"
+      ],
+      "target": [
+        "ḥẓr"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʔry"
+      ],
+      "target": [
+        "ʔarṣ"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "kmr"
+      ],
+      "target": [
+        "ḥmr"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ḳrn"
+      ],
+      "target": [
+        "ḳrn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ybl"
+      ],
+      "target": [
+        "h_lb"
+      ],
+      "cost": 0.6
+    },
+    {
+      "source": [
+        "gbr"
+      ],
+      "target": [
+        "gngn",
+        "ggn",
+        "gngnt"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "yšb"
+      ],
+      "target": [
+        "yt_b",
+        "ʔat_ib"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "pʕm"
+      ],
+      "target": [
+        "pʕn"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "npš"
+      ],
+      "target": [
+        "npš"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "swt"
+      ],
+      "target": [
+        "ʔaḫ",
+        "ʔiḫ",
+        "ʔuḫ",
+        "aḫt"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔnḥn"
+      ],
+      "target": [
+        "nḥn"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "bʔr"
+      ],
+      "target": [
+        "ṣʔin"
+      ],
+      "cost": 0.6
+    },
+    {
+      "source": [
+        "bny"
+      ],
+      "target": [
+        "bny",
+        "bnw"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "šrš"
+      ],
+      "target": [
+        "šrš"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔmr"
+      ],
+      "target": [
+        "ʔimr"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʔḥ",
+        "ʔḥt"
+      ],
+      "target": [
+        "ʔat_t"
+      ],
+      "cost": 0.5454545454545454
+    },
+    {
+      "source": [
+        "gbl"
+      ],
+      "target": [
+        "gbl"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ll"
+      ],
+      "target": [
+        "ll"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ṣpr"
+      ],
+      "target": [
+        "ṣpr"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "gr"
+      ],
+      "target": [
+        "gʕt"
+      ],
+      "cost": 0.5714285714285714
+    },
+    {
+      "source": [
+        "zrʕ"
+      ],
+      "target": [
+        "ɣr"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "sḥb"
+      ],
+      "target": [
+        "ʔapʕ"
+      ],
+      "cost": 0.6
+    },
+    {
+      "source": [
+        "p-y"
+      ],
+      "target": [
+        "t_n"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "drk"
+      ],
+      "target": [
+        "d_rʕ"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "ṣbʔ"
+      ],
+      "target": [
+        "ṣbʔ"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "š"
+      ],
+      "target": [
+        "š"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "lasoun"
+      ],
+      "target": [
+        "lḥ-m"
+      ],
+      "cost": 0.5714285714285714
+    },
+    {
+      "source": [
+        "nʕm"
+      ],
+      "target": [
+        "nʕm"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "mhyr"
+      ],
+      "target": [
+        "mhr"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʕrb"
+      ],
+      "target": [
+        "ʕrb"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔd"
+      ],
+      "target": [
+        "ṣd"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "nṣr"
+      ],
+      "target": [
+        "nẓr"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʕpt"
+      ],
+      "target": [
+        "ʕp"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "dl"
+      ],
+      "target": [
+        "dl"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "pḥm"
+      ],
+      "target": [
+        "pḥm"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "brḥ"
+      ],
+      "target": [
+        "brḥ"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ydʕ"
+      ],
+      "target": [
+        "ydʕ"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "bn"
+      ],
+      "target": [
+        "bn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ḳṣrt"
+      ],
+      "target": [
+        "ḳṣ"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "ʔdm"
+      ],
+      "target": [
+        "adm"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "šmn"
+      ],
+      "target": [
+        "šmn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔlp"
+      ],
+      "target": [
+        "ʔalp"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "yrḥ"
+      ],
+      "target": [
+        "mnḥ"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "šm"
+      ],
+      "target": [
+        "šm"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ṣunu"
+      ],
+      "target": [
+        "ssw"
+      ],
+      "cost": 0.6
+    },
+    {
+      "source": [
+        "yd"
+      ],
+      "target": [
+        "yd"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "pʕl"
+      ],
+      "target": [
+        "pd"
+      ],
+      "cost": 0.5714285714285714
+    },
+    {
+      "source": [
+        "ʕn"
+      ],
+      "target": [
+        "ʕn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "m-ʕšn"
+      ],
+      "target": [
+        "t_ʕlb"
+      ],
+      "cost": 0.46153846153846156
+    },
+    {
+      "source": [
+        "ʔl"
+      ],
+      "target": [
+        "ʔal"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "ʔkl"
+      ],
+      "target": [
+        "ʔakl"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʕdr"
+      ],
+      "target": [
+        "mdd"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "ḥrš"
+      ],
+      "target": [
+        "pri"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "bšy"
+      ],
+      "target": [
+        "iy"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "tbrt"
+      ],
+      "target": [
+        "t_kl"
+      ],
+      "cost": 0.5454545454545454
+    },
+    {
+      "source": [
+        "ḥlb"
+      ],
+      "target": [
+        "ḥlb"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "pn"
+      ],
+      "target": [
+        "pn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "lbn"
+      ],
+      "target": [
+        "lbn",
+        "labanu"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "zrʕ"
+      ],
+      "target": [
+        "drʕ"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ʔt"
+      ],
+      "target": [
+        "ʔat",
+        "ʔattā"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "hlk"
+      ],
+      "target": [
+        "hlk"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ḥdš"
+      ],
+      "target": [
+        "ḥdy"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "dḥy"
+      ],
+      "target": [
+        "dd"
+      ],
+      "cost": 0.5714285714285714
+    },
+    {
+      "source": [
+        "ʔy"
+      ],
+      "target": [
+        "my"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ʔbn"
+      ],
+      "target": [
+        "ʔabn"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʔb"
+      ],
+      "target": [
+        "ʔab"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "dr"
+      ],
+      "target": [
+        "dr"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "zḳn"
+      ],
+      "target": [
+        "dḳn"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ʔmr"
+      ],
+      "target": [
+        "ʔamr"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "škb"
+      ],
+      "target": [
+        "škb"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔšm",
+        "ʔš"
+      ],
+      "target": [
+        "ʔidm"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "mī"
+      ],
+      "target": [
+        "mh"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ʔdt"
+      ],
+      "target": [
+        "ʔdt"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʔšt"
+      ],
+      "target": [
+        "ʔišt"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "šd"
+      ],
+      "target": [
+        "šd"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "nṣ"
+      ],
+      "target": [
+        "nṣ"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ṣrt"
+      ],
+      "target": [
+        "ṣr-t"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "dgn"
+      ],
+      "target": [
+        "dgn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "yʔbd"
+      ],
+      "target": [
+        "ʔbd"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "bn"
+      ],
+      "target": [
+        "bn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "su",
+        "susima"
+      ],
+      "target": [
+        "waʕro"
+      ],
+      "cost": 0.42857142857142855
+    },
+    {
+      "source": [
+        "rʔš"
+      ],
+      "target": [
+        "rʔiš"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "bt",
+        "byt"
+      ],
+      "target": [
+        "bt"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ḳl"
+      ],
+      "target": [
+        "ḳl"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "dume"
+      ],
+      "target": [
+        "dm"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "ʔdmt"
+      ],
+      "target": [
+        "kdnt"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "m"
+      ],
+      "target": [
+        "ym"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "rb"
+      ],
+      "target": [
+        "rb",
+        "rabbu"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "zbḥ"
+      ],
+      "target": [
+        "dbḥ"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "rʕ"
+      ],
+      "target": [
+        "rʕy",
+        "rʕ"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ytn"
+      ],
+      "target": [
+        "ytn"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "mšrt"
+      ],
+      "target": [
+        "šmʔal"
+      ],
+      "cost": 0.6153846153846154
+    },
+    {
+      "source": [
+        "ʔnk"
+      ],
+      "target": [
+        "ʔan",
+        "ʔank"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "ʔs"
+      ],
+      "target": [
+        "ʔad"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "bšr"
+      ],
+      "target": [
+        "bšr"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "tm"
+      ],
+      "target": [
+        "tm"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ʕeri"
+      ],
+      "target": [
+        "ʕẓm"
+      ],
+      "cost": 0.4
+    }
+  ],
+  "name": "benchmark_Phoenician_Ugaritic",
+  "kind": "benchmark",
+  "null": false,
+  "N": 2,
+  "M": 1,
+  "source_types": 135,
+  "target_types": 133,
+  "test_total_types": 0,
+  "test_scored_types": 0,
+  "benchmark_cognate_correct": 82,
+  "benchmark_cognate_total": 105,
+  "benchmark_accuracy": 0.780952380952381
+}

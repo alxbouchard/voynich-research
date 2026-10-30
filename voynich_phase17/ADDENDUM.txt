@@ -1,0 +1,31 @@
+ADDITIONAL DIAGNOSTIC, AFTER THE INITIAL CRIB SCAN
+
+The homophonic, space-free search accepted multiple candidates, including a
+reverse-direction window on f104r.22-23. This prompted a diagnostic against
+shuffled data. This was not part of the initial protocol and is exploratory.
+
+Use ZL, split-comma convention, literal EVA only. Make 32 fixed-seed controls
+by shuffling glyph units independently within the existing clean paragraph
+segments, preserving their lengths and inventories. Re-run the same forward
+and reverse homophonic constraint search. Report counts and ranges only.
+Do not use this post-hoc diagnostic to assign a p-value, identify a language,
+or prove that the manuscript has no meaning. It asks whether mechanically
+compatible windows also occur after destroying the original order.
+
+DISPLAY REPAIR
+Five initially generated contrast PNGs failed strict decoding. They were
+regenerated from the verified native ROI archive using the same parameters,
+then decoded successfully. Image saving now uses an atomic write and an
+immediate strict decode. No truncated-image tolerance is enabled.
+
+EXTENSION CHECK, AFTER INSPECTING THE INITIAL CANDIDATES
+
+The proposed marginal formula is followed by an uncertain short group and
+then the relatively legible Latin-alphabet word maria. For every compatible
+window, test whether maria can occur after a gap of 0 through 8 glyph units
+in the same paragraph segment and direction. Keep the existing mapping
+fixed; previously unmapped cipher units may receive a value only if the
+resulting combined mapping remains deterministic. Gap units are unconstrained.
+This deliberately permissive diagnostic is post-hoc and not an independent
+held-out validation. It concerns a literal copied formula only; translation,
+abbreviation, alternate readings and other cipher families are not tested.

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "status": "Analysis plan frozen before the new quantitative results, after corpus format inspection. Not an external preregistration or an independent blind replication.",
+  "seed": 20261028,
+  "corpora": {
+    "ZL3b-n.txt": {"sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc", "loci": 5385, "page_headers": 227},
+    "IT2a-n.txt": {"sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5", "loci": 5215, "page_headers": 225}
+  },
+  "gate": "No manuscript statistics or semantic tests until both entire published files pass the hash, version, count, unique-locus, metadata and parser checks. data_real means a traceable scholarly transliteration, not ground truth for every medieval mark.",
+  "normalization": "Follow IVTFF 2.0: first alternative reading, discard inline comments and paragraph marks, remove ligature braces, lowercase EVA, split on periods and drawing interruptions. Primary analysis splits uncertain commas; sensitivity analysis joins them. Represent rare or unreadable symbols by '?' and exclude entire affected tokens in clean analyses. Do not join words across lines for character context models. Apply text tags, including changes of hand, from their first line.",
+  "audit": "Recompute the exact submitted Python sample, genuine f1r and full corpora; report counts and zero-order entropy with and without word spaces, within-line conditional entropy, q/y positions, Fibonacci-length frequencies and undefined mappings. No semantic accuracy score without reference translations.",
+  "semantic_operationalizations": [
+    {"symbol": "e", "prediction": "Higher mean per-page proportion in bathing section B than herbal H", "positive_section": "B", "negative_section": "H"},
+    {"symbol": "k", "prediction": "Higher mean per-page proportion in herbal H than bathing B", "positive_section": "H", "negative_section": "B"},
+    {"symbol": "o", "prediction": "Higher mean per-page proportion in astronomical A or zodiac Z than herbal H", "positive_section": ["A", "Z"], "negative_section": "H"}
+  ],
+  "semantic_tests": "Use paragraph loci only, at least 100 clean EVA characters per page. Aggregate per page within section/Currier/hand. Only compare strata having both classes, stratifying by Currier classification and Lisa Fagin Davis hand. Cluster permutations by physical leaf, with multi-panel pages of the same leaf kept together; 1999 permutations. Equal weight per physical leaf, strata weighted by min(group leaf counts). One-sided positive-direction test, Holm correction across the three prespecified claims; unidentifiable claims receive p=1. These frequency implications are additional weak operationalizations, not necessary consequences of a semantic reading.",
+  "structural_models": "Character models with contexts 0, 1, 2 and 3, additive alpha 0.5, fixed lower-case EVA alphabet plus '?' and '^'. Condition only within clean words, reset at word starts; no word-ending token is scored. 5-fold GroupKFold by physical leaf for recto/verso separation; secondary 5-fold split by quire. Evaluate bits per EVA character, not semantic accuracy. Aggregate weighted by character count. No claim that a winner identifies meaning or rejects all cipher or natural-language families.",
+  "null_controls": "Generate per-page word-internal character shuffles preserving word lengths and exact character frequencies. Refit identical models with identical groups. Demonstrate that permutation of semantic labels leaves the entire text likelihood and entropy unchanged.",
+  "positive_control": "If the published Naibbe implementation and its inputs are accessible, verify a reversible cipher control and compare its within-word conditional entropy using the same EVA-letter convention. Label all controls as generated, never as manuscript data.",
+  "limits": "No new word-to-meaning assignments from corpus regularity alone; no claimed translation; no external performance on known decipherments unless actually run. Prior February 2026 runs remain historical claims until their artifacts can be inspected. Failing a toy cipher cannot falsify the family of ciphers. Two transcriptions read the same object and are not independent manuscripts."
+}

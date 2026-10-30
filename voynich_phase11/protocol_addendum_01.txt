@@ -1,0 +1,9 @@
+Correction technique après premier essai canonique, avant résultat complet.
+Le lexique v3 comporte des champs latin_full nuls. Les déplacer vers une entrée
+utilisée provoque AttributeError dans expand_word (appel de .upper()).
+Les paquets sémantiques du test canonique sont désormais permutés dans chaque
+section ET groupe de même schéma : présence et type Python de chacun des
+champs. Cette contrainte garde les valeurs nulles et l'interface valides.
+Elle ne conditionne aucune sélection sur la couverture ou la confiance.
+Le premier essai n'a pas produit de résultat canonique complet.
+Les deux autres essais (Scott et validation ZFD v3) sont inchangés.

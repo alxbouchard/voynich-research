@@ -1,0 +1,464 @@
+[Page 1]
+VOYNICH · PHASE 5 · AUCUNE TRADUCTION VALIDÉE
+1
+VOYNICH · PHASE 5 · 28 OCTOBRE 2026
+Un signe peut-il coder
+plusieurs lettres ?
+Aucune traduction validée. Cette phase autorise une clé à transformer chaque unité du
+manuscrit en une lettre ou un groupe de deux lettres. Elle compare deux inventaires :
+consonne-voyelle (CV), par exemple ta, et voyelle-consonne (VC), par exemple an. Plusieurs
+signes peuvent partager la même sortie.
+Les contrôles fonctionnent, les candidats échouent
+Modèle de contrôle
+Unités exactes*
+Erreurs / unités évaluées
+Latin / CV
+98,848 %
+260 / 22 571
+Latin / VC
+99,859 %
+31 / 21 953
+Italien / CV
+100,000 %
+0 / 95 503
+Italien / VC
+100,000 %
+0 / 92 993
+* Deux clés cachées différentes par ligne du tableau, avec les mêmes résultats. Il s’agit de huit essais sur deux
+textes sources, pas de huit textes indépendants. Une unité exacte peut représenter une ou deux lettres ; ces
+pourcentages ne se comparent donc pas directement aux pourcentages de lettres de la phase 4.
+32 configurations Voynich et 32 témoins mélangés ont ensuite été calculés. Parmi les 32
+clés retenues par le score, 0 respecte entièrement la règle de redécoupage sur les segments
+réservés. Chaque candidat présente donc une contradiction avec le mécanisme précis qu’il est
+censé représenter.
+Les quatre meilleurs scores, sélectionnés après comparaison au sein de chaque inventaire, ont aussi été évalués
+sur la transcription de Takahashi (IT), avec les mêmes clés. Les scores restent proches de ceux obtenus sur ZL ; les
+incohérences de découpage subsistent.
+Cette conclusion porte sur les clés obtenues par cette recherche limitée. Elle ne démontre pas que toute autre clé
+ou tout autre chiffre syllabique est impossible.
+
+
+[Page 2]
+VOYNICH · PHASE 5 · AUCUNE TRADUCTION VALIDÉE
+2
+MÉTHODE
+Quatre inventaires limités
+Chaque inventaire contient les 23 lettres normalisées et neuf groupes de deux lettres. Ces neuf
+groupes sont sélectionnés uniquement dans le corpus servant au modèle de langue. La lettre y
+est ici classée comme consonne par convention. Le texte sans espaces est découpé de gauche à
+droite en privilégiant un groupe disponible, puis une lettre isolée.
+Inventaire
+Neuf groupes retenus
+Latin / CV
+qu · ti · re · te · tu · se · ri · ta · ra
+Latin / VC
+er · um · is · it · in · at · es · us · en
+Italien / CV
+co · di · la · ra · he · to · no · te · ta
+Italien / VC
+er · el · an · on · al · en · es · or · ar
+Ce sont des unités orthographiques expérimentales. Elles ne constituent pas une analyse phonologique : par
+exemple, he est retenu statistiquement dans le modèle italien. Le dictionnaire n’inclut pas toutes les syllabes
+possibles et ne dépasse pas deux lettres. Des chiffres historiques à éléments CV et VC ont été étudiés par Lasry [1]
+; ce travail ne reproduit pas son algorithme.
+Corpus et contrôle à clé cachée
+Le modèle latin utilise César, et le texte chiffré de contrôle Pline. Le modèle italien utilise l’Enfer et le Purgatoire de
+Dante ; le contrôle utilise le Paradis. La copie répétée présente dans la source Dante est supprimée avant ces
+séparations. Les deux textes italiens restent du même auteur.
+Pour chaque contrôle, 48 signes chiffrés sont affectés aléatoirement aux unités claires. Le solveur ignore cette clé.
+Il utilise les 24 000 premières unités pour l’ajustement, puis la suite pour l’évaluation. Le seuil prévu était de 95 %
+d’unités exactes pour chacune des deux clés de chaque inventaire. Aucun paramètre n’a été modifié après
+observation des résultats.
+La recherche sur le manuscrit
+Deux langues × deux inventaires CV/VC × Currier A/B × unités EVA/composées × sens direct/inverse donnent 32
+cas. Une clé distincte est ajustée pour chaque cas. Une feuille physique sur cinq, dans l’ordre trié des identifiants,
+est réservée ; la clé ne voit pas ses lignes pendant l’ajustement. Les anciens travaux ont néanmoins déjà utilisé ce
+corpus.
+Chaque recherche emploie huit départs et 60 000 propositions par départ, puis une amélioration locale. Le score
+combine les fréquences de groupes de quatre unités et une pénalité sur les fréquences des unités. Les variantes
+explicites, signes illisibles ou rares et interruptions coupent les séquences. Les virgules incertaines restent des
+frontières avant la construction des unités composées.
+
+
+[Page 3]
+VOYNICH · PHASE 5 · AUCUNE TRADUCTION VALIDÉE
+3
+RÉSULTATS · LATIN
+Les 16 essais latins
+Évaluation sur les segments réservés. Le score non pénalisé est exprimé en bits par fenêtre de quatre unités, et
+non par lettre. Plus bas signifie plus conforme au modèle local. Comparer les chiffres uniquement à l’intérieur d’un
+même inventaire ; ils ne sont pas directement comparables à ceux de la phase 4.
+Groupe / unités
+Type
+Sens
+Score
+Mélangé
+2 lettres*
+Conformes*
+A / EVA
+CV
+direct
+15,703
+21,046
+0,2 %
+98,5 %
+A / EVA
+CV
+inverse
+16,029
+20,636
+0,6 %
+93,8 %
+A / composées
+CV
+direct
+16,675
+21,159
+4,5 %
+94,2 %
+A / composées
+CV
+inverse
+17,293
+21,605
+2,9 %
+89,0 %
+B / EVA
+CV
+direct
+16,457
+21,153
+0,3 %
+85,1 %
+B / EVA
+CV
+inverse
+15,576
+21,215
+0,2 %
+83,3 %
+B / composées
+CV
+direct
+17,059
+20,859
+1,7 %
+79,9 %
+B / composées
+CV
+inverse
+16,130
+20,940
+2,0 %
+97,0 %
+A / EVA
+VC
+direct
+16,799
+22,248
+6,9 %
+98,3 %
+A / EVA
+VC
+inverse
+17,514
+22,330
+1,4 %
+92,7 %
+A / composées
+VC
+direct
+17,891
+22,288
+2,2 %
+88,0 %
+A / composées
+VC
+inverse
+19,118
+22,179
+4,1 %
+73,5 %
+B / EVA
+VC
+direct
+18,036
+22,387
+1,1 %
+44,0 %
+B / EVA
+VC
+inverse
+17,429
+22,379
+0,9 %
+79,5 %
+B / composées
+VC
+direct
+17,634
+22,222
+1,4 %
+74,4 %
+B / composées
+VC
+inverse
+17,362
+22,156
+2,5 %
+73,1 %
+* « 2 lettres » : part des unités décodées en un groupe de deux lettres. « Conformes » : part des segments dont le
+texte décodé redonne exactement les mêmes unités après application de la règle de découpage. Ce dernier taux
+n’est pas une exactitude de traduction ; il dépend aussi de la longueur des segments.
+Le témoin mélangé conserve exactement les signes et les longueurs de chaque segment, mais change leur ordre.
+Un seul mélange est réalisé par configuration, avec le même budget de recherche. Tous les candidats battent leur
+témoin sur le score local ; cela ne leur donne ni une syntaxe ni un sens vérifiés.
+
+
+[Page 4]
+VOYNICH · PHASE 5 · AUCUNE TRADUCTION VALIDÉE
+4
+RÉSULTATS · ITALIEN
+Les 16 essais italiens
+Évaluation sur les segments réservés. Le score non pénalisé est exprimé en bits par fenêtre de quatre unités, et
+non par lettre. Plus bas signifie plus conforme au modèle local. Comparer les chiffres uniquement à l’intérieur d’un
+même inventaire ; ils ne sont pas directement comparables à ceux de la phase 4.
+Groupe / unités
+Type
+Sens
+Score
+Mélangé
+2 lettres*
+Conformes*
+A / EVA
+CV
+direct
+16,119
+20,577
+0,5 %
+96,3 %
+A / EVA
+CV
+inverse
+15,887
+20,526
+0,0 %
+94,6 %
+A / composées
+CV
+direct
+16,451
+20,154
+0,7 %
+97,0 %
+A / composées
+CV
+inverse
+16,454
+20,640
+1,8 %
+95,6 %
+B / EVA
+CV
+direct
+15,672
+20,332
+0,0 %
+66,6 %
+B / EVA
+CV
+inverse
+16,327
+20,415
+0,0 %
+60,4 %
+B / composées
+CV
+direct
+16,403
+20,441
+0,8 %
+68,5 %
+B / composées
+CV
+inverse
+16,280
+20,513
+0,3 %
+70,5 %
+A / EVA
+VC
+direct
+15,988
+21,017
+0,1 %
+97,5 %
+A / EVA
+VC
+inverse
+15,857
+21,370
+0,2 %
+90,9 %
+A / composées
+VC
+direct
+16,608
+21,358
+1,0 %
+89,2 %
+A / composées
+VC
+inverse
+16,736
+21,570
+1,8 %
+91,4 %
+B / EVA
+VC
+direct
+16,399
+20,916
+0,0 %
+68,6 %
+B / EVA
+VC
+inverse
+15,937
+21,072
+0,2 %
+88,5 %
+B / composées
+VC
+direct
+16,353
+21,110
+0,4 %
+95,1 %
+B / composées
+VC
+inverse
+16,420
+20,931
+1,0 %
+90,1 %
+* « 2 lettres » : part des unités décodées en un groupe de deux lettres. « Conformes » : part des segments dont le
+texte décodé redonne exactement les mêmes unités après application de la règle de découpage. Ce dernier taux
+n’est pas une exactitude de traduction ; il dépend aussi de la longueur des segments.
+Le témoin mélangé conserve exactement les signes et les longueurs de chaque segment, mais change leur ordre.
+Un seul mélange est réalisé par configuration, avec le même budget de recherche. Tous les candidats battent leur
+témoin sur le score local ; cela ne leur donne ni une syntaxe ni un sens vérifiés.
+
+
+[Page 5]
+VOYNICH · PHASE 5 · AUCUNE TRADUCTION VALIDÉE
+5
+DIAGNOSTIC
+Pourquoi ces clés
+ne sont pas acceptables
+Si ta appartient à l’inventaire CV, la règle donne priorité à ta. Une clé qui produit deux unités
+successives t puis a se contredit : en redécoupant le texte obtenu, ces deux unités deviennent
+ta. Une suite peut donc sembler plausible au modèle statistique tout en violant le chiffrement
+supposé.
+Meilleur score par inventaire*
+Unités à 2 lettres
+Segments
+conformes
+Jonctions interdites
+Latin / CV
+0,24 %
+83,31 %
+128
+Latin / VC
+6,86 %
+98,26 %
+9
+Italien / CV
+0,00 %
+66,62 %
+306
+Italien / VC
+0,21 %
+90,93 %
+51
+* Meilleur score réservé, non pénalisé, choisi après comparaison des huit cas de l’inventaire. Les jonctions
+interdites sont des erreurs de cohérence avec la règle choisie, pas des preuves d’une langue ou d’un sens. La
+cohérence a été vérifiée de deux façons : redécoupage complet et détection des jonctions de lettres qui auraient
+dû fusionner.
+Les clés utilisent peu la possibilité syllabique
+Sur les 32 sorties, les unités à deux lettres représentent de 0,00 % à 6,86 %. Le candidat italien
+CV au meilleur score n’utilise aucun groupe de deux lettres. Autoriser des syllabes ne suffit donc
+pas à obtenir une solution syllabique pertinente.
+Latin / CV : extrait automatique, aucune traduction
+occumamnequsamineliamnsciquinamsiquaamindeamnedines
+rumsulisulisulinsumsisiliamsusinamsusiasinesusinaminela
+Italien / CV : extrait automatique, aucune traduction
+mpredorsiodrasiifassicafalnrsiavoresisforsiselli
+ivoresicanemorenianessicanessiavamassemcavemavemavemseg
+Le contrôle de cohérence intervient ici après l’optimisation ; il n’est pas une contrainte dure du solveur. Cette limite
+explique pourquoi celui-ci peut proposer des clés incompatibles avec la règle. L’intégrer directement à la recherche
+constitue une amélioration méthodologique prioritaire, qui reste à tester.
+
+
+[Page 6]
+VOYNICH · PHASE 5 · AUCUNE TRADUCTION VALIDÉE
+6
+TRANSCRIPTIONS ET LIMITES
+Vérifier sans changer la clé
+Diagnostic complémentaire après comparaison des variantes : les quatre clés retenues sont
+appliquées telles quelles aux passages correspondants d’IT2a. Les métadonnées ZL définissent
+les groupes et les feuilles réservées. Aucune réoptimisation n’est effectuée.
+Inventaire
+Loci
+communs
+Séquences
+égales*
+Score ZL
+Score IT
+Conformes IT
+Latin / CV
+560
+321
+15,576
+15,608
+81,6 %
+Latin / VC
+340
+179
+16,799
+16,761
+98,2 %
+Italien / CV
+560
+321
+15,672
+15,712
+62,5 %
+Italien / VC
+340
+179
+15,857
+15,898
+89,6 %
+* Égalité après encodage, pouvant inclure des coupures pour signes inconnus. Les mêmes 340 ou 560 loci sont
+réutilisés pour deux modèles. Les transcriptions peuvent modifier les longueurs et les fenêtres évaluées ; les écarts
+sont descriptifs. ZL et IT ne constituent pas deux expertises totalement indépendantes. Aucun nouveau glyphe n’a
+été certifié sur photographie pendant cette phase.
+Ce qui demeure inconnu
+La langue, les valeurs des signes et le mécanisme du manuscrit restent inconnus. Les correspondances okcheor,
+otcheody et otald du pilote précédent gardent un sens inconnu. Leur répétition ne fournit pas du texte clair connu.
+Le cas okols reste dépendant d’un espace incertain.
+Cette expérience ne couvre pas les unités de trois lettres ou plus, tous les inventaires CV/VC, les décompositions
+non systématiques, les signes nuls, les changements de clé, ni toutes les langues médiévales. Elle ne réfute pas la
+famille des chiffres syllabiques.
+Sources et dossier reproductible
+[1] George Lasry, Deciphering Historical Syllabic Ciphers, HistoCrypt 2024, doi:10.58009/aere-perennius0106.
+Référence de contexte, pas une réplication.
+[2] René Zandbergen / Gabriel Landini, ZL3b ; Takeshi Takahashi et extraction Landini-Stolfi, IT2a ; transcriptions et
+format IVTFF. Sources et crédits conservés.
+[3] Perseus Digital Library, César, De Bello Gallico : XML et texte normalisé sous CC BY-SA 4.0.
+[4] Corpus Pline et Dante fournis par Michael A. Greshko ; licence conservée. Citation requise : The Naibbe cipher,
+2025, doi:10.1080/01611194.2025.2566408. Les tables Naibbe ne sont pas utilisées ici.
+L’archive contient le protocole, les dictionnaires, les graines, les entrées, les clés, les sorties non traduites, les
+programmes, les sources et un manifeste SHA-256. Les 72 objectifs C++ ont été recalculés en Python, ainsi que les
+exactitudes, les mélanges et les diagnostics de découpage.

@@ -1,0 +1,9494 @@
+{
+  "code": "ZL",
+  "condition": "strict",
+  "n_rules": 561,
+  "labels": 198,
+  "leaves": [
+    "f88",
+    "f89",
+    "f99",
+    "f100",
+    "f101",
+    "f102"
+  ],
+  "panel_counts": [
+    2,
+    4,
+    2,
+    2,
+    2,
+    4
+  ],
+  "n_prose_forms": [
+    153,
+    309,
+    178,
+    116,
+    197,
+    260
+  ],
+  "observed": {
+    "score": 0.013483671060397412,
+    "identity_score": 0.018054462587710665,
+    "gain": -0.004570791527313253,
+    "own_fraction": 0.10506904824360068,
+    "background_fraction": 0.09158537718320327,
+    "folds": [
+      {
+        "held_out": "f88",
+        "target_leaf": "f88",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 24,
+        "own_hits": 2,
+        "background_mean_fraction": 0.05833333333333333,
+        "unseen_label_count": 20,
+        "unseen_hits": 1,
+        "matches": [
+          {
+            "label_locus": "f88r.15",
+            "raw": "okol",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okol",
+                "prose_surface": "okol",
+                "occurrences": [
+                  {
+                    "locus": "f88r.19",
+                    "surface": "okol",
+                    "n_words": 1,
+                    "chunk_start": 6,
+                    "chunk_end": 6,
+                    "raw_line": "dchey.chokol.daiin.qoekol.qoekol.qockhol.okol.cheol"
+                  },
+                  {
+                    "locus": "f88v.17",
+                    "surface": "okol",
+                    "n_words": 1,
+                    "chunk_start": 5,
+                    "chunk_end": 5,
+                    "raw_line": "qokeey.qokeody.chor.oteody.qockhol.okol.cheedy.qokody"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f88v.14",
+            "raw": "okaiin",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okaiin",
+                "prose_surface": "okaiin",
+                "occurrences": [
+                  {
+                    "locus": "f88r.22",
+                    "surface": "okaiin",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "ychey.okaiin.chol.cheor.ol.chorcholsal<$>"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "f89",
+        "target_leaf": "f89",
+        "rules": [
+          "identity",
+          "S:dy>∅"
+        ],
+        "training_gains": [
+          0.013324849170437409
+        ],
+        "n_labels": 46,
+        "own_hits": 4,
+        "background_mean_fraction": 0.06521739130434782,
+        "unseen_label_count": 44,
+        "unseen_hits": 3,
+        "matches": [
+          {
+            "label_locus": "f89r1.4",
+            "raw": "otoldy",
+            "matches": [
+              {
+                "rule": "S:dy>∅",
+                "label_surface": "otoldy",
+                "prose_surface": "otol",
+                "occurrences": [
+                  {
+                    "locus": "f89r2.12",
+                    "surface": "otol",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "<%>porachol.[y:q]ody.qoteol.oldaiin.otol.sheor.shor.oldaiin.otchol.cheol.<!gap>otolpchy.dar,cho.lkeopol.oeeor.or"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f89r2.5",
+            "raw": "opcheor",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "opcheor",
+                "prose_surface": "opcheor",
+                "occurrences": [
+                  {
+                    "locus": "f89r2.22",
+                    "surface": "opcheor",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "<%>kolches.sheol.qokeoefy.sheey.opcheor.opcheol.shody.sholdy.<!gap>qokal.chey.oldy.sheodal.ytoldy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f89r2.19",
+            "raw": "cheody",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "cheody",
+                "prose_surface": "cheody",
+                "occurrences": [
+                  {
+                    "locus": "f89r1.8",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "qokeol.chol.qodaiin.chol.cheody.qokechy.daiin.ctheody.dam"
+                  },
+                  {
+                    "locus": "f89r1.10",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "tdain.s<->chol.cheoky.cheody.qokar.dal.chor.{ckhh}y.daiin<$>"
+                  },
+                  {
+                    "locus": "f89r1.18",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "dals,al.dal.cheody.dainaldy.al,daldal<$>"
+                  },
+                  {
+                    "locus": "f89r1.20",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "daim.cheom.qoa{ith}y.air.cheody.ldain.dal.chom.chtaii@197;"
+                  },
+                  {
+                    "locus": "f89r1.23",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "dain.oteos.cheody.cheodain.daiin.chodaiin<$>"
+                  },
+                  {
+                    "locus": "f89r2.8",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 11,
+                    "chunk_end": 11,
+                    "raw_line": "tol.daiin.daiin.daiinody.qokeey.cheoldy.qody.cheor.sain.daiin.oky.cheody.cheoky<$>"
+                  },
+                  {
+                    "locus": "f89v1.13",
+                    "surface": "cheody",
+                    "n_words": 1,
+                    "chunk_start": 7,
+                    "chunk_end": 7,
+                    "raw_line": "<%>tosheo.fcheody.shekey.or,shos.oiir.cphey.qokeody.cheody.daldy"
+                  }
+                ]
+              },
+              {
+                "rule": "S:dy>∅",
+                "label_surface": "cheody",
+                "prose_surface": "cheo",
+                "occurrences": [
+                  {
+                    "locus": "f89r2.6",
+                    "surface": "cheo",
+                    "n_words": 1,
+                    "chunk_start": 6,
+                    "chunk_end": 6,
+                    "raw_line": "<%>qokcheody.cheodal.dair.cholkeedy.qokedy.cheal.cheo.dal.qoaii[s:r].shey.cpheeedol.deey.qockhey.chaldy.daim"
+                  },
+                  {
+                    "locus": "f89r2.23",
+                    "surface": "cheo",
+                    "n_words": 1,
+                    "chunk_start": 12,
+                    "chunk_end": 12,
+                    "raw_line": "daiin.cheok,o,keol,daiin.dal.dair.qokeey.okeol.daiin.ykeody.<!gap>okeeey.as.cheey.okeol.cheo.cheky"
+                  },
+                  {
+                    "locus": "f89r2.25",
+                    "surface": "cheo",
+                    "n_words": 1,
+                    "chunk_start": 13,
+                    "chunk_end": 13,
+                    "raw_line": "daiin.dal.sheol.s.aiin.qocheey.daiiin.qokeeyl.qokeody.chol,cheol.<!gap>ykeo.qo.qol.cheo.loiiin.doigom"
+                  },
+                  {
+                    "locus": "f89v2.10",
+                    "surface": "cheo",
+                    "n_words": 1,
+                    "chunk_start": 5,
+                    "chunk_end": 5,
+                    "raw_line": "dair.or.cheol.chom.qol.cheo.lcho.l.or.cheo,daiin.chkam<$>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f89v2.5",
+            "raw": "sheol",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "sheol",
+                "prose_surface": "sheol",
+                "occurrences": [
+                  {
+                    "locus": "f89r1.15",
+                    "surface": "sheol",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "<%>tcheol.qoeair.sheol.qocphey.saiin.cheocphey.dal,darolg"
+                  },
+                  {
+                    "locus": "f89r1.22",
+                    "surface": "sheol",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "ycheeo,r.sheol.qockhedy.yty.sheody.qotol.chead,chey.dal"
+                  },
+                  {
+                    "locus": "f89r2.22",
+                    "surface": "sheol",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "<%>kolches.sheol.qokeoefy.sheey.opcheor.opcheol.shody.sholdy.<!gap>qokal.chey.oldy.sheodal.ytoldy"
+                  },
+                  {
+                    "locus": "f89r2.25",
+                    "surface": "sheol",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "daiin.dal.sheol.s.aiin.qocheey.daiiin.qokeeyl.qokeody.chol,cheol.<!gap>ykeo.qo.qol.cheo.loiiin.doigom"
+                  },
+                  {
+                    "locus": "f89v2.7",
+                    "surface": "sheol",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "<%>kosar.sheol.s,aiin.koiin.chtodaiin.pdiin.choty.qofoiin.dy.qopdal.doiir.ofaiin.ol,cfheol,dam"
+                  },
+                  {
+                    "locus": "f89v1.18",
+                    "surface": "sheol",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "qokol.sheol.qokol.dal.chol,dam.qoeey.saiin.ols.chokaiin"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "f99",
+        "target_leaf": "f99",
+        "rules": [
+          "identity",
+          "P:ol>∅"
+        ],
+        "training_gains": [
+          0.010873049052396881
+        ],
+        "n_labels": 52,
+        "own_hits": 5,
+        "background_mean_fraction": 0.11153846153846153,
+        "unseen_label_count": 48,
+        "unseen_hits": 5,
+        "matches": [
+          {
+            "label_locus": "f99r.8",
+            "raw": "<!73>okor",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okor",
+                "prose_surface": "okor",
+                "occurrences": [
+                  {
+                    "locus": "f99r.51",
+                    "surface": "okor",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "yshaiin.{ykh}ey.octhey.dy,daiin.okor.okeey.sh{cty}sh"
+                  },
+                  {
+                    "locus": "f99v.21",
+                    "surface": "okor",
+                    "n_words": 1,
+                    "chunk_start": 3,
+                    "chunk_end": 3,
+                    "raw_line": "<%>doror.okeeody.opar.okor.eosaiin.otoraiin.shey.ols,aiiin.qoetal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f99r.25",
+            "raw": "<!85a>okeoly",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okeoly",
+                "prose_surface": "okeoly",
+                "occurrences": [
+                  {
+                    "locus": "f99r.18",
+                    "surface": "okeoly",
+                    "n_words": 1,
+                    "chunk_start": 7,
+                    "chunk_end": 7,
+                    "raw_line": "qokeor.chol.ykol.cheey.chody.ckhol.daiin.okeoly.daiin.ckhy<$>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f99r.35",
+            "raw": "<!88>dar",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "dar",
+                "prose_surface": "dar",
+                "occurrences": [
+                  {
+                    "locus": "f99r.28",
+                    "surface": "dar",
+                    "n_words": 1,
+                    "chunk_start": 3,
+                    "chunk_end": 3,
+                    "raw_line": "<%>kodaiin.opchey.qoky.dar.otchor.opsho.okeol.sheol.oteoefol"
+                  },
+                  {
+                    "locus": "f99v.39",
+                    "surface": "dar",
+                    "n_words": 1,
+                    "chunk_start": 0,
+                    "chunk_end": 0,
+                    "raw_line": "dar.shol.okchey.ckhey.qokololal<->okeol"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f99v.4",
+            "raw": "<!97>oldy",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "oldy",
+                "prose_surface": "oldy",
+                "occurrences": [
+                  {
+                    "locus": "f99r.43",
+                    "surface": "oldy",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "daiin.cheeokeey.checkhey.dor.oldy.sheey.keody.okeeey.s.aiin.ols"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f99v.31",
+            "raw": "<!113>doldam",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "doldam",
+                "prose_surface": "doldam",
+                "occurrences": [
+                  {
+                    "locus": "f99v.34",
+                    "surface": "doldam",
+                    "n_words": 1,
+                    "chunk_start": 9,
+                    "chunk_end": 9,
+                    "raw_line": "yoiin,ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.doldam"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "f100",
+        "target_leaf": "f100",
+        "rules": [
+          "identity",
+          "P:ol>∅"
+        ],
+        "training_gains": [
+          0.012635869565217391
+        ],
+        "n_labels": 26,
+        "own_hits": 0,
+        "background_mean_fraction": 0.07692307692307693,
+        "unseen_label_count": 26,
+        "unseen_hits": 0,
+        "matches": []
+      },
+      {
+        "held_out": "f101",
+        "target_leaf": "f101",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 16,
+        "own_hits": 3,
+        "background_mean_fraction": 0.1375,
+        "unseen_label_count": 14,
+        "unseen_hits": 2,
+        "matches": [
+          {
+            "label_locus": "f101v.3",
+            "raw": "otol",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "otol",
+                "prose_surface": "otol",
+                "occurrences": [
+                  {
+                    "locus": "f101r.3",
+                    "surface": "otol",
+                    "n_words": 1,
+                    "chunk_start": 17,
+                    "chunk_end": 17,
+                    "raw_line": "<%>@183;ol{c@133;h}eol.okeor.r.sheol.qokol.shey.dol.shey.okeey.ctheey.yteeoldy.kchol.ol,sheody.or.ol.sheor.qotoiir.otol.sheey.s,sheo.tchey.ol,dar.am"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f101v.10",
+            "raw": "okol",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okol",
+                "prose_surface": "okol",
+                "occurrences": [
+                  {
+                    "locus": "f101r.5",
+                    "surface": "okol",
+                    "n_words": 1,
+                    "chunk_start": 8,
+                    "chunk_end": 8,
+                    "raw_line": "daiin.ctheol.cheol.okor.or.aiin.cheol.cho,keeodchey.okol.okeol.dor.chol.ch[y:a].r.aiin.oteol.or,aiin.ol,chey.oteeod.sheol.okeol.chosaiin.sheam"
+                  },
+                  {
+                    "locus": "f101r.8",
+                    "surface": "okol",
+                    "n_words": 1,
+                    "chunk_start": 21,
+                    "chunk_end": 21,
+                    "raw_line": "olaiin.oteol.chor.oteey.chokchey.kor,daiin.shok.chol.chol.qoky.daiin.ol.s.al.ydar.daiin,or.ory.okeey.daiin.shey.daiin.okol.cheor"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f101v.17",
+            "raw": "odor",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "odor",
+                "prose_surface": "odor",
+                "occurrences": [
+                  {
+                    "locus": "f101r.10",
+                    "surface": "odor",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "ysho.qykeeol.chol.sho.odor.dor.chees.ykeol.chol.dol.kor.a{ith}y.ol.chso.sha.olcheeol.kolshey.okeoly.oiin.aiioly<$>"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "f102",
+        "target_leaf": "f102",
+        "rules": [
+          "identity",
+          "P:ol>∅"
+        ],
+        "training_gains": [
+          0.012074972129319957
+        ],
+        "n_labels": 34,
+        "own_hits": 6,
+        "background_mean_fraction": 0.09999999999999999,
+        "unseen_label_count": 32,
+        "unseen_hits": 5,
+        "matches": [
+          {
+            "label_locus": "f102v2.4",
+            "raw": "<!215>chor",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "chor",
+                "prose_surface": "chor",
+                "occurrences": [
+                  {
+                    "locus": "f102v1.14",
+                    "surface": "chor",
+                    "n_words": 1,
+                    "chunk_start": 0,
+                    "chunk_end": 0,
+                    "raw_line": "chor.cheor.ckhey.oteol.a{ikh}eky<$>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f102v2.7",
+            "raw": "<!218>okol",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okol",
+                "prose_surface": "okol",
+                "occurrences": [
+                  {
+                    "locus": "f102r1.14",
+                    "surface": "okol",
+                    "n_words": 1,
+                    "chunk_start": 6,
+                    "chunk_end": 6,
+                    "raw_line": "doeey.keeol.qokeo.daor.shey.qoteol.okol.chos.s.or.oeeaiin"
+                  },
+                  {
+                    "locus": "f102r2.4",
+                    "surface": "okol",
+                    "n_words": 1,
+                    "chunk_start": 3,
+                    "chunk_end": 3,
+                    "raw_line": "daiin.ckheeol.oldor.okol.cheodor.sor.airam"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f102v2.10",
+            "raw": "<!221>okody",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okody",
+                "prose_surface": "okody",
+                "occurrences": [
+                  {
+                    "locus": "f102r2.6",
+                    "surface": "okody",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "daiin.okody.qokeody.okeol.dor.chckhy.oteod.s,orsy<$>"
+                  },
+                  {
+                    "locus": "f102v1.21",
+                    "surface": "okody",
+                    "n_words": 1,
+                    "chunk_start": 4,
+                    "chunk_end": 4,
+                    "raw_line": "qoeeody.ychey.okeody.deody.okody.cheodaiin.cheody.[r:s]am"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f102v2.11",
+            "raw": "<!222>cheor",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "cheor",
+                "prose_surface": "cheor",
+                "occurrences": [
+                  {
+                    "locus": "f102v2.32",
+                    "surface": "cheor",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "dar.cheor.shoar.okeol.shoy.s.ar.oky.cheeor.ol.daiin.sy"
+                  },
+                  {
+                    "locus": "f102v2.33",
+                    "surface": "cheor",
+                    "n_words": 1,
+                    "chunk_start": 3,
+                    "chunk_end": 3,
+                    "raw_line": "qokeor.sho.?keeeos.cheor.o,s,al.chos,aiiin.o,ky.okaraiin"
+                  },
+                  {
+                    "locus": "f102v2.39",
+                    "surface": "cheor",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "yotaiin.cheor.cheekey.orain<$>"
+                  },
+                  {
+                    "locus": "f102v1.8",
+                    "surface": "cheor",
+                    "n_words": 1,
+                    "chunk_start": 6,
+                    "chunk_end": 6,
+                    "raw_line": "dairn.ol.chey.[cth:ckh]eol.qokeor.os,aiin.cheor.qokey.choky"
+                  },
+                  {
+                    "locus": "f102v1.12",
+                    "surface": "cheor",
+                    "n_words": 1,
+                    "chunk_start": 5,
+                    "chunk_end": 5,
+                    "raw_line": "y,cheol.cheol.doiir.shekcheor.s,ar.cheor.{@246;kh}ey.pchodaiin"
+                  },
+                  {
+                    "locus": "f102v1.14",
+                    "surface": "cheor",
+                    "n_words": 1,
+                    "chunk_start": 1,
+                    "chunk_end": 1,
+                    "raw_line": "chor.cheor.ckhey.oteol.a{ikh}eky<$>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f102v1.2",
+            "raw": "<!234b>okeody",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okeody",
+                "prose_surface": "okeody",
+                "occurrences": [
+                  {
+                    "locus": "f102r1.11",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 3,
+                    "chunk_end": 3,
+                    "raw_line": "dcheo.qockhy.sol,sheey.okeody.qokeodol.shockhey.oleeol<$>"
+                  },
+                  {
+                    "locus": "f102r2.9",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "dor.oiin.okeody.qokeol.sheoy.qo[o:d]chey.ckheol.sheey.skeekyd"
+                  },
+                  {
+                    "locus": "f102v2.22",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 10,
+                    "chunk_end": 10,
+                    "raw_line": "dain.or.aiin.cheol.s,oiir.chol.sheey.qockhy.ol.keo,r.okeody.okeor.cho?"
+                  },
+                  {
+                    "locus": "f102v1.21",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "qoeeody.ychey.okeody.deody.okody.cheodaiin.cheody.[r:s]am"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "f102v1.3",
+            "raw": "<!235>okeody",
+            "matches": [
+              {
+                "rule": "identity",
+                "label_surface": "okeody",
+                "prose_surface": "okeody",
+                "occurrences": [
+                  {
+                    "locus": "f102r1.11",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 3,
+                    "chunk_end": 3,
+                    "raw_line": "dcheo.qockhy.sol,sheey.okeody.qokeodol.shockhey.oleeol<$>"
+                  },
+                  {
+                    "locus": "f102r2.9",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "dor.oiin.okeody.qokeol.sheoy.qo[o:d]chey.ckheol.sheey.skeekyd"
+                  },
+                  {
+                    "locus": "f102v2.22",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 10,
+                    "chunk_end": 10,
+                    "raw_line": "dain.or.aiin.cheol.s,oiir.chol.sheey.qockhy.ol.keo,r.okeody.okeor.cho?"
+                  },
+                  {
+                    "locus": "f102v1.21",
+                    "surface": "okeody",
+                    "n_words": 1,
+                    "chunk_start": 2,
+                    "chunk_end": 2,
+                    "raw_line": "qoeeody.ychey.okeody.deody.okody.cheodaiin.cheody.[r:s]am"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "full_null": {
+    "score": {
+      "observed": 0.013483671060397412,
+      "null_mean": -0.0009444891119150497,
+      "p_exact": 0.20694444444444443,
+      "n_permutations": 720
+    },
+    "gain": {
+      "observed": -0.004570791527313253,
+      "null_mean": -0.0009444891119150478,
+      "p_exact": 0.6097222222222223,
+      "n_permutations": 720
+    }
+  },
+  "panel_count_null": {
+    "score": {
+      "observed": 0.013483671060397412,
+      "null_mean": -0.00051649846346937,
+      "p_exact": 0.1875,
+      "n_permutations": 48
+    },
+    "gain": {
+      "observed": -0.004570791527313253,
+      "null_mean": -0.001515129521243648,
+      "p_exact": 0.75,
+      "n_permutations": 48
+    }
+  },
+  "permutations": [
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "score": 0.013483671060397412,
+      "gain": -0.004570791527313253
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "score": -0.010697422781821744,
+      "gain": -0.00448717948717947
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "score": 2.2132598858942698e-05,
+      "gain": -0.0007246376811594161
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "score": -0.018205565392266185,
+      "gain": -0.013805276848755134
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ],
+      "score": 0.009020946728747231,
+      "gain": 0.00465426694646643
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2,
+        5,
+        4,
+        3
+      ],
+      "score": 0.008070747808599468,
+      "gain": -0.015413579032504867
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "score": 0.01464959450892954,
+      "gain": 0.008133593459680413
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "score": -0.008846345115526719,
+      "gain": 0.008902359717577097
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5
+      ],
+      "score": 0.014208308741556819,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2
+      ],
+      "score": -0.017581480752836276,
+      "gain": -0.007525083612040155
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        5,
+        2,
+        4
+      ],
+      "score": 0.018596984501715957,
+      "gain": 0.0007687662578966976
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2
+      ],
+      "score": 0.009945460904540182,
+      "gain": -0.007882757339279078
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "score": -0.026527559184208807,
+      "gain": -0.015735867925765624
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        4,
+        2,
+        5,
+        3
+      ],
+      "score": -0.008233736638468075,
+      "gain": 0.0077050134435045145
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "score": 0.011613466456816837,
+      "gain": -0.0025948422847399816
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        2
+      ],
+      "score": -0.009439826655299799,
+      "gain": 0.0006165704854963223
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "score": 0.004390588453887678,
+      "gain": -0.015247584541062807
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        4,
+        5,
+        3,
+        2
+      ],
+      "score": -0.020893446564802076,
+      "gain": -0.02141397250092903
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        5,
+        2,
+        3,
+        4
+      ],
+      "score": 0.02455475222418957,
+      "gain": 0.03172653398037031
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        3
+      ],
+      "score": 0.02262033575972197,
+      "gain": 0.010674470457079178
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        5,
+        3,
+        2,
+        4
+      ],
+      "score": 0.024686728091459553,
+      "gain": 0.0068585098476402935
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        5,
+        3,
+        4,
+        2
+      ],
+      "score": 0.005047188886702927,
+      "gain": -0.012781029357116332
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        5,
+        4,
+        2,
+        3
+      ],
+      "score": 0.021538024351323598,
+      "gain": 0.0018998513563731126
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "score": -0.006691559009333964,
+      "gain": -0.0072120849454609184
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        5
+      ],
+      "score": 0.020561730823879174,
+      "gain": -0.004181694974533832
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        3,
+        5,
+        4
+      ],
+      "score": 0.0015860329639102166,
+      "gain": 0.0011073130478501507
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        5
+      ],
+      "score": 0.005871559883708244,
+      "gain": -0.0015641736070124562
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        4,
+        5,
+        3
+      ],
+      "score": 0.01079674623472579,
+      "gain": 0.0085080715675345
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        5,
+        3,
+        4
+      ],
+      "score": 0.048012028111133004,
+      "gain": 0.03695638511814986
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1,
+        5,
+        4,
+        3
+      ],
+      "score": 0.013407983037139068,
+      "gain": -0.016765307014667604
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        5
+      ],
+      "score": -0.0020483583622969703,
+      "gain": -0.01525332262224844
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        1,
+        5,
+        4
+      ],
+      "score": -0.016927066255710763,
+      "gain": -0.005867324633309292
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        4,
+        1,
+        5
+      ],
+      "score": 0.000513968129057657,
+      "gain": -0.00499868843858612
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        1
+      ],
+      "score": -0.02659518656961113,
+      "gain": -0.001960784313725497
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        5,
+        1,
+        4
+      ],
+      "score": -0.0016975156840885741,
+      "gain": -0.010830081753994794
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        3,
+        5,
+        4,
+        1
+      ],
+      "score": -0.00971484468926924,
+      "gain": -0.01296505781799899
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        4,
+        1,
+        3,
+        5
+      ],
+      "score": -0.0141447799855728,
+      "gain": -0.010042051937831965
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        3
+      ],
+      "score": 0.004897998775876017,
+      "gain": 0.014147785647146263
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        4,
+        3,
+        1,
+        5
+      ],
+      "score": 0.017234053599143123,
+      "gain": 0.011721397031499346
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        4,
+        3,
+        5,
+        1
+      ],
+      "score": -0.028678519902944455,
+      "gain": -0.004044117647058823
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        4,
+        5,
+        1,
+        3
+      ],
+      "score": 0.018289860537303,
+      "gain": 0.007347339716265555
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "score": -0.014951800118040509,
+      "gain": -0.0008943209390779531
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        5,
+        1,
+        3,
+        4
+      ],
+      "score": 0.021638850635014334,
+      "gain": 0.02212166918049273
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        5,
+        1,
+        4,
+        3
+      ],
+      "score": 0.015789150108203823,
+      "gain": -0.002845678405141317
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        5,
+        3,
+        1,
+        4
+      ],
+      "score": 0.008674475921918376,
+      "gain": -0.00045809014798784374
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        5,
+        3,
+        4,
+        1
+      ],
+      "score": 0.003859815944214917,
+      "gain": 0.0006096028154851663
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ],
+      "score": 0.028172339169781638,
+      "gain": 0.017229818348744194
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        5,
+        4,
+        3,
+        1
+      ],
+      "score": -0.0075341005967604485,
+      "gain": 0.0065233785822021075
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        5
+      ],
+      "score": 0.020624986337901913,
+      "gain": 0.00022938662644542487
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        2,
+        5,
+        4
+      ],
+      "score": -0.01843208297811877,
+      "gain": -0.014562976807222313
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        4,
+        2,
+        5
+      ],
+      "score": 0.032544347170306256,
+      "gain": 0.004456439766542076
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        4,
+        5,
+        2
+      ],
+      "score": 0.0204886385992524,
+      "gain": 0.016665437077841162
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        5,
+        2,
+        4
+      ],
+      "score": 0.016869002338951194,
+      "gain": -0.014838814567075427
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        1,
+        5,
+        4,
+        2
+      ],
+      "score": 0.02494685443854243,
+      "gain": -0.0067609624674841926
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        1,
+        4,
+        5
+      ],
+      "score": 0.009855700920278931,
+      "gain": -0.010539898791177556
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        1,
+        5,
+        4
+      ],
+      "score": -0.01104867532297199,
+      "gain": -0.007179569152075538
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        4,
+        1,
+        5
+      ],
+      "score": 0.00631571469167376,
+      "gain": -0.006387577327475033
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        4,
+        5,
+        1
+      ],
+      "score": -0.025654551118106106,
+      "gain": -0.008210784313725492
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        5,
+        1,
+        4
+      ],
+      "score": 0.008280187771875766,
+      "gain": -0.00804301374953547
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "score": 0.016117040461669604,
+      "gain": 0.005676191881434837
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        5
+      ],
+      "score": 0.023463150589109666,
+      "gain": 0.006913704723807024
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        4,
+        1,
+        5,
+        2
+      ],
+      "score": 0.011964855618947681,
+      "gain": 0.01968011563599798
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        4,
+        2,
+        1,
+        5
+      ],
+      "score": 0.0226084497344088,
+      "gain": 0.021443619253721544
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "score": -0.03447562135221982,
+      "gain": -0.005493393009377668
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        4,
+        5,
+        1,
+        2
+      ],
+      "score": 0.028638489955625526,
+      "gain": 0.016161442280368137
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        4,
+        5,
+        2,
+        1
+      ],
+      "score": 0.004633910420355436,
+      "gain": -0.001960784313725486
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4
+      ],
+      "score": -0.0029336623166546366,
+      "gain": -0.02310301768421972
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        5,
+        1,
+        4,
+        2
+      ],
+      "score": 0.018322922814610773,
+      "gain": -0.0018464325529543094
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        5,
+        2,
+        1,
+        4
+      ],
+      "score": 0.009882205390517401,
+      "gain": 0.005097465407567703
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "score": -0.002220090934924701,
+      "gain": -0.001122477976697931
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        5,
+        4,
+        1,
+        2
+      ],
+      "score": 0.03595686602400157,
+      "gain": 0.02347981834874418
+    },
+    {
+      "permutation": [
+        0,
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "score": -0.0009216451352001137,
+      "gain": -0.0075163398692810355
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        1,
+        2,
+        3,
+        5
+      ],
+      "score": 0.01721724921852802,
+      "gain": 0.01747382342011501
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        3
+      ],
+      "score": -0.01153928126434521,
+      "gain": -0.006135648239228808
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        1,
+        3,
+        2,
+        5
+      ],
+      "score": 0.021095918858067192,
+      "gain": -0.0036475069403458134
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        1,
+        3,
+        5,
+        2
+      ],
+      "score": 0.009040210287013364,
+      "gain": 0.008561490370953299
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        1,
+        5,
+        2,
+        3
+      ],
+      "score": 0.012423765492819192,
+      "gain": -0.01774952455898748
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        1,
+        5,
+        3,
+        2
+      ],
+      "score": 0.024126445449974845,
+      "gain": 0.013070802456991703
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        2,
+        1,
+        3,
+        5
+      ],
+      "score": -0.01348052877784335,
+      "gain": -0.01322395457625636
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        2,
+        1,
+        5,
+        3
+      ],
+      "score": -0.007281488403611161,
+      "gain": -0.001877855378494761
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        2,
+        3,
+        1,
+        5
+      ],
+      "score": 0.0020334666754104197,
+      "gain": -0.007325343738387204
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        2,
+        3,
+        5,
+        1
+      ],
+      "score": -0.028999032723457274,
+      "gain": -0.008210784313725489
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        2,
+        5,
+        1,
+        3
+      ],
+      "score": -0.0002289767635035994,
+      "gain": -0.01501765143069489
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        2,
+        5,
+        3,
+        1
+      ],
+      "score": -2.705095416091763e-05,
+      "gain": 0.010184274378647792
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        3,
+        1,
+        2,
+        5
+      ],
+      "score": 0.003224391763394313,
+      "gain": -0.009980572496557157
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        3,
+        1,
+        5,
+        2
+      ],
+      "score": -0.006016378123155627,
+      "gain": 0.005043363499245843
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ],
+      "score": -0.00717833956325005,
+      "gain": -0.0049986884385861356
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        3,
+        2,
+        5,
+        1
+      ],
+      "score": -0.035736769624237656,
+      "gain": -0.0034100596760443386
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        3,
+        5,
+        1,
+        2
+      ],
+      "score": -0.002986534636151006,
+      "gain": -0.012119100706057226
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        3,
+        5,
+        2,
+        1
+      ],
+      "score": 0.003250213128729751,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "score": 0.019076660764640332,
+      "gain": 0.00044183225129519263
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        5,
+        1,
+        3,
+        2
+      ],
+      "score": 0.014425672721708499,
+      "gain": 0.014908491267186894
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        5,
+        2,
+        1,
+        3
+      ],
+      "score": 0.026730031477473923,
+      "gain": 0.023479818348744172
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        5,
+        2,
+        3,
+        1
+      ],
+      "score": -0.01373997202002318,
+      "gain": 0.008009814851247066
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "score": 0.03261238441865037,
+      "gain": 0.02347981834874415
+    },
+    {
+      "permutation": [
+        0,
+        4,
+        5,
+        3,
+        2,
+        1
+      ],
+      "score": -0.004266126740551296,
+      "gain": -0.007516339869281047
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "score": 0.03252248781340854,
+      "gain": 0.02715246354952239
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        1,
+        2,
+        4,
+        3
+      ],
+      "score": 0.015817294030209622,
+      "gain": -0.008670377292500059
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        1,
+        3,
+        2,
+        4
+      ],
+      "score": 0.03778266880888366,
+      "gain": 0.007412644544997512
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        1,
+        3,
+        4,
+        2
+      ],
+      "score": 0.031589093273875865,
+      "gain": 0.001219069009989717
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        1,
+        4,
+        2,
+        3
+      ],
+      "score": 0.030514432640391706,
+      "gain": -0.0016655463746256677
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        1,
+        4,
+        3,
+        2
+      ],
+      "score": 0.007949564998797731,
+      "gain": -0.00511276695739611
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        2,
+        1,
+        3,
+        4
+      ],
+      "score": 0.008154086606772054,
+      "gain": 0.0027840623428859014
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        2,
+        1,
+        4,
+        3
+      ],
+      "score": 0.015034865674251885,
+      "gain": -0.009452805648457796
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        2,
+        3,
+        1,
+        4
+      ],
+      "score": 0.013910065140883596,
+      "gain": -0.0010753437383871703
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        2,
+        3,
+        4,
+        1
+      ],
+      "score": 0.014260771198111352,
+      "gain": 0.005157715260017055
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        2,
+        4,
+        1,
+        3
+      ],
+      "score": 0.004099175902244956,
+      "gain": -0.012696187728157036
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        2,
+        4,
+        3,
+        1
+      ],
+      "score": 0.0007992327365728968,
+      "gain": 0.009003869106170905
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        3,
+        1,
+        2,
+        4
+      ],
+      "score": -0.00020643430170282084,
+      "gain": -0.019037997027127433
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        3,
+        1,
+        4,
+        2
+      ],
+      "score": 0.0063338852820950114,
+      "gain": -0.012497677443329601
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        3,
+        2,
+        1,
+        4
+      ],
+      "score": -0.013111105646271881,
+      "gain": -0.016558052987081108
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        3,
+        2,
+        4,
+        1
+      ],
+      "score": -0.0024957920737971873,
+      "gain": -6.03864734299458e-05
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        3,
+        4,
+        1,
+        2
+      ],
+      "score": 0.01809176011541741,
+      "gain": 0.0069525050823004905
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "score": 0.005256902091940463,
+      "gain": 1.1275702593849246e-17
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        4,
+        1,
+        2,
+        3
+      ],
+      "score": 0.0207796412879533,
+      "gain": 0.00013812381139746352
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        4,
+        1,
+        3,
+        2
+      ],
+      "score": -0.011150321332546426,
+      "gain": -0.012674191750278731
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        4,
+        2,
+        1,
+        3
+      ],
+      "score": 0.028235048199881943,
+      "gain": 0.02297814610794149
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        4,
+        2,
+        3,
+        1
+      ],
+      "score": -0.02274903272345727,
+      "gain": -0.00300593481539772
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        4,
+        3,
+        1,
+        2
+      ],
+      "score": 0.03064517891883621,
+      "gain": 0.01950592388571929
+    },
+    {
+      "permutation": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "score": 0.003296117778214952,
+      "gain": -0.0019607843137254997
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "score": 0.01700535007760072,
+      "gain": 0.003298713576846574
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        4
+      ],
+      "score": -0.015266984720309545,
+      "gain": -0.00470891533871075
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        4,
+        3,
+        5
+      ],
+      "score": 0.0029172677989813683,
+      "gain": 0.006518323605919529
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        4,
+        5,
+        3
+      ],
+      "score": -0.0042890790652938965,
+      "gain": 0.004459035565173674
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        5,
+        3,
+        4
+      ],
+      "score": 0.014250797866526776,
+      "gain": 0.014231944171202495
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2,
+        5,
+        4,
+        3
+      ],
+      "score": 0.023932990141430036,
+      "gain": 0.004796489387282225
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        2,
+        4,
+        5
+      ],
+      "score": 0.000752371740223412,
+      "gain": -0.0014158032220691944
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4
+      ],
+      "score": -0.019399086278881705,
+      "gain": 0.0026974446411786313
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        4,
+        2,
+        5
+      ],
+      "score": 0.0015931372549019551,
+      "gain": -0.008267345399698344
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2
+      ],
+      "score": -0.030607744770148854,
+      "gain": -0.01620352154239621
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        5,
+        2,
+        4
+      ],
+      "score": 0.007403217697335332,
+      "gain": -0.006077174459527409
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        3,
+        5,
+        4,
+        2
+      ],
+      "score": 0.030446805254989398,
+      "gain": 0.01696641309812666
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        4,
+        2,
+        3,
+        5
+      ],
+      "score": -0.022830595448881885,
+      "gain": -0.007691078103482185
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        4,
+        2,
+        5,
+        3
+      ],
+      "score": -0.006746344022558859,
+      "gain": 0.013540232146370252
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        4,
+        3,
+        2,
+        5
+      ],
+      "score": -0.0033887468030690537,
+      "gain": -0.013249229457669353
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        4,
+        3,
+        5,
+        2
+      ],
+      "score": -0.02966014164863269,
+      "gain": -0.015255918420880048
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        4,
+        5,
+        2,
+        3
+      ],
+      "score": 0.03732102651539994,
+      "gain": 0.02203067960740597
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        4,
+        5,
+        3,
+        2
+      ],
+      "score": -0.004069939012394261,
+      "gain": -0.00024263886156469577
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        5,
+        2,
+        3,
+        4
+      ],
+      "score": 0.01774446958270487,
+      "gain": 0.029264077425842125
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        5,
+        2,
+        4,
+        3
+      ],
+      "score": 0.03721801429601941,
+      "gain": 0.02961997508033314
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        5,
+        3,
+        2,
+        4
+      ],
+      "score": 0.018781422825540448,
+      "gain": 0.005301030668677707
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        5,
+        3,
+        4,
+        2
+      ],
+      "score": 0.013822764334273291,
+      "gain": 0.0003423721774105503
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        5,
+        4,
+        2,
+        3
+      ],
+      "score": 0.0382686296369161,
+      "gain": 0.022978282728922134
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        5,
+        4,
+        3,
+        2
+      ],
+      "score": -0.011655409097864333,
+      "gain": -0.007828108947034769
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ],
+      "score": 0.03817190198264367,
+      "gain": 0.0249669377226922
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        3,
+        5,
+        4
+      ],
+      "score": -0.012045052134566192,
+      "gain": -0.0009853105121647217
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        4,
+        3,
+        5
+      ],
+      "score": -0.02056200406584037,
+      "gain": -0.016459276018099534
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        3
+      ],
+      "score": -0.004823540341443153,
+      "gain": 0.004426246529827094
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        5,
+        3,
+        4
+      ],
+      "score": 0.005148698275296737,
+      "gain": 0.0056315168207751315
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0,
+        5,
+        4,
+        3
+      ],
+      "score": 0.03722402561916628,
+      "gain": 0.018589197105821142
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        0,
+        4,
+        5
+      ],
+      "score": 0.0023351258005989556,
+      "gain": -0.0031775307670448213
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4
+      ],
+      "score": -0.02257374800533371,
+      "gain": -0.0038216986906245455
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ],
+      "score": -0.006987343432356213,
+      "gain": 6.938893903907228e-18
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "score": -0.028808036592563438,
+      "gain": -0.004173634336677806
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        5,
+        0,
+        4
+      ],
+      "score": -0.0052213806369816596,
+      "gain": -0.0018539467068878815
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        0
+      ],
+      "score": 0.005040631079633637,
+      "gain": 0.0017904179509038859
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        4,
+        0,
+        3,
+        5
+      ],
+      "score": -0.015196898157256208,
+      "gain": -0.0034018624172076767
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        4,
+        0,
+        5,
+        3
+      ],
+      "score": 0.002135932410868485,
+      "gain": 0.019078026974446424
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        4,
+        3,
+        0,
+        5
+      ],
+      "score": -0.01763968129057643,
+      "gain": -0.010652337858220208
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        4,
+        3,
+        5,
+        0
+      ],
+      "score": -0.03609498983539902,
+      "gain": -0.01146058757951339
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        4,
+        5,
+        0,
+        3
+      ],
+      "score": -0.02283264476359105,
+      "gain": -0.021275165584628497
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        4,
+        5,
+        3,
+        0
+      ],
+      "score": -0.016260902354252746,
+      "gain": -0.00220342317529019
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        5,
+        0,
+        3,
+        4
+      ],
+      "score": 0.01960196843508863,
+      "gain": 0.027777094672874716
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        5,
+        0,
+        4,
+        3
+      ],
+      "score": 0.014917371630926615,
+      "gain": 0.003974850809889172
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        5,
+        3,
+        0,
+        4
+      ],
+      "score": 0.005996568080967046,
+      "gain": 0.009364002011060824
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        0
+      ],
+      "score": 0.002781466544254263,
+      "gain": -0.0004687465844754879
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        5,
+        4,
+        0,
+        3
+      ],
+      "score": -0.006602072267033882,
+      "gain": -0.005044593088071328
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        5,
+        4,
+        3,
+        0
+      ],
+      "score": -0.01787917786958708,
+      "gain": -0.003821698690624523
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        2,
+        4,
+        5
+      ],
+      "score": -0.002731736507311955,
+      "gain": -0.011588874680306902
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        4
+      ],
+      "score": -0.0289039445209522,
+      "gain": -0.013496376811594206
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        4,
+        2,
+        5
+      ],
+      "score": 0.012627877237851678,
+      "gain": -0.003921568627450963
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        4,
+        5,
+        2
+      ],
+      "score": -0.011324513082825116,
+      "gain": -0.003609253065774817
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        5,
+        2,
+        4
+      ],
+      "score": 0.012288920584956384,
+      "gain": -0.007880434782608699
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        0,
+        5,
+        4,
+        2
+      ],
+      "score": 0.037307910901261274,
+      "gain": 0.01713855553369619
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        0,
+        4,
+        5
+      ],
+      "score": 0.015300593481539781,
+      "gain": 0.002597301462390988
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        0,
+        5,
+        4
+      ],
+      "score": -0.023915092792970022,
+      "gain": -0.012353678929765875
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        4,
+        0,
+        5
+      ],
+      "score": 0.00020329201914881523,
+      "gain": 1.8512752095189988e-17
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        4,
+        5,
+        0
+      ],
+      "score": -0.023624090104269108,
+      "gain": -0.006180323299888494
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        5,
+        0,
+        4
+      ],
+      "score": -0.0031514361597481666,
+      "gain": -0.006974637681159407
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        0
+      ],
+      "score": 0.0059868679913436945,
+      "gain": -0.004453980588891073
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        4,
+        0,
+        2,
+        5
+      ],
+      "score": 0.000891451898485135,
+      "gain": -0.007965686274509812
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        4,
+        0,
+        5,
+        2
+      ],
+      "score": -0.002915764968194623,
+      "gain": 0.01249180274116337
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        4,
+        2,
+        0,
+        5
+      ],
+      "score": -0.015379287166371575,
+      "gain": -0.004044117647058832
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "score": -0.03656592235556429,
+      "gain": -0.007583694012722134
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        4,
+        5,
+        0,
+        2
+      ],
+      "score": -0.01068348744179945,
+      "gain": -0.010660535117056842
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        4,
+        5,
+        2,
+        0
+      ],
+      "score": 0.005626188602531293,
+      "gain": -0.0009685061315496289
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        5,
+        0,
+        2,
+        4
+      ],
+      "score": 0.002714249021793791,
+      "gain": -0.009762798653463599
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        5,
+        0,
+        4,
+        2
+      ],
+      "score": 0.036927011607318524,
+      "gain": 0.024449963932061135
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        5,
+        2,
+        0,
+        4
+      ],
+      "score": -0.018387407917459075,
+      "gain": -0.010672147900408775
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        5,
+        2,
+        4,
+        0
+      ],
+      "score": -0.011878237917240492,
+      "gain": -0.010780624959013722
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        5,
+        4,
+        0,
+        2
+      ],
+      "score": -0.007478359236671284,
+      "gain": -0.007455406911928677
+    },
+    {
+      "permutation": [
+        1,
+        3,
+        5,
+        4,
+        2,
+        0
+      ],
+      "score": -0.002225145911207302,
+      "gain": -0.008819840645288225
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        0,
+        2,
+        3,
+        5
+      ],
+      "score": -0.00235029072944673,
+      "gain": 0.009444745010601802
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        0,
+        2,
+        5,
+        3
+      ],
+      "score": -0.0149028898069819,
+      "gain": 0.0020392047565960386
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        0,
+        3,
+        2,
+        5
+      ],
+      "score": 0.008691963407436554,
+      "gain": -0.004513000852514916
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        0,
+        3,
+        5,
+        2
+      ],
+      "score": -0.016118270050495126,
+      "gain": -0.005058528428093656
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        0,
+        5,
+        2,
+        3
+      ],
+      "score": 0.022764334273285683,
+      "gain": 0.004129505759940543
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        0,
+        5,
+        3,
+        2
+      ],
+      "score": 0.008077032373707549,
+      "gain": 0.008559850919185943
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        2,
+        0,
+        3,
+        5
+      ],
+      "score": 0.008686498568212103,
+      "gain": 0.01663538046210679
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        2,
+        0,
+        5,
+        3
+      ],
+      "score": -0.022991125101099547,
+      "gain": -0.009895184383675454
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        2,
+        3,
+        0,
+        5
+      ],
+      "score": -0.006673798281854534,
+      "gain": -0.0035326086956521605
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        2,
+        3,
+        5,
+        0
+      ],
+      "score": -0.02696857170962029,
+      "gain": -0.006180323299888504
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        2,
+        5,
+        0,
+        3
+      ],
+      "score": -0.008218571709620301,
+      "gain": -0.010507246376811594
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        2,
+        5,
+        3,
+        0
+      ],
+      "score": -0.003274941526220293,
+      "gain": 0.006936383806588417
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        3,
+        0,
+        2,
+        5
+      ],
+      "score": 0.0015910879401928035,
+      "gain": -0.003921568627450973
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        3,
+        0,
+        5,
+        2
+      ],
+      "score": -0.029419552101777158,
+      "gain": -0.010667502787067993
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        3,
+        2,
+        0,
+        5
+      ],
+      "score": -0.01664043543838939,
+      "gain": -0.001960784313725478
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        3,
+        2,
+        5,
+        0
+      ],
+      "score": -0.03239406409163442,
+      "gain": -6.735414344110485e-05
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        3,
+        5,
+        0,
+        2
+      ],
+      "score": -0.010059266181388929,
+      "gain": -0.006691832251295151
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        3,
+        5,
+        2,
+        0
+      ],
+      "score": 0.0046321343476074806,
+      "gain": 0.0013819212188777297
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        5,
+        0,
+        2,
+        3
+      ],
+      "score": 0.03755820053774021,
+      "gain": 0.02661567971670277
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        5,
+        0,
+        3,
+        2
+      ],
+      "score": 0.004230878527553716,
+      "gain": 0.012406004765339804
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        5,
+        2,
+        0,
+        3
+      ],
+      "score": -0.017192930683979285,
+      "gain": -0.007943143812709039
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        5,
+        2,
+        3,
+        0
+      ],
+      "score": -0.004612734168360805,
+      "gain": 0.017137052702909442
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        5,
+        3,
+        0,
+        2
+      ],
+      "score": -0.010822840842022452,
+      "gain": -0.007455406911928674
+    },
+    {
+      "permutation": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        0
+      ],
+      "score": -0.006550019673421212,
+      "gain": -0.009800232802150963
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        0,
+        2,
+        3,
+        4
+      ],
+      "score": 0.025075824644238964,
+      "gain": 0.03124426191881435
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        0,
+        2,
+        4,
+        3
+      ],
+      "score": 0.012097514591120725,
+      "gain": -0.0008516951931274181
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        0,
+        3,
+        2,
+        4
+      ],
+      "score": 0.03465186241720769,
+      "gain": 0.015820299691783078
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        0,
+        3,
+        4,
+        2
+      ],
+      "score": 0.05231627210527465,
+      "gain": 0.033484709379850035
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        0,
+        4,
+        2,
+        3
+      ],
+      "score": 0.03824157868275514,
+      "gain": 0.017600061206199304
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        0,
+        4,
+        3,
+        2
+      ],
+      "score": 0.010576923076923081,
+      "gain": 0.009053052659190776
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        2,
+        0,
+        3,
+        4
+      ],
+      "score": 0.01779092071611256,
+      "gain": 0.0201132041445341
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        2,
+        0,
+        4,
+        3
+      ],
+      "score": 0.03301445996458782,
+      "gain": 0.01621909633418583
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        2,
+        3,
+        0,
+        4
+      ],
+      "score": -0.00040617417535576683,
+      "gain": -0.0028915830546265356
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        2,
+        3,
+        4,
+        0
+      ],
+      "score": 0.004649075349203224,
+      "gain": -0.004453980588891073
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        2,
+        4,
+        0,
+        3
+      ],
+      "score": -0.003320299691783074,
+      "gain": -0.007615663322185068
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        2,
+        4,
+        3,
+        0
+      ],
+      "score": -0.010697832644763608,
+      "gain": -0.0024931962751656
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        3,
+        0,
+        2,
+        4
+      ],
+      "score": -0.0045553533565042825,
+      "gain": -0.015694608389621202
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        3,
+        0,
+        4,
+        2
+      ],
+      "score": 0.021946111220407877,
+      "gain": 0.010806856187290957
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        3,
+        2,
+        0,
+        4
+      ],
+      "score": -0.02082609242136095,
+      "gain": -0.01177303976217018
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        3,
+        2,
+        4,
+        0
+      ],
+      "score": -0.006669426410475021,
+      "gain": -0.004234020810107779
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        3,
+        4,
+        0,
+        2
+      ],
+      "score": -0.006091792904452734,
+      "gain": -0.004731047937569656
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "score": 0.001083267755262643,
+      "gain": -0.004173634336677809
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        4,
+        0,
+        2,
+        3
+      ],
+      "score": 0.01242431197674164,
+      "gain": -0.0005248978075065042
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        4,
+        0,
+        3,
+        2
+      ],
+      "score": -0.006411076136140073,
+      "gain": -0.00024263886156468666
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        4,
+        2,
+        0,
+        3
+      ],
+      "score": -0.023045773493343816,
+      "gain": -0.01580267558528427
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        4,
+        2,
+        3,
+        0
+      ],
+      "score": -0.015338300872188335,
+      "gain": 0.004404797035871214
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        4,
+        3,
+        0,
+        2
+      ],
+      "score": -0.00722752311626991,
+      "gain": -0.005866778149386832
+    },
+    {
+      "permutation": [
+        1,
+        5,
+        4,
+        3,
+        2,
+        0
+      ],
+      "score": -0.0001987835267886484,
+      "gain": -0.0054556856187291
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "score": 0.0139133440444182,
+      "gain": -0.01517790784095133
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        3,
+        5,
+        4
+      ],
+      "score": -0.005552959756923936,
+      "gain": -0.010379505759940524
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        4,
+        3,
+        5
+      ],
+      "score": -0.0008145342864012972,
+      "gain": -0.01259809386407852
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        4,
+        5,
+        3
+      ],
+      "score": -0.0035205860493584262,
+      "gain": -0.01015708680350624
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        5,
+        3,
+        4
+      ],
+      "score": 0.034922645200778174,
+      "gain": 0.019519176120838505
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1,
+        5,
+        4,
+        3
+      ],
+      "score": 0.023729971364242444,
+      "gain": -0.010791144774520749
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        1,
+        4,
+        5
+      ],
+      "score": 0.021031980239141365,
+      "gain": 0.0034791898922333746
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        1,
+        5,
+        4
+      ],
+      "score": 0.0008805222200363172,
+      "gain": 0.007592437755481266
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        4,
+        1,
+        5
+      ],
+      "score": 0.009860482654600308,
+      "gain": 8.673617379884035e-18
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        4,
+        5,
+        1
+      ],
+      "score": -0.03032931121166417,
+      "gain": -0.010042735042735059
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        5,
+        1,
+        4
+      ],
+      "score": 0.010342618095175657,
+      "gain": -0.0031377740616870837
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "score": -0.0024446958270487595,
+      "gain": -0.010042735042735031
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        4,
+        1,
+        3,
+        5
+      ],
+      "score": -0.017550331169256986,
+      "gain": -0.01779542920847267
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        4,
+        1,
+        5,
+        3
+      ],
+      "score": -0.0006447144075021338,
+      "gain": 0.004257246376811591
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        4,
+        3,
+        1,
+        5
+      ],
+      "score": 0.0030089404769711586,
+      "gain": -0.006851542177629141
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        4,
+        3,
+        5,
+        1
+      ],
+      "score": -0.029688285570638503,
+      "gain": -0.009401709401709393
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        4,
+        5,
+        1,
+        3
+      ],
+      "score": -0.01105905851749843,
+      "gain": -0.026349405425492398
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        4,
+        5,
+        3,
+        1
+      ],
+      "score": -0.01836349924585219,
+      "gain": -0.008653846153846158
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        5,
+        1,
+        3,
+        4
+      ],
+      "score": 0.038875636653769655,
+      "gain": 0.035010629112291525
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        5,
+        1,
+        4,
+        3
+      ],
+      "score": 0.047232468795768034,
+      "gain": 0.024249814195466374
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        5,
+        3,
+        1,
+        4
+      ],
+      "score": 0.0032634653638489858,
+      "gain": -0.010216926793013755
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        5,
+        3,
+        4,
+        1
+      ],
+      "score": -0.0018036701860231208,
+      "gain": -0.009401709401709393
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        5,
+        4,
+        1,
+        3
+      ],
+      "score": -5.4785013224922796e-05,
+      "gain": -0.015345131921218889
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        5,
+        4,
+        3,
+        1
+      ],
+      "score": -0.011670437405731524,
+      "gain": -0.00196078431372549
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        3,
+        4,
+        5
+      ],
+      "score": 0.017074070430847924,
+      "gain": -0.004826546003016588
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        3,
+        5,
+        4
+      ],
+      "score": -0.011357302118171694,
+      "gain": -0.008993212669683266
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        4,
+        3,
+        5
+      ],
+      "score": 0.003612531969309468,
+      "gain": -0.0009803921568627381
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        4,
+        5,
+        3
+      ],
+      "score": -0.012301899578114409,
+      "gain": -0.011747764880757206
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        5,
+        3,
+        4
+      ],
+      "score": -0.0017744332961724257,
+      "gain": -0.009987266924607073
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0,
+        5,
+        4,
+        3
+      ],
+      "score": 0.015582715806500988,
+      "gain": -0.011747764880757187
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        5
+      ],
+      "score": 0.02203532472074672,
+      "gain": 0.007827015979189902
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        0,
+        5,
+        4
+      ],
+      "score": -0.0014606149037095228,
+      "gain": 0.008595782237086598
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        4,
+        0,
+        5
+      ],
+      "score": 0.0017083087415568216,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        0
+      ],
+      "score": -0.01936684372745756,
+      "gain": -0.003428093645484971
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        5,
+        0,
+        4
+      ],
+      "score": 0.006096984501715974,
+      "gain": 0.0007687662578967089
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        0
+      ],
+      "score": 0.008517771657157835,
+      "gain": -0.0034280936454849573
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        4,
+        0,
+        3,
+        5
+      ],
+      "score": -0.016546986687651644,
+      "gain": -0.013447603121516155
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        4,
+        0,
+        5,
+        3
+      ],
+      "score": -0.010071971932585758,
+      "gain": -0.0018255295429208621
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        4,
+        3,
+        0,
+        5
+      ],
+      "score": 0.0017083087415568216,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        0
+      ],
+      "score": -0.01936684372745756,
+      "gain": -0.003428093645484971
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        4,
+        5,
+        0,
+        3
+      ],
+      "score": 0.007138172994950481,
+      "gain": -6.938893903907228e-18
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        4,
+        5,
+        3,
+        0
+      ],
+      "score": -0.018084792445406242,
+      "gain": -0.01272296544035673
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        5,
+        0,
+        3,
+        4
+      ],
+      "score": 0.03653449953002384,
+      "gain": 0.03601397359389689
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        5,
+        0,
+        4,
+        3
+      ],
+      "score": 0.04388798719041685,
+      "gain": 0.024249814195466367
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        5,
+        3,
+        0,
+        4
+      ],
+      "score": -0.0006337847290532467,
+      "gain": -0.00596200297287251
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        5,
+        3,
+        4,
+        0
+      ],
+      "score": 0.006176634533412037,
+      "gain": -0.005769230769230756
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        5,
+        4,
+        0,
+        3
+      ],
+      "score": -0.001768831835967391,
+      "gain": -0.00890700483091788
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        5,
+        4,
+        3,
+        0
+      ],
+      "score": -0.006393588650621895,
+      "gain": -0.001031761645572382
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        1,
+        4,
+        5
+      ],
+      "score": 0.016749185738955563,
+      "gain": -0.007492567818654771
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        1,
+        5,
+        4
+      ],
+      "score": -0.005401993573349084,
+      "gain": -0.005379041248606478
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        4,
+        1,
+        5
+      ],
+      "score": 0.011109471659343784,
+      "gain": -0.005439974205958858
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        4,
+        5,
+        1
+      ],
+      "score": -0.019153168513782307,
+      "gain": -0.005555555555555541
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        5,
+        1,
+        4
+      ],
+      "score": 0.022459396244562488,
+      "gain": 0.0022900408769974054
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        0,
+        5,
+        4,
+        1
+      ],
+      "score": 0.0059536690930552805,
+      "gain": -0.008333333333333333
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        0,
+        4,
+        5
+      ],
+      "score": 0.04164234813211795,
+      "gain": 0.01355444072835377
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        0,
+        5,
+        4
+      ],
+      "score": 0.01402154786106194,
+      "gain": 0.010198346339650702
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        4,
+        0,
+        5
+      ],
+      "score": 0.010459702275559049,
+      "gain": -0.0051282051282051325
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        0
+      ],
+      "score": -0.008497278510066222,
+      "gain": -0.0064381270903009925
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        5,
+        0,
+        4
+      ],
+      "score": 0.003588623297702584,
+      "gain": -0.01561919360832404
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        1,
+        5,
+        4,
+        0
+      ],
+      "score": 0.019944750475441003,
+      "gain": -0.005880713489409151
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        4,
+        0,
+        1,
+        5
+      ],
+      "score": 0.008345629221588297,
+      "gain": -0.0005115089514066504
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        4,
+        0,
+        5,
+        1
+      ],
+      "score": -0.030255535882134352,
+      "gain": -0.008965615231599892
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        4,
+        1,
+        0,
+        5
+      ],
+      "score": -0.004077179924366611,
+      "gain": -0.008126625789669256
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "score": -0.013245130828251045,
+      "gain": 0.0003524821299757241
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1
+      ],
+      "score": -0.005905305265919078,
+      "gain": -2.6020852139652106e-18
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        0
+      ],
+      "score": -0.005324666098323383,
+      "gain": -0.011919360832404306
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        5,
+        0,
+        1,
+        4
+      ],
+      "score": -0.0013496786674536132,
+      "gain": -0.013826726342711003
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        5,
+        0,
+        4,
+        1
+      ],
+      "score": -0.0018594115461123134,
+      "gain": -0.008454106280193236
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        5,
+        1,
+        0,
+        4
+      ],
+      "score": 0.007053877849913653,
+      "gain": -0.0006154775176514318
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "score": 0.021431186744485964,
+      "gain": 0.00714418431809735
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        5,
+        4,
+        0,
+        1
+      ],
+      "score": -0.005905305265919078,
+      "gain": -3.469446951953614e-18
+    },
+    {
+      "permutation": [
+        2,
+        3,
+        5,
+        4,
+        1,
+        0
+      ],
+      "score": 0.004633910420355436,
+      "gain": -0.001960784313725486
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        0,
+        1,
+        3,
+        5
+      ],
+      "score": -0.005970610094650969,
+      "gain": -0.009560189739217824
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        0,
+        1,
+        5,
+        3
+      ],
+      "score": -0.014582376986469067,
+      "gain": -0.013024897807506514
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        0,
+        3,
+        1,
+        5
+      ],
+      "score": 0.009725774367718099,
+      "gain": -0.003479189892233371
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        0,
+        3,
+        5,
+        1
+      ],
+      "score": -0.016942094563577925,
+      "gain": 1.3877787807814457e-17
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        0,
+        5,
+        1,
+        3
+      ],
+      "score": 0.013232561698034856,
+      "gain": -0.005402266815310284
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        0,
+        5,
+        3,
+        1
+      ],
+      "score": -0.020942083633899475,
+      "gain": -0.014576912147244613
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        1,
+        0,
+        3,
+        5
+      ],
+      "score": 0.04528589306402604,
+      "gain": 0.03785015957330534
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        1,
+        0,
+        5,
+        3
+      ],
+      "score": -0.004737605744638995,
+      "gain": -0.007026280411830286
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        1,
+        3,
+        0,
+        5
+      ],
+      "score": -0.0009887260366799877,
+      "gain": -0.013232151835092998
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        1,
+        3,
+        5,
+        0
+      ],
+      "score": -0.02153433558484709,
+      "gain": -0.016130702559730686
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        1,
+        5,
+        0,
+        3
+      ],
+      "score": 0.004441138216713672,
+      "gain": -0.013232151835093003
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        1,
+        5,
+        3,
+        0
+      ],
+      "score": 0.02648684613198679,
+      "gain": 0.021313556080180117
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        3,
+        0,
+        1,
+        5
+      ],
+      "score": 0.0010254770804642988,
+      "gain": -0.004487179487179478
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        3,
+        0,
+        5,
+        1
+      ],
+      "score": -0.03163923317376002,
+      "gain": -0.007004830917874391
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        3,
+        1,
+        0,
+        5
+      ],
+      "score": -0.005398714669814411,
+      "gain": -0.006103678929765884
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        3,
+        1,
+        5,
+        0
+      ],
+      "score": -0.017406605897654484,
+      "gain": -0.000464511334076545
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        3,
+        5,
+        0,
+        1
+      ],
+      "score": -0.009249786871270232,
+      "gain": 1.3877787807814457e-17
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        3,
+        5,
+        1,
+        0
+      ],
+      "score": -0.004709188580671958,
+      "gain": -0.007959401709401709
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        5,
+        0,
+        1,
+        3
+      ],
+      "score": 0.009667437208997293,
+      "gain": -0.001275083612040151
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        5,
+        0,
+        3,
+        1
+      ],
+      "score": -0.027296598684066697,
+      "gain": -0.013239119505104141
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        5,
+        1,
+        0,
+        3
+      ],
+      "score": 0.007906392768924755,
+      "gain": 0.0017715642555796163
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        5,
+        1,
+        3,
+        0
+      ],
+      "score": 0.0044016547533171635,
+      "gain": 0.010766826239972025
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        5,
+        3,
+        0,
+        1
+      ],
+      "score": -0.009249786871270232,
+      "gain": 1.3877787807814457e-17
+    },
+    {
+      "permutation": [
+        2,
+        4,
+        5,
+        3,
+        1,
+        0
+      ],
+      "score": 0.0012894288150042676,
+      "gain": -0.0019607843137254832
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        0,
+        1,
+        3,
+        4
+      ],
+      "score": -0.0011006186198002088,
+      "gain": -0.010316796729840207
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        0,
+        1,
+        4,
+        3
+      ],
+      "score": 0.030447351738911846,
+      "gain": 0.002113526570048315
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        0,
+        3,
+        1,
+        4
+      ],
+      "score": 0.0118267318075502,
+      "gain": -0.007004830917874412
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        0,
+        3,
+        4,
+        1
+      ],
+      "score": 0.012949209784248156,
+      "gain": 1.214306433183765e-17
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        0,
+        4,
+        1,
+        3
+      ],
+      "score": 0.01571305222200363,
+      "gain": -0.004928465254552209
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        0,
+        4,
+        3,
+        1
+      ],
+      "score": -0.012691815856777491,
+      "gain": -0.008333333333333328
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        1,
+        0,
+        3,
+        4
+      ],
+      "score": 0.048607149102673386,
+      "gain": 0.03554481714647954
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        1,
+        0,
+        4,
+        3
+      ],
+      "score": 0.048396069687629786,
+      "gain": 0.016216090672612413
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        1,
+        3,
+        0,
+        4
+      ],
+      "score": 0.0009827147135331449,
+      "gain": -0.016887309550353006
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        1,
+        3,
+        4,
+        0
+      ],
+      "score": 0.02153337923798282,
+      "gain": -0.0029542920847268617
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        1,
+        4,
+        0,
+        3
+      ],
+      "score": 0.017450324611449936,
+      "gain": -0.0022296544035674375
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        1,
+        4,
+        3,
+        0
+      ],
+      "score": -0.00037352176098977286,
+      "gain": -0.007553500776007145
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        3,
+        0,
+        1,
+        4
+      ],
+      "score": 0.005850793494655393,
+      "gain": -0.005288461538461527
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        3,
+        0,
+        4,
+        1
+      ],
+      "score": 0.005837541259536144,
+      "gain": 0.0005806391675956925
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        3,
+        1,
+        0,
+        4
+      ],
+      "score": 0.002371603602422015,
+      "gain": -0.0039599591230026
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        3,
+        1,
+        4,
+        0
+      ],
+      "score": 0.02091557916366102,
+      "gain": 0.007966369379412875
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        3,
+        4,
+        0,
+        1
+      ],
+      "score": -0.007243097908059548,
+      "gain": -2.6020852139652106e-18
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        3,
+        4,
+        1,
+        0
+      ],
+      "score": 0.005256902091940463,
+      "gain": 1.1275702593849246e-17
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        4,
+        0,
+        1,
+        3
+      ],
+      "score": 0.017177355892189633,
+      "gain": 0.004228146107941489
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        4,
+        0,
+        3,
+        1
+      ],
+      "score": -0.027755918420880044,
+      "gain": -0.01570512820512819
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        4,
+        1,
+        0,
+        3
+      ],
+      "score": 0.007834939996065313,
+      "gain": -0.0003065774804905264
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ],
+      "score": -0.02527542789691127,
+      "gain": -0.020916945373467107
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        4,
+        3,
+        0,
+        1
+      ],
+      "score": -0.007243097908059548,
+      "gain": -2.6020852139652106e-18
+    },
+    {
+      "permutation": [
+        2,
+        5,
+        4,
+        3,
+        1,
+        0
+      ],
+      "score": -0.0016091219096334292,
+      "gain": -0.006866024001573881
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "score": 0.005030794369029645,
+      "gain": -0.01572712418300655
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        2,
+        5,
+        4
+      ],
+      "score": -0.018174825671628758,
+      "gain": -0.014668038341312013
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        4,
+        2,
+        5
+      ],
+      "score": 0.019827802916038223,
+      "gain": -0.008622423328305664
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        4,
+        5,
+        2
+      ],
+      "score": -9.727413819486663e-05,
+      "gain": -0.004282794500185815
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        5,
+        2,
+        4
+      ],
+      "score": 0.0213643790849673,
+      "gain": -0.010705756661639032
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        1,
+        5,
+        4,
+        2
+      ],
+      "score": 0.019250852514919023,
+      "gain": -0.012819283231687309
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        1,
+        4,
+        5
+      ],
+      "score": 0.008503016591251883,
+      "gain": -0.012254901960784315
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        1,
+        5,
+        4
+      ],
+      "score": -0.02285573370931429,
+      "gain": -0.019348946378997547
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        4,
+        1,
+        5
+      ],
+      "score": 0.014575272695477301,
+      "gain": 0.0015096618357487938
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        4,
+        5,
+        1
+      ],
+      "score": -0.01494469582704877,
+      "gain": 0.0021367521367521326
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        5,
+        1,
+        4
+      ],
+      "score": 0.02957338732594489,
+      "gain": 0.012887866963953939
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ],
+      "score": 0.03211535729118849,
+      "gain": 0.021312189870374004
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        4,
+        1,
+        2,
+        5
+      ],
+      "score": 0.012349170437405715,
+      "gain": -0.004562594268476636
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        4,
+        1,
+        5,
+        2
+      ],
+      "score": -0.03421631473102063,
+      "gain": -0.026863373554550044
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        4,
+        2,
+        1,
+        5
+      ],
+      "score": -0.00242584213172449,
+      "gain": -0.003952991452991457
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        4,
+        2,
+        5,
+        1
+      ],
+      "score": -0.031466817496229274,
+      "gain": -0.0028469079939668317
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        4,
+        5,
+        1,
+        2
+      ],
+      "score": 0.00970159245414999,
+      "gain": -0.0031377740616871114
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        4,
+        5,
+        2,
+        1
+      ],
+      "score": 0.004804550025138271,
+      "gain": -0.002152463549522363
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        5,
+        1,
+        2,
+        4
+      ],
+      "score": 0.022479206286751055,
+      "gain": 0.0019475320786062587
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        5,
+        1,
+        4,
+        2
+      ],
+      "score": 0.0014020045030275208,
+      "gain": -0.019129669705117276
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        5,
+        2,
+        1,
+        4
+      ],
+      "score": -0.004391681421732574,
+      "gain": -0.009538740245261981
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        5,
+        2,
+        4,
+        1
+      ],
+      "score": 0.0038871401403370587,
+      "gain": 0.004622434257984118
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        5,
+        4,
+        1,
+        2
+      ],
+      "score": 0.004506033182503769,
+      "gain": -0.008333333333333333
+    },
+    {
+      "permutation": [
+        3,
+        0,
+        5,
+        4,
+        2,
+        1
+      ],
+      "score": 0.024773892277089204,
+      "gain": 0.01781687870242857
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        2,
+        4,
+        5
+      ],
+      "score": 0.0027012700286357383,
+      "gain": -0.010866013071895442
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        2,
+        5,
+        4
+      ],
+      "score": -0.017641867226266233,
+      "gain": -0.0069444444444444735
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        4,
+        2,
+        5
+      ],
+      "score": 0.017338022165387892,
+      "gain": -0.00392156862745098
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        4,
+        5,
+        2
+      ],
+      "score": -0.005813086104006812,
+      "gain": -0.0028079710144927445
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        5,
+        2,
+        4
+      ],
+      "score": 0.024879500295101317,
+      "gain": 3.469446951953614e-18
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        0,
+        5,
+        4,
+        2
+      ],
+      "score": 0.035105717314796586,
+      "gain": 0.010226217019695272
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        0,
+        4,
+        5
+      ],
+      "score": 0.005822786193630192,
+      "gain": -0.011590650753054835
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        0,
+        5,
+        4
+      ],
+      "score": -0.022777040024482484,
+      "gain": -0.01592577108881457
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        4,
+        0,
+        5
+      ],
+      "score": 0.004913436946685029,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        4,
+        5,
+        0
+      ],
+      "score": -0.012315561676175493,
+      "gain": 0.0004180602006688891
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        5,
+        0,
+        4
+      ],
+      "score": 0.0015587087677880473,
+      "gain": -0.0069746376811594245
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        2,
+        5,
+        4,
+        0
+      ],
+      "score": 0.014844416027280483,
+      "gain": -0.00030657748049051775
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        4,
+        0,
+        2,
+        5
+      ],
+      "score": 0.0096457144730802,
+      "gain": -0.00392156862745098
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        4,
+        0,
+        5,
+        2
+      ],
+      "score": -0.020449838240758966,
+      "gain": -0.009752415458937206
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        4,
+        2,
+        0,
+        5
+      ],
+      "score": -0.00662502459177651,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        4,
+        2,
+        5,
+        0
+      ],
+      "score": -0.030798467659081494,
+      "gain": -0.006526384243775576
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        4,
+        5,
+        0,
+        2
+      ],
+      "score": 0.0018792215883008667,
+      "gain": -0.002807971014492758
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        4,
+        5,
+        2,
+        0
+      ],
+      "score": 0.011722899862286043,
+      "gain": 0.0004180602006688891
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        5,
+        0,
+        2,
+        4
+      ],
+      "score": 0.014368838393774452,
+      "gain": -0.0028183542090191686
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        5,
+        0,
+        4,
+        2
+      ],
+      "score": 0.005183126762410659,
+      "gain": -0.012004065840382962
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        5,
+        2,
+        0,
+        4
+      ],
+      "score": -0.004800451395719912,
+      "gain": -0.0017953363062058448
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        5,
+        2,
+        4,
+        0
+      ],
+      "score": -0.0072534811025859736,
+      "gain": -0.010866013071895435
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        5,
+        4,
+        0,
+        2
+      ],
+      "score": 0.004687192602793613,
+      "gain": -1.1275702593849246e-17
+    },
+    {
+      "permutation": [
+        3,
+        1,
+        5,
+        4,
+        2,
+        0
+      ],
+      "score": 0.0054601941110892505,
+      "gain": -0.0058446455505279035
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        1,
+        4,
+        5
+      ],
+      "score": 0.018829650031696066,
+      "gain": -0.0014265962795374544
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        1,
+        5,
+        4
+      ],
+      "score": -0.002810020329201912,
+      "gain": 0.001198439241917506
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        4,
+        1,
+        5
+      ],
+      "score": 0.014073600454674609,
+      "gain": 0.00150966183574878
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        4,
+        5,
+        1
+      ],
+      "score": -0.01617100574901087,
+      "gain": 0.001412114455592712
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        5,
+        1,
+        4
+      ],
+      "score": 0.03323838175180886,
+      "gain": 0.01705453363062059
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        0,
+        5,
+        4,
+        1
+      ],
+      "score": 0.0074256235381555125,
+      "gain": -0.0028758716418562907
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        0,
+        4,
+        5
+      ],
+      "score": 0.009169590355651736,
+      "gain": -0.014932809801735631
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        4
+      ],
+      "score": -0.0034580136402386913,
+      "gain": -0.0032957079152731174
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        4,
+        0,
+        5
+      ],
+      "score": 0.007542571097558293,
+      "gain": -0.004059829059829078
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        4,
+        5,
+        0
+      ],
+      "score": -0.010431968216495058,
+      "gain": -0.004387309550353016
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        5,
+        0,
+        4
+      ],
+      "score": 0.009079147266487439,
+      "gain": -0.006143162393162373
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        1,
+        5,
+        4,
+        0
+      ],
+      "score": 0.01546863728769099,
+      "gain": -0.006371319430782351
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        4,
+        0,
+        1,
+        5
+      ],
+      "score": -0.0034617024067152002,
+      "gain": -0.008333333333333335
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        4,
+        0,
+        5,
+        1
+      ],
+      "score": -0.030113313441318554,
+      "gain": -0.00483788554440728
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        4,
+        1,
+        0,
+        5
+      ],
+      "score": -0.008269394714407505,
+      "gain": -0.008333333333333337
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        4,
+        1,
+        5,
+        0
+      ],
+      "score": -0.004997048986818797,
+      "gain": 0.012586071217784784
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        4,
+        5,
+        0,
+        1
+      ],
+      "score": -0.016140812512295877,
+      "gain": -0.00624999999999999
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        4,
+        5,
+        1,
+        0
+      ],
+      "score": -0.0030392703346667355,
+      "gain": -0.005648457822370846
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        5,
+        0,
+        1,
+        4
+      ],
+      "score": 0.005683569414387815,
+      "gain": -0.002807971014492764
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        5,
+        0,
+        4,
+        1
+      ],
+      "score": 0.005906671475725184,
+      "gain": 0.003297483988021073
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        5,
+        1,
+        0,
+        4
+      ],
+      "score": 0.0035700428443395243,
+      "gain": -0.00011380527684875033
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        5,
+        1,
+        4,
+        0
+      ],
+      "score": -0.001121385008853032,
+      "gain": -0.011422880188864835
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        5,
+        4,
+        0,
+        1
+      ],
+      "score": -0.009890812512295871,
+      "gain": 1.5612511283791264e-17
+    },
+    {
+      "permutation": [
+        3,
+        2,
+        5,
+        4,
+        1,
+        0
+      ],
+      "score": -0.005724145845629219,
+      "gain": -0.00833333333333333
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        5
+      ],
+      "score": 0.018806970948914675,
+      "gain": -0.001449275362318845
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        0,
+        1,
+        5,
+        2
+      ],
+      "score": -0.0151497639189455,
+      "gain": -0.011141304347826082
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        0,
+        2,
+        1,
+        5
+      ],
+      "score": 0.0027581043565698127,
+      "gain": -0.002113526570048323
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        0,
+        2,
+        5,
+        1
+      ],
+      "score": -0.02600006557807069,
+      "gain": -0.0007246376811594173
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        0,
+        5,
+        1,
+        2
+      ],
+      "score": 0.015665917983692906,
+      "gain": -0.0005179301374953656
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        0,
+        5,
+        2,
+        1
+      ],
+      "score": 0.008935831857826745,
+      "gain": -0.0013656633221850577
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        1,
+        0,
+        2,
+        5
+      ],
+      "score": 0.012076884823048473,
+      "gain": -0.012025515334338894
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        1,
+        0,
+        5,
+        2
+      ],
+      "score": -0.010913967036089822,
+      "gain": -0.010751661311124249
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        1,
+        2,
+        0,
+        5
+      ],
+      "score": -0.0034692165606488023,
+      "gain": -0.007379309025728479
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        1,
+        2,
+        5,
+        0
+      ],
+      "score": -0.025854290991759024,
+      "gain": -0.012117324633309287
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        1,
+        5,
+        0,
+        2
+      ],
+      "score": 0.007118362952761928,
+      "gain": -0.008103946706887884
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        1,
+        5,
+        2,
+        0
+      ],
+      "score": 0.017498551817605512,
+      "gain": -0.004341404900867828
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        2,
+        0,
+        1,
+        5
+      ],
+      "score": 0.008419404551118115,
+      "gain": -0.000298380221653868
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        2,
+        0,
+        5,
+        1
+      ],
+      "score": -0.025421748967145386,
+      "gain": -0.003992474916387961
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        2,
+        1,
+        0,
+        5
+      ],
+      "score": 0.0024608171027608317,
+      "gain": -0.0014492753623188458
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        2,
+        1,
+        5,
+        0
+      ],
+      "score": -0.0011508951406649648,
+      "gain": 0.012586071217784768
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        2,
+        5,
+        0,
+        1
+      ],
+      "score": -0.008671470260344927,
+      "gain": -0.0026268115942028854
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        2,
+        5,
+        1,
+        0
+      ],
+      "score": 0.012988693247644637,
+      "gain": 0.006533351913786681
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ],
+      "score": 0.0001582070955472581,
+      "gain": -0.008333333333333321
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        5,
+        0,
+        2,
+        1
+      ],
+      "score": 0.009828240103176136,
+      "gain": 0.007219052615472026
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        5,
+        1,
+        0,
+        2
+      ],
+      "score": -0.003320982796686134,
+      "gain": -0.0070048309178744085
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        5,
+        1,
+        2,
+        0
+      ],
+      "score": -0.0032726189695499175,
+      "gain": -0.01357411414956172
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        5,
+        2,
+        0,
+        1
+      ],
+      "score": -0.01758312020460359,
+      "gain": -1.0408340855860843e-17
+    },
+    {
+      "permutation": [
+        3,
+        4,
+        5,
+        2,
+        1,
+        0
+      ],
+      "score": -0.017338022165387892,
+      "gain": -0.012254901960784312
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        0,
+        1,
+        2,
+        4
+      ],
+      "score": 0.017061774542592945,
+      "gain": -0.008821070234113725
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        0,
+        1,
+        4,
+        2
+      ],
+      "score": 0.0259594891468293,
+      "gain": 7.664437012263117e-05
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        0,
+        2,
+        1,
+        4
+      ],
+      "score": 0.003493398474216869,
+      "gain": -0.00700483091787441
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        0,
+        2,
+        4,
+        1
+      ],
+      "score": -0.00027542789691126224,
+      "gain": -0.0048913043478260735
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        0,
+        4,
+        1,
+        2
+      ],
+      "score": 0.006324595055413482,
+      "gain": -0.011865942028985492
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        0,
+        4,
+        2,
+        1
+      ],
+      "score": 0.014361324239840864,
+      "gain": 0.0020531400966183593
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        1,
+        0,
+        2,
+        4
+      ],
+      "score": 0.012538663737512834,
+      "gain": -0.017190334885347675
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        1,
+        0,
+        4,
+        2
+      ],
+      "score": 0.01597017290751307,
+      "gain": -0.01375882571534744
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        1,
+        2,
+        0,
+        4
+      ],
+      "score": -0.0037320753273438756,
+      "gain": -0.013268766257896693
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        1,
+        2,
+        4,
+        0
+      ],
+      "score": 0.013543784291866146,
+      "gain": -0.0026105536975102005
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        1,
+        4,
+        0,
+        2
+      ],
+      "score": 0.017228998622860522,
+      "gain": 1.0408340855860843e-17
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        1,
+        4,
+        2,
+        0
+      ],
+      "score": 0.0268845498065447,
+      "gain": 0.0030379041248606575
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        2,
+        0,
+        1,
+        4
+      ],
+      "score": 0.031559036658141526,
+      "gain": 0.0172146534198964
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        2,
+        0,
+        4,
+        1
+      ],
+      "score": 0.02014435372811331,
+      "gain": 0.011682323431044651
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        2,
+        1,
+        0,
+        4
+      ],
+      "score": 0.008548101514853426,
+      "gain": -0.0009885894156993966
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        2,
+        1,
+        4,
+        0
+      ],
+      "score": 0.02034668940039784,
+      "gain": 0.004192351411021488
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        2,
+        4,
+        0,
+        1
+      ],
+      "score": -0.010287969702931346,
+      "gain": -0.006250000000000006
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        2,
+        4,
+        1,
+        0
+      ],
+      "score": 0.003617177082650219,
+      "gain": -0.004844853214418439
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        4,
+        0,
+        1,
+        2
+      ],
+      "score": 8.156272542463039e-05,
+      "gain": -0.010416666666666649
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        4,
+        0,
+        2,
+        1
+      ],
+      "score": -0.000222009093492459,
+      "gain": -0.00483788554440727
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        4,
+        1,
+        0,
+        2
+      ],
+      "score": -0.016754787199160598,
+      "gain": -0.022445324283559574
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        4,
+        1,
+        2,
+        0
+      ],
+      "score": 0.024169617679847863,
+      "gain": 0.011861433536625358
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        4,
+        2,
+        0,
+        1
+      ],
+      "score": -0.01557643124139288,
+      "gain": -1.734723475976807e-18
+    },
+    {
+      "permutation": [
+        3,
+        5,
+        4,
+        2,
+        1,
+        0
+      ],
+      "score": -0.012691815856777491,
+      "gain": -0.00961538461538461
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "score": 0.022589869281045796,
+      "gain": 0.0268319507290096
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        1,
+        2,
+        5,
+        3
+      ],
+      "score": 0.005428224801626316,
+      "gain": 0.014817365073119529
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        1,
+        3,
+        2,
+        5
+      ],
+      "score": 0.016424710910005025,
+      "gain": -0.00433320764203117
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        1,
+        3,
+        5,
+        2
+      ],
+      "score": -0.004782417426279301,
+      "gain": -0.0012756300959625559
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        1,
+        5,
+        2,
+        3
+      ],
+      "score": 0.05215260017050301,
+      "gain": 0.025964817365073143
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        1,
+        5,
+        3,
+        2
+      ],
+      "score": 0.03390208647561589,
+      "gain": 0.02683195072900956
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        2,
+        1,
+        3,
+        5
+      ],
+      "score": 0.002654545653266893,
+      "gain": 0.006896627101230693
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        2,
+        1,
+        5,
+        3
+      ],
+      "score": 0.007344334054692106,
+      "gain": 0.016733474326185317
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        2,
+        3,
+        1,
+        5
+      ],
+      "score": 0.012011170131374746,
+      "gain": 0.006637866963953932
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        2,
+        3,
+        5,
+        1
+      ],
+      "score": -0.030710210505606933,
+      "gain": -0.0059364548494983405
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        2,
+        5,
+        1,
+        3
+      ],
+      "score": 0.0237444531881872,
+      "gain": 0.01294128576737272
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        2,
+        5,
+        3,
+        1
+      ],
+      "score": -0.017975768902878872,
+      "gain": -0.0037789363236933517
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        3,
+        1,
+        2,
+        5
+      ],
+      "score": 0.011738884517017517,
+      "gain": 0.0025194275034428563
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        3,
+        1,
+        5,
+        2
+      ],
+      "score": -0.012480463199772654,
+      "gain": 0.002564785669005627
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        3,
+        2,
+        1,
+        5
+      ],
+      "score": -0.016368149824032174,
+      "gain": -0.010202991452991448
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        3,
+        2,
+        5,
+        1
+      ],
+      "score": -0.0268588650621899,
+      "gain": 0.009453352132380237
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        3,
+        5,
+        1,
+        2
+      ],
+      "score": 0.0020092847618423115,
+      "gain": -0.0031377740616870984
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        3,
+        5,
+        2,
+        1
+      ],
+      "score": 0.001401458019105073,
+      "gain": 0.0021367521367521313
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        5,
+        1,
+        2,
+        3
+      ],
+      "score": 0.03895993179880648,
+      "gain": 0.024310610531838153
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        5,
+        1,
+        3,
+        2
+      ],
+      "score": 0.004630358274859553,
+      "gain": 0.009098684066714758
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        5,
+        2,
+        1,
+        3
+      ],
+      "score": -0.0020266356263798774,
+      "gain": -0.0012913415087328177
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        5,
+        2,
+        3,
+        1
+      ],
+      "score": -0.03266402714932126,
+      "gain": -0.006928733031674201
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        5,
+        3,
+        1,
+        2
+      ],
+      "score": -0.0008892659627953853,
+      "gain": -0.0060363247863247935
+    },
+    {
+      "permutation": [
+        4,
+        0,
+        5,
+        3,
+        2,
+        1
+      ],
+      "score": 0.008870800271056037,
+      "gain": 0.009606094388703097
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        0,
+        2,
+        3,
+        5
+      ],
+      "score": -0.00828387653835222,
+      "gain": 0.0031488403611166
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        0,
+        2,
+        5,
+        3
+      ],
+      "score": -0.0007840678077251084,
+      "gain": 0.01579570791527312
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        0,
+        3,
+        2,
+        5
+      ],
+      "score": 0.011262213915666605,
+      "gain": -0.002305069184864575
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        0,
+        3,
+        5,
+        2
+      ],
+      "score": -0.01874043653135725,
+      "gain": -0.008043013749535489
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        0,
+        5,
+        2,
+        3
+      ],
+      "score": 0.026659261809517568,
+      "gain": 0.007662114455592721
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        0,
+        5,
+        3,
+        2
+      ],
+      "score": -0.002785018689750146,
+      "gain": -0.002664518984851462
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        2,
+        0,
+        3,
+        5
+      ],
+      "score": -0.006796347301462391,
+      "gain": 0.0007902157518525814
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        2,
+        0,
+        5,
+        3
+      ],
+      "score": 0.003062086038428738,
+      "gain": 0.01579570791527312
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        2,
+        3,
+        0,
+        5
+      ],
+      "score": -0.0011623713030362581,
+      "gain": 0.0016164994425864054
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        2,
+        3,
+        5,
+        0
+      ],
+      "score": -0.02193094629156009,
+      "gain": -0.0015050167224080133
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        2,
+        5,
+        0,
+        3
+      ],
+      "score": -0.004964669814414055,
+      "gain": -0.007615663322185058
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        2,
+        5,
+        3,
+        0
+      ],
+      "score": -0.016519935733490698,
+      "gain": -0.006670929241261699
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        3,
+        0,
+        2,
+        5
+      ],
+      "score": -0.0005967604433077534,
+      "gain": -0.006471735851531241
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        3,
+        0,
+        5,
+        2
+      ],
+      "score": -0.010256137014449024,
+      "gain": 0.00813359345968043
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        3,
+        2,
+        0,
+        5
+      ],
+      "score": -0.01686749950816449,
+      "gain": -0.002550167224080288
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        3,
+        2,
+        5,
+        0
+      ],
+      "score": -0.02605348438148951,
+      "gain": 0.005910906726124106
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        3,
+        5,
+        0,
+        2
+      ],
+      "score": -0.004965899403239549,
+      "gain": -0.001960784313725481
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        3,
+        5,
+        2,
+        0
+      ],
+      "score": -0.00039387828710080175,
+      "gain": -0.004006410256410263
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        5,
+        0,
+        2,
+        3
+      ],
+      "score": 0.033309697903687666,
+      "gain": 0.02200485824207051
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        5,
+        0,
+        3,
+        2
+      ],
+      "score": 0.004310391938269195,
+      "gain": 0.012123199335475572
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        5,
+        2,
+        0,
+        3
+      ],
+      "score": -0.016006650709336143,
+      "gain": -0.007119182678645607
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        5,
+        2,
+        3,
+        0
+      ],
+      "score": -0.014085896342929574,
+      "gain": 0.0073015716877609625
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        5,
+        3,
+        0,
+        2
+      ],
+      "score": -0.004287166371565343,
+      "gain": -0.0012820512820512753
+    },
+    {
+      "permutation": [
+        4,
+        1,
+        5,
+        3,
+        2,
+        0
+      ],
+      "score": -0.00030903665814151215,
+      "gain": -0.003921568627450973
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        0,
+        1,
+        3,
+        5
+      ],
+      "score": 0.009015618510503448,
+      "gain": 0.013759372199269926
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        0,
+        1,
+        5,
+        3
+      ],
+      "score": -0.015421366428399655,
+      "gain": -0.005530553916103768
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        0,
+        3,
+        1,
+        5
+      ],
+      "score": 0.012234135571731475,
+      "gain": 0.007362504645113339
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        0,
+        3,
+        5,
+        1
+      ],
+      "score": -0.02600006557807069,
+      "gain": -0.0007246376811594173
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        0,
+        5,
+        1,
+        3
+      ],
+      "score": 0.020381391129472973,
+      "gain": 0.01007989594946117
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        0,
+        5,
+        3,
+        1
+      ],
+      "score": -0.02587751655846282,
+      "gain": -0.011179011738474626
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        1,
+        0,
+        3,
+        5
+      ],
+      "score": 0.02309618663518917,
+      "gain": 0.0239937864778018
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        1,
+        0,
+        5,
+        3
+      ],
+      "score": -0.007935766279756049,
+      "gain": -0.0018911076136140063
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        1,
+        3,
+        0,
+        5
+      ],
+      "score": 0.004864116772684557,
+      "gain": 0.0009540243076048803
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        1,
+        3,
+        5,
+        0
+      ],
+      "score": -0.016796319977266272,
+      "gain": -0.0030593536188165352
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        1,
+        5,
+        0,
+        3
+      ],
+      "score": 0.0025947056637593835,
+      "gain": -0.0067452510547139615
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        1,
+        5,
+        3,
+        0
+      ],
+      "score": 0.021748830524405988,
+      "gain": 0.024908873805932645
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        3,
+        0,
+        1,
+        5
+      ],
+      "score": -0.0049040100990228735,
+      "gain": -0.002083333333333317
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        3,
+        0,
+        5,
+        1
+      ],
+      "score": -0.034965680809670566,
+      "gain": -0.0019979452204515954
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        3,
+        1,
+        0,
+        5
+      ],
+      "score": 0.0036203193652042526,
+      "gain": 0.011248688438586115
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        3,
+        1,
+        5,
+        0
+      ],
+      "score": -0.019992704439635398,
+      "gain": 0.0052827234572758765
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        3,
+        5,
+        0,
+        1
+      ],
+      "score": -0.019543904518329075,
+      "gain": -0.0019607843137254936
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        3,
+        5,
+        1,
+        0
+      ],
+      "score": -0.008861919907316357,
+      "gain": -0.0037787997027127736
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        5,
+        0,
+        1,
+        3
+      ],
+      "score": -0.011576988654993778,
+      "gain": -0.014186176142697888
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        5,
+        0,
+        3,
+        1
+      ],
+      "score": -0.023763989988414558,
+      "gain": -0.001373177476118665
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        5,
+        1,
+        0,
+        3
+      ],
+      "score": -0.011238988348962767,
+      "gain": -0.009040483528974573
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        5,
+        1,
+        3,
+        0
+      ],
+      "score": 0.00017637768596849568,
+      "gain": 0.01487488250595669
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        5,
+        3,
+        0,
+        1
+      ],
+      "score": -0.019543904518329075,
+      "gain": -0.0019607843137254936
+    },
+    {
+      "permutation": [
+        4,
+        2,
+        5,
+        3,
+        1,
+        0
+      ],
+      "score": -0.011119444990928373,
+      "gain": -0.006036324786324792
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        0,
+        1,
+        2,
+        5
+      ],
+      "score": 0.019480512383325668,
+      "gain": 0.0035720921590486655
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        0,
+        1,
+        5,
+        2
+      ],
+      "score": -0.025021176251994667,
+      "gain": -0.01666489059391873
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        0,
+        2,
+        1,
+        5
+      ],
+      "score": -0.005937547817343208,
+      "gain": -0.006461352657004825
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        0,
+        2,
+        5,
+        1
+      ],
+      "score": -0.03179716702734607,
+      "gain": -0.0021739130434782795
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        0,
+        5,
+        1,
+        2
+      ],
+      "score": 0.010653840689006933,
+      "gain": -0.0011821813452248184
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        0,
+        5,
+        2,
+        1
+      ],
+      "score": 0.004588005770870221,
+      "gain": -0.001365663322185062
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        1,
+        0,
+        2,
+        5
+      ],
+      "score": 0.006159010426913247,
+      "gain": -0.013595563643517598
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        1,
+        0,
+        5,
+        2
+      ],
+      "score": -0.018281116794543917,
+      "gain": -0.01377098498262182
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        1,
+        2,
+        0,
+        5
+      ],
+      "score": -0.01373491704374058,
+      "gain": -0.013297183421863736
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        1,
+        2,
+        5,
+        0
+      ],
+      "score": -0.035274580846831494,
+      "gain": -0.017189788401425238
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        1,
+        5,
+        0,
+        2
+      ],
+      "score": 0.001200488556626647,
+      "gain": -0.009673995016066644
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        1,
+        5,
+        2,
+        0
+      ],
+      "score": 0.005170421011213844,
+      "gain": -0.012321709620302972
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        2,
+        0,
+        1,
+        5
+      ],
+      "score": 0.004369958685815467,
+      "gain": 4.336808689942018e-18
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        2,
+        0,
+        5,
+        1
+      ],
+      "score": -0.034842038822217855,
+      "gain": -0.009064938684503906
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ],
+      "score": -0.0017676022471418695,
+      "gain": -0.0013298686252650276
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        2,
+        1,
+        5,
+        0
+      ],
+      "score": -0.009633418584825235,
+      "gain": 0.008451373860581018
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        2,
+        5,
+        0,
+        1
+      ],
+      "score": -0.016642484753098555,
+      "gain": -0.006249999999999993
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        2,
+        5,
+        1,
+        0
+      ],
+      "score": 0.0024744792008219024,
+      "gain": 0.00036696395392046615
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        5,
+        0,
+        1,
+        2
+      ],
+      "score": -0.004189618991409266,
+      "gain": -0.008333333333333325
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        5,
+        0,
+        2,
+        1
+      ],
+      "score": 0.005480414016219626,
+      "gain": 0.007219052615472035
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        5,
+        1,
+        0,
+        2
+      ],
+      "score": -0.012648916868865712,
+      "gain": -0.011984938903097465
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        5,
+        1,
+        2,
+        0
+      ],
+      "score": -0.00970200231709184,
+      "gain": -0.015655671410147124
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        0,
+        1
+      ],
+      "score": -0.021930946291560116,
+      "gain": -1.734723475976807e-17
+    },
+    {
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        1,
+        0
+      ],
+      "score": -0.017764279624893423,
+      "gain": -0.00833333333333332
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        0,
+        1,
+        2,
+        3
+      ],
+      "score": 0.02539524449690693,
+      "gain": 0.00539475266137673
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        0,
+        1,
+        3,
+        2
+      ],
+      "score": -0.009883298358362269,
+      "gain": -0.010766143135068936
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        0,
+        2,
+        1,
+        3
+      ],
+      "score": -0.0051969254814523275,
+      "gain": -0.009812801932367138
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        0,
+        2,
+        3,
+        1
+      ],
+      "score": -0.03310299036002361,
+      "gain": -0.01271886681093842
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        0,
+        3,
+        1,
+        2
+      ],
+      "score": 0.004187842918661339,
+      "gain": -0.0063103864734299405
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        0,
+        3,
+        2,
+        1
+      ],
+      "score": 0.005507738212341795,
+      "gain": 0.0008918617614269838
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        1,
+        0,
+        2,
+        3
+      ],
+      "score": 0.019056987343432336,
+      "gain": -0.004789658338251707
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        1,
+        0,
+        3,
+        2
+      ],
+      "score": 0.024435345487135787,
+      "gain": 0.01970634686427528
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        1,
+        2,
+        0,
+        3
+      ],
+      "score": -0.016413098126653133,
+      "gain": -0.020067436116029482
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        1,
+        2,
+        3,
+        0
+      ],
+      "score": 0.011752546615078602,
+      "gain": 0.020598208625702254
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        1,
+        3,
+        0,
+        2
+      ],
+      "score": -0.00013730408551380913,
+      "gain": -0.009673995016066627
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        1,
+        3,
+        2,
+        0
+      ],
+      "score": 0.0037490163289395917,
+      "gain": -0.012405321660436754
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        2,
+        0,
+        1,
+        3
+      ],
+      "score": -0.0030752016525673748,
+      "gain": -0.011537231949636033
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        2,
+        0,
+        3,
+        1
+      ],
+      "score": -0.005163453341202676,
+      "gain": 0.011374516361728666
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        2,
+        1,
+        0,
+        3
+      ],
+      "score": -0.0032875106564365097,
+      "gain": -0.006941848645812864
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        2,
+        1,
+        3,
+        0
+      ],
+      "score": -0.004073217915928878,
+      "gain": 0.004772444094694768
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        2,
+        3,
+        0,
+        1
+      ],
+      "score": -0.010113777952652656,
+      "gain": 0.0016164994425863777
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        2,
+        3,
+        1,
+        0
+      ],
+      "score": -0.00407513060965746,
+      "gain": -0.0048448532144184245
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        1,
+        2
+      ],
+      "score": 0.0028059216997835673,
+      "gain": -1.951563910473908e-17
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        1
+      ],
+      "score": 0.0038737512842372396,
+      "gain": 0.00695018252563012
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        3,
+        1,
+        0,
+        2
+      ],
+      "score": -0.008616958489081242,
+      "gain": -0.006615187881172524
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        3,
+        1,
+        2,
+        0
+      ],
+      "score": 0.003609662928716631,
+      "gain": -0.0010062135221981803
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        3,
+        2,
+        0,
+        1
+      ],
+      "score": -0.02455079021575185,
+      "gain": -0.0012820512820512775
+    },
+    {
+      "permutation": [
+        4,
+        5,
+        3,
+        2,
+        1,
+        0
+      ],
+      "score": -0.012852072267033929,
+      "gain": -0.0020833333333333554
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "score": 0.022910382101558602,
+      "gain": 0.03891716943187535
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "score": 0.02035584300609876,
+      "gain": 0.017244983277591976
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "score": 0.007582327802916039,
+      "gain": -0.001410884866767213
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "score": -0.007716352984895189,
+      "gain": -0.016709565654578443
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "score": 0.028313878505694376,
+      "gain": 0.0175107110848799
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "score": -0.017958281417360708,
+      "gain": -0.009643801779351655
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "score": -0.02374062780073008,
+      "gain": -0.0077338404704133355
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "score": 0.03356982425077054,
+      "gain": 0.030458964522263755
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "score": 0.006496464249021783,
+      "gain": 0.012887866963953911
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "score": -0.006353148840361131,
+      "gain": 0.005920606815747466
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "score": -0.01746931492775483,
+      "gain": -0.012887866963953925
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        2,
+        4,
+        3,
+        1
+      ],
+      "score": -0.02871294839005835,
+      "gain": 0.0008684995737425517
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        3,
+        1,
+        2,
+        4
+      ],
+      "score": -0.010571321616718019,
+      "gain": -0.008026072747939735
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "score": -0.005779887205718412,
+      "gain": -0.0032346383369401288
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        3,
+        2,
+        1,
+        4
+      ],
+      "score": -0.0281328557063851,
+      "gain": -0.010202991452991434
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "score": -0.011581087284412095,
+      "gain": 0.01223112991015804
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "score": -0.017623286772903146,
+      "gain": -0.00738573021181717
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        3,
+        4,
+        2,
+        1
+      ],
+      "score": -0.01202237305178483,
+      "gain": 0.004097536450477616
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "score": 0.005578781122259374,
+      "gain": 0.006314075239906433
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "score": -0.0522927732966096,
+      "gain": -0.03243983212013901
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        4,
+        2,
+        1,
+        3
+      ],
+      "score": -0.02708469954313944,
+      "gain": -0.010964790040876995
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        4,
+        2,
+        3,
+        1
+      ],
+      "score": -0.03432192274903273,
+      "gain": 0.006797986753229714
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        4,
+        3,
+        1,
+        2
+      ],
+      "score": -0.019172432072048468,
+      "gain": -0.008934875510962491
+    },
+    {
+      "permutation": [
+        5,
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "score": -0.01347164841410367,
+      "gain": 0.0026482610881587744
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "score": -0.018062386604586075,
+      "gain": 0.0051350361772356835
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        0,
+        2,
+        4,
+        3
+      ],
+      "score": 0.011715932192274889,
+      "gain": 0.01579570791527312
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "score": 0.009174372089973098,
+      "gain": 0.007371794871794862
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      "score": -0.0028750519159726484,
+      "gain": -0.004677629134150885
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        0,
+        4,
+        2,
+        3
+      ],
+      "score": 0.011274646424902168,
+      "gain": 0.007662114455592707
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "score": -0.016870778411699136,
+      "gain": -0.0013656633221850664
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "score": -0.014697001989201472,
+      "gain": 0.004654266946466444
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        2,
+        0,
+        4,
+        3
+      ],
+      "score": 0.010915879729818334,
+      "gain": 0.01114950160666272
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      "score": -0.015184602269001243,
+      "gain": -0.000641025641025637
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "score": -0.010796609613745164,
+      "gain": -0.0028706800445930866
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "score": -0.021631336481080732,
+      "gain": -0.00889771460423635
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        2,
+        4,
+        3,
+        0
+      ],
+      "score": -0.0313094301265657,
+      "gain": -0.006075808249721315
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        3,
+        0,
+        2,
+        4
+      ],
+      "score": -0.013209199510350406,
+      "gain": -0.007319469036220949
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      "score": -0.0017927405075742753,
+      "gain": 0.004096989966555181
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        3,
+        2,
+        0,
+        4
+      ],
+      "score": -0.029479938575207115,
+      "gain": -0.0033979004087699716
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        3,
+        2,
+        4,
+        0
+      ],
+      "score": -0.014535925853061432,
+      "gain": 0.004928465254552185
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "score": -0.019030756115155104,
+      "gain": -0.0006410256410256492
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "score": -0.011995048855662674,
+      "gain": -0.00022296544035674964
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "score": -0.0012183859050866747,
+      "gain": 0.002861389817911557
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        4,
+        0,
+        3,
+        2
+      ],
+      "score": -0.03625483638271361,
+      "gain": -0.01305741360089185
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        4,
+        2,
+        0,
+        3
+      ],
+      "score": -0.03588718932389011,
+      "gain": -0.011615105908584191
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        4,
+        2,
+        3,
+        0
+      ],
+      "score": -0.050219686536822086,
+      "gain": -0.013447603121516168
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        4,
+        3,
+        0,
+        2
+      ],
+      "score": -0.02038945176732901,
+      "gain": -0.0019997212931995544
+    },
+    {
+      "permutation": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "score": -0.011995048855662674,
+      "gain": -0.00022296544035674964
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        0,
+        1,
+        3,
+        4
+      ],
+      "score": -0.011327518744398524,
+      "gain": 0.0051809408267208985
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "score": 0.0007268236168491843,
+      "gain": -0.0018823638708549265
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "score": -0.00025520799178088693,
+      "gain": 0.00663786696395392
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        0,
+        3,
+        4,
+        1
+      ],
+      "score": -0.0159070540144709,
+      "gain": -0.0031316261175596254
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "score": -0.002221730386692017,
+      "gain": 0.0028613898179115646
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        0,
+        4,
+        3,
+        1
+      ],
+      "score": -0.03178815004262574,
+      "gain": -0.001705029838022152
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        1,
+        0,
+        3,
+        4
+      ],
+      "score": 0.02625486370690977,
+      "gain": 0.03891716943187534
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "score": 0.003825114215139813,
+      "gain": -0.0026302271187181427
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        1,
+        3,
+        0,
+        4
+      ],
+      "score": -0.005343929656589516,
+      "gain": 0.00251068376068375
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        1,
+        3,
+        4,
+        0
+      ],
+      "score": -0.016364597678536305,
+      "gain": -0.015127631320086567
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        1,
+        4,
+        0,
+        3
+      ],
+      "score": -0.009844907862810642,
+      "gain": -0.0038002491966686
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        1,
+        4,
+        3,
+        0
+      ],
+      "score": 0.002011470697532103,
+      "gain": 0.020556129363674146
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        3,
+        0,
+        1,
+        4
+      ],
+      "score": -0.02436102367368352,
+      "gain": -0.00977564102564102
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        3,
+        0,
+        4,
+        1
+      ],
+      "score": -0.03432465516864493,
+      "gain": -0.013856919579425957
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        3,
+        1,
+        0,
+        4
+      ],
+      "score": -0.01868988676853127,
+      "gain": 0.0007031881872035343
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "score": -0.018420333573786266,
+      "gain": -0.0056449056768749905
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "score": -0.03296773558921897,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "score": -0.02687799199947538,
+      "gain": -0.006410256410256412
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        4,
+        0,
+        1,
+        3
+      ],
+      "score": -0.018376204997048978,
+      "gain": -0.005600777100137703
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        4,
+        0,
+        3,
+        1
+      ],
+      "score": -0.03097744114368156,
+      "gain": 0.006797986753229714
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        4,
+        1,
+        0,
+        3
+      ],
+      "score": -0.014763263164797688,
+      "gain": 0.0028198570398058932
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        4,
+        1,
+        3,
+        0
+      ],
+      "score": -0.048029378975670514,
+      "gain": -0.01794625877106693
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        4,
+        3,
+        0,
+        1
+      ],
+      "score": -0.03492851990294445,
+      "gain": -0.0019607843137254832
+    },
+    {
+      "permutation": [
+        5,
+        2,
+        4,
+        3,
+        1,
+        0
+      ],
+      "score": -0.02757995059785341,
+      "gain": -0.007112215008634442
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        0,
+        1,
+        2,
+        4
+      ],
+      "score": 0.00026968981572561557,
+      "gain": -0.0038740245261984427
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        0,
+        1,
+        4,
+        2
+      ],
+      "score": 0.009388047303648325,
+      "gain": 0.005244332961724267
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "score": -0.00782906529389904,
+      "gain": 0.003411835748792287
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        0,
+        2,
+        4,
+        1
+      ],
+      "score": -0.011454029772444113,
+      "gain": 0.005669224211423681
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "score": 0.00951455833169386,
+      "gain": 0.013063151682077494
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "score": -0.008018831835967383,
+      "gain": 0.0014121144555927206
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        1,
+        0,
+        2,
+        4
+      ],
+      "score": -0.013548292784226298,
+      "gain": -0.021538160972304203
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "score": 0.0046941602728047815,
+      "gain": -0.0032957079152731213
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      "score": -0.029819031849083008,
+      "gain": -0.017616592344853223
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        1,
+        2,
+        4,
+        0
+      ],
+      "score": -0.016166360635670105,
+      "gain": -0.010581568190263846
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        1,
+        4,
+        0,
+        2
+      ],
+      "score": -0.00026682077513279223,
+      "gain": 0.004243311036789303
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "score": -0.0012857400485277864,
+      "gain": -0.0033932552954292206
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        2,
+        0,
+        1,
+        4
+      ],
+      "score": 0.0014865728900255726,
+      "gain": 0.008881320086563053
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        2,
+        0,
+        4,
+        1
+      ],
+      "score": -0.0027235392484753207,
+      "gain": 0.010553560889238629
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        2,
+        1,
+        0,
+        4
+      ],
+      "score": -0.010710538395960381,
+      "gain": 0.0014919011082694042
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "score": 0.00482736572890026,
+      "gain": 0.010412158174306515
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        2,
+        4,
+        0,
+        1
+      ],
+      "score": -0.032027100137713954,
+      "gain": -0.0062500000000000056
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "score": -0.02260913283931186,
+      "gain": -0.00933203270159791
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "score": 0.005668404485540027,
+      "gain": 0.016909305528231354
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "score": -0.017671923842000573,
+      "gain": -0.0005486698581327783
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        4,
+        1,
+        0,
+        2
+      ],
+      "score": -0.01814135353137912,
+      "gain": -0.0020927601809954885
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "score": -0.008353826480424972,
+      "gain": 0.001077119811135131
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        4,
+        2,
+        0,
+        1
+      ],
+      "score": -0.03927634598990097,
+      "gain": -0.00196078431372549
+    },
+    {
+      "permutation": [
+        5,
+        3,
+        4,
+        2,
+        1,
+        0
+      ],
+      "score": -0.026051708308741553,
+      "gain": -0.0012361466325660625
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "score": 0.004136883292893495,
+      "gain": 0.0015276958051893843
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "score": -0.028907360045467456,
+      "gain": -0.012398900474348034
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      "score": -0.012812588803637392,
+      "gain": -3.7160906726117424e-05
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        0,
+        2,
+        3,
+        1
+      ],
+      "score": -0.036644752661376706,
+      "gain": 0.0011306752355345687
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "score": -0.002763569195794277,
+      "gain": 0.00412950575994053
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "score": -0.01592973309725229,
+      "gain": -0.003154305200341016
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        1,
+        0,
+        2,
+        3
+      ],
+      "score": 0.009485731304785014,
+      "gain": 0.003030389970927058
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        1,
+        0,
+        3,
+        2
+      ],
+      "score": 0.00459838896539666,
+      "gain": 0.017260694690362233
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      "score": -0.03089888407983038,
+      "gain": -0.01716191772138064
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        1,
+        2,
+        3,
+        0
+      ],
+      "score": -0.009880019454827638,
+      "gain": 0.016356946903622094
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ],
+      "score": -0.011715249087371843,
+      "gain": -0.0038606356700985767
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      "score": -0.013052631866570505,
+      "gain": -0.011815665508120767
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        2,
+        0,
+        1,
+        3
+      ],
+      "score": -0.020689471440750215,
+      "gain": -0.011760197389992786
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        2,
+        0,
+        3,
+        1
+      ],
+      "score": -0.025194275034428476,
+      "gain": 0.008734999016328952
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "score": -0.027026362384418634,
+      "gain": -0.0132893960259689
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        2,
+        1,
+        3,
+        0
+      ],
+      "score": -0.02695395326469495,
+      "gain": -0.0007169869062452171
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "score": -0.03057085710538396,
+      "gain": -0.0014492753623188415
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        2,
+        3,
+        1,
+        0
+      ],
+      "score": -0.02595361444466303,
+      "gain": -0.009332032701597905
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "score": -0.017623286772903132,
+      "gain": -0.0030379041248606315
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "score": -0.0205048964959451,
+      "gain": -3.716090672612957e-05
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "score": -0.029373647452291943,
+      "gain": -0.00998057249655714
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "score": -0.016559419196887235,
+      "gain": -0.0037839912999759594
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "score": -0.04066004328152666,
+      "gain": 0.0
+    },
+    {
+      "permutation": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "score": -0.030243376614859985,
+      "gain": -0.002083333333333326
+    }
+  ],
+  "elapsed_seconds": 26.42797076199986
+}

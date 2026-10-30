@@ -1,0 +1,48 @@
+{
+  "key": "qiueobetdsrnimeittseivtnhaueeailpufsoumatrrstcnc",
+  "training_objective": -340042.202888154,
+  "symbols": 48,
+  "training_chars": 24000,
+  "quadgrams": 23100,
+  "restarts": 8,
+  "steps": 60000,
+  "lambda": 4,
+  "restart_objectives": [
+    -393706.949745809,
+    -393850.320822452,
+    -392302.24500991,
+    -391422.221058233,
+    -340042.202888154,
+    -394332.988547281,
+    -340042.202888154,
+    -340042.202888154
+  ],
+  "case": "control_latin_2",
+  "language": "latin",
+  "seconds": 7.1,
+  "temperature_multiplier": 0.002,
+  "seed": 20261028,
+  "train_metrics": {
+    "chars": 24000,
+    "quadgrams": 23100,
+    "bits_per_quadgram": 14.530798921761331,
+    "output_unigram_entropy": 3.8569621881215217,
+    "output_distinct_letters": 19,
+    "kl_to_model_bits": 0.045632789535828056
+  },
+  "test_metrics": {
+    "chars": 28640,
+    "quadgrams": 27566,
+    "bits_per_quadgram": 14.588659631407387,
+    "output_unigram_entropy": 3.8684557605770675,
+    "output_distinct_letters": 19,
+    "kl_to_model_bits": 0.045688346071987206
+  },
+  "candidate_preview_NON_TRANSLATION": "nnitunturquamquamminutisinlateradispersiscrassioreslauroetinaequalesitemoleaecui\netramosaeatroboricarnosaeroborasuasinprotundumatuntsivertilioquidemcredimusaescu\nlusquantumcorporeeminettantumradicedescenditoleaemalisqueetcupressispersummacaes\npitumaliisrectomeatuutlaurooleaealiistlesuosoutticominutishaeccapillamentishirsu\ntaetabiesmultaequesilvestriumequibusmontanipraetenuiatiladecerpentesspectabilesl\natoenasetaliavasanectuntquidamnonaltiusdescendereradicesquamsoliscalortepetaciat\nidquenaturalocitenuioriscrassivediserequodtalsumarbitrorapudauctorescerteinvenit\nurabietisplantacumtransterreturoctocubitoruminaltitudinemnectotamretossamsedabru\nptammasimaspatioatqueplenitudinecitriestabeaplataniroborisettlanditerarumquarund\namradisvivaciorsuperticieutlaurusitaquecumtruncoinaruitrecisaetiamlaetiustrutica\ntquidambrevitateradicumceleriussenescerearboresputantquodcoartuuntticiquarumradi\nceslontis",
+  "objective_independently_verified": true,
+  "control": true,
+  "encryption_seed": 20261030,
+  "heldout_character_accuracy": 0.9678421787709497,
+  "heldout_errors": 921,
+  "true_plaintext_bits_per_quadgram": 14.834511936313083
+}

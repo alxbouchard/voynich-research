@@ -1,0 +1,3818 @@
+{
+  "date": "2026-10-28",
+  "verdict": "Aucune traduction validée. Comparaison exploratoire limitée à une clé homophonique fixe et deux modèles de langue.",
+  "controls": [
+    {
+      "key": "atnoetlnrsnuihsestuemaucoetteumriifbicsevptiqrad",
+      "training_objective": -340042.202888151,
+      "symbols": 48,
+      "training_chars": 24000,
+      "quadgrams": 23100,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -340042.202888151,
+        -393552.69521004,
+        -392402.248177122,
+        -392040.749321483,
+        -392329.680754798,
+        -340042.202888151,
+        -392116.20376888,
+        -340042.202888151
+      ],
+      "case": "control_latin_1",
+      "language": "latin",
+      "seconds": 7.04,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 24000,
+        "quadgrams": 23100,
+        "bits_per_quadgram": 14.530798921761331,
+        "output_unigram_entropy": 3.8569621881215217,
+        "output_distinct_letters": 19,
+        "kl_to_model_bits": 0.045632789535828056
+      },
+      "test_metrics": {
+        "chars": 28640,
+        "quadgrams": 27566,
+        "bits_per_quadgram": 14.588659631407387,
+        "output_unigram_entropy": 3.8684557605770675,
+        "output_distinct_letters": 19,
+        "kl_to_model_bits": 0.045688346071987206
+      },
+      "candidate_preview_NON_TRANSLATION": "nnitunturquamquamminutisinlateradispersiscrassioreslauroetinaequalesitemoleaecui\netramosaeatroboricarnosaeroborasuasinprotundumatuntsivertilioquidemcredimusaescu\nlusquantumcorporeeminettantumradicedescenditoleaemalisqueetcupressispersummacaes\npitumaliisrectomeatuutlaurooleaealiistlesuosoutticominutishaeccapillamentishirsu\ntaetabiesmultaequesilvestriumequibusmontanipraetenuiatiladecerpentesspectabilesl\natoenasetaliavasanectuntquidamnonaltiusdescendereradicesquamsoliscalortepetaciat\nidquenaturalocitenuioriscrassivediserequodtalsumarbitrorapudauctorescerteinvenit\nurabietisplantacumtransterreturoctocubitoruminaltitudinemnectotamretossamsedabru\nptammasimaspatioatqueplenitudinecitriestabeaplataniroborisettlanditerarumquarund\namradisvivaciorsuperticieutlaurusitaquecumtruncoinaruitrecisaetiamlaetiustrutica\ntquidambrevitateradicumceleriussenescerearboresputantquodcoartuuntticiquarumradi\nceslontis",
+      "objective_independently_verified": true,
+      "control": true,
+      "encryption_seed": 20261029,
+      "heldout_character_accuracy": 0.9678421787709497,
+      "heldout_errors": 921,
+      "true_plaintext_bits_per_quadgram": 14.834511936313083,
+      "confusions": {
+        "f": [
+          "t"
+        ],
+        "g": [
+          "t"
+        ],
+        "x": [
+          "s"
+        ],
+        "y": [
+          "e"
+        ],
+        "z": [
+          "f"
+        ]
+      }
+    },
+    {
+      "key": "qiueobetdsrnimeittseivtnhaueeailpufsoumatrrstcnc",
+      "training_objective": -340042.202888154,
+      "symbols": 48,
+      "training_chars": 24000,
+      "quadgrams": 23100,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -393706.949745809,
+        -393850.320822452,
+        -392302.24500991,
+        -391422.221058233,
+        -340042.202888154,
+        -394332.988547281,
+        -340042.202888154,
+        -340042.202888154
+      ],
+      "case": "control_latin_2",
+      "language": "latin",
+      "seconds": 7.1,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 24000,
+        "quadgrams": 23100,
+        "bits_per_quadgram": 14.530798921761331,
+        "output_unigram_entropy": 3.8569621881215217,
+        "output_distinct_letters": 19,
+        "kl_to_model_bits": 0.045632789535828056
+      },
+      "test_metrics": {
+        "chars": 28640,
+        "quadgrams": 27566,
+        "bits_per_quadgram": 14.588659631407387,
+        "output_unigram_entropy": 3.8684557605770675,
+        "output_distinct_letters": 19,
+        "kl_to_model_bits": 0.045688346071987206
+      },
+      "candidate_preview_NON_TRANSLATION": "nnitunturquamquamminutisinlateradispersiscrassioreslauroetinaequalesitemoleaecui\netramosaeatroboricarnosaeroborasuasinprotundumatuntsivertilioquidemcredimusaescu\nlusquantumcorporeeminettantumradicedescenditoleaemalisqueetcupressispersummacaes\npitumaliisrectomeatuutlaurooleaealiistlesuosoutticominutishaeccapillamentishirsu\ntaetabiesmultaequesilvestriumequibusmontanipraetenuiatiladecerpentesspectabilesl\natoenasetaliavasanectuntquidamnonaltiusdescendereradicesquamsoliscalortepetaciat\nidquenaturalocitenuioriscrassivediserequodtalsumarbitrorapudauctorescerteinvenit\nurabietisplantacumtransterreturoctocubitoruminaltitudinemnectotamretossamsedabru\nptammasimaspatioatqueplenitudinecitriestabeaplataniroborisettlanditerarumquarund\namradisvivaciorsuperticieutlaurusitaquecumtruncoinaruitrecisaetiamlaetiustrutica\ntquidambrevitateradicumceleriussenescerearboresputantquodcoartuuntticiquarumradi\nceslontis",
+      "objective_independently_verified": true,
+      "control": true,
+      "encryption_seed": 20261030,
+      "heldout_character_accuracy": 0.9678421787709497,
+      "heldout_errors": 921,
+      "true_plaintext_bits_per_quadgram": 14.834511936313083,
+      "confusions": {
+        "f": [
+          "t"
+        ],
+        "g": [
+          "t"
+        ],
+        "x": [
+          "s"
+        ],
+        "y": [
+          "e"
+        ],
+        "z": [
+          "f"
+        ]
+      }
+    },
+    {
+      "key": "lztoaqeiaoterlhooatsmfigosavaepiecenbidclnnuirer",
+      "training_objective": -310442.412247019,
+      "symbols": 48,
+      "training_chars": 24000,
+      "quadgrams": 23100,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -380642.65702964,
+        -380407.024747897,
+        -310442.412247019,
+        -386469.471783594,
+        -384613.198759897,
+        -310442.412247019,
+        -380677.675047177,
+        -380302.90577875
+      ],
+      "case": "control_italian_1",
+      "language": "italian",
+      "seconds": 7.6,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 24000,
+        "quadgrams": 23100,
+        "bits_per_quadgram": 13.430473105596342,
+        "output_unigram_entropy": 4.003092057859926,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.0020675365391727685
+      },
+      "test_metrics": {
+        "chars": 109933,
+        "quadgrams": 105808,
+        "bits_per_quadgram": 13.420221319786622,
+        "output_unigram_entropy": 4.0115782409130665,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.0013869889978116623
+      },
+      "candidate_preview_NON_TRANSLATION": "itadistanzaiodubitavaediceadilledilleframedillediceaalamiadonnachemidisetaconled\nolcistillemaquellareverenzachesindonnadituttomepurperbeepericemirichinavacomeluo\nmchassonnapocosoffersemecotalbeatriceecomincioraggiandomidunrisotalchenelfocofar\nialuomfelicesecondomioinfallibileavvisocomegiustavendettagiustamentepunitafosset\nhainpensiermisomaiotisolverotostolamenteetuascoltachelemieparoledigransentenzati\nfaranpresentepernonsoffrirealavirtuchevolefrenoasuoprodequelluomchenonnacquedann\nandosedannotuttasuaproleondelumanaspecieinfermagiacquegiupersecolimoltiingrandee\nrrorefinchalverbodidiodiscenderpiacqueulanaturachedalsuofattoreseraallungataunia\nseinpersonaconlattosoldelsuoetternoamoreordrizzailvisoaquelchorsiragionaquestana\nturaalsuofattoreunitaqualfucreatafusinceraebuonamapersestessapurfuellasbanditadi\nparadisoperochesitorsedaviadiveritaedasuavitalapenadunquechelacroceporsesalanatu\nraassunta",
+      "objective_independently_verified": true,
+      "control": true,
+      "encryption_seed": 20261129,
+      "heldout_character_accuracy": 1.0,
+      "heldout_errors": 0,
+      "true_plaintext_bits_per_quadgram": 13.420221319786622,
+      "confusions": {}
+    },
+    {
+      "key": "reouespczerbiqaooentettaonnlafimdiaiavlishrgoelc",
+      "training_objective": -310442.412247021,
+      "symbols": 48,
+      "training_chars": 24000,
+      "quadgrams": 23100,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -380513.004034679,
+        -385086.921330383,
+        -310442.412247021,
+        -310442.412247021,
+        -310442.412247021,
+        -310442.412247021,
+        -310442.412247021,
+        -310442.412247021
+      ],
+      "case": "control_italian_2",
+      "language": "italian",
+      "seconds": 6.95,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 24000,
+        "quadgrams": 23100,
+        "bits_per_quadgram": 13.430473105596342,
+        "output_unigram_entropy": 4.003092057859926,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.0020675365391727685
+      },
+      "test_metrics": {
+        "chars": 109933,
+        "quadgrams": 105808,
+        "bits_per_quadgram": 13.420221319786622,
+        "output_unigram_entropy": 4.0115782409130665,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.0013869889978116623
+      },
+      "candidate_preview_NON_TRANSLATION": "itadistanzaiodubitavaediceadilledilleframedillediceaalamiadonnachemidisetaconled\nolcistillemaquellareverenzachesindonnadituttomepurperbeepericemirichinavacomeluo\nmchassonnapocosoffersemecotalbeatriceecomincioraggiandomidunrisotalchenelfocofar\nialuomfelicesecondomioinfallibileavvisocomegiustavendettagiustamentepunitafosset\nhainpensiermisomaiotisolverotostolamenteetuascoltachelemieparoledigransentenzati\nfaranpresentepernonsoffrirealavirtuchevolefrenoasuoprodequelluomchenonnacquedann\nandosedannotuttasuaproleondelumanaspecieinfermagiacquegiupersecolimoltiingrandee\nrrorefinchalverbodidiodiscenderpiacqueulanaturachedalsuofattoreseraallungataunia\nseinpersonaconlattosoldelsuoetternoamoreordrizzailvisoaquelchorsiragionaquestana\nturaalsuofattoreunitaqualfucreatafusinceraebuonamapersestessapurfuellasbanditadi\nparadisoperochesitorsedaviadiveritaedasuavitalapenadunquechelacroceporsesalanatu\nraassunta",
+      "objective_independently_verified": true,
+      "control": true,
+      "encryption_seed": 20261130,
+      "heldout_character_accuracy": 1.0,
+      "heldout_errors": 0,
+      "true_plaintext_bits_per_quadgram": 13.420221319786622,
+      "confusions": {}
+    }
+  ],
+  "real": [
+    {
+      "key": "etaiimusrcrinodlpnb",
+      "training_objective": -319244.917367691,
+      "symbols": 19,
+      "training_chars": 23992,
+      "quadgrams": 20596,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -351045.914010308,
+        -328874.027904619,
+        -344070.180005195,
+        -327284.070968205,
+        -348961.559432889,
+        -319244.917367691,
+        -322151.684193906,
+        -337486.047557845
+      ],
+      "case": "voynich_latin_A_EVA_forward",
+      "language": "latin",
+      "seconds": 2.38,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23992,
+        "quadgrams": 20596,
+        "bits_per_quadgram": 14.520040155748784,
+        "output_unigram_entropy": 3.453292491615179,
+        "output_distinct_letters": 15,
+        "kl_to_model_bits": 0.21038440229956754
+      },
+      "test_metrics": {
+        "chars": 11689,
+        "quadgrams": 10135,
+        "bits_per_quadgram": 14.999982491103136,
+        "output_unigram_entropy": 3.423137194942143,
+        "output_distinct_letters": 15,
+        "kl_to_model_bits": 0.22809525703678935
+      },
+      "candidate_preview_NON_TRANSLATION": "nuatiiicururunummoiteriteri\nriiiceritersi\nieriacturericumratnummoituruiianturantursuo\niiummriticiericummoitesanteuriantiisurummoii\niemmoeniiienie\nrereniantmursummoecummoerecuo\niumriatiurantummoalturantummo\nisurumiti\nesura\niiteralteieisuritianteummoitesuri\niitiiitesiecateienaterateantieiatisumoatercei\nsummoiteianteritesi\nsumoeiniesi\nisumoaltiiummoerialtiiinumoiteitialtesurii\neciteciteienumrmoenierecuoitesumoiactiisummo\niteiactiicesummoaltialtesummriantiiiteersumos\nsumoemmoateresummoatesumoatsiec\noantices\nsummoitactiiacieraturitiicerateraterceratur\niteateritesuociticatiseratesummoiteceiup\niatenatiiaticumoitielitersisisantisum\nineiteriticesitiialtiurisurumosumoactisi\nsaturitantummoecummratii\nneranterisreane\nitecateratiisumoactii\nenersummmo\nalteitummoitecatiiiaternitesiiiiitiilisiiiaturesur\nisemoatersumoantursuritiurcummosuritiiantur\necummoiteummoecersummonurantersummoantersur\niatiiieciiieci",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "EVA",
+      "symbols_ordered": [
+        "o",
+        "h",
+        "c",
+        "y",
+        "e",
+        "i",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "s",
+        "t",
+        "n",
+        "q",
+        "p",
+        "m",
+        "f",
+        "g"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 42871,
+        "units_retained": 42143,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 11999,
+        "units_retained": 11769,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "c"
+        ],
+        "b": [
+          "g"
+        ],
+        "c": [
+          "k"
+        ],
+        "d": [
+          "q"
+        ],
+        "e": [
+          "o"
+        ],
+        "i": [
+          "y",
+          "e",
+          "s"
+        ],
+        "l": [
+          "p"
+        ],
+        "m": [
+          "i"
+        ],
+        "n": [
+          "t",
+          "f"
+        ],
+        "o": [
+          "n"
+        ],
+        "p": [
+          "m"
+        ],
+        "r": [
+          "l",
+          "r"
+        ],
+        "s": [
+          "d"
+        ],
+        "t": [
+          "h"
+        ],
+        "u": [
+          "a"
+        ]
+      },
+      "matched_null_bits": 19.39614068336401,
+      "null_minus_real_bits": 4.396158192260874
+    },
+    {
+      "key": "iseiomantrteduclbpg",
+      "training_objective": -330971.735716906,
+      "symbols": 19,
+      "training_chars": 23992,
+      "quadgrams": 20596,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -347816.228540349,
+        -349224.158364121,
+        -344457.841084747,
+        -330971.735716906,
+        -343893.749689129,
+        -352557.762686954,
+        -363912.56957286,
+        -343942.121790051
+      ],
+      "case": "voynich_latin_A_EVA_reverse",
+      "language": "latin",
+      "seconds": 2.62,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23992,
+        "quadgrams": 20596,
+        "bits_per_quadgram": 14.697157550009923,
+        "output_unigram_entropy": 3.3697710171472144,
+        "output_distinct_letters": 16,
+        "kl_to_model_bits": 0.29456776026275977
+      },
+      "test_metrics": {
+        "chars": 11689,
+        "quadgrams": 10135,
+        "bits_per_quadgram": 15.142563190101686,
+        "output_unigram_entropy": 3.3893814805635394,
+        "output_distinct_letters": 16,
+        "kl_to_model_bits": 0.270578200465791
+      },
+      "candidate_preview_NON_TRANSLATION": "itisetiseummadatatarieiseap\nintisetirieot\nuantasdetasdeoeataseummadsetmarititasreitie\nieummataneosdeitaisdeniseummaritiirosetmmaie\niodiioodiummie\nuaritiummariummantamsdeiditit\nummaspetasleummasdetaoseitmae\nisematani\netani\nitaniseummaispeesetaniiiisletisei\neirtiseumaniseeiisdeisetisediiiseriiniseiosei\ninisetispeeiseumman\niniodeiuman\neotanisleiseiseumadiiosleetiummaeosleumani\nummaniosreeumaniseuaritiodiumtmadiiiseriseri\nnumantiiseiosdeetmmanisleisleummaniriosreiise\nriinseumaniseummanitiseummiuman\nnirisdeu\ntasetirtisetisetiriosetasetioreiosreseumman\nbaoiriseummanisetiniseriseruanisetiseise\nmanisdeninintiselioseumaroseiosedisei\nenisreumanumatanitaosleiosenirosetiseidi\niosetmmariummasdesetasen\nideitnetisdetid\niosreumaniosetiserise\nummmantidi\ntanitaseioonilioseieoonisedtiseiooseriseummaseisle\ntasdeiosetanummartaosetantasdeumantiseumini\ntantisdeummantisdetapummantiriummaiseummari\niummaririoseri",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "EVA",
+      "symbols_ordered": [
+        "o",
+        "h",
+        "c",
+        "y",
+        "e",
+        "i",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "s",
+        "t",
+        "n",
+        "q",
+        "p",
+        "m",
+        "f",
+        "g"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 42871,
+        "units_retained": 42143,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 11999,
+        "units_retained": 11769,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "a"
+        ],
+        "b": [
+          "m"
+        ],
+        "c": [
+          "q"
+        ],
+        "d": [
+          "t"
+        ],
+        "e": [
+          "c",
+          "s"
+        ],
+        "g": [
+          "g"
+        ],
+        "i": [
+          "o",
+          "y"
+        ],
+        "l": [
+          "p"
+        ],
+        "m": [
+          "i"
+        ],
+        "n": [
+          "d"
+        ],
+        "o": [
+          "e"
+        ],
+        "p": [
+          "f"
+        ],
+        "r": [
+          "k"
+        ],
+        "s": [
+          "h"
+        ],
+        "t": [
+          "l",
+          "r"
+        ],
+        "u": [
+          "n"
+        ]
+      },
+      "matched_null_bits": 19.41621802900324,
+      "null_minus_real_bits": 4.273654838901553
+    },
+    {
+      "key": "eatiucsrsrmtpndnnolmbvngqmin",
+      "training_objective": -322277.274257049,
+      "symbols": 28,
+      "training_chars": 23964,
+      "quadgrams": 19995,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -333512.463860133,
+        -346841.193938116,
+        -344103.662979275,
+        -322277.274257049,
+        -338190.67590559,
+        -350160.596277166,
+        -324315.863919882,
+        -338121.92135957
+      ],
+      "case": "voynich_latin_A_COMPOSED_forward",
+      "language": "latin",
+      "seconds": 2.99,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23964,
+        "quadgrams": 19995,
+        "bits_per_quadgram": 14.855370844061937,
+        "output_unigram_entropy": 3.462026082607946,
+        "output_distinct_letters": 18,
+        "kl_to_model_bits": 0.2633547637082998
+      },
+      "test_metrics": {
+        "chars": 9218,
+        "quadgrams": 7715,
+        "bits_per_quadgram": 14.968585733970865,
+        "output_unigram_entropy": 3.485709488956957,
+        "output_distinct_letters": 18,
+        "kl_to_model_bits": 0.23070680158057405
+      },
+      "candidate_preview_NON_TRANSLATION": "nutanarususurumtestesa\nsinarestesca\nnesalusesaruostrumtusunidusduscum\nnauoostiraesarumtecdeusadincusumna\nnemeriiaerie\nseseradouscumerumeserum\nnuosatiusdumvusium\nacusuota\necusg\natesveaeacustnieumtecusa\natiatecaerteaertestedaentacumtesren\ncumteniesteca\ncumenrieca\nacumvinumesnviaarumtetavecusin\nerterteaeruosmerieserumtecumnliacum\ntealiarecumvavecuoosndiateescumc\ncumemtesecumtecumtcaer\nmdarec\ncumtliagriestustiarestestesrestus\ntetestecumrtartacestecumtereiun\natertiatirumtientescacacdacuo\naretestirectiaviusacusumcumlacn\nctustdumeruoostia\nresdesncsegre\ntertestiacumlia\nerescun\nvetumtertiiatesrteciinatianaciiatusecus\nacemtescumduscustiusrumcustiadus\nerumteumerescumnusdescumdescus\natiiaeriiaeracumertiarerume\ntesr\nctacus\nctietecaretiadaertiariiariiacustres\ntesterterateria\nctum\nrtnatacumes\nesrtiatusiusun\nariiatuseseta\nctesrecaerecusteca\nculalelata\ncrtiiadarertecacus\ncesteriecuoscun\nnetiatereca\nnerea",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "o",
+        "y",
+        "ch",
+        "e",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "t",
+        "iin",
+        "sh",
+        "q",
+        "s",
+        "cth",
+        "m",
+        "p",
+        "i",
+        "ckh",
+        "in",
+        "h",
+        "cph",
+        "f",
+        "c",
+        "g",
+        "n",
+        "cfh",
+        "iiin"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 34855,
+        "units_retained": 34127,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 9564,
+        "units_retained": 9334,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "y"
+        ],
+        "b": [
+          "h"
+        ],
+        "c": [
+          "d"
+        ],
+        "d": [
+          "cth"
+        ],
+        "e": [
+          "o"
+        ],
+        "g": [
+          "c"
+        ],
+        "i": [
+          "e",
+          "cfh"
+        ],
+        "l": [
+          "ckh"
+        ],
+        "m": [
+          "iin",
+          "in",
+          "n"
+        ],
+        "n": [
+          "s",
+          "m",
+          "p",
+          "f",
+          "iiin"
+        ],
+        "o": [
+          "i"
+        ],
+        "p": [
+          "q"
+        ],
+        "q": [
+          "g"
+        ],
+        "r": [
+          "k",
+          "t"
+        ],
+        "s": [
+          "l",
+          "r"
+        ],
+        "t": [
+          "ch",
+          "sh"
+        ],
+        "u": [
+          "a"
+        ],
+        "v": [
+          "cph"
+        ]
+      },
+      "matched_null_bits": 19.224276748008016,
+      "null_minus_real_bits": 4.255691014037151
+    },
+    {
+      "key": "ieamustrtdtonnncliscgsbepqnv",
+      "training_objective": -327947.132245269,
+      "symbols": 28,
+      "training_chars": 23964,
+      "quadgrams": 19995,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -329062.780048963,
+        -335679.27926206,
+        -337016.603257564,
+        -347750.025832067,
+        -348362.982121701,
+        -327947.132245269,
+        -351024.505009587,
+        -328796.426687592
+      ],
+      "case": "voynich_latin_A_COMPOSED_reverse",
+      "language": "latin",
+      "seconds": 3.05,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23964,
+        "quadgrams": 19995,
+        "bits_per_quadgram": 15.26643042289483,
+        "output_unigram_entropy": 3.4353576877954883,
+        "output_distinct_letters": 18,
+        "kl_to_model_bits": 0.23675988920337523
+      },
+      "test_metrics": {
+        "chars": 9218,
+        "quadgrams": 7715,
+        "bits_per_quadgram": 15.607284318708006,
+        "output_unigram_entropy": 3.4280306884039016,
+        "output_distinct_letters": 18,
+        "kl_to_model_bits": 0.24448543487498753
+      },
+      "candidate_preview_NON_TRANSLATION": "etiotiotudututureneaub\nestiotirenmt\nqustuntunmnutuotudatiuretitusetin\nentutusnmnetuinsioturetiermotiiuen\nimdiemmditin\nquritituritustuineditit\ntuntustuntumaetiun\neoiutuse\netusi\netusiotuinnotuseieistioe\nnirtiacuseanieniatiadieiariesioemoe\nesiotinniotus\nesimdnicus\nnmtusiseoiocudeemsntitunmscuse\ntusemsncusioquritimdictiudieioriori\nscustiioemnntiiusisestusiremseio\nriesacusiatusitiaticus\nsirenq\ntuatirtiatiatiremotuatimreemsotus\ncumiriotusiatiseareorqusiotiaio\niusensesestiolimocurmaemadiae\nnsescuscutusetumsemosirmotioide\nematiiuritunotuas\nideitsntintid\nemscusematiario\nvustidi\ntusituaemmselemoenmmsiodtiaemmariotuois\ntunemotusturtumotustuncustiacise\ntustintustintubtustirituioturi\nituriremarituseriemmriemmae\nrtia\ntuseas\ntidatusemmremmremarienemoiresioimas\nemdiaediariatia\ntuas\ntituseaenar\ncutuntuaemadti\neaitituaemmde\nesiatusiriesirtias\neoesisesus\ntusesiadirenemmors\ncustiusimriatis\nesiriaemain\ntuist",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "o",
+        "y",
+        "ch",
+        "e",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "t",
+        "iin",
+        "sh",
+        "q",
+        "s",
+        "cth",
+        "m",
+        "p",
+        "i",
+        "ckh",
+        "in",
+        "h",
+        "cph",
+        "f",
+        "c",
+        "g",
+        "n",
+        "cfh",
+        "iiin"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 34855,
+        "units_retained": 34127,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 9564,
+        "units_retained": 9334,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "ch"
+        ],
+        "b": [
+          "f"
+        ],
+        "c": [
+          "m",
+          "in"
+        ],
+        "d": [
+          "t"
+        ],
+        "e": [
+          "y",
+          "c"
+        ],
+        "g": [
+          "h"
+        ],
+        "i": [
+          "o",
+          "i"
+        ],
+        "l": [
+          "p"
+        ],
+        "m": [
+          "e"
+        ],
+        "n": [
+          "q",
+          "s",
+          "cth",
+          "cfh"
+        ],
+        "o": [
+          "sh"
+        ],
+        "p": [
+          "g"
+        ],
+        "q": [
+          "n"
+        ],
+        "r": [
+          "k"
+        ],
+        "s": [
+          "d",
+          "ckh",
+          "cph"
+        ],
+        "t": [
+          "l",
+          "r",
+          "iin"
+        ],
+        "u": [
+          "a"
+        ],
+        "v": [
+          "iiin"
+        ]
+      },
+      "matched_null_bits": 19.26294221355682,
+      "null_minus_real_bits": 3.6556578948488134
+    },
+    {
+      "key": "srtimeienaauscoupuld",
+      "training_objective": -354614.370267023,
+      "symbols": 20,
+      "training_chars": 23994,
+      "quadgrams": 21648,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -357210.905595802,
+        -369194.52408785,
+        -355866.876356949,
+        -354614.370267023,
+        -376944.605466496,
+        -359336.794030709,
+        -363344.974869184,
+        -356449.843553405
+      ],
+      "case": "voynich_latin_B_EVA_forward",
+      "language": "latin",
+      "seconds": 2.43,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23994,
+        "quadgrams": 21648,
+        "bits_per_quadgram": 15.001321211503186,
+        "output_unigram_entropy": 3.319679978510536,
+        "output_distinct_letters": 14,
+        "kl_to_model_bits": 0.31117955197547276
+      },
+      "test_metrics": {
+        "chars": 26770,
+        "quadgrams": 24793,
+        "bits_per_quadgram": 15.081155708641393,
+        "output_unigram_entropy": 3.3149724261335347,
+        "output_distinct_letters": 14,
+        "kl_to_model_bits": 0.3249642803036678
+      },
+      "candidate_preview_NON_TRANSLATION": "ociemacie\nacisunietnuiretturaetururieietronisetaunietemiis\ntoniseturemanisetremaeturemaetroraraemauromaromaromaemp\namiistniseturesetcisetniemanisniemiisurenitretnisessettem\nomiisnisestramamiiiscmiisremiisemanissetniesstumamiisc\numiaramiisromiisraeramiisremaromaniemacisemauremarom\ntosstciretenisetetnisemaremiisremiisemiisrema\nemanircmiisramiisnissemiisremismaressst\nomamaemiis\ntemisnoisterac\ncisetmamiisnc\nenietempet\nromaemisniet\ntomprompnimp\nemanineitet\netet\nneietrete\nremaetempet\noremacietema\nuremacie\nroretniset\ntesetereaemis\nonietniretremiis\nnineiteramaa\nnoitetotet\ntemanisetet\ntnisremaramiisremanietnietraet\nremaniet\nocietcisunietcineietraosetemiisret\nnisraramis\nnietcieturama\nemamacisstessetrenitremaresetnit\nemiiset\nemamiisremat\ncmaramiisniraraciemiaciraranineit\nmamiis\nremisemaet\nanirmaranistaremiisrraressetremat\nomamaesstramp\nuemiisrossetrunisetnimunisunitcieettuniscniraunieresemac\ncmiaci",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "EVA",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "h",
+        "a",
+        "d",
+        "i",
+        "k",
+        "c",
+        "l",
+        "r",
+        "q",
+        "n",
+        "s",
+        "t",
+        "p",
+        "m",
+        "f",
+        "g",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 91183,
+        "units_retained": 90596,
+        "breaks": 587
+      },
+      "test_coverage": {
+        "units_total": 26992,
+        "units_retained": 26839,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "l",
+          "r"
+        ],
+        "c": [
+          "s"
+        ],
+        "d": [
+          "x"
+        ],
+        "e": [
+          "d",
+          "k"
+        ],
+        "i": [
+          "h",
+          "i"
+        ],
+        "l": [
+          "g"
+        ],
+        "m": [
+          "a"
+        ],
+        "n": [
+          "c"
+        ],
+        "o": [
+          "t"
+        ],
+        "p": [
+          "m"
+        ],
+        "r": [
+          "o"
+        ],
+        "s": [
+          "e",
+          "n"
+        ],
+        "t": [
+          "y"
+        ],
+        "u": [
+          "q",
+          "p",
+          "f"
+        ]
+      },
+      "matched_null_bits": 19.10596972207142,
+      "null_minus_real_bits": 4.024814013430028
+    },
+    {
+      "key": "aienermtisssutdcpolx",
+      "training_objective": -348586.581587947,
+      "symbols": 20,
+      "training_chars": 23994,
+      "quadgrams": 21648,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -358443.082925762,
+        -357478.127300141,
+        -349495.19440626,
+        -350056.093533118,
+        -360177.932942685,
+        -348586.581587947,
+        -359131.930019129,
+        -357708.896056083
+      ],
+      "case": "voynich_latin_B_EVA_reverse",
+      "language": "latin",
+      "seconds": 1.82,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23994,
+        "quadgrams": 21648,
+        "bits_per_quadgram": 14.407442077613158,
+        "output_unigram_entropy": 3.2134822088156647,
+        "output_distinct_letters": 15,
+        "kl_to_model_bits": 0.38232761827722217
+      },
+      "test_metrics": {
+        "chars": 26770,
+        "quadgrams": 24793,
+        "bits_per_quadgram": 14.770084903514922,
+        "output_unigram_entropy": 3.2231294930639276,
+        "output_distinct_letters": 15,
+        "kl_to_model_bits": 0.3815595592038314
+      },
+      "candidate_preview_NON_TRANSLATION": "rntserntd\nummerernioseranidierntmioisersioeerinciernicants\npersedisedisedissersisidiersetisersetietanisetiseranide\neteeraatanierienitisummernianisernieranteratisetanieummes\ntummeseoeaatnieraaniserummetiummetummmesesieataniummed\nedisetissetantsernisedisetiummesitsiummediummesismec\nsetiummerummetiummetisetaniereraniterinteaade\neaaatiseumetiummetaaniummesiummetiniser\nummersesed\ntsireandiumere\ntiummeseetant\nerperernit\nerniumersedi\npenipedipede\nerentiniser\neter\nretiernti\nerpeterseti\nsererntsetid\nrntsetis\neranieridi\numersrirerate\nummetieriniernid\nssesirentini\nerederendi\neretanisete\nersierniernisetiummesiserianie\nerniseti\netiummereradsierntinternioanterntd\numesisiani\nsesicernterni\nenieratisetienitieraateaantseser\nerummer\nesetiummeser\nentinisisintsmetntsisiniummesiset\nummese\nerserumeti\nesetieraatisiiummeriseanisiseinis\npesieaatsesed\ntseratirnicsinitaniceerrntenioanicenieranicieraadiummerc\nrnttis",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "EVA",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "h",
+        "a",
+        "d",
+        "i",
+        "k",
+        "c",
+        "l",
+        "r",
+        "q",
+        "n",
+        "s",
+        "t",
+        "p",
+        "m",
+        "f",
+        "g",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 91183,
+        "units_retained": 90596,
+        "breaks": 587
+      },
+      "test_coverage": {
+        "units_total": 26992,
+        "units_retained": 26839,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "e"
+        ],
+        "c": [
+          "p"
+        ],
+        "d": [
+          "t"
+        ],
+        "e": [
+          "y",
+          "a"
+        ],
+        "i": [
+          "o",
+          "c"
+        ],
+        "l": [
+          "g"
+        ],
+        "m": [
+          "i"
+        ],
+        "n": [
+          "h"
+        ],
+        "o": [
+          "f"
+        ],
+        "p": [
+          "m"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "l",
+          "r",
+          "q"
+        ],
+        "t": [
+          "k",
+          "s"
+        ],
+        "u": [
+          "n"
+        ],
+        "x": [
+          "x"
+        ]
+      },
+      "matched_null_bits": 19.55480870314012,
+      "null_minus_real_bits": 4.7847237996251994
+    },
+    {
+      "key": "tieernsasmnucmlpobddgovuxqfuv",
+      "training_objective": -346112.271809068,
+      "symbols": 29,
+      "training_chars": 23974,
+      "quadgrams": 21313,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -355893.550845494,
+        -346112.271809068,
+        -349926.980020584,
+        -355622.59709567,
+        -353916.111014343,
+        -352246.629402736,
+        -352095.251269413,
+        -364790.028522274
+      ],
+      "case": "voynich_latin_B_COMPOSED_forward",
+      "language": "latin",
+      "seconds": 1.82,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23974,
+        "quadgrams": 21313,
+        "bits_per_quadgram": 14.89864490701044,
+        "output_unigram_entropy": 3.3478246992522265,
+        "output_distinct_letters": 20,
+        "kl_to_model_bits": 0.29800463946302974
+      },
+      "test_metrics": {
+        "chars": 22905,
+        "quadgrams": 20934,
+        "bits_per_quadgram": 15.074689715066045,
+        "output_unigram_entropy": 3.331762442982714,
+        "output_distinct_letters": 20,
+        "kl_to_model_bits": 0.30431939204884856
+      },
+      "candidate_preview_NON_TRANSLATION": "nuresur\nsutpareuireegisremigionoreinatresgarerec\nenatreminesatneinesreminesreinisisresminesinesinesreb\nseceatnemintreutrearesatarecminaeireatnttreene\nnecatnteisesevlecinecresattreanttegesecl\npeosisecinecisnisecinesinesaresutnesminesine\nentteuirenatrereatnesinecinecrecines\nresailecisecattnecinemesinttte\nnesesrec\neremdterisl\nutneesecfl\nnarerebre\ninesremare\nenebinebaeb\nresadere\nrene\ndreiner\ninesrenebre\nninesureres\nminesur\ninireatre\nentrerirsrem\nnareaireinec\naderisess\nderenere\nenesatnere\neatiresisecinesareareisre\ninesare\nnureutgareudreisntrerecine\natisisem\nareurepises\nresesuttenttreinaeinesintreae\nrecre\nresecinese\nlesisecaisisuneosuisisade\nesec\ninemresre\nsaiesisatesireciisinttreinese\nnesesntteiseb\nprecinttreipatreaepatgaeurreepatlaisparintresl\nleosutnteminttresinesintreminttreminesintreminur\nenutreaeredreminttlattiinaireatntteatreade\nuremintreareatremintresautisenereresminten\nminttiremintire",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "a",
+        "d",
+        "k",
+        "l",
+        "ch",
+        "r",
+        "q",
+        "t",
+        "sh",
+        "iin",
+        "in",
+        "s",
+        "p",
+        "i",
+        "m",
+        "ckh",
+        "cth",
+        "f",
+        "h",
+        "iiin",
+        "cph",
+        "n",
+        "g",
+        "c",
+        "cfh",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 77606,
+        "units_retained": 77018,
+        "breaks": 588
+      },
+      "test_coverage": {
+        "units_total": 23129,
+        "units_retained": 22976,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "ch"
+        ],
+        "b": [
+          "m"
+        ],
+        "c": [
+          "iin"
+        ],
+        "d": [
+          "ckh",
+          "cth"
+        ],
+        "e": [
+          "y",
+          "a"
+        ],
+        "f": [
+          "c"
+        ],
+        "g": [
+          "f"
+        ],
+        "i": [
+          "o"
+        ],
+        "l": [
+          "s"
+        ],
+        "m": [
+          "q",
+          "in"
+        ],
+        "n": [
+          "k",
+          "t"
+        ],
+        "o": [
+          "i",
+          "h"
+        ],
+        "p": [
+          "p"
+        ],
+        "q": [
+          "g"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "l",
+          "r"
+        ],
+        "t": [
+          "e"
+        ],
+        "u": [
+          "sh",
+          "cph",
+          "cfh"
+        ],
+        "v": [
+          "iiin",
+          "x"
+        ],
+        "x": [
+          "n"
+        ]
+      },
+      "matched_null_bits": 19.295102826730126,
+      "null_minus_real_bits": 4.220413111664081
+    },
+    {
+      "key": "eiaurttstnmsctlpioedsbcxfqgvm",
+      "training_objective": -342667.665422689,
+      "symbols": 29,
+      "training_chars": 23974,
+      "quadgrams": 21313,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -360576.673058561,
+        -352927.670344761,
+        -365893.787568408,
+        -381380.474778148,
+        -372437.596209213,
+        -352720.846542834,
+        -358888.686070935,
+        -342667.665422689
+      ],
+      "case": "voynich_latin_B_COMPOSED_reverse",
+      "language": "latin",
+      "seconds": 1.92,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23974,
+        "quadgrams": 21313,
+        "bits_per_quadgram": 14.613715433104282,
+        "output_unigram_entropy": 3.2877289603792734,
+        "output_distinct_letters": 20,
+        "kl_to_model_bits": 0.3254103236519882
+      },
+      "test_metrics": {
+        "chars": 22905,
+        "quadgrams": 20934,
+        "bits_per_quadgram": 14.809640047109797,
+        "output_unigram_entropy": 3.2834472666584418,
+        "output_distinct_letters": 20,
+        "kl_to_model_bits": 0.31291935598557774
+      },
+      "candidate_preview_NON_TRANSLATION": "rstursm\ncurarsstaresmiarbtiisinartisaarixarspest\nourtumitumituminturtitimiartutinartutiatestutinaresma\nutaareetesariastincursestursaresaretinatesacut\nlcutusaeetsareesturcuticulcututiaetescum\numitutintutesturstumituticutitticumicutitiup\ntuticurcuticutitutesararestarisaeema\naeeetitututicuteescuticulistur\ncurtutum\nltiraedtura\nlgcutuates\narourarst\narsturtumi\nousoumiouma\naraestur\natar\nratiare\naroutartuti\nturarstutim\nrstutin\naresarimi\nturtrirareta\ncutiarisarsm\nttutiraes\naramarad\naratestuta\nartiarsarstuticutituriesa\narstuti\naticuraremtiaresarssesarsm\ntutities\ntutiparsars\nasaretitutiastiareetaeestutur\narcur\natuticutur\naestitistiutstitiscutitul\ncutu\narturtuti\natutiareetitiicuritaestituist\noutiaeettutum\nlturetirsptislespaarrsassespusarespiareemicurp\nrstinaretitutinareetinaretitutitureetinaetestiul\naesaresaeetesaristiieesleetinardarusaresta\ntaeminturarutatiexstureminaresarsareminars\naturitaretiarie",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "a",
+        "d",
+        "k",
+        "l",
+        "ch",
+        "r",
+        "q",
+        "t",
+        "sh",
+        "iin",
+        "in",
+        "s",
+        "p",
+        "i",
+        "m",
+        "ckh",
+        "cth",
+        "f",
+        "h",
+        "iiin",
+        "cph",
+        "n",
+        "g",
+        "c",
+        "cfh",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 77606,
+        "units_retained": 77018,
+        "breaks": 588
+      },
+      "test_coverage": {
+        "units_total": 23129,
+        "units_retained": 22976,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "y"
+        ],
+        "b": [
+          "h"
+        ],
+        "c": [
+          "iin",
+          "iiin"
+        ],
+        "d": [
+          "cth"
+        ],
+        "e": [
+          "e",
+          "ckh"
+        ],
+        "f": [
+          "n"
+        ],
+        "g": [
+          "c"
+        ],
+        "i": [
+          "o",
+          "i"
+        ],
+        "l": [
+          "s"
+        ],
+        "m": [
+          "t",
+          "x"
+        ],
+        "n": [
+          "q"
+        ],
+        "o": [
+          "m"
+        ],
+        "p": [
+          "p"
+        ],
+        "q": [
+          "g"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "ch",
+          "sh",
+          "f"
+        ],
+        "t": [
+          "k",
+          "l",
+          "r",
+          "in"
+        ],
+        "u": [
+          "a"
+        ],
+        "v": [
+          "cfh"
+        ],
+        "x": [
+          "cph"
+        ]
+      },
+      "matched_null_bits": 19.020712685287798,
+      "null_minus_real_bits": 4.211072638178001
+    },
+    {
+      "key": "etaoicasrlranidlmvu",
+      "training_objective": -328143.25808752,
+      "symbols": 19,
+      "training_chars": 23992,
+      "quadgrams": 20596,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -332501.063119742,
+        -347559.259560376,
+        -328143.25808752,
+        -361881.002505323,
+        -338754.391272839,
+        -369928.607202109,
+        -347809.755223868,
+        -342737.235481981
+      ],
+      "case": "voynich_italian_A_EVA_forward",
+      "language": "italian",
+      "seconds": 1.71,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23992,
+        "quadgrams": 20596,
+        "bits_per_quadgram": 14.281139454443926,
+        "output_unigram_entropy": 3.3055612248487876,
+        "output_distinct_letters": 14,
+        "kl_to_model_bits": 0.3543776038241216
+      },
+      "test_metrics": {
+        "chars": 11689,
+        "quadgrams": 10135,
+        "bits_per_quadgram": 14.550348211532167,
+        "output_unigram_entropy": 3.280731102960289,
+        "output_distinct_letters": 14,
+        "kl_to_model_bits": 0.36269125437627886
+      },
+      "candidate_preview_NON_TRANSLATION": "vaatoaolararanacciateratero\nriaoleraterso\naeroaltarerolacratnacciataraaiantarantarsai\naoaccratiloerolacciatesantearoantiasaracciao\naeccieniioenie\nrerenoantcarsaccielaccierelai\naacroatiarantaccialtaravtacci\nosaracato\nesara\noateralteoeosarataavteacciatesaro\noatioatesoelateoenaterateantoeaatosaciaterlea\nsacciateaavterateso\nsacieanieso\nosacialtiaaccieraaltioonaciateatoaltesaria\nelatelateoenacrcienierelaiatesaciaaltiosacci\nateoaltiolesaccialtoaltesaccraantioateersacis\nsaciecciateresacciatesaciatsoel\niantoles\nsacciataltioalierataratiolerateraterleratar\nateateratesailatolatoseratesacciateleiam\noatenatioatilaciatielatersososantosac\noneateratilesatioaltiarosaracisacialtosa\nsataratantaccielaccratio\nneranterasreane\natelateratiosacialtio\nenersaccci\nalteatacciatelatiioaternatesiiaoatiolosiioataresar\noseciatersaciantarsaratiarlaccisaratioantar\nelacciateaccielersaccivarantersacciantersar\noatiioeliioelo",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "EVA",
+      "symbols_ordered": [
+        "o",
+        "h",
+        "c",
+        "y",
+        "e",
+        "i",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "s",
+        "t",
+        "n",
+        "q",
+        "p",
+        "m",
+        "f",
+        "g"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 42871,
+        "units_retained": 42143,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 11999,
+        "units_retained": 11769,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "c",
+          "a",
+          "s"
+        ],
+        "c": [
+          "i"
+        ],
+        "d": [
+          "q"
+        ],
+        "e": [
+          "o"
+        ],
+        "i": [
+          "e",
+          "n"
+        ],
+        "l": [
+          "k",
+          "p"
+        ],
+        "m": [
+          "m"
+        ],
+        "n": [
+          "t"
+        ],
+        "o": [
+          "y"
+        ],
+        "r": [
+          "l",
+          "r"
+        ],
+        "s": [
+          "d"
+        ],
+        "t": [
+          "h"
+        ],
+        "u": [
+          "g"
+        ],
+        "v": [
+          "f"
+        ]
+      },
+      "matched_null_bits": 19.436266855572992,
+      "null_minus_real_bits": 4.885918644040824
+    },
+    {
+      "key": "inoaaserdlmetecvpgu",
+      "training_objective": -326074.635216967,
+      "symbols": 19,
+      "training_chars": 23992,
+      "quadgrams": 20596,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -333716.739145877,
+        -328118.762110635,
+        -326633.784668258,
+        -346370.426183855,
+        -326633.784668258,
+        -326074.635216967,
+        -360034.433794139,
+        -327699.849775974
+      ],
+      "case": "voynich_italian_A_EVA_reverse",
+      "language": "italian",
+      "seconds": 2.02,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23992,
+        "quadgrams": 20596,
+        "bits_per_quadgram": 14.707848313671143,
+        "output_unigram_entropy": 3.476392194442718,
+        "output_distinct_letters": 16,
+        "kl_to_model_bits": 0.24124490818393526
+      },
+      "test_metrics": {
+        "chars": 11689,
+        "quadgrams": 10135,
+        "bits_per_quadgram": 15.034926928344886,
+        "output_unigram_entropy": 3.4329689846086326,
+        "output_distinct_letters": 16,
+        "kl_to_model_bits": 0.2565194290343303
+      },
+      "candidate_preview_NON_TRANSLATION": "aminedineessetemedelaeanoeg\nardinemilaeam\neermentomentoaeemeneessetnomselamimenloamie\naeessemereantoameintorineesselamialanemsseae\niatiaaatiessie\neelimiesseliessermesntoatidim\nessengomenvoessentomeanoamsee\nanesemera\nomeri\namerineesseingoenemeraiainvodinea\neilminoeseranoeiantoinodinotiainoliarineaanea\narinedingoeineesser\nariateieser\neaderinvoaneineesetaaanvoediesseeanvoesera\nesseraanloeeserineeelidiatiesmsetiainelineli\nreserdiineaantoedsserinvoanvoesserilaanloaine\nliarnoeserinoesseridinoessieser\nrilantoe\ndenomildinodinodilaanemenomialoaanloneesser\npeailineesserinomiranolaneleerinedinoine\nserantorarardinevianeeselanoaanotinoa\neranloeseresemeradeanvoaanerilanedineita\naanomsseliessentonemenor\nitoidredintodit\naanloeseraanominoline\nessserditi\nmerimenoaaaravaaneaeaarinetdinoaaanolineesseneinvo\nmentoaanemeresselmeanemerdentoeserdinoesira\nmerdintoesserdintomegesserdiliesseineesseli\niesselilaanoli",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "EVA",
+      "symbols_ordered": [
+        "o",
+        "h",
+        "c",
+        "y",
+        "e",
+        "i",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "s",
+        "t",
+        "n",
+        "q",
+        "p",
+        "m",
+        "f",
+        "g"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 42871,
+        "units_retained": 42143,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 11999,
+        "units_retained": 11769,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "y",
+          "e"
+        ],
+        "c": [
+          "q"
+        ],
+        "d": [
+          "l"
+        ],
+        "e": [
+          "a",
+          "s",
+          "n"
+        ],
+        "g": [
+          "f"
+        ],
+        "i": [
+          "o"
+        ],
+        "l": [
+          "k"
+        ],
+        "m": [
+          "r"
+        ],
+        "n": [
+          "h"
+        ],
+        "o": [
+          "c"
+        ],
+        "p": [
+          "m"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "i"
+        ],
+        "t": [
+          "t"
+        ],
+        "u": [
+          "g"
+        ],
+        "v": [
+          "p"
+        ]
+      },
+      "matched_null_bits": 19.133735595943662,
+      "null_minus_real_bits": 4.098808667598776
+    },
+    {
+      "key": "eaitocrlnsnidmplvgsrusfuhrbr",
+      "training_objective": -317975.265387429,
+      "symbols": 28,
+      "training_chars": 23964,
+      "quadgrams": 19995,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -317975.265387429,
+        -325376.215024264,
+        -331245.011339912,
+        -320083.440694053,
+        -362290.671696772,
+        -318865.30587947,
+        -355281.337118835,
+        -319549.783099324
+      ],
+      "case": "voynich_italian_A_COMPOSED_forward",
+      "language": "italian",
+      "seconds": 2.64,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23964,
+        "quadgrams": 19995,
+        "bits_per_quadgram": 15.180151217431352,
+        "output_unigram_entropy": 3.5745814271244165,
+        "output_distinct_letters": 19,
+        "kl_to_model_bits": 0.1507275683826995
+      },
+      "test_metrics": {
+        "chars": 9218,
+        "quadgrams": 7715,
+        "bits_per_quadgram": 15.476477119462963,
+        "output_unigram_entropy": 3.5697361534898655,
+        "output_distinct_letters": 19,
+        "kl_to_model_bits": 0.16594914867054936
+      },
+      "candidate_preview_NON_TRANSLATION": "foiamaloronosonieriena\nntmalenierca\nmenasonenalognisonionomtponponcor\nmaoggnitlaenaloniecpeonaptmcononma\nmenesttaeste\nneresapgonconelonenelor\nmognaitonponsonbon\naconogia\neconu\naierseaeaconimbeoniecona\naitaiecaelieaesieriepaemiacorienlem\nconiemberieca\ncoremsteca\nacorstmonermstaasorieiasecortm\nelielieaesognrestereloriecormstacon\nieastaleconsasecoggrmptaieercorc\ncoreniereconiecoricael\nrpalec\nconistaultenionitalerierierlenior\nieieriecorlialiacenieconieletol\naiesitaitloriteviercacacpacog\naseieritlecitastoraconorcorsacm\ncioniponeloggnita\nserpermcreuse\nielienitacorsta\nesercor\nseionielittaiersiecttmaitavacttaionecon\naceriercorporconitonlonconitapon\nelonieonelerconfonperconpercon\naittaelttaelaconelitalelone\nierl\nciacor\nciteiecaleitapaelitalttalttacorisen\nierieliesaiesta\ncion\nlimaiaconer\nersitaionbonol\nasttaioneneia\ncierlecaeleconieca\ncosasesaia\nclittapalesiecacor\ncerieltecogncol\nmeitaieleca\nvesea",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "o",
+        "y",
+        "ch",
+        "e",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "t",
+        "iin",
+        "sh",
+        "q",
+        "s",
+        "cth",
+        "m",
+        "p",
+        "i",
+        "ckh",
+        "in",
+        "h",
+        "cph",
+        "f",
+        "c",
+        "g",
+        "n",
+        "cfh",
+        "iiin"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 34855,
+        "units_retained": 34127,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 9564,
+        "units_retained": 9334,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "y"
+        ],
+        "b": [
+          "cfh"
+        ],
+        "c": [
+          "d"
+        ],
+        "d": [
+          "q"
+        ],
+        "e": [
+          "o"
+        ],
+        "f": [
+          "f"
+        ],
+        "g": [
+          "i"
+        ],
+        "h": [
+          "g"
+        ],
+        "i": [
+          "ch",
+          "sh"
+        ],
+        "l": [
+          "k",
+          "m"
+        ],
+        "m": [
+          "s"
+        ],
+        "n": [
+          "r",
+          "iin"
+        ],
+        "o": [
+          "a"
+        ],
+        "p": [
+          "cth"
+        ],
+        "r": [
+          "l",
+          "in",
+          "n",
+          "iiin"
+        ],
+        "s": [
+          "t",
+          "ckh",
+          "cph"
+        ],
+        "t": [
+          "e"
+        ],
+        "u": [
+          "h",
+          "c"
+        ],
+        "v": [
+          "p"
+        ]
+      },
+      "matched_null_bits": 19.348878432113782,
+      "null_minus_real_bits": 3.872401312650819
+    },
+    {
+      "key": "iealortsdmcannnpvulcgsfahgnp",
+      "training_objective": -320144.501058854,
+      "symbols": 28,
+      "training_chars": 23964,
+      "quadgrams": 19995,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -324778.121782282,
+        -350090.588959006,
+        -320366.413113896,
+        -346764.956278176,
+        -339163.150426145,
+        -320144.501058854,
+        -328780.911291579,
+        -320490.629460954
+      ],
+      "case": "voynich_italian_A_COMPOSED_reverse",
+      "language": "italian",
+      "seconds": 3.73,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23964,
+        "quadgrams": 19995,
+        "bits_per_quadgram": 15.214088023127106,
+        "output_unigram_entropy": 3.6041160704989514,
+        "output_distinct_letters": 18,
+        "kl_to_model_bits": 0.16627869967901865
+      },
+      "test_metrics": {
+        "chars": 9218,
+        "quadgrams": 7715,
+        "bits_per_quadgram": 15.26368050009089,
+        "output_unigram_entropy": 3.583336791097774,
+        "output_distinct_letters": 18,
+        "kl_to_model_bits": 0.1771848604669906
+      },
+      "candidate_preview_NON_TRANSLATION": "ediatiacomodotoseneaof\nertiadisenld\ngordondonlnodoacomaduosedidoledin\nencodornlnedoinriacosediesladuuoen\nilmiellmicin\ngosidicosicordounemitid\ncondoscondolaeduon\neauodore\nadori\nedoriacoinnadoreieistiae\nnisdiacoreanieniatiamieiasieriaelae\neriatinniacor\nerilmnicor\nnltoriseaiacomeelsnticonlscore\ncorellncoriagositilmicduomieiasiasi\nrcortiiaelnntuuorisescoriselleia\nsieracoriacoritiacicor\nriseng\ntoadistiatiatiseladoadilsaellacor\npolisiacoriadireaseasgoriatiaia\nuorenrerertiavilacoslaelamiae\nnrelcorcodoretolselarislatiaime\neladuuosiconadoar\nimaitrntintim\nellcoreladiasia\nportimi\ndoridoaellrevelaenllriamtiaellasiacoais\ndoneladorcosdoladortoncortiacire\ndortincortindofcortisicoiacosi\nicosiselasicoresiellsiellae\nstia\ntorear\ndimatorellsellselasienelaiseriailar\nelmiaemiasiatia\ncoar\nticoreaenas\npodondoaelamti\neaididoaellme\neriadorisieristiar\neaelilelor\ntoreriamisenellasr\nporduorilsiatir\nerisiaelain\ntoisd",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "o",
+        "y",
+        "ch",
+        "e",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "t",
+        "iin",
+        "sh",
+        "q",
+        "s",
+        "cth",
+        "m",
+        "p",
+        "i",
+        "ckh",
+        "in",
+        "h",
+        "cph",
+        "f",
+        "c",
+        "g",
+        "n",
+        "cfh",
+        "iiin"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 34855,
+        "units_retained": 34127,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 9564,
+        "units_retained": 9334,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "ch",
+          "sh",
+          "c"
+        ],
+        "c": [
+          "iin",
+          "in"
+        ],
+        "d": [
+          "r"
+        ],
+        "e": [
+          "y"
+        ],
+        "f": [
+          "f"
+        ],
+        "g": [
+          "h",
+          "n"
+        ],
+        "h": [
+          "g"
+        ],
+        "i": [
+          "o"
+        ],
+        "l": [
+          "e",
+          "ckh"
+        ],
+        "m": [
+          "t"
+        ],
+        "n": [
+          "q",
+          "s",
+          "cth",
+          "cfh"
+        ],
+        "o": [
+          "a"
+        ],
+        "p": [
+          "m",
+          "iiin"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "k",
+          "cph"
+        ],
+        "t": [
+          "l"
+        ],
+        "u": [
+          "i"
+        ],
+        "v": [
+          "p"
+        ]
+      },
+      "matched_null_bits": 19.336515078548143,
+      "null_minus_real_bits": 4.072834578457252
+    },
+    {
+      "key": "eoitirasandclamlpvgu",
+      "training_objective": -345121.193066889,
+      "symbols": 20,
+      "training_chars": 23994,
+      "quadgrams": 21648,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -347598.159795833,
+        -363412.490416946,
+        -349385.275749782,
+        -378134.322636716,
+        -345121.193066889,
+        -345941.197799499,
+        -366483.934761424,
+        -353449.448392628
+      ],
+      "case": "voynich_italian_B_EVA_forward",
+      "language": "italian",
+      "seconds": 1.64,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23994,
+        "quadgrams": 21648,
+        "bits_per_quadgram": 14.73360222099899,
+        "output_unigram_entropy": 3.3886049239793476,
+        "output_distinct_letters": 16,
+        "kl_to_model_bits": 0.27265329026741053
+      },
+      "test_metrics": {
+        "chars": 26770,
+        "quadgrams": 24793,
+        "bits_per_quadgram": 14.716414361880679,
+        "output_unigram_entropy": 3.3980718799736636,
+        "output_distinct_letters": 16,
+        "kl_to_model_bits": 0.25644035319310104
+      },
+      "candidate_preview_NON_TRANSLATION": "matridatr\ndatelatrialtoriivonricovoastriomaterinvatririaal\nimatericosidatesiosinricosinriomodonridcomidomidomidrip\nniaaliatesicoseriateriatrinateatriaalcosatioriateseeriisi\nmiaalateseiodiniaaalaiaalosiaalridateeriatseeividiaala\nliadodiaalomiaalonsodiaalosinominatrinatesincosidomi\nimeeiatorisateririatesidosiaalosiaalriaalosin\nridatoaiaalodiaalateesiaalosialidoseeei\nmididriaal\nirialamteirona\natesiidiaalaa\nsatriripri\nominrialatri\nimipomipatip\nridatastiri\nrisi\nastriosir\nosidrisipri\nmosidatririn\ncosidatr\nomoriateri\niserirornrial\nmatriatoriosiaal\natastirodidn\namtirimiri\nisidatesiri\niateoridoniaalosidatriatrionri\nosidatri\nmatriatevatriatastrionmeririaalosi\nateonodial\natriatrilodid\nrididateeiseeriosatiosidoseriati\nriaalri\nridiaalosidi\naidodiaalatododatsiadatonodatasti\nidiaal\nosialrinri\nnatoidodateinoriaaloodoseeriosini\nmidinseeiodip\nlriaalomeeriolateriatilatevatiatrriilateaatonlatroserina\naiadat",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "EVA",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "h",
+        "a",
+        "d",
+        "i",
+        "k",
+        "c",
+        "l",
+        "r",
+        "q",
+        "n",
+        "s",
+        "t",
+        "p",
+        "m",
+        "f",
+        "g",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 91183,
+        "units_retained": 90596,
+        "breaks": 587
+      },
+      "test_coverage": {
+        "units_total": 26992,
+        "units_retained": 26839,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "i",
+          "c",
+          "s"
+        ],
+        "c": [
+          "q"
+        ],
+        "d": [
+          "r"
+        ],
+        "e": [
+          "e"
+        ],
+        "g": [
+          "g"
+        ],
+        "i": [
+          "y",
+          "a"
+        ],
+        "l": [
+          "n",
+          "p"
+        ],
+        "m": [
+          "t"
+        ],
+        "n": [
+          "l"
+        ],
+        "o": [
+          "o"
+        ],
+        "p": [
+          "m"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "k"
+        ],
+        "t": [
+          "h"
+        ],
+        "u": [
+          "x"
+        ],
+        "v": [
+          "f"
+        ]
+      },
+      "matched_null_bits": 19.347234444865343,
+      "null_minus_real_bits": 4.630820082984664
+    },
+    {
+      "key": "eioaertlldscanmpvufg",
+      "training_objective": -345858.885617997,
+      "symbols": 20,
+      "training_chars": 23994,
+      "quadgrams": 21648,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -352892.163957176,
+        -350049.702218639,
+        -354801.317727985,
+        -358224.451449188,
+        -345858.885617997,
+        -363834.873080692,
+        -360970.96595132,
+        -355288.624086247
+      ],
+      "case": "voynich_italian_B_EVA_reverse",
+      "language": "italian",
+      "seconds": 2.6,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23994,
+        "quadgrams": 21648,
+        "bits_per_quadgram": 14.806367343565212,
+        "output_unigram_entropy": 3.434374365185916,
+        "output_distinct_letters": 17,
+        "kl_to_model_bits": 0.2639268709312729
+      },
+      "test_metrics": {
+        "chars": 26770,
+        "quadgrams": 24793,
+        "bits_per_quadgram": 15.032425984124979,
+        "output_unigram_entropy": 3.4191672063197176,
+        "output_distinct_letters": 17,
+        "kl_to_model_bits": 0.2739149188183231
+      },
+      "candidate_preview_NON_TRANSLATION": "ranseranm\natteroraludorealmioraltiuicordiuooriaploralpeans\nversemisemisemicserdisimiordelicordeliolealselicorealmo\nelooreelealorioallicatteralealderaloreanorelicolealoatted\nnatteseuoeelaloreealseratteliattenatttedesioelealattem\nemiselicdeleanderaldemideliattesildiattemiattesistep\ndeliatteratteliatteliselealororeallorianoeemo\noeeeliseateliatteleealattesiattenialser\nattersesem\nndiroeamlatero\nnlatteseolean\norverorall\noralaterdemi\nvealvemivemo\noroallalser\nolor\nroliorall\norvelorseli\nderoranselim\nranselic\norealorimi\naterdrirorelo\natteliorialoralm\ndsesiroallal\noromoroaml\norolealselo\nordioraloralseliattediseriealo\noralseli\noliatteroremdiorallanoralueanoranm\natesidieal\nsesiporanoral\noaloreliselioallioreeloeeanseser\noratter\noseliatteser\noallalsidianstelansisialattesisen\nattese\norderateli\nodelioreelisiiatteridoealsiseiald\nvesioeeldesem\nndereliralpdialnealpoorranoaluealpealorealpioreemiatterp\nranlic",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "EVA",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "h",
+        "a",
+        "d",
+        "i",
+        "k",
+        "c",
+        "l",
+        "r",
+        "q",
+        "n",
+        "s",
+        "t",
+        "p",
+        "m",
+        "f",
+        "g",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 91183,
+        "units_retained": 90596,
+        "breaks": 587
+      },
+      "test_coverage": {
+        "units_total": 26992,
+        "units_retained": 26839,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "h",
+          "n"
+        ],
+        "c": [
+          "q"
+        ],
+        "d": [
+          "l"
+        ],
+        "e": [
+          "e",
+          "a"
+        ],
+        "f": [
+          "g"
+        ],
+        "g": [
+          "x"
+        ],
+        "i": [
+          "o"
+        ],
+        "l": [
+          "k",
+          "c"
+        ],
+        "m": [
+          "t"
+        ],
+        "n": [
+          "s"
+        ],
+        "o": [
+          "y"
+        ],
+        "p": [
+          "p"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "r"
+        ],
+        "t": [
+          "i"
+        ],
+        "u": [
+          "f"
+        ],
+        "v": [
+          "m"
+        ]
+      },
+      "matched_null_bits": 19.34083700793872,
+      "null_minus_real_bits": 4.308411023813742
+    },
+    {
+      "key": "eiaorsntndmcllpliguvshlffzqbu",
+      "training_objective": -335585.916937551,
+      "symbols": 29,
+      "training_chars": 23974,
+      "quadgrams": 21313,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -335585.916937551,
+        -355762.465645652,
+        -354042.85723242,
+        -359659.053956913,
+        -361690.260475349,
+        -338355.896904845,
+        -349400.641004191,
+        -359350.208296345
+      ],
+      "case": "voynich_italian_B_COMPOSED_forward",
+      "language": "italian",
+      "seconds": 2.82,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23974,
+        "quadgrams": 21313,
+        "bits_per_quadgram": 15.012282011860401,
+        "output_unigram_entropy": 3.5887851032467344,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.16298021209200392
+      },
+      "test_metrics": {
+        "chars": 22905,
+        "quadgrams": 20934,
+        "bits_per_quadgram": 15.207332464955762,
+        "output_unigram_entropy": 3.566223633692895,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.17104319786887698
+      },
+      "candidate_preview_NON_TRANSLATION": "mcroncr\nnceltrafiraasinradisiishraimteranstrarol\namteradisontesaisonradisonraimininrondimonimonimonrog\nnolatesadiseraceratrontetroldistairateseeraaso\nmolteseainonolpolisolronteeratseeasonolp\nloininolimolinsinolisonimontroncesondisonimo\nameeacirasteraratesonisolisolrolison\nrontipolinolteesolisoloniseeea\nmononrol\narolvearinp\ncesaonolqp\nstrarogra\nimonroltra\namogimogtog\nrontuara\nrasa\nuraisar\nisonrasogra\nmisoncraron\ndisoncr\nimiratera\naserarirnrol\nmtratiraisol\ntuarinonn\nvaramara\nasontesara\nateironinolisontratrainra\nisontra\nmcracestracurainmerarolisa\nteininol\ntracralinon\nrononceeaseeraistaisoniserata\nrolra\nronolisona\nponinoltinincsoincinintua\nonol\nisolronra\nntioninteaniroliiniseeraisona\nmononseeainog\nlrolimeerailteratoltestacrraalteptinltriseronp\npoinceseadiseeronisoniseradiseeradisoniseradiscr\nasceratoravradiseepteeiistirateseeateratua\ncradimeratrateradimerontfeinasorarondimeas\ndiseeiradiseira",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "a",
+        "d",
+        "k",
+        "l",
+        "ch",
+        "r",
+        "q",
+        "t",
+        "sh",
+        "iin",
+        "in",
+        "s",
+        "p",
+        "i",
+        "m",
+        "ckh",
+        "cth",
+        "f",
+        "h",
+        "iiin",
+        "cph",
+        "n",
+        "g",
+        "c",
+        "cfh",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 77606,
+        "units_retained": 77018,
+        "breaks": 588
+      },
+      "test_coverage": {
+        "units_total": 23129,
+        "units_retained": 22976,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "y"
+        ],
+        "b": [
+          "cfh"
+        ],
+        "c": [
+          "sh"
+        ],
+        "d": [
+          "q"
+        ],
+        "e": [
+          "e"
+        ],
+        "f": [
+          "cph",
+          "n"
+        ],
+        "g": [
+          "m"
+        ],
+        "h": [
+          "h"
+        ],
+        "i": [
+          "o",
+          "i"
+        ],
+        "l": [
+          "iin",
+          "in",
+          "p",
+          "iiin"
+        ],
+        "m": [
+          "t"
+        ],
+        "n": [
+          "l",
+          "r"
+        ],
+        "o": [
+          "a"
+        ],
+        "p": [
+          "s"
+        ],
+        "q": [
+          "c"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "k",
+          "f"
+        ],
+        "t": [
+          "ch"
+        ],
+        "u": [
+          "ckh",
+          "x"
+        ],
+        "v": [
+          "cth"
+        ],
+        "z": [
+          "g"
+        ]
+      },
+      "matched_null_bits": 19.451262426500705,
+      "null_minus_real_bits": 4.243929961544943
+    },
+    {
+      "key": "aieorstlcndncpmvhulgfqtluzuba",
+      "training_objective": -333860.276863656,
+      "symbols": 29,
+      "training_chars": 23974,
+      "quadgrams": 21313,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -356738.133018549,
+        -333860.276863656,
+        -365914.15032543,
+        -358747.350997656,
+        -352370.157620223,
+        -359038.049007463,
+        -366540.138761007,
+        -339574.74975871
+      ],
+      "case": "voynich_italian_B_COMPOSED_reverse",
+      "language": "italian",
+      "seconds": 2.79,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23974,
+        "quadgrams": 21313,
+        "bits_per_quadgram": 15.05730280590681,
+        "output_unigram_entropy": 3.621114012079034,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.13497937517067018
+      },
+      "test_metrics": {
+        "chars": 22905,
+        "quadgrams": 20934,
+        "bits_per_quadgram": 15.273980048410591,
+        "output_unigram_entropy": 3.610596666018705,
+        "output_distinct_letters": 21,
+        "kl_to_model_bits": 0.13858870930117173
+      },
+      "candidate_preview_NON_TRANSLATION": "rncornd\ncorerlfteraldierqshifinertifeerilerlvanc\nuorcodicodicodincorticidiertosinertosiesalcosineralde\noseeraasalerielsincorlaltorleranerasinesalecot\nmcocofeaasleraalcorcosicomtotocieasalcod\nodicosintosantorltoditosicocisticodicocichov\ntosicorcosicosicosalereralserineaade\neaaasicoposicosaalcocicomilcor\ncorcocod\nmtireagpore\nmucocoesan\neruorerls\nerlportodi\nuoluodiuode\nerellcor\neser\nresierl\neruosercosi\ntorerncosid\nrncosin\neraleridi\nportrirerase\ncosierilerld\ntcocirell\neredereg\neresalcose\nertierlerlcosicoticoriale\nerlcosi\nesicoreradtierlnerlfanernd\npocitial\ncocivernerl\nelerasicosielsieraaseaancocor\nercor\necosicocor\nellcitinchosncicilcocicom\ncoco\nertorposi\netosieraasiciicoritealcicoilt\nuocieaastocod\nmtorasirlvtilmalveerrnelfalvoleralvieraadicorv\nrnsinerasitosineraasinerasitosicoraasineasanchom\nelleraleaasalerilsiiaalmaasinergeroleranse\nseadincorerosecialltoradineralerleradinern\necoriserasieria",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "COMPOSED",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "a",
+        "d",
+        "k",
+        "l",
+        "ch",
+        "r",
+        "q",
+        "t",
+        "sh",
+        "iin",
+        "in",
+        "s",
+        "p",
+        "i",
+        "m",
+        "ckh",
+        "cth",
+        "f",
+        "h",
+        "iiin",
+        "cph",
+        "n",
+        "g",
+        "c",
+        "cfh",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 77606,
+        "units_retained": 77018,
+        "breaks": 588
+      },
+      "test_coverage": {
+        "units_total": 23129,
+        "units_retained": 22976,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "e",
+          "x"
+        ],
+        "b": [
+          "cfh"
+        ],
+        "c": [
+          "r",
+          "iin"
+        ],
+        "d": [
+          "t"
+        ],
+        "e": [
+          "y"
+        ],
+        "f": [
+          "f"
+        ],
+        "g": [
+          "cth"
+        ],
+        "h": [
+          "i"
+        ],
+        "i": [
+          "o"
+        ],
+        "l": [
+          "ch",
+          "ckh",
+          "cph"
+        ],
+        "m": [
+          "s"
+        ],
+        "n": [
+          "q",
+          "sh"
+        ],
+        "o": [
+          "a"
+        ],
+        "p": [
+          "in"
+        ],
+        "q": [
+          "h"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "k"
+        ],
+        "t": [
+          "l",
+          "iiin"
+        ],
+        "u": [
+          "m",
+          "n",
+          "c"
+        ],
+        "v": [
+          "p"
+        ],
+        "z": [
+          "g"
+        ]
+      },
+      "matched_null_bits": 19.508233418999676,
+      "null_minus_real_bits": 4.2342533705890855
+    }
+  ],
+  "best_post_hoc": {
+    "latin": {
+      "key": "aienermtisssutdcpolx",
+      "training_objective": -348586.581587947,
+      "symbols": 20,
+      "training_chars": 23994,
+      "quadgrams": 21648,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -358443.082925762,
+        -357478.127300141,
+        -349495.19440626,
+        -350056.093533118,
+        -360177.932942685,
+        -348586.581587947,
+        -359131.930019129,
+        -357708.896056083
+      ],
+      "case": "voynich_latin_B_EVA_reverse",
+      "language": "latin",
+      "seconds": 1.82,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23994,
+        "quadgrams": 21648,
+        "bits_per_quadgram": 14.407442077613158,
+        "output_unigram_entropy": 3.2134822088156647,
+        "output_distinct_letters": 15,
+        "kl_to_model_bits": 0.38232761827722217
+      },
+      "test_metrics": {
+        "chars": 26770,
+        "quadgrams": 24793,
+        "bits_per_quadgram": 14.770084903514922,
+        "output_unigram_entropy": 3.2231294930639276,
+        "output_distinct_letters": 15,
+        "kl_to_model_bits": 0.3815595592038314
+      },
+      "candidate_preview_NON_TRANSLATION": "rntserntd\nummerernioseranidierntmioisersioeerinciernicants\npersedisedisedissersisidiersetisersetietanisetiseranide\neteeraatanierienitisummernianisernieranteratisetanieummes\ntummeseoeaatnieraaniserummetiummetummmesesieataniummed\nedisetissetantsernisedisetiummesitsiummediummesismec\nsetiummerummetiummetisetaniereraniterinteaade\neaaatiseumetiummetaaniummesiummetiniser\nummersesed\ntsireandiumere\ntiummeseetant\nerperernit\nerniumersedi\npenipedipede\nerentiniser\neter\nretiernti\nerpeterseti\nsererntsetid\nrntsetis\neranieridi\numersrirerate\nummetieriniernid\nssesirentini\nerederendi\neretanisete\nersierniernisetiummesiserianie\nerniseti\netiummereradsierntinternioanterntd\numesisiani\nsesicernterni\nenieratisetienitieraateaantseser\nerummer\nesetiummeser\nentinisisintsmetntsisiniummesiset\nummese\nerserumeti\nesetieraatisiiummeriseanisiseinis\npesieaatsesed\ntseratirnicsinitaniceerrntenioanicenieranicieraadiummerc\nrnttis",
+      "objective_independently_verified": true,
+      "subset": "B",
+      "units": "EVA",
+      "symbols_ordered": [
+        "e",
+        "o",
+        "y",
+        "h",
+        "a",
+        "d",
+        "i",
+        "k",
+        "c",
+        "l",
+        "r",
+        "q",
+        "n",
+        "s",
+        "t",
+        "p",
+        "m",
+        "f",
+        "g",
+        "x"
+      ],
+      "train_leaf_pool": [
+        "f104",
+        "f105",
+        "f106",
+        "f107",
+        "f111",
+        "f112",
+        "f113",
+        "f115",
+        "f116",
+        "f26",
+        "f31",
+        "f34",
+        "f39",
+        "f40",
+        "f41",
+        "f43",
+        "f46",
+        "f48",
+        "f50",
+        "f55",
+        "f57",
+        "f75",
+        "f76",
+        "f77",
+        "f78",
+        "f80",
+        "f81",
+        "f82",
+        "f84",
+        "f85_86_foldout",
+        "f94"
+      ],
+      "test_leaves": [
+        "f103",
+        "f108",
+        "f114",
+        "f33",
+        "f66",
+        "f79",
+        "f83",
+        "f95"
+      ],
+      "training_coverage_pool": {
+        "units_total": 91183,
+        "units_retained": 90596,
+        "breaks": 587
+      },
+      "test_coverage": {
+        "units_total": 26992,
+        "units_retained": 26839,
+        "breaks": 153
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "reverse",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "e"
+        ],
+        "c": [
+          "p"
+        ],
+        "d": [
+          "t"
+        ],
+        "e": [
+          "y",
+          "a"
+        ],
+        "i": [
+          "o",
+          "c"
+        ],
+        "l": [
+          "g"
+        ],
+        "m": [
+          "i"
+        ],
+        "n": [
+          "h"
+        ],
+        "o": [
+          "f"
+        ],
+        "p": [
+          "m"
+        ],
+        "r": [
+          "d"
+        ],
+        "s": [
+          "l",
+          "r",
+          "q"
+        ],
+        "t": [
+          "k",
+          "s"
+        ],
+        "u": [
+          "n"
+        ],
+        "x": [
+          "x"
+        ]
+      },
+      "matched_null_bits": 19.55480870314012,
+      "null_minus_real_bits": 4.7847237996251994
+    },
+    "italian": {
+      "key": "etaoicasrlranidlmvu",
+      "training_objective": -328143.25808752,
+      "symbols": 19,
+      "training_chars": 23992,
+      "quadgrams": 20596,
+      "restarts": 8,
+      "steps": 60000,
+      "lambda": 4,
+      "restart_objectives": [
+        -332501.063119742,
+        -347559.259560376,
+        -328143.25808752,
+        -361881.002505323,
+        -338754.391272839,
+        -369928.607202109,
+        -347809.755223868,
+        -342737.235481981
+      ],
+      "case": "voynich_italian_A_EVA_forward",
+      "language": "italian",
+      "seconds": 1.71,
+      "temperature_multiplier": 0.002,
+      "seed": 20261028,
+      "train_metrics": {
+        "chars": 23992,
+        "quadgrams": 20596,
+        "bits_per_quadgram": 14.281139454443926,
+        "output_unigram_entropy": 3.3055612248487876,
+        "output_distinct_letters": 14,
+        "kl_to_model_bits": 0.3543776038241216
+      },
+      "test_metrics": {
+        "chars": 11689,
+        "quadgrams": 10135,
+        "bits_per_quadgram": 14.550348211532167,
+        "output_unigram_entropy": 3.280731102960289,
+        "output_distinct_letters": 14,
+        "kl_to_model_bits": 0.36269125437627886
+      },
+      "candidate_preview_NON_TRANSLATION": "vaatoaolararanacciateratero\nriaoleraterso\naeroaltarerolacratnacciataraaiantarantarsai\naoaccratiloerolacciatesantearoantiasaracciao\naeccieniioenie\nrerenoantcarsaccielaccierelai\naacroatiarantaccialtaravtacci\nosaracato\nesara\noateralteoeosarataavteacciatesaro\noatioatesoelateoenaterateantoeaatosaciaterlea\nsacciateaavterateso\nsacieanieso\nosacialtiaaccieraaltioonaciateatoaltesaria\nelatelateoenacrcienierelaiatesaciaaltiosacci\nateoaltiolesaccialtoaltesaccraantioateersacis\nsaciecciateresacciatesaciatsoel\niantoles\nsacciataltioalierataratiolerateraterleratar\nateateratesailatolatoseratesacciateleiam\noatenatioatilaciatielatersososantosac\noneateratilesatioaltiarosaracisacialtosa\nsataratantaccielaccratio\nneranterasreane\natelateratiosacialtio\nenersaccci\nalteatacciatelatiioaternatesiiaoatiolosiioataresar\noseciatersaciantarsaratiarlaccisaratioantar\nelacciateaccielersaccivarantersacciantersar\noatiioeliioelo",
+      "objective_independently_verified": true,
+      "subset": "A",
+      "units": "EVA",
+      "symbols_ordered": [
+        "o",
+        "h",
+        "c",
+        "y",
+        "e",
+        "i",
+        "a",
+        "d",
+        "l",
+        "k",
+        "r",
+        "s",
+        "t",
+        "n",
+        "q",
+        "p",
+        "m",
+        "f",
+        "g"
+      ],
+      "train_leaf_pool": [
+        "f10",
+        "f100",
+        "f101",
+        "f102",
+        "f11",
+        "f13",
+        "f14",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25",
+        "f27",
+        "f28",
+        "f3",
+        "f30",
+        "f32",
+        "f35",
+        "f36",
+        "f37",
+        "f4",
+        "f44",
+        "f45",
+        "f49",
+        "f5",
+        "f52",
+        "f53",
+        "f54",
+        "f58",
+        "f6",
+        "f7",
+        "f8",
+        "f87",
+        "f88",
+        "f9",
+        "f90",
+        "f93",
+        "f96",
+        "f99"
+      ],
+      "test_leaves": [
+        "f1",
+        "f15",
+        "f2",
+        "f24",
+        "f29",
+        "f38",
+        "f42",
+        "f47",
+        "f51",
+        "f56",
+        "f89"
+      ],
+      "training_coverage_pool": {
+        "units_total": 42871,
+        "units_retained": 42143,
+        "breaks": 728
+      },
+      "test_coverage": {
+        "units_total": 11999,
+        "units_retained": 11769,
+        "breaks": 230
+      },
+      "training_cap": 24000,
+      "explicit_variants": "hard breaks",
+      "uncertain_commas": "word boundaries before within-word composed grouping",
+      "direction": "forward",
+      "control": false,
+      "shuffled": false,
+      "decoded_symbol_groups": {
+        "a": [
+          "c",
+          "a",
+          "s"
+        ],
+        "c": [
+          "i"
+        ],
+        "d": [
+          "q"
+        ],
+        "e": [
+          "o"
+        ],
+        "i": [
+          "e",
+          "n"
+        ],
+        "l": [
+          "k",
+          "p"
+        ],
+        "m": [
+          "m"
+        ],
+        "n": [
+          "t"
+        ],
+        "o": [
+          "y"
+        ],
+        "r": [
+          "l",
+          "r"
+        ],
+        "s": [
+          "d"
+        ],
+        "t": [
+          "h"
+        ],
+        "u": [
+          "g"
+        ],
+        "v": [
+          "f"
+        ]
+      },
+      "matched_null_bits": 19.436266855572992,
+      "null_minus_real_bits": 4.885918644040824
+    }
+  },
+  "verification": "PASS",
+  "matched_nulls": 16,
+  "all_16_real_better_than_matched_null": true,
+  "calibration_changes": [],
+  "assumptions": "Currier A/B separate keys; 24k fit cap; grouped leaf test; unknown glyph variants hard breaks; reverse means each retained span reversed, not manuscript page order."
+}

@@ -1,0 +1,4103 @@
+{
+  "seed": 13011,
+  "steps": 5000,
+  "annealers": 8,
+  "energy": 29.350089676405464,
+  "state": [
+    9,
+    32,
+    7,
+    5,
+    33,
+    34,
+    30,
+    18,
+    31,
+    17,
+    20,
+    24,
+    11,
+    3,
+    22,
+    1,
+    0,
+    2,
+    28,
+    35,
+    26,
+    29,
+    6,
+    15,
+    13,
+    21,
+    23,
+    19,
+    12,
+    4,
+    27,
+    14,
+    16,
+    10,
+    8,
+    25
+  ],
+  "mapping": {
+    "a": [
+      "a"
+    ],
+    "d": [
+      "n"
+    ],
+    "e": [
+      "b"
+    ],
+    "i": [
+      "l"
+    ],
+    "k": [
+      "p"
+    ],
+    "l": [
+      "m"
+    ],
+    "m": [
+      "g"
+    ],
+    "n": [
+      "x"
+    ],
+    "o": [
+      "e",
+      "u"
+    ],
+    "q": [
+      "q"
+    ],
+    "r": [
+      "c",
+      "t"
+    ],
+    "s": [
+      "f"
+    ],
+    "t": [
+      "o"
+    ],
+    "y": [
+      "i"
+    ],
+    "": [
+      "r"
+    ],
+    "": [
+      "h"
+    ],
+    "": [
+      "s"
+    ],
+    "": [
+      "d"
+    ]
+  },
+  "evaluations": 40009,
+  "trace": [
+    {
+      "step": 1000,
+      "best_energy": 30.405378831694623,
+      "seconds": 11.783464546002506
+    },
+    {
+      "step": 2000,
+      "best_energy": 29.432037845195737,
+      "seconds": 23.699341711006127
+    },
+    {
+      "step": 3000,
+      "best_energy": 29.432037845195737,
+      "seconds": 35.09838797100383
+    },
+    {
+      "step": 4000,
+      "best_energy": 29.432037845195737,
+      "seconds": 45.75072651300434
+    },
+    {
+      "step": 5000,
+      "best_energy": 29.350089676405464,
+      "seconds": 56.39473872700182
+    }
+  ],
+  "seconds": 56.39697881200118,
+  "matches": [
+    {
+      "source": [
+        "aiin"
+      ],
+      "target": [
+        "illi"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ar"
+      ],
+      "target": [
+        "ac"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "daiin"
+      ],
+      "target": [
+        "gallia"
+      ],
+      "cost": 0.42857142857142855
+    },
+    {
+      "source": [
+        "dain"
+      ],
+      "target": [
+        "naues"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "dair"
+      ],
+      "target": [
+        "haec"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "dal"
+      ],
+      "target": [
+        "nam"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "dam"
+      ],
+      "target": [
+        "non"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "dar"
+      ],
+      "target": [
+        "hac"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "do"
+      ],
+      "target": [
+        "ne"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "dol"
+      ],
+      "target": [
+        "unum"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "dor"
+      ],
+      "target": [
+        "nec"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "dy"
+      ],
+      "target": [
+        "enim"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "dol"
+      ],
+      "target": [
+        "suam"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "dor"
+      ],
+      "target": [
+        "est"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "dy"
+      ],
+      "target": [
+        "nisi"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "dor"
+      ],
+      "target": [
+        "aut"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "kol"
+      ],
+      "target": [
+        "per"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "kol"
+      ],
+      "target": [
+        "passuum"
+      ],
+      "cost": 0.42857142857142855
+    },
+    {
+      "source": [
+        "kor"
+      ],
+      "target": [
+        "posset"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "ky"
+      ],
+      "target": [
+        "ipse"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "oaiin"
+      ],
+      "target": [
+        "eadem"
+      ],
+      "cost": 0.46153846153846156
+    },
+    {
+      "source": [
+        "odaiin"
+      ],
+      "target": [
+        "una"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "okaiin"
+      ],
+      "target": [
+        "paulo"
+      ],
+      "cost": 0.42857142857142855
+    },
+    {
+      "source": [
+        "okal"
+      ],
+      "target": [
+        "eam"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "okol"
+      ],
+      "target": [
+        "eum"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "oky"
+      ],
+      "target": [
+        "uti"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "okor"
+      ],
+      "target": [
+        "esset"
+      ],
+      "cost": 0.18181818181818182
+    },
+    {
+      "source": [
+        "oky"
+      ],
+      "target": [
+        "esse"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ol"
+      ],
+      "target": [
+        "tum"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "or"
+      ],
+      "target": [
+        "et"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "otaiin"
+      ],
+      "target": [
+        "populi"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "otal"
+      ],
+      "target": [
+        "etiam"
+      ],
+      "cost": 0.36363636363636365
+    },
+    {
+      "source": [
+        "otol"
+      ],
+      "target": [
+        "eorum"
+      ],
+      "cost": 0.2
+    },
+    {
+      "source": [
+        "otor"
+      ],
+      "target": [
+        "eius"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "oty"
+      ],
+      "target": [
+        "eo"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "otol"
+      ],
+      "target": [
+        "eodem"
+      ],
+      "cost": 0.18181818181818182
+    },
+    {
+      "source": [
+        "otor"
+      ],
+      "target": [
+        "essent"
+      ],
+      "cost": 0.3076923076923077
+    },
+    {
+      "source": [
+        "oty"
+      ],
+      "target": [
+        "eos"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "qodaiin"
+      ],
+      "target": [
+        "belli"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "qokaiin"
+      ],
+      "target": [
+        "bello"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "qokeey"
+      ],
+      "target": [
+        "quibus"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "qokol"
+      ],
+      "target": [
+        "autem"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "qoky"
+      ],
+      "target": [
+        "qui"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "qokol"
+      ],
+      "target": [
+        "quidem"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "qoky"
+      ],
+      "target": [
+        "quas"
+      ],
+      "cost": 0.36363636363636365
+    },
+    {
+      "source": [
+        "qotaiin"
+      ],
+      "target": [
+        "proelio"
+      ],
+      "cost": 0.5263157894736842
+    },
+    {
+      "source": [
+        "qotol"
+      ],
+      "target": [
+        "quem"
+      ],
+      "cost": 0.2
+    },
+    {
+      "source": [
+        "qotor"
+      ],
+      "target": [
+        "quae"
+      ],
+      "cost": 0.36363636363636365
+    },
+    {
+      "source": [
+        "qoty"
+      ],
+      "target": [
+        "quod"
+      ],
+      "cost": 0.2222222222222222
+    },
+    {
+      "source": [
+        "qotol"
+      ],
+      "target": [
+        "quorum"
+      ],
+      "cost": 0.15384615384615385
+    },
+    {
+      "source": [
+        "qotor"
+      ],
+      "target": [
+        "iussit"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "qoty"
+      ],
+      "target": [
+        "quos"
+      ],
+      "cost": 0.2
+    },
+    {
+      "source": [
+        "sor"
+      ],
+      "target": [
+        "fuit"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "sy"
+      ],
+      "target": [
+        "ei"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "tol"
+      ],
+      "target": [
+        "hostem"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "tor"
+      ],
+      "target": [
+        "post"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ty"
+      ],
+      "target": [
+        "omni"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "yky"
+      ],
+      "target": [
+        "ipsi"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ytaiin"
+      ],
+      "target": [
+        "itaque"
+      ],
+      "cost": 0.5
+    },
+    {
+      "source": [
+        "yty"
+      ],
+      "target": [
+        "loci"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ey"
+      ],
+      "target": [
+        "rei"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ol"
+      ],
+      "target": [
+        "rem"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "or"
+      ],
+      "target": [
+        "res"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "y"
+      ],
+      "target": [
+        "re"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ol"
+      ],
+      "target": [
+        "cum"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "y"
+      ],
+      "target": [
+        "hi"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "aiin"
+      ],
+      "target": [
+        "satis"
+      ],
+      "cost": 0.46153846153846156
+    },
+    {
+      "source": [
+        "al"
+      ],
+      "target": [
+        "iam"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ar"
+      ],
+      "target": [
+        "sic"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "ear"
+      ],
+      "target": [
+        "erat"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "eey"
+      ],
+      "target": [
+        "sibi"
+      ],
+      "cost": 0.2222222222222222
+    },
+    {
+      "source": [
+        "eol"
+      ],
+      "target": [
+        "item"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "eor"
+      ],
+      "target": [
+        "iubet"
+      ],
+      "cost": 0.36363636363636365
+    },
+    {
+      "source": [
+        "ey"
+      ],
+      "target": [
+        "ibi"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "o"
+      ],
+      "target": [
+        "se"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "odaiin"
+      ],
+      "target": [
+        "legatos"
+      ],
+      "cost": 0.5263157894736842
+    },
+    {
+      "source": [
+        "ody"
+      ],
+      "target": [
+        "sunt"
+      ],
+      "cost": 0.2222222222222222
+    },
+    {
+      "source": [
+        "oky"
+      ],
+      "target": [
+        "sese"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ol"
+      ],
+      "target": [
+        "sed"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "om"
+      ],
+      "target": [
+        "sua"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "or"
+      ],
+      "target": [
+        "sub"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "oty"
+      ],
+      "target": [
+        "suo"
+      ],
+      "cost": 0.25
+    },
+    {
+      "source": [
+        "oty"
+      ],
+      "target": [
+        "suos"
+      ],
+      "cost": 0.2
+    },
+    {
+      "source": [
+        "oy"
+      ],
+      "target": [
+        "fere"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "y"
+      ],
+      "target": [
+        "si"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "y"
+      ],
+      "target": [
+        "sui"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "y"
+      ],
+      "target": [
+        "suis"
+      ],
+      "cost": 0.4444444444444444
+    },
+    {
+      "source": [
+        "aiin"
+      ],
+      "target": [
+        "galli"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "eey"
+      ],
+      "target": [
+        "dies"
+      ],
+      "cost": 0.5454545454545454
+    },
+    {
+      "source": [
+        "eol"
+      ],
+      "target": [
+        "diem"
+      ],
+      "cost": 0.2222222222222222
+    },
+    {
+      "source": [
+        "ey"
+      ],
+      "target": [
+        "ubi"
+      ],
+      "cost": 0.2857142857142857
+    },
+    {
+      "source": [
+        "o"
+      ],
+      "target": [
+        "de"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "ody"
+      ],
+      "target": [
+        "hunc"
+      ],
+      "cost": 0.4
+    },
+    {
+      "source": [
+        "ol"
+      ],
+      "target": [
+        "dum"
+      ],
+      "cost": 0.0
+    },
+    {
+      "source": [
+        "or"
+      ],
+      "target": [
+        "ut"
+      ],
+      "cost": 0.3333333333333333
+    },
+    {
+      "source": [
+        "y"
+      ],
+      "target": [
+        "die"
+      ],
+      "cost": 0.3333333333333333
+    }
+  ],
+  "name": "ZL_A_COMPOSED_latin_DEFAULT",
+  "kind": "voynich",
+  "null": false,
+  "N": 2,
+  "M": 1,
+  "source_types": 96,
+  "target_types": 256,
+  "test_total_types": 395,
+  "test_scored_types": 395,
+  "heldout_mean_distance": 0.40158271295353304,
+  "heldout_exact_fraction": 0.002531645569620253,
+  "heldout": [
+    {
+      "source": "aiiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "gallia"
+      ]
+    },
+    {
+      "source": "ain",
+      "distance": 0.5,
+      "candidates": [
+        "aut"
+      ]
+    },
+    {
+      "source": "as",
+      "distance": 0.4,
+      "candidates": [
+        "ab",
+        "ac",
+        "ad",
+        "at"
+      ]
+    },
+    {
+      "source": "ase",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "ab"
+      ]
+    },
+    {
+      "source": "ataiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "daid",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "nam",
+        "non"
+      ]
+    },
+    {
+      "source": "daiildy",
+      "distance": 0.4,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "daiiny",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "daiisol",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "gallorum"
+      ]
+    },
+    {
+      "source": "daiiy",
+      "distance": 0.18181818181818182,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "daikeody",
+      "distance": 0.42105263157894735,
+      "candidates": [
+        "nauibus"
+      ]
+    },
+    {
+      "source": "dainaldy",
+      "distance": 0.5,
+      "candidates": [
+        "galliam",
+        "germani"
+      ]
+    },
+    {
+      "source": "daldaldy",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "romani"
+      ]
+    },
+    {
+      "source": "dalom",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "naues",
+        "tamen"
+      ]
+    },
+    {
+      "source": "daldy",
+      "distance": 0.4,
+      "candidates": [
+        "romani"
+      ]
+    },
+    {
+      "source": "daraiin",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "facile",
+        "natura"
+      ]
+    },
+    {
+      "source": "deeeese",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "nauibus"
+      ]
+    },
+    {
+      "source": "deees",
+      "distance": 0.5714285714285714,
+      "candidates": [
+        "iubet",
+        "naues",
+        "neque",
+        "nihil",
+        "nocte",
+        "rebus"
+      ]
+    },
+    {
+      "source": "deol",
+      "distance": 0.4,
+      "candidates": [
+        "diem",
+        "item",
+        "quem",
+        "unum"
+      ]
+    },
+    {
+      "source": "dkol",
+      "distance": 0.4,
+      "candidates": [
+        "apud",
+        "diem",
+        "item",
+        "quem",
+        "unum"
+      ]
+    },
+    {
+      "source": "dkeey",
+      "distance": 0.5,
+      "candidates": [
+        "nostri"
+      ]
+    },
+    {
+      "source": "dlos",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "nec"
+      ]
+    },
+    {
+      "source": "dold",
+      "distance": 0.4,
+      "candidates": [
+        "quin",
+        "unum"
+      ]
+    },
+    {
+      "source": "dolo",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "numero"
+      ]
+    },
+    {
+      "source": "dolody",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "numero"
+      ]
+    },
+    {
+      "source": "dolds",
+      "distance": 0.4,
+      "candidates": [
+        "numero"
+      ]
+    },
+    {
+      "source": "doley",
+      "distance": 0.4,
+      "candidates": [
+        "numero"
+      ]
+    },
+    {
+      "source": "dolsyeol",
+      "distance": 0.45454545454545453,
+      "candidates": [
+        "numerum"
+      ]
+    },
+    {
+      "source": "dorory",
+      "distance": 0.4,
+      "candidates": [
+        "esset"
+      ]
+    },
+    {
+      "source": "dosal",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "quam",
+        "suam"
+      ]
+    },
+    {
+      "source": "dood",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "neque"
+      ]
+    },
+    {
+      "source": "dseey",
+      "distance": 0.4,
+      "candidates": [
+        "nostri"
+      ]
+    },
+    {
+      "source": "dtan",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "nostri"
+      ]
+    },
+    {
+      "source": "dydyd",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "nihil"
+      ]
+    },
+    {
+      "source": "dy",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "nisi"
+      ]
+    },
+    {
+      "source": "deodaiin",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "belli",
+        "bello"
+      ]
+    },
+    {
+      "source": "de",
+      "distance": 0.5,
+      "candidates": [
+        "nam",
+        "nec",
+        "non",
+        "sub"
+      ]
+    },
+    {
+      "source": "dody",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "naues"
+      ]
+    },
+    {
+      "source": "doly",
+      "distance": 0.4,
+      "candidates": [
+        "dum"
+      ]
+    },
+    {
+      "source": "doy",
+      "distance": 0.4,
+      "candidates": [
+        "nisi"
+      ]
+    },
+    {
+      "source": "eais",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli",
+        "paulo"
+      ]
+    },
+    {
+      "source": "eeor",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "eey",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "ibi",
+        "ubi"
+      ]
+    },
+    {
+      "source": "esedy",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "belli"
+      ]
+    },
+    {
+      "source": "kaiiidal",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "galliam"
+      ]
+    },
+    {
+      "source": "kain",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "paulo"
+      ]
+    },
+    {
+      "source": "kan",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "pars"
+      ]
+    },
+    {
+      "source": "kary",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "paucis"
+      ]
+    },
+    {
+      "source": "keeey",
+      "distance": 0.5,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "keeeyd",
+      "distance": 0.5,
+      "candidates": [
+        "paucis"
+      ]
+    },
+    {
+      "source": "keeo",
+      "distance": 0.5,
+      "candidates": [
+        "iubet",
+        "parte",
+        "posse",
+        "prius",
+        "rebus"
+      ]
+    },
+    {
+      "source": "keeody",
+      "distance": 0.4,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "keeokey",
+      "distance": 0.5217391304347826,
+      "candidates": [
+        "praesidio"
+      ]
+    },
+    {
+      "source": "keeol",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "partem",
+        "primum"
+      ]
+    },
+    {
+      "source": "keey",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "posse"
+      ]
+    },
+    {
+      "source": "keo",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "ipse"
+      ]
+    },
+    {
+      "source": "keom",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "per"
+      ]
+    },
+    {
+      "source": "keoy",
+      "distance": 0.4,
+      "candidates": [
+        "per"
+      ]
+    },
+    {
+      "source": "kodey",
+      "distance": 0.5,
+      "candidates": [
+        "legati",
+        "populi",
+        "quidem",
+        "ubi"
+      ]
+    },
+    {
+      "source": "koeam",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "iubet",
+        "rebus"
+      ]
+    },
+    {
+      "source": "kokaiin",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "koldam",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "summa"
+      ]
+    },
+    {
+      "source": "koly",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "cum",
+        "dum",
+        "eum",
+        "per",
+        "qui",
+        "rei",
+        "rem",
+        "sui",
+        "tum",
+        "ubi",
+        "uti"
+      ]
+    },
+    {
+      "source": "koles",
+      "distance": 0.5,
+      "candidates": [
+        "iussit",
+        "numero",
+        "posset",
+        "tempus"
+      ]
+    },
+    {
+      "source": "kooiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "belli",
+        "bello",
+        "paulo"
+      ]
+    },
+    {
+      "source": "kory",
+      "distance": 0.25,
+      "candidates": [
+        "uti"
+      ]
+    },
+    {
+      "source": "kory",
+      "distance": 0.4,
+      "candidates": [
+        "uti"
+      ]
+    },
+    {
+      "source": "kos",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "per"
+      ]
+    },
+    {
+      "source": "kosar",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "kotody",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "peruenit"
+      ]
+    },
+    {
+      "source": "koky",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "iussit"
+      ]
+    },
+    {
+      "source": "koey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "kydain",
+      "distance": 0.5,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "kydainy",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "kaiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli",
+        "paulo"
+      ]
+    },
+    {
+      "source": "kal",
+      "distance": 0.4,
+      "candidates": [
+        "quam",
+        "suam"
+      ]
+    },
+    {
+      "source": "kdal",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "keey",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "keeytain",
+      "distance": 0.5217391304347826,
+      "candidates": [
+        "periculo"
+      ]
+    },
+    {
+      "source": "koar",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "suam",
+        "sunt"
+      ]
+    },
+    {
+      "source": "kodan",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "suam",
+        "sunt"
+      ]
+    },
+    {
+      "source": "koky",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "ipsi",
+        "sese",
+        "suis",
+        "suos"
+      ]
+    },
+    {
+      "source": "kolol",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "primum"
+      ]
+    },
+    {
+      "source": "ksy",
+      "distance": 0.4,
+      "candidates": [
+        "ipsi"
+      ]
+    },
+    {
+      "source": "kaiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli",
+        "paulo"
+      ]
+    },
+    {
+      "source": "kes",
+      "distance": 0.5454545454545454,
+      "candidates": [
+        "pars",
+        "post",
+        "sibi"
+      ]
+    },
+    {
+      "source": "koy",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "dum",
+        "per",
+        "qui",
+        "rei",
+        "sui"
+      ]
+    },
+    {
+      "source": "ldain",
+      "distance": 0.5333333333333333,
+      "candidates": [
+        "omnium"
+      ]
+    },
+    {
+      "source": "lkeey",
+      "distance": 0.5,
+      "candidates": [
+        "ipsi",
+        "sibi"
+      ]
+    },
+    {
+      "source": "lkody",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "loeees",
+      "distance": 0.5,
+      "candidates": [
+        "multis",
+        "quibus",
+        "subito"
+      ]
+    },
+    {
+      "source": "loiiin",
+      "distance": 0.4,
+      "candidates": [
+        "bellum",
+        "multis"
+      ]
+    },
+    {
+      "source": "lol",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "cum",
+        "dum",
+        "eum",
+        "rem",
+        "tum"
+      ]
+    },
+    {
+      "source": "loy",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "qui",
+        "rei",
+        "sui"
+      ]
+    },
+    {
+      "source": "loey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "lteody",
+      "distance": 0.35294117647058826,
+      "candidates": [
+        "possent"
+      ]
+    },
+    {
+      "source": "lo",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "se"
+      ]
+    },
+    {
+      "source": "oaiir",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "oairar",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "facta",
+        "tanta"
+      ]
+    },
+    {
+      "source": "odaiil",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "eadem",
+        "galli"
+      ]
+    },
+    {
+      "source": "odaiim",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "odees",
+      "distance": 0.5,
+      "candidates": [
+        "essent"
+      ]
+    },
+    {
+      "source": "oeeees",
+      "distance": 0.5882352941176471,
+      "candidates": [
+        "diebus",
+        "essent",
+        "habere",
+        "quibus",
+        "subito"
+      ]
+    },
+    {
+      "source": "oeeeos",
+      "distance": 0.5,
+      "candidates": [
+        "diebus",
+        "quibus"
+      ]
+    },
+    {
+      "source": "oeeey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "oeeor",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "esset",
+        "iubet"
+      ]
+    },
+    {
+      "source": "oeor",
+      "distance": 0.2,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "oesearies",
+      "distance": 0.56,
+      "candidates": [
+        "equitibus"
+      ]
+    },
+    {
+      "source": "oey",
+      "distance": 0.25,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "oiiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "bellum"
+      ]
+    },
+    {
+      "source": "ok",
+      "distance": 0.4,
+      "candidates": [
+        "ea",
+        "ei",
+        "eo",
+        "et",
+        "ex",
+        "ut"
+      ]
+    },
+    {
+      "source": "okam",
+      "distance": 0.4,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "okan",
+      "distance": 0.4,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "okeaiin",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli",
+        "paulo"
+      ]
+    },
+    {
+      "source": "okear",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "okeeey",
+      "distance": 0.5,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "okeem",
+      "distance": 0.5333333333333333,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "okeo",
+      "distance": 0.4,
+      "candidates": [
+        "esse",
+        "ipse"
+      ]
+    },
+    {
+      "source": "okeokear",
+      "distance": 0.47619047619047616,
+      "candidates": [
+        "equitatu"
+      ]
+    },
+    {
+      "source": "okeos",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "okeoy",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "okoaiin",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli",
+        "paulo"
+      ]
+    },
+    {
+      "source": "okodaiin",
+      "distance": 0.5217391304347826,
+      "candidates": [
+        "superiore"
+      ]
+    },
+    {
+      "source": "okodar",
+      "distance": 0.375,
+      "candidates": [
+        "imperat"
+      ]
+    },
+    {
+      "source": "okoeor",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "okolol",
+      "distance": 0.35294117647058826,
+      "candidates": [
+        "equitum",
+        "oppidum"
+      ]
+    },
+    {
+      "source": "okoy",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "esset"
+      ]
+    },
+    {
+      "source": "okey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "okol",
+      "distance": 0.18181818181818182,
+      "candidates": [
+        "eadem",
+        "eodem"
+      ]
+    },
+    {
+      "source": "oldain",
+      "distance": 0.5,
+      "candidates": [
+        "omnium",
+        "una"
+      ]
+    },
+    {
+      "source": "olkayy",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "amplius",
+        "tempore"
+      ]
+    },
+    {
+      "source": "olkeeody",
+      "distance": 0.5,
+      "candidates": [
+        "amplius",
+        "impetum",
+        "omnibus",
+        "tempore"
+      ]
+    },
+    {
+      "source": "olkey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "olom",
+      "distance": 0.4,
+      "candidates": [
+        "eius",
+        "unum"
+      ]
+    },
+    {
+      "source": "olsaiin",
+      "distance": 0.5,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "olty",
+      "distance": 0.4,
+      "candidates": [
+        "eos"
+      ]
+    },
+    {
+      "source": "oleety",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "nostros",
+        "omnibus"
+      ]
+    },
+    {
+      "source": "oleey",
+      "distance": 0.5,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "oleos",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "eadem",
+        "eodem"
+      ]
+    },
+    {
+      "source": "oley",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "oraiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "orarol",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "tantum"
+      ]
+    },
+    {
+      "source": "oro",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "uti"
+      ]
+    },
+    {
+      "source": "otaiir",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "erant",
+        "galli"
+      ]
+    },
+    {
+      "source": "otairin",
+      "distance": 0.5,
+      "candidates": [
+        "erant",
+        "galli"
+      ]
+    },
+    {
+      "source": "otald",
+      "distance": 0.4,
+      "candidates": [
+        "eam"
+      ]
+    },
+    {
+      "source": "otarokar",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "natura"
+      ]
+    },
+    {
+      "source": "oteeaiin",
+      "distance": 0.5454545454545454,
+      "candidates": [
+        "consilio"
+      ]
+    },
+    {
+      "source": "oteeol",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "eodem",
+        "eorum"
+      ]
+    },
+    {
+      "source": "otees",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "eodem",
+        "eorum"
+      ]
+    },
+    {
+      "source": "otoaiin",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli"
+      ]
+    },
+    {
+      "source": "otolodal",
+      "distance": 0.42105263157894735,
+      "candidates": [
+        "hominum",
+        "numerum"
+      ]
+    },
+    {
+      "source": "otoy",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "eodem",
+        "eorum"
+      ]
+    },
+    {
+      "source": "otoor",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "posset"
+      ]
+    },
+    {
+      "source": "oteey",
+      "distance": 0.4,
+      "candidates": [
+        "nostri"
+      ]
+    },
+    {
+      "source": "otos",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "eodem",
+        "eorum",
+        "esset"
+      ]
+    },
+    {
+      "source": "ototy",
+      "distance": 0.4,
+      "candidates": [
+        "essent",
+        "nostri",
+        "populi"
+      ]
+    },
+    {
+      "source": "otyd",
+      "distance": 0.4,
+      "candidates": [
+        "eos"
+      ]
+    },
+    {
+      "source": "otaiin",
+      "distance": 0.5,
+      "candidates": [
+        "eodem",
+        "galli"
+      ]
+    },
+    {
+      "source": "oydar",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "oain",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "erant"
+      ]
+    },
+    {
+      "source": "oody",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "hunc"
+      ]
+    },
+    {
+      "source": "ooees",
+      "distance": 0.5,
+      "candidates": [
+        "diebus",
+        "rhenum"
+      ]
+    },
+    {
+      "source": "ody",
+      "distance": 0.4,
+      "candidates": [
+        "enim",
+        "esse",
+        "omni"
+      ]
+    },
+    {
+      "source": "oeol",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "eadem",
+        "eodem",
+        "eorum",
+        "esset"
+      ]
+    },
+    {
+      "source": "ooy",
+      "distance": 0.4,
+      "candidates": [
+        "sui"
+      ]
+    },
+    {
+      "source": "oeokaiin",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "belli",
+        "bello"
+      ]
+    },
+    {
+      "source": "ool",
+      "distance": 0.2,
+      "candidates": [
+        "eadem",
+        "eodem"
+      ]
+    },
+    {
+      "source": "qeaiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli"
+      ]
+    },
+    {
+      "source": "qekeoor",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "posset",
+        "quibus"
+      ]
+    },
+    {
+      "source": "qekor",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "esset",
+        "iubet"
+      ]
+    },
+    {
+      "source": "qko",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "apud",
+        "ipse",
+        "quae",
+        "quem"
+      ]
+    },
+    {
+      "source": "qodol",
+      "distance": 0.2,
+      "candidates": [
+        "quem",
+        "unum"
+      ]
+    },
+    {
+      "source": "qodom",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "quae",
+        "quem",
+        "unum"
+      ]
+    },
+    {
+      "source": "qoeair",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "erant",
+        "iubet"
+      ]
+    },
+    {
+      "source": "qoear",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "qoeey",
+      "distance": 0.4,
+      "candidates": [
+        "qui",
+        "ubi"
+      ]
+    },
+    {
+      "source": "qoeol",
+      "distance": 0.2,
+      "candidates": [
+        "quem"
+      ]
+    },
+    {
+      "source": "qoetam",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "quae",
+        "quam",
+        "quas",
+        "quod",
+        "quos"
+      ]
+    },
+    {
+      "source": "qokaiiin",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "bellum",
+        "gallia"
+      ]
+    },
+    {
+      "source": "qokain",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "quae",
+        "quam",
+        "quas"
+      ]
+    },
+    {
+      "source": "qokedy",
+      "distance": 0.4,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "qokeeody",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "qokeeol",
+      "distance": 0.375,
+      "candidates": [
+        "quibus",
+        "quidem",
+        "quorum"
+      ]
+    },
+    {
+      "source": "qokeeyl",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "quibus",
+        "quidem",
+        "quorum"
+      ]
+    },
+    {
+      "source": "qokeody",
+      "distance": 0.375,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "qokodar",
+      "distance": 0.35294117647058826,
+      "candidates": [
+        "imperat"
+      ]
+    },
+    {
+      "source": "qokoky",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "populi",
+        "quibus",
+        "tempus"
+      ]
+    },
+    {
+      "source": "qokos",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "quae",
+        "quem"
+      ]
+    },
+    {
+      "source": "qokeey",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "qokeody",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "essent",
+        "quibus"
+      ]
+    },
+    {
+      "source": "qoke",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "quid",
+        "quod"
+      ]
+    },
+    {
+      "source": "qoos",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "quem"
+      ]
+    },
+    {
+      "source": "qos",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "qua",
+        "qui",
+        "quo"
+      ]
+    },
+    {
+      "source": "qotar",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "erat",
+        "quae",
+        "quam",
+        "quas",
+        "quod",
+        "quos"
+      ]
+    },
+    {
+      "source": "qoteeeo",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "quibus",
+        "quorum"
+      ]
+    },
+    {
+      "source": "qoteeey",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "quibus",
+        "quorum"
+      ]
+    },
+    {
+      "source": "qotoees",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "quibus",
+        "quorum"
+      ]
+    },
+    {
+      "source": "qoteey",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "quos"
+      ]
+    },
+    {
+      "source": "qoedy",
+      "distance": 0.4,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "qoeey",
+      "distance": 0.4,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "qoo",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "quae",
+        "sese"
+      ]
+    },
+    {
+      "source": "qodal",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "quam",
+        "suam"
+      ]
+    },
+    {
+      "source": "ry",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "si"
+      ]
+    },
+    {
+      "source": "saiiin",
+      "distance": 0.4,
+      "candidates": [
+        "facile",
+        "gallia"
+      ]
+    },
+    {
+      "source": "sarar",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "facta",
+        "facto"
+      ]
+    },
+    {
+      "source": "seey",
+      "distance": 0.4,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "siin",
+      "distance": 0.4,
+      "candidates": [
+        "illi"
+      ]
+    },
+    {
+      "source": "sky",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "fuit",
+        "ipsi"
+      ]
+    },
+    {
+      "source": "so",
+      "distance": 0.4,
+      "candidates": [
+        "de",
+        "ne",
+        "re",
+        "se"
+      ]
+    },
+    {
+      "source": "sodal",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "enim",
+        "fuga",
+        "quam",
+        "suam",
+        "unum"
+      ]
+    },
+    {
+      "source": "solkaiin",
+      "distance": 0.5,
+      "candidates": [
+        "tempore"
+      ]
+    },
+    {
+      "source": "sory",
+      "distance": 0.25,
+      "candidates": [
+        "uti"
+      ]
+    },
+    {
+      "source": "soreey",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "finibus",
+        "germani"
+      ]
+    },
+    {
+      "source": "sotodan",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "flumen"
+      ]
+    },
+    {
+      "source": "soey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "syaiir",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "sey",
+      "distance": 0.4,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "seor",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "esset",
+        "iubet"
+      ]
+    },
+    {
+      "source": "sesy",
+      "distance": 0.5,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "sody",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sunt"
+      ]
+    },
+    {
+      "source": "sey",
+      "distance": 0.4,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "tad",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "omni"
+      ]
+    },
+    {
+      "source": "taor",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "haec"
+      ]
+    },
+    {
+      "source": "tdain",
+      "distance": 0.5333333333333333,
+      "candidates": [
+        "contra",
+        "omnium",
+        "populi",
+        "romani"
+      ]
+    },
+    {
+      "source": "toar",
+      "distance": 0.4,
+      "candidates": [
+        "erat",
+        "fuit",
+        "hunc",
+        "quae",
+        "quam",
+        "quas",
+        "suam",
+        "sunt"
+      ]
+    },
+    {
+      "source": "tolor",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "tos",
+      "distance": 0.5,
+      "candidates": [
+        "aut",
+        "cum",
+        "dum",
+        "eum",
+        "nec",
+        "per",
+        "qua",
+        "qui",
+        "quo",
+        "rei",
+        "rem",
+        "res",
+        "sed",
+        "sua",
+        "sub",
+        "sui",
+        "suo",
+        "tum"
+      ]
+    },
+    {
+      "source": "tool",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "autem",
+        "omnem",
+        "rerum"
+      ]
+    },
+    {
+      "source": "toon",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sese"
+      ]
+    },
+    {
+      "source": "toeo",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "toy",
+      "distance": 0.4,
+      "candidates": [
+        "omni"
+      ]
+    },
+    {
+      "source": "tain",
+      "distance": 0.5333333333333333,
+      "candidates": [
+        "hostem",
+        "hostes",
+        "nostri",
+        "populi",
+        "posset",
+        "romani"
+      ]
+    },
+    {
+      "source": "taly",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "nostri",
+        "romani"
+      ]
+    },
+    {
+      "source": "tar",
+      "distance": 0.4,
+      "candidates": [
+        "erat",
+        "post"
+      ]
+    },
+    {
+      "source": "teody",
+      "distance": 0.375,
+      "candidates": [
+        "possent"
+      ]
+    },
+    {
+      "source": "teor",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "posset"
+      ]
+    },
+    {
+      "source": "tod",
+      "distance": 0.4,
+      "candidates": [
+        "sunt"
+      ]
+    },
+    {
+      "source": "todaiin",
+      "distance": 0.5454545454545454,
+      "candidates": [
+        "caesarem",
+        "caesaris"
+      ]
+    },
+    {
+      "source": "todol",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "rhenum"
+      ]
+    },
+    {
+      "source": "toky",
+      "distance": 0.4,
+      "candidates": [
+        "sui"
+      ]
+    },
+    {
+      "source": "t",
+      "distance": 0.4,
+      "candidates": [
+        "ad",
+        "id"
+      ]
+    },
+    {
+      "source": "todeesy",
+      "distance": 0.5,
+      "candidates": [
+        "omnibus"
+      ]
+    },
+    {
+      "source": "todody",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "aduentu"
+      ]
+    },
+    {
+      "source": "toldy",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "omni"
+      ]
+    },
+    {
+      "source": "tor",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "eodem"
+      ]
+    },
+    {
+      "source": "ydals",
+      "distance": 0.4,
+      "candidates": [
+        "iam",
+        "nam"
+      ]
+    },
+    {
+      "source": "ydoin",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "fines",
+        "inter",
+        "minus",
+        "paulo"
+      ]
+    },
+    {
+      "source": "ydody",
+      "distance": 0.375,
+      "candidates": [
+        "interim"
+      ]
+    },
+    {
+      "source": "ykald",
+      "distance": 0.4,
+      "candidates": [
+        "iam"
+      ]
+    },
+    {
+      "source": "ykeo",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "ipse"
+      ]
+    },
+    {
+      "source": "ykeoldy",
+      "distance": 0.42105263157894735,
+      "candidates": [
+        "hibernis"
+      ]
+    },
+    {
+      "source": "ykodaiir",
+      "distance": 0.42105263157894735,
+      "candidates": [
+        "imperat"
+      ]
+    },
+    {
+      "source": "ykodaiin",
+      "distance": 0.5454545454545454,
+      "candidates": [
+        "imperat"
+      ]
+    },
+    {
+      "source": "yk",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "id"
+      ]
+    },
+    {
+      "source": "ykol",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "eadem",
+        "eodem"
+      ]
+    },
+    {
+      "source": "yoees",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "yokeeol",
+      "distance": 0.35294117647058826,
+      "candidates": [
+        "impetum"
+      ]
+    },
+    {
+      "source": "yol",
+      "distance": 0.25,
+      "candidates": [
+        "diem",
+        "item"
+      ]
+    },
+    {
+      "source": "yteos",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "ytaiin",
+      "distance": 0.5,
+      "candidates": [
+        "consilio",
+        "galli"
+      ]
+    },
+    {
+      "source": "yteey",
+      "distance": 0.4,
+      "candidates": [
+        "nostri"
+      ]
+    },
+    {
+      "source": "yar",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "yol",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "item"
+      ]
+    },
+    {
+      "source": "yain",
+      "distance": 0.5,
+      "candidates": [
+        "illi"
+      ]
+    },
+    {
+      "source": "yeary",
+      "distance": 0.4,
+      "candidates": [
+        "legati"
+      ]
+    },
+    {
+      "source": "yeo",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "yeoky",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "yok",
+      "distance": 0.4,
+      "candidates": [
+        "ipse",
+        "item",
+        "iter"
+      ]
+    },
+    {
+      "source": "yom",
+      "distance": 0.4,
+      "candidates": [
+        "ipse",
+        "item",
+        "iter"
+      ]
+    },
+    {
+      "source": "yey",
+      "distance": 0.25,
+      "candidates": [
+        "ibi"
+      ]
+    },
+    {
+      "source": "yol",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "item"
+      ]
+    },
+    {
+      "source": "am",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "erat"
+      ]
+    },
+    {
+      "source": "d",
+      "distance": 0.4,
+      "candidates": [
+        "in",
+        "re"
+      ]
+    },
+    {
+      "source": "e",
+      "distance": 0.4,
+      "candidates": [
+        "ab",
+        "re"
+      ]
+    },
+    {
+      "source": "es",
+      "distance": 0.5,
+      "candidates": [
+        "ibi",
+        "rei",
+        "rem",
+        "res",
+        "ubi"
+      ]
+    },
+    {
+      "source": "oary",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "legati"
+      ]
+    },
+    {
+      "source": "old",
+      "distance": 0.25,
+      "candidates": [
+        "rem"
+      ]
+    },
+    {
+      "source": "oldar",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "summa"
+      ]
+    },
+    {
+      "source": "oy",
+      "distance": 0.25,
+      "candidates": [
+        "rei",
+        "res"
+      ]
+    },
+    {
+      "source": "ar",
+      "distance": 0.0,
+      "candidates": [
+        "hac"
+      ]
+    },
+    {
+      "source": "eody",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "hunc"
+      ]
+    },
+    {
+      "source": "oldy",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "hunc",
+        "omni"
+      ]
+    },
+    {
+      "source": "olsy",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "belli",
+        "summa"
+      ]
+    },
+    {
+      "source": "oy",
+      "distance": 0.4,
+      "candidates": [
+        "hunc"
+      ]
+    },
+    {
+      "source": "yds",
+      "distance": 0.4,
+      "candidates": [
+        "hunc",
+        "sine"
+      ]
+    },
+    {
+      "source": "ald",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "tamen"
+      ]
+    },
+    {
+      "source": "aldy",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "omni"
+      ]
+    },
+    {
+      "source": "aroy",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "satis"
+      ]
+    },
+    {
+      "source": "dain",
+      "distance": 0.5,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "dlety",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "eaiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli"
+      ]
+    },
+    {
+      "source": "eam",
+      "distance": 0.4,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "eamy",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "satis"
+      ]
+    },
+    {
+      "source": "earory",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "uirtute"
+      ]
+    },
+    {
+      "source": "edain",
+      "distance": 0.5333333333333333,
+      "candidates": [
+        "belli",
+        "bello"
+      ]
+    },
+    {
+      "source": "edy",
+      "distance": 0.4,
+      "candidates": [
+        "omni",
+        "sibi",
+        "sine",
+        "sunt"
+      ]
+    },
+    {
+      "source": "eeal",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "eedy",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "eeodam",
+      "distance": 0.5,
+      "candidates": [
+        "hibernis"
+      ]
+    },
+    {
+      "source": "eey",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "eeody",
+      "distance": 0.5,
+      "candidates": [
+        "hibernis",
+        "peruenit"
+      ]
+    },
+    {
+      "source": "ekain",
+      "distance": 0.5,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "ekal",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "ekeesy",
+      "distance": 0.5833333333333334,
+      "candidates": [
+        "contendit",
+        "praesidio",
+        "superiore"
+      ]
+    },
+    {
+      "source": "ekey",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "ipsi",
+        "sibi"
+      ]
+    },
+    {
+      "source": "eod",
+      "distance": 0.4,
+      "candidates": [
+        "sunt"
+      ]
+    },
+    {
+      "source": "eodain",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello"
+      ]
+    },
+    {
+      "source": "eodal",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "eodar",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "sunt"
+      ]
+    },
+    {
+      "source": "eoiees",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "bellum"
+      ]
+    },
+    {
+      "source": "eokey",
+      "distance": 0.5,
+      "candidates": [
+        "belli"
+      ]
+    },
+    {
+      "source": "eotar",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "erat",
+        "suam",
+        "sunt",
+        "suos"
+      ]
+    },
+    {
+      "source": "eotar",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "suos"
+      ]
+    },
+    {
+      "source": "etaiin",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli"
+      ]
+    },
+    {
+      "source": "etan",
+      "distance": 0.5,
+      "candidates": [
+        "suam",
+        "suos"
+      ]
+    },
+    {
+      "source": "etar",
+      "distance": 0.5,
+      "candidates": [
+        "erat",
+        "post",
+        "suam",
+        "sunt",
+        "suos"
+      ]
+    },
+    {
+      "source": "eyl",
+      "distance": 0.4,
+      "candidates": [
+        "enim",
+        "sibi",
+        "suam",
+        "suis"
+      ]
+    },
+    {
+      "source": "eyty",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "kam",
+      "distance": 0.4,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "kory",
+      "distance": 0.4,
+      "candidates": [
+        "paucis"
+      ]
+    },
+    {
+      "source": "odo",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "sese",
+        "sine",
+        "sunt"
+      ]
+    },
+    {
+      "source": "odor",
+      "distance": 0.2,
+      "candidates": [
+        "sunt"
+      ]
+    },
+    {
+      "source": "odys",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "enim",
+        "suis",
+        "sunt"
+      ]
+    },
+    {
+      "source": "oeky",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "okeos",
+      "distance": 0.4,
+      "candidates": [
+        "quibus"
+      ]
+    },
+    {
+      "source": "okoie",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "populi"
+      ]
+    },
+    {
+      "source": "okokor",
+      "distance": 0.4,
+      "candidates": [
+        "coeperunt"
+      ]
+    },
+    {
+      "source": "okor",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "oksy",
+      "distance": 0.4,
+      "candidates": [
+        "sui"
+      ]
+    },
+    {
+      "source": "okeo",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "sese"
+      ]
+    },
+    {
+      "source": "okey",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "ipsi",
+        "sese",
+        "sibi",
+        "suis",
+        "suos"
+      ]
+    },
+    {
+      "source": "oky",
+      "distance": 0.4,
+      "candidates": [
+        "sed",
+        "sui"
+      ]
+    },
+    {
+      "source": "olkeedy",
+      "distance": 0.5,
+      "candidates": [
+        "germani",
+        "tempore"
+      ]
+    },
+    {
+      "source": "olo",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "sese"
+      ]
+    },
+    {
+      "source": "olody",
+      "distance": 0.375,
+      "candidates": [
+        "germani"
+      ]
+    },
+    {
+      "source": "olol",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "autem",
+        "rerum",
+        "summa"
+      ]
+    },
+    {
+      "source": "olo",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "summa"
+      ]
+    },
+    {
+      "source": "ool",
+      "distance": 0.2222222222222222,
+      "candidates": [
+        "quem",
+        "suam"
+      ]
+    },
+    {
+      "source": "orol",
+      "distance": 0.18181818181818182,
+      "candidates": [
+        "autem"
+      ]
+    },
+    {
+      "source": "oross",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "autem"
+      ]
+    },
+    {
+      "source": "osy",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sese",
+        "suis",
+        "suos"
+      ]
+    },
+    {
+      "source": "otey",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "sibi",
+        "suos"
+      ]
+    },
+    {
+      "source": "otody",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "peruenit"
+      ]
+    },
+    {
+      "source": "otor",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "iubet"
+      ]
+    },
+    {
+      "source": "otey",
+      "distance": 0.3333333333333333,
+      "candidates": [
+        "suos"
+      ]
+    },
+    {
+      "source": "oor",
+      "distance": 0.2,
+      "candidates": [
+        "sese"
+      ]
+    },
+    {
+      "source": "taiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "tar",
+      "distance": 0.4,
+      "candidates": [
+        "erat",
+        "post",
+        "suam",
+        "sunt"
+      ]
+    },
+    {
+      "source": "todaiin",
+      "distance": 0.5454545454545454,
+      "candidates": [
+        "caesarem",
+        "caesaris",
+        "consilio"
+      ]
+    },
+    {
+      "source": "tols",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "eodem",
+        "eorum",
+        "locum",
+        "summa"
+      ]
+    },
+    {
+      "source": "ty",
+      "distance": 0.4,
+      "candidates": [
+        "ipsi",
+        "loci",
+        "nisi",
+        "post",
+        "sese",
+        "sibi",
+        "suos"
+      ]
+    },
+    {
+      "source": "tar",
+      "distance": 0.46153846153846156,
+      "candidates": [
+        "eodem"
+      ]
+    },
+    {
+      "source": "yd",
+      "distance": 0.25,
+      "candidates": [
+        "sine"
+      ]
+    },
+    {
+      "source": "ydaiin",
+      "distance": 0.5,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "ykar",
+      "distance": 0.4,
+      "candidates": [
+        "sic"
+      ]
+    },
+    {
+      "source": "ykey",
+      "distance": 0.2,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "yt",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "sic",
+        "suo"
+      ]
+    },
+    {
+      "source": "",
+      "distance": 0.4,
+      "candidates": [
+        "se",
+        "si"
+      ]
+    },
+    {
+      "source": "",
+      "distance": 0.4,
+      "candidates": [
+        "se",
+        "si"
+      ]
+    },
+    {
+      "source": "aly",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "suam"
+      ]
+    },
+    {
+      "source": "ky",
+      "distance": 0.4,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "oty",
+      "distance": 0.36363636363636365,
+      "candidates": [
+        "suos"
+      ]
+    },
+    {
+      "source": "ol",
+      "distance": 0.25,
+      "candidates": [
+        "dum"
+      ]
+    },
+    {
+      "source": "y",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "sui"
+      ]
+    },
+    {
+      "source": "am",
+      "distance": 0.5,
+      "candidates": [
+        "die",
+        "dum",
+        "eam",
+        "hac",
+        "iam",
+        "nam"
+      ]
+    },
+    {
+      "source": "eety",
+      "distance": 0.5,
+      "candidates": [
+        "sibi"
+      ]
+    },
+    {
+      "source": "ekey",
+      "distance": 0.5,
+      "candidates": [
+        "ipsi",
+        "sibi"
+      ]
+    },
+    {
+      "source": "eky",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "ibi",
+        "ubi"
+      ]
+    },
+    {
+      "source": "eodaiin",
+      "distance": 0.47058823529411764,
+      "candidates": [
+        "belli",
+        "bello"
+      ]
+    },
+    {
+      "source": "eodal",
+      "distance": 0.4,
+      "candidates": [
+        "rhenum"
+      ]
+    },
+    {
+      "source": "eotain",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello"
+      ]
+    },
+    {
+      "source": "odain",
+      "distance": 0.5,
+      "candidates": [
+        "legati",
+        "una"
+      ]
+    },
+    {
+      "source": "odan",
+      "distance": 0.4,
+      "candidates": [
+        "una"
+      ]
+    },
+    {
+      "source": "odary",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "legati"
+      ]
+    },
+    {
+      "source": "odol",
+      "distance": 0.2,
+      "candidates": [
+        "unum"
+      ]
+    },
+    {
+      "source": "odey",
+      "distance": 0.5,
+      "candidates": [
+        "legati",
+        "quidem",
+        "ubi"
+      ]
+    },
+    {
+      "source": "oety",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "ok",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "dum"
+      ]
+    },
+    {
+      "source": "okeey",
+      "distance": 0.5,
+      "candidates": [
+        "diebus",
+        "legati",
+        "populi",
+        "quibus",
+        "ubi"
+      ]
+    },
+    {
+      "source": "okeey",
+      "distance": 0.5263157894736842,
+      "candidates": [
+        "germani"
+      ]
+    },
+    {
+      "source": "ols",
+      "distance": 0.25,
+      "candidates": [
+        "dum"
+      ]
+    },
+    {
+      "source": "oly",
+      "distance": 0.4,
+      "candidates": [
+        "dum"
+      ]
+    },
+    {
+      "source": "ot",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "dum",
+        "quo",
+        "suo"
+      ]
+    },
+    {
+      "source": "otaiin",
+      "distance": 0.5,
+      "candidates": [
+        "belli",
+        "bello",
+        "galli"
+      ]
+    },
+    {
+      "source": "otol",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "quorum"
+      ]
+    },
+    {
+      "source": "otor",
+      "distance": 0.3076923076923077,
+      "candidates": [
+        "esset"
+      ]
+    },
+    {
+      "source": "otot",
+      "distance": 0.4,
+      "candidates": [
+        "quorum"
+      ]
+    },
+    {
+      "source": "oy",
+      "distance": 0.2857142857142857,
+      "candidates": [
+        "dum",
+        "qui",
+        "rei",
+        "sui"
+      ]
+    },
+    {
+      "source": "oey",
+      "distance": 0.4,
+      "candidates": [
+        "ubi"
+      ]
+    },
+    {
+      "source": "oeky",
+      "distance": 0.5,
+      "candidates": [
+        "diebus",
+        "legati",
+        "quibus",
+        "ubi"
+      ]
+    },
+    {
+      "source": "oy",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "dum",
+        "qui",
+        "rei",
+        "sed",
+        "sui",
+        "ubi",
+        "uti"
+      ]
+    },
+    {
+      "source": "ty",
+      "distance": 0.4444444444444444,
+      "candidates": [
+        "loci"
+      ]
+    },
+    {
+      "source": "aiin",
+      "distance": 0.42857142857142855,
+      "candidates": [
+        "galli"
+      ]
+    },
+    {
+      "source": "ey",
+      "distance": 0.4,
+      "candidates": [
+        "sibi"
+      ]
+    }
+  ]
+}

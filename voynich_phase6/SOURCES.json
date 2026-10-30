@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-28",
+  "bibliography": "references/bibliography.json",
+  "transcriptions": {
+    "date": "2026-10-28",
+    "sha256": {
+      "voynich_20261028/data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "voynich_20261028/data/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "voynich_20261028/controls/input/nathist_book16.txt": "7d105774267c4b474777b53b8aa693aea3b4f35b722f9fb1de702db77d1d1fe7",
+      "voynich_phase2/data/caesar.xml": "15ec3ef2a36352742ddb75d4f7da23a143899b6b60ee3a7ca3192d4917ca1568",
+      "voynich_phase2/data/dante.txt": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e",
+      "voynich_phase4/data/latin_train.txt": "f69c9d96f397545b92ef0991c53852311fd486b1c356dbb18972314b77ae5f5d",
+      "voynich_phase4/data/latin_target.txt": "e9ee3a838cef74cca6a555cff6e463f7764e48cabc540662a7e0fc59259edd13",
+      "voynich_phase4/data/italian_train.txt": "807c5940ccfa1d618e90ca6acedbbf8bb8942093b6c8b39055b3165bd96b43eb",
+      "voynich_phase4/data/italian_target.txt": "edf54aafb7345e630bfb0137a55aecc71a7eb880455bf7504af525acfda0847e"
+    },
+    "credits": "Full credits and licensing retained in source metadata, README.txt, voynich_20261028/SOURCES.json, voynich_phase2/SOURCES_AND_LIMITS.json and LICENSE_GRESHKO.",
+    "background_reference": {
+      "author": "George Lasry",
+      "year": 2024,
+      "title": "Deciphering Historical Syllabic Ciphers",
+      "url": "https://dspace.ut.ee/items/76b22b8e-5ae1-41a6-8b15-8b2527b9762e",
+      "doi": "10.58009/aere-perennius0106",
+      "scope": "Official repository notice and indexed excerpts consulted. Full PDF download returned HTTP 503; no claim of implementing the published algorithm."
+    },
+    "transcriptions_url": "https://www.voynich.nu/transcr.html"
+  },
+  "new_sample": {
+    "author": "Torsten Timm",
+    "repository": "https://github.com/TorstenTimm/SelfCitationTextgenerator",
+    "path": "executable/generate/generated_text.txt",
+    "git_blob_sha": "31b5f847097d6c31e210d1ebc23ea9878f456607",
+    "local_sha256": "75e3bab72b7b9104d43efa048a17d53986df8f54088f9b4a2a9c9fb578c1bce2",
+    "license": "data/LICENSE_TIMM.txt",
+    "used_as": "Published sample, first seed line removed. Generator not rerun."
+  },
+  "existing_naibbe_sample": {
+    "path": "voynich_20261028/controls/generated/naibbe_ciphertext.txt",
+    "sha256": "0a513353388ab77af3650c2e9906bc8d5d9563f90bee3fa34ebc7f4089891f60",
+    "credit": "Michael A. Greshko 2025, DOI 10.1080/01611194.2025.2566408; license retained."
+  }
+}

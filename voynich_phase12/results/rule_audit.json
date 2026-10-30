@@ -1,0 +1,195 @@
+{
+  "source_commit": "71f2f3c91e9113d285ab21e024f1dd70c1f43c44",
+  "parser": {
+    "prose_lines": 4118,
+    "raw_prose_tokens": 34491,
+    "excluded_uncertain_or_other": 80,
+    "retained_tokens": 34411,
+    "retained_types": 7069
+  },
+  "original_parser": {
+    "tokens": 37886,
+    "decoded": 33785
+  },
+  "null_rule": {
+    "all_dictionary_entries": 4063,
+    "entries_with_gallows": 29,
+    "entries_both_readings_defined": 9,
+    "entries_conflicting": 2,
+    "retained_prose_gallows_tokens": 2049,
+    "originally_mapped_gallows_tokens": 1845,
+    "tokens_lost_by_strip_first": 18,
+    "comparable_gallows_tokens": 1827,
+    "tokens_with_changed_reading": 95,
+    "conflicting_observed_types": 2,
+    "examples": [
+      {
+        "eva": "shckhy",
+        "stripped": "shy",
+        "before": "HEUS",
+        "after": "HIC",
+        "occurrences": 60
+      },
+      {
+        "eva": "sheckhy",
+        "stripped": "shey",
+        "before": "HEUS",
+        "after": "HEC",
+        "occurrences": 35
+      }
+    ]
+  },
+  "reconstructions": {
+    "original": {
+      "prefixes": [
+        "d",
+        "l",
+        "ol",
+        "p",
+        "op",
+        "ch"
+      ],
+      "all_prose": {
+        "total": 34411,
+        "no_candidate": 28915,
+        "has_candidate": 5496,
+        "unique_candidate": 5496,
+        "direct_seed_tokens": 4138,
+        "author_comparable": 5490,
+        "author_reading_in_candidates": 5084,
+        "unique_comparable": 5490,
+        "unique_agree": 5084,
+        "new_surface_tokens": 1358,
+        "author_reading_absent": 406,
+        "unique_disagree": 406
+      },
+      "folios": {
+        "f1r": {
+          "total": 202,
+          "no_candidate": 173,
+          "has_candidate": 29,
+          "unique_candidate": 29,
+          "direct_seed_tokens": 26,
+          "author_comparable": 29,
+          "author_reading_in_candidates": 28,
+          "unique_comparable": 29,
+          "unique_agree": 28,
+          "new_surface_tokens": 3,
+          "author_reading_absent": 1,
+          "unique_disagree": 1
+        },
+        "f75r": {
+          "total": 422,
+          "no_candidate": 337,
+          "has_candidate": 85,
+          "unique_candidate": 85,
+          "direct_seed_tokens": 57,
+          "author_comparable": 85,
+          "author_reading_in_candidates": 79,
+          "unique_comparable": 85,
+          "unique_agree": 79,
+          "new_surface_tokens": 28,
+          "author_reading_absent": 6,
+          "unique_disagree": 6
+        },
+        "f103r": {
+          "total": 522,
+          "no_candidate": 420,
+          "has_candidate": 102,
+          "unique_candidate": 102,
+          "direct_seed_tokens": 68,
+          "author_comparable": 102,
+          "author_reading_in_candidates": 90,
+          "unique_comparable": 102,
+          "unique_agree": 90,
+          "new_surface_tokens": 34,
+          "author_reading_absent": 12,
+          "unique_disagree": 12
+        }
+      },
+      "seed_reading_ambiguities": [],
+      "prediction_sha256": "1c038b9bc3277299d793e846e3da8e39c49c0405ebc03f4ffb3b080478bf14e9"
+    },
+    "extended": {
+      "prefixes": [
+        "o",
+        "d",
+        "l",
+        "p",
+        "ol",
+        "op",
+        "ch",
+        "sh",
+        "s",
+        "k",
+        "qo"
+      ],
+      "all_prose": {
+        "total": 34411,
+        "no_candidate": 27926,
+        "has_candidate": 6485,
+        "unique_candidate": 6321,
+        "direct_seed_tokens": 4138,
+        "author_comparable": 6438,
+        "author_reading_in_candidates": 5212,
+        "unique_comparable": 6276,
+        "unique_agree": 5068,
+        "new_surface_tokens": 2347,
+        "author_reading_absent": 1226,
+        "unique_disagree": 1208,
+        "ambiguous_candidates": 164
+      },
+      "folios": {
+        "f1r": {
+          "total": 202,
+          "no_candidate": 162,
+          "has_candidate": 40,
+          "unique_candidate": 40,
+          "direct_seed_tokens": 26,
+          "author_comparable": 40,
+          "author_reading_in_candidates": 30,
+          "unique_comparable": 40,
+          "unique_agree": 30,
+          "new_surface_tokens": 14,
+          "author_reading_absent": 10,
+          "unique_disagree": 10
+        },
+        "f75r": {
+          "total": 422,
+          "has_candidate": 95,
+          "unique_candidate": 95,
+          "new_surface_tokens": 38,
+          "author_comparable": 95,
+          "author_reading_absent": 11,
+          "unique_comparable": 95,
+          "unique_disagree": 11,
+          "no_candidate": 327,
+          "direct_seed_tokens": 57,
+          "author_reading_in_candidates": 84,
+          "unique_agree": 84
+        },
+        "f103r": {
+          "total": 522,
+          "no_candidate": 413,
+          "has_candidate": 109,
+          "unique_candidate": 109,
+          "direct_seed_tokens": 68,
+          "author_comparable": 109,
+          "author_reading_in_candidates": 93,
+          "unique_comparable": 109,
+          "unique_agree": 93,
+          "new_surface_tokens": 41,
+          "author_reading_absent": 16,
+          "unique_disagree": 16
+        }
+      },
+      "seed_reading_ambiguities": [
+        {
+          "eva": "qokol",
+          "candidate_count": 2
+        }
+      ],
+      "prediction_sha256": "7e63aea4237f024849f7dca9c93bb52593098d9311a28aba0427c8be3d69229c"
+    }
+  }
+}

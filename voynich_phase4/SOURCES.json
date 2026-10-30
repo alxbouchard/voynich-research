@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-28",
+  "sha256": {
+    "voynich_20261028/data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "voynich_20261028/data/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "voynich_20261028/controls/input/nathist_book16.txt": "7d105774267c4b474777b53b8aa693aea3b4f35b722f9fb1de702db77d1d1fe7",
+    "voynich_phase2/data/caesar.xml": "15ec3ef2a36352742ddb75d4f7da23a143899b6b60ee3a7ca3192d4917ca1568",
+    "voynich_phase2/data/dante.txt": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e"
+  },
+  "source_metadata": "Original descriptions retained in voynich_20261028/SOURCES.json and voynich_phase2/SOURCES_AND_LIMITS.json",
+  "background_references": [
+    {
+      "author": "Nils Kopal",
+      "year": 2019,
+      "title": "Cryptanalysis of Homophonic Substitution Ciphers Using Simulated Annealing with Fixed Temperature",
+      "url": "https://ep.liu.se/en/conference-article.aspx?Article_No=12&issue=158&series=",
+      "role": "Background; our implementation uses cooling and a unigram penalty, not an exact replication."
+    },
+    {
+      "authors": "Kambhatla, Born, Sarkar",
+      "year": 2023,
+      "title": "Decipherment as Regression: Solving Historical Substitution Ciphers by Learning Symbol Recurrence Relations",
+      "url": "https://aclanthology.org/2023.findings-eacl.160/",
+      "role": "Possible future comparison; neural method NOT implemented here."
+    }
+  ],
+  "licenses": "Caesar XML and derived normalized Latin model corpus: CC BY-SA 4.0, Perseus Digital Library. Greshko input corpora license and mandatory article citation retained. Manuscript transcription credits retained in original headers."
+}

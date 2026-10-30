@@ -1,0 +1,34 @@
+VOYNICH - PHASE 11 : ESSAI ET AUDIT DE DEUX DECODEURS PUBLICS
+
+Résultat : aucune traduction validée. Deux programmes ont été exécutés, avec
+leurs versions exactes et des contrôles sur les significations proposées.
+Lire le PDF pour les résultats et leurs limites.
+
+Reproduction (Python 3.12 et Node 18 ou supérieur ; bibliothèque standard) :
+  python src/fetch_sources.py
+  node src/audit_scott.mjs
+  python src/audit_zfd.py
+  python src/verify_results.py
+
+Le téléchargement exige un accès à raw.githubusercontent.com. Il vérifie
+chaque fichier contre ses empreintes Git et SHA256 avant toute exécution.
+Le manifeste épingle 45 fichiers de deux dépôts, pas leurs branches courantes.
+Les programmes d'audit exécutent ces fichiers téléchargés ; les sources ont
+été lues pour cet essai. Pas d'installation de dépendance tierce nécessaire.
+
+L'archive contient nos scripts, le protocole initial, sa correction technique,
+les résultats numériques, les empreintes et le rapport. Elle exclut les sources
+des auteurs, les dictionnaires complets et les traductions intégrales. Les
+droits et conditions des dépôts originaux restent applicables.
+ZFD : code/données sous MIT ; textes de traduction réservés par son LICENSE.
+Scott : aucune licence trouvée dans l'arbre du commit inspecté.
+
+Les sorties intégrales générées lors d'une reproduction restent sous tmp/.
+Les fichiers livrés dans results/ ne sont pas des traductions du manuscrit.
+Le profil lexical et la couverture sont des propriétés de reconnaissance.
+Leur invariance sous changement des sens ne réfute pas, à elle seule, les
+autres arguments historiques, linguistiques ou iconographiques des auteurs.
+
+Sources :
+https://github.com/scott-schechter/voynich-decoded/tree/71f2f3c91e9113d285ab21e024f1dd70c1f43c44
+https://github.com/denoflore/ZFD/tree/3f030a9293b8db15dc2c7b0d0e7c703e71711f62

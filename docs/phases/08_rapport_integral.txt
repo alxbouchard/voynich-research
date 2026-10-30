@@ -1,0 +1,150 @@
+[Page 1]
+VOYNICH / PHASE 8 / TRANSCRIPTION ET IMAGES
+28 OCT. 2026
+VARIANTES CONSERVÉES · AUCUNE TRADUCTION VALIDÉE
+1
+Le modèle ne tranche pas les espaces
+incertains
+Le modèle ne permet pas de corriger automatiquement les espaces incertains. Sur 1 089 positions
+comparables, il suit la transcription IT dans 716 cas (65,7 %). La règle « toujours séparer » en suit
+700 (64,3 %). Le gain ne dépasse donc que 16 positions.
+Comparaison avec IT
+Accord
+Positions
+Modèle figé, seuil 0,5
+65,7 %
+716 / 1 089
+Toujours insérer un espace
+64,3 %
+700 / 1 089
+Scores ≤ 0,1 ou ≥ 0,9 seulement
+79,0 %
+252 / 319
+Le dernier choix ne couvre que 29,3 % des ambiguïtés et conserve 67 désaccords. Le score est
+appris sur les frontières nettes ZL ; il n’est pas une probabilité établie de lecture correcte pour les
+frontières incertaines.
+Les scores extrêmes sont trop assurés pour ce transfert
+Parmi les 171 scores inférieurs à 0,1, le score moyen vaut 0,028, mais IT sépare 30,4 % des positions. IT est un
+comparateur, pas une vérité linguistique. Ce désaccord indique un transfert insuffisant des scores vers ce
+sous-ensemble.
+Portée du résultat
+Le résultat précédent à environ 90 % concernait les frontières nettes. Ici, la population et le comparateur changent. Le
+rééchantillonnage des cahiers situe le gain sur « toujours séparer » entre -1,6 et +10,7 points ; cet intervalle descriptif
+inclut zéro. Les modèles des plis partagent une partie de leur apprentissage.
+
+
+[Page 2]
+VOYNICH / PHASE 8 / TRANSCRIPTION ET IMAGES
+28 OCT. 2026
+VARIANTES CONSERVÉES · AUCUNE TRADUCTION VALIDÉE
+2
+Six frontières, trois feuillets
+Pour chaque page, les scores minimum et maximum ont été retenus avant l’examen ciblé des lignes. Les flèches
+indiquent la frontière approximative ; les images sont de simples découpes des scans. Examen par l’assistant, non
+aveugle, guidé par les deux transcriptions.
+I1 · f1r.26 · score 0.0047
+ZL ok,chey
+IT okchey
+L’encre est pâle ; la boucle de k rend la largeur du blanc
+dépendante de la hauteur examinée.
+I2 · f1r.26 · score 0.9844
+ZL keey,dal
+IT keey.dal
+Les signes y et d se distinguent. La décision de séparer
+reste une convention de transcription.
+I3 · f75r.30 · score 0.0069
+ZL o,kalol
+IT okalol
+Un blanc est visible entre l’ovale et la hampe, même
+quand IT les joint dans un groupe.
+I4 · f75r.12 · score 0.9828
+ZL dy,olshedy
+IT dy.ol.shedy
+Les prolongements inférieurs sont proches. IT sépare
+aussi ol et shedy, hors de la cible.
+I5 · f103r.47 · score 0.0302
+ZL okeeo,l,lchey
+IT okeeol.lchey
+Deux l se suivent : IT joint le premier à okeeol et sépare
+le second. Conserver les deux virgules ZL.
+I6 · f103r.27 · score 0.9938
+ZL tchey,qokeey
+IT tchey.qokchy
+IT sépare ici et lit qokchy là où ZL lit qokeey. La
+divergence de signes reste ouverte.
+Notation : virgule = espace incertain ZL ; point = séparation transcrite. EVA code les formes des signes, pas leur son ni
+leur sens. Ces six cas ciblés ne mesurent pas une performance sur l’ensemble du manuscrit.
+
+
+[Page 3]
+VOYNICH / PHASE 8 / TRANSCRIPTION ET IMAGES
+28 OCT. 2026
+VARIANTES CONSERVÉES · AUCUNE TRADUCTION VALIDÉE
+3
+Un désaccord malgré un score extrême
+Feuillet 113v, ligne 43 : qok,aiinos. Le score « espace » tombe à 0,000113. Le modèle recommande
+donc de joindre. IT conserve pourtant une séparation : qok.aiin.os.
+Image Yale 1006271, découpe native [1990, 2710, 2370, 2800]. La flèche vise la frontière après qok. Un intervalle entre
+les traits est visible. Cela ne suffit ni à démontrer une frontière de mot ni à justifier sa suppression.
+Ce septième cas a été sélectionné après le calcul : c’est le désaccord modèle/IT le plus extrême du sous-ensemble
+examiné. Il documente une limite ; il ne constitue pas un test représentatif des images.
+Décision pour l’édition de travail
+Les 2 394 virgules d’origine restent intactes. Le registre associe maintenant les scores figés, les 1
+089 correspondances strictes avec IT et sept examens d’image localisés. Aucun texte corrigé
+automatiquement et aucune traduction ne sont produits.
+Une variante est conservée lorsque la lecture des signes, la séparation ou les deux restent
+incertaines. Le score sert à ordonner les examens ; il ne doit pas être utilisé comme poids
+probabiliste fiable avant validation adaptée aux ambiguïtés.
+Ce que cette étape apporte au déchiffrement
+Elle empêche de fabriquer un texte d’entrée artificiellement certain. Toute hypothèse de chiffre ou
+de langue devra expliquer plusieurs segmentations admissibles, respecter les frontières robustes et
+réussir sur du texte réservé. Un accord local avec quelques signes ne suffira pas.
+
+
+[Page 4]
+VOYNICH / PHASE 8 / TRANSCRIPTION ET IMAGES
+28 OCT. 2026
+VARIANTES CONSERVÉES · AUCUNE TRADUCTION VALIDÉE
+4
+Protocole, vérifications et sources
+Comparaison des transcriptions
+Modèle de phase 7 figé : contexte de quatre caractères EVA, apprentissage sur les autres cahiers. Les virgules ZL ne
+sont pas des étiquettes d’apprentissage. Aucune remise au point du seuil en phase 8. Un seul fragment conservé par
+locus et par transcription ; flux de caractères strictement identique. Les fragments peuvent exclure une partie du début
+ou de la fin de ligne.
+Ce filtrage retient 1 913 loci, comprenant 1 089 frontières incertaines ZL. Les transcriptions partagent le même
+manuscrit et des conventions ; elles ne sont pas deux observations linguistiques indépendantes. Les parties où les
+signes divergent sont exclues de cette comparaison chiffrée.
+Sous-ensemble
+Modèle
+Toujours
+séparer
+Currier A : 289 frontières
+68,2 %
+53,6 %
+Currier B : 800 frontières
+64,9 %
+68,1 %
+Le classement reste informatif (AUC 0,729), mais le seuil 0,5 fonctionne mal pour cette nouvelle cible, notamment en
+Currier B. Le modèle à deux caractères obtient 62,5 % d’accord ; les bords des groupes BPE64 obtiennent 65,9 %.
+Aucune variante ne suffit à trancher les lectures.
+Audit des images et reproduction
+Six cibles fixées par la règle minimum/maximum sur f1r, f75r et f103r ; un septième cas ajouté après les résultats et
+identifié comme tel. Localisation manuelle assistée, sans évaluateur indépendant. Aucune mesure automatisée de
+largeur d’encre ni validation de frontière linguistique revendiquée. Les coordonnées sont celles des JPEG Yale, origine
+en haut à gauche.
+Vérification indépendante : reconstruction des 1 089 paires, recomptage de la matrice de désaccords, AUC obtenue par
+272 300 comparaisons directes, contrôle SHA-256 des quatre scans et égalité exacte des pixels des sept découpes. La
+vérification ne certifie pas l’identification paléographique manuelle. L’archive contient les scripts, données figées,
+variantes et protocole.
+Sources primaires et dépendances
+[1] Yale, Beinecke MS 408, notice et images numérisées. Identifiants : 1006076 (f1r), 1006208 (f75r), 1006254 (f103r),
+1006271 (f113v). Les trois premières images ont été acquises en phase 3 ; la quatrième lors de cette étape. Images
+sources conservées avec empreintes.
+[2] René Zandbergen, conventions IVTFF et historique des transcriptions. Corpus figés ZL3b-n et IT2a-n ; ZL et Takeshi
+Takahashi (IT). Les fichiers bruts et leur provenance sont conservés dans le dossier de recherche.
+[3] Notre phase 7 : prédictions hors cahier, données de segmentation et BPE64 figés. L’archive de phase 8 reproduit ses
+nouveaux calculs à partir de ces sorties. Elle ne réexécute pas toute la chaîne des phases 1 à 7. Les résultats sur les
+ambiguïtés sont exploratoires ; le protocole local ne constitue pas un préenregistrement indépendant.
+Conclusion : le manuscrit reste non déchiffré dans ce dossier. La présente étape fournit une transcription à variantes
+mieux documentée et invalide l’usage des scores de phase 7 comme certitudes pour corriger les espaces incertains.

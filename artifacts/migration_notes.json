@@ -1,0 +1,11 @@
+{
+  "invalid_local_archive": [
+    {
+      "phase": 5,
+      "archive": "voynich_phase5/output/Voynich_phase5_sources_2026-10-28.zip",
+      "status": "Local ZIP unreadable. Phase 5 recovered from the valid phase 6 archive dependency snapshot; no fabricated archive."
+    }
+  ],
+  "conflicting_snapshots": [],
+  "selection": "Prefer own phase archive, otherwise the latest valid dependency snapshot. Phase5 recovered via phase6."
+}

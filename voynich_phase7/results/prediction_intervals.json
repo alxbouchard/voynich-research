@@ -1,0 +1,26 @@
+{
+  "ZL": {
+    "clusters": 14,
+    "precision_ci": [
+      0.8962903563686333,
+      0.9088706453549678
+    ],
+    "recall_ci": [
+      0.878976981109494,
+      0.9228062500875782
+    ],
+    "type": "Cluster bootstrap of out-of-fold predictions, no refitting; overlapping training folds limit inferential independence."
+  },
+  "IT": {
+    "clusters": 14,
+    "precision_ci": [
+      0.8897052159978254,
+      0.9002955368144013
+    ],
+    "recall_ci": [
+      0.8695800078727522,
+      0.914174582382796
+    ],
+    "type": "Cluster bootstrap of out-of-fold predictions, no refitting; overlapping training folds limit inferential independence."
+  }
+}

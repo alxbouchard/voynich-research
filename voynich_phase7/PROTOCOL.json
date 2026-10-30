@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28",
+  "status": "Frozen before executing phase-7 models; exploratory continuation, not independent of all earlier manuscript inspection.",
+  "question": "Do uncertain and definite transcribed separators behave alike when the learner cannot see spaces? Can local glyph contexts recover definite spaces on omitted quires?",
+  "sources": "Existing exact ZL3b-n and IT2a-n bytes, plus the four descriptive control streams already documented in phase 6. Use raw IVTFF, never semantic mappings.",
+  "validation": "Leave one complete quire out for Voynich; contiguous eight-block cross-fitting for control streams. No test glyph counts or boundary labels used in fitting. Manuscript quire grouping includes all Currier A/B paragraph spans; report A/B strata separately.",
+  "experiment_A": "Boundary probabilities from pair and four-character contexts, hierarchical count smoothing fixed at 16 and 32. Train on internal positions and definite dots only; uncertain commas never enter the loss. Evaluate ROC AUC, precision, recall, F1 and log loss. Classification threshold fixed at .5, never optimized on test data. Report mean predicted probability at uncertain separators descriptively.",
+  "experiment_B": "Learn 128 frequent-pair merges from each training set with all original spaces erased, using own C++ implementation. Initial alphabets: raw EVA letters and fixed composed units. Apply unchanged ordered rules on omitted quire. Report boundary crossing at 0,32,64,128 merges; 64 primary, others sensitivity, no selection of best result. No line or unknown-character barrier can be crossed.",
+  "uncertainty": "2000 cluster bootstrap draws of pooled out-of-fold observations by quire for differences; these are descriptive uncertainty, not independent publication confirmation. Length-permutation control on hidden boundaries, 100 replicates at 64 raw merges. All choices and failures retained.",
+  "limits": "Existing transcriber judgments may reflect glyph context and gap width, so separator categories are not independent ground truth. ZL and IT share manuscript and conventions. Controls differ in length, script and genre; no universal classifier of meaning. No semantic or phonetic assignments, no claim of decipherment, no image-derived correction without original image examination.",
+  "external_prior": "Rozanova and Temerev, arXiv:2608.17096v1. Independent related tests with different preprocessing and omitted-quire validation, not a full replication of their published pipeline."
+}

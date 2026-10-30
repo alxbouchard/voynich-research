@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-29 America/Toronto",
+  "status": "Local protocol written before fitting phase-15 models; not an external preregistration",
+  "question": "Can shared short edge rewrites connect pharmaceutical labels to their own leaf prose after holding that whole leaf out of fitting?",
+  "physical_unit": "The folio number f88, f89, f99, f100, f101, f102; all recto/verso/foldout panels of a folio stay together. Include all pharmaceutical prose, including f101r.",
+  "prior_exposure": "These leaves were used or viewed in phase 14. Held out here means excluded from model fitting within this phase, not historically unseen by the analyst.",
+  "transcriptions": ["ZL3b-n", "IT2a-n"],
+  "conditions": {
+    "strict": "Primary: one clean alphabetical label of >=3 EVA letters, conservative unambiguous prose words. Exclude uncertain symbols, spaces and ligatures.",
+    "lattice": "Sensitivity: retain explicit bracket alternatives, ordinary ligature letter contents, comma split/join alternatives; whole labels may have <=2 words and prose matches may concatenate <=2 adjacent words. Never cross lines or drawing interruptions. No unknown-sign wildcard. Bound any local alternative set to <=16. This is a bounded segmentation search, not phonetic decipherment."
+  },
+  "units": "cth, ckh, cph, cfh, ch, sh treated as indivisible EVA units; remaining letters individual. These are not claimed phonemes.",
+  "rule_family": "Identity, or one left-edge or right-edge rewrite replacing 0..2 units with 0..2 units. Unchanged stem >=3 units. No simultaneous edits at both ends, internal substitutions or per-word rules.",
+  "fit": "Leave one of six physical folios out. Identity always present. Greedily add at most three rewrites. Each candidate must match >=3 distinct training label spellings across >=2 training folios under current assigned label/prose correspondence. Maximize mean-per-folio own-prose hit fraction minus other-training-prose hit fraction. Require improvement >0.01 per added rule. Deterministic lexical tie break. Model selection has no access to the held-out leaf's labels or prose.",
+  "primary_statistic": "Cross-fitted mean-per-leaf own-prose fraction minus mean fraction in the other five folios, using the union of identity and selected rules. Also record the improvement relative to identity.",
+  "null": "Enumerate all 6! =720 assignments of whole prose folios to label folios. Refit each model under each assignment, including held-out training exclusion. Exact upper-tail p = fraction of all assignments whose statistic >= identity assignment statistic. No Monte Carlo correction when identity is in the full enumeration.",
+  "sensitivity": "Restrict permutation results to assignments preserving number of physical panels with prose (4! x 2! =48 expected). ZL/IT are sensitivity checks on the same manuscript, not independent replications. Report no-training-spelling subset descriptively, no separate significance claim.",
+  "controls": "Constructed positive corpus with shared q-prefix link on unique generated label strings; constructed disconnected prose negative control. Confirm learned transform and held-out behavior. Independently verify matched forms against explicit outputs.",
+  "interpretation": "A positive signal establishes only this structural relation under this null. Neither grammatical function, language, meaning, nor translation follows. A negative result rules out no other decipherment family.",
+  "sources": ["https://voynich.nu/extra/labels.html", "https://voynich.nu/hist/stolfi/grammar.html", "https://voynich.nu/transcr.html"],
+  "not_run": ["phonetic mapping to historical languages", "arbitrary latent glyph segmentation", "full TranscriptTool installation"]
+}

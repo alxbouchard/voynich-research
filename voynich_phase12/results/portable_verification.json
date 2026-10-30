@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "fresh_archive_extraction": true,
+  "result_json_identical": [
+    "rule_audit.json",
+    "verification.json"
+  ],
+  "pinned_sources_copied_and_hash_verified": 12,
+  "network_redownload_tested": false,
+  "commands": [
+    [
+      "python",
+      "src/fetch_sources.py"
+    ],
+    [
+      "node",
+      "src/export_upstream.mjs"
+    ],
+    [
+      "python",
+      "src/analyse.py"
+    ],
+    [
+      "python",
+      "src/verify.py"
+    ]
+  ]
+}

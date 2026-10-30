@@ -1,0 +1,159 @@
+{
+  "verdict": "Aucune traduction validee. Exploratory limited models, no family-wide rejection.",
+  "date": "2026-10-28",
+  "new_solver_runs": 80,
+  "real_count": 32,
+  "null_count": 32,
+  "all_real_train_canonical": true,
+  "real_full_canonical_count": 14,
+  "baseline_phase5_full_canonical_count": 0,
+  "groups": {
+    "latin_CV": {
+      "count": 8,
+      "full_canonical_count": 4,
+      "test_canonical_min": 0.9939117199391172,
+      "bits_min": 15.543447956109418,
+      "bits_max": 17.61464447756868,
+      "matched_null_beaten": 8,
+      "best_post_hoc": "voynich_latin_CV_B_EVA_reverse",
+      "best_two_letter_fraction": 0.00037355248412401944,
+      "best_distinct_units": 14
+    },
+    "latin_VC": {
+      "count": 8,
+      "full_canonical_count": 4,
+      "test_canonical_min": 0.9954476479514416,
+      "bits_min": 16.963014520840723,
+      "bits_max": 19.579956754989965,
+      "matched_null_beaten": 8,
+      "best_post_hoc": "voynich_latin_VC_A_EVA_forward",
+      "best_two_letter_fraction": 0.0005988536230644195,
+      "best_distinct_units": 15
+    },
+    "italian_CV": {
+      "count": 8,
+      "full_canonical_count": 2,
+      "test_canonical_min": 0.9960079840319361,
+      "bits_min": 15.618412116296124,
+      "bits_max": 16.58195681017657,
+      "matched_null_beaten": 8,
+      "best_post_hoc": "voynich_italian_CV_B_EVA_forward",
+      "best_two_letter_fraction": 0.0038475905864774,
+      "best_distinct_units": 16
+    },
+    "italian_VC": {
+      "count": 8,
+      "full_canonical_count": 4,
+      "test_canonical_min": 0.9954337899543378,
+      "bits_min": 15.810423300672115,
+      "bits_max": 16.947038168865983,
+      "matched_null_beaten": 8,
+      "best_post_hoc": "voynich_italian_VC_B_EVA_forward",
+      "best_two_letter_fraction": 0.0,
+      "best_distinct_units": 16
+    }
+  },
+  "controls": [
+    {
+      "case": "control_latin_CV_1",
+      "errors": 31,
+      "accuracy": 0.9986265562004342,
+      "test_canonical": 1.0
+    },
+    {
+      "case": "control_latin_CV_2",
+      "errors": 31,
+      "accuracy": 0.9986265562004342,
+      "test_canonical": 1.0
+    },
+    {
+      "case": "control_latin_VC_1",
+      "errors": 31,
+      "accuracy": 0.9985878923154011,
+      "test_canonical": 0.9963636363636363
+    },
+    {
+      "case": "control_latin_VC_2",
+      "errors": 31,
+      "accuracy": 0.9985878923154011,
+      "test_canonical": 0.9963636363636363
+    },
+    {
+      "case": "control_italian_CV_1",
+      "errors": 0,
+      "accuracy": 1.0,
+      "test_canonical": 1.0
+    },
+    {
+      "case": "control_italian_CV_2",
+      "errors": 0,
+      "accuracy": 1.0,
+      "test_canonical": 1.0
+    },
+    {
+      "case": "control_italian_VC_1",
+      "errors": 0,
+      "accuracy": 1.0,
+      "test_canonical": 1.0
+    },
+    {
+      "case": "control_italian_VC_2",
+      "errors": 0,
+      "accuracy": 1.0,
+      "test_canonical": 1.0
+    }
+  ],
+  "initial_control_accuracies": {
+    "control_latin_CV_1": 0.9986265562004342,
+    "control_latin_CV_2": 0.9986265562004342,
+    "control_latin_VC_1": 0.10322051655810138,
+    "control_latin_VC_2": 0.1021728237598506,
+    "control_italian_CV_1": 0.6278441514926233,
+    "control_italian_CV_2": 0.0,
+    "control_italian_VC_1": 1.0,
+    "control_italian_VC_2": 1.0
+  },
+  "adjacency_randomizations": 1600,
+  "adjacency_source_counts": [
+    {
+      "case": "ZL_A",
+      "source_word_count_before_template": null,
+      "retained_word_count": 9474
+    },
+    {
+      "case": "ZL_B",
+      "source_word_count_before_template": null,
+      "retained_word_count": 19670
+    },
+    {
+      "case": "IT_A",
+      "source_word_count_before_template": null,
+      "retained_word_count": 11081
+    },
+    {
+      "case": "IT_B",
+      "source_word_count_before_template": null,
+      "retained_word_count": 22797
+    },
+    {
+      "case": "Latin_Pliny",
+      "source_word_count_before_template": 8954,
+      "retained_word_count": 8954
+    },
+    {
+      "case": "Italian_Paradiso",
+      "source_word_count_before_template": 33409,
+      "retained_word_count": 32824
+    },
+    {
+      "case": "Naibbe_Pliny",
+      "source_word_count_before_template": 34809,
+      "retained_word_count": 32824
+    },
+    {
+      "case": "Timm_generated",
+      "source_word_count_before_template": 10823,
+      "retained_word_count": 10823
+    }
+  ]
+}

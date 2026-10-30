@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "status": "Local exploratory protocol, written before current corpus counts; not preregistered. Prior published negative interpretations and 2016 concordance examples are known.",
+  "aim": "Audit two externally located anchors: f1r marginal alphabets and f116v mixed-script line. No learned key, phonetic claim, or translation.",
+  "corpus": ["ZL3b-n.txt", "IT2a-n.txt"],
+  "f1r": {
+    "source": "Lisa Fagin Davis, 2024-09-08, screenshot-696.png preliminary table",
+    "mapping_policy": "Retain 13 provisionally legible glyph groups; omit question-mark glyph rows. Add y from row with ambiguous j/k Latin alignment. Four globally fixed keys: left j or k; right ch=j or k. No optimization.",
+    "tokenization": "Greedy cth ckh cph cfh ch sh in, then single EVA characters; missing values remain explicit. EVA is not phonetic.",
+    "outcomes": "Coverage of clean word occurrences and vocabulary; complete prose lines; mechanical output with unknown glyph markers. No linguistic acceptance score. Coverage cannot validate or refute the omitted table rows or all cipher families."
+  },
+  "f116v": {
+    "queries": ["oror", "aror", "sheey", "oror sheey", "aror sheey"],
+    "exclude_target": "All f116v rows excluded from recurrence counts; IT has no f116v entry.",
+    "primary": "Exact clean tokens in a line; uncertain chunks are barriers; drawings are barriers.",
+    "sensitivity": "First bracket reading, ordinary alphabetical ligatures, comma split or joined; hard barriers preserved. Also inspect adjacency across consecutive prose lines of the same paragraph.",
+    "published_comparisons": ["oror tcheey", "aror dshey", "arorl sheey", "aror shedy"],
+    "interpretation": "Two words in different scripts side by side are not necessarily equivalent translations. No known plaintext assigned."
+  }
+}

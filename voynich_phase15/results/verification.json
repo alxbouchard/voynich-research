@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "code": "ZL",
+      "condition": "strict",
+      "observed_refit": "identical",
+      "exact_p_recomputed": true
+    },
+    {
+      "code": "ZL",
+      "condition": "lattice",
+      "observed_refit": "identical",
+      "exact_p_recomputed": true
+    },
+    {
+      "code": "IT",
+      "condition": "strict",
+      "observed_refit": "identical",
+      "exact_p_recomputed": true
+    },
+    {
+      "code": "IT",
+      "condition": "lattice",
+      "observed_refit": "identical",
+      "exact_p_recomputed": true
+    }
+  ],
+  "strict_prose_occurrences_independently_verified": 118,
+  "positive_control_recovered": 120,
+  "negative_control_matches": 0,
+  "drawing_separator_note": "Phase 14 omitted a separator for <~>. Six ZL loci contain this marker, none are pharmaceutical; phase-14 pharmaceutical test unaffected. This parser treats both drawing markers as hard barriers."
+}

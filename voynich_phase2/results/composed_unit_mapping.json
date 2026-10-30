@@ -1,0 +1,32 @@
+{
+  "rule": "ckh|cth|cph|cfh|ch|sh|iiiin|iiin|iin|in|.",
+  "units": {
+    "o": "a",
+    "e": "b",
+    "y": "c",
+    "a": "d",
+    "d": "e",
+    "ch": "f",
+    "l": "g",
+    "k": "h",
+    "r": "i",
+    "q": "j",
+    "t": "k",
+    "sh": "l",
+    "iin": "m",
+    "s": "n",
+    "in": "o",
+    "p": "p",
+    "i": "q",
+    "m": "r",
+    "cth": "s",
+    "ckh": "t",
+    "f": "u",
+    "h": "v",
+    "cph": "w",
+    "iiin": "x",
+    "c": "y",
+    "g": "z"
+  },
+  "selection": "26 most frequent training units only; unknown/rare units break spans, never concatenate across them"
+}

@@ -1,0 +1,22 @@
+{
+  "allowed_models": [
+    [
+      "italian",
+      "CV"
+    ],
+    [
+      "italian",
+      "VC"
+    ],
+    [
+      "latin",
+      "CV"
+    ],
+    [
+      "latin",
+      "VC"
+    ]
+  ],
+  "excluded_models": [],
+  "criterion": "both keys >=95% exact heldout unit recovery"
+}

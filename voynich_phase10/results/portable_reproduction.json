@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-28T23:46:41.438672+00:00",
+  "manifest_hashes_checked": 561,
+  "cached_model_results_removed": 200,
+  "fresh_optimizations": 200,
+  "same_keys_and_all_decoded_texts": true,
+  "max_objective_difference": 0.0,
+  "five_aggregate_result_files_identical": true,
+  "verification": {
+    "status": "PASS",
+    "independent_model_reconstructions": 200,
+    "heldout_letter_predictions_checked": 4899916,
+    "comparison_pairs_checked": 100,
+    "control_cipher_characters_roundtrip": 736376,
+    "max_training_objective_absolute_error": 1.7113052308559418e-08,
+    "physical_leaf_separation": "PASS",
+    "space_anchors_and_permutations": "PASS",
+    "failed_gates_respected": "PASS",
+    "limitations": "Computational checks, not independent linguistic validation or external replication. Shares frozen data and LM arrays with main analysis."
+  },
+  "scope": "Fresh extraction and recompilation in same environment; not external independent replication. Final archive adds this audit record."
+}

@@ -1,0 +1,23 @@
+{
+  "primary_background": [
+    {
+      "title": "Reddy and Knight 2011, What We Know About The Voynich Manuscript, section5.2",
+      "url": "https://aclanthology.org/W11-1511.pdf",
+      "use": "Known previous-final/next-initial dependence, not a proposed key."
+    },
+    {
+      "title": "Feaster 2022, Rightward and Downward Grapheme Distributions",
+      "url": "https://ceur-ws.org/Vol-3313/paper12.pdf",
+      "use": "Positional confounds and limits."
+    },
+    {
+      "title": "Zandbergen, IVTFF conventions",
+      "url": "https://www.voynich.nu/extra/sp_transcr.html",
+      "use": "Raw EVA transcription conventions and uncertainty."
+    }
+  ],
+  "own_inputs": "Frozen phase9 source_inputs snapshot, derived from phase6 strict token parsing; original ZL3b-n / IT2a-n metadata and all lineage in source_phase9.json. This archive starts from frozen inputs; it does not independently reconstruct handwritten images.",
+  "language_corpora": "Caesar, Perseus, CC BY-SA4.0; Dante Inferno/Purgatorio used for language models, Paradiso for controls; Pliny for Latin controls. Exact pinned sources in data/source_phase2.json and source_phase9.json.",
+  "unused_snapshot_controls": "Naibbe and Timm sample rows retained only as source snapshot provenance. Not analyzed in phase10. Attribution and licenses retained.",
+  "cipher": "Context-dependent ciphers constructed in this phase, not Greshko/Naibbe encryption and not a historical attribution."
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-29 America/Toronto",
+  "scope": "Image and repeated-label pilot; no semantic key assumed",
+  "selected_folios": [
+    "f1r",
+    "f1v",
+    "f2r",
+    "f57v",
+    "f67r2",
+    "f68r1",
+    "f70v2",
+    "f72r2",
+    "f73v",
+    "f75v",
+    "f78r",
+    "f82v",
+    "f88r",
+    "f89r1",
+    "f89r2",
+    "f99r",
+    "f99v",
+    "f100r",
+    "f102r2",
+    "f116v"
+  ],
+  "selection_reason": "purposive coverage of prose, herbs, circular diagrams, zodiac, bath diagrams, plant-fragment labels and marginalia; not a random representative sample",
+  "transcriptions": [
+    "ZL3b-n",
+    "IT2a-n"
+  ],
+  "candidate_rule": "single clean alphabetic labels of at least 3 EVA characters, exact agreement at the same locus between ZL and IT, repeated on at least two pages; sort by occurrence count then alphabetical; first 10",
+  "independence_warning": "transcriptions share a physical source and can share conventions; their agreement is not ground truth",
+  "label_prose_test": "plant-fragment and container labels versus prose on same pharmaceutical page, compared with 10000 permutations of whole label-page blocks; replicate in ZL and IT",
+  "meaning_rule": "No meanings inferred from diagram identity alone. Observed categories are spatial relations, not translations.",
+  "images": "Exact crops only. No synthetic restoration. Coordinates in full-resolution Yale canvas pixels.",
+  "new_software_scope": "No full TranscriptTool installation, no joint phonetic decoder in this phase."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_model_reconstructions": 200,
+  "heldout_letter_predictions_checked": 4899916,
+  "comparison_pairs_checked": 100,
+  "control_cipher_characters_roundtrip": 736376,
+  "max_training_objective_absolute_error": 1.7113052308559418e-08,
+  "physical_leaf_separation": "PASS",
+  "space_anchors_and_permutations": "PASS",
+  "failed_gates_respected": "PASS",
+  "limitations": "Computational checks, not independent linguistic validation or external replication. Shares frozen data and LM arrays with main analysis."
+}

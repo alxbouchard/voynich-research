@@ -1,0 +1,1057 @@
+{
+  "repository": "scott-schechter/voynich-decoded",
+  "baseline": {
+    "folios": 225,
+    "glossary_keys": 4063,
+    "distinct_values": 947,
+    "total": 37886,
+    "decoded": 33785,
+    "coverage": 0.8917542099984163,
+    "sections": {
+      "Herbal": {
+        "total": 9943,
+        "decoded": 8935,
+        "folios": 110
+      },
+      "Herbal-B": {
+        "total": 262,
+        "decoded": 153,
+        "folios": 2
+      },
+      "Cosmological": {
+        "total": 1240,
+        "decoded": 1027,
+        "folios": 6
+      },
+      "Unknown": {
+        "total": 6111,
+        "decoded": 5167,
+        "folios": 42
+      },
+      "Zodiac": {
+        "total": 685,
+        "decoded": 558,
+        "folios": 6
+      },
+      "Biological": {
+        "total": 6915,
+        "decoded": 6526,
+        "folios": 20
+      },
+      "Pharmaceutical": {
+        "total": 2049,
+        "decoded": 1776,
+        "folios": 16
+      },
+      "Stars/Recipes": {
+        "total": 10681,
+        "decoded": 9643,
+        "folios": 23
+      }
+    }
+  },
+  "instrumentation": "Only final main() call replaced by exports in temporary copy.",
+  "permutation": "Random cyclic derangement of distinct output values; homophonies preserved.",
+  "trials": [
+    {
+      "seed": 110000,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "b76d7ea4859e429082adfb9e07b880d7cad0ac5e3e12365d8a71b5f2c63b57ca"
+    },
+    {
+      "seed": 110001,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "023b2cb8ed1a9bd4b9a9449076b30730bbd8a6c2c904abba4689b6333a5e99b6"
+    },
+    {
+      "seed": 110002,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "65b45ada33b1a385accee2f78550c3b2b88c70f41061e27682766405a0fffc76"
+    },
+    {
+      "seed": 110003,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "f7308f504b0d073a15705c468083f635474e0f6b15a8f980f6c1325378dd978d"
+    },
+    {
+      "seed": 110004,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "53a7ddc5f88fe50aa85baa5f0118058cbd844fef0fd3db05c38c01ca8c287591"
+    },
+    {
+      "seed": 110005,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "54278348a1d1179bd4e5b97deb1bf0a8f24d96e92f969111b7f32172ddfbf97a"
+    },
+    {
+      "seed": 110006,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "1e98b7769ab75f4c512529e522c7666096053346d3b7a7eb6a6082c2bf34e9cd"
+    },
+    {
+      "seed": 110007,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "fbbb1d7b1d798bb39148b237621285738c8e96b312221a86f9ebff1ddc27a825"
+    },
+    {
+      "seed": 110008,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "ed86bcb79294ec76cfe87525a7757459550d78f792486e2b65c1f4fe3fc1b756"
+    },
+    {
+      "seed": 110009,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "3dde6dc3328552fe94c7308250746f1fa8684cb3f39d553d6bf40c3fbb7fd605"
+    },
+    {
+      "seed": 110010,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d5801af646655af68398957c7889ce55538befe408dc5e3e438e51a71edae30b"
+    },
+    {
+      "seed": 110011,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "2020ffc7a63e86f800ea32a8d4fbd85ca14c11df4818ca31ef074f0d848fbdfe"
+    },
+    {
+      "seed": 110012,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "ed02dbd26f1f525e7a5d802e71f370ab669e85780f1b2eaf69f0339875269a64"
+    },
+    {
+      "seed": 110013,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "952786935d71420512209d4f58827b60fb1904ac2fedf3e127655dd60835fafe"
+    },
+    {
+      "seed": 110014,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "f11dd52460df8ffacb453fd4aa019507084c5fbd32b913e099add53ac29f2fd0"
+    },
+    {
+      "seed": 110015,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "20c35fa50a8285334d9210258fb1390768ce66a246a66b0b78012d40eb3a311a"
+    },
+    {
+      "seed": 110016,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "952568a5448ed1be88e8592d5831f71032ce4da225ff64f60ff7e1b91267a04a"
+    },
+    {
+      "seed": 110017,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "0aa0943c569f14e7172d2e7f3b49b5a9cd1516697ea28c5155136edf7a03c710"
+    },
+    {
+      "seed": 110018,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "334504cadb49f69cd1daa541437e38d052a4bcfa11763c35177110e3a1cc5081"
+    },
+    {
+      "seed": 110019,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "cc884f236c8b98b477141f86e589766db16fd611c7e991888c252cbe0db445d2"
+    },
+    {
+      "seed": 110020,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "9ef0bf80080bd4854fcd23642176f5a09dcf61292d8a70ee3ddc77787d500e31"
+    },
+    {
+      "seed": 110021,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "318f6a139df8b03a1c6b5ffd49fd390014c36378c09315426a252391f706a35a"
+    },
+    {
+      "seed": 110022,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "3111c1356d3a0c44bca74293b7853a9dec9c2d4d5c4af11a04b9aeef3ab30343"
+    },
+    {
+      "seed": 110023,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "99f2a55244eeb53df1d19082d6975c85623cd960fe4a79d9c306e61720fd1153"
+    },
+    {
+      "seed": 110024,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "2e17163337d1e3b2eef679fd8ec621464be4f3f8abf629484f43917daae8930f"
+    },
+    {
+      "seed": 110025,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "f3d6ebac7bc74a24a54abd8c9be7a91bb63efd21e49768892712ef4f5bc7ed0f"
+    },
+    {
+      "seed": 110026,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "171b0aeac71f14c9e0b4c5fe3bd321f60c01926839687a8481285778d77b3c32"
+    },
+    {
+      "seed": 110027,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "50323f148fbfbce46413254c128bceff972893ec11d31872cc2dadd94a8d6f0a"
+    },
+    {
+      "seed": 110028,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "19ecfe7be2b160b18a979f64526f1bfeba4bd9aa8d4e15e30f565cc568e8d2c8"
+    },
+    {
+      "seed": 110029,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "1f4ff07c7578ee40d72bd228bcb7eb31085b1392b0a2ff1b97ab82aa217d3439"
+    },
+    {
+      "seed": 110030,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "b34247caa09f880ece165269bdb6104f04ffe3557c4e30c7aa8c54f93d0ee7d7"
+    },
+    {
+      "seed": 110031,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "c45f7fbfd9c259ff3d8ebaf3185f420fa0db822cb6b61d17f7d0c9636d6c852d"
+    },
+    {
+      "seed": 110032,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "83f2bc7a26f9c05539790547708935d7f835972ba53071677daec28cf85fda9d"
+    },
+    {
+      "seed": 110033,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "de3737467d2bee8b244a4305aa9d10bf35fbe2cef8d34b7a2bc4cb15cb384f4d"
+    },
+    {
+      "seed": 110034,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "59519deb3331c0578bccbab437d04a39a434f9e83d9476b237d54652cdbe7328"
+    },
+    {
+      "seed": 110035,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "079a19a40cc311decd645c19cb4d5fdbe4d428edd83182b53428d2893d8a8a93"
+    },
+    {
+      "seed": 110036,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d2219a438d99dde1c71600738c7f53ac5e49a0050c8e6e732268b6a3bb2649df"
+    },
+    {
+      "seed": 110037,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "5212f0fbff5d30a1e2028db79f5641d98b69571c8764cc9223ac7493c4511a69"
+    },
+    {
+      "seed": 110038,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "1040d3335fd39dc911c18f5c01d9f89aada63990fec07840939c7161e8deb544"
+    },
+    {
+      "seed": 110039,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "5f6dd21895040041fd3b7b825e5095b43ef9f573f15086262ba7c378854f326e"
+    },
+    {
+      "seed": 110040,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "0b395c36c8ec948ce13e0bcf08c060dde362ed20660e2adb43919770307eab67"
+    },
+    {
+      "seed": 110041,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "3faa9f5285ff5cdec85385a4f6b7d00672053fe7190cbfad2f88aa5d6c5e23c9"
+    },
+    {
+      "seed": 110042,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "9f4620b1901a26ed6b3cebdf669fa405f5edc7213418b262e54598986b2f1292"
+    },
+    {
+      "seed": 110043,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "b9655cb865d8988bc9b173147b6761f08809c5f9335be0948ec827dd345847bd"
+    },
+    {
+      "seed": 110044,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "8567f595d77c332aaeadc3f7877fe201290c771d5152cf2ebc2147a9caf6b168"
+    },
+    {
+      "seed": 110045,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "3ea505d06e7b9e90af827cafb976e62db843953687d4f802e8092ad76602b669"
+    },
+    {
+      "seed": 110046,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "278b534be4674d5d0bf72af483859afed60c07da030a7bea9333770f37884317"
+    },
+    {
+      "seed": 110047,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "c47a742257f653ea5f893d4653baa0a6a11c56b280e6994197f22dde91661242"
+    },
+    {
+      "seed": 110048,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "ad74c74c4a838b2f595546de4b6dffefb92678478468e1027c367527c90b3727"
+    },
+    {
+      "seed": 110049,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "a8465ea284db3f747f689bec965c619549e430d0bc75d0d3139ab90496e54c52"
+    },
+    {
+      "seed": 110050,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "4d8b6db8d67dcc14a4020de7b896e872ecde466e56067bc18d6b09d01e51930e"
+    },
+    {
+      "seed": 110051,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "0a26300ef4833656d789ac5fbfdc90918369f4d875cee26cf66a2f71d7960755"
+    },
+    {
+      "seed": 110052,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "13a90f88371d52d4e838568c42e4efc7c161f5dee35869b7589ea9449175b8eb"
+    },
+    {
+      "seed": 110053,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "6fc1c73f7a9901292891f225ad64ee698b53586c5bd60c1adc0d2ef530bb4ccf"
+    },
+    {
+      "seed": 110054,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "c447721f4751397bff73d5ad6f714204fa794a2f91785c556683d39345cdef30"
+    },
+    {
+      "seed": 110055,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d35b28e62dfe687aaffbf0463301b1ce43f375ee9fff825c7859b94c7e7435bb"
+    },
+    {
+      "seed": 110056,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "3bff09f8149865b2cdccb5708391d19d45b0ec3c4122a30f1614e9294047e464"
+    },
+    {
+      "seed": 110057,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "fc7240832aa97e1bf5d63a18272a2d7cd1ef220d7c08b176266874c42c91a194"
+    },
+    {
+      "seed": 110058,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "0c7cc339248c1aa9c704c0d5e358e28059fa11fa211cf3e0e030f55ed5d80b53"
+    },
+    {
+      "seed": 110059,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d7017398cd8b90fd5b3e9d3de348000097735a422885589edb7c9ed2b6ee530e"
+    },
+    {
+      "seed": 110060,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "84b85bc99ee82cce818c54a45a9f8f890d7e02f02db01b6a13354aa16d0fca94"
+    },
+    {
+      "seed": 110061,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "379719a6f454edd2ee6dbed69d0d12d23c5443c2319ad3dbe7f2419f7cf6abdd"
+    },
+    {
+      "seed": 110062,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "358670a075664629eec62a2bc5f614342f942a0b6fe3f4ff1d8e5ef62ae656a5"
+    },
+    {
+      "seed": 110063,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "16d1682a82f04409678010ed134e38a92648b972f701cd5049411d1b61d87371"
+    },
+    {
+      "seed": 110064,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "e0e0ea29df34d01ec31fa4acf7e07e428f58ab05a20b996f959a89c6bc691125"
+    },
+    {
+      "seed": 110065,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d5ca0772db025a4cd6f03670a827a9d53e04a8bb70dd513ec712aa3ff00984fe"
+    },
+    {
+      "seed": 110066,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "23470110d027d9315048cd1c1e7559a1c477085a65d77d8c57c4eedc1ee7211a"
+    },
+    {
+      "seed": 110067,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "0f3b02b5386441d1387a4fa58bda580205ca37b2dd0f6df8d1b6790ac493e9d1"
+    },
+    {
+      "seed": 110068,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "4eabd954fe8898650c1cb9f6de9e9a3f600c29a41f888d9e2be15cd644837888"
+    },
+    {
+      "seed": 110069,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "906b8064dd4de15af0a0a9a0fad70b46642e66bb7c65ec2cbdd27ad59ffc90e1"
+    },
+    {
+      "seed": 110070,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "7e1d198132a7a23735890d76c916ddfe315b78ebdadfcf0fcf39b05d524adf6f"
+    },
+    {
+      "seed": 110071,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "f35fd9bb2d00969959cd898e28cbb2e192dc7e1303867ad48321d5575d3a66c5"
+    },
+    {
+      "seed": 110072,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "bacd9b73a811aa7fb045500569b03c04c588df09c0b5a7490f92ce0b60d64c51"
+    },
+    {
+      "seed": 110073,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "bbbdf0b01ba7e9dd63bbf8506288a042a7a5cf7462aedeb81ed3d808a77b0c2b"
+    },
+    {
+      "seed": 110074,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "6fbdb087c5c256150f01984a542d303f41ed8830944eee7a40a2486e4f134d1a"
+    },
+    {
+      "seed": 110075,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "5448e9633b1daa938743980255671905c2a208090257303d9cca491a6cc19d20"
+    },
+    {
+      "seed": 110076,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "8b86bc57189174af252832b25b8bf16bd32db84594220aecf800bc7a41f9dea3"
+    },
+    {
+      "seed": 110077,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "78ac220ebe7296dbf32a1bd02a1640f5115b26a7f436ad9da4a751ea9ea44084"
+    },
+    {
+      "seed": 110078,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "8477cb6d37287b0e15136c721530ede5025deff5ebfc3e196a7b25f0f6ae46cb"
+    },
+    {
+      "seed": 110079,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "67d882a8e677af3bcfe1aecef40d6a4da311283a139d7af18a58b38df9968a57"
+    },
+    {
+      "seed": 110080,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "647e757cc3624dff8bcc3527c483ed9fd2f0405464b1cf819cde8b83a5e98f5b"
+    },
+    {
+      "seed": 110081,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "decbe477c56a33d34d7d0fd89c02197ea7fe9349d63041a11e378b5bc5eb6751"
+    },
+    {
+      "seed": 110082,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "1f3c75f32fffeb3722dd04ec832be60f5c3ff277bc6e4b2fd0e5130d1e315901"
+    },
+    {
+      "seed": 110083,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d4ffb0d8d0370917849845b440cf2591b0fbf78c7b5a0fd5fa79f4d46a0c043d"
+    },
+    {
+      "seed": 110084,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "09b37fb2fedbc1444e454945781dae45a285198eb571d36327d53e135d44679e"
+    },
+    {
+      "seed": 110085,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "44e47515ed6e02b7d74dcf86b428743f93c14899860113060e3a65dc7a2b78fc"
+    },
+    {
+      "seed": 110086,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "68c254c0826be0381f92ddfe57f5325af50dcf3216369dda14a032af9562d8f4"
+    },
+    {
+      "seed": 110087,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d31dbf6a4ffb1cf280114181e7ba8bcc458dd167ea9f47a9d4998ca06cbe050a"
+    },
+    {
+      "seed": 110088,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d2dd1e31cf95b3f02b9cb25d1fc2994144b616018a6ab7d245d771c64d93c656"
+    },
+    {
+      "seed": 110089,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "a6cb7dcba1cc03256f50b124848080bbd2e6cfdcbdd1cbd191cbcb4136931437"
+    },
+    {
+      "seed": 110090,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "367abdd11f6a35681abfe6a3e9b3b071eb5bba2d9394c9940972306e64eac59c"
+    },
+    {
+      "seed": 110091,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "d77ecff3f5e0190a7c8aa6e80ae52507fed92af064b0b80a824ccd7f89f52e3c"
+    },
+    {
+      "seed": 110092,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "8fb0f34b5a3c46bb46653b8bc19ba8dc18349c25de722401d9c23ae2312d5e36"
+    },
+    {
+      "seed": 110093,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "5eb7d891b81b2e6f8b97f06e197a71cec6c79f6561fdb8bf4c08c873a72c0bef"
+    },
+    {
+      "seed": 110094,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "9ab855efd66b112cde69bd17c60b43949bb3f529fdb33532b12de121dd367864"
+    },
+    {
+      "seed": 110095,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "ad00af3b04732174eb17ab76368f2a45e6af783dec354810ba8c5eaf5c8c5cc0"
+    },
+    {
+      "seed": 110096,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "a7a11820a6ebd0ae4ca476df7ea080ebf8e11132b6109e9448e0a192985b9ea7"
+    },
+    {
+      "seed": 110097,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "999f4655cdaebd5ec24c630b576c51e9ccfbbe3c2c1f4ad7c2d7fbf93352917a"
+    },
+    {
+      "seed": 110098,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "a346c24fbb6c01c757a5ac08d0c5aed87127e278d00cdfa53025b6393ef99edf"
+    },
+    {
+      "seed": 110099,
+      "total": 37886,
+      "decoded": 33785,
+      "changed_decoded_tokens": 33785,
+      "sorted_frequency_profile_unchanged": true,
+      "output_vocabulary_set_unchanged": true,
+      "section_coverage_unchanged": true,
+      "glossary_sha256": "c7b9ba7a3265cb94b88c21064a52ba087c13a10e8923e93711dc4d41be8425e8"
+    }
+  ]
+}

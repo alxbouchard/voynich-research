@@ -1,0 +1,10 @@
+{
+  "written_utc": "2026-10-28T23:35:27.718334+00:00",
+  "timing": "After both arbitrary homophonic calibrations, before permutation model results. New narrower hypothesis, not validation of prior homophonic model.",
+  "reason": "Space-aware model passes both Italian controls but fails Latin trigger subsets: 78.74%. Original all-four gate remains failed; no homophonic real fits permitted.",
+  "model": "Each of two tables is a permutation of 26 Latin letters. Base table except initial after cipher y. Fixed spaces. Blind baseline one permutation. Unobserved cipher slots included as zero-count free parameters, never fitted to heldout. No multiple cipher letters share a plaintext letter within one table.",
+  "controls": "Same four already inspected controls plus new independent encryption keys trials3,4 per language on same plaintext/split. Eight total; same texts mean this is calibration, not eight independent corpora. Gate all eight overall>=95%, trigger>=90%, training support coverage>=99.5%.",
+  "algorithm": "Same LM with spaces, lambda4,8restarts60000proposals. Permutation initialization and swaps constrained within each table. No true key or target plaintext passed to optimizer.",
+  "scope": "Narrow bijective, character-to-character, space-preserving toy family. Does not cover homophony, ligatures, abbreviations, missing spaces, alternative languages.",
+  "real_if_gate_passes": "Same ZL_A/B primary and IT_A/B sensitivity,19 word-shuffle nulls per primary corpus and tested language; original heldout split and cap unchanged. Both models constrained to permutations. All candidates remain unvalidated."
+}

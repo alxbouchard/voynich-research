@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "file": "data/caesar.xml",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/blob/1b9f321c10eb85985386f135c3974a1f7f0b43b3/data/phi0448/phi001/phi0448.phi001.perseus-lat2.xml",
+      "credit": "Perseus Digital Library, Julius Caesar, De Bello Gallico; CC BY-SA 4.0. Original metadata and license retained in XML.",
+      "sha256": "15ec3ef2a36352742ddb75d4f7da23a143899b6b60ee3a7ca3192d4917ca1568"
+    },
+    {
+      "file": "data/dante.txt",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/719f2f4c4d1eacf95fabf48381cd84fc6cd94279/input/examples/divina_commedia.txt",
+      "credit": "Dante Alighieri, Divine Comedy, input provided by Michael A. Greshko; modified MIT license retained in phase1/controls. Source contains two identical copies; only first copy used.",
+      "sha256": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e"
+    },
+    {
+      "url": "https://www.voynich.nu/writing.html",
+      "credit": "René Zandbergen, writing and later month names"
+    },
+    {
+      "url": "https://www.voynich.nu/extra/labels.html",
+      "credit": "René Zandbergen, study of labels; comparison, not a new discovery of their existence"
+    },
+    {
+      "url": "https://www.voynich.nu/q11/index.html",
+      "credit": "René Zandbergen, folio 71r facsimile and description"
+    },
+    {
+      "file": "data/f71r_reference.jpg",
+      "url": "https://www.voynich.nu/q11/f071r_crd.jpg",
+      "credit": "Beinecke MS 408 f71r, thumbnail via René Zandbergen. 337 x 480 pixels; layout inspection only, no glyph reading claim.",
+      "sha256": "187944ee745ff8acf90407653ee219cf882570149590a93c9893965f1b630ad3"
+    }
+  ],
+  "calibration_notes": [
+    "First conditional quadgram objective failed the hidden-key control; failure preserved. Replaced by joint quadgram score using the control only.",
+    "Dante input repeated twice; duplicate removed before final Italian control. Final test contains only the first Paradiso, distinct from Inferno/Purgatorio language training.",
+    "Multi-letter units are extracted inside words before removing spaces.",
+    "Naibbe global-permutation control reduces mathematically to the Latin permutation control once the published morphology is supplied; not an independent third control."
+  ],
+  "limitations": [
+    "30 restricted configurations, not exhaustive cryptanalysis.",
+    "No new meaning assigned. No broad rejection of ciphers or natural languages.",
+    "Classical Latin and Dante do not cover medieval technical language or every dialect.",
+    "Quadgram scores are bits per four-letter window, not per-character entropies or translation accuracy.",
+    "Best real candidates are exploratory selections across multiple variants; no p-value or statistical decipherment claim.",
+    "Initial raw EVA cases drop uncertain tokens and may concatenate across them; extended cases preserve uncertainty as segment breaks.",
+    "Labels paragraph_occurrences counts distinct paragraph loci containing the form, not repeated token instances within a line.",
+    "Fixed held-out subset used for exploratory comparison; no third independent confirmation set."
+  ],
+  "python": "3.12.14"
+}

@@ -1,0 +1,10 @@
+{
+ "date":"2026-10-28",
+ "scope":"Primary-source literature review plus two reproducible experimental extensions. No claim of exhaustive worldwide expertise or decipherment.",
+ "experiment_A":"Correct phase-5 solver by making greedy CV/VC segmentation a hard feasibility condition on fitting-segment cipher adjacency. No use of held-out adjacency in fitting. Repair initial random keys by assigning a conflicting symbol a safe two-letter unit; reject any proposal that introduces a forbidden join. Recompute full objective and feasibility independently.",
+ "calibration":"Only synthetic known-plaintext controls may select solver budget/temperature. Start with phase-5 budget, 8x60000 and temperature .002; retain failures. If needed, test a documented higher-temperature or soft-to-hard schedule on controls only. Need >=95% exact held-out units for each of two keys per model before real cases. Report held-out segmentation separately, without hiding failures.",
+ "real_plan":"Reuse phase-5 32 configurations and their 32 within-segment nulls for direct comparison if all controls validate. Full frozen model settings and same leaf-separated data. No semantic selection of a key.",
+ "experiment_B":"Descriptive adjacency diagnostics on strict word readings in ZL and IT, stratified by Currier A/B and section/hand where possible. Count identical adjacent words and distinct words at Levenshtein distance 1. Compare with within-page random permutations preserving line slots and word inventories. At least 100 fixed-seed permutations, multiple comparisons explicitly exploratory. Include textual and Naibbe controls when compatible, with artificial-layout limitation documented.",
+ "review":"Distinguish primary material evidence, peer-reviewed analyses, proceedings, preprints and unsupported claims. Do not equate a publication title, low entropy, repeated words or a solved synthetic control with a real translation.",
+ "constraints":"No invented glyph meanings, no semantic cribs from unconfirmed plants/stars, no silently forced alternatives. Image enhancement cannot supply absent ink. No claim of new physical, chemical or expert paleographic examination."
+}

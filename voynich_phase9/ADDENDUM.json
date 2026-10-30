@@ -1,0 +1,10 @@
+{
+ "date":"2026-10-28",
+ "timing":"Added after observing primary results, before computing this pooled model. Original protocol and all original results retained.",
+ "reason":"Original joint section/hand/position/source-end tables cannot learn neighbor effects for styles absent from training. In particular some withheld quires have exactly zero gain by construction.",
+ "new_model":"Use the original positional baseline, multiply each target probability by P(target|source_end)/P_global(target), then normalize. Both global distributions learned only on training folds, with symmetric 0.5 global pseudocount and source-end backoff strength 32. This pools a common edge correction across style and position contexts.",
+ "assumption":"Source-end log-probability correction is shared across contexts. Model comparison tests this assumption; no language or cryptographic interpretation follows.",
+ "fixed_settings":"Same folds, cohorts, representations, alpha sensitivities, 199 within-page/position permutations and 2000 fixed-score cluster resamples as original. No outcome-based tuning or replacement of original results.",
+ "toy_controls":"Two deterministic-seed eight-block synthetic corpora, each 80 lines x 10 three-letter tokens per block and a unique style per block. Ends uniform over a,b,c,d. Positive control next initial equals preceding final; negative control initial independent uniform. Fixed before generation. Both original and pooled models evaluated, with 199 conditional permutations for the pooled model.",
+ "interpretation":"An exploratory methodological repair. Any positive finding requires external replication, including alternative position measurement and models."
+}

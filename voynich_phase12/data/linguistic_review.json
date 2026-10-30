@@ -1,0 +1,18 @@
+{
+  "scope": "Latin standard pour les personnes et temps explicitement revendiqués ; aucune exclusion générale des variantes médiévales ou occitanes.",
+  "status": "Vérification philologique manuelle, distincte des tests informatiques.",
+  "upstream_path": "publication/02-verb-paradigms.md",
+  "upstream_commit": "71f2f3c91e9113d285ab21e024f1dd70c1f43c44",
+  "cases": [
+    {"upstream":"NOCIS","claim":"2e personne singulier, présent","standard":"NOCES"},
+    {"upstream":"NOCITIS","claim":"2e personne pluriel, présent","standard":"NOCETIS"},
+    {"upstream":"NOCERAT","claim":"3e personne singulier, plus-que-parfait","standard":"NOCUERAT"}
+  ],
+  "derivation": "Noceo est de deuxième conjugaison, avec parfait nocui. Les terminaisons suivent le tableau de moneo : noc-e-s, noc-e-tis ; radical du parfait nocu- + erat = nocuerat.",
+  "sources": [
+    {"title":"Lewis and Short, entrée noceo, Perseus/Tufts","url":"https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2-n31073/"},
+    {"title":"Allen and Greenough, §185, Dickinson College","url":"https://dcc.dickinson.edu/grammar/latin/2nd-conjugation"},
+    {"title":"Tableau du présent, deuxième conjugaison","url":"https://dcc.dickinson.edu/sites/default/files/2nd_conj_pres.pdf"},
+    {"title":"Tableau du plus-que-parfait, deuxième conjugaison","url":"https://dcc.dickinson.edu/sites/default/files/2nd_conj_plperf.pdf"}
+  ]
+}

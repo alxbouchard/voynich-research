@@ -1,0 +1,10 @@
+{
+  "written_utc": "2026-10-28T23:32:25.038731+00:00",
+  "timing": "After initial calibration failed; before new model results. Exploratory repair, not preregistered confirmation.",
+  "observation": "All four contextual control fits pass overall 95% but fail 90% trigger subset. Fitted incorrect keys score above known true keys by 4286.70 objective units (Latin) or 574.53 (Italian). Recovered plaintext identical for two independent keys per language. More optimization cannot make truth the unique maximum of this objective.",
+  "repair": "Retain observed word boundaries as a fixed non-decryptable space symbol. Train 27-character quadgrams on independently sourced Caesar / Dante training text with word boundaries. Keep same homophonic arbitrary keys, KL coefficient 4, 8 restarts, 60000 proposals. Space key anchored. No word dictionary, plaintext, known cipher key, or heldout score used by optimizer.",
+  "source_processing": "Normalize lexical words exactly as phase6. Caesar text/body itertext after removing note/head elements as in phase2; Dante first deduplicated Inferno and Purgatorio, exclude canto headers. Verify concatenation equals previous no-space language training files.",
+  "calibration": "Same four control texts/keys, same split; original 95% overall,90% trigger,99.5% coverage gates. This is calibration after method development, not independent validation of generality. Do not inflate character accuracy by counting fixed spaces.",
+  "real_if_passes": "Same primary cases, split, 19 paired nulls and IT sensitivities as original protocol; separate boundary-result names; no testing on real if gate still fails.",
+  "limits": "Uses transcription spaces as plaintext word boundaries; excludes ciphers that insert/remove spaces or map whole units/abbreviations. Raw EVA character assumption retained. No claim all contextual ciphers excluded by failure."
+}

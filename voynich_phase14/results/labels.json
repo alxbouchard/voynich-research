@@ -1,0 +1,3723 @@
+{
+  "date": "2026-10-29",
+  "method": "Exact EVA matching; no semantic mapping",
+  "label_stats": {
+    "ZL": {
+      "all_label_loci": 1029,
+      "clean_single_ge3": 725
+    },
+    "IT": {
+      "all_label_loci": 882,
+      "clean_single_ge3": 660
+    }
+  },
+  "n_exact_agreeing_labels": 474,
+  "candidates": [
+    {
+      "eva": "otaly",
+      "n_agreeing_labels": 6,
+      "n_pages": 6,
+      "contexts": [
+        "Lf",
+        "Lt",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f70v2.15",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f72v3.31",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73r.6",
+          "kind": "@Lz"
+        },
+        {
+          "locus": "f84r.47",
+          "kind": "@Lt"
+        },
+        {
+          "locus": "f88r.6",
+          "kind": "@Lf"
+        },
+        {
+          "locus": "f99v.6",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 9,
+        "IT": 11
+      }
+    },
+    {
+      "eva": "okal",
+      "n_agreeing_labels": 5,
+      "n_pages": 4,
+      "contexts": [
+        "L0",
+        "Ln",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f67r2.22",
+          "kind": "+L0"
+        },
+        {
+          "locus": "f72r2.9",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f72r2.11",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73v.27",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f82r.36",
+          "kind": "@Ln"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 117,
+        "IT": 126
+      }
+    },
+    {
+      "eva": "oky",
+      "n_agreeing_labels": 5,
+      "n_pages": 4,
+      "contexts": [
+        "Lf",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f72v3.22",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73r.26",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73v.25",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f99r.4",
+          "kind": "@Lf"
+        },
+        {
+          "locus": "f99r.24",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 81,
+        "IT": 92
+      }
+    },
+    {
+      "eva": "otedy",
+      "n_agreeing_labels": 5,
+      "n_pages": 5,
+      "contexts": [
+        "Ln",
+        "Lt",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f73v.23",
+          "kind": "@Lz"
+        },
+        {
+          "locus": "f75v.54",
+          "kind": "+Lt"
+        },
+        {
+          "locus": "f77r.3",
+          "kind": "=Lt"
+        },
+        {
+          "locus": "f82v.2",
+          "kind": "=Ln"
+        },
+        {
+          "locus": "f84r.8",
+          "kind": "@Ln"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 136,
+        "IT": 138
+      }
+    },
+    {
+      "eva": "okaly",
+      "n_agreeing_labels": 4,
+      "n_pages": 3,
+      "contexts": [
+        "Ln",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f72r2.10",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f72r2.18",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f72v3.17",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f80r.3",
+          "kind": "=Ln"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 16,
+        "IT": 17
+      }
+    },
+    {
+      "eva": "okeody",
+      "n_agreeing_labels": 4,
+      "n_pages": 4,
+      "contexts": [
+        "Lf",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f72v2.15",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73r.7",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73v.6",
+          "kind": "@Lz"
+        },
+        {
+          "locus": "f102v1.3",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 25,
+        "IT": 26
+      }
+    },
+    {
+      "eva": "okol",
+      "n_agreeing_labels": 4,
+      "n_pages": 4,
+      "contexts": [
+        "Lf",
+        "Ln",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f73v.1",
+          "kind": "@Lz"
+        },
+        {
+          "locus": "f82v.44",
+          "kind": "~Ln"
+        },
+        {
+          "locus": "f88r.15",
+          "kind": "@Lf"
+        },
+        {
+          "locus": "f101v.10",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 55,
+        "IT": 69
+      }
+    },
+    {
+      "eva": "okam",
+      "n_agreeing_labels": 3,
+      "n_pages": 3,
+      "contexts": [
+        "Lf",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f72r2.25",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f72v3.4",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f89v2.2",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 25,
+        "IT": 23
+      }
+    },
+    {
+      "eva": "okary",
+      "n_agreeing_labels": 3,
+      "n_pages": 3,
+      "contexts": [
+        "Lf",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f72v3.27",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f73r.23",
+          "kind": "@Lz"
+        },
+        {
+          "locus": "f99r.11",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 6,
+        "IT": 7
+      }
+    },
+    {
+      "eva": "okeoly",
+      "n_agreeing_labels": 3,
+      "n_pages": 3,
+      "contexts": [
+        "Lf",
+        "Lz"
+      ],
+      "loci": [
+        {
+          "locus": "f70v2.18",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f72v1.5",
+          "kind": "&Lz"
+        },
+        {
+          "locus": "f99r.25",
+          "kind": "@Lf"
+        }
+      ],
+      "prose_occurrences": {
+        "ZL": 3,
+        "IT": 3
+      }
+    }
+  ],
+  "tests": {
+    "ZL": {
+      "pages": [
+        {
+          "page": "f88r",
+          "metadata": {
+            "Q": "O",
+            "P": "C",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1",
+            "C": "4"
+          },
+          "n_labels": 14,
+          "n_prose_tokens": 115,
+          "n_prose_types": 86,
+          "hits": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f88r.1",
+              "word": "otorchety",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88r.2",
+              "word": "osal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.3",
+              "word": "orald",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.4",
+              "word": "oldar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.5",
+              "word": "otoky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.6",
+              "word": "otaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.12",
+              "word": "otaldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88r.13",
+              "word": "oram",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.14",
+              "word": "dary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.16",
+              "word": "sorory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.17",
+              "word": "otyda",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.23",
+              "word": "ofyskydal",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88r.25",
+              "word": "ofaldo",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f88v",
+          "metadata": {
+            "Q": "O",
+            "P": "D",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1",
+            "C": "4"
+          },
+          "n_labels": 10,
+          "n_prose_tokens": 104,
+          "n_prose_types": 83,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f88v.1",
+              "word": "okalyd",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88v.2",
+              "word": "cheocthy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.3",
+              "word": "cpheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.5",
+              "word": "otokol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.11",
+              "word": "otoram",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88v.13",
+              "word": "cheosdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.14",
+              "word": "okaiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.27",
+              "word": "daramdal",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88v.28",
+              "word": "otydary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.29",
+              "word": "otdordy",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89r1",
+          "metadata": {
+            "Q": "O",
+            "P": "F",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 9,
+          "n_prose_tokens": 94,
+          "n_prose_types": 69,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f89r1.1",
+              "word": "okchshy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r1.2",
+              "word": "qkol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.3",
+              "word": "oldam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.4",
+              "word": "otoldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.5",
+              "word": "ararchodaiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.11",
+              "word": "ykyd",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r1.13",
+              "word": "otorain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.24",
+              "word": "ykocfhy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r1.25",
+              "word": "saldam",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89r2",
+          "metadata": {
+            "Q": "O",
+            "P": "G",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 18,
+          "n_prose_tokens": 181,
+          "n_prose_types": 120,
+          "hits": [
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f89r2.1",
+              "word": "odory",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r2.2",
+              "word": "doly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.3",
+              "word": "opchosam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.4",
+              "word": "saloiinsheol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.11",
+              "word": "opchoroiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.16",
+              "word": "korainy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r2.17",
+              "word": "sodar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.18",
+              "word": "cheys",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.20",
+              "word": "oporain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.21",
+              "word": "okshdchos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.29",
+              "word": "okain",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r2.30",
+              "word": "yorain",
+              "kind": "+Lc"
+            },
+            {
+              "locus": "f89r2.31",
+              "word": "ofakal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.32",
+              "word": "otalsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.33",
+              "word": "ytarem",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.34",
+              "word": "otolarol",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89v2",
+          "metadata": {
+            "Q": "O",
+            "P": "I",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 13,
+          "n_prose_tokens": 134,
+          "n_prose_types": 103,
+          "hits": [
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f89v2.1",
+              "word": "choeesy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v2.2",
+              "word": "okam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.3",
+              "word": "darcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.4",
+              "word": "chokaro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.6",
+              "word": "chokam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.11",
+              "word": "otory",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v2.13",
+              "word": "dykaran",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.14",
+              "word": "opcheedey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.23",
+              "word": "opaloiiry",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v2.24",
+              "word": "otaram",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.25",
+              "word": "chtchy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.28",
+              "word": "daseky",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89v1",
+          "metadata": {
+            "Q": "O",
+            "P": "J",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 6,
+          "n_prose_tokens": 124,
+          "n_prose_types": 102,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f89v1.1",
+              "word": "okoraldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v1.3",
+              "word": "otchar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v1.4",
+              "word": "darshody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v1.21",
+              "word": "koeeorain",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v1.22",
+              "word": "otorshos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v1.24",
+              "word": "opaldaiin",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f99r",
+          "metadata": {
+            "Q": "S",
+            "P": "A",
+            "F": "a",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 30,
+          "n_prose_tokens": 136,
+          "n_prose_types": 103,
+          "hits": [
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.35",
+              "word": "dar",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f99r.1",
+              "word": "okaradag",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.3",
+              "word": "darar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.4",
+              "word": "oky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.5",
+              "word": "salo",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.6",
+              "word": "aro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.7",
+              "word": "ain",
+              "kind": "+Lf"
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.9",
+              "word": "ralol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.10",
+              "word": "skeeal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.11",
+              "word": "okary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.12",
+              "word": "okolo",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.13",
+              "word": "otalam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.14",
+              "word": "otoldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.19",
+              "word": "oparal",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.20",
+              "word": "oaro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.21",
+              "word": "aloly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.23",
+              "word": "choky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.24",
+              "word": "oky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.26",
+              "word": "yteold",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.27",
+              "word": "cheotchy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.32",
+              "word": "tsholdy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.33",
+              "word": "okos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.34",
+              "word": "oekey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.35",
+              "word": "dar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.38",
+              "word": "saiiny",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.39",
+              "word": "sory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.40",
+              "word": "dam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.45",
+              "word": "yteoldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.46",
+              "word": "tolsasy",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f99v",
+          "metadata": {
+            "Q": "S",
+            "P": "B",
+            "F": "a",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 22,
+          "n_prose_tokens": 126,
+          "n_prose_types": 101,
+          "hits": [
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f99v.1",
+              "word": "okaramy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.2",
+              "word": "otoldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.6",
+              "word": "otaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.7",
+              "word": "olsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.8",
+              "word": "arol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.9",
+              "word": "otoky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.14",
+              "word": "okoldody",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.15",
+              "word": "oeeesary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.16",
+              "word": "daiiinc",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.17",
+              "word": "sary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.18",
+              "word": "saiino",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.19",
+              "word": "otolsar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.20",
+              "word": "osary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.25",
+              "word": "darolaly",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.26",
+              "word": "okechy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.27",
+              "word": "otal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.29",
+              "word": "okeodor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.30",
+              "word": "olky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.36",
+              "word": "oralas",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.44",
+              "word": "koleearol",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f100r",
+          "metadata": {
+            "Q": "S",
+            "P": "C",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 14,
+          "n_prose_tokens": 78,
+          "n_prose_types": 63,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f100r.1",
+              "word": "chosaroshol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.2",
+              "word": "sochorcfhy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.3",
+              "word": "otear",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.7",
+              "word": "chalsain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.8",
+              "word": "soity",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.9",
+              "word": "sosam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.10",
+              "word": "dakocth",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.11",
+              "word": "sofam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.16",
+              "word": "okeeos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.17",
+              "word": "shockhey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.18",
+              "word": "orol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.19",
+              "word": "olcheom",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.20",
+              "word": "oteol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.21",
+              "word": "okols",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f100v",
+          "metadata": {
+            "Q": "S",
+            "P": "D",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 12,
+          "n_prose_tokens": 73,
+          "n_prose_types": 63,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f100v.1",
+              "word": "tolchd",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.2",
+              "word": "chols",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.3",
+              "word": "opchor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.4",
+              "word": "solsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.5",
+              "word": "soleesos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.6",
+              "word": "ykchochdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.7",
+              "word": "ykchdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.8",
+              "word": "dchdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.9",
+              "word": "dalsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.10",
+              "word": "okcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.11",
+              "word": "ytchol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.12",
+              "word": "dykchal",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f101v",
+          "metadata": {
+            "Q": "S",
+            "P": "H",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 16,
+          "n_prose_tokens": 148,
+          "n_prose_types": 111,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f101v.2",
+              "word": "otaldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.3",
+              "word": "otol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.4",
+              "word": "ytal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.5",
+              "word": "dokor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.6",
+              "word": "orar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.7",
+              "word": "otarar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.9",
+              "word": "soraly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.10",
+              "word": "okol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.11",
+              "word": "arom",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.12",
+              "word": "oraram",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.13",
+              "word": "oraeep",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.14",
+              "word": "dytolg",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.15",
+              "word": "olkor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.16",
+              "word": "dolary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.17",
+              "word": "odor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.18",
+              "word": "olaran",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f102r1",
+          "metadata": {
+            "Q": "S",
+            "P": "L",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 4,
+          "n_prose_tokens": 91,
+          "n_prose_types": 78,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f102r1.1",
+              "word": "daarod",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102r1.2",
+              "word": "otodeeodor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102r1.7",
+              "word": "okolaly",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102r1.12",
+              "word": "ddardsh",
+              "kind": "@Lc"
+            }
+          ]
+        },
+        {
+          "page": "f102r2",
+          "metadata": {
+            "Q": "S",
+            "P": "M",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 4,
+          "n_prose_tokens": 111,
+          "n_prose_types": 85,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f102r2.1",
+              "word": "kodaiig",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102r2.13",
+              "word": "loeekadag",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102r2.21",
+              "word": "koldarod",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102r2.22",
+              "word": "odalydary",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f102v2",
+          "metadata": {
+            "Q": "S",
+            "P": "O",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 18,
+          "n_prose_tokens": 128,
+          "n_prose_types": 101,
+          "hits": [
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f102v2.1",
+              "word": "porshols",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102v2.2",
+              "word": "soaimy",
+              "kind": "+Lc"
+            },
+            {
+              "locus": "f102v2.3",
+              "word": "oror",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.4",
+              "word": "chor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.5",
+              "word": "sachy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.7",
+              "word": "okol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.8",
+              "word": "otory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.10",
+              "word": "okody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.12",
+              "word": "okoroeey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.13",
+              "word": "opchy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.14",
+              "word": "sarol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.15",
+              "word": "olrodar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.24",
+              "word": "okolky",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102v2.25",
+              "word": "osain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.26",
+              "word": "aiky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.27",
+              "word": "okeeoraiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.28",
+              "word": "okockhy",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f102v1",
+          "metadata": {
+            "Q": "S",
+            "P": "P",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 8,
+          "n_prose_tokens": 98,
+          "n_prose_types": 78,
+          "hits": [
+            {
+              "locus": "f102v1.2",
+              "word": "okeody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f102v1.1",
+              "word": "keoraiiin",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102v1.2",
+              "word": "okeody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.4",
+              "word": "daiisaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.5",
+              "word": "ypary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.16",
+              "word": "ypcholdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.17",
+              "word": "loralody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.18",
+              "word": "opchdard",
+              "kind": "@Lf"
+            }
+          ]
+        }
+      ],
+      "n_pages": 15,
+      "n_labels": 198,
+      "n_page_label_types": 196,
+      "primary": {
+        "count": {
+          "observed": 11.0,
+          "null_mean": 9.1439,
+          "null_sd": 2.338063182196836,
+          "null_q025": 5.0,
+          "null_q975": 14.0,
+          "p_upper": 0.2792720727927207,
+          "permutations": 10000,
+          "seed": 20261029
+        },
+        "page_normalized": {
+          "observed": 0.04736485736485737,
+          "null_mean": 0.03684264161764162,
+          "null_sd": 0.011471629408877651,
+          "null_q025": 0.017104377104377105,
+          "null_q975": 0.06014263514263515,
+          "p_upper": 0.1912808719128087,
+          "permutations": 10000,
+          "seed": 20261029
+        }
+      },
+      "within_quire_sensitivity": {
+        "count": {
+          "observed": 11.0,
+          "null_mean": 9.7608,
+          "null_sd": 2.4997616368014133,
+          "null_q025": 5.0,
+          "null_q975": 15.0,
+          "p_upper": 0.38946105389461055,
+          "permutations": 10000,
+          "seed": 20261029
+        },
+        "page_normalized": {
+          "observed": 0.04736485736485737,
+          "null_mean": 0.0419744023106523,
+          "null_sd": 0.01168489360588408,
+          "null_q025": 0.019519739519739517,
+          "null_q975": 0.06374051874051874,
+          "p_upper": 0.34736526347365265,
+          "permutations": 10000,
+          "seed": 20261029
+        }
+      },
+      "deduplicated_within_page_sensitivity": {
+        "count": {
+          "observed": 10.0,
+          "null_mean": 8.5507,
+          "null_sd": 2.095630854150532,
+          "null_q025": 4.0,
+          "null_q975": 13.0,
+          "p_upper": 0.32626737326267374,
+          "permutations": 10000,
+          "seed": 20261029
+        },
+        "page_normalized": {
+          "observed": 0.040451885279471494,
+          "null_mean": 0.034052813484089346,
+          "null_sd": 0.009405113825245207,
+          "null_q025": 0.01679814358693669,
+          "null_q975": 0.053153034704758836,
+          "p_upper": 0.24667533246675333,
+          "permutations": 10000,
+          "seed": 20261029
+        }
+      },
+      "score_matrix": [
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          0,
+          1,
+          2,
+          0,
+          4,
+          4,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          2,
+          1,
+          1,
+          2,
+          0,
+          1,
+          0,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          3,
+          1,
+          2,
+          3,
+          2,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    "IT": {
+      "pages": [
+        {
+          "page": "f88r",
+          "metadata": {
+            "Q": "O",
+            "P": "C",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1",
+            "C": "4"
+          },
+          "n_labels": 14,
+          "n_prose_tokens": 134,
+          "n_prose_types": 97,
+          "hits": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f88r.1",
+              "word": "otorchety",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88r.2",
+              "word": "oral",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.3",
+              "word": "orald",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.4",
+              "word": "oldar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.5",
+              "word": "otoky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.6",
+              "word": "otaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.12",
+              "word": "otaldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88r.13",
+              "word": "oram",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.14",
+              "word": "dary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.16",
+              "word": "sorory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.17",
+              "word": "otyda",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88r.23",
+              "word": "ofyskydal",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88r.25",
+              "word": "ofaldo",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f88v",
+          "metadata": {
+            "Q": "O",
+            "P": "D",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1",
+            "C": "4"
+          },
+          "n_labels": 12,
+          "n_prose_tokens": 132,
+          "n_prose_types": 104,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f88v.1",
+              "word": "okolyd",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88v.2",
+              "word": "cheocthy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.3",
+              "word": "cpheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.5",
+              "word": "otokol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.11",
+              "word": "otoram",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88v.12",
+              "word": "otory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.13",
+              "word": "cheosdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.14",
+              "word": "okaiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.27",
+              "word": "daramdal",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f88v.28",
+              "word": "otydary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.29",
+              "word": "otdordy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f88v.30",
+              "word": "dararda",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89r1",
+          "metadata": {
+            "Q": "O",
+            "P": "F",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 11,
+          "n_prose_tokens": 126,
+          "n_prose_types": 94,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f89r1.1",
+              "word": "okchshy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r1.2",
+              "word": "qkol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.3",
+              "word": "oldam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.4",
+              "word": "otoldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.5",
+              "word": "ararchodaiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.11",
+              "word": "ykyd",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r1.13",
+              "word": "otorain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.24",
+              "word": "ykocfhy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r1.25",
+              "word": "saldam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.26",
+              "word": "sydarary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r1.27",
+              "word": "ydcphdy",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89r2",
+          "metadata": {
+            "Q": "O",
+            "P": "G",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 16,
+          "n_prose_tokens": 220,
+          "n_prose_types": 137,
+          "hits": [
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f89r2.1",
+              "word": "odory",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r2.2",
+              "word": "doly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.3",
+              "word": "opchosam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.9",
+              "word": "otoldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r2.11",
+              "word": "opcharoiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.17",
+              "word": "sodar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.18",
+              "word": "cheys",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.20",
+              "word": "oforain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.29",
+              "word": "okain",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89r2.30",
+              "word": "yorain",
+              "kind": "+Lc"
+            },
+            {
+              "locus": "f89r2.31",
+              "word": "ofakal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.32",
+              "word": "otalsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.33",
+              "word": "ytarem",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89r2.34",
+              "word": "otolarol",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89v2",
+          "metadata": {
+            "Q": "O",
+            "P": "I",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 14,
+          "n_prose_tokens": 153,
+          "n_prose_types": 117,
+          "hits": [
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f89v2.1",
+              "word": "choeesy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v2.2",
+              "word": "okam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.3",
+              "word": "darcheos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.4",
+              "word": "chokaro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.6",
+              "word": "chokam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.11",
+              "word": "okory",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v2.13",
+              "word": "dydariin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.14",
+              "word": "opcheedoy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.23",
+              "word": "opaloiiry",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v2.24",
+              "word": "otaram",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.25",
+              "word": "chtody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.27",
+              "word": "rady",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v2.28",
+              "word": "dareky",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f89v1",
+          "metadata": {
+            "Q": "O",
+            "P": "J",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 5,
+          "n_prose_tokens": 148,
+          "n_prose_types": 113,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f89v1.1",
+              "word": "okoraldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f89v1.2",
+              "word": "otoikhy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v1.3",
+              "word": "otchar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v1.4",
+              "word": "darshody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f89v1.21",
+              "word": "koeeorain",
+              "kind": "@Lc"
+            }
+          ]
+        },
+        {
+          "page": "f99r",
+          "metadata": {
+            "Q": "S",
+            "P": "A",
+            "F": "a",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 33,
+          "n_prose_tokens": 162,
+          "n_prose_types": 118,
+          "hits": [
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.35",
+              "word": "dor",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f99r.1",
+              "word": "okoramog",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.2",
+              "word": "okary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.3",
+              "word": "darar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.4",
+              "word": "oky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.5",
+              "word": "salo",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.6",
+              "word": "oro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.7",
+              "word": "ain",
+              "kind": "+Lf"
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.9",
+              "word": "salol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.10",
+              "word": "skeeal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.11",
+              "word": "okary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.12",
+              "word": "okolo",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.13",
+              "word": "otalam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.14",
+              "word": "otoldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.19",
+              "word": "oparal",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.20",
+              "word": "oaro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.21",
+              "word": "aloly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.22",
+              "word": "ooror",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.23",
+              "word": "choky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.24",
+              "word": "oky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.26",
+              "word": "yteold",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.27",
+              "word": "cheotchy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.32",
+              "word": "tsholdy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.33",
+              "word": "okos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.34",
+              "word": "oekey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.35",
+              "word": "dor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.36",
+              "word": "chockhhy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.38",
+              "word": "saiiny",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.39",
+              "word": "rory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.40",
+              "word": "dam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99r.45",
+              "word": "yteoldy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99r.46",
+              "word": "tolsasy",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f99v",
+          "metadata": {
+            "Q": "S",
+            "P": "B",
+            "F": "a",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 22,
+          "n_prose_tokens": 147,
+          "n_prose_types": 114,
+          "hits": [
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f99v.1",
+              "word": "otaramy",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.2",
+              "word": "otoldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.6",
+              "word": "otaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.7",
+              "word": "olsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.8",
+              "word": "arol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.9",
+              "word": "otoky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.14",
+              "word": "okoldody",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.15",
+              "word": "oeeesary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.16",
+              "word": "daiiine",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.17",
+              "word": "sory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.18",
+              "word": "saiino",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.19",
+              "word": "otolsar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.20",
+              "word": "osary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.25",
+              "word": "darolaly",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.26",
+              "word": "okechy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.27",
+              "word": "otal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.29",
+              "word": "okeodor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.30",
+              "word": "olky",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f99v.36",
+              "word": "dralas",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f99v.44",
+              "word": "koleearol",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f100r",
+          "metadata": {
+            "Q": "S",
+            "P": "C",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 16,
+          "n_prose_tokens": 92,
+          "n_prose_types": 73,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f100r.1",
+              "word": "chosaroshol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.2",
+              "word": "sochorcfhy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.3",
+              "word": "otear",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.4",
+              "word": "chofary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.6",
+              "word": "osaro",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.7",
+              "word": "chalsain",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.8",
+              "word": "soity",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.9",
+              "word": "sosam",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.10",
+              "word": "dakocth",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.11",
+              "word": "sofal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.16",
+              "word": "okeeos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.17",
+              "word": "shockhey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.18",
+              "word": "orol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.19",
+              "word": "olcheom",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.20",
+              "word": "oteol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100r.21",
+              "word": "okols",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f100v",
+          "metadata": {
+            "Q": "S",
+            "P": "D",
+            "F": "b",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 11,
+          "n_prose_tokens": 76,
+          "n_prose_types": 67,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f100v.1",
+              "word": "tolchd",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.2",
+              "word": "chols",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.3",
+              "word": "opchor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.4",
+              "word": "rolsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.6",
+              "word": "ykchochdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.7",
+              "word": "ykchdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.8",
+              "word": "dchdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.9",
+              "word": "dalsy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.10",
+              "word": "okcheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.11",
+              "word": "ytchol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f100v.12",
+              "word": "dykchal",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f101v",
+          "metadata": {
+            "Q": "S",
+            "P": "H",
+            "F": "y",
+            "B": "2",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 16,
+          "n_prose_tokens": 174,
+          "n_prose_types": 130,
+          "hits": [
+            {
+              "locus": "f101v.3",
+              "word": "otal",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f101v.1",
+              "word": "sairaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.2",
+              "word": "otaldy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.3",
+              "word": "otal",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.4",
+              "word": "yta",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.5",
+              "word": "dokor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.6",
+              "word": "orar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.7",
+              "word": "otorar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.8",
+              "word": "otala",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.9",
+              "word": "soraly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.10",
+              "word": "okol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.11",
+              "word": "arom",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.14",
+              "word": "dytoly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.15",
+              "word": "olkor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.16",
+              "word": "dolary",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.17",
+              "word": "odor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f101v.18",
+              "word": "olaran",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f102r1",
+          "metadata": {
+            "Q": "S",
+            "P": "L",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 4,
+          "n_prose_tokens": 105,
+          "n_prose_types": 91,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f102r1.1",
+              "word": "dordod",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102r1.2",
+              "word": "otodeeodor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102r1.7",
+              "word": "orolaly",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102r1.12",
+              "word": "dardsh",
+              "kind": "@Lc"
+            }
+          ]
+        },
+        {
+          "page": "f102r2",
+          "metadata": {
+            "Q": "S",
+            "P": "M",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 2,
+          "n_prose_tokens": 129,
+          "n_prose_types": 97,
+          "hits": [],
+          "labels": [
+            {
+              "locus": "f102r2.21",
+              "word": "koldarod",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102r2.22",
+              "word": "odalydary",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f102v2",
+          "metadata": {
+            "Q": "S",
+            "P": "O",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 18,
+          "n_prose_tokens": 159,
+          "n_prose_types": 121,
+          "hits": [
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f102v2.1",
+              "word": "porshols",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102v2.3",
+              "word": "oror",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.4",
+              "word": "eeor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.5",
+              "word": "sachy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.6",
+              "word": "okeos",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.7",
+              "word": "otol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.8",
+              "word": "otory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.10",
+              "word": "okody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.12",
+              "word": "okoroeey",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.13",
+              "word": "opchy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.14",
+              "word": "sarol",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.15",
+              "word": "olrodar",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.24",
+              "word": "otolky",
+              "kind": "@Lc"
+            },
+            {
+              "locus": "f102v2.25",
+              "word": "oran",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.26",
+              "word": "oika",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.27",
+              "word": "okeeoraiin",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v2.28",
+              "word": "okockhy",
+              "kind": "@Lf"
+            }
+          ]
+        },
+        {
+          "page": "f102v1",
+          "metadata": {
+            "Q": "S",
+            "P": "P",
+            "F": "z",
+            "B": "1",
+            "I": "P",
+            "L": "A",
+            "H": "1"
+          },
+          "n_labels": 8,
+          "n_prose_tokens": 117,
+          "n_prose_types": 94,
+          "hits": [
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "kind": "@Lf"
+            }
+          ],
+          "labels": [
+            {
+              "locus": "f102v1.2",
+              "word": "ykeody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.4",
+              "word": "doiisaly",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.5",
+              "word": "ypory",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.6",
+              "word": "opchytcy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.16",
+              "word": "ypcholdy",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.17",
+              "word": "loralody",
+              "kind": "@Lf"
+            },
+            {
+              "locus": "f102v1.18",
+              "word": "opchdard",
+              "kind": "@Lf"
+            }
+          ]
+        }
+      ],
+      "n_pages": 15,
+      "n_labels": 202,
+      "n_page_label_types": 200,
+      "primary": {
+        "count": {
+          "observed": 11.0,
+          "null_mean": 8.4985,
+          "null_sd": 2.2884320925350212,
+          "null_q025": 4.0,
+          "null_q975": 13.0,
+          "p_upper": 0.192980701929807,
+          "permutations": 10000,
+          "seed": 20261029
+        },
+        "page_normalized": {
+          "observed": 0.04315175565175565,
+          "null_mean": 0.03265241281866282,
+          "null_sd": 0.009377029719710484,
+          "null_q025": 0.015400883838383842,
+          "null_q975": 0.0516955266955267,
+          "p_upper": 0.133986601339866,
+          "permutations": 10000,
+          "seed": 20261029
+        }
+      },
+      "within_quire_sensitivity": {
+        "count": {
+          "observed": 11.0,
+          "null_mean": 8.5374,
+          "null_sd": 2.350607107829281,
+          "null_q025": 4.0,
+          "null_q975": 13.0,
+          "p_upper": 0.20827917208279173,
+          "permutations": 10000,
+          "seed": 20261029
+        },
+        "page_normalized": {
+          "observed": 0.04315175565175565,
+          "null_mean": 0.03427784511784512,
+          "null_sd": 0.00925238732226871,
+          "null_q025": 0.016504329004329004,
+          "null_q975": 0.05253727753727754,
+          "p_upper": 0.17898210178982102,
+          "permutations": 10000,
+          "seed": 20261029
+        }
+      },
+      "deduplicated_within_page_sensitivity": {
+        "count": {
+          "observed": 11.0,
+          "null_mean": 8.2369,
+          "null_sd": 2.1748681328162207,
+          "null_q025": 4.0,
+          "null_q975": 12.0,
+          "p_upper": 0.1488851114888511,
+          "permutations": 10000,
+          "seed": 20261029
+        },
+        "page_normalized": {
+          "observed": 0.043542762494375394,
+          "null_mean": 0.03240532256124998,
+          "null_sd": 0.009311616583515576,
+          "null_q025": 0.015201748669490606,
+          "null_q975": 0.051413132864745775,
+          "p_upper": 0.1202879712028797,
+          "permutations": 10000,
+          "seed": 20261029
+        }
+      },
+      "score_matrix": [
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          2,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2,
+          4,
+          2,
+          4,
+          3,
+          3,
+          0,
+          1,
+          1,
+          1,
+          5,
+          4,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          3,
+          1,
+          0,
+          1,
+          0,
+          1,
+          2,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Two transcriptions of the same physical source are sensitivity checks, not independent replications.",
+    "No assertion that a label denotes the nearest object.",
+    "Non-random pages, shared leaves, label type and prose length can affect exchangeability.",
+    "Exact matching can miss inflection, compound splitting and transcription uncertainty.",
+    "An association would not identify a language; non-significance does not prove no relation."
+  ],
+  "controls": {
+    "positive": {
+      "count": {
+        "observed": 16.0,
+        "null_mean": 0.9978,
+        "null_sd": 1.0057317284599125,
+        "null_q025": 0.0,
+        "null_q975": 3.0,
+        "p_upper": 9.999000099990002e-05,
+        "permutations": 10000,
+        "seed": 20261029
+      },
+      "page_normalized": {
+        "observed": 1.0,
+        "null_mean": 0.0623625,
+        "null_sd": 0.06285823302874453,
+        "null_q025": 0.0,
+        "null_q975": 0.1875,
+        "p_upper": 9.999000099990002e-05,
+        "permutations": 10000,
+        "seed": 20261029
+      }
+    },
+    "negative": {
+      "count": {
+        "observed": 0.0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "null_q025": 0.0,
+        "null_q975": 0.0,
+        "p_upper": 1.0,
+        "permutations": 10000,
+        "seed": 20261029
+      },
+      "page_normalized": {
+        "observed": 0.0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "null_q025": 0.0,
+        "null_q975": 0.0,
+        "p_upper": 1.0,
+        "permutations": 10000,
+        "seed": 20261029
+      }
+    }
+  }
+}

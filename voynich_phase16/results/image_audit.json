@@ -1,0 +1,92 @@
+[
+  {
+    "source": "data/f116v_MSI_BW.jpg",
+    "source_sha256": "52f92af519c287b0b83009ffd6263c4a582e99a791069aafa93db7c912e62199",
+    "original_exif_orientation": 1,
+    "crop_xyxy_after_exif": [
+      2470,
+      1190,
+      4550,
+      1510
+    ],
+    "crop": "audit/f116v_BW_lastline.png",
+    "sha256": "28811861b4485af1a8e0c2b483f8d1ebf2bec175b85e0a8a8cb73251edd1ab7e",
+    "note": "Last mixed-script line; processed PCA derivative. No new palaeographic reading asserted.",
+    "exact_pixel_match": true
+  },
+  {
+    "source": "data/f116v_MSI_PSC.jpg",
+    "source_sha256": "b88b365e14cdc44f96e1f214b71775db6d1e6e15f77541d2fb1639a12af503bb",
+    "original_exif_orientation": 3,
+    "crop_xyxy_after_exif": [
+      2470,
+      1190,
+      4550,
+      1510
+    ],
+    "crop": "audit/f116v_visible_lastline.png",
+    "sha256": "6c651577516a79552c6a2dd3e6975d59e247ceb774ceb4bc1f0373d3b3810227",
+    "note": "Natural-color reference, EXIF orientation corrected before cropping.",
+    "exact_pixel_match": true
+  },
+  {
+    "source": "data/f116v_MSI_BW.jpg",
+    "source_sha256": "52f92af519c287b0b83009ffd6263c4a582e99a791069aafa93db7c912e62199",
+    "original_exif_orientation": 1,
+    "crop_xyxy_after_exif": [
+      2470,
+      1220,
+      2990,
+      1500
+    ],
+    "crop": "audit/f116v_BW_pair.png",
+    "sha256": "03b67adc910c23f5fdaa14fbb84acd7c07510e2056167ad997e9b62a0066c526",
+    "note": "Candidate oror/aror followed by sheey; first glyph remains uncertain here.",
+    "exact_pixel_match": true
+  },
+  {
+    "source": "data/f116v_MSI_PSC.jpg",
+    "source_sha256": "b88b365e14cdc44f96e1f214b71775db6d1e6e15f77541d2fb1639a12af503bb",
+    "original_exif_orientation": 3,
+    "crop_xyxy_after_exif": [
+      2470,
+      1220,
+      2990,
+      1500
+    ],
+    "crop": "audit/f116v_visible_pair.png",
+    "sha256": "36b064a1dfa58cd2f53d7ed51febb16d78b40ea4ec285b9444242f7232d0d4ed",
+    "note": "Same area in natural color; views are not independent specimens.",
+    "exact_pixel_match": true
+  },
+  {
+    "source": "data/f104r_Yale.jpg",
+    "source_sha256": "2ee5f2a32ed2e242d60dcb34398c9b8be6af0341872a476e3905f1314ebe716f",
+    "original_exif_orientation": 1,
+    "crop_xyxy_after_exif": [
+      340,
+      1890,
+      2520,
+      2160
+    ],
+    "crop": "audit/f104r_paragraph8.png",
+    "sha256": "d01489fbd05ca1e3231a901542605129c14525c58575a0a2f11d555449e302ee",
+    "note": "Includes f104r.27-29 and some adjacent writing. Comparison located with existing transcripts; not blind.",
+    "exact_pixel_match": true
+  },
+  {
+    "source": "data/f104r_Yale.jpg",
+    "source_sha256": "2ee5f2a32ed2e242d60dcb34398c9b8be6af0341872a476e3905f1314ebe716f",
+    "original_exif_orientation": 1,
+    "crop_xyxy_after_exif": [
+      875,
+      1980,
+      1250,
+      2085
+    ],
+    "crop": "audit/f104r_pair.png",
+    "sha256": "db1b7641b23864d98cb88297f56455d4174924ba8c7937b122826c883091001d",
+    "note": "Candidate aror,sheey (ZL) / arorsheey (IT), f104r.28.",
+    "exact_pixel_match": true
+  }
+]

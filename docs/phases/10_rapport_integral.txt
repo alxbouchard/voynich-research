@@ -1,0 +1,182 @@
+[Page 1]
+VOYNICH / PHASE 10 / CHIFFREMENT CONTEXTUEL
+28 OCT. 2026
+EXPÉRIENCE EXPLORATOIRE · AUCUNE TRADUCTION VALIDÉE
+1
+Deux alphabets testés.
+Aucune clé validée.
+Le premier signe d’un groupe pourrait-il changer de lecture après une finale y ? Nous avons testé
+cette règle avec deux alphabets de substitution, chacun à correspondances uniques. Le solveur
+retrouve au moins 99,98 % des lettres de huit témoins chiffrés. Sur le Voynich, cette réussite ne se
+transforme pas en déchiffrement.
+Résultats sur les feuillets réservés
+Corpus / langue
+visée
+Gain de la
+seconde table
+Étendue des 19 témoins
+mélangés
+Témoins faisant au moins
+aussi bien
+ZL / A
+Latin
+0,884
+-1,201 à 1,154
+3 / 19
+ZL / A
+Italien
+0,043
+-0,727 à 0,480
+3 / 19
+ZL / B
+Latin
+-0,150
+-0,701 à 0,899
+10 / 19
+ZL / B
+Italien
+-0,297
+-1,033 à 0,390
+15 / 19
+Gain = score de la table unique moins score des deux tables, en bits moyens par fenêtre de quatre caractères. Un gain
+positif est meilleur selon le modèle de langue. Il ne représente pas des mots traduits. Les décomptes sont descriptifs,
+sans p-valeur revendiquée.
+Dans A, les gains restent dans l’étendue obtenue avec des mots mélangés. Dans B, le modèle
+contextuel dégrade le score dans les deux langues. Les résultats ne fournissent donc pas d’appui
+convaincant à cette clé à deux alphabets.
+Ce que cela change pour la recherche
+La dépendance entre groupes voisins reste une observation utile, déjà connue dans la littérature [1].
+La transformer en cette règle de substitution particulière ne suffit pas. Il faut conserver la contrainte
+de voisinage sans lui attribuer prématurément une valeur phonétique.
+Portée : latin représenté par César, italien représenté par Dante, caractères EVA bruts et espaces conservés. Ce
+résultat n’exclut ni toutes les langues ni tous les chiffres contextuels.
+
+
+[Page 2]
+VOYNICH / PHASE 10 / CHIFFREMENT CONTEXTUEL
+28 OCT. 2026
+EXPÉRIENCE EXPLORATOIRE · AUCUNE TRADUCTION VALIDÉE
+2
+Un bon score peut favoriser une clé fausse
+Le premier modèle autorisait plusieurs signes à produire la même lettre. Il obtenait 97,5 à 99,0 % de
+lettres correctes sur les témoins, mais échouait précisément sur les initiales dont la lecture change
+après y. Les clés fausses recevaient même un meilleur score que la vraie solution.
+Étape du développement
+Initiales après y :
+latin
+Initiales après y :
+italien
+Décision
+1. Tables libres, espaces omis
+74,1 %
+81,9 %
+Échec
+2. Tables libres, espaces fixes
+78,7 %
+96,9 %
+Échec en latin
+3. Deux permutations, espaces fixes
+99,73 %
+99,96 à 100 %
+Seuils atteints
+Étapes 1 et 2 : deux clés par langue. Étape 3 : quatre clés par langue, dont deux nouvelles. Tous ces essais utilisent
+les mêmes deux textes clairs et la même séparation apprentissage/test. Ce ne sont pas huit corpus indépendants.
+Le défaut du score initial est démontrable
+Sur le latin, la clé incorrecte dépasse l’objectif d’apprentissage de la vraie clé d’environ 4 287 unités
+; sur l’italien, d’environ 575 unités. Rechercher plus longtemps le maximum de cet objectif ne
+rendrait donc pas la vraie clé optimale. Ce diagnostic concerne ce score et ces témoins.
+La troisième étape change la famille de chiffres
+Une permutation interdit que deux signes différents d’une même table deviennent la même lettre.
+Cette contrainte correspond aux témoins construits ici, mais elle exclut l’homophonie. Le succès
+final calibre cette famille plus étroite ; il ne réhabilite pas les tables libres.
+Les seuils étaient : au moins 95 % de lettres correctes, 90 % dans les initiales déclenchées et 99,5 %
+de couverture d’apprentissage. Les espaces imposés ne sont jamais comptés comme lettres
+correctes. Résultat final : 99,98596 à 100 % sur toutes les lettres ; 99,7326 à 100 % dans le
+sous-ensemble déclenché.
+Chronologie conservée. Le protocole initial précède les résultats. Deux addendums documentent les changements
+après échec des contrôles, avant leurs nouveaux calculs. Il s’agit d’un développement exploratoire, et non d’une
+confirmation préenregistrée. Aucun modèle ayant échoué à son contrôle n’a été appliqué au Voynich.
+
+
+[Page 3]
+VOYNICH / PHASE 10 / CHIFFREMENT CONTEXTUEL
+28 OCT. 2026
+EXPÉRIENCE EXPLORATOIRE · AUCUNE TRADUCTION VALIDÉE
+3
+La règle exacte et ses limites
+La table spéciale lit uniquement le premier caractère d’un groupe connu situé après un groupe
+connu finissant par y, dans la même ligne. La table de base lit tous les autres caractères. L’état est
+calculé sur le texte chiffré. Chaque table est une permutation des 26 lettres ; les espaces sont fixes.
+Les groupes à espace incertain, alternatives ou signes illisibles restent des barrières. Aucune lecture
+nouvelle ni correction de transcription n’est imposée. Les correspondances candidates sont apprises
+sans texte clair ni clé vraie dans les arguments du solveur.
+Sensibilité à la seconde transcription
+Sous-ensemble IT
+Gain avec le latin
+Gain avec l’italien
+A
+0,187
+0,272
+B
+-0,009
+-0,404
+IT retrouve des gains positifs dans A et négatifs dans B. Aucun ensemble de 19 mélanges n’est calculé pour IT. ZL et IT
+sont deux transcriptions du même manuscrit, pas deux réplications indépendantes.
+Apprentissage et évaluation
+Un feuillet physique sur cinq dans la liste lexicographique commune est réservé au test.
+L’apprentissage utilise les autres feuillets, avec un plafond de 24 000 lettres en lignes complètes.
+Contrairement au test prédictif de phase 9, cette expérience réserve des feuillets, pas des cahiers
+entiers. Les clés sont sélectionnées uniquement sur l’apprentissage.
+Le score combine les fréquences de suites de quatre caractères et une pénalité de fréquences de lettres. Huit
+redémarrages de 60 000 propositions sont utilisés pour chaque ajustement. Les modèles de langue viennent de César
+et d’Inferno/Purgatorio ; Pline et Paradiso servent aux témoins. Les jeux ne sont pas intervertis.
+Pourquoi les mélanges restent un contrôle limité
+Les mots intérieurs connus sont permutés dans leur ligne, en gardant les extrémités, les barrières et
+le contenu des mots. Les deux modèles sont réappris pour chacun des 19 tirages. Ce contrôle détruit
+certains voisinages, mais il ne simule pas toute la structure du manuscrit.
+Le budget de recherche ne garantit pas l’optimum global. Les langues, genres, unités graphiques et frontières du
+modèle sont restreints. Un échec ne réfute donc pas une langue inconnue, des abréviations, des ligatures, une autre
+segmentation ou d’autres mécanismes de chiffrement.
+
+
+[Page 4]
+VOYNICH / PHASE 10 / CHIFFREMENT CONTEXTUEL
+28 OCT. 2026
+EXPÉRIENCE EXPLORATOIRE · AUCUNE TRADUCTION VALIDÉE
+4
+Calculs vérifiés et dossier reproductible
+Une seconde implémentation reconstruit les encodages, les textes candidats, les scores et les
+comparaisons sans importer le programme d’ajustement. Elle contrôle aussi les espaces fixes, les
+permutations et l’absence de feuillet commun entre apprentissage et test.
+Vérification
+Volume
+Ajustements reconstitués
+200
+Comparaisons à une / deux tables
+100
+Prédictions de lettres contrôlées
+4 899 916
+Caractères des témoins rechiffrés / déchiffrés
+736 376
+Écart absolu maximal sur l’objectif d’apprentissage
+1,72 × 10-8
+Ces vérifications portent sur les calculs, pas sur le sens. Elles partagent les données et les tables de langue figées
+avec le programme principal ; elles ne remplacent pas une validation linguistique indépendante.
+Une sortie qui ne doit pas devenir une traduction
+Premier segment réservé, ZL/A, f1r.1 :
+EVA : fachys ykal ar ataiin shol shory
+Sortie mécanique du candidat latin : guerap adus um utullo pris prima
+Cet exemple est le premier segment du test, sans sélection d’un passage favorable. La présence de fragments
+évoquant une langue ne valide ni la clé ni une traduction. Les sorties complètes restent marquées comme non
+validées dans les fichiers.
+Contenu du dossier
+Protocoles et addendums ; sources figées et licences ; trois solveurs ; clés connues des témoins ; 200 ajustements et
+leurs sorties ; tous les mélanges ; vérification indépendante ; instructions de reproduction et empreintes SHA-256. La
+reproduction commence aux entrées figées, sans prétendre refaire l’examen des images.
+Références et provenance
+[1] Reddy et Knight (2011), What We Know About The Voynich Manuscript, §5.2.
+[2] Feaster (2022), Rightward and Downward Grapheme Distributions.
+[3] Zandbergen, conventions et limites des transcriptions IVTFF.
+[4] César : Perseus Digital Library, De bello Gallico, CC BY-SA 4.0. Dante et Pline : textes historiques fournis dans le
+dépôt de Michael A. Greshko, attribution et licence jointes. Les chiffres contextuels de cette phase sont construits pour
+le test, sans attribution historique.

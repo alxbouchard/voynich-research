@@ -1,0 +1,137 @@
+{
+  "portable_computation": "passed",
+  "json_comparisons": {
+    "spectral.json": "identical JSON values",
+    "crib_scan.json": "identical JSON values",
+    "crib_summary.json": "identical JSON values",
+    "shuffle_diagnostic.json": "identical JSON values",
+    "crib_extension.json": "identical JSON values"
+  },
+  "pixel_identical_figures": [
+    "all_bands_pair.png",
+    "band_01_contrast.png",
+    "band_02_contrast.png",
+    "band_03_contrast.png",
+    "band_04_contrast.png",
+    "band_05_contrast.png",
+    "band_06_contrast.png",
+    "band_07_contrast.png",
+    "band_08_contrast.png",
+    "band_09_contrast.png",
+    "band_10_contrast.png",
+    "band_11_contrast.png",
+    "band_12_contrast.png",
+    "band_13_contrast.png",
+    "band_14_contrast.png",
+    "band_15_contrast.png",
+    "band_16_contrast.png",
+    "band_17_contrast.png",
+    "band_18_contrast.png",
+    "band_19_contrast.png",
+    "band_20_contrast.png",
+    "band_21_contrast.png",
+    "band_22_contrast.png",
+    "f116v_pair_comparison.png",
+    "pca_all_1.png",
+    "pca_all_2.png",
+    "pca_all_3.png",
+    "pca_fluorescence_1.png",
+    "pca_fluorescence_2.png",
+    "pca_fluorescence_3.png",
+    "pca_reflection_1.png",
+    "pca_reflection_2.png",
+    "pca_reflection_3.png",
+    "report_comparison.png"
+  ],
+  "source_crop_verification": [
+    {
+      "band": 1,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 2,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 3,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 4,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 5,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 6,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 7,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 8,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 9,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 10,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 11,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 12,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 13,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 14,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 15,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 16,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 17,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 18,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 19,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 20,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 21,
+      "pixel_exact_to_original": true
+    },
+    {
+      "band": 22,
+      "pixel_exact_to_original": true
+    }
+  ],
+  "claim_limit": "Computational reproduction does not validate the crib or establish a translation."
+}

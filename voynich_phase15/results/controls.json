@@ -1,0 +1,2372 @@
+{
+  "positive": {
+    "score": 1.0,
+    "identity_score": 0.0,
+    "gain": 1.0,
+    "own_fraction": 1.0,
+    "background_fraction": 0.0,
+    "folds": [
+      {
+        "held_out": "c0",
+        "target_leaf": "c0",
+        "rules": [
+          "identity",
+          "P:∅>q"
+        ],
+        "training_gains": [
+          1.0000000000000004
+        ],
+        "n_labels": 20,
+        "own_hits": 20,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 20,
+        "matches": [
+          {
+            "label_locus": "control0.0",
+            "raw": "cxidxdxra",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cxidxdxra",
+                "prose_surface": "qcxidxdxra",
+                "occurrences": [
+                  {
+                    "locus": "text0.0",
+                    "surface": "qcxidxdxra",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.1",
+            "raw": "bcncbdibd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bcncbdibd",
+                "prose_surface": "qbcncbdibd",
+                "occurrences": [
+                  {
+                    "locus": "text0.1",
+                    "surface": "qbcncbdibd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.2",
+            "raw": "cnaxbxaxd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cnaxbxaxd",
+                "prose_surface": "qcnaxbxaxd",
+                "occurrences": [
+                  {
+                    "locus": "text0.2",
+                    "surface": "qcnaxbxaxd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.3",
+            "raw": "xncdbrndb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xncdbrndb",
+                "prose_surface": "qxncdbrndb",
+                "occurrences": [
+                  {
+                    "locus": "text0.3",
+                    "surface": "qxncdbrndb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.4",
+            "raw": "rndiiirnc",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rndiiirnc",
+                "prose_surface": "qrndiiirnc",
+                "occurrences": [
+                  {
+                    "locus": "text0.4",
+                    "surface": "qrndiiirnc",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.5",
+            "raw": "cnirrnxrn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cnirrnxrn",
+                "prose_surface": "qcnirrnxrn",
+                "occurrences": [
+                  {
+                    "locus": "text0.5",
+                    "surface": "qcnirrnxrn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.6",
+            "raw": "xdinacxba",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xdinacxba",
+                "prose_surface": "qxdinacxba",
+                "occurrences": [
+                  {
+                    "locus": "text0.6",
+                    "surface": "qxdinacxba",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.7",
+            "raw": "ncincxdnn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ncincxdnn",
+                "prose_surface": "qncincxdnn",
+                "occurrences": [
+                  {
+                    "locus": "text0.7",
+                    "surface": "qncincxdnn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.8",
+            "raw": "ixdbraair",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ixdbraair",
+                "prose_surface": "qixdbraair",
+                "occurrences": [
+                  {
+                    "locus": "text0.8",
+                    "surface": "qixdbraair",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.9",
+            "raw": "xxnairdnr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xxnairdnr",
+                "prose_surface": "qxxnairdnr",
+                "occurrences": [
+                  {
+                    "locus": "text0.9",
+                    "surface": "qxxnairdnr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.10",
+            "raw": "bbndaaaxr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bbndaaaxr",
+                "prose_surface": "qbbndaaaxr",
+                "occurrences": [
+                  {
+                    "locus": "text0.10",
+                    "surface": "qbbndaaaxr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.11",
+            "raw": "riddibdnb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "riddibdnb",
+                "prose_surface": "qriddibdnb",
+                "occurrences": [
+                  {
+                    "locus": "text0.11",
+                    "surface": "qriddibdnb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.12",
+            "raw": "bdndxrrrr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bdndxrrrr",
+                "prose_surface": "qbdndxrrrr",
+                "occurrences": [
+                  {
+                    "locus": "text0.12",
+                    "surface": "qbdndxrrrr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.13",
+            "raw": "rdaicxinn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rdaicxinn",
+                "prose_surface": "qrdaicxinn",
+                "occurrences": [
+                  {
+                    "locus": "text0.13",
+                    "surface": "qrdaicxinn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.14",
+            "raw": "cnnarcadn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cnnarcadn",
+                "prose_surface": "qcnnarcadn",
+                "occurrences": [
+                  {
+                    "locus": "text0.14",
+                    "surface": "qcnnarcadn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.15",
+            "raw": "acanbarrb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "acanbarrb",
+                "prose_surface": "qacanbarrb",
+                "occurrences": [
+                  {
+                    "locus": "text0.15",
+                    "surface": "qacanbarrb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.16",
+            "raw": "dnxdrrxaa",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "dnxdrrxaa",
+                "prose_surface": "qdnxdrrxaa",
+                "occurrences": [
+                  {
+                    "locus": "text0.16",
+                    "surface": "qdnxdrrxaa",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.17",
+            "raw": "acicdxnir",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "acicdxnir",
+                "prose_surface": "qacicdxnir",
+                "occurrences": [
+                  {
+                    "locus": "text0.17",
+                    "surface": "qacicdxnir",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.18",
+            "raw": "aanibraia",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "aanibraia",
+                "prose_surface": "qaanibraia",
+                "occurrences": [
+                  {
+                    "locus": "text0.18",
+                    "surface": "qaanibraia",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control0.19",
+            "raw": "xxxrdradx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xxxrdradx",
+                "prose_surface": "qxxxrdradx",
+                "occurrences": [
+                  {
+                    "locus": "text0.19",
+                    "surface": "qxxxrdradx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "c1",
+        "target_leaf": "c1",
+        "rules": [
+          "identity",
+          "P:∅>q"
+        ],
+        "training_gains": [
+          1.0000000000000004
+        ],
+        "n_labels": 20,
+        "own_hits": 20,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 20,
+        "matches": [
+          {
+            "label_locus": "control1.0",
+            "raw": "brbdnabii",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "brbdnabii",
+                "prose_surface": "qbrbdnabii",
+                "occurrences": [
+                  {
+                    "locus": "text1.0",
+                    "surface": "qbrbdnabii",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.1",
+            "raw": "ndnnarxrn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ndnnarxrn",
+                "prose_surface": "qndnnarxrn",
+                "occurrences": [
+                  {
+                    "locus": "text1.1",
+                    "surface": "qndnnarxrn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.2",
+            "raw": "cnadiadab",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cnadiadab",
+                "prose_surface": "qcnadiadab",
+                "occurrences": [
+                  {
+                    "locus": "text1.2",
+                    "surface": "qcnadiadab",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.3",
+            "raw": "dxairbccr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "dxairbccr",
+                "prose_surface": "qdxairbccr",
+                "occurrences": [
+                  {
+                    "locus": "text1.3",
+                    "surface": "qdxairbccr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.4",
+            "raw": "bcadxadrx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bcadxadrx",
+                "prose_surface": "qbcadxadrx",
+                "occurrences": [
+                  {
+                    "locus": "text1.4",
+                    "surface": "qbcadxadrx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.5",
+            "raw": "rrnacicxi",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rrnacicxi",
+                "prose_surface": "qrrnacicxi",
+                "occurrences": [
+                  {
+                    "locus": "text1.5",
+                    "surface": "qrrnacicxi",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.6",
+            "raw": "nadbcdnib",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nadbcdnib",
+                "prose_surface": "qnadbcdnib",
+                "occurrences": [
+                  {
+                    "locus": "text1.6",
+                    "surface": "qnadbcdnib",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.7",
+            "raw": "rdibccnnr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rdibccnnr",
+                "prose_surface": "qrdibccnnr",
+                "occurrences": [
+                  {
+                    "locus": "text1.7",
+                    "surface": "qrdibccnnr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.8",
+            "raw": "iabarrxii",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "iabarrxii",
+                "prose_surface": "qiabarrxii",
+                "occurrences": [
+                  {
+                    "locus": "text1.8",
+                    "surface": "qiabarrxii",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.9",
+            "raw": "raxxxbnia",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "raxxxbnia",
+                "prose_surface": "qraxxxbnia",
+                "occurrences": [
+                  {
+                    "locus": "text1.9",
+                    "surface": "qraxxxbnia",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.10",
+            "raw": "drbbnrxxb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "drbbnrxxb",
+                "prose_surface": "qdrbbnrxxb",
+                "occurrences": [
+                  {
+                    "locus": "text1.10",
+                    "surface": "qdrbbnrxxb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.11",
+            "raw": "innrcxaii",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "innrcxaii",
+                "prose_surface": "qinnrcxaii",
+                "occurrences": [
+                  {
+                    "locus": "text1.11",
+                    "surface": "qinnrcxaii",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.12",
+            "raw": "ibiabiibi",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ibiabiibi",
+                "prose_surface": "qibiabiibi",
+                "occurrences": [
+                  {
+                    "locus": "text1.12",
+                    "surface": "qibiabiibi",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.13",
+            "raw": "dbcraxrni",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "dbcraxrni",
+                "prose_surface": "qdbcraxrni",
+                "occurrences": [
+                  {
+                    "locus": "text1.13",
+                    "surface": "qdbcraxrni",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.14",
+            "raw": "bbxirrdcn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bbxirrdcn",
+                "prose_surface": "qbbxirrdcn",
+                "occurrences": [
+                  {
+                    "locus": "text1.14",
+                    "surface": "qbbxirrdcn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.15",
+            "raw": "rdxdbaccr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rdxdbaccr",
+                "prose_surface": "qrdxdbaccr",
+                "occurrences": [
+                  {
+                    "locus": "text1.15",
+                    "surface": "qrdxdbaccr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.16",
+            "raw": "ncanccacx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ncanccacx",
+                "prose_surface": "qncanccacx",
+                "occurrences": [
+                  {
+                    "locus": "text1.16",
+                    "surface": "qncanccacx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.17",
+            "raw": "rinrirbbx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rinrirbbx",
+                "prose_surface": "qrinrirbbx",
+                "occurrences": [
+                  {
+                    "locus": "text1.17",
+                    "surface": "qrinrirbbx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.18",
+            "raw": "cibcrdnnn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cibcrdnnn",
+                "prose_surface": "qcibcrdnnn",
+                "occurrences": [
+                  {
+                    "locus": "text1.18",
+                    "surface": "qcibcrdnnn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control1.19",
+            "raw": "iacbbnrax",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "iacbbnrax",
+                "prose_surface": "qiacbbnrax",
+                "occurrences": [
+                  {
+                    "locus": "text1.19",
+                    "surface": "qiacbbnrax",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "c2",
+        "target_leaf": "c2",
+        "rules": [
+          "identity",
+          "P:∅>q"
+        ],
+        "training_gains": [
+          1.0000000000000004
+        ],
+        "n_labels": 20,
+        "own_hits": 20,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 20,
+        "matches": [
+          {
+            "label_locus": "control2.0",
+            "raw": "ddaiacbri",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ddaiacbri",
+                "prose_surface": "qddaiacbri",
+                "occurrences": [
+                  {
+                    "locus": "text2.0",
+                    "surface": "qddaiacbri",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.1",
+            "raw": "ibibbrinb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ibibbrinb",
+                "prose_surface": "qibibbrinb",
+                "occurrences": [
+                  {
+                    "locus": "text2.1",
+                    "surface": "qibibbrinb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.2",
+            "raw": "icxcibicn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "icxcibicn",
+                "prose_surface": "qicxcibicn",
+                "occurrences": [
+                  {
+                    "locus": "text2.2",
+                    "surface": "qicxcibicn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.3",
+            "raw": "aicrcdxxn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "aicrcdxxn",
+                "prose_surface": "qaicrcdxxn",
+                "occurrences": [
+                  {
+                    "locus": "text2.3",
+                    "surface": "qaicrcdxxn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.4",
+            "raw": "ibrnbixbc",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ibrnbixbc",
+                "prose_surface": "qibrnbixbc",
+                "occurrences": [
+                  {
+                    "locus": "text2.4",
+                    "surface": "qibrnbixbc",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.5",
+            "raw": "bicrccrar",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bicrccrar",
+                "prose_surface": "qbicrccrar",
+                "occurrences": [
+                  {
+                    "locus": "text2.5",
+                    "surface": "qbicrccrar",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.6",
+            "raw": "nribcaibn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nribcaibn",
+                "prose_surface": "qnribcaibn",
+                "occurrences": [
+                  {
+                    "locus": "text2.6",
+                    "surface": "qnribcaibn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.7",
+            "raw": "aicaribci",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "aicaribci",
+                "prose_surface": "qaicaribci",
+                "occurrences": [
+                  {
+                    "locus": "text2.7",
+                    "surface": "qaicaribci",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.8",
+            "raw": "ccicicbxr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ccicicbxr",
+                "prose_surface": "qccicicbxr",
+                "occurrences": [
+                  {
+                    "locus": "text2.8",
+                    "surface": "qccicicbxr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.9",
+            "raw": "brxracrxa",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "brxracrxa",
+                "prose_surface": "qbrxracrxa",
+                "occurrences": [
+                  {
+                    "locus": "text2.9",
+                    "surface": "qbrxracrxa",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.10",
+            "raw": "xbirarcir",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xbirarcir",
+                "prose_surface": "qxbirarcir",
+                "occurrences": [
+                  {
+                    "locus": "text2.10",
+                    "surface": "qxbirarcir",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.11",
+            "raw": "xcdradbax",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xcdradbax",
+                "prose_surface": "qxcdradbax",
+                "occurrences": [
+                  {
+                    "locus": "text2.11",
+                    "surface": "qxcdradbax",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.12",
+            "raw": "ncdncxcna",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ncdncxcna",
+                "prose_surface": "qncdncxcna",
+                "occurrences": [
+                  {
+                    "locus": "text2.12",
+                    "surface": "qncdncxcna",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.13",
+            "raw": "rdcrccrcd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rdcrccrcd",
+                "prose_surface": "qrdcrccrcd",
+                "occurrences": [
+                  {
+                    "locus": "text2.13",
+                    "surface": "qrdcrccrcd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.14",
+            "raw": "cnrbddrxb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cnrbddrxb",
+                "prose_surface": "qcnrbddrxb",
+                "occurrences": [
+                  {
+                    "locus": "text2.14",
+                    "surface": "qcnrbddrxb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.15",
+            "raw": "bxnnbrrxx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bxnnbrrxx",
+                "prose_surface": "qbxnnbrrxx",
+                "occurrences": [
+                  {
+                    "locus": "text2.15",
+                    "surface": "qbxnnbrrxx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.16",
+            "raw": "adddcirda",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "adddcirda",
+                "prose_surface": "qadddcirda",
+                "occurrences": [
+                  {
+                    "locus": "text2.16",
+                    "surface": "qadddcirda",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.17",
+            "raw": "cbxicdcad",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cbxicdcad",
+                "prose_surface": "qcbxicdcad",
+                "occurrences": [
+                  {
+                    "locus": "text2.17",
+                    "surface": "qcbxicdcad",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.18",
+            "raw": "bnacrnaxx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bnacrnaxx",
+                "prose_surface": "qbnacrnaxx",
+                "occurrences": [
+                  {
+                    "locus": "text2.18",
+                    "surface": "qbnacrnaxx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control2.19",
+            "raw": "cibdcanci",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cibdcanci",
+                "prose_surface": "qcibdcanci",
+                "occurrences": [
+                  {
+                    "locus": "text2.19",
+                    "surface": "qcibdcanci",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "c3",
+        "target_leaf": "c3",
+        "rules": [
+          "identity",
+          "P:∅>q"
+        ],
+        "training_gains": [
+          1.0000000000000004
+        ],
+        "n_labels": 20,
+        "own_hits": 20,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 20,
+        "matches": [
+          {
+            "label_locus": "control3.0",
+            "raw": "nnbdndbxn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nnbdndbxn",
+                "prose_surface": "qnnbdndbxn",
+                "occurrences": [
+                  {
+                    "locus": "text3.0",
+                    "surface": "qnnbdndbxn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.1",
+            "raw": "rbrbbanbb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rbrbbanbb",
+                "prose_surface": "qrbrbbanbb",
+                "occurrences": [
+                  {
+                    "locus": "text3.1",
+                    "surface": "qrbrbbanbb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.2",
+            "raw": "xdrncbiar",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xdrncbiar",
+                "prose_surface": "qxdrncbiar",
+                "occurrences": [
+                  {
+                    "locus": "text3.2",
+                    "surface": "qxdrncbiar",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.3",
+            "raw": "rxnnbrncr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rxnnbrncr",
+                "prose_surface": "qrxnnbrncr",
+                "occurrences": [
+                  {
+                    "locus": "text3.3",
+                    "surface": "qrxnnbrncr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.4",
+            "raw": "adbnbacxd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "adbnbacxd",
+                "prose_surface": "qadbnbacxd",
+                "occurrences": [
+                  {
+                    "locus": "text3.4",
+                    "surface": "qadbnbacxd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.5",
+            "raw": "dcadcdbxd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "dcadcdbxd",
+                "prose_surface": "qdcadcdbxd",
+                "occurrences": [
+                  {
+                    "locus": "text3.5",
+                    "surface": "qdcadcdbxd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.6",
+            "raw": "bxdairidx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bxdairidx",
+                "prose_surface": "qbxdairidx",
+                "occurrences": [
+                  {
+                    "locus": "text3.6",
+                    "surface": "qbxdairidx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.7",
+            "raw": "rbbnbaaan",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rbbnbaaan",
+                "prose_surface": "qrbbnbaaan",
+                "occurrences": [
+                  {
+                    "locus": "text3.7",
+                    "surface": "qrbbnbaaan",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.8",
+            "raw": "ibbnbiddx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ibbnbiddx",
+                "prose_surface": "qibbnbiddx",
+                "occurrences": [
+                  {
+                    "locus": "text3.8",
+                    "surface": "qibbnbiddx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.9",
+            "raw": "bbxncbacb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bbxncbacb",
+                "prose_surface": "qbbxncbacb",
+                "occurrences": [
+                  {
+                    "locus": "text3.9",
+                    "surface": "qbbxncbacb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.10",
+            "raw": "abnddraax",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "abnddraax",
+                "prose_surface": "qabnddraax",
+                "occurrences": [
+                  {
+                    "locus": "text3.10",
+                    "surface": "qabnddraax",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.11",
+            "raw": "xndbxbndd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xndbxbndd",
+                "prose_surface": "qxndbxbndd",
+                "occurrences": [
+                  {
+                    "locus": "text3.11",
+                    "surface": "qxndbxbndd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.12",
+            "raw": "xxddcibdr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xxddcibdr",
+                "prose_surface": "qxxddcibdr",
+                "occurrences": [
+                  {
+                    "locus": "text3.12",
+                    "surface": "qxxddcibdr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.13",
+            "raw": "nnddxrrbn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nnddxrrbn",
+                "prose_surface": "qnnddxrrbn",
+                "occurrences": [
+                  {
+                    "locus": "text3.13",
+                    "surface": "qnnddxrrbn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.14",
+            "raw": "dbnbrrxab",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "dbnbrrxab",
+                "prose_surface": "qdbnbrrxab",
+                "occurrences": [
+                  {
+                    "locus": "text3.14",
+                    "surface": "qdbnbrrxab",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.15",
+            "raw": "bdricirba",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bdricirba",
+                "prose_surface": "qbdricirba",
+                "occurrences": [
+                  {
+                    "locus": "text3.15",
+                    "surface": "qbdricirba",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.16",
+            "raw": "cidiaxrba",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cidiaxrba",
+                "prose_surface": "qcidiaxrba",
+                "occurrences": [
+                  {
+                    "locus": "text3.16",
+                    "surface": "qcidiaxrba",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.17",
+            "raw": "crbrdrnin",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "crbrdrnin",
+                "prose_surface": "qcrbrdrnin",
+                "occurrences": [
+                  {
+                    "locus": "text3.17",
+                    "surface": "qcrbrdrnin",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.18",
+            "raw": "raicrdaab",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "raicrdaab",
+                "prose_surface": "qraicrdaab",
+                "occurrences": [
+                  {
+                    "locus": "text3.18",
+                    "surface": "qraicrdaab",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control3.19",
+            "raw": "rcxxicinc",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rcxxicinc",
+                "prose_surface": "qrcxxicinc",
+                "occurrences": [
+                  {
+                    "locus": "text3.19",
+                    "surface": "qrcxxicinc",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "c4",
+        "target_leaf": "c4",
+        "rules": [
+          "identity",
+          "P:∅>q"
+        ],
+        "training_gains": [
+          1.0000000000000004
+        ],
+        "n_labels": 20,
+        "own_hits": 20,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 20,
+        "matches": [
+          {
+            "label_locus": "control4.0",
+            "raw": "axaicncna",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "axaicncna",
+                "prose_surface": "qaxaicncna",
+                "occurrences": [
+                  {
+                    "locus": "text4.0",
+                    "surface": "qaxaicncna",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.1",
+            "raw": "cicanbiin",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cicanbiin",
+                "prose_surface": "qcicanbiin",
+                "occurrences": [
+                  {
+                    "locus": "text4.1",
+                    "surface": "qcicanbiin",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.2",
+            "raw": "iinxaxanb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "iinxaxanb",
+                "prose_surface": "qiinxaxanb",
+                "occurrences": [
+                  {
+                    "locus": "text4.2",
+                    "surface": "qiinxaxanb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.3",
+            "raw": "rxcxbccnc",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rxcxbccnc",
+                "prose_surface": "qrxcxbccnc",
+                "occurrences": [
+                  {
+                    "locus": "text4.3",
+                    "surface": "qrxcxbccnc",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.4",
+            "raw": "ndcdraxrd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ndcdraxrd",
+                "prose_surface": "qndcdraxrd",
+                "occurrences": [
+                  {
+                    "locus": "text4.4",
+                    "surface": "qndcdraxrd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.5",
+            "raw": "cdbabndai",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cdbabndai",
+                "prose_surface": "qcdbabndai",
+                "occurrences": [
+                  {
+                    "locus": "text4.5",
+                    "surface": "qcdbabndai",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.6",
+            "raw": "ddnrcrida",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ddnrcrida",
+                "prose_surface": "qddnrcrida",
+                "occurrences": [
+                  {
+                    "locus": "text4.6",
+                    "surface": "qddnrcrida",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.7",
+            "raw": "binrabcaa",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "binrabcaa",
+                "prose_surface": "qbinrabcaa",
+                "occurrences": [
+                  {
+                    "locus": "text4.7",
+                    "surface": "qbinrabcaa",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.8",
+            "raw": "xdbdxdarb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xdbdxdarb",
+                "prose_surface": "qxdbdxdarb",
+                "occurrences": [
+                  {
+                    "locus": "text4.8",
+                    "surface": "qxdbdxdarb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.9",
+            "raw": "bbiabirbd",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bbiabirbd",
+                "prose_surface": "qbbiabirbd",
+                "occurrences": [
+                  {
+                    "locus": "text4.9",
+                    "surface": "qbbiabirbd",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.10",
+            "raw": "ccrdxrnra",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "ccrdxrnra",
+                "prose_surface": "qccrdxrnra",
+                "occurrences": [
+                  {
+                    "locus": "text4.10",
+                    "surface": "qccrdxrnra",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.11",
+            "raw": "acdbabbxn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "acdbabbxn",
+                "prose_surface": "qacdbabbxn",
+                "occurrences": [
+                  {
+                    "locus": "text4.11",
+                    "surface": "qacdbabbxn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.12",
+            "raw": "bdcaxbbxi",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bdcaxbbxi",
+                "prose_surface": "qbdcaxbbxi",
+                "occurrences": [
+                  {
+                    "locus": "text4.12",
+                    "surface": "qbdcaxbbxi",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.13",
+            "raw": "xdbxcnbxa",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xdbxcnbxa",
+                "prose_surface": "qxdbxcnbxa",
+                "occurrences": [
+                  {
+                    "locus": "text4.13",
+                    "surface": "qxdbxcnbxa",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.14",
+            "raw": "xarrxadar",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xarrxadar",
+                "prose_surface": "qxarrxadar",
+                "occurrences": [
+                  {
+                    "locus": "text4.14",
+                    "surface": "qxarrxadar",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.15",
+            "raw": "cdrrbrrcb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cdrrbrrcb",
+                "prose_surface": "qcdrrbrrcb",
+                "occurrences": [
+                  {
+                    "locus": "text4.15",
+                    "surface": "qcdrrbrrcb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.16",
+            "raw": "bacrddiax",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bacrddiax",
+                "prose_surface": "qbacrddiax",
+                "occurrences": [
+                  {
+                    "locus": "text4.16",
+                    "surface": "qbacrddiax",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.17",
+            "raw": "bdcbnbard",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bdcbnbard",
+                "prose_surface": "qbdcbnbard",
+                "occurrences": [
+                  {
+                    "locus": "text4.17",
+                    "surface": "qbdcbnbard",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.18",
+            "raw": "xdnnidrdc",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xdnnidrdc",
+                "prose_surface": "qxdnnidrdc",
+                "occurrences": [
+                  {
+                    "locus": "text4.18",
+                    "surface": "qxdnnidrdc",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control4.19",
+            "raw": "nbcnrdcad",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nbcnrdcad",
+                "prose_surface": "qnbcnrdcad",
+                "occurrences": [
+                  {
+                    "locus": "text4.19",
+                    "surface": "qnbcnrdcad",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "held_out": "c5",
+        "target_leaf": "c5",
+        "rules": [
+          "identity",
+          "P:∅>q"
+        ],
+        "training_gains": [
+          1.0000000000000004
+        ],
+        "n_labels": 20,
+        "own_hits": 20,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 20,
+        "matches": [
+          {
+            "label_locus": "control5.0",
+            "raw": "bdrirbadb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bdrirbadb",
+                "prose_surface": "qbdrirbadb",
+                "occurrences": [
+                  {
+                    "locus": "text5.0",
+                    "surface": "qbdrirbadb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.1",
+            "raw": "nnnarcrdc",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nnnarcrdc",
+                "prose_surface": "qnnnarcrdc",
+                "occurrences": [
+                  {
+                    "locus": "text5.1",
+                    "surface": "qnnnarcrdc",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.2",
+            "raw": "rddxacdda",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rddxacdda",
+                "prose_surface": "qrddxacdda",
+                "occurrences": [
+                  {
+                    "locus": "text5.2",
+                    "surface": "qrddxacdda",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.3",
+            "raw": "nnicndddn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "nnicndddn",
+                "prose_surface": "qnnicndddn",
+                "occurrences": [
+                  {
+                    "locus": "text5.3",
+                    "surface": "qnnicndddn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.4",
+            "raw": "xiaiicdbx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xiaiicdbx",
+                "prose_surface": "qxiaiicdbx",
+                "occurrences": [
+                  {
+                    "locus": "text5.4",
+                    "surface": "qxiaiicdbx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.5",
+            "raw": "rcdacbbxb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rcdacbbxb",
+                "prose_surface": "qrcdacbbxb",
+                "occurrences": [
+                  {
+                    "locus": "text5.5",
+                    "surface": "qrcdacbbxb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.6",
+            "raw": "bncxciiar",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bncxciiar",
+                "prose_surface": "qbncxciiar",
+                "occurrences": [
+                  {
+                    "locus": "text5.6",
+                    "surface": "qbncxciiar",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.7",
+            "raw": "baxibnand",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "baxibnand",
+                "prose_surface": "qbaxibnand",
+                "occurrences": [
+                  {
+                    "locus": "text5.7",
+                    "surface": "qbaxibnand",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.8",
+            "raw": "bnindbbra",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bnindbbra",
+                "prose_surface": "qbnindbbra",
+                "occurrences": [
+                  {
+                    "locus": "text5.8",
+                    "surface": "qbnindbbra",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.9",
+            "raw": "criaadbbb",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "criaadbbb",
+                "prose_surface": "qcriaadbbb",
+                "occurrences": [
+                  {
+                    "locus": "text5.9",
+                    "surface": "qcriaadbbb",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.10",
+            "raw": "bxcandnrx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "bxcandnrx",
+                "prose_surface": "qbxcandnrx",
+                "occurrences": [
+                  {
+                    "locus": "text5.10",
+                    "surface": "qbxcandnrx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.11",
+            "raw": "drciicina",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "drciicina",
+                "prose_surface": "qdrciicina",
+                "occurrences": [
+                  {
+                    "locus": "text5.11",
+                    "surface": "qdrciicina",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.12",
+            "raw": "baxnrbdic",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "baxnrbdic",
+                "prose_surface": "qbaxnrbdic",
+                "occurrences": [
+                  {
+                    "locus": "text5.12",
+                    "surface": "qbaxnrbdic",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.13",
+            "raw": "rxbdraidx",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "rxbdraidx",
+                "prose_surface": "qrxbdraidx",
+                "occurrences": [
+                  {
+                    "locus": "text5.13",
+                    "surface": "qrxbdraidx",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.14",
+            "raw": "cxdbanrin",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cxdbanrin",
+                "prose_surface": "qcxdbanrin",
+                "occurrences": [
+                  {
+                    "locus": "text5.14",
+                    "surface": "qcxdbanrin",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.15",
+            "raw": "biaiddici",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "biaiddici",
+                "prose_surface": "qbiaiddici",
+                "occurrences": [
+                  {
+                    "locus": "text5.15",
+                    "surface": "qbiaiddici",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.16",
+            "raw": "cbrbrdidi",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "cbrbrdidi",
+                "prose_surface": "qcbrbrdidi",
+                "occurrences": [
+                  {
+                    "locus": "text5.16",
+                    "surface": "qcbrbrdidi",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.17",
+            "raw": "dcbrbnabr",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "dcbrbnabr",
+                "prose_surface": "qdcbrbnabr",
+                "occurrences": [
+                  {
+                    "locus": "text5.17",
+                    "surface": "qdcbrbnabr",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.18",
+            "raw": "abindccdn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "abindccdn",
+                "prose_surface": "qabindccdn",
+                "occurrences": [
+                  {
+                    "locus": "text5.18",
+                    "surface": "qabindccdn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label_locus": "control5.19",
+            "raw": "xrcbcrncn",
+            "matches": [
+              {
+                "rule": "P:∅>q",
+                "label_surface": "xrcbcrncn",
+                "prose_surface": "qxrcbcrncn",
+                "occurrences": [
+                  {
+                    "locus": "text5.19",
+                    "surface": "qxrcbcrncn",
+                    "n_words": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "negative": {
+    "score": 0.0,
+    "identity_score": 0.0,
+    "gain": 0.0,
+    "own_fraction": 0.0,
+    "background_fraction": 0.0,
+    "folds": [
+      {
+        "held_out": "c0",
+        "target_leaf": "c0",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 20,
+        "own_hits": 0,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 0,
+        "matches": []
+      },
+      {
+        "held_out": "c1",
+        "target_leaf": "c1",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 20,
+        "own_hits": 0,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 0,
+        "matches": []
+      },
+      {
+        "held_out": "c2",
+        "target_leaf": "c2",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 20,
+        "own_hits": 0,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 0,
+        "matches": []
+      },
+      {
+        "held_out": "c3",
+        "target_leaf": "c3",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 20,
+        "own_hits": 0,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 0,
+        "matches": []
+      },
+      {
+        "held_out": "c4",
+        "target_leaf": "c4",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 20,
+        "own_hits": 0,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 0,
+        "matches": []
+      },
+      {
+        "held_out": "c5",
+        "target_leaf": "c5",
+        "rules": [
+          "identity"
+        ],
+        "training_gains": [],
+        "n_labels": 20,
+        "own_hits": 0,
+        "background_mean_fraction": 0.0,
+        "unseen_label_count": 20,
+        "unseen_hits": 0,
+        "matches": []
+      }
+    ]
+  }
+}

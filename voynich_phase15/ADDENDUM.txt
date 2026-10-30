@@ -1,0 +1,9 @@
+29 octobre 2026. Après lecture des résultats principaux.
+
+Un diagnostic descriptif séparé ajoute seulement le préfixe q, sans ajustement. Il illustre les correspondances supplémentaires dans le bon feuillet et les autres feuillets. Aucun test confirmatoire ni choix de modèle ne repose sur ce diagnostic ajouté après examen des résultats. Sa source conceptuelle, la rareté de q dans les étiquettes, avait été consultée avant l'expérience.
+
+La recherche de règles dans la branche avec variantes s'appuie sur des ensembles de graphies possibles pour une étiquette. Pour la condition de support, un ensemble distinct est compté une fois, même s'il contient plusieurs variantes. La condition exige toujours trois ensembles distincts sur au moins deux feuillets d'apprentissage.
+
+Une optimisation de calcul a remplacé set.isdisjoint(dict) par des tests d'appartenance directs. Elle ne modifie ni les caractéristiques ni les scores. Les résultats observés sont recalculés après cette modification par verify.py.
+
+La phase 14 traitait <~> comme un commentaire supprimé, alors qu'il représente une interruption par dessin. Six loci ZL utilisent ce marqueur, aucun dans les pages pharmaceutiques: le test principal de la phase 14 est donc inchangé. Le lecteur de cette phase traite <-> et <~> comme des barrières infranchissables pour les fusions de mots.

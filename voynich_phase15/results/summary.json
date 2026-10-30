@@ -1,0 +1,142 @@
+[
+  {
+    "code": "ZL",
+    "condition": "strict",
+    "n_rules": 561,
+    "labels": 198,
+    "full_null": {
+      "score": {
+        "observed": 0.013483671060397412,
+        "null_mean": -0.0009444891119150497,
+        "p_exact": 0.20694444444444443,
+        "n_permutations": 720
+      },
+      "gain": {
+        "observed": -0.004570791527313253,
+        "null_mean": -0.0009444891119150478,
+        "p_exact": 0.6097222222222223,
+        "n_permutations": 720
+      }
+    },
+    "panel_count_null": {
+      "score": {
+        "observed": 0.013483671060397412,
+        "null_mean": -0.00051649846346937,
+        "p_exact": 0.1875,
+        "n_permutations": 48
+      },
+      "gain": {
+        "observed": -0.004570791527313253,
+        "null_mean": -0.001515129521243648,
+        "p_exact": 0.75,
+        "n_permutations": 48
+      }
+    },
+    "elapsed_seconds": 26.42797076199986
+  },
+  {
+    "code": "ZL",
+    "condition": "lattice",
+    "n_rules": 753,
+    "labels": 223,
+    "full_null": {
+      "score": {
+        "observed": 0.007494911729636469,
+        "null_mean": -0.0003293717754378553,
+        "p_exact": 0.30694444444444446,
+        "n_permutations": 720
+      },
+      "gain": {
+        "observed": -0.0030335473317929466,
+        "null_mean": -0.00032937177543785413,
+        "p_exact": 0.5430555555555555,
+        "n_permutations": 720
+      }
+    },
+    "panel_count_null": {
+      "score": {
+        "observed": 0.007494911729636469,
+        "null_mean": -0.002279968712843293,
+        "p_exact": 0.25,
+        "n_permutations": 48
+      },
+      "gain": {
+        "observed": -0.0030335473317929466,
+        "null_mean": -0.001703003579011854,
+        "p_exact": 0.5625,
+        "n_permutations": 48
+      }
+    },
+    "elapsed_seconds": 68.59102559700023
+  },
+  {
+    "code": "IT",
+    "condition": "strict",
+    "n_rules": 707,
+    "labels": 202,
+    "full_null": {
+      "score": {
+        "observed": -0.003648506619521097,
+        "null_mean": -0.0011648927977178792,
+        "p_exact": 0.5444444444444444,
+        "n_permutations": 720
+      },
+      "gain": {
+        "observed": -0.00983979051008035,
+        "null_mean": -0.0011648927977178777,
+        "p_exact": 0.7916666666666666,
+        "n_permutations": 720
+      }
+    },
+    "panel_count_null": {
+      "score": {
+        "observed": -0.003648506619521097,
+        "null_mean": 0.0036382138616438114,
+        "p_exact": 0.7291666666666666,
+        "n_permutations": 48
+      },
+      "gain": {
+        "observed": -0.00983979051008035,
+        "null_mean": -0.0027580250980009445,
+        "p_exact": 0.8541666666666666,
+        "n_permutations": 48
+      }
+    },
+    "elapsed_seconds": 22.969060393999825
+  },
+  {
+    "code": "IT",
+    "condition": "lattice",
+    "n_rules": 845,
+    "labels": 219,
+    "full_null": {
+      "score": {
+        "observed": -0.00034868580881179667,
+        "null_mean": -0.0010435976297978543,
+        "p_exact": 0.475,
+        "n_permutations": 720
+      },
+      "gain": {
+        "observed": -0.010591931762530689,
+        "null_mean": -0.0010435976297978546,
+        "p_exact": 0.8444444444444444,
+        "n_permutations": 720
+      }
+    },
+    "panel_count_null": {
+      "score": {
+        "observed": -0.00034868580881179667,
+        "null_mean": 0.006254929362714673,
+        "p_exact": 0.7291666666666666,
+        "n_permutations": 48
+      },
+      "gain": {
+        "observed": -0.010591931762530689,
+        "null_mean": -0.0041313200058662874,
+        "p_exact": 0.7916666666666666,
+        "n_permutations": 48
+      }
+    },
+    "elapsed_seconds": 62.396139872000276
+  }
+]

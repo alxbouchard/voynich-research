@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "prior_paper": {
+    "authors": "Liudmila Rozanova and Alexander Temerev",
+    "url": "https://arxiv.org/abs/2608.17096v1",
+    "status": "preprint",
+    "access": "Abstract, HTML methods and appendices, author repository README and original published measurements; not complete pipeline replication"
+  },
+  "ink_data": {
+    "url": "https://github.com/lrozanova/voynich-units/blob/main/data/direct_pixel/results_unblinded.csv",
+    "git_blob_sha": "fb0788d339fd3486d6954357598c4c776713cbd5",
+    "local_sha256": "3c15627dc3ddfca4f331a1fed1e1a290a9b8412ebf9247fe4c9b2778412aedee",
+    "license": "data/LICENSE_ROZANOVA.txt"
+  },
+  "transcriptions_source": "https://www.voynich.nu/transcr.html",
+  "input_hashes": {
+    "voynich_20261028/data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "voynich_20261028/data/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "voynich_phase6/data/adjacency_inputs.json": "ee261b97f2c808866fe943cc9cc6a2daeca0d60d04a71cfe298ffedcd7a23918",
+    "voynich_phase7/data/inputs.json": "46a333fae100acd3fb66d96bfdc21858f0679d57f5513c650d5489a4a792f26d"
+  },
+  "controls": "Frozen phase-6 source streams and prior metadata included; no new generation."
+}

@@ -1,0 +1,198 @@
+{
+  "real_fit_runs": 40,
+  "all_fit_runs": 49,
+  "energy_evaluations": 2009241,
+  "cpu_fit_seconds_sum": 2757.1700464849637,
+  "controls": [
+    {
+      "name": "control_homophonic",
+      "steps": 20000,
+      "seed": 13010,
+      "energy": 27.80941576072482,
+      "test_scored_types": 64,
+      "heldout_unique_correct": 40,
+      "heldout_accuracy": 0.625
+    },
+    {
+      "name": "control_homophonic",
+      "steps": 5000,
+      "seed": 13010,
+      "energy": 34.895773578510145,
+      "test_scored_types": 64,
+      "heldout_unique_correct": 23,
+      "heldout_accuracy": 0.359375
+    },
+    {
+      "name": "control_mono",
+      "steps": 100,
+      "seed": 13010,
+      "energy": 33.21594766826628,
+      "test_scored_types": 64,
+      "heldout_unique_correct": 25,
+      "heldout_accuracy": 0.390625
+    },
+    {
+      "name": "control_mono",
+      "steps": 1000,
+      "seed": 13010,
+      "energy": 0.0,
+      "test_scored_types": 64,
+      "heldout_unique_correct": 64,
+      "heldout_accuracy": 1.0
+    },
+    {
+      "name": "control_mono",
+      "steps": 5000,
+      "seed": 13010,
+      "energy": 0.0,
+      "test_scored_types": 64,
+      "heldout_unique_correct": 64,
+      "heldout_accuracy": 1.0
+    },
+    {
+      "name": "control_null",
+      "steps": 5000,
+      "seed": 13010,
+      "energy": 4.0,
+      "test_scored_types": 64,
+      "heldout_unique_correct": 64,
+      "heldout_accuracy": 1.0
+    },
+    {
+      "name": "control_polyphonic_DEFAULT",
+      "steps": 5000,
+      "seed": 13010,
+      "energy": 0.0,
+      "test_scored_types": 59,
+      "heldout_unique_correct": 59,
+      "heldout_accuracy": 1.0
+    },
+    {
+      "name": "control_polyphonic",
+      "steps": 5000,
+      "seed": 13010,
+      "energy": 28.0,
+      "test_scored_types": 59,
+      "heldout_unique_correct": 56,
+      "heldout_accuracy": 0.9491525423728814
+    }
+  ],
+  "benchmark": {
+    "benchmark_cognate_correct": 82,
+    "benchmark_cognate_total": 105,
+    "benchmark_accuracy": 0.780952380952381,
+    "steps": 5000
+  },
+  "default_cases": [
+    {
+      "case": "ZL_A_COMPOSED_italian_DEFAULT",
+      "test_types": 395,
+      "distance": 0.37434827437616713,
+      "null_distance": 0.4151650593618302,
+      "improvement": 0.040816784985663046,
+      "repeat_distance": 0.38719271877624106,
+      "mapping_signs_agree": 8,
+      "mapping_signs_total": 18,
+      "mapping_jaccard": 0.3333333333333333,
+      "exact_lexicon_matches": 4,
+      "ambiguous_signs": 2
+    },
+    {
+      "case": "ZL_A_COMPOSED_latin_DEFAULT",
+      "test_types": 395,
+      "distance": 0.40158271295353304,
+      "null_distance": 0.41996637938631426,
+      "improvement": 0.01838366643278122,
+      "repeat_distance": 0.40158271295353304,
+      "mapping_signs_agree": 18,
+      "mapping_signs_total": 18,
+      "mapping_jaccard": 1.0,
+      "exact_lexicon_matches": 1,
+      "ambiguous_signs": 2
+    },
+    {
+      "case": "ZL_A_EVA_italian_DEFAULT",
+      "test_types": 419,
+      "distance": 0.3972630678509337,
+      "null_distance": 0.437645659371737,
+      "improvement": 0.04038259152080331,
+      "repeat_distance": 0.3970490609380806,
+      "mapping_signs_agree": 2,
+      "mapping_signs_total": 16,
+      "mapping_jaccard": 0.05263157894736842,
+      "exact_lexicon_matches": 1,
+      "ambiguous_signs": 4
+    },
+    {
+      "case": "ZL_A_EVA_latin_DEFAULT",
+      "test_types": 419,
+      "distance": 0.3875389535251359,
+      "null_distance": 0.42518080491603916,
+      "improvement": 0.03764185139090326,
+      "repeat_distance": 0.39059729967616436,
+      "mapping_signs_agree": 0,
+      "mapping_signs_total": 16,
+      "mapping_jaccard": 0.1111111111111111,
+      "exact_lexicon_matches": 1,
+      "ambiguous_signs": 4
+    },
+    {
+      "case": "ZL_B_COMPOSED_italian_DEFAULT",
+      "test_types": 799,
+      "distance": 0.39953730433071366,
+      "null_distance": 0.4430104499866515,
+      "improvement": 0.04347314565593785,
+      "repeat_distance": 0.3919106781477651,
+      "mapping_signs_agree": 4,
+      "mapping_signs_total": 18,
+      "mapping_jaccard": 0.21212121212121213,
+      "exact_lexicon_matches": 1,
+      "ambiguous_signs": 2
+    },
+    {
+      "case": "ZL_B_COMPOSED_latin_DEFAULT",
+      "test_types": 799,
+      "distance": 0.39569528417232025,
+      "null_distance": 0.42325149950569463,
+      "improvement": 0.02755621533337438,
+      "repeat_distance": 0.3951065383439206,
+      "mapping_signs_agree": 8,
+      "mapping_signs_total": 18,
+      "mapping_jaccard": 0.3793103448275862,
+      "exact_lexicon_matches": 3,
+      "ambiguous_signs": 2
+    },
+    {
+      "case": "ZL_B_EVA_italian_DEFAULT",
+      "test_types": 834,
+      "distance": 0.39156087944155515,
+      "null_distance": 0.4624451359330566,
+      "improvement": 0.07088425649150143,
+      "repeat_distance": 0.3950994452099978,
+      "mapping_signs_agree": 11,
+      "mapping_signs_total": 17,
+      "mapping_jaccard": 0.6,
+      "exact_lexicon_matches": 5,
+      "ambiguous_signs": 3
+    },
+    {
+      "case": "ZL_B_EVA_latin_DEFAULT",
+      "test_types": 834,
+      "distance": 0.39187624096428886,
+      "null_distance": 0.4470135195965736,
+      "improvement": 0.055137278632284736,
+      "repeat_distance": 0.39734068306959786,
+      "mapping_signs_agree": 7,
+      "mapping_signs_total": 17,
+      "mapping_jaccard": 0.42857142857142855,
+      "exact_lexicon_matches": 1,
+      "ambiguous_signs": 3
+    }
+  ],
+  "no_validated_translation": true,
+  "not_run": [
+    "image clustering",
+    "joint phonetic segmentation"
+  ],
+  "conclusion": "Lexicon proximity can generalize versus within-word permutations; no semantic validation. Key stability and limited historical lexica preclude decipherment claims."
+}

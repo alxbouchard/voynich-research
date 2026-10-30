@@ -1,0 +1,168 @@
+[Page 1]
+VOYNICH / PHASE 9 / DÉPENDANCES ENTRE GROUPES
+28 OCT. 2026
+STRUCTURE GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+1
+La fin d’un groupe aide à prévoir le début
+du suivant
+Un effet de voisinage reste mesurable sur des cahiers exclus de l’apprentissage. Dans le
+sous-ensemble ZL / Currier B, tenir compte du dernier caractère du groupe précédent fait passer la
+réussite sur le premier caractère suivant de 24,1 % à 32,6 %. Le modèle de référence tient déjà
+compte de la section, de la main et de positions approximatives dans la ligne et le paragraphe.
+Cette dépendance est connue dans la littérature [1-3]. Notre apport dans ce dossier est son test hors cahier, avec des
+frontières conservatrices, des témoins et une vérification séparée des calculs. Ce n’est ni une clé ni une découverte de
+sens.
+Données
+Cibles
+Gain moyen
+(bits / cible)
+Intervalle descriptif
+ZL / A
+4683
+0,082
+0,072 à 0,091
+ZL / B
+11844
+0,186
+0,139 à 0,217
+IT / A
+5989
+0,090
+0,075 à 0,103
+IT / B
+14924
+0,202
+0,156 à 0,228
+Un gain positif signifie que le modèle attribue, en moyenne, une meilleure probabilité au caractère réellement observé.
+Il ne s’agit pas d’un pourcentage de texte traduit. Les intervalles rééchantillonnent les cahiers, sans réapprentissage ;
+les ensembles d’apprentissage se chevauchent.
+Un contrôle qui conserve la position
+Pour chaque corpus, 199 mélanges échangent les finales précédentes uniquement dans la même
+page et la même catégorie de position. Chaque mélange est réappris et testé. Les quatre gains
+Voynich observés dépassent leurs 199 témoins ; les moyennes témoins sont proches de -0,006 bit.
+Ce diagnostic est exploratoire et ne corrige pas tous les effets possibles de mise en page.
+Une modification de méthode à garder visible
+Ces résultats viennent du deuxième modèle. Le premier, fixé avant les calculs, séparait trop strictement les catégories
+d’écriture. Dans ZL / B, 79,9 % des cibles appartenaient à une catégorie absente de l’apprentissage de leur pli. Le
+second partage une correction de voisinage entre catégories. Il a été défini après ce diagnostic, avant ses propres
+calculs. Les deux versions sont conservées.
+Périmètre : paires de groupes intérieures aux lignes ; aucun groupe comportant une virgule incertaine ou un signe
+ambigu n’est forcé. ZL et IT sont deux transcriptions du même manuscrit, pas deux manuscrits indépendants.
+
+
+[Page 2]
+VOYNICH / PHASE 9 / DÉPENDANCES ENTRE GROUPES
+28 OCT. 2026
+STRUCTURE GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+2
+L’effet se concentre sur le voisin immédiat
+Le test ci-dessous utilise exactement les mêmes cibles pour les trois distances. Seule la finale
+donnée au modèle change : celle du groupe situé un, deux ou trois rangs avant la cible. Aucun
+intervalle illisible ou ambigu n’est franchi.
+Le gain disparaît aux distances 2 et 3 avec ce modèle. Cela ne démontre pas l’absence de relations plus longues dans le
+manuscrit. Effectifs communs : 1 996 cibles ZL/A, 6 820 ZL/B, 3 044 IT/A et 10 142 IT/B.
+Le signe q n’explique pas tout
+Partie du gain
+ZL / A
+ZL / B
+Prédire q contre tous les autres
+0,016
+0,078
+Distinguer les caractères autres que q
+0,066
+0,108
+Cette décomposition exacte du score laisse environ 81 % du gain ZL/A et 58 % du gain ZL/B dans la distinction entre
+caractères autres que q. Elle ne consiste pas à supprimer q puis à réapprendre.
+Exemple descriptif : dans nos paires intérieures ZL/B, q commence 36,3 % des groupes qui suivent une finale y, contre
+8,5 % après une finale n. Ces fréquences brutes ne sont pas corrigées des positions et ne constituent pas une règle de
+traduction. EVA nomme des formes graphiques, pas des sons établis.
+
+
+[Page 3]
+VOYNICH / PHASE 9 / DÉPENDANCES ENTRE GROUPES
+28 OCT. 2026
+STRUCTURE GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+3
+Ce que les témoins permettent de
+conclure
+Témoin
+Cibles
+Gain du voisin
+(bits / cible)
+Pline, latin
+5 240
+-0,013
+Dante, italien
+20 830
+0,125
+Chiffre Naibbe sur Pline
+20 830
+-0,002
+Échantillon du générateur Timm
+6 344
+-0,005
+Témoin synthétique : lien imposé
+4 480
+1,970
+Témoin synthétique : tirages indépendants
+4 480
+0,002
+Cette mesure ne détecte pas le sens. Pline contient un vrai texte et n’obtient pas de gain ici. À
+l’inverse, un texte synthétique sans message, construit pour relier les bords des groupes, donne un
+gain très fort. Dante montre qu’une langue connue peut aussi produire un effet de voisinage.
+Les échantillons Naibbe et Timm utilisés ici ne reproduisent pas le gain Voynich avec le réglage principal. Cela limite ces
+deux échantillons comme explications complètes ; cela n’exclut ni tous les chiffres ni toutes les méthodes de
+génération. Les tailles et genres diffèrent, et les quatre témoins héritent d’une disposition artificielle en lignes.
+Robustesse et exception
+Les quatre sous-ensembles Voynich conservent un gain positif avec les deux autres niveaux de lissage, les unités EVA
+composées, l’exclusion des répétitions identiques et la restriction aux lignes entièrement lisibles. Le gain est positif
+dans 39 des 40 plis corpus/cahier ; l’exception est le cahier D de IT/B. Ces plis ne sont pas indépendants.
+Conséquence pour les hypothèses de déchiffrement
+Une proposition doit pouvoir reproduire ce lien entre la fin d’un groupe et le début de son voisin
+immédiat, en plus de la forme des groupes isolés. Le lien pourrait venir de la langue, d’une
+convention d’écriture, d’un procédé de chiffrement ou d’une règle mécanique. Le présent test ne les
+départage pas à lui seul.
+La recherche d’une clé doit donc conserver le contexte des groupes voisins. Une table de correspondances fondée
+seulement sur des mots isolés laisserait de côté une information qui se retrouve dans d’autres cahiers. Aucune valeur
+phonétique ni aucun mot traduit n’est attribué ici.
+
+
+[Page 4]
+VOYNICH / PHASE 9 / DÉPENDANCES ENTRE GROUPES
+28 OCT. 2026
+STRUCTURE GRAPHIQUE · AUCUNE TRADUCTION VALIDÉE
+4
+Méthode reproductible et limites
+Données et validation
+Corpus figé de phase 6, paragraphes P0 pour Voynich. Les virgules incertaines, alternatives, illisibles et interruptions
+restent des barrières. La cible et son prédécesseur sont des positions intérieures, hors premier et dernier groupe de
+ligne. Les sous-ensembles A/B et ZL/IT sont séparés. Un cahier entier est exclu à chaque tour ; les témoins utilisent huit
+blocs de pages du gabarit, sans chevauchement de pages.
+La référence estime le premier caractère par une succession de distributions lissées : corpus, section/main, puis
+section/main × quartile horizontal × quartile vertical du paragraphe. Une ligne unique forme une cinquième classe
+verticale. Les positions sont calculées dans la transcription, sans coordonnées d’encre ni largeur de dessin.
+Le premier modèle ajoute une table locale incluant la finale précédente. Le second multiplie la référence par le rapport
+appris P(initiale | finale précédente) / P(initiale), puis renormalise. Tous ces calculs utilisent uniquement les plis
+d’apprentissage. Ce deuxième modèle suppose que la correction est partageable entre catégories. Le lissage principal
+vaut 32 ; 8 et 128 sont des sensibilités, sans choix du meilleur réglage.
+Le premier modèle donne des gains très faibles : ZL/A 0,007, ZL/B 0,003, IT/A 0,009 et IT/B 0,003 bit, avec des
+intervalles englobant zéro. Son défaut de couverture est reproduit par les deux témoins synthétiques à catégories
+exclusives. La correction de méthode est une analyse complémentaire après résultats, pas une confirmation
+préenregistrée.
+Contrôles réalisés
+3 582 mélanges conditionnels au total : 1 592 pour chaque version sur les huit corpus, plus 398 sur les deux témoins
+synthétiques du second modèle. Une seconde implémentation par comptages recalcule 190 328 évaluations
+position/modèle, toutes les probabilités principales et quatre premiers tirages de contrôle. L’écart numérique maximal
+est inférieur à 10⁻¹⁵. Les feuillets de test sont disjoints de ceux d’apprentissage.
+Références principales
+[1] Reddy et Knight (2011), What We Know About The Voynich Manuscript, §5.2.
+[2] Feaster (2022), Rightward and Downward Grapheme Distributions in the Voynich Manuscript.
+[3] Rozanova et Temerev (2026), arXiv:2608.17096v1, prépublication, §2.10 et limites.
+[4] Greshko (2025), The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich Manuscript-like
+ciphertext. DOI 10.1080/01611194.2025.2566408.
+[5] Timm et Schinner (2019/2020), A possible generating algorithm of the Voynich manuscript. DOI
+10.1080/01611194.2019.1596999.
+[6] Zandbergen, conventions IVTFF ; transcriptions ZL3b-n et IT2a-n.
+L’archive inclut le protocole initial, l’addendum daté, les sorties des deux modèles, les données figées, les témoins, les
+licences, les scripts et leurs empreintes. Elle reproduit la phase 9 à partir des entrées conservées ; elle ne réexécute pas
+toutes les phases antérieures.

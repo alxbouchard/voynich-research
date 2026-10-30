@@ -1,0 +1,65 @@
+{
+  "source": "Rozanova and Temerev arXiv:2608.17096v1, published direct_pixel/results_unblinded.csv, not new image measurements",
+  "source_rows": 300,
+  "accepted": 286,
+  "excluded": 14,
+  "certain_n": 265,
+  "uncertain_n": 21,
+  "mean_certain": 4.9849056603773585,
+  "mean_uncertain": 3.142857142857143,
+  "median_certain": 4.0,
+  "median_uncertain": 3.0,
+  "difference": 1.8420485175202157,
+  "ink_gap_auc": 0.6305480682839174,
+  "by_folio": [
+    {
+      "folio": "f14v",
+      "certain_n": 24,
+      "uncertain_n": 6,
+      "mean_certain": 3.6666666666666665,
+      "mean_uncertain": 2.1666666666666665,
+      "difference": 1.5
+    },
+    {
+      "folio": "f23r",
+      "certain_n": 56,
+      "uncertain_n": 4,
+      "mean_certain": 4.696428571428571,
+      "mean_uncertain": 3.0,
+      "difference": 1.6964285714285712
+    },
+    {
+      "folio": "f39v",
+      "certain_n": 73,
+      "uncertain_n": 3,
+      "mean_certain": 4.410958904109589,
+      "mean_uncertain": 3.0,
+      "difference": 1.410958904109589
+    },
+    {
+      "folio": "f42v",
+      "certain_n": 29,
+      "uncertain_n": 2,
+      "mean_certain": 5.241379310344827,
+      "mean_uncertain": 3.5,
+      "difference": 1.7413793103448274
+    },
+    {
+      "folio": "f56v",
+      "certain_n": 47,
+      "uncertain_n": 6,
+      "mean_certain": 6.382978723404255,
+      "mean_uncertain": 4.166666666666667,
+      "difference": 2.2163120567375882
+    },
+    {
+      "folio": "f7v",
+      "certain_n": 36,
+      "uncertain_n": 0,
+      "mean_certain": 5.444444444444445,
+      "mean_uncertain": null,
+      "difference": null
+    }
+  ],
+  "limits": "Only six folios, 21 accepted uncertain gaps. Existing author measurements and exclusions, not an independent blind audit. Pixels refer to 700-pixel image derivatives."
+}

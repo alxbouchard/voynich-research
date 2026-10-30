@@ -1,0 +1,17 @@
+{
+  "seed": 13011,
+  "steps": 5000,
+  "annealers": 8,
+  "cases": [
+    "ZL_A_EVA_latin_DEFAULT",
+    "ZL_A_EVA_italian_DEFAULT",
+    "ZL_A_COMPOSED_latin_DEFAULT",
+    "ZL_A_COMPOSED_italian_DEFAULT",
+    "ZL_B_EVA_latin_DEFAULT",
+    "ZL_B_EVA_italian_DEFAULT",
+    "ZL_B_COMPOSED_latin_DEFAULT",
+    "ZL_B_COMPOSED_italian_DEFAULT"
+  ],
+  "selection": "all eight default Voynich cases; not selected by score",
+  "evaluation": "key Jaccard and heldout distance stability"
+}

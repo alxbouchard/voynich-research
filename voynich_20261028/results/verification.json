@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    "ZL3b-n.txt: complete source hash, locus uniqueness and format passed",
+    "ZL3b-n.txt: qokeedy absent from genuine f1r",
+    "IT2a-n.txt: complete source hash, locus uniqueness and format passed",
+    "IT2a-n.txt: qokeedy absent from genuine f1r",
+    "ZL3b-n.txt: no group leakage; all groups evaluated once per model",
+    "IT2a-n.txt: no group leakage; all groups evaluated once per model",
+    "Known-key Naibbe: byte-identical normalized plaintext recovery",
+    "Fixed-key probe: all tokens accounted for, incomplete reading explicitly marked",
+    "PDF: 8 complete sections, readable extracted text; visual review also required"
+  ],
+  "visual_review": {
+    "passed": true,
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "updated_page_reinspected": 4,
+    "method": "PDF rendered to PNG; each page visually inspected"
+  }
+}

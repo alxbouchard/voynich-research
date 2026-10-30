@@ -1,0 +1,129 @@
+[Page 1]
+Voynich · Phase 13 · 28 octobre 2026, Montréal
+1
+VOYNICH / EXPÉRIENCE 13
+Tester l’appariement
+des lexiques
+Aucune traduction validée. Une adaptation de CSA_OptMatcher a été exécutée sur des témoins
+connus et sur le Voynich. Le moteur retrouve des correspondances contrôlées, mais les meilleures
+proximités lexicales du manuscrit ne constituent pas une lecture.
+1. Ce que les contrôles établissent
+Épreuve
+Mots correctement identifiés
+Portée
+Substitution simple
+64 / 64
+Mots réservés, hors apprentissage
+Substitution + signe muet
+64 / 64
+Suppression du signe supplémentaire
+Fusion de deux lettres
+59 / 59
+59 cas évaluables sur 64 ; e et i partagent un
+signe
+Substitution homophonique
+40 / 64
+Après 20 000 pas ; 7 formes seulement ont une
+distance nulle
+Phénicien / ougaritique
+82 / 105 (78,1 %)
+Appariement du jeu public ; mesure sur le
+corpus ajusté
+« Correctement identifié » signifie que le mot de référence est l’unique meilleur candidat. Cela ne signifie pas toujours que
+la clé restitue exactement ses lettres. Les trois premiers contrôles donnent aussi une distance nulle pour tous les cas
+évalués. Le benchmark phénicien/ougaritique ne constitue pas un test sur des pages inconnues.
+2. Une adaptation explicitement contrôlée
+Le calcul de distance d’origine renvoie 0 pour une chaîne vide comparée à une chaîne non vide. Ce cas
+est corrigé à 1. La version séquentielle du recuit modifie aussi les états avant l’acceptation : les
+propositions sont désormais copiées, et le meilleur état visité est conservé. Ce constat sur le mode
+séquentiel ne remet pas à lui seul en cause les expériences parallèles de l’article.
+Le noyau CPU a été vérifié sur 2 400 comparaisons par énumération exhaustive indépendante des
+variantes. L’appariement des groupes a été comparé à la fonction originale sur 50 matrices. Les 49
+résultats enregistrés ont été recalculés et leurs candidats réservés vérifiés.
+Périmètre : 40 ajustements Voynich/témoins, plus les contrôles et le benchmark. Le regroupement des glyphes depuis les
+images et la segmentation phonétique conjointe ne sont pas exécutés dans cette phase.
+
+
+[Page 2]
+Voynich · Phase 13 · 28 octobre 2026, Montréal
+2
+RÉSULTATS / LIMITES
+Une clé stable ne suffit pas
+Chaque cas apprend sur 96 formes et compare celles-ci à 256 mots latins ou italiens. La table est
+ensuite appliquée à des formes absentes de toutes ses pages d’apprentissage. Le tableau présente les
+paramètres de l’article : N = 2, M = 1 ; les essais plus flexibles N = 2, M = 2 restent dans l’archive.
+3. Résultats sur les formes réservées
+Groupe / signes
+Langue
+Formes
+Distance texte
+Distance témoin
+Signes identiques*
+A / groupés
+italien
+395
+0.374
+0.415
+8 / 18
+A / groupés
+latin
+395
+0.402
+0.420
+18 / 18
+A / EVA
+italien
+419
+0.397
+0.438
+2 / 16
+A / EVA
+latin
+419
+0.388
+0.425
+0 / 16
+B / groupés
+italien
+799
+0.400
+0.443
+4 / 18
+B / groupés
+latin
+799
+0.396
+0.423
+8 / 18
+B / EVA
+italien
+834
+0.392
+0.462
+11 / 17
+B / EVA
+latin
+834
+0.392
+0.447
+7 / 17
+Distance normalisée entre 0 et 1 ; plus petite = meilleure proximité, pas meilleur sens. Le témoin permute les signes dans
+chaque mot. * Nombre de signes recevant exactement le même ensemble de valeurs lors d’une seconde initialisation. Les
+groupes A/B sont les classes Currier. « Groupés » traite cth, ckh, cph, cfh, ch et sh comme des unités.
+Une seule configuration retrouve sa table entière : A / signes groupés / latin. Pourtant, une seule de ses
+395 formes réservées possède une variante identique à un mot du lexique. Un autre exemple illustre la
+limite : la forme daiin est appariée à gallia avec une distance de 0,429. Ce rapprochement autorise
+des modifications ; il ne traduit pas daiin.
+4. Ce que l’on peut conclure
+Les huit configurations sont plus proches des lexiques que leur témoin mélangé. Ce gain peut venir des
+régularités de formation des mots. Un seul témoin mélangé par cas ne permet pas de calculer une
+significativité. Sept tables sur huit changent entre les deux initialisations ; aucun passage cohérent
+n’est validé.
+Les petits lexiques latin/italien ne couvrent pas les langues historiques possibles. Les pages sont
+séparées par feuillet physique, mais avaient été étudiées lors de phases antérieures. Les résultats ne
+réfutent donc ni une langue ni un chiffrement. L’étape utile suivante est d’élargir les corpus historiques
+et de tester conjointement segmentation et correspondances.
+Source : Fabio Tamburini, Frontiers in Artificial Intelligence, 30 mai 2025, DOI 10.3389/frai.2025.1581129. Dépôts :
+github.com/ftamburin/CSA_OptMatcher et github.com/ftamburin/EditDistanceWild. Adaptation CPU avec valeurs à une
+lettre ; 8 recuits et 5 000 pas par essai principal, contre 16 et 100 000 dans l’article. Sources, corrections, graines et limites
+sont conservées dans l’archive.

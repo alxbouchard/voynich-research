@@ -1,0 +1,112 @@
+[Page 1]
+VOYNICH / PHASE 17 / EXPÉRIENCE EXPLORATOIRE
+Les images donnent des
+contraintes,
+pas encore une lecture
+Les 22 captures brutes de f116v ont été traitées. Le premier signe de la suite dite « oror /
+aror sheey » reste trop ambigu pour imposer une lecture sûre.
+Aucune traduction validée du texte principal
+1
+Comparaison du même fragment
+Même région, contrastes différents. Les deux vues du haut proviennent de captures individuelles après
+normalisation locale. Les vues du bas sont des composantes calculées. Une composante peut atténuer l’écriture
+et amplifier le fond : elle n’est pas une nouvelle couche de texte.
+Ce qui a réellement été exécuté
+Rotation sans rééchantillonnage, alignement, médiane 3 × 3 et contraste local. L’analyse en
+composantes principales (ACP) porte sur les 22 captures, puis sur les 12 captures de réflexion et
+les 10 de fluorescence séparément. Neuf composantes sont conservées.
+Les 22 recadrages sont identiques pixel par pixel à une extraction indépendante. Les translations
+atteignent 3 pixels et les résidus estimés 1 pixel : de très fins contours isolés restent sujets aux
+artefacts.
+Limites : aucun étalonnage chimique ; observation guidée par les lectures publiées ; aucune identité de main ni
+date établie. Les captures montrent la même inscription.
+Images : Beinecke Rare Book & Manuscript Library MS 408, f116v. The Lazarus Project and The Chester F. Carlson Center for
+Imaging Science at Rochester Institute of Technology. Nouveaux calculs documentés dans le dossier.
+
+
+[Page 2]
+VOYNICH / PHASE 17 / EXPÉRIENCE EXPLORATOIRE
+Une formule proposée à l’épreuve
+Hypothèse testée : un passage du manuscrit cacherait littéralement « six marix morix vix ».
+Cette lecture de la marge reste provisoire ; son équivalence avec le texte principal n’est pas
+démontrée.
+Aucune traduction validée du texte principal
+2
+Deux modèles fixes
+1. Substitution bijective : un signe par lettre, et une lettre par signe.
+2. Substitution homophonique : plusieurs signes peuvent représenter la même lettre, mais chaque
+signe garde une valeur unique. Aucun joker pour les caractères illisibles. Recherche dans les deux
+sens, sans franchir les barrières de paragraphe, de lacune ou de dessin.
+Résultat : aucune correspondance bijective ; aucune correspondance homophonique conservant
+les quatre mots. En supprimant les espaces, les candidats suivants apparaissent :
+Corpus et unités
+Candidats homophoniques
+Après extension « maria »
+ZL, caractères EVA
+37
+1
+ZL, signes composés
+9
+0
+IT, caractères EVA
+40
+3
+IT, signes composés
+12
+0
+Les deux traitements des espaces incertains donnent ici les mêmes nombres de candidats. ZL et IT sont deux
+transcriptions du même manuscrit, pas deux livres indépendants. « Signes composés » regroupe notamment ch, sh,
+cth et ckh. L’extension autorise un intervalle de 0 à 8 unités et conserve les valeurs déjà imposées.
+Les candidats ne deviennent pas une traduction
+f104r.22-23 : une correspondance mécanique apparaît uniquement en sens inverse et sans
+espaces, hors du paragraphe contenant aror,sheey. Elle échoue à l’extension « maria » avec la
+même clé pour tous les intervalles testés.
+f79r.9-10 : seul candidat prolongé commun à ZL et IT, en EVA caractère par caractère. Il
+commence au dernier caractère de qokal, traverse plusieurs mots et retrouve « maria » sans aucun
+intervalle après vix. Il ne restitue donc pas le groupe intermédiaire visible dans la marge. Deux
+autres cas prolongés existent seulement dans IT, sur f85r1 et f101r.
+Diagnostic supplémentaire : 32 brouillages internes aux paragraphes ZL donnent 2 à 10
+correspondances, contre 37 dans l’ordre original. Le motif est plus fréquent dans le texte réel que
+dans ces contrôles ; cela peut refléter sa structure répétitive. Ce calcul exploratoire ne démontre ni
+le sens de la formule ni une clé.
+L’extension et les brouillages ont été ajoutés après le premier balayage. Ils ne constituent pas une validation
+indépendante sur des pages réservées. Ces essais ne couvrent ni les syllabaires, ni les abréviations, ni les
+valeurs variables selon le contexte, ni toutes les lectures de la marge.
+
+
+[Page 3]
+VOYNICH / PHASE 17 / EXPÉRIENCE EXPLORATOIRE
+Le parallèle historique reste limité
+Un rapprochement avec une formule ancienne peut éclairer le genre d’une annotation. Pour
+décoder le livre, il faudrait encore établir une équivalence textuelle et une règle qui prédit
+d’autres passages.
+Aucune traduction validée du texte principal
+3
+Une attestation vérifiée
+Peter Murray Jones et Lea T. Olsan publient une photographie d’un charme inscrit au bas du folio
+129v du manuscrit British Library Sloane 3160, daté du XVe siècle. Leur transcription contient erex
++ arex + rymex. La formule concerne l’accouchement. La photographie et le passage ont été
+vérifiés dans l’article : pages imprimées 412 et 414, figure 1.
+Le rapprochement avec les groupes terminés en -ix et les croix de f116v est une hypothèse de
+genre. Les mots diffèrent. Il ne démontre pas une copie de cette source, une parenté entre les
+deux textes, le sujet du Voynich ni la langue du texte principal. Aucun parallèle exact de plusieurs
+mots n’a été établi dans cette phase.
+Ce que le dossier permet de reproduire
+Le dossier conserve les 22 recadrages en 16 bits, leurs empreintes et coordonnées, les 22
+contrastes individuels, neuf composantes ACP, les corpus ZL et IT, tous les candidats et clés
+partielles, les contrôles et les scripts. L’extension « maria » n’ajuste jamais une valeur déjà
+imposée par la première formule.
+Contrôles logiciels : témoins positifs de substitution et d’homophonie, contradictions de signes
+répétés, 6 817 petites comparaisons exhaustives, contrôle des barrières, vérification de chaque
+candidat accepté. Un second calcul vectorisé reproduit les 37 correspondances ZL avant les
+brouillages. Les résultats numériques et textuels sont recalculés avant livraison.
+Constat scientifique
+Aucun passage du texte principal n’a reçu une traduction validée. Les données brutes
+n’ont pas résolu l’ambiguïté ciblée. La formule proposée ne fournit pas de clé vérifiée. Une
+prochaine percée devra produire une correspondance justifiée et des prédictions correctes sans
+réajuster la clé à chaque mot ; accumuler des rapprochements visuels ne suffira pas.
+Sources
+Lisa Fagin Davis, imagerie multispectrale, 8 septembre 2024
+Koen Gheuens, étude des graphies de f116v, 28 août 2023
+Jones et Olsan, Bulletin of the History of Medicine 89/3 (2015), 406-433 ; DOI 10.1353/bhm.2015.0076
+René Zandbergen, translittérations et conventions EVA / IVTFF

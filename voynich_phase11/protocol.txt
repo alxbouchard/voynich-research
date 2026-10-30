@@ -1,0 +1,45 @@
+Phase 11. Audit de deux propositions publiques de déchiffrement.
+Protocole fixé avant les exécutions analytiques. 29 octobre 2026 UTC.
+
+Objectif : essayer les lecteurs disponibles, puis vérifier si leurs métriques
+permettent d'identifier les sens attribués aux mots. Aucun score de couverture
+ne sera appelé taux de traduction correcte. Les deux propositions ne sont
+pas les seules hypothèses possibles.
+
+Sources : commits et empreintes exactes dans data/source_manifest.json.
+Scott : exécuter decode.js sans modification sur son corpus complet ; exposer
+ensuite ses fonctions en supprimant seulement l'appel final main() d'une copie.
+100 permutations bijectives sans point fixe des valeurs distinctes du glossaire,
+graines 110000 à 110099. Clés EVA, corpus, homophonies et vocabulaire de sortie
+conservés. Mesurer couverture et nombre de sorties modifiées. Vérifier aussi
+si le vocabulaire unique testé dans publication/29-negative-domain-tests.md
+et le profil de fréquences triées restent invariants. Ces propriétés ne
+couvrent pas toutes les validations revendiquées dans ce dépôt.
+
+ZFD validation v3 : appeler les fonctions originales run_config, 30 répétitions
+par témoin, deux configurations épinglées par l'auteur, cinq folios publiés.
+Comparer les valeurs numériques aux résultats v3 présents au commit. Ne pas
+écraser ces résultats. Distinguer les témoins de caractères aléatoires des
+tests portant sur l'attribution des sens.
+
+ZFD canonique : exécuter 06_Pipelines/zfd_decoder_v2.py avec lexique v3 sur
+f10r, f23v, f47r, f89r, f101v et trois folios supplémentaires f1r, f75r, f103r.
+20 permutations des paquets sémantiques dans chaque section du lexique
+(opérateurs, états, racines, suffixes, latin), graines 210000 à 210019.
+Les formes reconnues, catégories et paramètres de reconnaissance sont fixes.
+Mesurer statistiques, confiance par mot et nombre de gloses anglaises changées.
+Ce test vise l'identifiabilité par la métrique, pas la grammaticalité des sorties.
+
+ZFD validation v3, complément sémantique : dans chaque configuration, 20
+permutations des champs sémantiques de la table de racines et des gloses de
+la décomposition en composés, graines 310000 à 310019. Conserver les clés,
+statuts, types et paramètres de reconnaissance. Mesurer couverture, confiance,
+cohérence et gloses changées, sans forcer les catégories à rester identiques.
+Rapporter toute variation, sans sélectionner seulement les cas invariants.
+
+Limites : folios supplémentaires ne sont pas inconnus des auteurs ; ce n'est
+pas une validation indépendante sur texte clair connu. Sens permutés = contrôles
+incompatibles avec la lecture proposée, pas traductions alternatives prouvées.
+Pas de nouvelle identification botanique, linguistique ou paléographique.
+Les traductions complètes des auteurs et leur code non redistribuable restent
+hors de l'archive livrée. Livrer nos scripts, métriques, protocole et empreintes.

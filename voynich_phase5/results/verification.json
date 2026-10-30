@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked": [
+    "72 C++ objectives independently recomputed in Python",
+    "8 control unit accuracies and exact plaintext flags",
+    "4 dictionaries; complete source tokenization roundtrips; source hashes",
+    "32 null histograms paired with identical segment lengths",
+    "32 keys fit on disjoint physical leaf pools",
+    "2 independent canonical segmentation checks agree on all 72 tests",
+    "ambiguous readings and rare signs cause stream breaks"
+  ],
+  "not_verified": [
+    "meaning of any Voynich candidate",
+    "general completeness of a syllabic cipher search",
+    "new image-based transcription"
+  ]
+}

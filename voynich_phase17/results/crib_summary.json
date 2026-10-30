@@ -1,0 +1,135 @@
+{
+  "crib_words": [
+    "six",
+    "marix",
+    "morix",
+    "vix"
+  ],
+  "controls": "passed: synthetic bijection, homophony, contradiction, 6,817 exhaustive pairs, and barriers",
+  "source_hashes": {
+    "ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+  },
+  "runs": [
+    {
+      "corpus": "ZL",
+      "spacing": "split",
+      "tokenization": "EVA",
+      "blocks": 2891,
+      "counts": {
+        "four_words_forward_windows": 20,
+        "unspaced_forward_windows": 157099,
+        "unspaced_forward_homophonic": 15,
+        "four_words_reverse_windows": 20,
+        "unspaced_reverse_windows": 157099,
+        "unspaced_reverse_homophonic": 22
+      },
+      "matches_f104r": 1
+    },
+    {
+      "corpus": "ZL",
+      "spacing": "split",
+      "tokenization": "composed",
+      "blocks": 2891,
+      "counts": {
+        "unspaced_forward_windows": 138147,
+        "four_words_forward_windows": 54,
+        "unspaced_forward_homophonic": 6,
+        "unspaced_reverse_windows": 138147,
+        "four_words_reverse_windows": 54,
+        "unspaced_reverse_homophonic": 3
+      },
+      "matches_f104r": 0
+    },
+    {
+      "corpus": "ZL",
+      "spacing": "join",
+      "tokenization": "EVA",
+      "blocks": 2887,
+      "counts": {
+        "unspaced_forward_windows": 156987,
+        "four_words_forward_windows": 13,
+        "unspaced_forward_homophonic": 15,
+        "unspaced_reverse_windows": 156987,
+        "four_words_reverse_windows": 13,
+        "unspaced_reverse_homophonic": 22
+      },
+      "matches_f104r": 1
+    },
+    {
+      "corpus": "ZL",
+      "spacing": "join",
+      "tokenization": "composed",
+      "blocks": 2887,
+      "counts": {
+        "unspaced_forward_windows": 138047,
+        "four_words_forward_windows": 48,
+        "unspaced_forward_homophonic": 6,
+        "unspaced_reverse_windows": 138047,
+        "four_words_reverse_windows": 48,
+        "unspaced_reverse_homophonic": 3
+      },
+      "matches_f104r": 0
+    },
+    {
+      "corpus": "IT",
+      "spacing": "split",
+      "tokenization": "EVA",
+      "blocks": 2828,
+      "counts": {
+        "four_words_forward_windows": 22,
+        "unspaced_forward_windows": 159615,
+        "unspaced_forward_homophonic": 16,
+        "four_words_reverse_windows": 22,
+        "unspaced_reverse_windows": 159615,
+        "unspaced_reverse_homophonic": 24
+      },
+      "matches_f104r": 1
+    },
+    {
+      "corpus": "IT",
+      "spacing": "split",
+      "tokenization": "composed",
+      "blocks": 2828,
+      "counts": {
+        "unspaced_forward_windows": 140456,
+        "four_words_forward_windows": 58,
+        "unspaced_forward_homophonic": 8,
+        "unspaced_reverse_windows": 140456,
+        "four_words_reverse_windows": 58,
+        "unspaced_reverse_homophonic": 4
+      },
+      "matches_f104r": 0
+    },
+    {
+      "corpus": "IT",
+      "spacing": "join",
+      "tokenization": "EVA",
+      "blocks": 2828,
+      "counts": {
+        "four_words_forward_windows": 22,
+        "unspaced_forward_windows": 159615,
+        "unspaced_forward_homophonic": 16,
+        "four_words_reverse_windows": 22,
+        "unspaced_reverse_windows": 159615,
+        "unspaced_reverse_homophonic": 24
+      },
+      "matches_f104r": 1
+    },
+    {
+      "corpus": "IT",
+      "spacing": "join",
+      "tokenization": "composed",
+      "blocks": 2828,
+      "counts": {
+        "unspaced_forward_windows": 140456,
+        "four_words_forward_windows": 58,
+        "unspaced_forward_homophonic": 8,
+        "unspaced_reverse_windows": 140456,
+        "four_words_reverse_windows": 58,
+        "unspaced_reverse_homophonic": 4
+      },
+      "matches_f104r": 0
+    }
+  ]
+}

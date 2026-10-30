@@ -1,0 +1,91 @@
+{
+  "case": "Italian_Paradiso",
+  "layout": "artificial ZL line/page template; different lengths; descriptive control, not a corpus-matched classifier",
+  "words": 32824,
+  "uncertain_slots": 0,
+  "types": 6062,
+  "pages": 197,
+  "adjacent_pairs": 28789,
+  "observed": {
+    "identical_adjacent": 0.0005557678279898572,
+    "distinct_edit1_EVA": 0.018965577130153878,
+    "distinct_edit1_composed": 0.025287436173538503,
+    "last_first_mutual_information_bits": 0.14367611359352328
+  },
+  "nulls": {
+    "all_page_slots": {
+      "identical_adjacent": {
+        "mean": 0.00898468164924103,
+        "p025": 0.008141130292820174,
+        "p975": 0.009970822189030533,
+        "observed_minus_mean": -0.008428913821251173,
+        "exploratory_upper_tail_p": 1.0
+      },
+      "distinct_edit1_EVA": {
+        "mean": 0.032164715690020496,
+        "p025": 0.030198165966167635,
+        "p975": 0.034009517524054324,
+        "observed_minus_mean": -0.013199138559866617,
+        "exploratory_upper_tail_p": 1.0
+      },
+      "distinct_edit1_composed": {
+        "mean": 0.043528430997950604,
+        "p025": 0.04134999478967661,
+        "p975": 0.045472228976345126,
+        "observed_minus_mean": -0.0182409948244121,
+        "exploratory_upper_tail_p": 1.0
+      },
+      "last_first_mutual_information_bits": {
+        "mean": 0.007822623482128378,
+        "p025": 0.006533614101872943,
+        "p975": 0.00882419247416274,
+        "observed_minus_mean": 0.13585349011139491,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      }
+    },
+    "line_ends_fixed": {
+      "identical_adjacent": {
+        "mean": 0.009002744103650701,
+        "p025": 0.008126367709889193,
+        "p975": 0.009919587342387718,
+        "observed_minus_mean": -0.008446976275660843,
+        "exploratory_upper_tail_p": 1.0
+      },
+      "distinct_edit1_EVA": {
+        "mean": 0.03189377887387544,
+        "p025": 0.029605925874465942,
+        "p975": 0.033923547188162144,
+        "observed_minus_mean": -0.012928201743721564,
+        "exploratory_upper_tail_p": 1.0
+      },
+      "distinct_edit1_composed": {
+        "mean": 0.043316197158636986,
+        "p025": 0.04093316891868422,
+        "p975": 0.045470492201882665,
+        "observed_minus_mean": -0.018028760985098483,
+        "exploratory_upper_tail_p": 1.0
+      },
+      "last_first_mutual_information_bits": {
+        "mean": 0.007917287164894251,
+        "p025": 0.006997563388491441,
+        "p975": 0.009259563003032772,
+        "observed_minus_mean": 0.13575882642862902,
+        "exploratory_upper_tail_p": 0.009900990099009901
+      }
+    }
+  },
+  "strata_section_hand_min500pairs": {
+    "control|control": {
+      "pairs": 28789,
+      "observed": {
+        "identical_adjacent": 0.0005557678279898572,
+        "distinct_edit1_EVA": 0.018965577130153878,
+        "distinct_edit1_composed": 0.025287436173538503,
+        "last_first_mutual_information_bits": 0.14367611359352328
+      }
+    }
+  },
+  "permutations_each": 100,
+  "seed": 20261031,
+  "warning": "Exploratory, no multiple-testing correction. Raw/composed measures on natural-language controls are orthographic comparisons, not linguistic syllabification. Different lengths and artificial control layout preclude a universal language classifier."
+}

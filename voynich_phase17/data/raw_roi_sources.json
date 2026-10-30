@@ -1,0 +1,319 @@
+{
+  "orientation": "np.rot90(array,1)",
+  "box_xyxy": [
+    2400,
+    550,
+    6050,
+    1570
+  ],
+  "bands": [
+    {
+      "band": 1,
+      "filename": "Voynich_116v+MB450RB_001_F.tif",
+      "source_sha256": "daec93ee2014cc61eb10a2baa7c333747da116f4757c7555c854fef0d608a38a",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (0.9640 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 44,
+      "max": 4880,
+      "clip65535_pixels": 0,
+      "crop_sha256": "0fce987b8a8d3198760163ceae65ba78c8714041a4757666b11d141837b5f8f0"
+    },
+    {
+      "band": 2,
+      "filename": "Voynich_116v+MB470LB_002_F.tif",
+      "source_sha256": "df91d4765d9ee1a8cba2da840801b59ac07408dae95257bf5d0c8e3d8f93f863",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (0.8680 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 45,
+      "max": 4672,
+      "clip65535_pixels": 0,
+      "crop_sha256": "c2f86bf5a2ac58082ba948e218494940e01d83b655ae19314861c00796a660a4"
+    },
+    {
+      "band": 3,
+      "filename": "Voynich_116v+MB505CN_003_F.tif",
+      "source_sha256": "0e820ae15a05131225204de146587f01346c1fb288d8e98967828946472e4ab2",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (1.0790 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 56,
+      "max": 4925,
+      "clip65535_pixels": 0,
+      "crop_sha256": "643580a9e1494109e3098639bc218ab3993afaed7dde819650cd06fa54efd4a1"
+    },
+    {
+      "band": 4,
+      "filename": "Voynich_116v+MB535GN_004_F.tif",
+      "source_sha256": "0dbcf626094442c1b9f2bf1d20cdf624ed8840fb2246a63b9127537e68fce6f4",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (1.3370 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 67,
+      "max": 4784,
+      "clip65535_pixels": 0,
+      "crop_sha256": "a17fa938675895fe7d4be24e7e772b2cdbf1dbf3cd9551e38b696257e6eef4ee"
+    },
+    {
+      "band": 5,
+      "filename": "Voynich_116v+MB570AM_005_F.tif",
+      "source_sha256": "a070e29ec6db3cbbb04c64be9cf72196bc6183ee8e24529d9e6e674878ea2ee2",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (1.3690 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 88,
+      "max": 4600,
+      "clip65535_pixels": 0,
+      "crop_sha256": "a3d662b9445a1b9643a92a0ff1e0b860cc1e7480320757edd86c39d05c490542"
+    },
+    {
+      "band": 6,
+      "filename": "Voynich_116v+MB625RD_006_F.tif",
+      "source_sha256": "3d71ae839c664984ff284567741c164a26d19a9c25b130ddcd98bfb87972e68d",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (0.5980 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 128,
+      "max": 4941,
+      "clip65535_pixels": 0,
+      "crop_sha256": "ad5d84fa4dd402bf9d1cd5389b259370ad41d1869c3c9998d67c6623b7f62bef"
+    },
+    {
+      "band": 7,
+      "filename": "Voynich_116v+MB365UV_007_F.tif",
+      "source_sha256": "c08a1b4d9b5b069c93ae3cec40c3a4cfce04aa18872b3a9b27c0dea80f253ecd",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (7.5590 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 4257,
+      "clip65535_pixels": 0,
+      "crop_sha256": "e9b8d59638dbac92ece9c45a2f74c1a2efbb9ed0b98ad1141d6e674f04f5c35f"
+    },
+    {
+      "band": 8,
+      "filename": "Voynich_116v+MB700IR_008_F.tif",
+      "source_sha256": "7dff15b6dc850d9b25f05a6ef2caa3f98f2474c0a2c15fa77a43d1d2ad50b944",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (11.7630 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 205,
+      "max": 4137,
+      "clip65535_pixels": 0,
+      "crop_sha256": "161789d0e1635f0ded5ea8faa3a2f397312de23508f34ff8c5cae93cbc0659f2"
+    },
+    {
+      "band": 9,
+      "filename": "Voynich_116v+MB735IR_009_F.tif",
+      "source_sha256": "67b33cb8fbfd6e8bfc6f2495ec64e51789a776e94e3cc78cd4449f5b974b8cb4",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (5.2060 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 282,
+      "max": 4167,
+      "clip65535_pixels": 0,
+      "crop_sha256": "64feb81896e6b75137528d4c05ea8c9db063015f55c2d64840e0272e8f2a492f"
+    },
+    {
+      "band": 10,
+      "filename": "Voynich_116v+MB780IR_010_F.tif",
+      "source_sha256": "1749f207bd7d73c6d31c7c5b9e8aeadf89b9dc4539d14d2e88636833bf5c9898",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (3.9120 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 323,
+      "max": 4116,
+      "clip65535_pixels": 0,
+      "crop_sha256": "eb583ed40873f558b82cd3b4d89556099462c3ce729195011fa1dbf54092dbd2"
+    },
+    {
+      "band": 11,
+      "filename": "Voynich_116v+MB870IR_011_F.tif",
+      "source_sha256": "92189f2074d5c4bea4f26f01e26c4c1071c297ba98c27c817277fee0c31337cb",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (3.5520 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 360,
+      "max": 4185,
+      "clip65535_pixels": 0,
+      "crop_sha256": "b43c4a93b96616940096b38fa84d9dda98a0ba4ae47d471ce36b285cb3a9b271"
+    },
+    {
+      "band": 12,
+      "filename": "Voynich_116v+MB940IR_012_F.tif",
+      "source_sha256": "22ef22fe80a50c00d6710ddace340fb63c0e32781dae8776ae879672b18b33db",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (11.8970 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 377,
+      "max": 4186,
+      "clip65535_pixels": 0,
+      "crop_sha256": "ab235591876f927ebb089f3ac71d3ea2e01c0b00a60055afce9bfc35f8243315"
+    },
+    {
+      "band": 13,
+      "filename": "Voynich_116v+WBUVR25_013_F.tif",
+      "source_sha256": "a3d28f16d46ab7328db127af6a6fad84b8c9f637a71c5789689fccf40db7053c",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (20.0330 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 1895,
+      "clip65535_pixels": 0,
+      "crop_sha256": "33d6d0502d216262b3f82c6cc9283bc23e5bcc63aedb637a2fd104b7c3783759"
+    },
+    {
+      "band": 14,
+      "filename": "Voynich_116v+WBRBR25_014_F.tif",
+      "source_sha256": "408e0468c607d6f7c535cf6fa1720d2af71d45ee54bec7de30e1f184b3ea2247",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (10.0120 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 2323,
+      "clip65535_pixels": 0,
+      "crop_sha256": "90f407381610d0a082b3c7665fbd14d69335c1382e088e1128525a91a0ad05ab"
+    },
+    {
+      "band": 15,
+      "filename": "Voynich_116v+WBUVG58_015_F.tif",
+      "source_sha256": "0d7c795feb8c48fe1174e7fdcff50dcaf39658e1ce4f30070fce5adeb0030896",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (20.0280 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 2564,
+      "clip65535_pixels": 0,
+      "crop_sha256": "9249b45dac200b44fc1104ebe9385de5a6f923b16919a86dda1ba35dae8168d4"
+    },
+    {
+      "band": 16,
+      "filename": "Voynich_116v+WBRBG58_016_F.tif",
+      "source_sha256": "560b29552eb0fccd834017abd87a124c0a0b522bce67b5620abaebc99b0cfc6d",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (5.0060 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 1833,
+      "clip65535_pixels": 0,
+      "crop_sha256": "cd16f1c04be0adece8db9a1c02156bbf0f4603020111efe9734ab243f8bd2a82"
+    },
+    {
+      "band": 17,
+      "filename": "Voynich_116v+WBUVB47_017_F.tif",
+      "source_sha256": "9782454296e5a3d4803096486ed455f035609b059bf086ceb57a0110a207f062",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (20.0210 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 2511,
+      "clip65535_pixels": 0,
+      "crop_sha256": "1b111c2f33de97432473a451d952cc6b950dafeba91b31c868306a9e45f67071"
+    },
+    {
+      "band": 18,
+      "filename": "Voynich_116v+WBRBB47_018_F.tif",
+      "source_sha256": "87165ca01effb321126db6b62b4d31d602e2cc52ab6bd3f39c07e233faeec19e",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (0.9990 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 138,
+      "max": 4974,
+      "clip65535_pixels": 0,
+      "crop_sha256": "9ccde58aa8ba8aa29a77702bcbf5298354760310e990796f0cc1d69b80bb6abb"
+    },
+    {
+      "band": 19,
+      "filename": "Voynich_116v+WBUVUVP_019_F.tif",
+      "source_sha256": "461745139e8894a2ef91ad685324bca045f8333faa5a02900159e42623ff221e",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (10.0130 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 396,
+      "max": 4575,
+      "clip65535_pixels": 0,
+      "crop_sha256": "9fbd0da7091bc55096bbe2c354f42142968ce3e558722b50fe793456f614424a"
+    },
+    {
+      "band": 20,
+      "filename": "Voynich_116v+WBUVO22_020_F.tif",
+      "source_sha256": "f07de6b5d888a21525059a21cb8e25f8b3f0b6137d318b5dc94a8a5725ee5c39",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (20.0340 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 1999,
+      "clip65535_pixels": 0,
+      "crop_sha256": "efe80ea5a97ae61e55b800972338f500f84b9cf5e0f99c34d496b09afc50be1d"
+    },
+    {
+      "band": 21,
+      "filename": "Voynich_116v+WBRBO22_021_F.tif",
+      "source_sha256": "ee8533e1ec056aee4bf2fc3f519d00be68107e46c6e09c314817eabf7c7c63c5",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (5.0050 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 1381,
+      "clip65535_pixels": 0,
+      "crop_sha256": "4f9b68d5f1a1edac477a4bfe5fdcac3025844f49d48bd2cb3fde93e07ff199ee"
+    },
+    {
+      "band": 22,
+      "filename": "Voynich_116v+WBUVUVB_022_F.tif",
+      "source_sha256": "01fea17b6c9d327facf8045696fb2452e7250955ffe6cf54bd52b8d865930fe8",
+      "camera": "E7 SN:26R01339/Lens: APO-DIGITAR 5,6/120 M-26  (5.0050 secs)\u0000",
+      "shape": [
+        1020,
+        3650
+      ],
+      "min": 0,
+      "max": 1004,
+      "clip65535_pixels": 0,
+      "crop_sha256": "ede53b12658cd57f5d706f3ea194e14328b91331bef1e543c0221037374fd743"
+    }
+  ]
+}

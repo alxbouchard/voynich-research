@@ -1,0 +1,27 @@
+# Index des phases
+
+Les rapports sont conservés intégralement. Les extractions texte facilitent la recherche, mais ne remplacent pas les images et tableaux du PDF.
+
+| Phase | Rapport | Texte intégral | Notice et fichiers |
+|---|---|---|---|
+| 1 | [PDF](../voynich_20261028/output/pdf/Etude_Voynich_2026-10-28.pdf) | [Lire](phases/01_rapport_integral.txt) | [Notice](../voynich_20261028/README.txt) · [Dossier](../voynich_20261028/) · [Protocole](../voynich_20261028/PROTOCOL.json) · [Résultats](../voynich_20261028/results) |
+| 2 | [PDF](../voynich_phase2/output/Voynich_phase2_2026-10-28.pdf) | [Lire](phases/02_rapport_integral.txt) | [Notice](../voynich_phase2/README.txt) · [Dossier](../voynich_phase2/) · [Protocole](../voynich_phase2/PROTOCOL.json) · [Résultats](../voynich_phase2/results) |
+| 3 | [PDF](../voynich_phase3/output/pdf/Voynich_pilote_12_pages_2026-10-28.pdf) | [Lire](phases/03_rapport_integral.txt) | [Notice](../voynich_phase3/README.txt) · [Dossier](../voynich_phase3/) · [Protocole](../voynich_phase3/PROTOCOL.json) · [Résultats](../voynich_phase3/results) |
+| 4 | [PDF](../voynich_phase4/output/pdf/Voynich_phase4_homophonie_2026-10-28.pdf) | [Lire](phases/04_rapport_integral.txt) | [Notice](../voynich_phase4/README.txt) · [Dossier](../voynich_phase4/) · [Protocole](../voynich_phase4/PROTOCOL.json) · [Résultats](../voynich_phase4/results) |
+| 5 | [PDF](../voynich_phase5/output/pdf/Voynich_phase5_syllabes_2026-10-28.pdf) | [Lire](phases/05_rapport_integral.txt) | [Notice](../voynich_phase5/README.txt) · [Dossier](../voynich_phase5/) · [Protocole](../voynich_phase5/PROTOCOL.json) · [Résultats](../voynich_phase5/results) |
+| 6 | [PDF](../voynich_phase6/output/pdf/Voynich_phase6_etude_approfondie_2026-10-28.pdf) | [Lire](phases/06_rapport_integral.txt) | [Notice](../voynich_phase6/README.txt) · [Dossier](../voynich_phase6/) · [Protocole](../voynich_phase6/PROTOCOL.json) · [Résultats](../voynich_phase6/results) |
+| 7 | [PDF](../voynich_phase7/output/pdf/Voynich_phase7_espaces_2026-10-28.pdf) | [Lire](phases/07_rapport_integral.txt) | [Notice](../voynich_phase7/README.txt) · [Dossier](../voynich_phase7/) · [Protocole](../voynich_phase7/PROTOCOL.json) · [Résultats](../voynich_phase7/results) |
+| 8 | [PDF](../voynich_phase8/output/pdf/Voynich_phase8_audit_images_2026-10-28.pdf) | [Lire](phases/08_rapport_integral.txt) | [Notice](../voynich_phase8/README.txt) · [Dossier](../voynich_phase8/) · [Protocole](../voynich_phase8/PROTOCOL.json) · [Résultats](../voynich_phase8/results) |
+| 9 | [PDF](../voynich_phase9/output/pdf/Voynich_phase9_dependances_2026-10-28.pdf) | [Lire](phases/09_rapport_integral.txt) | [Notice](../voynich_phase9/README.txt) · [Dossier](../voynich_phase9/) · [Protocole](../voynich_phase9/PROTOCOL.json) · [Résultats](../voynich_phase9/results) |
+| 10 | [PDF](../voynich_phase10/output/pdf/Voynich_phase10_chiffrement_contextuel_2026-10-28.pdf) | [Lire](phases/10_rapport_integral.txt) | [Notice](../voynich_phase10/README.txt) · [Dossier](../voynich_phase10/) · [Protocole](../voynich_phase10/PROTOCOL.json) · [Résultats](../voynich_phase10/results) |
+| 11 | [PDF](../voynich_phase11/output/pdf/Voynich_phase11_audit_des_decodeurs.pdf) | [Lire](phases/11_rapport_integral.txt) | [Notice](../voynich_phase11/LISEZ_MOI.txt) · [Dossier](../voynich_phase11/) · [Résultats](../voynich_phase11/results) |
+| 12 | [PDF](../voynich_phase12/output/pdf/Voynich_phase12_regles_et_langue.pdf) | [Lire](phases/12_rapport_integral.txt) | [Notice](../voynich_phase12/LISEZ_MOI.txt) · [Dossier](../voynich_phase12/) · [Résultats](../voynich_phase12/results) |
+| 13 | [PDF](../voynich_phase13/output/Voynich_phase13_lexiques.pdf) | [Lire](phases/13_rapport_integral.txt) | [Notice](../voynich_phase13/LISEZ_MOI.txt) · [Dossier](../voynich_phase13/) · [Protocole](../voynich_phase13/PROTOCOL.json) · [Résultats](../voynich_phase13/results) |
+| 14 | [PDF](../voynich_phase14/output/Voynich_phase14_images_et_etiquettes.pdf) | [Lire](phases/14_rapport_integral.txt) | [Notice](../voynich_phase14/README.txt) · [Dossier](../voynich_phase14/) · [Protocole](../voynich_phase14/PROTOCOL.json) · [Résultats](../voynich_phase14/results) |
+| 15 | [PDF](../voynich_phase15/output/Voynich_phase15_variantes_et_prediction.pdf) | [Lire](phases/15_rapport_integral.txt) | [Notice](../voynich_phase15/README.txt) · [Dossier](../voynich_phase15/) · [Protocole](../voynich_phase15/PROTOCOL.json) · [Résultats](../voynich_phase15/results) |
+| 16 | [PDF](../voynich_phase16/output/Voynich_phase16_points_appui_historiques.pdf) | [Lire](phases/16_rapport_integral.txt) | [Notice](../voynich_phase16/README.txt) · [Dossier](../voynich_phase16/) · [Protocole](../voynich_phase16/PROTOCOL.json) · [Résultats](../voynich_phase16/results) |
+| 17 | [PDF](../voynich_phase17/output/Voynich_phase17_spectral_et_cryptanalyse.pdf) | [Lire](phases/17_rapport_integral.txt) | [Notice](../voynich_phase17/README.txt) · [Dossier](../voynich_phase17/) · [Protocole](../voynich_phase17/PROTOCOL.json) · [Résultats](../voynich_phase17/results) |
+
+Phase 18 : [projet de protocole non exécuté](../voynich_phase18/PROTOCOL_DRAFT.md).
+
+Les fichiers `source_archive_phase` de l’inventaire indiquent la provenance exacte de chaque pièce. Les fichiers gzip sont restaurés avec `python3 tools/hydrate.py`.

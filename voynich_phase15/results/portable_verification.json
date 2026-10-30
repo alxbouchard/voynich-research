@@ -1,0 +1,19 @@
+{
+  "fresh_extraction": true,
+  "full_experiment_reproduced": true,
+  "files_compared": [
+    "ZL_strict.json",
+    "ZL_lattice.json",
+    "IT_strict.json",
+    "IT_lattice.json",
+    "summary.json",
+    "controls.json",
+    "verification.json",
+    "q_prefix_descriptive.json"
+  ],
+  "null_permutations_per_condition": 720,
+  "conditions": 4,
+  "null_fold_fits": 17280,
+  "comparison": "all JSON content identical except elapsed_seconds",
+  "pdf_pages": 3
+}

@@ -1,0 +1,34 @@
+{
+  "seed": 20261028,
+  "source": "Pliny, Naturalis Historia book 16, supplied in the Greshko repository",
+  "settings": {
+    "respacing_mode": "random",
+    "respacing": 17,
+    "use_78": false,
+    "unambiguous": true,
+    "short_range_reuse": false,
+    "long_range_reuse": false
+  },
+  "lines": 1063,
+  "plaintext_characters": 52641,
+  "ciphertext_tokens": 34809,
+  "ciphertext_EVA_characters": 182844,
+  "fully_recovered_lines": 1063,
+  "failures": [],
+  "exact_plaintext_recovery": true,
+  "unambiguous_retry_count": 1652,
+  "H_within_word_cipher": [
+    3.86771494765501,
+    2.002452253314934,
+    1.6920459784130932,
+    1.5545307689547754
+  ],
+  "H_within_word_latin": [
+    4.011752655593402,
+    3.2167817298766876,
+    2.61116622066401,
+    1.5977252921024305
+  ],
+  "semantic_Grok_tags": "The fixed alchemical map would output ritual tags here as well, despite the known Latin plaintext.",
+  "limitation": "Known tables and original ciphertext spaces are provided. This demonstrates compatibility, not key recovery, historical authenticity or an actual decipherment."
+}
