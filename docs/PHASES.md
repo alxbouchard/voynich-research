@@ -26,4 +26,6 @@ Phase 18 exécutée : [rapport Markdown et figure](../voynich_phase18/RAPPORT.md
 
 Phase 19 exécutée : [rapport Markdown et figure](../voynich_phase19/RAPPORT.md) · [notice](../voynich_phase19/README.md) · [protocole figé](../voynich_phase19/PROTOCOL.json) · [résultats](../voynich_phase19/results). Générateurs sans message, témoins corrigés et vérification de la spécificité du signal des finales. Aucun PDF de phase 19 n'est annoncé.
 
+Phase 20 exécutée : [rapport et figure](../voynich_phase20/RAPPORT.md) · [protocole et reproduction](../voynich_phase20/CALIBRATION.md) · [paramètres figés](../voynich_phase20/CALIBRATION_PROTOCOL.json) · [résultats](../voynich_phase20/results/calibration/). Douze contrôles à clé inconnue, un seul passant les deux seuils ; aucune application au manuscrit. Le [diagnostic anglais préparatoire](../voynich_phase20/README.md) reste conservé. Aucun PDF de phase 20 n'est annoncé.
+
 Les fichiers `source_archive_phase` de l’inventaire indiquent la provenance exacte de chaque pièce. Les fichiers gzip sont restaurés avec `python3 tools/hydrate.py`.

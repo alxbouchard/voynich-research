@@ -1,0 +1,136 @@
+{
+  "case": "italian_250_1",
+  "language": "italian",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.11666666666666667,
+    "transfer": 0.07377049180327869
+  },
+  "rows": {
+    "initializer": {
+      "key": "rnbpjmqclyudawvxofzsikgeth",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 250,
+        "correct_letters": 250,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.725,
+        "boundary_recall": 0.9830508474576272,
+        "boundary_f1": 0.8345323741007195,
+        "boundary_tp": 58,
+        "boundary_fp": 22,
+        "boundary_fn": 1,
+        "score": -631.0051928129612,
+        "segmentation": "s ten da la vista piu lontan a li vedrai come convien ch igualmente r i s p le n da or come ai colpi de li cal dir ai de la neve riman nudo il su g g et t o e dal colore e da l freddo prima i cosi rimaso te ne l intelletto voglio in formar di luce si vivace che ti tremo l era nel suo aspetto dentro da l ciel de la divina pace si"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 488,
+        "character_accuracy": 0.976,
+        "boundary_precision": 0.6742857142857143,
+        "boundary_recall": 0.9752066115702479,
+        "boundary_f1": 0.7972972972972973,
+        "boundary_tp": 118,
+        "boundary_fp": 57,
+        "boundary_fn": 3,
+        "score": -1456.3551758150963,
+        "segmentation": "fini e l orse men k e w u esti organi del mondo cosi vanno come tu vedi omai di grado in grado che di su prendon o e di sotto fanno riguarda j e ne omai si com io vado per w u esto loco al vero che disiri si che poi sappi sol tener lo guado lo moto e la virtu di santi giri come dal fa j j r o l arte del marte l loda j e a ti motor convien che spiri e l ciel cui tanti lumi fanno j ello de la mente profonda che lui volve prende l image e fa s se ne suggello e come l alma dentro a vostra po l ve per di f fe ren ti me m j r a e con forma te a diverse pote n k e si riso l v e cosi l in t elli g e n k a sua j onta te mul ti p li ca t a per le stelle spiega girando se sovra"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "rnbpjmqclyudawvxofzsikgeth",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 250,
+        "correct_letters": 250,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.6973684210526315,
+        "boundary_recall": 0.8983050847457628,
+        "boundary_f1": 0.7851851851851852,
+        "boundary_tp": 53,
+        "boundary_fp": 23,
+        "boundary_fn": 6,
+        "score": -684.2722648921089,
+        "segmentation": "s ten dal a vista piu lontana li vedrai come convien ch igualmente r i s p le n da or come ai colpi del i caldi r ai del a neve riman nudo il su g g et t o e dal colore e dal freddo prima i cosi rimaso tene l intelletto voglio informa r di luce si vivace che ti tremo l eran el suo aspetto dentro dal ciel del a divina pace si"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 488,
+        "character_accuracy": 0.976,
+        "boundary_precision": 0.6127167630057804,
+        "boundary_recall": 0.8760330578512396,
+        "boundary_f1": 0.7210884353741497,
+        "boundary_tp": 106,
+        "boundary_fp": 67,
+        "boundary_fn": 15,
+        "score": -1597.999424654393,
+        "segmentation": "fini el orse men k e w u esti organi del mondo cosi vanno come tu vedi omai di grado in grado ched i su prendon o ed i sotto fanno riguarda j en e omai si com io vado per w u esto loco al vero che disiri si che poi sappi sol tener lo guado lo moto el a virtu di santi giri come dal fa j j r o l arte del marte l loda j e a ti motor convien che spiri el ciel cui tanti lumi fanno j ello del a mente profonda che lui volve p rendeli ma g ee fa s sen e suggello e come l alma dentro a vostra po l v epe r di f fer en ti me m j r a e con forma te a diverse pote n k e si r i solve cosi li n t elli g en k a sua j onta te mul ti p li ca t ape r le stelle spiega girando se sovra"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "rnbpjmqclyudawvxofzsikgeth",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 250,
+        "correct_letters": 250,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.725,
+        "boundary_recall": 0.9830508474576272,
+        "boundary_f1": 0.8345323741007195,
+        "boundary_tp": 58,
+        "boundary_fp": 22,
+        "boundary_fn": 1,
+        "score": -631.0051928129612,
+        "segmentation": "s ten da la vista piu lontan a li vedrai come convien ch igualmente r i s p le n da or come ai colpi de li cal dir ai de la neve riman nudo il su g g et t o e dal colore e da l freddo prima i cosi rimaso te ne l intelletto voglio in formar di luce si vivace che ti tremo l era nel suo aspetto dentro da l ciel de la divina pace si"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 488,
+        "character_accuracy": 0.976,
+        "boundary_precision": 0.6742857142857143,
+        "boundary_recall": 0.9752066115702479,
+        "boundary_f1": 0.7972972972972973,
+        "boundary_tp": 118,
+        "boundary_fp": 57,
+        "boundary_fn": 3,
+        "score": -1456.3551758150963,
+        "segmentation": "fini e l orse men k e w u esti organi del mondo cosi vanno come tu vedi omai di grado in grado che di su prendon o e di sotto fanno riguarda j e ne omai si com io vado per w u esto loco al vero che disiri si che poi sappi sol tener lo guado lo moto e la virtu di santi giri come dal fa j j r o l arte del marte l loda j e a ti motor convien che spiri e l ciel cui tanti lumi fanno j ello de la mente profonda che lui volve prende l image e fa s se ne suggello e come l alma dentro a vostra po l ve per di f fe ren ti me m j r a e con forma te a diverse pote n k e si riso l v e cosi l in t elli g e n k a sua j onta te mul ti p li ca t a per le stelle spiega girando se sovra"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "rnjpbmwclyudaqvkofxsizgeth",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 250,
+        "correct_letters": 250,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.725,
+        "boundary_recall": 0.9830508474576272,
+        "boundary_f1": 0.8345323741007195,
+        "boundary_tp": 58,
+        "boundary_fp": 22,
+        "boundary_fn": 1,
+        "score": -631.0051928129612,
+        "segmentation": "s ten da la vista piu lontan a li vedrai come convien ch igualmente r i s p le n da or come ai colpi de li cal dir ai de la neve riman nudo il su g g et t o e dal colore e da l freddo prima i cosi rimaso te ne l intelletto voglio in formar di luce si vivace che ti tremo l era nel suo aspetto dentro da l ciel de la divina pace si"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8082191780821918,
+        "boundary_recall": 0.9752066115702479,
+        "boundary_f1": 0.8838951310861424,
+        "boundary_tp": 118,
+        "boundary_fp": 28,
+        "boundary_fn": 3,
+        "score": -1135.0562271890267,
+        "segmentation": "fini e l orse men z e questi organi del mondo cosi vanno come tu vedi omai di grado in grado che di su prendon o e di sotto fanno riguarda ben e omai si com io vado per questo loco al vero che disiri si che poi sappi sol tener lo guado lo moto e la virtu di santi giri come dal fabbro l arte del marte l loda beati motor convien che spiri e l ciel cui tanti lumi fanno bello de la mente profonda che lui volve prende l image e fa s se ne suggello e come l alma dentro a vostra po l ve per di f fe ren ti membra e con forma te a diverse potenze si riso l v e cosi l intelligenza sua bontate mul ti p li ca t a per le stelle spiega girando se sovra"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

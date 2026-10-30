@@ -1,0 +1,136 @@
+{
+  "case": "latin_250_1",
+  "language": "latin",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.4090909090909091,
+    "transfer": 0.3829787234042553
+  },
+  "rows": {
+    "initializer": {
+      "key": "qsujertzfdnwmxgyblcpokhaiv",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.42,
+        "boundary_recall": 0.9767441860465116,
+        "boundary_f1": 0.5874125874125874,
+        "boundary_tp": 42,
+        "boundary_fp": 58,
+        "boundary_fn": 1,
+        "score": -1090.6648404394787,
+        "segmentation": "si v in cantu r h o die a populo romano servi re se dicunt ita est profecto multis fortuna par c i t in poenam r o m u l u s f r o n de a corona vi t hos tum hos t i l i u m quod fide nam primus in r u p is se t avus hic t ulli hos t i l ii regis fuit p de c i u m patre m tribunum militum f r o n de ad o navi t exercitus ab eo ser v at u s imperatore"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.4158878504672897,
+        "boundary_recall": 0.956989247311828,
+        "boundary_f1": 0.5798045602605864,
+        "boundary_tp": 89,
+        "boundary_fp": 125,
+        "boundary_fn": 4,
+        "score": -2338.707719891765,
+        "segmentation": "p a tria g a u de n s r u m p i t c i v e m servare hostem o cc id e re ut que eum locum in quo sit ac tum hostis o p t in ea t eo die ut ser v at u s f at ea t u r alias testes nihil pro sunt ut c i vis fuerit auxilia quamvis reges e r v at o de c u s non dant nec c res c i t honos idem imperatore c o n ser v at o quoniam c o n di t o res in quo cum que c i v e summum esse v o l u e re accepta licet uti perpetuo l u dis ineunt i semper ad s u r g i etiam ab senatu in more est se de n di ius in proximo senatui v ac at i o m u ne r u m omnium ipsi p at r i que et a v o pater nox iiii eas accepit s iccius dent at usu t re t u l i m u s suo loco vi capit o l in usi s quidem et de duce servili o a f r i c an u s"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "qsujertzfdnwmxgyblcpokhaiv",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.36538461538461536,
+        "boundary_recall": 0.8837209302325582,
+        "boundary_f1": 0.5170068027210885,
+        "boundary_tp": 38,
+        "boundary_fp": 66,
+        "boundary_fn": 5,
+        "score": -1172.8275283135833,
+        "segmentation": "si vi n cantu r h o die a populo romanos e r vires e dicunt ita est profecto multis fortuna par c i t in poenam r o m u l u s f r o n de a corona vi t hos tum hos t i l i u m quod fide nam primus in r u p is se t avus h ictu l l i hos t i l ii regis fuit p de c i u m patre m tribunum militum f r o n de ad o navi t exercitus ab eos e r v at u s imperatore"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.4,
+        "boundary_recall": 0.9247311827956989,
+        "boundary_f1": 0.5584415584415584,
+        "boundary_tp": 86,
+        "boundary_fp": 129,
+        "boundary_fn": 7,
+        "score": -2392.0111433116112,
+        "segmentation": "p a tria g a u de n s r u m p i t c i v e m servare hostem o cc id e re ut que eum locum in quos ita c tum hostis o p t in ea te o die ut ser v at u s f at ea t u r alias testes nihil pro sunt ut c i vis fuerit auxilia quamvis reges e r v at o de c u s non dant nec c res c i t honos idem imperatore c o n ser v at o quoniam c o n di t o res in quo cum que c i v e summum esse v o l u e re accepta licet uti perpetuo l u dis ineunt i semper ad s u r g i etiam ab senatui n more est sed e n di ius in proximo senatui v ac at i o m u ne r u m omnium ipsi p at r i que et a v o pater n o xiiii eas accepit s iccius dent at usu t re t u l i m u s suo loco vi capit o l in usi s quidem et de duce servili o a f r i c an u s"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "qsujertzfdnwmxgyblcpokhaiv",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.42,
+        "boundary_recall": 0.9767441860465116,
+        "boundary_f1": 0.5874125874125874,
+        "boundary_tp": 42,
+        "boundary_fp": 58,
+        "boundary_fn": 1,
+        "score": -1090.6648404394787,
+        "segmentation": "si v in cantu r h o die a populo romano servi re se dicunt ita est profecto multis fortuna par c i t in poenam r o m u l u s f r o n de a corona vi t hos tum hos t i l i u m quod fide nam primus in r u p is se t avus hic t ulli hos t i l ii regis fuit p de c i u m patre m tribunum militum f r o n de ad o navi t exercitus ab eo ser v at u s imperatore"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.4158878504672897,
+        "boundary_recall": 0.956989247311828,
+        "boundary_f1": 0.5798045602605864,
+        "boundary_tp": 89,
+        "boundary_fp": 125,
+        "boundary_fn": 4,
+        "score": -2338.707719891765,
+        "segmentation": "p a tria g a u de n s r u m p i t c i v e m servare hostem o cc id e re ut que eum locum in quo sit ac tum hostis o p t in ea t eo die ut ser v at u s f at ea t u r alias testes nihil pro sunt ut c i vis fuerit auxilia quamvis reges e r v at o de c u s non dant nec c res c i t honos idem imperatore c o n ser v at o quoniam c o n di t o res in quo cum que c i v e summum esse v o l u e re accepta licet uti perpetuo l u dis ineunt i semper ad s u r g i etiam ab senatu in more est se de n di ius in proximo senatui v ac at i o m u ne r u m omnium ipsi p at r i que et a v o pater nox iiii eas accepit s iccius dent at usu t re t u l i m u s suo loco vi capit o l in usi s quidem et de duce servili o a f r i c an u s"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "qsuwertyfdnzmxgkblcpojhaiv",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.42,
+        "boundary_recall": 0.9767441860465116,
+        "boundary_f1": 0.5874125874125874,
+        "boundary_tp": 42,
+        "boundary_fp": 58,
+        "boundary_fn": 1,
+        "score": -1090.6648404394787,
+        "segmentation": "si v in cantu r h o die a populo romano servi re se dicunt ita est profecto multis fortuna par c i t in poenam r o m u l u s f r o n de a corona vi t hos tum hos t i l i u m quod fide nam primus in r u p is se t avus hic t ulli hos t i l ii regis fuit p de c i u m patre m tribunum militum f r o n de ad o navi t exercitus ab eo ser v at u s imperatore"
+      },
+      "transfer": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.4158878504672897,
+        "boundary_recall": 0.956989247311828,
+        "boundary_f1": 0.5798045602605864,
+        "boundary_tp": 89,
+        "boundary_fp": 125,
+        "boundary_fn": 4,
+        "score": -2338.707719891765,
+        "segmentation": "p a tria g a u de n s r u m p i t c i v e m servare hostem o cc id e re ut que eum locum in quo sit ac tum hostis o p t in ea t eo die ut ser v at u s f at ea t u r alias testes nihil pro sunt ut c i vis fuerit auxilia quamvis reges e r v at o de c u s non dant nec c res c i t honos idem imperatore c o n ser v at o quoniam c o n di t o res in quo cum que c i v e summum esse v o l u e re accepta licet uti perpetuo l u dis ineunt i semper ad s u r g i etiam ab senatu in more est se de n di ius in proximo senatui v ac at i o m u ne r u m omnium ipsi p at r i que et a v o pater nox iiii eas accepit s iccius dent at usu t re t u l i m u s suo loco vi capit o l in usi s quidem et de duce servili o a f r i c an u s"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

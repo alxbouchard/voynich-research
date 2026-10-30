@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "candidate": "true_key",
+      "exact_score_ln": -33.3077275486031,
+      "exact_segmentation": "this is a top secret message",
+      "greedy_score_ln": -61.8335042149819,
+      "greedy_segmentation": "this i sato p secret message"
+    },
+    {
+      "candidate": "returned_key",
+      "exact_score_ln": -49.0450699625727,
+      "exact_segmentation": "this is atul secret message",
+      "greedy_score_ln": -49.0450699625727,
+      "greedy_segmentation": "this is atul secret message"
+    }
+  ],
+  "scope": "Unmodified upstream greedy segmenter and scorer; selected probability tables, full published unigram vocabulary.",
+  "vocabulary_size": 123619,
+  "passed": true,
+  "maximum_score_difference": 2.842170943040401e-14,
+  "exhaustive_paths_checked": 1031016,
+  "vendor_revision": "2c7ad49cd4f4fa852168a8ce295bf739bf076adc",
+  "input_sha256": {
+    "results/authors_exact_segmentation_audit.json": "d6d8f59ef072b24540a577b7e23dbe2fcf90aff649c7a36fb67eb37020fa4d63",
+    "tmp/reduced_model_tables.json": "a00a1f316c7e8c6c8daf62519d0fa89d43348fd3fa8a3b85e2d032ed9668fd72",
+    "data/authors_model_sources.json": "d27b482b644a8c454c0d049ed1aba4b25f57bd8c820a2a3d73849bba3cb5e030"
+  },
+  "NOT_TRANSLATION": true
+}

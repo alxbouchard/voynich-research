@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin",
+      "greedy",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_250_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_1_starts.txt",
+      "6"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_250_1/fit.txt": "92986d03207bf06486381d4a8b8ae34d0b494f9078a8f2fd54dc038733ca455d",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_1_starts.txt": "58628e7ad6bf1f01e16462678b602cef7e696a4617955e1dc3414e3084818d54"
+    }
+  },
+  "seconds": 0.19239995907992125,
+  "result": {
+    "key": "qsujertzfdnwmxgyblcpokhaiv",
+    "evaluations": 1304,
+    "final_start_scores": [
+      -1172.8275283135833,
+      -1172.8275283135833,
+      -1172.8275283135833,
+      -1172.8275283135833
+    ],
+    "fit": {
+      "score": -1172.8275283135833,
+      "segmentation": "si vi n cantu r h o die a populo romanos e r vires e dicunt ita est profecto multis fortuna par c i t in poenam r o m u l u s f r o n de a corona vi t hos tum hos t i l i u m quod fide nam primus in r u p is se t avus h ictu l l i hos t i l ii regis fuit p de c i u m patre m tribunum militum f r o n de ad o navi t exercitus ab eos e r v at u s imperatore"
+    }
+  }
+}

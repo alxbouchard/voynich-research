@@ -1,0 +1,136 @@
+{
+  "case": "italian_500_2",
+  "language": "italian",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.12195121951219512,
+    "transfer": 0.06060606060606061
+  },
+  "rows": {
+    "initializer": {
+      "key": "olmuacdtxrpgqyvkzjewnibhfs",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7880794701986755,
+        "boundary_recall": 0.9754098360655737,
+        "boundary_f1": 0.8717948717948718,
+        "boundary_tp": 119,
+        "boundary_fp": 32,
+        "boundary_fn": 3,
+        "score": -1197.267712852363,
+        "segmentation": "com piacermi venia gaia indi s p ir o sanz esser mi pro fer t a da te la voglia tua discerno meglio che tu qualunque cosa te piu certa per ch io la veggio nel verace speglio che fa di se pare g l io a l altre cose e nulla face lui di se pare g li o tu vuo g li udir quant e che dio mi puose nel ecce l so giardin o ove costei a cosi lunga scala ti dispuose e quanto fu diletto a li occhi miei e la propria cagion del gran disdegno e li dio ma ch usai e che fei or f i g l uo l mio non il g u star del legno fu per se la cagion di tanto essilio ma solamente il trapassar del segno quindi onde mosse tua donna virgilio quattro milia tre cento e due vo lumi"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 494,
+        "character_accuracy": 0.9860279441117764,
+        "boundary_precision": 0.775,
+        "boundary_recall": 0.9465648854961832,
+        "boundary_f1": 0.852233676975945,
+        "boundary_tp": 124,
+        "boundary_fp": 36,
+        "boundary_fn": 7,
+        "score": -1227.8255412768035,
+        "segmentation": "ma ira z io n a x il e per lo piacere uman che rinovella seguendo il cielo sempre fu dura x il e opera naturale e ch uom favella ma cosi o cosi natura lascia poi fare a voi secondo che va x x ella pria ch i scende s sia l infernale a m x a s ci ai s appella va in terra il sommo x e ne ond e vien la letizia che mi fascia e el si chiamo poi e cio convene che l uso di mortali e come fronda in ramo che sen va e altra vene nel monte che si leva piu da l onda fu io con vita pur a e di s onesta da la prim ora a quella che seconda come l sol muta qua d r al ora sesta al padre al figlio a lo spirito santo comincio gloria tutto l paradiso si che mi ne x ria va il"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "olmuacdtxrpgqyvkzjewnibhfs",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7602739726027398,
+        "boundary_recall": 0.9098360655737705,
+        "boundary_f1": 0.8283582089552238,
+        "boundary_tp": 111,
+        "boundary_fp": 35,
+        "boundary_fn": 11,
+        "score": -1262.25533012486,
+        "segmentation": "com piacermi venia gaia indi s p ir o sanz esser mi pro f erta date la voglia tua discerno meglio che tu qualunque cosa te piu certa perch io la veggion el verace speglio che fa di se pare g li o al altre cose e nulla face lui di se pare g li o tu vuo g li udir quante ched io mi puose nel ecce l so giardin o ove costei a cosi lunga scala ti dispuose e quanto fu diletto ali occhi miei el a propria cagion del gran disdegno e lidi om a ch usai e che fei or f i g lu o l mio non il g u s tarde l legno fu per se la cagion di tanto essilio ma solamente il trapassar del segno quindi onde mosse tua donna virgilio quattro milia tre cento e due vo lumi"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 494,
+        "character_accuracy": 0.9860279441117764,
+        "boundary_precision": 0.6666666666666666,
+        "boundary_recall": 0.8244274809160306,
+        "boundary_f1": 0.7372013651877133,
+        "boundary_tp": 108,
+        "boundary_fp": 54,
+        "boundary_fn": 23,
+        "score": -1382.6504286257205,
+        "segmentation": "mai r a z io n a x il epe r lo piacere u m anche rinovella seguendo il cielo sempre fu dura x il e opera naturale e ch uom favella ma cosi o cosi natural a s ci apo i fare a voi secondo che va x x ell apria chi scende s sia l infernale a m x a s ci ai s appella vai n terra il sommo x en e onde vien la letizia che mi fascia ee l si chiamo poi e cio convene che l uso di mortali e come fronda in ramo che sen va e altra vene nel monte che si leva piu dal onda fui o co nvita pura ed i s onesta dal a primo r a aquella che seconda come l sol muta qua d r a lor a sesta al padre al figlio al o spirito santo comincio gloria tutto l paradiso si che mi ne x ria vai l"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "olmuacdtxrpgqyvkzjewnibhfs",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7880794701986755,
+        "boundary_recall": 0.9754098360655737,
+        "boundary_f1": 0.8717948717948718,
+        "boundary_tp": 119,
+        "boundary_fp": 32,
+        "boundary_fn": 3,
+        "score": -1197.267712852363,
+        "segmentation": "com piacermi venia gaia indi s p ir o sanz esser mi pro fer t a da te la voglia tua discerno meglio che tu qualunque cosa te piu certa per ch io la veggio nel verace speglio che fa di se pare g l io a l altre cose e nulla face lui di se pare g li o tu vuo g li udir quant e che dio mi puose nel ecce l so giardin o ove costei a cosi lunga scala ti dispuose e quanto fu diletto a li occhi miei e la propria cagion del gran disdegno e li dio ma ch usai e che fei or f i g l uo l mio non il g u star del legno fu per se la cagion di tanto essilio ma solamente il trapassar del segno quindi onde mosse tua donna virgilio quattro milia tre cento e due vo lumi"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 494,
+        "character_accuracy": 0.9860279441117764,
+        "boundary_precision": 0.775,
+        "boundary_recall": 0.9465648854961832,
+        "boundary_f1": 0.852233676975945,
+        "boundary_tp": 124,
+        "boundary_fp": 36,
+        "boundary_fn": 7,
+        "score": -1227.8255412768035,
+        "segmentation": "ma ira z io n a x il e per lo piacere uman che rinovella seguendo il cielo sempre fu dura x il e opera naturale e ch uom favella ma cosi o cosi natura lascia poi fare a voi secondo che va x x ella pria ch i scende s sia l infernale a m x a s ci ai s appella va in terra il sommo x e ne ond e vien la letizia che mi fascia e el si chiamo poi e cio convene che l uso di mortali e come fronda in ramo che sen va e altra vene nel monte che si leva piu da l onda fu io con vita pur a e di s onesta da la prim ora a quella che seconda come l sol muta qua d r al ora sesta al padre al figlio a lo spirito santo comincio gloria tutto l paradiso si che mi ne x ria va il"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "olmuacdtbrpgqjvkzxeyniwhfs",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7880794701986755,
+        "boundary_recall": 0.9754098360655737,
+        "boundary_f1": 0.8717948717948718,
+        "boundary_tp": 119,
+        "boundary_fp": 32,
+        "boundary_fn": 3,
+        "score": -1197.267712852363,
+        "segmentation": "com piacermi venia gaia indi s p ir o sanz esser mi pro fer t a da te la voglia tua discerno meglio che tu qualunque cosa te piu certa per ch io la veggio nel verace speglio che fa di se pare g l io a l altre cose e nulla face lui di se pare g li o tu vuo g li udir quant e che dio mi puose nel ecce l so giardin o ove costei a cosi lunga scala ti dispuose e quanto fu diletto a li occhi miei e la propria cagion del gran disdegno e li dio ma ch usai e che fei or f i g l uo l mio non il g u star del legno fu per se la cagion di tanto essilio ma solamente il trapassar del segno quindi onde mosse tua donna virgilio quattro milia tre cento e due vo lumi"
+      },
+      "transfer": {
+        "letters": 501,
+        "correct_letters": 501,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8289473684210527,
+        "boundary_recall": 0.9618320610687023,
+        "boundary_f1": 0.8904593639575972,
+        "boundary_tp": 126,
+        "boundary_fp": 26,
+        "boundary_fn": 5,
+        "score": -1130.1705199997034,
+        "segmentation": "ma ira z io n ab il e per lo piacere uman che rinovella seguendo il cielo sempre fu dura b il e opera naturale e ch uom favella ma cosi o cosi natura lascia poi fare a voi secondo che v ab bella pria ch i scende s sia l infernale ambascia i s appella va in terra il sommo ben e ond e vien la letizia che mi fascia e el si chiamo poi e cio convene che l uso di mortali e come fronda in ramo che sen va e altra vene nel monte che si leva piu da l onda fu io con vita pur a e di s onesta da la prim ora a quella che seconda come l sol muta qua d r al ora sesta al padre al figlio a lo spirito santo comincio gloria tutto l paradiso si che mi ne b ria va il"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

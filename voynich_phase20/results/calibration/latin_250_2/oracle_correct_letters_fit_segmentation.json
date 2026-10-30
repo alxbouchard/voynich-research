@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_2_oracle_correct_letters_fit.txt",
+      "exact"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_2_oracle_correct_letters_fit.txt": "11fdd3746ee0d70d674e5f10493dec66987da05d961a16dfbdc4f8951ac5c213"
+    }
+  },
+  "seconds": 0.06615683413110673,
+  "result": {
+    "score": -1232.0396503613533,
+    "segmentation": "intellegi t u r quoniam h e l i cis plura genera reperiuntur sed tria maxime insignia h e r b ac ea ac vi re n s quae plurima est alter ac an d id o f o l i o tertia v e r sic o l o r i qua et h r ac i a vocat u r etiam num h e r b ac ea et e n u i ora f o l i a et in ordinem di gesta de n si ora que in alio genere diversa omnia ea in v e r sic o l o r i"
+  }
+}

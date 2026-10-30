@@ -1,0 +1,136 @@
+{
+  "case": "italian_500_1",
+  "language": "italian",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.08396946564885496,
+    "transfer": 0.09302325581395349
+  },
+  "rows": {
+    "initializer": {
+      "key": "spenvgqykxrowtjaibcdhmlzuf",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8355263157894737,
+        "boundary_recall": 0.9769230769230769,
+        "boundary_f1": 0.900709219858156,
+        "boundary_tp": 127,
+        "boundary_fp": 25,
+        "boundary_fn": 3,
+        "score": -1144.3199966381549,
+        "segmentation": "la giu ponesse mente a l fonda mento che natura pone seguendo lui avria buona la gente ma voi torce te a la religione tal che fia nato a cigner si la spada e fa te re di tal che da sermone onde la traccia vostra e fuor di strada da poi che carlo tuo bella c le men z a m ebbe chi a r i tomi narro l inganni che riceve r dove a la sua semenza ma disse taci e lascia muover li anni si ch io non posso dir se non che pianto giusto verra di retro a i vostri danni e gia la vita di quel lume santo r i volta s era al sol che la r i empie come quel ben ch a ogne cosa e tanto ahi anime ingannate e fa t tu re empie che da si fatto ben torce te i cuori drizzando"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8051948051948052,
+        "boundary_recall": 0.96875,
+        "boundary_f1": 0.8794326241134752,
+        "boundary_tp": 124,
+        "boundary_fp": 30,
+        "boundary_fn": 4,
+        "score": -1175.0534206450595,
+        "segmentation": "tosto compenso beato spirto dissi e fammi prova ch i possa in te reflette r quel ch io penso onde la luce che m era ancor nova del suo profondo ond ella pria cantava seguette come a cui di ben far giova in quella parte de la terra prava i tali ca che siede trar i alto e le fo n tane di brenta e di pia va si leva un colle e non surge molt alto la onde scese gia una face l la che fece a la contrada un grande assalto d una radice nacqui e io ed ella c un i z z a fui chiamata e qui re fu l g o per che mi vinse il lume desta stella ma lieta mente a me medesma in d u l gola cagion di mia sorte e non mi noi a che par ria forse forte al vostro v u l godi"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "spenvgqykxrowtjaibcdhmlzuf",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.777027027027027,
+        "boundary_recall": 0.8846153846153846,
+        "boundary_f1": 0.8273381294964028,
+        "boundary_tp": 115,
+        "boundary_fp": 33,
+        "boundary_fn": 15,
+        "score": -1279.4819915065461,
+        "segmentation": "l agi u ponesse mente al fonda mento che natura pone seguendo lui avria buona la gente ma voi torce te ala religione tal che fia nato a cigner si la spada e fate re dita l ched a sermone onde la traccia vostra e fuor di strada d apo i che carlo tuo bella c le men z a m ebbe chi a r i tomi narro l inganni che riceve r dovea la sua semenza ma disse taci e lascia muover li anni si chi o non posso dir se nonche pianto giusto verra di retro ai vostri danni e gia lavi t ad i quell u me santo r i volta sera al sol che la r i empie come quel ben ch a ogne cosa e tanto ahi anime ingannate e fatt u re empie ched a si fatto ben torce te i cuori drizzando"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7254901960784313,
+        "boundary_recall": 0.8671875,
+        "boundary_f1": 0.7900355871886121,
+        "boundary_tp": 111,
+        "boundary_fp": 42,
+        "boundary_fn": 17,
+        "score": -1271.9027855375264,
+        "segmentation": "tosto compenso beato spirto dissi e fammi prova chi possa in te reflette r quel chi o penso onde la luce che m era ancor nova del suo profondo onde l l apria cantava seguette come a cui di ben far giova in quella parte del a terra prava i tali ca che siede trar i alto el e f onta ne di brenta ed i pia vas i leva un colle e non surge molta l t o la onde scese gi auna face l la che fece ala contrada un grande assalto d una radice nacqui ei o ed ella cu ni z z a fui chiamata e qui re fu l g o perche mi vinse il lume desta stella malie t a mente a me medesma in d u l gola cagion di mia sorte e non mi noia che par ria forse forte al vostro v u l godi"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "spenvgqykxrowtjaibcdhmlzuf",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8355263157894737,
+        "boundary_recall": 0.9769230769230769,
+        "boundary_f1": 0.900709219858156,
+        "boundary_tp": 127,
+        "boundary_fp": 25,
+        "boundary_fn": 3,
+        "score": -1144.3199966381549,
+        "segmentation": "la giu ponesse mente a l fonda mento che natura pone seguendo lui avria buona la gente ma voi torce te a la religione tal che fia nato a cigner si la spada e fa te re di tal che da sermone onde la traccia vostra e fuor di strada da poi che carlo tuo bella c le men z a m ebbe chi a r i tomi narro l inganni che riceve r dove a la sua semenza ma disse taci e lascia muover li anni si ch io non posso dir se non che pianto giusto verra di retro a i vostri danni e gia la vita di quel lume santo r i volta s era al sol che la r i empie come quel ben ch a ogne cosa e tanto ahi anime ingannate e fa t tu re empie che da si fatto ben torce te i cuori drizzando"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8051948051948052,
+        "boundary_recall": 0.96875,
+        "boundary_f1": 0.8794326241134752,
+        "boundary_tp": 124,
+        "boundary_fp": 30,
+        "boundary_fn": 4,
+        "score": -1175.0534206450595,
+        "segmentation": "tosto compenso beato spirto dissi e fammi prova ch i possa in te reflette r quel ch io penso onde la luce che m era ancor nova del suo profondo ond ella pria cantava seguette come a cui di ben far giova in quella parte de la terra prava i tali ca che siede trar i alto e le fo n tane di brenta e di pia va si leva un colle e non surge molt alto la onde scese gia una face l la che fece a la contrada un grande assalto d una radice nacqui e io ed ella c un i z z a fui chiamata e qui re fu l g o per che mi vinse il lume desta stella ma lieta mente a me medesma in d u l gola cagion di mia sorte e non mi noi a che par ria forse forte al vostro v u l godi"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "spenvgqykwroxtjaibcdhmlzuf",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 503,
+        "correct_letters": 503,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8355263157894737,
+        "boundary_recall": 0.9769230769230769,
+        "boundary_f1": 0.900709219858156,
+        "boundary_tp": 127,
+        "boundary_fp": 25,
+        "boundary_fn": 3,
+        "score": -1144.3199966381549,
+        "segmentation": "la giu ponesse mente a l fonda mento che natura pone seguendo lui avria buona la gente ma voi torce te a la religione tal che fia nato a cigner si la spada e fa te re di tal che da sermone onde la traccia vostra e fuor di strada da poi che carlo tuo bella c le men z a m ebbe chi a r i tomi narro l inganni che riceve r dove a la sua semenza ma disse taci e lascia muover li anni si ch io non posso dir se non che pianto giusto verra di retro a i vostri danni e gia la vita di quel lume santo r i volta s era al sol che la r i empie come quel ben ch a ogne cosa e tanto ahi anime ingannate e fa t tu re empie che da si fatto ben torce te i cuori drizzando"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8051948051948052,
+        "boundary_recall": 0.96875,
+        "boundary_f1": 0.8794326241134752,
+        "boundary_tp": 124,
+        "boundary_fp": 30,
+        "boundary_fn": 4,
+        "score": -1175.0534206450595,
+        "segmentation": "tosto compenso beato spirto dissi e fammi prova ch i possa in te reflette r quel ch io penso onde la luce che m era ancor nova del suo profondo ond ella pria cantava seguette come a cui di ben far giova in quella parte de la terra prava i tali ca che siede trar i alto e le fo n tane di brenta e di pia va si leva un colle e non surge molt alto la onde scese gia una face l la che fece a la contrada un grande assalto d una radice nacqui e io ed ella c un i z z a fui chiamata e qui re fu l g o per che mi vinse il lume desta stella ma lieta mente a me medesma in d u l gola cagion di mia sorte e non mi noi a che par ria forse forte al vostro v u l godi"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

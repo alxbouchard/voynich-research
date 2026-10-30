@@ -8,6 +8,8 @@ Imagerie multispectrale : The Lazarus Project and The Chester F. Carlson Center 
 
 Les fichiers tiers conservent leurs licences d'origine. Cela comprend notamment le matériel de Michael A. Greshko, le code et échantillon Timm/Schinner, les fichiers Perseus et les composants CSA_OptMatcher/EditDistanceWild. Les licences et notices présentes dans les archives sont conservées.
 
+La préparation de phase 20 inclut le code de Bradley Hauer, Ryan Hayward et Grzegorz Kondrak, « Solving Substitution Ciphers with Combined Language Models », COLING 2014, sous CC BY-SA 4.0. Les fichiers originaux sont inchangés ; les nouveaux scripts d'adaptation et de vérification sont aussi sous CC BY-SA 4.0. Les modèles de langue dérivés du New York Times ne sont pas redistribués. Voir [les attributions et limites de phase 20](voynich_phase20/README.md).
+
 Le texte latin César et ses dérivés normalisés restent sous CC BY-SA 4.0 selon la notice de la source. Les adaptations, normalisations et limitations sont décrites dans chaque phase.
 
 Les sources intégrales non autorisées à la redistribution de certains décodeurs ne sont pas ajoutées. Les scripts d'acquisition conservent leurs versions et empreintes. Les traductions revendiquées par des projets tiers ne sont pas redistribuées comme résultats de ce projet.

@@ -1,0 +1,162 @@
+{
+  "aggregates": {
+    "initializer": {
+      "correct_letters": 5982,
+      "letters": 6028,
+      "character_accuracy": 0.9923689449236894,
+      "boundary_f1_micro": 0.672645739910314,
+      "boundary_f1_macro": 0.6875264305390383,
+      "perfect_letter_cases": 8,
+      "letter_threshold_cases": 11,
+      "boundary_threshold_cases": 1
+    },
+    "greedy": {
+      "correct_letters": 5983,
+      "letters": 6028,
+      "character_accuracy": 0.9925348374253484,
+      "boundary_f1_micro": 0.6274839070808844,
+      "boundary_f1_macro": 0.640297549718084,
+      "perfect_letter_cases": 9,
+      "letter_threshold_cases": 11,
+      "boundary_threshold_cases": 0
+    },
+    "exact": {
+      "correct_letters": 5983,
+      "letters": 6028,
+      "character_accuracy": 0.9925348374253484,
+      "boundary_f1_micro": 0.673395009812167,
+      "boundary_f1_macro": 0.6881206296190591,
+      "perfect_letter_cases": 9,
+      "letter_threshold_cases": 11,
+      "boundary_threshold_cases": 1
+    },
+    "oracle_correct_letters": {
+      "correct_letters": 6028,
+      "letters": 6028,
+      "character_accuracy": 1.0,
+      "boundary_f1_micro": 0.6866438356164384,
+      "boundary_f1_macro": 0.7018096366359812,
+      "perfect_letter_cases": 12,
+      "letter_threshold_cases": 12,
+      "boundary_threshold_cases": 1
+    }
+  },
+  "comparisons": {
+    "higher_boundary_f1": 11,
+    "same_letter_accuracy_as_greedy": true
+  },
+  "error_diagnostics": [
+    {
+      "case": "latin_250_1",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "latin_500_1",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "latin_1000_1",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "latin_250_2",
+      "wrong_mappings": [
+        {
+          "cipher": "g",
+          "predicted": "f",
+          "true": "h",
+          "transfer_count": 8,
+          "observed_during_fit": true
+        },
+        {
+          "cipher": "i",
+          "predicted": "h",
+          "true": "b",
+          "transfer_count": 13,
+          "observed_during_fit": true
+        },
+        {
+          "cipher": "o",
+          "predicted": "b",
+          "true": "f",
+          "transfer_count": 5,
+          "observed_during_fit": true
+        }
+      ],
+      "oracle_fit_score_gap": 45.97846988372498
+    },
+    {
+      "case": "latin_500_2",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "latin_1000_2",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "italian_250_1",
+      "wrong_mappings": [
+        {
+          "cipher": "e",
+          "predicted": "j",
+          "true": "b",
+          "transfer_count": 7,
+          "observed_during_fit": false
+        },
+        {
+          "cipher": "n",
+          "predicted": "w",
+          "true": "q",
+          "transfer_count": 2,
+          "observed_during_fit": false
+        },
+        {
+          "cipher": "v",
+          "predicted": "k",
+          "true": "z",
+          "transfer_count": 3,
+          "observed_during_fit": false
+        }
+      ],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "italian_500_1",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "italian_1000_1",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "italian_250_2",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "italian_500_2",
+      "wrong_mappings": [
+        {
+          "cipher": "i",
+          "predicted": "x",
+          "true": "b",
+          "transfer_count": 7,
+          "observed_during_fit": false
+        }
+      ],
+      "oracle_fit_score_gap": 0.0
+    },
+    {
+      "case": "italian_1000_2",
+      "wrong_mappings": [],
+      "oracle_fit_score_gap": 0.0
+    }
+  ]
+}

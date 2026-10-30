@@ -1,0 +1,20 @@
+{
+  "case": "authors_readme_no_spaces",
+  "command": [
+    "perl",
+    "-I",
+    "/private/tmp/voynich-research-20261030/voynich_phase20/vendor/hhk-decipherment",
+    "/private/tmp/voynich-research-20261030/voynich_phase20/vendor/hhk-decipherment/masc_solver_mcts.pl",
+    "-mi",
+    "100",
+    "-n"
+  ],
+  "ciphertext": "ziololqzghltektzdtllqut",
+  "plaintext": "this is a top secret message",
+  "output": "thisisatulsecretmessage",
+  "returncode": 0,
+  "seconds": 280.112,
+  "matches_readme_letters": false,
+  "character_accuracy": 0.9130434782608695,
+  "scope": "Published example; installation check only, not held-out calibration."
+}

@@ -1,0 +1,136 @@
+{
+  "case": "italian_250_2",
+  "language": "italian",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.06779661016949153,
+    "transfer": 0.07758620689655173
+  },
+  "rows": {
+    "initializer": {
+      "key": "fcmphvoartxingwkzudjlyqsbe",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.835820895522388,
+        "boundary_recall": 0.9655172413793104,
+        "boundary_f1": 0.896,
+        "boundary_tp": 56,
+        "boundary_fp": 11,
+        "boundary_fn": 2,
+        "score": -540.6667462808457,
+        "segmentation": "la bellezza mia che per le scale de l etterno palazzo piu s accende com hai veduto quanto piu si sale se non si temp era s se tanto splende che l tuo mortal podere al suo fu l g ore sarebbe fronda che tr o nosco scende noi se m levati al settimo splendore che sotto l petto del leone ardente raggi amo misto giu del suo"
+      },
+      "transfer": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8702290076335878,
+        "boundary_recall": 0.991304347826087,
+        "boundary_f1": 0.926829268292683,
+        "boundary_tp": 114,
+        "boundary_fp": 17,
+        "boundary_fn": 1,
+        "score": -1069.392194425526,
+        "segmentation": "grato ubidir e a la mia celeste scorta contra pe s ando l un con l altro lato dentro al cristallo che l vocabol porta cerchi ando il mondo del suo caro duce sotto cui gi acque ogne malizia morta di color d oro in che raggio tra luce vid io uno scaleo eretto in suso tanto che nol seguiva la mia luce vidi anche per li gradi scender giuso tanti splendor ch io pensai ch ogne lume che par nel ciel quindi fosse diffuso e come per lo natural costume le po le insieme al cominciar del giorno si movo no a scaldar le fredde piume poi altre vanno via sanza ritorno altr eri vo l g o n se ond e son mosse e altre rote ando fan soggiorno tal"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "fcmphvoartxingwkzudjlyqsbe",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8208955223880597,
+        "boundary_recall": 0.9482758620689655,
+        "boundary_f1": 0.88,
+        "boundary_tp": 55,
+        "boundary_fp": 12,
+        "boundary_fn": 3,
+        "score": -585.4570331101945,
+        "segmentation": "la bellezza mia che per le scale del etterno palazzo piu s accende com hai veduto quanto piu si sale seno n si temp er asseta n t o splende che l tuo mortal podere al suo fu l g ore sarebbe fronda che tr o no scoscende noi se m levati al settimo splendore che sotto l petto del leone ardente raggia mo misto giu del suo"
+      },
+      "transfer": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.7883211678832117,
+        "boundary_recall": 0.9391304347826087,
+        "boundary_f1": 0.8571428571428571,
+        "boundary_tp": 108,
+        "boundary_fp": 29,
+        "boundary_fn": 7,
+        "score": -1189.1158275223518,
+        "segmentation": "grato ubidir e ala mia celeste scorta contra pesa n d o lu n con l altro lato dentro al cristallo che l vocabol porta cerchia n d o il mondo del suo caro duce sotto cui gi acque ogne malizia morta di color d oro in che raggio tra luce vidi o uno scaleo eretto in suso tanto che nol seguiva l ami a luce vidi anche per li g r a discende r giuso tant isplendor chi o pensai ch ogne lume che par nel ciel quindi fosse diffuso e come per lo natural costume le po le insieme al cominciar del giorno si movo no a scaldar le fredde piume poi altre vanno via sanza ritorno altre r iv o l g o n se onde son mosse e altre rote ando fan soggiorno tal"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "fcmphvoartxingwkzudjlyqsbe",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.835820895522388,
+        "boundary_recall": 0.9655172413793104,
+        "boundary_f1": 0.896,
+        "boundary_tp": 56,
+        "boundary_fp": 11,
+        "boundary_fn": 2,
+        "score": -540.6667462808457,
+        "segmentation": "la bellezza mia che per le scale de l etterno palazzo piu s accende com hai veduto quanto piu si sale se non si temp era s se tanto splende che l tuo mortal podere al suo fu l g ore sarebbe fronda che tr o nosco scende noi se m levati al settimo splendore che sotto l petto del leone ardente raggi amo misto giu del suo"
+      },
+      "transfer": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8702290076335878,
+        "boundary_recall": 0.991304347826087,
+        "boundary_f1": 0.926829268292683,
+        "boundary_tp": 114,
+        "boundary_fp": 17,
+        "boundary_fn": 1,
+        "score": -1069.392194425526,
+        "segmentation": "grato ubidir e a la mia celeste scorta contra pe s ando l un con l altro lato dentro al cristallo che l vocabol porta cerchi ando il mondo del suo caro duce sotto cui gi acque ogne malizia morta di color d oro in che raggio tra luce vid io uno scaleo eretto in suso tanto che nol seguiva la mia luce vidi anche per li gradi scender giuso tanti splendor ch io pensai ch ogne lume che par nel ciel quindi fosse diffuso e come per lo natural costume le po le insieme al cominciar del giorno si movo no a scaldar le fredde piume poi altre vanno via sanza ritorno altr eri vo l g o n se ond e son mosse e altre rote ando fan soggiorno tal"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "fcmphvoartyingkjzudxlwqsbe",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 252,
+        "correct_letters": 252,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.835820895522388,
+        "boundary_recall": 0.9655172413793104,
+        "boundary_f1": 0.896,
+        "boundary_tp": 56,
+        "boundary_fp": 11,
+        "boundary_fn": 2,
+        "score": -540.6667462808457,
+        "segmentation": "la bellezza mia che per le scale de l etterno palazzo piu s accende com hai veduto quanto piu si sale se non si temp era s se tanto splende che l tuo mortal podere al suo fu l g ore sarebbe fronda che tr o nosco scende noi se m levati al settimo splendore che sotto l petto del leone ardente raggi amo misto giu del suo"
+      },
+      "transfer": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.8702290076335878,
+        "boundary_recall": 0.991304347826087,
+        "boundary_f1": 0.926829268292683,
+        "boundary_tp": 114,
+        "boundary_fp": 17,
+        "boundary_fn": 1,
+        "score": -1069.392194425526,
+        "segmentation": "grato ubidir e a la mia celeste scorta contra pe s ando l un con l altro lato dentro al cristallo che l vocabol porta cerchi ando il mondo del suo caro duce sotto cui gi acque ogne malizia morta di color d oro in che raggio tra luce vid io uno scaleo eretto in suso tanto che nol seguiva la mia luce vidi anche per li gradi scender giuso tanti splendor ch io pensai ch ogne lume che par nel ciel quindi fosse diffuso e come per lo natural costume le po le insieme al cominciar del giorno si movo no a scaldar le fredde piume poi altre vanno via sanza ritorno altr eri vo l g o n se ond e son mosse e altre rote ando fan soggiorno tal"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": true,
+  "NOT_TRANSLATION": true
+}

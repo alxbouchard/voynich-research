@@ -6,7 +6,15 @@ La phase 18 avait retenu la clé distincte en finale, évaluée par le modèle d
 
 La comparaison avec des générateurs structurés et la correction des segments courts sont désormais exécutées. Les six nouveaux textes sont tirés de modèles de transitions appris uniquement sur l'apprentissage ; l'échantillon Timm–Schinner publié est réanalysé, sans réexécution de son générateur. Les succès et échecs sont tous conservés. Cela n'identifie ni le latin ni l'absence de sens du manuscrit.
 
-La prochaine étape utile est de **calibrer un critère discriminant** sur plusieurs mécanismes connus porteurs de messages et plusieurs générateurs sans message, puis de tester la stabilité des clés et les prédictions sur des partitions par cahier réservées avant leur sélection. Le critère des finales seul ne peut plus servir de confirmation linguistique. Aucun calcul de phase 20 n'est exécuté à ce stade.
+La prochaine étape utile est de **calibrer un critère discriminant** sur plusieurs mécanismes connus porteurs de messages et plusieurs générateurs sans message, puis de tester la stabilité des clés et les prédictions sur des partitions par cahier réservées avant leur sélection. Le critère des finales seul ne peut plus servir de confirmation linguistique.
+
+La [phase 20](../voynich_phase20/RAPPORT.md) a ensuite testé une recherche de
+clé avec segmentation sur douze contrôles. Le découpage exact progresse face
+au découpage glouton, mais un seul contrôle atteint les deux seuils fixés.
+La configuration n'est pas appliquée au Voynich. Les priorités sont désormais
+de représenter les mots inconnus et variantes historiques, puis de réserver
+de nouveaux passages pour la calibration. Les douze contrôles déjà vus
+doivent rester des données de développement pour cette correction.
 
 Le [brouillon initial](../voynich_phase18/PROTOCOL_DRAFT.md), les protocoles figés de [phase 18](../voynich_phase18/PROTOCOL.json) et de [phase 19](../voynich_phase19/PROTOCOL.json), les sorties et les limites restent archivés. Les pistes sur l'initiale et le modèle italien n'atteignaient pas ensemble le critère de phase 18 sur les deux groupes ; elles ne sont pas réajustées dans la phase 19.
 

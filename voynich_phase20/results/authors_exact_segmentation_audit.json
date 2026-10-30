@@ -1,0 +1,56 @@
+{
+  "scope": "Fixed-key development diagnostic only; not decipherment, held-out calibration, or a complete reproduction of the article.",
+  "language": "English, original NYT-derived published models",
+  "candidate_plaintext_known_to_auditor": true,
+  "algorithm_sees": "Decoded letter string, dictionary and probability tables only; no true boundaries.",
+  "vocabulary_size": 123619,
+  "rows": [
+    {
+      "candidate": "true_key",
+      "letters": "thisisatopsecretmessage",
+      "greedy_segmentation": "this i sato p secret message",
+      "greedy_scores": {
+        "word_score_ln": -61.35961022973175,
+        "char_score_ln": -70.83748993473421,
+        "combined_score_ln": -61.83350421498187
+      },
+      "exact": {
+        "segmentation": "this is a top secret message",
+        "score_ln": -33.307727548603104,
+        "states_visited": 179,
+        "final_states": 16
+      },
+      "exhaustive_check": {
+        "paths_enumerated": 575226,
+        "best_score_ln": -33.307727548603104,
+        "best_segmentation": "this is a top secret message"
+      }
+    },
+    {
+      "candidate": "returned_key",
+      "letters": "thisisatulsecretmessage",
+      "greedy_segmentation": "this is atul secret message",
+      "greedy_scores": {
+        "word_score_ln": -48.09892651968601,
+        "char_score_ln": -67.02179537741942,
+        "combined_score_ln": -49.045069962572676
+      },
+      "exact": {
+        "segmentation": "this is atul secret message",
+        "score_ln": -49.045069962572676,
+        "states_visited": 163,
+        "final_states": 16
+      },
+      "exhaustive_check": {
+        "paths_enumerated": 455790,
+        "best_score_ln": -49.045069962572676,
+        "best_segmentation": "this is atul secret message"
+      }
+    }
+  ],
+  "known_correct_boundaries_score": {
+    "word_score_ln": -31.541056640399923,
+    "char_score_ln": -66.87447480446359,
+    "combined_score_ln": -33.307727548603104
+  }
+}

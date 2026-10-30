@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/italian",
+      "init",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_1000_1/fit.txt",
+      "2026103030",
+      "16",
+      "60000"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/italian_1000_1/fit.txt": "be2df6f4db67652e1762fbbf7e6f2e105a577587be8541f2d05e3e68568308c2"
+    }
+  },
+  "seconds": 1.006524542113766,
+  "result": {
+    "restarts": [
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrjypwxzaqgdsehkol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrxjpkyzaqgdsehwol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrykpwxzaqgdsehjol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrjwpkyzaqgdsehxol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrxypjkzaqgdsehwol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrxypjkzaqgdsehwol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrywpxkzaqgdsehjol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfryxpkjzaqgdsehwol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrkypjwzaqgdsehxol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrxypkwzaqgdsehjol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrxkpwjzaqgdsehyol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrkwpyxzaqgdsehjol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfryxpwkzaqgdsehjol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrkwpyjzaqgdsehxol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrjwpykzaqgdsehxol"
+      },
+      {
+        "score": -9256.912552742639,
+        "key": "vmcbiuntfrjxpwyzaqgdsehkol"
+      }
+    ]
+  }
+}

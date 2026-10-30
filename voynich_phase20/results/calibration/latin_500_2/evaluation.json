@@ -1,0 +1,136 @@
+{
+  "case": "latin_500_2",
+  "language": "latin",
+  "dictionary_oov_token_fraction": {
+    "fit": 0.4431818181818182,
+    "transfer": 0.40963855421686746
+  },
+  "rows": {
+    "initializer": {
+      "key": "pbtmdycfoknhzsqvaujgielwxr",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3702127659574468,
+        "boundary_recall": 1.0,
+        "boundary_f1": 0.5403726708074534,
+        "boundary_tp": 87,
+        "boundary_fp": 148,
+        "boundary_fn": 0,
+        "score": -2570.5775591326396,
+        "segmentation": "s o l s t i t i o dies si de r u m horum re d dentur suo loco vulgo satis putant ob servare ne qua de d o l an d a s ter natu r ante edito s suos f r u c t u s r ob u r vere c a e sum te re di ne m se n t i t bruma autem neque vi t i at u r neque p an datur alias ob nox i u m etiam ut t o r que at sese f in d atque quod in sub e re te m p est i v e quoque c a e s o e venit in f initum re fert et luna r is ratio nec nisi a xx in xxx c a e di volunt inter omnes vero convenit utili s si me in c o i t u eius s ter n i quem diem alii inter l uni i alii si l e n t is luna e appellant sic certe t i b e r ius caesar c o n c rem at o ponte n a u m ac hi a r i o l a r i c e s ad res t i t u e n dum c a e di in r a et i a prae f in i vi t"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.43478260869565216,
+        "boundary_recall": 0.975609756097561,
+        "boundary_f1": 0.6015037593984962,
+        "boundary_tp": 80,
+        "boundary_fp": 104,
+        "boundary_fn": 2,
+        "score": -2006.6335849364336,
+        "segmentation": "veteres utili s si m a e circum cis a s quoque in me d ullam aliqui non in utili ter relinquunt ut omni sum o r s tanti b u s de fluat mirum apud an t i quos primo p uni c o bello classem d u illi imperatoris ab a r b o re lx die navi g a vis se contra vero hi e r o ne m regem ccxx naves e f f e c t a s diebus xl v tradit l piso secundo quoque p uni c os c i p i o n is classi s xl die a securi navi g a vi t tantum te m p est i vita s etiam in r ap id a celeritate p o l l et l a r i c i et magis ab i et i succisis u m o r diu de fluit haec omnium arborum altissima e ac rectis si m a e navium malis antemnis que propter levitate m prae fertur ab i e s communi a his p in o que ut"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "greedy": {
+      "key": "pbtmdycfoknhzsqvaujgielwxr",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.35319148936170214,
+        "boundary_recall": 0.9540229885057471,
+        "boundary_f1": 0.515527950310559,
+        "boundary_tp": 83,
+        "boundary_fp": 152,
+        "boundary_fn": 4,
+        "score": -2592.9832610440417,
+        "segmentation": "s o l s t i t i o dies si de r u m horum re d dentur suo loco vulgo satis putant ob servare ne qua de d o l an d a s ter natura n te edito s suos f r u c t u s r ob u r vere c a e sum ter e di ne m se n t i t bruma autem neque vi t i at u r neque p an datur alias ob nox i u m etiam ut t o r que at sese f in d atque quod in sub e re te m p est i v e quoque c a e s o e venit in f initum re fert et luna r is ratione c nisi a xx in xxx c a e di volunt inter omnes vero convenit utili s si mei n c o i t u eius s ter n i quem diem alii inter l uni i aliis i l e n t is luna e appellant sic certe t i b e r ius caesar c o n c rem at o ponte n a u m ac hi a r i o l a r i c e s ad res t i t u e n dum c a e di in r a et i a prae f in i vi t"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.43243243243243246,
+        "boundary_recall": 0.975609756097561,
+        "boundary_f1": 0.599250936329588,
+        "boundary_tp": 80,
+        "boundary_fp": 105,
+        "boundary_fn": 2,
+        "score": -2022.7474935314362,
+        "segmentation": "veteres utili s si m a e circum cis a s quoque in me d ullam aliqui non in utili ter relinquunt ut omnis u m o r s tanti b u s de fluat mirum apud an t i quos primo p uni c o bello classem d u illi imperatoris ab a r b o re lx die navi g a vis se contra vero hi e r o ne m regem ccxx naves e f f e c t a s diebus xl v tradit l piso secundo quoque p uni c os c i p i o n is classi s xl die a securi navi g a vi t tantum te m p est i vita s etiam in r ap id a celeritate p o l l et l a r i c i et magis ab i et i succisis u m o r diu de fluit haec omnium arborum altissima ea c rectis si m a e navium malis antemnis que propter levitate m prae fertur ab i e s communi a his p in o que ut"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "exact": {
+      "key": "pbtmdycfoknhzsqvaujgielwxr",
+      "evaluation_only": false,
+      "fit": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3702127659574468,
+        "boundary_recall": 1.0,
+        "boundary_f1": 0.5403726708074534,
+        "boundary_tp": 87,
+        "boundary_fp": 148,
+        "boundary_fn": 0,
+        "score": -2570.5775591326396,
+        "segmentation": "s o l s t i t i o dies si de r u m horum re d dentur suo loco vulgo satis putant ob servare ne qua de d o l an d a s ter natu r ante edito s suos f r u c t u s r ob u r vere c a e sum te re di ne m se n t i t bruma autem neque vi t i at u r neque p an datur alias ob nox i u m etiam ut t o r que at sese f in d atque quod in sub e re te m p est i v e quoque c a e s o e venit in f initum re fert et luna r is ratio nec nisi a xx in xxx c a e di volunt inter omnes vero convenit utili s si me in c o i t u eius s ter n i quem diem alii inter l uni i alii si l e n t is luna e appellant sic certe t i b e r ius caesar c o n c rem at o ponte n a u m ac hi a r i o l a r i c e s ad res t i t u e n dum c a e di in r a et i a prae f in i vi t"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.43478260869565216,
+        "boundary_recall": 0.975609756097561,
+        "boundary_f1": 0.6015037593984962,
+        "boundary_tp": 80,
+        "boundary_fp": 104,
+        "boundary_fn": 2,
+        "score": -2006.6335849364336,
+        "segmentation": "veteres utili s si m a e circum cis a s quoque in me d ullam aliqui non in utili ter relinquunt ut omni sum o r s tanti b u s de fluat mirum apud an t i quos primo p uni c o bello classem d u illi imperatoris ab a r b o re lx die navi g a vis se contra vero hi e r o ne m regem ccxx naves e f f e c t a s diebus xl v tradit l piso secundo quoque p uni c os c i p i o n is classi s xl die a securi navi g a vi t tantum te m p est i vita s etiam in r ap id a celeritate p o l l et l a r i c i et magis ab i et i succisis u m o r diu de fluit haec omnium arborum altissima e ac rectis si m a e navium malis antemnis que propter levitate m prae fertur ab i e s communi a his p in o que ut"
+      },
+      "fit_observed_key_accuracy": 1.0
+    },
+    "oracle_correct_letters": {
+      "key": "pbtmdkcfojnhwsqvauzgielyxr",
+      "evaluation_only": true,
+      "fit": {
+        "letters": 502,
+        "correct_letters": 502,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.3702127659574468,
+        "boundary_recall": 1.0,
+        "boundary_f1": 0.5403726708074534,
+        "boundary_tp": 87,
+        "boundary_fp": 148,
+        "boundary_fn": 0,
+        "score": -2570.5775591326396,
+        "segmentation": "s o l s t i t i o dies si de r u m horum re d dentur suo loco vulgo satis putant ob servare ne qua de d o l an d a s ter natu r ante edito s suos f r u c t u s r ob u r vere c a e sum te re di ne m se n t i t bruma autem neque vi t i at u r neque p an datur alias ob nox i u m etiam ut t o r que at sese f in d atque quod in sub e re te m p est i v e quoque c a e s o e venit in f initum re fert et luna r is ratio nec nisi a xx in xxx c a e di volunt inter omnes vero convenit utili s si me in c o i t u eius s ter n i quem diem alii inter l uni i alii si l e n t is luna e appellant sic certe t i b e r ius caesar c o n c rem at o ponte n a u m ac hi a r i o l a r i c e s ad res t i t u e n dum c a e di in r a et i a prae f in i vi t"
+      },
+      "transfer": {
+        "letters": 500,
+        "correct_letters": 500,
+        "character_accuracy": 1.0,
+        "boundary_precision": 0.43478260869565216,
+        "boundary_recall": 0.975609756097561,
+        "boundary_f1": 0.6015037593984962,
+        "boundary_tp": 80,
+        "boundary_fp": 104,
+        "boundary_fn": 2,
+        "score": -2006.6335849364336,
+        "segmentation": "veteres utili s si m a e circum cis a s quoque in me d ullam aliqui non in utili ter relinquunt ut omni sum o r s tanti b u s de fluat mirum apud an t i quos primo p uni c o bello classem d u illi imperatoris ab a r b o re lx die navi g a vis se contra vero hi e r o ne m regem ccxx naves e f f e c t a s diebus xl v tradit l piso secundo quoque p uni c os c i p i o n is classi s xl die a securi navi g a vi t tantum te m p est i vita s etiam in r ap id a celeritate p o l l et l a r i c i et magis ab i et i succisis u m o r diu de fluit haec omnium arborum altissima e ac rectis si m a e navium malis antemnis que propter levitate m prae fertur ab i e s communi a his p in o que ut"
+      },
+      "fit_observed_key_accuracy": 1.0
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

@@ -70,6 +70,8 @@ consultée. Aucune donnée du manuscrit n'est envoyée à un service extérieur.
 
 La question suivante est la **récupération de correspondances stables lorsque
 les unités et les espaces ne sont plus supposés être des lettres et mots**.
+La phase 4 avait déjà supprimé les espaces et testé des substitutions
+homophoniques avec un score de quatre caractères, en EVA et en signes composés.
 La phase 13 avait déjà testé EVA et six groupes graphiques composés ; les
 répéter ne constituerait donc pas une nouvelle piste. Une segmentation
 conjointe, une transcription indépendante et une calibration sur des systèmes
@@ -84,3 +86,8 @@ ne sera pas choisie sur la seule facilité à fabriquer des mots plausibles.
 Le choix exact des corpus, de la famille de codage et du budget reste à
 arrêter et à figer avant les prochains calculs. Ce dossier n'ajoute aucune
 lecture ni valeur phonétique au manuscrit.
+
+Un [diagnostic préparatoire de phase 20](../../voynich_phase20/README.md)
+exécute ensuite le programme de Hauer, Hayward et Kondrak (COLING 2014)
+sur son exemple public et vérifie une alternative au découpage glouton.
+Il est distinct de l'audit ci-dessus : aucun texte du manuscrit n'y est ajusté.

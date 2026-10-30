@@ -1,0 +1,60 @@
+{
+  "archives": [
+    {
+      "file": "language_data_char.tar.gz",
+      "bytes": 112066,
+      "sha256": "07e4ffa5fcf625ed2ee7f450b10b491639b1216bcdfad5274058e1cce4c4cc46",
+      "source_url": "https://raw.githubusercontent.com/bmhauer/hhk-decipherment/2c7ad49cd4f4fa852168a8ce295bf739bf076adc/language_data_char.tar.gz"
+    },
+    {
+      "file": "language_data_word.tar.gz",
+      "bytes": 68901602,
+      "sha256": "7d98c9c17b5d8c6e838627b7655bc1ae3c37bf21355d954f045ff92621065ee9",
+      "source_url": "https://raw.githubusercontent.com/bmhauer/hhk-decipherment/2c7ad49cd4f4fa852168a8ce295bf739bf076adc/language_data_word.tar.gz"
+    },
+    {
+      "file": "language_data_wordpattern.tar.gz",
+      "bytes": 94309969,
+      "sha256": "9e3534f8d5cfe5c3590eae7ace3c597757c0e87a085052779526e11edc8b6f95",
+      "source_url": "https://raw.githubusercontent.com/bmhauer/hhk-decipherment/2c7ad49cd4f4fa852168a8ce295bf739bf076adc/language_data_wordpattern.tar.gz"
+    }
+  ],
+  "extracted": [
+    {
+      "file": "lmtrain_nyt_word.chr.clm1",
+      "bytes": 479,
+      "sha256": "b1c7c75049963f55bb0e1ff104453113cf4be50b98272b776f3870aed11d8648"
+    },
+    {
+      "file": "lmtrain_nyt_word.chr.clm2",
+      "bytes": 14882,
+      "sha256": "b9523db152557f04a2f40e102f76d255e5d0ff562b60ee6dec54bcc751f25505"
+    },
+    {
+      "file": "lmtrain_nyt_word.chr.clm3",
+      "bytes": 268707,
+      "sha256": "299aa762b04e6f9211a9b3105c7a982f3d8d99aeed19b08690ac9f917240d294"
+    },
+    {
+      "file": "lmtrain_nyt_word.patlst",
+      "bytes": 340083717,
+      "sha256": "2849bc03f85c59a422f1945960ce04a4b6e66cc02c61a6484de0283c30c724fd"
+    },
+    {
+      "file": "lmtrain_nyt_word.unk.wlm1",
+      "bytes": 2928837,
+      "sha256": "da7c99e5eee36efeb1db7a6535e3175883176d685cf7cabf4c20e99d665d48f0"
+    },
+    {
+      "file": "lmtrain_nyt_word.unk.wlm2",
+      "bytes": 86639772,
+      "sha256": "2e84f0d4a94bf37234128cfe516dcde16074f203842ca3797c26b4f454b50ef3"
+    },
+    {
+      "file": "lmtrain_nyt_word.unk.wlm3",
+      "bytes": 273680649,
+      "sha256": "c17a1148beb488067f4d4c7b90af1d67fd6aacf7e933ea15ee4bc577ed809921"
+    }
+  ],
+  "redistribution": "Language models not republished; derived from NYT according to authors README."
+}

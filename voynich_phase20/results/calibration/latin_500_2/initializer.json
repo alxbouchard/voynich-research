@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin",
+      "init",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_500_2/fit.txt",
+      "2026103026",
+      "16",
+      "60000"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_500_2/fit.txt": "1e57790e0c7b4c3bcdd0526ad325758df56cffaab8428ade01ac3887ff2a9407"
+    }
+  },
+  "seconds": 0.7749742500018328,
+  "result": {
+    "restarts": [
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdycfoknhzsqvaujgielwxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdkcfoznhysqvauwgieljxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdkcfojnhzsqvauwgielyxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdkcfownhysqvaujgielzxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdkcfoznhwsqvauygieljxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdkcfojnhysqvauwgielzxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdkcfojnhzsqvauwgielyxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdjcfoznhksqvauygielwxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdwcfoznhksqvaujgielyxr"
+      },
+      {
+        "score": -5068.801118802964,
+        "key": "pbtmdzcfoknhysqvauwgieljxr"
+      },
+      {
+        "score": -6464.689911091779,
+        "key": "lhnumjbgayrfwspvitkzeodqxc"
+      },
+      {
+        "score": -6479.454843815558,
+        "key": "fbeclydvozrkjsgpunwhiamqxt"
+      },
+      {
+        "score": -6760.308518221915,
+        "key": "hgiubzpvoymlkncdrtjwsafqxe"
+      },
+      {
+        "score": -6801.355537561822,
+        "key": "vbucgzpdryixwaqlnmjfstokhe"
+      },
+      {
+        "score": -6819.017389006335,
+        "key": "bvoduzclmjixqefgtrkwsnpyha"
+      },
+      {
+        "score": -6891.688589192928,
+        "key": "bfehdjmlckaqyopunrwztsgvxi"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/joint_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin",
+      "exact",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_250_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_2_starts.txt",
+      "6"
+    ],
+    "protocol_sha256": "8f6c6033f088880c0f9a7fbe0bbe87629c5191cacd26a3822e9d9fc20e8cd236",
+    "solver_sha256": "7efa73da0ce2247077758a422276cb8f1c5f05e9fc3264959d709d8b7718aa89",
+    "argument_file_sha256": {
+      "/private/tmp/voynich-research-20261030/voynich_phase20/data/calibration/latin_250_2/fit.txt": "ef252b2fc14029a8ababcd7b864e6a3fdd75dfdb07a1d38bb7d978a6a17bde45",
+      "/private/tmp/voynich-research-20261030/voynich_phase20/tmp/calibration/latin_250_2_starts.txt": "d2e4359d3051604c1e9b0019c6d1aafde39e41c1b276e3b1d92bc191d0a29236"
+    }
+  },
+  "seconds": 0.7548335830215365,
+  "result": {
+    "key": "gmjadtfwhzxoncbueisyvplkrq",
+    "evaluations": 3904,
+    "final_start_scores": [
+      -1186.06118047763,
+      -1186.06118047763,
+      -1186.06118047763,
+      -1186.06118047763
+    ],
+    "fit": {
+      "score": -1186.0611804776283,
+      "segmentation": "intellegi t u r quoniam f e l i cis plura genera reperiuntur sed tria maxime insignia f e r hac ea ac vi re n s quae plurima est alter ac an d id ob o l i o tertia v e r sic o l o r i qua et f r ac i a vocat u r etiam num f e r hac ea et e n u i ora b o l i a et in ordinem di gesta de n si ora que in alio genere diversa omnia ea in v e r sic o l o r i"
+    }
+  }
+}
