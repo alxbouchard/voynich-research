@@ -1,0 +1,14 @@
+{
+  "scope": "Development on all 48 phase-20/21 known plaintext passages. New test passages are not selected yet.",
+  "boundary_context": "three letters to each side, spaces removed",
+  "backoff_contexts": ["3+3", "2+2", "1+1", "global boundary rate"],
+  "backoff_strength": 20,
+  "training_sources": ["Caesar", "Inferno/Purgatorio"],
+  "preserve_all_phase21_boundaries": true,
+  "threshold_grid": [0.8, 0.9, 0.95, 0.975, 0.99, 0.995],
+  "weight_grid": [0.5, 1.0, 2.0, 4.0],
+  "selection_rule": "Require zero newly introduced false cuts overall and at least one corrected fusion in each language; maximize corrected fusions, then higher threshold and lower weight. If none qualify, choose the fewest false cuts among settings improving both languages, then most corrected fusions; mark strict development failure. If none improve both, use weight=0, threshold=1 as identity fallback.",
+  "probability_warning": "Smoothed training frequencies, not calibrated probabilities of correctness on another work.",
+  "key_policy": "Phase-21 key search is unchanged; corrections only segment the fixed decoded letters.",
+  "verification_seed": 220030001
+}
