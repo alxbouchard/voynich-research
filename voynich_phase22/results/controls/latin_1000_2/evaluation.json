@@ -1,0 +1,176 @@
+{
+  "case": "latin_1000_2",
+  "language": "latin",
+  "rows": {
+    "recovered": {
+      "key": "vptcwrhkdnbseugazfiljxqmoy",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 1000,
+          "correct_letters": 1000,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8838709677419355,
+          "boundary_recall": 0.7873563218390804,
+          "boundary_f1": 0.8328267477203647,
+          "boundary_tp": 137,
+          "boundary_fp": 18,
+          "boundary_fn": 37,
+          "score": -2909.448256659744,
+          "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siorecorticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+        },
+        "corrected": {
+          "letters": 1000,
+          "correct_letters": 1000,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8846153846153846,
+          "boundary_recall": 0.7931034482758621,
+          "boundary_f1": 0.8363636363636363,
+          "boundary_tp": 138,
+          "boundary_fp": 18,
+          "boundary_fn": 36,
+          "score": -2907.401802113403,
+          "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siore corticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+        },
+        "changes": {
+          "added_correct_cuts": 1,
+          "added_false_cuts": 0,
+          "baseline_fp": 18,
+          "corrected_fp": 18,
+          "baseline_fn": 37,
+          "corrected_fn": 36,
+          "baseline_f1": 0.8328267477203647,
+          "corrected_f1": 0.8363636363636363
+        },
+        "added_positions": [
+          912
+        ]
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.7666666666666667,
+          "boundary_f1": 0.8165680473372781,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 21,
+          "score": -1534.3820745170751,
+          "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+        },
+        "corrected": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.7666666666666667,
+          "boundary_f1": 0.8165680473372781,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 21,
+          "score": -1534.3820745170751,
+          "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 10,
+          "corrected_fp": 10,
+          "baseline_fn": 21,
+          "corrected_fn": 21,
+          "baseline_f1": 0.8165680473372781,
+          "corrected_f1": 0.8165680473372781
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "vptckrhjdnbseugazfilwxqmoy",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 1000,
+          "correct_letters": 1000,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8838709677419355,
+          "boundary_recall": 0.7873563218390804,
+          "boundary_f1": 0.8328267477203647,
+          "boundary_tp": 137,
+          "boundary_fp": 18,
+          "boundary_fn": 37,
+          "score": -2909.448256659744,
+          "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siorecorticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+        },
+        "corrected": {
+          "letters": 1000,
+          "correct_letters": 1000,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8846153846153846,
+          "boundary_recall": 0.7931034482758621,
+          "boundary_f1": 0.8363636363636363,
+          "boundary_tp": 138,
+          "boundary_fp": 18,
+          "boundary_fn": 36,
+          "score": -2907.401802113403,
+          "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siore corticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+        },
+        "changes": {
+          "added_correct_cuts": 1,
+          "added_false_cuts": 0,
+          "baseline_fp": 18,
+          "corrected_fp": 18,
+          "baseline_fn": 37,
+          "corrected_fn": 36,
+          "baseline_f1": 0.8328267477203647,
+          "corrected_f1": 0.8363636363636363
+        },
+        "added_positions": [
+          912
+        ]
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.7666666666666667,
+          "boundary_f1": 0.8165680473372781,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 21,
+          "score": -1534.3820745170751,
+          "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+        },
+        "corrected": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8734177215189873,
+          "boundary_recall": 0.7666666666666667,
+          "boundary_f1": 0.8165680473372781,
+          "boundary_tp": 69,
+          "boundary_fp": 10,
+          "boundary_fn": 21,
+          "score": -1534.3820745170751,
+          "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 10,
+          "corrected_fp": 10,
+          "baseline_fn": 21,
+          "corrected_fn": 21,
+          "baseline_f1": 0.8165680473372781,
+          "corrected_f1": 0.8165680473372781
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

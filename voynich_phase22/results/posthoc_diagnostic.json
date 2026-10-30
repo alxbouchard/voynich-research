@@ -1,0 +1,655 @@
+{
+  "scope": "Added after results; descriptive, not preregistered, no parameter selection or new fitting. Single-cut gains do not enumerate joint changes.",
+  "transfer_totals": {
+    "recovered": {
+      "missing_boundaries": 126,
+      "missing_below_context_threshold": 123,
+      "missing_eligible": 3,
+      "false_eligible": 1,
+      "best_isolated_missing_cut_gain": -1.518766247149951
+    },
+    "oracle": {
+      "missing_boundaries": 117,
+      "missing_below_context_threshold": 114,
+      "missing_eligible": 3,
+      "false_eligible": 1,
+      "best_isolated_missing_cut_gain": -1.518766247149951
+    }
+  },
+  "cases": [
+    {
+      "case": "latin_250_1",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 4,
+      "missing_below_context_threshold": 4,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_250_1",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 13,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 2,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 314,
+          "true_boundary": true,
+          "context_probability": 0.9239334892859985,
+          "isolated_cut_score_gain": -1.518766247149951
+        },
+        {
+          "gap": 365,
+          "true_boundary": true,
+          "context_probability": 0.9584967603229536,
+          "isolated_cut_score_gain": -2.4786301612993547
+        }
+      ]
+    },
+    {
+      "case": "latin_250_1",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 4,
+      "missing_below_context_threshold": 4,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_250_1",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 13,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 2,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 314,
+          "true_boundary": true,
+          "context_probability": 0.9239334892859985,
+          "isolated_cut_score_gain": -1.518766247149951
+        },
+        {
+          "gap": 365,
+          "true_boundary": true,
+          "context_probability": 0.9584967603229536,
+          "isolated_cut_score_gain": -2.4786301612993547
+        }
+      ]
+    },
+    {
+      "case": "latin_500_1",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 17,
+      "missing_below_context_threshold": 17,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_500_1",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 15,
+      "missing_below_context_threshold": 14,
+      "missing_eligible": 1,
+      "false_eligible": 1,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 7,
+          "true_boundary": false,
+          "context_probability": 0.9553868033835254,
+          "isolated_cut_score_gain": -7.7237693696222625
+        },
+        {
+          "gap": 179,
+          "true_boundary": true,
+          "context_probability": 0.9372456813049667,
+          "isolated_cut_score_gain": -3.8995750602603994
+        }
+      ]
+    },
+    {
+      "case": "latin_500_1",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 17,
+      "missing_below_context_threshold": 17,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_500_1",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 15,
+      "missing_below_context_threshold": 14,
+      "missing_eligible": 1,
+      "false_eligible": 1,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 7,
+          "true_boundary": false,
+          "context_probability": 0.9553868033835254,
+          "isolated_cut_score_gain": -7.7237693696222625
+        },
+        {
+          "gap": 179,
+          "true_boundary": true,
+          "context_probability": 0.9372456813049667,
+          "isolated_cut_score_gain": -3.8995750602603994
+        }
+      ]
+    },
+    {
+      "case": "latin_1000_1",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 20,
+      "missing_below_context_threshold": 20,
+      "missing_eligible": 0,
+      "false_eligible": 2,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 718,
+          "true_boundary": false,
+          "context_probability": 0.9519494882034938,
+          "isolated_cut_score_gain": 1.4042179573010656
+        },
+        {
+          "gap": 790,
+          "true_boundary": false,
+          "context_probability": 0.9519494882034938,
+          "isolated_cut_score_gain": 0.735097533686607
+        }
+      ]
+    },
+    {
+      "case": "latin_1000_1",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 11,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_1000_1",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 20,
+      "missing_below_context_threshold": 20,
+      "missing_eligible": 0,
+      "false_eligible": 2,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 718,
+          "true_boundary": false,
+          "context_probability": 0.9519494882034938,
+          "isolated_cut_score_gain": 1.4042179573010656
+        },
+        {
+          "gap": 790,
+          "true_boundary": false,
+          "context_probability": 0.9519494882034938,
+          "isolated_cut_score_gain": 0.735097533686607
+        }
+      ]
+    },
+    {
+      "case": "latin_1000_1",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 11,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_250_2",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 8,
+      "missing_below_context_threshold": 8,
+      "missing_eligible": 0,
+      "false_eligible": 1,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 183,
+          "true_boundary": false,
+          "context_probability": 0.9370049600712204,
+          "isolated_cut_score_gain": -0.983602501620569
+        }
+      ]
+    },
+    {
+      "case": "latin_250_2",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 16,
+      "missing_below_context_threshold": 16,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_250_2",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 9,
+      "missing_below_context_threshold": 9,
+      "missing_eligible": 0,
+      "false_eligible": 1,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 183,
+          "true_boundary": false,
+          "context_probability": 0.9370049600712204,
+          "isolated_cut_score_gain": -0.9836025016206826
+        }
+      ]
+    },
+    {
+      "case": "latin_250_2",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 14,
+      "missing_below_context_threshold": 14,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_500_2",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 12,
+      "missing_below_context_threshold": 12,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_500_2",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 17,
+      "missing_below_context_threshold": 17,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_500_2",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 12,
+      "missing_below_context_threshold": 12,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_500_2",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 17,
+      "missing_below_context_threshold": 17,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_1000_2",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 37,
+      "missing_below_context_threshold": 36,
+      "missing_eligible": 1,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 912,
+          "true_boundary": true,
+          "context_probability": 0.9432175578099243,
+          "isolated_cut_score_gain": 2.046454546341038
+        }
+      ]
+    },
+    {
+      "case": "latin_1000_2",
+      "language": "latin",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 21,
+      "missing_below_context_threshold": 21,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "latin_1000_2",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 37,
+      "missing_below_context_threshold": 36,
+      "missing_eligible": 1,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": [
+        {
+          "gap": 912,
+          "true_boundary": true,
+          "context_probability": 0.9432175578099243,
+          "isolated_cut_score_gain": 2.046454546341038
+        }
+      ]
+    },
+    {
+      "case": "latin_1000_2",
+      "language": "latin",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 21,
+      "missing_below_context_threshold": 21,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_1",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_1",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 11,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_1",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_1",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 9,
+      "missing_below_context_threshold": 9,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_1",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 5,
+      "missing_below_context_threshold": 5,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_1",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 5,
+      "missing_below_context_threshold": 5,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_1",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 5,
+      "missing_below_context_threshold": 5,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_1",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 5,
+      "missing_below_context_threshold": 5,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_1",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 9,
+      "missing_below_context_threshold": 9,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_1",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 4,
+      "missing_below_context_threshold": 4,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_1",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 9,
+      "missing_below_context_threshold": 9,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_1",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 4,
+      "missing_below_context_threshold": 4,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_2",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_2",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 6,
+      "missing_below_context_threshold": 6,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_2",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_250_2",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_2",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 2,
+      "missing_below_context_threshold": 2,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_2",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 6,
+      "missing_below_context_threshold": 6,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_2",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 2,
+      "missing_below_context_threshold": 2,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_500_2",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 6,
+      "missing_below_context_threshold": 6,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_2",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "fit",
+      "missing_boundaries": 11,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_2",
+      "language": "italian",
+      "mode": "recovered",
+      "split": "transfer",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_2",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "fit",
+      "missing_boundaries": 11,
+      "missing_below_context_threshold": 11,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    },
+    {
+      "case": "italian_1000_2",
+      "language": "italian",
+      "mode": "oracle",
+      "split": "transfer",
+      "missing_boundaries": 1,
+      "missing_below_context_threshold": 1,
+      "missing_eligible": 0,
+      "false_eligible": 0,
+      "eligible_single_cut_diagnostics": []
+    }
+  ]
+}

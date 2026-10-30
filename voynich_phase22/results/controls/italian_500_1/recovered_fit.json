@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_1_recovered_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_1_recovered_fit.txt": "12844e6905018dab0d3546bc0b589ee67bf961a823d164af54434154b3aea6ea"
+    }
+  },
+  "seconds": 0.10219124983996153,
+  "result": {
+    "corrected": {
+      "score": -1133.584527850645,
+      "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+    },
+    "baseline": {
+      "score": -1133.584527850645,
+      "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+    },
+    "added_positions": []
+  }
+}

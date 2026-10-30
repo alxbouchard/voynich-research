@@ -1,0 +1,172 @@
+{
+  "case": "italian_500_2",
+  "language": "italian",
+  "rows": {
+    "recovered": {
+      "key": "cefuhvtrdbwgnjikyxzmoqalsp",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9696969696969697,
+          "boundary_recall": 0.9846153846153847,
+          "boundary_f1": 0.9770992366412213,
+          "boundary_tp": 128,
+          "boundary_fp": 4,
+          "boundary_fn": 2,
+          "score": -1060.5110179392266,
+          "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+        },
+        "corrected": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9696969696969697,
+          "boundary_recall": 0.9846153846153847,
+          "boundary_f1": 0.9770992366412213,
+          "boundary_tp": 128,
+          "boundary_fp": 4,
+          "boundary_fn": 2,
+          "score": -1060.5110179392266,
+          "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 2,
+          "corrected_fn": 2,
+          "baseline_f1": 0.9770992366412213,
+          "corrected_f1": 0.9770992366412213
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9682539682539683,
+          "boundary_recall": 0.953125,
+          "boundary_f1": 0.9606299212598425,
+          "boundary_tp": 122,
+          "boundary_fp": 4,
+          "boundary_fn": 6,
+          "score": -1044.2974031775373,
+          "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9682539682539683,
+          "boundary_recall": 0.953125,
+          "boundary_f1": 0.9606299212598425,
+          "boundary_tp": 122,
+          "boundary_fp": 4,
+          "boundary_fn": 6,
+          "score": -1044.2974031775373,
+          "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 6,
+          "corrected_fn": 6,
+          "baseline_f1": 0.9606299212598425,
+          "corrected_f1": 0.9606299212598425
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "cefuhvtrdbygnjiwxkzmoqalsp",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9696969696969697,
+          "boundary_recall": 0.9846153846153847,
+          "boundary_f1": 0.9770992366412213,
+          "boundary_tp": 128,
+          "boundary_fp": 4,
+          "boundary_fn": 2,
+          "score": -1060.5110179392266,
+          "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+        },
+        "corrected": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9696969696969697,
+          "boundary_recall": 0.9846153846153847,
+          "boundary_f1": 0.9770992366412213,
+          "boundary_tp": 128,
+          "boundary_fp": 4,
+          "boundary_fn": 2,
+          "score": -1060.5110179392266,
+          "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 2,
+          "corrected_fn": 2,
+          "baseline_f1": 0.9770992366412213,
+          "corrected_f1": 0.9770992366412213
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9682539682539683,
+          "boundary_recall": 0.953125,
+          "boundary_f1": 0.9606299212598425,
+          "boundary_tp": 122,
+          "boundary_fp": 4,
+          "boundary_fn": 6,
+          "score": -1044.2974031775373,
+          "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+        },
+        "corrected": {
+          "letters": 500,
+          "correct_letters": 500,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9682539682539683,
+          "boundary_recall": 0.953125,
+          "boundary_f1": 0.9606299212598425,
+          "boundary_tp": 122,
+          "boundary_fp": 4,
+          "boundary_fn": 6,
+          "score": -1044.2974031775373,
+          "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 4,
+          "corrected_fp": 4,
+          "baseline_fn": 6,
+          "corrected_fn": 6,
+          "baseline_f1": 0.9606299212598425,
+          "corrected_f1": 0.9606299212598425
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": true,
+  "NOT_TRANSLATION": true
+}

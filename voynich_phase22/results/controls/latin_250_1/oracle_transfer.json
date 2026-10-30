@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_1_oracle_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_1_oracle_transfer.txt": "c817db858645064e103cc763c4f789d717db2b65f7aaedbfd5a0b23cc4c8d421"
+    }
+  },
+  "seconds": 0.07967162504792213,
+  "result": {
+    "corrected": {
+      "score": -1360.9399291489744,
+      "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+    },
+    "baseline": {
+      "score": -1360.9399291489744,
+      "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+    },
+    "added_positions": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_2_oracle_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_1000_2_oracle_transfer.txt": "9b63de2094d1bdb9c178541d322963b8b577ab6b9ad5a6370cecfe04600344dd"
+    }
+  },
+  "seconds": 0.08462837501429021,
+  "result": {
+    "corrected": {
+      "score": -1534.3820745170751,
+      "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+    },
+    "baseline": {
+      "score": -1534.3820745170751,
+      "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+    },
+    "added_positions": []
+  }
+}

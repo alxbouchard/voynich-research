@@ -1,0 +1,172 @@
+{
+  "case": "latin_500_1",
+  "language": "latin",
+  "rows": {
+    "recovered": {
+      "key": "hkfpysrgqbxvdcijtnuwoemzal",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8409090909090909,
+          "boundary_recall": 0.8131868131868132,
+          "boundary_f1": 0.8268156424581006,
+          "boundary_tp": 74,
+          "boundary_fp": 14,
+          "boundary_fn": 17,
+          "score": -1456.6087031208067,
+          "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+        },
+        "corrected": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8409090909090909,
+          "boundary_recall": 0.8131868131868132,
+          "boundary_f1": 0.8268156424581006,
+          "boundary_tp": 74,
+          "boundary_fp": 14,
+          "boundary_fn": 17,
+          "score": -1456.6087031208067,
+          "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 14,
+          "corrected_fp": 14,
+          "baseline_fn": 17,
+          "corrected_fn": 17,
+          "baseline_f1": 0.8268156424581006,
+          "corrected_f1": 0.8268156424581006
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 503,
+          "correct_letters": 502,
+          "character_accuracy": 0.9980119284294234,
+          "boundary_precision": 0.8681318681318682,
+          "boundary_recall": 0.8404255319148937,
+          "boundary_f1": 0.8540540540540541,
+          "boundary_tp": 79,
+          "boundary_fp": 12,
+          "boundary_fn": 15,
+          "score": -1324.2973936825244,
+          "segmentation": "elentisco non omittendum apud eos demjopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+        },
+        "corrected": {
+          "letters": 503,
+          "correct_letters": 502,
+          "character_accuracy": 0.9980119284294234,
+          "boundary_precision": 0.8681318681318682,
+          "boundary_recall": 0.8404255319148937,
+          "boundary_f1": 0.8540540540540541,
+          "boundary_tp": 79,
+          "boundary_fp": 12,
+          "boundary_fn": 15,
+          "score": -1324.2973936825244,
+          "segmentation": "elentisco non omittendum apud eos demjopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 12,
+          "corrected_fp": 12,
+          "baseline_fn": 15,
+          "corrected_fn": 15,
+          "baseline_f1": 0.8540540540540541,
+          "corrected_f1": 0.8540540540540541
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "hwfpysrgqbxvdciztnujoemkal",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8409090909090909,
+          "boundary_recall": 0.8131868131868132,
+          "boundary_f1": 0.8268156424581006,
+          "boundary_tp": 74,
+          "boundary_fp": 14,
+          "boundary_fn": 17,
+          "score": -1456.6087031208067,
+          "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+        },
+        "corrected": {
+          "letters": 504,
+          "correct_letters": 504,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8409090909090909,
+          "boundary_recall": 0.8131868131868132,
+          "boundary_f1": 0.8268156424581006,
+          "boundary_tp": 74,
+          "boundary_fp": 14,
+          "boundary_fn": 17,
+          "score": -1456.6087031208067,
+          "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 14,
+          "corrected_fp": 14,
+          "baseline_fn": 17,
+          "corrected_fn": 17,
+          "baseline_f1": 0.8268156424581006,
+          "corrected_f1": 0.8268156424581006
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8681318681318682,
+          "boundary_recall": 0.8404255319148937,
+          "boundary_f1": 0.8540540540540541,
+          "boundary_tp": 79,
+          "boundary_fp": 12,
+          "boundary_fn": 15,
+          "score": -1324.2973936825244,
+          "segmentation": "elentisco non omittendum apud eos demzopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+        },
+        "corrected": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8681318681318682,
+          "boundary_recall": 0.8404255319148937,
+          "boundary_f1": 0.8540540540540541,
+          "boundary_tp": 79,
+          "boundary_fp": 12,
+          "boundary_fn": 15,
+          "score": -1324.2973936825244,
+          "segmentation": "elentisco non omittendum apud eos demzopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 12,
+          "corrected_fp": 12,
+          "baseline_fn": 15,
+          "corrected_fn": 15,
+          "baseline_f1": 0.8540540540540541,
+          "corrected_f1": 0.8540540540540541
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

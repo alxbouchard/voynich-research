@@ -1,0 +1,2200 @@
+{
+  "cases": [
+    {
+      "case": "latin_250_1",
+      "language": "latin",
+      "rows": {
+        "recovered": {
+          "key": "bjvpymdltexoacsunrqfkighzw",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 251,
+              "correct_letters": 251,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8571428571428571,
+              "boundary_recall": 0.9,
+              "boundary_f1": 0.8780487804878049,
+              "boundary_tp": 36,
+              "boundary_fp": 6,
+              "boundary_fn": 4,
+              "score": -665.0302614615443,
+              "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+            },
+            "corrected": {
+              "letters": 251,
+              "correct_letters": 251,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8571428571428571,
+              "boundary_recall": 0.9,
+              "boundary_f1": 0.8780487804878049,
+              "boundary_tp": 36,
+              "boundary_fp": 6,
+              "boundary_fn": 4,
+              "score": -665.0302614615443,
+              "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 6,
+              "corrected_fp": 6,
+              "baseline_fn": 4,
+              "corrected_fn": 4,
+              "baseline_f1": 0.8780487804878049,
+              "corrected_f1": 0.8780487804878049
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9156626506024096,
+              "boundary_recall": 0.8539325842696629,
+              "boundary_f1": 0.8837209302325582,
+              "boundary_tp": 76,
+              "boundary_fp": 7,
+              "boundary_fn": 13,
+              "score": -1360.9399291489744,
+              "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+            },
+            "corrected": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9156626506024096,
+              "boundary_recall": 0.8539325842696629,
+              "boundary_f1": 0.8837209302325582,
+              "boundary_tp": 76,
+              "boundary_fp": 7,
+              "boundary_fn": 13,
+              "score": -1360.9399291489744,
+              "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 7,
+              "corrected_fp": 7,
+              "baseline_fn": 13,
+              "corrected_fn": 13,
+              "baseline_f1": 0.8837209302325582,
+              "corrected_f1": 0.8837209302325582
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "byvpzmdltexoacsunrqfkighjw",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 251,
+              "correct_letters": 251,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8571428571428571,
+              "boundary_recall": 0.9,
+              "boundary_f1": 0.8780487804878049,
+              "boundary_tp": 36,
+              "boundary_fp": 6,
+              "boundary_fn": 4,
+              "score": -665.0302614615443,
+              "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+            },
+            "corrected": {
+              "letters": 251,
+              "correct_letters": 251,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8571428571428571,
+              "boundary_recall": 0.9,
+              "boundary_f1": 0.8780487804878049,
+              "boundary_tp": 36,
+              "boundary_fp": 6,
+              "boundary_fn": 4,
+              "score": -665.0302614615443,
+              "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 6,
+              "corrected_fp": 6,
+              "baseline_fn": 4,
+              "corrected_fn": 4,
+              "baseline_f1": 0.8780487804878049,
+              "corrected_f1": 0.8780487804878049
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9156626506024096,
+              "boundary_recall": 0.8539325842696629,
+              "boundary_f1": 0.8837209302325582,
+              "boundary_tp": 76,
+              "boundary_fp": 7,
+              "boundary_fn": 13,
+              "score": -1360.9399291489744,
+              "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+            },
+            "corrected": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9156626506024096,
+              "boundary_recall": 0.8539325842696629,
+              "boundary_f1": 0.8837209302325582,
+              "boundary_tp": 76,
+              "boundary_fp": 7,
+              "boundary_fn": 13,
+              "score": -1360.9399291489744,
+              "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 7,
+              "corrected_fp": 7,
+              "baseline_fn": 13,
+              "corrected_fn": 13,
+              "baseline_f1": 0.8837209302325582,
+              "corrected_f1": 0.8837209302325582
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": false,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "latin_500_1",
+      "language": "latin",
+      "rows": {
+        "recovered": {
+          "key": "hkfpysrgqbxvdcijtnuwoemzal",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8409090909090909,
+              "boundary_recall": 0.8131868131868132,
+              "boundary_f1": 0.8268156424581006,
+              "boundary_tp": 74,
+              "boundary_fp": 14,
+              "boundary_fn": 17,
+              "score": -1456.6087031208067,
+              "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+            },
+            "corrected": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8409090909090909,
+              "boundary_recall": 0.8131868131868132,
+              "boundary_f1": 0.8268156424581006,
+              "boundary_tp": 74,
+              "boundary_fp": 14,
+              "boundary_fn": 17,
+              "score": -1456.6087031208067,
+              "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 14,
+              "corrected_fp": 14,
+              "baseline_fn": 17,
+              "corrected_fn": 17,
+              "baseline_f1": 0.8268156424581006,
+              "corrected_f1": 0.8268156424581006
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 503,
+              "correct_letters": 502,
+              "character_accuracy": 0.9980119284294234,
+              "boundary_precision": 0.8681318681318682,
+              "boundary_recall": 0.8404255319148937,
+              "boundary_f1": 0.8540540540540541,
+              "boundary_tp": 79,
+              "boundary_fp": 12,
+              "boundary_fn": 15,
+              "score": -1324.2973936825244,
+              "segmentation": "elentisco non omittendum apud eos demjopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+            },
+            "corrected": {
+              "letters": 503,
+              "correct_letters": 502,
+              "character_accuracy": 0.9980119284294234,
+              "boundary_precision": 0.8681318681318682,
+              "boundary_recall": 0.8404255319148937,
+              "boundary_f1": 0.8540540540540541,
+              "boundary_tp": 79,
+              "boundary_fp": 12,
+              "boundary_fn": 15,
+              "score": -1324.2973936825244,
+              "segmentation": "elentisco non omittendum apud eos demjopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 12,
+              "corrected_fp": 12,
+              "baseline_fn": 15,
+              "corrected_fn": 15,
+              "baseline_f1": 0.8540540540540541,
+              "corrected_f1": 0.8540540540540541
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "hwfpysrgqbxvdciztnujoemkal",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8409090909090909,
+              "boundary_recall": 0.8131868131868132,
+              "boundary_f1": 0.8268156424581006,
+              "boundary_tp": 74,
+              "boundary_fp": 14,
+              "boundary_fn": 17,
+              "score": -1456.6087031208067,
+              "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+            },
+            "corrected": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8409090909090909,
+              "boundary_recall": 0.8131868131868132,
+              "boundary_f1": 0.8268156424581006,
+              "boundary_tp": 74,
+              "boundary_fp": 14,
+              "boundary_fn": 17,
+              "score": -1456.6087031208067,
+              "segmentation": "utilis lentore ab alia pice differens item colore rutilante et quod pinguiorest reliqua omni illa fit epiceae res in aferventibus coacta lapidibus in alveis vali diroboris aut si alvei non sint struis congerie velut in carbonis usu haec in vinum additur farinae modotus an igrior colore eadem res in a si cum aqua lenius decoquatur coleturque rufocolore lentescit ac stillaticia vocatur seponuntur autem ad id fere vitiares in aecortexque aliatemperies ad crapulam namque floscrudus res inaecum multa a stulatenui brevique avulsus conciditur ad cribrum minuta de inferventia quadone ccoquatur"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 14,
+              "corrected_fp": 14,
+              "baseline_fn": 17,
+              "corrected_fn": 17,
+              "baseline_f1": 0.8268156424581006,
+              "corrected_f1": 0.8268156424581006
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8681318681318682,
+              "boundary_recall": 0.8404255319148937,
+              "boundary_f1": 0.8540540540540541,
+              "boundary_tp": 79,
+              "boundary_fp": 12,
+              "boundary_fn": 15,
+              "score": -1324.2973936825244,
+              "segmentation": "elentisco non omittendum apud eos demzopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+            },
+            "corrected": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8681318681318682,
+              "boundary_recall": 0.8404255319148937,
+              "boundary_f1": 0.8540540540540541,
+              "boundary_tp": 79,
+              "boundary_fp": 12,
+              "boundary_fn": 15,
+              "score": -1324.2973936825244,
+              "segmentation": "elentisco non omittendum apud eos demzopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 12,
+              "corrected_fp": 12,
+              "baseline_fn": 15,
+              "corrected_fn": 15,
+              "baseline_f1": 0.8540540540540541,
+              "corrected_f1": 0.8540540540540541
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": false,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "latin_1000_1",
+      "language": "latin",
+      "rows": {
+        "recovered": {
+          "key": "rexvawluzbnqgdisoyckfhptjm",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 1001,
+              "correct_letters": 1001,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9125,
+              "boundary_recall": 0.8795180722891566,
+              "boundary_f1": 0.8957055214723927,
+              "boundary_tp": 146,
+              "boundary_fp": 14,
+              "boundary_fn": 20,
+              "score": -2534.5916761795534,
+              "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properantque in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturantque celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+            },
+            "corrected": {
+              "letters": 1001,
+              "correct_letters": 1001,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9012345679012346,
+              "boundary_recall": 0.8795180722891566,
+              "boundary_f1": 0.8902439024390244,
+              "boundary_tp": 146,
+              "boundary_fp": 16,
+              "boundary_fn": 20,
+              "score": -2532.4523606885614,
+              "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properant que in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturant que celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 2,
+              "baseline_fp": 14,
+              "corrected_fp": 16,
+              "baseline_fn": 20,
+              "corrected_fn": 20,
+              "baseline_f1": 0.8957055214723927,
+              "corrected_f1": 0.8902439024390244
+            },
+            "added_positions": [
+              718,
+              790
+            ]
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9036144578313253,
+              "boundary_recall": 0.872093023255814,
+              "boundary_f1": 0.8875739644970414,
+              "boundary_tp": 75,
+              "boundary_fp": 8,
+              "boundary_fn": 11,
+              "score": -1357.6637823612687,
+              "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+            },
+            "corrected": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9036144578313253,
+              "boundary_recall": 0.872093023255814,
+              "boundary_f1": 0.8875739644970414,
+              "boundary_tp": 75,
+              "boundary_fp": 8,
+              "boundary_fn": 11,
+              "score": -1357.6637823612687,
+              "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 8,
+              "corrected_fp": 8,
+              "baseline_fn": 11,
+              "corrected_fn": 11,
+              "baseline_f1": 0.8875739644970414,
+              "corrected_f1": 0.8875739644970414
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "rexvawluzbnqgdisoycjfhptkm",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 1001,
+              "correct_letters": 1001,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9125,
+              "boundary_recall": 0.8795180722891566,
+              "boundary_f1": 0.8957055214723927,
+              "boundary_tp": 146,
+              "boundary_fp": 14,
+              "boundary_fn": 20,
+              "score": -2534.5916761795534,
+              "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properantque in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturantque celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+            },
+            "corrected": {
+              "letters": 1001,
+              "correct_letters": 1001,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9012345679012346,
+              "boundary_recall": 0.8795180722891566,
+              "boundary_f1": 0.8902439024390244,
+              "boundary_tp": 146,
+              "boundary_fp": 16,
+              "boundary_fn": 20,
+              "score": -2532.4523606885614,
+              "segmentation": "quoniam int hessaliam ac edoniaque plurimatum ficusexeat maxime tamen in aegypto apparet haec ratio et reliquae quidem arbores ut primum coepere continuant germinationem robur et abies et larix inter mittunt tripertito ac terna germinaedunt id eo et tersquamas corticumspargunt quod omnibus arboribus ingerminatione e venit quoniam praegnatium rumpitur cort ex est autem prima earum incipientevere circiter xv diebus iterum germinant transeunt egeminossole sic fit ut prima cacumina in pelli secutis appareat geniculato incremento tertia est earundemaso l stitiobrevissima nec diutius septenis diebus clareque et tunc cernitur excrescentium cacuminum articulatio vitissolabis parturit primum cum emittituvam iterum cum digerit eorum quae non florent partus tantum est et maturitas quaedam statim in germinatione florent properant que in eo sed tardematu res cunt ut vitisserotino quaedam germinatu florent maturant que celeriter sicuti morus quae novissima urbanarum germinat nec nisi exacto frigore ob id dicta sapientissima arborum sed cum coepit in tantum universa germinatio erumpit ut una nocte peragatur etiam cum strepitu ex iis quae hiemeaquila ex oriente"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 2,
+              "baseline_fp": 14,
+              "corrected_fp": 16,
+              "baseline_fn": 20,
+              "corrected_fn": 20,
+              "baseline_f1": 0.8957055214723927,
+              "corrected_f1": 0.8902439024390244
+            },
+            "added_positions": [
+              718,
+              790
+            ]
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9036144578313253,
+              "boundary_recall": 0.872093023255814,
+              "boundary_f1": 0.8875739644970414,
+              "boundary_tp": 75,
+              "boundary_fp": 8,
+              "boundary_fn": 11,
+              "score": -1357.6637823612687,
+              "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+            },
+            "corrected": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9036144578313253,
+              "boundary_recall": 0.872093023255814,
+              "boundary_f1": 0.8875739644970414,
+              "boundary_tp": 75,
+              "boundary_fp": 8,
+              "boundary_fn": 11,
+              "score": -1357.6637823612687,
+              "segmentation": "cerasus et prunus sequitur laurus illam cupressus de in punicafici et vites et oleae florentibus iam his germinant concipiunt vergiliarum ex ortu hoc sidusillarum est floret autem solstitio vitis et quae paulo serius incipitolea de florescunt omnia septenis diebus non celerius quaedam tardius sed nulla pluribus bis septenis omnia et intra viiii diu letesiarum praecursu novellae arbores carent fructu quam diu crescunt perdunt facillime ante maturitatem palma ficusamygdalam aluspirus itempunica quae etiam roribus nimiis et pruinis florema mittit qua de causa inflectunt ramos eius"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 8,
+              "corrected_fp": 8,
+              "baseline_fn": 11,
+              "corrected_fn": 11,
+              "baseline_f1": 0.8875739644970414,
+              "corrected_f1": 0.8875739644970414
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": false,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "latin_250_2",
+      "language": "latin",
+      "rows": {
+        "recovered": {
+          "key": "lrcpynugwbqhtxikoejasmdfvz",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 257,
+              "correct_letters": 253,
+              "character_accuracy": 0.9844357976653697,
+              "boundary_precision": 0.9302325581395349,
+              "boundary_recall": 0.8333333333333334,
+              "boundary_f1": 0.8791208791208791,
+              "boundary_tp": 40,
+              "boundary_fp": 3,
+              "boundary_fn": 8,
+              "score": -738.1278530174756,
+              "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat vederaemira proditur natura ad experienda hinasi has fiat eligno eius hinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+            },
+            "corrected": {
+              "letters": 257,
+              "correct_letters": 253,
+              "character_accuracy": 0.9844357976653697,
+              "boundary_precision": 0.9302325581395349,
+              "boundary_recall": 0.8333333333333334,
+              "boundary_f1": 0.8791208791208791,
+              "boundary_tp": 40,
+              "boundary_fp": 3,
+              "boundary_fn": 8,
+              "score": -738.1278530174756,
+              "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat vederaemira proditur natura ad experienda hinasi has fiat eligno eius hinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 3,
+              "corrected_fp": 3,
+              "baseline_fn": 8,
+              "corrected_fn": 8,
+              "baseline_f1": 0.8791208791208791,
+              "corrected_f1": 0.8791208791208791
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 496,
+              "character_accuracy": 0.992,
+              "boundary_precision": 0.7532467532467533,
+              "boundary_recall": 0.7837837837837838,
+              "boundary_f1": 0.7682119205298014,
+              "boundary_tp": 58,
+              "boundary_fp": 19,
+              "boundary_fn": 16,
+              "score": -1427.8932373429723,
+              "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibulaquaeca hocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculaecoma neque v ac super hacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta nahium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 496,
+              "character_accuracy": 0.992,
+              "boundary_precision": 0.7532467532467533,
+              "boundary_recall": 0.7837837837837838,
+              "boundary_f1": 0.7682119205298014,
+              "boundary_tp": 58,
+              "boundary_fp": 19,
+              "boundary_fn": 16,
+              "score": -1427.8932373429723,
+              "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibulaquaeca hocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculaecoma neque v ac super hacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta nahium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 19,
+              "corrected_fp": 19,
+              "baseline_fn": 16,
+              "corrected_fn": 16,
+              "baseline_f1": 0.7682119205298014,
+              "corrected_f1": 0.7682119205298014
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "lrcpznugkbqvtxijoewasmdfhy",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 257,
+              "correct_letters": 257,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9285714285714286,
+              "boundary_recall": 0.8125,
+              "boundary_f1": 0.8666666666666667,
+              "boundary_tp": 39,
+              "boundary_fp": 3,
+              "boundary_fn": 9,
+              "score": -739.2834084193197,
+              "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat hederaemira proditur natura ad experienda vinasivas fiat eligno eius vinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+            },
+            "corrected": {
+              "letters": 257,
+              "correct_letters": 257,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9285714285714286,
+              "boundary_recall": 0.8125,
+              "boundary_f1": 0.8666666666666667,
+              "boundary_tp": 39,
+              "boundary_fp": 3,
+              "boundary_fn": 9,
+              "score": -739.2834084193197,
+              "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat hederaemira proditur natura ad experienda vinasivas fiat eligno eius vinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 3,
+              "corrected_fp": 3,
+              "baseline_fn": 9,
+              "corrected_fn": 9,
+              "baseline_f1": 0.8666666666666667,
+              "corrected_f1": 0.8666666666666667
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.7894736842105263,
+              "boundary_recall": 0.8108108108108109,
+              "boundary_f1": 0.8,
+              "boundary_tp": 60,
+              "boundary_fp": 16,
+              "boundary_fn": 14,
+              "score": -1378.3305516454009,
+              "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibula quae cavocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculae comaneque hac supervacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta navium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.7894736842105263,
+              "boundary_recall": 0.8108108108108109,
+              "boundary_f1": 0.8,
+              "boundary_tp": 60,
+              "boundary_fp": 16,
+              "boundary_fn": 14,
+              "score": -1378.3305516454009,
+              "segmentation": "a si a circa anaeti cum lacumnascuntur nostratibus fungosior sub est natura cartilagine bibula quae cavocorpore intus supernetenui inarescit ligno fissilis praeacuta semper acie geniculata ceterogracilitas nodisque distincta leni fastigio tenuaturinca cum in acrassiore paniculae comaneque hac supervacua aut enim pro plumastrat ac auponarum replet aut ubilignosiore in duruit callo sic ut in belgis contusa et interiecta navium commissuris ferum in attextus gluti notenaci orrimisque explendis fidelior pice calamis orientis populi bella conficiunt calamis mortem ad celerant"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 16,
+              "corrected_fp": 16,
+              "baseline_fn": 14,
+              "corrected_fn": 14,
+              "baseline_f1": 0.8,
+              "corrected_f1": 0.8
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": false,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "latin_500_2",
+      "language": "latin",
+      "rows": {
+        "recovered": {
+          "key": "wqghvkrjamufelztnicxopsybd",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8518518518518519,
+              "boundary_f1": 0.8625,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 12,
+              "score": -1380.8509817104007,
+              "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8518518518518519,
+              "boundary_f1": 0.8625,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 12,
+              "score": -1380.8509817104007,
+              "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 10,
+              "corrected_fp": 10,
+              "baseline_fn": 12,
+              "corrected_fn": 12,
+              "baseline_f1": 0.8625,
+              "corrected_f1": 0.8625
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8023255813953488,
+              "boundary_f1": 0.8363636363636363,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 17,
+              "score": -1392.4155908498242,
+              "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+            },
+            "corrected": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8023255813953488,
+              "boundary_f1": 0.8363636363636363,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 17,
+              "score": -1392.4155908498242,
+              "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 10,
+              "corrected_fp": 10,
+              "baseline_fn": 17,
+              "corrected_fn": 17,
+              "baseline_f1": 0.8363636363636363,
+              "corrected_f1": 0.8363636363636363
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "zqghvwrjamufelktnicxopsybd",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8518518518518519,
+              "boundary_f1": 0.8625,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 12,
+              "score": -1380.8509817104007,
+              "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8518518518518519,
+              "boundary_f1": 0.8625,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 12,
+              "score": -1380.8509817104007,
+              "segmentation": "ipsa recisisque aculeis rubialligant et intorta corylus mirumque contusoligno ali cui maiores ad vincula esse vires salici tamen praecipuados finditur graecarubens candidioramerina sed paulo fragiliori deosoli doligat nexuina si a tria genera observant nigram utiliorem viminibus candidam agri colarum usibus tertiam quae brevissima est helicem vocant apud nos quoque multi totidem generibus nomina in ponunt vimina lemvocant eandem que purpur eam alteram nitelinam a colore quae sit tenuior tertiam gallicam quae tenuissima umoret corpori arborum est qui sanguis earum intellegi"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 10,
+              "corrected_fp": 10,
+              "baseline_fn": 12,
+              "corrected_fn": 12,
+              "baseline_f1": 0.8625,
+              "corrected_f1": 0.8625
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8023255813953488,
+              "boundary_f1": 0.8363636363636363,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 17,
+              "score": -1392.4155908498242,
+              "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+            },
+            "corrected": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.8023255813953488,
+              "boundary_f1": 0.8363636363636363,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 17,
+              "score": -1392.4155908498242,
+              "segmentation": "quaerentibus vere hora diei secunda lapideincisus manataltius fractus siccus videtur proximi plerisque ad ipes hi vocantura colore alburnummollis ac pessima pars ligni etiam in robore facile putrescens teredini ob noxiaquare semper amputabitur sub est huic carocarniossa id est materia eoptimum alternant fructus quibus siccius lignum ut oleamagis quam quibus carnosum ut cerasus nec omnibus ad ipescarnes velargae uti nec animalium ac errimis neutrum habent buxus cornu soleanec medullam minimumque etiam sanguinis sicutiossa non habent sorbacarnem sabuciat plurimam ambaeme d ullam"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 10,
+              "corrected_fp": 10,
+              "baseline_fn": 17,
+              "corrected_fn": 17,
+              "baseline_f1": 0.8363636363636363,
+              "corrected_f1": 0.8363636363636363
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": false,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "latin_1000_2",
+      "language": "latin",
+      "rows": {
+        "recovered": {
+          "key": "vptcwrhkdnbseugazfiljxqmoy",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8838709677419355,
+              "boundary_recall": 0.7873563218390804,
+              "boundary_f1": 0.8328267477203647,
+              "boundary_tp": 137,
+              "boundary_fp": 18,
+              "boundary_fn": 37,
+              "score": -2909.448256659744,
+              "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siorecorticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+            },
+            "corrected": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8846153846153846,
+              "boundary_recall": 0.7931034482758621,
+              "boundary_f1": 0.8363636363636363,
+              "boundary_tp": 138,
+              "boundary_fp": 18,
+              "boundary_fn": 36,
+              "score": -2907.401802113403,
+              "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siore corticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+            },
+            "changes": {
+              "added_correct_cuts": 1,
+              "added_false_cuts": 0,
+              "baseline_fp": 18,
+              "corrected_fp": 18,
+              "baseline_fn": 37,
+              "corrected_fn": 36,
+              "baseline_f1": 0.8328267477203647,
+              "corrected_f1": 0.8363636363636363
+            },
+            "added_positions": [
+              912
+            ]
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.7666666666666667,
+              "boundary_f1": 0.8165680473372781,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 21,
+              "score": -1534.3820745170751,
+              "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+            },
+            "corrected": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.7666666666666667,
+              "boundary_f1": 0.8165680473372781,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 21,
+              "score": -1534.3820745170751,
+              "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 10,
+              "corrected_fp": 10,
+              "baseline_fn": 21,
+              "corrected_fn": 21,
+              "baseline_f1": 0.8165680473372781,
+              "corrected_f1": 0.8165680473372781
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "vptckrhjdnbseugazfilwxqmoy",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8838709677419355,
+              "boundary_recall": 0.7873563218390804,
+              "boundary_f1": 0.8328267477203647,
+              "boundary_tp": 137,
+              "boundary_fp": 18,
+              "boundary_fn": 37,
+              "score": -2909.448256659744,
+              "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siorecorticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+            },
+            "corrected": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8846153846153846,
+              "boundary_recall": 0.7931034482758621,
+              "boundary_f1": 0.8363636363636363,
+              "boundary_tp": 138,
+              "boundary_fp": 18,
+              "boundary_fn": 36,
+              "score": -2907.401802113403,
+              "segmentation": "secatur inlamnas praetenueseti l ex colore quoque non ingrata sed maxime fida iis quae terantur ut rotarumaxibus ad quos lentore fraxinus sic ut duritia ilex et utroque legiturulmus sunt vero et parviusus fabrilium ministeriorum insigne sideoque proditum terebris vaginas ex oleastrob uxoili ceulmo fraxino utilissimas fieri ex iis dem malleos maioresque epinuetilice et his autem maior adfirmitatem causa tempestivae caesurae quam in maturaequippe cum ex oleadurissimo lignocardines inforibus diutius immoti plantae modo germinaverint cato vectesa qui folios laureosulm eos fieri iubet hyginus manu briarusticis carpinea ilignacerrea quae inlamnas se centur quorumque operimento vestiaturalia materies praecipua sunt citrum terebint husaceris generabuxum palma a qui foliumilex sabuciradix populus dat et alnus ut dictum est tubersectile sicut citrum acerque ne caliarum tuberiam in pretio media pars arborum crispioret quo propior radici minoribus magisque flexilibus maculis haec prima origoluxuriae arborum alia integi et vilioris lignie pretio siore corticem fieri ut una arbor saepius veniret excogitatae sunt et lignibratteae nec satis coeperetingui"
+            },
+            "changes": {
+              "added_correct_cuts": 1,
+              "added_false_cuts": 0,
+              "baseline_fp": 18,
+              "corrected_fp": 18,
+              "baseline_fn": 37,
+              "corrected_fn": 36,
+              "baseline_f1": 0.8328267477203647,
+              "corrected_f1": 0.8363636363636363
+            },
+            "added_positions": [
+              912
+            ]
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.7666666666666667,
+              "boundary_f1": 0.8165680473372781,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 21,
+              "score": -1534.3820745170751,
+              "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+            },
+            "corrected": {
+              "letters": 504,
+              "correct_letters": 504,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.8734177215189873,
+              "boundary_recall": 0.7666666666666667,
+              "boundary_f1": 0.8165680473372781,
+              "boundary_tp": 69,
+              "boundary_fp": 10,
+              "boundary_fn": 21,
+              "score": -1534.3820745170751,
+              "segmentation": "luxuria non fuerat contentaligno iam lignum et e testudine facit viscitria genera namque in abietelarices telindicite ubeoanasci hyphearar cadiavis cum autem in quercurobo rei licepiro silvestri terebint honecnone taliis arboribus adgnasci plerique copiosissimum inquercu quod hyphe arvocant in omni arbore excepta ilice et quercu differentiam facit odor virusque et folium non iucundiodoris utroque visciamaro et lentohyphear ad saginanda pecora utilius vitia modo purgat primo de in pinguefacit quae suffecere purgationi quibus sit aliqua tabes intus negant durare ea medendi ratio"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 10,
+              "corrected_fp": 10,
+              "baseline_fn": 21,
+              "corrected_fn": 21,
+              "baseline_f1": 0.8165680473372781,
+              "corrected_f1": 0.8165680473372781
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": false,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "italian_250_1",
+      "language": "italian",
+      "rows": {
+        "recovered": {
+          "key": "thgwlepsikqodbufryvajmnzxc",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 250,
+              "correct_letters": 250,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9253731343283582,
+              "boundary_recall": 0.9841269841269841,
+              "boundary_f1": 0.9538461538461539,
+              "boundary_tp": 62,
+              "boundary_fp": 5,
+              "boundary_fn": 1,
+              "score": -549.3549301998074,
+              "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+            },
+            "corrected": {
+              "letters": 250,
+              "correct_letters": 250,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9253731343283582,
+              "boundary_recall": 0.9841269841269841,
+              "boundary_f1": 0.9538461538461539,
+              "boundary_tp": 62,
+              "boundary_fp": 5,
+              "boundary_fn": 1,
+              "score": -549.3549301998074,
+              "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 5,
+              "corrected_fp": 5,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9538461538461539,
+              "corrected_f1": 0.9538461538461539
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 501,
+              "correct_letters": 494,
+              "character_accuracy": 0.9860279441117764,
+              "boundary_precision": 0.9508196721311475,
+              "boundary_recall": 0.9133858267716536,
+              "boundary_f1": 0.9317269076305221,
+              "boundary_tp": 116,
+              "boundary_fp": 6,
+              "boundary_fn": 11,
+              "score": -1221.7963313341713,
+              "segmentation": "quella corda che cio che scocca driwwa in segno lieto vero e che come forma non s accorda molte fiate al intenwion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco d inuke si l impeto primo latterra torto da falso piacere non dei piu ammirar sekenestimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarekke intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+            },
+            "corrected": {
+              "letters": 501,
+              "correct_letters": 494,
+              "character_accuracy": 0.9860279441117764,
+              "boundary_precision": 0.9508196721311475,
+              "boundary_recall": 0.9133858267716536,
+              "boundary_f1": 0.9317269076305221,
+              "boundary_tp": 116,
+              "boundary_fp": 6,
+              "boundary_fn": 11,
+              "score": -1221.7963313341713,
+              "segmentation": "quella corda che cio che scocca driwwa in segno lieto vero e che come forma non s accorda molte fiate al intenwion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco d inuke si l impeto primo latterra torto da falso piacere non dei piu ammirar sekenestimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarekke intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 6,
+              "corrected_fp": 6,
+              "baseline_fn": 11,
+              "corrected_fn": 11,
+              "baseline_f1": 0.9317269076305221,
+              "corrected_f1": 0.9317269076305221
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "thgzlepsibqodwufryvaxmnjkc",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 250,
+              "correct_letters": 250,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9253731343283582,
+              "boundary_recall": 0.9841269841269841,
+              "boundary_f1": 0.9538461538461539,
+              "boundary_tp": 62,
+              "boundary_fp": 5,
+              "boundary_fn": 1,
+              "score": -549.3549301998074,
+              "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+            },
+            "corrected": {
+              "letters": 250,
+              "correct_letters": 250,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9253731343283582,
+              "boundary_recall": 0.9841269841269841,
+              "boundary_f1": 0.9538461538461539,
+              "boundary_tp": 62,
+              "boundary_fp": 5,
+              "boundary_fn": 1,
+              "score": -549.3549301998074,
+              "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 5,
+              "corrected_fp": 5,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9538461538461539,
+              "corrected_f1": 0.9538461538461539
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9516129032258065,
+              "boundary_recall": 0.9291338582677166,
+              "boundary_f1": 0.9402390438247012,
+              "boundary_tp": 118,
+              "boundary_fp": 6,
+              "boundary_fn": 9,
+              "score": -1038.5910904860402,
+              "segmentation": "quella corda che cio che scocca drizza in segno lieto vero e che come forma non s accorda molte fiate al intenzion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco di nube si l impeto primo latterra torto da falso piacere non dei piu ammirar se ben estimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarebbe intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+            },
+            "corrected": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9516129032258065,
+              "boundary_recall": 0.9291338582677166,
+              "boundary_f1": 0.9402390438247012,
+              "boundary_tp": 118,
+              "boundary_fp": 6,
+              "boundary_fn": 9,
+              "score": -1038.5910904860402,
+              "segmentation": "quella corda che cio che scocca drizza in segno lieto vero e che come forma non s accorda molte fiate al intenzion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco di nube si l impeto primo latterra torto da falso piacere non dei piu ammirar se ben estimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarebbe intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 6,
+              "corrected_fp": 6,
+              "baseline_fn": 9,
+              "corrected_fn": 9,
+              "baseline_f1": 0.9402390438247012,
+              "corrected_f1": 0.9402390438247012
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": true,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "italian_500_1",
+      "language": "italian",
+      "rows": {
+        "recovered": {
+          "key": "eqavitwgyfozdpsjcbhxnumlkr",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9327731092436975,
+              "boundary_recall": 0.9568965517241379,
+              "boundary_f1": 0.9446808510638298,
+              "boundary_tp": 111,
+              "boundary_fp": 8,
+              "boundary_fn": 5,
+              "score": -1133.584527850645,
+              "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+            },
+            "corrected": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9327731092436975,
+              "boundary_recall": 0.9568965517241379,
+              "boundary_f1": 0.9446808510638298,
+              "boundary_tp": 111,
+              "boundary_fp": 8,
+              "boundary_fn": 5,
+              "score": -1133.584527850645,
+              "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 8,
+              "corrected_fp": 8,
+              "baseline_fn": 5,
+              "corrected_fn": 5,
+              "baseline_f1": 0.9446808510638298,
+              "corrected_f1": 0.9446808510638298
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9029850746268657,
+              "boundary_recall": 0.9603174603174603,
+              "boundary_f1": 0.9307692307692308,
+              "boundary_tp": 121,
+              "boundary_fp": 13,
+              "boundary_fn": 5,
+              "score": -1031.58007752467,
+              "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+            },
+            "corrected": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9029850746268657,
+              "boundary_recall": 0.9603174603174603,
+              "boundary_f1": 0.9307692307692308,
+              "boundary_tp": 121,
+              "boundary_fp": 13,
+              "boundary_fn": 5,
+              "score": -1031.58007752467,
+              "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 13,
+              "corrected_fp": 13,
+              "baseline_fn": 5,
+              "corrected_fn": 5,
+              "baseline_f1": 0.9307692307692308,
+              "corrected_f1": 0.9307692307692308
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "eqavitkgjfozdpsycbhxnumlwr",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9327731092436975,
+              "boundary_recall": 0.9568965517241379,
+              "boundary_f1": 0.9446808510638298,
+              "boundary_tp": 111,
+              "boundary_fp": 8,
+              "boundary_fn": 5,
+              "score": -1133.584527850645,
+              "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+            },
+            "corrected": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9327731092436975,
+              "boundary_recall": 0.9568965517241379,
+              "boundary_f1": 0.9446808510638298,
+              "boundary_tp": 111,
+              "boundary_fp": 8,
+              "boundary_fn": 5,
+              "score": -1133.584527850645,
+              "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 8,
+              "corrected_fp": 8,
+              "baseline_fn": 5,
+              "corrected_fn": 5,
+              "baseline_f1": 0.9446808510638298,
+              "corrected_f1": 0.9446808510638298
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9029850746268657,
+              "boundary_recall": 0.9603174603174603,
+              "boundary_f1": 0.9307692307692308,
+              "boundary_tp": 121,
+              "boundary_fp": 13,
+              "boundary_fn": 5,
+              "score": -1031.58007752467,
+              "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+            },
+            "corrected": {
+              "letters": 503,
+              "correct_letters": 503,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9029850746268657,
+              "boundary_recall": 0.9603174603174603,
+              "boundary_f1": 0.9307692307692308,
+              "boundary_tp": 121,
+              "boundary_fp": 13,
+              "boundary_fn": 5,
+              "score": -1031.58007752467,
+              "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 13,
+              "corrected_fp": 13,
+              "baseline_fn": 5,
+              "corrected_fn": 5,
+              "baseline_f1": 0.9307692307692308,
+              "corrected_f1": 0.9307692307692308
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": true,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "italian_1000_1",
+      "language": "italian",
+      "rows": {
+        "recovered": {
+          "key": "oqzgnuhvsbxdfkeayirmwtclpj",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 1003,
+              "correct_letters": 1003,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9195402298850575,
+              "boundary_recall": 0.963855421686747,
+              "boundary_f1": 0.9411764705882353,
+              "boundary_tp": 240,
+              "boundary_fp": 21,
+              "boundary_fn": 9,
+              "score": -2125.6386713695347,
+              "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+            },
+            "corrected": {
+              "letters": 1003,
+              "correct_letters": 1003,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9195402298850575,
+              "boundary_recall": 0.963855421686747,
+              "boundary_f1": 0.9411764705882353,
+              "boundary_tp": 240,
+              "boundary_fp": 21,
+              "boundary_fn": 9,
+              "score": -2125.6386713695347,
+              "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 21,
+              "corrected_fp": 21,
+              "baseline_fn": 9,
+              "corrected_fn": 9,
+              "baseline_f1": 0.9411764705882353,
+              "corrected_f1": 0.9411764705882353
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 506,
+              "correct_letters": 506,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9689922480620154,
+              "boundary_recall": 0.9689922480620154,
+              "boundary_f1": 0.9689922480620154,
+              "boundary_tp": 125,
+              "boundary_fp": 4,
+              "boundary_fn": 4,
+              "score": -1010.5361103629946,
+              "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+            },
+            "corrected": {
+              "letters": 506,
+              "correct_letters": 506,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9689922480620154,
+              "boundary_recall": 0.9689922480620154,
+              "boundary_f1": 0.9689922480620154,
+              "boundary_tp": 125,
+              "boundary_fp": 4,
+              "boundary_fn": 4,
+              "score": -1010.5361103629946,
+              "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 4,
+              "corrected_fn": 4,
+              "baseline_f1": 0.9689922480620154,
+              "corrected_f1": 0.9689922480620154
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "oqzgnuhvsbjdfxeawirmytclpk",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 1003,
+              "correct_letters": 1003,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9195402298850575,
+              "boundary_recall": 0.963855421686747,
+              "boundary_f1": 0.9411764705882353,
+              "boundary_tp": 240,
+              "boundary_fp": 21,
+              "boundary_fn": 9,
+              "score": -2125.6386713695347,
+              "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+            },
+            "corrected": {
+              "letters": 1003,
+              "correct_letters": 1003,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9195402298850575,
+              "boundary_recall": 0.963855421686747,
+              "boundary_f1": 0.9411764705882353,
+              "boundary_tp": 240,
+              "boundary_fp": 21,
+              "boundary_fn": 9,
+              "score": -2125.6386713695347,
+              "segmentation": "pero ch a me veniare surgi e vinci come a colui che non intende e ode io mi nnamorava tanto quinci che nfino a li non fu alcuna cosa che mi legasse con si dolci vinci forse la mia parola par troppo o sapo sponendo il piacer de li occhi belli ne quai mirando mio disio ha posa ma chi savvede che i vivi suggelli d ogne bellezza piu fanno piu suso e ch io non m era li rivolto a quelli e scusar puommi di quel ch io maccuso per e scusarmi e veder mi dir vero che l piacer santo non e qui dischiuso perche si fa montando piu s incero benigna volontade in che si li qua sempre l amor che dritta mente spira come cupidita fa ne la in i quasi lenzio puose a quella dolce l ira e fece quietar le sante corde che la destra del cielo allenta e tira come saranno a giusti preghi sorde quelle sustanze che per dar mi voglia ch io le pregassi a tacer fur con corde bene e che sanza termi ne si doglia chi per amor di cosa che non duri etternalmente quello amor si spoglia qual e per li serentranquilli e pur i discorre ad ora ad or subito foco movendo li occhi che stavan sicuri e pare stella che tra muti loco se non che da la parte onde s accende nulla sen perde ed esso dura poco tale da l corno che n destro si stende a piedi quella croce corse un astro de la costellazion"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 21,
+              "corrected_fp": 21,
+              "baseline_fn": 9,
+              "corrected_fn": 9,
+              "baseline_f1": 0.9411764705882353,
+              "corrected_f1": 0.9411764705882353
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 506,
+              "correct_letters": 506,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9689922480620154,
+              "boundary_recall": 0.9689922480620154,
+              "boundary_f1": 0.9689922480620154,
+              "boundary_tp": 125,
+              "boundary_fp": 4,
+              "boundary_fn": 4,
+              "score": -1010.5361103629946,
+              "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+            },
+            "corrected": {
+              "letters": 506,
+              "correct_letters": 506,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9689922480620154,
+              "boundary_recall": 0.9689922480620154,
+              "boundary_f1": 0.9689922480620154,
+              "boundary_tp": 125,
+              "boundary_fp": 4,
+              "boundary_fn": 4,
+              "score": -1010.5361103629946,
+              "segmentation": "dei sicuttibi cui bisunqua m celi ianuare clusa cosi quel lume ond io m attesi a lui poscia rivolsi a la mia donna il viso e quinci e quindi stupe fatto fui che dentro a li occhi suoi ardeva un riso tal ch io pensai co miei toccar lo fondo de la mia gloria e del mio paradiso indi a udire e a veder giocondo giunse lo spirto al suo principio cose ch io non lo ntesi si parlo profondo ne per elezion mi si nascose ma per necessita che l suo concetto al segno di mortal si sopra puose e quando l arco de l ardente affetto fu si sfogato che l parlar discese inver lo segno del nostro intelletto la prima cosa che per me s intese benedetto"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 4,
+              "corrected_fn": 4,
+              "baseline_f1": 0.9689922480620154,
+              "corrected_f1": 0.9689922480620154
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": true,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "italian_250_2",
+      "language": "italian",
+      "rows": {
+        "recovered": {
+          "key": "xmjbqdetofauirznwyhgclpvks",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 255,
+              "correct_letters": 255,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9836065573770492,
+              "boundary_recall": 0.9836065573770492,
+              "boundary_f1": 0.9836065573770492,
+              "boundary_tp": 60,
+              "boundary_fp": 1,
+              "boundary_fn": 1,
+              "score": -539.7713490062378,
+              "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+            },
+            "corrected": {
+              "letters": 255,
+              "correct_letters": 255,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9836065573770492,
+              "boundary_recall": 0.9836065573770492,
+              "boundary_f1": 0.9836065573770492,
+              "boundary_tp": 60,
+              "boundary_fp": 1,
+              "boundary_fn": 1,
+              "score": -539.7713490062378,
+              "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 1,
+              "corrected_fp": 1,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9836065573770492,
+              "corrected_f1": 0.9836065573770492
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 494,
+              "character_accuracy": 0.988,
+              "boundary_precision": 0.9669421487603306,
+              "boundary_recall": 0.9512195121951219,
+              "boundary_f1": 0.9590163934426229,
+              "boundary_tp": 117,
+              "boundary_fp": 4,
+              "boundary_fn": 6,
+              "score": -1119.7445119977845,
+              "segmentation": "lo mio temprando col dolce lacerwo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor quilawwandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto liwero fu da ogne altro disire fin che l piacere etterno che diretto raggiava inweatrice dalwe l viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 494,
+              "character_accuracy": 0.988,
+              "boundary_precision": 0.9669421487603306,
+              "boundary_recall": 0.9512195121951219,
+              "boundary_f1": 0.9590163934426229,
+              "boundary_tp": 117,
+              "boundary_fp": 4,
+              "boundary_fn": 6,
+              "score": -1119.7445119977845,
+              "segmentation": "lo mio temprando col dolce lacerwo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor quilawwandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto liwero fu da ogne altro disire fin che l piacere etterno che diretto raggiava inweatrice dalwe l viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 6,
+              "corrected_fn": 6,
+              "baseline_f1": 0.9590163934426229,
+              "corrected_f1": 0.9590163934426229
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "zmkwqdetofauirxnbjhgclpvys",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 255,
+              "correct_letters": 255,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9836065573770492,
+              "boundary_recall": 0.9836065573770492,
+              "boundary_f1": 0.9836065573770492,
+              "boundary_tp": 60,
+              "boundary_fp": 1,
+              "boundary_fn": 1,
+              "score": -539.7713490062378,
+              "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+            },
+            "corrected": {
+              "letters": 255,
+              "correct_letters": 255,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9836065573770492,
+              "boundary_recall": 0.9836065573770492,
+              "boundary_f1": 0.9836065573770492,
+              "boundary_tp": 60,
+              "boundary_fp": 1,
+              "boundary_fn": 1,
+              "score": -539.7713490062378,
+              "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 1,
+              "corrected_fp": 1,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9836065573770492,
+              "corrected_f1": 0.9836065573770492
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.976,
+              "boundary_recall": 0.991869918699187,
+              "boundary_f1": 0.9838709677419355,
+              "boundary_tp": 122,
+              "boundary_fp": 3,
+              "boundary_fn": 1,
+              "score": -941.6250254916358,
+              "segmentation": "lo mio temprando col dolce l acerbo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor qui l abbandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto libero fu da ogne altro disire fin che l piacere etterno che diretto raggiava in beatrice dal bel viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.976,
+              "boundary_recall": 0.991869918699187,
+              "boundary_f1": 0.9838709677419355,
+              "boundary_tp": 122,
+              "boundary_fp": 3,
+              "boundary_fn": 1,
+              "score": -941.6250254916358,
+              "segmentation": "lo mio temprando col dolce l acerbo e quella donna ch a dio mi menava disse muta pensier pensa ch i sono presso a colui ch ogne torto disgrava io mi rivolsi al amoroso suono del mio conforto e qual io allor vidi ne li occhi santi amor qui l abbandono non per ch io pur del mio parlar diffidi ma per la mente che non puo redire sovra se tanto s altri non la guidi tanto poss io di quel punto ridir e che rimirando lei lo mio affetto libero fu da ogne altro disire fin che l piacere etterno che diretto raggiava in beatrice dal bel viso mi contenta va col secondo aspetto vincendo me col lume d un sorriso ella mi disse volgiti"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 3,
+              "corrected_fp": 3,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9838709677419355,
+              "corrected_f1": 0.9838709677419355
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": true,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "italian_500_2",
+      "language": "italian",
+      "rows": {
+        "recovered": {
+          "key": "cefuhvtrdbwgnjikyxzmoqalsp",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9696969696969697,
+              "boundary_recall": 0.9846153846153847,
+              "boundary_f1": 0.9770992366412213,
+              "boundary_tp": 128,
+              "boundary_fp": 4,
+              "boundary_fn": 2,
+              "score": -1060.5110179392266,
+              "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+            },
+            "corrected": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9696969696969697,
+              "boundary_recall": 0.9846153846153847,
+              "boundary_f1": 0.9770992366412213,
+              "boundary_tp": 128,
+              "boundary_fp": 4,
+              "boundary_fn": 2,
+              "score": -1060.5110179392266,
+              "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 2,
+              "corrected_fn": 2,
+              "baseline_f1": 0.9770992366412213,
+              "corrected_f1": 0.9770992366412213
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9682539682539683,
+              "boundary_recall": 0.953125,
+              "boundary_f1": 0.9606299212598425,
+              "boundary_tp": 122,
+              "boundary_fp": 4,
+              "boundary_fn": 6,
+              "score": -1044.2974031775373,
+              "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9682539682539683,
+              "boundary_recall": 0.953125,
+              "boundary_f1": 0.9606299212598425,
+              "boundary_tp": 122,
+              "boundary_fp": 4,
+              "boundary_fn": 6,
+              "score": -1044.2974031775373,
+              "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 6,
+              "corrected_fn": 6,
+              "baseline_f1": 0.9606299212598425,
+              "corrected_f1": 0.9606299212598425
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "cefuhvtrdbygnjiwxkzmoqalsp",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9696969696969697,
+              "boundary_recall": 0.9846153846153847,
+              "boundary_f1": 0.9770992366412213,
+              "boundary_tp": 128,
+              "boundary_fp": 4,
+              "boundary_fn": 2,
+              "score": -1060.5110179392266,
+              "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+            },
+            "corrected": {
+              "letters": 502,
+              "correct_letters": 502,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9696969696969697,
+              "boundary_recall": 0.9846153846153847,
+              "boundary_f1": 0.9770992366412213,
+              "boundary_tp": 128,
+              "boundary_fp": 4,
+              "boundary_fn": 2,
+              "score": -1060.5110179392266,
+              "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 2,
+              "corrected_fn": 2,
+              "baseline_f1": 0.9770992366412213,
+              "corrected_f1": 0.9770992366412213
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9682539682539683,
+              "boundary_recall": 0.953125,
+              "boundary_f1": 0.9606299212598425,
+              "boundary_tp": 122,
+              "boundary_fp": 4,
+              "boundary_fn": 6,
+              "score": -1044.2974031775373,
+              "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+            },
+            "corrected": {
+              "letters": 500,
+              "correct_letters": 500,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9682539682539683,
+              "boundary_recall": 0.953125,
+              "boundary_f1": 0.9606299212598425,
+              "boundary_tp": 122,
+              "boundary_fp": 4,
+              "boundary_fn": 6,
+              "score": -1044.2974031775373,
+              "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 4,
+              "corrected_fp": 4,
+              "baseline_fn": 6,
+              "corrected_fn": 6,
+              "baseline_f1": 0.9606299212598425,
+              "corrected_f1": 0.9606299212598425
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": true,
+      "NOT_TRANSLATION": true
+    },
+    {
+      "case": "italian_1000_2",
+      "language": "italian",
+      "rows": {
+        "recovered": {
+          "key": "oqdhrljbfixyawmekvptnguzsc",
+          "evaluation_only": false,
+          "fit": {
+            "baseline": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9512195121951219,
+              "boundary_recall": 0.9551020408163265,
+              "boundary_f1": 0.9531568228105907,
+              "boundary_tp": 234,
+              "boundary_fp": 12,
+              "boundary_fn": 11,
+              "score": -2172.744615264899,
+              "segmentation": "luce che n un i castella scintillando a lor vista si li appaga guarda qua giuso a la nostra procella s ei barbari venendo da tal plaga che ciascun giorno delice sicuopra rotante col suo figlio ond ella e vaga veggendo roma e l ardua sua opra stupe faciensi quando la terano a le cose mortaliando di sopra io che al divino da l umano a l etterno da l tempo era venuto e di fiorenza in popol giusto e sano di che stupor dovea esser compiuto certo tra esso e l gaudio mi facea libito non udire e starmi muto e quasi peregrin che si ricrea nel tempio del suo voto riguardando e spera gia ridir com ello stea su per la viva luce passeggiando menava io li occhi per li gradimo sumo giu e more circulando vedea visia carita sua di d altrui lume fregiati e di suo riso e atti ornati di tutte onesta di la forma genera l diparadiso gia tutta mio sguardo avea compresa in nulla parte ancor fermato fiso e volgeami con voglia riaccesa per domandar la mia donna di cose di che la mente mia era sospesa uno intendea e altro mi rispuose credea veder beatrice e vidi un se ne vestito con le genti gloriose diffuso era per li occhi e per le genedi benigna letizia in atto pio quale a tener o padre si convene e ov e ella subito diss io ond elli a terminar lo tuo"
+            },
+            "corrected": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9512195121951219,
+              "boundary_recall": 0.9551020408163265,
+              "boundary_f1": 0.9531568228105907,
+              "boundary_tp": 234,
+              "boundary_fp": 12,
+              "boundary_fn": 11,
+              "score": -2172.744615264899,
+              "segmentation": "luce che n un i castella scintillando a lor vista si li appaga guarda qua giuso a la nostra procella s ei barbari venendo da tal plaga che ciascun giorno delice sicuopra rotante col suo figlio ond ella e vaga veggendo roma e l ardua sua opra stupe faciensi quando la terano a le cose mortaliando di sopra io che al divino da l umano a l etterno da l tempo era venuto e di fiorenza in popol giusto e sano di che stupor dovea esser compiuto certo tra esso e l gaudio mi facea libito non udire e starmi muto e quasi peregrin che si ricrea nel tempio del suo voto riguardando e spera gia ridir com ello stea su per la viva luce passeggiando menava io li occhi per li gradimo sumo giu e more circulando vedea visia carita sua di d altrui lume fregiati e di suo riso e atti ornati di tutte onesta di la forma genera l diparadiso gia tutta mio sguardo avea compresa in nulla parte ancor fermato fiso e volgeami con voglia riaccesa per domandar la mia donna di cose di che la mente mia era sospesa uno intendea e altro mi rispuose credea veder beatrice e vidi un se ne vestito con le genti gloriose diffuso era per li occhi e per le genedi benigna letizia in atto pio quale a tener o padre si convene e ov e ella subito diss io ond elli a terminar lo tuo"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 12,
+              "corrected_fp": 12,
+              "baseline_fn": 11,
+              "corrected_fn": 11,
+              "baseline_f1": 0.9531568228105907,
+              "corrected_f1": 0.9531568228105907
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9548872180451128,
+              "boundary_recall": 0.9921875,
+              "boundary_f1": 0.9731800766283525,
+              "boundary_tp": 127,
+              "boundary_fp": 6,
+              "boundary_fn": 1,
+              "score": -1073.2693901884672,
+              "segmentation": "piu su tona occhio mortale alcun tanto non dista qualunque in mar e piu giu s abbandona quanto li da beatrice la mia vista ma nulla mi facea che sua effige non discendea a me per mezzo mista o donna in cui la mia speranza vige e che s offristi per la mia salute in inferno lasciar le tue vestige di tante cose quant i ho vedute dal tuo podere e da la tua bontateri conosco la grazia e la virtute tu m hai di servo tratto a libertate per tutte quelle vie per tutt i modi che di cio fare a vei la potestate la tua magnificenza in me custo di si che l anima mia che fatt hai sana piacente a te dal corpo si disnodi cosi ora i e quella si"
+            },
+            "corrected": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9548872180451128,
+              "boundary_recall": 0.9921875,
+              "boundary_f1": 0.9731800766283525,
+              "boundary_tp": 127,
+              "boundary_fp": 6,
+              "boundary_fn": 1,
+              "score": -1073.2693901884672,
+              "segmentation": "piu su tona occhio mortale alcun tanto non dista qualunque in mar e piu giu s abbandona quanto li da beatrice la mia vista ma nulla mi facea che sua effige non discendea a me per mezzo mista o donna in cui la mia speranza vige e che s offristi per la mia salute in inferno lasciar le tue vestige di tante cose quant i ho vedute dal tuo podere e da la tua bontateri conosco la grazia e la virtute tu m hai di servo tratto a libertate per tutte quelle vie per tutt i modi che di cio fare a vei la potestate la tua magnificenza in me custo di si che l anima mia che fatt hai sana piacente a te dal corpo si disnodi cosi ora i e quella si"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 6,
+              "corrected_fp": 6,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9731800766283525,
+              "corrected_f1": 0.9731800766283525
+            },
+            "added_positions": []
+          }
+        },
+        "oracle": {
+          "key": "oqdhrljbfiykawmexvptnguzsc",
+          "evaluation_only": true,
+          "fit": {
+            "baseline": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9512195121951219,
+              "boundary_recall": 0.9551020408163265,
+              "boundary_f1": 0.9531568228105907,
+              "boundary_tp": 234,
+              "boundary_fp": 12,
+              "boundary_fn": 11,
+              "score": -2172.744615264899,
+              "segmentation": "luce che n un i castella scintillando a lor vista si li appaga guarda qua giuso a la nostra procella s ei barbari venendo da tal plaga che ciascun giorno delice sicuopra rotante col suo figlio ond ella e vaga veggendo roma e l ardua sua opra stupe faciensi quando la terano a le cose mortaliando di sopra io che al divino da l umano a l etterno da l tempo era venuto e di fiorenza in popol giusto e sano di che stupor dovea esser compiuto certo tra esso e l gaudio mi facea libito non udire e starmi muto e quasi peregrin che si ricrea nel tempio del suo voto riguardando e spera gia ridir com ello stea su per la viva luce passeggiando menava io li occhi per li gradimo sumo giu e more circulando vedea visia carita sua di d altrui lume fregiati e di suo riso e atti ornati di tutte onesta di la forma genera l diparadiso gia tutta mio sguardo avea compresa in nulla parte ancor fermato fiso e volgeami con voglia riaccesa per domandar la mia donna di cose di che la mente mia era sospesa uno intendea e altro mi rispuose credea veder beatrice e vidi un se ne vestito con le genti gloriose diffuso era per li occhi e per le genedi benigna letizia in atto pio quale a tener o padre si convene e ov e ella subito diss io ond elli a terminar lo tuo"
+            },
+            "corrected": {
+              "letters": 1000,
+              "correct_letters": 1000,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9512195121951219,
+              "boundary_recall": 0.9551020408163265,
+              "boundary_f1": 0.9531568228105907,
+              "boundary_tp": 234,
+              "boundary_fp": 12,
+              "boundary_fn": 11,
+              "score": -2172.744615264899,
+              "segmentation": "luce che n un i castella scintillando a lor vista si li appaga guarda qua giuso a la nostra procella s ei barbari venendo da tal plaga che ciascun giorno delice sicuopra rotante col suo figlio ond ella e vaga veggendo roma e l ardua sua opra stupe faciensi quando la terano a le cose mortaliando di sopra io che al divino da l umano a l etterno da l tempo era venuto e di fiorenza in popol giusto e sano di che stupor dovea esser compiuto certo tra esso e l gaudio mi facea libito non udire e starmi muto e quasi peregrin che si ricrea nel tempio del suo voto riguardando e spera gia ridir com ello stea su per la viva luce passeggiando menava io li occhi per li gradimo sumo giu e more circulando vedea visia carita sua di d altrui lume fregiati e di suo riso e atti ornati di tutte onesta di la forma genera l diparadiso gia tutta mio sguardo avea compresa in nulla parte ancor fermato fiso e volgeami con voglia riaccesa per domandar la mia donna di cose di che la mente mia era sospesa uno intendea e altro mi rispuose credea veder beatrice e vidi un se ne vestito con le genti gloriose diffuso era per li occhi e per le genedi benigna letizia in atto pio quale a tener o padre si convene e ov e ella subito diss io ond elli a terminar lo tuo"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 12,
+              "corrected_fp": 12,
+              "baseline_fn": 11,
+              "corrected_fn": 11,
+              "baseline_f1": 0.9531568228105907,
+              "corrected_f1": 0.9531568228105907
+            },
+            "added_positions": []
+          },
+          "transfer": {
+            "baseline": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9548872180451128,
+              "boundary_recall": 0.9921875,
+              "boundary_f1": 0.9731800766283525,
+              "boundary_tp": 127,
+              "boundary_fp": 6,
+              "boundary_fn": 1,
+              "score": -1073.2693901884672,
+              "segmentation": "piu su tona occhio mortale alcun tanto non dista qualunque in mar e piu giu s abbandona quanto li da beatrice la mia vista ma nulla mi facea che sua effige non discendea a me per mezzo mista o donna in cui la mia speranza vige e che s offristi per la mia salute in inferno lasciar le tue vestige di tante cose quant i ho vedute dal tuo podere e da la tua bontateri conosco la grazia e la virtute tu m hai di servo tratto a libertate per tutte quelle vie per tutt i modi che di cio fare a vei la potestate la tua magnificenza in me custo di si che l anima mia che fatt hai sana piacente a te dal corpo si disnodi cosi ora i e quella si"
+            },
+            "corrected": {
+              "letters": 501,
+              "correct_letters": 501,
+              "character_accuracy": 1.0,
+              "boundary_precision": 0.9548872180451128,
+              "boundary_recall": 0.9921875,
+              "boundary_f1": 0.9731800766283525,
+              "boundary_tp": 127,
+              "boundary_fp": 6,
+              "boundary_fn": 1,
+              "score": -1073.2693901884672,
+              "segmentation": "piu su tona occhio mortale alcun tanto non dista qualunque in mar e piu giu s abbandona quanto li da beatrice la mia vista ma nulla mi facea che sua effige non discendea a me per mezzo mista o donna in cui la mia speranza vige e che s offristi per la mia salute in inferno lasciar le tue vestige di tante cose quant i ho vedute dal tuo podere e da la tua bontateri conosco la grazia e la virtute tu m hai di servo tratto a libertate per tutte quelle vie per tutt i modi che di cio fare a vei la potestate la tua magnificenza in me custo di si che l anima mia che fatt hai sana piacente a te dal corpo si disnodi cosi ora i e quella si"
+            },
+            "changes": {
+              "added_correct_cuts": 0,
+              "added_false_cuts": 0,
+              "baseline_fp": 6,
+              "corrected_fp": 6,
+              "baseline_fn": 1,
+              "corrected_fn": 1,
+              "baseline_f1": 0.9731800766283525,
+              "corrected_f1": 0.9731800766283525
+            },
+            "added_positions": []
+          }
+        }
+      },
+      "passes_gate": true,
+      "NOT_TRANSLATION": true
+    }
+  ],
+  "totals": {
+    "fit": {
+      "recovered": {
+        "added_correct_cuts": 1,
+        "added_false_cuts": 2,
+        "baseline_fp": 116,
+        "corrected_fp": 118,
+        "baseline_fn": 127,
+        "corrected_fn": 126
+      },
+      "oracle": {
+        "added_correct_cuts": 1,
+        "added_false_cuts": 2,
+        "baseline_fp": 116,
+        "corrected_fp": 118,
+        "baseline_fn": 128,
+        "corrected_fn": 127
+      }
+    },
+    "transfer": {
+      "recovered": {
+        "added_correct_cuts": 0,
+        "added_false_cuts": 0,
+        "baseline_fp": 103,
+        "corrected_fp": 103,
+        "baseline_fn": 126,
+        "corrected_fn": 126
+      },
+      "oracle": {
+        "added_correct_cuts": 0,
+        "added_false_cuts": 0,
+        "baseline_fp": 99,
+        "corrected_fp": 99,
+        "baseline_fn": 117,
+        "corrected_fn": 117
+      }
+    }
+  },
+  "by_language": {
+    "fit": {
+      "recovered": {
+        "latin": {
+          "added_correct_cuts": 1,
+          "added_false_cuts": 2,
+          "baseline_fp": 65,
+          "corrected_fp": 67,
+          "baseline_fn": 98,
+          "corrected_fn": 97
+        },
+        "italian": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 51,
+          "corrected_fp": 51,
+          "baseline_fn": 29,
+          "corrected_fn": 29
+        }
+      },
+      "oracle": {
+        "latin": {
+          "added_correct_cuts": 1,
+          "added_false_cuts": 2,
+          "baseline_fp": 65,
+          "corrected_fp": 67,
+          "baseline_fn": 99,
+          "corrected_fn": 98
+        },
+        "italian": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 51,
+          "corrected_fp": 51,
+          "baseline_fn": 29,
+          "corrected_fn": 29
+        }
+      }
+    },
+    "transfer": {
+      "recovered": {
+        "latin": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 66,
+          "corrected_fp": 66,
+          "baseline_fn": 93,
+          "corrected_fn": 93
+        },
+        "italian": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 37,
+          "corrected_fp": 37,
+          "baseline_fn": 33,
+          "corrected_fn": 33
+        }
+      },
+      "oracle": {
+        "latin": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 63,
+          "corrected_fp": 63,
+          "baseline_fn": 91,
+          "corrected_fn": 91
+        },
+        "italian": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 36,
+          "corrected_fp": 36,
+          "baseline_fn": 26,
+          "corrected_fn": 26
+        }
+      }
+    }
+  },
+  "strict_task_success": false,
+  "passed": 6,
+  "total": 12,
+  "calibration_gate_open": false,
+  "voynich_applied": false,
+  "NOT_TRANSLATION": true
+}

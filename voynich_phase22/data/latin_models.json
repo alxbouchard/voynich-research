@@ -1,0 +1,40 @@
+{
+  "language": "latin",
+  "known_types": 4718,
+  "unknown_training_tokens": 6222,
+  "training_tokens": 51300,
+  "maximum_unknown_length": 24,
+  "open_files": {
+    "bigrams.tsv": "449742497c479d94923fe2da8ea6e1c0c943af163040fc9d5f9dd09e05d394ef",
+    "boundary1.bin": "1f3ef863cfd1cb957d87cc99010457ea76452786d344d937e3b1f8260813f9bc",
+    "boundary2.bin": "07bafe0253c268fd63eddb0d0cafe9a9663c5a9dfbd4d408dc149dcc3327e745",
+    "boundary3.tsv": "b30c3d08960673acb76657ed8d2c7846d78fc78eb6ddf74a09df495dbaf65776",
+    "char1.bin": "b431e7619386dae22069d24eb8d7476a9dcf3b2e295d2685247bae6f841d0611",
+    "char2.bin": "0218aa431055d7d8fc54c81ea6dbdbec489b27c90ea33b6b80676f69c8c92a36",
+    "char3.bin": "9eb16622531284aafa66935e1c30c4ba3051e8e743cc34aacb369f6246ffc9e0",
+    "length.bin": "17bc2442db7d06629155ee0f0e939e70be95c49f1aa7c967f03f86d0e72db73a",
+    "spelling.bin": "0a1b302b85ec90c82dae406cbd55df50f8319b9bd00e11bbb8f5746306a6fc85",
+    "trigrams.tsv": "9f3a722eb46bc781da921e872c2abd63756f2fd454fabb9270caaa949225801f",
+    "words.tsv": "6e0e09b21c0a0be98865e199e519da4dbeceec11d23e0d4cc11986e9718ed2f1"
+  },
+  "closed": {
+    "language": "latin",
+    "training_words": 51300,
+    "dictionary_words": 10955,
+    "training_file": "voynich_phase10/data/latin_train_boundary.txt",
+    "files": {
+      "bigrams.tsv": "dada75ff30137c25131ce8baa5cbfa2b052ee83fb6ee1c623ce0d9589d399c58",
+      "char1.bin": "b431e7619386dae22069d24eb8d7476a9dcf3b2e295d2685247bae6f841d0611",
+      "char2.bin": "0218aa431055d7d8fc54c81ea6dbdbec489b27c90ea33b6b80676f69c8c92a36",
+      "char3.bin": "9eb16622531284aafa66935e1c30c4ba3051e8e743cc34aacb369f6246ffc9e0",
+      "freq.bin": "8ec006f2706ea7422156133d8dab600419fe3d02c46a84e8a9d84779e445851e",
+      "quad.bin": "681a38fa082470b2e5a020ed049cb87b3447eb9bea874b507b84ff71619fa9d6",
+      "trigrams.tsv": "3ba3156ce886e5304dee2b47097af5fd65a08f971d3f9503e6c7f2777dc8d837",
+      "words.tsv": "6d3623251a58bce31c23798f5f1554d7d8077308e8ab9b492572c06ddc14f36f"
+    }
+  },
+  "boundary_training_gaps": 317079,
+  "boundary_training_spaces": 51299,
+  "boundary_prior": 0.16178617946946974,
+  "boundary_backoff_strength": 20
+}

@@ -1,0 +1,172 @@
+{
+  "case": "latin_250_1",
+  "language": "latin",
+  "rows": {
+    "recovered": {
+      "key": "bjvpymdltexoacsunrqfkighzw",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 251,
+          "correct_letters": 251,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8571428571428571,
+          "boundary_recall": 0.9,
+          "boundary_f1": 0.8780487804878049,
+          "boundary_tp": 36,
+          "boundary_fp": 6,
+          "boundary_fn": 4,
+          "score": -665.0302614615443,
+          "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+        },
+        "corrected": {
+          "letters": 251,
+          "correct_letters": 251,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8571428571428571,
+          "boundary_recall": 0.9,
+          "boundary_f1": 0.8780487804878049,
+          "boundary_tp": 36,
+          "boundary_fp": 6,
+          "boundary_fn": 4,
+          "score": -665.0302614615443,
+          "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 6,
+          "corrected_fp": 6,
+          "baseline_fn": 4,
+          "corrected_fn": 4,
+          "baseline_f1": 0.8780487804878049,
+          "corrected_f1": 0.8780487804878049
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9156626506024096,
+          "boundary_recall": 0.8539325842696629,
+          "boundary_f1": 0.8837209302325582,
+          "boundary_tp": 76,
+          "boundary_fp": 7,
+          "boundary_fn": 13,
+          "score": -1360.9399291489744,
+          "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+        },
+        "corrected": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9156626506024096,
+          "boundary_recall": 0.8539325842696629,
+          "boundary_f1": 0.8837209302325582,
+          "boundary_tp": 76,
+          "boundary_fp": 7,
+          "boundary_fn": 13,
+          "score": -1360.9399291489744,
+          "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 7,
+          "corrected_fp": 7,
+          "baseline_fn": 13,
+          "corrected_fn": 13,
+          "baseline_f1": 0.8837209302325582,
+          "corrected_f1": 0.8837209302325582
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "byvpzmdltexoacsunrqfkighjw",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 251,
+          "correct_letters": 251,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8571428571428571,
+          "boundary_recall": 0.9,
+          "boundary_f1": 0.8780487804878049,
+          "boundary_tp": 36,
+          "boundary_fp": 6,
+          "boundary_fn": 4,
+          "score": -665.0302614615443,
+          "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+        },
+        "corrected": {
+          "letters": 251,
+          "correct_letters": 251,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.8571428571428571,
+          "boundary_recall": 0.9,
+          "boundary_f1": 0.8780487804878049,
+          "boundary_tp": 36,
+          "boundary_fp": 6,
+          "boundary_fn": 4,
+          "score": -665.0302614615443,
+          "segmentation": "crebro cavata fortius lignumquercus habet et incorruptius ramosa et ipsa procerior tamen et crassi orcaudice excelsissima autem aegilops incultis amica ab hac proximalati foliae proceritas sed minus utilis aedificiis atque carboni dolatavit iis ob noxia est quam ob rem solida utuntur carbo in"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 6,
+          "corrected_fp": 6,
+          "baseline_fn": 4,
+          "corrected_fn": 4,
+          "baseline_f1": 0.8780487804878049,
+          "corrected_f1": 0.8780487804878049
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9156626506024096,
+          "boundary_recall": 0.8539325842696629,
+          "boundary_f1": 0.8837209302325582,
+          "boundary_tp": 76,
+          "boundary_fp": 7,
+          "boundary_fn": 13,
+          "score": -1360.9399291489744,
+          "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+        },
+        "corrected": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9156626506024096,
+          "boundary_recall": 0.8539325842696629,
+          "boundary_f1": 0.8837209302325582,
+          "boundary_tp": 76,
+          "boundary_fp": 7,
+          "boundary_fn": 13,
+          "score": -1360.9399291489744,
+          "segmentation": "nec alia putrescit ex hoc genere etiam cum vivit quin et fulmine saepissime icitur quamvis altitudine non excellati deoligno eius nec ad sacrificia uti fas habetur e idem raraglans et cum tulitamara quam praeter sues nullum attingat animalac ne hae quidem si aliud pabulum habeant hoc quoque inter reliqua neglectae religionis est quod emortuo carbones acrificatur glansfageasuem hi larem facit carnem cocibilem ac levem et utilemsto machoilignasue mangustam nitidam strigosam ponderos amquerna diffusam gravissima et ipsa glandium atque dulcissima proximam huic cerream tradit nigidius"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 7,
+          "corrected_fp": 7,
+          "baseline_fn": 13,
+          "corrected_fn": 13,
+          "baseline_f1": 0.8837209302325582,
+          "corrected_f1": 0.8837209302325582
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": false,
+  "NOT_TRANSLATION": true
+}

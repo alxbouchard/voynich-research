@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_2_recovered_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_2_recovered_fit.txt": "fb72691297daefc72aa0df72d0fd8e9fca490be70c16ff520b9bcb7ae6867900"
+    }
+  },
+  "seconds": 0.09826629189774394,
+  "result": {
+    "corrected": {
+      "score": -1060.5110179392266,
+      "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+    },
+    "baseline": {
+      "score": -1060.5110179392266,
+      "segmentation": "fatto bruno veramente iordan volto retrorso piu fu e l mar fuggir quando dio volse mirabile a veder che qui l soccorso cosi mi disse e indi si raccolse al suo collegio e l collegio si strinse poi come turbo in su tutto s avvolse la dolce donna dietro a lor mi pinse con un sol cenno su per quella scala si sua virtu la mia natura vinse ne mai qua giu dove si monta e cala natural mente fu si ratto moto ch agguagliarsi potesse a la mia a la s io torni mai lettor e a quel divoto triunfo per lo qual e io piango spesso le mie peccata e l petto mi percuoto tu non avresti intanto tratto e messo nel foco il dito in quant io vidi l segno"
+    },
+    "added_positions": []
+  }
+}

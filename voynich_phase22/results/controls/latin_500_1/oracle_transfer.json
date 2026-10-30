@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_500_1_oracle_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_500_1_oracle_transfer.txt": "3e44b84e18958a7e389868927a6e4f818664e2db78e95acaf08175369595a1cf"
+    }
+  },
+  "seconds": 0.08100541611202061,
+  "result": {
+    "corrected": {
+      "score": -1324.2973936825244,
+      "segmentation": "elentisco non omittendum apud eos demzopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+    },
+    "baseline": {
+      "score": -1324.2973936825244,
+      "segmentation": "elentisco non omittendum apud eos demzopissam vocariderasam navibus maritimis picem cum cera nihil non experient evitamultoque efficaciorem ad omnia quibuspices res in aeque pro sunt videlicet adiectos aliscallo aperitur pice aeparte solari non plaga sed vulnere ab laticorticis cum plurimum bipedali hiatu ut a terra cubito cum minimum absit nec corpori ipsi parcitur ut in ceteris quoniam a stula infructu est verum haec proxima laudatur altiora maritudinem ad fert postea umor omni se tota confluit in ulcus item intaeda cum id manare desiit simili modo ex alia parte aperitur ac deinde alia"
+    },
+    "added_positions": []
+  }
+}

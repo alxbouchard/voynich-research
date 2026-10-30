@@ -1,0 +1,172 @@
+{
+  "case": "italian_500_1",
+  "language": "italian",
+  "rows": {
+    "recovered": {
+      "key": "eqavitwgyfozdpsjcbhxnumlkr",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9327731092436975,
+          "boundary_recall": 0.9568965517241379,
+          "boundary_f1": 0.9446808510638298,
+          "boundary_tp": 111,
+          "boundary_fp": 8,
+          "boundary_fn": 5,
+          "score": -1133.584527850645,
+          "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+        },
+        "corrected": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9327731092436975,
+          "boundary_recall": 0.9568965517241379,
+          "boundary_f1": 0.9446808510638298,
+          "boundary_tp": 111,
+          "boundary_fp": 8,
+          "boundary_fn": 5,
+          "score": -1133.584527850645,
+          "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 8,
+          "corrected_fp": 8,
+          "baseline_fn": 5,
+          "corrected_fn": 5,
+          "baseline_f1": 0.9446808510638298,
+          "corrected_f1": 0.9446808510638298
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9029850746268657,
+          "boundary_recall": 0.9603174603174603,
+          "boundary_f1": 0.9307692307692308,
+          "boundary_tp": 121,
+          "boundary_fp": 13,
+          "boundary_fn": 5,
+          "score": -1031.58007752467,
+          "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+        },
+        "corrected": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9029850746268657,
+          "boundary_recall": 0.9603174603174603,
+          "boundary_f1": 0.9307692307692308,
+          "boundary_tp": 121,
+          "boundary_fp": 13,
+          "boundary_fn": 5,
+          "score": -1031.58007752467,
+          "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 13,
+          "corrected_fp": 13,
+          "baseline_fn": 5,
+          "corrected_fn": 5,
+          "baseline_f1": 0.9307692307692308,
+          "corrected_f1": 0.9307692307692308
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "eqavitkgjfozdpsycbhxnumlwr",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9327731092436975,
+          "boundary_recall": 0.9568965517241379,
+          "boundary_f1": 0.9446808510638298,
+          "boundary_tp": 111,
+          "boundary_fp": 8,
+          "boundary_fn": 5,
+          "score": -1133.584527850645,
+          "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+        },
+        "corrected": {
+          "letters": 502,
+          "correct_letters": 502,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9327731092436975,
+          "boundary_recall": 0.9568965517241379,
+          "boundary_f1": 0.9446808510638298,
+          "boundary_tp": 111,
+          "boundary_fp": 8,
+          "boundary_fn": 5,
+          "score": -1133.584527850645,
+          "segmentation": "claritate tua felice signe s horum mala cothcosi volgendo sia la nota sua fu viso a me cantare essa sustanza sopra la qual doppio lume s addua ed essa e l altre mossero a sua danza e quasi velocissi me faville mi si velar di subita distanza io dubitava e dicea dille dille fra me dille dicea a la mia donna che mi diseta con le dolci stille ma quella reverenza che s in donna di tutto me pur perbe e perice mi richinava come l uom ch assonna poco sofferse me cotal beatrice e comincio raggiandomi d un riso tal che nel foco faria l uom felice secondo mio in fallibile avviso come giusta vendetta giusta mente punita fosse"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 8,
+          "corrected_fp": 8,
+          "baseline_fn": 5,
+          "corrected_fn": 5,
+          "baseline_f1": 0.9446808510638298,
+          "corrected_f1": 0.9446808510638298
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9029850746268657,
+          "boundary_recall": 0.9603174603174603,
+          "boundary_f1": 0.9307692307692308,
+          "boundary_tp": 121,
+          "boundary_fp": 13,
+          "boundary_fn": 5,
+          "score": -1031.58007752467,
+          "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+        },
+        "corrected": {
+          "letters": 503,
+          "correct_letters": 503,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9029850746268657,
+          "boundary_recall": 0.9603174603174603,
+          "boundary_f1": 0.9307692307692308,
+          "boundary_tp": 121,
+          "boundary_fp": 13,
+          "boundary_fn": 5,
+          "score": -1031.58007752467,
+          "segmentation": "umana speci e infermagi acque giu per seco li molti in grande errore fin ch a l verbo di dio di scender piacque u la natura che dal suo fattore s era al lunga taunia se in persona con l atto sol del suo etterno amore or drizza il viso a quel ch or si ragiona questa natura a l suo fattore unita qual fu creata fusincera e buona ma per se stessa pur fu ella s bandita dipara di so pero che si torse da via di verita e da sua vita la pena dunque che la croce porse s a la natura assunta si misura nulla gia mai si giusta mente morse e cosi nulla fu di tanta ingiura guardando a la persona che sofferse in che era con tratta tal natura pero"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 13,
+          "corrected_fp": 13,
+          "baseline_fn": 5,
+          "corrected_fn": 5,
+          "baseline_f1": 0.9307692307692308,
+          "corrected_f1": 0.9307692307692308
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": true,
+  "NOT_TRANSLATION": true
+}

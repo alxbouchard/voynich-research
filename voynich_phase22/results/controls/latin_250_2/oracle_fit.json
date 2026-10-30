@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/latin",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_2_oracle_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/latin_250_2_oracle_fit.txt": "81a7e9085ecc81ebe3766973685cd41046e35cbd1548d32c461ce69dd9615e52"
+    }
+  },
+  "seconds": 0.0751287080347538,
+  "result": {
+    "corrected": {
+      "score": -739.2834084193197,
+      "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat hederaemira proditur natura ad experienda vinasivas fiat eligno eius vinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+    },
+    "baseline": {
+      "score": -739.2834084193197,
+      "segmentation": "aut silenoquis omninoscit quibus coronentures milace fiunt c odicilli propriumque materia e est ut admota auribus lenem sonum reddat hederaemira proditur natura ad experienda vinasivas fiat eligno eius vinatransfluere ac remanere aquam si qua fuerit mixta inter ea quae frigidis gaudent et aquaticos"
+    },
+    "added_positions": []
+  }
+}

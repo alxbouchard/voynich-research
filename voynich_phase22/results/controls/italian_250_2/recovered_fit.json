@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_2_recovered_fit.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_250_2_recovered_fit.txt": "148a17bbad3364ac42cd54ff6b541948c2f387ec99e28693ee1e9470f305b243"
+    }
+  },
+  "seconds": 0.0943775000050664,
+  "result": {
+    "corrected": {
+      "score": -539.7713490062378,
+      "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+    },
+    "baseline": {
+      "score": -539.7713490062378,
+      "segmentation": "fa manifesta e lascia pur grattar dove la rogna che se la voce tua sara molesta nel primo gusto vita l nodrimento lascera poi quando sara digesta questo tuo grido fara come vento che le piu alte cime piu percuote e cio non fa d onor poco argomento pero ti son mostrate in queste rote nel monte e ne la valle dolorosa"
+    },
+    "added_positions": []
+  }
+}

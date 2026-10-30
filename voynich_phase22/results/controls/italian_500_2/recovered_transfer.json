@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/boundary_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/open/italian",
+      "segment",
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_2_recovered_transfer.txt",
+      "1.0",
+      "0.9"
+    ],
+    "protocol_sha256": "f5237d036c53790a9daffda20304c2384f8a680f7ce58bc8a454bd50722d23e1",
+    "executable_sha256": "bb6c3db37c2f65800ab279639b0e59af6e3e1813be62de21a77c308c26e00fd3",
+    "models_sha256": "61f1dc2f5ba22fbb9d742284e415e645fa607538b6cb186fe4675afb60d9b9f6",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase22/tmp/italian_500_2_recovered_transfer.txt": "202ef72eaceca32641d300021695839e6a82d3943c8ae3bac84e691fa0e18a59"
+    }
+  },
+  "seconds": 0.09597295802086592,
+  "result": {
+    "corrected": {
+      "score": -1044.2974031775373,
+      "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+    },
+    "baseline": {
+      "score": -1044.2974031775373,
+      "segmentation": "l aere tosco e poi quando mi fu grazia largitadentrar ne l alta rota che vigira la vostra region mi fu sortita a voi divotamente ora sospira l anima mia per acquistar virtute al passo forte che a se la tira tu se si presso a l ultima salute comincio beatrice che tu dei a ver le luci tue chiare e acute e pero prima che tu piu t in lei rimira in giue vedi quanto mondo sotto li piedi gia esser ti fei si che l tuo cor quantunque puo giocondo sappresenti a la turba triunfante che lieta vien per questo e teratondo col viso ritornai per tutte quante le sette spere e vidi questo globo tal ch io sorrisi del suo vi l sembiante e"
+    },
+    "added_positions": []
+  }
+}

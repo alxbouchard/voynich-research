@@ -1,0 +1,172 @@
+{
+  "case": "italian_250_1",
+  "language": "italian",
+  "rows": {
+    "recovered": {
+      "key": "thgwlepsikqodbufryvajmnzxc",
+      "evaluation_only": false,
+      "fit": {
+        "baseline": {
+          "letters": 250,
+          "correct_letters": 250,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9253731343283582,
+          "boundary_recall": 0.9841269841269841,
+          "boundary_f1": 0.9538461538461539,
+          "boundary_tp": 62,
+          "boundary_fp": 5,
+          "boundary_fn": 1,
+          "score": -549.3549301998074,
+          "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+        },
+        "corrected": {
+          "letters": 250,
+          "correct_letters": 250,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9253731343283582,
+          "boundary_recall": 0.9841269841269841,
+          "boundary_f1": 0.9538461538461539,
+          "boundary_tp": 62,
+          "boundary_fp": 5,
+          "boundary_fn": 1,
+          "score": -549.3549301998074,
+          "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 5,
+          "corrected_fp": 5,
+          "baseline_fn": 1,
+          "corrected_fn": 1,
+          "baseline_f1": 0.9538461538461539,
+          "corrected_f1": 0.9538461538461539
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 501,
+          "correct_letters": 494,
+          "character_accuracy": 0.9860279441117764,
+          "boundary_precision": 0.9508196721311475,
+          "boundary_recall": 0.9133858267716536,
+          "boundary_f1": 0.9317269076305221,
+          "boundary_tp": 116,
+          "boundary_fp": 6,
+          "boundary_fn": 11,
+          "score": -1221.7963313341713,
+          "segmentation": "quella corda che cio che scocca driwwa in segno lieto vero e che come forma non s accorda molte fiate al intenwion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco d inuke si l impeto primo latterra torto da falso piacere non dei piu ammirar sekenestimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarekke intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+        },
+        "corrected": {
+          "letters": 501,
+          "correct_letters": 494,
+          "character_accuracy": 0.9860279441117764,
+          "boundary_precision": 0.9508196721311475,
+          "boundary_recall": 0.9133858267716536,
+          "boundary_f1": 0.9317269076305221,
+          "boundary_tp": 116,
+          "boundary_fp": 6,
+          "boundary_fn": 11,
+          "score": -1221.7963313341713,
+          "segmentation": "quella corda che cio che scocca driwwa in segno lieto vero e che come forma non s accorda molte fiate al intenwion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco d inuke si l impeto primo latterra torto da falso piacere non dei piu ammirar sekenestimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarekke intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 6,
+          "corrected_fp": 6,
+          "baseline_fn": 11,
+          "corrected_fn": 11,
+          "baseline_f1": 0.9317269076305221,
+          "corrected_f1": 0.9317269076305221
+        },
+        "added_positions": []
+      }
+    },
+    "oracle": {
+      "key": "thgzlepsibqodwufryvaxmnjkc",
+      "evaluation_only": true,
+      "fit": {
+        "baseline": {
+          "letters": 250,
+          "correct_letters": 250,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9253731343283582,
+          "boundary_recall": 0.9841269841269841,
+          "boundary_f1": 0.9538461538461539,
+          "boundary_tp": 62,
+          "boundary_fp": 5,
+          "boundary_fn": 1,
+          "score": -549.3549301998074,
+          "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+        },
+        "corrected": {
+          "letters": 250,
+          "correct_letters": 250,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9253731343283582,
+          "boundary_recall": 0.9841269841269841,
+          "boundary_f1": 0.9538461538461539,
+          "boundary_tp": 62,
+          "boundary_fp": 5,
+          "boundary_fn": 1,
+          "score": -549.3549301998074,
+          "segmentation": "io dico sono accline tutte nature per diverse sorti piu a l principio loro e men vicine ond e si muovo no a diversi porti per lo gran mar del essere e ciascuna con istinto a lei dato che la porti questi ne porta il foco inver la luna questi ne cor mortali e per motore questi la terra in se stringe e ad una ne pur le"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 5,
+          "corrected_fp": 5,
+          "baseline_fn": 1,
+          "corrected_fn": 1,
+          "baseline_f1": 0.9538461538461539,
+          "corrected_f1": 0.9538461538461539
+        },
+        "added_positions": []
+      },
+      "transfer": {
+        "baseline": {
+          "letters": 501,
+          "correct_letters": 501,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9516129032258065,
+          "boundary_recall": 0.9291338582677166,
+          "boundary_f1": 0.9402390438247012,
+          "boundary_tp": 118,
+          "boundary_fp": 6,
+          "boundary_fn": 9,
+          "score": -1038.5910904860402,
+          "segmentation": "quella corda che cio che scocca drizza in segno lieto vero e che come forma non s accorda molte fiate al intenzion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco di nube si l impeto primo latterra torto da falso piacere non dei piu ammirar se ben estimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarebbe intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+        },
+        "corrected": {
+          "letters": 501,
+          "correct_letters": 501,
+          "character_accuracy": 1.0,
+          "boundary_precision": 0.9516129032258065,
+          "boundary_recall": 0.9291338582677166,
+          "boundary_f1": 0.9402390438247012,
+          "boundary_tp": 118,
+          "boundary_fp": 6,
+          "boundary_fn": 9,
+          "score": -1038.5910904860402,
+          "segmentation": "quella corda che cio che scocca drizza in segno lieto vero e che come forma non s accorda molte fiate al intenzion de l arte per ch a risponder la materia e sorda cosi da questo corso si diparte talor la creatura ch a podere dipiegar cosi pinta in altra parte e si come veder si puo cadere foco di nube si l impeto primo latterra torto da falso piacere non dei piu ammirar se ben estimo lo tuo salir se non come d un rivose d alto monte scende giuso ad imo maraviglia sarebbe intese privo di mpedimento giu ti fossi assiso com a terra quiete in foco vivo quinci rivolse inver lo cielo i l viso o voi che siete in picciol etta"
+        },
+        "changes": {
+          "added_correct_cuts": 0,
+          "added_false_cuts": 0,
+          "baseline_fp": 6,
+          "corrected_fp": 6,
+          "baseline_fn": 9,
+          "corrected_fn": 9,
+          "baseline_f1": 0.9402390438247012,
+          "corrected_f1": 0.9402390438247012
+        },
+        "added_positions": []
+      }
+    }
+  },
+  "passes_gate": true,
+  "NOT_TRANSLATION": true
+}
