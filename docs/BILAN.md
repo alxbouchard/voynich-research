@@ -1,6 +1,6 @@
 # Bilan des expériences
 
-**Aucune traduction validée.** Ce tableau résume les rapports archivés et la nouvelle phase 18 exécutée le 30 octobre 2026. Il ne constitue pas une nouvelle réplication des phases 1 à 17.
+**Aucune traduction validée.** Ce tableau résume les rapports archivés et les phases 18–19 exécutées le 30 octobre 2026. Il ne constitue pas une nouvelle réplication des phases 1 à 17.
 
 | Phase | Question et travail exécuté | Résultat principal | Limite ou correction |
 |---|---|---|---|
@@ -22,6 +22,7 @@
 | 16 | Examiner f116v, f104r et la table partielle en marge de f1r. | Une correspondance `aror/sheey` avec espace incertain apparaît hors marge. La table f1r couvre environ 40 % des occurrences retenues. | Rapprochement déjà publié ; couverture de signes, pas traduction. |
 | 17 | Traiter 22 bandes de f116v ; tester le motif hypothétique `six marix morix vix`. | Ambiguïté initiale persistante. Aucun alignement bijectif ; quelques alignements homophoniques sans espaces. | Le texte supposé clair n'est pas assuré. f104r échoue à l'extension testée ; f79r ne reproduit pas tout l'agencement marginal. |
 | 18 | Tester deux tables de substitution selon l'initiale ou la finale, avec calibration et pages réservées. | 16 contrôles : 99,9926 à 99,9954 % des lettres retrouvées. 284 ajustements. La famille finale/modèle latin dépasse les 19 mélanges pour ZL/A et ZL/B ; gains également positifs pour IT/A et IT/B. | Signal exploratoire de structure, sans langue ni traduction identifiée. Témoins peu structurés ; léger changement des fréquences effectivement notées après exclusion des segments courts. [Rapport](../voynich_phase18/RAPPORT.md). |
+| 19 | Vérifier si le signal des finales apparaît dans des textes sans message : six générations de Markov et l'échantillon publié Timm–Schinner, avec témoins corrigés. | Quatre des six générations de Markov et l’échantillon Timm franchissent le même critère que le Voynich. 368 ajustements ; fréquences des caractères effectivement notés exactement préservées par les mélanges. [Résultats complets](../voynich_phase19/RAPPORT.md). | Le signal n'est pas spécifique d'un message dans ce dispositif. Cela ne prouve pas l'absence de sens du manuscrit. Les générations héritent des statistiques d'apprentissage ; l'échantillon Timm n'est pas une nouvelle exécution de son générateur. |
 
 Les pourcentages de contrôles ne décrivent jamais le pourcentage de Voynich décodé.
 

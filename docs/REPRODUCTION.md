@@ -9,7 +9,7 @@ python3 tools/verify_snapshot.py
 python3 tools/hydrate.py
 ```
 
-Le premier programme recalcule les SHA-256 des fichiers de l'inventaire initial des phases 1 à 17, en décompressant les gros fichiers en mémoire si nécessaire. Il ne couvre pas les ajouts ultérieurs de phase 18. Le second restaure ces fichiers à leur chemin historique. Il refuse d'écraser un fichier existant différent. Les octets restaurés sont identiques à ceux des archives sources.
+Le premier programme recalcule les SHA-256 des fichiers de l'inventaire initial des phases 1 à 17, en décompressant les gros fichiers en mémoire si nécessaire. Il ne couvre pas les ajouts ultérieurs des phases 18 et 19. Le second restaure ces fichiers à leur chemin historique. Il refuse d'écraser un fichier existant différent. Les octets restaurés sont identiques à ceux des archives sources.
 
 Les empreintes historiques conservées dans chaque phase couvrent parfois des images omises ici. Une différence de périmètre avec ces manifestes n'est pas nécessairement une altération. L'inventaire de cette édition est `artifacts/file_index.json`.
 
@@ -52,7 +52,22 @@ python3 voynich_phase18/src/verify.py
 
 Elle nécessite Python, NumPy et C++17 ; Matplotlib sert à reconstruire la figure. Les résultats présents sont réutilisés après contrôle de leurs empreintes. Pour une nouvelle optimisation, déplacer le dossier `voynich_phase18/results/` dans **une copie du dépôt** avant les commandes de calcul. Voir [la notice de phase 18](../voynich_phase18/README.md).
 
-## 5. Images, modèles et ressources externes
+## 5. Phase 19
+
+Cette phase utilise le même solveur que la phase 18, mais évalue des textes générés et des mélanges qui préservent exactement les comptes sur les caractères notés. Les générations et données de test sont séparées explicitement.
+
+```bash
+python3 voynich_phase19/src/manifest.py
+python3 -m unittest discover -s voynich_phase19/src -p 'test_*.py' -v
+python3 voynich_phase19/src/study.py prepare
+python3 voynich_phase19/src/study.py controls --workers 4
+python3 voynich_phase19/src/study.py run --workers 4
+python3 voynich_phase19/src/verify.py
+```
+
+La commande `run` réutilise uniquement des résultats dont les empreintes correspondent. Pour refaire tous les ajustements, déplacer d'abord `voynich_phase19/results/` dans une copie du dépôt. Le vérificateur reconstruit les six corpus générés et les scores avec un code distinct, sans relancer l'optimisation. L'échantillon Timm–Schinner est réanalysé depuis l'archive ; son générateur d'origine n'est pas réexécuté. Voir [la notice](../voynich_phase19/README.md).
+
+## 6. Images, modèles et ressources externes
 
 Les sources photographiques Yale, les TIFF multispectraux et certaines matrices binaires ne sont pas inclus dans Git. Leur inventaire est dans `artifacts/omitted_binary_assets.json`. Les sources officielles sont décrites dans `docs/SOURCES.md` et les manifestes d'origine. Certaines petites figures dérivées sont également omises ; elles peuvent être régénérées lorsque les données sources correspondantes sont présentes.
 
@@ -60,7 +75,7 @@ Les archives de reproduction complètes déjà produites restent les ensembles l
 
 Pour la phase 17, la cryptanalyse utilise les deux fichiers IVTFF inclus. L'analyse spectrale requiert en plus `data/f116v_native_roi_22bands.npz`, ou les captures brutes référencées. Ne pas annoncer une reproduction spectrale si seule la cryptanalyse a été exécutée.
 
-## 6. Portée de la validation de cette migration
+## 7. Portée de la validation de cette migration
 
 La migration vérifie les archives ZIP utilisées, les octets des fichiers sélectionnés, les rapports PDF et les chemins de documentation. Elle ne réexécute pas les 17 séries de calculs. Les comptes rendus de vérification historique sont archivés dans chaque dossier `results/`.
 

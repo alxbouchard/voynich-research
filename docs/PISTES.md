@@ -1,12 +1,14 @@
 # Pistes ouvertes et critères de progrès
 
-## Résultat nouveau : clé selon la position
+## Résultat nouveau : signal des finales non spécifique
 
-La phase 18 est [exécutée et vérifiée](../voynich_phase18/RAPPORT.md). Les deux familles retrouvent les contrôles connus. La clé distincte en finale, évaluée par le modèle de langue latin, est la seule combinaison qui remplit le critère exploratoire de poursuite : gain positif au-delà des 19 mélanges sur ZL/A et ZL/B, avec gains positifs sur IT/A et IT/B. Cela n'identifie pas le latin comme langue du manuscrit et n'établit aucune traduction.
+La phase 18 avait retenu la clé distincte en finale, évaluée par le modèle de langue latin, comme piste exploratoire : gain positif au-delà des 19 mélanges sur ZL/A et ZL/B, avec gains positifs sur IT/A et IT/B. La [phase 19](../voynich_phase19/RAPPORT.md) montre que des textes produits sans message intentionnel peuvent aussi franchir ce critère. Ce résultat réduit la portée de la piste : le gain des finales ne suffit pas à distinguer un message d'un générateur dans ce dispositif.
 
-La prochaine étape utile est de vérifier si ce signal résiste à des **générateurs sans message plus structurés**, à des chiffres porteurs de sens et à de nouvelles partitions par cahier. Les mélanges devraient laisser les segments courts exclus fixes, afin de préserver exactement les distributions sur les caractères effectivement notés. Il faudra également mesurer la stabilité des clés. Aucun calcul de phase 19 n'est exécuté à ce stade.
+La comparaison avec des générateurs structurés et la correction des segments courts sont désormais exécutées. Les six nouveaux textes sont tirés de modèles de transitions appris uniquement sur l'apprentissage ; l'échantillon Timm–Schinner publié est réanalysé, sans réexécution de son générateur. Les succès et échecs sont tous conservés. Cela n'identifie ni le latin ni l'absence de sens du manuscrit.
 
-Le [brouillon initial](../voynich_phase18/PROTOCOL_DRAFT.md), le [protocole figé](../voynich_phase18/PROTOCOL.json), les sorties et les limites restent archivés. Les pistes sur l'initiale et le modèle italien n'atteignent pas ensemble ce critère sur les deux groupes ; ne pas les relancer uniquement jusqu'à obtenir un résultat favorable.
+La prochaine étape utile est de **calibrer un critère discriminant** sur plusieurs mécanismes connus porteurs de messages et plusieurs générateurs sans message, puis de tester la stabilité des clés et les prédictions sur des partitions par cahier réservées avant leur sélection. Le critère des finales seul ne peut plus servir de confirmation linguistique. Aucun calcul de phase 20 n'est exécuté à ce stade.
+
+Le [brouillon initial](../voynich_phase18/PROTOCOL_DRAFT.md), les protocoles figés de [phase 18](../voynich_phase18/PROTOCOL.json) et de [phase 19](../voynich_phase19/PROTOCOL.json), les sorties et les limites restent archivés. Les pistes sur l'initiale et le modèle italien n'atteignaient pas ensemble le critère de phase 18 sur les deux groupes ; elles ne sont pas réajustées dans la phase 19.
 
 ## Autres pistes non épuisées
 

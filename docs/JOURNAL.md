@@ -19,6 +19,7 @@ Ce journal est rétrospectif. Il ne constitue pas un préenregistrement externe.
 | Consolidation Git | Vérifier les archives sources ; récupérer la phase 5 dans la dépendance de phase 6 ; compresser sans perte les gros textes ; inventorier les fichiers binaires omis. |
 | Phase 18, préparation | Définir une nouvelle piste de clés selon la position dans le mot. Le brouillon conservé décrit cet état antérieur à l'exécution. |
 | Phase 18, 30 octobre 2026 | Figer localement le protocole et le solveur avant calibration (`876da79`), exécuter 16 contrôles puis les comparaisons Voynich/mélanges, soit 284 ajustements. Aucun réglage changé après observation. Le critère exploratoire est atteint seulement pour finale/modèle latin ; aucun sens attribué. Le vérificateur ajouté ensuite relève que l'exclusion des segments courts peut légèrement modifier les fréquences retenues après mélange : limite conservée, à corriger dans une étude ultérieure. |
+| Phase 19, 30 octobre 2026 | Figer le protocole et les générateurs (`5afafb7`) avant génération/ajustement. Corriger les mélanges en fixant les segments exclus ; reprendre le même solveur, modèle latin et budget. Tester six générations de Markov et l'échantillon Timm publié, avec tous leurs témoins, puis recalculer les résultats par un code distinct. Des témoins sans message passent le critère des finales ; sa spécificité est donc rejetée dans le périmètre testé, sans conclusion sur le sens du manuscrit. Aucun paramètre changé après observation, aucun tirage écarté. |
 
 ## Règle pour les prochaines contributions
 
