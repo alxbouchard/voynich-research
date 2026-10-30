@@ -1,0 +1,33 @@
+{
+  "language": "italian",
+  "known_types": 4113,
+  "unknown_training_tokens": 5718,
+  "training_tokens": 68192,
+  "maximum_unknown_length": 24,
+  "open_files": {
+    "bigrams.tsv": "9dba9a6cf0c412e5ff9b61e7e87c1f364966351c098a180f5d824e3084287f8b",
+    "char1.bin": "b634abc1c21d4ee7210681ad4a0d8bdd5fbc626676c2281d71804e58160933f8",
+    "char2.bin": "d07df7c6f690f5d0638a383287ae0dabd001c19f03e8a613bd3ba7229164b77a",
+    "char3.bin": "a5f2db10641a529fd05dfb71e016d6eba84dbb8e6bae1ed012f83c7747d11ecc",
+    "length.bin": "0782c7c98e6208d76fb9c9cb8b8e4c924a8cd80cea5a2d10362fd4c6d4655912",
+    "spelling.bin": "80f10babf36d3a224ea922b68dd03ac61a34be1e2a66e5753a5f0561c88e9664",
+    "trigrams.tsv": "1d47dfe2192b8e20c7dbcfe75914d9353c27b68353cda7b843719dc142d9c807",
+    "words.tsv": "35ea4f498832443e1cf23c469d641ce42b6e4cd32095a8f8fe8849b88a23497b"
+  },
+  "closed": {
+    "language": "italian",
+    "training_words": 68192,
+    "dictionary_words": 9843,
+    "training_file": "voynich_phase10/data/italian_train_boundary.txt",
+    "files": {
+      "bigrams.tsv": "3a86b66b3a085d71301ad99d107fd4bd8a92f83ee6c96355f8e8b7b9dfa5a877",
+      "char1.bin": "b634abc1c21d4ee7210681ad4a0d8bdd5fbc626676c2281d71804e58160933f8",
+      "char2.bin": "d07df7c6f690f5d0638a383287ae0dabd001c19f03e8a613bd3ba7229164b77a",
+      "char3.bin": "a5f2db10641a529fd05dfb71e016d6eba84dbb8e6bae1ed012f83c7747d11ecc",
+      "freq.bin": "f973c927070fad000d8c729b9260dc30b12fd85e4dc1c37e6f97c8343f88f144",
+      "quad.bin": "339bf7301597ca75f8f3b39d45a724b168cdee756e5c1af35f35ff8e230e34aa",
+      "trigrams.tsv": "cdfeabd1dd8c641ca0738631ea431a6c2dc7f504cb0073e93282e73024b22c34",
+      "words.tsv": "b1b7903a17d51460b9f187b501faa0284004623cf40b9be73cd4296604a7f02f"
+    }
+  }
+}
