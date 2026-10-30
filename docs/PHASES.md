@@ -24,4 +24,6 @@ Les rapports sont conservés intégralement. Les extractions texte facilitent la
 
 Phase 18 exécutée : [rapport Markdown et figure](../voynich_phase18/RAPPORT.md) · [notice](../voynich_phase18/README.md) · [protocole figé](../voynich_phase18/PROTOCOL.json) · [résultats](../voynich_phase18/results). Le [brouillon historique](../voynich_phase18/PROTOCOL_DRAFT.md) reste conservé. Aucun PDF de phase 18 n'est annoncé.
 
+Phase 19 exécutée : [rapport Markdown et figure](../voynich_phase19/RAPPORT.md) · [notice](../voynich_phase19/README.md) · [protocole figé](../voynich_phase19/PROTOCOL.json) · [résultats](../voynich_phase19/results). Générateurs sans message, témoins corrigés et vérification de la spécificité du signal des finales. Aucun PDF de phase 19 n'est annoncé.
+
 Les fichiers `source_archive_phase` de l’inventaire indiquent la provenance exacte de chaque pièce. Les fichiers gzip sont restaurés avec `python3 tools/hydrate.py`.
