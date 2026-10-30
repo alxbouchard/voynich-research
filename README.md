@@ -16,6 +16,7 @@ Ce dépôt réunit les 19 phases d'une étude exploratoire du manuscrit Voynich,
 - [Pistes ouvertes](docs/PISTES.md) : tests possibles et critères de réussite.
 - [Phase 18, rapport et résultats](voynich_phase18/RAPPORT.md) : clés selon la position dans les mots, calibration et comparaison aux mélanges. [Protocole figé](voynich_phase18/PROTOCOL.json) ; [brouillon historique](voynich_phase18/PROTOCOL_DRAFT.md) conservé.
 - [Phase 19, générateurs sans message](voynich_phase19/RAPPORT.md) : vérifier si des textes générés reproduisent le signal des finales. [Protocole figé](voynich_phase19/PROTOCOL.json) et [reproduction](voynich_phase19/README.md).
+- [Préparation de phase 20](voynich_phase20/README.md) : contrôle d'un solveur publié et diagnostic de segmentation sur un exemple anglais connu. Aucun essai de phase 20 sur le Voynich ni récupération de clé avec le nouveau score.
 
 ## Ce que nous avons établi
 

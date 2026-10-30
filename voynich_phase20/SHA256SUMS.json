@@ -1,0 +1,140 @@
+{
+  "scope": "Prepared after the development diagnostic; integrity inventory, not a preregistration. Excludes local models, temporary files and caches.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7503,
+      "sha256": "3b780c1fc3d66217587c12ebbbbcc2281e7e9b4ec3791bb08b9aab876523fdf9"
+    },
+    {
+      "path": "data/authors_model_sources.json",
+      "bytes": 2234,
+      "sha256": "d27b482b644a8c454c0d049ed1aba4b25f57bd8c820a2a3d73849bba3cb5e030"
+    },
+    {
+      "path": "data/vendor_sources.json",
+      "bytes": 1537,
+      "sha256": "8fcfb0ed0a4c24a9624af6f59d1de56f36ad786cecf62e0d40c52fa8b99311ba"
+    },
+    {
+      "path": "results/authors_exact_segmentation_audit.json",
+      "bytes": 1935,
+      "sha256": "d6d8f59ef072b24540a577b7e23dbe2fcf90aff649c7a36fb67eb37020fa4d63"
+    },
+    {
+      "path": "results/authors_readme_no_spaces.json",
+      "bytes": 639,
+      "sha256": "20bdaafbc6fb8bd8187cff0bef972fea0f2e846001519698f6fb8fe3a67516c4"
+    },
+    {
+      "path": "results/authors_readme_no_spaces.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/authors_readme_no_spaces.stdout.txt",
+      "bytes": 24,
+      "sha256": "df4df070f73613f38bac17481f9ab86547128e360f09b4a0beadecc663819e6d"
+    },
+    {
+      "path": "results/authors_readme_spaces.json",
+      "bytes": 619,
+      "sha256": "f8d2b5d2109122ec72b9a08c2e77bc87b6a24c29c8d5078ec340454253641c84"
+    },
+    {
+      "path": "results/authors_readme_spaces.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/authors_readme_spaces.stdout.txt",
+      "bytes": 29,
+      "sha256": "f61038cbef490b8dffe21fb7c294854894374f1f4fb63fae0db49209b475acc1"
+    },
+    {
+      "path": "results/authors_short_nospace_score_audit.json",
+      "bytes": 697,
+      "sha256": "879634a385d03ba558e88d6265fa9d508be2dc1db3732f6579ea4349de8c645d"
+    },
+    {
+      "path": "results/authors_smoke_summary.json",
+      "bytes": 1341,
+      "sha256": "d54d491a5f8c0ba297e7f2558bdb4f8f995a2cbe7759434b78b3151b5dd33c2b"
+    },
+    {
+      "path": "results/segmentation_verification.json",
+      "bytes": 1238,
+      "sha256": "1292aee82c6d7dfef426c8bb1e81a58c5ade2e9a263281704e2f418a8ec89447"
+    },
+    {
+      "path": "src/acquire_authors_models.py",
+      "bytes": 2424,
+      "sha256": "78851863e66f00eec1e54a441becb97e9ff7b5de4f9e3861458c5df71179f34a"
+    },
+    {
+      "path": "src/audit_author_segmentation.py",
+      "bytes": 7695,
+      "sha256": "c2102a27d456e8c9032c22daed796a5c025a8da5baff3b9f650868e543d9c260"
+    },
+    {
+      "path": "src/smoke_authors.py",
+      "bytes": 3246,
+      "sha256": "3104f25b70511e0d35db46579ad3b5154346c0f5db3af9718f81b48c18ae3405"
+    },
+    {
+      "path": "src/verify_segmentation.py",
+      "bytes": 2881,
+      "sha256": "7511b7a7de784bc819ff51a464b207747fc53517512daf5ac4e6330fc3af6e60"
+    },
+    {
+      "path": "src/verify_with_authors.pl",
+      "bytes": 2224,
+      "sha256": "3be7f5b11fba14914687a7fdc0e56e1c8462905edb506189a3ff44c9c3e047f4"
+    },
+    {
+      "path": "vendor/hhk-decipherment/FreqAnalysis.pm",
+      "bytes": 2133,
+      "sha256": "563cce6d2e3af583cebd0f922e5cd7680ae138786572367d72fc9f01465b8f12"
+    },
+    {
+      "path": "vendor/hhk-decipherment/JMSmoothing.pm",
+      "bytes": 1857,
+      "sha256": "74b033a6899f33be4e70243fe645863252aa379e13739242b7d3fef9c8867357"
+    },
+    {
+      "path": "vendor/hhk-decipherment/LICENCE",
+      "bytes": 1189,
+      "sha256": "ee9e6e82d5ea179ff189f330b3a54eff791ee4f4874b340fefcf7a1227c300bf"
+    },
+    {
+      "path": "vendor/hhk-decipherment/NoSpace.pm",
+      "bytes": 1097,
+      "sha256": "6c6f0bc2173a3ae5170f658d36a1b2ab4d31571c41d9e5a10159cc40550c6188"
+    },
+    {
+      "path": "vendor/hhk-decipherment/README",
+      "bytes": 2078,
+      "sha256": "13b6f059bcf026c96d45a52e9451cd1dd992e84ff9985531eaa72af514723c02"
+    },
+    {
+      "path": "vendor/hhk-decipherment/ReadLM.pm",
+      "bytes": 1079,
+      "sha256": "6dc2cdc4b577f10f3c4ab533b3e4ae69ea396a3dbfc2badb9ef2ef8af730feb9"
+    },
+    {
+      "path": "vendor/hhk-decipherment/Utils.pm",
+      "bytes": 2765,
+      "sha256": "8708e8db3c182004ccb3e3d57d9ed205882ab923a81bf007df27877ab4177b2e"
+    },
+    {
+      "path": "vendor/hhk-decipherment/masc_solver_beamsearch.pl",
+      "bytes": 11262,
+      "sha256": "0a6a1b0ec4d1c8ef8d264180b8961e9523063755ae358b4bd13096ab043b1c63"
+    },
+    {
+      "path": "vendor/hhk-decipherment/masc_solver_mcts.pl",
+      "bytes": 14627,
+      "sha256": "5021fcef107d606f641fa4b24e4544bb3eeb159efefb26dc6d4d3966a7068f17"
+    }
+  ]
+}

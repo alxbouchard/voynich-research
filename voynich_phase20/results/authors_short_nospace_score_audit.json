@@ -1,0 +1,22 @@
+{
+  "scope": "Independent Python scoring of two candidates using unmodified authors models and greedy segmentation; no key fit.",
+  "vocabulary_size": 123619,
+  "rows": [
+    {
+      "kind": "truth",
+      "raw": "thisisatopsecretmessage",
+      "segmented": "this i sato p secret message",
+      "word_score_ln": -61.35961022973175,
+      "char_score_ln": -70.83748993473421,
+      "combined_score_ln": -61.83350421498187
+    },
+    {
+      "kind": "returned",
+      "raw": "thisisatulsecretmessage",
+      "segmented": "this is atul secret message",
+      "word_score_ln": -48.09892651968601,
+      "char_score_ln": -67.02179537741944,
+      "combined_score_ln": -49.045069962572676
+    }
+  ]
+}
