@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/open_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/open/latin",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/latin_500_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/latin_500_1_starts.txt",
+      "1.0",
+      "0",
+      "2"
+    ],
+    "protocol_sha256": "3aa890773b11c18f44124f4299c2d78944f6a2bd0073162b63ac2ef8b8731654",
+    "executable_sha256": "35f3069d2b5eaa8618cd70ba7e4e303aec07d52994abfb39c8484adc3ff3bdb1",
+    "models_sha256": "1bb89064294dcad0b58fcdd6849fddc4c78c1e981c21b844d0917d5f54d21204",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/latin_500_1/fit.txt": "eaf797ecfb6663436190186cc379c872b9d86bca2de7c3f99e10e76ee95ab41a",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/latin_500_1_starts.txt": "3ef57a25abe2d7669ed3f9228ac78144c64e80b21994ceb9781d7921e12bc9c6"
+    }
+  },
+  "seconds": 3.613046041922644,
+  "result": {
+    "key": "xyudjmcvhfinepqtrsgzlkboaw",
+    "evaluations": 977,
+    "final_start_scores": [
+      -1318.8414196204694,
+      -1318.8414196204694
+    ],
+    "fit": {
+      "score": -1318.8414196204694,
+      "segmentation": "eadem causa adversum omnes polleat iuremiremur cadunt plurimis autumno quaedama mittunt tardius atque in hiemes pro rogant moras neque inter est maturius germinasse ut potecumquaedam prima egerminent et internovissimas nudentur ut amygdalae fraxinis abucimorus autem novissima germinet cum primis folia demittat magna et in hoc vissoli prius decidunt in siccis macrisque et vetustae prius arbori multis et iam ante quam maturescat fructus ut se rotinaefico et hiberna epiro et malo granatumque est pomum tali tantum aspici in matre neque iis autem quis semper retinent comas eadem folia"
+    }
+  }
+}

@@ -88,7 +88,26 @@ un changement requiert un nouveau protocole. Voir [le détail](../voynich_phase2
 Un seul des douze contrôles passe les seuils ; aucune étape de ces commandes
 ne lance d'ajustement sur le manuscrit.
 
-## 7. Images, modèles et ressources externes
+## 7. Phase 21
+
+Cette phase réutilise les sources archivées et le moteur d'initialisation de
+phase 20, sans modifier ses fichiers. Python, NumPy et C++17 sont nécessaires.
+
+```sh
+python3 tools/hydrate.py
+python3 voynich_phase21/src/study.py prepare
+python3 voynich_phase21/src/study.py fit
+python3 voynich_phase21/src/study.py evaluate
+python3 voynich_phase21/src/verify.py
+```
+
+Pour réexécuter les recherches, déplacer préalablement `voynich_phase21/results/controls/`
+dans une copie du dépôt. Les paramètres ont été choisis uniquement sur les
+anciens contrôles ; les nouveaux passages excluent ceux de phase 20 avec
+une marge de 50 mots. Cinq des douze contrôles passent les seuils ; aucun
+calcul sur le manuscrit n'est lancé. Voir [la notice](../voynich_phase21/README.md).
+
+## 8. Images, modèles et ressources externes
 
 Les sources photographiques Yale, les TIFF multispectraux et certaines matrices binaires ne sont pas inclus dans Git. Leur inventaire est dans `artifacts/omitted_binary_assets.json`. Les sources officielles sont décrites dans `docs/SOURCES.md` et les manifestes d'origine. Certaines petites figures dérivées sont également omises ; elles peuvent être régénérées lorsque les données sources correspondantes sont présentes.
 
@@ -96,7 +115,7 @@ Les archives de reproduction complètes déjà produites restent les ensembles l
 
 Pour la phase 17, la cryptanalyse utilise les deux fichiers IVTFF inclus. L'analyse spectrale requiert en plus `data/f116v_native_roi_22bands.npz`, ou les captures brutes référencées. Ne pas annoncer une reproduction spectrale si seule la cryptanalyse a été exécutée.
 
-## 8. Portée de la validation de cette migration
+## 9. Portée de la validation de cette migration
 
 La migration vérifie les archives ZIP utilisées, les octets des fichiers sélectionnés, les rapports PDF et les chemins de documentation. Elle ne réexécute pas les 17 séries de calculs. Les comptes rendus de vérification historique sont archivés dans chaque dossier `results/`.
 

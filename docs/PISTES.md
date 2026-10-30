@@ -11,10 +11,17 @@ La prochaine étape utile est de **calibrer un critère discriminant** sur plusi
 La [phase 20](../voynich_phase20/RAPPORT.md) a ensuite testé une recherche de
 clé avec segmentation sur douze contrôles. Le découpage exact progresse face
 au découpage glouton, mais un seul contrôle atteint les deux seuils fixés.
-La configuration n'est pas appliquée au Voynich. Les priorités sont désormais
-de représenter les mots inconnus et variantes historiques, puis de réserver
-de nouveaux passages pour la calibration. Les douze contrôles déjà vus
-doivent rester des données de développement pour cette correction.
+La configuration n'est pas appliquée au Voynich. Les douze contrôles ont
+ensuite servi au développement du traitement des mots inconnus en phase 21.
+
+La [phase 21](../voynich_phase21/RAPPORT.md) évalue cette correction sur
+douze nouveaux chiffrés et passages disjoints des anciens. Le découpage
+progresse dans tous les cas, mais cinq seulement passent les deux seuils.
+Les coupures inutiles diminuent fortement, tandis que les mots voisins
+sont plus souvent fusionnés. La prochaine piste est un modèle plus précis
+des frontières de mots, notamment en latin, et une représentation explicite
+des signes jamais observés. Les nouveaux contrôles devront à leur tour
+devenir des données de développement si leurs erreurs guident une correction.
 
 Le [brouillon initial](../voynich_phase18/PROTOCOL_DRAFT.md), les protocoles figés de [phase 18](../voynich_phase18/PROTOCOL.json) et de [phase 19](../voynich_phase19/PROTOCOL.json), les sorties et les limites restent archivés. Les pistes sur l'initiale et le modèle italien n'atteignaient pas ensemble le critère de phase 18 sur les deux groupes ; elles ne sont pas réajustées dans la phase 19.
 

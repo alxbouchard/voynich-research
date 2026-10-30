@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/closed_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/closed/latin",
+      "exact",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/latin_500_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/latin_500_2_starts.txt",
+      "2"
+    ],
+    "protocol_sha256": "3aa890773b11c18f44124f4299c2d78944f6a2bd0073162b63ac2ef8b8731654",
+    "executable_sha256": "b1052165b298a3a4f4ae7ee069beb6fea4d4d44207ec128c58d206c81bdfb42f",
+    "models_sha256": "1bb89064294dcad0b58fcdd6849fddc4c78c1e981c21b844d0917d5f54d21204",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/latin_500_2/fit.txt": "195ff539714ac24093870ebaa129f0013a592cb044eba71182f35d8cf47a2073",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/latin_500_2_starts.txt": "de398b80e761e0e483d2925e5a15b59a84f6383677f9aa8a7fbdde6307b98f45"
+    }
+  },
+  "seconds": 0.2666974999010563,
+  "result": {
+    "key": "tfjyzpiquvnchralmsgkbdoxew",
+    "evaluations": 977,
+    "final_start_scores": [
+      -2438.354159382919,
+      -3662.860577288506
+    ],
+    "fit": {
+      "score": -2438.3541593829173,
+      "segmentation": "ubi c o n v o l vere se venae atque n o di in veniunt uri n quibusdam sicut in m a r more c e n t r a id est d uri t i ac l a v o similis in i m i c a ser r is et quaedam forte accidunt ut l ap id e c o m p re h e n s o aut recepto in corpus aut alterius a r b o r is r a m o me g a r is d ius t et i o l eas ter in foro cui viri forte s ad f ix erant arma quae cortice a m b i e n t ea et a s longa o cc u l t a v erat fuit que a r b o r illa f a tali sex c id i o urbis prae m o n ita eo r ac u locum a r b o r arma p e per is se t quod s u cc is a e accidit o c re is g a l eisque intus repertis ferunt lapides ita inventos ad c o n t in e n d os par t u s esse re medio amplissima arborum ad hoc a e vi existimatur romae"
+    }
+  }
+}
