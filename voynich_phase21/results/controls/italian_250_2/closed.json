@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/closed_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/closed/italian",
+      "exact",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/italian_250_2/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/italian_250_2_starts.txt",
+      "2"
+    ],
+    "protocol_sha256": "3aa890773b11c18f44124f4299c2d78944f6a2bd0073162b63ac2ef8b8731654",
+    "executable_sha256": "b1052165b298a3a4f4ae7ee069beb6fea4d4d44207ec128c58d206c81bdfb42f",
+    "models_sha256": "1bb89064294dcad0b58fcdd6849fddc4c78c1e981c21b844d0917d5f54d21204",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/italian_250_2/fit.txt": "347530b7b216faa9c19a60cbb1a689d6c3b54bedb5d92abbc710e1490e82595f",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/italian_250_2_starts.txt": "12c547910585a2945287eaf344bcedbc2a093583d13e94e56690ccab32dd3137"
+    }
+  },
+  "seconds": 0.38887387490831316,
+  "result": {
+    "key": "jomhrpuzxytwskdqgvbncaifle",
+    "evaluations": 977,
+    "final_start_scores": [
+      -680.0877339907862,
+      -680.0877339907862
+    ],
+    "fit": {
+      "score": -680.0877339907861,
+      "segmentation": "di colui che n terra ad d u s se la verita che tanto ci so b lima e tanta grazia sopra me re lu s se ch io ritrassi le ville c ir c un s tanti dal empio colto che l mondo se d u s se questi altri fuochi tutti con temp la n ti uomini fuoro accesi di quel caldo che fa nascere i fiori e frutti santi qui e ma c cari o qui er omo al d o"
+    }
+  }
+}

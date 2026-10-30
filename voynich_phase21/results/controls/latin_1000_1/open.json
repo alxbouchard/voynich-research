@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "command": [
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/open_solver",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/open/latin",
+      "refine",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/latin_1000_1/fit.txt",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/latin_1000_1_starts.txt",
+      "1.0",
+      "0",
+      "2"
+    ],
+    "protocol_sha256": "3aa890773b11c18f44124f4299c2d78944f6a2bd0073162b63ac2ef8b8731654",
+    "executable_sha256": "35f3069d2b5eaa8618cd70ba7e4e303aec07d52994abfb39c8484adc3ff3bdb1",
+    "models_sha256": "1bb89064294dcad0b58fcdd6849fddc4c78c1e981c21b844d0917d5f54d21204",
+    "argument_files": {
+      "/private/tmp/voynich-research-20261030/voynich_phase21/data/controls/latin_1000_1/fit.txt": "89fc085b17b3bb692866eb61f3b0053a7efbd8dd45812d031ffe0c94970bb945",
+      "/private/tmp/voynich-research-20261030/voynich_phase21/tmp/latin_1000_1_starts.txt": "4ecc529b7a13ac7100418e69c36506214ade62f4d3b00e6a327f9b10bdaf7b6e"
+    }
+  },
+  "seconds": 6.4574667499400675,
+  "result": {
+    "key": "arfnzxiplmjdgyeqbctwsuvkoh",
+    "evaluations": 977,
+    "final_start_scores": [
+      -2754.879001782318,
+      -5239.448295961446
+    ],
+    "fit": {
+      "score": -2754.879001782318,
+      "segmentation": "quibusdam etiam cadit ut maloune donicarnosus suberi populo membrana ceus viti harundini librissimilis ceraso multi plextunicis vitibustiliae abieti quibusdam simplex ut fico harundini magnae tradi cum differentia copiosaefico roboriplata nobreves et angustae malo singula res abietilarici singulis enim in nituntur quamquam minutis inlatera dispersis crassiores lauro et in aequales itemoleae cuietramosae atroboricarnos aerobora suas in profundum agunt sivergilio quidem credimus aesculus quantum corpore eminet tantum radicedescendi toleae malisque et cupressis per summa caespitum aliis recto meatu ut laurooleae aliis flexuoso ut ficominutis haec capillamentis hirsutae tabies multaeque silvestrium equibus montani praetenuia fila decerpentes spectabiles l agoenas et aliavasa nectunt quidam non altius descendere radices quam solis calortepe faciat idque natura loci tenuioris crassive dixere quod falsumarbitror apud auctores certe invenitur abietis planta cum trans ferretur octo cubitorum in altitudinem nectotam re fossam sed ab ruptam maxima spatio atque plenitudinecitri est ab ea platani roboris et glandi ferarum quarundam radixvivacior"
+    }
+  }
+}

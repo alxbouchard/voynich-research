@@ -31,6 +31,17 @@ retrouvées, mais les espaces échouent au critère dans onze cas sur douze.
 Conserver tous les essais et le diagnostic à lettres correctes connues,
 sans changer les paramètres. Ne pas appliquer cette configuration au Voynich.
 
+## Phase 21 — mots inconnus et passages réservés
+
+Le 30 octobre 2026, utiliser les 24 passages de phase 20 comme développement
+pour choisir un réglage parmi 16. Figer ensuite le modèle ouvert, le
+générateur et le vérificateur (`8456988`) avant de choisir les nouveaux
+passages. Exclure tous les anciens extraits avec une marge de 50 mots,
+générer douze clés distinctes et comparer les deux configurations sur les
+mêmes nouveaux textes. Le découpage progresse dans 12/12 cas ; 5/12 passent
+les seuils, contre 0/12 pour le modèle fermé. Conserver le seuil strict,
+y compris le résultat 0,899328859 inférieur à 0,90. Aucun essai Voynich.
+
 ## Règle pour les prochaines contributions
 
 Conserver les hypothèses abandonnées, expliquer chaque changement de protocole, enregistrer les versions et graines, distinguer les résultats calculés des interprétations et réserver des données avant d'ajuster les clés. Toute traduction proposée doit fournir une règle reproductible, des prédictions hors ajustement et des vérifications linguistiques indépendantes.

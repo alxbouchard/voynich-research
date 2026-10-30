@@ -1,5 +1,10 @@
 # Phase 21 — mots inconnus et nouveaux contrôles
 
+**Étude exécutée : 5/12 nouveaux contrôles passent les deux seuils, contre
+0/12 pour le modèle fermé sur les mêmes passages. Aucun essai Voynich.**
+[Rapport et figure](RAPPORT.md) · [résultats complets](results/summary.json)
+· [vérification](results/verification.json) · [protocole figé](PROTOCOL.json).
+
 Cette phase corrige une limite de phase 20 : les mots absents du dictionnaire
 étaient obligatoirement découpés en formes connues, parfois en lettres
 isolées. Le nouveau modèle permet une forme inconnue entière de 1 à 24
@@ -122,6 +127,12 @@ et y déplacer préalablement `voynich_phase21/results/controls/`.
 Une sortie déjà présente n'est relue que si les empreintes du protocole,
 du modèle, du programme et des entrées concordent. Les modèles et exécutables
 restent dans `tmp/`, exclu de Git.
+
+Le rapport et les figures se reconstruisent avec
+`python3 voynich_phase21/src/report.py`. L'intégrité des fichiers archivés
+se vérifie avec `python3 voynich_phase21/src/manifest.py` ; cet inventaire
+ne relance pas les expériences. Des durées et métadonnées peuvent changer
+lors d'une réexécution, sans que le résultat mathématique change.
 
 ## Attribution
 
