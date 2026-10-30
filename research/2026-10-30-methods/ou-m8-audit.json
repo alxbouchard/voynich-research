@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-30",
+  "source_url": "https://github.com/yangou2012/voynich_stt/blob/6d061eb959b1053b35d12a689aa764a8d22930f4/results/stt_battery_results.json",
+  "sha256": "f3c79b12eecfec87bfa9373f083ed5067c9c995cce8e456871863deb2e1e7019",
+  "scope": "Arithmetic check on archived means. No generator or classifier rerun; other seven flags kept as reported. Not the per-run majority rule of the paper.",
+  "discovery": "Lead from https://beyond-any-doubt.org/posts/voynich-harness/; checked against primary code, results and preprint section 3.2.0.8.",
+  "models_checked": 18,
+  "m8_flags_changed": 5,
+  "rows": [
+    {
+      "model": "L0_uniform",
+      "archived_runs": 30,
+      "archived_criteria_passed": 2,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5935892255892256,
+      "baseline_minus_synthetic_mean": 0.026915824915825035,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 2
+    },
+    {
+      "model": "L1_unigram",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5932929292929292,
+      "baseline_minus_synthetic_mean": 0.02721212121212132,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L2_cardan",
+      "archived_runs": 30,
+      "archived_criteria_passed": 1,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.592986531986532,
+      "baseline_minus_synthetic_mean": 0.02751851851851862,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 1
+    },
+    {
+      "model": "L3_markov_char_O1",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.592993265993266,
+      "baseline_minus_synthetic_mean": 0.02751178451178462,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L3_markov_char_O2",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5935892255892256,
+      "baseline_minus_synthetic_mean": 0.026915824915825035,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L3_markov_char_O3",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.594037037037037,
+      "baseline_minus_synthetic_mean": 0.02646801346801358,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L3_markov_char_O4",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5937373737373737,
+      "baseline_minus_synthetic_mean": 0.02676767676767688,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L3_markov_char_O5",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5935925925925926,
+      "baseline_minus_synthetic_mean": 0.026912457912458023,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L4_markov_word_O1",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5926969696969696,
+      "baseline_minus_synthetic_mean": 0.027808080808080917,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L4_markov_word_O2",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5821077441077441,
+      "baseline_minus_synthetic_mean": 0.03839730639730647,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 3
+    },
+    {
+      "model": "L4_markov_word_O3",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.6983939393939393,
+      "baseline_minus_synthetic_mean": -0.07788888888888884,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": false,
+      "criteria_if_only_m8_changed": 2
+    },
+    {
+      "model": "L5_hmm",
+      "archived_runs": 30,
+      "archived_criteria_passed": 0,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5556296296296296,
+      "baseline_minus_synthetic_mean": 0.06487542087542095,
+      "archived_m8_pass": false,
+      "m8_bilateral_on_archived_mean": false,
+      "criteria_if_only_m8_changed": 0
+    },
+    {
+      "model": "L6_lstm",
+      "archived_runs": 30,
+      "archived_criteria_passed": 1,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5909360269360269,
+      "baseline_minus_synthetic_mean": 0.029569023569023647,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 1
+    },
+    {
+      "model": "L7_gpt2",
+      "archived_runs": 30,
+      "archived_criteria_passed": 1,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.5922592592592593,
+      "baseline_minus_synthetic_mean": 0.02824579124579134,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": true,
+      "criteria_if_only_m8_changed": 1
+    },
+    {
+      "model": "L8_section_bigram",
+      "archived_runs": 30,
+      "archived_criteria_passed": 5,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.945942760942761,
+      "baseline_minus_synthetic_mean": -0.3254377104377104,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": false,
+      "criteria_if_only_m8_changed": 4
+    },
+    {
+      "model": "L8b_section_interp",
+      "archived_runs": 30,
+      "archived_criteria_passed": 7,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.9366801346801348,
+      "baseline_minus_synthetic_mean": -0.31617508417508416,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": false,
+      "criteria_if_only_m8_changed": 6
+    },
+    {
+      "model": "L8c_equal_interp",
+      "archived_runs": 30,
+      "archived_criteria_passed": 2,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.9905185185185186,
+      "baseline_minus_synthetic_mean": -0.370013468013468,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": false,
+      "criteria_if_only_m8_changed": 1
+    },
+    {
+      "model": "L8d_interp_smooth",
+      "archived_runs": 30,
+      "archived_criteria_passed": 3,
+      "baseline_accuracy": 0.6205050505050506,
+      "synthetic_accuracy_mean": 0.946804713804714,
+      "baseline_minus_synthetic_mean": -0.32629966329966337,
+      "archived_m8_pass": true,
+      "m8_bilateral_on_archived_mean": false,
+      "criteria_if_only_m8_changed": 2
+    }
+  ]
+}
