@@ -1,0 +1,5 @@
+# Suite sur la face suivante de l’incunable
+
+La photographie du f. 188v a été ouverte pour vérifier la frontière de la rubrique *Von der Lactucken*. Sur la même face deux rubriques voisines, consacrées à l’hysope et au lis, ouvrent également le paragraphe par un nom latin puis une forme de *heißen*. Avant d’ouvrir la photographie du f. 189r (vue 380), prendre la première rubrique de plante qui y commence et son premier mot complet de prose. Prédire que le deuxième mot de la prose y sera *heÿſt*, orthographe de l’imprimé, en conservant toute divergence de graphie. Prédiction distincte : le dernier mot lexical de la rubrique réapparaîtra tel quel parmi les quatre premiers mots de prose, sans tenir compte des capitales et de s long. Garder une éventuelle absence de rubrique comme abstention. Le résultat porte sur la formule du livre allemand.
+
+La recherche OCR de lactucken a déjà montré un court extrait en cours de phrase sur la vue 380, « die sy hat pletez als lactucken pleter ». Cette reprise dans la prose n’indique pas le début demandé. Le classeur RIDGES a servi aux autres calculs. La vue elle-même n’a pas encore été examinée pour cet essai.
