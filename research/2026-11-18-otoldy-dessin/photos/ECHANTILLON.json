@@ -1,0 +1,335 @@
+{
+  "fichiers_sha256": {
+    "H": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "ZL": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "faces_avec_forme": {
+    "H": {
+      "f22r": {
+        "séparés": [
+          "f22r.11"
+        ],
+        "joints": [
+          "f22r.11"
+        ]
+      },
+      "f28r": {
+        "séparés": [
+          "f28r.7"
+        ],
+        "joints": [
+          "f28r.7"
+        ]
+      },
+      "f44v": {
+        "séparés": [
+          "f44v.1"
+        ],
+        "joints": [
+          "f44v.1"
+        ]
+      },
+      "f48v": {
+        "séparés": [
+          "f48v.9"
+        ],
+        "joints": [
+          "f48v.9"
+        ]
+      },
+      "f53v": {
+        "séparés": [
+          "f53v.13"
+        ],
+        "joints": [
+          "f53v.13"
+        ]
+      }
+    },
+    "ZL": {
+      "f22r": {
+        "séparés": [
+          "f22r.11"
+        ],
+        "joints": [
+          "f22r.11"
+        ]
+      },
+      "f28r": {
+        "séparés": [
+          "f28r.7"
+        ],
+        "joints": [
+          "f28r.7"
+        ]
+      },
+      "f44v": {
+        "séparés": [
+          "f44v.1"
+        ],
+        "joints": [
+          "f44v.1"
+        ]
+      },
+      "f48v": {
+        "séparés": [
+          "f48v.9"
+        ],
+        "joints": [
+          "f48v.9"
+        ]
+      },
+      "f53v": {
+        "séparés": [
+          "f53v.13"
+        ],
+        "joints": [
+          "f53v.13"
+        ]
+      }
+    }
+  },
+  "paires": [
+    {
+      "cible": "f22r",
+      "lieux": {
+        "H": {
+          "séparés": [
+            "f22r.11"
+          ],
+          "joints": [
+            "f22r.11"
+          ]
+        },
+        "ZL": {
+          "séparés": [
+            "f22r.11"
+          ],
+          "joints": [
+            "f22r.11"
+          ]
+        }
+      },
+      "meta_cible": {
+        "Q": "C",
+        "P": "K",
+        "F": "x",
+        "B": "3",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "témoin": "f21r",
+      "meta_témoin": {
+        "Q": "C",
+        "P": "I",
+        "F": "w",
+        "B": "4",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "admissibles_en_ordre": [
+        "f21r",
+        "f23r",
+        "f20r",
+        "f24r",
+        "f18r",
+        "f17r",
+        "f19r"
+      ]
+    },
+    {
+      "cible": "f28r",
+      "lieux": {
+        "H": {
+          "séparés": [
+            "f28r.7"
+          ],
+          "joints": [
+            "f28r.7"
+          ]
+        },
+        "ZL": {
+          "séparés": [
+            "f28r.7"
+          ],
+          "joints": [
+            "f28r.7"
+          ]
+        }
+      },
+      "meta_cible": {
+        "Q": "D",
+        "P": "G",
+        "F": "d",
+        "B": "4",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "témoin": "f27r",
+      "meta_témoin": {
+        "Q": "D",
+        "P": "E",
+        "F": "c",
+        "B": "3",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "admissibles_en_ordre": [
+        "f27r",
+        "f30r",
+        "f25r",
+        "f32r",
+        "f29r"
+      ]
+    },
+    {
+      "cible": "f44v",
+      "lieux": {
+        "H": {
+          "séparés": [
+            "f44v.1"
+          ],
+          "joints": [
+            "f44v.1"
+          ]
+        },
+        "ZL": {
+          "séparés": [
+            "f44v.1"
+          ],
+          "joints": [
+            "f44v.1"
+          ]
+        }
+      },
+      "meta_cible": {
+        "Q": "F",
+        "P": "H",
+        "F": "d",
+        "B": "4",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "témoin": "f42v",
+      "meta_témoin": {
+        "Q": "F",
+        "P": "D",
+        "F": "b",
+        "B": "2",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "admissibles_en_ordre": [
+        "f42v",
+        "f47v",
+        "f45v"
+      ]
+    },
+    {
+      "cible": "f48v",
+      "lieux": {
+        "H": {
+          "séparés": [
+            "f48v.9"
+          ],
+          "joints": [
+            "f48v.9"
+          ]
+        },
+        "ZL": {
+          "séparés": [
+            "f48v.9"
+          ],
+          "joints": [
+            "f48v.9"
+          ]
+        }
+      },
+      "meta_cible": {
+        "Q": "F",
+        "P": "P",
+        "F": "z",
+        "B": "1",
+        "I": "H",
+        "L": "B",
+        "H": "5",
+        "C": "2"
+      },
+      "témoin": "f41v",
+      "meta_témoin": {
+        "Q": "F",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "H",
+        "L": "B",
+        "H": "5",
+        "C": "2"
+      },
+      "admissibles_en_ordre": [
+        "f41v"
+      ]
+    },
+    {
+      "cible": "f53v",
+      "lieux": {
+        "H": {
+          "séparés": [
+            "f53v.13"
+          ],
+          "joints": [
+            "f53v.13"
+          ]
+        },
+        "ZL": {
+          "séparés": [
+            "f53v.13"
+          ],
+          "joints": [
+            "f53v.13"
+          ]
+        }
+      },
+      "meta_cible": {
+        "Q": "G",
+        "P": "J",
+        "F": "w",
+        "B": "4",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "témoin": "f54v",
+      "meta_témoin": {
+        "Q": "G",
+        "P": "L",
+        "F": "x",
+        "B": "3",
+        "I": "H",
+        "L": "A",
+        "H": "1",
+        "C": "1"
+      },
+      "admissibles_en_ordre": [
+        "f54v",
+        "f51v",
+        "f56v",
+        "f49v",
+        "f52v"
+      ]
+    }
+  ]
+}
