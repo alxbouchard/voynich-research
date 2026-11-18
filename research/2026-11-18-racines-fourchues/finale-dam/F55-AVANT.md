@@ -1,0 +1,5 @@
+# La grande plante autrefois associée au fragment 113
+
+La recherche hors lot retient une seule légende parmi 69 loci, `doldam`, en f99v.31. Le registre signale pour le fragment 113 une comparaison ancienne avec la grande illustration de f55r, attribuée à Petersen. Ce rapprochement visuel n’établit pas l’identité botanique. La première ligne du verso et l'appariement de noms à des notices ont déjà été étudiés. Le nom exact peut donc avoir été examiné auparavant. L’essai supplémentaire porte sur la famille entière et sur tout le recto, sans changer de page.
+
+Avant de consulter la prose pour ce calcul, prédire sur f55r au moins un mot entier parmi `oldam`, `saldam`, `doldam` aux rangs concordants des lignes P0. En sensibilité, accepter tout mot de quatre signes ou plus terminé par `dam`, en gardant séparément l'accord sur la ligne malgré un rang différent. Refaire exactement le même calcul sur toutes les autres faces botaniques de la même classe de Currier et de la même main, et donner leurs longueurs. Ce test de transfert dans le texte peut échouer même si le détail du petit dessin est correctement prédit.
