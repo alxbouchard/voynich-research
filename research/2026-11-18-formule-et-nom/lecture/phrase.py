@@ -1,6 +1,5 @@
 """Apprendre deux mots, prédire le troisième, puis vérifier la fin de la ligne."""
 from collections import Counter, defaultdict
-from functools import lru_cache
 import gzip
 import json
 from pathlib import Path
@@ -41,19 +40,23 @@ def windows(sections):
             yield section, start, words
 
 
-def fit(first, second, width):
-    if first[0] != second[0] or any(not 4 <= len(w) <= 4*width for w in (first,second)):
+def fit(first, second, width, marker=False):
+    first_units, second_units = (B[1:], C[1:]) if marker else (B, C)
+    n = len(first_units)
+    if (not marker and first[0] != second[0]) or any(not n <= len(w) <= n*width for w in (first,second)):
         return
-    for key in tables(B, first, width):
-        for other in tables(C, second, width, key):
+    for key in tables(first_units, first, width):
+        for other in tables(second_units, second, width, key):
+            if marker:
+                other["ch"] = ""
             yield [other[s] for s in SIGNS]
 
 
-def predict(sections, width):
+def predict(sections, width, marker=False):
     pairs = sorted({(words[i+1], words[i+2]) for _, i, words in windows(sections)})
     output = []
     for first, second in pairs:
-        keys = list(fit(first, second, width))
+        keys = list(fit(first, second, width, marker))
         if keys:
             pred = sorted({k[0]+k[4]+k[3] for k in keys})
             ctrl = sorted({k[0]+k[3]+k[4] for k in keys})
@@ -120,14 +123,16 @@ def confirm(sections, catalogue, width, rubrics):
 
 def main():
     data = corpus(Path(sys.argv[2]))
-    filename = "PREDICTIONS.json.gz"
+    marker = len(sys.argv) == 4 and sys.argv[3] == "marque"
+    tag = "-MARQUE" if marker else ""
+    filename = "PREDICTIONS" + tag + ".json.gz"
     if sys.argv[1] == "predire":
-        save(filename, {name:{str(w):predict(sections,w) for w in (2,3)}
+        save(filename, {name:{str(w):predict(sections,w,marker) for w in (2,3)}
                         for name,sections in data.items()})
     elif sys.argv[1] == "verifier":
         stored = json.loads(gzip.decompress((HERE/filename).read_bytes()))
         rubrics = {title.lower() for title in data["Macer"]}
-        save("VERIFICATION.json", {name:{w:confirm(data[name],rows,int(w),rubrics)
+        save("VERIFICATION" + tag + ".json", {name:{w:confirm(data[name],rows,int(w),rubrics)
                                           for w,rows in bywidth.items()}
                                    for name,bywidth in stored.items()})
     else:
