@@ -1,0 +1,828 @@
+{
+ "sources": {
+  "15": {
+   "url": "https://www.voynich.nu/q15/index.html",
+   "sha256": "25a8bb0083a2c6c09913910c52d03a699091c100294f8fe3c604e3846253f3a7"
+  },
+  "19": {
+   "url": "https://www.voynich.nu/q19/index.html",
+   "sha256": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb"
+  }
+ },
+ "panneaux": {
+  "f88r": {
+   "cahier": 15,
+   "lignes_standard_catalogue": 16,
+   "url": "https://www.voynich.nu/q15/index.html#f88r"
+  },
+  "f88v": {
+   "cahier": 15,
+   "lignes_standard_catalogue": 17,
+   "url": "https://www.voynich.nu/q15/index.html#f88v"
+  },
+  "f89r1": {
+   "cahier": 15,
+   "lignes_standard_catalogue": 14,
+   "url": "https://www.voynich.nu/q15/index.html#f89r1"
+  },
+  "f89r2": {
+   "cahier": 15,
+   "lignes_standard_catalogue": 14,
+   "url": "https://www.voynich.nu/q15/index.html#f89r2"
+  },
+  "f89v2": {
+   "cahier": 15,
+   "lignes_standard_catalogue": 12,
+   "url": "https://www.voynich.nu/q15/index.html#f89v2"
+  },
+  "f89v1": {
+   "cahier": 15,
+   "lignes_standard_catalogue": 16,
+   "url": "https://www.voynich.nu/q15/index.html#f89v1"
+  },
+  "f99r": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 18,
+   "url": "https://www.voynich.nu/q19/index.html#f99r"
+  },
+  "f99v": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 19,
+   "url": "https://www.voynich.nu/q19/index.html#f99v"
+  },
+  "f100r": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 10,
+   "url": "https://www.voynich.nu/q19/index.html#f100r"
+  },
+  "f100v": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 9,
+   "url": "https://www.voynich.nu/q19/index.html#f100v"
+  },
+  "f101r": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 10,
+   "url": "https://www.voynich.nu/q19/index.html#f101r"
+  },
+  "f101v": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 10,
+   "url": "https://www.voynich.nu/q19/index.html#f101v"
+  },
+  "f102r1": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 13,
+   "url": "https://www.voynich.nu/q19/index.html#f102r1"
+  },
+  "f102r2": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 15,
+   "url": "https://www.voynich.nu/q19/index.html#f102r2"
+  },
+  "f102v2": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 17,
+   "url": "https://www.voynich.nu/q19/index.html#f102v2"
+  },
+  "f102v1": {
+   "cahier": 19,
+   "lignes_standard_catalogue": 14,
+   "url": "https://www.voynich.nu/q19/index.html#f102v1"
+  }
+ },
+ "liens": [
+  {
+   "fragment": 8,
+   "panneau": "f88r",
+   "plante": "f15v",
+   "cahier": 15,
+   "classe": "petersen",
+   "rangee": 2,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "petersen",
+     "notice": "f88r",
+     "source": "https://www.voynich.nu/q15/index.html#f88r",
+     "lien_imprime": "https://www.voynich.nu/q02/index.html#f15v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f88r",
+   "cible_source": "https://www.voynich.nu/q02/index.html#f15v"
+  },
+  {
+   "fragment": 11,
+   "panneau": "f88r",
+   "plante": "f90r2",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f88r",
+     "source": "https://www.voynich.nu/q15/index.html#f88r",
+     "lien_imprime": "https://www.voynich.nu/q15/index.html#f90r2"
+    },
+    {
+     "classe": "reciproque",
+     "notice": "f88r",
+     "source": "https://www.voynich.nu/q15/index.html#f90r2",
+     "lien_imprime": "https://www.voynich.nu/q15/index.html#f88r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f88r",
+   "cible_source": "https://www.voynich.nu/q15/index.html#f90r2"
+  },
+  {
+   "fragment": 22,
+   "panneau": "f88v",
+   "plante": "f94v",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f88v",
+     "source": "https://www.voynich.nu/q15/index.html#f88v",
+     "lien_imprime": "https://www.voynich.nu/q17/index.html#f94v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f88v",
+   "cible_source": "https://www.voynich.nu/q17/index.html#f94v"
+  },
+  {
+   "fragment": 25,
+   "panneau": "f89r1",
+   "plante": "f57r",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f89r1",
+     "source": "https://www.voynich.nu/q15/index.html#f89r1",
+     "lien_imprime": "https://www.voynich.nu/q08/index.html#f57r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89r1",
+   "cible_source": "https://www.voynich.nu/q08/index.html#f57r"
+  },
+  {
+   "fragment": 26,
+   "panneau": "f89r1",
+   "plante": "f43v",
+   "cahier": 15,
+   "classe": "petersen",
+   "rangee": 1,
+   "rang_dans_rangee": 4,
+   "recensements": [
+    {
+     "classe": "petersen",
+     "notice": "f89r1",
+     "source": "https://www.voynich.nu/q15/index.html#f89r1",
+     "lien_imprime": "https://www.voynich.nu/q06/index.html#f43v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89r1",
+   "cible_source": "https://www.voynich.nu/q06/index.html#f43v"
+  },
+  {
+   "fragment": 28,
+   "panneau": "f89r1",
+   "plante": "f30r",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f89r1",
+     "source": "https://www.voynich.nu/q15/index.html#f89r1",
+     "lien_imprime": "https://www.voynich.nu/q04/index.html#f30r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89r1",
+   "cible_source": "https://www.voynich.nu/q04/index.html#f30r"
+  },
+  {
+   "fragment": 31,
+   "panneau": "f89r1",
+   "plante": "f33r",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f89r1",
+     "source": "https://www.voynich.nu/q15/index.html#f89r1",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f33r"
+    },
+    {
+     "classe": "petersen",
+     "notice": "f89r2",
+     "source": "https://www.voynich.nu/q15/index.html#f89r2",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f33"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89r1",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f33r"
+  },
+  {
+   "fragment": 35,
+   "panneau": "f89r2",
+   "plante": "f35v",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f89r2",
+     "source": "https://www.voynich.nu/q15/index.html#f89r2",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f35v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89r2",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f35v"
+  },
+  {
+   "fragment": 40,
+   "panneau": "f89r2",
+   "plante": "f87v",
+   "cahier": 15,
+   "classe": "petersen",
+   "rangee": 3,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "petersen",
+     "notice": "f89r2",
+     "source": "https://www.voynich.nu/q15/index.html#f89r2",
+     "lien_imprime": "https://www.voynich.nu/q15/index.html#f87v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89r2",
+   "cible_source": "https://www.voynich.nu/q15/index.html#f87v"
+  },
+  {
+   "fragment": 50,
+   "panneau": "f89v2",
+   "plante": "f10v",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f89v2",
+     "source": "https://www.voynich.nu/q15/index.html#f89v2",
+     "lien_imprime": "https://www.voynich.nu/q02/index.html#f10v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89v2",
+   "cible_source": "https://www.voynich.nu/q02/index.html#f10v"
+  },
+  {
+   "fragment": 52,
+   "panneau": "f89v2",
+   "plante": "f40v",
+   "cahier": 15,
+   "classe": "petersen",
+   "rangee": 1,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "petersen",
+     "notice": "f89v2",
+     "source": "https://www.voynich.nu/q15/index.html#f89v2",
+     "lien_imprime": "https://www.voynich.nu/q05.html/#f40v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89v2",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f40v"
+  },
+  {
+   "fragment": 54,
+   "panneau": "f89v2",
+   "plante": "f48v",
+   "cahier": 15,
+   "classe": "meme_plante",
+   "rangee": 1,
+   "rang_dans_rangee": 5,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f89v2",
+     "source": "https://www.voynich.nu/q15/index.html#f89v2",
+     "lien_imprime": "https://www.voynich.nu/q06/index.html#f48v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89v2",
+   "cible_source": "https://www.voynich.nu/q06/index.html#f48v"
+  },
+  {
+   "fragment": 56,
+   "panneau": "f89v2",
+   "plante": "f24r",
+   "cahier": 15,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f89v2",
+     "source": "https://www.voynich.nu/q15/index.html#f89v2",
+     "lien_imprime": "https://www.voynich.nu/q03/index.html#f24r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89v2",
+   "cible_source": "https://www.voynich.nu/q03/index.html#f24r"
+  },
+  {
+   "fragment": 61,
+   "panneau": "f89v2",
+   "plante": "f48r",
+   "cahier": 15,
+   "classe": "meme_plante",
+   "rangee": 3,
+   "rang_dans_rangee": 4,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f89v2",
+     "source": "https://www.voynich.nu/q15/index.html#f89v2",
+     "lien_imprime": "https://www.voynich.nu/q06/index.html#f48r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q15/index.html#f89v2",
+   "cible_source": "https://www.voynich.nu/q06/index.html#f48r"
+  },
+  {
+   "fragment": 80,
+   "panneau": "f99r",
+   "plante": "f51r",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f99r",
+     "source": "https://www.voynich.nu/q19/index.html#f99r",
+     "lien_imprime": "https://www.voynich.nu/q07/index.html#f51r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f99r",
+   "cible_source": "https://www.voynich.nu/q07/index.html#f51r"
+  },
+  {
+   "fragment": 94,
+   "panneau": "f99r",
+   "plante": "f96v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 5,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f99r",
+     "source": "https://www.voynich.nu/q19/index.html#f99r",
+     "lien_imprime": "https://www.voynich.nu/q17/index.html#f96v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f99r",
+   "cible_source": "https://www.voynich.nu/q17/index.html#f96v"
+  },
+  {
+   "fragment": 95,
+   "panneau": "f99v",
+   "plante": "f44r",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f99v",
+     "source": "https://www.voynich.nu/q19/index.html#f99v",
+     "lien_imprime": "https://www.voynich.nu/q06/index.html#f44r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f99v",
+   "cible_source": "https://www.voynich.nu/q06/index.html#f44r"
+  },
+  {
+   "fragment": 110,
+   "panneau": "f99v",
+   "plante": "f34v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f99v",
+     "source": "https://www.voynich.nu/q19/index.html#f99v",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f34v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f99v",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f34v"
+  },
+  {
+   "fragment": 116,
+   "panneau": "f100r",
+   "plante": "f96v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f100r",
+     "source": "https://www.voynich.nu/q19/index.html#f100r",
+     "lien_imprime": "https://www.voynich.nu/q17/index.html#f96v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f100r",
+   "cible_source": "https://www.voynich.nu/q17/index.html#f96v"
+  },
+  {
+   "fragment": 133,
+   "panneau": "f100v",
+   "plante": "f13v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f100v",
+     "source": "https://www.voynich.nu/q19/index.html#f100v",
+     "lien_imprime": "https://www.voynich.nu/q02/index.html#f13v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f100v",
+   "cible_source": "https://www.voynich.nu/q02/index.html#f13v"
+  },
+  {
+   "fragment": 136,
+   "panneau": "f100v",
+   "plante": "f90v2",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "reciproque",
+     "notice": "f100v",
+     "source": "https://www.voynich.nu/q15/index.html#f90v2",
+     "lien_imprime": "https://www.voynich.nu/q19/index.html#f100v"
+    },
+    {
+     "classe": "ressemblance",
+     "notice": "f100v",
+     "source": "https://www.voynich.nu/q19/index.html#f100v",
+     "lien_imprime": "https://www.voynich.nu/q15/index.html#f90v2"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f100v",
+   "cible_source": "https://www.voynich.nu/q15/index.html#f90v2"
+  },
+  {
+   "fragment": 150,
+   "panneau": "f101r",
+   "plante": "f30v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f101r",
+     "source": "https://www.voynich.nu/q19/index.html#f101r",
+     "lien_imprime": "https://www.voynich.nu/q04/index.html#f30v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f101r",
+   "cible_source": "https://www.voynich.nu/q04/index.html#f30v"
+  },
+  {
+   "fragment": 150,
+   "panneau": "f101r",
+   "plante": "f55v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f101r",
+     "source": "https://www.voynich.nu/q19/index.html#f101r",
+     "lien_imprime": "https://www.voynich.nu/q07/index.html#f55v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f101r",
+   "cible_source": "https://www.voynich.nu/q07/index.html#f55v"
+  },
+  {
+   "fragment": 155,
+   "panneau": "f101r",
+   "plante": "f49r",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f101r",
+     "source": "https://www.voynich.nu/q19/index.html#f101r",
+     "lien_imprime": "https://www.voynich.nu/q07/index.html#f49r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f101r",
+   "cible_source": "https://www.voynich.nu/q07/index.html#f49r"
+  },
+  {
+   "fragment": 168,
+   "panneau": "f101r",
+   "plante": "f4v",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 3,
+   "rang_dans_rangee": 5,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f101r",
+     "source": "https://www.voynich.nu/q19/index.html#f101r",
+     "lien_imprime": "https://www.voynich.nu/q01/index.html#f4v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f101r",
+   "cible_source": "https://www.voynich.nu/q01/index.html#f4v"
+  },
+  {
+   "fragment": 188,
+   "panneau": "f101v",
+   "plante": "f37r",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 1,
+   "rang_dans_rangee": 7,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f101v",
+     "source": "https://www.voynich.nu/q19/index.html#f101v",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f37r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f101v",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f37r"
+  },
+  {
+   "fragment": 203,
+   "panneau": "f102r1",
+   "plante": "f37v",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 3,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102r1",
+     "source": "https://www.voynich.nu/q19/index.html#f102r1",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f37v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r1",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f37v"
+  },
+  {
+   "fragment": 204,
+   "panneau": "f102r1",
+   "plante": "f1v",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 3,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102r1",
+     "source": "https://www.voynich.nu/q19/index.html#f102r1",
+     "lien_imprime": "https://www.voynich.nu/q01/index.html#f1v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r1",
+   "cible_source": "https://www.voynich.nu/q01/index.html#f1v"
+  },
+  {
+   "fragment": 205,
+   "panneau": "f102r2",
+   "plante": "f47v",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 1,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102r2",
+     "source": "https://www.voynich.nu/q19/index.html#f102r2",
+     "lien_imprime": "https://www.voynich.nu/q06/index.html#f47v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r2",
+   "cible_source": "https://www.voynich.nu/q06/index.html#f47v"
+  },
+  {
+   "fragment": 206,
+   "panneau": "f102r2",
+   "plante": "f32v",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 1,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102r2",
+     "source": "https://www.voynich.nu/q19/index.html#f102r2",
+     "lien_imprime": "https://www.voynich.nu/q04/index.html#f32v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r2",
+   "cible_source": "https://www.voynich.nu/q04/index.html#f32v"
+  },
+  {
+   "fragment": 209,
+   "panneau": "f102r2",
+   "plante": "f53r",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 3,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f102r2",
+     "source": "https://www.voynich.nu/q19/index.html#f102r2",
+     "lien_imprime": "https://www.voynich.nu/q07/index.html#f53r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r2",
+   "cible_source": "https://www.voynich.nu/q07/index.html#f53r"
+  },
+  {
+   "fragment": 212,
+   "panneau": "f102r2",
+   "plante": "f18v",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 3,
+   "rang_dans_rangee": 1,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102r2",
+     "source": "https://www.voynich.nu/q19/index.html#f102r2",
+     "lien_imprime": "https://www.voynich.nu/q03/index.html#f18v"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r2",
+   "cible_source": "https://www.voynich.nu/q03/index.html#f18v"
+  },
+  {
+   "fragment": 213,
+   "panneau": "f102r2",
+   "plante": "f23r",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 3,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102r2",
+     "source": "https://www.voynich.nu/q19/index.html#f102r2",
+     "lien_imprime": "https://www.voynich.nu/q03/index.html#f23r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102r2",
+   "cible_source": "https://www.voynich.nu/q03/index.html#f23r"
+  },
+  {
+   "fragment": 225,
+   "panneau": "f102v2",
+   "plante": "f36r",
+   "cahier": 19,
+   "classe": "ressemblance",
+   "rangee": 2,
+   "rang_dans_rangee": 5,
+   "recensements": [
+    {
+     "classe": "ressemblance",
+     "notice": "f102v2",
+     "source": "https://www.voynich.nu/q19/index.html#f102v2",
+     "lien_imprime": "https://www.voynich.nu/q05/index.html#f36r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102v2",
+   "cible_source": "https://www.voynich.nu/q05/index.html#f36r"
+  },
+  {
+   "fragment": 240,
+   "panneau": "f102v1",
+   "plante": "f19r",
+   "cahier": 19,
+   "classe": "meme_plante",
+   "rangee": 2,
+   "rang_dans_rangee": 2,
+   "recensements": [
+    {
+     "classe": "meme_plante",
+     "notice": "f102v1",
+     "source": "https://www.voynich.nu/q19/index.html#f102v1",
+     "lien_imprime": "https://www.voynich.nu/q03/index.html#f19r"
+    }
+   ],
+   "source": "https://www.voynich.nu/q19/index.html#f102v1",
+   "cible_source": "https://www.voynich.nu/q03/index.html#f19r"
+  }
+ ],
+ "incidents": [
+  {
+   "numero": 31,
+   "notice": "f89r2",
+   "panneau_physique": "f89r1",
+   "effet": "doublon de f33r"
+  },
+  {
+   "numero": 39,
+   "notice": "f89r2",
+   "effet": "numéro sauté, aucun dessin"
+  },
+  {
+   "numero": 59,
+   "notice": "f89v2",
+   "effet": "seconde ligne d’étiquette réattribuée au recto par transparence en 2025 ; aucun renvoi"
+  },
+  {
+   "numero": 228,
+   "notice": "f102v2",
+   "effet": "numéro sauté, aucun dessin"
+  },
+  {
+   "numero": 30,
+   "notice": "f89r1",
+   "effet": "identification de chardon proposée, sans renvoi à une grande plante du manuscrit"
+  },
+  {
+   "notice": "f90r1",
+   "cible": "f3v",
+   "effet": "deux grandes plantes, aucun fragment numéroté"
+  },
+  {
+   "notice": "f102r2",
+   "numeros": [
+    212,
+    213
+   ],
+   "effet": "voisinage répété sur un même bifeuillet, déjà compté sous chaque numéro"
+  },
+  {
+   "notice": "f101r",
+   "effet": "les deux panneaux historiques du dépliant forment une seule face de texte"
+  },
+  {
+   "notice": "f101v",
+   "effet": "les deux panneaux historiques du dépliant forment une seule face de texte ; une ligne centrée"
+  }
+ ]
+}
