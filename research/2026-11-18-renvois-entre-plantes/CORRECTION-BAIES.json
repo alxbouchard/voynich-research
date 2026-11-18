@@ -1,0 +1,475 @@
+{
+ "cibles": [
+  "f99r",
+  "f100r"
+ ],
+ "comparaisons": {
+  "ruptures_identiques/prose_et_legende": {
+   "Q19": {
+    "positions": 738,
+    "occurrences": 4,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101v": 0,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f99r": 123,
+     "f99v": 107
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 6,
+    "paires_du_catalogue": 36,
+    "paires_sur_faces_lisibles": 28,
+    "probabilite_exacte": [
+     1120696,
+     7475391
+    ],
+    "pourcentage": 14.991804442068648
+   },
+   "Q15_Q19": {
+    "positions": 1188,
+    "occurrences": 5,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101v": 0,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f88r": 109,
+     "f88v": 96,
+     "f89r1": 74,
+     "f89r2": 58,
+     "f89v1": 105,
+     "f89v2": 8,
+     "f99r": 123,
+     "f99v": 107
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f102v2",
+     "f88r",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f88r",
+     "f88v",
+     "f89r1",
+     "f89r2",
+     "f89v1",
+     "f89v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 10,
+    "paires_du_catalogue": 105,
+    "paires_sur_faces_lisibles": 91,
+    "probabilite_exacte": [
+     60490233017,
+     611069597721
+    ],
+    "pourcentage": 9.899074220448849
+   }
+  },
+  "ruptures_identiques/catalogue_complet": {
+   "Q19": {
+    "positions": 825,
+    "occurrences": 6,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101r": 87,
+     "f101v": 0,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f99r": 123,
+     "f99v": 107
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f101r",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f101r",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 10,
+    "paires_du_catalogue": 45,
+    "paires_sur_faces_lisibles": 36,
+    "probabilite_exacte": [
+     512631932009,
+     2097603818860
+    ],
+    "pourcentage": 24.43893014495005
+   },
+   "Q15_Q19": {
+    "positions": 1275,
+    "occurrences": 7,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101r": 87,
+     "f101v": 0,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f88r": 109,
+     "f88v": 96,
+     "f89r1": 74,
+     "f89r2": 58,
+     "f89v1": 105,
+     "f89v2": 8,
+     "f99r": 123,
+     "f99v": 107
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f101r",
+     "f102v2",
+     "f88r",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f101r",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f88r",
+     "f88v",
+     "f89r1",
+     "f89r2",
+     "f89v1",
+     "f89v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 15,
+    "paires_du_catalogue": 120,
+    "paires_sur_faces_lisibles": 105,
+    "probabilite_exacte": [
+     43373459574821,
+     274453025620410
+    ],
+    "pourcentage": 15.803600443745841
+   }
+  },
+  "alignement_local/prose_et_legende": {
+   "Q19": {
+    "positions": 868,
+    "occurrences": 4,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101v": 125,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f99r": 123,
+     "f99v": 112
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f101v",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 6,
+    "paires_du_catalogue": 36,
+    "paires_sur_faces_lisibles": 36,
+    "probabilite_exacte": [
+     531823177,
+     4697768117
+    ],
+    "pourcentage": 11.320762620774541
+   },
+   "Q15_Q19": {
+    "positions": 1515,
+    "occurrences": 5,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101v": 125,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f88r": 109,
+     "f88v": 96,
+     "f89r1": 89,
+     "f89r2": 143,
+     "f89v1": 105,
+     "f89v2": 105,
+     "f99r": 123,
+     "f99v": 112
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f102v2",
+     "f88r",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f101v",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f88r",
+     "f88v",
+     "f89r1",
+     "f89r2",
+     "f89v1",
+     "f89v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 10,
+    "paires_du_catalogue": 105,
+    "paires_sur_faces_lisibles": 105,
+    "probabilite_exacte": [
+     4250633563555,
+     66071238162678
+    ],
+    "pourcentage": 6.433409879635156
+   }
+  },
+  "alignement_local/catalogue_complet": {
+   "Q19": {
+    "positions": 1011,
+    "occurrences": 6,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101r": 143,
+     "f101v": 125,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f99r": 123,
+     "f99v": 112
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f101r",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f101r",
+     "f101v",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 10,
+    "paires_du_catalogue": 45,
+    "paires_sur_faces_lisibles": 45,
+    "probabilite_exacte": [
+     260294329197755,
+     1461232027457412
+    ],
+    "pourcentage": 17.81334684065713
+   },
+   "Q15_Q19": {
+    "positions": 1658,
+    "occurrences": 7,
+    "positions_par_face": {
+     "f100r": 73,
+     "f100v": 66,
+     "f101r": 143,
+     "f101v": 125,
+     "f102r1": 81,
+     "f102r2": 99,
+     "f102v1": 87,
+     "f102v2": 102,
+     "f88r": 109,
+     "f88v": 96,
+     "f89r1": 89,
+     "f89r2": 143,
+     "f89v1": 105,
+     "f89v2": 105,
+     "f99r": 123,
+     "f99v": 112
+    },
+    "faces_avec_une_forme": [
+     "f100r",
+     "f101r",
+     "f102v2",
+     "f88r",
+     "f99r",
+     "f99v"
+    ],
+    "faces_avec_au_moins_une_position": [
+     "f100r",
+     "f100v",
+     "f101r",
+     "f101v",
+     "f102r1",
+     "f102r2",
+     "f102v1",
+     "f102v2",
+     "f88r",
+     "f88v",
+     "f89r1",
+     "f89r2",
+     "f89v1",
+     "f89v2",
+     "f99r",
+     "f99v"
+    ],
+    "paires_positives": 15,
+    "paires_du_catalogue": 120,
+    "paires_sur_faces_lisibles": 120,
+    "probabilite_exacte": [
+     229833435741238555,
+     2249220203083268216
+    ],
+    "pourcentage": 10.21836080905636
+   }
+  }
+ },
+ "occurrences_alignement_local": [
+  {
+   "face": "f100r",
+   "ligne": "f100r.25",
+   "mot": "ctheol",
+   "rangs_ligne": [
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "face": "f101r",
+   "ligne": "f101r.4",
+   "mot": "ctheol",
+   "rangs_ligne": [
+    7,
+    7,
+    7,
+    7
+   ]
+  },
+  {
+   "face": "f101r",
+   "ligne": "f101r.5",
+   "mot": "ctheol",
+   "rangs_ligne": [
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "face": "f102v2",
+   "ligne": "f102v2.34",
+   "mot": "ctheor",
+   "rangs_ligne": [
+    7,
+    7,
+    6,
+    6
+   ]
+  },
+  {
+   "face": "f88r",
+   "ligne": "f88r.7",
+   "mot": "ctheol",
+   "rangs_ligne": [
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "face": "f99r",
+   "ligne": "f99r.29",
+   "mot": "ctheol",
+   "rangs_ligne": [
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "face": "f99v",
+   "ligne": "f99v.22",
+   "mot": "ctheol",
+   "rangs_ligne": [
+    7,
+    7,
+    7,
+    9
+   ]
+  }
+ ]
+}

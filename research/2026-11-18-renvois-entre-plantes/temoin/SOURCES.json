@@ -1,0 +1,113 @@
+{
+  "macer_catalogue": "https://wellcomecollection.org/works/cfqd658f",
+  "mayence_manifeste": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00027407/manifest",
+  "macer_calcul": "../../2026-11-18-opcheor-paralleles/latin/corpus.json",
+  "droits_images": "Public Domain Mark",
+  "originaux": [
+    {
+      "id": "Mayence-vue-13",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00013/full/1150,/0/default.jpg",
+      "dimensions": [
+        1150,
+        1556
+      ],
+      "sha256": "b9410359ff7cdfb66e23921d32ae53594af661438a53eef51dad154c456ccbff"
+    },
+    {
+      "id": "Mayence-vue-15",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00015/full/1150,/0/default.jpg",
+      "dimensions": [
+        1150,
+        1556
+      ],
+      "sha256": "2808c2eb7afe687277931c645f635e162f8510b746990285311dbc318c2421a4"
+    },
+    {
+      "id": "Mayence-vue-17",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00017/full/1150,/0/default.jpg",
+      "dimensions": [
+        1150,
+        1556
+      ],
+      "sha256": "48efd401db849cad5d499c574252b0e9f0bd2a59e0a5d5409bdb8842268b0328"
+    },
+    {
+      "id": "Mayence-vue-25",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00025/full/1300,/0/default.jpg",
+      "dimensions": [
+        1300,
+        1751
+      ],
+      "sha256": "8e15e44b06cc2a9764fd98b1edc5bd0588f11b393b32c67c12e88339125a049f"
+    },
+    {
+      "id": "Mayence-vue-31",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00031/full/1300,/0/default.jpg",
+      "dimensions": [
+        1300,
+        1751
+      ],
+      "sha256": "95eee1c7547a23a5265e22ccf8472c572af4422168624127601a7b58fc7bd781"
+    },
+    {
+      "id": "Mayence-vue-33",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00033/full/1300,/0/default.jpg",
+      "dimensions": [
+        1300,
+        1751
+      ],
+      "sha256": "f9376f61f8545a084d19d4b4863b252167e9b5d795516d6604ea1f967e2ae453"
+    },
+    {
+      "id": "Mayence-vue-35",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027407_00035/full/1300,/0/default.jpg",
+      "dimensions": [
+        1300,
+        1761
+      ],
+      "sha256": "8a1bb36f34fc4f69c8f72348b382d68735238c3592792e6a527b98a9ee059275"
+    },
+    {
+      "id": "Wellcome-vue-5",
+      "url": "https://iiif.wellcomecollection.org/image/b19209113_ms_458_0005.JP2/full/1450,/0/default.jpg",
+      "dimensions": [
+        1450,
+        2029
+      ],
+      "sha256": "85d6eaca023fedded77592cc18cf47bced96a56de3cad94f0b7b52203a79dc2b"
+    },
+    {
+      "id": "Wellcome-vue-6",
+      "url": "https://iiif.wellcomecollection.org/image/b19209113_ms_458_0006.JP2/full/1450,/0/default.jpg",
+      "dimensions": [
+        1450,
+        2029
+      ],
+      "sha256": "dc2890dc07f009c734a57961fe668a4f12cf9cb6a81720f7a0d8d41b3473a889"
+    }
+  ],
+  "recadrages_sur_originaux": {
+    "sept-notices-mayence.jpg": "Chaque rectangle conserve de 13 % à 73 % de la largeur et de 55,5 % à 84,5 % de la hauteur.",
+    "lectures-sur-images.jpg": {
+      "macer_absinthe": [
+        320,
+        1320,
+        1260,
+        1560
+      ],
+      "macer_aurone": [
+        320,
+        340,
+        1260,
+        577
+      ],
+      "macer_armoise": [
+        214,
+        224,
+        1279,
+        466
+      ],
+      "mayence": "Vues 13, 15 et 35. Comme les sept notices, mais la limite inférieure est à 72,5 %, 72,5 % et 73,5 % respectivement."
+    }
+  }
+}

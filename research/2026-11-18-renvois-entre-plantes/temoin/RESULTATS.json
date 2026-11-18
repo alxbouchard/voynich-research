@@ -1,0 +1,488 @@
+{
+ "lectures": {
+  "01": {
+   "degre": {
+    "graphie": "primo",
+    "valeur": 1
+   },
+   "mots": 40,
+   "termes": [],
+   "tous_degres": [
+    "primo",
+    "secundo"
+   ]
+  },
+  "02": {
+   "degre": {
+    "graphie": "primo",
+    "valeur": 1
+   },
+   "mots": 40,
+   "termes": [],
+   "tous_degres": [
+    "primo",
+    "secundo"
+   ]
+  },
+  "03": {
+   "degre": null,
+   "mots": 40,
+   "termes": [],
+   "tous_degres": []
+  },
+  "07": {
+   "degre": {
+    "graphie": "tercio",
+    "valeur": 3
+   },
+   "mots": 40,
+   "termes": [],
+   "tous_degres": [
+    "tercio",
+    "quartum"
+   ]
+  },
+  "10": {
+   "degre": {
+    "graphie": "secundum",
+    "valeur": 2
+   },
+   "mots": 40,
+   "termes": [],
+   "tous_degres": [
+    "secundum",
+    "tercium",
+    "primum",
+    "secundum",
+    "secundo"
+   ]
+  },
+  "11": {
+   "degre": {
+    "graphie": "primo",
+    "valeur": 1
+   },
+   "mots": 40,
+   "termes": [],
+   "tous_degres": [
+    "primo",
+    "secundo",
+    "tercium",
+    "tercii"
+   ]
+  },
+  "12": {
+   "degre": {
+    "graphie": "tercio",
+    "valeur": 3
+   },
+   "mots": 40,
+   "termes": [
+    [
+     33,
+     "splenis",
+     "rate"
+    ]
+   ],
+   "tous_degres": [
+    "tercio"
+   ]
+  }
+ },
+ "matrice": {
+  "01": {
+   "01": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": true,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "02": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": true,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "03": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "07": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "10": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "11": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": true,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "12": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   }
+  },
+  "02": {
+   "01": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "02": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "03": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "07": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "10": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "11": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "12": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   }
+  },
+  "03": {
+   "01": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "02": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "03": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "07": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "10": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "11": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "12": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   }
+  },
+  "07": {
+   "01": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "02": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "03": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "07": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "10": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "11": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "12": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   }
+  },
+  "10": {
+   "01": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "02": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "03": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "07": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "10": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "11": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "12": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   }
+  },
+  "11": {
+   "01": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "02": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "03": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": false
+   },
+   "07": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "10": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "11": {
+    "degre": false,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": false,
+    "valeur_citee": true
+   },
+   "12": {
+    "degre": true,
+    "mot_exact": false,
+    "ordinal_exact": false,
+    "organe": true,
+    "valeur_citee": true
+   }
+  },
+  "12": {
+   "01": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "02": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "03": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "07": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "10": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "11": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   },
+   "12": {
+    "degre": null,
+    "mot_exact": false,
+    "ordinal_exact": null,
+    "organe": false,
+    "valeur_citee": null
+   }
+  }
+ },
+ "scores": {
+  "degre": {
+   "annonces": 5,
+   "aussi_bonnes": 1668,
+   "justes": 2,
+   "moyenne": 1.1428571428571428,
+   "permutations": 5040
+  },
+  "mot_exact": {
+   "annonces": 7,
+   "aussi_bonnes": 5040,
+   "justes": 0,
+   "moyenne": 0.0,
+   "permutations": 5040
+  },
+  "ordinal_exact": {
+   "annonces": 5,
+   "aussi_bonnes": 2160,
+   "justes": 1,
+   "moyenne": 0.42857142857142855,
+   "permutations": 5040
+  },
+  "organe": {
+   "annonces": 7,
+   "aussi_bonnes": 5040,
+   "justes": 0,
+   "moyenne": 0.14285714285714285,
+   "permutations": 5040
+  },
+  "valeur_citee": {
+   "annonces": 5,
+   "aussi_bonnes": 712,
+   "justes": 4,
+   "moyenne": 2.4285714285714284,
+   "permutations": 5040
+  }
+ }
+}

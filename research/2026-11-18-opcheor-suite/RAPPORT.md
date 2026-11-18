@@ -15,7 +15,9 @@ La seule autre paire strictement concordante avec la même fin de base `eo` est 
 | Le même cinquième rang ailleurs | Sur les autres feuillets pharmaceutiques comparables, `ctheol` est deuxième sur f88r.7, `ctheor` sixième ou septième sur f102v2.34. |
 | Une corolle visible sur les grandes plantes portant ces mots | Sur f17v, les deux classements faits auparavant sans voir l’écriture donnent « non ». |
 
-Sur les neuf panneaux comparables du même cahier, quatre contiennent l’une des formes. Six des 36 couples possibles ont donc cette propriété pour les deux panneaux. En tenant compte de la quantité de prose et en plaçant uniformément les quatre occurrences parmi les 738 positions lisibles, les deux panneaux visés sont tous deux atteints dans 15,0 % des répartitions. Ce nombre concerne le modèle uniforme choisi. Les mots observés sur les deux panneaux ne suffisent pas à identifier une espèce, une baie ou la fonction du passage. [Dénominateurs et contrôle du rang](f52/fleurs/PANNEAUX.json)
+Dans la comparaison initiale de neuf panneaux du même cahier, quatre contiennent l’une des formes. Six des 36 couples possibles ont donc cette propriété pour les deux panneaux. En tenant compte de la quantité de prose et en plaçant uniformément les quatre occurrences parmi les 738 positions lisibles, les deux panneaux visés sont tous deux atteints dans 15,0 % des répartitions. Ce nombre concerne le modèle uniforme choisi. Les mots observés sur les deux panneaux ne suffisent pas à identifier une espèce, une baie ou la fonction du passage. [Dénominateurs initiaux et contrôle du rang](f52/fleurs/PANNEAUX.json)
+
+Avec l’alignement local, qui récupère la prose de f101v, ce taux est de **11,32 % pour les mêmes neuf panneaux**. Il est de **17,81 %** si l’on inclut le dixième panneau à fragments du cahier, f101r, dépourvu de légendes. [Mise à jour du calcul](../2026-11-18-renvois-entre-plantes/CORRECTION-BAIES.md)
 
 ## Essais de traduction
 

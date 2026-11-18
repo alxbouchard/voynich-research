@@ -1,0 +1,109 @@
+{
+ "incunable": "Gart der Gesundheit, Ulm, 31 mars 1487. Bayerische Staatsbibliothek, bsb00048197.",
+ "sources": {
+  "15": {
+   "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00048197_00015/full/1450,/0/default.jpg",
+   "dimensions": [
+    1450,
+    1887
+   ],
+   "sha256": "cea32abc9eb408f602aa62f997d7d7313123d01b9af6aa1f338c7fd4d3d0e5a0"
+  },
+  "16": {
+   "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00048197_00016/full/1450,/0/default.jpg",
+   "dimensions": [
+    1450,
+    1904
+   ],
+   "sha256": "417e9d3fba8be95a2d02cacbe9990e24405c6f8576f3e4c406f09eea70b68097"
+  }
+ },
+ "details": [
+  [
+   15,
+   [
+    165,
+    53,
+    716,
+    1575
+   ],
+   "Chapitre VI, Eppich"
+  ],
+  [
+   15,
+   [
+    658,
+    537,
+    1235,
+    743
+   ],
+   "Le composé Epichwurtzel"
+  ],
+  [
+   16,
+   [
+    292,
+    457,
+    813,
+    616
+   ],
+   "Le composé petersilgwurtzel"
+  ],
+  [
+   16,
+   [
+    291,
+    1374,
+    829,
+    1515
+   ],
+   "Le composé stabwurtzel"
+  ]
+ ],
+ "ridges": {
+  "source": "https://www.laudatio-repository.org/download/format/3/35/9.0",
+  "chemin": "excel/Excel_9-0.zip ; classeur GartDerGesundheit_1487_vonCuba, première feuille",
+  "colonnes": [
+   "ligne",
+   "clean",
+   "norm",
+   "comp_n",
+   "comp_n_graph",
+   "lemma"
+  ],
+  "lignes": [
+   [
+    3857,
+    "wurtz",
+    "Wurzel",
+    null,
+    null,
+    "Wurzel"
+   ],
+   [
+    4013,
+    "Epichwurtzel",
+    "Eppichwurzel",
+    "N_N",
+    "nospace",
+    "Eppichwurzel"
+   ],
+   [
+    4251,
+    "petersilgwurtzel",
+    "Petersilienwurzel",
+    "N_N",
+    "nospace",
+    "Petersilienwurzel"
+   ],
+   [
+    4397,
+    "stabwurtzel",
+    "Stabwurz",
+    "N_N",
+    "nospace",
+    "Stabwurz"
+   ]
+  ]
+ }
+}

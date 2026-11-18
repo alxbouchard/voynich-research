@@ -1,0 +1,7 @@
+# Les deux ycheey ouvrent une ligne
+
+Après l’annonce du mot commun et l’ouverture des quatre pages retenues par leurs dessins, on constate que `ycheey` est le premier mot de la ligne sur les deux pages d’apprentissage, f17v.2 et f96v.8. La sélection précédente a compté trois occurrences supplémentaires dans l’herbier de référence sans communiquer leur lieu ni leur position. Le groupe a également au moins un emploi connu par le décompte général sur les petits panneaux. Ce nouveau test porte sur une particularité remarquée après le choix du mot.
+
+Annoncer pour toutes les autres occurrences lisibles et alignées de la prose, après retrait des feuillets 17, 35, 37 et 96, que le mot ouvre la ligne au sens matériel `debut`, sans confondre le début d’une ligne avec la reprise après un dessin. Distinguer les grandes pages botaniques et le reste de la prose. Sur chaque face cible, comparer avec les autres groupes d’au moins deux signes qui débutent par y. Rapporter aussi les lectures de chaque édition quand l’alignement intégral exclut une ligne.
+
+Une formule commune de deux mots donnerait une prédiction plus forte. Ouvrir d’abord uniquement le voisin de droite de f17v.2, la première des deux sources dans l’ordre des pages ; s’il est concordant, annoncer ce mot entier après le ycheey de f96v.8 et après chaque autre occurrence, y compris celles en milieu de ligne. Une frontière de ligne ou un voisin non aligné oblige à s’abstenir. La même graphie à plusieurs débuts de ligne ne fixe ni le référent ni le sens.

@@ -1,0 +1,24 @@
+# Les deux panneaux à baies après récupération de f101v
+
+**Le calcul du cahier 19 donne 11,32 % sur les neuf panneaux de la comparaison publiée, et 17,81 % sur les dix panneaux à fragments du catalogue.** Les deux panneaux désignés par le dessin, f99r et f100r, portent chacun `ctheol` au cinquième mot d’une ligne. Le changement tient à la quantité de prose exploitable et à la définition du groupe de comparaison. [Calcul et occurrences par face](CORRECTION-BAIES.json) · [Rapport de départ](../2026-11-18-opcheor-suite/f52/fleurs/RAPPORT.md)
+
+Le chiffre publié était de 15,0 %. L’ancien code sélectionnait les panneaux avec au moins une ligne de prose ordinaire (P0) et une légende de fragment (Lf) dans les deux transcriptions. Il retenait sur chaque panneau les mots concordants des deux transcriptions avec deux traitements des espaces incertains. Quand le découpage autour d’un dessin différait d’une édition à l’autre, toute la ligne était écartée. Sur f101v, cette condition éliminait toutes les lignes. Le panneau figurait bien parmi les neuf, mais n’ajoutait aucune position au calcul. f101r était entièrement exclu parce que ses fragments n’ont aucune légende Lf. Il comprend dix lignes P0. [Ancien code](../2026-11-18-opcheor-suite/f52/fleurs/panneaux.py) · [Anciennes données](../2026-11-18-opcheor-suite/f52/fleurs/PANNEAUX.json) · [Catalogue du cahier 19](https://www.voynich.nu/q19/index.html#f101r)
+
+## Quatre calculs sur le même cahier
+
+Les colonnes « paires » et « tirages » posent deux questions différentes. La première compte les paires de panneaux où les deux contiennent déjà une forme. La seconde redistribue le nombre observé d’occurrences entre les positions de tout le lot, à probabilité égale et sans remise, puis mesure la fréquence des tirages qui en placent au moins une sur **chacun** des deux panneaux fixés à l’avance. Leurs longueurs restent de 123 positions sur f99r et 73 sur f100r.
+
+| Alignement et panneaux de Q19 | Panneaux avec prose lisible | Positions | Occurrences de `ctheol` ou `ctheor` | Paires positives / paires entre panneaux lisibles | Tirages touchant les deux cibles |
+|---|---:|---:|---:|---:|---:|
+| Ancien, neuf panneaux avec Lf | 8/9 | 738 | 4 | 6/28 | 14,99 % |
+| Local, mêmes neuf panneaux | 9/9 | 868 | 4 | 6/36 | **11,32 %** |
+| Ancien, dix panneaux du catalogue | 9/10 | 825 | 6 | 10/36 | 24,44 % |
+| Local, dix panneaux du catalogue | 10/10 | 1 011 | 6 | 10/45 | **17,81 %** |
+
+- Sur les neuf panneaux d’origine, l’alignement local récupère **125 positions sur f101v** et **5 sur f99v**, sans occurrence supplémentaire des deux formes. Dans le rapport initial, 6/36 utilisait toutes les paires de panneaux sélectionnés, y compris les huit paires avec f101v, alors illisible dans cet alignement. Restreindre les paires aux huit faces qui avaient une position donnait 6/28. Ce détail change le dénominateur des paires. Le tirage des anciens 15,0 % utilisait bien 738 positions. [Principe de récupération](ALIGNEMENT-AVANT.md)
+- Le catalogue complet inclut également f101r. Il contribue **143 positions** en alignement local, dont deux `ctheol`, aux rangs 7 sur f101r.4 et 2 sur f101r.5. Cette face explique pourquoi élargir le catalogue augmente la probabilité alors que restaurer les seules positions des neuf panneaux la réduit. Les quatre occurrences retrouvées sur d’autres feuillets que 99 et 100 sont aux rangs 2, 7, 2 et 6/7 selon la lecture. Aucune n’est cinquième. [Tous les rangs](CORRECTION-BAIES.json)
+- Pour l’ensemble des cahiers 15 et 19 selon le catalogue, l’alignement local donne sept occurrences sur 1 658 positions, réparties sur six des seize faces. Cela fait 15 paires positives sur 120 et 10,22 % des redistributions touchant les deux cibles. La comparaison au sein du cahier 19 garde le même cahier manuscrit pour les deux cibles et tous les témoins.
+
+Le modèle uniforme suppose que toutes les positions du lot peuvent recevoir indistinctement les occurrences. La répétition de mots dans une même ligne, les habitudes de chaque main ou le contenu d’une notice peuvent rendre certaines places plus probables. Le taux publié et les deux taux révisés expriment les conséquences de ce modèle. La présence de `ctheol` dans ces deux passages ne suffit pas à traduire le mot. L’extension à deux autres grandes plantes dont les notices signalent des baies échoue pour les trois mots cherchés. [Contrôle des autres baies et de leurs légendes](catalogue/baies/RAPPORT.md)
+
+Pour reproduire, exécuter `python3 -B corriger_baies.py` depuis ce dossier. Le programme vérifie la sélection et les dénominateurs de l’ancien fichier, puis recalcule les quatre versions. Il contrôle la probabilité exacte par deux calculs, l’inclusion-exclusion et la somme sur les nombres d’occurrences allouées à chaque cible. [Script](corriger_baies.py)
