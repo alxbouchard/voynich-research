@@ -1,0 +1,5 @@
+# Du fragment 224 à son inscription
+
+Après réception des deux classements, les clés montrent que les deux lecteurs ont préféré le même fragment, le 224. Le modèle n’était pas le même dans leurs deux sessions. Le 222 attendu arrive quatrième ex æquo sur les deux planches. Les candidats n’ont été sélectionnés ni par lettre ni par couleur après la remise des votes.
+
+Avant de rechercher individuellement la graphie de l’inscription du 224, déposer l’hypothèse inverse : si la ressemblance qui a conduit les deux lecteurs à ce fragment suffit à reconnaître la famille de légendes opcheor/okcheor/cheor, l’inscription attribuée au 224 doit se terminer exactement par les unités ch e o r dans les deux éditions et les deux lectures des espaces. Une ligne absente ou un rattachement trop ambigu rend le cas indéterminé. Une autre terminaison lisible dans les deux éditions contredit cette prédiction. On conserve les deux couleurs de planches et les votes antérieurs sans rechercher après coup une autre ressemblance de signes. L’équipe a déjà traité les étiquettes du panneau dans des inventaires automatiques ; ce nouvel aller-retour ne rend pas le corpus inédit.
