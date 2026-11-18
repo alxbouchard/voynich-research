@@ -1,0 +1,3060 @@
+{
+ "controle": {
+  "cas_construit": {
+   "fenetres": 1,
+   "paires_ajustees": 1,
+   "triplets": [
+    {
+     "couverture": {
+      "valeur_l_inconnue": 4
+     },
+     "debut": [
+      "herba",
+      "herbae",
+      "tam"
+     ],
+     "mots": {
+      "attendu": [
+       "teram",
+       "terram"
+      ],
+      "plus_tard": [],
+      "plus_tot": [
+       "teram",
+       "terram"
+      ]
+     },
+     "rang": 1,
+     "segment": "cas",
+     "tables": 4
+    }
+   ]
+  },
+  "rigide": {
+   "fenetres": 1,
+   "paires_ajustees": 1,
+   "triplets": [
+    {
+     "couverture": {
+      "valeur_l_connue": 4
+     },
+     "debut": [
+      "herba",
+      "herbae",
+      "tam"
+     ],
+     "mots": {
+      "attendu": [],
+      "plus_tard": [],
+      "plus_tot": []
+     },
+     "rang": 1,
+     "segment": "cas",
+     "tables": 4
+    }
+   ]
+  },
+  "sans_muet": {
+   "fenetres": 1,
+   "paires_ajustees": 0,
+   "triplets": []
+  }
+ },
+ "essais": {
+  "Celse": {
+   "fixe-0": {
+    "fenetres": 99233,
+    "paires_ajustees": 2,
+    "triplets": []
+   },
+   "fixe-1": {
+    "fenetres": 99233,
+    "paires_ajustees": 53,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_connue": 7
+      },
+      "debut": [
+       "quibus",
+       "quia",
+       "maxime"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "maximae"
+       ],
+       "plus_tot": []
+      },
+      "rang": 230,
+      "segment": "1.pr.p2.2",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quam",
+       "quale",
+       "quid"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 705,
+      "segment": "1.pr.p3.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "alio",
+       "alia",
+       "ita"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 82,
+      "segment": "1.pr.p3.3",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "parte",
+       "parum",
+       "alia"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 77,
+      "segment": "1.pr.p5.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "tecto"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 299,
+      "segment": "1.2.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 24
+      },
+      "debut": [
+       "facili",
+       "facit",
+       "aquam"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 174,
+      "segment": "1.3.p6.1",
+      "tables": 24
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "quae",
+       "quasi",
+       "nubeculae"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 27,
+      "segment": "2.3.p1.2",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 18
+      },
+      "debut": [
+       "quasdam",
+       "quasi",
+       "miculas"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 133,
+      "segment": "2.5.p1.1",
+      "tables": 18
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "poma"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 62,
+      "segment": "2.18.p1.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "fragilia"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 74,
+      "segment": "2.18.p1.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 7
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "volatu"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 91,
+      "segment": "2.18.p1.2",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "minutae"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 105,
+      "segment": "2.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "natandi"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 123,
+      "segment": "2.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "aliud",
+       "alii",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 15,
+      "segment": "2.19.p1.4",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 91
+      },
+      "debut": [
+       "singulae",
+       "singulis",
+       "diebus"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 131,
+      "segment": "3.3.p1.2",
+      "tables": 91
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 48
+      },
+      "debut": [
+       "decimum",
+       "decimum",
+       "septimum"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 201,
+      "segment": "3.4.p3.3",
+      "tables": 48
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quidam",
+       "quia",
+       "fere"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 265,
+      "segment": "3.5.p1.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "digerat"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 283,
+      "segment": "3.24.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "potest",
+       "potui",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 354,
+      "segment": "4.11.p1.4",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 96
+      },
+      "debut": [
+       "adhibenda",
+       "adhibendi",
+       "lenes"
+      ],
+      "mots": {
+       "attendu": [
+        "lienes"
+       ],
+       "plus_tard": [],
+       "plus_tot": [
+        "lienes"
+       ]
+      },
+      "rang": 279,
+      "segment": "4.12.p1.1",
+      "tables": 96
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quidem",
+       "quies",
+       "facta"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 274,
+      "segment": "4.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "aeque"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 120,
+      "segment": "4.23.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "quibus",
+       "quidam",
+       "adjiciunt"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 35,
+      "segment": "5.18.p15.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "habet"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 10,
+      "segment": "5.18.p32.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "cruentis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 8,
+      "segment": "5.19.p1.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "alia"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 20,
+      "segment": "5.26.p24.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quidem",
+       "quibus",
+       "vero"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 77,
+      "segment": "5.28.p9.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "calce",
+       "callum",
+       "exest"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 723,
+      "segment": "5.28.p12.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "quibus",
+       "quid",
+       "eventurum"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 24,
+      "segment": "6.6.p1.2",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "hieracis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "6.6.p30.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "vero",
+       "vermes",
+       "orti"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "6.7.p5.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "quibus",
+       "quidam",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 198,
+      "segment": "6.7.p8.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "prima"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 8,
+      "segment": "6.12.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "esset"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 38,
+      "segment": "7.5.p5.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 1
+      },
+      "debut": [
+       "postea",
+       "possit",
+       "his"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 352,
+      "segment": "7.7.p8.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "extra"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 120,
+      "segment": "7.15.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "quasdam",
+       "quasi",
+       "squamulas"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 43,
+      "segment": "7.26.p4.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 42
+      },
+      "debut": [
+       "alteraque",
+       "alteram",
+       "premere"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 537,
+      "segment": "7.29.p1.1",
+      "tables": 42
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 7
+      },
+      "debut": [
+       "quos",
+       "quod",
+       "medium"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 90,
+      "segment": "8.1.p3.1",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 63
+      },
+      "debut": [
+       "digiti",
+       "digitis",
+       "ungues"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 330,
+      "segment": "8.1.p4.1",
+      "tables": 63
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 78
+      },
+      "debut": [
+       "sinister",
+       "sinistro",
+       "brachio"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 53,
+      "segment": "8.10.p3.1",
+      "tables": 78
+     }
+    ]
+   },
+   "l_contextuel-0": {
+    "fenetres": 99233,
+    "paires_ajustees": 2,
+    "triplets": []
+   },
+   "l_contextuel-1": {
+    "fenetres": 99233,
+    "paires_ajustees": 53,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 7
+      },
+      "debut": [
+       "quibus",
+       "quia",
+       "maxime"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "maximae",
+        "maximaque",
+        "maximeque"
+       ],
+       "plus_tot": []
+      },
+      "rang": 230,
+      "segment": "1.pr.p2.2",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quale",
+       "quid"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 705,
+      "segment": "1.pr.p3.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "alio",
+       "alia",
+       "ita"
+      ],
+      "mots": {
+       "attendu": [
+        "icta",
+        "illata",
+        "illita",
+        "indita",
+        "innata",
+        "iota",
+        "ista"
+       ],
+       "plus_tard": [
+        "italia"
+       ],
+       "plus_tot": [
+        "icta",
+        "illata",
+        "illita",
+        "indita",
+        "innata",
+        "iota",
+        "ista"
+       ]
+      },
+      "rang": 82,
+      "segment": "1.pr.p3.3",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "parte",
+       "parum",
+       "alia"
+      ],
+      "mots": {
+       "attendu": [
+        "auxilia"
+       ],
+       "plus_tard": [
+        "alica",
+        "aliena",
+        "alipta",
+        "aliqua"
+       ],
+       "plus_tot": [
+        "auxilia"
+       ]
+      },
+      "rang": 77,
+      "segment": "1.pr.p5.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "tecto"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 299,
+      "segment": "1.2.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 24
+      },
+      "debut": [
+       "facili",
+       "facit",
+       "aquam"
+      ],
+      "mots": {
+       "attendu": [
+        "aliquam",
+        "antequam"
+       ],
+       "plus_tard": [],
+       "plus_tot": [
+        "aliquam",
+        "antequam"
+       ]
+      },
+      "rang": 174,
+      "segment": "1.3.p6.1",
+      "tables": 24
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quae",
+       "quasi",
+       "nubeculae"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 27,
+      "segment": "2.3.p1.2",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 18
+      },
+      "debut": [
+       "quasdam",
+       "quasi",
+       "miculas"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 133,
+      "segment": "2.5.p1.1",
+      "tables": 18
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "poma"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 62,
+      "segment": "2.18.p1.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "fragilia"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 74,
+      "segment": "2.18.p1.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 7
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "volatu"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 91,
+      "segment": "2.18.p1.2",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "minutae"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 105,
+      "segment": "2.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "natandi"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 123,
+      "segment": "2.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "aliud",
+       "alii",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 15,
+      "segment": "2.19.p1.4",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 91
+      },
+      "debut": [
+       "singulae",
+       "singulis",
+       "diebus"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 131,
+      "segment": "3.3.p1.2",
+      "tables": 91
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 48
+      },
+      "debut": [
+       "decimum",
+       "decimum",
+       "septimum"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 201,
+      "segment": "3.4.p3.3",
+      "tables": 48
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quidam",
+       "quia",
+       "fere"
+      ],
+      "mots": {
+       "attendu": [
+        "facere",
+        "fallere",
+        "febre",
+        "femore",
+        "ferre",
+        "fervore",
+        "fluere",
+        "fovere",
+        "frigere",
+        "fugere",
+        "fundere"
+       ],
+       "plus_tard": [
+        "febre",
+        "femore",
+        "fereque",
+        "ferre",
+        "fervore"
+       ],
+       "plus_tot": [
+        "facere",
+        "fallere",
+        "febre",
+        "femore",
+        "ferre",
+        "fervore",
+        "fluere",
+        "fovere",
+        "frigere",
+        "fugere",
+        "fundere"
+       ]
+      },
+      "rang": 265,
+      "segment": "3.5.p1.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "digerat"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "digerant"
+       ],
+       "plus_tot": []
+      },
+      "rang": 283,
+      "segment": "3.24.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "potest",
+       "potui",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 354,
+      "segment": "4.11.p1.4",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 96
+      },
+      "debut": [
+       "adhibenda",
+       "adhibendi",
+       "lenes"
+      ],
+      "mots": {
+       "attendu": [
+        "leniores",
+        "lienes"
+       ],
+       "plus_tard": [
+        "leniores"
+       ],
+       "plus_tot": [
+        "leniores",
+        "lienes"
+       ]
+      },
+      "rang": 279,
+      "segment": "4.12.p1.1",
+      "tables": 96
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quidem",
+       "quies",
+       "facta"
+      ],
+      "mots": {
+       "attendu": [
+        "fracta"
+       ],
+       "plus_tard": [],
+       "plus_tot": [
+        "fracta"
+       ]
+      },
+      "rang": 274,
+      "segment": "4.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "aeque"
+      ],
+      "mots": {
+       "attendu": [
+        "aliaeque"
+       ],
+       "plus_tard": [
+        "aequale"
+       ],
+       "plus_tot": [
+        "aliaeque"
+       ]
+      },
+      "rang": 120,
+      "segment": "4.23.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quibus",
+       "quidam",
+       "adjiciunt"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 35,
+      "segment": "5.18.p15.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "habet"
+      ],
+      "mots": {
+       "attendu": [
+        "haberet"
+       ],
+       "plus_tard": [
+        "habeant",
+        "habeat",
+        "habebant",
+        "habebat",
+        "habebit",
+        "habebunt",
+        "habent",
+        "haberet"
+       ],
+       "plus_tot": [
+        "haberet"
+       ]
+      },
+      "rang": 10,
+      "segment": "5.18.p32.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "cruentis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 8,
+      "segment": "5.19.p1.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "alia"
+      ],
+      "mots": {
+       "attendu": [
+        "auxilia"
+       ],
+       "plus_tard": [
+        "alica",
+        "aliena",
+        "alipta",
+        "aliqua"
+       ],
+       "plus_tot": [
+        "auxilia"
+       ]
+      },
+      "rang": 20,
+      "segment": "5.26.p24.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quidem",
+       "quibus",
+       "vero"
+      ],
+      "mots": {
+       "attendu": [
+        "venero",
+        "veratro"
+       ],
+       "plus_tard": [
+        "venero",
+        "veratro",
+        "verbo"
+       ],
+       "plus_tot": [
+        "venero",
+        "veratro"
+       ]
+      },
+      "rang": 77,
+      "segment": "5.28.p9.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "calce",
+       "callum",
+       "exest"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 723,
+      "segment": "5.28.p12.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quibus",
+       "quid",
+       "eventurum"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 24,
+      "segment": "6.6.p1.2",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "hieracis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "6.6.p30.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "vero",
+       "vermes",
+       "orti"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "6.7.p5.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quibus",
+       "quidam",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 198,
+      "segment": "6.7.p8.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "prima"
+      ],
+      "mots": {
+       "attendu": [
+        "plurima",
+        "proxima"
+       ],
+       "plus_tard": [
+        "proxima"
+       ],
+       "plus_tot": [
+        "plurima",
+        "proxima"
+       ]
+      },
+      "rang": 8,
+      "segment": "6.12.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "esset"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "essent"
+       ],
+       "plus_tot": []
+      },
+      "rang": 38,
+      "segment": "7.5.p5.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "postea",
+       "possit",
+       "his"
+      ],
+      "mots": {
+       "attendu": [
+        "hamis",
+        "horis"
+       ],
+       "plus_tard": [
+        "hiems"
+       ],
+       "plus_tot": [
+        "hamis",
+        "horis"
+       ]
+      },
+      "rang": 352,
+      "segment": "7.7.p8.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "extra"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "extracta",
+        "extrema"
+       ],
+       "plus_tot": []
+      },
+      "rang": 120,
+      "segment": "7.15.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quasdam",
+       "quasi",
+       "squamulas"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 43,
+      "segment": "7.26.p4.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 42
+      },
+      "debut": [
+       "alteraque",
+       "alteram",
+       "premere"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 537,
+      "segment": "7.29.p1.1",
+      "tables": 42
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 7
+      },
+      "debut": [
+       "quos",
+       "quod",
+       "medium"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "medicorum",
+        "medicum"
+       ],
+       "plus_tot": []
+      },
+      "rang": 90,
+      "segment": "8.1.p3.1",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 63
+      },
+      "debut": [
+       "digiti",
+       "digitis",
+       "ungues"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 330,
+      "segment": "8.1.p4.1",
+      "tables": 63
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 78
+      },
+      "debut": [
+       "sinister",
+       "sinistro",
+       "brachio"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 53,
+      "segment": "8.10.p3.1",
+      "tables": 78
+     }
+    ]
+   },
+   "position-0": {
+    "fenetres": 99233,
+    "paires_ajustees": 7,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 22
+      },
+      "debut": [
+       "adhibenda",
+       "adhibendi",
+       "lenes"
+      ],
+      "mots": {
+       "attendu": [
+        "leniores"
+       ],
+       "plus_tard": [
+        "leniores"
+       ],
+       "plus_tot": [
+        "lienes"
+       ]
+      },
+      "rang": 279,
+      "segment": "4.12.p1.1",
+      "tables": 22
+     }
+    ]
+   },
+   "position-1": {
+    "fenetres": 99233,
+    "paires_ajustees": 61,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 7
+      },
+      "debut": [
+       "quibus",
+       "quia",
+       "maxime"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "maximae",
+        "maximaque",
+        "maximeque"
+       ],
+       "plus_tot": []
+      },
+      "rang": 230,
+      "segment": "1.pr.p2.2",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quale",
+       "quid"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 705,
+      "segment": "1.pr.p3.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "alio",
+       "alia",
+       "ita"
+      ],
+      "mots": {
+       "attendu": [
+        "icta",
+        "illata",
+        "illita",
+        "indita",
+        "innata",
+        "iota",
+        "ista"
+       ],
+       "plus_tard": [
+        "italia"
+       ],
+       "plus_tot": [
+        "icta",
+        "illata",
+        "illita",
+        "indita",
+        "innata",
+        "iota",
+        "ista"
+       ]
+      },
+      "rang": 82,
+      "segment": "1.pr.p3.3",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "parte",
+       "parum",
+       "alia"
+      ],
+      "mots": {
+       "attendu": [
+        "auxilia"
+       ],
+       "plus_tard": [
+        "alica",
+        "aliena",
+        "alipta",
+        "aliqua"
+       ],
+       "plus_tot": [
+        "auxilia"
+       ]
+      },
+      "rang": 77,
+      "segment": "1.pr.p5.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "tecto"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 299,
+      "segment": "1.2.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 30
+      },
+      "debut": [
+       "facili",
+       "facit",
+       "aquam"
+      ],
+      "mots": {
+       "attendu": [
+        "aliquam",
+        "antequam"
+       ],
+       "plus_tard": [],
+       "plus_tot": [
+        "aliquam",
+        "antequam"
+       ]
+      },
+      "rang": 174,
+      "segment": "1.3.p6.1",
+      "tables": 30
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quae",
+       "quasi",
+       "nubeculae"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 27,
+      "segment": "2.3.p1.2",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 24
+      },
+      "debut": [
+       "quasdam",
+       "quasi",
+       "miculas"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 133,
+      "segment": "2.5.p1.1",
+      "tables": 24
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "poma"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 62,
+      "segment": "2.18.p1.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "fragilia"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 74,
+      "segment": "2.18.p1.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 7
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "volatu"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 91,
+      "segment": "2.18.p1.2",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "minutae"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 105,
+      "segment": "2.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "natandi"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 123,
+      "segment": "2.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "aliud",
+       "alii",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 15,
+      "segment": "2.19.p1.4",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 189
+      },
+      "debut": [
+       "singulae",
+       "singulis",
+       "diebus"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 131,
+      "segment": "3.3.p1.2",
+      "tables": 189
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 93
+      },
+      "debut": [
+       "decimum",
+       "decimum",
+       "septimum"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 201,
+      "segment": "3.4.p3.3",
+      "tables": 93
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quidam",
+       "quia",
+       "fere"
+      ],
+      "mots": {
+       "attendu": [
+        "facere",
+        "fallere",
+        "febre",
+        "femore",
+        "ferre",
+        "fervore",
+        "fluere",
+        "fovere",
+        "frigere",
+        "fugere",
+        "fundere"
+       ],
+       "plus_tard": [
+        "febre",
+        "femore",
+        "fereque",
+        "ferre",
+        "fervore"
+       ],
+       "plus_tot": [
+        "facere",
+        "fallere",
+        "febre",
+        "femore",
+        "ferre",
+        "fervore",
+        "fluere",
+        "fovere",
+        "frigere",
+        "fugere",
+        "fundere"
+       ]
+      },
+      "rang": 265,
+      "segment": "3.5.p1.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 12
+      },
+      "debut": [
+       "simili",
+       "similique",
+       "victus"
+      ],
+      "mots": {
+       "attendu": [
+        "vinctus"
+       ],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 13,
+      "segment": "3.18.p4.1",
+      "tables": 12
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "digerat"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "digerant"
+       ],
+       "plus_tot": []
+      },
+      "rang": 283,
+      "segment": "3.24.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "potest",
+       "potui",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 354,
+      "segment": "4.11.p1.4",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 22,
+       "valeur_l_inconnue": 532
+      },
+      "debut": [
+       "adhibenda",
+       "adhibendi",
+       "lenes"
+      ],
+      "mots": {
+       "attendu": [
+        "lenes",
+        "leniores",
+        "lienes"
+       ],
+       "plus_tard": [
+        "lenes",
+        "leniores"
+       ],
+       "plus_tot": [
+        "lenes",
+        "leniores",
+        "lienes"
+       ]
+      },
+      "rang": 279,
+      "segment": "4.12.p1.1",
+      "tables": 554
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quidem",
+       "quies",
+       "facta"
+      ],
+      "mots": {
+       "attendu": [
+        "fracta"
+       ],
+       "plus_tard": [],
+       "plus_tot": [
+        "fracta"
+       ]
+      },
+      "rang": 274,
+      "segment": "4.18.p1.2",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "aeque"
+      ],
+      "mots": {
+       "attendu": [
+        "aliaeque"
+       ],
+       "plus_tard": [
+        "aequale"
+       ],
+       "plus_tot": [
+        "aliaeque"
+       ]
+      },
+      "rang": 120,
+      "segment": "4.23.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quibus",
+       "quidam",
+       "adjiciunt"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 35,
+      "segment": "5.18.p15.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "habet"
+      ],
+      "mots": {
+       "attendu": [
+        "haberet"
+       ],
+       "plus_tard": [
+        "habeant",
+        "habeat",
+        "habebant",
+        "habebat",
+        "habebit",
+        "habebunt",
+        "habent",
+        "haberet"
+       ],
+       "plus_tot": [
+        "haberet"
+       ]
+      },
+      "rang": 10,
+      "segment": "5.18.p32.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "cruentis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 8,
+      "segment": "5.19.p1.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "alia"
+      ],
+      "mots": {
+       "attendu": [
+        "auxilia"
+       ],
+       "plus_tard": [
+        "alica",
+        "aliena",
+        "alipta",
+        "aliqua"
+       ],
+       "plus_tot": [
+        "auxilia"
+       ]
+      },
+      "rang": 20,
+      "segment": "5.26.p24.2",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quidem",
+       "quibus",
+       "vero"
+      ],
+      "mots": {
+       "attendu": [
+        "venero",
+        "veratro"
+       ],
+       "plus_tard": [
+        "venero",
+        "veratro",
+        "verbo"
+       ],
+       "plus_tot": [
+        "venero",
+        "veratro"
+       ]
+      },
+      "rang": 77,
+      "segment": "5.28.p9.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "calce",
+       "callum",
+       "exest"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 723,
+      "segment": "5.28.p12.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quibus",
+       "quid",
+       "eventurum"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 24,
+      "segment": "6.6.p1.2",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "quoque",
+       "quod",
+       "hieracis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "6.6.p30.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "vero",
+       "vermes",
+       "orti"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "6.7.p5.1",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "quibus",
+       "quidam",
+       "vel"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 198,
+      "segment": "6.7.p8.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "prima"
+      ],
+      "mots": {
+       "attendu": [
+        "plurima",
+        "proxima"
+       ],
+       "plus_tard": [
+        "proxima"
+       ],
+       "plus_tot": [
+        "plurima",
+        "proxima"
+       ]
+      },
+      "rang": 8,
+      "segment": "6.12.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "esset"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "essent"
+       ],
+       "plus_tot": []
+      },
+      "rang": 38,
+      "segment": "7.5.p5.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 8
+      },
+      "debut": [
+       "aliter",
+       "aliterque",
+       "curantur"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 25,
+      "segment": "7.7.p1.1",
+      "tables": 8
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 1
+      },
+      "debut": [
+       "postea",
+       "possit",
+       "his"
+      ],
+      "mots": {
+       "attendu": [
+        "hamis",
+        "horis"
+       ],
+       "plus_tard": [
+        "hiems"
+       ],
+       "plus_tot": [
+        "hamis",
+        "horis"
+       ]
+      },
+      "rang": 352,
+      "segment": "7.7.p8.1",
+      "tables": 1
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "quam",
+       "quae",
+       "extra"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "extracta",
+        "extrema"
+       ],
+       "plus_tot": []
+      },
+      "rang": 120,
+      "segment": "7.15.p1.1",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 4
+      },
+      "debut": [
+       "quasdam",
+       "quasi",
+       "squamulas"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 43,
+      "segment": "7.26.p4.1",
+      "tables": 4
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 102
+      },
+      "debut": [
+       "alteraque",
+       "alteram",
+       "premere"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 537,
+      "segment": "7.29.p1.1",
+      "tables": 102
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 7
+      },
+      "debut": [
+       "quos",
+       "quod",
+       "medium"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "medicorum",
+        "medicum"
+       ],
+       "plus_tot": []
+      },
+      "rang": 90,
+      "segment": "8.1.p3.1",
+      "tables": 7
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 98
+      },
+      "debut": [
+       "digiti",
+       "digitis",
+       "ungues"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 330,
+      "segment": "8.1.p4.1",
+      "tables": 98
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 162
+      },
+      "debut": [
+       "sinister",
+       "sinistro",
+       "brachio"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 53,
+      "segment": "8.10.p3.1",
+      "tables": 162
+     }
+    ]
+   }
+  },
+  "Gart1485": {
+   "fixe-0": {
+    "fenetres": 182,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "fixe-1": {
+    "fenetres": 182,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "l_contextuel-0": {
+    "fenetres": 182,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "l_contextuel-1": {
+    "fenetres": 182,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "position-0": {
+    "fenetres": 182,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "position-1": {
+    "fenetres": 182,
+    "paires_ajustees": 0,
+    "triplets": []
+   }
+  },
+  "Macer": {
+   "fixe-0": {
+    "fenetres": 13736,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "fixe-1": {
+    "fenetres": 13736,
+    "paires_ajustees": 6,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "potata",
+       "potest",
+       "obstare"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 136,
+      "segment": "Althaea",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 4
+      },
+      "debut": [
+       "herba",
+       "herbae",
+       "tam"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 19,
+      "segment": "Chamomilla",
+      "tables": 4
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 6
+      },
+      "debut": [
+       "flos",
+       "florum",
+       "nobis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "Rosa",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "illis",
+       "illitus",
+       "asseritur"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 208,
+      "segment": "Lilium",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 28
+      },
+      "debut": [
+       "somnum",
+       "somno",
+       "gravat"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 75,
+      "segment": "Satureia",
+      "tables": 28
+     }
+    ]
+   },
+   "l_contextuel-0": {
+    "fenetres": 13736,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "l_contextuel-1": {
+    "fenetres": 13736,
+    "paires_ajustees": 6,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "potata",
+       "potest",
+       "obstare"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 136,
+      "segment": "Althaea",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 4
+      },
+      "debut": [
+       "herba",
+       "herbae",
+       "tam"
+      ],
+      "mots": {
+       "attendu": [
+        "tectam",
+        "terram",
+        "testam",
+        "tritam",
+        "tutam"
+       ],
+       "plus_tard": [
+        "talem",
+        "tantum"
+       ],
+       "plus_tot": [
+        "tectam",
+        "terram",
+        "testam",
+        "tritam",
+        "tutam"
+       ]
+      },
+      "rang": 19,
+      "segment": "Chamomilla",
+      "tables": 4
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "flos",
+       "florum",
+       "nobis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "Rosa",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "illis",
+       "illitus",
+       "asseritur"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 208,
+      "segment": "Lilium",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 28
+      },
+      "debut": [
+       "somnum",
+       "somno",
+       "gravat"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 75,
+      "segment": "Satureia",
+      "tables": 28
+     }
+    ]
+   },
+   "position-0": {
+    "fenetres": 13736,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "position-1": {
+    "fenetres": 13736,
+    "paires_ajustees": 6,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "potata",
+       "potest",
+       "obstare"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 136,
+      "segment": "Althaea",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 5
+      },
+      "debut": [
+       "herba",
+       "herbae",
+       "tam"
+      ],
+      "mots": {
+       "attendu": [
+        "tectam",
+        "terram",
+        "testam",
+        "tritam",
+        "tutam"
+       ],
+       "plus_tard": [
+        "talem",
+        "tantum"
+       ],
+       "plus_tot": [
+        "tectam",
+        "terram",
+        "testam",
+        "tritam",
+        "tutam"
+       ]
+      },
+      "rang": 19,
+      "segment": "Chamomilla",
+      "tables": 5
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 6
+      },
+      "debut": [
+       "flos",
+       "florum",
+       "nobis"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "Rosa",
+      "tables": 6
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 4
+      },
+      "debut": [
+       "illis",
+       "illitus",
+       "asseritur"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 208,
+      "segment": "Lilium",
+      "tables": 4
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 35
+      },
+      "debut": [
+       "somnum",
+       "somno",
+       "gravat"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 75,
+      "segment": "Satureia",
+      "tables": 35
+     }
+    ]
+   }
+  }
+ },
+ "sources": {
+  "Celse": {
+   "graphies": 14015,
+   "mots": 101718,
+   "segments": 843,
+   "sha256_segments": "59f2063fdb2b8c70d053bb55fc71e37eb610bfe36308a1f15d0d307acebf6587"
+  },
+  "Gart1485": {
+   "graphies": 105,
+   "mots": 254,
+   "segments": 29,
+   "sha256_segments": "f3e282f48f9afe50c33502f73487a35a76e9e08cc54f36424429062ab32b7e84"
+  },
+  "Macer": {
+   "graphies": 3897,
+   "mots": 13967,
+   "segments": 77,
+   "sha256_segments": "ae4c1c205cb7af11ecfa9ea016066f8f9c6b909aeaceb4b70a36d91ba166b750"
+  }
+ }
+}
