@@ -6,7 +6,6 @@ from random import Random
 import json
 import re
 import sys
-import gzip
 HERE=Path(__file__).resolve().parent
 RESEARCH=HERE.parents[1]
 sys.path.insert(0,str(RESEARCH/'2026-11-18-du-dessin-au-paragraphe/cressons'))
@@ -92,4 +91,16 @@ def verify():
          positions_lisibles=flat.total(),inventaire=counts))
 
 
-if __name__=='__main__':{'annoncer':freeze,'verifier':verify}[sys.argv[1]]()
+def controler_lieux(*loci):
+    rows=labels();pred=load('PREDICTIONS.json');forms={'arol'}
+    for t in pred.values():forms.update(f for fs in t['formes'].values() for f in fs)
+    summary={}
+    for loc in loci:
+        w=rows.get(loc)
+        summary[loc]=dict(mots=w,verdict=('inconnue' if not w else 'reussite' if forms.intersection(w) else 'echec'))
+    print(json.dumps(summary,ensure_ascii=False,indent=1))
+
+
+if __name__=='__main__':
+    if sys.argv[1]=='lieux':controler_lieux(*sys.argv[2:])
+    else:{'annoncer':freeze,'verifier':verify}[sys.argv[1]]()

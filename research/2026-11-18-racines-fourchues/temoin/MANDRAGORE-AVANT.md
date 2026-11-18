@@ -1,0 +1,3 @@
+# Contrôle d'une bifurcation dans le Dioscoride de Salamanque
+
+Dans le même manuscrit, chercher la première notice consacrée à la mandragore. Sans avoir ouvert ce feuillet ni sa transcription, je m'attends à un nombre de deux ou trois racines issues ensemble, et à un dessin comportant au moins deux branches principales se rejoignant vers le feuillage. Deux lobes superposés comme dans l'orchis ne rempliront pas ce critère. La comparaison avec un homme ou une femme, si elle apparaît seule, ne suffit pas à valider la prévision de nombre. Il s'agit d'une hypothèse informée par la tradition botanique ; le lecteur connaît déjà les gravures allemandes de la mandragore. Évaluer la première forme décrite, même si la notice passe ensuite à une autre.
