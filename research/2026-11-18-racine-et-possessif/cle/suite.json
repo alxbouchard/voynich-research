@@ -1,0 +1,780 @@
+{
+ "variante_f10r": {
+  "toutes_lectures_cth": [
+   "ei"
+  ],
+  "toutes_lectures_cthy": [
+   "eius"
+  ],
+  "formes_foliis_ei_dans_le_macer": [],
+  "vers_du_macer_avec_ei": {
+   "1141": [
+    "quartus",
+    "ei",
+    "gradus",
+    "est",
+    "in",
+    "vi",
+    "sicca",
+    "calidaque"
+   ],
+   "1608": [
+    "si",
+    "iungatur",
+    "ei",
+    "violenter",
+    "amygdala",
+    "trita"
+   ],
+   "1758": [
+    "si",
+    "sit",
+    "ei",
+    "tritae",
+    "cum",
+    "melle",
+    "bryonia",
+    "iuncta"
+   ]
+  },
+  "lieux_communs_cth": [
+   "f10r.7",
+   "f96v.3"
+  ],
+  "lieux_communs_daiin_cth": [
+   "f10r.7"
+  ]
+ },
+ "comparaison_frequences": {
+  "formes_edition_sans_chelidoine": {
+   "radix": 23,
+   "eius": 125,
+   "foliis": 32
+  },
+  "mots_edition_sans_chelidoine": 13849,
+  "faces_voynich": 124,
+  "versions": {
+   "H/joints": {
+    "mots": 10945,
+    "lignes": 1529,
+    "chol": 226,
+    "cthy": 85,
+    "daiin": 451
+   },
+   "H/separes": {
+    "mots": 10945,
+    "lignes": 1529,
+    "chol": 226,
+    "cthy": 85,
+    "daiin": 451
+   },
+   "ZL/joints": {
+    "mots": 9898,
+    "lignes": 1529,
+    "chol": 190,
+    "cthy": 75,
+    "daiin": 415
+   },
+   "ZL/separes": {
+    "mots": 10636,
+    "lignes": 1529,
+    "chol": 219,
+    "cthy": 78,
+    "daiin": 438
+   }
+  },
+  "minimum_stable": {
+   "chol": 187,
+   "cthy": 74,
+   "daiin": 406
+  },
+  "mots_communs": 8665
+ },
+ "mots_apres_foliis_eius_edition": [
+  {
+   "notice": "Urtica",
+   "vers": 125,
+   "mot": "factum"
+  },
+  {
+   "notice": "Betonica",
+   "vers": 433,
+   "mot": "tritis"
+  },
+  {
+   "notice": "Betonica",
+   "vers": 445,
+   "mot": "elixis"
+  },
+  {
+   "notice": "Papaver",
+   "vers": 1062,
+   "mot": "tritis"
+  },
+  {
+   "notice": "Asarum",
+   "vers": 1558,
+   "mot": "triginta"
+  },
+  {
+   "notice": "Chelidonia",
+   "vers": 1707,
+   "mot": "contusis"
+  },
+  {
+   "notice": "Gaisdo",
+   "vers": 1768,
+   "mot": "tritis"
+  }
+ ],
+ "tables": [
+  {
+   "cle": {
+    "a": "ol",
+    "ch": "r",
+    "cth": "ei",
+    "d": "f",
+    "i": "i",
+    "l": "ix",
+    "n": "s",
+    "o": "ad",
+    "y": "us"
+   },
+   "dy": "fus",
+   "dy_present_macer": false,
+   "dy_apres_foliis_eius": false,
+   "transfert": {
+    "2": {
+     "lisibles": {
+      "types": 246,
+      "occurrences": 379
+     },
+     "types_dans_macer": 3,
+     "occurrences_dans_macer_somme_cote_voynich": 15,
+     "details": [
+      {
+       "eva": [
+        "daiin",
+        "cthy"
+       ],
+       "lecture": [
+        "foliis",
+        "eius"
+       ],
+       "nombre": 8,
+       "lignes": [
+        "f3r.3",
+        "f9v.3",
+        "f22v.12",
+        "f29r.8",
+        "f32r.13",
+        "f44v.3",
+        "f45v.2",
+        "f51v.2"
+       ],
+       "notices_du_macer": [
+        "Urtica",
+        "Betonica",
+        "Papaver",
+        "Asarum",
+        "Chelidonia",
+        "Gaisdo"
+       ]
+      },
+      {
+       "eva": [
+        "cthy",
+        "daiin"
+       ],
+       "lecture": [
+        "eius",
+        "foliis"
+       ],
+       "nombre": 4,
+       "lignes": [
+        "f7v.2",
+        "f10v.2",
+        "f20v.7",
+        "f21r.2"
+       ],
+       "notices_du_macer": [
+        "Lilium",
+        "Enula",
+        "Maurella",
+        "Malva"
+       ]
+      },
+      {
+       "eva": [
+        "chol",
+        "cthy"
+       ],
+       "lecture": [
+        "radix",
+        "eius"
+       ],
+       "nombre": 3,
+       "lignes": [
+        "f10r.5",
+        "f29v.2",
+        "f56r.15"
+       ],
+       "notices_du_macer": [
+        "Chelidonia"
+       ]
+      }
+     ]
+    },
+    "3": {
+     "lisibles": {
+      "types": 86,
+      "occurrences": 89
+     },
+     "types_dans_macer": 0,
+     "occurrences_dans_macer_somme_cote_voynich": 0,
+     "details": []
+    }
+   }
+  },
+  {
+   "cle": {
+    "a": "l",
+    "ch": "r",
+    "cth": "ei",
+    "d": "fo",
+    "i": "i",
+    "l": "ix",
+    "n": "s",
+    "o": "ad",
+    "y": "us"
+   },
+   "dy": "fous",
+   "dy_present_macer": false,
+   "dy_apres_foliis_eius": false,
+   "transfert": {
+    "2": {
+     "lisibles": {
+      "types": 246,
+      "occurrences": 379
+     },
+     "types_dans_macer": 3,
+     "occurrences_dans_macer_somme_cote_voynich": 15,
+     "details": [
+      {
+       "eva": [
+        "daiin",
+        "cthy"
+       ],
+       "lecture": [
+        "foliis",
+        "eius"
+       ],
+       "nombre": 8,
+       "lignes": [
+        "f3r.3",
+        "f9v.3",
+        "f22v.12",
+        "f29r.8",
+        "f32r.13",
+        "f44v.3",
+        "f45v.2",
+        "f51v.2"
+       ],
+       "notices_du_macer": [
+        "Urtica",
+        "Betonica",
+        "Papaver",
+        "Asarum",
+        "Chelidonia",
+        "Gaisdo"
+       ]
+      },
+      {
+       "eva": [
+        "cthy",
+        "daiin"
+       ],
+       "lecture": [
+        "eius",
+        "foliis"
+       ],
+       "nombre": 4,
+       "lignes": [
+        "f7v.2",
+        "f10v.2",
+        "f20v.7",
+        "f21r.2"
+       ],
+       "notices_du_macer": [
+        "Lilium",
+        "Enula",
+        "Maurella",
+        "Malva"
+       ]
+      },
+      {
+       "eva": [
+        "chol",
+        "cthy"
+       ],
+       "lecture": [
+        "radix",
+        "eius"
+       ],
+       "nombre": 3,
+       "lignes": [
+        "f10r.5",
+        "f29v.2",
+        "f56r.15"
+       ],
+       "notices_du_macer": [
+        "Chelidonia"
+       ]
+      }
+     ]
+    },
+    "3": {
+     "lisibles": {
+      "types": 86,
+      "occurrences": 89
+     },
+     "types_dans_macer": 0,
+     "occurrences_dans_macer_somme_cote_voynich": 0,
+     "details": []
+    }
+   }
+  },
+  {
+   "cle": {
+    "a": "ol",
+    "ch": "ra",
+    "cth": "ei",
+    "d": "f",
+    "i": "i",
+    "l": "ix",
+    "n": "s",
+    "o": "d",
+    "y": "us"
+   },
+   "dy": "fus",
+   "dy_present_macer": false,
+   "dy_apres_foliis_eius": false,
+   "transfert": {
+    "2": {
+     "lisibles": {
+      "types": 246,
+      "occurrences": 379
+     },
+     "types_dans_macer": 3,
+     "occurrences_dans_macer_somme_cote_voynich": 15,
+     "details": [
+      {
+       "eva": [
+        "daiin",
+        "cthy"
+       ],
+       "lecture": [
+        "foliis",
+        "eius"
+       ],
+       "nombre": 8,
+       "lignes": [
+        "f3r.3",
+        "f9v.3",
+        "f22v.12",
+        "f29r.8",
+        "f32r.13",
+        "f44v.3",
+        "f45v.2",
+        "f51v.2"
+       ],
+       "notices_du_macer": [
+        "Urtica",
+        "Betonica",
+        "Papaver",
+        "Asarum",
+        "Chelidonia",
+        "Gaisdo"
+       ]
+      },
+      {
+       "eva": [
+        "cthy",
+        "daiin"
+       ],
+       "lecture": [
+        "eius",
+        "foliis"
+       ],
+       "nombre": 4,
+       "lignes": [
+        "f7v.2",
+        "f10v.2",
+        "f20v.7",
+        "f21r.2"
+       ],
+       "notices_du_macer": [
+        "Lilium",
+        "Enula",
+        "Maurella",
+        "Malva"
+       ]
+      },
+      {
+       "eva": [
+        "chol",
+        "cthy"
+       ],
+       "lecture": [
+        "radix",
+        "eius"
+       ],
+       "nombre": 3,
+       "lignes": [
+        "f10r.5",
+        "f29v.2",
+        "f56r.15"
+       ],
+       "notices_du_macer": [
+        "Chelidonia"
+       ]
+      }
+     ]
+    },
+    "3": {
+     "lisibles": {
+      "types": 86,
+      "occurrences": 89
+     },
+     "types_dans_macer": 0,
+     "occurrences_dans_macer_somme_cote_voynich": 0,
+     "details": []
+    }
+   }
+  },
+  {
+   "cle": {
+    "a": "l",
+    "ch": "ra",
+    "cth": "ei",
+    "d": "fo",
+    "i": "i",
+    "l": "ix",
+    "n": "s",
+    "o": "d",
+    "y": "us"
+   },
+   "dy": "fous",
+   "dy_present_macer": false,
+   "dy_apres_foliis_eius": false,
+   "transfert": {
+    "2": {
+     "lisibles": {
+      "types": 246,
+      "occurrences": 379
+     },
+     "types_dans_macer": 3,
+     "occurrences_dans_macer_somme_cote_voynich": 15,
+     "details": [
+      {
+       "eva": [
+        "daiin",
+        "cthy"
+       ],
+       "lecture": [
+        "foliis",
+        "eius"
+       ],
+       "nombre": 8,
+       "lignes": [
+        "f3r.3",
+        "f9v.3",
+        "f22v.12",
+        "f29r.8",
+        "f32r.13",
+        "f44v.3",
+        "f45v.2",
+        "f51v.2"
+       ],
+       "notices_du_macer": [
+        "Urtica",
+        "Betonica",
+        "Papaver",
+        "Asarum",
+        "Chelidonia",
+        "Gaisdo"
+       ]
+      },
+      {
+       "eva": [
+        "cthy",
+        "daiin"
+       ],
+       "lecture": [
+        "eius",
+        "foliis"
+       ],
+       "nombre": 4,
+       "lignes": [
+        "f7v.2",
+        "f10v.2",
+        "f20v.7",
+        "f21r.2"
+       ],
+       "notices_du_macer": [
+        "Lilium",
+        "Enula",
+        "Maurella",
+        "Malva"
+       ]
+      },
+      {
+       "eva": [
+        "chol",
+        "cthy"
+       ],
+       "lecture": [
+        "radix",
+        "eius"
+       ],
+       "nombre": 3,
+       "lignes": [
+        "f10r.5",
+        "f29v.2",
+        "f56r.15"
+       ],
+       "notices_du_macer": [
+        "Chelidonia"
+       ]
+      }
+     ]
+    },
+    "3": {
+     "lisibles": {
+      "types": 86,
+      "occurrences": 89
+     },
+     "types_dans_macer": 0,
+     "occurrences_dans_macer_somme_cote_voynich": 0,
+     "details": []
+    }
+   }
+  },
+  {
+   "cle": {
+    "a": "ol",
+    "ch": "ra",
+    "cth": "ei",
+    "d": "f",
+    "i": "i",
+    "l": "x",
+    "n": "s",
+    "o": "di",
+    "y": "us"
+   },
+   "dy": "fus",
+   "dy_present_macer": false,
+   "dy_apres_foliis_eius": false,
+   "transfert": {
+    "2": {
+     "lisibles": {
+      "types": 246,
+      "occurrences": 379
+     },
+     "types_dans_macer": 3,
+     "occurrences_dans_macer_somme_cote_voynich": 15,
+     "details": [
+      {
+       "eva": [
+        "daiin",
+        "cthy"
+       ],
+       "lecture": [
+        "foliis",
+        "eius"
+       ],
+       "nombre": 8,
+       "lignes": [
+        "f3r.3",
+        "f9v.3",
+        "f22v.12",
+        "f29r.8",
+        "f32r.13",
+        "f44v.3",
+        "f45v.2",
+        "f51v.2"
+       ],
+       "notices_du_macer": [
+        "Urtica",
+        "Betonica",
+        "Papaver",
+        "Asarum",
+        "Chelidonia",
+        "Gaisdo"
+       ]
+      },
+      {
+       "eva": [
+        "cthy",
+        "daiin"
+       ],
+       "lecture": [
+        "eius",
+        "foliis"
+       ],
+       "nombre": 4,
+       "lignes": [
+        "f7v.2",
+        "f10v.2",
+        "f20v.7",
+        "f21r.2"
+       ],
+       "notices_du_macer": [
+        "Lilium",
+        "Enula",
+        "Maurella",
+        "Malva"
+       ]
+      },
+      {
+       "eva": [
+        "chol",
+        "cthy"
+       ],
+       "lecture": [
+        "radix",
+        "eius"
+       ],
+       "nombre": 3,
+       "lignes": [
+        "f10r.5",
+        "f29v.2",
+        "f56r.15"
+       ],
+       "notices_du_macer": [
+        "Chelidonia"
+       ]
+      }
+     ]
+    },
+    "3": {
+     "lisibles": {
+      "types": 86,
+      "occurrences": 89
+     },
+     "types_dans_macer": 0,
+     "occurrences_dans_macer_somme_cote_voynich": 0,
+     "details": []
+    }
+   }
+  },
+  {
+   "cle": {
+    "a": "l",
+    "ch": "ra",
+    "cth": "ei",
+    "d": "fo",
+    "i": "i",
+    "l": "x",
+    "n": "s",
+    "o": "di",
+    "y": "us"
+   },
+   "dy": "fous",
+   "dy_present_macer": false,
+   "dy_apres_foliis_eius": false,
+   "transfert": {
+    "2": {
+     "lisibles": {
+      "types": 246,
+      "occurrences": 379
+     },
+     "types_dans_macer": 3,
+     "occurrences_dans_macer_somme_cote_voynich": 15,
+     "details": [
+      {
+       "eva": [
+        "daiin",
+        "cthy"
+       ],
+       "lecture": [
+        "foliis",
+        "eius"
+       ],
+       "nombre": 8,
+       "lignes": [
+        "f3r.3",
+        "f9v.3",
+        "f22v.12",
+        "f29r.8",
+        "f32r.13",
+        "f44v.3",
+        "f45v.2",
+        "f51v.2"
+       ],
+       "notices_du_macer": [
+        "Urtica",
+        "Betonica",
+        "Papaver",
+        "Asarum",
+        "Chelidonia",
+        "Gaisdo"
+       ]
+      },
+      {
+       "eva": [
+        "cthy",
+        "daiin"
+       ],
+       "lecture": [
+        "eius",
+        "foliis"
+       ],
+       "nombre": 4,
+       "lignes": [
+        "f7v.2",
+        "f10v.2",
+        "f20v.7",
+        "f21r.2"
+       ],
+       "notices_du_macer": [
+        "Lilium",
+        "Enula",
+        "Maurella",
+        "Malva"
+       ]
+      },
+      {
+       "eva": [
+        "chol",
+        "cthy"
+       ],
+       "lecture": [
+        "radix",
+        "eius"
+       ],
+       "nombre": 3,
+       "lignes": [
+        "f10r.5",
+        "f29v.2",
+        "f56r.15"
+       ],
+       "notices_du_macer": [
+        "Chelidonia"
+       ]
+      }
+     ]
+    },
+    "3": {
+     "lisibles": {
+      "types": 86,
+      "occurrences": 89
+     },
+     "types_dans_macer": 0,
+     "occurrences_dans_macer_somme_cote_voynich": 0,
+     "details": []
+    }
+   }
+  }
+ ]
+}

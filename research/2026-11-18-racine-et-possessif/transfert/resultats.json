@@ -1,0 +1,1070 @@
+{
+ "resume": {
+  "selection": {
+   "lieux_P0": 40,
+   "panneaux": 4,
+   "signatures_par_lecture": {
+    "H/joints": {
+     "depart": 2,
+     "arrivee": 3,
+     "depart_dy": 0,
+     "arrivee_dy": 2
+    },
+    "H/separes": {
+     "depart": 2,
+     "arrivee": 3,
+     "depart_dy": 0,
+     "arrivee_dy": 2
+    },
+    "ZL/joints": {
+     "depart": 2,
+     "arrivee": 3,
+     "depart_dy": 0,
+     "arrivee_dy": 1
+    },
+    "ZL/separes": {
+     "depart": 2,
+     "arrivee": 3,
+     "depart_dy": 0,
+     "arrivee_dy": 1
+    }
+   },
+   "motifs": {
+    "depart": [
+     "f11r.3",
+     "f15r.3"
+    ],
+    "arrivee": [
+     "f11r.5",
+     "f15r.5",
+     "f15v.11"
+    ],
+    "depart_dy": [],
+    "arrivee_dy": [
+     "f15r.5"
+    ]
+   },
+   "distances": {
+    "1": {
+     "departs": 2,
+     "cible_evaluable": 2,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 2,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 33,
+     "avec_cible_autres_fenetres": 3
+    },
+    "2": {
+     "departs": 2,
+     "cible_evaluable": 2,
+     "avec_motif": [
+      "f11r.3",
+      "f15r.3"
+     ],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [
+      "f15r.3"
+     ],
+     "autres_fenetres": 29,
+     "avec_cible_autres_fenetres": 1
+    },
+    "3": {
+     "departs": 2,
+     "cible_evaluable": 2,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 26,
+     "avec_cible_autres_fenetres": 3
+    },
+    "4": {
+     "departs": 2,
+     "cible_evaluable": 2,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 22,
+     "avec_cible_autres_fenetres": 3
+    },
+    "5": {
+     "departs": 2,
+     "cible_evaluable": 1,
+     "avec_motif": [],
+     "sans_ligne_cible": [
+      "f11r.3"
+     ],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 20,
+     "avec_cible_autres_fenetres": 1
+    },
+    "6": {
+     "departs": 2,
+     "cible_evaluable": 1,
+     "avec_motif": [],
+     "sans_ligne_cible": [
+      "f11r.3"
+     ],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 16,
+     "avec_cible_autres_fenetres": 1
+    }
+   },
+   "inversion_plus_deux": {
+    "departs": 3,
+    "cible_evaluable": 2,
+    "avec_motif": [],
+    "sans_ligne_cible": [
+     "f15v.11"
+    ],
+    "meme_paragraphe": 2,
+    "succes_meme_paragraphe": [],
+    "autres_fenetres": 29,
+    "avec_cible_autres_fenetres": 2
+   }
+  },
+  "herbier": {
+   "lieux_P0": 1529,
+   "panneaux": 124,
+   "signatures_par_lecture": {
+    "H/joints": {
+     "depart": 3,
+     "arrivee": 8,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    },
+    "H/separes": {
+     "depart": 3,
+     "arrivee": 8,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    },
+    "ZL/joints": {
+     "depart": 3,
+     "arrivee": 8,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    },
+    "ZL/separes": {
+     "depart": 3,
+     "arrivee": 8,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    }
+   },
+   "motifs": {
+    "depart": [
+     "f10r.5",
+     "f29v.2",
+     "f56r.15"
+    ],
+    "arrivee": [
+     "f3r.3",
+     "f9v.3",
+     "f22v.12",
+     "f29r.8",
+     "f32r.13",
+     "f44v.3",
+     "f45v.2",
+     "f51v.2"
+    ],
+    "depart_dy": [],
+    "arrivee_dy": []
+   },
+   "distances": {
+    "1": {
+     "departs": 3,
+     "cible_evaluable": 3,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 2,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1371,
+     "avec_cible_autres_fenetres": 8
+    },
+    "2": {
+     "departs": 3,
+     "cible_evaluable": 3,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 2,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1273,
+     "avec_cible_autres_fenetres": 6
+    },
+    "3": {
+     "departs": 3,
+     "cible_evaluable": 3,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1125,
+     "avec_cible_autres_fenetres": 3
+    },
+    "4": {
+     "departs": 3,
+     "cible_evaluable": 3,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 1,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1028,
+     "avec_cible_autres_fenetres": 3
+    },
+    "5": {
+     "departs": 3,
+     "cible_evaluable": 2,
+     "avec_motif": [],
+     "sans_ligne_cible": [
+      "f56r.15"
+     ],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 884,
+     "avec_cible_autres_fenetres": 3
+    },
+    "6": {
+     "departs": 3,
+     "cible_evaluable": 2,
+     "avec_motif": [],
+     "sans_ligne_cible": [
+      "f56r.15"
+     ],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 786,
+     "avec_cible_autres_fenetres": 3
+    }
+   },
+   "inversion_plus_deux": {
+    "departs": 8,
+    "cible_evaluable": 7,
+    "avec_motif": [],
+    "sans_ligne_cible": [
+     "f29r.8"
+    ],
+    "meme_paragraphe": 5,
+    "succes_meme_paragraphe": [],
+    "autres_fenetres": 1269,
+    "avec_cible_autres_fenetres": 2
+   }
+  },
+  "autres": {
+   "lieux_P0": 2315,
+   "panneaux": 75,
+   "signatures_par_lecture": {
+    "H/joints": {
+     "depart": 0,
+     "arrivee": 0,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    },
+    "H/separes": {
+     "depart": 0,
+     "arrivee": 0,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    },
+    "ZL/joints": {
+     "depart": 0,
+     "arrivee": 0,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    },
+    "ZL/separes": {
+     "depart": 0,
+     "arrivee": 0,
+     "depart_dy": 0,
+     "arrivee_dy": 0
+    }
+   },
+   "motifs": {
+    "depart": [],
+    "arrivee": [],
+    "depart_dy": [],
+    "arrivee_dy": []
+   },
+   "distances": {
+    "1": {
+     "departs": 0,
+     "cible_evaluable": 0,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 2194,
+     "avec_cible_autres_fenetres": 0
+    },
+    "2": {
+     "departs": 0,
+     "cible_evaluable": 0,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 2105,
+     "avec_cible_autres_fenetres": 0
+    },
+    "3": {
+     "departs": 0,
+     "cible_evaluable": 0,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 2014,
+     "avec_cible_autres_fenetres": 0
+    },
+    "4": {
+     "departs": 0,
+     "cible_evaluable": 0,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1933,
+     "avec_cible_autres_fenetres": 0
+    },
+    "5": {
+     "departs": 0,
+     "cible_evaluable": 0,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1863,
+     "avec_cible_autres_fenetres": 0
+    },
+    "6": {
+     "departs": 0,
+     "cible_evaluable": 0,
+     "avec_motif": [],
+     "sans_ligne_cible": [],
+     "meme_paragraphe": 0,
+     "succes_meme_paragraphe": [],
+     "autres_fenetres": 1805,
+     "avec_cible_autres_fenetres": 0
+    }
+   },
+   "inversion_plus_deux": {
+    "departs": 0,
+    "cible_evaluable": 0,
+    "avec_motif": [],
+    "sans_ligne_cible": [],
+    "meme_paragraphe": 0,
+    "succes_meme_paragraphe": [],
+    "autres_fenetres": 2105,
+    "avec_cible_autres_fenetres": 0
+   }
+  }
+ },
+ "lignes_au_moins_une_lecture": {
+  "f3r.3": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "ochor.qocheor.chol.daiin.cthy",
+    "ZL": "ochor.qocheor.chol.daiin.cthy"
+   }
+  },
+  "f9v.3": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "ykey.chor.ykaiin.daiin.cthy.otaiin.oky<->oeees.daiin",
+    "ZL": "ykey.chor.ykaiin.daiin.cthy.otaiin.oky<->oeees.daiin"
+   }
+  },
+  "f10r.5": {
+   "accord": [
+    "depart"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "qokchy.qotchol.chol.cthy<$>",
+    "ZL": "qokchy.qotchol.chol.cthy<$>"
+   }
+  },
+  "f11r.3": {
+   "accord": [
+    "depart"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "qoty.chol.cthy.dor.ykychy.choty.dain.chaiin.daiin.ded",
+    "ZL": "qoty.chol.cthy.d[o:a]r.ykychy.choty.dain.chaiin.daiin.d[o:e]d"
+   }
+  },
+  "f11r.5": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      6
+     ],
+     "depart_dy": [],
+     "arrivee_dy": [
+      6
+     ]
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      6
+     ],
+     "depart_dy": [],
+     "arrivee_dy": [
+      6
+     ]
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      6
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      6
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "<%>tchol.shor.shor.dky.shcphy.daiin.cthy.dy.chodl.daiin",
+    "ZL": "<%>tchol.shor.shor.dky.{c'h@148;h}y.daiin.cthy.d,y,chodl,daiin"
+   }
+  },
+  "f15r.3": {
+   "accord": [
+    "depart"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [
+      5
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [
+      5
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [
+      4
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [
+      5
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "qokaiin.qotchy.tydy<->daiin.chol.cthy",
+    "ZL": "qokaiin.qotchy,tydy<->daiin.chol.cthy"
+   }
+  },
+  "f15r.5": {
+   "accord": [
+    "arrivee",
+    "arrivee_dy"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": [
+      5
+     ]
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": [
+      5
+     ]
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": [
+      4
+     ]
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": [
+      5
+     ]
+    }
+   },
+   "lignes": {
+    "H": "qotchy.r.shor.cthy<->daiin.cthy.dy",
+    "ZL": "qotchy.r,shor.cthy<->daiin.cthy.dy"
+   }
+  },
+  "f15v.11": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "soloiin.cheor.chol.daiin.cthy",
+    "ZL": "sol,oiin.cheor.chol.daiin.cthy"
+   }
+  },
+  "f22v.12": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      2
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      2
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      2
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      2
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "ychky.daiin.cthy",
+    "ZL": "ychky.daiin.cthy"
+   }
+  },
+  "f29r.8": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      8
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      8
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      6
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      7
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "shor.chor.sho.sheky.shy.qoty.kody<->daiin.cthy",
+    "ZL": "shor.chor.shosheky.shy.qoty,kody<->daiin.cthy"
+   }
+  },
+  "f29v.2": {
+   "accord": [
+    "depart"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [
+      4
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [
+      4
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "qotcheaiin.schol.chol.cthy.chey.cthold<->ytchor.dary",
+    "ZL": "qotcheaiin.s.chol.chol.cthy.chey.cthold<->ytchor.dary"
+   }
+  },
+  "f32r.13": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      3
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      4
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "otcho.r.ol.dain.daiin.cthy",
+    "ZL": "otcho,rol.dain.daiin.cthy"
+   }
+  },
+  "f44v.3": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      5
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "tol.okchor.shcthy.otol.daiin.cthy.cthy<$>",
+    "ZL": "tol.okchor.shcthy.otol.daiin.cthy.cthy<$>"
+   }
+  },
+  "f45v.2": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      3
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      3
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      3
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      3
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "okol.chor.daiin.cthy.okchol.chom.okolor.dy<->okchol.s",
+    "ZL": "okol.chor.daiin.cthy.okchol.chom.okolo[r:n].dy<->okchol.s"
+   }
+  },
+  "f51v.2": {
+   "accord": [
+    "arrivee"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [],
+     "arrivee": [
+      7
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [],
+     "arrivee": [
+      7
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [],
+     "arrivee": [
+      7
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [],
+     "arrivee": [
+      7
+     ],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "dshody.ckhody.qokol.dykaiin.chy<->qokey.daiin.cthy",
+    "ZL": "dshody.ckhody.qokol.dykaiin.chy<->qokey.daiin.cthy"
+   }
+  },
+  "f56r.15": {
+   "accord": [
+    "depart"
+   ],
+   "positions": {
+    "H/joints": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "H/separes": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/joints": {
+     "depart": [
+      2
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    },
+    "ZL/separes": {
+     "depart": [
+      3
+     ],
+     "arrivee": [],
+     "depart_dy": [],
+     "arrivee_dy": []
+    }
+   },
+   "lignes": {
+    "H": "tchotchol.chol.cthy",
+    "ZL": "tcho,tchol.chol.cthy"
+   }
+  }
+ }
+}

@@ -1,0 +1,937 @@
+{
+ "faces": 128,
+ "feuillets": 64,
+ "lignes": 1569,
+ "fenetres_distinctes_par_ligne": 6022,
+ "modeles": {
+  "1": {
+   "fenetres": {
+    "fenetres_de_longueurs_compatibles": 7
+   },
+   "localisations_distinctes": 0,
+   "avec_prediction_possible": {
+    "de": 0,
+    "ed": 0,
+    "in": 0
+   },
+   "avec_prediction_imposee": {
+    "de": 0,
+    "ed": 0,
+    "in": 0
+   },
+   "details": []
+  },
+  "2": {
+   "fenetres": {
+    "fenetres_de_longueurs_compatibles": 359,
+    "radix_eius_compatibles": 64,
+    "ajustements_de_graphie": 6
+   },
+   "localisations_distinctes": 5,
+   "avec_prediction_possible": {
+    "de": 0,
+    "ed": 0,
+    "in": 0
+   },
+   "avec_prediction_imposee": {
+    "de": 0,
+    "ed": 0,
+    "in": 0
+   },
+   "details": [
+    {
+     "page": "f11r",
+     "ligne_A": 3,
+     "ligne_B": 5,
+     "A": "chol",
+     "M": "cthy",
+     "B": "daiin",
+     "graphie": "foliis",
+     "tables": 6,
+     "precedents": [],
+     "sans_precedent_certain": true,
+     "tables_possibles": [
+      {
+       "a": "ol",
+       "ch": "r",
+       "cth": "ei",
+       "d": "f",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "ad",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "r",
+       "cth": "ei",
+       "d": "fo",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "ad",
+       "y": "us"
+      },
+      {
+       "a": "ol",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "f",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "d",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "fo",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "d",
+       "y": "us"
+      },
+      {
+       "a": "ol",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "f",
+       "i": "i",
+       "l": "x",
+       "n": "s",
+       "o": "di",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "fo",
+       "i": "i",
+       "l": "x",
+       "n": "s",
+       "o": "di",
+       "y": "us"
+      }
+     ]
+    },
+    {
+     "page": "f15r",
+     "ligne_A": 3,
+     "ligne_B": 5,
+     "A": "chol",
+     "M": "cthy",
+     "B": "daiin",
+     "graphie": "foliis",
+     "tables": 6,
+     "precedents": [],
+     "sans_precedent_certain": true,
+     "tables_possibles": [
+      {
+       "a": "ol",
+       "ch": "r",
+       "cth": "ei",
+       "d": "f",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "ad",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "r",
+       "cth": "ei",
+       "d": "fo",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "ad",
+       "y": "us"
+      },
+      {
+       "a": "ol",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "f",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "d",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "fo",
+       "i": "i",
+       "l": "ix",
+       "n": "s",
+       "o": "d",
+       "y": "us"
+      },
+      {
+       "a": "ol",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "f",
+       "i": "i",
+       "l": "x",
+       "n": "s",
+       "o": "di",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "ra",
+       "cth": "ei",
+       "d": "fo",
+       "i": "i",
+       "l": "x",
+       "n": "s",
+       "o": "di",
+       "y": "us"
+      }
+     ]
+    },
+    {
+     "page": "f15r",
+     "ligne_A": 3,
+     "ligne_B": 7,
+     "A": "chol",
+     "M": "cthy",
+     "B": "shkaiin",
+     "graphie": "foliis",
+     "tables": 3,
+     "precedents": [
+      {
+       "precedent": "daiin",
+       "lectures": {
+        "?": 3
+       }
+      }
+     ],
+     "sans_precedent_certain": false,
+     "tables_possibles": [
+      {
+       "a": "l",
+       "ch": "r",
+       "cth": "ei",
+       "i": "i",
+       "k": "o",
+       "l": "ix",
+       "n": "s",
+       "o": "ad",
+       "sh": "f",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "ra",
+       "cth": "ei",
+       "i": "i",
+       "k": "o",
+       "l": "ix",
+       "n": "s",
+       "o": "d",
+       "sh": "f",
+       "y": "us"
+      },
+      {
+       "a": "l",
+       "ch": "ra",
+       "cth": "ei",
+       "i": "i",
+       "k": "o",
+       "l": "x",
+       "n": "s",
+       "o": "di",
+       "sh": "f",
+       "y": "us"
+      }
+     ]
+    },
+    {
+     "page": "f43v",
+     "ligne_A": 12,
+     "ligne_B": 16,
+     "A": "dar",
+     "M": "chey",
+     "B": "qoky",
+     "graphie": "foliis",
+     "tables": 18,
+     "precedents": [
+      {
+       "precedent": "oteos",
+       "lectures": {
+        "?": 18
+       }
+      }
+     ],
+     "sans_precedent_certain": false,
+     "tables_possibles": [
+      {
+       "a": "ad",
+       "ch": "e",
+       "d": "r",
+       "e": "iu",
+       "k": "ii",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "e",
+       "d": "r",
+       "e": "iu",
+       "k": "ii",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "e",
+       "d": "r",
+       "e": "iu",
+       "k": "i",
+       "o": "li",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "ei",
+       "d": "r",
+       "e": "u",
+       "k": "ii",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "ei",
+       "d": "r",
+       "e": "u",
+       "k": "ii",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "ei",
+       "d": "r",
+       "e": "u",
+       "k": "i",
+       "o": "li",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ii",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ii",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "i",
+       "o": "li",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ii",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ii",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "i",
+       "o": "li",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ii",
+       "o": "ol",
+       "q": "f",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ii",
+       "o": "l",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "i",
+       "o": "li",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ii",
+       "o": "ol",
+       "q": "f",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ii",
+       "o": "l",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "i",
+       "o": "li",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      }
+     ]
+    },
+    {
+     "page": "f43v",
+     "ligne_A": 12,
+     "ligne_B": 16,
+     "A": "dar",
+     "M": "chey",
+     "B": "qoky",
+     "graphie": "foleis",
+     "tables": 18,
+     "precedents": [
+      {
+       "precedent": "oteos",
+       "lectures": {
+        "?": 18
+       }
+      }
+     ],
+     "sans_precedent_certain": false,
+     "tables_possibles": [
+      {
+       "a": "ad",
+       "ch": "e",
+       "d": "r",
+       "e": "iu",
+       "k": "ei",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "e",
+       "d": "r",
+       "e": "iu",
+       "k": "ei",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "e",
+       "d": "r",
+       "e": "iu",
+       "k": "i",
+       "o": "le",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "ei",
+       "d": "r",
+       "e": "u",
+       "k": "ei",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "ei",
+       "d": "r",
+       "e": "u",
+       "k": "ei",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "ad",
+       "ch": "ei",
+       "d": "r",
+       "e": "u",
+       "k": "i",
+       "o": "le",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ei",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ei",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "i",
+       "o": "le",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ei",
+       "o": "ol",
+       "q": "f",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ei",
+       "o": "l",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "d",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "i",
+       "o": "le",
+       "q": "fo",
+       "r": "ix",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ei",
+       "o": "ol",
+       "q": "f",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "ei",
+       "o": "l",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "e",
+       "d": "ra",
+       "e": "iu",
+       "k": "i",
+       "o": "le",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ei",
+       "o": "ol",
+       "q": "f",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "ei",
+       "o": "l",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      },
+      {
+       "a": "di",
+       "ch": "ei",
+       "d": "ra",
+       "e": "u",
+       "k": "i",
+       "o": "le",
+       "q": "fo",
+       "r": "x",
+       "y": "s"
+      }
+     ]
+    },
+    {
+     "page": "f47r",
+     "ligne_A": 3,
+     "ligne_B": 7,
+     "A": "ckhey",
+     "M": "chol",
+     "B": "cthaiin",
+     "graphie": "foliis",
+     "tables": 18,
+     "precedents": [
+      {
+       "precedent": "kchor",
+       "lectures": {
+        "?": 18
+       }
+      }
+     ],
+     "sans_precedent_certain": false,
+     "tables_possibles": [
+      {
+       "a": "ol",
+       "ch": "e",
+       "ckh": "r",
+       "cth": "f",
+       "e": "ad",
+       "i": "i",
+       "l": "us",
+       "n": "s",
+       "o": "i",
+       "y": "ix"
+      },
+      {
+       "a": "l",
+       "ch": "e",
+       "ckh": "r",
+       "cth": "fo",
+       "e": "ad",
+       "i": "i",
+       "l": "us",
+       "n": "s",
+       "o": "i",
+       "y": "ix"
+      },
+      {
+       "a": "ol",
+       "ch": "e",
+       "ckh": "r",
+       "cth": "f",
+       "e": "ad",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "iu",
+       "y": "ix"
+      },
+      {
+       "a": "l",
+       "ch": "e",
+       "ckh": "r",
+       "cth": "fo",
+       "e": "ad",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "iu",
+       "y": "ix"
+      },
+      {
+       "a": "ol",
+       "ch": "ei",
+       "ckh": "r",
+       "cth": "f",
+       "e": "ad",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "u",
+       "y": "ix"
+      },
+      {
+       "a": "l",
+       "ch": "ei",
+       "ckh": "r",
+       "cth": "fo",
+       "e": "ad",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "u",
+       "y": "ix"
+      },
+      {
+       "a": "ol",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "f",
+       "e": "d",
+       "i": "i",
+       "l": "us",
+       "n": "s",
+       "o": "i",
+       "y": "ix"
+      },
+      {
+       "a": "l",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "fo",
+       "e": "d",
+       "i": "i",
+       "l": "us",
+       "n": "s",
+       "o": "i",
+       "y": "ix"
+      },
+      {
+       "a": "ol",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "f",
+       "e": "d",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "iu",
+       "y": "ix"
+      },
+      {
+       "a": "l",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "fo",
+       "e": "d",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "iu",
+       "y": "ix"
+      },
+      {
+       "a": "ol",
+       "ch": "ei",
+       "ckh": "ra",
+       "cth": "f",
+       "e": "d",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "u",
+       "y": "ix"
+      },
+      {
+       "a": "l",
+       "ch": "ei",
+       "ckh": "ra",
+       "cth": "fo",
+       "e": "d",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "u",
+       "y": "ix"
+      },
+      {
+       "a": "ol",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "f",
+       "e": "di",
+       "i": "i",
+       "l": "us",
+       "n": "s",
+       "o": "i",
+       "y": "x"
+      },
+      {
+       "a": "l",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "fo",
+       "e": "di",
+       "i": "i",
+       "l": "us",
+       "n": "s",
+       "o": "i",
+       "y": "x"
+      },
+      {
+       "a": "ol",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "f",
+       "e": "di",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "iu",
+       "y": "x"
+      },
+      {
+       "a": "l",
+       "ch": "e",
+       "ckh": "ra",
+       "cth": "fo",
+       "e": "di",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "iu",
+       "y": "x"
+      },
+      {
+       "a": "ol",
+       "ch": "ei",
+       "ckh": "ra",
+       "cth": "f",
+       "e": "di",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "u",
+       "y": "x"
+      },
+      {
+       "a": "l",
+       "ch": "ei",
+       "ckh": "ra",
+       "cth": "fo",
+       "e": "di",
+       "i": "i",
+       "l": "s",
+       "n": "s",
+       "o": "u",
+       "y": "x"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
