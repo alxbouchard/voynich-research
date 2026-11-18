@@ -1,0 +1,31 @@
+# Les cinq chiffres en marge de f49v
+
+Les chiffres occidentaux **1, 2, 3, 4 et 5** sont lisibles de haut en bas à gauche des rangées **2 à 6** du feuillet botanique 49v. À chaque hauteur se trouvent, de gauche à droite, le chiffre, un signe isolé, puis le début du texte. Un grand signe isolé occupe déjà la rangée 1. Pris isolément, le premier chiffre ressemble à un trait vertical légèrement courbe. L’ordre des quatre suivants renforce sa lecture comme 1. La suite de signes descend jusqu’à la rangée 26. Sur la reproduction, aucun chiffre ne prolonge la série sous le 5. [Fac-similé de Yale](https://collections.library.yale.edu/catalog/2002046?child_oid=1006171) · [Planche de vérification](f49v-cinq-chiffres.png) · [Coordonnées et lectures des 26 rangées](positions-f49v.tsv)
+
+| Chiffre à gauche | Rangée | Forme voisine sur le JPEG | H historique | ZL3b | Autres lectures |
+|---:|---:|---|---|---|---|
+| 1 | 2 | Petit anneau | `o` | `o` | F et U lisent aussi `o`. |
+| 2 | 3 | Courbe avec un retour marqué au pied | `r` | `r` | U lit `r`, F lit `s`. |
+| 3 | 4 | Boucle en haut, trait descendant | `y` | `y` | F et U lisent aussi `y`. |
+| 4 | 5 | Petite courbe ouverte vers la droite | `e` | `e` | U précise que le signe est petit. F laisse un signe indéterminé. |
+| 5 | 6 | Courbe ouverte vers la gauche, comme la moitié droite d’un anneau | `*{&140}` | `@140;` | U propose les formes 140 ou 163. F laisse un signe indéterminé. La conversion IT2a de H donne `?`. |
+
+Les lettres EVA servent à désigner les formes. Le numéro 140 identifie un glyphe dans une convention informatique. L’interlinéaire historique garde après l’astérisque le commentaire qui précise sa forme. Sa conversion IT2a perd ce commentaire, également absent pour les signes spéciaux des rangées 11, 14, 15, 18 et 21. Le tableau TSV conserve H et la version convertie côte à côte. Les sources portent sur la même inscription. [Interlinéaire H, F et U chez Stolfi](https://ic.unicamp.br/~stolfi/voynich/Notes/work/L16%2BH-eva/UNITS/f49v.L) · [IT2a](https://www.voynich.nu/data/IT2a-n.txt) · [ZL3b](https://www.voynich.nu/data/ZL3b-n.txt) · [Notice détaillée de Zandbergen, cahier VII](https://www.voynich.nu/q07/index.html#f49v)
+
+## Que prédirait une clé de lecture numérique ?
+
+Si l’on attribue au signe de droite le nombre placé à sa gauche, la rangée 2 donne `o` pour 1, puis `r` pour 2, `y` pour 3, `e` pour 4 et la forme 140 pour 5. Une simple numérotation des cinq entrées produirait exactement la même disposition. La page permet de vérifier l’alignement de chaque paire. Pour établir le sens numérique des signes, il faudrait une autre inscription dont une quantité ou un ordre puisse s’établir indépendamment de cette liste.
+
+On peut déjà confronter la proposition aux deux reprises internes. Les rangées 10–14 et 17–21 donnent toutes deux, en ZL, `o @192; y e @140;`. Quatre des cinq positions reproduisent la série numérotée. La deuxième comporte dans les deux reprises une courbe au pied presque horizontal que ZL transcrit différemment du `r` de la rangée 3. U rapproche ces formes de `r` et indique le code 192. Traiter les deux tracés comme des variantes est donc une hypothèse documentée. Elle permet de retrouver les cinq positions au prix de cette convention, sans fournir un nouvel exemple de chiffre arabe. Les débuts des trois séries se trouvent aux rangées 2, 10 et 17, à des intervalles de huit puis sept rangées. La séquence continue 1–5, 1–5 dès la rangée 7 ne correspond pas à la colonne. D’Imperio décrivait déjà trois cycles partiels en 1978. [Interlinéaire historique](https://ic.unicamp.br/~stolfi/voynich/Notes/work/L16%2BH-eva/UNITS/f49v.L) · [D’Imperio, *The Voynich Manuscript: An Elegant Enigma*, § 4.3, p. 26 imprimée](https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/misc/voynich_manuscript.pdf)
+
+## Couleur, main et chronologie
+
+Les chiffres comme les signes isolés paraissent bruns à l’écran, avec de fortes différences de densité d’un trait à l’autre. La notice compilée par Stolfi rapporte que René Zandbergen jugeait en avril 1999 l’encre des deux colonnes identique. Elle attribue à Jim Reeds, en mars 1998, le rapprochement entre les chiffres et la main de la foliotation. Zandbergen décrit lui-même une ressemblance avec la foliotation et envisage que les marques aient été ajoutées au texte. Le JPEG en lumière visible permet de comparer le tracé. L’attribution d’une main, l’identité chimique des encres et la date restent ouvertes. [Notice de Stolfi](https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/096/work/Notes/040/html/f49v.htm) · [Zandbergen, notice de f49v](https://www.voynich.nu/q07/index.html#f49v) · [Zandbergen, inventaire des ajouts](https://www.voynich.nu/writing.html)
+
+## Vérification des positions
+
+Le JPEG Yale OID 1006171 a été conservé à sa taille native, 2 935 × 3 769 pixels. SHA-256 `3c03e0e8b3d3e75f93ba7a7619a029b7ffbe33d7243f32222ad59ac7555dfd96`. Les coordonnées du TSV sont des centres approximatifs repérés manuellement depuis le coin supérieur gauche. Les cellules vides de la première colonne indiquent l’absence de chiffre relevé. Les rangées physiques comptent ensemble le signe de marge et le début de la prose, auxquels les éditions IVTFF réservent deux numéros distincts. Les colonnes historiques conservent les commentaires de forme et omettent le remplissage d’alignement, la marque de fin et le chiffre déjà noté à gauche. [Image native](f49v-yale-1006171.jpg) · [JPEG IIIF de Yale](https://collections.library.yale.edu/iiif/2/1006171/full/full/0/default.jpg) · [Collation historique du seul feuillet](https://www.voynich.nu/q07/f049v_tr.txt)
+
+La planche montre la région x = 620–1199, y = 395–1084 à l’échelle native, avec le début de la ligne précédant les chiffres et de celle qui les suit. Les trois détails latéraux montrent le deuxième signe de chaque groupe à un grossissement commun de deux. Pour reproduire la planche depuis ce dossier avec Python et Pillow, exécuter `python3 recadrer.py`. [Script du recadrage](recadrer.py)
+
+Le [test de transfert sur f57v et f76r](TRANSFERT.md) examine les prédictions de ces cinq correspondances sur deux autres listes.

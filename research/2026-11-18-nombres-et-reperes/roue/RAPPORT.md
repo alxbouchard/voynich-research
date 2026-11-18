@@ -1,0 +1,29 @@
+# Les signes qui reviennent sur f57v
+
+Le deuxième anneau depuis le bord porte quatre séquences homologues. À chaque tour, on peut aligner 17 groupes visibles. Ils sont espacés inégalement. Depuis la zone du double trait au nord-ouest, les quatre premiers petits anneaux se trouvent à environ 309°, 47°, 137° et 221°, en comptant dans le sens horaire à partir du haut de la photographie. Les 68 positions sont repérées individuellement dans la planche et le tableau. Cette disposition était déjà décrite et dessinée par Mary D’Imperio en 1978, puis documentée par Grove et Stolfi et étudiée dans la phase 41 de ce projet. [Photo de Yale, MS 408, f. 57v](https://collections.library.yale.edu/iiif/2/1006187/full/full/0/default.jpg) · [Planche numérotée](QUATRE-TOURS.jpg) · [Positions et lectures](POSITIONS.tsv) · [D’Imperio, §4.3 et fig. 24](https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/misc/voynich_manuscript.pdf) · [Phase 41](../../../voynich_phase41/RAPPORT.md)
+
+## Ce qu’on compte
+
+Au rang 10, chaque bande montre un groupe dans lequel un tracé en angle suit une forme à petite boucle et pied horizontal. ZL écrit le tout entre deux espaces et emploie deux codes successifs, `@169;` puis `v`. Le découpage par espaces donne 17 groupes par tour. Si l’on distingue ces deux éléments, le total passe à 18 unités par tour et au rang 17 pour la variante que l’on trouve au rang 16 avec la première convention. L’existence de deux caractères autonomes pour le scribe reste indéterminée. La notice de Stolfi compte 17. Averyanov compte 18 et situe les deux variantes qu’il retient aux rangs 9 et 17. Les numéros 169 à 172 désignent des formes rares dans une édition moderne. [Archive Stolfi et description de f57v](https://ic.unicamp.br/en/~stolfi/EXPORT/voynich/Notes/040/html/f57v.htm) · [Fichier ZL3b](https://www.voynich.nu/data/ZL3b-n.txt) · [Averyanov, étude de la roue](https://voynich.site/en/findings/list-pages/)
+
+| Rang dans la série de 17 | Lecture des témoins ou du cliché |
+|---|---|
+| 3 | ZL hésite entre `d` et `j` au premier tour. Grove retient `d`, Stolfi `j`. Les trois autres tours portent `d`. |
+| 8 | ZL, Grove et Stolfi lisent `m` aux quatre tours. Takahashi donne `k, m, k, k`. |
+| 9 | Les témoins comparés s’accordent sur la succession `f, f, p, p` des deux formes à hautes hampes. |
+| 10 | Les encodages divergent sur les composants. Les quatre tours ont la forme complexe au même emplacement. |
+| 13 | Au quatrième tour, le commentaire associé à l’inconnue chez H emploie le numéro 169 là où V et U donnent 170. IT2a conserve simplement un point d’interrogation. |
+| 16 | ZL, Grove et Stolfi distinguent `I, c, c, c`. Dans la première bande, le trait incliné porte une traverse marquée. H et IT2a emploient `c` partout. |
+| 17 | H et son dérivé IT2a terminent le quatrième tour par `r` puis `n`, ce qui porte leur compte brut à 69 groupes sur la roue. ZL, Grove et Stolfi alignent un seul groupe terminal à cet emplacement. La forme pâle, anguleuse, se trouve vers 298°. |
+
+Les colonnes des éditions conservent leurs dépendances. IT2a dérive de la transcription de Takahashi dans l’archive interlinéaire. Les rubriques H, V et U désignent respectivement Takahashi, Grove édité par Stolfi, et Stolfi. Dans le TSV de positions, les numéros des commentaires anciens sont harmonisés en forme courte et les caractères de remplissage supprimés. Le champ `r + n` conserve les deux lectures successives de la dernière fenêtre chez H et IT2a. Les lignes sources reproduisent les notations sans cette harmonisation. [Fichier IT2a](https://www.voynich.nu/data/IT2a-n.txt) · [Présentation de l’archive par Stolfi](https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/98-12-28-interln16e6/) · [Lignes des éditions](SOURCES-LIGNES.tsv)
+
+## Résultat de la restitution
+
+En prenant la graphie majoritaire de ZL dans chacun des 17 rangs des trois premiers tours, **16 des 17 prédictions exactes** sont réalisées dans le quatrième. Le rang 9 donne `p` alors que la règle avait choisi `f`. Aux rangs 15 à 17, les formes attendues `y, c, @172;` occupent bien les trois emplacements terminaux selon ZL. Le décompte est un score de transcription. La parenté des quatre groupes complexes au rang 10 et la disposition des derniers signes ont aussi été examinées sur la photographie. La fin pâle reste compatible avec les divergences éditoriales signalées ci-dessus. [Prédiction figée](PREDICTION-AVANT-OUVERTURE.json) · [Vue initiale partiellement masquée](VUE-MASQUEE.jpg) · [Résultats et empreintes](RESULTATS.json)
+
+Le test est une restitution sur une page connue. Le dossier de la veille contenait déjà le même cliché. Avant le gel, les notices publiques donnaient la périodicité et des variantes, notamment au rang 9. L’extraction informatique n’avait livré que les 51 premières entrées et le premier affichage du cliché laissait le côté gauche gris. L’empreinte de la prédiction a été transmise avant ouverture du quatrième tour. L’ordre extérieur de f49v n’a pas servi au choix de cette règle. Cette restitution n’établit aucune valeur de nombre.
+
+Le quatrième anneau depuis le bord, f57v.5, fournit un voisin de comparaison. ZL y distingue 34 groupes si seuls les points valent séparateurs, ou 35 en ouvrant aussi la frontière incertaine après `@171;`. Au décalage linéaire de 17, on obtient respectivement 1 accord littéral sur 17 et 1 sur 18. Des signes isolés y voisinent avec des groupes longs. [Lignes transcrites](SOURCES-LIGNES.tsv) · [Calculs](RESULTATS.json)
+
+La planche se régénère avec `python3 planche.py 1006187.jpg QUATRE-TOURS.jpg` à partir du JPEG Yale pleine résolution, de Pillow et de NumPy. Les centres angulaires ont été pointés manuellement et arrondis. La transformation polaire emploie le même centre pour les quatre secteurs et conserve leur échelle angulaire. [Générateur de la planche](planche.py)

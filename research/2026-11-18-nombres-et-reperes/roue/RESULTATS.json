@@ -1,0 +1,83 @@
+{
+  "canevas": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006187",
+  "image": "https://collections.library.yale.edu/iiif/2/1006187/full/full/0/default.jpg",
+  "dimensions": [
+    3028,
+    3769
+  ],
+  "sha256_image": "2bf46dbeaaaab4a97075f46f503582da0eef2b352eb92277d7a3b6db1a3a0b8c",
+  "centre_image_xy_px": [
+    1740,
+    1455
+  ],
+  "positions_approximatives": "Angle horaire, zéro au nord. Les limites de secteurs de la planche sont prises entre les signes. Aligner le groupe, pas une position angulaire uniforme.",
+  "sources_sha256": {
+    "ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "text16e6.evt": "309e717d0dcc13115eace006eb40ece6c0ac89faab48f1569dcb9732d26b02f0"
+  },
+  "prediction_sha256": "794f3ff11e82731add6b1776ce7dfe7e1f752c9f2eff23df66e13decba289185",
+  "resultat_prediction": {
+    "exact": 16,
+    "positions": 17,
+    "divergences": [
+      {
+        "position": 9,
+        "predit": "f",
+        "observe": "p"
+      }
+    ],
+    "quatrieme_cycle_ZL": [
+      "o",
+      "l",
+      "d",
+      "r",
+      "v",
+      "x",
+      "k",
+      "m",
+      "p",
+      "@169;v",
+      "t",
+      "r",
+      "@170;",
+      "@171;",
+      "y",
+      "c",
+      "@172;"
+    ]
+  },
+  "f57v_3": {
+    "groupes_ZL": [
+      17,
+      17,
+      17,
+      17
+    ],
+    "composants_ZL_si_scission_169_v": [
+      18,
+      18,
+      18,
+      18
+    ],
+    "groupes_dans_H_et_IT2a_bruts": [
+      17,
+      17,
+      17,
+      18
+    ],
+    "detail_de_H": "Le + du dernier champ dans le fichier positions relie deux lectures successives au sein de la fenêtre alignée, pas un signe additionnel partout sur la roue."
+  },
+  "f57v_5": {
+    "points": {
+      "groupes": 34,
+      "candidats_retour_a_17": 17,
+      "accords_litteraux": 1
+    },
+    "points_et_virgules_de_frontiere": {
+      "groupes": 35,
+      "candidats_retour_a_17": 18,
+      "accords_litteraux": 1
+    }
+  }
+}

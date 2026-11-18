@@ -1,0 +1,1642 @@
+{
+  "ZL3b": {
+    "cle": [
+      "o",
+      "r",
+      "y",
+      "e",
+      "@140;"
+    ],
+    "quarts": [
+      [
+        "o",
+        "l",
+        "[d:j]",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "f",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "I",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "f",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "p",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "p",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ]
+    ],
+    "marge_f76r": [
+      "s",
+      "d",
+      "q",
+      "s",
+      "o",
+      "l",
+      "k",
+      "r",
+      "s"
+    ],
+    "calculs": {
+      "strict": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "12435",
+            "12453",
+            "12534",
+            "12543",
+            "13425",
+            "13452",
+            "13524",
+            "13542",
+            "14235",
+            "14325",
+            "14523",
+            "14532",
+            "15234",
+            "15324",
+            "15423",
+            "15432",
+            "21435",
+            "21453",
+            "21534",
+            "21543",
+            "23415",
+            "23451",
+            "23514",
+            "23541",
+            "24135",
+            "24315",
+            "24513",
+            "24531",
+            "25134",
+            "25314",
+            "25413",
+            "25431",
+            "31425",
+            "31452",
+            "31524",
+            "31542",
+            "32415",
+            "32451",
+            "32514",
+            "32541",
+            "34125",
+            "34215",
+            "34512",
+            "34521",
+            "35124",
+            "35214",
+            "35412",
+            "35421",
+            "41253",
+            "41352",
+            "41523",
+            "41532",
+            "42153",
+            "42351",
+            "42513",
+            "42531",
+            "43152",
+            "43251",
+            "43512",
+            "43521",
+            "51243",
+            "51342",
+            "51423",
+            "51432",
+            "52143",
+            "52341",
+            "52413",
+            "52431",
+            "53142",
+            "53241",
+            "53412",
+            "53421"
+          ],
+          "exemple_ordre_superieur": "12435"
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "13425",
+            "13524",
+            "14325",
+            "14523",
+            "15324",
+            "15423",
+            "31452",
+            "31542",
+            "41352",
+            "41532",
+            "51342",
+            "51432"
+          ],
+          "exemple_ordre_superieur": "13425"
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "13425",
+            "13524",
+            "14325",
+            "14523",
+            "15324",
+            "15423",
+            "23415",
+            "23514",
+            "24315",
+            "24513",
+            "25314",
+            "25413",
+            "31452",
+            "31542",
+            "32451",
+            "32541",
+            "41352",
+            "41532",
+            "42351",
+            "42531",
+            "51342",
+            "51432",
+            "52341",
+            "52431"
+          ],
+          "exemple_ordre_superieur": "13425"
+        },
+        "f57v_quart_1": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_2": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_3": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_4": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_169v_scinde": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "12435",
+            "12453",
+            "12534",
+            "12543",
+            "13425",
+            "13452",
+            "13524",
+            "13542",
+            "14235",
+            "14325",
+            "14523",
+            "14532",
+            "15234",
+            "15324",
+            "15423",
+            "15432",
+            "21435",
+            "21453",
+            "21534",
+            "21543",
+            "23415",
+            "23451",
+            "23514",
+            "23541",
+            "24135",
+            "24315",
+            "24513",
+            "24531",
+            "25134",
+            "25314",
+            "25413",
+            "25431",
+            "31425",
+            "31452",
+            "31524",
+            "31542",
+            "32415",
+            "32451",
+            "32514",
+            "32541",
+            "34125",
+            "34215",
+            "34512",
+            "34521",
+            "35124",
+            "35214",
+            "35412",
+            "35421",
+            "41253",
+            "41352",
+            "41523",
+            "41532",
+            "42153",
+            "42351",
+            "42513",
+            "42531",
+            "43152",
+            "43251",
+            "43512",
+            "43521",
+            "51243",
+            "51342",
+            "51423",
+            "51432",
+            "52143",
+            "52341",
+            "52413",
+            "52431",
+            "53142",
+            "53241",
+            "53412",
+            "53421"
+          ],
+          "exemple_ordre_superieur": "12435"
+        }
+      },
+      "sans_1": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 20,
+            "2": 4
+          },
+          "ordres_strictement_superieurs": 4,
+          "ordres_ex_aequo_incluant_prescrit": 20,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_descendant": {
+          "positions": 0,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "0": 12,
+            "1": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 1,
+          "nombre_ordres": 24
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 24
+          },
+          "ordres_strictement_superieurs": 0,
+          "ordres_ex_aequo_incluant_prescrit": 24,
+          "maximum_positions": 1,
+          "nombre_ordres": 24
+        }
+      },
+      "sans_5": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 22,
+            "2": 2
+          },
+          "ordres_strictement_superieurs": 2,
+          "ordres_ex_aequo_incluant_prescrit": 22,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 20,
+            "2": 4
+          },
+          "ordres_strictement_superieurs": 4,
+          "ordres_ex_aequo_incluant_prescrit": 20,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        }
+      },
+      "2_r_ou_s": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 72,
+            "2": 48
+          },
+          "ordres_strictement_superieurs": 48,
+          "ordres_ex_aequo_incluant_prescrit": 72,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 2,
+          "bloc": 2,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 36,
+            "2": 84
+          },
+          "ordres_strictement_superieurs": 0,
+          "ordres_ex_aequo_incluant_prescrit": 84,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      },
+      "2_r_ou_192": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      },
+      "5_140_ou_163": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      }
+    }
+  },
+  "IT2a": {
+    "cle": [
+      "o",
+      "r",
+      "y",
+      "e",
+      "?"
+    ],
+    "quarts": [
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "k",
+        "f",
+        "?",
+        "t",
+        "r",
+        "?",
+        "?",
+        "y",
+        "c",
+        "?"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "f",
+        "?",
+        "t",
+        "r",
+        "?",
+        "?",
+        "y",
+        "c",
+        "?"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "k",
+        "p",
+        "?",
+        "t",
+        "r",
+        "?",
+        "?",
+        "y",
+        "c",
+        "?"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "k",
+        "p",
+        "?",
+        "t",
+        "r",
+        "?",
+        "?",
+        "y",
+        "c",
+        "r",
+        "n"
+      ]
+    ],
+    "marge_f76r": [
+      "s",
+      "d",
+      "q",
+      "s",
+      "o",
+      "l",
+      "k",
+      "r",
+      "s"
+    ],
+    "calculs": {
+      "strict": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "14253",
+            "15243",
+            "34251",
+            "35241"
+          ],
+          "exemple_ordre_superieur": "12435"
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "13425",
+            "13524",
+            "14325",
+            "14523",
+            "15324",
+            "15423",
+            "31452",
+            "31542",
+            "41352",
+            "41532",
+            "51342",
+            "51432"
+          ],
+          "exemple_ordre_superieur": "13425"
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "13425",
+            "13524",
+            "14325",
+            "14523",
+            "15324",
+            "15423",
+            "23415",
+            "23514",
+            "24315",
+            "24513",
+            "25314",
+            "25413",
+            "31452",
+            "31542",
+            "32451",
+            "32541",
+            "41352",
+            "41532",
+            "42351",
+            "42531",
+            "51342",
+            "51432",
+            "52341",
+            "52431"
+          ],
+          "exemple_ordre_superieur": "13425"
+        },
+        "f57v_quart_1": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_2": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_3": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_4": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 20,
+            "2": 96,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 100,
+          "ordres_ex_aequo_incluant_prescrit": 20,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f57v_rn_final_reuni": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "12435",
+            "12453",
+            "12534",
+            "12543",
+            "13425",
+            "13452",
+            "13524",
+            "13542",
+            "14235",
+            "14325",
+            "14523",
+            "14532",
+            "15234",
+            "15324",
+            "15423",
+            "15432",
+            "21435",
+            "21453",
+            "21534",
+            "21543",
+            "23415",
+            "23451",
+            "23514",
+            "23541",
+            "24135",
+            "24315",
+            "24513",
+            "24531",
+            "25134",
+            "25314",
+            "25413",
+            "25431",
+            "31425",
+            "31452",
+            "31524",
+            "31542",
+            "32415",
+            "32451",
+            "32514",
+            "32541",
+            "34125",
+            "34215",
+            "34512",
+            "34521",
+            "35124",
+            "35214",
+            "35412",
+            "35421",
+            "41253",
+            "41352",
+            "41523",
+            "41532",
+            "42153",
+            "42351",
+            "42513",
+            "42531",
+            "43152",
+            "43251",
+            "43512",
+            "43521",
+            "51243",
+            "51342",
+            "51423",
+            "51432",
+            "52143",
+            "52341",
+            "52413",
+            "52431",
+            "53142",
+            "53241",
+            "53412",
+            "53421"
+          ],
+          "exemple_ordre_superieur": "12435"
+        }
+      },
+      "sans_1": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_descendant": {
+          "positions": 0,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "0": 12,
+            "1": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 1,
+          "nombre_ordres": 24
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 24
+          },
+          "ordres_strictement_superieurs": 0,
+          "ordres_ex_aequo_incluant_prescrit": 24,
+          "maximum_positions": 1,
+          "nombre_ordres": 24
+        }
+      },
+      "sans_5": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 4,
+            "2": 20
+          },
+          "ordres_strictement_superieurs": 20,
+          "ordres_ex_aequo_incluant_prescrit": 4,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 22,
+            "2": 2
+          },
+          "ordres_strictement_superieurs": 2,
+          "ordres_ex_aequo_incluant_prescrit": 22,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 20,
+            "2": 4
+          },
+          "ordres_strictement_superieurs": 4,
+          "ordres_ex_aequo_incluant_prescrit": 20,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        }
+      },
+      "2_r_ou_s": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 72,
+            "2": 48
+          },
+          "ordres_strictement_superieurs": 48,
+          "ordres_ex_aequo_incluant_prescrit": 72,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 2,
+          "bloc": 2,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 36,
+            "2": 84
+          },
+          "ordres_strictement_superieurs": 0,
+          "ordres_ex_aequo_incluant_prescrit": 84,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      },
+      "2_r_ou_192": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      }
+    }
+  },
+  "H_historique": {
+    "cle": [
+      "o",
+      "r",
+      "y",
+      "e",
+      "@140;"
+    ],
+    "quarts": [
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "k",
+        "f",
+        "@169;",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "f",
+        "@169;",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "k",
+        "p",
+        "@169;",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "k",
+        "p",
+        "@169;",
+        "t",
+        "r",
+        "@169;",
+        "@171;",
+        "y",
+        "c",
+        "r",
+        "n"
+      ]
+    ],
+    "marge_f76r": [
+      "s",
+      "d",
+      "q",
+      "s",
+      "o",
+      "l",
+      "k",
+      "r",
+      "s"
+    ],
+    "calculs": {
+      "strict": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "14253",
+            "15243",
+            "34251",
+            "35241"
+          ],
+          "exemple_ordre_superieur": "12435"
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "13425",
+            "13524",
+            "14325",
+            "14523",
+            "15324",
+            "15423",
+            "31452",
+            "31542",
+            "41352",
+            "41532",
+            "51342",
+            "51432"
+          ],
+          "exemple_ordre_superieur": "13425"
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "13425",
+            "13524",
+            "14325",
+            "14523",
+            "15324",
+            "15423",
+            "23415",
+            "23514",
+            "24315",
+            "24513",
+            "25314",
+            "25413",
+            "31452",
+            "31542",
+            "32451",
+            "32541",
+            "41352",
+            "41532",
+            "42351",
+            "42531",
+            "51342",
+            "51432",
+            "52341",
+            "52431"
+          ],
+          "exemple_ordre_superieur": "13425"
+        },
+        "f57v_quart_1": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_2": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_3": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f57v_quart_4": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 20,
+            "2": 96,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 100,
+          "ordres_ex_aequo_incluant_prescrit": 20,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f57v_rn_final_reuni": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 48,
+            "2": 72
+          },
+          "ordres_strictement_superieurs": 72,
+          "ordres_ex_aequo_incluant_prescrit": 48,
+          "maximum_positions": 2,
+          "nombre_ordres": 120,
+          "meilleurs_ordres": [
+            "12435",
+            "12453",
+            "12534",
+            "12543",
+            "13425",
+            "13452",
+            "13524",
+            "13542",
+            "14235",
+            "14325",
+            "14523",
+            "14532",
+            "15234",
+            "15324",
+            "15423",
+            "15432",
+            "21435",
+            "21453",
+            "21534",
+            "21543",
+            "23415",
+            "23451",
+            "23514",
+            "23541",
+            "24135",
+            "24315",
+            "24513",
+            "24531",
+            "25134",
+            "25314",
+            "25413",
+            "25431",
+            "31425",
+            "31452",
+            "31524",
+            "31542",
+            "32415",
+            "32451",
+            "32514",
+            "32541",
+            "34125",
+            "34215",
+            "34512",
+            "34521",
+            "35124",
+            "35214",
+            "35412",
+            "35421",
+            "41253",
+            "41352",
+            "41523",
+            "41532",
+            "42153",
+            "42351",
+            "42513",
+            "42531",
+            "43152",
+            "43251",
+            "43512",
+            "43521",
+            "51243",
+            "51342",
+            "51423",
+            "51432",
+            "52143",
+            "52341",
+            "52413",
+            "52431",
+            "53142",
+            "53241",
+            "53412",
+            "53421"
+          ],
+          "exemple_ordre_superieur": "12435"
+        }
+      },
+      "sans_1": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_descendant": {
+          "positions": 0,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "0": 12,
+            "1": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 1,
+          "nombre_ordres": 24
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 24
+          },
+          "ordres_strictement_superieurs": 0,
+          "ordres_ex_aequo_incluant_prescrit": 24,
+          "maximum_positions": 1,
+          "nombre_ordres": 24
+        }
+      },
+      "sans_5": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 4,
+            "2": 20
+          },
+          "ordres_strictement_superieurs": 20,
+          "ordres_ex_aequo_incluant_prescrit": 4,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 22,
+            "2": 2
+          },
+          "ordres_strictement_superieurs": 2,
+          "ordres_ex_aequo_incluant_prescrit": 22,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 4,
+          "histogramme_positions": {
+            "1": 20,
+            "2": 4
+          },
+          "ordres_strictement_superieurs": 4,
+          "ordres_ex_aequo_incluant_prescrit": 20,
+          "maximum_positions": 2,
+          "nombre_ordres": 24
+        }
+      },
+      "2_r_ou_s": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 72,
+            "2": 48
+          },
+          "ordres_strictement_superieurs": 48,
+          "ordres_ex_aequo_incluant_prescrit": 72,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 2,
+          "bloc": 2,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 36,
+            "2": 84
+          },
+          "ordres_strictement_superieurs": 0,
+          "ordres_ex_aequo_incluant_prescrit": 84,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      },
+      "2_r_ou_192": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      },
+      "5_140_ou_163": {
+        "f57v_quarts_meilleur": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 12,
+            "2": 104,
+            "3": 4
+          },
+          "ordres_strictement_superieurs": 108,
+          "ordres_ex_aequo_incluant_prescrit": 12,
+          "maximum_positions": 3,
+          "nombre_ordres": 120
+        },
+        "f76r_descendant": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 108,
+            "2": 12
+          },
+          "ordres_strictement_superieurs": 12,
+          "ordres_ex_aequo_incluant_prescrit": 108,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        },
+        "f76r_deux_sens": {
+          "positions": 1,
+          "bloc": 1,
+          "longueur": 5,
+          "histogramme_positions": {
+            "1": 96,
+            "2": 24
+          },
+          "ordres_strictement_superieurs": 24,
+          "ordres_ex_aequo_incluant_prescrit": 96,
+          "maximum_positions": 2,
+          "nombre_ordres": 120
+        }
+      }
+    }
+  }
+}

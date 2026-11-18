@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "depot_utc": "2026-11-18T10:26:02.358810+00:00",
+  "source": "Columbia University RBML, Plimpton MS 254, Kalendarium de John Somer, janvier f. 2r et février f. 2v",
+  "consultation": "Seul janvier a été ouvert. Les notices, le numéro du feuillet et les intitulés des colonnes de l'exposition de Columbia ont été consultés. Aucune image, transcription, ni rangée de février de ce témoin n'a été demandée.",
+  "calibration_janvier": {
+    "jours_1_a_13_nombres_or": [
+      3,
+      null,
+      11,
+      null,
+      19,
+      8,
+      null,
+      16,
+      5,
+      null,
+      13,
+      2,
+      null
+    ],
+    "jour_31_nombre_or": 3,
+    "jour_31_lettre": "c",
+    "exemple_compte_romain_janvier": {
+      "14": 19,
+      "16": 17,
+      "21": 12,
+      "23": 10,
+      "31": 2
+    },
+    "ordre": "Les cases remplies gagnent 8 modulo 19 en descendant (11 en remontant). À partir de la dernière inscription de janvier, appliquer la même règle à février."
+  },
+  "cibles_fevrier": {
+    "nombres_or_six_premieres_cases_non_vides": [
+      11,
+      19,
+      8,
+      16,
+      5,
+      13
+    ],
+    "nombres_or_jours_1_a_12_hypothese_supplementaire": [
+      null,
+      11,
+      null,
+      19,
+      8,
+      null,
+      16,
+      5,
+      null,
+      13,
+      2,
+      null
+    ],
+    "lettres_jours_1_a_12": [
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ],
+    "compte_vers_calendes_de_mars_jours_14_a_21": [
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  "regles": {
+    "nombres_par_jour": "Tester séparément l'hypothèse que les jours 1 à 12 de février reprennent les jours 2 à 13 de janvier (décalage de 30 jours).",
+    "lettres": "Le cycle a-g continue après le c du 31 janvier. Ignorer la casse.",
+    "compte_romain": "Le registre identifié comme compte vers calendes/nonnes/ides emploie en janvier des chiffres décimaux. Février commun de 28 jours, compte inclusif depuis le 14 février jusqu'au premier mars, soit 16 à 9 aux jours 14 à 21. Comparer au feuillet même si le mois intercalaire ou une anomalie donne un autre résultat."
+  },
+  "verdict": "Comparer sur les rangs prévus, avec null pour les cases vides ; rapporter les résultats séparément, sans changement de phase, en marquant incertain toute lecture ambiguë. Les contrôles ne sont pas statistiquement indépendants."
+}

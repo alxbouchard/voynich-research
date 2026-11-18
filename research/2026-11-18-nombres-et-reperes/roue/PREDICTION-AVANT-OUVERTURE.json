@@ -1,0 +1,220 @@
+{
+  "date_utc": "2026-11-18T10:24:38.636431+00:00",
+  "statut": "PRÉDICTION FIGÉE avant ouverture du dernier quart dans ce travail. Exercice de reconstruction rétrospectif, rapport cyclique déjà publié.",
+  "entree": "voynich_phase17/data/ZL3b-n.txt, f57v.3, exclusivement 51 premières unités délimitées par les points. Classement strict par majorité littérale. Un champ alternatif tel que [d:j] reste un champ distinct.",
+  "exposition": "Les recherches bibliographiques ont déjà livré la périodicité et des fragments des variantes publiées, dont f/f/p/p au rang 9 et j/d/d/d au rang 3. Une expertise de ce folio et ses photographies existaient le 17 novembre. Aucun texte du 4e cycle dans cette extraction. Seule la partie photographique x>=1960 sur 3028 a été affichée à cette étape, le reste en gris. Aucun ordre de f49v consulté.",
+  "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "photographie_masquee_sha256": "15f593a25608c0163a5e2243d700d9ce924a123c7e9a3f3b40fccf6d4366c789",
+  "prediction_physique": "17 groupes de lecture dans le dernier quart partant du quatrième o homologue, dont une forme à deux éléments graphiques au rang 10 et trois signes consécutifs aux rangs 15 à 17, y, c, @172;.",
+  "unite": "Groupe graphique séparé par points dans ZL, indépendant du nombre de traits et de caractères ASCII. Le glossaire EVA est une notation, sans valeur numérique attribuée.",
+  "score": "17 lectures littérales ZL observées comparées à la prédiction stricte, conserver les écarts sans harmonisation. Le dossier contrôlera séparément le regroupement sur le cliché.",
+  "positions": [
+    {
+      "position": 1,
+      "apprentissage": [
+        "o",
+        "o",
+        "o"
+      ],
+      "prediction_stricte": "o",
+      "variantes_attestees": [
+        "o"
+      ]
+    },
+    {
+      "position": 2,
+      "apprentissage": [
+        "l",
+        "l",
+        "l"
+      ],
+      "prediction_stricte": "l",
+      "variantes_attestees": [
+        "l"
+      ]
+    },
+    {
+      "position": 3,
+      "apprentissage": [
+        "[d:j]",
+        "d",
+        "d"
+      ],
+      "prediction_stricte": "d",
+      "variantes_attestees": [
+        "[d:j]",
+        "d"
+      ]
+    },
+    {
+      "position": 4,
+      "apprentissage": [
+        "r",
+        "r",
+        "r"
+      ],
+      "prediction_stricte": "r",
+      "variantes_attestees": [
+        "r"
+      ]
+    },
+    {
+      "position": 5,
+      "apprentissage": [
+        "v",
+        "v",
+        "v"
+      ],
+      "prediction_stricte": "v",
+      "variantes_attestees": [
+        "v"
+      ]
+    },
+    {
+      "position": 6,
+      "apprentissage": [
+        "x",
+        "x",
+        "x"
+      ],
+      "prediction_stricte": "x",
+      "variantes_attestees": [
+        "x"
+      ]
+    },
+    {
+      "position": 7,
+      "apprentissage": [
+        "k",
+        "k",
+        "k"
+      ],
+      "prediction_stricte": "k",
+      "variantes_attestees": [
+        "k"
+      ]
+    },
+    {
+      "position": 8,
+      "apprentissage": [
+        "m",
+        "m",
+        "m"
+      ],
+      "prediction_stricte": "m",
+      "variantes_attestees": [
+        "m"
+      ]
+    },
+    {
+      "position": 9,
+      "apprentissage": [
+        "f",
+        "f",
+        "p"
+      ],
+      "prediction_stricte": "f",
+      "variantes_attestees": [
+        "f",
+        "p"
+      ]
+    },
+    {
+      "position": 10,
+      "apprentissage": [
+        "@169;v",
+        "@169;v",
+        "@169;v"
+      ],
+      "prediction_stricte": "@169;v",
+      "variantes_attestees": [
+        "@169;v"
+      ]
+    },
+    {
+      "position": 11,
+      "apprentissage": [
+        "t",
+        "t",
+        "t"
+      ],
+      "prediction_stricte": "t",
+      "variantes_attestees": [
+        "t"
+      ]
+    },
+    {
+      "position": 12,
+      "apprentissage": [
+        "r",
+        "r",
+        "r"
+      ],
+      "prediction_stricte": "r",
+      "variantes_attestees": [
+        "r"
+      ]
+    },
+    {
+      "position": 13,
+      "apprentissage": [
+        "@170;",
+        "@170;",
+        "@170;"
+      ],
+      "prediction_stricte": "@170;",
+      "variantes_attestees": [
+        "@170;"
+      ]
+    },
+    {
+      "position": 14,
+      "apprentissage": [
+        "@171;",
+        "@171;",
+        "@171;"
+      ],
+      "prediction_stricte": "@171;",
+      "variantes_attestees": [
+        "@171;"
+      ]
+    },
+    {
+      "position": 15,
+      "apprentissage": [
+        "y",
+        "y",
+        "y"
+      ],
+      "prediction_stricte": "y",
+      "variantes_attestees": [
+        "y"
+      ]
+    },
+    {
+      "position": 16,
+      "apprentissage": [
+        "I",
+        "c",
+        "c"
+      ],
+      "prediction_stricte": "c",
+      "variantes_attestees": [
+        "I",
+        "c"
+      ]
+    },
+    {
+      "position": 17,
+      "apprentissage": [
+        "@172;",
+        "@172;",
+        "@172;"
+      ],
+      "prediction_stricte": "@172;",
+      "variantes_attestees": [
+        "@172;"
+      ]
+    }
+  ]
+}
