@@ -1,0 +1,177 @@
+{
+  "empreintes_sha256": {
+    "source.wiki.gz": "eff78cf115ae4ef97c8c9a4fb7a885a9f076c36113cc96d60139234e4d841e2f",
+    "corpus.jsonl": "ab401a75ae802158f96fa5d9daa4b2ff09958f1dc9e6a1ad79bccef82fdf5e43",
+    "registre.json": "1a94bf0e57f4841bd312caf01c15c44f40b98c8e86b7ba7a86a13b61327a3b32",
+    "IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "comparer.py": "86ec2b7f46aee6cdc4f5d758f767121ad92586a545534725e1d5ae6d346f81a0",
+    "RESULTATS.json": "a1dd2dbad42359ac459703fbe175b2e39ca74d966acafeeff3fceb60d9fe5733"
+  },
+  "extraits_latins_entierement_reproduits": 40,
+  "calculs_concordants": {
+    "latin": {
+      "cellules": 800,
+      "occurrences": 68
+    },
+    "H_separe": {
+      "cellules": 133,
+      "occurrences": 5
+    },
+    "H_joint": {
+      "cellules": 133,
+      "occurrences": 5
+    },
+    "ZL_separe": {
+      "cellules": 133,
+      "occurrences": 4
+    },
+    "ZL_joint": {
+      "cellules": 133,
+      "occurrences": 5
+    }
+  },
+  "classements": {
+    "latin_train": {
+      "frac": "379/380",
+      "queue": 0,
+      "permutations": 20000,
+      "scores_cibles": {
+        "2": 8,
+        "1": 12
+      }
+    },
+    "latin_validation": {
+      "frac": "739/760",
+      "queue": 0,
+      "permutations": 20000,
+      "scores_cibles": {
+        "2": 11,
+        "1": 8,
+        "0": 1
+      }
+    },
+    "H_separe_train": {
+      "frac": "23/48",
+      "queue": 576,
+      "permutations": 576,
+      "scores_cibles": {
+        "0": 8
+      }
+    },
+    "H_separe_validation": {
+      "frac": "8/15",
+      "queue": 7387,
+      "permutations": 20000,
+      "scores_cibles": {
+        "0": 10,
+        "1": 1
+      }
+    },
+    "H_joint_train": {
+      "frac": "23/48",
+      "queue": 576,
+      "permutations": 576,
+      "scores_cibles": {
+        "0": 8
+      }
+    },
+    "H_joint_validation": {
+      "frac": "8/15",
+      "queue": 7387,
+      "permutations": 20000,
+      "scores_cibles": {
+        "0": 10,
+        "1": 1
+      }
+    },
+    "ZL_separe_train": {
+      "frac": "23/48",
+      "queue": 576,
+      "permutations": 576,
+      "scores_cibles": {
+        "0": 8
+      }
+    },
+    "ZL_separe_validation": {
+      "frac": "29/60",
+      "queue": 20000,
+      "permutations": 20000,
+      "scores_cibles": {
+        "0": 11
+      }
+    },
+    "ZL_joint_train": {
+      "frac": "23/48",
+      "queue": 576,
+      "permutations": 576,
+      "scores_cibles": {
+        "0": 8
+      }
+    },
+    "ZL_joint_validation": {
+      "frac": "29/60",
+      "queue": 20000,
+      "permutations": 20000,
+      "scores_cibles": {
+        "0": 11
+      }
+    }
+  },
+  "distribution_exacte_supplementaire": {
+    "H_separe": {
+      "labels": [
+        "F95",
+        "F225"
+      ],
+      "at_least_as_good": 33,
+      "assignments": 90,
+      "fraction": "11/30"
+    },
+    "H_joint": {
+      "labels": [
+        "F95",
+        "F225"
+      ],
+      "at_least_as_good": 33,
+      "assignments": 90,
+      "fraction": "11/30"
+    },
+    "ZL_separe": {
+      "labels": [
+        "F95",
+        "F225"
+      ],
+      "at_least_as_good": 90,
+      "assignments": 90,
+      "fraction": "1"
+    },
+    "ZL_joint": {
+      "labels": [
+        "F95",
+        "F225"
+      ],
+      "at_least_as_good": 90,
+      "assignments": 90,
+      "fraction": "1"
+    }
+  },
+  "sensibilite_exclusion_des_fragments_attribues_possiblement_aux_montages_ambigus": {
+    "fragments_ecartes": [
+      "F28",
+      "F54"
+    ],
+    "resultats": {
+      "H_separe": {
+        "apprentissage": "1/2",
+        "validation": "8/15",
+        "regle": null
+      },
+      "ZL_separe": {
+        "apprentissage": "1/2",
+        "validation": "29/60",
+        "regle": null
+      }
+    }
+  }
+}

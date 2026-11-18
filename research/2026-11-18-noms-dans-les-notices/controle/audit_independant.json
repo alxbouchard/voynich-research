@@ -1,0 +1,4797 @@
+{
+ "latin": {
+  "train": {
+   "groups": {
+    "latin": [
+     "macer-01",
+     "macer-02",
+     "macer-03",
+     "macer-04",
+     "macer-05",
+     "macer-06",
+     "macer-07",
+     "macer-08",
+     "macer-09",
+     "macer-10",
+     "macer-11",
+     "macer-12",
+     "macer-13",
+     "macer-14",
+     "macer-15",
+     "macer-16",
+     "macer-17",
+     "macer-18",
+     "macer-19",
+     "macer-20"
+    ]
+   },
+   "n": 20,
+   "p_tail": 0,
+   "p_count": 20000,
+   "p": 4.999750012499375e-05,
+   "score": "379/380",
+   "score_value": 0.9973684210526316,
+   "own": {
+    "2": 8,
+    "1": 12
+   },
+   "unique": 18,
+   "ranks": {
+    "macer-01": {
+     "label": "artemisia",
+     "page": "macer-01",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-02": {
+     "label": "abrotanum",
+     "page": "macer-02",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-03": {
+     "label": "absinthium",
+     "page": "macer-03",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-04": {
+     "label": "urtica",
+     "page": "macer-04",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-05": {
+     "label": "allium",
+     "page": "macer-05",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-06": {
+     "label": "plantago",
+     "page": "macer-06",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-07": {
+     "label": "ruta",
+     "page": "macer-07",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      18,
+      0,
+      1
+     ],
+     "top": true,
+     "unique": false,
+     "strict": false
+    },
+    "macer-08": {
+     "label": "apium",
+     "page": "macer-08",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-09": {
+     "label": "althaea",
+     "page": "macer-09",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-10": {
+     "label": "anethum",
+     "page": "macer-10",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-11": {
+     "label": "betonica",
+     "page": "macer-11",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-12": {
+     "label": "sabina",
+     "page": "macer-12",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-13": {
+     "label": "porrum",
+     "page": "macer-13",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-14": {
+     "label": "chamomilla",
+     "page": "macer-14",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-15": {
+     "label": "nepeta",
+     "page": "macer-15",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-16": {
+     "label": "pulegium",
+     "page": "macer-16",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-17": {
+     "label": "feniculum",
+     "page": "macer-17",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-18": {
+     "label": "acidula",
+     "page": "macer-18",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      18,
+      0,
+      1
+     ],
+     "top": true,
+     "unique": false,
+     "strict": false
+    },
+    "macer-19": {
+     "label": "portulaca",
+     "page": "macer-19",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-20": {
+     "label": "lactuca",
+     "page": "macer-20",
+     "classe": "latin",
+     "n": 74,
+     "clean": 74,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    }
+   },
+   "details": {
+    "macer-01": {
+     "macer-01": [
+      [
+       9,
+       "artemisia",
+       "macer-01",
+       2
+      ],
+      [
+       24,
+       "artemis",
+       "macer-01",
+       1
+      ]
+     ],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-02": {
+     "macer-01": [],
+     "macer-02": [
+      [
+       2,
+       "abrotano",
+       "macer-02",
+       1
+      ]
+     ],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-03": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [
+      [
+       10,
+       "absinthii",
+       "macer-03",
+       1
+      ]
+     ],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-04": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [
+      [
+       2,
+       "urticam",
+       "macer-04",
+       1
+      ],
+      [
+       24,
+       "urtica",
+       "macer-04",
+       2
+      ]
+     ],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-05": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [
+      [
+       4,
+       "allia",
+       "macer-05",
+       1
+      ]
+     ],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-06": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [
+      [
+       5,
+       "plantago",
+       "macer-06",
+       2
+      ]
+     ],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-07": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [
+      [
+       100,
+       "rutae",
+       "macer-03",
+       1
+      ]
+     ],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [
+      [
+       3,
+       "rutae",
+       "macer-07",
+       1
+      ]
+     ],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-08": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [
+      [
+       2,
+       "apium",
+       "macer-08",
+       2
+      ]
+     ],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-09": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [
+      [
+       1,
+       "althaeam",
+       "macer-09",
+       1
+      ]
+     ],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-10": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [
+      [
+       6,
+       "anethum",
+       "macer-10",
+       2
+      ],
+      [
+       70,
+       "anethum",
+       "macer-10",
+       2
+      ]
+     ],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-11": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [
+      [
+       1,
+       "betonicam",
+       "macer-11",
+       1
+      ],
+      [
+       48,
+       "betonicae",
+       "macer-11",
+       1
+      ]
+     ],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-12": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [
+      [
+       4,
+       "sabina",
+       "macer-12",
+       2
+      ],
+      [
+       92,
+       "sabinae",
+       "macer-12",
+       1
+      ]
+     ],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-13": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [
+      [
+       6,
+       "porri",
+       "macer-13",
+       1
+      ],
+      [
+       100,
+       "porri",
+       "macer-13",
+       1
+      ]
+     ],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-14": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [
+      [
+       11,
+       "chamomillam",
+       "macer-14",
+       1
+      ]
+     ],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-15": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [
+      [
+       3,
+       "nepetam",
+       "macer-15",
+       1
+      ]
+     ],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-16": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [
+      [
+       2,
+       "pulegii",
+       "macer-16",
+       1
+      ]
+     ],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-17": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [
+      [
+       1,
+       "feniculum",
+       "macer-17",
+       2
+      ]
+     ],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": []
+    },
+    "macer-18": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [
+      [
+       2,
+       "acidulam",
+       "macer-18",
+       1
+      ]
+     ],
+     "macer-19": [
+      [
+       98,
+       "acidulae",
+       "macer-19",
+       1
+      ]
+     ],
+     "macer-20": []
+    },
+    "macer-19": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [
+      [
+       4,
+       "portulaca",
+       "macer-19",
+       2
+      ]
+     ],
+     "macer-20": []
+    },
+    "macer-20": {
+     "macer-01": [],
+     "macer-02": [],
+     "macer-03": [],
+     "macer-04": [],
+     "macer-05": [],
+     "macer-06": [],
+     "macer-07": [],
+     "macer-08": [],
+     "macer-09": [],
+     "macer-10": [],
+     "macer-11": [],
+     "macer-12": [],
+     "macer-13": [],
+     "macer-14": [],
+     "macer-15": [],
+     "macer-16": [],
+     "macer-17": [],
+     "macer-18": [],
+     "macer-19": [],
+     "macer-20": [
+      [
+       2,
+       "lactucae",
+       "macer-20",
+       1
+      ],
+      [
+       43,
+       "lactucae",
+       "macer-20",
+       1
+      ]
+     ]
+    }
+   },
+   "rules": [
+    [
+     [
+      [
+       "i",
+       "a"
+      ],
+      []
+     ],
+     [
+      "macer-01"
+     ]
+    ],
+    [
+     [
+      [
+       "u",
+       "m"
+      ],
+      [
+       "o"
+      ]
+     ],
+     [
+      "macer-02"
+     ]
+    ],
+    [
+     [
+      [
+       "u",
+       "m"
+      ],
+      [
+       "i"
+      ]
+     ],
+     [
+      "macer-03",
+      "macer-13",
+      "macer-16"
+     ]
+    ],
+    [
+     [
+      [],
+      [
+       "m"
+      ]
+     ],
+     [
+      "macer-04",
+      "macer-09",
+      "macer-11",
+      "macer-14",
+      "macer-15",
+      "macer-18"
+     ]
+    ],
+    [
+     [
+      [
+       "u",
+       "m"
+      ],
+      [
+       "a"
+      ]
+     ],
+     [
+      "macer-05"
+     ]
+    ],
+    [
+     [
+      [],
+      [
+       "e"
+      ]
+     ],
+     [
+      "macer-07",
+      "macer-11",
+      "macer-12",
+      "macer-20"
+     ]
+    ]
+   ],
+   "chosen": [
+    [],
+    [
+     "m"
+    ]
+   ]
+  },
+  "validation": {
+   "groups": {
+    "latin": [
+     "macer-21",
+     "macer-22",
+     "macer-23",
+     "macer-24",
+     "macer-25",
+     "macer-26",
+     "macer-27",
+     "macer-28",
+     "macer-29",
+     "macer-30",
+     "macer-31",
+     "macer-32",
+     "macer-33",
+     "macer-34",
+     "macer-35",
+     "macer-36",
+     "macer-37",
+     "macer-38",
+     "macer-39",
+     "macer-40"
+    ]
+   },
+   "n": 20,
+   "p_tail": 0,
+   "p_count": 20000,
+   "p": 4.999750012499375e-05,
+   "score": "739/760",
+   "score_value": 0.9723684210526315,
+   "own": {
+    "2": 11,
+    "1": 8,
+    "0": 1
+   },
+   "unique": 17,
+   "ranks": {
+    "macer-21": {
+     "label": "rosa",
+     "page": "macer-21",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      18,
+      0,
+      1
+     ],
+     "top": true,
+     "unique": false,
+     "strict": false
+    },
+    "macer-22": {
+     "label": "lilium",
+     "page": "macer-22",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      18,
+      0,
+      1
+     ],
+     "top": true,
+     "unique": false,
+     "strict": false
+    },
+    "macer-23": {
+     "label": "satureia",
+     "page": "macer-23",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-24": {
+     "label": "salvia",
+     "page": "macer-24",
+     "classe": "latin",
+     "n": 72,
+     "clean": 72,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-25": {
+     "label": "ligusticum",
+     "page": "macer-25",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-26": {
+     "label": "ostrutium",
+     "page": "macer-26",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-27": {
+     "label": "cerefolium",
+     "page": "macer-27",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-28": {
+     "label": "atriplex",
+     "page": "macer-28",
+     "classe": "latin",
+     "n": 58,
+     "clean": 58,
+     "own": 0,
+     "win_loss_tie": [
+      0,
+      0,
+      19
+     ],
+     "top": true,
+     "unique": false,
+     "strict": false
+    },
+    "macer-29": {
+     "label": "coriandrum",
+     "page": "macer-29",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-30": {
+     "label": "nasturtium",
+     "page": "macer-30",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-31": {
+     "label": "eruca",
+     "page": "macer-31",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-32": {
+     "label": "papaver",
+     "page": "macer-32",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-33": {
+     "label": "cepa",
+     "page": "macer-33",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-34": {
+     "label": "buglossa",
+     "page": "macer-34",
+     "classe": "latin",
+     "n": 71,
+     "clean": 71,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-35": {
+     "label": "sinapi",
+     "page": "macer-35",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-36": {
+     "label": "caulis",
+     "page": "macer-36",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-37": {
+     "label": "pastinaca",
+     "page": "macer-37",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-38": {
+     "label": "origanum",
+     "page": "macer-38",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 1,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-39": {
+     "label": "serpillum",
+     "page": "macer-39",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    },
+    "macer-40": {
+     "label": "violae",
+     "page": "macer-40",
+     "classe": "latin",
+     "n": 100,
+     "clean": 100,
+     "own": 2,
+     "win_loss_tie": [
+      19,
+      0,
+      0
+     ],
+     "top": true,
+     "unique": true,
+     "strict": false
+    }
+   },
+   "details": {
+    "macer-21": {
+     "macer-21": [
+      [
+       5,
+       "rosa",
+       "macer-21",
+       2
+      ]
+     ],
+     "macer-22": [
+      [
+       4,
+       "rosas",
+       "macer-22",
+       1
+      ]
+     ],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [
+      [
+       21,
+       "rosa",
+       "macer-39",
+       2
+      ]
+     ],
+     "macer-40": []
+    },
+    "macer-22": {
+     "macer-21": [],
+     "macer-22": [
+      [
+       7,
+       "lilia",
+       "macer-22",
+       1
+      ],
+      [
+       32,
+       "lilia",
+       "macer-22",
+       1
+      ]
+     ],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": [
+      [
+       6,
+       "lilia",
+       "macer-40",
+       1
+      ]
+     ]
+    },
+    "macer-23": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [
+      [
+       5,
+       "satureia",
+       "macer-23",
+       2
+      ]
+     ],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-24": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [
+      [
+       1,
+       "salvia",
+       "macer-24",
+       2
+      ],
+      [
+       58,
+       "salvia",
+       "macer-24",
+       2
+      ]
+     ],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-25": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [
+      [
+       5,
+       "ligustica",
+       "macer-25",
+       1
+      ]
+     ],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-26": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [
+      [
+       2,
+       "ostrutium",
+       "macer-26",
+       2
+      ]
+     ],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-27": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [
+      [
+       2,
+       "cerefolio",
+       "macer-27",
+       1
+      ]
+     ],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-28": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-29": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [
+      [
+       4,
+       "coriandri",
+       "macer-29",
+       1
+      ],
+      [
+       35,
+       "coriandrum",
+       "macer-29",
+       2
+      ],
+      [
+       69,
+       "coriandri",
+       "macer-29",
+       1
+      ]
+     ],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [
+      [
+       87,
+       "coriandro",
+       "macer-36",
+       1
+      ]
+     ],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-30": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [
+      [
+       5,
+       "nasturtia",
+       "macer-30",
+       1
+      ]
+     ],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-31": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [
+      [
+       1,
+       "erucam",
+       "macer-31",
+       1
+      ],
+      [
+       99,
+       "erucam",
+       "macer-31",
+       1
+      ]
+     ],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-32": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [
+      [
+       5,
+       "papaveris",
+       "macer-32",
+       1
+      ],
+      [
+       25,
+       "papaver",
+       "macer-32",
+       2
+      ]
+     ],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-33": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [
+      [
+       14,
+       "cepas",
+       "macer-33",
+       1
+      ]
+     ],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-34": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [
+      [
+       5,
+       "buglossa",
+       "macer-34",
+       2
+      ],
+      [
+       60,
+       "buglossa",
+       "macer-34",
+       2
+      ]
+     ],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-35": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [
+      [
+       11,
+       "sinapi",
+       "macer-35",
+       2
+      ]
+     ],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-36": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [
+      [
+       1,
+       "caulis",
+       "macer-36",
+       2
+      ],
+      [
+       24,
+       "caulis",
+       "macer-36",
+       2
+      ],
+      [
+       49,
+       "caulem",
+       "macer-36",
+       1
+      ],
+      [
+       75,
+       "caulem",
+       "macer-36",
+       1
+      ],
+      [
+       79,
+       "cauli",
+       "macer-36",
+       1
+      ]
+     ],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-37": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [
+      [
+       2,
+       "pastinacae",
+       "macer-37",
+       1
+      ],
+      [
+       53,
+       "pastinacam",
+       "macer-37",
+       1
+      ],
+      [
+       83,
+       "pastinacae",
+       "macer-37",
+       1
+      ]
+     ],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-38": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [
+      [
+       1,
+       "origani",
+       "macer-38",
+       1
+      ]
+     ],
+     "macer-39": [],
+     "macer-40": []
+    },
+    "macer-39": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [
+      [
+       1,
+       "serpillum",
+       "macer-39",
+       2
+      ]
+     ],
+     "macer-40": []
+    },
+    "macer-40": {
+     "macer-21": [],
+     "macer-22": [],
+     "macer-23": [],
+     "macer-24": [],
+     "macer-25": [],
+     "macer-26": [],
+     "macer-27": [],
+     "macer-28": [],
+     "macer-29": [],
+     "macer-30": [],
+     "macer-31": [],
+     "macer-32": [],
+     "macer-33": [],
+     "macer-34": [],
+     "macer-35": [],
+     "macer-36": [],
+     "macer-37": [],
+     "macer-38": [],
+     "macer-39": [],
+     "macer-40": [
+      [
+       9,
+       "violas",
+       "macer-40",
+       1
+      ],
+      [
+       72,
+       "violam",
+       "macer-40",
+       1
+      ],
+      [
+       83,
+       "violae",
+       "macer-40",
+       2
+      ],
+      [
+       95,
+       "violae",
+       "macer-40",
+       2
+      ]
+     ]
+    }
+   },
+   "rules": [
+    [
+     [
+      [
+       "u",
+       "m"
+      ],
+      [
+       "a"
+      ]
+     ],
+     [
+      "macer-22",
+      "macer-25",
+      "macer-30"
+     ]
+    ],
+    [
+     [
+      [
+       "u",
+       "m"
+      ],
+      [
+       "o"
+      ]
+     ],
+     [
+      "macer-27"
+     ]
+    ],
+    [
+     [
+      [
+       "u",
+       "m"
+      ],
+      [
+       "i"
+      ]
+     ],
+     [
+      "macer-29",
+      "macer-38"
+     ]
+    ],
+    [
+     [
+      [],
+      [
+       "m"
+      ]
+     ],
+     [
+      "macer-31",
+      "macer-37"
+     ]
+    ],
+    [
+     [
+      [],
+      [
+       "i",
+       "s"
+      ]
+     ],
+     [
+      "macer-32"
+     ]
+    ],
+    [
+     [
+      [],
+      [
+       "s"
+      ]
+     ],
+     [
+      "macer-33"
+     ]
+    ],
+    [
+     [
+      [
+       "i",
+       "s"
+      ],
+      [
+       "e",
+       "m"
+      ]
+     ],
+     [
+      "macer-36"
+     ]
+    ],
+    [
+     [
+      [
+       "s"
+      ],
+      []
+     ],
+     [
+      "macer-36"
+     ]
+    ],
+    [
+     [
+      [],
+      [
+       "e"
+      ]
+     ],
+     [
+      "macer-37"
+     ]
+    ],
+    [
+     [
+      [
+       "e"
+      ],
+      [
+       "s"
+      ]
+     ],
+     [
+      "macer-40"
+     ]
+    ],
+    [
+     [
+      [
+       "e"
+      ],
+      [
+       "m"
+      ]
+     ],
+     [
+      "macer-40"
+     ]
+    ]
+   ],
+   "chosen": [
+    [
+     "u",
+     "m"
+    ],
+    [
+     "a"
+    ]
+   ]
+  },
+  "prediction": [
+   {
+    "macer-31 erucam macer-31": [
+     1,
+     99
+    ],
+    "macer-37 pastinacam macer-37": [
+     53
+    ]
+   },
+   {}
+  ]
+ },
+ "selection": [
+  [
+   "F8",
+   "sorory",
+   "f15v",
+   "train",
+   false
+  ],
+  [
+   "F11",
+   "ofaldo",
+   "f90r2",
+   "train",
+   false
+  ],
+  [
+   "F25",
+   "otoldy",
+   "f57r",
+   "train",
+   false
+  ],
+  [
+   "F26",
+   "ararchodaiin",
+   "f43v",
+   "train",
+   false
+  ],
+  [
+   "F28",
+   "otorain",
+   "f30r",
+   "train",
+   false
+  ],
+  [
+   "F50",
+   "okam",
+   "f10v",
+   "train",
+   false
+  ],
+  [
+   "F52",
+   "chokaro",
+   "f40v",
+   "train",
+   false
+  ],
+  [
+   "F54",
+   "chokam",
+   "f48v",
+   "train",
+   false
+  ],
+  [
+   "F80",
+   "oaro",
+   "f51r",
+   "validation",
+   false
+  ],
+  [
+   "F86",
+   "cheotchy",
+   "f9v",
+   "validation",
+   false
+  ],
+  [
+   "F94",
+   "tolsasy",
+   "f96v",
+   "validation",
+   true
+  ],
+  [
+   "F95",
+   "otoldy",
+   "f44r",
+   "validation",
+   false
+  ],
+  [
+   "F102",
+   "otoky",
+   "f3v",
+   "validation",
+   false
+  ],
+  [
+   "F113",
+   "doldam",
+   "f55r",
+   "validation",
+   false
+  ],
+  [
+   "F133",
+   "opchor",
+   "f13v",
+   "validation",
+   false
+  ],
+  [
+   "F212",
+   "koldarod",
+   "f18v",
+   "validation",
+   false
+  ],
+  [
+   "F213",
+   "odalydary",
+   "f23r",
+   "validation",
+   false
+  ],
+  [
+   "F225",
+   "sarol",
+   "f36r",
+   "validation",
+   false
+  ],
+  [
+   "F240",
+   "loralody",
+   "f19r",
+   "validation",
+   false
+  ]
+ ],
+ "voynich": {
+  "H_separe": {
+   "train": {
+    "groups": {
+     "A": [
+      "F8",
+      "F11",
+      "F28",
+      "F50"
+     ],
+     "B": [
+      "F25",
+      "F26",
+      "F52",
+      "F54"
+     ]
+    },
+    "n": 8,
+    "p_tail": 576,
+    "p_count": 576,
+    "p": 1.0,
+    "score": "23/48",
+    "score_value": 0.4791666666666667,
+    "own": {
+     "0": 8
+    },
+    "unique": 0,
+    "ranks": {
+     "F8": {
+      "label": "sorory",
+      "page": "f15v",
+      "classe": "A",
+      "n": 71,
+      "clean": 70,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F11": {
+      "label": "ofaldo",
+      "page": "f90r2",
+      "classe": "A",
+      "n": 49,
+      "clean": 49,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F25": {
+      "label": "otoldy",
+      "page": "f57r",
+      "classe": "B",
+      "n": 87,
+      "clean": 87,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       2
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F26": {
+      "label": "ararchodaiin",
+      "page": "f43v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F28": {
+      "label": "otorain",
+      "page": "f30r",
+      "classe": "A",
+      "n": 95,
+      "clean": 95,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F50": {
+      "label": "okam",
+      "page": "f10v",
+      "classe": "A",
+      "n": 53,
+      "clean": 53,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F52": {
+      "label": "chokaro",
+      "page": "f40v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F54": {
+      "label": "chokam",
+      "page": "f48v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F8": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F11": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F25": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": [
+       [
+        89,
+        "otoly",
+        "f48v.8",
+        1
+       ]
+      ]
+     },
+     "F26": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F28": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F50": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F52": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F54": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     }
+    },
+    "rules": [],
+    "chosen": null
+   },
+   "validation": {
+    "groups": {
+     "A": [
+      "F80",
+      "F86",
+      "F94",
+      "F95",
+      "F102",
+      "F133",
+      "F212",
+      "F213",
+      "F225",
+      "F240"
+     ],
+     "B": [
+      "F113"
+     ]
+    },
+    "n": 10,
+    "p_tail": 7387,
+    "p_count": 20000,
+    "p": 0.3693815309234538,
+    "score": "8/15",
+    "score_value": 0.5333333333333333,
+    "own": {
+     "0": 10,
+     "1": 1
+    },
+    "unique": 0,
+    "ranks": {
+     "F80": {
+      "label": "oaro",
+      "page": "f51r",
+      "classe": "A",
+      "n": 87,
+      "clean": 86,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F86": {
+      "label": "cheotchy",
+      "page": "f9v",
+      "classe": "A",
+      "n": 84,
+      "clean": 84,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F94": {
+      "label": "tolsasy",
+      "page": "f96v",
+      "classe": "A",
+      "n": 61,
+      "clean": 61,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": true
+     },
+     "F95": {
+      "label": "otoldy",
+      "page": "f44r",
+      "classe": "A",
+      "n": 75,
+      "clean": 75,
+      "own": 1,
+      "win_loss_tie": [
+       7,
+       0,
+       2
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F102": {
+      "label": "otoky",
+      "page": "f3v",
+      "classe": "A",
+      "n": 83,
+      "clean": 83,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F113": {
+      "label": "doldam",
+      "page": "f55r",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       0
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F133": {
+      "label": "opchor",
+      "page": "f13v",
+      "classe": "A",
+      "n": 67,
+      "clean": 67,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F212": {
+      "label": "koldarod",
+      "page": "f18v",
+      "classe": "A",
+      "n": 71,
+      "clean": 71,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F213": {
+      "label": "odalydary",
+      "page": "f23r",
+      "classe": "A",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F225": {
+      "label": "sarol",
+      "page": "f36r",
+      "classe": "A",
+      "n": 62,
+      "clean": 62,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       8
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F240": {
+      "label": "loralody",
+      "page": "f19r",
+      "classe": "A",
+      "n": 76,
+      "clean": 76,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F80": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F86": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F94": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F95": {
+      "f51r": [],
+      "f9v": [
+       [
+        35,
+        "otol",
+        "f9v.4",
+        1
+       ]
+      ],
+      "f96v": [],
+      "f44r": [
+       [
+        18,
+        "otol",
+        "f44r.3",
+        1
+       ]
+      ],
+      "f3v": [],
+      "f13v": [
+       [
+        5,
+        "otol",
+        "f13v.1",
+        1
+       ]
+      ],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F102": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F113": {
+      "f55r": []
+     },
+     "F133": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F212": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F213": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F225": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [
+       [
+        12,
+        "saro",
+        "f96v.2",
+        1
+       ]
+      ],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F240": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     }
+    },
+    "rules": [
+     [
+      [
+       [
+        "d",
+        "y"
+       ],
+       []
+      ],
+      [
+       "F95"
+      ]
+     ]
+    ],
+    "chosen": null
+   },
+   "prediction": null
+  },
+  "H_joint": {
+   "train": {
+    "groups": {
+     "A": [
+      "F8",
+      "F11",
+      "F28",
+      "F50"
+     ],
+     "B": [
+      "F25",
+      "F26",
+      "F52",
+      "F54"
+     ]
+    },
+    "n": 8,
+    "p_tail": 576,
+    "p_count": 576,
+    "p": 1.0,
+    "score": "23/48",
+    "score_value": 0.4791666666666667,
+    "own": {
+     "0": 8
+    },
+    "unique": 0,
+    "ranks": {
+     "F8": {
+      "label": "sorory",
+      "page": "f15v",
+      "classe": "A",
+      "n": 71,
+      "clean": 70,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F11": {
+      "label": "ofaldo",
+      "page": "f90r2",
+      "classe": "A",
+      "n": 49,
+      "clean": 49,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F25": {
+      "label": "otoldy",
+      "page": "f57r",
+      "classe": "B",
+      "n": 87,
+      "clean": 87,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       2
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F26": {
+      "label": "ararchodaiin",
+      "page": "f43v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F28": {
+      "label": "otorain",
+      "page": "f30r",
+      "classe": "A",
+      "n": 95,
+      "clean": 95,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F50": {
+      "label": "okam",
+      "page": "f10v",
+      "classe": "A",
+      "n": 53,
+      "clean": 53,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F52": {
+      "label": "chokaro",
+      "page": "f40v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F54": {
+      "label": "chokam",
+      "page": "f48v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F8": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F11": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F25": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": [
+       [
+        89,
+        "otoly",
+        "f48v.8",
+        1
+       ]
+      ]
+     },
+     "F26": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F28": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F50": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F52": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F54": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     }
+    },
+    "rules": [],
+    "chosen": null
+   },
+   "validation": {
+    "groups": {
+     "A": [
+      "F80",
+      "F86",
+      "F94",
+      "F95",
+      "F102",
+      "F133",
+      "F212",
+      "F213",
+      "F225",
+      "F240"
+     ],
+     "B": [
+      "F113"
+     ]
+    },
+    "n": 10,
+    "p_tail": 7387,
+    "p_count": 20000,
+    "p": 0.3693815309234538,
+    "score": "8/15",
+    "score_value": 0.5333333333333333,
+    "own": {
+     "0": 10,
+     "1": 1
+    },
+    "unique": 0,
+    "ranks": {
+     "F80": {
+      "label": "oaro",
+      "page": "f51r",
+      "classe": "A",
+      "n": 87,
+      "clean": 86,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F86": {
+      "label": "cheotchy",
+      "page": "f9v",
+      "classe": "A",
+      "n": 84,
+      "clean": 84,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F94": {
+      "label": "tolsasy",
+      "page": "f96v",
+      "classe": "A",
+      "n": 61,
+      "clean": 61,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": true
+     },
+     "F95": {
+      "label": "otoldy",
+      "page": "f44r",
+      "classe": "A",
+      "n": 75,
+      "clean": 75,
+      "own": 1,
+      "win_loss_tie": [
+       7,
+       0,
+       2
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F102": {
+      "label": "otoky",
+      "page": "f3v",
+      "classe": "A",
+      "n": 83,
+      "clean": 83,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F113": {
+      "label": "doldam",
+      "page": "f55r",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       0
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F133": {
+      "label": "opchor",
+      "page": "f13v",
+      "classe": "A",
+      "n": 67,
+      "clean": 67,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F212": {
+      "label": "koldarod",
+      "page": "f18v",
+      "classe": "A",
+      "n": 71,
+      "clean": 71,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F213": {
+      "label": "odalydary",
+      "page": "f23r",
+      "classe": "A",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F225": {
+      "label": "sarol",
+      "page": "f36r",
+      "classe": "A",
+      "n": 62,
+      "clean": 62,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       8
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F240": {
+      "label": "loralody",
+      "page": "f19r",
+      "classe": "A",
+      "n": 76,
+      "clean": 76,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F80": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F86": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F94": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F95": {
+      "f51r": [],
+      "f9v": [
+       [
+        35,
+        "otol",
+        "f9v.4",
+        1
+       ]
+      ],
+      "f96v": [],
+      "f44r": [
+       [
+        18,
+        "otol",
+        "f44r.3",
+        1
+       ]
+      ],
+      "f3v": [],
+      "f13v": [
+       [
+        5,
+        "otol",
+        "f13v.1",
+        1
+       ]
+      ],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F102": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F113": {
+      "f55r": []
+     },
+     "F133": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F212": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F213": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F225": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [
+       [
+        12,
+        "saro",
+        "f96v.2",
+        1
+       ]
+      ],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F240": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     }
+    },
+    "rules": [
+     [
+      [
+       [
+        "d",
+        "y"
+       ],
+       []
+      ],
+      [
+       "F95"
+      ]
+     ]
+    ],
+    "chosen": null
+   },
+   "prediction": null
+  },
+  "ZL_separe": {
+   "train": {
+    "groups": {
+     "A": [
+      "F8",
+      "F11",
+      "F28",
+      "F50"
+     ],
+     "B": [
+      "F25",
+      "F26",
+      "F52",
+      "F54"
+     ]
+    },
+    "n": 8,
+    "p_tail": 576,
+    "p_count": 576,
+    "p": 1.0,
+    "score": "23/48",
+    "score_value": 0.4791666666666667,
+    "own": {
+     "0": 8
+    },
+    "unique": 0,
+    "ranks": {
+     "F8": {
+      "label": "sorory",
+      "page": "f15v",
+      "classe": "A",
+      "n": 72,
+      "clean": 67,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F11": {
+      "label": "ofaldo",
+      "page": "f90r2",
+      "classe": "A",
+      "n": 47,
+      "clean": 46,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F25": {
+      "label": "otoldy",
+      "page": "f57r",
+      "classe": "B",
+      "n": 87,
+      "clean": 78,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       2
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F26": {
+      "label": "ararchodaiin",
+      "page": "f43v",
+      "classe": "B",
+      "n": 100,
+      "clean": 95,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F28": {
+      "label": "otorain",
+      "page": "f30r",
+      "classe": "A",
+      "n": 99,
+      "clean": 97,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F50": {
+      "label": "okam",
+      "page": "f10v",
+      "classe": "A",
+      "n": 57,
+      "clean": 56,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F52": {
+      "label": "chokaro",
+      "page": "f40v",
+      "classe": "B",
+      "n": 100,
+      "clean": 96,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F54": {
+      "label": "chokam",
+      "page": "f48v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F8": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F11": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F25": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": [
+       [
+        91,
+        "otoly",
+        "f48v.8",
+        1
+       ]
+      ]
+     },
+     "F26": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F28": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F50": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F52": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F54": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     }
+    },
+    "rules": [],
+    "chosen": null
+   },
+   "validation": {
+    "groups": {
+     "A": [
+      "F80",
+      "F86",
+      "F94",
+      "F95",
+      "F102",
+      "F133",
+      "F212",
+      "F213",
+      "F225",
+      "F240"
+     ],
+     "B": [
+      "F113"
+     ]
+    },
+    "n": 10,
+    "p_tail": 20000,
+    "p_count": 20000,
+    "p": 1.0,
+    "score": "29/60",
+    "score_value": 0.48333333333333334,
+    "own": {
+     "0": 11
+    },
+    "unique": 0,
+    "ranks": {
+     "F80": {
+      "label": "oaro",
+      "page": "f51r",
+      "classe": "A",
+      "n": 89,
+      "clean": 79,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F86": {
+      "label": "cheotchy",
+      "page": "f9v",
+      "classe": "A",
+      "n": 86,
+      "clean": 83,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F94": {
+      "label": "tolsasy",
+      "page": "f96v",
+      "classe": "A",
+      "n": 56,
+      "clean": 53,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": true
+     },
+     "F95": {
+      "label": "otoldy",
+      "page": "f44r",
+      "classe": "A",
+      "n": 74,
+      "clean": 70,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       2,
+       7
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F102": {
+      "label": "otoky",
+      "page": "f3v",
+      "classe": "A",
+      "n": 85,
+      "clean": 84,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F113": {
+      "label": "doldam",
+      "page": "f55r",
+      "classe": "B",
+      "n": 100,
+      "clean": 92,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       0
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F133": {
+      "label": "opchor",
+      "page": "f13v",
+      "classe": "A",
+      "n": 69,
+      "clean": 66,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F212": {
+      "label": "koldarod",
+      "page": "f18v",
+      "classe": "A",
+      "n": 69,
+      "clean": 67,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F213": {
+      "label": "odalydary",
+      "page": "f23r",
+      "classe": "A",
+      "n": 100,
+      "clean": 95,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F225": {
+      "label": "sarol",
+      "page": "f36r",
+      "classe": "A",
+      "n": 63,
+      "clean": 60,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       8
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F240": {
+      "label": "loralody",
+      "page": "f19r",
+      "classe": "A",
+      "n": 78,
+      "clean": 74,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F80": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F86": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F94": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F95": {
+      "f51r": [],
+      "f9v": [
+       [
+        36,
+        "otol",
+        "f9v.4",
+        1
+       ]
+      ],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [
+       [
+        5,
+        "otol",
+        "f13v.1",
+        1
+       ]
+      ],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F102": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F113": {
+      "f55r": []
+     },
+     "F133": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F212": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F213": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F225": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [
+       [
+        12,
+        "saro",
+        "f96v.2",
+        1
+       ]
+      ],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F240": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     }
+    },
+    "rules": [],
+    "chosen": null
+   },
+   "prediction": null
+  },
+  "ZL_joint": {
+   "train": {
+    "groups": {
+     "A": [
+      "F8",
+      "F11",
+      "F28",
+      "F50"
+     ],
+     "B": [
+      "F25",
+      "F26",
+      "F52",
+      "F54"
+     ]
+    },
+    "n": 8,
+    "p_tail": 576,
+    "p_count": 576,
+    "p": 1.0,
+    "score": "23/48",
+    "score_value": 0.4791666666666667,
+    "own": {
+     "0": 8
+    },
+    "unique": 0,
+    "ranks": {
+     "F8": {
+      "label": "sorory",
+      "page": "f15v",
+      "classe": "A",
+      "n": 68,
+      "clean": 63,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F11": {
+      "label": "ofaldo",
+      "page": "f90r2",
+      "classe": "A",
+      "n": 44,
+      "clean": 43,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F25": {
+      "label": "otoldy",
+      "page": "f57r",
+      "classe": "B",
+      "n": 82,
+      "clean": 73,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       2
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F26": {
+      "label": "ararchodaiin",
+      "page": "f43v",
+      "classe": "B",
+      "n": 100,
+      "clean": 94,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F28": {
+      "label": "otorain",
+      "page": "f30r",
+      "classe": "A",
+      "n": 90,
+      "clean": 88,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F50": {
+      "label": "okam",
+      "page": "f10v",
+      "classe": "A",
+      "n": 50,
+      "clean": 49,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F52": {
+      "label": "chokaro",
+      "page": "f40v",
+      "classe": "B",
+      "n": 95,
+      "clean": 91,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F54": {
+      "label": "chokam",
+      "page": "f48v",
+      "classe": "B",
+      "n": 100,
+      "clean": 100,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       3
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F8": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F11": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F25": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": [
+       [
+        83,
+        "otoly",
+        "f48v.8",
+        1
+       ],
+       [
+        97,
+        "otoldy",
+        "f48v.9",
+        2
+       ]
+      ]
+     },
+     "F26": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F28": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F50": {
+      "f15v": [],
+      "f90r2": [],
+      "f30r": [],
+      "f10v": []
+     },
+     "F52": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     },
+     "F54": {
+      "f57r": [],
+      "f43v": [],
+      "f40v": [],
+      "f48v": []
+     }
+    },
+    "rules": [],
+    "chosen": null
+   },
+   "validation": {
+    "groups": {
+     "A": [
+      "F80",
+      "F86",
+      "F94",
+      "F95",
+      "F102",
+      "F133",
+      "F212",
+      "F213",
+      "F225",
+      "F240"
+     ],
+     "B": [
+      "F113"
+     ]
+    },
+    "n": 10,
+    "p_tail": 20000,
+    "p_count": 20000,
+    "p": 1.0,
+    "score": "29/60",
+    "score_value": 0.48333333333333334,
+    "own": {
+     "0": 11
+    },
+    "unique": 0,
+    "ranks": {
+     "F80": {
+      "label": "oaro",
+      "page": "f51r",
+      "classe": "A",
+      "n": 85,
+      "clean": 75,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F86": {
+      "label": "cheotchy",
+      "page": "f9v",
+      "classe": "A",
+      "n": 83,
+      "clean": 80,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F94": {
+      "label": "tolsasy",
+      "page": "f96v",
+      "classe": "A",
+      "n": 54,
+      "clean": 51,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": true
+     },
+     "F95": {
+      "label": "otoldy",
+      "page": "f44r",
+      "classe": "A",
+      "n": 69,
+      "clean": 65,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       2,
+       7
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F102": {
+      "label": "otoky",
+      "page": "f3v",
+      "classe": "A",
+      "n": 81,
+      "clean": 80,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F113": {
+      "label": "doldam",
+      "page": "f55r",
+      "classe": "B",
+      "n": 100,
+      "clean": 92,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       0
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F133": {
+      "label": "opchor",
+      "page": "f13v",
+      "classe": "A",
+      "n": 61,
+      "clean": 58,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F212": {
+      "label": "koldarod",
+      "page": "f18v",
+      "classe": "A",
+      "n": 67,
+      "clean": 65,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F213": {
+      "label": "odalydary",
+      "page": "f23r",
+      "classe": "A",
+      "n": 98,
+      "clean": 92,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     },
+     "F225": {
+      "label": "sarol",
+      "page": "f36r",
+      "classe": "A",
+      "n": 59,
+      "clean": 56,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       1,
+       8
+      ],
+      "top": false,
+      "unique": false,
+      "strict": false
+     },
+     "F240": {
+      "label": "loralody",
+      "page": "f19r",
+      "classe": "A",
+      "n": 75,
+      "clean": 71,
+      "own": 0,
+      "win_loss_tie": [
+       0,
+       0,
+       9
+      ],
+      "top": true,
+      "unique": false,
+      "strict": false
+     }
+    },
+    "details": {
+     "F80": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F86": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F94": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F95": {
+      "f51r": [],
+      "f9v": [
+       [
+        34,
+        "otol",
+        "f9v.4",
+        1
+       ]
+      ],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [
+       [
+        5,
+        "otol",
+        "f13v.1",
+        1
+       ]
+      ],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F102": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F113": {
+      "f55r": []
+     },
+     "F133": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F212": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F213": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F225": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [
+       [
+        12,
+        "saro",
+        "f96v.2",
+        1
+       ]
+      ],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     },
+     "F240": {
+      "f51r": [],
+      "f9v": [],
+      "f96v": [],
+      "f44r": [],
+      "f3v": [],
+      "f13v": [],
+      "f18v": [],
+      "f23r": [],
+      "f36r": [],
+      "f19r": []
+     }
+    },
+    "rules": [],
+    "chosen": null
+   },
+   "prediction": null
+  }
+ }
+}

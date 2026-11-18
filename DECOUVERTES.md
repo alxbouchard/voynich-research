@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Noms de plantes et terminaisons dans les notices](research/2026-11-18-noms-dans-les-notices/RAPPORT.md) | Dans un texte latin connu, 17 des 20 noms réservés désignent seuls la bonne notice. Dans le Voynich, aucune des dix étiquettes comparables ne désigne seule la page attendue. À f44r.3, deux lectures sur photographie favorisent `otal`. |
 | [Les mots près des racines, des étoiles et des figures](research/2026-11-18-mots-des-images/RAPPORT.md) | La répétition de `otoldy` sur f99 prédit une troisième étiquette végétale sur f89r1. Le groupe manque sur f57r, dont le dessin est rapproché de cette vignette. Les étiquettes autonomes des 53 étoiles de deux panneaux sont toutes différentes parmi celles d’un seul mot. |
 | [Épreuve de la table phonétique de Bax](research/2026-11-18-bax/RAPPORT.md) | Deux noms indépendamment documentés dans les herbiers ne se lisent pas aux ouvertures de f2v et f35v. Deux lecteurs IA vérifient trois signes litigieux. Sur une substitution artificielle, deux noms sur six sont lus en entier. |
 | [Fleurs dans les trois premiers cahiers](research/2026-11-18-fleurs/RAPPORT.md) | Sur les pages réservées, `qotor` annonce une corolle sur f5v et à tort sur f8r. Les deux occurrences ouvrent la quatrième ligne. Un contrôle sur d’autres feuillets montre une tendance initiale aussi présente pour `qotol`. |

@@ -1,0 +1,4272 @@
+{
+  "fragments": [
+    {
+      "fragment": 8,
+      "quire": 15,
+      "source_page": "f88r",
+      "loci": [
+        "f88r.16"
+      ],
+      "targets": [
+        "f15v"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 2,
+        "column": 3,
+        "frame": "nativeR",
+        "source_bbox": [
+          1249,
+          1167,
+          2169,
+          1737
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Sous la feuille du troisième fragment et près de la partie ponctuée du quatrième. La notice LSI privilégie 8, la photographie autorise le voisin. Le locus f88r.15 est encore plus à gauche, attribué éditorialement au fragment 7."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f15v",
+          "source_detail": {
+            "source": "Petersen, notice Q15",
+            "vérification_requise": false
+          },
+          "source_url": "https://voynich.nu/q15/index.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N12",
+          "options": [
+            "f90r2",
+            "f53r",
+            "f15v",
+            "f48v"
+          ],
+          "expected": "C",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": "C",
+              "page": "f15v",
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "23a55c434705665c939f175e8baabc2f997fd9f30c7fc06d844c517946eb246b"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f88r.16",
+          "target": "f15v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f15v": {
+          "dessin": [
+            "f15v"
+          ],
+          "dos": [
+            "f15r"
+          ],
+          "temoins": [
+            [
+              "f20r"
+            ],
+            [
+              "f27r"
+            ],
+            [
+              "f38r"
+            ],
+            [
+              "f7r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f88",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f88r.16",
+          "target": "f15v"
+        }
+      ]
+    },
+    {
+      "fragment": 11,
+      "quire": 15,
+      "source_page": "f88r",
+      "loci": [
+        "f88r.25"
+      ],
+      "targets": [
+        "f90r2"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 3,
+        "column": 2,
+        "frame": "nativeR",
+        "source_bbox": [
+          1598,
+          1966,
+          2518,
+          2536
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f90r2"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "sure",
+          "reason": "Le libellé est entre les petites formes supérieures et les filets de la plante de droite, sans autre plante immédiatement autour."
+        }
+      ],
+      "cards": [
+        {
+          "id": "N01",
+          "options": [
+            "f55r",
+            "f90r2",
+            "f24r",
+            "f48v"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": "B",
+              "page": "f90r2",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "D",
+              "page": "f48v",
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "a99121b7128ef1603999d137f981fe872da6875fd98fc028fcfb5905fdd5981c"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f88r.25",
+          "target": "f90r2"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f90r2": {
+          "dessin": [
+            "f90r2"
+          ],
+          "dos": [
+            "f90v1",
+            "f90v2"
+          ],
+          "temoins": [
+            [
+              "f95v1",
+              "f95v2"
+            ],
+            [
+              "f29v"
+            ],
+            [
+              "f6v"
+            ],
+            [
+              "f9v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f90r2": [
+          110,
+          136
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f88",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f88r.25",
+          "target": "f90r2"
+        }
+      ]
+    },
+    {
+      "fragment": 22,
+      "quire": 15,
+      "source_page": "f88v",
+      "loci": [
+        "f88v.30"
+      ],
+      "targets": [
+        "f94v"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 3,
+        "column": 3,
+        "frame": "nativeV",
+        "source_bbox": [
+          2237,
+          2566,
+          3157,
+          3136
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f94v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "sure",
+          "reason": "Le groupe se trouve au-delà de la couronne du dernier motif, près du bord droit du panneau, à distance du motif précédent. Une autre inscription à gauche (f88v.29) est ambiguë et rattachée par LSI à la plante voisine."
+        }
+      ],
+      "cards": [
+        {
+          "id": "N06",
+          "options": [
+            "f53r",
+            "f90r2",
+            "f24r",
+            "f94v"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": "D",
+              "page": "f94v",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "D",
+              "page": "f94v",
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "bfd42268536c83f4839183ae23942430ce2253a4096f7aad1758a754922cd397"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f88v.30",
+          "target": "f94v"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f88v.30",
+          "target": "f94v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f94v": {
+          "dessin": [
+            "f94v"
+          ],
+          "dos": [
+            "f94r"
+          ],
+          "temoins": [
+            [
+              "f26r"
+            ],
+            [
+              "f50r"
+            ],
+            [
+              "f41r"
+            ],
+            [
+              "f31r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f88",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f88v.30",
+          "target": "f94v"
+        }
+      ]
+    },
+    {
+      "fragment": 25,
+      "quire": 15,
+      "source_page": "f89r1",
+      "loci": [
+        "f89r1.4"
+      ],
+      "targets": [
+        "f57r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 3,
+        "frame": "r1",
+        "source_bbox": [
+          144,
+          0,
+          332,
+          96
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f57r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Le groupe associé par l’ordre de la rangée est à proximité de la petite plante centrale et de la feuille fixée au grand fragment de droite."
+        },
+        {
+          "path": "research/2026-11-18-mots-des-images/racines/fragment25/PREDICTION.md",
+          "source": "localisation de la rangée, 18 novembre",
+          "reason": "L’ordre des légendes et le cadrage de Yale placent le locus auprès du fragment 25. La cote faible du contrôle du 17 novembre reste visible.",
+          "source_url": "https://collections.library.yale.edu/iiif/2/1006233/2830,105,2410,865/1800,/0/default.jpg"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N05",
+          "options": [
+            "f90r2",
+            "f43v",
+            "f40v",
+            "f57r"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "bfe764a4d1b8b3e657e1f07a24c6573e9abcb12f79620ffe9b317f3f5aeb39d9"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r1.4",
+          "target": "f57r"
+        },
+        {
+          "kind": "page_entiere_mot_exact_18nov",
+          "path": "research/2026-11-18-mots-des-images/racines/fragment25/PREDICTION.md",
+          "locus": "f89r1.4",
+          "target": "f57r"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f57r": {
+          "dessin": [
+            "f57r"
+          ],
+          "dos": [],
+          "temoins": []
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89r1.4",
+          "target": "f57r"
+        }
+      ]
+    },
+    {
+      "fragment": 26,
+      "quire": 15,
+      "source_page": "f89r1",
+      "loci": [
+        "f89r1.5"
+      ],
+      "targets": [
+        "f43v"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 4,
+        "frame": "r1",
+        "source_bbox": [
+          241,
+          0,
+          429,
+          118
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "sure",
+          "reason": "Le groupe est inclus entre les deux longs prolongements du fragment le plus à droite ; aucun autre spécimen dans cet espace."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f43v",
+          "source_detail": {
+            "source": "Petersen, notice Q15",
+            "vérification_requise": true
+          },
+          "source_url": "https://voynich.nu/q15/index.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N13",
+          "options": [
+            "f57r",
+            "f30r",
+            "f53r",
+            "f43v"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "6bee021ebf31fd7f532f4340152d8ef46d2c28e7a870dadedb6c9098496309cb"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r1.5",
+          "target": "f43v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f43v": {
+          "dessin": [
+            "f43v"
+          ],
+          "dos": [
+            "f43r"
+          ],
+          "temoins": [
+            [
+              "f39r"
+            ],
+            [
+              "f46r"
+            ],
+            [
+              "f26r"
+            ],
+            [
+              "f50r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89r1.5",
+          "target": "f43v"
+        }
+      ]
+    },
+    {
+      "fragment": 28,
+      "quire": 15,
+      "source_page": "f89r1",
+      "loci": [
+        "f89r1.13"
+      ],
+      "targets": [
+        "f30r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 2,
+        "column": 2,
+        "frame": "r1",
+        "source_bbox": [
+          122,
+          191,
+          310,
+          309
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f30r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Court libellé entre la racine centrale claire et la racine longue rayée du troisième motif."
+        }
+      ],
+      "cards": [
+        {
+          "id": "N10",
+          "options": [
+            "f30r",
+            "f55r",
+            "f37r",
+            "f10v"
+          ],
+          "expected": "A",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "0854ffae622faeb972cb0873df38d1aebedb3e60a64d3a3395647bf956be2669"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r1.13",
+          "target": "f30r"
+        }
+      ],
+      "alternatives": [
+        {
+          "montage": "MK05",
+          "target": "f41r",
+          "fragment": 28,
+          "locus": "f89r1.13"
+        }
+      ],
+      "prior_destinations": {
+        "f30r": {
+          "dessin": [
+            "f30r"
+          ],
+          "dos": [
+            "f30v"
+          ],
+          "temoins": [
+            [
+              "f21v"
+            ],
+            [
+              "f11v"
+            ],
+            [
+              "f25v"
+            ],
+            [
+              "f2v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f30r": [
+          150
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89r1.13",
+          "target": "f30r"
+        }
+      ]
+    },
+    {
+      "fragment": 31,
+      "quire": 15,
+      "source_page": "f89r1",
+      "loci": [
+        "f89r1.26"
+      ],
+      "targets": [
+        "f33r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 3,
+        "column": 2,
+        "frame": "r1",
+        "source_bbox": [
+          179,
+          504,
+          367,
+          622
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f33r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Le groupe ordonné en deuxième position se trouve à droite des racines centrales et sous la feuille verte du secteur voisin, sans trait de rappel."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f33r",
+          "source_detail": {
+            "source": "Petersen, notice Q15",
+            "vérification_requise": false
+          },
+          "source_url": "https://voynich.nu/q15/index.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N02",
+          "options": [
+            "f33r",
+            "f53r",
+            "f24r",
+            "f35v"
+          ],
+          "expected": "A",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "8724b9ea89d8ad51db591674a3ee790797a098cc47763a0341bdbbb403f7d5c8"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r1.26",
+          "target": "f33r"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f89r1.26",
+          "target": "f33r"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f33r": {
+          "dessin": [
+            "f33r"
+          ],
+          "dos": [
+            "f33v"
+          ],
+          "temoins": [
+            [
+              "f41v"
+            ],
+            [
+              "f50v"
+            ],
+            [
+              "f26v"
+            ],
+            [
+              "f31v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89r1.26",
+          "target": "f33r"
+        }
+      ]
+    },
+    {
+      "fragment": 35,
+      "quire": 15,
+      "source_page": "f89r2",
+      "loci": [
+        "f89r2.4"
+      ],
+      "targets": [
+        "f35v"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 3,
+        "frame": "r2",
+        "source_bbox": [
+          275,
+          25,
+          463,
+          143
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f35v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "sure",
+          "reason": "Le libellé est juste sous le grand feuillage central, au-dessus des racines de la même plante. La plante de droite et son inscription se trouvent plus loin."
+        }
+      ],
+      "cards": [
+        {
+          "id": "N14",
+          "options": [
+            "f53r",
+            "f57r",
+            "f37r",
+            "f35v"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": "D",
+              "page": "f35v",
+              "confidence": "forte"
+            },
+            {
+              "choice": "D",
+              "page": "f35v",
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "f1ee214218ba32bd537ad3c5332901c62ba308ee820c6bf30b33e5c0025eb325"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r2.4",
+          "target": "f35v"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f89r2.4",
+          "target": "f35v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f35v": {
+          "dessin": [
+            "f35v"
+          ],
+          "dos": [
+            "f35r"
+          ],
+          "temoins": [
+            [
+              "f2r"
+            ],
+            [
+              "f54r"
+            ],
+            [
+              "f14r"
+            ],
+            [
+              "f20r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89r2.4",
+          "target": "f35v"
+        }
+      ]
+    },
+    {
+      "fragment": 40,
+      "quire": 15,
+      "source_page": "f89r2",
+      "loci": [
+        "f89r2.17"
+      ],
+      "targets": [
+        "f87r",
+        "f87v"
+      ],
+      "attachment": "faible",
+      "double_agreement": null,
+      "position": {
+        "row": 3,
+        "column": 1,
+        "frame": "r2",
+        "source_bbox": [
+          49,
+          312,
+          237,
+          430
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Le groupe de la première plante, d’après la séquence, se trouve dans l’intervalle avec la deuxième. Les deux versions de la grande page doivent rester alternatives ; aucune ne vaut référence unique."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f87r",
+          "source_detail": {
+            "source": "Petersen, table des marginalia",
+            "texte": "cf. root 40 fol 89r p2"
+          },
+          "source_url": "https://www.voynich.nu/extra/herb_oldid.html"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f87v",
+          "source_detail": {
+            "source": "Petersen, notice Q15",
+            "vérification_requise": false
+          },
+          "source_url": "https://voynich.nu/q15/index.html"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r2.17",
+          "target": "f87r"
+        },
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89r2.17",
+          "target": "f87v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f87r": {
+          "dessin": [
+            "f87r"
+          ],
+          "dos": [
+            "f87v"
+          ],
+          "temoins": [
+            [
+              "f14v"
+            ],
+            [
+              "f22v"
+            ],
+            [
+              "f28v"
+            ],
+            [
+              "f3v"
+            ]
+          ]
+        },
+        "f87v": {
+          "dessin": [
+            "f87v"
+          ],
+          "dos": [
+            "f87r"
+          ],
+          "temoins": [
+            [
+              "f2r"
+            ],
+            [
+              "f54r"
+            ],
+            [
+              "f14r"
+            ],
+            [
+              "f20r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": false,
+      "cross_product": [
+        {
+          "locus": "f89r2.17",
+          "target": "f87r"
+        },
+        {
+          "locus": "f89r2.17",
+          "target": "f87v"
+        }
+      ]
+    },
+    {
+      "fragment": 50,
+      "quire": 15,
+      "source_page": "f89v2",
+      "loci": [
+        "f89v2.2"
+      ],
+      "targets": [
+        "f10v"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 1,
+        "frame": "v2",
+        "source_bbox": [
+          21,
+          108,
+          209,
+          226
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f10v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Sous et à droite de la première racine, proche des filets de la deuxième. La séquence retient la première, le seul voisinage ne tranche pas."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "rank": 1,
+          "montage": "MK01",
+          "source_url": "https://www.voynich.ninja/attachment.php?aid=7584",
+          "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7584",
+          "target": "f10v",
+          "source_page": "f89v2",
+          "reason": "Les deux pages sont reconnaissables ; racine de gauche n°50 déjà cataloguée pour cette grande plante. Une partie de son voisin reste visible dans l'incrustation.",
+          "status": "déjà examiné",
+          "source_photo": "https://voynich.nu/q15/f089v2_crd.jpg",
+          "target_photo": "https://voynich.nu/q02/f010v_crd.jpg"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N09",
+          "options": [
+            "f10v",
+            "f37r",
+            "f55r",
+            "f30r"
+          ],
+          "expected": "A",
+          "votes": [
+            {
+              "choice": "B",
+              "page": "f37r",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "B",
+              "page": "f37r",
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "e00a46227cf244d05d3ffcbd080e39bdedb31c61a5f18ad803e934c37fad673a"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89v2.2",
+          "target": "f10v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f10v": {
+          "dessin": [
+            "f10v"
+          ],
+          "dos": [
+            "f10r"
+          ],
+          "temoins": [
+            [
+              "f21r"
+            ],
+            [
+              "f11r"
+            ],
+            [
+              "f20r"
+            ],
+            [
+              "f27r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89v2.2",
+          "target": "f10v"
+        }
+      ]
+    },
+    {
+      "fragment": 52,
+      "quire": 15,
+      "source_page": "f89v2",
+      "loci": [
+        "f89v2.4"
+      ],
+      "targets": [
+        "f40v"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 3,
+        "frame": "v2",
+        "source_bbox": [
+          231,
+          108,
+          419,
+          226
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "sure",
+          "reason": "Sous la petite racine rousse à doigts, isolée entre d’autres étiquettes. LSI précise explicitement que le libellé se trouve sous le fragment [1,3]."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f40v",
+          "source_detail": {
+            "source": "Petersen, notice Q15",
+            "vérification_requise": false
+          },
+          "source_url": "https://voynich.nu/q15/index.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N08",
+          "options": [
+            "f10v",
+            "f40v",
+            "f48v",
+            "f43v"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "15561b574dcfc052b90ff83a90ce885fc140d51da7560966faade913f0e71b4e"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89v2.4",
+          "target": "f40v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f40v": {
+          "dessin": [
+            "f40v"
+          ],
+          "dos": [
+            "f40r"
+          ],
+          "temoins": [
+            [
+              "f26r"
+            ],
+            [
+              "f39r"
+            ],
+            [
+              "f50r"
+            ],
+            [
+              "f41r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89v2.4",
+          "target": "f40v"
+        }
+      ]
+    },
+    {
+      "fragment": 54,
+      "quire": 15,
+      "source_page": "f89v2",
+      "loci": [
+        "f89v2.6"
+      ],
+      "targets": [
+        "f48v"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 5,
+        "frame": "v2",
+        "source_bbox": [
+          355,
+          101,
+          543,
+          219
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f48v"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Les notices LSI situent explicitement ce libellé en partie sous le fragment 4 et à côté du 5. L’emplacement en photo confirme le voisinage partagé."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f48v",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f89v3",
+            "rang": 1,
+            "colonne": 5,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N03",
+          "options": [
+            "f43v",
+            "f40v",
+            "f57r",
+            "f48v"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "2dce02e361a98c694159210af15ac22703b11a4ec7cb8e72d3beef4c445c2ebe"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89v2.6",
+          "target": "f48v"
+        }
+      ],
+      "alternatives": [
+        {
+          "montage": "MK04",
+          "target": "f55r",
+          "fragment": 54,
+          "locus": "f89v2.6"
+        }
+      ],
+      "prior_destinations": {
+        "f48v": {
+          "dessin": [
+            "f48v"
+          ],
+          "dos": [
+            "f48r"
+          ],
+          "temoins": [
+            [
+              "f26r"
+            ],
+            [
+              "f39r"
+            ],
+            [
+              "f50r"
+            ],
+            [
+              "f41r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f48v": [
+          61
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89v2.6",
+          "target": "f48v"
+        }
+      ]
+    },
+    {
+      "fragment": 56,
+      "quire": 15,
+      "source_page": "f89v2",
+      "loci": [
+        "f89v2.13"
+      ],
+      "targets": [
+        "f24r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 2,
+        "column": 2,
+        "frame": "v2",
+        "source_bbox": [
+          184,
+          242,
+          372,
+          360
+        ]
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f24r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q15.json",
+          "attachment": "faible",
+          "reason": "Le groupe se trouve à droite du départ de la racine claire centrale et en direction du feuillage de la plante de droite. La numérotation établit une proposition, l’intervalle ne démontre pas l’attache."
+        }
+      ],
+      "cards": [
+        {
+          "id": "N11",
+          "options": [
+            "f15v",
+            "f40v",
+            "f30r",
+            "f24r"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "01383fc9f9e23f25f0ca75b335a423555a03af47403ba30ef2b05c17e5123e2b"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f89v2.13",
+          "target": "f24r"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f89v2.13",
+          "target": "f24r"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f24r": {
+          "dessin": [
+            "f24r"
+          ],
+          "dos": [
+            "f24v"
+          ],
+          "temoins": [
+            [
+              "f14v"
+            ],
+            [
+              "f22v"
+            ],
+            [
+              "f28v"
+            ],
+            [
+              "f3v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89v2.13",
+          "target": "f24r"
+        }
+      ]
+    },
+    {
+      "fragment": 61,
+      "quire": 15,
+      "source_page": "f89v2",
+      "loci": [
+        "f89v2.28"
+      ],
+      "targets": [
+        "f48r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f48r"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q15/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f48r",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f89v3",
+            "rang": 3,
+            "colonne": 4,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "faible",
+          "reason": "Page très pâle. La grande racine de droite est conservée, mais le recadrage inclut à gauche une feuille possiblement distincte. Aucun rattachement univoque sur la vue."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V07",
+          "options": [
+            "f90v2",
+            "f48r",
+            "f19r",
+            "f13v"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": "B",
+              "page": "f48r",
+              "confidence": "faible"
+            },
+            {
+              "choice": "B",
+              "page": "f48r",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": false,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "76ad5716772bb738b7fa1d217c168a7e28ea4ad88ed68b13014f252115302f88"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_ecarte",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f89v2.28",
+          "target": "f48r",
+          "reason": "formes discordantes"
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f48r": [
+          54
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f89",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f89v2.28",
+          "target": "f48r"
+        }
+      ]
+    },
+    {
+      "fragment": 80,
+      "quire": 19,
+      "source_page": "f99r",
+      "loci": [
+        "f99r.20"
+      ],
+      "targets": [
+        "f51r"
+      ],
+      "attachment": "faible",
+      "double_agreement": true,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f51r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f51r",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f99r",
+            "rang": 3,
+            "colonne": 1,
+            "qualite": "poor match"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "faible",
+          "reason": "Racine rouge étroite entre un contenant et une autre racine ; petits groupes de signes dans les intervalles."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V02",
+          "options": [
+            "f90v2",
+            "f36r",
+            "f48r",
+            "f51r"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": "D",
+              "page": "f51r",
+              "confidence": "forte"
+            },
+            {
+              "choice": "D",
+              "page": "f51r",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": true,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "07e44b2649b2982c4514803f697d54742adc5545a228fabb06cba961ee75b65f"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f99r.20",
+          "target": "f51r",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f99r.20",
+          "target": "f51r",
+          "opposite": [
+            "f51v"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f99",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f99r.20",
+          "target": "f51r"
+        }
+      ]
+    },
+    {
+      "fragment": 86,
+      "quire": 19,
+      "source_page": "f99r",
+      "loci": [
+        "f99r.27"
+      ],
+      "targets": [
+        "f9v"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 3,
+        "column": 7
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/ATTACHES_Q19.json",
+          "attachment": "sure",
+          "reason": "Une inscription se trouve immédiatement à droite du col du grand rhizome terminal, juste au-dessus de sa branche latérale supérieure. La racine précédente dispose d'une inscription séparée. ZL indexe 86a et ne donne aucun autre locus Lf pour ce numéro."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "rank": 2,
+          "montage": "MK02",
+          "source_url": "https://www.voynich.ninja/attachment.php?aid=7585",
+          "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7585",
+          "target": "f9v",
+          "source_page": "f99r",
+          "reason": "Plante terminale de la troisième rangée, une feuille verte retombante et des radicelles brunes. Le label indexé se situe entre le col de cette plante et la petite racine à sa gauche ; concurrence matérielle.",
+          "status": "nouveau univoque dans l’image",
+          "source_photo": "https://voynich.nu/q19/f099r_crd.jpg",
+          "target_photo": "https://voynich.nu/q02/f009v_crd.jpg"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "attachment": "faible",
+          "reason": "Plante terminale de la troisième rangée, une feuille verte retombante et des radicelles brunes. Le label indexé se situe entre le col de cette plante et la petite racine à sa gauche ; concurrence matérielle."
+        }
+      ],
+      "cards": [
+        {
+          "id": "K03",
+          "options": [
+            "f37r",
+            "f9v",
+            "f48v",
+            "f43v"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": "A",
+              "page": "f37r",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "A",
+              "page": "f37r",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/visuel/CLE_CARTES.json",
+          "sha256": "798f3d0b117f146236987929f8bb1c4e1e2bf286159acbe18e1ebe813ca6972f"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/RESULTATS.json",
+          "locus": "f99r.27",
+          "target": "f9v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f9v": {
+          "dessin": [
+            "f9v"
+          ],
+          "dos": [
+            "f9r"
+          ],
+          "temoins": [
+            [
+              "f16r"
+            ],
+            [
+              "f22r"
+            ],
+            [
+              "f17r"
+            ],
+            [
+              "f45r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f99",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f99r.27",
+          "target": "f9v"
+        }
+      ]
+    },
+    {
+      "fragment": 94,
+      "quire": 19,
+      "source_page": "f99r",
+      "loci": [
+        "f99r.46"
+      ],
+      "targets": [
+        "f96v"
+      ],
+      "attachment": "sure",
+      "double_agreement": true,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f96v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "sure",
+          "reason": "Une seule plante à côté du récipient dans la rangée ; sa légende est près du coude de la racine, en dehors du texte sur le récipient."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V05",
+          "options": [
+            "f90v2",
+            "f48r",
+            "f96v",
+            "f36r"
+          ],
+          "expected": "C",
+          "votes": [
+            {
+              "choice": "C",
+              "page": "f96v",
+              "confidence": "forte"
+            },
+            {
+              "choice": "C",
+              "page": "f96v",
+              "confidence": "forte"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": true,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "2d11792cb474bfcd7be914bbf5719620b665fde3ccd2e95013a804bc8bf94e37"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f99r.46",
+          "target": "f96v",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f99r.46",
+          "target": "f96v",
+          "opposite": [
+            "f96r"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {
+        "f96v": [
+          116
+        ]
+      },
+      "target_folio_shared_with": {
+        "f96v": [
+          116
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f99",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f99r.46",
+          "target": "f96v"
+        }
+      ]
+    },
+    {
+      "fragment": 95,
+      "quire": 19,
+      "source_page": "f99v",
+      "loci": [
+        "f99v.2"
+      ],
+      "targets": [
+        "f44r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f44r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "faible",
+          "reason": "Signes coincés entre le bord du récipient et les premières racines serrées en haut à gauche."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V06",
+          "options": [
+            "f90v2",
+            "f48r",
+            "f44r",
+            "f51r"
+          ],
+          "expected": "C",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "d3e884ff295f2a37e93f0d7d8448606526343a7b07d36a9cdd4dcc313fa7d659"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f99v.2",
+          "target": "f44r",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f99v.2",
+          "target": "f44r",
+          "opposite": [
+            "f44v"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f99",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f99v.2",
+          "target": "f44r"
+        }
+      ]
+    },
+    {
+      "fragment": 102,
+      "quire": 19,
+      "source_page": "f99v",
+      "loci": [
+        "f99v.9"
+      ],
+      "targets": [
+        "f3v"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 8
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/ATTACHES_Q19.json",
+          "attachment": "faible",
+          "reason": "L'index Lf désigne l'ultime racine annelée. Le mot occupe l'intervalle entre la hampe brune de 101 et la couronne de 102. Aucun trait de rappel ne les départage."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "rank": 7,
+          "montage": "MK07",
+          "source_url": "https://www.voynich.ninja/attachment.php?aid=7590",
+          "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7590",
+          "target": "f3v",
+          "source_page": "f99v",
+          "reason": "Dernière plante de la première rangée, racine rosée rétrécie en pointe et barrée transversalement. L'inscription sur la photo se situe au-dessus et à gauche entre cette racine et le départ de celle qui précède.",
+          "status": "nouveau univoque dans l’image",
+          "source_photo": "https://voynich.nu/q19/f099v_crd.jpg",
+          "target_photo": "https://voynich.nu/q01/f003v_crd.jpg"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "attachment": "faible",
+          "reason": "Dernière plante de la première rangée, racine rosée rétrécie en pointe et barrée transversalement. L'inscription sur la photo se situe au-dessus et à gauche entre cette racine et le départ de celle qui précède."
+        }
+      ],
+      "cards": [
+        {
+          "id": "K01",
+          "options": [
+            "f3r",
+            "f9v",
+            "f37r",
+            "f3v"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/visuel/CLE_CARTES.json",
+          "sha256": "f9373bef287859f9e1305c2492d46d5aec9fbc30125b5e3c41295f6bc4505b7b"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/RESULTATS.json",
+          "locus": "f99v.9",
+          "target": "f3v"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f3v": {
+          "dessin": [
+            "f3v"
+          ],
+          "dos": [
+            "f3r"
+          ],
+          "temoins": [
+            [
+              "f14r"
+            ],
+            [
+              "f42r"
+            ],
+            [
+              "f2r"
+            ],
+            [
+              "f54r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f3v": [
+          199
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f99",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f99v.9",
+          "target": "f3v"
+        }
+      ]
+    },
+    {
+      "fragment": 110,
+      "quire": 19,
+      "source_page": "f99v",
+      "loci": [
+        "f99v.27",
+        "f99v.28"
+      ],
+      "targets": [
+        "f34v",
+        "f90v1"
+      ],
+      "attachment": "multiple",
+      "double_agreement": null,
+      "position": {
+        "row": 3,
+        "column": 2
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f34v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "plusieurs loci Lf indexés"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "multiple",
+          "reason": "Deux groupes associés au fragment 110 et 110b dans ZL. La racine orange est le deuxième motif. Les deux rapprochements publiés diffèrent. Garder chaque locus et chaque page dans une analyse séparée."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f90v1",
+          "source_detail": {
+            "source": "Petersen, table des marginalia",
+            "texte": "cf. fol. 99v. Nr. 110"
+          },
+          "source_url": "https://www.voynich.nu/extra/herb_oldid.html"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f90v1",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f99v",
+            "rang": 3,
+            "colonne": 2,
+            "qualite": "poor match"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f99v.27",
+          "target": "f34v"
+        },
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f99v.27",
+          "target": "f90v1"
+        },
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f99v.28",
+          "target": "f34v"
+        },
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f99v.28",
+          "target": "f90v1"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f99v.28",
+          "target": "f34v"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f99v.28",
+          "target": "f90v1"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f34v": {
+          "dessin": [
+            "f34v"
+          ],
+          "dos": [
+            "f34r"
+          ],
+          "temoins": [
+            [
+              "f26r"
+            ],
+            [
+              "f50r"
+            ],
+            [
+              "f41r"
+            ],
+            [
+              "f31r"
+            ]
+          ]
+        },
+        "f90v1": {
+          "dessin": [
+            "f90v1"
+          ],
+          "dos": [
+            "f90r1",
+            "f90r2"
+          ],
+          "temoins": [
+            [
+              "f95r1",
+              "f95r2"
+            ],
+            [
+              "f22r"
+            ],
+            [
+              "f9r"
+            ],
+            [
+              "f16r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f90v1": [
+          11,
+          136
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f99",
+      "unique_locus_target": false,
+      "cross_product": [
+        {
+          "locus": "f99v.27",
+          "target": "f34v"
+        },
+        {
+          "locus": "f99v.27",
+          "target": "f90v1"
+        },
+        {
+          "locus": "f99v.28",
+          "target": "f34v"
+        },
+        {
+          "locus": "f99v.28",
+          "target": "f90v1"
+        }
+      ]
+    },
+    {
+      "fragment": 113,
+      "quire": 19,
+      "source_page": "f99v",
+      "loci": [
+        "f99v.31"
+      ],
+      "targets": [
+        "f55r"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 3,
+        "column": 5
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "sure",
+          "reason": "Motif terminal de la rangée. Une inscription distincte est située au-dessus du dôme bleu, immédiatement à droite de son montant supérieur, avant le bord de la page."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f55r",
+          "source_detail": {
+            "source": "Petersen, table des marginalia",
+            "texte": "For root compare fol.99 rot 113"
+          },
+          "source_url": "https://www.voynich.nu/extra/herb_oldid.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N07",
+          "options": [
+            "f55r",
+            "f40v",
+            "f33r",
+            "f35v"
+          ],
+          "expected": "A",
+          "votes": [
+            {
+              "choice": "B",
+              "page": "f40v",
+              "confidence": "forte"
+            },
+            {
+              "choice": "B",
+              "page": "f40v",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "811a8caf8f181df7ace011efc0821561d7afaa9177fa3c7f5ec5cfd9b146f0d4"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f99v.31",
+          "target": "f55r"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f55r": {
+          "dessin": [
+            "f55r"
+          ],
+          "dos": [
+            "f55v"
+          ],
+          "temoins": [
+            [
+              "f66v"
+            ],
+            [
+              "f41v"
+            ],
+            [
+              "f50v"
+            ],
+            [
+              "f26v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f55r": [
+          150
+        ]
+      },
+      "ambiguous_montages_sharing_target": {
+        "f55r": [
+          "MK04"
+        ]
+      },
+      "source_folio": "f99",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f99v.31",
+          "target": "f55r"
+        }
+      ]
+    },
+    {
+      "fragment": 116,
+      "quire": 19,
+      "source_page": "f100r",
+      "loci": [
+        "f100r.2"
+      ],
+      "targets": [
+        "f96v"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f96v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "sure",
+          "reason": "Le groupe isolé au-dessus de la tige enroulée est centré sur ce dessin. Des groupes distincts surmontent ses voisins."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V04",
+          "options": [
+            "f51r",
+            "f48r",
+            "f96v",
+            "f36r"
+          ],
+          "expected": "C",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "968a2b2c0d362dad3d93f47cc187ce8c32d720c9744352d9588171e9a09a7920"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f100r.2",
+          "target": "f96v",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f100r.2",
+          "target": "f96v",
+          "opposite": [
+            "f96r"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {
+        "f96v": [
+          94
+        ]
+      },
+      "target_folio_shared_with": {
+        "f96v": [
+          94
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f100",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f100r.2",
+          "target": "f96v"
+        }
+      ]
+    },
+    {
+      "fragment": 133,
+      "quire": 19,
+      "source_page": "f100v",
+      "loci": [
+        "f100v.3"
+      ],
+      "targets": [
+        "f13v"
+      ],
+      "attachment": "faible",
+      "double_agreement": true,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f13v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "faible",
+          "reason": "Inscription entre le bouquet à racine jaune et le dessin de droite."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V01",
+          "options": [
+            "f13v",
+            "f96v",
+            "f44r",
+            "f48r"
+          ],
+          "expected": "A",
+          "votes": [
+            {
+              "choice": "A",
+              "page": "f13v",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "A",
+              "page": "f13v",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": true,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "7a285448821ee15825f088795c2bdd6fce50199f516edc64a9b2789fa391e9d9"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f100v.3",
+          "target": "f13v",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f100v.3",
+          "target": "f13v",
+          "opposite": [
+            "f13r"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f100",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f100v.3",
+          "target": "f13v"
+        }
+      ]
+    },
+    {
+      "fragment": 136,
+      "quire": 19,
+      "source_page": "f100v",
+      "loci": [
+        "f100v.6"
+      ],
+      "targets": [
+        "f90v2"
+      ],
+      "attachment": "faible",
+      "double_agreement": true,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f90v2"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "faible",
+          "reason": "Légendes dans les intervalles sous les tiges et près des plantes de la rangée suivante."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V08",
+          "options": [
+            "f44r",
+            "f51r",
+            "f90v2",
+            "f96v"
+          ],
+          "expected": "C",
+          "votes": [
+            {
+              "choice": "C",
+              "page": "f90v2",
+              "confidence": "forte"
+            },
+            {
+              "choice": "C",
+              "page": "f90v2",
+              "confidence": "forte"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": true,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "3ffdee4066478fb927f8aa25fbb19209eb50055adcbc5b0213c215ffd4fb08be"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f100v.6",
+          "target": "f90v2",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f100v.6",
+          "target": "f90v2",
+          "opposite": [
+            "f90r1",
+            "f90r2"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f90v2": [
+          11,
+          110
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f100",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f100v.6",
+          "target": "f90v2"
+        }
+      ]
+    },
+    {
+      "fragment": 150,
+      "quire": 19,
+      "source_page": "f101r",
+      "loci": [],
+      "targets": [
+        "f30v",
+        "f55v"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 2,
+        "column": 2
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f30v",
+            "f55v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "plusieurs plantes candidates"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Aucune légende Lf sur la face. Deux pages proposées dans le catalogue."
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f30v": {
+          "dessin": [
+            "f30v"
+          ],
+          "dos": [
+            "f30r"
+          ],
+          "temoins": [
+            [
+              "f9r"
+            ],
+            [
+              "f16r"
+            ],
+            [
+              "f22r"
+            ],
+            [
+              "f17r"
+            ]
+          ]
+        },
+        "f55v": {
+          "dessin": [
+            "f55v"
+          ],
+          "dos": [
+            "f55r"
+          ],
+          "temoins": [
+            [
+              "f26r"
+            ],
+            [
+              "f50r"
+            ],
+            [
+              "f41r"
+            ],
+            [
+              "f31r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f30v": [
+          28
+        ],
+        "f55v": [
+          113
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f101",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 155,
+      "quire": 19,
+      "source_page": "f101r",
+      "loci": [],
+      "targets": [
+        "f49r"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 3,
+        "column": 2
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f49r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Aucune légende Lf sur la face."
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f49r": {
+          "dessin": [
+            "f49r"
+          ],
+          "dos": [
+            "f49v"
+          ],
+          "temoins": [
+            [
+              "f17v"
+            ],
+            [
+              "f16v"
+            ],
+            [
+              "f52v"
+            ],
+            [
+              "f56v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f101",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 168,
+      "quire": 19,
+      "source_page": "f101r",
+      "loci": [],
+      "targets": [
+        "f4v"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 3,
+        "column": 5
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f4v"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Aucune légende Lf sur la face."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/ATTACHES_Q19.json",
+          "attachment": "absente",
+          "reason": "Branche verte de la dernière rangée. Toute la face est sans ligne Lf. Rapprochement figurant déjà dans le registre de Zandbergen, auparavant inéligible."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "rank": 3,
+          "montage": "MK03",
+          "source_url": "https://www.voynich.ninja/attachment.php?aid=7586",
+          "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7586",
+          "target": "f4v",
+          "source_page": "f101r",
+          "reason": "Dernière rangée, connu du catalogue. Aucune étiquette Lf sur cette page.",
+          "status": "sans étiquette",
+          "source_photo": "https://voynich.nu/q19/f101r_crd.jpg",
+          "target_photo": "https://voynich.nu/q01/f004v_crd.jpg"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f4v": {
+          "dessin": [
+            "f4v"
+          ],
+          "dos": [
+            "f4r"
+          ],
+          "temoins": [
+            [
+              "f25r"
+            ],
+            [
+              "f29r"
+            ],
+            [
+              "f11r"
+            ],
+            [
+              "f17r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f101",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 188,
+      "quire": 19,
+      "source_page": "f101v",
+      "loci": [
+        "f101v.7"
+      ],
+      "targets": [
+        "f37r"
+      ],
+      "attachment": "faible",
+      "double_agreement": true,
+      "position": {
+        "row": 1,
+        "column": 7
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f37r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "faible",
+          "reason": "Neuf dessins et neuf loci Lf dans la rangée supérieure en deux panneaux. Le septième est le troisième sur le panneau droit. La légende dans un intervalle entre plantes est attribuée par ordre de rangée."
+        }
+      ],
+      "cards": [
+        {
+          "id": "N15",
+          "options": [
+            "f43v",
+            "f90r2",
+            "f37r",
+            "f57r"
+          ],
+          "expected": "C",
+          "votes": [
+            {
+              "choice": "C",
+              "page": "f37r",
+              "confidence": "forte"
+            },
+            {
+              "choice": "C",
+              "page": "f37r",
+              "confidence": "forte"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": true,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "1e4a57b44d488a4d688103c72d4fdfa966bde13fc9d6ba0149abd36492a0c035"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f101v.7",
+          "target": "f37r"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f101v.7",
+          "target": "f37r"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f37r": {
+          "dessin": [
+            "f37r"
+          ],
+          "dos": [
+            "f37v"
+          ],
+          "temoins": [
+            [
+              "f17v"
+            ],
+            [
+              "f16v"
+            ],
+            [
+              "f52v"
+            ],
+            [
+              "f56v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f37r": [
+          203
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f101",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f101v.7",
+          "target": "f37r"
+        }
+      ]
+    },
+    {
+      "fragment": 199,
+      "quire": 19,
+      "source_page": "f101v1",
+      "loci": [],
+      "targets": [
+        "f3r"
+      ],
+      "attachment": "absente",
+      "double_agreement": false,
+      "position": {
+        "row": 3,
+        "column": 8
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/ATTACHES_Q19.json",
+          "attachment": "absente",
+          "reason": "Avant-dernier fragment dans la troisième rangée, sur le panneau de droite, trois paires de feuilles et un sommet. Les 18 loci Lf de la page sont tous dans les deux rangées supérieures."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "rank": 8,
+          "montage": "MK08",
+          "source_url": "https://www.voynich.ninja/attachment.php?aid=7591",
+          "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7591",
+          "target": "f3r",
+          "source_page": "f101v1",
+          "reason": "Avant-dernier fragment de la troisième rangée, le rameau à sept feuilles ovales. Les seules étiquettes de f101v concernent les deux premières rangées.",
+          "status": "sans étiquette",
+          "source_photo": "https://voynich.nu/q19/f101v1_crd.jpg",
+          "target_photo": "https://voynich.nu/q01/f003r_crd.jpg"
+        }
+      ],
+      "cards": [
+        {
+          "id": "K02",
+          "options": [
+            "f9v",
+            "f3r",
+            "f37r",
+            "f90r2"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": "B",
+              "page": "f3r",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "A",
+              "page": "f9v",
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/visuel/CLE_CARTES.json",
+          "sha256": "e06d3d42f58dd4a429742de4e6ec2ec7e4e8e1ea124019935e1158e3acf8528b"
+        }
+      ],
+      "prior_tests": [],
+      "alternatives": [],
+      "editorial_page": "f101v",
+      "prior_destinations": {
+        "f3r": {
+          "dessin": [
+            "f3r"
+          ],
+          "dos": [
+            "f3v"
+          ],
+          "temoins": [
+            [
+              "f14v"
+            ],
+            [
+              "f22v"
+            ],
+            [
+              "f28v"
+            ],
+            [
+              "f54v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f3r": [
+          102
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f101",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 203,
+      "quire": 19,
+      "source_page": "f102r1",
+      "loci": [],
+      "targets": [
+        "f37v"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 3,
+        "column": 1
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f37v"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Seul Lf de la face numéroté 201b. Une inscription Lc 203a correspond au contenant. Les deux dessins en bas restent sans légende Lf."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f37v",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102r1",
+            "rang": 3,
+            "colonne": 1,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f37v": {
+          "dessin": [
+            "f37v"
+          ],
+          "dos": [
+            "f37r"
+          ],
+          "temoins": [
+            [
+              "f25r"
+            ],
+            [
+              "f29r"
+            ],
+            [
+              "f11r"
+            ],
+            [
+              "f17r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {
+        "f37v": [
+          188
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 204,
+      "quire": 19,
+      "source_page": "f102r1",
+      "loci": [],
+      "targets": [
+        "f1v"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 3,
+        "column": 2
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f1v"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Seul Lf de la face numéroté 201b."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f1v",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102r1",
+            "rang": 3,
+            "colonne": 2,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f1v": {
+          "dessin": [
+            "f1v"
+          ],
+          "dos": [
+            "f1r"
+          ],
+          "temoins": [
+            [
+              "f9r"
+            ],
+            [
+              "f16r"
+            ],
+            [
+              "f22r"
+            ],
+            [
+              "f17r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 205,
+      "quire": 19,
+      "source_page": "f102r2",
+      "loci": [],
+      "targets": [
+        "f47v"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 1,
+        "column": 1
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f47v"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Les seuls Lf du panneau sont les fragments 212 et 213 en bas."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f47v",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102r2",
+            "rang": 1,
+            "colonne": 1,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f47v": {
+          "dessin": [
+            "f47v"
+          ],
+          "dos": [
+            "f47r"
+          ],
+          "temoins": [
+            [
+              "f2r"
+            ],
+            [
+              "f54r"
+            ],
+            [
+              "f14r"
+            ],
+            [
+              "f20r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 206,
+      "quire": 19,
+      "source_page": "f102r2",
+      "loci": [],
+      "targets": [
+        "f32v"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 1,
+        "column": 2
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f32v"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Les seuls Lf du panneau sont les fragments 212 et 213 en bas."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f32v",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102r2",
+            "rang": 1,
+            "colonne": 2,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f32v": {
+          "dessin": [
+            "f32v"
+          ],
+          "dos": [
+            "f32r"
+          ],
+          "temoins": [
+            [
+              "f11r"
+            ],
+            [
+              "f28r"
+            ],
+            [
+              "f5r"
+            ],
+            [
+              "f93r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 207,
+      "quire": 19,
+      "source_page": "f102r2",
+      "loci": [],
+      "targets": [
+        "f39v"
+      ],
+      "attachment": "absente",
+      "double_agreement": true,
+      "position": {
+        "row": 2,
+        "column": 1
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/ATTACHES_Q19.json",
+          "attachment": "absente",
+          "reason": "Racine orangée en étoile près du pot de la deuxième rangée. La région comparée par Knowles inclut un petit bout du végétal voisin. Le masque retient la racine centrale seule. Les deux seules étiquettes Lf de la face sont celles des fragments 212 et 213."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json",
+          "rank": 6,
+          "montage": "MK06",
+          "source_url": "https://www.voynich.ninja/attachment.php?aid=7589",
+          "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7589",
+          "target": "f39v",
+          "source_page": "f102r2",
+          "reason": "Surtout le premier fragment de la deuxième rangée, avec une partie du voisin. Les seules étiquettes de plante du panneau correspondent à 212/213.",
+          "status": "sans étiquette",
+          "source_photo": "https://voynich.nu/q19/f102r2_crd.jpg",
+          "target_photo": "https://voynich.nu/q05/f039v_crd.jpg"
+        }
+      ],
+      "cards": [
+        {
+          "id": "K04",
+          "options": [
+            "f41r",
+            "f9v",
+            "f3v",
+            "f39v"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": "D",
+              "page": "f39v",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "D",
+              "page": "f39v",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": true,
+          "path": "research/2026-11-17-verso-premiere-ligne/knowles/visuel/CLE_CARTES.json",
+          "sha256": "07dec3a987f2d22a19c89d7a98c88ce0bbb581b520ffe36e64f79a17a145ddda"
+        }
+      ],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f39v": {
+          "dessin": [
+            "f39v"
+          ],
+          "dos": [
+            "f39r"
+          ],
+          "temoins": [
+            [
+              "f46r"
+            ],
+            [
+              "f26r"
+            ],
+            [
+              "f50r"
+            ],
+            [
+              "f41r"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 209,
+      "quire": 19,
+      "source_page": "f102r2",
+      "loci": [],
+      "targets": [
+        "f53r"
+      ],
+      "attachment": "absente",
+      "double_agreement": null,
+      "position": {
+        "row": 2,
+        "column": 3
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f53r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "aucun locus Lf indexé par ce numéro"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "absente",
+          "reason": "Les seuls Lf du panneau sont les fragments 212 et 213 en bas."
+        }
+      ],
+      "cards": [],
+      "prior_tests": [],
+      "alternatives": [],
+      "prior_destinations": {
+        "f53r": {
+          "dessin": [
+            "f53r"
+          ],
+          "dos": [
+            "f53v"
+          ],
+          "temoins": [
+            [
+              "f52v"
+            ],
+            [
+              "f56v"
+            ],
+            [
+              "f21v"
+            ],
+            [
+              "f11v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {
+        "f53r": [
+          217
+        ]
+      },
+      "target_folio_shared_with": {
+        "f53r": [
+          217
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": false,
+      "cross_product": []
+    },
+    {
+      "fragment": 212,
+      "quire": 19,
+      "source_page": "f102r2",
+      "loci": [
+        "f102r2.21"
+      ],
+      "targets": [
+        "f18v"
+      ],
+      "attachment": "pilote_non_cotee",
+      "double_agreement": null,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f18v"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "ancien pilote"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f18v",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102r2",
+            "rang": 3,
+            "colonne": 1,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        },
+        {
+          "path": "voynich_phase45/PAIRS.json",
+          "attachment": "pilote_non_cotee",
+          "reason": "Racine horizontale a excroissances et longue terminaison recourbee; inscription au-dessus."
+        },
+        {
+          "path": "voynich_phase45/PAIRS.json",
+          "source": "coordinateur, examen non aveugle",
+          "target": "f18v",
+          "reason": "Racine horizontale a excroissances et longue terminaison recourbee; inscription au-dessus."
+        }
+      ],
+      "cards": [],
+      "prior_tests": [
+        {
+          "kind": "phase45",
+          "path": "voynich_phase45/PAIRS.json",
+          "locus": "f102r2.21",
+          "target": "f18v"
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f102r2.21",
+          "target": "f18v"
+        }
+      ]
+    },
+    {
+      "fragment": 213,
+      "quire": 19,
+      "source_page": "f102r2",
+      "loci": [
+        "f102r2.22"
+      ],
+      "targets": [
+        "f23r"
+      ],
+      "attachment": "pilote_non_cotee",
+      "double_agreement": null,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f23r"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": "ancien pilote"
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f23r",
+          "source_detail": {
+            "note_coordonnees": null,
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102r2",
+            "rang": 3,
+            "colonne": 2,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        },
+        {
+          "path": "voynich_phase45/PAIRS.json",
+          "attachment": "pilote_non_cotee",
+          "reason": "Racine horizontale segmentee portant de nombreux prolongements; inscription au-dessus, proche du pli."
+        },
+        {
+          "path": "voynich_phase45/PAIRS.json",
+          "source": "coordinateur, examen non aveugle",
+          "target": "f23r",
+          "reason": "Racine horizontale segmentee portant de nombreux prolongements; inscription au-dessus, proche du pli."
+        }
+      ],
+      "cards": [],
+      "prior_tests": [
+        {
+          "kind": "phase45",
+          "path": "voynich_phase45/PAIRS.json",
+          "locus": "f102r2.22",
+          "target": "f23r"
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f102r2.22",
+          "target": "f23r"
+        }
+      ]
+    },
+    {
+      "fragment": 217,
+      "quire": 19,
+      "source_page": "f102v2",
+      "loci": [
+        "f102v2.6"
+      ],
+      "targets": [
+        "f53r"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {
+        "row": 1,
+        "column": 4
+      },
+      "evidence": [
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/Q19.json",
+          "attachment": "sure",
+          "reason": "Petit bloc bleu isolé, distinct du limbe de part et d’autre. La légende est centrée immédiatement au-dessus du bloc. Un caractère est incertain dans ZL ; le jugement présent concerne uniquement son emplacement."
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f53r",
+          "source_detail": {
+            "source": "Petersen, table des marginalia",
+            "texte": "cf fol. 102 no 217"
+          },
+          "source_url": "https://www.voynich.nu/extra/herb_oldid.html"
+        }
+      ],
+      "cards": [
+        {
+          "id": "N04",
+          "options": [
+            "f53r",
+            "f24r",
+            "f57r",
+            "f15v"
+          ],
+          "expected": "A",
+          "votes": [
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-verso-premiere-ligne/visuel/CLE_CARTES.json",
+          "sha256": "e2d7aaa5b4aa3f887bdd8f3a24c4e280f96b4805ea9006622f6e1274610e2d42"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "inscrit_non_evaluable_dessin_dos_ligne1",
+          "path": "research/2026-11-17-verso-premiere-ligne/RESULTATS.json",
+          "locus": "f102v2.6",
+          "target": "f53r"
+        },
+        {
+          "kind": "variante_edition_dos",
+          "path": "research/2026-11-17-verso-premiere-ligne/VARIANTES.json",
+          "locus": "f102v2.6",
+          "target": "f53r"
+        }
+      ],
+      "alternatives": [],
+      "prior_destinations": {
+        "f53r": {
+          "dessin": [
+            "f53r"
+          ],
+          "dos": [
+            "f53v"
+          ],
+          "temoins": [
+            [
+              "f52v"
+            ],
+            [
+              "f56v"
+            ],
+            [
+              "f21v"
+            ],
+            [
+              "f11v"
+            ]
+          ]
+        }
+      },
+      "target_shared_with": {
+        "f53r": [
+          209
+        ]
+      },
+      "target_folio_shared_with": {
+        "f53r": [
+          209
+        ]
+      },
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f102v2.6",
+          "target": "f53r"
+        }
+      ]
+    },
+    {
+      "fragment": 225,
+      "quire": 19,
+      "source_page": "f102v2",
+      "loci": [
+        "f102v2.14"
+      ],
+      "targets": [
+        "f36r"
+      ],
+      "attachment": "sure",
+      "double_agreement": false,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f36r"
+          ],
+          "qualification": "shows some similarity with the plant",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "sure",
+          "reason": "Sur l’image corrigée, légende juste sous le petit limbe lobé, distincte des inscriptions sous les motifs à sa gauche et à sa droite."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V09",
+          "options": [
+            "f48r",
+            "f36r",
+            "f19r",
+            "f90v2"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": "A",
+              "page": "f48r",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": "A",
+              "page": "f48r",
+              "confidence": "faible"
+            }
+          ],
+          "active": false,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-plantes-repetees/visuel/INDEX_CARTES.json",
+          "sha256": "009af94433a6749e59e116bb9f612606068fe215dc20e40ae5dad5feb685e1ae"
+        },
+        {
+          "id": "V09b",
+          "options": [
+            "f19r",
+            "f90v2",
+            "f48r",
+            "f36r"
+          ],
+          "expected": "D",
+          "votes": [
+            {
+              "choice": "D",
+              "page": "f36r",
+              "confidence": "moyenne"
+            },
+            {
+              "choice": null,
+              "page": null,
+              "confidence": "faible"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": false,
+          "double_agreement": false,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "dd696b7a7dd63616f9c8d8816128476dcd33fd6db866f6905871ca5910dda5b1"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f102v2.14",
+          "target": "f36r",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f102v2.14",
+          "target": "f36r",
+          "opposite": [
+            "f36v"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f102v2.14",
+          "target": "f36r"
+        }
+      ]
+    },
+    {
+      "fragment": 240,
+      "quire": 19,
+      "source_page": "f102v1",
+      "loci": [
+        "f102v1.17"
+      ],
+      "targets": [
+        "f19r"
+      ],
+      "attachment": "faible",
+      "double_agreement": false,
+      "position": {},
+      "evidence": [
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/INVENTAIRE.json",
+          "source": "Zandbergen",
+          "targets": [
+            "f19r"
+          ],
+          "qualification": "appears to be the same plant as",
+          "source_url": "https://voynich.nu/q19/index.html",
+          "initial_exclusion": ""
+        },
+        {
+          "path": "research/2026-11-17-verso-premiere-ligne/sources/INVENTAIRE_EXTERNE.json",
+          "target": "f19r",
+          "source_detail": {
+            "note_coordonnees": "Photo appariée à l'objet central sur le panneau : deuxième plante (n°240), malgré l'indication 2:3 du fichier.",
+            "source": "Stolfi, planche de dessins",
+            "panneau": "f102v1",
+            "rang": 2,
+            "colonne": 3,
+            "qualite": "matches between Herbal and Pharma"
+          },
+          "source_url": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/064/work/projects/voynich/projects/programs/c/big/big/projects/voynich/Notes/102/work/Notes/091/report/report_091.html"
+        },
+        {
+          "path": "voynich_phase45/PAIRS.json",
+          "attachment": "pilote_non_cotee",
+          "reason": "Racine tronquee a prolongements ramifies et grande feuille retombante; inscription a droite."
+        },
+        {
+          "path": "voynich_phase45/PAIRS.json",
+          "source": "coordinateur, examen non aveugle",
+          "target": "f19r",
+          "reason": "Racine tronquee a prolongements ramifies et grande feuille retombante; inscription a droite."
+        },
+        {
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "attachment": "faible",
+          "reason": "Inscription à droite de la racine centrale, entre elle, une feuille verte proche et la racine de droite."
+        }
+      ],
+      "cards": [
+        {
+          "id": "V03",
+          "options": [
+            "f13v",
+            "f19r",
+            "f51r",
+            "f36r"
+          ],
+          "expected": "B",
+          "votes": [
+            {
+              "choice": "B",
+              "page": "f19r",
+              "confidence": "faible"
+            },
+            {
+              "choice": "B",
+              "page": "f19r",
+              "confidence": "moyenne"
+            }
+          ],
+          "active": true,
+          "both_choose_expected": true,
+          "double_agreement": false,
+          "path": "research/2026-11-17-plantes-repetees/visuel/DECISIONS.json",
+          "sha256": "33a499faae0f5b9bdb5675f50c63f3c4a914f775b7a8b12a3ddf2d0f0d32553a"
+        }
+      ],
+      "prior_tests": [
+        {
+          "kind": "phase45",
+          "path": "voynich_phase45/PAIRS.json",
+          "locus": "f102v1.17",
+          "target": "f19r"
+        },
+        {
+          "kind": "classement_corps",
+          "path": "research/2026-11-17-plantes-repetees/RESULTATS.json",
+          "locus": "f102v1.17",
+          "target": "f19r",
+          "reason": null
+        },
+        {
+          "kind": "audit_exact_dessin_dos",
+          "path": "research/2026-11-17-plantes-repetees/verso/audit.json",
+          "locus": "f102v1.17",
+          "target": "f19r",
+          "opposite": [
+            "f19v"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "target_shared_with": {},
+      "target_folio_shared_with": {},
+      "ambiguous_montages_sharing_target": {},
+      "source_folio": "f102",
+      "unique_locus_target": true,
+      "cross_product": [
+        {
+          "locus": "f102v1.17",
+          "target": "f19r"
+        }
+      ]
+    }
+  ],
+  "montages_indetermines": [
+    {
+      "rank": 4,
+      "montage": "MK04",
+      "source_url": "https://www.voynich.ninja/attachment.php?aid=7587",
+      "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7587",
+      "target": "f55r",
+      "source_page": "f89v2",
+      "reason": "Première rangée : deux motifs voisins avec racines distinctes sont conservés dans l'incrustation. Impossible d'en choisir un sans la légende de l'auteur.",
+      "status": "indéterminé",
+      "source_photo": "https://voynich.nu/q15/f089v2_crd.jpg",
+      "target_photo": "https://voynich.nu/q07/f055r_crd.jpg",
+      "quire": 15,
+      "alternatives": [
+        {
+          "fragment": 53,
+          "locus": "f89v2.5"
+        },
+        {
+          "fragment": 54,
+          "locus": "f89v2.6"
+        }
+      ],
+      "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json"
+    },
+    {
+      "rank": 5,
+      "montage": "MK05",
+      "source_url": "https://www.voynich.ninja/attachment.php?aid=7588",
+      "thumbnail_url": "https://www.voynich.ninja/attachment.php?thumbnail=7588",
+      "target": "f41r",
+      "source_page": "f89r1",
+      "reason": "Deuxième rangée : racines enroulée à gauche et mince à droite. Le cadrage ne désigne pas sans équivoque l'une de ces deux pièces.",
+      "status": "indéterminé",
+      "source_photo": "https://voynich.nu/q15/f089r1_crd.jpg",
+      "target_photo": "https://voynich.nu/q06/f041r_crd.jpg",
+      "quire": 15,
+      "alternatives": [
+        {
+          "fragment": 27,
+          "locus": "f89r1.12"
+        },
+        {
+          "fragment": 28,
+          "locus": "f89r1.13"
+        }
+      ],
+      "path": "research/2026-11-17-verso-premiere-ligne/knowles/CONTRE_LECTURE.json"
+    }
+  ]
+}
