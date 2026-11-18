@@ -10,6 +10,7 @@ sys.path.insert(0,str(HERE.parent))
 import confronter as co
 sys.path.insert(0,str(co.RESEARCH/"2026-11-18-opcheor-paralleles/variantes"))
 from compter import runs
+from transfert import corpus
 
 
 def prepare(library):
@@ -38,7 +39,7 @@ def prepare(library):
 
 
 def concordance(sizes):
-    editions,_=co.corpus() if hasattr(co,"corpus") else get_corpus()
+    editions,_=corpus()
     four=[]
     allowed={f"f{i}{side}" for i in (76,78,79,80,81,83) for side in ("r","v")}
     for rows in editions.values():
@@ -59,11 +60,6 @@ def concordance(sizes):
             for phrase,qty in counted.items():
                 shared[n].setdefault(phrase,{})[locus]=qty
     return shared, len(groups)
-
-
-def get_corpus():
-    from transfert import corpus
-    return corpus()
 
 
 def evaluate(key, pairs, triplets, targets, three):

@@ -1,0 +1,28 @@
+# Peut-on lire *aqua* et *aquas* ailleurs ?
+
+Les six clés construites à partir de *adibis aquas* ou de *aquas alias* donnent toutes la même lecture pour deux formes, **otol → aqua** et **otoly → aquas**. Nous avons recherché un voisin de ces mots que la même clé saurait lire sur une autre page. Hors des deux feuillets de départ, les quatre lectures concordent sur **57 occurrences de otol et quatre de otoly en prose**. Aucun des mots voisins ne donne l’expression attendue. [Prédictions déposées avant la recherche](ATTENTES.json) · [Occurrences et lecture de chaque voisin avec chacune des clés](LIEUX.json)
+
+## Quelle expression la clé permet-elle vraiment de prédire ?
+
+Le poème de Pierre d’Éboli emploie *aqua* 25 fois et *aquas* 11 fois. Après retrait des expressions déjà étudiées, 57 positions de voisin restent disponibles dans le même vers. On lit par exemple *hec aqua*, *inter aquas* et *aquas pelagi*. Avant d’ouvrir le Voynich, il est apparu que **trois des six clés peuvent écrire un seul de ces voisins, *usus* ; les trois autres ne peuvent en écrire aucun**. *Usus aqua* se trouve au vers 11 de la notice *Pugillus*. Dans cette expression, *aqua* est un ablatif singulier. [Notice XXIII et son texte](https://monumenta.ch/latein/text.php?tabelle=Petrus_de_Ebulo&rumpfid=Petrus%20de%20Ebulo,%20De%20Balneis%20Puteolanis,%20%20023&level=3&domain=&lang=0&links=&inframe=1&hide_apparatus=) · [Calcul de portée et complément fixé avant la recherche](EXTENSION.md)
+
+Selon les trois clés capables de cette lecture, il faudrait quatre unités `o y o y` pour écrire *usus*. Comme le modèle retire un o initial, la seule graphie de prose qui conserve ces quatre unités est **ooyoy**. Elle donnerait donc la prédiction concrète **ooyoy otol**. Le mot entier `ooyoy` lui-même n’a aucune occurrence concordante dans la prose réservée, quelle que soit sa position. Le critère initial de deux voisins distincts était matériellement hors de portée avec six clés aussi partielles. [Énumération des sorties possibles et contrôles](RESULTATS.json)
+
+| Forme de la prose Voynich | Lignes portant le mot dans au moins une des quatre lectures | Occurrences concordantes | Voisins immédiats concordants |
+|---|---:|---:|---:|
+| otol, singulier présumé | 67 | 57 | 90 |
+| otoly, pluriel présumé | 4 | 4 | 3 |
+
+Une ligne peut contenir deux fois le même mot. Les quatre occurrences retenues de `otoly` se trouvent à f37r.5, f48v.8, f67v2.3 et f104r.11. Les seuls voisins sûrs sont respectivement `chkol` à gauche, `chey` à droite et `qokair` à gauche de la dernière occurrence. À f67v2.3, les deux côtés demandent une abstention. Sur les 93 voisins disponibles des deux formes, 19 se déchiffrent entièrement avec au moins une clé. Aucun ne correspond au bon voisin latin dans la bonne direction. L’échange des deux nombres et l’inversion des côtés produisent également zéro. [Transcriptions concordantes](LIEUX.json) · [Lignes où les quatre lectures divergent sur la présence du mot](ECARTS.json)
+
+## Contrôles
+
+Nous avons chiffré par substitution le texte authentique du poème, puis appliqué la même recherche de voisinages autour des deux cibles chiffrées avec une clé complète connue. Les **57 positions sur 57** retrouvent alors le voisin de la concordance. L’échange de *aqua* et *aquas* donne zéro, de même qu’un décalage de la clé des voisins. Lorsque la notice entière à tester est retirée de la concordance, **17 positions sur 57** gardent leur voisin correct, dont 11 auprès de *aqua* et six auprès de *aquas*. Cinq formes reviennent d’une notice à l’autre, *hec*, *est*, *que*, *inter* et *pelagi*. [Mesures et références des 17 réussites](RESULTATS.json)
+
+Dix couples EVA d’une base avec sa forme en y, choisis par fréquences comparables, fournissent de 66 à 103 voisins exploitables chacun. Aucun ne donne un voisin latin attendu avec les clés inchangées. Si de nouvelles valeurs peuvent être inventées séparément à chaque emplacement, neuf des 93 voisins de la cible peuvent s’ajuster à une réponse latine, contre six avec le nombre échangé. Neuf des dix couples témoins donnent au moins autant d’ajustements que le couple étudié. La seule compatibilité graphique apporte donc peu d’information. Pour exiger un transfert réel, une extension devait apprendre sur les cahiers impairs la valeur d’exactement un signe, puis lire un voisin différent sur les cahiers pairs, auprès de l’autre forme en nombre. L’apprentissage n’a fourni aucune valeur admissible. Chaque lot contenait deux occurrences du pluriel présumé. [Prédictions d’extension sur le seul lot d’apprentissage](PREDICTIONS-EXTENSION.json) · [Dénominateurs et résultats de chaque témoin](RESULTATS.json)
+
+## Ce que montre le dessin
+
+Hors des feuillets 75 et 84, les deux inscriptions concordantes `otol` classées auprès d’un dispositif des bains figurent à **f77r.5** et **f77v.2**, sur les deux faces d’un seul feuillet. La seconde est suivie de `shedy`. La seule occurrence concordante hors prose de `otoly` est **f69v.3**, au milieu d’un long texte circulaire autour d’un diagramme. Cette géométrie ne rattache le mot à aucun ensemble dénombrable d’objets aquatiques. En latin même, un seul établissement peut avoir « des eaux ». Les éléments disponibles n'établissent donc pas le sens de l'alternance `otol/otoly`. [Deux faces du feuillet 77](https://www.voynich.nu/q13/index.html#f77r) · [Diagramme de f69v](https://www.voynich.nu/q10/index.html#f69v)
+
+La reproduction utilise le cache du texte latin décrit dans [les sources](../SOURCE.json). Depuis ce dossier, exécuter successivement `python3 -B predire.py CACHE`, `python3 -B verifier.py apprendre CACHE` et `python3 -B verifier.py verifier CACHE`. [Préparation des prévisions](predire.py) · [Programme de contrôle](verifier.py)

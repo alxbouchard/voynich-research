@@ -1,0 +1,11202 @@
+{
+ "sha256_source": "12c0df4a965d69e975682a1548d9019fba6d5ced4696a005adf1247ff2d34d8d",
+ "pieces": 34,
+ "vers": 414,
+ "paires_distinctes": 2035,
+ "positions": 2137,
+ "synthese": {
+  "notices": {
+   "intact": {
+    "n": 33,
+    "amorces": {
+     "exact_inclus": 33,
+     "exact_unique": 19,
+     "sans_solution": 0,
+     "lieu_exact_unique": 19
+    },
+    "transferts": [
+     {
+      "n": 33,
+      "tous_signes_couverts": 2,
+      "fixes": {
+       "au_moins_une": 2,
+       "une_reponse": 2,
+       "exact_inclus": 2,
+       "exact_unique": 2
+      },
+      "extensions": {
+       "au_moins_une": 33,
+       "une_reponse": 33,
+       "exact_inclus": 33,
+       "exact_unique": 33
+      }
+     },
+     {
+      "n": 33,
+      "tous_signes_couverts": 1,
+      "fixes": {
+       "au_moins_une": 1,
+       "une_reponse": 1,
+       "exact_inclus": 1,
+       "exact_unique": 1
+      },
+      "extensions": {
+       "au_moins_une": 33,
+       "une_reponse": 33,
+       "exact_inclus": 33,
+       "exact_unique": 33
+      }
+     }
+    ]
+   },
+   "transferts_alteres": {
+    "n": 33,
+    "amorces": {
+     "exact_inclus": 33,
+     "exact_unique": 19,
+     "sans_solution": 0,
+     "lieu_exact_unique": 19
+    },
+    "transferts": [
+     {
+      "n": 33,
+      "tous_signes_couverts": 2,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     },
+     {
+      "n": 33,
+      "tous_signes_couverts": 1,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     }
+    ]
+   },
+   "amorce_alteree": {
+    "n": 33,
+    "amorces": {
+     "exact_inclus": 0,
+     "exact_unique": 0,
+     "sans_solution": 33,
+     "lieu_exact_unique": 0
+    },
+    "transferts": [
+     {
+      "n": 33,
+      "tous_signes_couverts": 1,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     },
+     {
+      "n": 33,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     }
+    ]
+   }
+  },
+  "prologue": {
+   "intact": {
+    "n": 1,
+    "amorces": {
+     "exact_inclus": 1,
+     "exact_unique": 1,
+     "sans_solution": 0,
+     "lieu_exact_unique": 1
+    },
+    "transferts": [
+     {
+      "n": 1,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 1,
+       "une_reponse": 1,
+       "exact_inclus": 1,
+       "exact_unique": 1
+      }
+     },
+     {
+      "n": 1,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 1,
+       "une_reponse": 1,
+       "exact_inclus": 1,
+       "exact_unique": 1
+      }
+     }
+    ]
+   },
+   "transferts_alteres": {
+    "n": 1,
+    "amorces": {
+     "exact_inclus": 1,
+     "exact_unique": 1,
+     "sans_solution": 0,
+     "lieu_exact_unique": 1
+    },
+    "transferts": [
+     {
+      "n": 1,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     },
+     {
+      "n": 1,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     }
+    ]
+   },
+   "amorce_alteree": {
+    "n": 1,
+    "amorces": {
+     "exact_inclus": 0,
+     "exact_unique": 0,
+     "sans_solution": 1,
+     "lieu_exact_unique": 0
+    },
+    "transferts": [
+     {
+      "n": 1,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     },
+     {
+      "n": 1,
+      "tous_signes_couverts": 0,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     }
+    ]
+   }
+  },
+  "couverture_construite": {
+   "intact": {
+    "n": 14,
+    "amorces": {
+     "exact_inclus": 14,
+     "exact_unique": 10,
+     "sans_solution": 0,
+     "lieu_exact_unique": 10
+    },
+    "transferts": [
+     {
+      "n": 14,
+      "tous_signes_couverts": 14,
+      "fixes": {
+       "au_moins_une": 14,
+       "une_reponse": 14,
+       "exact_inclus": 14,
+       "exact_unique": 14
+      },
+      "extensions": {
+       "au_moins_une": 14,
+       "une_reponse": 14,
+       "exact_inclus": 14,
+       "exact_unique": 14
+      }
+     }
+    ]
+   }
+  },
+  "bain_XVI": {
+   "intact": {
+    "n": 1,
+    "amorces": {
+     "exact_inclus": 1,
+     "exact_unique": 1,
+     "sans_solution": 0,
+     "lieu_exact_unique": 1
+    },
+    "transferts": [
+     {
+      "n": 1,
+      "tous_signes_couverts": 1,
+      "fixes": {
+       "au_moins_une": 1,
+       "une_reponse": 1,
+       "exact_inclus": 1,
+       "exact_unique": 1
+      },
+      "extensions": {
+       "au_moins_une": 1,
+       "une_reponse": 1,
+       "exact_inclus": 1,
+       "exact_unique": 1
+      }
+     }
+    ]
+   },
+   "transferts_alteres": {
+    "n": 1,
+    "amorces": {
+     "exact_inclus": 1,
+     "exact_unique": 1,
+     "sans_solution": 0,
+     "lieu_exact_unique": 1
+    },
+    "transferts": [
+     {
+      "n": 1,
+      "tous_signes_couverts": 1,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     }
+    ]
+   },
+   "amorce_alteree": {
+    "n": 1,
+    "amorces": {
+     "exact_inclus": 0,
+     "exact_unique": 0,
+     "sans_solution": 1,
+     "lieu_exact_unique": 0
+    },
+    "transferts": [
+     {
+      "n": 1,
+      "tous_signes_couverts": 1,
+      "fixes": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      },
+      "extensions": {
+       "au_moins_une": 0,
+       "une_reponse": 0,
+       "exact_inclus": 0,
+       "exact_unique": 0
+      }
+     }
+    ]
+   }
+  }
+ },
+ "exemple_XVI": [
+  {
+   "jeu": "bain_XVI",
+   "notice": 16,
+   "regime": "intact",
+   "origine": "adibis aquas",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s21",
+      "s12",
+      "s00",
+      "s12",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "aquas aqua",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "candidats_amorce": {
+    "adibis aquas": [
+     [
+      16,
+      8,
+      4
+     ]
+    ]
+   },
+   "candidats_fixes": [
+    "aquas aqua"
+   ],
+   "candidats_extensions": [
+    "aquas aqua"
+   ]
+  },
+  {
+   "jeu": "bain_XVI",
+   "notice": 16,
+   "regime": "transferts_alteres",
+   "origine": "adibis aquas",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s21",
+      "s12",
+      "s00",
+      "s12",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "aquas aqua",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ],
+   "candidats_amorce": {
+    "adibis aquas": [
+     [
+      16,
+      8,
+      4
+     ]
+    ]
+   },
+   "candidats_fixes": [],
+   "candidats_extensions": []
+  },
+  {
+   "jeu": "bain_XVI",
+   "notice": 16,
+   "regime": "amorce_alteree",
+   "origine": "adibis aquas",
+   "chiffres": [
+    [
+     [
+      "s21",
+      "s21",
+      "s12",
+      "s00",
+      "s12",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "aquas aqua",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ],
+   "candidats_amorce": {},
+   "candidats_fixes": [],
+   "candidats_extensions": []
+  }
+ ],
+ "epreuves": [
+  {
+   "jeu": "prologue",
+   "notice": 0,
+   "regime": "intact",
+   "origine": "inter opes",
+   "chiffres": [
+    [
+     [
+      "s03",
+      "s25",
+      "s04",
+      "s13",
+      "s12"
+     ],
+     [
+      "s19",
+      "s18",
+      "s13",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s25"
+     ],
+     [
+      "s07",
+      "s05",
+      "s03",
+      "s21",
+      "s05",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s13",
+      "s15"
+     ],
+     [
+      "s15",
+      "s06",
+      "s04",
+      "s03",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "in quibus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "res satis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "prologue",
+   "notice": 0,
+   "regime": "transferts_alteres",
+   "origine": "inter opes",
+   "chiffres": [
+    [
+     [
+      "s03",
+      "s25",
+      "s04",
+      "s13",
+      "s12"
+     ],
+     [
+      "s19",
+      "s18",
+      "s13",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s25"
+     ],
+     [
+      "s07",
+      "s05",
+      "s03",
+      "s21",
+      "s05",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s13",
+      "s13",
+      "s15"
+     ],
+     [
+      "s15",
+      "s06",
+      "s04",
+      "s03",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "in quibus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "res satis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "prologue",
+   "notice": 0,
+   "regime": "amorce_alteree",
+   "origine": "inter opes",
+   "chiffres": [
+    [
+     [
+      "s25",
+      "s25",
+      "s04",
+      "s13",
+      "s12"
+     ],
+     [
+      "s19",
+      "s18",
+      "s13",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s25"
+     ],
+     [
+      "s07",
+      "s05",
+      "s03",
+      "s21",
+      "s05",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s13",
+      "s15"
+     ],
+     [
+      "s15",
+      "s06",
+      "s04",
+      "s03",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "in quibus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "res satis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 1,
+   "regime": "intact",
+   "origine": "absque liquore",
+   "chiffres": [
+    [
+     [
+      "s24",
+      "s10",
+      "s07",
+      "s18",
+      "s06",
+      "s20"
+     ],
+     [
+      "s01",
+      "s05",
+      "s18",
+      "s06",
+      "s00",
+      "s04",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s24",
+      "s08"
+     ],
+     [
+      "s07",
+      "s00",
+      "s01",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s12",
+      "s13",
+      "s20"
+     ],
+     [
+      "s17",
+      "s00",
+      "s08",
+      "s06",
+      "s08"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "nam solo",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "ante domum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 1,
+   "regime": "transferts_alteres",
+   "origine": "absque liquore",
+   "chiffres": [
+    [
+     [
+      "s24",
+      "s10",
+      "s07",
+      "s18",
+      "s06",
+      "s20"
+     ],
+     [
+      "s01",
+      "s05",
+      "s18",
+      "s06",
+      "s00",
+      "s04",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s24",
+      "s08"
+     ],
+     [
+      "s07",
+      "s00",
+      "s01",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s12",
+      "s13",
+      "s20"
+     ],
+     [
+      "s17",
+      "s00",
+      "s08",
+      "s06",
+      "s08"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "nam solo",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "ante domum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 1,
+   "regime": "amorce_alteree",
+   "origine": "absque liquore",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s10",
+      "s07",
+      "s18",
+      "s06",
+      "s20"
+     ],
+     [
+      "s01",
+      "s05",
+      "s18",
+      "s06",
+      "s00",
+      "s04",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s24",
+      "s08"
+     ],
+     [
+      "s07",
+      "s00",
+      "s01",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s12",
+      "s13",
+      "s20"
+     ],
+     [
+      "s17",
+      "s00",
+      "s08",
+      "s06",
+      "s08"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "nam solo",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "ante domum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 1,
+   "regime": "intact",
+   "origine": "absque liquore",
+   "chiffres": [
+    [
+     [
+      "s24",
+      "s10",
+      "s07",
+      "s18",
+      "s06",
+      "s20"
+     ],
+     [
+      "s01",
+      "s05",
+      "s18",
+      "s06",
+      "s00",
+      "s04",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s05"
+     ],
+     [
+      "s18",
+      "s06",
+      "s05",
+      "s07"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "si quis",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    1,
+    5,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 2,
+   "regime": "intact",
+   "origine": "mollificat nervos",
+   "chiffres": [
+    [
+     [
+      "s01",
+      "s13",
+      "s00",
+      "s00",
+      "s02",
+      "s20",
+      "s02",
+      "s04",
+      "s16",
+      "s25"
+     ],
+     [
+      "s12",
+      "s24",
+      "s06",
+      "s22",
+      "s13",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s24",
+      "s05",
+      "s05",
+      "s16",
+      "s25"
+     ],
+     [
+      "s02",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s01",
+      "s07",
+      "s06",
+      "s24",
+      "s11",
+      "s12",
+      "s16",
+      "s25"
+     ],
+     [
+      "s05",
+      "s25",
+      "s24",
+      "s06",
+      "s02",
+      "s00",
+      "s24",
+      "s05"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "cessat in",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "impregnat steriles",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 2,
+   "regime": "transferts_alteres",
+   "origine": "mollificat nervos",
+   "chiffres": [
+    [
+     [
+      "s01",
+      "s13",
+      "s00",
+      "s00",
+      "s02",
+      "s20",
+      "s02",
+      "s04",
+      "s16",
+      "s25"
+     ],
+     [
+      "s12",
+      "s24",
+      "s06",
+      "s22",
+      "s13",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s24",
+      "s05",
+      "s05",
+      "s16",
+      "s25"
+     ],
+     [
+      "s02",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s01",
+      "s07",
+      "s06",
+      "s24",
+      "s11",
+      "s12",
+      "s16",
+      "s25"
+     ],
+     [
+      "s05",
+      "s25",
+      "s24",
+      "s06",
+      "s02",
+      "s00",
+      "s24",
+      "s05"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "cessat in",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "impregnat steriles",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 2,
+   "regime": "amorce_alteree",
+   "origine": "mollificat nervos",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s13",
+      "s00",
+      "s00",
+      "s02",
+      "s20",
+      "s02",
+      "s04",
+      "s16",
+      "s25"
+     ],
+     [
+      "s12",
+      "s24",
+      "s06",
+      "s22",
+      "s13",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s24",
+      "s05",
+      "s05",
+      "s16",
+      "s25"
+     ],
+     [
+      "s02",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s01",
+      "s07",
+      "s06",
+      "s24",
+      "s11",
+      "s12",
+      "s16",
+      "s25"
+     ],
+     [
+      "s05",
+      "s25",
+      "s24",
+      "s06",
+      "s02",
+      "s00",
+      "s24",
+      "s05"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "cessat in",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "impregnat steriles",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 2,
+   "regime": "intact",
+   "origine": "mollificat nervos",
+   "chiffres": [
+    [
+     [
+      "s01",
+      "s13",
+      "s00",
+      "s00",
+      "s02",
+      "s20",
+      "s02",
+      "s04",
+      "s16",
+      "s25"
+     ],
+     [
+      "s12",
+      "s24",
+      "s06",
+      "s22",
+      "s13",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s24",
+      "s05",
+      "s05",
+      "s16",
+      "s25"
+     ],
+     [
+      "s02",
+      "s12"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "cessat in",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    2,
+    2,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 3,
+   "regime": "intact",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s24",
+      "s15",
+      "s25"
+     ],
+     [
+      "s04",
+      "s13",
+      "s22",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s22",
+      "s20",
+      "s04",
+      "s00",
+      "s03"
+     ],
+     [
+      "s13",
+      "s22",
+      "s04",
+      "s00",
+      "s25",
+      "s22",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s25"
+     ],
+     [
+      "s12",
+      "s07",
+      "s01",
+      "s22",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "humani quantum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "et rogus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 3,
+   "regime": "transferts_alteres",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s24",
+      "s15",
+      "s25"
+     ],
+     [
+      "s04",
+      "s13",
+      "s22",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s22",
+      "s22",
+      "s20",
+      "s04",
+      "s00",
+      "s03"
+     ],
+     [
+      "s13",
+      "s22",
+      "s04",
+      "s00",
+      "s25",
+      "s22",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s25"
+     ],
+     [
+      "s12",
+      "s07",
+      "s01",
+      "s22",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "humani quantum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "et rogus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 3,
+   "regime": "amorce_alteree",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s15",
+      "s15",
+      "s25"
+     ],
+     [
+      "s04",
+      "s13",
+      "s22",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s22",
+      "s20",
+      "s04",
+      "s00",
+      "s03"
+     ],
+     [
+      "s13",
+      "s22",
+      "s04",
+      "s00",
+      "s25",
+      "s22",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s25"
+     ],
+     [
+      "s12",
+      "s07",
+      "s01",
+      "s22",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "humani quantum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "et rogus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 4,
+   "regime": "intact",
+   "origine": "dentibus astrunis",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s25",
+      "s12",
+      "s05",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s13",
+      "s05",
+      "s22",
+      "s04",
+      "s12",
+      "s19",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s25",
+      "s01"
+     ],
+     [
+      "s22",
+      "s25",
+      "s14",
+      "s14",
+      "s19",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s15",
+      "s04",
+      "s01",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s11",
+      "s05",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "hec reddit",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "faucibus apta",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 4,
+   "regime": "transferts_alteres",
+   "origine": "dentibus astrunis",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s25",
+      "s12",
+      "s05",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s13",
+      "s05",
+      "s22",
+      "s04",
+      "s12",
+      "s19",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s25",
+      "s01"
+     ],
+     [
+      "s22",
+      "s25",
+      "s14",
+      "s14",
+      "s19",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s15",
+      "s15",
+      "s04",
+      "s01",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s11",
+      "s05",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "hec reddit",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "faucibus apta",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 4,
+   "regime": "amorce_alteree",
+   "origine": "dentibus astrunis",
+   "chiffres": [
+    [
+     [
+      "s25",
+      "s25",
+      "s12",
+      "s05",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s13",
+      "s05",
+      "s22",
+      "s04",
+      "s12",
+      "s19",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s25",
+      "s01"
+     ],
+     [
+      "s22",
+      "s25",
+      "s14",
+      "s14",
+      "s19",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s15",
+      "s04",
+      "s01",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s11",
+      "s05",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "hec reddit",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "faucibus apta",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 4,
+   "regime": "intact",
+   "origine": "dentibus astrunis",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s25",
+      "s12",
+      "s05",
+      "s19",
+      "s09",
+      "s04",
+      "s13"
+     ],
+     [
+      "s15",
+      "s13",
+      "s05",
+      "s22",
+      "s04",
+      "s12",
+      "s19",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s22",
+      "s25",
+      "s14",
+      "s14",
+      "s19",
+      "s05"
+     ],
+     [
+      "s15",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "reddit ad",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    4,
+    2,
+    2
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 5,
+   "regime": "intact",
+   "origine": "balnea iuncare",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s16",
+      "s19",
+      "s08",
+      "s01",
+      "s16"
+     ],
+     [
+      "s17",
+      "s03",
+      "s08",
+      "s09",
+      "s16",
+      "s22",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s22",
+      "s18",
+      "s24",
+      "s03",
+      "s08",
+      "s15"
+     ],
+     [
+      "s09",
+      "s18",
+      "s08",
+      "s24",
+      "s03",
+      "s04",
+      "s12",
+      "s15",
+      "s17",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s01",
+      "s09",
+      "s15",
+      "s18",
+      "s22",
+      "s17",
+      "s24"
+     ],
+     [
+      "s16",
+      "s04",
+      "s17",
+      "s24",
+      "s24",
+      "s16",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "prosunt consumptis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "pectoris amissas",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 5,
+   "regime": "transferts_alteres",
+   "origine": "balnea iuncare",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s16",
+      "s19",
+      "s08",
+      "s01",
+      "s16"
+     ],
+     [
+      "s17",
+      "s03",
+      "s08",
+      "s09",
+      "s16",
+      "s22",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s22",
+      "s22",
+      "s18",
+      "s24",
+      "s03",
+      "s08",
+      "s15"
+     ],
+     [
+      "s09",
+      "s18",
+      "s08",
+      "s24",
+      "s03",
+      "s04",
+      "s12",
+      "s15",
+      "s17",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s01",
+      "s09",
+      "s15",
+      "s18",
+      "s22",
+      "s17",
+      "s24"
+     ],
+     [
+      "s16",
+      "s04",
+      "s17",
+      "s24",
+      "s24",
+      "s16",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "prosunt consumptis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "pectoris amissas",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 5,
+   "regime": "amorce_alteree",
+   "origine": "balnea iuncare",
+   "chiffres": [
+    [
+     [
+      "s16",
+      "s16",
+      "s19",
+      "s08",
+      "s01",
+      "s16"
+     ],
+     [
+      "s17",
+      "s03",
+      "s08",
+      "s09",
+      "s16",
+      "s22",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s22",
+      "s18",
+      "s24",
+      "s03",
+      "s08",
+      "s15"
+     ],
+     [
+      "s09",
+      "s18",
+      "s08",
+      "s24",
+      "s03",
+      "s04",
+      "s12",
+      "s15",
+      "s17",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s01",
+      "s09",
+      "s15",
+      "s18",
+      "s22",
+      "s17",
+      "s24"
+     ],
+     [
+      "s16",
+      "s04",
+      "s17",
+      "s24",
+      "s24",
+      "s16",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "prosunt consumptis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "pectoris amissas",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 6,
+   "regime": "intact",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s17",
+      "s07",
+      "s08",
+      "s25"
+     ],
+     [
+      "s00",
+      "s02",
+      "s11",
+      "s00",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s00",
+      "s14",
+      "s17",
+      "s11",
+      "s12"
+     ],
+     [
+      "s23",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s00",
+      "s10",
+      "s17",
+      "s08",
+      "s18",
+      "s10",
+      "s11",
+      "s06"
+     ],
+     [
+      "s22",
+      "s23",
+      "s01",
+      "s07",
+      "s11",
+      "s06"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "magnus in",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "balneolum dictum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 6,
+   "regime": "transferts_alteres",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s17",
+      "s07",
+      "s08",
+      "s25"
+     ],
+     [
+      "s00",
+      "s02",
+      "s11",
+      "s00",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s00",
+      "s00",
+      "s14",
+      "s17",
+      "s11",
+      "s12"
+     ],
+     [
+      "s23",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s00",
+      "s00",
+      "s10",
+      "s17",
+      "s08",
+      "s18",
+      "s10",
+      "s11",
+      "s06"
+     ],
+     [
+      "s22",
+      "s23",
+      "s01",
+      "s07",
+      "s11",
+      "s06"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "magnus in",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "balneolum dictum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 6,
+   "regime": "amorce_alteree",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s17",
+      "s17",
+      "s07",
+      "s08",
+      "s25"
+     ],
+     [
+      "s00",
+      "s02",
+      "s11",
+      "s00",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s00",
+      "s14",
+      "s17",
+      "s11",
+      "s12"
+     ],
+     [
+      "s23",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s00",
+      "s10",
+      "s17",
+      "s08",
+      "s18",
+      "s10",
+      "s11",
+      "s06"
+     ],
+     [
+      "s22",
+      "s23",
+      "s01",
+      "s07",
+      "s11",
+      "s06"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "magnus in",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "balneolum dictum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 6,
+   "regime": "intact",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s17",
+      "s07",
+      "s08",
+      "s25"
+     ],
+     [
+      "s00",
+      "s02",
+      "s11",
+      "s00",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s08",
+      "s17",
+      "s08",
+      "s12"
+     ],
+     [
+      "s08",
+      "s07"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "renes et",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    6,
+    7,
+    5
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 7,
+   "regime": "intact",
+   "origine": "limpha foris",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s25",
+      "s13",
+      "s08",
+      "s00",
+      "s22"
+     ],
+     [
+      "s18",
+      "s07",
+      "s02",
+      "s25",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s22"
+     ],
+     [
+      "s01",
+      "s03",
+      "s07",
+      "s13",
+      "s22",
+      "s04",
+      "s00",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s09",
+      "s15"
+     ],
+     [
+      "s24",
+      "s07",
+      "s04",
+      "s09",
+      "s03"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "a stomacho",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "sed nocet",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 7,
+   "regime": "transferts_alteres",
+   "origine": "limpha foris",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s25",
+      "s13",
+      "s08",
+      "s00",
+      "s22"
+     ],
+     [
+      "s18",
+      "s07",
+      "s02",
+      "s25",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s01"
+     ],
+     [
+      "s01",
+      "s03",
+      "s07",
+      "s13",
+      "s22",
+      "s04",
+      "s00",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s09",
+      "s09",
+      "s15"
+     ],
+     [
+      "s24",
+      "s07",
+      "s04",
+      "s09",
+      "s03"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "a stomacho",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "sed nocet",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 7,
+   "regime": "amorce_alteree",
+   "origine": "limpha foris",
+   "chiffres": [
+    [
+     [
+      "s25",
+      "s25",
+      "s13",
+      "s08",
+      "s00",
+      "s22"
+     ],
+     [
+      "s18",
+      "s07",
+      "s02",
+      "s25",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s22"
+     ],
+     [
+      "s01",
+      "s03",
+      "s07",
+      "s13",
+      "s22",
+      "s04",
+      "s00",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s09",
+      "s15"
+     ],
+     [
+      "s24",
+      "s07",
+      "s04",
+      "s09",
+      "s03"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "a stomacho",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "sed nocet",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 7,
+   "regime": "intact",
+   "origine": "limpha foris",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s25",
+      "s13",
+      "s08",
+      "s00",
+      "s22"
+     ],
+     [
+      "s18",
+      "s07",
+      "s02",
+      "s25",
+      "s01"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s08",
+      "s01",
+      "s22"
+     ],
+     [
+      "s18",
+      "s07",
+      "s02",
+      "s25",
+      "s01"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "ipsa foris",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    7,
+    12,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 8,
+   "regime": "intact",
+   "origine": "cui petra",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s23",
+      "s11"
+     ],
+     [
+      "s17",
+      "s20",
+      "s15",
+      "s01",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s23",
+      "s04",
+      "s21"
+     ],
+     [
+      "s13",
+      "s08",
+      "s17",
+      "s11",
+      "s21",
+      "s20",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s20",
+      "s15"
+     ],
+     [
+      "s14",
+      "s08",
+      "s17",
+      "s23",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 8,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 8,
+   "transferts": [
+    {
+     "vraie_paire": "quod lapidem",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "et caput",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 8,
+   "regime": "transferts_alteres",
+   "origine": "cui petra",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s23",
+      "s11"
+     ],
+     [
+      "s17",
+      "s20",
+      "s15",
+      "s01",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s23",
+      "s23",
+      "s04",
+      "s21"
+     ],
+     [
+      "s13",
+      "s08",
+      "s17",
+      "s11",
+      "s21",
+      "s20",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s15",
+      "s15"
+     ],
+     [
+      "s14",
+      "s08",
+      "s17",
+      "s23",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 8,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 8,
+   "transferts": [
+    {
+     "vraie_paire": "quod lapidem",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "et caput",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 8,
+   "regime": "amorce_alteree",
+   "origine": "cui petra",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s23",
+      "s11"
+     ],
+     [
+      "s17",
+      "s20",
+      "s15",
+      "s01",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s23",
+      "s04",
+      "s21"
+     ],
+     [
+      "s13",
+      "s08",
+      "s17",
+      "s11",
+      "s21",
+      "s20",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s20",
+      "s15"
+     ],
+     [
+      "s14",
+      "s08",
+      "s17",
+      "s23",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "quod lapidem",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "et caput",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 8,
+   "regime": "intact",
+   "origine": "cui petra",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s23",
+      "s11"
+     ],
+     [
+      "s17",
+      "s20",
+      "s15",
+      "s01",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s20",
+      "s15"
+     ],
+     [
+      "s14",
+      "s08",
+      "s17",
+      "s23",
+      "s15"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 8,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 8,
+   "transferts": [
+    {
+     "vraie_paire": "et caput",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    8,
+    3,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 9,
+   "regime": "intact",
+   "origine": "pulmoni prebet",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s24",
+      "s25",
+      "s01",
+      "s04",
+      "s10",
+      "s19"
+     ],
+     [
+      "s23",
+      "s09",
+      "s14",
+      "s02",
+      "s14",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s10",
+      "s05",
+      "s14"
+     ],
+     [
+      "s15",
+      "s24",
+      "s17",
+      "s18",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s14",
+      "s21"
+     ],
+     [
+      "s00",
+      "s13",
+      "s04",
+      "s01",
+      "s18",
+      "s21",
+      "s06",
+      "s19"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "inde fugat",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "hec stomachi",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 9,
+   "regime": "transferts_alteres",
+   "origine": "pulmoni prebet",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s24",
+      "s25",
+      "s01",
+      "s04",
+      "s10",
+      "s19"
+     ],
+     [
+      "s23",
+      "s09",
+      "s14",
+      "s02",
+      "s14",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s10",
+      "s05",
+      "s14"
+     ],
+     [
+      "s15",
+      "s24",
+      "s17",
+      "s18",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s14",
+      "s14",
+      "s21"
+     ],
+     [
+      "s00",
+      "s13",
+      "s04",
+      "s01",
+      "s18",
+      "s21",
+      "s06",
+      "s19"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "inde fugat",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec stomachi",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 9,
+   "regime": "amorce_alteree",
+   "origine": "pulmoni prebet",
+   "chiffres": [
+    [
+     [
+      "s24",
+      "s24",
+      "s25",
+      "s01",
+      "s04",
+      "s10",
+      "s19"
+     ],
+     [
+      "s23",
+      "s09",
+      "s14",
+      "s02",
+      "s14",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s10",
+      "s05",
+      "s14"
+     ],
+     [
+      "s15",
+      "s24",
+      "s17",
+      "s18",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s14",
+      "s21"
+     ],
+     [
+      "s00",
+      "s13",
+      "s04",
+      "s01",
+      "s18",
+      "s21",
+      "s06",
+      "s19"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "inde fugat",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec stomachi",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 9,
+   "regime": "intact",
+   "origine": "pulmoni prebet",
+   "chiffres": [
+    [
+     [
+      "s23",
+      "s24",
+      "s25",
+      "s01",
+      "s04",
+      "s10",
+      "s19"
+     ],
+     [
+      "s23",
+      "s09",
+      "s14",
+      "s02",
+      "s14",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s13"
+     ],
+     [
+      "s13",
+      "s19",
+      "s01",
+      "s04",
+      "s09"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "ut timor",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    9,
+    8,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 10,
+   "regime": "intact",
+   "origine": "ex re",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s05"
+     ],
+     [
+      "s19",
+      "s10"
+     ]
+    ],
+    [
+     [
+      "s18",
+      "s21",
+      "s20",
+      "s09",
+      "s18",
+      "s09",
+      "s12"
+     ],
+     [
+      "s10",
+      "s07",
+      "s07",
+      "s10",
+      "s11",
+      "s04",
+      "s03",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s03",
+      "s19",
+      "s14",
+      "s23",
+      "s04"
+     ],
+     [
+      "s06",
+      "s03",
+      "s00",
+      "s20",
+      "s21",
+      "s18",
+      "s10",
+      "s20"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "nominis effectum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "purgat pulmonem",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 10,
+   "regime": "transferts_alteres",
+   "origine": "ex re",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s05"
+     ],
+     [
+      "s19",
+      "s10"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s21",
+      "s20",
+      "s09",
+      "s18",
+      "s09",
+      "s12"
+     ],
+     [
+      "s10",
+      "s07",
+      "s07",
+      "s10",
+      "s11",
+      "s04",
+      "s03",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s03",
+      "s19",
+      "s14",
+      "s23",
+      "s04"
+     ],
+     [
+      "s06",
+      "s03",
+      "s00",
+      "s20",
+      "s21",
+      "s18",
+      "s10",
+      "s20"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "nominis effectum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "purgat pulmonem",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 10,
+   "regime": "amorce_alteree",
+   "origine": "ex re",
+   "chiffres": [
+    [
+     [
+      "s05",
+      "s05"
+     ],
+     [
+      "s19",
+      "s10"
+     ]
+    ],
+    [
+     [
+      "s18",
+      "s21",
+      "s20",
+      "s09",
+      "s18",
+      "s09",
+      "s12"
+     ],
+     [
+      "s10",
+      "s07",
+      "s07",
+      "s10",
+      "s11",
+      "s04",
+      "s03",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s03",
+      "s19",
+      "s14",
+      "s23",
+      "s04"
+     ],
+     [
+      "s06",
+      "s03",
+      "s00",
+      "s20",
+      "s21",
+      "s18",
+      "s10",
+      "s20"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "nominis effectum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "purgat pulmonem",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 11,
+   "regime": "intact",
+   "origine": "ascribunt homines",
+   "chiffres": [
+    [
+     [
+      "s09",
+      "s22",
+      "s03",
+      "s05",
+      "s00",
+      "s14",
+      "s06",
+      "s20",
+      "s24"
+     ],
+     [
+      "s04",
+      "s16",
+      "s08",
+      "s00",
+      "s20",
+      "s19",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s22",
+      "s00",
+      "s14",
+      "s06",
+      "s22"
+     ],
+     [
+      "s04",
+      "s06",
+      "s08",
+      "s09",
+      "s20",
+      "s00",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s16",
+      "s05",
+      "s10",
+      "s16",
+      "s05",
+      "s00",
+      "s22"
+     ],
+     [
+      "s00",
+      "s20",
+      "s21",
+      "s05",
+      "s09",
+      "s24",
+      "s00"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "usibus humanis",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "corporis ingrati",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 11,
+   "regime": "transferts_alteres",
+   "origine": "ascribunt homines",
+   "chiffres": [
+    [
+     [
+      "s09",
+      "s22",
+      "s03",
+      "s05",
+      "s00",
+      "s14",
+      "s06",
+      "s20",
+      "s24"
+     ],
+     [
+      "s04",
+      "s16",
+      "s08",
+      "s00",
+      "s20",
+      "s19",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s22",
+      "s22",
+      "s00",
+      "s14",
+      "s06",
+      "s22"
+     ],
+     [
+      "s04",
+      "s06",
+      "s08",
+      "s09",
+      "s20",
+      "s00",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s16",
+      "s05",
+      "s10",
+      "s16",
+      "s05",
+      "s00",
+      "s22"
+     ],
+     [
+      "s00",
+      "s20",
+      "s21",
+      "s05",
+      "s09",
+      "s24",
+      "s00"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "usibus humanis",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "corporis ingrati",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 11,
+   "regime": "amorce_alteree",
+   "origine": "ascribunt homines",
+   "chiffres": [
+    [
+     [
+      "s22",
+      "s22",
+      "s03",
+      "s05",
+      "s00",
+      "s14",
+      "s06",
+      "s20",
+      "s24"
+     ],
+     [
+      "s04",
+      "s16",
+      "s08",
+      "s00",
+      "s20",
+      "s19",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s22",
+      "s00",
+      "s14",
+      "s06",
+      "s22"
+     ],
+     [
+      "s04",
+      "s06",
+      "s08",
+      "s09",
+      "s20",
+      "s00",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s16",
+      "s05",
+      "s10",
+      "s16",
+      "s05",
+      "s00",
+      "s22"
+     ],
+     [
+      "s00",
+      "s20",
+      "s21",
+      "s05",
+      "s09",
+      "s24",
+      "s00"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "usibus humanis",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "corporis ingrati",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 11,
+   "regime": "intact",
+   "origine": "ascribunt homines",
+   "chiffres": [
+    [
+     [
+      "s09",
+      "s22",
+      "s03",
+      "s05",
+      "s00",
+      "s14",
+      "s06",
+      "s20",
+      "s24"
+     ],
+     [
+      "s04",
+      "s16",
+      "s08",
+      "s00",
+      "s20",
+      "s19",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s22",
+      "s00",
+      "s14",
+      "s06",
+      "s22"
+     ],
+     [
+      "s04",
+      "s06",
+      "s08",
+      "s09",
+      "s20",
+      "s00",
+      "s22"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "usibus humanis",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    11,
+    2,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 12,
+   "regime": "intact",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s05",
+      "s11",
+      "s23",
+      "s10",
+      "s07"
+     ],
+     [
+      "s18",
+      "s16",
+      "s14",
+      "s18",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s10"
+     ],
+     [
+      "s17",
+      "s06",
+      "s14",
+      "s18",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s14",
+      "s09"
+     ],
+     [
+      "s09",
+      "s18",
+      "s07",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "ne fluat",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "cum mare",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 12,
+   "regime": "transferts_alteres",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s05",
+      "s11",
+      "s23",
+      "s10",
+      "s07"
+     ],
+     [
+      "s18",
+      "s16",
+      "s14",
+      "s18",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s10"
+     ],
+     [
+      "s17",
+      "s06",
+      "s14",
+      "s18",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s14",
+      "s14",
+      "s09"
+     ],
+     [
+      "s09",
+      "s18",
+      "s07",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "ne fluat",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "cum mare",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 12,
+   "regime": "amorce_alteree",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s11",
+      "s11",
+      "s23",
+      "s10",
+      "s07"
+     ],
+     [
+      "s18",
+      "s16",
+      "s14",
+      "s18",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s10"
+     ],
+     [
+      "s17",
+      "s06",
+      "s14",
+      "s18",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s14",
+      "s09"
+     ],
+     [
+      "s09",
+      "s18",
+      "s07",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "ne fluat",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "cum mare",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 12,
+   "regime": "intact",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s05",
+      "s11",
+      "s23",
+      "s10",
+      "s07"
+     ],
+     [
+      "s18",
+      "s16",
+      "s14",
+      "s18",
+      "s22"
+     ]
+    ],
+    [
+     [
+      "s14",
+      "s22",
+      "s14",
+      "s18"
+     ],
+     [
+      "s18",
+      "s16",
+      "s14",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "usua aque",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    12,
+    12,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 13,
+   "regime": "intact",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s19",
+      "s09",
+      "s07"
+     ],
+     [
+      "s08",
+      "s03",
+      "s06",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s21",
+      "s19",
+      "s18",
+      "s14",
+      "s07",
+      "s06",
+      "s21"
+     ],
+     [
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s09",
+      "s07"
+     ],
+     [
+      "s17",
+      "s14",
+      "s08"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "creditur a",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "est via",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 13,
+   "regime": "transferts_alteres",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s19",
+      "s09",
+      "s07"
+     ],
+     [
+      "s08",
+      "s03",
+      "s06",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s21",
+      "s19",
+      "s18",
+      "s14",
+      "s07",
+      "s06",
+      "s21"
+     ],
+     [
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s09",
+      "s09",
+      "s07"
+     ],
+     [
+      "s17",
+      "s14",
+      "s08"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "creditur a",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "est via",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 13,
+   "regime": "amorce_alteree",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s09",
+      "s09",
+      "s07"
+     ],
+     [
+      "s08",
+      "s03",
+      "s06",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s21",
+      "s19",
+      "s18",
+      "s14",
+      "s07",
+      "s06",
+      "s21"
+     ],
+     [
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s09",
+      "s07"
+     ],
+     [
+      "s17",
+      "s14",
+      "s08"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "creditur a",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "est via",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 14,
+   "regime": "intact",
+   "origine": "est lacus",
+   "chiffres": [
+    [
+     [
+      "s19",
+      "s14",
+      "s16"
+     ],
+     [
+      "s18",
+      "s10",
+      "s13",
+      "s11",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s06",
+      "s19",
+      "s24",
+      "s15",
+      "s16"
+     ],
+     [
+      "s19",
+      "s16"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s19",
+      "s13"
+     ],
+     [
+      "s25",
+      "s09",
+      "s12",
+      "s11",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 4,
+   "transferts": [
+    {
+     "vraie_paire": "fregit et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "hec domus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 14,
+   "regime": "transferts_alteres",
+   "origine": "est lacus",
+   "chiffres": [
+    [
+     [
+      "s19",
+      "s14",
+      "s16"
+     ],
+     [
+      "s18",
+      "s10",
+      "s13",
+      "s11",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s06",
+      "s19",
+      "s24",
+      "s15",
+      "s16"
+     ],
+     [
+      "s19",
+      "s16"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s19",
+      "s13"
+     ],
+     [
+      "s25",
+      "s09",
+      "s12",
+      "s11",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 4,
+   "transferts": [
+    {
+     "vraie_paire": "fregit et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec domus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 14,
+   "regime": "amorce_alteree",
+   "origine": "est lacus",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s14",
+      "s16"
+     ],
+     [
+      "s18",
+      "s10",
+      "s13",
+      "s11",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s06",
+      "s19",
+      "s24",
+      "s15",
+      "s16"
+     ],
+     [
+      "s19",
+      "s16"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s19",
+      "s13"
+     ],
+     [
+      "s25",
+      "s09",
+      "s12",
+      "s11",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "fregit et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec domus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 15,
+   "regime": "intact",
+   "origine": "dulce satis",
+   "chiffres": [
+    [
+     [
+      "s02",
+      "s13",
+      "s00",
+      "s17",
+      "s21"
+     ],
+     [
+      "s11",
+      "s19",
+      "s10",
+      "s25",
+      "s11"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s25",
+      "s08",
+      "s10",
+      "s13",
+      "s10",
+      "s21",
+      "s14"
+     ],
+     [
+      "s14",
+      "s19",
+      "s04",
+      "s09",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s21",
+      "s17"
+     ],
+     [
+      "s19",
+      "s15",
+      "s13",
+      "s19"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "virtutem magne",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "hec aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 15,
+   "regime": "transferts_alteres",
+   "origine": "dulce satis",
+   "chiffres": [
+    [
+     [
+      "s02",
+      "s13",
+      "s00",
+      "s17",
+      "s21"
+     ],
+     [
+      "s11",
+      "s19",
+      "s10",
+      "s25",
+      "s11"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s25",
+      "s08",
+      "s10",
+      "s13",
+      "s10",
+      "s21",
+      "s14"
+     ],
+     [
+      "s14",
+      "s19",
+      "s04",
+      "s09",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s21",
+      "s17"
+     ],
+     [
+      "s19",
+      "s15",
+      "s13",
+      "s19"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "virtutem magne",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 15,
+   "regime": "amorce_alteree",
+   "origine": "dulce satis",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s13",
+      "s00",
+      "s17",
+      "s21"
+     ],
+     [
+      "s11",
+      "s19",
+      "s10",
+      "s25",
+      "s11"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s25",
+      "s08",
+      "s10",
+      "s13",
+      "s10",
+      "s21",
+      "s14"
+     ],
+     [
+      "s14",
+      "s19",
+      "s04",
+      "s09",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s21",
+      "s17"
+     ],
+     [
+      "s19",
+      "s15",
+      "s13",
+      "s19"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "virtutem magne",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 16,
+   "regime": "intact",
+   "origine": "balnea raynerii",
+   "chiffres": [
+    [
+     [
+      "s00",
+      "s10",
+      "s07",
+      "s25",
+      "s20",
+      "s10"
+     ],
+     [
+      "s08",
+      "s10",
+      "s19",
+      "s25",
+      "s20",
+      "s08",
+      "s12",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s20",
+      "s05",
+      "s03"
+     ],
+     [
+      "s04",
+      "s13",
+      "s06",
+      "s08",
+      "s13",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s05",
+      "s12"
+     ],
+     [
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "est quorum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "si qua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 16,
+   "regime": "transferts_alteres",
+   "origine": "balnea raynerii",
+   "chiffres": [
+    [
+     [
+      "s00",
+      "s10",
+      "s07",
+      "s25",
+      "s20",
+      "s10"
+     ],
+     [
+      "s08",
+      "s10",
+      "s19",
+      "s25",
+      "s20",
+      "s08",
+      "s12",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s05",
+      "s05",
+      "s03"
+     ],
+     [
+      "s04",
+      "s13",
+      "s06",
+      "s08",
+      "s13",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s12"
+     ],
+     [
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "est quorum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "si qua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 16,
+   "regime": "amorce_alteree",
+   "origine": "balnea raynerii",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s10",
+      "s07",
+      "s25",
+      "s20",
+      "s10"
+     ],
+     [
+      "s08",
+      "s10",
+      "s19",
+      "s25",
+      "s20",
+      "s08",
+      "s12",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s20",
+      "s05",
+      "s03"
+     ],
+     [
+      "s04",
+      "s13",
+      "s06",
+      "s08",
+      "s13",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s05",
+      "s12"
+     ],
+     [
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "est quorum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "si qua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 17,
+   "regime": "intact",
+   "origine": "ante domum",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s19",
+      "s04",
+      "s24"
+     ],
+     [
+      "s17",
+      "s12",
+      "s18",
+      "s00",
+      "s18"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s06",
+      "s13",
+      "s19",
+      "s17",
+      "s24"
+     ],
+     [
+      "s06",
+      "s00",
+      "s21",
+      "s19",
+      "s12",
+      "s05",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s21",
+      "s20"
+     ],
+     [
+      "s14",
+      "s13",
+      "s11",
+      "s13",
+      "s20",
+      "s06",
+      "s00",
+      "s18"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 3,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 4,
+   "transferts": [
+    {
+     "vraie_paire": "grande ruinose",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "hic lavacrum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 17,
+   "regime": "transferts_alteres",
+   "origine": "ante domum",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s19",
+      "s04",
+      "s24"
+     ],
+     [
+      "s17",
+      "s12",
+      "s18",
+      "s00",
+      "s18"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s06",
+      "s13",
+      "s19",
+      "s17",
+      "s24"
+     ],
+     [
+      "s06",
+      "s00",
+      "s21",
+      "s19",
+      "s12",
+      "s05",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s21",
+      "s20"
+     ],
+     [
+      "s14",
+      "s13",
+      "s11",
+      "s13",
+      "s20",
+      "s06",
+      "s00",
+      "s18"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 3,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 4,
+   "transferts": [
+    {
+     "vraie_paire": "grande ruinose",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hic lavacrum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 17,
+   "regime": "amorce_alteree",
+   "origine": "ante domum",
+   "chiffres": [
+    [
+     [
+      "s19",
+      "s19",
+      "s04",
+      "s24"
+     ],
+     [
+      "s17",
+      "s12",
+      "s18",
+      "s00",
+      "s18"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s06",
+      "s13",
+      "s19",
+      "s17",
+      "s24"
+     ],
+     [
+      "s06",
+      "s00",
+      "s21",
+      "s19",
+      "s12",
+      "s05",
+      "s24"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s21",
+      "s20"
+     ],
+     [
+      "s14",
+      "s13",
+      "s11",
+      "s13",
+      "s20",
+      "s06",
+      "s00",
+      "s18"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "grande ruinose",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hic lavacrum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 18,
+   "regime": "intact",
+   "origine": "sylvia diva",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s10",
+      "s14",
+      "s18",
+      "s24",
+      "s13"
+     ],
+     [
+      "s12",
+      "s24",
+      "s18",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s03"
+     ],
+     [
+      "s19",
+      "s01",
+      "s17",
+      "s19",
+      "s01",
+      "s24",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s03",
+      "s08"
+     ],
+     [
+      "s13",
+      "s22",
+      "s09",
+      "s13"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "de proprio",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "hec aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 18,
+   "regime": "transferts_alteres",
+   "origine": "sylvia diva",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s10",
+      "s14",
+      "s18",
+      "s24",
+      "s13"
+     ],
+     [
+      "s12",
+      "s24",
+      "s18",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s03"
+     ],
+     [
+      "s19",
+      "s01",
+      "s17",
+      "s19",
+      "s01",
+      "s24",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s03",
+      "s08"
+     ],
+     [
+      "s13",
+      "s22",
+      "s09",
+      "s13"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "de proprio",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 18,
+   "regime": "amorce_alteree",
+   "origine": "sylvia diva",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s10",
+      "s14",
+      "s18",
+      "s24",
+      "s13"
+     ],
+     [
+      "s12",
+      "s24",
+      "s18",
+      "s13"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s03"
+     ],
+     [
+      "s19",
+      "s01",
+      "s17",
+      "s19",
+      "s01",
+      "s24",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s03",
+      "s08"
+     ],
+     [
+      "s13",
+      "s22",
+      "s09",
+      "s13"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "de proprio",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hec aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 19,
+   "regime": "intact",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s17",
+      "s21",
+      "s16",
+      "s04",
+      "s09"
+     ],
+     [
+      "s01",
+      "s25",
+      "s12",
+      "s01",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s12",
+      "s17",
+      "s12",
+      "s07"
+     ],
+     [
+      "s01",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s03",
+      "s00"
+     ],
+     [
+      "s22",
+      "s04",
+      "s09"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "huius ad",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "ymo per",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 19,
+   "regime": "transferts_alteres",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s17",
+      "s21",
+      "s16",
+      "s04",
+      "s09"
+     ],
+     [
+      "s01",
+      "s25",
+      "s12",
+      "s01",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s12",
+      "s17",
+      "s12",
+      "s07"
+     ],
+     [
+      "s01",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s03",
+      "s03",
+      "s00"
+     ],
+     [
+      "s22",
+      "s04",
+      "s09"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "huius ad",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "ymo per",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 19,
+   "regime": "amorce_alteree",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s21",
+      "s21",
+      "s16",
+      "s04",
+      "s09"
+     ],
+     [
+      "s01",
+      "s25",
+      "s12",
+      "s01",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s12",
+      "s17",
+      "s12",
+      "s07"
+     ],
+     [
+      "s01",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s03",
+      "s00"
+     ],
+     [
+      "s22",
+      "s04",
+      "s09"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "huius ad",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "ymo per",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 19,
+   "regime": "intact",
+   "origine": "inter aquas",
+   "chiffres": [
+    [
+     [
+      "s17",
+      "s21",
+      "s16",
+      "s04",
+      "s09"
+     ],
+     [
+      "s01",
+      "s25",
+      "s12",
+      "s01",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s17",
+      "s16",
+      "s04",
+      "s16"
+     ],
+     [
+      "s17",
+      "s21"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "nitet in",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    19,
+    12,
+    5
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 20,
+   "regime": "intact",
+   "origine": "est locus",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s16",
+      "s22"
+     ],
+     [
+      "s05",
+      "s23",
+      "s12",
+      "s09",
+      "s16"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s09",
+      "s19",
+      "s07"
+     ],
+     [
+      "s16",
+      "s09",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s05",
+      "s07",
+      "s01",
+      "s00"
+     ],
+     [
+      "s14",
+      "s02",
+      "s03",
+      "s09",
+      "s25",
+      "s00",
+      "s25",
+      "s09",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 4,
+   "transferts": [
+    {
+     "vraie_paire": "rupe sub",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "plena figurarum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 20,
+   "regime": "transferts_alteres",
+   "origine": "est locus",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s16",
+      "s22"
+     ],
+     [
+      "s05",
+      "s23",
+      "s12",
+      "s09",
+      "s16"
+     ]
+    ],
+    [
+     [
+      "s09",
+      "s09",
+      "s19",
+      "s07"
+     ],
+     [
+      "s16",
+      "s09",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s05",
+      "s05",
+      "s07",
+      "s01",
+      "s00"
+     ],
+     [
+      "s14",
+      "s02",
+      "s03",
+      "s09",
+      "s25",
+      "s00",
+      "s25",
+      "s09",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 4,
+   "transferts": [
+    {
+     "vraie_paire": "rupe sub",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "plena figurarum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 20,
+   "regime": "amorce_alteree",
+   "origine": "est locus",
+   "chiffres": [
+    [
+     [
+      "s16",
+      "s16",
+      "s22"
+     ],
+     [
+      "s05",
+      "s23",
+      "s12",
+      "s09",
+      "s16"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s09",
+      "s19",
+      "s07"
+     ],
+     [
+      "s16",
+      "s09",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s05",
+      "s07",
+      "s01",
+      "s00"
+     ],
+     [
+      "s14",
+      "s02",
+      "s03",
+      "s09",
+      "s25",
+      "s00",
+      "s25",
+      "s09",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "rupe sub",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "plena figurarum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 21,
+   "regime": "intact",
+   "origine": "qui breve",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s14",
+      "s18"
+     ],
+     [
+      "s20",
+      "s06",
+      "s09",
+      "s15",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s06",
+      "s07",
+      "s14",
+      "s04",
+      "s14",
+      "s11"
+     ],
+     [
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s09",
+      "s14",
+      "s02",
+      "s21",
+      "s25",
+      "s18",
+      "s11"
+     ],
+     [
+      "s09",
+      "s25"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 3,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 3,
+   "transferts": [
+    {
+     "vraie_paire": "arculus a",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "reumatis et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 21,
+   "regime": "transferts_alteres",
+   "origine": "qui breve",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s14",
+      "s18"
+     ],
+     [
+      "s20",
+      "s06",
+      "s09",
+      "s15",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s06",
+      "s07",
+      "s14",
+      "s04",
+      "s14",
+      "s11"
+     ],
+     [
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s09",
+      "s09",
+      "s14",
+      "s02",
+      "s21",
+      "s25",
+      "s18",
+      "s11"
+     ],
+     [
+      "s09",
+      "s25"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 3,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 3,
+   "transferts": [
+    {
+     "vraie_paire": "arculus a",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "reumatis et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 21,
+   "regime": "amorce_alteree",
+   "origine": "qui breve",
+   "chiffres": [
+    [
+     [
+      "s14",
+      "s14",
+      "s18"
+     ],
+     [
+      "s20",
+      "s06",
+      "s09",
+      "s15",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s06",
+      "s07",
+      "s14",
+      "s04",
+      "s14",
+      "s11"
+     ],
+     [
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s09",
+      "s14",
+      "s02",
+      "s21",
+      "s25",
+      "s18",
+      "s11"
+     ],
+     [
+      "s09",
+      "s25"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "arculus a",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "reumatis et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 22,
+   "regime": "intact",
+   "origine": "cripta palumbare",
+   "chiffres": [
+    [
+     [
+      "s22",
+      "s13",
+      "s24",
+      "s03",
+      "s06",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s14",
+      "s11"
+     ],
+     [
+      "s00",
+      "s10",
+      "s24",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s08",
+      "s25",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "vel quia",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "unda palumbare",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 22,
+   "regime": "transferts_alteres",
+   "origine": "cripta palumbare",
+   "chiffres": [
+    [
+     [
+      "s22",
+      "s13",
+      "s24",
+      "s03",
+      "s06",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s14",
+      "s14",
+      "s11"
+     ],
+     [
+      "s00",
+      "s10",
+      "s24",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s08",
+      "s25",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "vel quia",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "unda palumbare",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 22,
+   "regime": "amorce_alteree",
+   "origine": "cripta palumbare",
+   "chiffres": [
+    [
+     [
+      "s13",
+      "s13",
+      "s24",
+      "s03",
+      "s06",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s14",
+      "s11"
+     ],
+     [
+      "s00",
+      "s10",
+      "s24",
+      "s23"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s08",
+      "s25",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "vel quia",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "unda palumbare",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 22,
+   "regime": "intact",
+   "origine": "cripta palumbare",
+   "chiffres": [
+    [
+     [
+      "s22",
+      "s13",
+      "s24",
+      "s03",
+      "s06",
+      "s23"
+     ],
+     [
+      "s03",
+      "s23",
+      "s11",
+      "s10",
+      "s04",
+      "s17",
+      "s23",
+      "s13",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s14",
+      "s06"
+     ],
+     [
+      "s23",
+      "s17"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "et ab",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    22,
+    5,
+    4
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 23,
+   "regime": "intact",
+   "origine": "cum maris",
+   "chiffres": [
+    [
+     [
+      "s04",
+      "s20",
+      "s11"
+     ],
+     [
+      "s11",
+      "s01",
+      "s10",
+      "s13",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s18",
+      "s10",
+      "s12"
+     ],
+     [
+      "s25",
+      "s00",
+      "s01",
+      "s04",
+      "s13",
+      "s12",
+      "s24",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s15",
+      "s25",
+      "s00"
+     ],
+     [
+      "s13",
+      "s00",
+      "s15",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 2,
+   "transferts": [
+    {
+     "vraie_paire": "pro stacione",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "est iter",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 23,
+   "regime": "transferts_alteres",
+   "origine": "cum maris",
+   "chiffres": [
+    [
+     [
+      "s04",
+      "s20",
+      "s11"
+     ],
+     [
+      "s11",
+      "s01",
+      "s10",
+      "s13",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s10",
+      "s12"
+     ],
+     [
+      "s25",
+      "s00",
+      "s01",
+      "s04",
+      "s13",
+      "s12",
+      "s24",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s25",
+      "s25",
+      "s00"
+     ],
+     [
+      "s13",
+      "s00",
+      "s15",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 2,
+   "transferts": [
+    {
+     "vraie_paire": "pro stacione",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "est iter",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 23,
+   "regime": "amorce_alteree",
+   "origine": "cum maris",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s20",
+      "s11"
+     ],
+     [
+      "s11",
+      "s01",
+      "s10",
+      "s13",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s18",
+      "s10",
+      "s12"
+     ],
+     [
+      "s25",
+      "s00",
+      "s01",
+      "s04",
+      "s13",
+      "s12",
+      "s24",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s15",
+      "s25",
+      "s00"
+     ],
+     [
+      "s13",
+      "s00",
+      "s15",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "pro stacione",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "est iter",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 24,
+   "regime": "intact",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s01",
+      "s12",
+      "s08"
+     ],
+     [
+      "s21",
+      "s23",
+      "s17",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s06",
+      "s00",
+      "s11",
+      "s08",
+      "s21"
+     ],
+     [
+      "s08",
+      "s01",
+      "s24",
+      "s24",
+      "s17",
+      "s03",
+      "s11",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s23",
+      "s17",
+      "s21"
+     ],
+     [
+      "s14",
+      "s17",
+      "s24",
+      "s24",
+      "s17",
+      "s12"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "abdita telluris",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "qua nullus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 24,
+   "regime": "transferts_alteres",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s01",
+      "s12",
+      "s08"
+     ],
+     [
+      "s21",
+      "s23",
+      "s17",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s06",
+      "s00",
+      "s11",
+      "s08",
+      "s21"
+     ],
+     [
+      "s08",
+      "s01",
+      "s24",
+      "s24",
+      "s17",
+      "s03",
+      "s11",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s17",
+      "s21"
+     ],
+     [
+      "s14",
+      "s17",
+      "s24",
+      "s24",
+      "s17",
+      "s12"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "abdita telluris",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "qua nullus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 24,
+   "regime": "amorce_alteree",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s12",
+      "s12",
+      "s08"
+     ],
+     [
+      "s21",
+      "s23",
+      "s17",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s06",
+      "s00",
+      "s11",
+      "s08",
+      "s21"
+     ],
+     [
+      "s08",
+      "s01",
+      "s24",
+      "s24",
+      "s17",
+      "s03",
+      "s11",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s23",
+      "s17",
+      "s21"
+     ],
+     [
+      "s14",
+      "s17",
+      "s24",
+      "s24",
+      "s17",
+      "s12"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "abdita telluris",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "qua nullus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 25,
+   "regime": "intact",
+   "origine": "non procul",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s08",
+      "s07"
+     ],
+     [
+      "s23",
+      "s01",
+      "s08",
+      "s20",
+      "s05",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s08",
+      "s20"
+     ],
+     [
+      "s09",
+      "s12",
+      "s15",
+      "s12",
+      "s20",
+      "s01",
+      "s05",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s08",
+      "s20"
+     ],
+     [
+      "s15",
+      "s18",
+      "s20",
+      "s18",
+      "s05",
+      "s25"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "hoc lavacrum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "hoc vicium",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 25,
+   "regime": "transferts_alteres",
+   "origine": "non procul",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s08",
+      "s07"
+     ],
+     [
+      "s23",
+      "s01",
+      "s08",
+      "s20",
+      "s05",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s08",
+      "s20"
+     ],
+     [
+      "s09",
+      "s12",
+      "s15",
+      "s12",
+      "s20",
+      "s01",
+      "s05",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s08",
+      "s08",
+      "s20"
+     ],
+     [
+      "s15",
+      "s18",
+      "s20",
+      "s18",
+      "s05",
+      "s25"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "hoc lavacrum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hoc vicium",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 25,
+   "regime": "amorce_alteree",
+   "origine": "non procul",
+   "chiffres": [
+    [
+     [
+      "s08",
+      "s08",
+      "s07"
+     ],
+     [
+      "s23",
+      "s01",
+      "s08",
+      "s20",
+      "s05",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s08",
+      "s20"
+     ],
+     [
+      "s09",
+      "s12",
+      "s15",
+      "s12",
+      "s20",
+      "s01",
+      "s05",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s08",
+      "s20"
+     ],
+     [
+      "s15",
+      "s18",
+      "s20",
+      "s18",
+      "s05",
+      "s25"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "hoc lavacrum",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "hoc vicium",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 26,
+   "regime": "intact",
+   "origine": "cesaris est",
+   "chiffres": [
+    [
+     [
+      "s15",
+      "s11",
+      "s16",
+      "s08",
+      "s14",
+      "s06",
+      "s16"
+     ],
+     [
+      "s11",
+      "s16",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s06",
+      "s15",
+      "s04",
+      "s00"
+     ],
+     [
+      "s16",
+      "s13",
+      "s18"
+     ]
+    ],
+    [
+     [
+      "s13",
+      "s02",
+      "s20",
+      "s11"
+     ],
+     [
+      "s03",
+      "s11",
+      "s20",
+      "s04",
+      "s16"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "sicut sol",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "omne genus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 26,
+   "regime": "transferts_alteres",
+   "origine": "cesaris est",
+   "chiffres": [
+    [
+     [
+      "s15",
+      "s11",
+      "s16",
+      "s08",
+      "s14",
+      "s06",
+      "s16"
+     ],
+     [
+      "s11",
+      "s16",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s06",
+      "s15",
+      "s04",
+      "s00"
+     ],
+     [
+      "s16",
+      "s13",
+      "s18"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s02",
+      "s20",
+      "s11"
+     ],
+     [
+      "s03",
+      "s11",
+      "s20",
+      "s04",
+      "s16"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "sicut sol",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "omne genus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 26,
+   "regime": "amorce_alteree",
+   "origine": "cesaris est",
+   "chiffres": [
+    [
+     [
+      "s11",
+      "s11",
+      "s16",
+      "s08",
+      "s14",
+      "s06",
+      "s16"
+     ],
+     [
+      "s11",
+      "s16",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s06",
+      "s15",
+      "s04",
+      "s00"
+     ],
+     [
+      "s16",
+      "s13",
+      "s18"
+     ]
+    ],
+    [
+     [
+      "s13",
+      "s02",
+      "s20",
+      "s11"
+     ],
+     [
+      "s03",
+      "s11",
+      "s20",
+      "s04",
+      "s16"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "sicut sol",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "omne genus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 26,
+   "regime": "intact",
+   "origine": "cesaris est",
+   "chiffres": [
+    [
+     [
+      "s15",
+      "s11",
+      "s16",
+      "s08",
+      "s14",
+      "s06",
+      "s16"
+     ],
+     [
+      "s11",
+      "s16",
+      "s00"
+     ]
+    ],
+    [
+     [
+      "s11",
+      "s00"
+     ],
+     [
+      "s11",
+      "s00",
+      "s08",
+      "s16"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "et etas",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    26,
+    9,
+    7
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 27,
+   "regime": "intact",
+   "origine": "nomine fons",
+   "chiffres": [
+    [
+     [
+      "s25",
+      "s09",
+      "s08",
+      "s01",
+      "s25",
+      "s12"
+     ],
+     [
+      "s16",
+      "s09",
+      "s25",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s12",
+      "s17"
+     ],
+     [
+      "s14",
+      "s10",
+      "s01",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s23",
+      "s03",
+      "s12",
+      "s03",
+      "s01",
+      "s22",
+      "s01",
+      "s21"
+     ],
+     [
+      "s00",
+      "s23",
+      "s09",
+      "s15",
+      "s12",
+      "s21",
+      "s03"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "vel quia",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "arteticis prodest",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 27,
+   "regime": "transferts_alteres",
+   "origine": "nomine fons",
+   "chiffres": [
+    [
+     [
+      "s25",
+      "s09",
+      "s08",
+      "s01",
+      "s25",
+      "s12"
+     ],
+     [
+      "s16",
+      "s09",
+      "s25",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s12",
+      "s12",
+      "s17"
+     ],
+     [
+      "s14",
+      "s10",
+      "s01",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s23",
+      "s23",
+      "s03",
+      "s12",
+      "s03",
+      "s01",
+      "s22",
+      "s01",
+      "s21"
+     ],
+     [
+      "s00",
+      "s23",
+      "s09",
+      "s15",
+      "s12",
+      "s21",
+      "s03"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "vel quia",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "arteticis prodest",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 27,
+   "regime": "amorce_alteree",
+   "origine": "nomine fons",
+   "chiffres": [
+    [
+     [
+      "s09",
+      "s09",
+      "s08",
+      "s01",
+      "s25",
+      "s12"
+     ],
+     [
+      "s16",
+      "s09",
+      "s25",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s24",
+      "s12",
+      "s17"
+     ],
+     [
+      "s14",
+      "s10",
+      "s01",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s23",
+      "s03",
+      "s12",
+      "s03",
+      "s01",
+      "s22",
+      "s01",
+      "s21"
+     ],
+     [
+      "s00",
+      "s23",
+      "s09",
+      "s15",
+      "s12",
+      "s21",
+      "s03"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "vel quia",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "arteticis prodest",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 27,
+   "regime": "intact",
+   "origine": "nomine fons",
+   "chiffres": [
+    [
+     [
+      "s25",
+      "s09",
+      "s08",
+      "s01",
+      "s25",
+      "s12"
+     ],
+     [
+      "s16",
+      "s09",
+      "s25",
+      "s21"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s25"
+     ],
+     [
+      "s21",
+      "s12"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "in se",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    27,
+    6,
+    1
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 28,
+   "regime": "intact",
+   "origine": "faucibus antidotum",
+   "chiffres": [
+    [
+     [
+      "s03",
+      "s11",
+      "s21",
+      "s22",
+      "s09",
+      "s08",
+      "s21",
+      "s01"
+     ],
+     [
+      "s11",
+      "s18",
+      "s02",
+      "s09",
+      "s06",
+      "s07",
+      "s02",
+      "s21",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s00",
+      "s02"
+     ],
+     [
+      "s12",
+      "s07",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s09"
+     ],
+     [
+      "s17",
+      "s11",
+      "s02",
+      "s09",
+      "s02",
+      "s21",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "et vox",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "si patitur",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 28,
+   "regime": "transferts_alteres",
+   "origine": "faucibus antidotum",
+   "chiffres": [
+    [
+     [
+      "s03",
+      "s11",
+      "s21",
+      "s22",
+      "s09",
+      "s08",
+      "s21",
+      "s01"
+     ],
+     [
+      "s11",
+      "s18",
+      "s02",
+      "s09",
+      "s06",
+      "s07",
+      "s02",
+      "s21",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s02"
+     ],
+     [
+      "s12",
+      "s07",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s09",
+      "s09"
+     ],
+     [
+      "s17",
+      "s11",
+      "s02",
+      "s09",
+      "s02",
+      "s21",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "et vox",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "si patitur",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 28,
+   "regime": "amorce_alteree",
+   "origine": "faucibus antidotum",
+   "chiffres": [
+    [
+     [
+      "s11",
+      "s11",
+      "s21",
+      "s22",
+      "s09",
+      "s08",
+      "s21",
+      "s01"
+     ],
+     [
+      "s11",
+      "s18",
+      "s02",
+      "s09",
+      "s06",
+      "s07",
+      "s02",
+      "s21",
+      "s25"
+     ]
+    ],
+    [
+     [
+      "s00",
+      "s02"
+     ],
+     [
+      "s12",
+      "s07",
+      "s15"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s09"
+     ],
+     [
+      "s17",
+      "s11",
+      "s02",
+      "s09",
+      "s02",
+      "s21",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "et vox",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "si patitur",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 29,
+   "regime": "intact",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s17",
+      "s20",
+      "s05"
+     ],
+     [
+      "s12",
+      "s24",
+      "s18",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s17"
+     ],
+     [
+      "s03",
+      "s07",
+      "s10",
+      "s08",
+      "s17",
+      "s11",
+      "s00",
+      "s20",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s17",
+      "s09",
+      "s17"
+     ],
+     [
+      "s16",
+      "s17",
+      "s11"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "de gimberosi",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "pene per",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 29,
+   "regime": "transferts_alteres",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s17",
+      "s20",
+      "s05"
+     ],
+     [
+      "s12",
+      "s24",
+      "s18",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s17"
+     ],
+     [
+      "s03",
+      "s07",
+      "s10",
+      "s08",
+      "s17",
+      "s11",
+      "s00",
+      "s20",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s17",
+      "s17",
+      "s09",
+      "s17"
+     ],
+     [
+      "s16",
+      "s17",
+      "s11"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 4,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 11,
+   "transferts": [
+    {
+     "vraie_paire": "de gimberosi",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "pene per",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 29,
+   "regime": "amorce_alteree",
+   "origine": "est aqua",
+   "chiffres": [
+    [
+     [
+      "s20",
+      "s20",
+      "s05"
+     ],
+     [
+      "s12",
+      "s24",
+      "s18",
+      "s12"
+     ]
+    ],
+    [
+     [
+      "s06",
+      "s17"
+     ],
+     [
+      "s03",
+      "s07",
+      "s10",
+      "s08",
+      "s17",
+      "s11",
+      "s00",
+      "s20",
+      "s07"
+     ]
+    ],
+    [
+     [
+      "s16",
+      "s17",
+      "s09",
+      "s17"
+     ],
+     [
+      "s16",
+      "s17",
+      "s11"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "de gimberosi",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "pene per",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 30,
+   "regime": "intact",
+   "origine": "ultima termarum",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s00",
+      "s11",
+      "s10",
+      "s08",
+      "s03"
+     ],
+     [
+      "s11",
+      "s01",
+      "s25",
+      "s08",
+      "s03",
+      "s25",
+      "s07",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s23",
+      "s07",
+      "s10",
+      "s07",
+      "s24"
+     ],
+     [
+      "s03",
+      "s06",
+      "s07",
+      "s03"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s18",
+      "s02",
+      "s01",
+      "s18",
+      "s10",
+      "s19"
+     ],
+     [
+      "s13",
+      "s03",
+      "s20",
+      "s10",
+      "s01",
+      "s18",
+      "s11",
+      "s01"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "huius aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "ingenio faciente",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 30,
+   "regime": "transferts_alteres",
+   "origine": "ultima termarum",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s00",
+      "s11",
+      "s10",
+      "s08",
+      "s03"
+     ],
+     [
+      "s11",
+      "s01",
+      "s25",
+      "s08",
+      "s03",
+      "s25",
+      "s07",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s07",
+      "s10",
+      "s07",
+      "s24"
+     ],
+     [
+      "s03",
+      "s06",
+      "s07",
+      "s03"
+     ]
+    ],
+    [
+     [
+      "s18",
+      "s18",
+      "s02",
+      "s01",
+      "s18",
+      "s10",
+      "s19"
+     ],
+     [
+      "s13",
+      "s03",
+      "s20",
+      "s10",
+      "s01",
+      "s18",
+      "s11",
+      "s01"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "huius aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "ingenio faciente",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 30,
+   "regime": "amorce_alteree",
+   "origine": "ultima termarum",
+   "chiffres": [
+    [
+     [
+      "s00",
+      "s00",
+      "s11",
+      "s10",
+      "s08",
+      "s03"
+     ],
+     [
+      "s11",
+      "s01",
+      "s25",
+      "s08",
+      "s03",
+      "s25",
+      "s07",
+      "s08"
+     ]
+    ],
+    [
+     [
+      "s23",
+      "s07",
+      "s10",
+      "s07",
+      "s24"
+     ],
+     [
+      "s03",
+      "s06",
+      "s07",
+      "s03"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s18",
+      "s02",
+      "s01",
+      "s18",
+      "s10",
+      "s19"
+     ],
+     [
+      "s13",
+      "s03",
+      "s20",
+      "s10",
+      "s01",
+      "s18",
+      "s11",
+      "s01"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "huius aqua",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "ingenio faciente",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 31,
+   "regime": "intact",
+   "origine": "suscipe sol",
+   "chiffres": [
+    [
+     [
+      "s04",
+      "s16",
+      "s04",
+      "s01",
+      "s24",
+      "s15",
+      "s21"
+     ],
+     [
+      "s04",
+      "s03",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s21"
+     ],
+     [
+      "s18",
+      "s22",
+      "s24",
+      "s06",
+      "s16",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s15",
+      "s22",
+      "s24",
+      "s17",
+      "s16",
+      "s04"
+     ],
+     [
+      "s23",
+      "s05",
+      "s06",
+      "s21",
+      "s18"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "de tribus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "primus habet",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 31,
+   "regime": "transferts_alteres",
+   "origine": "suscipe sol",
+   "chiffres": [
+    [
+     [
+      "s04",
+      "s16",
+      "s04",
+      "s01",
+      "s24",
+      "s15",
+      "s21"
+     ],
+     [
+      "s04",
+      "s03",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s21",
+      "s21"
+     ],
+     [
+      "s18",
+      "s22",
+      "s24",
+      "s06",
+      "s16",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s22",
+      "s22",
+      "s24",
+      "s17",
+      "s16",
+      "s04"
+     ],
+     [
+      "s23",
+      "s05",
+      "s06",
+      "s21",
+      "s18"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "de tribus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "primus habet",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 31,
+   "regime": "amorce_alteree",
+   "origine": "suscipe sol",
+   "chiffres": [
+    [
+     [
+      "s16",
+      "s16",
+      "s04",
+      "s01",
+      "s24",
+      "s15",
+      "s21"
+     ],
+     [
+      "s04",
+      "s03",
+      "s09"
+     ]
+    ],
+    [
+     [
+      "s19",
+      "s21"
+     ],
+     [
+      "s18",
+      "s22",
+      "s24",
+      "s06",
+      "s16",
+      "s04"
+     ]
+    ],
+    [
+     [
+      "s15",
+      "s22",
+      "s24",
+      "s17",
+      "s16",
+      "s04"
+     ],
+     [
+      "s23",
+      "s05",
+      "s06",
+      "s21",
+      "s18"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "de tribus",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "primus habet",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 32,
+   "regime": "intact",
+   "origine": "est subcellarium",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s08",
+      "s24"
+     ],
+     [
+      "s08",
+      "s01",
+      "s19",
+      "s23",
+      "s07",
+      "s00",
+      "s00",
+      "s16",
+      "s05",
+      "s22",
+      "s01",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s00",
+      "s01",
+      "s23",
+      "s22",
+      "s04",
+      "s16"
+     ],
+     [
+      "s06",
+      "s01",
+      "s02"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s02",
+      "s13",
+      "s04",
+      "s01",
+      "s08"
+     ],
+     [
+      "s07",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "lucida quo",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "pondus et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 32,
+   "regime": "transferts_alteres",
+   "origine": "est subcellarium",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s08",
+      "s24"
+     ],
+     [
+      "s08",
+      "s01",
+      "s19",
+      "s23",
+      "s07",
+      "s00",
+      "s00",
+      "s16",
+      "s05",
+      "s22",
+      "s01",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s01",
+      "s23",
+      "s22",
+      "s04",
+      "s16"
+     ],
+     [
+      "s06",
+      "s01",
+      "s02"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s02",
+      "s13",
+      "s04",
+      "s01",
+      "s08"
+     ],
+     [
+      "s07",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "lucida quo",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "pondus et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 32,
+   "regime": "amorce_alteree",
+   "origine": "est subcellarium",
+   "chiffres": [
+    [
+     [
+      "s08",
+      "s08",
+      "s24"
+     ],
+     [
+      "s08",
+      "s01",
+      "s19",
+      "s23",
+      "s07",
+      "s00",
+      "s00",
+      "s16",
+      "s05",
+      "s22",
+      "s01",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s00",
+      "s01",
+      "s23",
+      "s22",
+      "s04",
+      "s16"
+     ],
+     [
+      "s06",
+      "s01",
+      "s02"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s02",
+      "s13",
+      "s04",
+      "s01",
+      "s08"
+     ],
+     [
+      "s07",
+      "s24"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "lucida quo",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "pondus et",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "couverture_construite",
+   "notice": 32,
+   "regime": "intact",
+   "origine": "est subcellarium",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s08",
+      "s24"
+     ],
+     [
+      "s08",
+      "s01",
+      "s19",
+      "s23",
+      "s07",
+      "s00",
+      "s00",
+      "s16",
+      "s05",
+      "s22",
+      "s01",
+      "s20"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s08",
+      "s24",
+      "s16",
+      "s24",
+      "s07"
+     ],
+     [
+      "s24",
+      "s05",
+      "s22",
+      "s24",
+      "s07",
+      "s16",
+      "s20"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "estate triteam",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "position_transfert": [
+    32,
+    7,
+    3
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 33,
+   "regime": "intact",
+   "origine": "hoc lavacrum",
+   "chiffres": [
+    [
+     [
+      "s11",
+      "s07",
+      "s01"
+     ],
+     [
+      "s19",
+      "s14",
+      "s06",
+      "s14",
+      "s01",
+      "s23",
+      "s02",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s13",
+      "s02",
+      "s22",
+      "s03",
+      "s02",
+      "s10"
+     ],
+     [
+      "s05",
+      "s07",
+      "s21",
+      "s14",
+      "s25",
+      "s23",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s07",
+      "s12",
+      "s18",
+      "s07",
+      "s23",
+      "s24",
+      "s14",
+      "s24",
+      "s14"
+     ],
+     [
+      "s12",
+      "s04",
+      "s23",
+      "s06",
+      "s07",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "quibus podagra",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    },
+    {
+     "vraie_paire": "confortata nervos",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 33,
+   "regime": "transferts_alteres",
+   "origine": "hoc lavacrum",
+   "chiffres": [
+    [
+     [
+      "s11",
+      "s07",
+      "s01"
+     ],
+     [
+      "s19",
+      "s14",
+      "s06",
+      "s14",
+      "s01",
+      "s23",
+      "s02",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s02",
+      "s02",
+      "s22",
+      "s03",
+      "s02",
+      "s10"
+     ],
+     [
+      "s05",
+      "s07",
+      "s21",
+      "s14",
+      "s25",
+      "s23",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s07",
+      "s07",
+      "s12",
+      "s18",
+      "s07",
+      "s23",
+      "s24",
+      "s14",
+      "s24",
+      "s14"
+     ],
+     [
+      "s12",
+      "s04",
+      "s23",
+      "s06",
+      "s07",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 2,
+    "exact_inclus": true,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 5,
+   "transferts": [
+    {
+     "vraie_paire": "quibus podagra",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "confortata nervos",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "notices",
+   "notice": 33,
+   "regime": "amorce_alteree",
+   "origine": "hoc lavacrum",
+   "chiffres": [
+    [
+     [
+      "s07",
+      "s07",
+      "s01"
+     ],
+     [
+      "s19",
+      "s14",
+      "s06",
+      "s14",
+      "s01",
+      "s23",
+      "s02",
+      "s17"
+     ]
+    ],
+    [
+     [
+      "s13",
+      "s02",
+      "s22",
+      "s03",
+      "s02",
+      "s10"
+     ],
+     [
+      "s05",
+      "s07",
+      "s21",
+      "s14",
+      "s25",
+      "s23",
+      "s14"
+     ]
+    ],
+    [
+     [
+      "s01",
+      "s07",
+      "s12",
+      "s18",
+      "s07",
+      "s23",
+      "s24",
+      "s14",
+      "s24",
+      "s14"
+     ],
+     [
+      "s12",
+      "s04",
+      "s23",
+      "s06",
+      "s07",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "quibus podagra",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    },
+    {
+     "vraie_paire": "confortata nervos",
+     "couverture_signes": false,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ]
+  },
+  {
+   "jeu": "bain_XVI",
+   "notice": 16,
+   "regime": "intact",
+   "origine": "adibis aquas",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s21",
+      "s12",
+      "s00",
+      "s12",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "aquas aqua",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     },
+     "extensions": {
+      "candidats": 1,
+      "exact_inclus": true,
+      "exact_unique": true
+     }
+    }
+   ],
+   "candidats_amorce": {
+    "adibis aquas": [
+     [
+      16,
+      8,
+      4
+     ]
+    ]
+   },
+   "candidats_fixes": [
+    "aquas aqua"
+   ],
+   "candidats_extensions": [
+    "aquas aqua"
+   ]
+  },
+  {
+   "jeu": "bain_XVI",
+   "notice": 16,
+   "regime": "transferts_alteres",
+   "origine": "adibis aquas",
+   "chiffres": [
+    [
+     [
+      "s10",
+      "s21",
+      "s12",
+      "s00",
+      "s12",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s04",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 1,
+    "exact_inclus": true,
+    "exact_unique": true
+   },
+   "lieux_amorce_compatibles": 1,
+   "transferts": [
+    {
+     "vraie_paire": "aquas aqua",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ],
+   "candidats_amorce": {
+    "adibis aquas": [
+     [
+      16,
+      8,
+      4
+     ]
+    ]
+   },
+   "candidats_fixes": [],
+   "candidats_extensions": []
+  },
+  {
+   "jeu": "bain_XVI",
+   "notice": 16,
+   "regime": "amorce_alteree",
+   "origine": "adibis aquas",
+   "chiffres": [
+    [
+     [
+      "s21",
+      "s21",
+      "s12",
+      "s00",
+      "s12",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ]
+    ],
+    [
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10",
+      "s05"
+     ],
+     [
+      "s10",
+      "s04",
+      "s13",
+      "s10"
+     ]
+    ]
+   ],
+   "amorce": {
+    "candidats": 0,
+    "exact_inclus": false,
+    "exact_unique": false
+   },
+   "lieux_amorce_compatibles": 0,
+   "transferts": [
+    {
+     "vraie_paire": "aquas aqua",
+     "couverture_signes": true,
+     "fixes": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     },
+     "extensions": {
+      "candidats": 0,
+      "exact_inclus": false,
+      "exact_unique": false
+     }
+    }
+   ],
+   "candidats_amorce": {},
+   "candidats_fixes": [],
+   "candidats_extensions": []
+  }
+ ]
+}

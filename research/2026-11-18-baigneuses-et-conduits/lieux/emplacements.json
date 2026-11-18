@@ -1,0 +1,128 @@
+{
+  "systeme": "pixels (x1, y1, x2, y2), origine Yale dans le coin supérieur gauche",
+  "faces": {
+    "f82v": {
+      "paire": "A",
+      "yale_url": "https://collections.library.yale.edu/iiif/2/1006223/full/full/0/default.jpg",
+      "yale_sha256": "4c86853e2d6e62690ec0106dcc3812c95f009022b06e7edfd347386728003142",
+      "dimensions": [
+        2821,
+        3709
+      ],
+      "rectangle_du_detail": [
+        770,
+        2470,
+        1990,
+        3210
+      ],
+      "loci": [
+        {
+          "locus": "f82v.41",
+          "categorie": "figure",
+          "boites_mots": [
+            [
+              1041,
+              2629,
+              1184,
+              2698
+            ]
+          ]
+        },
+        {
+          "locus": "f82v.43",
+          "categorie": "conduit",
+          "boites_mots": [
+            [
+              1656,
+              2617,
+              1809,
+              2686
+            ]
+          ]
+        }
+      ],
+      "calage": {
+        "reperage_url": "https://www.voynichese.com/2/data/folio/script/f82v.js",
+        "reperage_sha256": "1bf52aebf86915bf4fcff4213b2cde220dbcef4a97601a57395bc2d31d7ea612",
+        "image_de_reperage": "https://www.voynichese.com/2/data/folio/image/glance/color/large/f82v.jpg",
+        "image_de_reperage_sha256": "6d1acbbbdec57c27a57a465e7c46d5c6f8c7997c300ddf43763d8ae7bb8d683b",
+        "accords_sift": 1836,
+        "erreur_p95_pixels_yale": 3.866
+      }
+    },
+    "f82r": {
+      "paire": "B",
+      "yale_url": "https://collections.library.yale.edu/iiif/2/1006222/full/full/0/default.jpg",
+      "yale_sha256": "269cb42307824ab82764f80009429e58d98c649371d8efe10d2a1f54132a21ef",
+      "dimensions": [
+        2753,
+        3745
+      ],
+      "rectangle_du_detail": [
+        840,
+        2850,
+        1870,
+        3550
+      ],
+      "loci": [
+        {
+          "locus": "f82r.44",
+          "categorie": "figure",
+          "boites_mots": [
+            [
+              1448,
+              3366,
+              1584,
+              3420
+            ]
+          ]
+        }
+      ],
+      "calage": {
+        "reperage_url": "https://www.voynichese.com/2/data/folio/script/f82r.js",
+        "reperage_sha256": "69c5b38e04dcfaf51ccfd5f48f498b657dba5eeb09537a6e80cbddc80f76073a",
+        "image_de_reperage": "https://www.voynichese.com/2/data/folio/image/glance/color/large/f82r.jpg",
+        "image_de_reperage_sha256": "85345651ce9037f7dd2f056e7804f70950bcd65829f7380515ef91df80b19728",
+        "accords_sift": 1977,
+        "erreur_p95_pixels_yale": 4.519
+      }
+    },
+    "f78r": {
+      "paire": "B",
+      "yale_url": "https://collections.library.yale.edu/iiif/2/1006214/full/full/0/default.jpg",
+      "yale_sha256": "0054f691ac8fddcac324fba6b385f8ad578cd0f2f9879d5498a325bab0310893",
+      "dimensions": [
+        2793,
+        3761
+      ],
+      "rectangle_du_detail": [
+        1390,
+        340,
+        2490,
+        1540
+      ],
+      "loci": [
+        {
+          "locus": "f78r.44",
+          "categorie": "conduit",
+          "boites_mots": [
+            [
+              1950,
+              800,
+              2272,
+              928
+            ]
+          ]
+        }
+      ],
+      "calage": {
+        "reperage_url": "https://www.voynichese.com/2/data/folio/script/f78r.js",
+        "reperage_sha256": "e1243e6606df1a9738f660a4e52481fb43e23eb9355925be733798871938ef05",
+        "image_de_reperage": "https://www.voynichese.com/2/data/folio/image/glance/color/large/f78r.jpg",
+        "image_de_reperage_sha256": "05921687e5f48abdb32cccd4f1f323cf284d0dd5abfcd16514e7941db15f1dc1",
+        "accords_sift": 3354,
+        "erreur_p95_pixels_yale": 3.923
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Prédiction sur les voisins matériels de f76r.36
+
+Le calcul antérieur a sélectionné la paire *shedy sheol* en f76r.36, compatible sous deux tables et une inversion de l’ordre d’une étiquette avec *aquas aqua*. Le contexte latin s’écrit dans les témoins comparés *refrenat aquas aqua turgida* ou *refrenat aquas aqua frigida*. Les variantes de position et d’orthographe du bain sont enregistrées dans le contrôle de Raynerius.
+
+Avant de relire la ligne manuscrite ou ses transcriptions, l’hypothèse stricte est celle de quatre groupes contigus sur une même ligne et dans le sens direct. On attend une place à gauche du premier pour *refrenat* et une place à droite du second pour *turgida* ou *frigida*. Le test matériel porte d’abord sur l’existence et les bornes de ces places. Un mot sur une ligne suivante reste hors de la fenêtre stricte. Un saut de ligne pourra être décrit mais ne sera pas transformé en prédiction réussie. Des lettres du Voynich ne sont pas prédites ici pour les voisins. Une place disponible ne prouve aucune lecture latine. Les transcriptions et l’encre doivent être rapportées avec leurs désaccords, y compris sur la segmentation.

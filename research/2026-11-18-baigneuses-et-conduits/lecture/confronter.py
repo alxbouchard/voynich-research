@@ -14,7 +14,7 @@ import unicodedata
 HERE = Path(__file__).resolve().parent
 RESEARCH = HERE.parents[1]
 sys.path.insert(0, str(RESEARCH / "2026-11-18-ordre-des-noms/lecture"))
-from comparer import corpus, tokens, units
+from comparer import tokens, units
 from essai import tables
 
 SEED = ("olkchy","otoly")
@@ -148,7 +148,7 @@ def decode(signs,key):
     return "".join(key[s] for s in signs) if signs and all(s in key for s in signs) else None
 
 
-def evaluate(sets, records):
+def evaluate(sets, records, reverse_horizontal=False):
     sites=objects()
     seedsite,=[s for s in sites if s["lieu"]=="f75v.36+37"]
     assert tuple(seedsite["mots"])==SEED
@@ -166,7 +166,8 @@ def evaluate(sets, records):
             details=[]
             for site in sites:
                 if site==seedsite:continue
-                seq=site["mots"][::-1] if backwards else site["mots"]
+                reverse=backwards and ("+" in site["lieu"] or reverse_horizontal)
+                seq=site["mots"][::-1] if reverse else site["mots"]
                 signs=tuple(transformed(w,mode) for w in seq)
                 if len(seq)==1 and site["bifeuillet"]!=source:
                     if signs[0] and all(s in key for s in signs[0]):
@@ -199,6 +200,8 @@ if __name__=="__main__":
     if sys.argv[1]=="predire":
         save("PREDICTIONS.json.gz",forecasts(data))
     elif sys.argv[1]=="verifier":
-        save("RESULTATS.json.gz",evaluate(data,read(HERE/"PREDICTIONS.json.gz")))
+        records=read(HERE/"PREDICTIONS.json.gz")
+        save("RESULTATS.json.gz",evaluate(data,records))
+        save("SENS-INVERSE.json.gz",evaluate(data,records,reverse_horizontal=True))
     else:
         raise ValueError("predire ou verifier")

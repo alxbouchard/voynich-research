@@ -1,0 +1,129 @@
+{
+  "origine_coordonnees": "coin superieur gauche, x1,y1,x2,y2, bornes hautes exclues",
+  "calage_f76r": {
+    "n_feature_matches": 4960,
+    "n_inliers": 4722,
+    "median_feature_error_yale_px": 1.9355235104051105,
+    "p95_feature_error_yale_px": 3.619063483723247,
+    "ref_size": [
+      636,
+      900
+    ],
+    "native_size": [
+      2793,
+      3769
+    ],
+    "ref_sha256": "8e8ac945828b856f08ad67c75a9fb8851d0ec59808f3c4ff549a129ae4c3d221",
+    "yale_sha256": "39d264ab4e6fbb9cad1de45b7efedb6f4b9cb497cb587214926fcbaf6590ec68",
+    "transformation_repere_v2_vers_original_Yale": [
+      [
+        3.384715309941407,
+        0.02070335695407263,
+        226.23313112238338
+      ],
+      [
+        -0.029384348019342296,
+        3.3882209732181057,
+        173.26680144510155
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "repere_v2": "https://www.voynichese.com/2/data/folio/script/f76r.js",
+  "photo_repere_v2": "https://www.voynichese.com/2/data/folio/image/glance/color/large/f76r.jpg",
+  "f76r.36_groupe_et_rectangle_Yale": {
+    "1": {
+      "lecture_IT": "qokal",
+      "boite": [
+        327,
+        1746,
+        480,
+        1809
+      ]
+    },
+    "2": {
+      "lecture_IT": "shedy",
+      "boite": [
+        489,
+        1745,
+        623,
+        1818
+      ]
+    },
+    "3": {
+      "lecture_IT": "sheol",
+      "boite": [
+        642,
+        1754,
+        775,
+        1827
+      ]
+    },
+    "4": {
+      "lecture_IT": "cheal",
+      "boite": [
+        804,
+        1773,
+        948,
+        1826
+      ]
+    },
+    "5": {
+      "lecture_IT": "alshy",
+      "boite": [
+        946,
+        1761,
+        1100,
+        1824
+      ]
+    }
+  },
+  "photographies": [
+    {
+      "face": "f76r",
+      "nom_fichier": "trois-lignes.jpg",
+      "rectangle": [
+        135,
+        1663,
+        2365,
+        1882
+      ],
+      "source": "https://collections.library.yale.edu/iiif/2/1006210/full/full/0/default.jpg",
+      "region_IIIF": "https://collections.library.yale.edu/iiif/2/1006210/135,1663,2230,219/full/0/default.jpg",
+      "sha256_image_originale": "39d264ab4e6fbb9cad1de45b7efedb6f4b9cb497cb587214926fcbaf6590ec68",
+      "sha256_extrait": "e9caa53820aa253b68ebb30234695bd7ab5776de948e37ec1c680e813d900c21"
+    },
+    {
+      "face": "f76r",
+      "nom_fichier": "quatre-groupes.jpg",
+      "rectangle": [
+        175,
+        1692,
+        986,
+        1873
+      ],
+      "source": "https://collections.library.yale.edu/iiif/2/1006210/full/full/0/default.jpg",
+      "region_IIIF": "https://collections.library.yale.edu/iiif/2/1006210/175,1692,811,181/full/0/default.jpg",
+      "sha256_image_originale": "39d264ab4e6fbb9cad1de45b7efedb6f4b9cb497cb587214926fcbaf6590ec68",
+      "sha256_extrait": "ee32b56901b6f2de027f2de2c9e6c14c790be345dd4d84f3cbb48350ef3aab28"
+    },
+    {
+      "face": "f77v",
+      "nom_fichier": "f77v-etiquette.jpg",
+      "rectangle": [
+        875,
+        367,
+        1180,
+        489
+      ],
+      "source": "https://collections.library.yale.edu/iiif/2/1006213/full/full/0/default.jpg",
+      "region_IIIF": "https://collections.library.yale.edu/iiif/2/1006213/875,367,305,122/full/0/default.jpg",
+      "sha256_image_originale": "e2e2f629753bfe6a9c111d8157ac63cfc4524966cbf367ddaaffece07cffdab2",
+      "sha256_extrait": "8e6e1d5dbe35c36e8a3d3acb6d89f27497d5248bb72722f940a9b7cdb9d1ff95"
+    }
+  ]
+}

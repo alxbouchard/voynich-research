@@ -1,0 +1,1565 @@
+{
+ "graine": 20261118,
+ "logiciels": {
+  "python": ">=3.9",
+  "numpy": "2.4.6"
+ },
+ "test": {
+  "mot": {
+   "score": 0.3835152116402116,
+   "par_face": {
+    "f75v": {
+     "score": 0.4365079365079365,
+     "corrects": 0,
+     "errones": 2,
+     "abstentions": 14
+    },
+    "f77r": {
+     "score": 0.5416666666666667,
+     "corrects": 1,
+     "errones": 0,
+     "abstentions": 8
+    },
+    "f82r": {
+     "score": 0.25,
+     "corrects": 0,
+     "errones": 1,
+     "abstentions": 5
+    },
+    "f82v": {
+     "score": 0.45833333333333337,
+     "corrects": 0,
+     "errones": 1,
+     "abstentions": 10
+    },
+    "f83v": {
+     "score": 0.25,
+     "corrects": 0,
+     "errones": 1,
+     "abstentions": 3
+    },
+    "f84r": {
+     "score": 0.53125,
+     "corrects": 1,
+     "errones": 0,
+     "abstentions": 8
+    }
+   },
+   "par_bifeuillet": {
+    "1": 0.48387896825396826,
+    "2": 0.25,
+    "3": 0.4166666666666667
+   },
+   "objets_sur_faces_mixtes": {
+    "corrects": 2,
+    "errones": 5,
+    "abstentions": 48
+   },
+   "tous": {
+    "corrects": 2,
+    "errones": 6,
+    "abstentions": 67
+   },
+   "nul_face": {
+    "superieur_ou_egal": 9785,
+    "tirages": 9999,
+    "p": 0.9786,
+    "p_holm": 0.9786
+   },
+   "nul_face_et_nombre_mots": {
+    "superieur_ou_egal": 9659,
+    "tirages": 9999,
+    "p": 0.966
+   },
+   "critere_atteint": false
+  },
+  "prefixe": {
+   "score": 0.5785218253968254,
+   "par_face": {
+    "f75v": {
+     "score": 0.4246031746031746,
+     "corrects": 5,
+     "errones": 8,
+     "abstentions": 3
+    },
+    "f77r": {
+     "score": 0.7916666666666666,
+     "corrects": 7,
+     "errones": 1,
+     "abstentions": 1
+    },
+    "f82r": {
+     "score": 0.2,
+     "corrects": 1,
+     "errones": 3,
+     "abstentions": 2
+    },
+    "f82v": {
+     "score": 0.5,
+     "corrects": 5,
+     "errones": 6,
+     "abstentions": 0
+    },
+    "f83v": {
+     "score": 0.6666666666666666,
+     "corrects": 2,
+     "errones": 2,
+     "abstentions": 0
+    },
+    "f84r": {
+     "score": 0.71875,
+     "corrects": 3,
+     "errones": 3,
+     "abstentions": 3
+    }
+   },
+   "par_bifeuillet": {
+    "1": 0.5716765873015873,
+    "2": 0.6666666666666666,
+    "3": 0.49722222222222223
+   },
+   "objets_sur_faces_mixtes": {
+    "corrects": 23,
+    "errones": 23,
+    "abstentions": 9
+   },
+   "tous": {
+    "corrects": 30,
+    "errones": 35,
+    "abstentions": 10
+   },
+   "nul_face": {
+    "superieur_ou_egal": 1783,
+    "tirages": 9999,
+    "p": 0.1784,
+    "p_holm": 0.5352
+   },
+   "nul_face_et_nombre_mots": {
+    "superieur_ou_egal": 1683,
+    "tirages": 9999,
+    "p": 0.1684
+   },
+   "critere_atteint": false
+  },
+  "suffixe": {
+   "score": 0.5853009259259259,
+   "par_face": {
+    "f75v": {
+     "score": 0.4722222222222222,
+     "corrects": 7,
+     "errones": 8,
+     "abstentions": 1
+    },
+    "f77r": {
+     "score": 0.75,
+     "corrects": 5,
+     "errones": 2,
+     "abstentions": 2
+    },
+    "f82r": {
+     "score": 0.65,
+     "corrects": 2,
+     "errones": 3,
+     "abstentions": 1
+    },
+    "f82v": {
+     "score": 0.55,
+     "corrects": 6,
+     "errones": 5,
+     "abstentions": 0
+    },
+    "f83v": {
+     "score": 0.6666666666666666,
+     "corrects": 2,
+     "errones": 2,
+     "abstentions": 0
+    },
+    "f84r": {
+     "score": 0.40625,
+     "corrects": 6,
+     "errones": 2,
+     "abstentions": 1
+    }
+   },
+   "par_bifeuillet": {
+    "1": 0.4392361111111111,
+    "2": 0.6666666666666666,
+    "3": 0.65
+   },
+   "objets_sur_faces_mixtes": {
+    "corrects": 28,
+    "errones": 22,
+    "abstentions": 5
+   },
+   "tous": {
+    "corrects": 39,
+    "errones": 29,
+    "abstentions": 7
+   },
+   "nul_face": {
+    "superieur_ou_egal": 2663,
+    "tirages": 9999,
+    "p": 0.2664,
+    "p_holm": 0.5352
+   },
+   "nul_face_et_nombre_mots": {
+    "superieur_ou_egal": 2354,
+    "tirages": 9999,
+    "p": 0.2355
+   },
+   "critere_atteint": false
+  }
+ },
+ "predictions": [
+  {
+   "id": "f75v.18+19",
+   "mots": [
+    "okshy",
+    "saral"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.20+21",
+   "mots": [
+    "darol",
+    "dokal"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": "Lt",
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.24+25",
+   "mots": [
+    "dalkar",
+    "qokal"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.26+27",
+   "mots": [
+    "dly",
+    "ory"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.28+29",
+   "mots": [
+    "lchy",
+    "oty"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f75v.30+31",
+   "mots": [
+    "dal",
+    "dary"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.32+33",
+   "mots": [
+    "daldy",
+    "qoted"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f75v.34+35",
+   "mots": [
+    "rkal",
+    "ykedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f75v.36+37",
+   "mots": [
+    "olkchy",
+    "otoly"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f75v.50",
+   "mots": [
+    "opal",
+    "otal"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.51",
+   "mots": [
+    "lol",
+    "okeey"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.52",
+   "mots": [
+    "olol"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f75v.53",
+   "mots": [
+    "ytedy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f75v.54",
+   "mots": [
+    "otedy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": "Ln",
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f75v.55",
+   "mots": [
+    "oteey"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f75v.56",
+   "mots": [
+    "qotedy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77r.1",
+   "mots": [
+    "darchdar"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77r.2",
+   "mots": [
+    "olkchs"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f77r.3",
+   "mots": [
+    "otedy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": "Lt",
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77r.4",
+   "mots": [
+    "otork"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f77r.5",
+   "mots": [
+    "otol"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f77r.6",
+   "mots": [
+    "dchdy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77r.7",
+   "mots": [
+    "soral"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f77r.8",
+   "mots": [
+    "dotedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77r.49",
+   "mots": [
+    "otchdy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77v.1",
+   "mots": [
+    "okain"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f77v.2",
+   "mots": [
+    "otol",
+    "shedy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77v.3",
+   "mots": [
+    "olkeedal"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f77v.4",
+   "mots": [
+    "otolor"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f77v.44",
+   "mots": [
+    "okalo"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f78r.1",
+   "mots": [
+    "okchdldlo"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 39,
+    "Lt": 31
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f78r.2",
+   "mots": [
+    "okchdy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 39,
+    "Lt": 31
+   },
+   "predictions": {
+    "mot": "Ln",
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f78r.45",
+   "mots": [
+    "dchedaly"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 39,
+    "Lt": 31
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f78r.46",
+   "mots": [
+    "orory"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 39,
+    "Lt": 31
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f78r.47",
+   "mots": [
+    "okaral"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 39,
+    "Lt": 31
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f80r.2",
+   "mots": [
+    "olchdy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f80r.3",
+   "mots": [
+    "okaly"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f80r.4",
+   "mots": [
+    "okolo"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f80r.6",
+   "mots": [
+    "opor"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f80r.7",
+   "mots": [
+    "olky"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f80r.8",
+   "mots": [
+    "otalshedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f80r.9",
+   "mots": [
+    "okar"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 32,
+    "Lt": 36
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f82r.35",
+   "mots": [
+    "darol"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": "Ln",
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82r.36",
+   "mots": [
+    "okal"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82r.40",
+   "mots": [
+    "sororl"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f82r.42",
+   "mots": [
+    "sokoly"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f82r.43",
+   "mots": [
+    "dolol"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82r.44",
+   "mots": [
+    "olaiin"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.1",
+   "mots": [
+    "otechdy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f82v.2",
+   "mots": [
+    "otedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": "Lt",
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f82v.4",
+   "mots": [
+    "otedal"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.39",
+   "mots": [
+    "olkeedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f82v.40",
+   "mots": [
+    "okalchy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.41",
+   "mots": [
+    "okain"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.43",
+   "mots": [
+    "okedor"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f82v.44",
+   "mots": [
+    "okol"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.46",
+   "mots": [
+    "olkol"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.47",
+   "mots": [
+    "otedol"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f82v.48",
+   "mots": [
+    "oteedy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 25,
+    "Lt": 19
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f83r.45",
+   "mots": [
+    "chtorol"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f83r.46",
+   "mots": [
+    "olsaiin"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f83r.51",
+   "mots": [
+    "darolsy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": false,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f83v.9",
+   "mots": [
+    "ololary"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f83v.10",
+   "mots": [
+    "okarchy"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f83v.34",
+   "mots": [
+    "okchdy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": "Lt",
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f83v.35",
+   "mots": [
+    "okaiin"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 38,
+    "Lt": 30
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.2",
+   "mots": [
+    "or",
+    "shekar"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.3",
+   "mots": [
+    "ydy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.4",
+   "mots": [
+    "okedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.8",
+   "mots": [
+    "otedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": "Ln",
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.9",
+   "mots": [
+    "lkol"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Lt"
+   }
+  },
+  {
+   "id": "f84r.10",
+   "mots": [
+    "okolshy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Ln",
+    "suffixe": null
+   }
+  },
+  {
+   "id": "f84r.11",
+   "mots": [
+    "otoly"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.12",
+   "mots": [
+    "dshedy"
+   ],
+   "code": "Ln",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": null,
+    "suffixe": "Ln"
+   }
+  },
+  {
+   "id": "f84r.47",
+   "mots": [
+    "otaly"
+   ],
+   "code": "Lt",
+   "score_sur_face_mixte": true,
+   "apprentissage": {
+    "Ln": 22,
+    "Lt": 28
+   },
+   "predictions": {
+    "mot": null,
+    "prefixe": "Lt",
+    "suffixe": "Ln"
+   }
+  }
+ ],
+ "plus_frequente": {
+  "score": 0.49999999999999994,
+  "par_face": {
+   "f75v": {
+    "score": 0.5,
+    "corrects": 7,
+    "errones": 9,
+    "abstentions": 0
+   },
+   "f77r": {
+    "score": 0.5,
+    "corrects": 3,
+    "errones": 6,
+    "abstentions": 0
+   },
+   "f82r": {
+    "score": 0.5,
+    "corrects": 5,
+    "errones": 1,
+    "abstentions": 0
+   },
+   "f82v": {
+    "score": 0.5,
+    "corrects": 6,
+    "errones": 5,
+    "abstentions": 0
+   },
+   "f83v": {
+    "score": 0.5,
+    "corrects": 1,
+    "errones": 3,
+    "abstentions": 0
+   },
+   "f84r": {
+    "score": 0.5,
+    "corrects": 1,
+    "errones": 8,
+    "abstentions": 0
+   }
+  },
+  "par_bifeuillet": {
+   "1": 0.5,
+   "2": 0.5,
+   "3": 0.5
+  },
+  "objets_sur_faces_mixtes": {
+   "corrects": 23,
+   "errones": 32,
+   "abstentions": 0
+  },
+  "tous": {
+   "corrects": 23,
+   "errones": 52,
+   "abstentions": 0
+  }
+ },
+ "choix_equiprobable_esperance": 0.5,
+ "temoin_artificiel": {
+  "mot": 0.9999999999999999,
+  "prefixe": 0.9999999999999999,
+  "suffixe": 0.9999999999999999
+ }
+}
