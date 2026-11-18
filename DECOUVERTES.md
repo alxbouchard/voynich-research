@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Les quatre mois d’automne et la finale eody](research/2026-11-18-mois-automne/RAPPORT.md) | La finale est certaine à 11 des 120 emplacements des figures de septembre à décembre et à 1 des 179 autres, en août. Les règles testées manquent octobre. Une table ajustée aux quatre réponses fonctionne aussi pour les 24 ordres possibles des mois. |
 | [Des légendes de plantes à une phrase de quatre mots](research/2026-11-18-legendes-et-paragraphes/RAPPORT.md) | À f89r2, un essai calé sur quatre mots d’un herbier français échoue au cinquième, `sheol`. Au verso, ce groupe accompagne un fragment et revient dans le paragraphe sous sa rangée. Hors du panneau d’origine, les légendes ne désignent seules aucune de leurs 14 pages. |
 | [Les sept étoiles de f68r3 et leurs deux légendes](research/2026-11-18-carte-sept-etoiles/RAPPORT.md) | Les trois étoiles réservées manquent les positions prédites par la carte des Pléiades. Une même table de signes échoue à lire les noms des Pléiades et d’Aldébaran dans les graphies arabes de Samarcande comme dans les témoins castillan et latin. |
 | [Prédire où se trouve une étoile dessinée](research/2026-11-18-etoile-en-images/RAPPORT.md) | Quatre des huit lignes du cahier final portant le groupe `otor` sont à la hauteur d’une étoile. Ces quatre lignes ouvrent aussi un paragraphe. La lecture latine *stella* essayée sur le groupe ne se transfère pas aux autres légendes. |

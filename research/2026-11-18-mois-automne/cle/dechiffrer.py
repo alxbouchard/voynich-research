@@ -1,5 +1,5 @@
 """Apprend toutes les tables transférables sur trois panneaux puis teste les graphies prédites."""
-from collections import Counter, defaultdict
+from collections import defaultdict
 from functools import lru_cache
 import gzip
 import hashlib
@@ -168,11 +168,11 @@ def controls():
     assert not (other & pred.keys())
     _,inv = learn([{x[::-1] for x in v} for v in books],names,1,True)
     assert ''.join(true[::-1]) in inv
-    # Ajouter neuf formes de même longueur dans le panneau d’octobre et dans les huit autres.
-    # Ces leurres conservent toutes les unités du mot réservé.
+    # Les rotations non identiques et l’inversion conservent les signes du mot réservé.
     distractors = [''.join(true[i:]+true[:i]) for i in range(1,len(true))]
     distractors.append(''.join(reversed(true)))
     scrambled_panel_hits = sorted(set(distractors) & pred.keys())
+    assert not scrambled_panel_hits
     neg = ('sepembr', *names[1:])
     assert not learn(books,neg,2,False)[1]
     chunk = 'br'
@@ -225,7 +225,6 @@ def evaluate():
             hits = {''.join(w):locs for w,locs in book.items() if ''.join(w) in predicted}
             for w in hits:
                 entry = predicted[w]
-                seq = segment(w)
                 sources = entry['sources'] + [w]
                 for source, target in zip(sources, SERIES[serie]):
                     physical = segment(source)
