@@ -36,7 +36,7 @@ def texts(kind,local=False):
     ed,sections=corpus()
     meta=metadata()
     panels=set(load(CAT)["panneaux"])
-    eligible=panels if kind=="panneaux" else {p for p,m in meta.items() if m.get("I")=="H"}
+    eligible=set(meta) if kind=="tout" else panels if kind=="panneaux" else {p for p,m in meta.items() if m.get("I")=="H"}
     pages={p:[] for p in eligible}
     for loc,(page,typ,_,_) in ed["H"].items():
         if page not in pages or typ!="P0" or loc not in ed["ZL"] or ed["ZL"][loc][1]!="P0":continue
