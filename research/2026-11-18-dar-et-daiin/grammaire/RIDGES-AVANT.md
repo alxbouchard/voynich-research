@@ -1,0 +1,5 @@
+# Vérifier les catégories indépendamment dans les sources allemandes
+
+Après le test lexical, la présence d’une couche publiée « pos » a été vérifiée dans les six fichiers allemands de RIDGES. Les valeurs des centres n’ont pas été ouvertes. Cette couche automatique externe donne accès à des verbes, à des articles et à des pronoms que le petit lexique ne pouvait départager. Aligner les 115 encadrements archivés grâce à leurs numéros de cellules, en rejetant les lectures multiples ou les alignements plusieurs-vers-un. Publier les étiquettes brutes et les taux de couverture.
+
+Test supplémentaire, avant ouverture des étiquettes centrales : si les deux mots extérieurs possèdent tous deux une étiquette d’article ou de préposition (STTS ART, APPR), prédire que le centre masqué est un nom commun (NN). Comparer aux fenêtres non répétitives X B Z de la même édition, même tiers, même mot extérieur à gauche et mêmes étiquettes aux deux extrémités, où X, B, Z sont distincts. Signaler quand le témoin apparié manque. Ce contrôle de mécanisme sur de l’allemand connu ne donne pas les étiquettes des mots extérieurs du Voynich.

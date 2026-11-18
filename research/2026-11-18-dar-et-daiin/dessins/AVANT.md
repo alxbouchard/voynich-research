@@ -1,0 +1,10 @@
+# Prédire deux traits de la racine de f14r
+
+Le modèle de comparaison est le dessin de f23r, dont la septième ligne contient *qokchol dar qokchol*. Sur la grande plante de f18v, *qokol daiin qokol* est au même rang, et *dar* suit. Les deux dessins et leurs racines ont déjà été examinés. La photographie entière de f14r a elle aussi été vue en vérifiant la ligne *qokchol dar dala/dalo*. Il s’agit d’une hypothèse matérielle rétrospective, consignée avant de rouvrir le dessin pour la noter. Il n’y a aucune mise en aveugle indépendante.
+
+Si les mots *qokchol dar* accompagnent le même dessin de racine qu’à f23r, annoncer les deux observations suivantes sur f14r.
+
+1. Présence d’au moins trois colliers transversaux séparés sur un même axe basal épais. Chaque collier doit montrer deux traits rapprochés qui traversent au moins la moitié du diamètre du corps principal et sont approximativement perpendiculaires à sa direction locale. Des hachures ponctuelles, les contours de deux racines qui se croisent et de simples taches ne comptent pas.
+2. Absence d’une série de trois dents ou lobes saillants à contour double sur le bord supérieur d’un même axe basal horizontal. Chaque lobe doit être relié directement au bord, se terminer librement au-dessus de celui-ci et faire au moins le quart de l’épaisseur locale de l’axe. Les tiges qui gagnent le feuillage et les filaments à trait simple ne comptent pas. La présence de cette série distingue le dessin de f18v de celui de f23r.
+
+Le test des deux traits ensemble exige les deux observations. Comme estimation locale de leur fréquence, appliquer la grille à toutes les autres faces conservées du cahier 2, en excluant le bifeuillet f11/f14. Il reste les rectos et versos de 9, 10, 13, 15 et 16, soit dix faces. Le feuillet 12 manque. Les exclusions et les seuils sont fixés avant de rouvrir ces images. Une racine qui ne montre aucun axe horizontal ou épais ne peut porter la série et sera comptée absente ; une racine graphie trop indistincte sera notée indéterminée. Noter également, sans interprétation, les positions de f18v.7, f23r.7 et f14r.5 par rapport à l’organe basal.
