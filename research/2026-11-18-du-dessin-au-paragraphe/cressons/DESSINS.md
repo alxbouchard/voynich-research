@@ -1,0 +1,12 @@
+# Les deux racines de f99v ressemblent-elles aux deux gravures de Passau ?
+
+Le modèle appliqué au texte avait retenu deux inscriptions voisines, `arol` et `otoky`. À partir des deux bois gravés de Passau, nous avons publié deux formes attendues avant d'examiner ces emplacements pour cette épreuve. En suivant l’ordre des huit fragments du rang supérieur, **aucun des deux dessins du Voynich ne réunit les caractères annoncés**. [Prédiction déposée](https://github.com/alxbouchard/voynich-research/blob/9820a55/research/2026-11-18-du-dessin-au-paragraphe/cressons/DESSINS-PREDICTION.md) · [Gravures, deux colonnes centrales](../temoin/quatre-feuillets.jpg) · [Rang supérieur de f99v](f99v-rang-superieur.jpg)
+
+| Emplacement | Caractères annoncés d’après Passau | Observation sur le Voynich |
+|---|---|---|
+| f99v.8, `arol`, septième position | Une longue racine principale fine et isolée | Le fragment brun présente deux longues branches épaisses qui s’écartent en sens opposé au bas du dessin. La forme de la racine prévue est incompatible avec cette bifurcation. |
+| f99v.9, `otoky`, huitième position | Des racines fines partant d’un même collet et, de l’autre côté, plusieurs longues tiges feuillées | La forme pâle est renflée et striée de rouge, puis effilée. Elle porte plusieurs traits fins près de son extrémité supérieure. Leur nature reste incertaine. La partie feuillée nécessaire à la comparaison manque. |
+
+Ce rattachement suit les positions 101 et 102 dans la numérotation moderne des fragments de René Zandbergen et le rang des étiquettes. Les inscriptions sont entre des dessins. Le manuscrit ne donne aucun numéro qui garantirait la correspondance. L’image du Voynich montre des fragments, les gravures des plantes entières. Une autre manière de dessiner une même espèce reste possible. Aucun des deux emplacements ne fournit la confirmation iconographique indépendante recherchée. [Agrandissement des deux inscriptions et de leurs voisines](f99v-legendes.jpg) · [Catalogue du cahier 19](https://www.voynich.nu/q19/index.html#f99v) · [Original à Yale](https://collections.library.yale.edu/iiif/2/1006247/full/full/0/default.jpg)
+
+La vue d’ensemble reproduit la photographie, sans tracé ajouté ni rotation. Le script vérifie son empreinte et conserve les positions approximatives du visualiseur pour choisir la hauteur du recadrage. [Source et coordonnées](PHOTO.json) · [Script](photographier.py) · [Essai de lecture des étiquettes](RAPPORT.md)

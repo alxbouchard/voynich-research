@@ -1,0 +1,9 @@
+# Contrôle exploratoire des autres rencontres de tracés sur f99r
+
+Après avoir constaté le contact des deux `okeoly`, comparer le haut des lettres de chacune des huit légendes de la même rangée (.20 à .27) à l'encre de la ligne de prose .18 tout entière. Une rencontre nécessite des traits attribuables aux deux inscriptions qui s'approchent jusqu'au contact apparent sur le cliché natif. Compter séparément les contours de dessins, les flexions du parchemin et les lettres qui se superposent seulement en abscisse. Signaler toute coupure de champ ou ambiguïté. La même ligne au-dessus et la même rangée en dessous produisent sept témoins qui partagent les conditions matérielles du cas déjà reconnu. Il s’agit d'une vérification descriptive choisie après observation du contact.
+
+## Résultat du dépouillement
+
+Les huit bords de légende sont exposés. Les signes de deux légendes paraissent toucher la ligne de prose. À .25, le `l` de `okeoly` (.18/8) rejoint la boucle supérieure du `k` de l'autre `okeoly`. À .24, le `l` final de `ckhol` (.18/6) descend sur la partie supérieure du `k` de `oky`. Le témoin fixé dans le protocole principal reliait .24 au mot 7 `daiin` ; c'est le mot 6 qui touche en réalité la légende. À .21, la descendante de `ykol` s'arrête avant l'encre de `aloly`. Les cinq autres légendes ne présentent pas de jonction discernable avec la ligne .18. Quelques traits de dessin ou de la ligne voisine arrivent près de leurs lettres.
+
+Au total, il y a un contact apparent dans la seule paire de mots entiers identiques et un autre au-dessus d'une des sept étiquettes de graphie différente. Les deux rencontres font intervenir la descendante d'un `l` de prose et une hampe de `k` de légende dans le même interligne serré. Le contact de .25 est matériellement intéressant ; sa forme se rencontre aussi entre des groupes différents. [Huit étiquettes et agrandissement des deux contacts](interligne-f99r.jpg)
