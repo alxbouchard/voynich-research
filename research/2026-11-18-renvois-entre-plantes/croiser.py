@@ -12,7 +12,8 @@ import sys
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "2026-11-18-dam-en-fin-de-ligne"))
-from corpus_dam import aligned, corpus, metadata, segment
+from corpus_dam import MODES, aligned, corpus, metadata, segment
+from aligner import control, local_rows
 
 CAT = HERE / "catalogue/RENVOIS.json"
 
@@ -31,7 +32,7 @@ def leaf(page):
     return int(re.match(r"f(\d+)",page)[1])
 
 
-def texts(kind):
+def texts(kind,local=False):
     ed,sections=corpus()
     meta=metadata()
     panels=set(load(CAT)["panneaux"])
@@ -39,6 +40,10 @@ def texts(kind):
     pages={p:[] for p in eligible}
     for loc,(page,typ,_,_) in ed["H"].items():
         if page not in pages or typ!="P0" or loc not in ed["ZL"] or ed["ZL"][loc][1]!="P0":continue
+        if local:
+            views=[ed[e][loc][3] for e,_ in MODES]
+            pages[page].extend(local_rows(views,loc))
+            continue
         for row in aligned(ed,loc,page,sections[page],leaf(page),Counter()):
             ranks=tuple(map(int,row["rangs_quatre"].split("/")))
             pages[page].append((row["mot"],loc,row["troncon"],ranks))
@@ -58,8 +63,8 @@ def family(word):
     return word[:-1] if len(u)>=4 and u[-1] in ("r","l") else None
 
 
-def announce():
-    pages=texts("plantes")
+def announce(local=False):
+    pages=texts("plantes",local)
     doc=defaultdict(set)
     fam=defaultdict(set)
     for page,rows in pages.items():
@@ -170,8 +175,8 @@ def shuffled(links, group, details):
     return stats
 
 
-def opening(pred):
-    cat=load(CAT);pages=texts("panneaux");links=cat["liens"]
+def opening(pred,local=False):
+    cat=load(CAT);pages=texts("panneaux",local);links=cat["liens"]
     out={"positions":{p:len(rows) for p,rows in pages.items()},"lots":{}}
     for label in ("principal","catalogue_direct","avec_petersen","origine_baies"):
         leaf_ok=lambda p:(leaf(p) not in {99,100} if label=="principal" else True)
@@ -202,11 +207,15 @@ def opening(pred):
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("mode",choices=("annoncer","ouvrir"))
+    parser.add_argument("mode",choices=("annoncer","ouvrir","annoncer_local","ouvrir_local","ouvrir_origine_local"))
     mode=parser.parse_args().mode
-    path=HERE/"ANNONCES.json.gz"
-    if mode=="annoncer":save(path,announce())
+    local=mode.endswith("local")
+    use_local_source=mode in ("annoncer_local","ouvrir_local")
+    path=HERE/("ANNONCES-LOCALES.json.gz" if use_local_source else "ANNONCES.json.gz")
+    if local:control()
+    if mode.startswith("annoncer"):save(path,announce(use_local_source))
     else:
         pred=load(path)
-        assert pred==announce()
-        save(HERE/"OUVERTURE.json.gz",opening(pred))
+        assert pred==announce(use_local_source)
+        name={"ouvrir":"OUVERTURE","ouvrir_local":"OUVERTURE-LOCALE","ouvrir_origine_local":"OUVERTURE-ORIGINE-LOCALE"}[mode]
+        save(HERE/(name+".json.gz"),opening(pred,local))
