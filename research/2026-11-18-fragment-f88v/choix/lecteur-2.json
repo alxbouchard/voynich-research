@@ -1,0 +1,44 @@
+{
+  "lecteur": "lecteur-2",
+  "nature": "Lecture visuelle qualitative par une IA. J'ai examiné les sept images fournies sous leurs codes, sans information sur leur provenance.",
+  "convention": "Les rangs vont du plus au moins ressemblant. Les cartes dans un même groupe sont ex aequo. Un premier rang peut s'accompagner d'un choix nul.",
+  "votes": [
+    {
+      "detail": "T1",
+      "rangs": [["J3"], ["J4"], ["J2"], ["J1"]],
+      "choix": "J3",
+      "relation": "ressemblance partielle",
+      "observations": [
+        "Un centre vert porte des pointes rayonnantes. J3 en montre de nombreuses, vertes jusqu'au voisinage des pointes. J4 partage le dessin rayonnant, mais plusieurs de ses longs lobes sont ocres et recourbés.",
+        "En bas de T1, plusieurs longs traits épais reviennent vers la gauche en suivant des courbes voisines. Dans la moitié gauche de la racine de J3, on retrouve des prolongements larges, parallèles et courbes. J4 présente à cette place des volumes courts et largement renflés.",
+        "Dans T1, le trait de droite se replie jusqu'à donner l'apparence d'une boucle et la jonction est rougeâtre. J3 montre des éléments ocres effilés, suspendus à un axe ramifié. Je ne reconnais pas un même tracé."
+      ],
+      "limite": "La concordance de la racine porte sur la courbure et la disposition des prolongements. Leur raccordement diffère. Le bouquet de traits au-dessus du collet de T1 reste sans équivalent assuré."
+    },
+    {
+      "detail": "T2",
+      "rangs": [["J4"], ["J2"], ["J3"], ["J1"]],
+      "choix": "J4",
+      "relation": "même détail dessiné identifiable visuellement",
+      "observations": [
+        "Je retrouve T2 dans le deuxième organe renflé à partir de la gauche du panneau inférieur droit de J4. L'épaule haute à gauche descend en creux vers la petite attache en haut à droite. Le bord inférieur rejoint une pointe rabattue à gauche.",
+        "Une série de petits crochets obliques traverse l'intérieur du renflement. La fine boucle claire sous la pointe revient toucher le bord inférieur au même endroit relatif. La combinaison du contour, des marques intérieures et du retour sous la pointe permet de localiser le détail.",
+        "J2 a aussi un renflement brun qui s'amincit vers la gauche, mais son contour porte de nombreux traits saillants et sa pointe se prolonge en queue étroite."
+      ],
+      "limite": "L'identité signalée concerne le dessin visible dans les deux images. La comparaison ne détermine ni une espèce ni un procédé de reproduction."
+    },
+    {
+      "detail": "T3",
+      "rangs": [["J2"], ["J3", "J4"], ["J1"]],
+      "choix": null,
+      "relation": "aucun rapprochement retenu",
+      "observations": [
+        "La racine de T3 se renfle près du départ des tiges, se resserre vers le bas à gauche, puis fait un coude d'où partent plusieurs pointes épaisses. J2 reproduit la silhouette renflée et amincie, mais se termine par une queue fine entourée de poils.",
+        "Le limbe vert de T3 est allongé, aigu, bordé de nombreuses petites dents. Les feuilles de J2 sont largement triangulaires et échancrées à la base. J3 et J4 portent des lobes rayonnants.",
+        "Les éléments inférieurs de J3 présentent des formes fuselées, ceux de J4 des pointes recourbées. Aucun de ces rapprochements ne rend à la fois le coude ramifié de T3 et le limbe denté."
+      ],
+      "limite": "Le premier rang de J2 est relatif. Le contour renflé est la seule concordance nette et aucun second caractère assez distinctif ne la confirme."
+    }
+  ],
+  "limites_generales": "Les fragments et les agrandissements ont des échelles et des cadrages différents. Aucun recalage géométrique ni test de pixels n'a été réalisé. Le classement ne mesure aucune fréquence dans un corpus et ne permet pas d'inférer l'identité botanique."
+}

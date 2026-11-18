@@ -1,0 +1,38 @@
+{
+  "lecteur": "Lecteur 1, assistant IA Codex, comparaison visuelle des sept cartes",
+  "convention_rangs": "Du plus au moins ressemblant. Les cartes réunies dans un même groupe sont ex aequo.",
+  "votes": {
+    "T1": {
+      "rangs": [["J3"], ["J4"], ["J1"], ["J2"]],
+      "choix": "J3",
+      "type": "ressemblance",
+      "traits": [
+        "La forme verte a un centre plein qui porte des pointes rayonnantes de la même couleur. Cette disposition se retrouve sur J3.",
+        "Sous le collet, le trait de la racine dessine de longues bandes courbes dont des portions cheminent côte à côte. On retrouve ce profil sur la partie gauche de la racine de J3."
+      ],
+      "limites": "Le second trait est moins distinctif. T1 montre un repli rougeâtre très marqué, tandis que J3 porte plusieurs ramifications ocre à pointes séparées. J4 offre aussi un feuillage rayonnant. Aucun contour identique reconnu."
+    },
+    "T2": {
+      "rangs": [["J4"], ["J2"], ["J3"], ["J1"]],
+      "choix": "J4",
+      "type": "détail identique",
+      "traits": [
+        "Le deuxième renflement en partant de la gauche dans l’agrandissement de racines de J4 présente le même sommet arrondi à gauche, le même creux en haut à droite et le même bord inférieur oblique.",
+        "La pointe inférieure gauche revient sous le renflement et délimite une étroite boucle claire de même forme.",
+        "La suite de petites marques courbes à l’intérieur suit le même tracé."
+      ],
+      "limites": "L’identité visuelle porte sur le renflement représenté. T2 ne permet pas de comparer le feuillage."
+    },
+    "T3": {
+      "rangs": [["J2"], ["J3"], ["J4", "J1"]],
+      "choix": null,
+      "type": "ambiguïté",
+      "traits": [
+        "J2 offre le profil de racine le plus proche : renflement près de la tige puis partie étroite, longue et déviée d’un côté.",
+        "T3 montre à l’extrémité plusieurs divisions épaisses en griffes. J2 porte surtout de fins traits latéraux. J3 offre des ramifications mais leur disposition diffère.",
+        "La feuille isolée de T3 est étroite et dentelée. Je ne retrouve ce bord sur aucune des quatre cartes."
+      ],
+      "limites": "La courbe de la racine suffit à ordonner les deux premiers candidats, mais une seconde concordance indépendante me manque pour choisir."
+    }
+  }
+}
