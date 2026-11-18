@@ -1,0 +1,663 @@
+{
+ "cles": [
+  {
+   "expression": [
+    "adibis",
+    "aquas"
+   ],
+   "ordre": "haut-bas",
+   "table": {
+    "l": "a",
+    "k": "di",
+    "ch": "bi",
+    "y": "s",
+    "t": "a",
+    "o": "qu"
+   }
+  },
+  {
+   "expression": [
+    "adibis",
+    "aquas"
+   ],
+   "ordre": "haut-bas",
+   "table": {
+    "l": "a",
+    "k": "di",
+    "ch": "bi",
+    "y": "s",
+    "t": "aq",
+    "o": "u"
+   }
+  },
+  {
+   "expression": [
+    "aquas",
+    "alias"
+   ],
+   "ordre": "bas-haut",
+   "table": {
+    "t": "a",
+    "o": "qu",
+    "l": "a",
+    "y": "s",
+    "k": "l",
+    "ch": "ia"
+   }
+  },
+  {
+   "expression": [
+    "aquas",
+    "alias"
+   ],
+   "ordre": "bas-haut",
+   "table": {
+    "t": "a",
+    "o": "qu",
+    "l": "a",
+    "y": "s",
+    "k": "li",
+    "ch": "a"
+   }
+  },
+  {
+   "expression": [
+    "aquas",
+    "alias"
+   ],
+   "ordre": "bas-haut",
+   "table": {
+    "t": "aq",
+    "o": "u",
+    "l": "a",
+    "y": "s",
+    "k": "l",
+    "ch": "ia"
+   }
+  },
+  {
+   "expression": [
+    "aquas",
+    "alias"
+   ],
+   "ordre": "bas-haut",
+   "table": {
+    "t": "aq",
+    "o": "u",
+    "l": "a",
+    "y": "s",
+    "k": "li",
+    "ch": "a"
+   }
+  }
+ ],
+ "formes": {
+  "otol": "aqua",
+  "otoly": "aquas"
+ },
+ "exclusions": [
+  [
+   "adibis",
+   "aquas"
+  ],
+  [
+   "aquas",
+   "alias"
+  ],
+  [
+   "aquas",
+   "aqua"
+  ]
+ ],
+ "voisins": [
+  {
+   "notice": 0,
+   "vers": 5,
+   "rang_cible": 4,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "defunctos",
+   "annonce": true
+  },
+  {
+   "notice": 0,
+   "vers": 5,
+   "rang_cible": 4,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "fervens",
+   "annonce": true
+  },
+  {
+   "notice": 0,
+   "vers": 10,
+   "rang_cible": 5,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "auxiliantur",
+   "annonce": true
+  },
+  {
+   "notice": 1,
+   "vers": 8,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "calescit",
+   "annonce": true
+  },
+  {
+   "notice": 1,
+   "vers": 9,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hec",
+   "annonce": true
+  },
+  {
+   "notice": 1,
+   "vers": 9,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "languentes",
+   "annonce": true
+  },
+  {
+   "notice": 2,
+   "vers": 8,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "securus",
+   "annonce": true
+  },
+  {
+   "notice": 2,
+   "vers": 8,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "nam",
+   "annonce": true
+  },
+  {
+   "notice": 3,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "est",
+   "annonce": true
+  },
+  {
+   "notice": 3,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "que",
+   "annonce": true
+  },
+  {
+   "notice": 4,
+   "vers": 4,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hec",
+   "annonce": true
+  },
+  {
+   "notice": 4,
+   "vers": 4,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "prestat",
+   "annonce": true
+  },
+  {
+   "notice": 4,
+   "vers": 6,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "dominatur",
+   "annonce": true
+  },
+  {
+   "notice": 6,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "inter",
+   "annonce": true
+  },
+  {
+   "notice": 6,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "pelagi",
+   "annonce": true
+  },
+  {
+   "notice": 6,
+   "vers": 6,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "lotus",
+   "annonce": true
+  },
+  {
+   "notice": 6,
+   "vers": 6,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "tali",
+   "annonce": true
+  },
+  {
+   "notice": 11,
+   "vers": 6,
+   "rang_cible": 6,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "manat",
+   "annonce": true
+  },
+  {
+   "notice": 12,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "inter",
+   "annonce": true
+  },
+  {
+   "notice": 12,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "pelagi",
+   "annonce": true
+  },
+  {
+   "notice": 12,
+   "vers": 1,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "fervens",
+   "annonce": true
+  },
+  {
+   "notice": 12,
+   "vers": 1,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "manat",
+   "annonce": true
+  },
+  {
+   "notice": 13,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "est",
+   "annonce": true
+  },
+  {
+   "notice": 13,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "quam",
+   "annonce": true
+  },
+  {
+   "notice": 14,
+   "vers": 10,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "fruatur",
+   "annonce": true
+  },
+  {
+   "notice": 15,
+   "vers": 3,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hec",
+   "annonce": true
+  },
+  {
+   "notice": 15,
+   "vers": 3,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "consumptos",
+   "annonce": true
+  },
+  {
+   "notice": 16,
+   "vers": 2,
+   "rang_cible": 6,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hostis",
+   "annonce": true
+  },
+  {
+   "notice": 16,
+   "vers": 8,
+   "rang_cible": 5,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "adibis",
+   "annonce": false
+  },
+  {
+   "notice": 16,
+   "vers": 11,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "refrenat",
+   "annonce": true
+  },
+  {
+   "notice": 16,
+   "vers": 11,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "aqua",
+   "annonce": false
+  },
+  {
+   "notice": 16,
+   "vers": 11,
+   "rang_cible": 4,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "aquas",
+   "annonce": false
+  },
+  {
+   "notice": 16,
+   "vers": 11,
+   "rang_cible": 4,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "turgida",
+   "annonce": true
+  },
+  {
+   "notice": 16,
+   "vers": 12,
+   "rang_cible": 5,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "evacuabit",
+   "annonce": true
+  },
+  {
+   "notice": 18,
+   "vers": 3,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hec",
+   "annonce": true
+  },
+  {
+   "notice": 18,
+   "vers": 3,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "matrices",
+   "annonce": true
+  },
+  {
+   "notice": 19,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "inter",
+   "annonce": true
+  },
+  {
+   "notice": 19,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "alias",
+   "annonce": false
+  },
+  {
+   "notice": 20,
+   "vers": 11,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hic",
+   "annonce": true
+  },
+  {
+   "notice": 20,
+   "vers": 11,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "cotidie",
+   "annonce": true
+  },
+  {
+   "notice": 21,
+   "vers": 6,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "papaver",
+   "annonce": true
+  },
+  {
+   "notice": 21,
+   "vers": 11,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "inter",
+   "annonce": true
+  },
+  {
+   "notice": 21,
+   "vers": 11,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "trituli",
+   "annonce": true
+  },
+  {
+   "notice": 23,
+   "vers": 11,
+   "rang_cible": 3,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "usus",
+   "annonce": true
+  },
+  {
+   "notice": 23,
+   "vers": 11,
+   "rang_cible": 3,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "baculis",
+   "annonce": true
+  },
+  {
+   "notice": 24,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "est",
+   "annonce": true
+  },
+  {
+   "notice": 24,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "que",
+   "annonce": true
+  },
+  {
+   "notice": 25,
+   "vers": 10,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "hec",
+   "annonce": true
+  },
+  {
+   "notice": 25,
+   "vers": 10,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "rugosas",
+   "annonce": true
+  },
+  {
+   "notice": 25,
+   "vers": 12,
+   "rang_cible": 7,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "sudat",
+   "annonce": true
+  },
+  {
+   "notice": 27,
+   "vers": 10,
+   "rang_cible": 5,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "pontificalis",
+   "annonce": true
+  },
+  {
+   "notice": 29,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "est",
+   "annonce": true
+  },
+  {
+   "notice": 29,
+   "vers": 1,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "mirandi",
+   "annonce": true
+  },
+  {
+   "notice": 29,
+   "vers": 4,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "intus",
+   "annonce": true
+  },
+  {
+   "notice": 29,
+   "vers": 4,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "per",
+   "annonce": true
+  },
+  {
+   "notice": 30,
+   "vers": 2,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "huius",
+   "annonce": true
+  },
+  {
+   "notice": 30,
+   "vers": 2,
+   "rang_cible": 2,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "poterit",
+   "annonce": true
+  },
+  {
+   "notice": 30,
+   "vers": 4,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": -1,
+   "voisin": "intrabit",
+   "annonce": true
+  },
+  {
+   "notice": 30,
+   "vers": 4,
+   "rang_cible": 3,
+   "forme": "aquas",
+   "cote": 1,
+   "voisin": "ingeniosus",
+   "annonce": true
+  },
+  {
+   "notice": 32,
+   "vers": 14,
+   "rang_cible": 3,
+   "forme": "aqua",
+   "cote": -1,
+   "voisin": "curantur",
+   "annonce": true
+  },
+  {
+   "notice": 32,
+   "vers": 14,
+   "rang_cible": 3,
+   "forme": "aqua",
+   "cote": 1,
+   "voisin": "quando",
+   "annonce": true
+  }
+ ]
+}
