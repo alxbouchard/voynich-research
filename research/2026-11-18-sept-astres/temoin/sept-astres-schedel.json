@@ -1,0 +1,151 @@
+{
+  "witness_id": "BSB_Rar_287__Schedel_1493_07_12",
+  "object": "Liber chronicarum",
+  "author": "Hartmann Schedel",
+  "printer": "Anton Koberger",
+  "place": "Nürnberg",
+  "edition_date": "1493-07-12",
+  "language_of_this_witness": "la",
+  "repository": "München, Bayerische Staatsbibliothek",
+  "digitized_by": "Bayerische Staatsbibliothek",
+  "shelfmark": "Rar. 287",
+  "urn": "urn:nbn:de:bvb:12-bsb00034024-1",
+  "istc": "is00307000",
+  "gw": "M40784",
+  "manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00034024/manifest",
+  "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "edition_locator": "https://mdz-nbn-resolving.de/details:bsb00034024",
+  "manifest_source_sha256": "8d9efdea0705d6b3a7e6d75161c79e0594768538e6e0abf214c5bd604387ede2",
+  "folia": {
+    "list": {
+      "printed": "VIr",
+      "image": 82,
+      "source": "https://www.digitale-sammlungen.de/en/view/bsb00034024?page=82",
+      "location": "Première colonne, premier paragraphe, après septem orbes septem planetarum qui sunt."
+    },
+    "wheel": {
+      "printed": "Vv",
+      "image": 81,
+      "source": "https://www.digitale-sammlungen.de/en/view/bsb00034024?page=81",
+      "location": "Moitié inférieure, bois sous De sanctificatione septime diei. Les noms sont dans la partie inférieure des anneaux."
+    }
+  },
+  "transcription_notes": {
+    "method": "Lecture visuelle des reproductions et des régions IIIF à résolution native. Minuscules, capitales et abréviations sont précisées dans les champs concernés. Les signes typographiques gothiques sont translittérés.",
+    "genitives": "Noms après spera, en minuscules. La graphie iouis se lit Iovis avec convention moderne u/v. La seconde haste finale de mercurij descend. La forme lune est imprimée avec e. Le s long est rendu par s.",
+    "scope": "Un exemplaire latin et deux représentations en regard dans la même édition. Les deux pages ne forment pas deux témoins indépendants.",
+    "word_order": "La liste imprimée se lit de Saturne à la Lune. Les légendes de la figure se lisent de la Lune à Saturne en partant du centre.",
+    "normalization": "test_ascii = nominative_expanded en minuscules. La série a une seule variante fixée par planète. Les génitifs sont une observation historique séparée."
+  },
+  "planets": [
+    {
+      "body_id": "saturn",
+      "rank_outer_to_inner": 1,
+      "rank_inner_to_outer": 7,
+      "nominative_expanded": "Saturnus",
+      "test_ascii": "saturnus",
+      "nominative_visible": "Saturnus",
+      "nominative_editorial_note": null,
+      "ring_legend_genitive": "saturni",
+      "ring_icon": "etoile"
+    },
+    {
+      "body_id": "jupiter",
+      "rank_outer_to_inner": 2,
+      "rank_inner_to_outer": 6,
+      "nominative_expanded": "Iupiter",
+      "test_ascii": "iupiter",
+      "nominative_visible": "Iupiter",
+      "nominative_editorial_note": "L'initiale gothique est rendue par I (convention éditoriale).",
+      "ring_legend_genitive": "iouis",
+      "ring_icon": "etoile"
+    },
+    {
+      "body_id": "mars",
+      "rank_outer_to_inner": 3,
+      "rank_inner_to_outer": 5,
+      "nominative_expanded": "Mars",
+      "test_ascii": "mars",
+      "nominative_visible": "Mars",
+      "nominative_editorial_note": null,
+      "ring_legend_genitive": "martis",
+      "ring_icon": "etoile"
+    },
+    {
+      "body_id": "sun",
+      "rank_outer_to_inner": 4,
+      "rank_inner_to_outer": 4,
+      "nominative_expanded": "Sol",
+      "test_ascii": "sol",
+      "nominative_visible": "Sol",
+      "nominative_editorial_note": null,
+      "ring_legend_genitive": "solis",
+      "ring_icon": "disque rayonnant avec visage"
+    },
+    {
+      "body_id": "venus",
+      "rank_outer_to_inner": 5,
+      "rank_inner_to_outer": 3,
+      "nominative_expanded": "Venus",
+      "test_ascii": "venus",
+      "nominative_visible": "Venꝰ",
+      "nominative_editorial_note": "ꝰ représente le signe en forme de 9 suscrit. Développement en -us.",
+      "ring_legend_genitive": "veneris",
+      "ring_icon": "etoile"
+    },
+    {
+      "body_id": "mercury",
+      "rank_outer_to_inner": 6,
+      "rank_inner_to_outer": 2,
+      "nominative_expanded": "Mercurius",
+      "test_ascii": "mercurius",
+      "nominative_visible": "Mer/\ncurius",
+      "nominative_editorial_note": "Barre oblique de fin de ligne et retour à la ligne entre Mer et curius.",
+      "ring_legend_genitive": "mercurij",
+      "ring_icon": "etoile"
+    },
+    {
+      "body_id": "moon",
+      "rank_outer_to_inner": 7,
+      "rank_inner_to_outer": 1,
+      "nominative_expanded": "Luna",
+      "test_ascii": "luna",
+      "nominative_visible": "Luna",
+      "nominative_editorial_note": null,
+      "ring_legend_genitive": "lune",
+      "ring_icon": "croissant avec visage de profil"
+    }
+  ],
+  "files": [
+    {
+      "file": "folio-Vv-page.jpg",
+      "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00034024/canvas/81",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00034024_00081/full/1600,/0/default.jpg",
+      "sha256": "ed14e8db370cc2e6d22beda5362ab1bac0be98071f984e335be9d75bbd46e8a0"
+    },
+    {
+      "file": "folio-VIr-page.jpg",
+      "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00034024/canvas/82",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00034024_00082/full/1600,/0/default.jpg",
+      "sha256": "f2b2108d4545d2145f151d609e1803a21c89ee4d925f2038ae0e147d431fcbb2"
+    },
+    {
+      "file": "folio-VIr-noms.jpg",
+      "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00034024/canvas/82",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00034024_00082/460,1380,1680,380/max/0/default.jpg",
+      "sha256": "2530ac606f867b16eb5cca2bd8637b41baa1f2da0d0fa993ffb6a616d6141826"
+    },
+    {
+      "file": "folio-Vv-spheres.jpg",
+      "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00034024/canvas/81",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00034024_00081/2800,4510,840,990/max/0/default.jpg",
+      "sha256": "9be0c7bf0972352dc3b5fad51fabb79b7d6fb259fc8d4582f63d5f47e0edb5c5"
+    },
+    {
+      "file": "folio-Vv-astres.jpg",
+      "canvas": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00034024/canvas/81",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00034024_00081/2000,3300,2380,2150/max/0/default.jpg",
+      "sha256": "ce9513d495f96ab298761c8a54fd9edeeabf17878ad1970a29099c2f369422c3"
+    }
+  ]
+}

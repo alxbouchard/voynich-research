@@ -1,0 +1,2882 @@
+{
+  "ordre_f67_f72": [
+    [
+      15,
+      29
+    ],
+    [
+      22,
+      32
+    ],
+    [
+      28,
+      33
+    ],
+    [
+      31,
+      27
+    ],
+    [
+      34,
+      31
+    ],
+    [
+      37,
+      30
+    ],
+    [
+      47,
+      28
+    ]
+  ],
+  "sha256_editions": {
+    "IT2a-n": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "ZL3b-n": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "etalonnage": {
+    "bijection": {
+      "nombre_tables_pour_chaque_paire": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "trois_paires": [
+        [
+          31,
+          27
+        ],
+        [
+          47,
+          28
+        ],
+        [
+          37,
+          30
+        ]
+      ],
+      "tables_des_trois": 1,
+      "table_figee": [
+        {
+          "table": {
+            "a": [
+              "Z"
+            ],
+            "b": [
+              "X"
+            ],
+            "c": [
+              "W"
+            ],
+            "d": [
+              "Y"
+            ]
+          },
+          "autres_paires_lues_sans_ajout": [
+            [
+              15,
+              29
+            ],
+            [
+              22,
+              32
+            ],
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        }
+      ],
+      "tables_sept_paires_publiees": 1,
+      "maximum_paires_publiees": 7,
+      "ensembles_maximaux": [
+        [
+          [
+            15,
+            29
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            28,
+            33
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            34,
+            31
+          ],
+          [
+            37,
+            30
+          ],
+          [
+            47,
+            28
+          ]
+        ]
+      ],
+      "appariements_libres_complets": [
+        [
+          29,
+          32,
+          33,
+          27,
+          31,
+          30,
+          28
+        ]
+      ]
+    },
+    "f67_vers_f72": {
+      "nombre_tables_pour_chaque_paire": [
+        1,
+        7,
+        16,
+        7,
+        7,
+        16,
+        16
+      ],
+      "trois_paires": [
+        [
+          31,
+          27
+        ],
+        [
+          47,
+          28
+        ],
+        [
+          37,
+          30
+        ]
+      ],
+      "tables_des_trois": 1,
+      "table_figee": [
+        {
+          "table": {
+            "a": [
+              "Z",
+              "X"
+            ],
+            "b": [
+              "K"
+            ],
+            "c": [
+              "P",
+              "W",
+              "Q"
+            ],
+            "d": [
+              "V"
+            ]
+          },
+          "autres_paires_lues_sans_ajout": [
+            [
+              15,
+              29
+            ],
+            [
+              22,
+              32
+            ],
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        }
+      ],
+      "tables_sept_paires_publiees": 1,
+      "maximum_paires_publiees": 7,
+      "ensembles_maximaux": [
+        [
+          [
+            15,
+            29
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            28,
+            33
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            34,
+            31
+          ],
+          [
+            37,
+            30
+          ],
+          [
+            47,
+            28
+          ]
+        ]
+      ],
+      "appariements_libres_complets": [
+        [
+          29,
+          32,
+          33,
+          27,
+          31,
+          30,
+          28
+        ]
+      ]
+    },
+    "f72_vers_f67": {
+      "nombre_tables_pour_chaque_paire": [
+        1,
+        7,
+        16,
+        7,
+        7,
+        16,
+        16
+      ],
+      "trois_paires": [
+        [
+          31,
+          27
+        ],
+        [
+          47,
+          28
+        ],
+        [
+          37,
+          30
+        ]
+      ],
+      "tables_des_trois": 1,
+      "table_figee": [
+        {
+          "table": {
+            "a": [
+              "Z",
+              "X"
+            ],
+            "b": [
+              "K"
+            ],
+            "c": [
+              "P",
+              "W",
+              "Q"
+            ],
+            "d": [
+              "V"
+            ]
+          },
+          "autres_paires_lues_sans_ajout": [
+            [
+              15,
+              29
+            ],
+            [
+              22,
+              32
+            ],
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        }
+      ],
+      "tables_sept_paires_publiees": 1,
+      "maximum_paires_publiees": 7,
+      "ensembles_maximaux": [
+        [
+          [
+            15,
+            29
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            28,
+            33
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            34,
+            31
+          ],
+          [
+            37,
+            30
+          ],
+          [
+            47,
+            28
+          ]
+        ]
+      ],
+      "appariements_libres_complets": [
+        [
+          29,
+          32,
+          33,
+          27,
+          31,
+          30,
+          28
+        ]
+      ]
+    },
+    "bijection_dernier_glyphe_altere_hors_trois": {
+      "nombre_tables_pour_chaque_paire": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "trois_paires": [
+        [
+          31,
+          27
+        ],
+        [
+          47,
+          28
+        ],
+        [
+          37,
+          30
+        ]
+      ],
+      "tables_des_trois": 1,
+      "table_figee": [
+        {
+          "table": {
+            "a": [
+              "Z"
+            ],
+            "b": [
+              "X"
+            ],
+            "c": [
+              "W"
+            ],
+            "d": [
+              "Y"
+            ]
+          },
+          "autres_paires_lues_sans_ajout": [
+            [
+              22,
+              32
+            ],
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        }
+      ],
+      "tables_sept_paires_publiees": 0,
+      "maximum_paires_publiees": 6,
+      "ensembles_maximaux": [
+        [
+          [
+            22,
+            32
+          ],
+          [
+            28,
+            33
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            34,
+            31
+          ],
+          [
+            37,
+            30
+          ],
+          [
+            47,
+            28
+          ]
+        ]
+      ],
+      "appariements_libres_complets": []
+    }
+  },
+  "variantes": {
+    "premier_groupe/EVA/IT2a-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ],
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/EVA/IT2a-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ],
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/EVA/ZL3b-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/EVA/ZL3b-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/EVA/editions_espacements_au_choix": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          2,
+          5,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ],
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/ASCII/IT2a-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          4,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ],
+          [
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ],
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/ASCII/IT2a-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          4,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ],
+          [
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ],
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/ASCII/ZL3b-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          4,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ],
+          [
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/ASCII/ZL3b-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          5,
+          0,
+          4,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ],
+          [
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "premier_groupe/ASCII/editions_espacements_au_choix": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          2,
+          5,
+          0,
+          8,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ],
+          [
+            [
+              28,
+              33
+            ],
+            [
+              34,
+              31
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ],
+          [
+            [
+              37,
+              30
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/EVA/IT2a-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/EVA/IT2a-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/EVA/ZL3b-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/EVA/ZL3b-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/EVA/editions_espacements_au_choix": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/ASCII/IT2a-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/ASCII/IT2a-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/ASCII/ZL3b-n/join": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/ASCII/ZL3b-n/split": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 0,
+        "ensembles_maximaux": [
+          []
+        ],
+        "appariements_libres_complets": []
+      }
+    },
+    "groupes_entiers_concat/ASCII/editions_espacements_au_choix": {
+      "bijection": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f67_vers_f72": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 2,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      },
+      "f72_vers_f67": {
+        "nombre_tables_pour_chaque_paire": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "trois_paires": [
+          [
+            31,
+            27
+          ],
+          [
+            47,
+            28
+          ],
+          [
+            37,
+            30
+          ]
+        ],
+        "tables_des_trois": 0,
+        "table_figee": [],
+        "tables_sept_paires_publiees": 0,
+        "maximum_paires_publiees": 1,
+        "ensembles_maximaux": [
+          [
+            [
+              22,
+              32
+            ]
+          ]
+        ],
+        "appariements_libres_complets": []
+      }
+    }
+  }
+}

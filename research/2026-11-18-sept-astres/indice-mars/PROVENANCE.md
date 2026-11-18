@@ -1,0 +1,15 @@
+# Repérage des figures et préparation des cartes
+
+Sur f73v, les loci .6 à .21 correspondent à l’anneau de seize légendes entre les textes circulaires .5 et .22. L’inscription .15 est dans le quart inférieur droit de cet anneau. Les légendes .14 et .16 voisines permettent de retrouver le bon intervalle. Sur f72r3, la légende .28 occupe le haut de l’anneau des sept figures entre les bandes .26 et .34. Sur chacune des deux cartes, la légende entière est visible dans l’intervalle entre deux corps, avec les bras des deux figures. Les témoins locaux suivent la même règle. [f73v, photographie Yale](https://collections.library.yale.edu/iiif/2/1006207/full/full/0/default.jpg) · [f72r3, photographie du dépliant Yale](https://collections.library.yale.edu/iiif/2/1006203/full/full/0/default.jpg) · [Numéros et lectures dans ZL 3b](https://www.voynich.nu/data/ZL3b-n.txt)
+
+| Carte | Emplacement géométrique | Détail Yale dans l’orientation originale |
+|---|---|---|
+| D2 | f72r3.28, entre les deux figures de la partie supérieure de l’anneau intérieur | [Zone autour de l’inscription et des figures](https://collections.library.yale.edu/iiif/2/1006203/6640,735,1070,840/full/0/default.jpg) |
+| G5 | f73v.15, entre les deux figures en bas à droite du grand anneau | [Zone autour de l’inscription et des figures](https://collections.library.yale.edu/iiif/2/1006207/1780,1640,1030,1175/full/0/default.jpg) |
+| K9 | f72r3.32, témoin du même anneau intérieur, côté inférieur gauche | [Zone autour des figures](https://collections.library.yale.edu/iiif/2/1006203/6160,1070,1060,1060/full/0/default.jpg) |
+| Q7 | f73v.8, témoin du même grand anneau, côté supérieur | [Zone autour des figures](https://collections.library.yale.edu/iiif/2/1006207/1050,600,1120,850/full/0/default.jpg) |
+| V4 | f73v, figure centrale prévue par le protocole | [Médaillon](https://collections.library.yale.edu/iiif/2/1006207/1270,1380,760,650/full/0/default.jpg) |
+
+Les cartes individuelles gardent la résolution de la zone d’origine. Pour redresser les figures, on a tourné un rectangle centré sur la région, puis conservé une fenêtre resserrée autour de l’intervalle étudié. La rotation utilise une interpolation bicubique. La photographie centrale garde l’orientation initiale. Le fichier de géométrie consigne les centres, les angles, les dimensions, le rectangle final, et un point approximatif dans chaque inscription en coordonnées natives. La planche réduit certains extraits pour les disposer côte à côte. [Géométrie et empreintes des cinq cartes](CLE-CARTES.json) · [Planche remise aux lecteurs](cartes/planche.jpg)
+
+Le JPEG de f73v, OID 1006207, mesure 2979 × 3724 pixels et a pour SHA-256 `4227e5261bb5986e605ddb4f58fa1526640955d778c06916a1c34734bb431141`. Celui de f72r3, OID 1006203, mesure 8865 × 3018 pixels et a pour SHA-256 `45f7caf4b58744fdcd4928887661b56a135538a5a40a24fea6ca6c5239898269`. Les cartes anonymes remises aux lecteurs contiennent seulement les images, leurs codes et des repères de position. Le style des figures et la composition du médaillon restent reconnaissables à un lecteur familier du manuscrit. [Repères fournis à la lecture](cartes/REPERES.txt)

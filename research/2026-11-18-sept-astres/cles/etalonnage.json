@@ -1,0 +1,321 @@
+{
+  "graine": 67172,
+  "vraie_affectation": [
+    6,
+    0,
+    2,
+    3,
+    4,
+    1,
+    5
+  ],
+  "cle_par_lettre": {
+    "a": "g11",
+    "c": "g4",
+    "e": "g9",
+    "i": "g10",
+    "l": "g12",
+    "m": "g6",
+    "n": "g1",
+    "o": "g0",
+    "p": "g3",
+    "r": "g5",
+    "s": "g8",
+    "t": "g7",
+    "u": "g2"
+  },
+  "solution_serie_simple": [
+    {
+      "planet_indices": [
+        6,
+        0,
+        2,
+        3,
+        4,
+        1,
+        5
+      ],
+      "tables": [
+        {
+          "key": {
+            "g0": [
+              "o"
+            ],
+            "g1": [
+              "n"
+            ],
+            "g10": [
+              "i"
+            ],
+            "g11": [
+              "a"
+            ],
+            "g12": [
+              "l"
+            ],
+            "g2": [
+              "u"
+            ],
+            "g3": [
+              "p"
+            ],
+            "g4": [
+              "c"
+            ],
+            "g5": [
+              "r"
+            ],
+            "g6": [
+              "m"
+            ],
+            "g7": [
+              "t"
+            ],
+            "g8": [
+              "s"
+            ],
+            "g9": [
+              "e"
+            ]
+          },
+          "literal_names_per_slot": [
+            [
+              6
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              1
+            ],
+            [
+              5
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "transfert_fixture": {
+    "individuellement_sur_les_deux": 1,
+    "affectations_avec_table_commune": 1,
+    "solutions": [
+      {
+        "planet_indices": [
+          6,
+          0,
+          2,
+          3,
+          4,
+          1,
+          5
+        ],
+        "cles_communes": [
+          {
+            "g0": [
+              "o"
+            ],
+            "g1": [
+              "n"
+            ],
+            "g10": [
+              "i"
+            ],
+            "g11": [
+              "a"
+            ],
+            "g12": [
+              "l"
+            ],
+            "g2": [
+              "u"
+            ],
+            "g3": [
+              "p"
+            ],
+            "g4": [
+              "c"
+            ],
+            "g5": [
+              "r"
+            ],
+            "g6": [
+              "m"
+            ],
+            "g7": [
+              "t"
+            ],
+            "g8": [
+              "s"
+            ],
+            "g9": [
+              "e"
+            ]
+          }
+        ],
+        "transfert_sans_reajustement": [
+          {
+            "direction": "f67r2_vers_f72r3",
+            "table_source": {
+              "g0": [
+                "o"
+              ],
+              "g1": [
+                "n"
+              ],
+              "g10": [
+                "i"
+              ],
+              "g11": [
+                "a"
+              ],
+              "g12": [
+                "l"
+              ],
+              "g2": [
+                "u"
+              ],
+              "g3": [
+                "p"
+              ],
+              "g4": [
+                "c"
+              ],
+              "g5": [
+                "r"
+              ],
+              "g6": [
+                "m"
+              ],
+              "g7": [
+                "t"
+              ],
+              "g8": [
+                "s"
+              ],
+              "g9": [
+                "e"
+              ]
+            },
+            "lectures_de_la_table_figee": [
+              [
+                6
+              ],
+              [
+                0
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                1
+              ],
+              [
+                5
+              ]
+            ],
+            "sept_noms_imposes": true
+          },
+          {
+            "direction": "f72r3_vers_f67r2",
+            "table_source": {
+              "g0": [
+                "o"
+              ],
+              "g1": [
+                "n"
+              ],
+              "g10": [
+                "i"
+              ],
+              "g11": [
+                "a"
+              ],
+              "g12": [
+                "l"
+              ],
+              "g2": [
+                "u"
+              ],
+              "g3": [
+                "p"
+              ],
+              "g4": [
+                "c"
+              ],
+              "g5": [
+                "r"
+              ],
+              "g6": [
+                "m"
+              ],
+              "g7": [
+                "t"
+              ],
+              "g8": [
+                "s"
+              ],
+              "g9": [
+                "e"
+              ]
+            },
+            "lectures_de_la_table_figee": [
+              [
+                6
+              ],
+              [
+                0
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ],
+              [
+                1
+              ],
+              [
+                5
+              ]
+            ],
+            "sept_noms_imposes": true
+          }
+        ]
+      }
+    ]
+  },
+  "contre_exemple_sol_inverse": 0,
+  "largeurs_variables": {
+    "glyph_to_letters": {
+      "vraie_affectation_retrouvee": true,
+      "affectations": 1,
+      "tables_vraie_affectation": 1,
+      "bijection": 0
+    },
+    "letter_to_glyphs": {
+      "vraie_affectation_retrouvee": true,
+      "affectations": 1,
+      "tables_vraie_affectation": 1,
+      "bijection": 0
+    }
+  }
+}
