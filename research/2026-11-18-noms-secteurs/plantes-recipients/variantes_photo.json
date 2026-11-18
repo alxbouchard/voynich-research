@@ -1,0 +1,448 @@
+{
+  "otol/otold": {
+    "toutes": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 97,
+          "readable_loci": 97,
+          "readable_words": 104,
+          "hits": {
+            "otoldy": [
+              "f89r1.4",
+              "f99r.14",
+              "f99v.2"
+            ],
+            "okol": [
+              "f88r.15",
+              "f89r2.10"
+            ]
+          }
+        },
+        "Lc": {
+          "annotated": 22,
+          "readable_loci": 22,
+          "readable_words": 22,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 5,
+        "expected": 3.9586080586080588,
+        "expected_exact": "10807/2730",
+        "upper_tail": 0.3009924548386087,
+        "upper_tail_exact": "9614/31941",
+        "informative": true,
+        "distribution": {
+          "0": "4/17745",
+          "1": "101/17745",
+          "2": "16771/319410",
+          "3": "3337/15210",
+          "4": "7474/17745",
+          "5": "9614/31941"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 5,
+        "expected": 4.2094017094017095,
+        "expected_exact": "985/234",
+        "upper_tail": 0.4032434801665571,
+        "upper_tail_exact": "1840/4563",
+        "informative": true,
+        "distribution": {
+          "1": "1/1014",
+          "2": "7/338",
+          "3": "682/4563",
+          "4": "1942/4563",
+          "5": "1840/4563"
+        }
+      }
+    },
+    "hors_origine": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 12,
+          "readable_loci": 12,
+          "readable_words": 12,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        },
+        "Lc": {
+          "annotated": 1,
+          "readable_loci": 1,
+          "readable_words": 1,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 0,
+        "expected": 0.0,
+        "expected_exact": "0",
+        "upper_tail": 1.0,
+        "upper_tail_exact": "1",
+        "informative": false,
+        "distribution": {
+          "0": "1"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 0,
+        "expected": 0.0,
+        "expected_exact": "0",
+        "upper_tail": 1.0,
+        "upper_tail_exact": "1",
+        "informative": false,
+        "distribution": {
+          "0": "1"
+        }
+      }
+    }
+  },
+  "otol/otoldy": {
+    "toutes": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 97,
+          "readable_loci": 97,
+          "readable_words": 104,
+          "hits": {
+            "otoldy": [
+              "f89r1.4",
+              "f99r.14",
+              "f99v.2"
+            ],
+            "okol": [
+              "f88r.15",
+              "f89r2.10"
+            ]
+          }
+        },
+        "Lc": {
+          "annotated": 22,
+          "readable_loci": 22,
+          "readable_words": 22,
+          "hits": {
+            "otoldy": [
+              "f89r2.9"
+            ],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 5,
+        "expected": 4.691941391941392,
+        "expected_exact": "12809/2730",
+        "upper_tail": 0.6096597744949394,
+        "upper_tail_exact": "136312/223587",
+        "informative": true,
+        "distribution": {
+          "0": "2/41405",
+          "1": "179/124215",
+          "2": "478/28665",
+          "3": "212063/2235870",
+          "4": "68897/248430",
+          "5": "4202/10647",
+          "6": "48070/223587"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 5,
+        "expected": 4.923687423687424,
+        "expected_exact": "8065/1638",
+        "upper_tail": 0.7072414764722457,
+        "upper_tail_exact": "2510/3549",
+        "informative": true,
+        "distribution": {
+          "1": "1/3549",
+          "2": "47/7098",
+          "3": "3673/63882",
+          "4": "1042/4563",
+          "5": "1030/2457",
+          "6": "9200/31941"
+        }
+      }
+    },
+    "hors_origine": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 12,
+          "readable_loci": 12,
+          "readable_words": 12,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        },
+        "Lc": {
+          "annotated": 1,
+          "readable_loci": 1,
+          "readable_words": 1,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 0,
+        "expected": 0.0,
+        "expected_exact": "0",
+        "upper_tail": 1.0,
+        "upper_tail_exact": "1",
+        "informative": false,
+        "distribution": {
+          "0": "1"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 0,
+        "expected": 0.0,
+        "expected_exact": "0",
+        "upper_tail": 1.0,
+        "upper_tail_exact": "1",
+        "informative": false,
+        "distribution": {
+          "0": "1"
+        }
+      }
+    }
+  },
+  "okol/otold": {
+    "toutes": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 97,
+          "readable_loci": 97,
+          "readable_words": 104,
+          "hits": {
+            "otoldy": [
+              "f89r1.4",
+              "f99r.14",
+              "f99v.2"
+            ],
+            "okol": [
+              "f102v2.7",
+              "f88r.15",
+              "f89r2.10"
+            ]
+          }
+        },
+        "Lc": {
+          "annotated": 22,
+          "readable_loci": 22,
+          "readable_words": 22,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 6,
+        "expected": 4.881684981684982,
+        "expected_exact": "13327/2730",
+        "upper_tail": 0.2778391890817926,
+        "upper_tail_exact": "38456/138411",
+        "informative": true,
+        "distribution": {
+          "0": "4/230685",
+          "1": "149/230685",
+          "2": "38587/4152330",
+          "3": "90443/1384110",
+          "4": "18064/76895",
+          "5": "855262/2076165",
+          "6": "38456/138411"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 6,
+        "expected": 5.132478632478633,
+        "expected_exact": "1201/234",
+        "upper_tail": 0.3722247509229758,
+        "upper_tail_exact": "7360/19773",
+        "informative": true,
+        "distribution": {
+          "1": "1/13182",
+          "2": "11/4394",
+          "3": "1816/59319",
+          "4": "10126/59319",
+          "5": "25144/59319",
+          "6": "7360/19773"
+        }
+      }
+    },
+    "hors_origine": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 12,
+          "readable_loci": 12,
+          "readable_words": 12,
+          "hits": {
+            "otoldy": [],
+            "okol": [
+              "f102v2.7"
+            ]
+          }
+        },
+        "Lc": {
+          "annotated": 1,
+          "readable_loci": 1,
+          "readable_words": 1,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 1,
+        "expected": 0.9230769230769231,
+        "expected_exact": "12/13",
+        "upper_tail": 0.9230769230769231,
+        "upper_tail_exact": "12/13",
+        "informative": true,
+        "distribution": {
+          "0": "1/13",
+          "1": "12/13"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 1,
+        "expected": 0.9230769230769231,
+        "expected_exact": "12/13",
+        "upper_tail": 0.9230769230769231,
+        "upper_tail_exact": "12/13",
+        "informative": true,
+        "distribution": {
+          "0": "1/13",
+          "1": "12/13"
+        }
+      }
+    }
+  },
+  "okol/otoldy": {
+    "toutes": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 97,
+          "readable_loci": 97,
+          "readable_words": 104,
+          "hits": {
+            "otoldy": [
+              "f89r1.4",
+              "f99r.14",
+              "f99v.2"
+            ],
+            "okol": [
+              "f102v2.7",
+              "f88r.15",
+              "f89r2.10"
+            ]
+          }
+        },
+        "Lc": {
+          "annotated": 22,
+          "readable_loci": 22,
+          "readable_words": 22,
+          "hits": {
+            "otoldy": [
+              "f89r2.9"
+            ],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 6,
+        "expected": 5.615018315018315,
+        "expected_exact": "15329/2730",
+        "upper_tail": 0.5793009157337137,
+        "upper_tail_exact": "1683814/2906631",
+        "informative": true,
+        "distribution": {
+          "0": "2/538265",
+          "1": "251/1614795",
+          "2": "12658/4844385",
+          "3": "659471/29066310",
+          "4": "1054943/9688770",
+          "5": "1387216/4844385",
+          "6": "1106974/2906631",
+          "7": "192280/968877"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 6,
+        "expected": 5.846764346764346,
+        "expected_exact": "9577/1638",
+        "upper_tail": 0.6749945211483673,
+        "upper_tail_exact": "3080/4563",
+        "informative": true,
+        "distribution": {
+          "1": "1/46137",
+          "2": "71/92274",
+          "3": "673/63882",
+          "4": "29332/415233",
+          "5": "100918/415233",
+          "6": "169880/415233",
+          "7": "36800/138411"
+        }
+      }
+    },
+    "hors_origine": {
+      "effectifs": {
+        "Lf": {
+          "annotated": 12,
+          "readable_loci": 12,
+          "readable_words": 12,
+          "hits": {
+            "otoldy": [],
+            "okol": [
+              "f102v2.7"
+            ]
+          }
+        },
+        "Lc": {
+          "annotated": 1,
+          "readable_loci": 1,
+          "readable_words": 1,
+          "hits": {
+            "otoldy": [],
+            "okol": []
+          }
+        }
+      },
+      "par_face": {
+        "observed_fragment_hits": 1,
+        "expected": 0.9230769230769231,
+        "expected_exact": "12/13",
+        "upper_tail": 0.9230769230769231,
+        "upper_tail_exact": "12/13",
+        "informative": true,
+        "distribution": {
+          "0": "1/13",
+          "1": "12/13"
+        }
+      },
+      "par_face_et_longueur": {
+        "observed_fragment_hits": 1,
+        "expected": 0.9230769230769231,
+        "expected_exact": "12/13",
+        "upper_tail": 0.9230769230769231,
+        "upper_tail_exact": "12/13",
+        "informative": true,
+        "distribution": {
+          "0": "1/13",
+          "1": "12/13"
+        }
+      }
+    }
+  }
+}
