@@ -1,0 +1,129 @@
+{
+  "eva": {
+    "masques": 317,
+    "lisibles": 295,
+    "annonces": 4,
+    "annonces_verifiables": 4,
+    "indeterminees": 0,
+    "exactes": 0,
+    "erreurs": 4,
+    "abstentions": 313,
+    "abstentions_sur_lisibles": 291,
+    "folios_avec_masque": 15,
+    "folios_annonces": 3,
+    "folios_verifiables": 3,
+    "folios_avec_succes": 0,
+    "base_frequente": "daiin",
+    "base_exactes": 0,
+    "permutations": {
+      "graine": 20261118,
+      "tirages": 5000,
+      "strates_lisibles": 67,
+      "strates_avec_annonce": 4,
+      "strates_avec_annonce_immobiles": 0,
+      "annonces_strates_immobiles": 0,
+      "esperance_exacte": 0.0,
+      "moyenne": 0.0,
+      "p_ge_corrige": 1.0,
+      "histogramme": {
+        "0": 5000
+      }
+    },
+    "detail": [
+      {
+        "id": "f100r.25",
+        "i": 4,
+        "folio": 100,
+        "predit": "chkaiin",
+        "lectures": [
+          "ctheol",
+          "ctheol",
+          "Kcoe"
+        ],
+        "attendu": "ctheol",
+        "exact": false,
+        "base_exacte": false
+      },
+      {
+        "id": "f20v.10",
+        "i": 4,
+        "folio": 20,
+        "predit": "chkaiin",
+        "lectures": [
+          "chy",
+          "chy",
+          "19"
+        ],
+        "attendu": "chy",
+        "exact": false,
+        "base_exacte": false
+      },
+      {
+        "id": "f83v.2",
+        "i": 0,
+        "folio": 83,
+        "predit": "ol",
+        "lectures": [
+          "dol",
+          "dol",
+          "8oe"
+        ],
+        "attendu": "dol",
+        "exact": false,
+        "base_exacte": false
+      },
+      {
+        "id": "f83v.5",
+        "i": 2,
+        "folio": 83,
+        "predit": "qokaiin",
+        "lectures": [
+          "qotain",
+          "qotain",
+          "4okan"
+        ],
+        "attendu": "qotain",
+        "exact": false,
+        "base_exacte": false
+      }
+    ]
+  },
+  "croise": {
+    "masques": 317,
+    "lisibles": 221,
+    "annonces": 0,
+    "annonces_verifiables": 0,
+    "indeterminees": 0,
+    "exactes": 0,
+    "erreurs": 0,
+    "abstentions": 317,
+    "abstentions_sur_lisibles": 221,
+    "folios_avec_masque": 15,
+    "folios_annonces": 0,
+    "folios_verifiables": 0,
+    "folios_avec_succes": 0,
+    "base_frequente": [
+      "daiin",
+      "8am"
+    ],
+    "base_exactes": 0,
+    "permutations": {
+      "graine": 20261118,
+      "tirages": 0,
+      "strates_lisibles": 61,
+      "strates_avec_annonce": 0,
+      "strates_avec_annonce_immobiles": 0,
+      "annonces_strates_immobiles": 0,
+      "esperance_exacte": null,
+      "moyenne": null,
+      "p_ge_corrige": null,
+      "histogramme": {}
+    },
+    "detail": []
+  },
+  "sha256": {
+    "reserve": "88ff210d3331c56373dba4800acf09ec1623bfd1dc71911af3bc0e69d530b846",
+    "annonces": "66a1c629a92908e2fd95e21d512a3cef055c82f7f24e31bb94ad91541336ebf5",
+    "reponses": "1a55514139c4b5757a430baa4d7c510575ee8040e21ee8d8cd784803590bb517"
+  }
+}
