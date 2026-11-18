@@ -1,0 +1,135 @@
+{
+  "source": "Beinecke Rare Book and Manuscript Library, Yale University Library, Beinecke MS 408",
+  "manifeste_IIIF": "https://collections.library.yale.edu/manifests/2002046",
+  "coordonnees": "Pixels natifs depuis le coin supérieur gauche. Box PIL = x0,y0,x1,y1 (borne supérieure exclue). IIIF = x,y,largeur,hauteur. Les PNG sont des extraits directs des JPEG entiers sans rotation, contraste ou rééchantillonnage.",
+  "folios": {
+    "f99r": {
+      "locus": "f99r.14",
+      "etiquette_edition_ZL_Petersen": "79",
+      "notice_Yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006246",
+      "photo_Yale": "https://collections.library.yale.edu/iiif/2/1006246/full/full/0/default.jpg",
+      "dimensions": [
+        2702,
+        3765
+      ],
+      "sha256_photo": "f17eba5496a1b1d92f589c33ee9be256a379ec8d2bba3da1ebe2ff5a2e3e2901",
+      "vues": {
+        "fragment": {
+          "fichier": "f99r-fragment.png",
+          "boite": [
+            1550,
+            405,
+            2630,
+            875
+          ],
+          "IIIF_xywh": [
+            1550,
+            405,
+            1080,
+            470
+          ],
+          "URL_IIIF": "https://collections.library.yale.edu/iiif/2/1006246/1550,405,1080,470/full/0/default.jpg",
+          "sha256_png": "127d52efca4f3f1b3f66e8d61563baf3e3557f51f0977b74a0f7262241b11ea6"
+        },
+        "contexte": {
+          "fichier": "f99r-contexte.png",
+          "boite": [
+            1350,
+            110,
+            2620,
+            882
+          ],
+          "IIIF_xywh": [
+            1350,
+            110,
+            1270,
+            772
+          ],
+          "URL_IIIF": "https://collections.library.yale.edu/iiif/2/1006246/1350,110,1270,772/full/0/default.jpg",
+          "sha256_png": "67994ee3cb3cb2e935aafb5de5f10242d4fbb4a3302e6cf4f9dcc04d595cb72d"
+        },
+        "inscription": {
+          "fichier": "f99r-inscription.png",
+          "boite": [
+            1928,
+            551,
+            2143,
+            672
+          ],
+          "IIIF_xywh": [
+            1928,
+            551,
+            215,
+            121
+          ],
+          "URL_IIIF": "https://collections.library.yale.edu/iiif/2/1006246/1928,551,215,121/full/0/default.jpg",
+          "sha256_png": "5e24caa2e2945ad7a7c3877948db824c4cdfbf531d8920a6f709ac136cbdf596"
+        }
+      }
+    },
+    "f99v": {
+      "locus": "f99v.2",
+      "etiquette_edition_ZL_Petersen": "95b",
+      "notice_Yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006247",
+      "photo_Yale": "https://collections.library.yale.edu/iiif/2/1006247/full/full/0/default.jpg",
+      "dimensions": [
+        2802,
+        3697
+      ],
+      "sha256_photo": "111f6dfc34b8ecb9230cb5a0d144afef4cbd788048ddda2f440108941c91d5e5",
+      "vues": {
+        "fragment": {
+          "fichier": "f99v-fragment.png",
+          "boite": [
+            556,
+            132,
+            935,
+            709
+          ],
+          "IIIF_xywh": [
+            556,
+            132,
+            379,
+            577
+          ],
+          "URL_IIIF": "https://collections.library.yale.edu/iiif/2/1006247/556,132,379,577/full/0/default.jpg",
+          "sha256_png": "b47475b1843c08169f9d6997de406798c34d8c7c9b8a997a0dc959b85aeacb90"
+        },
+        "contexte": {
+          "fichier": "f99v-contexte.png",
+          "boite": [
+            358,
+            91,
+            1251,
+            735
+          ],
+          "IIIF_xywh": [
+            358,
+            91,
+            893,
+            644
+          ],
+          "URL_IIIF": "https://collections.library.yale.edu/iiif/2/1006247/358,91,893,644/full/0/default.jpg",
+          "sha256_png": "d453aea6d8d9f784d3fed1a4be22fac96e7b97835fd9ac9b80453e951938ea20"
+        },
+        "inscription": {
+          "fichier": "f99v-inscription.png",
+          "boite": [
+            585,
+            183,
+            760,
+            294
+          ],
+          "IIIF_xywh": [
+            585,
+            183,
+            175,
+            111
+          ],
+          "URL_IIIF": "https://collections.library.yale.edu/iiif/2/1006247/585,183,175,111/full/0/default.jpg",
+          "sha256_png": "6fc5f7d16c15ff36762b2af95bf27e225a6b8df6dfccb2c90bcdb4b45e2e9cb8"
+        }
+      }
+    }
+  }
+}

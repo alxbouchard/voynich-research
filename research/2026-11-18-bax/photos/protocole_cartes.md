@@ -1,0 +1,1 @@
+Pour chaque identifiant V01 à V09, relever le signe manuscrit dans l’axe du repère bleu sous la photographie. Réponses possibles en EVA : a, o, y, autre (préciser), incertain. Donner la confiance et signaler les variantes graphiques ou les imprécisions de pointage. Travailler individuellement, exclusivement sur les images anonymisées.

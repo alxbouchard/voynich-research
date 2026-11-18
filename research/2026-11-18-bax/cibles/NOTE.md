@@ -1,0 +1,16 @@
+# Où est le nom de l'animal sur les panneaux du Taureau ?
+
+Sur les deux panneaux f71v et f72r1, le médaillon montre un bovin cornu au-dessus d'un trait de sol vert, la tête vers une mangeoire. Le premier est légèrement coloré en rouge, le second fortement peint. Dans les deux cas, l'inscription horizontale sous le ventre, sombre et d'une écriture différente, correspond au mois de mai selon l'éditeur du catalogue. Des groupes de signes Voynich suivent en revanche la circonférence du médaillon, avec plusieurs espaces. Aucune autre inscription Voynich isolée à l'intérieur, aucune ligne de rappel vers un mot précis du pourtour, n'ont été discernées sur ces photographies. C'est exact pour les deux exemplaires. [Dépliant complet de Yale](https://collections.library.yale.edu/iiif/2/1006203/full/full/0/default.jpg) · [Taureau clair agrandi](https://collections.library.yale.edu/iiif/2/1006203/1100,1100,680,665/full/0/default.jpg) · [Taureau rouge agrandi](https://collections.library.yale.edu/iiif/2/1006203/2870,1092,700,673/full/0/default.jpg) · [Description des deux panneaux et de leur écriture](https://www.voynich.nu/q11/index.html#f71v)
+
+Chaque Taureau possède trois inscriptions circulaires en écriture Voynich, dont une contiguë au médaillon, et quinze inscriptions à côté des petites figures porteuses d'étoiles. Le référent de celles-ci est indéterminé. Les deux panneaux totalisent donc 36 emplacements éditoriaux, dont deux anneaux immédiatement voisins de l'emblème et zéro légende Voynich directement attachée au bovin. Les codes H et ZL ont été lus et comptés sans imprimer ni rechercher le contenu des mots. Les deux transcriptions annotent le même manuscrit.
+
+| Anneau du bord de l'emblème | Positions H, dont simples | Positions ZL, dont simples, espaces douteux joints | Positions ZL, dont simples, espaces douteux séparés |
+|---|---:|---:|---:|
+| Taureau f71v.18 | 11 (11) | 11 (11) | 11 (11) |
+| Taureau f72r1.18 | 14 (14) | 13 (12) | 13 (12) |
+| Bélier f71r.18 | 10 (10) | 9 (8) | 10 (9) |
+| Bélier f70v1 | Bordure vierge | Bordure vierge | Bordure vierge |
+
+Les points sont les séparations de l'édition, les virgules les séparations incertaines. Une case est dite simple si tous ses caractères après suppression des balises sont des lettres minuscules EVA. Les deux conventions donnent les mêmes valeurs en H sur les trois anneaux écrits. Le Bélier de f70v1 présente deux inscriptions circulaires ailleurs sur la page et quinze étiquettes près des figures. La bordure du médaillon est vide. L'absence de cette inscription fournit un contrôle de disposition et ne compte pas comme un échec lexical. [Bélier f70v1](https://collections.library.yale.edu/iiif/2/1006201/1290,1330,720,760/full/0/default.jpg) · [Bélier f71r](https://collections.library.yale.edu/iiif/2/1006202/880,1260,810,870/full/0/default.jpg)
+
+Une prédiction fixée à l'avance peut chercher un même groupe dans les deux anneaux du Taureau. Ce serait une épreuve de répétition sur 25 positions H ou 24 positions ZL, dont 23 ZL entièrement lisibles. La proposition que les mots de l'anneau désignent tous ou en partie l'emblème resterait à établir. [Registre sans graphies, sources, empreintes et coordonnées de cadrage](METADONNEES.json)

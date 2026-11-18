@@ -1,0 +1,7 @@
+# Délimitation des noms avant le masquage
+
+Les titres des douze premiers chapitres ont été revus sur les photographies de Munich. Le titre comprend d'abord une désignation latine, puis un équivalent allemand et un numéro. Pour les chapitres I à VI et XII, le latin occupe un mot. Pour VII à XI, il en occupe deux. Au chapitre I, le verbe allemand « heysset » introduit le nom vernaculaire. Le contrôle n'utilise pas le corps des chapitres ni les grandes initiales parfois laissées vides dans le paragraphe.
+
+Les lettres comparées suivent la transcription de travail déjà établie sur cet exemplaire. Plusieurs finales portant un titulus sont développées en *-um*. Dans « silvestre », cette transcription emploie un v moderne, alors que la typographie de l'édition peut se lire « siluestre ». Avant le calcul, prévoir une sensibilité séparée où tout v est identifié à u ; les résultats principaux gardent u et v distincts. Le chiffrement artificiel s'applique après ces développements. Il ne reproduit donc pas à lui seul les difficultés des abréviations manuscrites. [Exemplaire de Munich](https://www.digitale-sammlungen.de/view/bsb00032739) · [Chapitre VII](https://www.digitale-sammlungen.de/view/bsb00032739?page=26) · [Chapitre VIII](https://www.digitale-sammlungen.de/view/bsb00032739?page=28)
+
+Les deux extraits photographiques proviennent de München, Bayerische Staatsbibliothek, bsb00032739. Leur manifeste porte la marque Domaine public 1.0. [Manifeste de la bibliothèque](https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00032739/manifest)

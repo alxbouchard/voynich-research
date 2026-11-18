@@ -1,0 +1,2996 @@
+{
+  "ZL3b-n": {
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "raw": {
+      "f71v": {
+        "f71v.2": "<!10:00>char.arom",
+        "f71v.3": "<!11:00>chfaly",
+        "f71v.4": "<!00:00>okolar",
+        "f71v.5": "<!01:00>otchody",
+        "f71v.6": "<!02:00>alcphy",
+        "f71v.7": "<!03:00>otaiin",
+        "f71v.8": "<!04:30>okaraiin",
+        "f71v.9": "<!05:30>otar.ar,aly",
+        "f71v.10": "<!07:00>opalar.am.dan",
+        "f71v.11": "<!09:00>opalor.ar",
+        "f71v.13": "<!10:00>ofa{if}om",
+        "f71v.14": "<!00:00>otalody",
+        "f71v.15": "<!03:00>otalaiin",
+        "f71v.16": "<!05:30>otar.sh[a:o]r",
+        "f71v.17": "<!08:30>sholshdy"
+      },
+      "f72r1": {
+        "f72r1.2": "<!09:30>oshod[a:o]dy",
+        "f72r1.3": "<!10:30>chdaiirdainy",
+        "f72r1.4": "<!00:00>oaiin,ar,ary",
+        "f72r1.5": "<!01:00>okalam",
+        "f72r1.6": "<!02:00>ytalshdy",
+        "f72r1.7": "<!03:00>char.alif",
+        "f72r1.8": "<!03:30>otaraldy",
+        "f72r1.9": "<!05:00>otaiin.otain",
+        "f72r1.10": "<!07:00>otalef,ys.ainam",
+        "f72r1.11": "<!08:30>ochol,sharam",
+        "f72r1.13": "<!09:00>ofaralar",
+        "f72r1.14": "<!00:00>otchoshy",
+        "f72r1.15": "<!02:00>otchdal",
+        "f72r1.16": "<!04:00>okeey.ary",
+        "f72r1.17": "<!07:00>otainy"
+      },
+      "f99r": {
+        "f99r.2": "<!68b>okar,y",
+        "f99r.3": "<!69>darar",
+        "f99r.4": "<!70>oky",
+        "f99r.5": "<!71>salo",
+        "f99r.6": "<!72>aro",
+        "f99r.7": "<!72>ain",
+        "f99r.8": "<!73>okor",
+        "f99r.9": "<!74>ralol",
+        "f99r.10": "<!75>skeeal",
+        "f99r.11": "<!76>okary",
+        "f99r.12": "<!77>okolo",
+        "f99r.13": "<!78>otalam",
+        "f99r.14": "<!79>otoldy",
+        "f99r.20": "<!80b>oaro",
+        "f99r.21": "<!81>aloly",
+        "f99r.22": "<!82>aora[?:r]",
+        "f99r.23": "<!83>choky",
+        "f99r.24": "<!84>oky",
+        "f99r.25": "<!85a>okeoly",
+        "f99r.26": "<!85b>yteold",
+        "f99r.27": "<!86a>cheotchy",
+        "f99r.33": "<!87b>okos",
+        "f99r.34": "<!87c>oekey",
+        "f99r.35": "<!88>dar",
+        "f99r.36": "<!89>chockhi[a:y]",
+        "f99r.37": "<!90>r,cheyet",
+        "f99r.38": "<!91>saiiny",
+        "f99r.39": "<!92>sory",
+        "f99r.40": "<!93>dam",
+        "f99r.46": "<!94b>tolsasy"
+      },
+      "f99v": {
+        "f99v.2": "<!95b>otoldy",
+        "f99v.3": "<!96>otor<->chy",
+        "f99v.4": "<!97>oldy",
+        "f99v.5": "<!98>dar<->ary",
+        "f99v.6": "<!99>otaly",
+        "f99v.7": "<!100>olsy",
+        "f99v.8": "<!101>arol",
+        "f99v.9": "<!102>otoky",
+        "f99v.15": "<!103b>oeeesary",
+        "f99v.16": "<!104>daiiinc",
+        "f99v.17": "<!105>sary",
+        "f99v.18": "<!106>saiino",
+        "f99v.19": "<!107>otolsar",
+        "f99v.20": "<!108>osary",
+        "f99v.26": "<!109b>okechy",
+        "f99v.27": "<!110>otal",
+        "f99v.28": "<!110b>chor.olekor",
+        "f99v.29": "<!111>okeodor",
+        "f99v.30": "<!112>olky",
+        "f99v.31": "<!113>doldam",
+        "f99v.44": "<!114b>koleearol"
+      }
+    },
+    "runs": {
+      "split_first": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 20,
+          "f72r1": 22,
+          "f99r": 30,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 2,
+        "top_validation": [
+          "ary"
+        ],
+        "top_discovery": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.16"
+            ],
+            "f72r1": [],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 1,
+          "null": {
+            "0": 8486,
+            "1": 11514
+          },
+          "p": 0.5757212139393031,
+          "tail": 11514,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "arom",
+              "char"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "alcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "aly",
+              "ar",
+              "otar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofaifom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shar"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodady"
+            ],
+            "f72r1.3": [
+              "chdaiirdainy"
+            ],
+            "f72r1.4": [
+              "ar",
+              "ary",
+              "oaiin"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "ytalshdy"
+            ],
+            "f72r1.7": [
+              "alif",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "otalef",
+              "ys"
+            ],
+            "f72r1.11": [
+              "ochol",
+              "sharam"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okar",
+              "y"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "aro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "ralol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dar"
+            ],
+            "f99r.36": [
+              "chockhia"
+            ],
+            "f99r.37": [
+              "cheyet",
+              "r"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "sory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiinc"
+            ],
+            "f99v.17": [
+              "sary"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      },
+      "split_last": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 20,
+          "f72r1": 22,
+          "f99r": 31,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 2,
+        "top_validation": [
+          "ary"
+        ],
+        "top_discovery": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.16"
+            ],
+            "f72r1": [],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 1,
+          "null": {
+            "0": 8486,
+            "1": 11514
+          },
+          "p": 0.5757212139393031,
+          "tail": 11514,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "arom",
+              "char"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "alcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "aly",
+              "ar",
+              "otar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofaifom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shor"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodody"
+            ],
+            "f72r1.3": [
+              "chdaiirdainy"
+            ],
+            "f72r1.4": [
+              "ar",
+              "ary",
+              "oaiin"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "ytalshdy"
+            ],
+            "f72r1.7": [
+              "alif",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "otalef",
+              "ys"
+            ],
+            "f72r1.11": [
+              "ochol",
+              "sharam"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okar",
+              "y"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "aro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "ralol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [
+              "aorar"
+            ],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dar"
+            ],
+            "f99r.36": [
+              "chockhiy"
+            ],
+            "f99r.37": [
+              "cheyet",
+              "r"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "sory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiinc"
+            ],
+            "f99v.17": [
+              "sary"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      },
+      "join_first": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 20,
+          "f72r1": 19,
+          "f99r": 27,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 1,
+        "top_validation": [
+          "ainam",
+          "alif",
+          "ary",
+          "char",
+          "chdaiirdainy",
+          "oaiinarary",
+          "ocholsharam",
+          "ofaralar",
+          "okalam",
+          "okeey",
+          "oshodady",
+          "otaiin",
+          "otain",
+          "otainy",
+          "otalefys",
+          "otaraldy",
+          "otchdal",
+          "otchoshy",
+          "ytalshdy"
+        ],
+        "top_discovery": {
+          "otar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.16"
+            ],
+            "f72r1": [],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 0,
+          "null": {
+            "0": 11866,
+            "1": 8134
+          },
+          "p": 1.0,
+          "tail": 20000,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "arom",
+              "char"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "alcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "araly",
+              "otar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofaifom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shar"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodady"
+            ],
+            "f72r1.3": [
+              "chdaiirdainy"
+            ],
+            "f72r1.4": [
+              "oaiinarary"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "ytalshdy"
+            ],
+            "f72r1.7": [
+              "alif",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "otalefys"
+            ],
+            "f72r1.11": [
+              "ocholsharam"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okary"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "aro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "ralol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dar"
+            ],
+            "f99r.36": [
+              "chockhia"
+            ],
+            "f99r.37": [
+              "rcheyet"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "sory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiinc"
+            ],
+            "f99v.17": [
+              "sary"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      },
+      "join_last": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 20,
+          "f72r1": 19,
+          "f99r": 28,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 1,
+        "top_validation": [
+          "ainam",
+          "alif",
+          "ary",
+          "char",
+          "chdaiirdainy",
+          "oaiinarary",
+          "ocholsharam",
+          "ofaralar",
+          "okalam",
+          "okeey",
+          "oshodody",
+          "otaiin",
+          "otain",
+          "otainy",
+          "otalefys",
+          "otaraldy",
+          "otchdal",
+          "otchoshy",
+          "ytalshdy"
+        ],
+        "top_discovery": {
+          "otar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.16"
+            ],
+            "f72r1": [],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 0,
+          "null": {
+            "0": 11866,
+            "1": 8134
+          },
+          "p": 1.0,
+          "tail": 20000,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "arom",
+              "char"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "alcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "araly",
+              "otar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofaifom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shor"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodody"
+            ],
+            "f72r1.3": [
+              "chdaiirdainy"
+            ],
+            "f72r1.4": [
+              "oaiinarary"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "ytalshdy"
+            ],
+            "f72r1.7": [
+              "alif",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "otalefys"
+            ],
+            "f72r1.11": [
+              "ocholsharam"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okary"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "aro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "ralol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [
+              "aorar"
+            ],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dar"
+            ],
+            "f99r.36": [
+              "chockhiy"
+            ],
+            "f99r.37": [
+              "rcheyet"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "sory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiinc"
+            ],
+            "f99v.17": [
+              "sary"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "IT2a-n": {
+    "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "raw": {
+      "f71v": {
+        "f71v.2": "char.orom",
+        "f71v.3": "chfaly",
+        "f71v.4": "okolar",
+        "f71v.5": "otchody",
+        "f71v.6": "olcphy",
+        "f71v.7": "otaiin",
+        "f71v.8": "okaraiin",
+        "f71v.9": "okar.ar.aly",
+        "f71v.10": "opalar.am.dan",
+        "f71v.11": "opalor.ar",
+        "f71v.13": "ofacfom",
+        "f71v.14": "otalody",
+        "f71v.15": "otalaiin",
+        "f71v.16": "otar.shor",
+        "f71v.17": "sholshdy"
+      },
+      "f72r1": {
+        "f72r1.2": "oshodody",
+        "f72r1.3": "chdaiirsainy",
+        "f72r1.4": "oaiin.ar.ary",
+        "f72r1.5": "okalam",
+        "f72r1.6": "ytal.shda",
+        "f72r1.7": "char.alf",
+        "f72r1.8": "otaraldy",
+        "f72r1.9": "otaiin.otain",
+        "f72r1.10": "otalef.as.ainam",
+        "f72r1.11": "ochol.charam",
+        "f72r1.13": "ofaralar",
+        "f72r1.14": "otchoshy",
+        "f72r1.15": "otchdal",
+        "f72r1.16": "okeey.ary",
+        "f72r1.17": "otainy"
+      },
+      "f99r": {
+        "f99r.2": "okary",
+        "f99r.3": "darar",
+        "f99r.4": "oky",
+        "f99r.5": "salo",
+        "f99r.6": "oro",
+        "f99r.7": "ain",
+        "f99r.8": "okor",
+        "f99r.9": "salol",
+        "f99r.10": "skeeal",
+        "f99r.11": "okary",
+        "f99r.12": "okolo",
+        "f99r.13": "otalam",
+        "f99r.14": "otoldy",
+        "f99r.20": "oaro",
+        "f99r.21": "aloly",
+        "f99r.22": "ooror",
+        "f99r.23": "choky",
+        "f99r.24": "oky",
+        "f99r.25": "okeoly",
+        "f99r.26": "yteold",
+        "f99r.27": "cheotchy",
+        "f99r.33": "okos",
+        "f99r.34": "oekey",
+        "f99r.35": "dor",
+        "f99r.36": "chockhhy",
+        "f99r.37": "rchey.ot",
+        "f99r.38": "saiiny",
+        "f99r.39": "rory",
+        "f99r.40": "dam",
+        "f99r.46": "tolsasy"
+      },
+      "f99v": {
+        "f99v.2": "otoldy",
+        "f99v.3": "otor<->chy",
+        "f99v.4": "oldy",
+        "f99v.5": "dar<->ary",
+        "f99v.6": "otaly",
+        "f99v.7": "olsy",
+        "f99v.8": "arol",
+        "f99v.9": "otoky",
+        "f99v.15": "oeeesary",
+        "f99v.16": "daiiine",
+        "f99v.17": "sory",
+        "f99v.18": "saiino",
+        "f99v.19": "otolsar",
+        "f99v.20": "osary",
+        "f99v.26": "okechy",
+        "f99v.27": "otal",
+        "f99v.28": "chor.olekor",
+        "f99v.29": "okeodor",
+        "f99v.30": "olky",
+        "f99v.31": "doldam",
+        "f99v.44": "koleearol"
+      }
+    },
+    "runs": {
+      "split_first": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 21,
+          "f72r1": 23,
+          "f99r": 29,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 2,
+        "top_validation": [
+          "ary"
+        ],
+        "top_discovery": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 1,
+          "null": {
+            "0": 7743,
+            "1": 12257
+          },
+          "p": 0.6128693565321733,
+          "tail": 12257,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "char",
+              "orom"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "olcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "aly",
+              "ar",
+              "okar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofacfom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shor"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodody"
+            ],
+            "f72r1.3": [
+              "chdaiirsainy"
+            ],
+            "f72r1.4": [
+              "ar",
+              "ary",
+              "oaiin"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "shda",
+              "ytal"
+            ],
+            "f72r1.7": [
+              "alf",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "as",
+              "otalef"
+            ],
+            "f72r1.11": [
+              "charam",
+              "ochol"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okary"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "oro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "salol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [
+              "ooror"
+            ],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dor"
+            ],
+            "f99r.36": [
+              "chockhhy"
+            ],
+            "f99r.37": [
+              "ot",
+              "rchey"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "rory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiine"
+            ],
+            "f99v.17": [
+              "sory"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      },
+      "split_last": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 21,
+          "f72r1": 23,
+          "f99r": 29,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 2,
+        "top_validation": [
+          "ary"
+        ],
+        "top_discovery": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 1,
+          "null": {
+            "0": 7743,
+            "1": 12257
+          },
+          "p": 0.6128693565321733,
+          "tail": 12257,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "char",
+              "orom"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "olcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "aly",
+              "ar",
+              "okar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofacfom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shor"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodody"
+            ],
+            "f72r1.3": [
+              "chdaiirsainy"
+            ],
+            "f72r1.4": [
+              "ar",
+              "ary",
+              "oaiin"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "shda",
+              "ytal"
+            ],
+            "f72r1.7": [
+              "alf",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "as",
+              "otalef"
+            ],
+            "f72r1.11": [
+              "charam",
+              "ochol"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okary"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "oro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "salol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [
+              "ooror"
+            ],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dor"
+            ],
+            "f99r.36": [
+              "chockhhy"
+            ],
+            "f99r.37": [
+              "ot",
+              "rchey"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "rory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiine"
+            ],
+            "f99v.17": [
+              "sory"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      },
+      "join_first": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 21,
+          "f72r1": 23,
+          "f99r": 29,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 2,
+        "top_validation": [
+          "ary"
+        ],
+        "top_discovery": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 1,
+          "null": {
+            "0": 7743,
+            "1": 12257
+          },
+          "p": 0.6128693565321733,
+          "tail": 12257,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "char",
+              "orom"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "olcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "aly",
+              "ar",
+              "okar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofacfom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shor"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodody"
+            ],
+            "f72r1.3": [
+              "chdaiirsainy"
+            ],
+            "f72r1.4": [
+              "ar",
+              "ary",
+              "oaiin"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "shda",
+              "ytal"
+            ],
+            "f72r1.7": [
+              "alf",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "as",
+              "otalef"
+            ],
+            "f72r1.11": [
+              "charam",
+              "ochol"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okary"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "oro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "salol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [
+              "ooror"
+            ],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dor"
+            ],
+            "f99r.36": [
+              "chockhhy"
+            ],
+            "f99r.37": [
+              "ot",
+              "rchey"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "rory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiine"
+            ],
+            "f99v.17": [
+              "sory"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      },
+      "join_last": {
+        "n_loci": {
+          "f71v": 15,
+          "f72r1": 15,
+          "f99r": 30,
+          "f99v": 21
+        },
+        "n_types": {
+          "f71v": 21,
+          "f72r1": 23,
+          "f99r": 29,
+          "f99v": 24
+        },
+        "max_discovery": 2,
+        "max_validation": 2,
+        "top_validation": [
+          "ary"
+        ],
+        "top_discovery": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "shared_before_selection": {
+          "ar": {
+            "f71v": [
+              "f71v.9",
+              "f71v.11"
+            ],
+            "f72r1": [
+              "f72r1.4"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "char": {
+            "f71v": [
+              "f71v.2"
+            ],
+            "f72r1": [
+              "f72r1.7"
+            ],
+            "f99r": [],
+            "f99v": []
+          },
+          "otaiin": {
+            "f71v": [
+              "f71v.7"
+            ],
+            "f72r1": [
+              "f72r1.9"
+            ],
+            "f99r": [],
+            "f99v": []
+          }
+        },
+        "null": {
+          "observed": 1,
+          "null": {
+            "0": 7743,
+            "1": 12257
+          },
+          "p": 0.6128693565321733,
+          "tail": 12257,
+          "n": 20000,
+          "seed": 71172
+        },
+        "groups": {
+          "f71v": {
+            "f71v.2": [
+              "char",
+              "orom"
+            ],
+            "f71v.3": [
+              "chfaly"
+            ],
+            "f71v.4": [
+              "okolar"
+            ],
+            "f71v.5": [
+              "otchody"
+            ],
+            "f71v.6": [
+              "olcphy"
+            ],
+            "f71v.7": [
+              "otaiin"
+            ],
+            "f71v.8": [
+              "okaraiin"
+            ],
+            "f71v.9": [
+              "aly",
+              "ar",
+              "okar"
+            ],
+            "f71v.10": [
+              "am",
+              "dan",
+              "opalar"
+            ],
+            "f71v.11": [
+              "ar",
+              "opalor"
+            ],
+            "f71v.13": [
+              "ofacfom"
+            ],
+            "f71v.14": [
+              "otalody"
+            ],
+            "f71v.15": [
+              "otalaiin"
+            ],
+            "f71v.16": [
+              "otar",
+              "shor"
+            ],
+            "f71v.17": [
+              "sholshdy"
+            ]
+          },
+          "f72r1": {
+            "f72r1.2": [
+              "oshodody"
+            ],
+            "f72r1.3": [
+              "chdaiirsainy"
+            ],
+            "f72r1.4": [
+              "ar",
+              "ary",
+              "oaiin"
+            ],
+            "f72r1.5": [
+              "okalam"
+            ],
+            "f72r1.6": [
+              "shda",
+              "ytal"
+            ],
+            "f72r1.7": [
+              "alf",
+              "char"
+            ],
+            "f72r1.8": [
+              "otaraldy"
+            ],
+            "f72r1.9": [
+              "otaiin",
+              "otain"
+            ],
+            "f72r1.10": [
+              "ainam",
+              "as",
+              "otalef"
+            ],
+            "f72r1.11": [
+              "charam",
+              "ochol"
+            ],
+            "f72r1.13": [
+              "ofaralar"
+            ],
+            "f72r1.14": [
+              "otchoshy"
+            ],
+            "f72r1.15": [
+              "otchdal"
+            ],
+            "f72r1.16": [
+              "ary",
+              "okeey"
+            ],
+            "f72r1.17": [
+              "otainy"
+            ]
+          },
+          "f99r": {
+            "f99r.2": [
+              "okary"
+            ],
+            "f99r.3": [
+              "darar"
+            ],
+            "f99r.4": [
+              "oky"
+            ],
+            "f99r.5": [
+              "salo"
+            ],
+            "f99r.6": [
+              "oro"
+            ],
+            "f99r.7": [
+              "ain"
+            ],
+            "f99r.8": [
+              "okor"
+            ],
+            "f99r.9": [
+              "salol"
+            ],
+            "f99r.10": [
+              "skeeal"
+            ],
+            "f99r.11": [
+              "okary"
+            ],
+            "f99r.12": [
+              "okolo"
+            ],
+            "f99r.13": [
+              "otalam"
+            ],
+            "f99r.14": [
+              "otoldy"
+            ],
+            "f99r.20": [
+              "oaro"
+            ],
+            "f99r.21": [
+              "aloly"
+            ],
+            "f99r.22": [
+              "ooror"
+            ],
+            "f99r.23": [
+              "choky"
+            ],
+            "f99r.24": [
+              "oky"
+            ],
+            "f99r.25": [
+              "okeoly"
+            ],
+            "f99r.26": [
+              "yteold"
+            ],
+            "f99r.27": [
+              "cheotchy"
+            ],
+            "f99r.33": [
+              "okos"
+            ],
+            "f99r.34": [
+              "oekey"
+            ],
+            "f99r.35": [
+              "dor"
+            ],
+            "f99r.36": [
+              "chockhhy"
+            ],
+            "f99r.37": [
+              "ot",
+              "rchey"
+            ],
+            "f99r.38": [
+              "saiiny"
+            ],
+            "f99r.39": [
+              "rory"
+            ],
+            "f99r.40": [
+              "dam"
+            ],
+            "f99r.46": [
+              "tolsasy"
+            ]
+          },
+          "f99v": {
+            "f99v.2": [
+              "otoldy"
+            ],
+            "f99v.3": [
+              "chy",
+              "otor"
+            ],
+            "f99v.4": [
+              "oldy"
+            ],
+            "f99v.5": [
+              "ary",
+              "dar"
+            ],
+            "f99v.6": [
+              "otaly"
+            ],
+            "f99v.7": [
+              "olsy"
+            ],
+            "f99v.8": [
+              "arol"
+            ],
+            "f99v.9": [
+              "otoky"
+            ],
+            "f99v.15": [
+              "oeeesary"
+            ],
+            "f99v.16": [
+              "daiiine"
+            ],
+            "f99v.17": [
+              "sory"
+            ],
+            "f99v.18": [
+              "saiino"
+            ],
+            "f99v.19": [
+              "otolsar"
+            ],
+            "f99v.20": [
+              "osary"
+            ],
+            "f99v.26": [
+              "okechy"
+            ],
+            "f99v.27": [
+              "otal"
+            ],
+            "f99v.28": [
+              "chor",
+              "olekor"
+            ],
+            "f99v.29": [
+              "okeodor"
+            ],
+            "f99v.30": [
+              "olky"
+            ],
+            "f99v.31": [
+              "doldam"
+            ],
+            "f99v.44": [
+              "koleearol"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

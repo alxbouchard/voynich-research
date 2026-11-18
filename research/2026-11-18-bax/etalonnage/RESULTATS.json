@@ -1,0 +1,770 @@
+{
+  "nom_complet_principal": {
+    "laisser_un_nom": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 10,
+        "inconnus": 0,
+        "justes": 129,
+        "lettres": 131,
+        "noms": 12,
+        "non_lues": 2,
+        "partiels": 2
+      },
+      "lecture_par_chapitre": {
+        "1": {
+          "attendu": "arthemisia",
+          "lu": "arthemisia"
+        },
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "aristologia rotunda"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "aristologia longa"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "2": {
+          "attendu": "abrotanum",
+          "lu": "abrotanum"
+        },
+        "3": {
+          "attendu": "absinthium",
+          "lu": "absinthium"
+        },
+        "4": {
+          "attendu": "allium",
+          "lu": "allium"
+        },
+        "5": {
+          "attendu": "agrimonia",
+          "lu": "agrimonia"
+        },
+        "6": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "7": {
+          "attendu": "apium silvestre",
+          "lu": "apium sil?estre"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "apium rusti?um"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "apium emoroidarum"
+        }
+      }
+    },
+    "noms_repris_entrainement": [],
+    "permutations": {
+      "appariements_coherents": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      ],
+      "comptes": {
+        "coherent": 1,
+        "contradiction": 3,
+        "longueur": 716
+      }
+    },
+    "reserve": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 2,
+        "inconnus": 0,
+        "justes": 78,
+        "lettres": 82,
+        "noms": 6,
+        "non_lues": 4,
+        "partiels": 4
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "aristologia rotun?a"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "aristologia longa"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "7": {
+          "attendu": "apium silvestre",
+          "lu": "apium sil?estre"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "apium rusti?um"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "apium emoroi?arum"
+        }
+      }
+    },
+    "reserve_formes_nouvelles": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 2,
+        "inconnus": 0,
+        "justes": 78,
+        "lettres": 82,
+        "noms": 6,
+        "non_lues": 4,
+        "partiels": 4
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "aristologia rotun?a"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "aristologia longa"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "7": {
+          "attendu": "apium silvestre",
+          "lu": "apium sil?estre"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "apium rusti?um"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "apium emoroi?arum"
+        }
+      }
+    },
+    "temoin_initiale": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 0,
+        "inconnus": 0,
+        "justes": 6,
+        "lettres": 82,
+        "noms": 6,
+        "non_lues": 76,
+        "partiels": 6
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "a?????????? ???????"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "a?????????? ?????"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "a????"
+        },
+        "7": {
+          "attendu": "apium silvestre",
+          "lu": "a???? ?????????"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "a???? ????????"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "a???? ???????????"
+        }
+      }
+    }
+  },
+  "nom_complet_u_v_reunis": {
+    "laisser_un_nom": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 11,
+        "inconnus": 0,
+        "justes": 130,
+        "lettres": 131,
+        "noms": 12,
+        "non_lues": 1,
+        "partiels": 1
+      },
+      "lecture_par_chapitre": {
+        "1": {
+          "attendu": "arthemisia",
+          "lu": "arthemisia"
+        },
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "aristologia rotunda"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "aristologia longa"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "2": {
+          "attendu": "abrotanum",
+          "lu": "abrotanum"
+        },
+        "3": {
+          "attendu": "absinthium",
+          "lu": "absinthium"
+        },
+        "4": {
+          "attendu": "allium",
+          "lu": "allium"
+        },
+        "5": {
+          "attendu": "agrimonia",
+          "lu": "agrimonia"
+        },
+        "6": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "7": {
+          "attendu": "apium siluestre",
+          "lu": "apium siluestre"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "apium rusti?um"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "apium emoroidarum"
+        }
+      }
+    },
+    "noms_repris_entrainement": [],
+    "permutations": {
+      "appariements_coherents": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      ],
+      "comptes": {
+        "coherent": 1,
+        "contradiction": 3,
+        "longueur": 716
+      }
+    },
+    "reserve": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 3,
+        "inconnus": 0,
+        "justes": 79,
+        "lettres": 82,
+        "noms": 6,
+        "non_lues": 3,
+        "partiels": 3
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "aristologia rotun?a"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "aristologia longa"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "7": {
+          "attendu": "apium siluestre",
+          "lu": "apium siluestre"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "apium rusti?um"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "apium emoroi?arum"
+        }
+      }
+    },
+    "reserve_formes_nouvelles": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 3,
+        "inconnus": 0,
+        "justes": 79,
+        "lettres": 82,
+        "noms": 6,
+        "non_lues": 3,
+        "partiels": 3
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "aristologia rotun?a"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "aristologia longa"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "7": {
+          "attendu": "apium siluestre",
+          "lu": "apium siluestre"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "apium rusti?um"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "apium emoroi?arum"
+        }
+      }
+    },
+    "temoin_initiale": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 0,
+        "inconnus": 0,
+        "justes": 6,
+        "lettres": 82,
+        "noms": 6,
+        "non_lues": 76,
+        "partiels": 6
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia rotunda",
+          "lu": "a?????????? ???????"
+        },
+        "11": {
+          "attendu": "aristologia longa",
+          "lu": "a?????????? ?????"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "a????"
+        },
+        "7": {
+          "attendu": "apium siluestre",
+          "lu": "a???? ?????????"
+        },
+        "8": {
+          "attendu": "apium rusticum",
+          "lu": "a???? ????????"
+        },
+        "9": {
+          "attendu": "apium emoroidarum",
+          "lu": "a???? ???????????"
+        }
+      }
+    }
+  },
+  "premier_mot_principal": {
+    "laisser_un_nom": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 12,
+        "inconnus": 0,
+        "justes": 91,
+        "lettres": 91,
+        "noms": 12,
+        "non_lues": 0,
+        "partiels": 0
+      },
+      "lecture_par_chapitre": {
+        "1": {
+          "attendu": "arthemisia",
+          "lu": "arthemisia"
+        },
+        "10": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "2": {
+          "attendu": "abrotanum",
+          "lu": "abrotanum"
+        },
+        "3": {
+          "attendu": "absinthium",
+          "lu": "absinthium"
+        },
+        "4": {
+          "attendu": "allium",
+          "lu": "allium"
+        },
+        "5": {
+          "attendu": "agrimonia",
+          "lu": "agrimonia"
+        },
+        "6": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "7": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "8": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "9": {
+          "attendu": "apium",
+          "lu": "apium"
+        }
+      }
+    },
+    "noms_repris_entrainement": [
+      "7",
+      "8",
+      "9"
+    ],
+    "permutations": {
+      "appariements_coherents": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      ],
+      "comptes": {
+        "coherent": 1,
+        "contradiction": 3,
+        "longueur": 716
+      }
+    },
+    "reserve": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 6,
+        "inconnus": 0,
+        "justes": 42,
+        "lettres": 42,
+        "noms": 6,
+        "non_lues": 0,
+        "partiels": 0
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "7": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "8": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "9": {
+          "attendu": "apium",
+          "lu": "apium"
+        }
+      }
+    },
+    "reserve_formes_nouvelles": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 3,
+        "inconnus": 0,
+        "justes": 27,
+        "lettres": 27,
+        "noms": 3,
+        "non_lues": 0,
+        "partiels": 0
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        }
+      }
+    },
+    "temoin_initiale": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 0,
+        "inconnus": 0,
+        "justes": 6,
+        "lettres": 42,
+        "noms": 6,
+        "non_lues": 36,
+        "partiels": 6
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia",
+          "lu": "a??????????"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "a??????????"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "a????"
+        },
+        "7": {
+          "attendu": "apium",
+          "lu": "a????"
+        },
+        "8": {
+          "attendu": "apium",
+          "lu": "a????"
+        },
+        "9": {
+          "attendu": "apium",
+          "lu": "a????"
+        }
+      }
+    }
+  },
+  "premier_mot_u_v_reunis": {
+    "laisser_un_nom": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 12,
+        "inconnus": 0,
+        "justes": 91,
+        "lettres": 91,
+        "noms": 12,
+        "non_lues": 0,
+        "partiels": 0
+      },
+      "lecture_par_chapitre": {
+        "1": {
+          "attendu": "arthemisia",
+          "lu": "arthemisia"
+        },
+        "10": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "2": {
+          "attendu": "abrotanum",
+          "lu": "abrotanum"
+        },
+        "3": {
+          "attendu": "absinthium",
+          "lu": "absinthium"
+        },
+        "4": {
+          "attendu": "allium",
+          "lu": "allium"
+        },
+        "5": {
+          "attendu": "agrimonia",
+          "lu": "agrimonia"
+        },
+        "6": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "7": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "8": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "9": {
+          "attendu": "apium",
+          "lu": "apium"
+        }
+      }
+    },
+    "noms_repris_entrainement": [
+      "7",
+      "8",
+      "9"
+    ],
+    "permutations": {
+      "appariements_coherents": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      ],
+      "comptes": {
+        "coherent": 1,
+        "contradiction": 3,
+        "longueur": 716
+      }
+    },
+    "reserve": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 6,
+        "inconnus": 0,
+        "justes": 42,
+        "lettres": 42,
+        "noms": 6,
+        "non_lues": 0,
+        "partiels": 0
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        },
+        "7": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "8": {
+          "attendu": "apium",
+          "lu": "apium"
+        },
+        "9": {
+          "attendu": "apium",
+          "lu": "apium"
+        }
+      }
+    },
+    "reserve_formes_nouvelles": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 3,
+        "inconnus": 0,
+        "justes": 27,
+        "lettres": 27,
+        "noms": 3,
+        "non_lues": 0,
+        "partiels": 0
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "aristologia"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "altea"
+        }
+      }
+    },
+    "temoin_initiale": {
+      "comptes": {
+        "erronees": 0,
+        "exacts": 0,
+        "inconnus": 0,
+        "justes": 6,
+        "lettres": 42,
+        "noms": 6,
+        "non_lues": 36,
+        "partiels": 6
+      },
+      "lecture_par_chapitre": {
+        "10": {
+          "attendu": "aristologia",
+          "lu": "a??????????"
+        },
+        "11": {
+          "attendu": "aristologia",
+          "lu": "a??????????"
+        },
+        "12": {
+          "attendu": "altea",
+          "lu": "a????"
+        },
+        "7": {
+          "attendu": "apium",
+          "lu": "a????"
+        },
+        "8": {
+          "attendu": "apium",
+          "lu": "a????"
+        },
+        "9": {
+          "attendu": "apium",
+          "lu": "a????"
+        }
+      }
+    }
+  }
+}

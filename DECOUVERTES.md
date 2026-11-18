@@ -27,6 +27,8 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Les mots près des racines, des étoiles et des figures](research/2026-11-18-mots-des-images/RAPPORT.md) | La répétition de `otoldy` sur f99 prédit une troisième étiquette végétale sur f89r1. Le groupe manque sur f57r, dont le dessin est rapproché de cette vignette. Les étiquettes autonomes des 53 étoiles de deux panneaux sont toutes différentes parmi celles d’un seul mot. |
+| [Épreuve de la table phonétique de Bax](research/2026-11-18-bax/RAPPORT.md) | Deux noms indépendamment documentés dans les herbiers ne se lisent pas aux ouvertures de f2v et f35v. Deux lecteurs IA vérifient trois signes litigieux. Sur une substitution artificielle, deux noms sur six sont lus en entier. |
 | [Fleurs dans les trois premiers cahiers](research/2026-11-18-fleurs/RAPPORT.md) | Sur les pages réservées, `qotor` annonce une corolle sur f5v et à tort sur f8r. Les deux occurrences ouvrent la quatrième ligne. Un contrôle sur d’autres feuillets montre une tendance initiale aussi présente pour `qotol`. |
 | [Palumbare et le bain du Soleil et de la Lune](research/2026-11-18-palumbare/RAPPORT.md) | Les rubriques du Vatican permettent de vérifier deux noms proposés à partir d’images. Aucun des deux lecteurs ne retrouve la scène des oiseaux au-dessus des baigneurs sur les 16 faces du Voynich examinées. |
 | [Mots et dessins](research/2026-11-18-mots-et-dessins/RAPPORT.md) | Le texte de 40 positions classe 7/9 feuillets dans les deux éditions après exclusion du parchemin conjugué (8/9 dans une convention). Trois inscriptions botaniques contiennent `okol`. Le dessin ne fixe pas son sens. |
