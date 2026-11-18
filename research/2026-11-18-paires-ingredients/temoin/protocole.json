@@ -1,0 +1,36 @@
+{
+  "source": {
+    "A": "https://corpus.atliteg.org/testi/liber-de-coquina-a/93",
+    "O": "https://corpus.atliteg.org/testi/liber-de-coquina-o/92"
+  },
+  "reference": "Le témoin A fournit la paire ; le témoin O fournit les 168 corps à interroger. La cible est définie par la rubrique et la position dans une série parallèle. Les rubriques de O ont été consultées pour cet alignement avant analyse ; les mots des corps de O n'ont pas été lus pour fixer les requêtes. Même tradition, deux objets manuscrits, une éditrice numérique.",
+  "selection": "Deux familles choisies dans A après consultation exploratoire de A, chacune prise intégralement : les sept préparations contiguës de pois chiche et les quatre de hareng/sardine. Choix sans prétention d'échantillon aléatoire. Retenir dans le corps de chaque recette A les deux premières plantes nommées distinctes, y compris fruits et épices, même si elles apparaissent dans une condition ou une alternative. Omettre produits sans plante nommée (vin, huile, sucre), génériques (herbes, épices), éléments animaux et minéraux. L'amande nommée dans le lait d'amandes compte. La dernière recette des poissons nomme deux agrumes comme alternatives ; elle est conservée comme témoin de la distinction entre noms et coprésence matérielle.",
+  "evaluation": "Au niveau des mots entiers, comparer graphie exacte sans casse puis flexion sur base identique, puis flexion avec variantes orthographiques bornées, puis union préalable de crocus et safranum pour safran. Rapporter présence sans ordre et existence dans l'ordre de A, même séparée de plusieurs mots. Tous les couples requête × recette sont évalués, y compris requêtes lexicalement identiques pour différentes cibles. Signaler les redondances et traiter séparément les agrumes alternatifs. Aucun paramètre n'est appris sur O.",
+  "lexemes": {
+    "pois_chiche": {"base":"cicer", "end":"(?:a|e|i|is|um|ibus)?"},
+    "chataigne": {"base":"castan", "end":"(?:ea|eae|ee|eam|eas|eis|earum)"},
+    "poivre": {"base":"piper", "end":"(?:e|i|is|a|um|ibus)?"},
+    "amande": {"base":"amigdal", "var":"am[yi]gdal", "end":"(?:a|e|ae|am|as|is|arum)"},
+    "safran": {"base":"safran", "var":"saf{1,2}ran", "end":"(?:um|i|o|a|is|orum|us)","alias":"crocus"},
+    "crocus": {"base":"croc","end":"(?:us|um|i|o|a|is|orum)","alias":"safran"},
+    "epinard": {"base":"spinnarchi","var":"spin{1,2}a(?:r?ch?|t)i","end":"(?:a|e|ae|as|am|is|arum|um)"},
+    "aneth": {"base":"anet","var":"aneth?","end":"(?:um|i|o|a|is|orum)"},
+    "marjolaine": {"base":"maioran", "var":"ma[iyjo]oran", "end":"(?:a|e|ae|as|am|is|arum)"},
+    "romarin": {"base":"rosmarin", "end":"(?:um|us|i|o|a|is|orum)"},
+    "agrume_1": {"base":"citrangul","var":"citrang(?:u)?l","end":"(?:um|us|i|o|a|is|orum)"},
+    "citron": {"base":"limon", "end":"(?:em|is|e|es|ibus|um|i)"}
+  },
+  "queries": [
+    [21,25,"cicera","castaneas","pois_chiche","chataigne","condition"],
+    [22,26,"cicera","pipere","pois_chiche","poivre","ensemble"],
+    [23,27,"cicera","pipere","pois_chiche","poivre","ensemble"],
+    [24,28,"cicera","amigdalarum","pois_chiche","amande","ensemble"],
+    [25,29,"cicera","pipere","pois_chiche","poivre","ensemble"],
+    [26,30,"cicera","safrano","pois_chiche","safran","ensemble"],
+    [27,31,"cicera","safranum","pois_chiche","safran","option"],
+    [10,146,"spinnarchia","anetum","epinard","aneth","ensemble"],
+    [11,147,"maioranam","rosmarinum","marjolaine","romarin","ensemble"],
+    [12,148,"pipere","croco","poivre","crocus","ensemble"],
+    [13,149,"citrangulorum","limonum","agrume_1","citron","alternative"]
+  ]
+}

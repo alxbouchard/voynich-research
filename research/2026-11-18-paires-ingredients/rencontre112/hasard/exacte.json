@@ -1,0 +1,111 @@
+{
+  "H": {
+    "par_page": {
+      "par_face": {
+        "f106r": {
+          "emplacements_valides": 3420,
+          "emplacements_possibles": 107912
+        },
+        "f106v": {
+          "emplacements_valides": 3842,
+          "emplacements_possibles": 125670
+        },
+        "f112v": {
+          "emplacements_valides": 3338,
+          "emplacements_possibles": 102720
+        }
+      },
+      "fraction_exacte": "570887843657/6218825191200",
+      "probabilite": 0.09179995032901705
+    },
+    "par_troncon": {
+      "par_face": {
+        "f106r": {
+          "emplacements_valides": 0,
+          "emplacements_possibles": 899
+        },
+        "f106v": {
+          "emplacements_valides": 0,
+          "emplacements_possibles": 1598
+        },
+        "f112v": {
+          "emplacements_valides": 270,
+          "emplacements_possibles": 600
+        }
+      },
+      "fraction_exacte": "9/20",
+      "probabilite": 0.45
+    },
+    "famille_par_troncon": {
+      "admissibles": {
+        "f112v.42": {
+          "paire": [
+            "opchy",
+            "otol"
+          ],
+          "fraction_exacte": "9/20"
+        },
+        "f113v.10": {
+          "paire": [
+            "oror",
+            "otol"
+          ],
+          "fraction_exacte": "8/21"
+        }
+      },
+      "fraction_exacte": "277/420",
+      "probabilite": 0.6595238095238095
+    }
+  },
+  "ZL": {
+    "par_page": {
+      "par_face": {
+        "f106r": {
+          "emplacements_valides": 2954,
+          "emplacements_possibles": 86730
+        },
+        "f106v": {
+          "emplacements_valides": 3246,
+          "emplacements_possibles": 98282
+        },
+        "f112v": {
+          "emplacements_valides": 3038,
+          "emplacements_possibles": 89102
+        }
+      },
+      "fraction_exacte": "19225262869/196559331605",
+      "probabilite": 0.09780895525038993
+    },
+    "par_troncon": {
+      "par_face": {
+        "f106r": {
+          "emplacements_valides": 0,
+          "emplacements_possibles": 675
+        },
+        "f106v": {
+          "emplacements_valides": 0,
+          "emplacements_possibles": 1204
+        },
+        "f112v": {
+          "emplacements_valides": 240,
+          "emplacements_possibles": 506
+        }
+      },
+      "fraction_exacte": "120/253",
+      "probabilite": 0.4743083003952569
+    },
+    "famille_par_troncon": {
+      "admissibles": {
+        "f112v.42": {
+          "paire": [
+            "opchy",
+            "otol"
+          ],
+          "fraction_exacte": "120/253"
+        }
+      },
+      "fraction_exacte": "120/253",
+      "probabilite": 0.4743083003952569
+    }
+  }
+}
