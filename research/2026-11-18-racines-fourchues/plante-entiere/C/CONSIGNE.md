@@ -1,0 +1,3 @@
+# Quatre plantes entières, partie basse de la page
+
+Pour chacune des quatre photographies, coter la racine visible selon le même critère que sur les cartes précédentes. Y si une base se divise en deux bras principaux allongés, S si une seule racine principale domine, M si trois bras ou davantage dominent sans paire distincte, X si indéterminé. Des radicelles accessoires sont admises. Deux bulbes distincts ou un organe tronqué ne suffisent pas à décider. Un seul vote par carte. Expliquer en quelques mots ce qui est visible sur chacune et indiquer toute ambiguïté de cadrage. Garder ce lot séparé de la série des rangées.
