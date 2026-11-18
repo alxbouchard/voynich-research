@@ -1,0 +1,87 @@
+{
+  "bibliotheque": "Vicenza, Biblioteca civica Bertoliana, ms. 362/1, Erbario alchemico",
+  "catalogue": "https://www.nuovabibliotecamanoscritta.it/StampaManoscritto.html?codice=79662",
+  "datation": "1426–1475 dans la notice, discussion vers les années 1470",
+  "etat": "Reliure de restauration en 1993. La notice ne précise aucune retouche locale sur les deux images. Peinture présente aux emplacements retenus.",
+  "methode": "Repérage après lecture et consultation des couleurs. Observations visuelles sur reproductions diffusées, teintes apparentes. Coordonnées en pixels depuis le coin supérieur gauche.",
+  "sources": {
+    "rz-001.jpg": "JPEG objet 64 du PDF Zandbergen p.14, contexte 273 x 229 ; f.34r",
+    "vicenza-dittamo.jpg": "Photo 900 x 1154 publiée par Marco Ponzi, billet daté du 12 avril 2017, titre Herba dittimo et 39 visibles sur la page.",
+    "sources_url": [
+      "https://www.voynich.nu/papers/Voynich100_RZ_2012.pdf#page=14",
+      "https://viridisgreen.blogspot.com/2017/04/vicenza-ms-362-liber-herbarius-herba.html",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6sFArTjczkeMRXnI15DQx9PiJZaa__3yPd83gkYhnOSbnrPgo3SKQYA1s2aIorUJtR618Q1EWmfUUOcrmsF-SlmCJLF3ZfuKT01IhYGt-e1nZqECZLk5TRUf9880vmgUpiwvHnZBn8MbU/s1600/ditta_large.jpg"
+    ]
+  },
+  "observations": [
+    {
+      "folio": "34r",
+      "source": "rz-001.jpg",
+      "letter_box_xyxy": [
+        115,
+        16,
+        145,
+        34
+      ],
+      "peinture_box_xyxy": [
+        111,
+        32,
+        159,
+        59
+      ],
+      "lecture": "rot",
+      "teinte": "rouge orangé, corolle centrale",
+      "statut": "lecture claire, indication immédiatement au-dessus de la corolle"
+    },
+    {
+      "folio": "39r",
+      "source": "vicenza-dittamo.jpg",
+      "letter_box_xyxy": [
+        313,
+        609,
+        341,
+        647
+      ],
+      "peinture_box_xyxy": [
+        351,
+        554,
+        374,
+        685
+      ],
+      "lecture": "gel",
+      "teinte": "jaune ocre de la racine ombrée de brun",
+      "statut": "lecture claire, indication entre deux racines"
+    },
+    {
+      "folio": "39r",
+      "source": "vicenza-dittamo.jpg",
+      "letter_box_xyxy": [
+        595,
+        386,
+        646,
+        425
+      ],
+      "peinture_box_xyxy": [
+        530,
+        407,
+        589,
+        457
+      ],
+      "lecture": "gr…",
+      "teinte": "vert olive de la feuille la plus à droite du groupe inférieur",
+      "statut": "complément exploratoire ; fin du mot incertaine"
+    }
+  ],
+  "autres_exclus": [
+    "Un signe partiellement effacé dans une feuille verte du f.34r (JPEG rz-006) ; non utilisable comme lecture sûre.",
+    "Un mot près de la fleur droite du f.39r ; lecture et association incertaines."
+  ],
+  "sha256": {
+    "rz-001.jpg": "83c023442c2fc5b47e69f250156a3c5591134e29c88d22e1b48e6135f480858c",
+    "rz-002.jpg": "6caee4f6b1dc037d3b8bd179dc3462430e5eba64d8d30d5e2647f105107a42f9",
+    "rz-006.jpg": "5ef7dc42943990def07e69396fd2b0b464f69b12bd399085c9bd721096e67c72",
+    "vicenza-dittamo.jpg": "968ffa7ee0f6b1a2c4c8d23ac0e85d60485ac04a5aa4ea75dabccdce2deca0fa",
+    "zandbergen.pdf": "3188cd985f4cdb13d456daf6c65dd06b22680ad94920ed98af5d4c3528ebc45c",
+    "VICENCE-PLANCHE.png": "872857ac6a57e3b711b231a24737f4e4a4e42e4c3c9c579cd73fc64bc842347d"
+  }
+}

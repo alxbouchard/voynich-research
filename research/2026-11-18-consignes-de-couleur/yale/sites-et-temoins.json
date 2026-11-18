@@ -1,0 +1,196 @@
+{
+  "format": "Pixel natif Yale depuis haut/gauche, x droite, y bas ; boîtes XYXY semi-ouvertes, sans rotation. Les centres des boîtes ne sont pas nécessairement sur un trait d’encre. T est un repère, sans classification de pigment. I délié de toute exigence de pigment effectif. Les points P sont sur parchemin.",
+  "manifest": "https://collections.library.yale.edu/manifests/2002046",
+  "manifest_sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309",
+  "sources": {
+    "f1v": {
+      "image": "originaux/f1v.jpg",
+      "yale_catalogue": "https://collections.library.yale.edu/catalog/1006077",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006077",
+      "iiif": "https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg",
+      "size": [
+        2804,
+        3797
+      ],
+      "sha256": "43065eacad8a743816eb2b7d9acd8cf882a9bb498f1cea84602d12fede99f77d"
+    },
+    "f9v": {
+      "image": "originaux/f9v.jpg",
+      "yale_catalogue": "https://collections.library.yale.edu/catalog/1006093",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006093",
+      "iiif": "https://collections.library.yale.edu/iiif/2/1006093/full/full/0/default.jpg",
+      "size": [
+        2812,
+        3797
+      ],
+      "sha256": "790a7493a31133cf9375fb7471d1d1167df4988bcadeb74ea2528a0ba562e693"
+    },
+    "f4r": {
+      "image": "originaux/f4r.jpg",
+      "yale_catalogue": "https://collections.library.yale.edu/catalog/1006082",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006082",
+      "iiif": "https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg",
+      "size": [
+        2682,
+        3740
+      ],
+      "sha256": "fb166d0fe36d8cb635bb73b1d70b7d62e51a5f1ebf896f51921bd1854a06d904"
+    },
+    "f7r": {
+      "image": "originaux/f7r.jpg",
+      "yale_catalogue": "https://collections.library.yale.edu/catalog/1006088",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006088",
+      "iiif": "https://collections.library.yale.edu/iiif/2/1006088/full/full/0/default.jpg",
+      "size": [
+        2656,
+        3721
+      ],
+      "sha256": "fd4529ff994cfaefe9bf75966a59eede9ab0ea59e3514bf3aaf0a45c0df0e2a0"
+    },
+    "f2r": {
+      "image": "originaux/f2r.jpg",
+      "yale_catalogue": "https://collections.library.yale.edu/catalog/1006078",
+      "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006078",
+      "iiif": "https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg",
+      "size": [
+        2691,
+        3770
+      ],
+      "sha256": "826533a0760798acf5a4caa01ac29fe95eb1ed13a9fb26ac82900a8aea11d53f"
+    }
+  },
+  "sites": {
+    "f1v": {
+      "site": "g",
+      "sign_bbox_xyxy": [
+        946,
+        1343,
+        1002,
+        1389
+      ],
+      "region_search_xyxy": null,
+      "trace_or_box_center_xy": [
+        974,
+        1365
+      ],
+      "same_anatomical_region_xy": [
+        936,
+        1432
+      ],
+      "adjacent_parchment_xy": [
+        845,
+        1365
+      ],
+      "homologous_organ_xy": [
+        747,
+        1523
+      ],
+      "geometry": "Signe sur la limbe. Même limbe en direction de la pointe. Parchemin à gauche. Feuille voisine de même orientation à gauche, sur le rameau."
+    },
+    "f9v": {
+      "site": "g?",
+      "sign_bbox_xyxy": [
+        2603,
+        902,
+        2637,
+        923
+      ],
+      "region_search_xyxy": null,
+      "trace_or_box_center_xy": [
+        2620,
+        913
+      ],
+      "same_anatomical_region_xy": [
+        2525,
+        953
+      ],
+      "adjacent_parchment_xy": [
+        2680,
+        913
+      ],
+      "homologous_organ_xy": [
+        2013,
+        723
+      ],
+      "geometry": "Signe sur parchemin. Le point intérieur est secondaire, centre longitudinal du pétale orienté à droite de la corolle la plus proche. Parchemin à droite du signe. Pétale orienté à droite de la corolle supérieure centrale. La corolle près du signe est polychrome."
+    },
+    "f4r": {
+      "site": "trois signes en colonne",
+      "sign_bbox_xyxy": [
+        1668,
+        2964,
+        1705,
+        3094
+      ],
+      "region_search_xyxy": null,
+      "trace_or_box_center_xy": [
+        1685,
+        3030
+      ],
+      "same_anatomical_region_xy": [
+        1683,
+        3005
+      ],
+      "adjacent_parchment_xy": [
+        1600,
+        3040
+      ],
+      "homologous_organ_xy": null,
+      "geometry": "Tige basse à contour fin et intérieur beige, sans aplat identifiable. Les trois traces sont superposées. Point intérieur entre les deux premières. Le parchemin est à gauche. Tige unique à ce niveau."
+    },
+    "f7r": {
+      "site": "traces sur la racine, lecture incertaine",
+      "sign_bbox_xyxy": null,
+      "region_search_xyxy": [
+        730,
+        3388,
+        1010,
+        3505
+      ],
+      "trace_or_box_center_xy": [
+        885,
+        3446
+      ],
+      "same_anatomical_region_xy": [
+        1000,
+        3414
+      ],
+      "adjacent_parchment_xy": [
+        885,
+        3380
+      ],
+      "homologous_organ_xy": [
+        1860,
+        3473
+      ],
+      "geometry": "Milieu de la branche gauche. Le point de la trace est un repère de boucle. La boîte précise de la suite entière reste indéterminée. Point sur la même branche en direction de la fourche. Parchemin au-dessus. Homologue choisi sur la branche droite à fraction de longueur comparable."
+    },
+    "f2r": {
+      "site": "attribution documentaire à f2r.15, EVA",
+      "sign_bbox_xyxy": [
+        1928,
+        2154,
+        2107,
+        2248
+      ],
+      "region_search_xyxy": null,
+      "trace_or_box_center_xy": [
+        2017,
+        2201
+      ],
+      "same_anatomical_region_xy": [
+        2017,
+        2166
+      ],
+      "adjacent_parchment_xy": [
+        2110,
+        1990
+      ],
+      "homologous_organ_xy": [
+        944,
+        2094
+      ],
+      "geometry": "Inscription oblique sur le lobe médian de la feuille inférieure droite, localisée en comparant le cadrage historique et la photographie native. Point voisin sur le même limbe. Parchemin dans l’intervalle entre lobes au-dessus. Lobe de la feuille opposée à gauche, même étage."
+    }
+  }
+}

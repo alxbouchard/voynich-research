@@ -1,0 +1,696 @@
+{
+  "date": "2026-11-18",
+  "perimetre": "13 entrées COL du tableau Zandbergen, édition du 13 juin 2025. Les autres ensembles désignent des publications précises, pas toute la production des auteurs. Constats exclusivement documentaires.",
+  "sources": {
+    "rz25": "https://www.voynich.nu/writing.html#colour",
+    "np02": "https://voynich.net/Arch/2002/01/msg00020.html",
+    "np10": "https://ciphermysteries.com/2010/02/27/letters-hidden-in-voynich-plants",
+    "rz10a": "https://ciphermysteries.com/2010/02/27/letters-hidden-in-voynich-plants#comment-16270",
+    "rz10b": "https://ciphermysteries.com/2010/02/27/letters-hidden-in-voynich-plants#comment-16295",
+    "rz12": "https://www.voynich.nu/papers/Voynich100_RZ_2012.pdf",
+    "jkp13": "https://voynichportal.com/2013/07/19/large-plants-folio-4r/",
+    "jkp16": "https://voynichportal.com/2016/03/05/the-inter-leaved-text/",
+    "kg23": "https://herculeaf.wordpress.com/2023/09/20/what-about-the-other-marginal-writings/",
+    "davis24": "https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/",
+    "rp_context": "https://www.voynich.nu/papers/Alchemy_RZ-RP_2016.pdf"
+  },
+  "table_COL": [
+    {
+      "id": "C01",
+      "folio": "f1v",
+      "zone": "deuxième feuille depuis la gauche, branche de gauche",
+      "script": "latin",
+      "lecture_relevee": "g",
+      "statut_lecture_et_fonction": "Lettre affirmée. Consigne possible.",
+      "teinte_prescrite_hypothese_source": "vert",
+      "teinte_materielle_decrite_source": "vert",
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+      "notice": "https://www.voynich.nu/q01/index.html#f1v"
+    },
+    {
+      "id": "C02",
+      "folio": "f1v",
+      "zone": "feuille jaune la plus basse à droite de la tige",
+      "script": "latin selon classement, trace incertaine",
+      "lecture_relevee": "J ?",
+      "statut_lecture_et_fonction": "Encre et lecture douteuses, attribution chromatique jugée difficile.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": "jaune",
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+      "notice": "https://www.voynich.nu/q01/index.html#f1v"
+    },
+    {
+      "id": "C03",
+      "folio": "f2r",
+      "zone": "feuille inférieure droite, foliole centrale",
+      "script": "voynich, translittération EVA",
+      "lecture_relevee": "ios.an.on ?",
+      "statut_lecture_et_fonction": "Écriture identifiée comme Voynich, découpage proposé. Consigne possible.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": "vert",
+      "note_notice": "La notice dénombre une inscription. La couleur verte est explicitement proposée comme sens par Zandbergen en 2010.",
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006078",
+      "notice": "https://www.voynich.nu/q01/index.html#f2r"
+    },
+    {
+      "id": "C04",
+      "folio": "f2v",
+      "zone": "juste au-dessus du premier groupe du deuxième paragraphe",
+      "script": "latin cursif",
+      "lecture_relevee": "fo / fa",
+      "statut_lecture_et_fonction": "Lettres proposées. L’auteur rapproche cette marque de renvois de foliotage.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": null,
+      "note_notice": "Notice de folio : fe / fo, encre foncée, comme les renvois plus tardifs de Firenze 106.",
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006079",
+      "notice": "https://www.voynich.nu/q01/index.html#f2v"
+    },
+    {
+      "id": "C05",
+      "folio": "f4r",
+      "zone": "dans la base de la tige, juste au-dessus de la racine, verticalement",
+      "script": "latin",
+      "lecture_relevee": "rot",
+      "statut_lecture_et_fonction": "Lecture affirmative dans la table, probable dans la notice. Consigne interprétée.",
+      "teinte_prescrite_hypothese_source": "rouge",
+      "teinte_materielle_decrite_source": null,
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006082",
+      "notice": "https://www.voynich.nu/q01/index.html#f4r"
+    },
+    {
+      "id": "C06",
+      "folio": "f7r",
+      "zone": "sous la peinture de la moitié gauche de la racine",
+      "script": "latin",
+      "lecture_relevee": "rot ?",
+      "statut_lecture_et_fonction": "Lecture probable dans la table, faible dans la notice. Consigne possible.",
+      "teinte_prescrite_hypothese_source": "rouge",
+      "teinte_materielle_decrite_source": "brun",
+      "note_notice": "Notice de folio : au milieu de la racine gauche, deux ou trois caractères dont les deux plus à droite pourraient être o et t.",
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006088",
+      "notice": "https://www.voynich.nu/q01/index.html#f7r"
+    },
+    {
+      "id": "C07",
+      "folio": "f9v",
+      "zone": "fleur supérieure gauche ; pétale supérieur, pétale inférieur gauche et pétale inférieur droit",
+      "script": "latin",
+      "lecture_relevee": "por ? / p ? / r ?",
+      "statut_lecture_et_fonction": "Lectures et fonctions possibles.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": "bleu",
+      "note_notice": "Trois pétales distincts au sein d’une même ligne COL. La notice juge plus douteux le dernier r.",
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006093",
+      "notice": "https://www.voynich.nu/q02/index.html#f9v"
+    },
+    {
+      "id": "C08",
+      "folio": "f9v",
+      "zone": "fleur supérieure gauche, entre les deux pétales du haut",
+      "script": "lettre ou griffonnage",
+      "lecture_relevee": "indéterminé",
+      "statut_lecture_et_fonction": "Caractère incertain. Fonction inconnue.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": null,
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006093",
+      "notice": "https://www.voynich.nu/q02/index.html#f9v"
+    },
+    {
+      "id": "C09",
+      "folio": "f9v",
+      "zone": "à droite de la fleur supérieure droite, hors dessin",
+      "script": "latin",
+      "lecture_relevee": "g",
+      "statut_lecture_et_fonction": "Lettre affirmée, fonction présumée.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": null,
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006093",
+      "notice": "https://www.voynich.nu/q02/index.html#f9v"
+    },
+    {
+      "id": "C10",
+      "folio": "f20r",
+      "zone": "haut du système racinaire, jonction où les branches divergent selon la notice",
+      "script": "latin",
+      "lecture_relevee": "p / r",
+      "statut_lecture_et_fonction": "Lecture alternative, fonction possible.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": null,
+      "note_notice": "La notice du folio place r avant p. Gheuens lit p.",
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006112",
+      "notice": "https://www.voynich.nu/q03/index.html#f20r"
+    },
+    {
+      "id": "C11",
+      "folio": "f29r",
+      "zone": "partie haute du système racinaire",
+      "script": "latin",
+      "lecture_relevee": "r",
+      "statut_lecture_et_fonction": "Lettre affirmée. Consigne possible.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": null,
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006130",
+      "notice": "https://www.voynich.nu/q04/index.html#f29r"
+    },
+    {
+      "id": "C12",
+      "folio": "f32r",
+      "zone": "fleur inférieure droite, deux caractères superposés",
+      "script": "latin",
+      "lecture_relevee": "p et (v / r) ; trait à droite du p ?",
+      "statut_lecture_et_fonction": "Lecture proposée. Le trait voisin peut appartenir au dessin. Consigne possible.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": null,
+      "note_notice": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006136",
+      "notice": "https://www.voynich.nu/q04/index.html#f32r"
+    },
+    {
+      "id": "C13",
+      "folio": "f99v",
+      "zone": "quatrième racine du troisième rang, fragment 112 selon la notice",
+      "script": "latin",
+      "lecture_relevee": "p / r",
+      "statut_lecture_et_fonction": "Lettre proposée et fonction chromatique retenue par l’auteur.",
+      "teinte_prescrite_hypothese_source": null,
+      "teinte_materielle_decrite_source": "brun",
+      "note_notice": "Section pharmaceutique. Les étiquettes des fragments transcrites en Voynich sont un autre type de texte.",
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006247",
+      "notice": "https://www.voynich.nu/q19/index.html#f99v"
+    }
+  ],
+  "lignes_voisines_hors_COL": [
+    {
+      "folio": "f4r",
+      "zone": "fleur à l’extrême droite",
+      "lecture_relevee": "F",
+      "nature": "LET",
+      "interpretation_source": "lettre isolée dans la table",
+      "couleur_proposee": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006082",
+      "notice": "https://www.voynich.nu/q01/index.html#f4r"
+    },
+    {
+      "folio": "f28v",
+      "zone": "centre de la fleur",
+      "lecture_relevee": null,
+      "nature": "SCR",
+      "interpretation_source": "symboles ou griffonnage",
+      "couleur_proposee": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006129",
+      "notice": "https://www.voynich.nu/q04/index.html#f28v"
+    },
+    {
+      "folio": "f39v",
+      "zone": "espace blanc entre les deux zones vertes de la feuille inférieure droite",
+      "lecture_relevee": "B",
+      "nature": "LET",
+      "interpretation_source": "lettre isolée dans la table",
+      "couleur_proposee": null,
+      "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006151",
+      "notice": "https://www.voynich.nu/q05/index.html#f39v"
+    }
+  ],
+  "lectures_par_source": {
+    "np02": [
+      {
+        "folio": "f1v",
+        "zone": "deuxième feuille sombre depuis la gauche, sur la tige gauche",
+        "lecture_relevee": "5",
+        "nature": "chiffre",
+        "interpretation_source": "avance sur copie monochrome",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+        "notice": "https://www.voynich.nu/q01/index.html#f1v"
+      },
+      {
+        "folio": "f2r",
+        "zone": "feuille en bas à droite, base de sa troisième pointe",
+        "lecture_relevee": "6",
+        "nature": "chiffre",
+        "interpretation_source": "avance sur copie monochrome",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006078",
+        "notice": "https://www.voynich.nu/q01/index.html#f2r"
+      },
+      {
+        "folio": "f2v",
+        "zone": "à la base de la fleur supérieure",
+        "lecture_relevee": "2 ; W ? au-dessus",
+        "nature": "chiffre et lettre",
+        "interpretation_source": "avance sur copie monochrome",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006079",
+        "notice": "https://www.voynich.nu/q01/index.html#f2v"
+      },
+      {
+        "folio": "f3r",
+        "zone": "environ un pouce et demi sous le haut, à peine à gauche",
+        "lecture_relevee": "9 ?",
+        "nature": "chiffre",
+        "interpretation_source": "très faible",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006080",
+        "notice": "https://www.voynich.nu/q01/index.html#f3r"
+      },
+      {
+        "folio": "f3v",
+        "zone": "deuxième feuille en partant du bas à gauche",
+        "lecture_relevee": "7 ?",
+        "nature": "chiffre",
+        "interpretation_source": "faible, peut-être souligné",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006081",
+        "notice": "https://www.voynich.nu/q01/index.html#f3v"
+      },
+      {
+        "folio": "f4r",
+        "zone": "tige droite, base de la fleur",
+        "lecture_relevee": "F",
+        "nature": "lettre latine",
+        "interpretation_source": "avance sur copie monochrome",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006082",
+        "notice": "https://www.voynich.nu/q01/index.html#f4r"
+      },
+      {
+        "folio": "f4r",
+        "zone": "juste au-dessus de la racine",
+        "lecture_relevee": "T O r ?",
+        "nature": "lettres",
+        "interpretation_source": "lecture possible",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006082",
+        "notice": "https://www.voynich.nu/q01/index.html#f4r"
+      },
+      {
+        "folio": "f5r",
+        "zone": "bas de la partie florale",
+        "lecture_relevee": "L",
+        "nature": "lettre",
+        "interpretation_source": "avance sur copie monochrome",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006084",
+        "notice": "https://www.voynich.nu/q01/index.html#f5r"
+      },
+      {
+        "folio": "f27r",
+        "zone": "sur les trois feuilles principales, entre celle du centre et celle de droite, à environ un pouce du bas de ce groupe",
+        "lecture_relevee": null,
+        "nature": "trace indéterminée",
+        "interpretation_source": "trop indistincte pour la lire",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006126",
+        "notice": "https://www.voynich.nu/q04/index.html#f27r"
+      },
+      {
+        "folio": "f28v",
+        "zone": "centre de la fleur",
+        "lecture_relevee": "s U ?",
+        "nature": "lettres proposées",
+        "interpretation_source": "interrogation",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006129",
+        "notice": "https://www.voynich.nu/q04/index.html#f28v"
+      }
+    ],
+    "np10": [
+      {
+        "id_lie": "C07",
+        "folio": "f9v",
+        "zone": "fleur supérieure gauche ; pétale supérieur, pétale inférieur gauche et pétale inférieur droit",
+        "lecture_relevee": "rot discuté ; trois pétales portant de l’écriture selon Pelling",
+        "nature": "latin",
+        "interpretation_source": "Zandbergen est cité lisant rot et des r. Pelling ne retient pas rot comme lecture claire.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C05",
+        "folio": "f4r",
+        "zone": "dans la base de la tige, juste au-dessus de la racine, verticalement",
+        "lecture_relevee": "TOA après rotation / rot en colonne",
+        "nature": "latin",
+        "interpretation_source": "Pelling juge les deux incertains. Le commentaire original de Zandbergen confirme f4r pour le rot de la tige malgré un f9v dans la citation introductive.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C01",
+        "folio": "f1v",
+        "zone": "deuxième feuille depuis la gauche, branche de gauche",
+        "lecture_relevee": "g",
+        "nature": "latin",
+        "interpretation_source": "Rapporté dans le passage de Zandbergen.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C09",
+        "folio": "f9v",
+        "zone": "à droite de la fleur supérieure droite, hors dessin",
+        "lecture_relevee": "g",
+        "nature": "latin",
+        "interpretation_source": "Rapporté dans le passage de Zandbergen.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C03",
+        "folio": "f2r",
+        "zone": "feuille inférieure droite, foliole centrale",
+        "lecture_relevee": "ios.an.on",
+        "nature": "voynich, translittération EVA",
+        "interpretation_source": "La mise à jour de Pelling localise le cas et rapporte cette lecture, qui vient de Zandbergen.",
+        "couleur_proposee": null
+      }
+    ],
+    "rz10a": [
+      {
+        "id_lie": "C05",
+        "folio": "f4r",
+        "zone": "dans la base de la tige, juste au-dessus de la racine, verticalement",
+        "lecture_relevee": "rot",
+        "nature": "latin",
+        "interpretation_source": "Lecture tenue pour convaincante par l’auteur.",
+        "couleur_proposee": "rouge"
+      },
+      {
+        "id_lie": "C03",
+        "folio": "f2r",
+        "zone": "feuille inférieure droite, foliole centrale",
+        "lecture_relevee": "ios.an.on ?",
+        "nature": "voynich, translittération EVA",
+        "interpretation_source": "Hypothèse de sens explicitement avancée et jugée incertaine par l’auteur.",
+        "couleur_proposee": "vert"
+      }
+    ],
+    "rz10b": [
+      {
+        "id_lie": "C03",
+        "folio": "f2r",
+        "zone": "feuille inférieure droite, foliole centrale",
+        "lecture_relevee": "ios.an.on",
+        "nature": "voynich, translittération EVA",
+        "interpretation_source": "Exemple spéculatif de grn. Le commentaire écrit an deux fois pour les deux derniers groupes dans son exemple caractère par caractère.",
+        "couleur_proposee": "vert"
+      }
+    ],
+    "jkp13": [
+      {
+        "id_lie": "C05",
+        "folio": "f4r",
+        "zone": "dans la base de la tige, juste au-dessus de la racine, verticalement",
+        "lecture_relevee": "rot",
+        "nature": "latin",
+        "interpretation_source": "Selon Petersen, indication descriptive ou, plus probablement, consigne pour la tige.",
+        "couleur_proposee": "rouge"
+      },
+      {
+        "id_lie": "C01",
+        "folio": "f1v",
+        "zone": "deuxième feuille depuis la gauche, branche de gauche",
+        "lecture_relevee": "g",
+        "nature": "latin",
+        "interpretation_source": "Initiale possible de grün.",
+        "couleur_proposee": "vert"
+      }
+    ],
+    "jkp16": [
+      {
+        "id_lie": "C01",
+        "folio": "f1v",
+        "zone": "deuxième feuille depuis la gauche, branche de gauche",
+        "lecture_relevee": "g",
+        "nature": "latin",
+        "interpretation_source": "Consigne possible. Auteur et langue indéterminés.",
+        "couleur_proposee": "vert"
+      },
+      {
+        "folio": "f1v",
+        "zone": "capsule ou fruit brun",
+        "lecture_relevee": null,
+        "nature": "écriture ou griffonnage",
+        "interpretation_source": "aucune lecture ni consigne",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+        "notice": "https://www.voynich.nu/q01/index.html#f1v"
+      },
+      {
+        "folio": "f1v",
+        "zone": "première des trois feuilles jaunâtres discutées",
+        "lecture_relevee": null,
+        "nature": "griffonnage possible",
+        "interpretation_source": "petites formes végétales envisagées",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+        "notice": "https://www.voynich.nu/q01/index.html#f1v"
+      },
+      {
+        "folio": "f1v",
+        "zone": "deuxième feuille jaunâtre discutée",
+        "lecture_relevee": null,
+        "nature": "traces incertaines",
+        "interpretation_source": "traces pouvant correspondre à trois lignes ou à des griffonnages",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+        "notice": "https://www.voynich.nu/q01/index.html#f1v"
+      },
+      {
+        "folio": "f1v",
+        "zone": "sous la feuille jaunâtre du bas",
+        "lecture_relevee": null,
+        "nature": "traces incertaines",
+        "interpretation_source": "trois lignes possibles, éventuellement quatre ; le contour croiserait la trace, interprétation chromatique rejetée par l’auteur",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006077",
+        "notice": "https://www.voynich.nu/q01/index.html#f1v"
+      }
+    ],
+    "kg23": [
+      {
+        "id_lie": "C01",
+        "folio": "f1v",
+        "zone": "deuxième feuille depuis la gauche, branche de gauche",
+        "lecture_relevee": "g",
+        "nature": "latin",
+        "interpretation_source": "Comparaison de cursiva avec f116v.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C02",
+        "folio": "f1v",
+        "zone": "feuille jaune la plus basse à droite de la tige",
+        "lecture_relevee": null,
+        "nature": "latin selon classement, trace incertaine",
+        "interpretation_source": "Marque ignorée car incertaine.",
+        "couleur_proposee": null
+      },
+      {
+        "folio": "f4r",
+        "zone": "fleur la plus à droite",
+        "lecture_relevee": "F",
+        "nature": "lettre",
+        "interpretation_source": "L’auteur écarte cette capitale de la comparaison de cursiva.",
+        "couleur_proposee": null,
+        "yale": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006082",
+        "notice": "https://www.voynich.nu/q01/index.html#f4r"
+      },
+      {
+        "id_lie": "C05",
+        "folio": "f4r",
+        "zone": "dans la base de la tige, juste au-dessus de la racine, verticalement",
+        "lecture_relevee": "rot",
+        "nature": "latin",
+        "interpretation_source": "Employé pour comparaison de cursiva.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C06",
+        "folio": "f7r",
+        "zone": "sous la peinture de la moitié gauche de la racine",
+        "lecture_relevee": "rot ?",
+        "nature": "latin",
+        "interpretation_source": "Considéré trop peu lisible pour la comparaison.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C07",
+        "folio": "f9v",
+        "zone": "fleur supérieure gauche ; pétale supérieur, pétale inférieur gauche et pétale inférieur droit",
+        "lecture_relevee": "por / p / r",
+        "nature": "latin",
+        "interpretation_source": "Le p isolé est jugé le plus sûr, le tracé du r isolé reste incertain.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C09",
+        "folio": "f9v",
+        "zone": "à droite de la fleur supérieure droite, hors dessin",
+        "lecture_relevee": "g ?",
+        "nature": "latin",
+        "interpretation_source": "L’auteur exclut ce caractère externe du dessin et doute même de g.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C10",
+        "folio": "f20r",
+        "zone": "haut du système racinaire, jonction où les branches divergent selon la notice",
+        "lecture_relevee": "p",
+        "nature": "latin",
+        "interpretation_source": "Selon l’auteur, lecture r à écarter.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C11",
+        "folio": "f29r",
+        "zone": "partie haute du système racinaire",
+        "lecture_relevee": "r",
+        "nature": "latin",
+        "interpretation_source": "Relevé.",
+        "couleur_proposee": null
+      },
+      {
+        "id_lie": "C12",
+        "folio": "f32r",
+        "zone": "fleur inférieure droite, deux caractères superposés",
+        "lecture_relevee": "p et v/r ?",
+        "nature": "latin",
+        "interpretation_source": "Relevé.",
+        "couleur_proposee": null
+      }
+    ]
+  },
+  "contexte": {
+    "rz12": "Présentation à Villa Mondragone le 11 mai 2012 : f2v aux pages PDF 11-12, argument des peintres et comparaisons aux pages PDF 13-14 ; comparant Vicenza, Biblioteca Civica Bertoliana, MS 362, f34r. Les planches impriment f4r, f29r et f1v. Ces illustrations soutiennent chez Zandbergen son hypothèse allemande.",
+    "davis24": "Dix faces MSI citées : f1r, f8r, f17r, f26r, f47r, f70v1, f71r, f93r, f102v1, f116v. Aucune n’appartient au tableau COL. Le numéro de main de Davis dans les notices concerne le texte de la page.",
+    "rp_context": "Le chapitre de Zandbergen et Rafael T. Prinke porte sur Prague et la provenance. Aucune entrée du présent registre ne lui est attribuée.",
+    "depot_anterieur": [
+      "voynich_phase3/make_edition.py:118",
+      "voynich_phase3/results/aligned_loci.json (f2r.15)",
+      "voynich_20261028/data/ZL3b-n.txt:101"
+    ]
+  },
+  "ivtff_f2r": [
+    {
+      "file": "CD2a-n.txt",
+      "url": "https://www.voynich.nu/data/CD2a-n.txt",
+      "sha256": "edc18e6de699c50d575925d4f469685ccbbe22c9755b9b8a3b002f83253cbde5",
+      "header": "#=IVTFF Curr 2.0 M 1",
+      "loci_f2r": 13,
+      "dernier": "f2r.13,+P0",
+      "f2r14": [],
+      "f2r15": [],
+      "derived_RF": false
+    },
+    {
+      "file": "FG2a-n.txt",
+      "url": "https://www.voynich.nu/data/FG2a-n.txt",
+      "sha256": "a1460a05ff610a406e62b4095a8f8e88c04653c1ef4aa5ad6428ddb1ac01fe06",
+      "header": "#=IVTFF FSG- 2.0 M 2",
+      "loci_f2r": 13,
+      "dernier": "f2r.13,+P0",
+      "f2r14": [],
+      "f2r15": [],
+      "derived_RF": false
+    },
+    {
+      "file": "GC2a-n.txt",
+      "url": "https://www.voynich.nu/data/GC2a-n.txt",
+      "sha256": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+      "header": "#=IVTFF v101 2.0 M 6",
+      "loci_f2r": 13,
+      "dernier": "f2r.13,+P0",
+      "f2r14": [],
+      "f2r15": [],
+      "derived_RF": false
+    },
+    {
+      "file": "IT2a-n.txt",
+      "url": "https://www.voynich.nu/data/IT2a-n.txt",
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "header": "#=IVTFF EvaT 2.0 M 3",
+      "loci_f2r": 13,
+      "dernier": "f2r.13,+P0",
+      "f2r14": [],
+      "f2r15": [],
+      "derived_RF": false
+    },
+    {
+      "file": "RF1b-e.txt",
+      "url": "https://www.voynich.nu/data/RF1b-e.txt",
+      "sha256": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782",
+      "header": "#=IVTFF Eva- 2.0 D 9",
+      "loci_f2r": 15,
+      "dernier": "f2r.15,@L0",
+      "f2r14": [
+        {
+          "ligne": 56,
+          "texte": "ytoail"
+        }
+      ],
+      "f2r15": [
+        {
+          "ligne": 57,
+          "texte": "ios.an.on"
+        }
+      ],
+      "derived_RF": true
+    },
+    {
+      "file": "RF1b-er.txt",
+      "url": "https://www.voynich.nu/data/RF1b-er.txt",
+      "sha256": "eb857a1f353b18983fbc25b954e1bbce227a26d99cefabfda9206ff9b57644d2",
+      "header": "#=IVTFF Eva- 2.0 D 9",
+      "loci_f2r": 15,
+      "dernier": "f2r.15,@L0",
+      "f2r14": [
+        {
+          "ligne": 56,
+          "texte": "ytoail"
+        }
+      ],
+      "f2r15": [
+        {
+          "ligne": 57,
+          "texte": "ios.an.on"
+        }
+      ],
+      "derived_RF": true
+    },
+    {
+      "file": "VT0e-n.txt",
+      "url": "https://www.voynich.nu/data/VT0e-n.txt",
+      "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426",
+      "header": "#=IVTFF EvaT 2.0 D 4",
+      "loci_f2r": 13,
+      "dernier": "f2r.13,+P0",
+      "f2r14": [],
+      "f2r15": [],
+      "derived_RF": false
+    },
+    {
+      "file": "ZL3b-n.txt",
+      "url": "https://www.voynich.nu/data/ZL3b-n.txt",
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "header": "#=IVTFF Eva- 2.0 M 5",
+      "loci_f2r": 15,
+      "dernier": "f2r.15,@L0",
+      "f2r14": [
+        {
+          "ligne": 100,
+          "texte": "ytoail"
+        }
+      ],
+      "f2r15": [
+        {
+          "ligne": 101,
+          "texte": "ios.an.on"
+        }
+      ],
+      "derived_RF": false
+    }
+  ]
+}

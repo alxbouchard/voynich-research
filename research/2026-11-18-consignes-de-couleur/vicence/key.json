@@ -1,0 +1,212 @@
+{
+  "sources": {
+    "4r": {
+      "width": 255,
+      "height": 346,
+      "pdf_sha256": "786225981e2b7555e7de418aa026f0402b6c2db6e8b3d6244b8595d76091a06a",
+      "object_ids": [
+        255,
+        259,
+        263
+      ],
+      "source": "https://www.bibliotecabertoliana.it/file/2350-25_09_2003.pdf",
+      "assembly": "Objects 255 (191×208), 259 (65×346), 263 (191×139); flip each vertically; place at (0,138), (190,0), (0,0), with a one-pixel overlap. Reconstructed raster including page-edge shadow and trimming, not an original high-resolution capture. Crops avoid longer top legends and body text except possible fragment at edges."
+    },
+    "39r": {
+      "source": "vicenza-dittamo.jpg",
+      "sha256": "968ffa7ee0f6b1a2c4c8d23ac0e85d60485ac04a5aa4ea75dabccdce2deca0fa",
+      "dimensions_original": [
+        900,
+        1154
+      ],
+      "dimensions_for_crops": [
+        255,
+        327
+      ],
+      "operation": "Lanczos downsample to document width ratio 255/900 (0.2833). Relative page framing, reproduction contrast and degradation differ; no guarantee of identical physical mm/pixel."
+    }
+  },
+  "processing": "All crops and output rects identical; luminance only, no contrast enhancement; enlarge each native pixel into 5×5 pixels; no image metadata. Preselected painted areas and a known negative. The enlarged variant supplies no extra source pixels. Repeated/shared structures among neighboring f.4r crops may cause dependence. No statistical independence among crops from a page.",
+  "cards": [
+    {
+      "id": "B17",
+      "folio": "4r",
+      "zone": "sommet de l’illustration, trois fleurs",
+      "bbox_xyxy_on_equivalent_page": [
+        70,
+        0,
+        150,
+        72
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "5d776fde98bf314044beff8fa56e5ca539bc6de3136f1a45e1a2149f89c1b8fd"
+    },
+    {
+      "id": "D08",
+      "folio": "4r",
+      "zone": "racine, boucle de la queue et corps du dragon",
+      "bbox_xyxy_on_equivalent_page": [
+        126,
+        115,
+        206,
+        187
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "e65f41dee1183b342232351effd0f3b21f123eaf0351c8f0ceb4a4c817314ffb"
+    },
+    {
+      "id": "E34",
+      "folio": "39r",
+      "zone": "contrôle positif gel",
+      "bbox_xyxy_on_equivalent_page": [
+        42,
+        137,
+        122,
+        209
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "f409b446b1230449230e5c4612d030ea79da764e2c1fae300ccd359aad6e45cd"
+    },
+    {
+      "id": "G42",
+      "folio": "4r",
+      "zone": "feuilles, droite",
+      "bbox_xyxy_on_equivalent_page": [
+        117,
+        52,
+        197,
+        124
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "2849167a56b2e1e2be999e997dd5c1affeb1d77b187efa1cd044776a7b081a0d"
+    },
+    {
+      "id": "H69",
+      "folio": "39r",
+      "zone": "contrôle négatif choisi après inspection, feuilles sans inscription distincte",
+      "bbox_xyxy_on_equivalent_page": [
+        29,
+        18,
+        109,
+        90
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "c88579e6c688fc4078c4af64704598679d987c1f0182e74ee9f9ac40ef0ab2ad"
+    },
+    {
+      "id": "K21",
+      "folio": "39r",
+      "zone": "contrôle positif de présence de lettres, gr…",
+      "bbox_xyxy_on_equivalent_page": [
+        128,
+        78,
+        208,
+        150
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "24a0b1f26a5bc04561fc22d4c8c9656aa3e20a857d3fdcf275e08a39b46a6b8d"
+    },
+    {
+      "id": "L71",
+      "folio": "4r",
+      "zone": "dragon, extrémité droite",
+      "bbox_xyxy_on_equivalent_page": [
+        160,
+        115,
+        240,
+        187
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "72b64269b74fd9e2360d5a706448840eff48c1deebcee07d3da52d5fe89bb642"
+    },
+    {
+      "id": "M53",
+      "folio": "4r",
+      "zone": "feuilles, gauche",
+      "bbox_xyxy_on_equivalent_page": [
+        42,
+        52,
+        122,
+        124
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "7f85b498cf6bc3c317730ef320d9ab15bd2dac5670c62af4b844f133730f1fcc"
+    },
+    {
+      "id": "R96",
+      "folio": "4r",
+      "zone": "racines",
+      "bbox_xyxy_on_equivalent_page": [
+        47,
+        115,
+        127,
+        187
+      ],
+      "native_card_wh": [
+        80,
+        72
+      ],
+      "output_wh": [
+        400,
+        360
+      ],
+      "sha256": "cf723e7f54f9777976bce3c36390131e33ae8879736d29c370b6d8aba6543b3c"
+    }
+  ]
+}

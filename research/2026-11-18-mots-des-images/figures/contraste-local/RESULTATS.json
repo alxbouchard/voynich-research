@@ -1,0 +1,2349 @@
+{
+  "editions_sha256": {
+    "H": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "ZL": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "feuillets": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "lectures": {
+    "accord_joint": {
+      "faces_mixtes": [
+        "f75v",
+        "f77r",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "denominateurs": {
+        "Ln": 41,
+        "Lt": 24
+      },
+      "par_mot": {
+        "otedy": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 2
+          },
+          "distribution_exacte_Ln": {
+            "0": "49/4950",
+            "1": "2989/24750",
+            "2": "1564/4125",
+            "3": "106/275",
+            "4": "144/1375"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "326/375"
+        },
+        "otoly": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 0
+          },
+          "distribution_exacte_Ln": {
+            "0": "7/225",
+            "1": "74/225",
+            "2": "16/25"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "16/25"
+        }
+      },
+      "toutes_les_faces_avec_locus_Ln_ou_Lt": {
+        "f75v": {
+          "Ln": {
+            "lisibles": [
+              "f75v.18",
+              "f75v.19",
+              "f75v.20",
+              "f75v.21",
+              "f75v.24",
+              "f75v.25",
+              "f75v.26",
+              "f75v.27",
+              "f75v.28",
+              "f75v.29",
+              "f75v.30",
+              "f75v.31",
+              "f75v.32",
+              "f75v.33",
+              "f75v.34",
+              "f75v.35",
+              "f75v.36",
+              "f75v.37"
+            ],
+            "exclus": [
+              "f75v.22",
+              "f75v.23"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": [
+                "f75v.37"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f75v.50",
+              "f75v.51",
+              "f75v.52",
+              "f75v.53",
+              "f75v.54",
+              "f75v.55",
+              "f75v.56"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f75v.54"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77r": {
+          "Ln": {
+            "lisibles": [
+              "f77r.1",
+              "f77r.49",
+              "f77r.8"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77r.2",
+              "f77r.3",
+              "f77r.4",
+              "f77r.5",
+              "f77r.50",
+              "f77r.6",
+              "f77r.7"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f77r.3"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [
+              "f77v.43",
+              "f77v.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77v.1",
+              "f77v.2",
+              "f77v.3",
+              "f77v.4",
+              "f77v.44"
+            ],
+            "exclus": [
+              "f77v.5"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f78r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f78r.1",
+              "f78r.2",
+              "f78r.45",
+              "f78r.47"
+            ],
+            "exclus": [
+              "f78r.44",
+              "f78r.46"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f80r": {
+          "Ln": {
+            "lisibles": [
+              "f80r.2",
+              "f80r.3",
+              "f80r.4",
+              "f80r.6",
+              "f80r.7",
+              "f80r.8",
+              "f80r.9"
+            ],
+            "exclus": [
+              "f80r.1",
+              "f80r.10",
+              "f80r.5"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f81v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [
+              "f81v.28"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82r": {
+          "Ln": {
+            "lisibles": [
+              "f82r.36",
+              "f82r.40",
+              "f82r.42",
+              "f82r.43",
+              "f82r.44"
+            ],
+            "exclus": [
+              "f82r.34",
+              "f82r.37",
+              "f82r.39",
+              "f82r.41",
+              "f82r.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82r.35"
+            ],
+            "exclus": [
+              "f82r.10",
+              "f82r.38"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82v": {
+          "Ln": {
+            "lisibles": [
+              "f82v.1",
+              "f82v.2",
+              "f82v.39",
+              "f82v.40",
+              "f82v.41",
+              "f82v.44"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f82v.2"
+              ],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82v.4",
+              "f82v.43",
+              "f82v.46",
+              "f82v.47",
+              "f82v.48"
+            ],
+            "exclus": [
+              "f82v.3",
+              "f82v.42",
+              "f82v.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83r.45",
+              "f83r.46",
+              "f83r.51"
+            ],
+            "exclus": [
+              "f83r.50"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83v": {
+          "Ln": {
+            "lisibles": [
+              "f83v.34"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83v.10",
+              "f83v.35",
+              "f83v.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f84r": {
+          "Ln": {
+            "lisibles": [
+              "f84r.10",
+              "f84r.11",
+              "f84r.12",
+              "f84r.2",
+              "f84r.3",
+              "f84r.4",
+              "f84r.8",
+              "f84r.9"
+            ],
+            "exclus": [
+              "f84r.5",
+              "f84r.6",
+              "f84r.7"
+            ],
+            "mots": {
+              "otedy": [
+                "f84r.8"
+              ],
+              "otoly": [
+                "f84r.11"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f84r.47"
+            ],
+            "exclus": [
+              "f84r.1"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        }
+      }
+    },
+    "accord_separe": {
+      "faces_mixtes": [
+        "f75v",
+        "f77r",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "denominateurs": {
+        "Ln": 42,
+        "Lt": 23
+      },
+      "par_mot": {
+        "otedy": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 2
+          },
+          "distribution_exacte_Ln": {
+            "0": "35/3861",
+            "1": "79/702",
+            "2": "2837/7722",
+            "3": "1517/3861",
+            "4": "152/1287"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "2261/2574"
+        },
+        "otoly": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 0
+          },
+          "distribution_exacte_Ln": {
+            "0": "7/234",
+            "1": "25/78",
+            "2": "76/117"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "76/117"
+        }
+      },
+      "toutes_les_faces_avec_locus_Ln_ou_Lt": {
+        "f75v": {
+          "Ln": {
+            "lisibles": [
+              "f75v.18",
+              "f75v.19",
+              "f75v.20",
+              "f75v.21",
+              "f75v.23",
+              "f75v.24",
+              "f75v.25",
+              "f75v.26",
+              "f75v.27",
+              "f75v.28",
+              "f75v.29",
+              "f75v.30",
+              "f75v.31",
+              "f75v.32",
+              "f75v.33",
+              "f75v.34",
+              "f75v.35",
+              "f75v.36",
+              "f75v.37"
+            ],
+            "exclus": [
+              "f75v.22"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": [
+                "f75v.37"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f75v.50",
+              "f75v.51",
+              "f75v.52",
+              "f75v.53",
+              "f75v.54",
+              "f75v.55",
+              "f75v.56"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f75v.54"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77r": {
+          "Ln": {
+            "lisibles": [
+              "f77r.1",
+              "f77r.49",
+              "f77r.8"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77r.2",
+              "f77r.3",
+              "f77r.4",
+              "f77r.5",
+              "f77r.6",
+              "f77r.7"
+            ],
+            "exclus": [
+              "f77r.50"
+            ],
+            "mots": {
+              "otedy": [
+                "f77r.3"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [
+              "f77v.43",
+              "f77v.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77v.2",
+              "f77v.3",
+              "f77v.4",
+              "f77v.44"
+            ],
+            "exclus": [
+              "f77v.1",
+              "f77v.5"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f78r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f78r.1",
+              "f78r.2",
+              "f78r.45",
+              "f78r.47"
+            ],
+            "exclus": [
+              "f78r.44",
+              "f78r.46"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f80r": {
+          "Ln": {
+            "lisibles": [
+              "f80r.2",
+              "f80r.3",
+              "f80r.4",
+              "f80r.6",
+              "f80r.7",
+              "f80r.8",
+              "f80r.9"
+            ],
+            "exclus": [
+              "f80r.1",
+              "f80r.10",
+              "f80r.5"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f81v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [
+              "f81v.28"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82r": {
+          "Ln": {
+            "lisibles": [
+              "f82r.36",
+              "f82r.40",
+              "f82r.42",
+              "f82r.43",
+              "f82r.44"
+            ],
+            "exclus": [
+              "f82r.34",
+              "f82r.37",
+              "f82r.39",
+              "f82r.41",
+              "f82r.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82r.35"
+            ],
+            "exclus": [
+              "f82r.10",
+              "f82r.38"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82v": {
+          "Ln": {
+            "lisibles": [
+              "f82v.1",
+              "f82v.2",
+              "f82v.39",
+              "f82v.40",
+              "f82v.41",
+              "f82v.44"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f82v.2"
+              ],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82v.4",
+              "f82v.43",
+              "f82v.46",
+              "f82v.47",
+              "f82v.48"
+            ],
+            "exclus": [
+              "f82v.3",
+              "f82v.42",
+              "f82v.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83r.45",
+              "f83r.46",
+              "f83r.51"
+            ],
+            "exclus": [
+              "f83r.50"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83v": {
+          "Ln": {
+            "lisibles": [
+              "f83v.34"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83v.10",
+              "f83v.35",
+              "f83v.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f84r": {
+          "Ln": {
+            "lisibles": [
+              "f84r.10",
+              "f84r.11",
+              "f84r.12",
+              "f84r.2",
+              "f84r.3",
+              "f84r.4",
+              "f84r.8",
+              "f84r.9"
+            ],
+            "exclus": [
+              "f84r.5",
+              "f84r.6",
+              "f84r.7"
+            ],
+            "mots": {
+              "otedy": [
+                "f84r.8"
+              ],
+              "otoly": [
+                "f84r.11"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f84r.47"
+            ],
+            "exclus": [
+              "f84r.1"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        }
+      }
+    },
+    "H_joint": {
+      "faces_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "denominateurs": {
+        "Ln": 53,
+        "Lt": 36
+      },
+      "par_mot": {
+        "otedy": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 2
+          },
+          "distribution_exacte_Ln": {
+            "0": "28/1755",
+            "1": "89/585",
+            "2": "10147/24570",
+            "3": "2771/8190",
+            "4": "22/273"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "292/351"
+        },
+        "otoly": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 0
+          },
+          "distribution_exacte_Ln": {
+            "0": "14/351",
+            "1": "1/3",
+            "2": "220/351"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "220/351"
+        }
+      },
+      "toutes_les_faces_avec_locus_Ln_ou_Lt": {
+        "f75v": {
+          "Ln": {
+            "lisibles": [
+              "f75v.18",
+              "f75v.19",
+              "f75v.20",
+              "f75v.21",
+              "f75v.22",
+              "f75v.23",
+              "f75v.24",
+              "f75v.25",
+              "f75v.26",
+              "f75v.27",
+              "f75v.28",
+              "f75v.29",
+              "f75v.30",
+              "f75v.31",
+              "f75v.32",
+              "f75v.33",
+              "f75v.34",
+              "f75v.35",
+              "f75v.36",
+              "f75v.37"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": [
+                "f75v.37"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f75v.50",
+              "f75v.51",
+              "f75v.52",
+              "f75v.53",
+              "f75v.54",
+              "f75v.55",
+              "f75v.56"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f75v.54"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77r": {
+          "Ln": {
+            "lisibles": [
+              "f77r.1",
+              "f77r.49",
+              "f77r.8"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77r.2",
+              "f77r.3",
+              "f77r.4",
+              "f77r.5",
+              "f77r.50",
+              "f77r.6",
+              "f77r.7"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f77r.3"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77v": {
+          "Ln": {
+            "lisibles": [
+              "f77v.43",
+              "f77v.45"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77v.1",
+              "f77v.2",
+              "f77v.3",
+              "f77v.4",
+              "f77v.44",
+              "f77v.5"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f78r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f78r.1",
+              "f78r.2",
+              "f78r.44",
+              "f78r.45",
+              "f78r.46",
+              "f78r.47"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f80r": {
+          "Ln": {
+            "lisibles": [
+              "f80r.1",
+              "f80r.10",
+              "f80r.2",
+              "f80r.3",
+              "f80r.4",
+              "f80r.5",
+              "f80r.6",
+              "f80r.7",
+              "f80r.8",
+              "f80r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f81v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f81v.28"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82r": {
+          "Ln": {
+            "lisibles": [
+              "f82r.34",
+              "f82r.36",
+              "f82r.37",
+              "f82r.39",
+              "f82r.40",
+              "f82r.41",
+              "f82r.42",
+              "f82r.43",
+              "f82r.44",
+              "f82r.45"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82r.10",
+              "f82r.35",
+              "f82r.38"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82v": {
+          "Ln": {
+            "lisibles": [
+              "f82v.1",
+              "f82v.2",
+              "f82v.39",
+              "f82v.40",
+              "f82v.41",
+              "f82v.44"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f82v.2"
+              ],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82v.3",
+              "f82v.4",
+              "f82v.42",
+              "f82v.43",
+              "f82v.45",
+              "f82v.46",
+              "f82v.47",
+              "f82v.48"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83r.45",
+              "f83r.46",
+              "f83r.50",
+              "f83r.51"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83v": {
+          "Ln": {
+            "lisibles": [
+              "f83v.34"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83v.10",
+              "f83v.35",
+              "f83v.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f84r": {
+          "Ln": {
+            "lisibles": [
+              "f84r.10",
+              "f84r.11",
+              "f84r.12",
+              "f84r.2",
+              "f84r.3",
+              "f84r.4",
+              "f84r.5",
+              "f84r.6",
+              "f84r.7",
+              "f84r.8",
+              "f84r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f84r.8"
+              ],
+              "otoly": [
+                "f84r.11"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f84r.1",
+              "f84r.47"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        }
+      }
+    },
+    "H_separe": {
+      "faces_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "denominateurs": {
+        "Ln": 53,
+        "Lt": 36
+      },
+      "par_mot": {
+        "otedy": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 2
+          },
+          "distribution_exacte_Ln": {
+            "0": "28/1755",
+            "1": "89/585",
+            "2": "10147/24570",
+            "3": "2771/8190",
+            "4": "22/273"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "292/351"
+        },
+        "otoly": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 0
+          },
+          "distribution_exacte_Ln": {
+            "0": "14/351",
+            "1": "1/3",
+            "2": "220/351"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "220/351"
+        }
+      },
+      "toutes_les_faces_avec_locus_Ln_ou_Lt": {
+        "f75v": {
+          "Ln": {
+            "lisibles": [
+              "f75v.18",
+              "f75v.19",
+              "f75v.20",
+              "f75v.21",
+              "f75v.22",
+              "f75v.23",
+              "f75v.24",
+              "f75v.25",
+              "f75v.26",
+              "f75v.27",
+              "f75v.28",
+              "f75v.29",
+              "f75v.30",
+              "f75v.31",
+              "f75v.32",
+              "f75v.33",
+              "f75v.34",
+              "f75v.35",
+              "f75v.36",
+              "f75v.37"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": [
+                "f75v.37"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f75v.50",
+              "f75v.51",
+              "f75v.52",
+              "f75v.53",
+              "f75v.54",
+              "f75v.55",
+              "f75v.56"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f75v.54"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77r": {
+          "Ln": {
+            "lisibles": [
+              "f77r.1",
+              "f77r.49",
+              "f77r.8"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77r.2",
+              "f77r.3",
+              "f77r.4",
+              "f77r.5",
+              "f77r.50",
+              "f77r.6",
+              "f77r.7"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f77r.3"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77v": {
+          "Ln": {
+            "lisibles": [
+              "f77v.43",
+              "f77v.45"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77v.1",
+              "f77v.2",
+              "f77v.3",
+              "f77v.4",
+              "f77v.44",
+              "f77v.5"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f78r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f78r.1",
+              "f78r.2",
+              "f78r.44",
+              "f78r.45",
+              "f78r.46",
+              "f78r.47"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f80r": {
+          "Ln": {
+            "lisibles": [
+              "f80r.1",
+              "f80r.10",
+              "f80r.2",
+              "f80r.3",
+              "f80r.4",
+              "f80r.5",
+              "f80r.6",
+              "f80r.7",
+              "f80r.8",
+              "f80r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f81v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f81v.28"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82r": {
+          "Ln": {
+            "lisibles": [
+              "f82r.34",
+              "f82r.36",
+              "f82r.37",
+              "f82r.39",
+              "f82r.40",
+              "f82r.41",
+              "f82r.42",
+              "f82r.43",
+              "f82r.44",
+              "f82r.45"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82r.10",
+              "f82r.35",
+              "f82r.38"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82v": {
+          "Ln": {
+            "lisibles": [
+              "f82v.1",
+              "f82v.2",
+              "f82v.39",
+              "f82v.40",
+              "f82v.41",
+              "f82v.44"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f82v.2"
+              ],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82v.3",
+              "f82v.4",
+              "f82v.42",
+              "f82v.43",
+              "f82v.45",
+              "f82v.46",
+              "f82v.47",
+              "f82v.48"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83r.45",
+              "f83r.46",
+              "f83r.50",
+              "f83r.51"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83v": {
+          "Ln": {
+            "lisibles": [
+              "f83v.34"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83v.10",
+              "f83v.35",
+              "f83v.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f84r": {
+          "Ln": {
+            "lisibles": [
+              "f84r.10",
+              "f84r.11",
+              "f84r.12",
+              "f84r.2",
+              "f84r.3",
+              "f84r.4",
+              "f84r.5",
+              "f84r.6",
+              "f84r.7",
+              "f84r.8",
+              "f84r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f84r.8"
+              ],
+              "otoly": [
+                "f84r.11"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f84r.1",
+              "f84r.47"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        }
+      }
+    },
+    "ZL_joint": {
+      "faces_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "denominateurs": {
+        "Ln": 50,
+        "Lt": 33
+      },
+      "par_mot": {
+        "otedy": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 2
+          },
+          "distribution_exacte_Ln": {
+            "0": "343/22815",
+            "1": "49/338",
+            "2": "18403/45630",
+            "3": "887/2535",
+            "4": "44/507"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "38329/45630"
+        },
+        "otoly": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 0
+          },
+          "distribution_exacte_Ln": {
+            "0": "14/351",
+            "1": "1/3",
+            "2": "220/351"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "220/351"
+        }
+      },
+      "toutes_les_faces_avec_locus_Ln_ou_Lt": {
+        "f75v": {
+          "Ln": {
+            "lisibles": [
+              "f75v.18",
+              "f75v.19",
+              "f75v.20",
+              "f75v.21",
+              "f75v.22",
+              "f75v.23",
+              "f75v.24",
+              "f75v.25",
+              "f75v.26",
+              "f75v.27",
+              "f75v.28",
+              "f75v.29",
+              "f75v.30",
+              "f75v.31",
+              "f75v.32",
+              "f75v.33",
+              "f75v.34",
+              "f75v.35",
+              "f75v.36",
+              "f75v.37"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": [
+                "f75v.37"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f75v.50",
+              "f75v.51",
+              "f75v.52",
+              "f75v.53",
+              "f75v.54",
+              "f75v.55",
+              "f75v.56"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f75v.54"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77r": {
+          "Ln": {
+            "lisibles": [
+              "f77r.1",
+              "f77r.49",
+              "f77r.8"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77r.2",
+              "f77r.3",
+              "f77r.4",
+              "f77r.5",
+              "f77r.50",
+              "f77r.6",
+              "f77r.7"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f77r.3"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77v": {
+          "Ln": {
+            "lisibles": [
+              "f77v.43"
+            ],
+            "exclus": [
+              "f77v.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77v.1",
+              "f77v.2",
+              "f77v.3",
+              "f77v.4",
+              "f77v.44"
+            ],
+            "exclus": [
+              "f77v.5"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f78r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f78r.1",
+              "f78r.2",
+              "f78r.45",
+              "f78r.47"
+            ],
+            "exclus": [
+              "f78r.44",
+              "f78r.46"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f80r": {
+          "Ln": {
+            "lisibles": [
+              "f80r.1",
+              "f80r.10",
+              "f80r.2",
+              "f80r.3",
+              "f80r.4",
+              "f80r.5",
+              "f80r.6",
+              "f80r.7",
+              "f80r.8",
+              "f80r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f81v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f81v.28"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82r": {
+          "Ln": {
+            "lisibles": [
+              "f82r.34",
+              "f82r.36",
+              "f82r.37",
+              "f82r.40",
+              "f82r.42",
+              "f82r.43",
+              "f82r.44",
+              "f82r.45"
+            ],
+            "exclus": [
+              "f82r.39",
+              "f82r.41"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82r.35",
+              "f82r.38"
+            ],
+            "exclus": [
+              "f82r.10"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82v": {
+          "Ln": {
+            "lisibles": [
+              "f82v.1",
+              "f82v.2",
+              "f82v.39",
+              "f82v.40",
+              "f82v.41",
+              "f82v.44"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f82v.2"
+              ],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82v.3",
+              "f82v.4",
+              "f82v.43",
+              "f82v.45",
+              "f82v.46",
+              "f82v.47",
+              "f82v.48"
+            ],
+            "exclus": [
+              "f82v.42"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83r.45",
+              "f83r.46",
+              "f83r.50",
+              "f83r.51"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83v": {
+          "Ln": {
+            "lisibles": [
+              "f83v.34"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83v.10",
+              "f83v.35",
+              "f83v.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f84r": {
+          "Ln": {
+            "lisibles": [
+              "f84r.10",
+              "f84r.11",
+              "f84r.12",
+              "f84r.2",
+              "f84r.3",
+              "f84r.4",
+              "f84r.5",
+              "f84r.6",
+              "f84r.7",
+              "f84r.8",
+              "f84r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f84r.8"
+              ],
+              "otoly": [
+                "f84r.11"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f84r.1",
+              "f84r.47"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        }
+      }
+    },
+    "ZL_separe": {
+      "faces_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "denominateurs": {
+        "Ln": 50,
+        "Lt": 33
+      },
+      "par_mot": {
+        "otedy": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 2
+          },
+          "distribution_exacte_Ln": {
+            "0": "343/22815",
+            "1": "49/338",
+            "2": "18403/45630",
+            "3": "887/2535",
+            "4": "44/507"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "38329/45630"
+        },
+        "otoly": {
+          "observations": {
+            "Ln": 2,
+            "Lt": 0
+          },
+          "distribution_exacte_Ln": {
+            "0": "14/351",
+            "1": "1/3",
+            "2": "220/351"
+          },
+          "probabilite_conditionnelle_au_moins_autant_Ln": "220/351"
+        }
+      },
+      "toutes_les_faces_avec_locus_Ln_ou_Lt": {
+        "f75v": {
+          "Ln": {
+            "lisibles": [
+              "f75v.18",
+              "f75v.19",
+              "f75v.20",
+              "f75v.21",
+              "f75v.22",
+              "f75v.23",
+              "f75v.24",
+              "f75v.25",
+              "f75v.26",
+              "f75v.27",
+              "f75v.28",
+              "f75v.29",
+              "f75v.30",
+              "f75v.31",
+              "f75v.32",
+              "f75v.33",
+              "f75v.34",
+              "f75v.35",
+              "f75v.36",
+              "f75v.37"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": [
+                "f75v.37"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f75v.50",
+              "f75v.51",
+              "f75v.52",
+              "f75v.53",
+              "f75v.54",
+              "f75v.55",
+              "f75v.56"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f75v.54"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77r": {
+          "Ln": {
+            "lisibles": [
+              "f77r.1",
+              "f77r.49",
+              "f77r.8"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77r.2",
+              "f77r.3",
+              "f77r.4",
+              "f77r.5",
+              "f77r.50",
+              "f77r.6",
+              "f77r.7"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f77r.3"
+              ],
+              "otoly": []
+            }
+          }
+        },
+        "f77v": {
+          "Ln": {
+            "lisibles": [
+              "f77v.43"
+            ],
+            "exclus": [
+              "f77v.45"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f77v.1",
+              "f77v.2",
+              "f77v.3",
+              "f77v.4",
+              "f77v.44"
+            ],
+            "exclus": [
+              "f77v.5"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f78r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f78r.1",
+              "f78r.2",
+              "f78r.45",
+              "f78r.47"
+            ],
+            "exclus": [
+              "f78r.44",
+              "f78r.46"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f80r": {
+          "Ln": {
+            "lisibles": [
+              "f80r.1",
+              "f80r.10",
+              "f80r.2",
+              "f80r.3",
+              "f80r.4",
+              "f80r.5",
+              "f80r.6",
+              "f80r.7",
+              "f80r.8",
+              "f80r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f81v": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f81v.28"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82r": {
+          "Ln": {
+            "lisibles": [
+              "f82r.34",
+              "f82r.36",
+              "f82r.37",
+              "f82r.40",
+              "f82r.42",
+              "f82r.43",
+              "f82r.44",
+              "f82r.45"
+            ],
+            "exclus": [
+              "f82r.39",
+              "f82r.41"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82r.35",
+              "f82r.38"
+            ],
+            "exclus": [
+              "f82r.10"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f82v": {
+          "Ln": {
+            "lisibles": [
+              "f82v.1",
+              "f82v.2",
+              "f82v.39",
+              "f82v.40",
+              "f82v.41",
+              "f82v.44"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f82v.2"
+              ],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f82v.3",
+              "f82v.4",
+              "f82v.43",
+              "f82v.45",
+              "f82v.46",
+              "f82v.47",
+              "f82v.48"
+            ],
+            "exclus": [
+              "f82v.42"
+            ],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83r": {
+          "Ln": {
+            "lisibles": [],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83r.45",
+              "f83r.46",
+              "f83r.50",
+              "f83r.51"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f83v": {
+          "Ln": {
+            "lisibles": [
+              "f83v.34"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f83v.10",
+              "f83v.35",
+              "f83v.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        },
+        "f84r": {
+          "Ln": {
+            "lisibles": [
+              "f84r.10",
+              "f84r.11",
+              "f84r.12",
+              "f84r.2",
+              "f84r.3",
+              "f84r.4",
+              "f84r.5",
+              "f84r.6",
+              "f84r.7",
+              "f84r.8",
+              "f84r.9"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [
+                "f84r.8"
+              ],
+              "otoly": [
+                "f84r.11"
+              ]
+            }
+          },
+          "Lt": {
+            "lisibles": [
+              "f84r.1",
+              "f84r.47"
+            ],
+            "exclus": [],
+            "mots": {
+              "otedy": [],
+              "otoly": []
+            }
+          }
+        }
+      }
+    }
+  }
+}

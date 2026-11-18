@@ -1,0 +1,1033 @@
+{
+  "sources_sha256": {
+    "corpus.jsonl": "ab401a75ae802158f96fa5d9daa4b2ff09958f1dc9e6a1ad79bccef82fdf5e43",
+    "corpus.json": "b53eca69ec48df84864d79d97eee4baaa7e67a89ac4c5c74f425724a3038e730",
+    "IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "extraits": {
+    "nombre": 52,
+    "avec_g": 47,
+    "effectifs_extraits_sans_g": {
+      "macer-08": {
+        "n": 2,
+        "r": 10
+      },
+      "macer-21": {
+        "r": 8,
+        "n": 7
+      },
+      "macer-30": {
+        "n": 10,
+        "r": 10
+      },
+      "macer-37": {
+        "n": 5,
+        "r": 5
+      },
+      "macer-39": {
+        "r": 8,
+        "n": 5
+      }
+    },
+    "minimum_par_lettre": {
+      "g": 0,
+      "r": 1,
+      "n": 1
+    }
+  },
+  "editions": {
+    "H": {
+      "separes_EVA": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5311,
+              "r": 5845,
+              "n": 5863
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 97,
+            "comparaisons": 5044,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 4559,
+              "r": 5017,
+              "n": 5031
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "interrogation": 18
+        },
+        "faces_sans_champ_ecarte": [
+          "f10r",
+          "f10v",
+          "f11r",
+          "f13r",
+          "f13v",
+          "f14r",
+          "f14v",
+          "f15r",
+          "f16r",
+          "f16v",
+          "f17v",
+          "f18r",
+          "f18v",
+          "f19r",
+          "f19v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22r",
+          "f22v",
+          "f23r",
+          "f23v",
+          "f24v",
+          "f25r",
+          "f25v",
+          "f27r",
+          "f27v",
+          "f28r",
+          "f28v",
+          "f29r",
+          "f29v",
+          "f30r",
+          "f30v",
+          "f31v",
+          "f32r",
+          "f32v",
+          "f33r",
+          "f33v",
+          "f34r",
+          "f34v",
+          "f35r",
+          "f35v",
+          "f36r",
+          "f36v",
+          "f37r",
+          "f37v",
+          "f38r",
+          "f39r",
+          "f39v",
+          "f40r",
+          "f40v",
+          "f41v",
+          "f42v",
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v",
+          "f46r",
+          "f46v",
+          "f47r",
+          "f47v",
+          "f48r",
+          "f48v",
+          "f49r",
+          "f49v",
+          "f50r",
+          "f50v",
+          "f51v",
+          "f52r",
+          "f52v",
+          "f53r",
+          "f53v",
+          "f54r",
+          "f54v",
+          "f55r",
+          "f56r",
+          "f56v",
+          "f57r",
+          "f66v",
+          "f87r",
+          "f87v",
+          "f90r1",
+          "f90r2",
+          "f90v1",
+          "f90v2",
+          "f93r",
+          "f94r",
+          "f94v",
+          "f95r1",
+          "f95r2",
+          "f95v1",
+          "f95v2",
+          "f96r",
+          "f96v",
+          "f9r",
+          "f9v"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 0,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 81,
+          "0 0 3": 1,
+          "0 1 0": 19,
+          "0 1 1": 1,
+          "0 2 0": 9,
+          "0 3 0": 2
+        },
+        "loci_ios_inventaire_par_ligne": [],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      },
+      "separes_ascii": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5311,
+              "r": 5845,
+              "n": 5863
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 97,
+            "comparaisons": 5044,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 4559,
+              "r": 5017,
+              "n": 5031
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "interrogation": 18
+        },
+        "faces_sans_champ_ecarte": [
+          "f10r",
+          "f10v",
+          "f11r",
+          "f13r",
+          "f13v",
+          "f14r",
+          "f14v",
+          "f15r",
+          "f16r",
+          "f16v",
+          "f17v",
+          "f18r",
+          "f18v",
+          "f19r",
+          "f19v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22r",
+          "f22v",
+          "f23r",
+          "f23v",
+          "f24v",
+          "f25r",
+          "f25v",
+          "f27r",
+          "f27v",
+          "f28r",
+          "f28v",
+          "f29r",
+          "f29v",
+          "f30r",
+          "f30v",
+          "f31v",
+          "f32r",
+          "f32v",
+          "f33r",
+          "f33v",
+          "f34r",
+          "f34v",
+          "f35r",
+          "f35v",
+          "f36r",
+          "f36v",
+          "f37r",
+          "f37v",
+          "f38r",
+          "f39r",
+          "f39v",
+          "f40r",
+          "f40v",
+          "f41v",
+          "f42v",
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v",
+          "f46r",
+          "f46v",
+          "f47r",
+          "f47v",
+          "f48r",
+          "f48v",
+          "f49r",
+          "f49v",
+          "f50r",
+          "f50v",
+          "f51v",
+          "f52r",
+          "f52v",
+          "f53r",
+          "f53v",
+          "f54r",
+          "f54v",
+          "f55r",
+          "f56r",
+          "f56v",
+          "f57r",
+          "f66v",
+          "f87r",
+          "f87v",
+          "f90r1",
+          "f90r2",
+          "f90v1",
+          "f90v2",
+          "f93r",
+          "f94r",
+          "f94v",
+          "f95r1",
+          "f95r2",
+          "f95v1",
+          "f95v2",
+          "f96r",
+          "f96v",
+          "f9r",
+          "f9v"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 0,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 81,
+          "0 0 3": 1,
+          "0 1 0": 19,
+          "0 1 1": 1,
+          "0 2 0": 9,
+          "0 3 0": 2
+        },
+        "loci_ios_inventaire_par_ligne": [],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      },
+      "joints_EVA": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5311,
+              "r": 5845,
+              "n": 5863
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 97,
+            "comparaisons": 5044,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 4559,
+              "r": 5017,
+              "n": 5031
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "interrogation": 18
+        },
+        "faces_sans_champ_ecarte": [
+          "f10r",
+          "f10v",
+          "f11r",
+          "f13r",
+          "f13v",
+          "f14r",
+          "f14v",
+          "f15r",
+          "f16r",
+          "f16v",
+          "f17v",
+          "f18r",
+          "f18v",
+          "f19r",
+          "f19v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22r",
+          "f22v",
+          "f23r",
+          "f23v",
+          "f24v",
+          "f25r",
+          "f25v",
+          "f27r",
+          "f27v",
+          "f28r",
+          "f28v",
+          "f29r",
+          "f29v",
+          "f30r",
+          "f30v",
+          "f31v",
+          "f32r",
+          "f32v",
+          "f33r",
+          "f33v",
+          "f34r",
+          "f34v",
+          "f35r",
+          "f35v",
+          "f36r",
+          "f36v",
+          "f37r",
+          "f37v",
+          "f38r",
+          "f39r",
+          "f39v",
+          "f40r",
+          "f40v",
+          "f41v",
+          "f42v",
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v",
+          "f46r",
+          "f46v",
+          "f47r",
+          "f47v",
+          "f48r",
+          "f48v",
+          "f49r",
+          "f49v",
+          "f50r",
+          "f50v",
+          "f51v",
+          "f52r",
+          "f52v",
+          "f53r",
+          "f53v",
+          "f54r",
+          "f54v",
+          "f55r",
+          "f56r",
+          "f56v",
+          "f57r",
+          "f66v",
+          "f87r",
+          "f87v",
+          "f90r1",
+          "f90r2",
+          "f90v1",
+          "f90v2",
+          "f93r",
+          "f94r",
+          "f94v",
+          "f95r1",
+          "f95r2",
+          "f95v1",
+          "f95v2",
+          "f96r",
+          "f96v",
+          "f9r",
+          "f9v"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 0,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 81,
+          "0 0 3": 1,
+          "0 1 0": 19,
+          "0 1 1": 1,
+          "0 2 0": 9,
+          "0 3 0": 2
+        },
+        "loci_ios_inventaire_par_ligne": [],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      },
+      "joints_ascii": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5311,
+              "r": 5845,
+              "n": 5863
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 97,
+            "comparaisons": 5044,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 4559,
+              "r": 5017,
+              "n": 5031
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "interrogation": 18
+        },
+        "faces_sans_champ_ecarte": [
+          "f10r",
+          "f10v",
+          "f11r",
+          "f13r",
+          "f13v",
+          "f14r",
+          "f14v",
+          "f15r",
+          "f16r",
+          "f16v",
+          "f17v",
+          "f18r",
+          "f18v",
+          "f19r",
+          "f19v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22r",
+          "f22v",
+          "f23r",
+          "f23v",
+          "f24v",
+          "f25r",
+          "f25v",
+          "f27r",
+          "f27v",
+          "f28r",
+          "f28v",
+          "f29r",
+          "f29v",
+          "f30r",
+          "f30v",
+          "f31v",
+          "f32r",
+          "f32v",
+          "f33r",
+          "f33v",
+          "f34r",
+          "f34v",
+          "f35r",
+          "f35v",
+          "f36r",
+          "f36v",
+          "f37r",
+          "f37v",
+          "f38r",
+          "f39r",
+          "f39v",
+          "f40r",
+          "f40v",
+          "f41v",
+          "f42v",
+          "f44r",
+          "f44v",
+          "f45r",
+          "f45v",
+          "f46r",
+          "f46v",
+          "f47r",
+          "f47v",
+          "f48r",
+          "f48v",
+          "f49r",
+          "f49v",
+          "f50r",
+          "f50v",
+          "f51v",
+          "f52r",
+          "f52v",
+          "f53r",
+          "f53v",
+          "f54r",
+          "f54v",
+          "f55r",
+          "f56r",
+          "f56v",
+          "f57r",
+          "f66v",
+          "f87r",
+          "f87v",
+          "f90r1",
+          "f90r2",
+          "f90v1",
+          "f90v2",
+          "f93r",
+          "f94r",
+          "f94v",
+          "f95r1",
+          "f95r2",
+          "f95v1",
+          "f95v2",
+          "f96r",
+          "f96v",
+          "f9r",
+          "f9v"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 0,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 81,
+          "0 0 3": 1,
+          "0 1 0": 19,
+          "0 1 1": 1,
+          "0 2 0": 9,
+          "0 3 0": 2
+        },
+        "loci_ios_inventaire_par_ligne": [],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      }
+    },
+    "ZL": {
+      "separes_EVA": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5290,
+              "r": 5845,
+              "n": 5862
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 2,
+            "comparaisons": 104,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 94,
+              "r": 104,
+              "n": 104
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "apostrophe": 13,
+          "interrogation": 3,
+          "interrogation+variantes": 31,
+          "interrogation+variantes+ligature": 1,
+          "ligature": 94,
+          "ligature+apostrophe": 15,
+          "ligature+signe_etendu": 19,
+          "ligature+signe_etendu+apostrophe": 2,
+          "signe_etendu": 34,
+          "variantes": 232,
+          "variantes+apostrophe": 2,
+          "variantes+ligature": 24,
+          "variantes+ligature+apostrophe": 5,
+          "variantes+signe_etendu": 4
+        },
+        "faces_sans_champ_ecarte": [
+          "f21v",
+          "f95r2"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 1,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 79,
+          "0 0 1": 1,
+          "0 0 3": 1,
+          "0 1 0": 21,
+          "0 1 1": 1,
+          "0 2 0": 7,
+          "0 3 0": 2,
+          "1 0 0": 1
+        },
+        "loci_ios_inventaire_par_ligne": [
+          {
+            "categorie": "prose_herbier",
+            "locus": "f23v.12",
+            "debut_unites_1": 5,
+            "groupes_avec_ios": [
+              "aiios"
+            ]
+          }
+        ],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      },
+      "separes_ascii": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5290,
+              "r": 5845,
+              "n": 5862
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 2,
+            "comparaisons": 104,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 94,
+              "r": 104,
+              "n": 104
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "apostrophe": 13,
+          "interrogation": 3,
+          "interrogation+variantes": 31,
+          "interrogation+variantes+ligature": 1,
+          "ligature": 94,
+          "ligature+apostrophe": 15,
+          "ligature+signe_etendu": 19,
+          "ligature+signe_etendu+apostrophe": 2,
+          "signe_etendu": 34,
+          "variantes": 232,
+          "variantes+apostrophe": 2,
+          "variantes+ligature": 24,
+          "variantes+ligature+apostrophe": 5,
+          "variantes+signe_etendu": 4
+        },
+        "faces_sans_champ_ecarte": [
+          "f21v",
+          "f95r2"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 1,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 79,
+          "0 0 1": 1,
+          "0 0 3": 1,
+          "0 1 0": 21,
+          "0 1 1": 1,
+          "0 2 0": 7,
+          "0 3 0": 2,
+          "1 0 0": 1
+        },
+        "loci_ios_inventaire_par_ligne": [
+          {
+            "categorie": "prose_herbier",
+            "locus": "f23v.12",
+            "debut_unites_1": 5,
+            "groupes_avec_ios": [
+              "aiios"
+            ]
+          }
+        ],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      },
+      "joints_EVA": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5290,
+              "r": 5846,
+              "n": 5862
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 2,
+            "comparaisons": 104,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 94,
+              "r": 104,
+              "n": 104
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "apostrophe": 13,
+          "interrogation": 3,
+          "interrogation+variantes": 31,
+          "interrogation+variantes+ligature": 1,
+          "ligature": 93,
+          "ligature+apostrophe": 15,
+          "ligature+signe_etendu": 18,
+          "ligature+signe_etendu+apostrophe": 2,
+          "signe_etendu": 34,
+          "variantes": 232,
+          "variantes+apostrophe": 2,
+          "variantes+ligature": 24,
+          "variantes+ligature+apostrophe": 5,
+          "variantes+signe_etendu": 4
+        },
+        "faces_sans_champ_ecarte": [
+          "f21v",
+          "f95r2"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 1,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 80,
+          "0 0 1": 1,
+          "0 0 3": 1,
+          "0 1 0": 20,
+          "0 1 1": 1,
+          "0 2 0": 7,
+          "0 3 0": 2,
+          "1 0 0": 1
+        },
+        "loci_ios_inventaire_par_ligne": [
+          {
+            "categorie": "prose_herbier",
+            "locus": "f23v.12",
+            "debut_unites_1": 5,
+            "groupes_avec_ios": [
+              "olaiios"
+            ]
+          }
+        ],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      },
+      "joints_ascii": {
+        "statistiques": {
+          "toutes": {
+            "faces": 113,
+            "comparaisons": 5876,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 5290,
+              "r": 5846,
+              "n": 5862
+            }
+          },
+          "sans_champ_ecarte": {
+            "faces": 2,
+            "comparaisons": 104,
+            "couples_compatibles_effectifs_seuls": 0,
+            "couples_compatibles_ordre_impose": 0,
+            "couples_insuffisants_par_lettre": {
+              "g": 94,
+              "r": 104,
+              "n": 104
+            }
+          }
+        },
+        "marquages_des_champs_de_prose_ecartes": {
+          "apostrophe": 13,
+          "interrogation": 3,
+          "interrogation+variantes": 31,
+          "interrogation+variantes+ligature": 1,
+          "ligature": 93,
+          "ligature+apostrophe": 15,
+          "ligature+signe_etendu": 18,
+          "ligature+signe_etendu+apostrophe": 2,
+          "signe_etendu": 34,
+          "variantes": 232,
+          "variantes+apostrophe": 2,
+          "variantes+ligature": 24,
+          "variantes+ligature+apostrophe": 5,
+          "variantes+signe_etendu": 4
+        },
+        "faces_sans_champ_ecarte": [
+          "f21v",
+          "f95r2"
+        ],
+        "faces_botaniques_sans_prose": [
+          "f65r"
+        ],
+        "offre_maximale_par_face": {
+          "g": 1,
+          "r": 3,
+          "n": 3
+        },
+        "distribution_offre_g_r_n": {
+          "0 0 0": 80,
+          "0 0 1": 1,
+          "0 0 3": 1,
+          "0 1 0": 20,
+          "0 1 1": 1,
+          "0 2 0": 7,
+          "0 3 0": 2,
+          "1 0 0": 1
+        },
+        "loci_ios_inventaire_par_ligne": [
+          {
+            "categorie": "prose_herbier",
+            "locus": "f23v.12",
+            "debut_unites_1": 5,
+            "groupes_avec_ios": [
+              "olaiios"
+            ]
+          }
+        ],
+        "noms": {
+          "f2v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f35v.1": {
+            "strict": 0,
+            "assoupli": 0
+          },
+          "f99v.2": {
+            "strict": 0,
+            "assoupli": 0
+          }
+        }
+      }
+    }
+  }
+}
