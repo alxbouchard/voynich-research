@@ -1,0 +1,318 @@
+{
+  "temoins": {
+    "eva": "daiin",
+    "croise": [
+      "daiin",
+      "8am"
+    ]
+  },
+  "inventaire": {
+    "eva": {
+      "positions_lisibles_apprentissage": 9359,
+      "trigrammes_distincts": 6170,
+      "trigrammes_sur_plusieurs_folios": 11,
+      "exemples": [
+        {
+          "groupes": [
+            "chedy",
+            "qokeey",
+            "qokeey"
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 103,
+              "id": "f103r.53",
+              "i": 5
+            },
+            {
+              "folio": 112,
+              "id": "f112v.16",
+              "i": 5
+            }
+          ]
+        },
+        {
+          "groupes": [
+            "cheedy",
+            "qokeedy",
+            "otedy"
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 81,
+              "id": "f81r.15",
+              "i": 2
+            },
+            {
+              "folio": 108,
+              "id": "f108r.38",
+              "i": 1
+            }
+          ]
+        },
+        {
+          "groupes": [
+            "chey",
+            "qol",
+            "chedy"
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 82,
+              "id": "f82r.21",
+              "i": 5
+            },
+            {
+              "folio": 104,
+              "id": "f104v.4",
+              "i": 6
+            }
+          ]
+        },
+        {
+          "groupes": [
+            "chol",
+            "daiin",
+            "chkaiin"
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 21,
+              "id": "f21r.12",
+              "i": 5
+            },
+            {
+              "folio": 28,
+              "id": "f28v.5",
+              "i": 1
+            }
+          ]
+        },
+        {
+          "groupes": [
+            "ol",
+            "shedy",
+            "qokedy"
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 75,
+              "id": "f75v.47",
+              "i": 4
+            },
+            {
+              "folio": 81,
+              "id": "f81v.18",
+              "i": 4
+            }
+          ]
+        }
+      ],
+      "cadres_predictifs": 33,
+      "bilan_reserve": {
+        "masques": 317,
+        "sans_regle": 313,
+        "cadres_en_conflit": 0
+      }
+    },
+    "croise": {
+      "positions_lisibles_apprentissage": 5978,
+      "trigrammes_distincts": 3712,
+      "trigrammes_sur_plusieurs_folios": 2,
+      "exemples": [
+        {
+          "groupes": [
+            [
+              "qoky",
+              "4oh9"
+            ],
+            [
+              "shedy",
+              "2c89"
+            ],
+            [
+              "qokaiin",
+              "4oham"
+            ]
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 82,
+              "id": "f82v.29",
+              "i": 2
+            },
+            {
+              "folio": 103,
+              "id": "f103v.6",
+              "i": 6
+            }
+          ]
+        },
+        {
+          "groupes": [
+            [
+              "sheey",
+              "2C9"
+            ],
+            [
+              "qokol",
+              "4ohoe"
+            ],
+            [
+              "cheol",
+              "1coe"
+            ]
+          ],
+          "n_folios": 2,
+          "attestations_debut": [
+            {
+              "folio": 86,
+              "id": "f86v6.9",
+              "i": 3
+            },
+            {
+              "folio": 89,
+              "id": "f89v1.6",
+              "i": 1
+            }
+          ]
+        }
+      ],
+      "cadres_predictifs": 6,
+      "bilan_reserve": {
+        "masques": 317,
+        "sans_regle": 317,
+        "cadres_en_conflit": 0
+      }
+    }
+  },
+  "eva": [
+    {
+      "id": "f100r.25",
+      "i": 4,
+      "predit": "chkaiin",
+      "preuves": [
+        {
+          "decalages_voisins": [
+            -2,
+            -1
+          ],
+          "voisins": [
+            "chol",
+            "daiin"
+          ],
+          "n_folios": 2,
+          "attestations_cible": [
+            {
+              "folio": 21,
+              "id": "f21r.12",
+              "i": 7
+            },
+            {
+              "folio": 28,
+              "id": "f28v.5",
+              "i": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f20v.10",
+      "i": 4,
+      "predit": "chkaiin",
+      "preuves": [
+        {
+          "decalages_voisins": [
+            -2,
+            -1
+          ],
+          "voisins": [
+            "chol",
+            "daiin"
+          ],
+          "n_folios": 2,
+          "attestations_cible": [
+            {
+              "folio": 21,
+              "id": "f21r.12",
+              "i": 7
+            },
+            {
+              "folio": 28,
+              "id": "f28v.5",
+              "i": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f83v.2",
+      "i": 0,
+      "predit": "ol",
+      "preuves": [
+        {
+          "decalages_voisins": [
+            1,
+            2
+          ],
+          "voisins": [
+            "shedy",
+            "qokedy"
+          ],
+          "n_folios": 2,
+          "attestations_cible": [
+            {
+              "folio": 75,
+              "id": "f75v.47",
+              "i": 4
+            },
+            {
+              "folio": 81,
+              "id": "f81v.18",
+              "i": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f83v.5",
+      "i": 2,
+      "predit": "qokaiin",
+      "preuves": [
+        {
+          "decalages_voisins": [
+            -1,
+            1
+          ],
+          "voisins": [
+            "shedy",
+            "chedy"
+          ],
+          "n_folios": 2,
+          "attestations_cible": [
+            {
+              "folio": 103,
+              "id": "f103v.6",
+              "i": 8
+            },
+            {
+              "folio": 107,
+              "id": "f107v.35",
+              "i": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "croise": []
+}
