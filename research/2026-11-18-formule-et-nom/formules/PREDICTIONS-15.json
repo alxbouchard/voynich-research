@@ -1,0 +1,476 @@
+{
+ "apprentissage": [
+  "f88r",
+  "f88v",
+  "f89r1",
+  "f89r2",
+  "f89v1",
+  "f89v2"
+ ],
+ "distances": {
+  "1": {
+   "depots": {
+    "principal": {
+     "choix": null,
+     "ex_aequo": [],
+     "positions": []
+    },
+    "un_exemple": {
+     "choix": {
+      "apprentissage": {
+       "appels": 1,
+       "feuillets": [
+        "f89"
+       ],
+       "graphies": [
+        "sheol"
+       ],
+       "justes": 1,
+       "lisibles": 1
+      },
+      "depuis": [
+       {
+        "cible": "sheol",
+        "interpose": null,
+        "legendes": [
+         "f89v2.5"
+        ],
+        "locus": "f89v2.7"
+       }
+      ],
+      "regle": [
+       "kosar",
+       1
+      ]
+     },
+     "ex_aequo": [
+      [
+       "kosar",
+       1
+      ],
+      [
+       "opcheol",
+       -1
+      ]
+     ],
+     "positions": []
+    }
+   },
+   "modeles": [
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "sheol"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "sheol",
+       "interpose": null,
+       "legendes": [
+        "f89v2.5"
+       ],
+       "locus": "f89v2.7"
+      }
+     ],
+     "regle": [
+      "kosar",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "opcheor"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "opcheor",
+       "interpose": null,
+       "legendes": [
+        "f89r2.5"
+       ],
+       "locus": "f89r2.22"
+      }
+     ],
+     "regle": [
+      "opcheol",
+      -1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 2,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "cheody"
+      ],
+      "justes": 1,
+      "lisibles": 2
+     },
+     "depuis": [
+      {
+       "cible": "cheody",
+       "interpose": null,
+       "legendes": [
+        "f89r2.19"
+       ],
+       "locus": "f89r2.8"
+      }
+     ],
+     "regle": [
+      "oky",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 3,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "cheody"
+      ],
+      "justes": 1,
+      "lisibles": 3
+     },
+     "depuis": [
+      {
+       "cible": "cheody",
+       "interpose": null,
+       "legendes": [
+        "f89r2.19"
+       ],
+       "locus": "f89r2.8"
+      }
+     ],
+     "regle": [
+      "cheoky",
+      -1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 3,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "chody"
+      ],
+      "justes": 1,
+      "lisibles": 3
+     },
+     "depuis": [
+      {
+       "cible": "chody",
+       "interpose": null,
+       "legendes": [
+        "f89v2.12"
+       ],
+       "locus": "f89v2.9"
+      }
+     ],
+     "regle": [
+      "qoaiin",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 3,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "opcheor"
+      ],
+      "justes": 1,
+      "lisibles": 2
+     },
+     "depuis": [
+      {
+       "cible": "opcheor",
+       "interpose": null,
+       "legendes": [
+        "f89r2.5"
+       ],
+       "locus": "f89r2.22"
+      }
+     ],
+     "regle": [
+      "sheey",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 7,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "chody"
+      ],
+      "justes": 1,
+      "lisibles": 7
+     },
+     "depuis": [
+      {
+       "cible": "chody",
+       "interpose": null,
+       "legendes": [
+        "f89v2.12"
+       ],
+       "locus": "f89v2.9"
+      }
+     ],
+     "regle": [
+      "cheor",
+      -1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 8,
+      "feuillets": [
+       "f88"
+      ],
+      "graphies": [
+       "okol"
+      ],
+      "justes": 1,
+      "lisibles": 8
+     },
+     "depuis": [
+      {
+       "cible": "okol",
+       "interpose": null,
+       "legendes": [
+        "f88r.15"
+       ],
+       "locus": "f88r.19"
+      }
+     ],
+     "regle": [
+      "cheol",
+      -1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 13,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "chody"
+      ],
+      "justes": 1,
+      "lisibles": 9
+     },
+     "depuis": [
+      {
+       "cible": "chody",
+       "interpose": null,
+       "legendes": [
+        "f89v2.12"
+       ],
+       "locus": "f89v2.9"
+      }
+     ],
+     "regle": [
+      "dal",
+      1
+     ]
+    }
+   ]
+  },
+  "2": {
+   "depots": {
+    "principal": {
+     "choix": null,
+     "ex_aequo": [],
+     "positions": []
+    },
+    "un_exemple": {
+     "choix": {
+      "apprentissage": {
+       "appels": 1,
+       "feuillets": [
+        "f89"
+       ],
+       "graphies": [
+        "opcheor"
+       ],
+       "justes": 1,
+       "lisibles": 1
+      },
+      "depuis": [
+       {
+        "cible": "opcheor",
+        "interpose": "sheey",
+        "legendes": [
+         "f89r2.5"
+        ],
+        "locus": "f89r2.22"
+       }
+      ],
+      "regle": [
+       "qokeoefy",
+       2
+      ]
+     },
+     "ex_aequo": [
+      [
+       "qokeoefy",
+       2
+      ],
+      [
+       "shody",
+       -2
+      ]
+     ],
+     "positions": []
+    }
+   },
+   "modeles": [
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "opcheor"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "opcheor",
+       "interpose": "sheey",
+       "legendes": [
+        "f89r2.5"
+       ],
+       "locus": "f89r2.22"
+      }
+     ],
+     "regle": [
+      "qokeoefy",
+      2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "opcheor"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "opcheor",
+       "interpose": "opcheol",
+       "legendes": [
+        "f89r2.5"
+       ],
+       "locus": "f89r2.22"
+      }
+     ],
+     "regle": [
+      "shody",
+      -2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 6,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "chody"
+      ],
+      "justes": 1,
+      "lisibles": 6
+     },
+     "depuis": [
+      {
+       "cible": "chody",
+       "interpose": "cheor",
+       "legendes": [
+        "f89v2.12"
+       ],
+       "locus": "f89v2.9"
+      }
+     ],
+     "regle": [
+      "chey",
+      -2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 7,
+      "feuillets": [
+       "f89"
+      ],
+      "graphies": [
+       "chody"
+      ],
+      "justes": 1,
+      "lisibles": 4
+     },
+     "depuis": [
+      {
+       "cible": "chody",
+       "interpose": "qoaiin",
+       "legendes": [
+        "f89v2.12"
+       ],
+       "locus": "f89v2.9"
+      }
+     ],
+     "regle": [
+      "chey",
+      2
+     ]
+    }
+   ]
+  }
+ },
+ "reserve": [
+  "f100r",
+  "f100v",
+  "f101v",
+  "f102r1",
+  "f102r2",
+  "f102v1",
+  "f102v2",
+  "f99r",
+  "f99v"
+ ]
+}
