@@ -1,0 +1,346 @@
+{
+ "choix_primaire": "grande_ourse",
+ "diametre": 432.92147093901457,
+ "calages": {
+  "pleiades_bright7": [
+   {
+    "ordre_calage": [
+     "Atlas",
+     "Pleione",
+     "Alcyone",
+     "Merope"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.051674822443645754,
+    "previsions": [
+     {
+      "nom": "Electra",
+      "xy": [
+       1023.4054647752964,
+       1197.4528346625941
+      ]
+     },
+     {
+      "nom": "Maia",
+      "xy": [
+       1070.359622018144,
+       991.2930822339964
+      ]
+     },
+     {
+      "nom": "Taygeta",
+      "xy": [
+       1174.0668238341527,
+       1025.0563806955856
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Pleione",
+     "Atlas",
+     "Alcyone",
+     "Maia"
+    ],
+    "miroir": true,
+    "rms_relatif": 0.057163725265079776,
+    "previsions": [
+     {
+      "nom": "Electra",
+      "xy": [
+       995.1746370461676,
+       1101.1079499824875
+      ]
+     },
+     {
+      "nom": "Merope",
+      "xy": [
+       940.1335696176486,
+       912.7857053041364
+      ]
+     },
+     {
+      "nom": "Taygeta",
+      "xy": [
+       830.0248732010057,
+       1198.8724718591193
+      ]
+     }
+    ]
+   }
+  ],
+  "grande_ourse": [
+   {
+    "ordre_calage": [
+     "Dubhe",
+     "Merak",
+     "Megrez",
+     "Mizar"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.02534006942473128,
+    "previsions": [
+     {
+      "nom": "Phecda",
+      "xy": [
+       818.599024473323,
+       808.9427752449475
+      ]
+     },
+     {
+      "nom": "Alioth",
+      "xy": [
+       803.9010298169421,
+       1001.8290893333177
+      ]
+     },
+     {
+      "nom": "Alkaid",
+      "xy": [
+       946.2360423041331,
+       1185.573886794492
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Merak",
+     "Dubhe",
+     "Alioth",
+     "Alkaid"
+    ],
+    "miroir": true,
+    "rms_relatif": 0.03549291531122097,
+    "previsions": [
+     {
+      "nom": "Phecda",
+      "xy": [
+       644.1596647616395,
+       846.9789635203119
+      ]
+     },
+     {
+      "nom": "Megrez",
+      "xy": [
+       717.7780254280264,
+       847.1535149073844
+      ]
+     },
+     {
+      "nom": "Mizar",
+      "xy": [
+       819.2445705283086,
+       970.2151198730529
+      ]
+     }
+    ]
+   }
+  ],
+  "petite_ourse": [
+   {
+    "ordre_calage": [
+     "Kochab",
+     "Pherkad",
+     "Zeta UMi",
+     "Epsilon UMi"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.056491628402525744,
+    "previsions": [
+     {
+      "nom": "Polaris",
+      "xy": [
+       726.3107005839095,
+       1425.8044103891507
+      ]
+     },
+     {
+      "nom": "Yildun",
+      "xy": [
+       791.1040195267007,
+       1275.1666562782375
+      ]
+     },
+     {
+      "nom": "Eta UMi",
+      "xy": [
+       843.3074088315478,
+       829.1146364290026
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Zeta UMi",
+     "Eta UMi",
+     "Epsilon UMi",
+     "Yildun"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.060582688462462994,
+    "previsions": [
+     {
+      "nom": "Polaris",
+      "xy": [
+       820.751508233745,
+       1254.9799508550607
+      ]
+     },
+     {
+      "nom": "Kochab",
+      "xy": [
+       441.7918680668756,
+       683.53130692107
+      ]
+     },
+     {
+      "nom": "Pherkad",
+      "xy": [
+       473.0692381435201,
+       555.0938344995803
+      ]
+     }
+    ]
+   }
+  ],
+  "pleiades_sisters": [
+   {
+    "ordre_calage": [
+     "Celaeno",
+     "Taygeta",
+     "Maia",
+     "Alcyone"
+    ],
+    "miroir": true,
+    "rms_relatif": 0.10601135138287025,
+    "previsions": [
+     {
+      "nom": "Electra",
+      "xy": [
+       533.4191291389235,
+       853.0755063543198
+      ]
+     },
+     {
+      "nom": "Merope",
+      "xy": [
+       626.5237750247895,
+       1076.6386794097837
+      ]
+     },
+     {
+      "nom": "Asterope",
+      "xy": [
+       838.8558905059299,
+       735.7786103473131
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Taygeta",
+     "Asterope",
+     "Maia",
+     "Merope"
+    ],
+    "miroir": true,
+    "rms_relatif": 0.11027589465797429,
+    "previsions": [
+     {
+      "nom": "Alcyone",
+      "xy": [
+       1007.016059608166,
+       980.633236350392
+      ]
+     },
+     {
+      "nom": "Electra",
+      "xy": [
+       591.7368106108945,
+       1020.9392798392903
+      ]
+     },
+     {
+      "nom": "Celaeno",
+      "xy": [
+       566.9750081764487,
+       899.4819901121724
+      ]
+     }
+    ]
+   }
+  ],
+  "pleiades_blend": [
+   {
+    "ordre_calage": [
+     "Taygeta",
+     "Celaeno",
+     "Alcyone",
+     "Atlas+Pleione"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.050969832926051,
+    "previsions": [
+     {
+      "nom": "Electra",
+      "xy": [
+       754.1455341558444,
+       676.013159682094
+      ]
+     },
+     {
+      "nom": "Maia",
+      "xy": [
+       659.946060792779,
+       777.9794219406632
+      ]
+     },
+     {
+      "nom": "Merope",
+      "xy": [
+       838.4707874944799,
+       804.4827799857991
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Celaeno",
+     "Electra",
+     "Alcyone",
+     "Atlas+Pleione"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.052423324706551186,
+    "previsions": [
+     {
+      "nom": "Maia",
+      "xy": [
+       613.111381779463,
+       811.2856850246573
+      ]
+     },
+     {
+      "nom": "Merope",
+      "xy": [
+       795.1913226019343,
+       800.9964148547216
+      ]
+     },
+     {
+      "nom": "Taygeta",
+      "xy": [
+       554.7664053934762,
+       768.4950431462302
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
