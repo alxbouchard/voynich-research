@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [De la légende otoldy au dessin](research/2026-11-18-otoldy-dessin/RAPPORT.md) | La prédiction d’une base renflée réussit dans une seule des cinq paires. Une légende de deux groupes des rosettes correspond à la ligne botanique f48v.9 dans deux éditions. La présence d’une petite barre sur le dépliant reste discutée. |
 | [Consignes de couleur dans les plantes](research/2026-11-18-consignes-de-couleur/RAPPORT.md) | La lecture de « vert » proposée à f2r reste incertaine. La table littérale qui en dérive échoue par manque de signes sur 52 débuts de notices comparés à 113 faces. |
 | [Noms de plantes et terminaisons dans les notices](research/2026-11-18-noms-dans-les-notices/RAPPORT.md) | Dans un texte latin connu, 17 des 20 noms réservés désignent seuls la bonne notice. Dans le Voynich, aucune des dix étiquettes comparables ne désigne seule la page attendue. À f44r.3, deux lectures sur photographie favorisent `otal`. |
 | [Les mots près des racines, des étoiles et des figures](research/2026-11-18-mots-des-images/RAPPORT.md) | La répétition de `otoldy` sur f99 prédit une troisième étiquette végétale sur f89r1. Le groupe manque sur f57r, dont le dessin est rapproché de cette vignette. Sur un troisième panneau, le motif partagé `ot` apparaît dans 2/11 légendes. Le rapport comprend aussi un contrôle sur six faces des bains et deux images d'éléphant imprimées avec le même bois en 1485. |

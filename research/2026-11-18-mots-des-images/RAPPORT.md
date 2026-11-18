@@ -20,6 +20,8 @@ La recherche de vérification portait sur **un mot précis** dans toutes les aut
 
 En dehors des étiquettes végétales, le groupe exact apparaît aussi dans la prose, avec cinq loci qui concordent dans les quatre lectures, aux pages f22r, f28r, f44v, f48v et f53v. En Takahashi il apparaît en outre près d'un récipient à f89r2.9 et à f82v.45. En ZL le premier porte la variante `otold[:y]` et le second se lit `okoldy`. Ces variantes expliquent pourquoi les listes historiques et les comptes stricts peuvent différer. Le regroupement graphique seul permet plusieurs explications, par exemple le nom d'un ingrédient, d'une partie de plante ou d'une préparation. [Inventaire de Jorge Stolfi](https://www.ic.unicamp.br/~stolfi/EXPORT/projects/voynich/00-EXPORT/98-02-01-lotsa-labels/labels-a.html) · [Calcul reproductible](racines/recherche_racines.py)
 
+**Correction de l’inventaire hors des plantes.** La recherche étendue précédente omettait le code spécial du dépliant `fRos`. Le second groupe de l’étiquette fRos.45 se lit aussi `otoldy` dans ZL. La paire `otchdy.otoldy` de cette édition est commune avec f48v.9. Le premier groupe de la légende est discuté sur photographie. [Deux inscriptions et comptage corrigé](../2026-11-18-otoldy-dessin/RAPPORT.md)
+
 ## Les autres dessins conduisent-ils à une désignation habituelle ?
 
 | Dessin et lieu | Résultat | Portée |

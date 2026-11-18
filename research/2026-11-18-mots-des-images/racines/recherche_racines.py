@@ -48,13 +48,13 @@ def inspect_labels(path, split):
 def further_occurrences(path, split, reference):
     groups = {}
     comparable = defaultdict(list)
-    pattern = re.compile(r'^<((?:f(\d+)[rv]\d*)\.[^,>]+),.([A-Za-z0-9]{2})>\s*(.*)')
+    pattern = re.compile(r'^<((?:f(\d+)[rv]\d*|fRos)\.[^,>]+),.([A-Za-z0-9]{2})>\s*(.*)')
     for line in path.read_text().splitlines():
         match = pattern.match(line)
         if not match:
             continue
         locus, folio, kind, raw = match.groups()
-        if int(folio) in {99,102}:
+        if folio is not None and int(folio) in {99,102}:
             continue
         counts = groups.setdefault(kind, {'loci':0, 'mots_simples':0, 'occurrences':[]})
         counts['loci'] += 1

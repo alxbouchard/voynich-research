@@ -1,0 +1,84 @@
+{
+  "sources": {
+    "pli": {
+      "oid": "1006231",
+      "sha256": "4b08afeee514691b0a511099ca299aed544d6fd1782b7dee8df163dfc06354ed",
+      "url": "https://collections.library.yale.edu/iiif/2/1006231/full/full/0/default.jpg",
+      "taille": [
+        7925,
+        7268
+      ]
+    },
+    "herbier": {
+      "oid": "1006169",
+      "sha256": "c0ecc85912878c5c27ad64d560dd088e703ea95e68a87aaecb112a4aabcbe516",
+      "url": "https://collections.library.yale.edu/iiif/2/1006169/full/full/0/default.jpg",
+      "taille": [
+        2950,
+        3769
+      ]
+    }
+  },
+  "cartes": {
+    "S12": {
+      "source": "herbier",
+      "boite": [
+        1853,
+        1121,
+        2212,
+        1208
+      ],
+      "rotation": 0,
+      "site": "f48v.9, deux groupes après la seconde interruption",
+      "sha256": "453c5987e797691ad709269a5721d1765da4c22b671b937d7c79a06e9dcbf7dd"
+    },
+    "S23": {
+      "source": "pli",
+      "boite": [
+        6957,
+        2650,
+        7219,
+        2768
+      ],
+      "rotation": 180,
+      "site": "inscription latérale, à droite sur le dépliant orienté par Yale",
+      "sha256": "130aeafdbc47af6ee4fd324d71b5994f597af06924c9d95b4ce61b887655e99c"
+    },
+    "S37": {
+      "source": "pli",
+      "boite": [
+        6412,
+        2570,
+        6722,
+        2678
+      ],
+      "rotation": 180,
+      "site": "fRos.45, inscription entre les deux bords",
+      "sha256": "712d970d44d2445e53587db22bdf4527c63f984352861b9f0477a6f61bedc044"
+    },
+    "S48": {
+      "source": "herbier",
+      "boite": [
+        2220,
+        1105,
+        2513,
+        1197
+      ],
+      "rotation": 0,
+      "site": "f48v.9, deux derniers groupes",
+      "sha256": "8aa828b16a70066cfb7a7329c63533e763b453636aec101aa9e3a8c9bba716a8"
+    },
+    "S59": {
+      "source": "pli",
+      "boite": [
+        6019,
+        2592,
+        6288,
+        2755
+      ],
+      "rotation": 180,
+      "site": "inscription latérale, à gauche sur le dépliant orienté par Yale",
+      "sha256": "a1a2ca04e99507599daad3bb8edfcb8a0bf48ef7eaa71a528ac52e472895438b"
+    }
+  }
+}

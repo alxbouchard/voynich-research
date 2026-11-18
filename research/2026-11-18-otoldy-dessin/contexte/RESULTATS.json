@@ -1,0 +1,2684 @@
+{
+  "H": {
+    "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variantes": {
+      "séparés": {
+        "faces_prose": 128,
+        "lignes_prose": 1608,
+        "positions": 11362,
+        "positions_simples": 11341,
+        "lignes_otoldy": [
+          {
+            "lieu": "f22r.11",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 10,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "qokchy",
+              "-1": "oky",
+              "1": "yty",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              8
+            ]
+          },
+          {
+            "lieu": "f28r.7",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 8,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "shockhy",
+              "-1": "shocthy",
+              "1": "dshor",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              5
+            ]
+          },
+          {
+            "lieu": "f44v.1",
+            "main": "1",
+            "Currier": "A",
+            "position": 9,
+            "longueur_ligne": 9,
+            "ligne_ouvre_paragraphe": true,
+            "ligne_ferme_paragraphe": false,
+            "statut": "final",
+            "voisins": {
+              "-2": "tol",
+              "-1": "qotshol",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          },
+          {
+            "lieu": "f48v.9",
+            "main": "5",
+            "Currier": "B",
+            "position": 10,
+            "longueur_ligne": 12,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "lol",
+              "-1": "otchdy",
+              "1": "ytam",
+              "2": "otedy"
+            },
+            "coupures_dessin_après_position": [
+              3,
+              8
+            ]
+          },
+          {
+            "lieu": "f53v.13",
+            "main": "1",
+            "Currier": "A",
+            "position": 2,
+            "longueur_ligne": 2,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": true,
+            "statut": "final",
+            "voisins": {
+              "-2": null,
+              "-1": "ycthodaiin",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          }
+        ],
+        "comparaisons": {
+          "même_ligne": {
+            "cible": {
+              "comparables": {
+                "-2": 6,
+                "-1": 10,
+                "1": 3,
+                "2": 3
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": [
+                  [
+                    "f22r.11",
+                    "f28r.7",
+                    "dol"
+                  ]
+                ]
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          },
+          "même_segment": {
+            "cible": {
+              "comparables": {
+                "-2": 3,
+                "-1": 10,
+                "1": 1,
+                "2": 1
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": []
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          }
+        },
+        "complément_main_1_A": {
+          "cible": {
+            "comparables": {
+              "-2": 3,
+              "-1": 6,
+              "1": 1,
+              "2": 1
+            },
+            "accords": {
+              "-2": [],
+              "-1": [],
+              "1": [],
+              "2": [
+                [
+                  "f22r.11",
+                  "f28r.7",
+                  "dol"
+                ]
+              ]
+            },
+            "score": 0,
+            "cadres": []
+          },
+          "témoins": {
+            "fréquence_main_langue_faces": {
+              "n": 48,
+              "au_moins_cible": 48,
+              "scores": {
+                "0": 47,
+                "1": 1
+              },
+              "mots": {
+                "cfhol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "chcphy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "cheeor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "cheodaiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chochy": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 0
+                  }
+                },
+                "chod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chokchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "choldy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "ckheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ckhody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "ctheor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "cthod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "cto": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "da": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 0
+                  }
+                },
+                "daim": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "kcheol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "keeey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "odar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "oeees": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okcho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "okey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "okoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okom": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 1
+                  }
+                },
+                "om": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "otshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qoar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "qokchod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qokod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qokoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qokshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "qotshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "raiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 1
+                  }
+                },
+                "schey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "shain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "shory": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "sody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "tcheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "tchos": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "tsho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "tshol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "tshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ycheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ychy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ytchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "ytey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                }
+              }
+            },
+            "positions_identiques": {
+              "n": 1,
+              "au_moins_cible": 1,
+              "scores": {
+                "0": 1
+              },
+              "mots": {
+                "raiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rosettes_exploratoire": {
+          "fRos_lignes": 0,
+          "fRos_étiquettes": 0,
+          "couple_exact_tout_manuscrit": [
+            [
+              "f48v.9",
+              9,
+              "P0"
+            ]
+          ],
+          "étiquettes_de_deux_mots_lisibles": 0,
+          "couple_inverse_tout_manuscrit": [],
+          "permutations_second_mot": null,
+          "couples_distincts": 0,
+          "étiquettes_avec_reprise_en_prose_botanique": {}
+        }
+      },
+      "joints": {
+        "faces_prose": 128,
+        "lignes_prose": 1608,
+        "positions": 11362,
+        "positions_simples": 11341,
+        "lignes_otoldy": [
+          {
+            "lieu": "f22r.11",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 10,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "qokchy",
+              "-1": "oky",
+              "1": "yty",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              8
+            ]
+          },
+          {
+            "lieu": "f28r.7",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 8,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "shockhy",
+              "-1": "shocthy",
+              "1": "dshor",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              5
+            ]
+          },
+          {
+            "lieu": "f44v.1",
+            "main": "1",
+            "Currier": "A",
+            "position": 9,
+            "longueur_ligne": 9,
+            "ligne_ouvre_paragraphe": true,
+            "ligne_ferme_paragraphe": false,
+            "statut": "final",
+            "voisins": {
+              "-2": "tol",
+              "-1": "qotshol",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          },
+          {
+            "lieu": "f48v.9",
+            "main": "5",
+            "Currier": "B",
+            "position": 10,
+            "longueur_ligne": 12,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "lol",
+              "-1": "otchdy",
+              "1": "ytam",
+              "2": "otedy"
+            },
+            "coupures_dessin_après_position": [
+              3,
+              8
+            ]
+          },
+          {
+            "lieu": "f53v.13",
+            "main": "1",
+            "Currier": "A",
+            "position": 2,
+            "longueur_ligne": 2,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": true,
+            "statut": "final",
+            "voisins": {
+              "-2": null,
+              "-1": "ycthodaiin",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          }
+        ],
+        "comparaisons": {
+          "même_ligne": {
+            "cible": {
+              "comparables": {
+                "-2": 6,
+                "-1": 10,
+                "1": 3,
+                "2": 3
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": [
+                  [
+                    "f22r.11",
+                    "f28r.7",
+                    "dol"
+                  ]
+                ]
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          },
+          "même_segment": {
+            "cible": {
+              "comparables": {
+                "-2": 3,
+                "-1": 10,
+                "1": 1,
+                "2": 1
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": []
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          }
+        },
+        "complément_main_1_A": {
+          "cible": {
+            "comparables": {
+              "-2": 3,
+              "-1": 6,
+              "1": 1,
+              "2": 1
+            },
+            "accords": {
+              "-2": [],
+              "-1": [],
+              "1": [],
+              "2": [
+                [
+                  "f22r.11",
+                  "f28r.7",
+                  "dol"
+                ]
+              ]
+            },
+            "score": 0,
+            "cadres": []
+          },
+          "témoins": {
+            "fréquence_main_langue_faces": {
+              "n": 48,
+              "au_moins_cible": 48,
+              "scores": {
+                "0": 47,
+                "1": 1
+              },
+              "mots": {
+                "cfhol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "chcphy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "cheeor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "cheodaiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chochy": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 0
+                  }
+                },
+                "chod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chokchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "choldy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "ckheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ckhody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "ctheor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "cthod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "cto": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "da": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 0
+                  }
+                },
+                "daim": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "kcheol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "keeey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "odar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "oeees": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okcho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "okey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "okoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okom": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 1
+                  }
+                },
+                "om": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "otshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qoar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "qokchod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qokod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qokoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qokshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "qotshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "raiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 1
+                  }
+                },
+                "schey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "shain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "shory": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "sody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "tcheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "tchos": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "tsho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "tshol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "tshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ycheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ychy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ytchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "ytey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                }
+              }
+            },
+            "positions_identiques": {
+              "n": 1,
+              "au_moins_cible": 1,
+              "scores": {
+                "0": 1
+              },
+              "mots": {
+                "raiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rosettes_exploratoire": {
+          "fRos_lignes": 0,
+          "fRos_étiquettes": 0,
+          "couple_exact_tout_manuscrit": [
+            [
+              "f48v.9",
+              9,
+              "P0"
+            ]
+          ],
+          "étiquettes_de_deux_mots_lisibles": 0,
+          "couple_inverse_tout_manuscrit": [],
+          "permutations_second_mot": null,
+          "couples_distincts": 0,
+          "étiquettes_avec_reprise_en_prose_botanique": {}
+        }
+      }
+    }
+  },
+  "ZL": {
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variantes": {
+      "séparés": {
+        "faces_prose": 128,
+        "lignes_prose": 1608,
+        "positions": 11551,
+        "positions_simples": 11027,
+        "lignes_otoldy": [
+          {
+            "lieu": "f22r.11",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 10,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "qokchy",
+              "-1": "oky",
+              "1": "yty",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              8
+            ]
+          },
+          {
+            "lieu": "f28r.7",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 8,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "shockhy",
+              "-1": "shocthy",
+              "1": "dshor",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              5
+            ]
+          },
+          {
+            "lieu": "f44v.1",
+            "main": "1",
+            "Currier": "A",
+            "position": 10,
+            "longueur_ligne": 10,
+            "ligne_ouvre_paragraphe": true,
+            "ligne_ferme_paragraphe": false,
+            "statut": "final",
+            "voisins": {
+              "-2": "tol",
+              "-1": "qotshol",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          },
+          {
+            "lieu": "f48v.9",
+            "main": "5",
+            "Currier": "B",
+            "position": 10,
+            "longueur_ligne": 12,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "lol",
+              "-1": "otchdy",
+              "1": "ytam",
+              "2": "otedy"
+            },
+            "coupures_dessin_après_position": [
+              3,
+              8
+            ]
+          },
+          {
+            "lieu": "f53v.13",
+            "main": "1",
+            "Currier": "A",
+            "position": 2,
+            "longueur_ligne": 2,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": true,
+            "statut": "final",
+            "voisins": {
+              "-2": null,
+              "-1": "yckhodaiin",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          }
+        ],
+        "comparaisons": {
+          "même_ligne": {
+            "cible": {
+              "comparables": {
+                "-2": 6,
+                "-1": 10,
+                "1": 3,
+                "2": 3
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": [
+                  [
+                    "f22r.11",
+                    "f28r.7",
+                    "dol"
+                  ]
+                ]
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          },
+          "même_segment": {
+            "cible": {
+              "comparables": {
+                "-2": 3,
+                "-1": 10,
+                "1": 1,
+                "2": 1
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": []
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          }
+        },
+        "complément_main_1_A": {
+          "cible": {
+            "comparables": {
+              "-2": 3,
+              "-1": 6,
+              "1": 1,
+              "2": 1
+            },
+            "accords": {
+              "-2": [],
+              "-1": [],
+              "1": [],
+              "2": [
+                [
+                  "f22r.11",
+                  "f28r.7",
+                  "dol"
+                ]
+              ]
+            },
+            "score": 0,
+            "cadres": []
+          },
+          "témoins": {
+            "fréquence_main_langue_faces": {
+              "n": 44,
+              "au_moins_cible": 44,
+              "scores": {
+                "0": 41,
+                "1": 3
+              },
+              "mots": {
+                "chcphy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "cheeor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "chochy": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 0
+                  }
+                },
+                "chokchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chotchey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chr": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "chyky": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "ckheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ckhody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "cphor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 6
+                  }
+                },
+                "da": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 0
+                  }
+                },
+                "dl": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 1
+                  }
+                },
+                "kchaiin": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "kcheol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 6
+                  }
+                },
+                "koiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ksheo": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "lor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ochor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "oeees": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 1
+                  }
+                },
+                "okchal": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "okcho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "okey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "okoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "oksho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "otshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "qokchey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qokod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qokoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qotshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "shain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "shckhy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "shokchy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "shos": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "shoty": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "tcheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "teey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "tey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "tsho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "tshol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ycheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ychy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ytey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                }
+              }
+            },
+            "positions_identiques": {
+              "n": 1,
+              "au_moins_cible": 1,
+              "scores": {
+                "0": 1
+              },
+              "mots": {
+                "dl": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rosettes_exploratoire": {
+          "fRos_lignes": 160,
+          "fRos_étiquettes": 137,
+          "couple_exact_tout_manuscrit": [
+            [
+              "f48v.9",
+              9,
+              "P0"
+            ],
+            [
+              "fRos.45",
+              1,
+              "L0"
+            ]
+          ],
+          "étiquettes_de_deux_mots_lisibles": 18,
+          "couple_inverse_tout_manuscrit": [],
+          "permutations_second_mot": {
+            "permutations": 6402373705728000,
+            "zéro": 3933833212108800,
+            "au_moins_un": "7079/18360",
+            "possibilités_de_couple": 324,
+            "possibilités_donnant_un_bigramme_botanique": 8
+          },
+          "couples_distincts": 18,
+          "étiquettes_avec_reprise_en_prose_botanique": {
+            "fRos.45": {
+              "mots": [
+                "otchdy",
+                "otoldy"
+              ],
+              "prose": [
+                [
+                  "f48v.9",
+                  9
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "joints": {
+        "faces_prose": 128,
+        "lignes_prose": 1608,
+        "positions": 10778,
+        "positions_simples": 10256,
+        "lignes_otoldy": [
+          {
+            "lieu": "f22r.11",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 10,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "qokchy",
+              "-1": "oky",
+              "1": "yty",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              8
+            ]
+          },
+          {
+            "lieu": "f28r.7",
+            "main": "1",
+            "Currier": "A",
+            "position": 5,
+            "longueur_ligne": 8,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "shockhy",
+              "-1": "shocthy",
+              "1": "dshor",
+              "2": "dol"
+            },
+            "coupures_dessin_après_position": [
+              5
+            ]
+          },
+          {
+            "lieu": "f44v.1",
+            "main": "1",
+            "Currier": "A",
+            "position": 10,
+            "longueur_ligne": 10,
+            "ligne_ouvre_paragraphe": true,
+            "ligne_ferme_paragraphe": false,
+            "statut": "final",
+            "voisins": {
+              "-2": "tol",
+              "-1": "qotshol",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          },
+          {
+            "lieu": "f48v.9",
+            "main": "5",
+            "Currier": "B",
+            "position": 10,
+            "longueur_ligne": 12,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": false,
+            "statut": "intérieur",
+            "voisins": {
+              "-2": "lol",
+              "-1": "otchdy",
+              "1": "ytam",
+              "2": "otedy"
+            },
+            "coupures_dessin_après_position": [
+              3,
+              8
+            ]
+          },
+          {
+            "lieu": "f53v.13",
+            "main": "1",
+            "Currier": "A",
+            "position": 2,
+            "longueur_ligne": 2,
+            "ligne_ouvre_paragraphe": false,
+            "ligne_ferme_paragraphe": true,
+            "statut": "final",
+            "voisins": {
+              "-2": null,
+              "-1": "yckhodaiin",
+              "1": null,
+              "2": null
+            },
+            "coupures_dessin_après_position": []
+          }
+        ],
+        "comparaisons": {
+          "même_ligne": {
+            "cible": {
+              "comparables": {
+                "-2": 6,
+                "-1": 10,
+                "1": 3,
+                "2": 3
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": [
+                  [
+                    "f22r.11",
+                    "f28r.7",
+                    "dol"
+                  ]
+                ]
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          },
+          "même_segment": {
+            "cible": {
+              "comparables": {
+                "-2": 3,
+                "-1": 10,
+                "1": 1,
+                "2": 1
+              },
+              "accords": {
+                "-2": [],
+                "-1": [],
+                "1": [],
+                "2": []
+              },
+              "score": 0,
+              "cadres": []
+            },
+            "témoins": {
+              "fréquence_main_langue_faces": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              },
+              "positions_identiques": {
+                "n": 0,
+                "au_moins_cible": 0,
+                "scores": {},
+                "mots": {}
+              }
+            }
+          }
+        },
+        "complément_main_1_A": {
+          "cible": {
+            "comparables": {
+              "-2": 3,
+              "-1": 6,
+              "1": 1,
+              "2": 1
+            },
+            "accords": {
+              "-2": [],
+              "-1": [],
+              "1": [],
+              "2": [
+                [
+                  "f22r.11",
+                  "f28r.7",
+                  "dol"
+                ]
+              ]
+            },
+            "score": 0,
+            "cadres": []
+          },
+          "témoins": {
+            "fréquence_main_langue_faces": {
+              "n": 43,
+              "au_moins_cible": 43,
+              "scores": {
+                "0": 41,
+                "1": 2
+              },
+              "mots": {
+                "am": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "chcphy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "cheeor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "chochy": {
+                  "score": 1,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 0
+                  }
+                },
+                "chod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chokchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "chykchy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 0
+                  }
+                },
+                "ckheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "ckhody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "cphor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 6
+                  }
+                },
+                "ctheor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "cthod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 0
+                  }
+                },
+                "g": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 3,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "kcheol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 3,
+                    "2": 6
+                  }
+                },
+                "keor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "lor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "ochor": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "oeees": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "okam": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 0,
+                    "2": 0
+                  }
+                },
+                "okchal": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "okey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "olol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "opchy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "otshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qody": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "qokchey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qokod": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qokoiin": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "qopchy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "qot": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "qotshey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "qotshy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "sain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "shain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 3,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "shar": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "shokchy": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 1
+                  }
+                },
+                "shos": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 3,
+                    "2": 3
+                  }
+                },
+                "tcheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 3,
+                    "-1": 6,
+                    "1": 3,
+                    "2": 1
+                  }
+                },
+                "tsho": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 1,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "tshol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ty": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 6,
+                    "2": 3
+                  }
+                },
+                "ycheey": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 0,
+                    "-1": 0,
+                    "1": 6,
+                    "2": 6
+                  }
+                },
+                "ytchol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 1,
+                    "-1": 3,
+                    "1": 6,
+                    "2": 3
+                  }
+                }
+              }
+            },
+            "positions_identiques": {
+              "n": 2,
+              "au_moins_cible": 2,
+              "scores": {
+                "0": 2
+              },
+              "mots": {
+                "olol": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 0
+                  }
+                },
+                "sain": {
+                  "score": 0,
+                  "comparables": {
+                    "-2": 6,
+                    "-1": 6,
+                    "1": 1,
+                    "2": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rosettes_exploratoire": {
+          "fRos_lignes": 160,
+          "fRos_étiquettes": 137,
+          "couple_exact_tout_manuscrit": [
+            [
+              "f48v.9",
+              9,
+              "P0"
+            ],
+            [
+              "fRos.45",
+              1,
+              "L0"
+            ]
+          ],
+          "étiquettes_de_deux_mots_lisibles": 10,
+          "couple_inverse_tout_manuscrit": [],
+          "permutations_second_mot": {
+            "permutations": 3628800,
+            "zéro": 3265920,
+            "au_moins_un": "1/10",
+            "possibilités_de_couple": 100,
+            "possibilités_donnant_un_bigramme_botanique": 1
+          },
+          "couples_distincts": 10,
+          "étiquettes_avec_reprise_en_prose_botanique": {
+            "fRos.45": {
+              "mots": [
+                "otchdy",
+                "otoldy"
+              ],
+              "prose": [
+                [
+                  "f48v.9",
+                  9
+                ]
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
