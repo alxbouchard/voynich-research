@@ -1,4 +1,5 @@
 """Freeze pairs from actual fragment inscriptions without processing any prose."""
+import argparse
 import csv
 import hashlib
 import itertools
@@ -68,17 +69,21 @@ def predict(tables, layout, edition, split, broad):
     return rows
 
 
-def main():
-    with GEOMETRY.open() as stream:
+def main(extended):
+    geom = HERE/"rangees/pots_elargis.tsv" if extended else GEOMETRY
+    with geom.open() as stream:
         layout = list(csv.DictReader(stream, delimiter="\t"))
     tables = {ed: load_labels(DATA/f) for ed,f in EDITIONS.items()}
-    out = {"geometrie_sha256": sha(GEOMETRY), "ivtff_sha256": {ed: sha(DATA/f) for ed,f in EDITIONS.items()},
+    out = {"geometrie_sha256": sha(geom), "ivtff_sha256": {ed: sha(DATA/f) for ed,f in EDITIONS.items()},
            "paire_pot_fragment": ["okol","otoldy"], "conditions": {}}
     for ed,split,broad in itertools.product(("accord","H","ZL"), (False,True),(False,True)):
         name = "/".join((ed, "separe" if split else "joint","elargi" if broad else "strict"))
         out["conditions"][name] = predict(tables,layout,ed,split,broad)
-    (HERE/"predictions.json").write_text(json.dumps(out,ensure_ascii=False,indent=1)+"\n")
+    filename = "predictions_pots_elargis.json" if extended else "predictions.json"
+    (HERE/filename).write_text(json.dumps(out,ensure_ascii=False,indent=1)+"\n")
 
 
 if __name__=="__main__":
-    main()
+    args=argparse.ArgumentParser()
+    args.add_argument("--pots-elargis", action="store_true")
+    main(args.parse_args().pots_elargis)

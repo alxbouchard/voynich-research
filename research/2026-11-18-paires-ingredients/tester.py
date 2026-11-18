@@ -195,7 +195,7 @@ def render_pairs(records, allowed):
     return {" ".join(key):records[key] for key in sorted(records.keys() & allowed)}
 
 
-def analyse(rows,scope,edition,split,raw,window,relaxed,primary):
+def analyse(rows,scope,edition,split,raw,window,relaxed,primary,check_null):
     groups = passages(rows,scope,edition,raw)
     own = {k:{tuple(p) for p in row["paires"]} for k,row in rows.items()}
     own_all = set().union(*own.values())
@@ -233,21 +233,23 @@ def analyse(rows,scope,edition,split,raw,window,relaxed,primary):
         out["rangs_positifs"]=[k for k,pairs in own.items() if pairs & hits]
     else:
         out["rangs_positifs"]=[k for k in rows if own[k] & sets[k]]
-    if primary:
+    if check_null:
         out["permutations"]=permute(rows,sets,scope)
         assert out["permutations"]["rangs_observes"]==len(out["rangs_positifs"])
     return out
 
 
-def execute(scope):
-    p = HERE/"predictions.json"
+def execute(scope, extended=False):
+    suffix = "_pots_elargis" if extended else ""
+    geometry = HERE/"rangees/pots_elargis.tsv" if extended else GEOMETRY
+    p = HERE/("predictions"+suffix+".json")
     pred = json.loads(p.read_text())
-    assert pred["geometrie_sha256"] == sha(GEOMETRY)
+    assert pred["geometrie_sha256"] == sha(geometry)
     assert all(sha(DATA/f)==pred["ivtff_sha256"][ed] for ed,f in EDITIONS.items())
     if scope=="notices":
         paragraphs=json.loads((HERE/"notices/paragraphes.json").read_text())
         pages={x.split(".")[0] for v in paragraphs.values() for seq in v for x in seq}
-        local_path=HERE/"local.json"
+        local_path=HERE/("local"+suffix+".json")
         local=json.loads(local_path.read_text())
         assert local["prediction_sha256"]==sha(p)
     else:
@@ -270,17 +272,20 @@ def execute(scope):
         for window,relaxed in configs:
             primary=cond==PRIMARY and window==8 and not relaxed
             key=cond+("/proche" if window else "/entier")+("/base" if relaxed else "/exact")
-            run=analyse(rows,scope,ed,space=="separe",raw,window,relaxed,primary)
+            check_null=cond==PRIMARY or (cond=="accord/joint/elargi" and window==8)
+            run=analyse(rows,scope,ed,space=="separe",raw,window,relaxed,primary,check_null)
             if scope=="notices":
                 frozen={pair for block in local["analyses"][key]["blocs"].values()
                         for pair in block["paires_retrouvees"]}
                 run["issues_du_local"]=sorted(frozen)
                 run["local_puis_notices"]=sorted(frozen & set(run["blocs"]["notices"]["paires_retrouvees"]))
             result["analyses"][key]=run
-    (HERE/(scope+".json")).write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n")
+    (HERE/(scope+suffix+".json")).write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n")
 
 
 if __name__=="__main__":
     args=argparse.ArgumentParser()
     args.add_argument("scope",choices=["local","notices"])
-    execute(args.parse_args().scope)
+    args.add_argument("--pots-elargis", action="store_true")
+    args=args.parse_args()
+    execute(args.scope,args.pots_elargis)
