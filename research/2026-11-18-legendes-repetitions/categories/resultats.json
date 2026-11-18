@@ -1,0 +1,5640 @@
+{
+  "source_sha256": "ebe5e0c5a9eb6ac7e2cfc840d5f4be87b85bf9933c979bec8cb69a66d5e4727d",
+  "principal": {
+    "total": {
+      "absent": 354,
+      "faux": 61,
+      "egalite": 21,
+      "juste": 9,
+      "temoin_juste": 7
+    },
+    "par_categorie": {
+      "Lc": {
+        "absent": 17,
+        "faux": 1
+      },
+      "Lf": {
+        "absent": 103,
+        "faux": 20,
+        "egalite": 2,
+        "juste": 5
+      },
+      "Ln": {
+        "absent": 31,
+        "faux": 14,
+        "juste": 2
+      },
+      "Ls": {
+        "absent": 44,
+        "faux": 4
+      },
+      "Lt": {
+        "absent": 22,
+        "faux": 9
+      },
+      "Lz": {
+        "absent": 137,
+        "temoin_juste": 7,
+        "faux": 13,
+        "egalite": 19,
+        "juste": 2
+      }
+    },
+    "lieux": [
+      {
+        "feuillet": 88,
+        "lieu": "f88r.1",
+        "mot": "otorchety",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.12",
+        "mot": "otaldy",
+        "attendu": "Lc",
+        "prediction": "Lf",
+        "voix": [
+          [
+            101,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.23",
+        "mot": "ofyskydal",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.11",
+        "mot": "otoram",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.27",
+        "mot": "daramdal",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.1",
+        "mot": "okchshy",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.11",
+        "mot": "ykyd",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.24",
+        "mot": "ykocfhy",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.1",
+        "mot": "odory",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v1.1",
+        "mot": "okoraldy",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v1.21",
+        "mot": "koeeorain",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.1",
+        "mot": "choeesy",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.23",
+        "mot": "opaloiiry",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.19",
+        "mot": "oparal",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.32",
+        "mot": "tsholdy",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.45",
+        "mot": "yteoldy",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.14",
+        "mot": "okoldody",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.25",
+        "mot": "darolaly",
+        "attendu": "Lc",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.1",
+        "mot": "chosaroshol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.10",
+        "mot": "dakocth",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.16",
+        "mot": "okeeos",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.17",
+        "mot": "shockhey",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.18",
+        "mot": "orol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.19",
+        "mot": "olcheom",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.2",
+        "mot": "sochorcfhy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.20",
+        "mot": "oteol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.21",
+        "mot": "okols",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.3",
+        "mot": "otear",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.7",
+        "mot": "chalsain",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.8",
+        "mot": "soity",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100r.9",
+        "mot": "sosam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.1",
+        "mot": "tolchd",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.10",
+        "mot": "okcheor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.11",
+        "mot": "ytchol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.12",
+        "mot": "dykchal",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.2",
+        "mot": "chols",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.3",
+        "mot": "opchor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.6",
+        "mot": "ykchochdy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.7",
+        "mot": "ykchdy",
+        "attendu": "Lf",
+        "prediction": "Ls",
+        "voix": [
+          [
+            68,
+            "Ls"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.8",
+        "mot": "dchdy",
+        "attendu": "Lf",
+        "prediction": "Lt",
+        "voix": [
+          [
+            77,
+            "Lt"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 100,
+        "lieu": "f100v.9",
+        "mot": "dalsy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.10",
+        "mot": "okol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            82,
+            "Ln"
+          ],
+          [
+            88,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.11",
+        "mot": "arom",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.15",
+        "mot": "olkor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.16",
+        "mot": "dolary",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.17",
+        "mot": "odor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.18",
+        "mot": "olaran",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.2",
+        "mot": "otaldy",
+        "attendu": "Lf",
+        "prediction": "Lc",
+        "voix": [
+          [
+            88,
+            "Lc"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.5",
+        "mot": "dokor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.6",
+        "mot": "orar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 101,
+        "lieu": "f101v.9",
+        "mot": "soraly",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102r1.2",
+        "mot": "otodeeodor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102r2.21",
+        "mot": "koldarod",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102r2.22",
+        "mot": "odalydary",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v1.16",
+        "mot": "ypcholdy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v1.17",
+        "mot": "loralody",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v1.18",
+        "mot": "opchdard",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v1.3",
+        "mot": "okeody",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v1.6",
+        "mot": "opchytcy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.10",
+        "mot": "okody",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.11",
+        "mot": "cheor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.12",
+        "mot": "okoroeey",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.13",
+        "mot": "opchy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.14",
+        "mot": "sarol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.15",
+        "mot": "olrodar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.27",
+        "mot": "okeeoraiin",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.28",
+        "mot": "okockhy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.3",
+        "mot": "oror",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.5",
+        "mot": "sachy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 102,
+        "lieu": "f102v2.8",
+        "mot": "otory",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.13",
+        "mot": "oram",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.14",
+        "mot": "dary",
+        "attendu": "Lf",
+        "prediction": "Ln",
+        "voix": [
+          [
+            75,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.15",
+        "mot": "okol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            82,
+            "Ln"
+          ],
+          [
+            101,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.16",
+        "mot": "sorory",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.17",
+        "mot": "otyda",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.25",
+        "mot": "ofaldo",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.3",
+        "mot": "orald",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.4",
+        "mot": "oldar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.5",
+        "mot": "otoky",
+        "attendu": "Lf",
+        "prediction": "Lf",
+        "voix": [
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88r.6",
+        "mot": "otaly",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ],
+          [
+            84,
+            "Lt"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.13",
+        "mot": "cheosdy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.14",
+        "mot": "okaiin",
+        "attendu": "Lf",
+        "prediction": "Lt",
+        "voix": [
+          [
+            83,
+            "Lt"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.2",
+        "mot": "cheocthy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.28",
+        "mot": "otydary",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.29",
+        "mot": "otdordy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.3",
+        "mot": "cpheor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 88,
+        "lieu": "f88v.5",
+        "mot": "otokol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.13",
+        "mot": "otorain",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.2",
+        "mot": "qkol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.25",
+        "mot": "saldam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.3",
+        "mot": "oldam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.4",
+        "mot": "otoldy",
+        "attendu": "Lf",
+        "prediction": "Lf",
+        "voix": [
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r1.5",
+        "mot": "ararchodaiin",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.17",
+        "mot": "sodar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.18",
+        "mot": "cheys",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.19",
+        "mot": "cheody",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.2",
+        "mot": "doly",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.3",
+        "mot": "opchosam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.31",
+        "mot": "ofakal",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.32",
+        "mot": "otalsy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.33",
+        "mot": "ytarem",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.34",
+        "mot": "otolarol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89r2.5",
+        "mot": "opcheor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v1.2",
+        "mot": "otoikhy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v1.3",
+        "mot": "otchar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v1.4",
+        "mot": "darshody",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.2",
+        "mot": "okam",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.24",
+        "mot": "otaram",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.4",
+        "mot": "chokaro",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.5",
+        "mot": "sheol",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 89,
+        "lieu": "f89v2.6",
+        "mot": "chokam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.10",
+        "mot": "skeeal",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.11",
+        "mot": "okary",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.12",
+        "mot": "okolo",
+        "attendu": "Lf",
+        "prediction": "Ln",
+        "voix": [
+          [
+            80,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.13",
+        "mot": "otalam",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.14",
+        "mot": "otoldy",
+        "attendu": "Lf",
+        "prediction": "Lf",
+        "voix": [
+          [
+            89,
+            "Lf"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.20",
+        "mot": "oaro",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.21",
+        "mot": "aloly",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.23",
+        "mot": "choky",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.24",
+        "mot": "oky",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.25",
+        "mot": "okeoly",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            72,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.26",
+        "mot": "yteold",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.27",
+        "mot": "cheotchy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.3",
+        "mot": "darar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.33",
+        "mot": "okos",
+        "attendu": "Lf",
+        "prediction": "Ls",
+        "voix": [
+          [
+            68,
+            "Ls"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.34",
+        "mot": "oekey",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.38",
+        "mot": "saiiny",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.4",
+        "mot": "oky",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.40",
+        "mot": "dam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.46",
+        "mot": "tolsasy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.5",
+        "mot": "salo",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99r.8",
+        "mot": "okor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.15",
+        "mot": "oeeesary",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.18",
+        "mot": "saiino",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.19",
+        "mot": "otolsar",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.2",
+        "mot": "otoldy",
+        "attendu": "Lf",
+        "prediction": "Lf",
+        "voix": [
+          [
+            89,
+            "Lf"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.20",
+        "mot": "osary",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.26",
+        "mot": "okechy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.27",
+        "mot": "otal",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.29",
+        "mot": "okeodor",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.30",
+        "mot": "olky",
+        "attendu": "Lf",
+        "prediction": "Ln",
+        "voix": [
+          [
+            80,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.31",
+        "mot": "doldam",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.4",
+        "mot": "oldy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.44",
+        "mot": "koleearol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.6",
+        "mot": "otaly",
+        "attendu": "Lf",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ],
+          [
+            84,
+            "Lt"
+          ],
+          [
+            88,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.7",
+        "mot": "olsy",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.8",
+        "mot": "arol",
+        "attendu": "Lf",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 99,
+        "lieu": "f99v.9",
+        "mot": "otoky",
+        "attendu": "Lf",
+        "prediction": "Lf",
+        "voix": [
+          [
+            88,
+            "Lf"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.18",
+        "mot": "okshy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.19",
+        "mot": "saral",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.20",
+        "mot": "dokal",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.21",
+        "mot": "darol",
+        "attendu": "Ln",
+        "prediction": "Lt",
+        "voix": [
+          [
+            82,
+            "Lt"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.24",
+        "mot": "dalkar",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.25",
+        "mot": "qokal",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.26",
+        "mot": "dly",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.27",
+        "mot": "ory",
+        "attendu": "Ln",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.28",
+        "mot": "oty",
+        "attendu": "Ln",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.29",
+        "mot": "lchy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.30",
+        "mot": "dary",
+        "attendu": "Ln",
+        "prediction": "Lf",
+        "voix": [
+          [
+            88,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.31",
+        "mot": "dal",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.32",
+        "mot": "daldy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.33",
+        "mot": "qoted",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.34",
+        "mot": "rkal",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.35",
+        "mot": "ykedy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.36",
+        "mot": "olkchy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.37",
+        "mot": "otoly",
+        "attendu": "Ln",
+        "prediction": "Ln",
+        "voix": [
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.1",
+        "mot": "darchdar",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.49",
+        "mot": "otchdy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.8",
+        "mot": "dotedy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.2",
+        "mot": "olchdy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.3",
+        "mot": "okaly",
+        "attendu": "Ln",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.4",
+        "mot": "okolo",
+        "attendu": "Ln",
+        "prediction": "Lf",
+        "voix": [
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.6",
+        "mot": "opor",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.7",
+        "mot": "olky",
+        "attendu": "Ln",
+        "prediction": "Lf",
+        "voix": [
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.8",
+        "mot": "otalshedy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 80,
+        "lieu": "f80r.9",
+        "mot": "okar",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82r.36",
+        "mot": "okal",
+        "attendu": "Ln",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82r.40",
+        "mot": "sororl",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82r.42",
+        "mot": "sokoly",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82r.43",
+        "mot": "dolol",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82r.44",
+        "mot": "olaiin",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.1",
+        "mot": "otechdy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.2",
+        "mot": "otedy",
+        "attendu": "Ln",
+        "prediction": "Lt",
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            75,
+            "Lt"
+          ],
+          [
+            77,
+            "Lt"
+          ],
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.39",
+        "mot": "olkeedy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.40",
+        "mot": "okalchy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.41",
+        "mot": "okain",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.44",
+        "mot": "okol",
+        "attendu": "Ln",
+        "prediction": "Lf",
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            88,
+            "Lf"
+          ],
+          [
+            101,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83v.34",
+        "mot": "okchdy",
+        "attendu": "Ln",
+        "prediction": "Lt",
+        "voix": [
+          [
+            78,
+            "Lt"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.10",
+        "mot": "okolshy",
+        "attendu": "Ln",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.11",
+        "mot": "otoly",
+        "attendu": "Ln",
+        "prediction": "Ln",
+        "voix": [
+          [
+            75,
+            "Ln"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.12",
+        "mot": "dshedy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.3",
+        "mot": "ydy",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.4",
+        "mot": "okedy",
+        "attendu": "Ln",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.8",
+        "mot": "otedy",
+        "attendu": "Ln",
+        "prediction": "Lt",
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            75,
+            "Lt"
+          ],
+          [
+            77,
+            "Lt"
+          ],
+          [
+            82,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.9",
+        "mot": "lkol",
+        "attendu": "Ln",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 67,
+        "lieu": "f67r2.52",
+        "mot": "qotoear",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 67,
+        "lieu": "f67r2.55",
+        "mot": "ytodal",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 67,
+        "lieu": "f67r2.60",
+        "mot": "octhys",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 67,
+        "lieu": "f67r2.61",
+        "mot": "ytokar",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 67,
+        "lieu": "f67r2.62",
+        "mot": "otolor",
+        "attendu": "Ls",
+        "prediction": "Lt",
+        "voix": [
+          [
+            77,
+            "Lt"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.10",
+        "mot": "otcheody",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.11",
+        "mot": "okoaly",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.13",
+        "mot": "octhey",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.15",
+        "mot": "otydy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.17",
+        "mot": "cphocthy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.18",
+        "mot": "ytchody",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.19",
+        "mot": "otys",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.20",
+        "mot": "olor",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.21",
+        "mot": "ockhy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.22",
+        "mot": "ofcheor",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.24",
+        "mot": "otykchs",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.25",
+        "mot": "otol",
+        "attendu": "Ls",
+        "prediction": "Lt",
+        "voix": [
+          [
+            77,
+            "Lt"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.26",
+        "mot": "otor",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.27",
+        "mot": "oiinar",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.28",
+        "mot": "okoldy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.29",
+        "mot": "ykchdy",
+        "attendu": "Ls",
+        "prediction": "Lf",
+        "voix": [
+          [
+            100,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.31",
+        "mot": "ocphy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.32",
+        "mot": "okeeodal",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.33",
+        "mot": "okshor",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.35",
+        "mot": "otochedy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.36",
+        "mot": "dolchedy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.8",
+        "mot": "okodaly",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r1.9",
+        "mot": "odchecthy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.10",
+        "mot": "ochory",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.11",
+        "mot": "shdar",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.12",
+        "mot": "dchol",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.13",
+        "mot": "todaraiily",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.14",
+        "mot": "olcheesey",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.15",
+        "mot": "okchor",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.16",
+        "mot": "oteool",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.17",
+        "mot": "oydchy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.19",
+        "mot": "cholar",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.20",
+        "mot": "dcheoldy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.24",
+        "mot": "otcheodar",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.26",
+        "mot": "opocphor",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.27",
+        "mot": "otoshol",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.28",
+        "mot": "chodar",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.8",
+        "mot": "cheorol",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r2.9",
+        "mot": "odaiin",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r3.11",
+        "mot": "doaro",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r3.13",
+        "mot": "okos",
+        "attendu": "Ls",
+        "prediction": "Lf",
+        "voix": [
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r3.17",
+        "mot": "okolchy",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 68,
+        "lieu": "f68r3.20",
+        "mot": "darall",
+        "attendu": "Ls",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.52",
+        "mot": "olol",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.53",
+        "mot": "ytedy",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.54",
+        "mot": "otedy",
+        "attendu": "Lt",
+        "prediction": "Ln",
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            77,
+            "Lt"
+          ],
+          [
+            82,
+            "Ln"
+          ],
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.55",
+        "mot": "oteey",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 75,
+        "lieu": "f75v.56",
+        "mot": "qotedy",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.2",
+        "mot": "olkchs",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.3",
+        "mot": "otedy",
+        "attendu": "Lt",
+        "prediction": "Ln",
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            75,
+            "Lt"
+          ],
+          [
+            82,
+            "Ln"
+          ],
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.4",
+        "mot": "otork",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.5",
+        "mot": "otol",
+        "attendu": "Lt",
+        "prediction": "Ls",
+        "voix": [
+          [
+            68,
+            "Ls"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.6",
+        "mot": "dchdy",
+        "attendu": "Lt",
+        "prediction": "Lf",
+        "voix": [
+          [
+            100,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77r.7",
+        "mot": "soral",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77v.3",
+        "mot": "olkeedal",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77v.4",
+        "mot": "otolor",
+        "attendu": "Lt",
+        "prediction": "Ls",
+        "voix": [
+          [
+            67,
+            "Ls"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 77,
+        "lieu": "f77v.44",
+        "mot": "okalo",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 78,
+        "lieu": "f78r.1",
+        "mot": "okchdldlo",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 78,
+        "lieu": "f78r.2",
+        "mot": "okchdy",
+        "attendu": "Lt",
+        "prediction": "Ln",
+        "voix": [
+          [
+            83,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 78,
+        "lieu": "f78r.45",
+        "mot": "dchedaly",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 78,
+        "lieu": "f78r.47",
+        "mot": "okaral",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82r.35",
+        "mot": "darol",
+        "attendu": "Lt",
+        "prediction": "Ln",
+        "voix": [
+          [
+            75,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.4",
+        "mot": "otedal",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.43",
+        "mot": "okedor",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.46",
+        "mot": "olkol",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.47",
+        "mot": "otedol",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 82,
+        "lieu": "f82v.48",
+        "mot": "oteedy",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83r.45",
+        "mot": "chtorol",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83r.46",
+        "mot": "olsaiin",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83r.51",
+        "mot": "darolsy",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83v.10",
+        "mot": "okarchy",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83v.35",
+        "mot": "okaiin",
+        "attendu": "Lt",
+        "prediction": "Lf",
+        "voix": [
+          [
+            88,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 83,
+        "lieu": "f83v.9",
+        "mot": "ololary",
+        "attendu": "Lt",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 84,
+        "lieu": "f84r.47",
+        "mot": "otaly",
+        "attendu": "Lt",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ],
+          [
+            88,
+            "Lf"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v1.10",
+        "mot": "otshshdy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v1.13",
+        "mot": "okoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v1.5",
+        "mot": "okalal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v1.7",
+        "mot": "oalcheg",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v1.8",
+        "mot": "otchodals",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v1.9",
+        "mot": "okolshy",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.10",
+        "mot": "otald",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.12",
+        "mot": "okody",
+        "attendu": "Lz",
+        "prediction": "Lf",
+        "voix": [
+          [
+            102,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.14",
+        "mot": "chckhhy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.15",
+        "mot": "otaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ],
+          [
+            84,
+            "Lt"
+          ],
+          [
+            88,
+            "Lf"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.18",
+        "mot": "okeoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.19",
+        "mot": "okydy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.2",
+        "mot": "otalalg",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.24",
+        "mot": "otalar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.25",
+        "mot": "otalam",
+        "attendu": "Lz",
+        "prediction": "Lf",
+        "voix": [
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.26",
+        "mot": "dolaram",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.27",
+        "mot": "okaram",
+        "attendu": "Lz",
+        "prediction": "Lz",
+        "voix": [
+          [
+            72,
+            "Lz"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.28",
+        "mot": "oteosal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.29",
+        "mot": "salols",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.30",
+        "mot": "okaldal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.31",
+        "mot": "ykolaiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.5",
+        "mot": "oty",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            75,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 70,
+        "lieu": "f70v2.9",
+        "mot": "otody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.11",
+        "mot": "otalaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.14",
+        "mot": "otoloaram",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.15",
+        "mot": "oteeol",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.16",
+        "mot": "otolchd",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.3",
+        "mot": "okldam",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.4",
+        "mot": "oteoaldy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.5",
+        "mot": "oteolar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.6",
+        "mot": "okeoaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.7",
+        "mot": "otaleky",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71r.8",
+        "mot": "otalsar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.14",
+        "mot": "otalody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.15",
+        "mot": "otalaiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.17",
+        "mot": "sholshdy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.3",
+        "mot": "chfaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.4",
+        "mot": "okolar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.5",
+        "mot": "otchody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.7",
+        "mot": "otaiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 71,
+        "lieu": "f71v.8",
+        "mot": "okaraiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r1.13",
+        "mot": "ofaralar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r1.14",
+        "mot": "otchoshy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r1.15",
+        "mot": "otchdal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r1.17",
+        "mot": "otainy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r1.5",
+        "mot": "okalam",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r1.8",
+        "mot": "otaraldy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.10",
+        "mot": "okaly",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            80,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.11",
+        "mot": "okal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            82,
+            "Ln"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.13",
+        "mot": "oteeary",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.15",
+        "mot": "okaircham",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.16",
+        "mot": "okeal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.18",
+        "mot": "okaly",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            80,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.19",
+        "mot": "orary",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.2",
+        "mot": "oklairdy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.20",
+        "mot": "okyd",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.21",
+        "mot": "otolam",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.23",
+        "mot": "otal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.25",
+        "mot": "okam",
+        "attendu": "Lz",
+        "prediction": "Lf",
+        "voix": [
+          [
+            89,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.26",
+        "mot": "otalshy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.27",
+        "mot": "okaldy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.28",
+        "mot": "chosar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.29",
+        "mot": "otam",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.3",
+        "mot": "okaram",
+        "attendu": "Lz",
+        "prediction": "Lz",
+        "voix": [
+          [
+            70,
+            "Lz"
+          ]
+        ],
+        "issue": "juste",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.30",
+        "mot": "ainaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.4",
+        "mot": "okairy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.7",
+        "mot": "otaraldy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.8",
+        "mot": "okalar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r2.9",
+        "mot": "okal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            82,
+            "Ln"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.11",
+        "mot": "ofsholdy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.13",
+        "mot": "ykolairol",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.16",
+        "mot": "ytairal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.18",
+        "mot": "ory",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            75,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.2",
+        "mot": "olkalaiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.22",
+        "mot": "okalar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.23",
+        "mot": "orara",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.25",
+        "mot": "olfsheoral",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.27",
+        "mot": "opalal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.28",
+        "mot": "yfary",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.3",
+        "mot": "olalsy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.31",
+        "mot": "octho",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72r3.33",
+        "mot": "oletal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.10",
+        "mot": "odal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.11",
+        "mot": "aiinod",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.13",
+        "mot": "oteod",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.14",
+        "mot": "yteod",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.17",
+        "mot": "ytaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.19",
+        "mot": "oteofy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.2",
+        "mot": "oeeoty",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.20",
+        "mot": "cheoepy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.21",
+        "mot": "ykeedy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.23",
+        "mot": "oeeoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.25",
+        "mot": "okeey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.26",
+        "mot": "oiiny",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.27",
+        "mot": "oeey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.28",
+        "mot": "okedy",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.3",
+        "mot": "octhy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.30",
+        "mot": "okalair",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.31",
+        "mot": "oeeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.32",
+        "mot": "okeol",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.4",
+        "mot": "oteoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.5",
+        "mot": "okeoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.6",
+        "mot": "oeees",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.8",
+        "mot": "oees",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v1.9",
+        "mot": "okeeoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.10",
+        "mot": "sheoeky",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.11",
+        "mot": "oteodar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.12",
+        "mot": "ofchdysd",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.14",
+        "mot": "yteody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.15",
+        "mot": "okeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            102,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.16",
+        "mot": "okeoldy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.2",
+        "mot": "oeedey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.23",
+        "mot": "oeedy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.24",
+        "mot": "opalg",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.25",
+        "mot": "okeeom",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.26",
+        "mot": "olkar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.27",
+        "mot": "oeedaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.29",
+        "mot": "ofcheay",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.30",
+        "mot": "yteedy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.4",
+        "mot": "okeoram",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v2.6",
+        "mot": "oshesy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.11",
+        "mot": "ofalals",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.16",
+        "mot": "okeeol",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.17",
+        "mot": "okaly",
+        "attendu": "Lz",
+        "prediction": "Ln",
+        "voix": [
+          [
+            80,
+            "Ln"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.18",
+        "mot": "okaldy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.22",
+        "mot": "oky",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.23",
+        "mot": "chcthhy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.27",
+        "mot": "okary",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            73,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.31",
+        "mot": "otaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            73,
+            "Lz"
+          ],
+          [
+            84,
+            "Lt"
+          ],
+          [
+            88,
+            "Lf"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.4",
+        "mot": "okam",
+        "attendu": "Lz",
+        "prediction": "Lf",
+        "voix": [
+          [
+            89,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.5",
+        "mot": "okey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 72,
+        "lieu": "f72v3.7",
+        "mot": "okyeeshy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lf"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.12",
+        "mot": "ykeeory",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.13",
+        "mot": "oteeosy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.14",
+        "mot": "shekal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.17",
+        "mot": "chdy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.18",
+        "mot": "dalshey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.19",
+        "mot": "opaiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.2",
+        "mot": "chockhy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.20",
+        "mot": "okeos",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.21",
+        "mot": "otey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.23",
+        "mot": "okary",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.26",
+        "mot": "oky",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.27",
+        "mot": "chefy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.28",
+        "mot": "otal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.30",
+        "mot": "ar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.31",
+        "mot": "kar",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.4",
+        "mot": "yteeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.6",
+        "mot": "otaly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            70,
+            "Lz"
+          ],
+          [
+            72,
+            "Lz"
+          ],
+          [
+            84,
+            "Lt"
+          ],
+          [
+            88,
+            "Lf"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.7",
+        "mot": "okeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            102,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73r.8",
+        "mot": "oteedyl",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.1",
+        "mot": "okol",
+        "attendu": "Lz",
+        "prediction": "Lf",
+        "voix": [
+          [
+            82,
+            "Ln"
+          ],
+          [
+            88,
+            "Lf"
+          ],
+          [
+            101,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.12",
+        "mot": "ykeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.14",
+        "mot": "ypaiin",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.16",
+        "mot": "ofcheesy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.17",
+        "mot": "oraiiny",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.18",
+        "mot": "ykeeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.19",
+        "mot": "okeos",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.2",
+        "mot": "oteody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.20",
+        "mot": "ykeear",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.21",
+        "mot": "qokeoly",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.23",
+        "mot": "otedy",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            75,
+            "Lt"
+          ],
+          [
+            77,
+            "Lt"
+          ],
+          [
+            82,
+            "Ln"
+          ],
+          [
+            84,
+            "Ln"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.25",
+        "mot": "oky",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            99,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.27",
+        "mot": "okal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            82,
+            "Ln"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.28",
+        "mot": "ykey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.30",
+        "mot": "okeod",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.31",
+        "mot": "ykey",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.32",
+        "mot": "ypal",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.6",
+        "mot": "okeody",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [
+          [
+            72,
+            "Lz"
+          ],
+          [
+            102,
+            "Lf"
+          ]
+        ],
+        "issue": "egalite",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.7",
+        "mot": "sheol",
+        "attendu": "Lz",
+        "prediction": "Lf",
+        "voix": [
+          [
+            89,
+            "Lf"
+          ]
+        ],
+        "issue": "faux",
+        "majorite_sans_mot": "Lz"
+      },
+      {
+        "feuillet": 73,
+        "lieu": "f73v.8",
+        "mot": "odees",
+        "attendu": "Lz",
+        "prediction": null,
+        "voix": [],
+        "issue": "absent",
+        "majorite_sans_mot": "Lz"
+      }
+    ]
+  },
+  "generiques": {
+    "Lc": {
+      "total": 18,
+      "graphies": 18,
+      "maximum": 1,
+      "candidats": {
+        "choeesy": {
+          "Lc": 1
+        },
+        "daramdal": {
+          "Lc": 1
+        },
+        "darolaly": {
+          "Lc": 1
+        },
+        "koeeorain": {
+          "Lc": 1
+        },
+        "odory": {
+          "Lc": 1
+        },
+        "ofyskydal": {
+          "Lc": 1
+        },
+        "okchshy": {
+          "Lc": 1
+        },
+        "okoldody": {
+          "Lc": 1
+        },
+        "okoraldy": {
+          "Lc": 1
+        },
+        "opaloiiry": {
+          "Lc": 1
+        },
+        "oparal": {
+          "Lc": 1
+        },
+        "otaldy": {
+          "Lc": 1,
+          "Lf": 1
+        },
+        "otoram": {
+          "Lc": 1
+        },
+        "otorchety": {
+          "Lc": 1
+        },
+        "tsholdy": {
+          "Lc": 1
+        },
+        "ykocfhy": {
+          "Lc": 1
+        },
+        "ykyd": {
+          "Lc": 1
+        },
+        "yteoldy": {
+          "Lc": 1
+        }
+      }
+    },
+    "Lf": {
+      "total": 130,
+      "graphies": 124,
+      "maximum": 3,
+      "candidats": {
+        "otoldy": {
+          "Lf": 3
+        }
+      }
+    },
+    "Ln": {
+      "total": 47,
+      "graphies": 45,
+      "maximum": 2,
+      "candidats": {
+        "otedy": {
+          "Ln": 2,
+          "Lt": 2,
+          "Lz": 1
+        },
+        "otoly": {
+          "Ln": 2
+        }
+      }
+    },
+    "Ls": {
+      "total": 48,
+      "graphies": 48,
+      "maximum": 1,
+      "candidats": {
+        "cheorol": {
+          "Ls": 1
+        },
+        "chodar": {
+          "Ls": 1
+        },
+        "cholar": {
+          "Ls": 1
+        },
+        "cphocthy": {
+          "Ls": 1
+        },
+        "darall": {
+          "Ls": 1
+        },
+        "dcheoldy": {
+          "Ls": 1
+        },
+        "dchol": {
+          "Ls": 1
+        },
+        "doaro": {
+          "Ls": 1
+        },
+        "dolchedy": {
+          "Ls": 1
+        },
+        "ochory": {
+          "Ls": 1
+        },
+        "ockhy": {
+          "Ls": 1
+        },
+        "ocphy": {
+          "Ls": 1
+        },
+        "octhey": {
+          "Ls": 1
+        },
+        "octhys": {
+          "Ls": 1
+        },
+        "odaiin": {
+          "Ls": 1
+        },
+        "odchecthy": {
+          "Ls": 1
+        },
+        "ofcheor": {
+          "Ls": 1
+        },
+        "oiinar": {
+          "Ls": 1
+        },
+        "okchor": {
+          "Ls": 1
+        },
+        "okeeodal": {
+          "Ls": 1
+        },
+        "okoaly": {
+          "Ls": 1
+        },
+        "okodaly": {
+          "Ls": 1
+        },
+        "okolchy": {
+          "Ls": 1
+        },
+        "okoldy": {
+          "Ls": 1
+        },
+        "okos": {
+          "Lf": 1,
+          "Ls": 1
+        },
+        "okshor": {
+          "Ls": 1
+        },
+        "olcheesey": {
+          "Ls": 1
+        },
+        "olor": {
+          "Ls": 1
+        },
+        "opocphor": {
+          "Ls": 1
+        },
+        "otcheodar": {
+          "Ls": 1
+        },
+        "otcheody": {
+          "Ls": 1
+        },
+        "oteool": {
+          "Ls": 1
+        },
+        "otochedy": {
+          "Ls": 1
+        },
+        "otol": {
+          "Ls": 1,
+          "Lt": 1
+        },
+        "otolor": {
+          "Ls": 1,
+          "Lt": 1
+        },
+        "otor": {
+          "Ls": 1
+        },
+        "otoshol": {
+          "Ls": 1
+        },
+        "otydy": {
+          "Ls": 1
+        },
+        "otykchs": {
+          "Ls": 1
+        },
+        "otys": {
+          "Ls": 1
+        },
+        "oydchy": {
+          "Ls": 1
+        },
+        "qotoear": {
+          "Ls": 1
+        },
+        "shdar": {
+          "Ls": 1
+        },
+        "todaraiily": {
+          "Ls": 1
+        },
+        "ykchdy": {
+          "Lf": 1,
+          "Ls": 1
+        },
+        "ytchody": {
+          "Ls": 1
+        },
+        "ytodal": {
+          "Ls": 1
+        },
+        "ytokar": {
+          "Ls": 1
+        }
+      }
+    },
+    "Lt": {
+      "total": 31,
+      "graphies": 30,
+      "maximum": 2,
+      "candidats": {
+        "otedy": {
+          "Ln": 2,
+          "Lt": 2,
+          "Lz": 1
+        }
+      }
+    },
+    "Lz": {
+      "total": 171,
+      "graphies": 151,
+      "maximum": 3,
+      "candidats": {
+        "okal": {
+          "Ln": 1,
+          "Lz": 3
+        },
+        "okaly": {
+          "Ln": 1,
+          "Lz": 3
+        },
+        "okeody": {
+          "Lf": 1,
+          "Lz": 3
+        },
+        "oky": {
+          "Lf": 2,
+          "Lz": 3
+        },
+        "otaly": {
+          "Lf": 2,
+          "Lt": 1,
+          "Lz": 3
+        }
+      }
+    }
+  },
+  "controle": {
+    "graine": 68075,
+    "permutations": 999,
+    "histogramme_justes": {
+      "2": 1,
+      "5": 3,
+      "6": 3,
+      "7": 13,
+      "8": 20,
+      "9": 39,
+      "10": 34,
+      "11": 97,
+      "12": 83,
+      "13": 98,
+      "14": 148,
+      "15": 90,
+      "16": 139,
+      "17": 64,
+      "18": 76,
+      "19": 54,
+      "20": 16,
+      "21": 18,
+      "22": 3
+    },
+    "feuillets_mixtes": {
+      "88": 22,
+      "89": 32,
+      "99": 42,
+      "75": 23,
+      "77": 12,
+      "82": 17,
+      "83": 7,
+      "84": 8
+    },
+    "nombre_de_feuillets": 19,
+    "au_moins_observe": 959
+  },
+  "sensibilite": {
+    "figures_groupees": {
+      "total": {
+        "absent": 346,
+        "faux": 53,
+        "egalite": 21,
+        "juste": 7,
+        "temoin_juste": 6
+      },
+      "par_categorie": {
+        "Lc": {
+          "absent": 17,
+          "faux": 1
+        },
+        "Lf": {
+          "absent": 104,
+          "faux": 19,
+          "egalite": 2,
+          "juste": 5
+        },
+        "Ln": {
+          "absent": 19,
+          "faux": 10
+        },
+        "Ls": {
+          "absent": 44,
+          "faux": 4
+        },
+        "Lt": {
+          "absent": 23,
+          "faux": 8
+        },
+        "Lz": {
+          "absent": 139,
+          "temoin_juste": 6,
+          "faux": 11,
+          "egalite": 19,
+          "juste": 2
+        }
+      }
+    },
+    "recipients_par_ligne": {
+      "total": {
+        "absent": 355,
+        "faux": 63,
+        "egalite": 21,
+        "juste": 9,
+        "temoin_juste": 7
+      },
+      "par_categorie": {
+        "Lc": {
+          "absent": 19,
+          "faux": 2
+        },
+        "Lf": {
+          "absent": 103,
+          "faux": 20,
+          "egalite": 2,
+          "juste": 5
+        },
+        "Ln": {
+          "absent": 30,
+          "faux": 15,
+          "juste": 2
+        },
+        "Ls": {
+          "absent": 44,
+          "faux": 4
+        },
+        "Lt": {
+          "absent": 22,
+          "faux": 9
+        },
+        "Lz": {
+          "absent": 137,
+          "temoin_juste": 7,
+          "faux": 13,
+          "egalite": 19,
+          "juste": 2
+        }
+      }
+    }
+  },
+  "verifications_artificielles": {
+    "mot_par_categorie": {
+      "juste": 445,
+      "temoin_juste": 80
+    },
+    "mot_par_feuillet": {
+      "absent": 445
+    }
+  }
+}

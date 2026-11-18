@@ -1,0 +1,286 @@
+{
+ "cle_ordre": "otaly",
+ "editions": {
+  "H": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+  "ZL": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+ },
+ "macer_sha256": "c251598bbab3f9f93de40a72d4e039c17f52ce079dd95e86c7322f9a2283893b",
+ "lexique_types": 3897,
+ "lignes_communes": {
+  "P0": 3814,
+  "Pt": 10,
+  "Pc": 17,
+  "Pr": 12,
+  "P1": 72,
+  "Pb": 123
+ },
+ "occurrences_otaly_ecartees": 9,
+ "controle_couverture": {
+  "sensibilite_alphabet_radix_et_sans_radix": {
+   "effectifs": {
+    "iri": 2,
+    "dira": 2,
+    "dixi": 5,
+    "diri": 1,
+    "dari": 3,
+    "addi": 1
+   },
+   "retrouves": 9
+  },
+  "mots": 13967,
+  "retrouves": 11609,
+  "types_compte_par_notice": 11398,
+  "types_par_notice_retrouves": 9124,
+  "moyenne_des_taux": 0.8377966778315616,
+  "min_des_taux": 0.7335243553008596,
+  "max_des_taux": 0.9444444444444444
+ },
+ "temoin_flos_nombre_tables": 0,
+ "domaines": {
+  "tous_P": {
+   "types": 49,
+   "occurrences": 512,
+   "tables": [
+    {
+     "cible": "radix",
+     "valeurs": [
+      "r",
+      "a",
+      "d",
+      "i",
+      "x"
+     ],
+     "types": 2,
+     "occurrences": 37,
+     "rencontres": [
+      {
+       "eva": "alol",
+       "lecture": "diri",
+       "occurrences": 7
+      },
+      {
+       "eva": "lol",
+       "lecture": "iri",
+       "occurrences": 30
+      }
+     ],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 10,
+     "au_moins_autant_occurrences": 5,
+     "au_moins_autant_les_deux": 4
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "o",
+      "l",
+      "i",
+      "is"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 120,
+     "au_moins_autant_occurrences": 120,
+     "au_moins_autant_les_deux": 120
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "o",
+      "l",
+      "ii",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 120,
+     "au_moins_autant_occurrences": 120,
+     "au_moins_autant_les_deux": 120
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "o",
+      "li",
+      "i",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 120,
+     "au_moins_autant_occurrences": 120,
+     "au_moins_autant_les_deux": 120
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "ol",
+      "i",
+      "i",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 60,
+     "au_moins_autant_types": 60,
+     "au_moins_autant_occurrences": 60,
+     "au_moins_autant_les_deux": 60
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "fo",
+      "l",
+      "i",
+      "i",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 60,
+     "au_moins_autant_types": 60,
+     "au_moins_autant_occurrences": 60,
+     "au_moins_autant_les_deux": 60
+    }
+   ]
+  },
+  "P0": {
+   "types": 49,
+   "occurrences": 486,
+   "tables": [
+    {
+     "cible": "radix",
+     "valeurs": [
+      "r",
+      "a",
+      "d",
+      "i",
+      "x"
+     ],
+     "types": 2,
+     "occurrences": 35,
+     "rencontres": [
+      {
+       "eva": "alol",
+       "lecture": "diri",
+       "occurrences": 7
+      },
+      {
+       "eva": "lol",
+       "lecture": "iri",
+       "occurrences": 28
+      }
+     ],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 10,
+     "au_moins_autant_occurrences": 5,
+     "au_moins_autant_les_deux": 4
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "o",
+      "l",
+      "i",
+      "is"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 120,
+     "au_moins_autant_occurrences": 120,
+     "au_moins_autant_les_deux": 120
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "o",
+      "l",
+      "ii",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 120,
+     "au_moins_autant_occurrences": 120,
+     "au_moins_autant_les_deux": 120
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "o",
+      "li",
+      "i",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 120,
+     "au_moins_autant_types": 120,
+     "au_moins_autant_occurrences": 120,
+     "au_moins_autant_les_deux": 120
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "f",
+      "ol",
+      "i",
+      "i",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 60,
+     "au_moins_autant_types": 60,
+     "au_moins_autant_occurrences": 60,
+     "au_moins_autant_les_deux": 60
+    },
+    {
+     "cible": "foliis",
+     "valeurs": [
+      "fo",
+      "l",
+      "i",
+      "i",
+      "s"
+     ],
+     "types": 0,
+     "occurrences": 0,
+     "rencontres": [],
+     "nombre_permutations": 60,
+     "au_moins_autant_types": 60,
+     "au_moins_autant_occurrences": 60,
+     "au_moins_autant_les_deux": 60
+    }
+   ]
+  }
+ },
+ "paires": {
+  "paires_differentes": 9,
+  "occurrences": 11,
+  "deux_sorties_attestees": 0,
+  "succession_dans_macer": 0,
+  "occurrences_P0": 11
+ }
+}
