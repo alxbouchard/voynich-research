@@ -1,0 +1,168 @@
+{
+ "choix_primaire": "pleiades_bright7",
+ "diametre": 942.4017190137124,
+ "calages": {
+  "pleiades_bright7": [
+   {
+    "ordre_calage": [
+     "Atlas",
+     "Merope",
+     "Maia",
+     "Electra"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.06540349441119535,
+    "previsions": [
+     {
+      "nom": "Alcyone",
+      "xy": [
+       948.5512783163915,
+       710.2240421298411
+      ]
+     },
+     {
+      "nom": "Taygeta",
+      "xy": [
+       1520.409752498694,
+       668.8978787110943
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Merope",
+     "Electra",
+     "Maia",
+     "Taygeta"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.07848193227476298,
+    "previsions": [
+     {
+      "nom": "Alcyone",
+      "xy": [
+       929.1737230250809,
+       153.78913569753195
+      ]
+     },
+     {
+      "nom": "Atlas",
+      "xy": [
+       839.5567302686945,
+       -409.556550891954
+      ]
+     }
+    ]
+   }
+  ],
+  "grande_ourse": [
+   {
+    "ordre_calage": [
+     "Alkaid",
+     "Alioth",
+     "Phecda",
+     "Dubhe"
+    ],
+    "miroir": true,
+    "rms_relatif": 0.10246291565355851,
+    "previsions": [
+     {
+      "nom": "Mizar",
+      "xy": [
+       852.4016993581324,
+       799.5336435829133
+      ]
+     },
+     {
+      "nom": "Merak",
+      "xy": [
+       1562.5528296948905,
+       844.8225183770129
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Mizar",
+     "Phecda",
+     "Dubhe",
+     "Merak"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.10410700333324607,
+    "previsions": [
+     {
+      "nom": "Alioth",
+      "xy": [
+       793.3368177450468,
+       677.1671581959589
+      ]
+     },
+     {
+      "nom": "Alkaid",
+      "xy": [
+       352.8766202330679,
+       652.0763667173837
+      ]
+     }
+    ]
+   }
+  ],
+  "petite_ourse": [
+   {
+    "ordre_calage": [
+     "Yildun",
+     "Zeta UMi",
+     "Kochab",
+     "Pherkad"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.11353857485916426,
+    "previsions": [
+     {
+      "nom": "Polaris",
+      "xy": [
+       477.5444749431098,
+       406.9571807417202
+      ]
+     },
+     {
+      "nom": "Epsilon UMi",
+      "xy": [
+       805.9080581332089,
+       785.3167150967612
+      ]
+     }
+    ]
+   },
+   {
+    "ordre_calage": [
+     "Polaris",
+     "Epsilon UMi",
+     "Kochab",
+     "Pherkad"
+    ],
+    "miroir": false,
+    "rms_relatif": 0.11770445213299548,
+    "previsions": [
+     {
+      "nom": "Zeta UMi",
+      "xy": [
+       1191.107102300803,
+       870.0554573265384
+      ]
+     },
+     {
+      "nom": "Yildun",
+      "xy": [
+       788.5733672061933,
+       750.3044976754427
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -35,7 +35,8 @@ class Chart:
     def __init__(self,stars):
         self.names = [s['name'] for s in stars]
         self.sky = project(stars)
-        options = self.sky[ORDERS]
+        self.orders = ORDERS if len(stars)==7 else np.array(list(permutations(range(len(stars)),4)))
+        options = self.sky[self.orders]
         self.means = options.mean(axis=1)
         centered = options-self.means[:,None]
         self.coeffs = np.concatenate((centered.conj(),centered))
@@ -52,11 +53,11 @@ class Chart:
         return best,score,correlation
 
     def transform(self,idx,correlation,points):
-        perm_idx = idx % len(ORDERS)
-        mirror = idx>=len(ORDERS)
+        perm_idx = idx % len(self.orders)
+        mirror = idx>=len(self.orders)
         sky = self.sky.conj() if mirror else self.sky
         alpha = correlation[idx]*self.variance_inv[idx]
-        order = ORDERS[perm_idx]
+        order = self.orders[perm_idx]
         estimate = (sky-sky[order].mean())*alpha+points.mean()
         dia = max(abs(points[:,None]-points).ravel())
         er = abs(estimate[order]-points)
@@ -68,7 +69,7 @@ class Chart:
         options=[]
         for pos in (idx,runner):
             estimate,order,mirror,rms=self.transform(pos,corr,points)
-            unseen=sorted(set(range(7))-set(order))
+            unseen=sorted(set(range(len(self.sky)))-set(order))
             options.append({'ordre_calage':[self.names[i] for i in order],'miroir':mirror,
                     'rms_relatif':rms,'previsions':[{'nom':self.names[i],'xy':xy(estimate[i])} for i in unseen]})
         return options
