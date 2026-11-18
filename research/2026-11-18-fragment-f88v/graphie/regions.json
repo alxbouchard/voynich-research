@@ -1,0 +1,125 @@
+{
+  "credit": "Beinecke Rare Book & Manuscript Library, Yale University, MS 408",
+  "manifest": "https://collections.library.yale.edu/manifests/2002046",
+  "origine_xy": "angle supérieur gauche du JPEG entier",
+  "mesure": "pixel source Yale, sans étalonnage physique",
+  "sources": [
+    {
+      "oid": "1006244",
+      "width": 2699,
+      "height": 3745,
+      "sha256_jpeg": "3feb9d44f6498e7dc085dd9f3eee9a5f29db941d2d401accd54948d5fae3b613",
+      "url": "https://collections.library.yale.edu/iiif/2/1006244/full/full/0/default.jpg"
+    },
+    {
+      "oid": "1006233",
+      "width": 9078,
+      "height": 3777,
+      "sha256_jpeg": "3b553c70d0c068cb39a276d391127165c5d9d868ec08e7f5eb2e73b32bb95d1e",
+      "url": "https://collections.library.yale.edu/iiif/2/1006233/full/full/0/default.jpg"
+    }
+  ],
+  "panneaux": [
+    {
+      "panneau": "A",
+      "oid": "1006244",
+      "region_xywh": [
+        260,
+        245,
+        1400,
+        202
+      ],
+      "emplacement_planche_xy": [
+        65,
+        192
+      ],
+      "taille_planche_px": [
+        1400,
+        202
+      ],
+      "facteur": 1,
+      "url_region": "https://collections.library.yale.edu/iiif/2/1006244/260,245,1400,202/full/0/default.jpg"
+    },
+    {
+      "panneau": "B",
+      "oid": "1006244",
+      "region_xywh": [
+        1060,
+        250,
+        400,
+        155
+      ],
+      "emplacement_planche_xy": [
+        65,
+        589
+      ],
+      "taille_planche_px": [
+        800,
+        310
+      ],
+      "facteur": 2,
+      "url_region": "https://collections.library.yale.edu/iiif/2/1006244/1060,250,400,155/full/0/default.jpg"
+    },
+    {
+      "panneau": "C",
+      "oid": "1006233",
+      "region_xywh": [
+        1458,
+        332,
+        244,
+        155
+      ],
+      "emplacement_planche_xy": [
+        941,
+        589
+      ],
+      "taille_planche_px": [
+        488,
+        310
+      ],
+      "facteur": 2,
+      "url_region": "https://collections.library.yale.edu/iiif/2/1006233/1458,332,244,155/full/0/default.jpg"
+    },
+    {
+      "panneau": "D",
+      "oid": "1006233",
+      "region_xywh": [
+        8150,
+        554,
+        251,
+        147
+      ],
+      "emplacement_planche_xy": [
+        65,
+        1072
+      ],
+      "taille_planche_px": [
+        502,
+        294
+      ],
+      "facteur": 2,
+      "url_region": "https://collections.library.yale.edu/iiif/2/1006233/8150,554,251,147/full/0/default.jpg"
+    },
+    {
+      "panneau": "E",
+      "oid": "1006233",
+      "region_xywh": [
+        745,
+        228,
+        1430,
+        530
+      ],
+      "emplacement_planche_xy": [
+        724,
+        1072
+      ],
+      "taille_planche_px": [
+        715,
+        265
+      ],
+      "facteur": 0.5,
+      "url_region": "https://collections.library.yale.edu/iiif/2/1006233/745,228,1430,530/full/0/default.jpg"
+    }
+  ],
+  "planche_sha256": "9e1a1c9cee2580bbfcea25f0f795d682351b5282e0fc6f88e6febf41ae305507"
+}
