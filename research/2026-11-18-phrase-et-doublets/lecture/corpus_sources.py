@@ -1,5 +1,4 @@
 """Corpus documentés de la lecture positionnelle ; frontières conservées."""
-from collections import Counter
 from hashlib import sha256
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -24,7 +23,7 @@ def latin_text(node):
     return (node.text or "") + "".join(latin_text(child) + (child.tail or "") for child in node)
 
 
-def celsus(path):
+def celsus(path, respect_phrases=False):
     assert sha256(path.read_bytes()).hexdigest() == CELSUS_SHA
     root = ET.parse(path)
     corpus = {}
@@ -32,6 +31,8 @@ def celsus(path):
         for chapter in book.findall("{*}div"):
             for i, para in enumerate(chapter.findall("{*}p"), 1):
                 raw = latin_text(para).lower().replace("æ", "ae").replace("œ", "oe")
+                if respect_phrases:
+                    raw = re.sub(respect_phrases, "|", raw)
                 # Séparer les séries grecques, chiffres et symboles de mesure résiduels.
                 runs = re.split(r"[^a-z\s.,;:!?()«»\-–—'’]+", raw)
                 for j, run in enumerate(runs, 1):

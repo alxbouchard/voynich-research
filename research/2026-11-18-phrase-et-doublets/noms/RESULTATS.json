@@ -1,0 +1,611 @@
+{
+  "denominateurs": {
+    "f100r": {
+      "legendes_lieux_admissibles": 14,
+      "lignes": 10,
+      "mots_au_meme_lieu": 74,
+      "mots_legendes": 14
+    },
+    "f100v": {
+      "legendes_lieux_admissibles": 11,
+      "lignes": 9,
+      "mots_au_meme_lieu": 66,
+      "mots_legendes": 11
+    },
+    "f101v": {
+      "legendes_lieux_admissibles": 10,
+      "lignes": 9,
+      "mots_au_meme_lieu": 125,
+      "mots_legendes": 10
+    },
+    "f102r1": {
+      "legendes_lieux_admissibles": 1,
+      "lignes": 13,
+      "mots_au_meme_lieu": 81,
+      "mots_legendes": 1
+    },
+    "f102r2": {
+      "legendes_lieux_admissibles": 2,
+      "lignes": 15,
+      "mots_au_meme_lieu": 99,
+      "mots_legendes": 2
+    },
+    "f102v1": {
+      "legendes_lieux_admissibles": 5,
+      "lignes": 14,
+      "mots_au_meme_lieu": 88,
+      "mots_legendes": 5
+    },
+    "f102v2": {
+      "legendes_lieux_admissibles": 11,
+      "lignes": 17,
+      "mots_au_meme_lieu": 103,
+      "mots_legendes": 11
+    },
+    "f88r": {
+      "legendes_lieux_admissibles": 10,
+      "lignes": 16,
+      "mots_au_meme_lieu": 109,
+      "mots_legendes": 10
+    },
+    "f88v": {
+      "legendes_lieux_admissibles": 8,
+      "lignes": 17,
+      "mots_au_meme_lieu": 96,
+      "mots_legendes": 9
+    },
+    "f99r": {
+      "legendes_lieux_admissibles": 22,
+      "lignes": 18,
+      "mots_au_meme_lieu": 126,
+      "mots_legendes": 21
+    },
+    "f99v": {
+      "legendes_lieux_admissibles": 19,
+      "lignes": 19,
+      "mots_au_meme_lieu": 113,
+      "mots_legendes": 21
+    }
+  },
+  "hypotheses": {
+    "qokeoefy sheey": {
+      "annonces": [],
+      "marqueur_dans_prose_entiere": 1,
+      "marqueur_hors_f89": 0,
+      "marqueur_panneaux_reserves": 0
+    },
+    "sheey": {
+      "annonces": [
+        {
+          "legendes_propres": [],
+          "locus": "f101v.26",
+          "n": 1,
+          "panneaux_compatibles": {},
+          "suivant": "qoor"
+        },
+        {
+          "legendes_propres": [],
+          "locus": "f102r1.15",
+          "n": 1,
+          "panneaux_compatibles": {},
+          "suivant": "qokeody"
+        },
+        {
+          "legendes_propres": [],
+          "locus": "f102r2.18",
+          "n": 1,
+          "panneaux_compatibles": {},
+          "suivant": "qokol"
+        },
+        {
+          "legendes_propres": [],
+          "locus": "f102v2.22",
+          "n": 1,
+          "panneaux_compatibles": {},
+          "suivant": "qockhy"
+        },
+        {
+          "legendes_propres": [],
+          "locus": "f99r.43",
+          "n": 1,
+          "panneaux_compatibles": {},
+          "suivant": "keody"
+        }
+      ],
+      "marqueur_dans_prose_entiere": 114,
+      "marqueur_hors_f89": 111,
+      "marqueur_panneaux_reserves": 6
+    }
+  },
+  "panneaux": [
+    "f100r",
+    "f100v",
+    "f101v",
+    "f102r1",
+    "f102r2",
+    "f102v1",
+    "f102v2",
+    "f88r",
+    "f88v",
+    "f99r",
+    "f99v"
+  ],
+  "reprises": {
+    "f102v1.21": {
+      "okeody": {
+        "legendes": [
+          "f102v1.3"
+        ],
+        "n": 1,
+        "precedents": {
+          "ychey": 1
+        }
+      }
+    },
+    "f102v2.32": {
+      "cheor": {
+        "legendes": [
+          "f102v2.11"
+        ],
+        "n": 1,
+        "precedents": {
+          "dar": 1
+        }
+      }
+    },
+    "f102v2.33": {
+      "cheor": {
+        "legendes": [
+          "f102v2.11"
+        ],
+        "n": 1,
+        "precedents": {}
+      }
+    },
+    "f102v2.39": {
+      "cheor": {
+        "legendes": [
+          "f102v2.11"
+        ],
+        "n": 1,
+        "precedents": {
+          "yotaiin": 1
+        }
+      }
+    },
+    "f88r.19": {
+      "okol": {
+        "legendes": [
+          "f88r.15"
+        ],
+        "n": 1,
+        "precedents": {}
+      }
+    },
+    "f99r.18": {
+      "okeoly": {
+        "legendes": [
+          "f99r.25"
+        ],
+        "n": 1,
+        "precedents": {
+          "daiin": 1
+        }
+      }
+    },
+    "f99r.51": {
+      "okor": {
+        "legendes": [
+          "f99r.8"
+        ],
+        "n": 1,
+        "precedents": {}
+      }
+    }
+  },
+  "transfert_autres_predecesseurs": {
+    "daiin": {
+      "annonces": [
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f100r.25",
+          "n": 1,
+          "suivant": "ctheol"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f100v.14",
+          "n": 1,
+          "suivant": "qokomo"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f100v.22",
+          "n": 1,
+          "suivant": "cheky"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f101v.23",
+          "n": 1,
+          "suivant": "okeey"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f101v.23",
+          "n": 1,
+          "suivant": "qockhy"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f101v.25",
+          "n": 1,
+          "suivant": "dair"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f101v.25",
+          "n": 1,
+          "suivant": "ckheey"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f101v.27",
+          "n": 1,
+          "suivant": "cheodam"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r1.15",
+          "n": 1,
+          "suivant": "dykeor"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r1.6",
+          "n": 1,
+          "suivant": "ykeeol"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r1.8",
+          "n": 1,
+          "suivant": "oteol"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r1.9",
+          "n": 1,
+          "suivant": "orsheoldy"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r2.18",
+          "n": 1,
+          "suivant": "oky"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r2.4",
+          "n": 1,
+          "suivant": "ckheeol"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102r2.6",
+          "n": 1,
+          "suivant": "okody"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102v1.11",
+          "n": 1,
+          "suivant": "cheody"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102v1.13",
+          "n": 1,
+          "suivant": "qkol"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102v1.13",
+          "n": 1,
+          "suivant": "qokar"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f102v2.32",
+          "n": 1,
+          "suivant": "sy"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88r.19",
+          "n": 1,
+          "suivant": "qoekol"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88r.8",
+          "n": 1,
+          "suivant": "sar"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88v.23",
+          "n": 1,
+          "suivant": "chees"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88v.24",
+          "n": 1,
+          "suivant": "sheor"
+        },
+        {
+          "apprentissage": [
+            [
+              "f99r.18",
+              "okeoly"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88v.7",
+          "n": 1,
+          "suivant": "qokeom"
+        }
+      ],
+      "departs": [
+        [
+          "f99r.18",
+          "okeoly"
+        ]
+      ]
+    },
+    "dar": {
+      "annonces": [
+        {
+          "apprentissage": [
+            [
+              "f102v2.32",
+              "cheor"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88r.31",
+          "n": 1,
+          "suivant": "chear"
+        },
+        {
+          "apprentissage": [
+            [
+              "f102v2.32",
+              "cheor"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88r.9",
+          "n": 1,
+          "suivant": "or"
+        },
+        {
+          "apprentissage": [
+            [
+              "f102v2.32",
+              "cheor"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88v.10",
+          "n": 1,
+          "suivant": "cheorol"
+        }
+      ],
+      "departs": [
+        [
+          "f102v2.32",
+          "cheor"
+        ]
+      ]
+    },
+    "ychey": {
+      "annonces": [
+        {
+          "apprentissage": [
+            [
+              "f102v1.21",
+              "okeody"
+            ]
+          ],
+          "juste_nom_different": false,
+          "legendes": [],
+          "locus": "f88r.22",
+          "n": 1,
+          "suivant": "okaiin"
+        }
+      ],
+      "departs": [
+        [
+          "f102v1.21",
+          "okeody"
+        ]
+      ]
+    },
+    "yotaiin": {
+      "annonces": [],
+      "departs": [
+        [
+          "f102v2.39",
+          "cheor"
+        ]
+      ]
+    }
+  }
+}

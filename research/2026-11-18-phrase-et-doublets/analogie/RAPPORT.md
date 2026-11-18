@@ -1,0 +1,28 @@
+# Ce que la fin du premier doublet prédit du quatrième mot
+
+Sur f89r2.22, le passage `opcheor opcheol shody sholdy` présente deux changements. Le dernier signe du deuxième mot devient `l`, puis un `l` se glisse au milieu du quatrième mot. Sur le reste du manuscrit, la règle tirée de cette ligne a donné **44 annonces, dont 31 vérifiables et aucune réussie**. Le test porte sur l’écriture. Il ne décide pas si le scribe répétait une idée ou un son dans ce passage précis. [Règle annoncée](PROTOCOLE.md) · [Prédictions avant comparaison au quatrième groupe](PREDICTIONS.json) · [Lieux, voisins et résultats](RESULTATS.json)
+
+Les 31 suites de prose ont été retenues dans le sens habituel de lecture sur des feuillets distincts des deux feuillets 89 et 100 qui avaient servi à formuler la piste. Les quatre lectures donnent la même suite de trois mots déclenchant l’annonce, puis la même lecture du quatrième à cet endroit. Parmi les 13 autres annonces, neuf atteignent une fin de ligne ou de tronçon lisible dans au moins une lecture, et quatre présentent des lectures différentes du quatrième groupe. Deux éditions avec deux conventions d’espacement décrivent un seul manuscrit. Les pages étaient connues du projet.
+
+| Épreuve dans le sens habituel | Vérifiables | Mots exactement prédits |
+|---|---:|---:|
+| Changement de finale quelconque, puis ajout de cette nouvelle finale après les deux premières unités du troisième groupe | 31 | 0 |
+| Seulement les changements r vers l, règle de départ | 9 | 0 |
+| Insérer la nouvelle finale à n’importe quelle position intérieure | 31 (96 propositions distinctes en les totalisant par lieu) | 0 |
+| Répéter à l’identique le troisième groupe | 31 | 1 |
+
+À f107v.14, par exemple, la suite `qokar qokal qokal` déclenche l’annonce de `qolkal` pour le quatrième groupe. Les éditions y lisent `cheody`. À f42r.13, le scribe écrit `shol shot shol shol`. La copie exacte du troisième mot réussit à cet endroit. Prendre chaque transcription séparément donne 41 à 50 quatrièmes mots vérifiables et zéro réussite pour l’insertion attendue. Inverser l’ordre des groupes dans les lignes donne 43 quatrièmes mots concordants et toujours zéro réussite.
+
+Si on tente de revenir au passage de départ après avoir compté les succès sur les autres feuillets, chacune des quatre règles d’insertion formées en combinant l’ancienne ou la nouvelle finale avec les deux positions annoncées obtient zéro. Elles laissent deux formes pour la lecture masquée de f89r2.22, `sholdy` et `shordy`. Le parchemin fait choisir `sholdy`. La réserve ne départage pas ces prédictions. Les deux graphies existent effectivement ailleurs dans la prose concordante, sept fois pour `sholdy` et une fois pour `shordy`, à f11v.1. Il serait possible de préférer la forme fréquente sur cette base après coup. La règle étudiée portait sur le doublet voisin.
+
+Le cliché de f11v permet de contrôler la forme concurrente. Sur la première ligne, entre `shcphy` et `qoty`, le troisième groupe porte le crochet transcrit `r` entre le petit rond et le `d`. Le détail reproduit sans rotation le rectangle x = 795–1830, y = 1935–2120 du JPEG natif de Yale, dont l’empreinte SHA-256 est `896a5297fd4ac6a4ca215ae5e000ac8d6a50ea6063283a28b42ba1974d681d51`. Cette occurrence montre que la lecture concurrente existe dans un autre contexte. [Photographie des quatre premiers groupes](f11v-1.jpg) · [Yale, Beinecke MS 408, f11v](https://collections.library.yale.edu/iiif/2/1006097/full/full/0/default.jpg)
+
+## Le nombre de situations permettant la comparaison
+
+Le témoin prévu permute la nouvelle finale parmi les 31 essais de même section et de même longueur du troisième mot. Aucun de ces essais ne présente la moindre insertion exactement à la place annoncée, même avec un autre signe. L’espérance est donc zéro et cette permutation n’informe pas sur un lien entre les deux changements.
+
+Un complément compte tous les couples de mots consécutifs de la prose réservée, sans exiger les deux mots déclencheurs à gauche. Sur 17 852 couples concordants dont le premier mot comporte au moins trois unités, **26** montrent l’insertion d’un signe après la deuxième unité, **90** une insertion à une position intérieure quelconque. Si on appliquait ces taux de base aux 31 essais en tenant compte de leur section et de la longueur de leur troisième mot, on attendrait environ 0,064 et 0,148 insertion respectivement. Ce sont des comparaisons descriptives sur la prose du même manuscrit. Le zéro observé suffit à écarter une méthode de prédiction productive dans cet échantillon, tout en laissant ouverte l’explication du cas isolé. [Plan complémentaire](COMPLEMENT.md) · [Dénominateurs et graphies](VOISINS.json)
+
+La prose réservée comprend 50 `shody` concordants. On relève 36 voisins droits pour lesquels la paire concorde, répartis sur 34 graphies, avec deux `okal`, deux `qoty` et une occurrence de chacune des 32 autres graphies. Aucune des quatre paires formées en reliant `shody` à `sholdy` ou `shordy` dans l’un ou l’autre sens n’y est attestée. [Liste des mots et de leurs lieux](VOISINS.json)
+
+Depuis ce dossier, exécuter successivement `python3 -B quadruplets.py predire`, `python3 -B quadruplets.py verifier` et `python3 -B voisins.py`. Le premier programme vérifie la règle connue et une permutation calculable à la main sur deux exemples construits. Il contrôle les empreintes des deux transcriptions à travers le lecteur commun du projet. Le deuxième dépouillement conserve les limites des tronçons et l’intersection minimale des multiplicités au même lieu. [Programme des prédictions](quadruplets.py) · [Comparaison élargie](voisins.py)
