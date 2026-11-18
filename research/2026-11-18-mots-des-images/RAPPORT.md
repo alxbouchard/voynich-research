@@ -2,6 +2,10 @@
 
 Le groupe transcrit `otoldy` figure auprès de trois fragments végétaux, aux lieux f99r.14, f99v.2 et f89r1.4. À partir des deux premières inscriptions, le test avait prédit une autre étiquette de fragment portant cette forme. Une seule des 113 étiquettes que couvre Zandbergen–Landini sur le reste du terrain retenu remplit la prédiction, au même lieu que dans Takahashi. Les dessins et leur emplacement sont documentés ci-dessous. Cette répétition avait déjà été repérée et discutée en 2017. L'expérience la reproduit et mesure combien d'autres inscriptions satisfont au même critère. La traduction du groupe reste ouverte. [Prédiction avant la recherche hors f99 et f102](racines/SUITE_OTOLDY.md) · [Comparaison publiée par MarcoP en 2017](https://www.voynich.ninja/showthread.php?mode=linear&pid=15592&tid=2013)
 
+## Une étoile et le texte placé au-dessus
+
+Sur f68r1, une étoile de la moitié gauche porte la légende `otor` et le septième mot de la première ligne du paragraphe est aussi transcrit `otor` par Takahashi et Zandbergen–Landini. Une ancienne lecture donne `otar` dans la ligne. C’est la seule reprise locale exacte observée sur les trois panneaux du dépliant dans les textes et les cercles examinés. Les associations avec un panneau voisin donnent parfois un meilleur score. La recherche suivante a porté sur ce seul mot, choisi après cette première rencontre. Il est absent des 299 légendes zodiacales, présent dans deux de leurs textes circulaires selon les deux éditions, et également transcrit auprès d’un fragment végétal sur f99v.3. Cet emplacement ne permet pas de décider du sens du mot. [Photographies et neuf comparaisons](etoiles/texte-voisin/RESULTAT.md) · [Prédiction et test sur les douze panneaux](etoiles/texte-voisin/otor-note.md)
+
 ## Trois emplacements pour otoldy
 
 | Inscription dans les deux transcriptions | Ce que montre l'image | Contrôle du rattachement |
