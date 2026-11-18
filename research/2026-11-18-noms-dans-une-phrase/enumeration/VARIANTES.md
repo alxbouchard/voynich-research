@@ -1,0 +1,3 @@
+# Contrôle des rangs et des espaces
+
+Sur les 8 173 suites de quatre groupes vérifiables hors des feuillets de légendes, une seule répète `daiin` à deux positions d’intervalle. Avant de retenir ce petit dénominateur, rechercher le même motif séparément en H et en ZL, espaces douteux joints ou séparés, dans tous les tronçons P0 des mêmes feuillets. Autoriser ensuite que le rang dans le locus se décale si un mot antérieur est coupé différemment. Une quadruple lecture concordante exige la même suite de quatre groupes au même locus. Garder les multiplicités minimales, la fréquence des formes de l'index et tous les désaccords. La déclaration d’un nouveau second ingrédient exigerait au minimum que X et Y soient deux légendes distinctes dans les 135 formes figées.
