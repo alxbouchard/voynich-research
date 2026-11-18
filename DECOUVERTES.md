@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Prédire où se trouve une étoile dessinée](research/2026-11-18-etoile-en-images/RAPPORT.md) | Quatre des huit lignes du cahier final portant le groupe `otor` sont à la hauteur d’une étoile. Ces quatre lignes ouvrent aussi un paragraphe. La lecture latine *stella* essayée sur le groupe ne se transfère pas aux autres légendes. |
 | [La légende de f88v et la grande plante de f96r](research/2026-11-18-fragment-f88v/RAPPORT.md) | `cpheor` revient sur f96r. Les deux lecteurs rapprochent la grande plante du petit dessin voisin, dont la légende `otar arody` manque sur f96r. Aucune des 48 paires de noms historiques proposées ne permet une lecture commune des deux légendes testées. |
 | [Racines renflées et nom de l’aristoloche](research/2026-11-18-formes-souterraines/RAPPORT.md) | La légende `opcheor` du fragment 36 réapparaît dans le texte de son panneau dans deux transcriptions. Le modèle de lecture testé ne peut en tirer les graphies médiévales de l’aristoloche. Sur quarante faces réservées, `or` manque les huit renflements reconnus par les deux lecteurs. |
 | [Chiffres marginaux et trente figures du zodiaque](research/2026-11-18-nombres-et-reperes/RAPPORT.md) | Sur 299 inscriptions, deux signes zodiacaux partagent au plus quatre étiquettes entières lisibles. La répétition attendue des unités à dix positions d’intervalle ne dépasse pas les témoins sur les trois derniers signes. |

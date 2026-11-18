@@ -1,0 +1,4235 @@
+{
+  "empreintes": {
+    "research/2026-11-18-mots-des-images/etoiles/sources.tsv": "ee81656d12f9ccc637bdfb21ad84ce3baeba6e4deb7f1a42894fa0013fa33699",
+    "research/2026-11-18-mots-des-images/etoiles/compter.py": "5ba27782868ebc4c9e56d1d09a82f9cb1b6e38ac6c00033c9c7400946e276b12",
+    "voynich_20261028/data/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "voynich_20261028/data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "research/2026-11-18-etoile-en-images/lecture/brahe.json": "b5053cb25eb51193e41b2f07b5ea95382c80d7e5da0271cfb01cc56e2f494ee0",
+    "research/2026-11-18-etoile-en-images/lecture/PROTOCOLE.md": "0d495c7fb1678766876abed6960406ab0c7bd397f5a12afc9f2bbcbbc399063f"
+  },
+  "legendes_valides": {
+    "f68r1.8": "okodaly",
+    "f68r1.9": "odchecthy",
+    "f68r1.10": "otcheody",
+    "f68r1.11": "okoaly",
+    "f68r1.13": "octhey",
+    "f68r1.15": "otydy",
+    "f68r1.17": "cphocthy",
+    "f68r1.18": "ytchody",
+    "f68r1.19": "otys",
+    "f68r1.20": "olor",
+    "f68r1.21": "ockhy",
+    "f68r1.22": "ofcheor",
+    "f68r1.24": "otykchs",
+    "f68r1.25": "otol",
+    "f68r1.26": "otor",
+    "f68r1.27": "oiinar",
+    "f68r1.28": "okoldy",
+    "f68r1.29": "ykchdy",
+    "f68r1.31": "ocphy",
+    "f68r1.32": "okeeodal",
+    "f68r1.33": "okshor",
+    "f68r1.35": "otochedy",
+    "f68r1.36": "dolchedy",
+    "f99r.3": "darar",
+    "f99r.4": "oky",
+    "f99r.5": "salo",
+    "f99r.8": "okor",
+    "f99r.10": "skeeal",
+    "f99r.11": "okary",
+    "f99r.12": "okolo",
+    "f99r.13": "otalam",
+    "f99r.14": "otoldy",
+    "f99r.20": "oaro",
+    "f99r.21": "aloly",
+    "f99r.23": "choky",
+    "f99r.24": "oky",
+    "f99r.25": "okeoly",
+    "f99r.26": "yteold",
+    "f99r.27": "cheotchy",
+    "f99r.33": "okos",
+    "f99r.34": "oekey",
+    "f99r.38": "saiiny",
+    "f99r.40": "dam",
+    "f99r.46": "tolsasy",
+    "f100r.1": "chosaroshol",
+    "f100r.2": "sochorcfhy",
+    "f100r.3": "otear",
+    "f100r.7": "chalsain",
+    "f100r.8": "soity",
+    "f100r.9": "sosam",
+    "f100r.10": "dakocth",
+    "f100r.16": "okeeos",
+    "f100r.17": "shockhey",
+    "f100r.18": "orol",
+    "f100r.19": "olcheom",
+    "f100r.20": "oteol",
+    "f100r.21": "okols"
+  },
+  "legendes_exclues": [
+    {
+      "locus": "f68r1.12",
+      "H": "chocphy",
+      "ZL": "chocfhy"
+    },
+    {
+      "locus": "f68r1.14",
+      "H": "otcsey",
+      "ZL": "otshey"
+    },
+    {
+      "locus": "f68r1.16",
+      "H": "okeor",
+      "ZL": "okear"
+    },
+    {
+      "locus": "f68r1.23",
+      "H": "otcsdo",
+      "ZL": "otchdy"
+    },
+    {
+      "locus": "f68r1.30",
+      "H": "toeeodcthy",
+      "ZL": "@167;oeeod{c@196;h}y"
+    },
+    {
+      "locus": "f68r1.34",
+      "H": "or!daiin",
+      "ZL": "osdaiin"
+    },
+    {
+      "locus": "f99r.2",
+      "H": "okar!y",
+      "ZL": "<!68b>okar,y"
+    },
+    {
+      "locus": "f99r.6+7",
+      "H": "oro.ain",
+      "ZL": "<!72>aro.<!72>ain"
+    },
+    {
+      "locus": "f99r.9",
+      "H": "salol",
+      "ZL": "<!74>ralol"
+    },
+    {
+      "locus": "f99r.22",
+      "H": "ooror",
+      "ZL": "<!82>aora[?:r]"
+    },
+    {
+      "locus": "f99r.35",
+      "H": "dor <!plant>",
+      "ZL": "<!88>dar"
+    },
+    {
+      "locus": "f99r.36",
+      "H": "chockhhy",
+      "ZL": "<!89>chockhi[a:y]"
+    },
+    {
+      "locus": "f99r.37",
+      "H": "r!chey.ot",
+      "ZL": "<!90>r,cheyet"
+    },
+    {
+      "locus": "f99r.39",
+      "H": "rory",
+      "ZL": "<!92>sory"
+    },
+    {
+      "locus": "f100r.4",
+      "H": "chofary",
+      "ZL": "<!118>chofa[r:n]y"
+    },
+    {
+      "locus": "f100r.5",
+      "H": "sar.char<-><!stem>daiindy",
+      "ZL": "<!119>sar,char<->daiindy"
+    },
+    {
+      "locus": "f100r.6",
+      "H": "os!aro",
+      "ZL": "<!120>o[r:s]aro"
+    },
+    {
+      "locus": "f100r.11",
+      "H": "sofal",
+      "ZL": "<!125>sofam"
+    }
+  ],
+  "prose_valide": [
+    [
+      "f68r1.1/1",
+      "shokchy"
+    ],
+    [
+      "f68r1.1/2",
+      "chteey"
+    ],
+    [
+      "f68r1.1/3",
+      "choteey"
+    ],
+    [
+      "f68r1.1/4",
+      "cphol"
+    ],
+    [
+      "f68r1.1/5",
+      "cheor"
+    ],
+    [
+      "f68r1.1/6",
+      "opcheeol"
+    ],
+    [
+      "f68r1.1/7",
+      "otor"
+    ],
+    [
+      "f68r1.1/8",
+      "choctheeey"
+    ],
+    [
+      "f68r1.1/9",
+      "okchoal"
+    ],
+    [
+      "f68r1.2/1",
+      "tochso"
+    ],
+    [
+      "f68r1.2/2",
+      "otchl"
+    ],
+    [
+      "f68r1.2/3",
+      "qokeeedy"
+    ],
+    [
+      "f68r1.2/4",
+      "cheey"
+    ],
+    [
+      "f68r1.2/5",
+      "cheeteey"
+    ],
+    [
+      "f68r1.2/6",
+      "yteody"
+    ],
+    [
+      "f68r1.2/7",
+      "chpor"
+    ],
+    [
+      "f68r1.2/8",
+      "cheokorchey"
+    ],
+    [
+      "f68r1.2/9",
+      "chod"
+    ],
+    [
+      "f68r1.3/1",
+      "ykor"
+    ],
+    [
+      "f68r1.3/2",
+      "shey"
+    ],
+    [
+      "f68r1.3/3",
+      "qocheey"
+    ],
+    [
+      "f68r1.3/4",
+      "chokal"
+    ],
+    [
+      "f68r1.3/5",
+      "okeey"
+    ],
+    [
+      "f68r1.3/6",
+      "ror"
+    ],
+    [
+      "f68r1.3/8",
+      "daram"
+    ],
+    [
+      "f68r1.4/1",
+      "dchor"
+    ],
+    [
+      "f68r2.2/1",
+      "dchy"
+    ],
+    [
+      "f68r2.2/2",
+      "ykeechy"
+    ],
+    [
+      "f68r2.2/3",
+      "dchyky"
+    ],
+    [
+      "f68r2.2/5",
+      "rcheodal"
+    ],
+    [
+      "f68r2.2/6",
+      "chokeey"
+    ],
+    [
+      "f68r2.2/7",
+      "cheor"
+    ],
+    [
+      "f68r2.2/8",
+      "oram"
+    ],
+    [
+      "f68r2.3/1",
+      "tcheos"
+    ],
+    [
+      "f68r2.3/2",
+      "otchoky"
+    ],
+    [
+      "f68r2.3/3",
+      "okchol"
+    ],
+    [
+      "f68r2.3/4",
+      "okol"
+    ],
+    [
+      "f68r2.3/5",
+      "sheeor"
+    ],
+    [
+      "f68r2.3/6",
+      "chodchy"
+    ],
+    [
+      "f68r2.3/7",
+      "qokchdar"
+    ],
+    [
+      "f68r2.4/1",
+      "chor"
+    ],
+    [
+      "f68r2.4/2",
+      "chesy"
+    ],
+    [
+      "f68r2.4/4",
+      "qoeeckhy"
+    ],
+    [
+      "f68r2.4/5",
+      "qockheol"
+    ],
+    [
+      "f68r2.4/6",
+      "qokeol"
+    ],
+    [
+      "f68r2.4/7",
+      "cheoal"
+    ],
+    [
+      "f68r2.4/8",
+      "dcholal"
+    ],
+    [
+      "f68r2.5/1",
+      "kcheoey"
+    ],
+    [
+      "f68r2.5/2",
+      "cheody"
+    ],
+    [
+      "f68r2.5/3",
+      "sain"
+    ],
+    [
+      "f68r2.5/4",
+      "ykeody"
+    ],
+    [
+      "f68r2.5/5",
+      "chykchy"
+    ]
+  ],
+  "prose_exclue": [
+    {
+      "lieu": "f68r1.3/7",
+      "IT": "cckheor",
+      "ZL": "eckhear",
+      "motif": "graphie différente ou incertaine"
+    },
+    {
+      "lieu": "f68r1.4/2",
+      "IT": "okaiin",
+      "ZL": "okaiiin",
+      "motif": "graphie différente ou incertaine"
+    },
+    {
+      "lieu": "f68r2.1",
+      "IT": [
+        "tsheeor",
+        "chor",
+        "sheal",
+        "dar",
+        "opchey",
+        "oeecthy",
+        "sheol",
+        "dokechy",
+        "otcheoly"
+      ],
+      "ZL": [
+        "tsheeor",
+        "chor",
+        "sheal,dar",
+        "opchey",
+        "oeecthy",
+        "sheol",
+        "dokechy",
+        "otcheoly"
+      ],
+      "motif": "nombre de cases différent"
+    },
+    {
+      "lieu": "f68r2.2/4",
+      "IT": "okeeoda",
+      "ZL": "okeeody",
+      "motif": "graphie différente ou incertaine"
+    },
+    {
+      "lieu": "f68r2.4/3",
+      "IT": "oriid",
+      "ZL": "or[ee:a]d",
+      "motif": "graphie différente ou incertaine"
+    }
+  ],
+  "modeles": {
+    "1": {
+      "controle": {
+        "vocabulaire": [
+          "a",
+          "ab",
+          "ad",
+          "aliquibus",
+          "aliquoties",
+          "appellata",
+          "autem",
+          "capaci",
+          "caput",
+          "cassiopeae",
+          "cassiopeiae",
+          "cathedrae",
+          "chatedrae",
+          "cingulum",
+          "constellatione",
+          "distantiam",
+          "distare",
+          "ea",
+          "eam",
+          "est",
+          "et",
+          "exquisito",
+          "fixis",
+          "flexura",
+          "genu",
+          "hac",
+          "huius",
+          "ilia",
+          "in",
+          "instrumento",
+          "inueni",
+          "media",
+          "minutis",
+          "minutorum",
+          "noua",
+          "obseruaui",
+          "omnium",
+          "partibus",
+          "pectore",
+          "pectus",
+          "pes",
+          "quae",
+          "schedir",
+          "stella",
+          "stellae",
+          "superiori",
+          "suprema",
+          "uero"
+        ],
+        "nombre_mots_paragraphe": 36,
+        "origines": [
+          {
+            "lieu": "A/1",
+            "graphie": "caput",
+            "tables": 0
+          },
+          {
+            "lieu": "A/2",
+            "graphie": "cassiopeae",
+            "tables": 0
+          },
+          {
+            "lieu": "B/1",
+            "graphie": "pectus",
+            "tables": 0
+          },
+          {
+            "lieu": "B/2",
+            "graphie": "schedir",
+            "tables": 0
+          },
+          {
+            "lieu": "C/1",
+            "graphie": "cingulum",
+            "tables": 0
+          },
+          {
+            "lieu": "D/1",
+            "graphie": "flexura",
+            "tables": 0
+          },
+          {
+            "lieu": "D/2",
+            "graphie": "ad",
+            "tables": 0
+          },
+          {
+            "lieu": "D/3",
+            "graphie": "ilia",
+            "tables": 0
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "tables": 0
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "tables": 0
+          },
+          {
+            "lieu": "G/1",
+            "graphie": "suprema",
+            "tables": 0
+          },
+          {
+            "lieu": "G/2",
+            "graphie": "cathedrae",
+            "tables": 0
+          },
+          {
+            "lieu": "H/1",
+            "graphie": "media",
+            "tables": 0
+          },
+          {
+            "lieu": "H/2",
+            "graphie": "chatedrae",
+            "tables": 0
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "tables": 0
+          },
+          {
+            "lieu": "I/2",
+            "graphie": "stella",
+            "tables": 1
+          }
+        ],
+        "tables_et_lectures": [
+          {
+            "lieu": "I/2",
+            "graphie": "stella",
+            "table": {
+              "u07": "s",
+              "u14": "t",
+              "u13": "e",
+              "u10": "l",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 4,
+                "attendu": "stellae",
+                "lecture": "stellae",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 14,
+                "attendu": "et",
+                "lecture": "et",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 25,
+                "attendu": "ea",
+                "lecture": "ea",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 27,
+                "attendu": "est",
+                "lecture": "est",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 33,
+                "attendu": "et",
+                "lecture": "et",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          }
+        ]
+      },
+      "otor": {
+        "stella": [],
+        "stellae": [],
+        "stellas": [],
+        "sideris": []
+      },
+      "doaro_sans_ancre": {
+        "septem": [],
+        "pleiades": [],
+        "vergiliae": [],
+        "virgiliae": []
+      },
+      "formes_voynich": {
+        "f68r1.8": {
+          "EVA": "okodaly",
+          "tables": []
+        },
+        "f68r1.9": {
+          "EVA": "odchecthy",
+          "tables": []
+        },
+        "f68r1.10": {
+          "EVA": "otcheody",
+          "tables": []
+        },
+        "f68r1.11": {
+          "EVA": "okoaly",
+          "tables": []
+        },
+        "f68r1.13": {
+          "EVA": "octhey",
+          "tables": []
+        },
+        "f68r1.15": {
+          "EVA": "otydy",
+          "tables": []
+        },
+        "f68r1.17": {
+          "EVA": "cphocthy",
+          "tables": []
+        },
+        "f68r1.18": {
+          "EVA": "ytchody",
+          "tables": []
+        },
+        "f68r1.19": {
+          "EVA": "otys",
+          "tables": []
+        },
+        "f68r1.20": {
+          "EVA": "olor",
+          "tables": []
+        },
+        "f68r1.21": {
+          "EVA": "ockhy",
+          "tables": []
+        },
+        "f68r1.22": {
+          "EVA": "ofcheor",
+          "tables": []
+        },
+        "f68r1.24": {
+          "EVA": "otykchs",
+          "tables": []
+        },
+        "f68r1.25": {
+          "EVA": "otol",
+          "tables": []
+        },
+        "f68r1.26": {
+          "EVA": "otor",
+          "tables": []
+        },
+        "f68r1.27": {
+          "EVA": "oiinar",
+          "tables": []
+        },
+        "f68r1.28": {
+          "EVA": "okoldy",
+          "tables": []
+        },
+        "f68r1.29": {
+          "EVA": "ykchdy",
+          "tables": []
+        },
+        "f68r1.31": {
+          "EVA": "ocphy",
+          "tables": []
+        },
+        "f68r1.32": {
+          "EVA": "okeeodal",
+          "tables": []
+        },
+        "f68r1.33": {
+          "EVA": "okshor",
+          "tables": []
+        },
+        "f68r1.35": {
+          "EVA": "otochedy",
+          "tables": []
+        },
+        "f68r1.36": {
+          "EVA": "dolchedy",
+          "tables": []
+        },
+        "f99r.3": {
+          "EVA": "darar",
+          "tables": []
+        },
+        "f99r.4": {
+          "EVA": "oky",
+          "tables": []
+        },
+        "f99r.5": {
+          "EVA": "salo",
+          "tables": []
+        },
+        "f99r.8": {
+          "EVA": "okor",
+          "tables": []
+        },
+        "f99r.10": {
+          "EVA": "skeeal",
+          "tables": []
+        },
+        "f99r.11": {
+          "EVA": "okary",
+          "tables": []
+        },
+        "f99r.12": {
+          "EVA": "okolo",
+          "tables": []
+        },
+        "f99r.13": {
+          "EVA": "otalam",
+          "tables": []
+        },
+        "f99r.14": {
+          "EVA": "otoldy",
+          "tables": []
+        },
+        "f99r.20": {
+          "EVA": "oaro",
+          "tables": []
+        },
+        "f99r.21": {
+          "EVA": "aloly",
+          "tables": []
+        },
+        "f99r.23": {
+          "EVA": "choky",
+          "tables": []
+        },
+        "f99r.24": {
+          "EVA": "oky",
+          "tables": []
+        },
+        "f99r.25": {
+          "EVA": "okeoly",
+          "tables": []
+        },
+        "f99r.26": {
+          "EVA": "yteold",
+          "tables": []
+        },
+        "f99r.27": {
+          "EVA": "cheotchy",
+          "tables": []
+        },
+        "f99r.33": {
+          "EVA": "okos",
+          "tables": []
+        },
+        "f99r.34": {
+          "EVA": "oekey",
+          "tables": []
+        },
+        "f99r.38": {
+          "EVA": "saiiny",
+          "tables": []
+        },
+        "f99r.40": {
+          "EVA": "dam",
+          "tables": []
+        },
+        "f99r.46": {
+          "EVA": "tolsasy",
+          "tables": []
+        },
+        "f100r.1": {
+          "EVA": "chosaroshol",
+          "tables": []
+        },
+        "f100r.2": {
+          "EVA": "sochorcfhy",
+          "tables": []
+        },
+        "f100r.3": {
+          "EVA": "otear",
+          "tables": []
+        },
+        "f100r.7": {
+          "EVA": "chalsain",
+          "tables": []
+        },
+        "f100r.8": {
+          "EVA": "soity",
+          "tables": []
+        },
+        "f100r.9": {
+          "EVA": "sosam",
+          "tables": []
+        },
+        "f100r.10": {
+          "EVA": "dakocth",
+          "tables": []
+        },
+        "f100r.16": {
+          "EVA": "okeeos",
+          "tables": []
+        },
+        "f100r.17": {
+          "EVA": "shockhey",
+          "tables": []
+        },
+        "f100r.18": {
+          "EVA": "orol",
+          "tables": []
+        },
+        "f100r.19": {
+          "EVA": "olcheom",
+          "tables": []
+        },
+        "f100r.20": {
+          "EVA": "oteol",
+          "tables": []
+        },
+        "f100r.21": {
+          "EVA": "okols",
+          "tables": []
+        }
+      }
+    },
+    "3": {
+      "controle": {
+        "vocabulaire": [
+          "a",
+          "ab",
+          "ad",
+          "aliquibus",
+          "aliquoties",
+          "appellata",
+          "autem",
+          "capaci",
+          "caput",
+          "cassiopeae",
+          "cassiopeiae",
+          "cathedrae",
+          "chatedrae",
+          "cingulum",
+          "constellatione",
+          "distantiam",
+          "distare",
+          "ea",
+          "eam",
+          "est",
+          "et",
+          "exquisito",
+          "fixis",
+          "flexura",
+          "genu",
+          "hac",
+          "huius",
+          "ilia",
+          "in",
+          "instrumento",
+          "inueni",
+          "media",
+          "minutis",
+          "minutorum",
+          "noua",
+          "obseruaui",
+          "omnium",
+          "partibus",
+          "pectore",
+          "pectus",
+          "pes",
+          "quae",
+          "schedir",
+          "stella",
+          "stellae",
+          "superiori",
+          "suprema",
+          "uero"
+        ],
+        "nombre_mots_paragraphe": 36,
+        "origines": [
+          {
+            "lieu": "A/1",
+            "graphie": "caput",
+            "tables": 3
+          },
+          {
+            "lieu": "A/2",
+            "graphie": "cassiopeae",
+            "tables": 0
+          },
+          {
+            "lieu": "B/1",
+            "graphie": "pectus",
+            "tables": 0
+          },
+          {
+            "lieu": "B/2",
+            "graphie": "schedir",
+            "tables": 0
+          },
+          {
+            "lieu": "C/1",
+            "graphie": "cingulum",
+            "tables": 0
+          },
+          {
+            "lieu": "D/1",
+            "graphie": "flexura",
+            "tables": 0
+          },
+          {
+            "lieu": "D/2",
+            "graphie": "ad",
+            "tables": 1
+          },
+          {
+            "lieu": "D/3",
+            "graphie": "ilia",
+            "tables": 0
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "tables": 9
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "tables": 7
+          },
+          {
+            "lieu": "G/1",
+            "graphie": "suprema",
+            "tables": 0
+          },
+          {
+            "lieu": "G/2",
+            "graphie": "cathedrae",
+            "tables": 0
+          },
+          {
+            "lieu": "H/1",
+            "graphie": "media",
+            "tables": 3
+          },
+          {
+            "lieu": "H/2",
+            "graphie": "chatedrae",
+            "tables": 0
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "tables": 9
+          },
+          {
+            "lieu": "I/2",
+            "graphie": "stella",
+            "tables": 1
+          }
+        ],
+        "tables_et_lectures": [
+          {
+            "lieu": "A/1",
+            "graphie": "caput",
+            "table": {
+              "u25": "s",
+              "u11": "t",
+              "u12": "e",
+              "u21": "l",
+              "u14": "la"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "t",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "t",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "A/1",
+            "graphie": "caput",
+            "table": {
+              "u25": "s",
+              "u11": "t",
+              "u12": "e",
+              "u21": "ll",
+              "u14": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "t",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "t",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "A/1",
+            "graphie": "caput",
+            "table": {
+              "u25": "s",
+              "u11": "t",
+              "u12": "el",
+              "u21": "l",
+              "u14": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "t",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "t",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "D/2",
+            "graphie": "ad",
+            "table": {
+              "u11": "ste",
+              "u06": "lla"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "ste",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "ste",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "s",
+              "u13": "t",
+              "u24": "e",
+              "u21": "lla"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "s",
+              "u13": "t",
+              "u24": "el",
+              "u21": "la"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "s",
+              "u13": "t",
+              "u24": "ell",
+              "u21": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "s",
+              "u13": "te",
+              "u24": "l",
+              "u21": "la"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "s",
+              "u13": "te",
+              "u24": "ll",
+              "u21": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "s",
+              "u13": "tel",
+              "u24": "l",
+              "u21": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "st",
+              "u13": "e",
+              "u24": "l",
+              "u21": "la"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "st",
+              "u13": "e",
+              "u24": "ll",
+              "u21": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "E/1",
+            "graphie": "genu",
+            "table": {
+              "u01": "st",
+              "u13": "el",
+              "u24": "l",
+              "u21": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "s",
+              "u13": "te",
+              "u07": "lla"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "s",
+              "u13": "tel",
+              "u07": "la"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "st",
+              "u13": "e",
+              "u07": "lla"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "st",
+              "u13": "el",
+              "u07": "la"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "st",
+              "u13": "ell",
+              "u07": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "ste",
+              "u13": "l",
+              "u07": "la"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "F/1",
+            "graphie": "pes",
+            "table": {
+              "u12": "ste",
+              "u13": "ll",
+              "u07": "a"
+            },
+            "prose": []
+          },
+          {
+            "lieu": "H/1",
+            "graphie": "media",
+            "table": {
+              "u17": "s",
+              "u13": "t",
+              "u06": "e",
+              "u15": "l",
+              "u11": "la"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 22,
+                "attendu": "eam",
+                "lecture": "tlas",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 25,
+                "attendu": "ea",
+                "lecture": "tla",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "H/1",
+            "graphie": "media",
+            "table": {
+              "u17": "s",
+              "u13": "t",
+              "u06": "e",
+              "u15": "ll",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 22,
+                "attendu": "eam",
+                "lecture": "tas",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 25,
+                "attendu": "ea",
+                "lecture": "ta",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "H/1",
+            "graphie": "media",
+            "table": {
+              "u17": "s",
+              "u13": "t",
+              "u06": "el",
+              "u15": "l",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 22,
+                "attendu": "eam",
+                "lecture": "tas",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 25,
+                "attendu": "ea",
+                "lecture": "ta",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "s",
+              "u05": "t",
+              "u21": "e",
+              "u11": "lla"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "lla",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "lla",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "s",
+              "u05": "t",
+              "u21": "el",
+              "u11": "la"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "s",
+              "u05": "t",
+              "u21": "ell",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "s",
+              "u05": "te",
+              "u21": "l",
+              "u11": "la"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "s",
+              "u05": "te",
+              "u21": "ll",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "s",
+              "u05": "tel",
+              "u21": "l",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "st",
+              "u05": "e",
+              "u21": "l",
+              "u11": "la"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "la",
+                "exact": false,
+                "dans_vocabulaire": false
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "st",
+              "u05": "e",
+              "u21": "ll",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "I/1",
+            "graphie": "noua",
+            "table": {
+              "u24": "st",
+              "u05": "el",
+              "u21": "l",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          },
+          {
+            "lieu": "I/2",
+            "graphie": "stella",
+            "table": {
+              "u07": "s",
+              "u14": "t",
+              "u13": "e",
+              "u10": "l",
+              "u11": "a"
+            },
+            "prose": [
+              {
+                "rang": 4,
+                "attendu": "stellae",
+                "lecture": "stellae",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 5,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 14,
+                "attendu": "et",
+                "lecture": "et",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 25,
+                "attendu": "ea",
+                "lecture": "ea",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 27,
+                "attendu": "est",
+                "lecture": "est",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 33,
+                "attendu": "et",
+                "lecture": "et",
+                "exact": true,
+                "dans_vocabulaire": true
+              },
+              {
+                "rang": 35,
+                "attendu": "a",
+                "lecture": "a",
+                "exact": true,
+                "dans_vocabulaire": true
+              }
+            ]
+          }
+        ]
+      },
+      "otor": {
+        "stella": [],
+        "stellae": [],
+        "stellas": [],
+        "sideris": []
+      },
+      "doaro_sans_ancre": {
+        "septem": [],
+        "pleiades": [],
+        "vergiliae": [
+          {
+            "d": "u",
+            "o": "e",
+            "a": "rgi",
+            "r": "lia"
+          }
+        ],
+        "virgiliae": []
+      },
+      "formes_voynich": {
+        "f68r1.8": {
+          "EVA": "okodaly",
+          "tables": []
+        },
+        "f68r1.9": {
+          "EVA": "odchecthy",
+          "tables": []
+        },
+        "f68r1.10": {
+          "EVA": "otcheody",
+          "tables": []
+        },
+        "f68r1.11": {
+          "EVA": "okoaly",
+          "tables": []
+        },
+        "f68r1.13": {
+          "EVA": "octhey",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "cth": "t",
+                "e": "e",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "cth": "t",
+                "e": "el",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "cth": "t",
+                "e": "ell",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "cth": "te",
+                "e": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "cth": "te",
+                "e": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "cth": "tel",
+                "e": "l",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "cth": "e",
+                "e": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "cth": "e",
+                "e": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "cth": "el",
+                "e": "l",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f68r1.15": {
+          "EVA": "otydy",
+          "tables": []
+        },
+        "f68r1.17": {
+          "EVA": "cphocthy",
+          "tables": [
+            {
+              "table": {
+                "cph": "s",
+                "o": "t",
+                "cth": "e",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "s",
+                "o": "t",
+                "cth": "el",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "s",
+                "o": "t",
+                "cth": "ell",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "s",
+                "o": "te",
+                "cth": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "te",
+                null,
+                null,
+                "te"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "s",
+                "o": "te",
+                "cth": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "te",
+                null,
+                null,
+                "te"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "s",
+                "o": "tel",
+                "cth": "l",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "tel",
+                null,
+                null,
+                "tel"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "st",
+                "o": "e",
+                "cth": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "e",
+                null,
+                null,
+                "e"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [
+                  {
+                    "cph": "st",
+                    "o": "e",
+                    "cth": "l",
+                    "y": "la",
+                    "d": "u",
+                    "a": "rgi",
+                    "r": "lia"
+                  }
+                ],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "st",
+                "o": "e",
+                "cth": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "e",
+                null,
+                null,
+                "e"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [
+                  {
+                    "cph": "st",
+                    "o": "e",
+                    "cth": "ll",
+                    "y": "a",
+                    "d": "u",
+                    "a": "rgi",
+                    "r": "lia"
+                  }
+                ],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "cph": "st",
+                "o": "el",
+                "cth": "l",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "el",
+                null,
+                null,
+                "el"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f68r1.18": {
+          "EVA": "ytchody",
+          "tables": []
+        },
+        "f68r1.19": {
+          "EVA": "otys",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "t": "t",
+                "y": "e",
+                "s": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "t",
+                "y": "el",
+                "s": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "t",
+                "y": "ell",
+                "s": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "te",
+                "y": "l",
+                "s": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "te",
+                "y": "ll",
+                "s": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "tel",
+                "y": "l",
+                "s": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "t": "e",
+                "y": "l",
+                "s": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "t": "e",
+                "y": "ll",
+                "s": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "t": "el",
+                "y": "l",
+                "s": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f68r1.20": {
+          "EVA": "olor",
+          "tables": []
+        },
+        "f68r1.21": {
+          "EVA": "ockhy",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "ckh": "te",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "ckh": "tel",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "ckh": "e",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "ckh": "el",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "ckh": "ell",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "ckh": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "ckh": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f68r1.22": {
+          "EVA": "ofcheor",
+          "tables": []
+        },
+        "f68r1.24": {
+          "EVA": "otykchs",
+          "tables": []
+        },
+        "f68r1.25": {
+          "EVA": "otol",
+          "tables": []
+        },
+        "f68r1.26": {
+          "EVA": "otor",
+          "tables": []
+        },
+        "f68r1.27": {
+          "EVA": "oiinar",
+          "tables": []
+        },
+        "f68r1.28": {
+          "EVA": "okoldy",
+          "tables": []
+        },
+        "f68r1.29": {
+          "EVA": "ykchdy",
+          "tables": []
+        },
+        "f68r1.31": {
+          "EVA": "ocphy",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "cph": "te",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "cph": "tel",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "cph": "e",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "cph": "el",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "cph": "ell",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "cph": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "cph": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f68r1.32": {
+          "EVA": "okeeodal",
+          "tables": []
+        },
+        "f68r1.33": {
+          "EVA": "okshor",
+          "tables": []
+        },
+        "f68r1.35": {
+          "EVA": "otochedy",
+          "tables": []
+        },
+        "f68r1.36": {
+          "EVA": "dolchedy",
+          "tables": []
+        },
+        "f99r.3": {
+          "EVA": "darar",
+          "tables": []
+        },
+        "f99r.4": {
+          "EVA": "oky",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "k": "te",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "k": "tel",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "k": "e",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "k": "el",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "k": "ell",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "k": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "k": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f99r.5": {
+          "EVA": "salo",
+          "tables": [
+            {
+              "table": {
+                "s": "s",
+                "a": "t",
+                "l": "e",
+                "o": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "lla",
+                "t",
+                null,
+                "lla"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "a": "t",
+                "l": "el",
+                "o": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "la",
+                "t",
+                null,
+                "la"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "a": "t",
+                "l": "ell",
+                "o": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "a",
+                "t",
+                null,
+                "a"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "a": "te",
+                "l": "l",
+                "o": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "la",
+                "te",
+                null,
+                "la"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "a": "te",
+                "l": "ll",
+                "o": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "a",
+                "te",
+                null,
+                "a"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "a": "tel",
+                "l": "l",
+                "o": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "a",
+                "tel",
+                null,
+                "a"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "st",
+                "a": "e",
+                "l": "l",
+                "o": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "la",
+                "e",
+                null,
+                "la"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "st",
+                "a": "e",
+                "l": "ll",
+                "o": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "a",
+                "e",
+                null,
+                "a"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "st",
+                "a": "el",
+                "l": "l",
+                "o": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "a",
+                "el",
+                null,
+                "a"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f99r.8": {
+          "EVA": "okor",
+          "tables": []
+        },
+        "f99r.10": {
+          "EVA": "skeeal",
+          "tables": []
+        },
+        "f99r.11": {
+          "EVA": "okary",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "k": "t",
+                "a": "e",
+                "r": "l",
+                "y": "la"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.3/1",
+                  "EVA": "ykor",
+                  "latin": "latsl",
+                  "dans_vocabulaire": false
+                },
+                {
+                  "lieu": "f68r1.3/6",
+                  "EVA": "ror",
+                  "latin": "lsl",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "s",
+                "e",
+                "l",
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "k": "t",
+                "a": "e",
+                "r": "ll",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.3/1",
+                  "EVA": "ykor",
+                  "latin": "atsll",
+                  "dans_vocabulaire": false
+                },
+                {
+                  "lieu": "f68r1.3/6",
+                  "EVA": "ror",
+                  "latin": "llsll",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "s",
+                "e",
+                "ll",
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "k": "t",
+                "a": "el",
+                "r": "l",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.3/1",
+                  "EVA": "ykor",
+                  "latin": "atsl",
+                  "dans_vocabulaire": false
+                },
+                {
+                  "lieu": "f68r1.3/6",
+                  "EVA": "ror",
+                  "latin": "lsl",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "s",
+                "el",
+                "l",
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f99r.12": {
+          "EVA": "okolo",
+          "tables": []
+        },
+        "f99r.13": {
+          "EVA": "otalam",
+          "tables": []
+        },
+        "f99r.14": {
+          "EVA": "otoldy",
+          "tables": []
+        },
+        "f99r.20": {
+          "EVA": "oaro",
+          "tables": []
+        },
+        "f99r.21": {
+          "EVA": "aloly",
+          "tables": []
+        },
+        "f99r.23": {
+          "EVA": "choky",
+          "tables": [
+            {
+              "table": {
+                "ch": "s",
+                "o": "t",
+                "k": "e",
+                "y": "lla"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "sllaeslla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "s",
+                "o": "t",
+                "k": "el",
+                "y": "la"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "slaelsla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "s",
+                "o": "t",
+                "k": "ell",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "saellsa",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "s",
+                "o": "te",
+                "k": "l",
+                "y": "la"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "slalsla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "te",
+                null,
+                null,
+                "te"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "s",
+                "o": "te",
+                "k": "ll",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "sallsa",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "te",
+                null,
+                null,
+                "te"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "s",
+                "o": "tel",
+                "k": "l",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "salsa",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "tel",
+                null,
+                null,
+                "tel"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "st",
+                "o": "e",
+                "k": "l",
+                "y": "la"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "stlalstla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "e",
+                null,
+                null,
+                "e"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [
+                  {
+                    "ch": "st",
+                    "o": "e",
+                    "k": "l",
+                    "y": "la",
+                    "d": "u",
+                    "a": "rgi",
+                    "r": "lia"
+                  }
+                ],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "st",
+                "o": "e",
+                "k": "ll",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "stallsta",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "e",
+                null,
+                null,
+                "e"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [
+                  {
+                    "ch": "st",
+                    "o": "e",
+                    "k": "ll",
+                    "y": "a",
+                    "d": "u",
+                    "a": "rgi",
+                    "r": "lia"
+                  }
+                ],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "ch": "st",
+                "o": "el",
+                "k": "l",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r2.5/5",
+                  "EVA": "chykchy",
+                  "latin": "stalsta",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "el",
+                null,
+                null,
+                "el"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f99r.24": {
+          "EVA": "oky",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "k": "te",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "k": "tel",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "s",
+                null,
+                null,
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "k": "e",
+                "y": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "k": "el",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "st",
+                "k": "ell",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "st",
+                null,
+                null,
+                "st"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "k": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "ste",
+                "k": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "ste",
+                null,
+                null,
+                "ste"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f99r.25": {
+          "EVA": "okeoly",
+          "tables": []
+        },
+        "f99r.26": {
+          "EVA": "yteold",
+          "tables": []
+        },
+        "f99r.27": {
+          "EVA": "cheotchy",
+          "tables": []
+        },
+        "f99r.33": {
+          "EVA": "okos",
+          "tables": []
+        },
+        "f99r.34": {
+          "EVA": "oekey",
+          "tables": []
+        },
+        "f99r.38": {
+          "EVA": "saiiny",
+          "tables": []
+        },
+        "f99r.40": {
+          "EVA": "dam",
+          "tables": [
+            {
+              "table": {
+                "d": "s",
+                "a": "te",
+                "m": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "s",
+                null,
+                "te",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "s",
+                "a": "tel",
+                "m": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "s",
+                null,
+                "tel",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "st",
+                "a": "e",
+                "m": "lla"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "st",
+                null,
+                "e",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "st",
+                "a": "el",
+                "m": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "st",
+                null,
+                "el",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "st",
+                "a": "ell",
+                "m": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "st",
+                null,
+                "ell",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "ste",
+                "a": "l",
+                "m": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "ste",
+                null,
+                "l",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "ste",
+                "a": "ll",
+                "m": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "ste",
+                null,
+                "ll",
+                null,
+                null
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f99r.46": {
+          "EVA": "tolsasy",
+          "tables": []
+        },
+        "f100r.1": {
+          "EVA": "chosaroshol",
+          "tables": []
+        },
+        "f100r.2": {
+          "EVA": "sochorcfhy",
+          "tables": []
+        },
+        "f100r.3": {
+          "EVA": "otear",
+          "tables": [
+            {
+              "table": {
+                "o": "s",
+                "t": "t",
+                "e": "e",
+                "a": "l",
+                "r": "la"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.1/7",
+                  "EVA": "otor",
+                  "latin": "stsla",
+                  "dans_vocabulaire": false
+                },
+                {
+                  "lieu": "f68r1.3/6",
+                  "EVA": "ror",
+                  "latin": "lasla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "s",
+                "l",
+                "la",
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "t",
+                "e": "e",
+                "a": "ll",
+                "r": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.1/7",
+                  "EVA": "otor",
+                  "latin": "stsa",
+                  "dans_vocabulaire": false
+                },
+                {
+                  "lieu": "f68r1.3/6",
+                  "EVA": "ror",
+                  "latin": "asa",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "s",
+                "ll",
+                "a",
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "o": "s",
+                "t": "t",
+                "e": "el",
+                "a": "l",
+                "r": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.1/7",
+                  "EVA": "otor",
+                  "latin": "stsa",
+                  "dans_vocabulaire": false
+                },
+                {
+                  "lieu": "f68r1.3/6",
+                  "EVA": "ror",
+                  "latin": "asa",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "s",
+                "l",
+                "a",
+                "s"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f100r.7": {
+          "EVA": "chalsain",
+          "tables": []
+        },
+        "f100r.8": {
+          "EVA": "soity",
+          "tables": [
+            {
+              "table": {
+                "s": "s",
+                "o": "t",
+                "i": "e",
+                "t": "l",
+                "y": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "o": "t",
+                "i": "e",
+                "t": "ll",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "s": "s",
+                "o": "t",
+                "i": "el",
+                "t": "l",
+                "y": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f100r.9": {
+          "EVA": "sosam",
+          "tables": []
+        },
+        "f100r.10": {
+          "EVA": "dakocth",
+          "tables": [
+            {
+              "table": {
+                "d": "s",
+                "a": "t",
+                "k": "e",
+                "o": "l",
+                "cth": "la"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "s",
+                "l",
+                "t",
+                null,
+                "l"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "s",
+                "a": "t",
+                "k": "e",
+                "o": "ll",
+                "cth": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "s",
+                "ll",
+                "t",
+                null,
+                "ll"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "d": "s",
+                "a": "t",
+                "k": "el",
+                "o": "l",
+                "cth": "a"
+              },
+              "prose": [],
+              "doaro_connu": [
+                "s",
+                "l",
+                "t",
+                null,
+                "l"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f100r.16": {
+          "EVA": "okeeos",
+          "tables": []
+        },
+        "f100r.17": {
+          "EVA": "shockhey",
+          "tables": [
+            {
+              "table": {
+                "sh": "s",
+                "o": "t",
+                "ckh": "e",
+                "e": "l",
+                "y": "la"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.3/2",
+                  "EVA": "shey",
+                  "latin": "slla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "sh": "s",
+                "o": "t",
+                "ckh": "e",
+                "e": "ll",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.3/2",
+                  "EVA": "shey",
+                  "latin": "slla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            },
+            {
+              "table": {
+                "sh": "s",
+                "o": "t",
+                "ckh": "el",
+                "e": "l",
+                "y": "a"
+              },
+              "prose": [
+                {
+                  "lieu": "f68r1.3/2",
+                  "EVA": "shey",
+                  "latin": "sla",
+                  "dans_vocabulaire": false
+                }
+              ],
+              "doaro_connu": [
+                null,
+                "t",
+                null,
+                null,
+                "t"
+              ],
+              "doaro_completions": {
+                "septem": [],
+                "pleiades": [],
+                "vergiliae": [],
+                "virgiliae": []
+              }
+            }
+          ]
+        },
+        "f100r.18": {
+          "EVA": "orol",
+          "tables": []
+        },
+        "f100r.19": {
+          "EVA": "olcheom",
+          "tables": []
+        },
+        "f100r.20": {
+          "EVA": "oteol",
+          "tables": []
+        },
+        "f100r.21": {
+          "EVA": "okols",
+          "tables": []
+        }
+      }
+    }
+  }
+}

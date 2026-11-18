@@ -1,5 +1,4 @@
 """Prédictions textuelles, sans lecture des commentaires décrivant les dessins."""
-from collections import Counter
 from pathlib import Path
 import json
 import re
@@ -65,11 +64,9 @@ def comparison(pages):
                 all_lines.add(loc)
                 if line['rangs']:
                     known.setdefault(loc,{})[ed+'_'+cut] = line['rangs']
-    def order(loc):
-        return (*re.fullmatch(r'f(\d+)([rv])\.(\d+)',loc).groups(),)
     def key(loc):
-        n, s, k = order(loc)
-        return int(n),s,int(k)
+        number,side,line = re.fullmatch(r'f(\d+)([rv])\.(\d+)',loc).groups()
+        return int(number),side,int(line)
     triples = []
     for loc in sorted(known,key=key):
         f = loc.split('.')[0]

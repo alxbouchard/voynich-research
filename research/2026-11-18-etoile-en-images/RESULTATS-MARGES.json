@@ -1,0 +1,381 @@
+{
+ "bilans": {
+  "commun": {
+   "paires": 8,
+   "sites_distincts": 16,
+   "word": {
+    "VP": 4,
+    "FN": 0,
+    "FP": 4,
+    "VN": 7,
+    "indetermine": 1
+   },
+   "word_dedoublonne": {
+    "VP": 4,
+    "FN": 0,
+    "FP": 4,
+    "VN": 7,
+    "indetermine": 1
+   },
+   "mise_en_page": {
+    "VP": 4,
+    "FN": 0,
+    "FP": 0,
+    "VN": 11,
+    "indetermine": 1
+   },
+   "lecteur_I": {
+    "VP": 4,
+    "FN": 0,
+    "FP": 4,
+    "VN": 7,
+    "indetermine": 1
+   },
+   "lecteur_II": {
+    "VP": 4,
+    "FN": 0,
+    "FP": 4,
+    "VN": 7,
+    "indetermine": 1
+   }
+  },
+  "ensemble": {
+   "paires": 9,
+   "sites_distincts": 18,
+   "word": {
+    "VP": 4,
+    "FN": 1,
+    "FP": 5,
+    "VN": 7,
+    "indetermine": 1
+   },
+   "word_dedoublonne": {
+    "VP": 4,
+    "FN": 1,
+    "FP": 5,
+    "VN": 7,
+    "indetermine": 1
+   },
+   "mise_en_page": {
+    "VP": 5,
+    "FN": 0,
+    "FP": 0,
+    "VN": 12,
+    "indetermine": 1
+   },
+   "lecteur_I": {
+    "VP": 4,
+    "FN": 1,
+    "FP": 5,
+    "VN": 7,
+    "indetermine": 1
+   },
+   "lecteur_II": {
+    "VP": 4,
+    "FN": 1,
+    "FP": 5,
+    "VN": 7,
+    "indetermine": 1
+   }
+  }
+ },
+ "paires": [
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f104r.19",
+    "code": "S09",
+    "otor": true,
+    "votes": [
+     true,
+     true
+    ],
+    "etoile": true,
+    "debut_paragraphe_par_edition": {
+     "H": true,
+     "ZL": true
+    },
+    "debut_paragraphe": true
+   },
+   "temoin": {
+    "lieu": "f104r.20",
+    "code": "S12",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f104v.24",
+    "code": "S14",
+    "otor": true,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   },
+   "temoin": {
+    "lieu": "f104v.25",
+    "code": "S02",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f105v.2",
+    "code": "S04",
+    "otor": true,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   },
+   "temoin": {
+    "lieu": "f105v.3",
+    "code": "S17",
+    "otor": false,
+    "votes": [
+     null,
+     null
+    ],
+    "etoile": null,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": false,
+   "cible": {
+    "lieu": "f105v.31",
+    "code": "S01",
+    "otor": true,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   },
+   "temoin": {
+    "lieu": "f105v.32",
+    "code": "S08",
+    "otor": false,
+    "votes": [
+     true,
+     true
+    ],
+    "etoile": true,
+    "debut_paragraphe_par_edition": {
+     "H": true,
+     "ZL": true
+    },
+    "debut_paragraphe": true
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f106v.34",
+    "code": "S05",
+    "otor": true,
+    "votes": [
+     true,
+     true
+    ],
+    "etoile": true,
+    "debut_paragraphe_par_edition": {
+     "H": true,
+     "ZL": true
+    },
+    "debut_paragraphe": true
+   },
+   "temoin": {
+    "lieu": "f106v.35",
+    "code": "S13",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f107r.1",
+    "code": "S11",
+    "otor": true,
+    "votes": [
+     true,
+     true
+    ],
+    "etoile": true,
+    "debut_paragraphe_par_edition": {
+     "H": true,
+     "ZL": true
+    },
+    "debut_paragraphe": true
+   },
+   "temoin": {
+    "lieu": "f107r.2",
+    "code": "S06",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f113v.8",
+    "code": "S18",
+    "otor": true,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   },
+   "temoin": {
+    "lieu": "f113v.9",
+    "code": "S16",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f113v.10",
+    "code": "S10",
+    "otor": true,
+    "votes": [
+     true,
+     true
+    ],
+    "etoile": true,
+    "debut_paragraphe_par_edition": {
+     "H": true,
+     "ZL": true
+    },
+    "debut_paragraphe": true
+   },
+   "temoin": {
+    "lieu": "f113v.11",
+    "code": "S15",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  },
+  {
+   "commune": true,
+   "cible": {
+    "lieu": "f116r.5",
+    "code": "S07",
+    "otor": true,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   },
+   "temoin": {
+    "lieu": "f116r.6",
+    "code": "S03",
+    "otor": false,
+    "votes": [
+     false,
+     false
+    ],
+    "etoile": false,
+    "debut_paragraphe_par_edition": {
+     "H": false,
+     "ZL": false
+    },
+    "debut_paragraphe": false
+   }
+  }
+ ]
+}
