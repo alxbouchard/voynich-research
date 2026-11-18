@@ -3035,6 +3035,339 @@
      }
     ]
    }
+  },
+  "RIDGES": {
+   "fixe-0": {
+    "fenetres": 14479,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "fixe-1": {
+    "fenetres": 14479,
+    "paires_ajustees": 5,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_connue": 42
+      },
+      "debut": [
+       "lactucken",
+       "lactuca",
+       "heyst"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "BuchDerNatur-Canamellis_1482_vonMegenberg:3456-3488",
+      "tables": 42
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 3
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "als"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 9,
+      "segment": "GartDerGesundheit-c23-33_1487_Cuba:2095-2113",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 18
+      },
+      "debut": [
+       "geleget",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "GartDerGesundheit-c23-33_1487_Cuba:2550-2555",
+      "tables": 18
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 18
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 19,
+      "segment": "GartDerGesundheit_1487_vonCuba:2258-2280",
+      "tables": 18
+     },
+     {
+      "couverture": {
+       "valeur_l_connue": 18
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 6,
+      "segment": "GartDerGesundheit_1487_vonCuba:4616-4625",
+      "tables": 18
+     }
+    ]
+   },
+   "l_contextuel-0": {
+    "fenetres": 14479,
+    "paires_ajustees": 0,
+    "triplets": []
+   },
+   "l_contextuel-1": {
+    "fenetres": 14479,
+    "paires_ajustees": 5,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 42
+      },
+      "debut": [
+       "lactucken",
+       "lactuca",
+       "heyst"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "heyssent",
+        "heysset",
+        "heyszt"
+       ],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "BuchDerNatur-Canamellis_1482_vonMegenberg:3456-3488",
+      "tables": 42
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 3
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "als"
+      ],
+      "mots": {
+       "attendu": [
+        "adels",
+        "alls"
+       ],
+       "plus_tard": [
+        "albus",
+        "alles",
+        "alls"
+       ],
+       "plus_tot": [
+        "adels",
+        "alls"
+       ]
+      },
+      "rang": 9,
+      "segment": "GartDerGesundheit-c23-33_1487_Cuba:2095-2113",
+      "tables": 3
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 18
+      },
+      "debut": [
+       "geleget",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "GartDerGesundheit-c23-33_1487_Cuba:2550-2555",
+      "tables": 18
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 18
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 19,
+      "segment": "GartDerGesundheit_1487_vonCuba:2258-2280",
+      "tables": 18
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 18
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 6,
+      "segment": "GartDerGesundheit_1487_vonCuba:4616-4625",
+      "tables": 18
+     }
+    ]
+   },
+   "position-0": {
+    "fenetres": 14479,
+    "paires_ajustees": 1,
+    "triplets": []
+   },
+   "position-1": {
+    "fenetres": 14479,
+    "paires_ajustees": 5,
+    "triplets": [
+     {
+      "couverture": {
+       "valeur_l_inconnue": 102
+      },
+      "debut": [
+       "lactucken",
+       "lactuca",
+       "heyst"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [
+        "heyssent",
+        "heysset",
+        "heyszt"
+       ],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "BuchDerNatur-Canamellis_1482_vonMegenberg:3456-3488",
+      "tables": 102
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 4
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "als"
+      ],
+      "mots": {
+       "attendu": [
+        "adels",
+        "alls"
+       ],
+       "plus_tard": [
+        "albus",
+        "alles",
+        "alls"
+       ],
+       "plus_tot": [
+        "adels",
+        "alls"
+       ]
+      },
+      "rang": 9,
+      "segment": "GartDerGesundheit-c23-33_1487_Cuba:2095-2113",
+      "tables": 4
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 24
+      },
+      "debut": [
+       "geleget",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 2,
+      "segment": "GartDerGesundheit-c23-33_1487_Cuba:2550-2555",
+      "tables": 24
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 24
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 19,
+      "segment": "GartDerGesundheit_1487_vonCuba:2258-2280",
+      "tables": 24
+     },
+     {
+      "couverture": {
+       "valeur_l_inconnue": 24
+      },
+      "debut": [
+       "gelegt",
+       "geleich",
+       "ainem"
+      ],
+      "mots": {
+       "attendu": [],
+       "plus_tard": [],
+       "plus_tot": []
+      },
+      "rang": 6,
+      "segment": "GartDerGesundheit_1487_vonCuba:4616-4625",
+      "tables": 24
+     }
+    ]
+   }
   }
  },
  "sources": {
@@ -3055,6 +3388,12 @@
    "mots": 13967,
    "segments": 77,
    "sha256_segments": "ae4c1c205cb7af11ecfa9ea016066f8f9c6b909aeaceb4b70a36d91ba166b750"
+  },
+  "RIDGES": {
+   "graphies": 3974,
+   "mots": 20724,
+   "segments": 2271,
+   "sha256_segments": "68dbffd8940ac0c0f131d5c5b7fe5ff64942d6ff2efc46b6b7bfcf727d4fc769"
   }
  }
 }
