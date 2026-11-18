@@ -1,0 +1,37 @@
+{
+  "convention": "Les directions indiquent la gauche et la droite de la photo. La décision porte sur la personne au point bleu.",
+  "lectures": [
+    {
+      "code": "F4",
+      "decision": "pas d'étoile associée visible",
+      "confiance": "élevée",
+      "mains_et_objet": "Un bras descend contre le buste, avec une extrémité arrondie devant le ventre. Aucun objet distinct n’en sort. La seconde main ne se détache pas assez du contour du corps pour en préciser la position.",
+      "etoiles_voisines": "À gauche de la tête marquée, le trait qui descend de l’étoile se recourbe vers la personne immédiatement à gauche. À droite, l’étoile se trouve dans le prolongement du bras tendu de la personne penchée. L’espace devant le buste marqué reste libre jusqu’à cette voisine.",
+      "zone_douteuse": "Contour pâle et superposition dans la région du ventre. Je ne vois pas de trait partant de cette région vers une étoile."
+    },
+    {
+      "code": "L6",
+      "decision": "étoile associée visible",
+      "confiance": "élevée",
+      "mains_et_objet": "Le bras dirigé vers le haut à droite se suit de la poitrine jusque sous la pointe inférieure gauche de l’étoile. L’autre bras est étiré en arrière vers la gauche, la main près des pointes inférieures de l’autre étoile.",
+      "etoiles_voisines": "Sous l’étoile de gauche, un autre tracé descend presque verticalement vers le bras levé de la personne voisine, plus bas à gauche. L’étoile en haut à droite se raccorde, elle, au bras levé de la personne marquée.",
+      "zone_douteuse": "La proximité de la main arrière et de l’étoile de gauche rend leur éventuel contact difficile à trancher. L’association avec l’étoile de droite se lit indépendamment."
+    },
+    {
+      "code": "U8",
+      "decision": "étoile associée visible",
+      "confiance": "élevée",
+      "mains_et_objet": "Devant le visage, un bras replié remonte vers la droite. Depuis son coude on suit un trait courbe jusqu’à la pointe du bas de l’étoile en haut à droite. L’autre bras est replié en arrière contre le flanc gauche de l’image. Sa main ne présente aucun objet discernable.",
+      "etoiles_voisines": "La grande étoile à gauche est prolongée vers le bas jusqu’au bras levé de la personne de gauche. L’étoile entre les deux têtes, du côté droit de la personne marquée, se rattache au bras de celle-ci.",
+      "zone_douteuse": "Le trait remontant vers l’étoile est fin. La limite entre les doigts et la pointe ou son prolongement se distingue mal."
+    },
+    {
+      "code": "Z2",
+      "decision": "étoile associée visible",
+      "confiance": "élevée",
+      "mains_et_objet": "Les contours des bras convergent devant le ventre et se prolongent en diagonale vers le haut à droite. À leur extrémité, un trait rejoint la pointe inférieure gauche de la grande étoile en face de la personne marquée.",
+      "etoiles_voisines": "Plus à gauche et plus bas, un trait sous une autre étoile s’incurve vers la figure au bord inférieur gauche. À l’extrême droite, l’étoile voisine se trouve devant la personne dont le bras part vers la droite. L’étoile au-dessus des mains de la personne marquée est entre sa tête et celle de sa voisine.",
+      "zone_douteuse": "Les mains sont proches ou superposées. Les doigts et la répartition de la prise entre les deux mains sont indistincts."
+    }
+  ]
+}

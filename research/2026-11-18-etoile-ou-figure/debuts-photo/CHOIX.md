@@ -1,0 +1,3 @@
+# Cas à relire sur les photographies
+
+Avant de cadrer les photographies, prendre la légende f84r.12, les deux emplois botaniques f43r.9 et f43v.13, les trois débuts en `dshedy` annoncés et confirmés dans le dernier cahier, puis la première fausse annonce de début de ce cahier, dans l’ordre du codex. Les résultats du dépouillement informatique sont déjà connus du préparateur. L’épreuve vérifie le tracé, la page à gauche des mots et les groupes de droite. Le classement visuel de la légende a déjà été effectué avec le mot masqué. Montrer sans masque les corps, objets et filets qui l’entourent. Ne pas déduire le sens de la seule proximité.

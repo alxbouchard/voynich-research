@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Peut-on distinguer le mot de la figure et le mot de l’étoile ?](research/2026-11-18-etoile-ou-figure/RAPPORT.md) | La place initiale de `dshedy`, inscrit près d’une figure, est confirmée aux cinq emplois de prose réservés. Les huit prédictions de mots voisins tirées d’Hygin échouent. |
 | [La finale des trois légendes de racines aide-t-elle à les lire ?](research/2026-11-18-dam-en-fin-de-ligne/RAPPORT.md) | En fin de ligne, une règle retrouve le signe caché dans 25 cas sur 34 du dernier cahier. Deux clés latines compatibles avec les trois étiquettes échouent sur les paires de mots de la prose. |
 | [Quels signes permettent de prévoir une racine fourchue ?](research/2026-11-18-racines-fourchues/RAPPORT.md) | Après `oldam` et `saldam`, la finale commune prédit correctement les deux bras du fragment 113 près de `doldam`. Deux dessins du rang sur cinq ont cette forme. Dans la prose, `oldam` figure aussi sur deux pages dont les racines ont plus de deux bras. |
 | [Quels mots le scribe pouvait-il écrire à côté d’une racine, d’une figure ou d’une étoile ?](research/2026-11-18-du-dessin-au-paragraphe/RAPPORT.md) | Dans l’herbier de Passau, la prose nomme l’écorce de la racine de la mandragore. Dans le Voynich, les qualificatifs ajustés sur deux légendes de f99v ne prédisent aucun nouveau mot. Sur la roue f67r1, deux étoiles ne donnent pas plus de groupes contenant `ot` qu’une seule. |

@@ -1,0 +1,20 @@
+# Peut-on distinguer une figure sans étoile de ses voisines sur la même couronne ?
+
+Les figures, les étoiles et les mots peuvent être comparés dans **le même dessin** sur f72v2. L’édition Zandbergen–Landini signale qu’une figure de la Vierge, près de `opalg`, n’a pas d’étoile. L’information et le mot étaient déjà publiés. Nous avons testé l’annotation sur la photographie, puis essayé de prévoir le contenu d’une autre image à partir des signes. [Protocole et règle d’admission des images](AVANT.md) · [Géométrie et six extraits originaux de Yale](GEOMETRIE.md)
+
+| Figure examinée | Graphie dans H et ZL | Carte | Lecteur A, mots masqués | Lecteur B, mots masqués |
+|---|---|---|---|---|
+| f72v2.23 | oeedy | B4 | Étoile associée | Étoile associée |
+| f72v2.24 | opalg | M9 | Aucune étoile associée visible | Indéterminé |
+| f72v2.25 | okeeom | R7 | Étoile associée | Étoile associée |
+| f73r.18 | dalshey | H3 | Étoile associée | Étoile associée |
+| f73r.19 | opaiin | N8 | Étoile associée | Étoile associée |
+| f73r.20 | okeos | K5 | Étoile associée | Étoile associée |
+
+Les deux lecteurs IA ont travaillé séparément, avec les six photos mélangées et l’écriture masquée. Ils suivent sur M9 le trait de l’étoile située à gauche vers la figure voisine. Une main de la personne centrale reste difficile à distinguer près d’un masque. Le premier lecteur ne voit aucune étoile qui lui appartienne. Le second s’abstient. Sur R7, un tracé relie la zone des mains au motif étoilé ; le contact des doigts reste incertain. [Bulletin A](LECTEUR-A.json) · [Bulletin B](LECTEUR-B.json) · [Planche M9](cartes/M9.jpg)
+
+Pour vérifier si le masque avait caché la seconde main sur M9, deux nouveaux lecteurs ont reçu quatre détails plus larges, avec de nouveaux codes et toute l’écriture apparente, sans nom de feuillet ni lecture suggérée. Ils indiquent tous deux qu’**aucune étoile associée n’est visible auprès de la personne marquée sur f72v2.24**. L’étoile la plus proche se rattache au bras levé de sa voisine de gauche. L’un signale que la seconde main demeure difficile à distinguer. Les trois témoins f72v2.23, f72v2.25 et f73r.19 sont chacun classés avec étoile par les deux lecteurs. Ce second cadrage appuie l’annotation de ZL. Les quatre lecteurs sont des IA qui examinent la même encre ; leurs avis ne procurent pas quatre sources historiques. [Cadrage large de la figure sans étoile visible](originaux/F4.jpg) · [Cadrage large de la figure près de `opaiin`](originaux/L6.jpg) · [Bulletin X](ORIGINAUX-X.json) · [Bulletin Y](ORIGINAUX-Y.json) · [Programme de seconde lecture](relire.py)
+
+**Une prédiction du dessin à partir du texte échoue sans ambiguïté sur un autre feuillet.** Si `op` marquait l’absence d’étoile, la figure près de `opaiin` sur f73r.19 devrait aussi en être dépourvue. Aucune autre légende entière en `op` n’était disponible parmi les sept lisibles aux quatre traitements sur la couronne de f72v2. Celle de f73r.19 était la seule à satisfaire le critère sur les autres feuillets, parmi 79 graphies entières lisibles pour 135 lieux. L’étoile de cette figure est visible pour les deux lecteurs. La sélection et l’annonce ont précédé leur examen. [Inventaire et cible annoncée](CIBLE.json) · [Carte N8](cartes/N8.jpg) · [Cliché sans masque de f73r.19](https://collections.library.yale.edu/iiif/2/1006206/0,1365,1034,1100/full/0/default.jpg)
+
+Sur f72v2, on peut également juger les deux signes de l’hypothèse antérieure `ot | edy`. Les deux voisines avec une étoile portent `oeedy` et `okeeom`. Aucune des deux inscriptions ne commence par `ot`. Une seule des trois inscriptions de personnes finit en `edy`, `oeedy`. Même en adoptant l’annotation selon laquelle la figure centrale n’a pas d’étoile, **la comparaison des voisines ne soutient donc ni `ot` = « étoile » ni `edy` = « femme » comme éléments obligatoires**. Les figures pourraient porter des noms différents, et le texte peut décrire une propriété ou une relation sans répéter le nom commun. [Trois lieux, heures et états des transcriptions](GEOMETRIE.md)

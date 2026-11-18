@@ -221,14 +221,14 @@ def adjudicate(cache):
                             'annonces':len(options),'exact':bool(target and segment(target) in options),
                             'ajustements_trigramme_apres_ouverture':flex})
         results[direction]=decoded
-    forms=sorted({w for _,a,b in pairs for w in (a,b)})
     pair_vocab={pair for pair in source_pairs}
     results['tables']=[]
     for name, model in latin.items():
         for table in model['tables']:
-            def check(t):
-                decoded={w:''.join(t[s] for s in segment(w)) for w in forms}
-                return [[loc,a,b,decoded[a],decoded[b],source_pairs[(decoded[a],decoded[b])][0]] for loc,a,b in pairs
+            def check(t, sample=pairs):
+                words = {w for _,a,b in sample for w in (a,b)}
+                decoded={w:''.join(t[s] for s in segment(w)) for w in words}
+                return [[loc,a,b,decoded[a],decoded[b],source_pairs[(decoded[a],decoded[b])][0]] for loc,a,b in sample
                         if (decoded[a],decoded[b]) in pair_vocab]
             values=tuple(table[s] for s in ANCHOR)
             perm=Counter(len(check(dict(zip(ANCHOR,p)))) for p in permutations(values))
@@ -238,7 +238,8 @@ def adjudicate(cache):
             if writable:
                 a,b=writable[0]
                 c,d=enc[a][0],enc[b][0]
-                control={'latin':[a,b],'chiffre':[c,d],'exact':tuple(''.join(table[s] for s in v) for v in (c,d))==(a,b)}
+                found=check(table,[('temoin',''.join(c),''.join(d))])
+                control={'latin':[a,b],'chiffre':[c,d],'exact':bool(found and found[0][3:5]==[a,b])}
             results['tables'].append({'nom':name,'valeurs':values,'paires':check(table),
                 'positions_parmi_permutations':perm,'paires_codables':writable,'controle':control})
     write('VERIFICATION.json.gz',results)

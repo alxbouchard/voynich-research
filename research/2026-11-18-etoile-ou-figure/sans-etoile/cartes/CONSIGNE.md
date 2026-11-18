@@ -1,0 +1,5 @@
+# Six figures sur parchemin
+
+Sur chaque carte, un petit point bleu sur le front identifie le personnage à examiner. Regarder ses deux mains et les traits qui en partent. Des personnages voisins et leurs propres objets peuvent entrer dans le cadrage. Les images sont présentées sans légende moderne et dans des orientations qui redressent le corps. Les mots proches sont recouverts de petits aplats neutres. Les mains et les pointes des motifs proches ont été conservées. Utiliser les dessins seulement. N'attribuer un motif au personnage que si sa position, la prise ou un trait visible le justifie.
+
+Pour chaque code, indiquer si **une étoile est visiblement associée à la figure**, si **aucune étoile associée n'est visible**, ou si **le dessin reste indéterminé**. Décrire la position des deux mains lorsqu'elles sont reconnaissables. Préciser séparément s'il existe un contact direct, un trait continu ou un fil possible, une étoile voisine seulement, ou rien de discernable. Si le lien ou la catégorie sont douteux, conserver le doute. Ne pas interpréter l'écriture. Fournir une réponse par code avec confiance et justification visuelle.

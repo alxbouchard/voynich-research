@@ -1,11 +1,11 @@
 """Restituer un voisin entier d'une légende reprise dans la prose de même main."""
-from collections import Counter, defaultdict
+from collections import Counter
 import argparse
 import json
 import sys
 from combiner import HERE, segment, write
 sys.path.insert(0,str(HERE.parent/"2026-11-18-dam-en-fin-de-ligne"))
-from corpus_dam import aligned, corpus, metadata, strict_rows
+from corpus_dam import aligned, corpus, metadata
 
 
 def sites(section):
@@ -60,12 +60,13 @@ def announce():
 def verify():
     ann=json.loads((HERE/'VOISINS-ANNONCES.json').read_bytes())
     out = {}
+    anchors = namespace()
     for loc,w,neighbours in sites('H'):
-        if w not in namespace():
+        if w not in anchors:
             continue
         out[loc]={'ancre':w,'voisins':neighbours}
     score={}
-    for chosen in (['dshedy'],namespace()):
+    for chosen in (['dshedy'],anchors):
         candidates=[x for x in out.values() if x['ancre'] in chosen]
         for method in ['ancre','edy','tout']:
             vals=Counter()
