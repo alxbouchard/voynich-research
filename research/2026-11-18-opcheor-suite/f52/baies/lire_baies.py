@@ -96,7 +96,7 @@ def open_words(pred):
         results[cat]={"lecture_complete_sans_ajout":[sorted(x) for x in fully],"possible_par_lieu":[sorted(x) for x in by_site],
                       "prediction_entiere_correcte":[sorted(x) for x in hits],
                       "extensions_communes":[[list(forms),list(v)] for forms,v in sorted(common)]}
-    return {"lieux":obs,"resultats":results}
+    return {"lieux":obs,"ordre_des_lieux_evalues":[loc for loc,row in obs.items() if row["mot"]],"resultats":results}
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)

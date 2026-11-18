@@ -1,0 +1,93 @@
+{
+ "regime": {
+  "scores": {
+   "blocs": {
+    "fenetres_avec_sortie": 23,
+    "sorties_distinctes_cumulees": 68,
+    "tables": 70,
+    "attendu_4_de_meme_longueur": 0.0
+   }
+  },
+  "succes": []
+ },
+ "viandier": {
+  "scores": {
+   "blocs": {
+    "fenetres_avec_sortie": 223,
+    "sorties_distinctes_cumulees": 734,
+    "tables": 772,
+    "attendu_4_de_meme_longueur": 0.0009615384615384616
+   }
+  },
+  "succes": []
+ },
+ "martino": {
+  "scores": {
+   "blocs": {
+    "fenetres_avec_sortie": 145,
+    "sorties_distinctes_cumulees": 462,
+    "tables": 610,
+    "attendu_4_de_meme_longueur": 0.1408250366657096
+   },
+   "un_muet": {
+    "fenetres_avec_sortie": 1,
+    "sorties_distinctes_cumulees": 1,
+    "tables": 1,
+    "attendu_4_de_meme_longueur": 0.0
+   }
+  },
+  "succes": []
+ },
+ "controle": {
+  "artificiel": true,
+  "suite": [
+   "sano",
+   "sani",
+   "sta",
+   "stia"
+  ],
+  "cle_attendue": {
+   "opcheo": "san",
+   "r": "o",
+   "l": "i",
+   "sho": "st",
+   "dy": "a"
+  },
+  "nombre_tables": 6
+ },
+ "controle_textes": {
+  "regime": {
+   "quartet_original": [
+    "quantite",
+    "du",
+    "travail",
+    "quant"
+   ],
+   "ref": "p. 23, § 1 §1",
+   "rang": 28,
+   "mot_retrouve": "quant"
+  },
+  "viandier": {
+   "quartet_original": [
+    "potaiges",
+    "qui",
+    "seroient",
+    "trop"
+   ],
+   "ref": "entrée 237 §1",
+   "rang": 6,
+   "mot_retrouve": "trop"
+  },
+  "martino": {
+   "quartet_original": [
+    "vacca",
+    "vole",
+    "esser",
+    "allessa"
+   ],
+   "ref": "recette 1 §1",
+   "rang": 7,
+   "mot_retrouve": "allessa"
+  }
+ }
+}

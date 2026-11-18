@@ -1,0 +1,3 @@
+# Le poivre, le laurier et leurs baies
+
+Dans le texte édité du *Macer*, le vers 2072 se trouve dans la notice *Piper* et commence *Cum lauri baccis vel cum foliis bene tritis*. Avant de regarder ce vers dans Wellcome MS.458, copie de 1478, prévoir une rubrique sur le poivre, puis, dans le passage correspondant, le nom du laurier au génitif suivi d’une forme de *bacca*, puis l’alternative des feuilles. Noter les graphies, les mots qui changent d’ordre et, le cas échéant, l’objet du dessin sur la photographie. La table à la fin du poème situe le poivre entre *De Strignio* et le gingembre. Un herbier du XVe siècle portant un dessin titré de laurier pourra vérifier séparément l'allure des fruits et de leur branche.

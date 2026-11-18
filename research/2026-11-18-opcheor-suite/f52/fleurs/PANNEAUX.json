@@ -1,0 +1,239 @@
+{
+ "cas": [
+  {
+   "lieu": "f88r.7",
+   "longueurs_ligne": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "mot": "ctheol",
+   "page": "f88r",
+   "rangs_ligne": [
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "lieu": "f99r.29",
+   "longueurs_ligne": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "mot": "ctheol",
+   "page": "f99r",
+   "rangs_ligne": [
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "lieu": "f99v.22",
+   "longueurs_ligne": [
+    10,
+    10,
+    10,
+    12
+   ],
+   "mot": "ctheol",
+   "page": "f99v",
+   "rangs_ligne": [
+    7,
+    7,
+    7,
+    9
+   ]
+  },
+  {
+   "lieu": "f100r.25",
+   "longueurs_ligne": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "mot": "ctheol",
+   "page": "f100r",
+   "rangs_ligne": [
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "lieu": "f102v2.34",
+   "longueurs_ligne": [
+    9,
+    9,
+    8,
+    8
+   ],
+   "mot": "ctheor",
+   "page": "f102v2",
+   "rangs_ligne": [
+    7,
+    7,
+    6,
+    6
+   ]
+  }
+ ],
+ "comparaison_cahier_19": {
+  "avec_un_mot": [
+   "f100r",
+   "f102v2",
+   "f99r",
+   "f99v"
+  ],
+  "paires_atteignant_deux": 6,
+  "paires_possibles": 36,
+  "panneaux": [
+   "f100r",
+   "f100v",
+   "f101v",
+   "f102r1",
+   "f102r2",
+   "f102v1",
+   "f102v2",
+   "f99r",
+   "f99v"
+  ],
+  "tirage_parmi_places": {
+   "occurrences": 4,
+   "places_cibles": [
+    73,
+    123
+   ],
+   "positions": 738,
+   "proportion_deux_faces": [
+    1120696,
+    7475391
+   ]
+  }
+ },
+ "comparaison_tous_panneaux": {
+  "avec_un_mot": [
+   "f100r",
+   "f102v2",
+   "f88r",
+   "f99r",
+   "f99v"
+  ],
+  "paires_atteignant_deux": 10,
+  "paires_possibles": 105,
+  "panneaux": [
+   "f100r",
+   "f100v",
+   "f101v",
+   "f102r1",
+   "f102r2",
+   "f102v1",
+   "f102v2",
+   "f88r",
+   "f88v",
+   "f89r1",
+   "f89r2",
+   "f89v1",
+   "f89v2",
+   "f99r",
+   "f99v"
+  ],
+  "tirage_parmi_places": {
+   "occurrences": 5,
+   "places_cibles": [
+    73,
+    123
+   ],
+   "positions": 1188,
+   "proportion_deux_faces": [
+    60490233017,
+    611069597721
+   ]
+  }
+ },
+ "etiquettes": {
+  "f100r.2": {
+   "H": "sochorcfhy",
+   "ZL": "<!116>sochorcfhy"
+  },
+  "f99r.46": {
+   "H": "tolsasy",
+   "ZL": "<!94b>tolsasy"
+  }
+ },
+ "mesures": {
+  "test_sans_f99_f100/10_mots_dans_les_4_lectures": {
+   "places_lisibles": 70,
+   "places_rang_1": 5,
+   "places_rang_5": 8
+  },
+  "test_sans_f99_f100/toutes_longueurs": {
+   "ctheol": 1,
+   "ctheol_rang_1": 0,
+   "ctheol_rang_5": 0,
+   "ctheor": 1,
+   "ctheor_rang_1": 0,
+   "ctheor_rang_5": 0,
+   "places_lisibles": 819,
+   "places_rang_1": 89,
+   "places_rang_5": 64
+  },
+  "tous/10_mots_dans_les_4_lectures": {
+   "ctheol": 2,
+   "ctheol_rang_1": 0,
+   "ctheol_rang_5": 2,
+   "places_lisibles": 166,
+   "places_rang_1": 15,
+   "places_rang_5": 18
+  },
+  "tous/toutes_longueurs": {
+   "ctheol": 4,
+   "ctheol_rang_1": 0,
+   "ctheol_rang_5": 2,
+   "ctheor": 1,
+   "ctheor_rang_1": 0,
+   "ctheor_rang_5": 0,
+   "places_lisibles": 1188,
+   "places_rang_1": 130,
+   "places_rang_5": 96
+  }
+ },
+ "panneau_deux_sur_deux": true,
+ "positions_par_panneau": {
+  "f100r": 73,
+  "f100v": 66,
+  "f102r1": 81,
+  "f102r2": 99,
+  "f102v1": 87,
+  "f102v2": 102,
+  "f88r": 109,
+  "f88v": 96,
+  "f89r1": 74,
+  "f89r2": 58,
+  "f89v1": 105,
+  "f89v2": 8,
+  "f99r": 123,
+  "f99v": 107
+ },
+ "test_hors_deux_feuillets": [
+  "f101v",
+  "f102r1",
+  "f102r2",
+  "f102v1",
+  "f102v2",
+  "f88r",
+  "f88v",
+  "f89r1",
+  "f89r2",
+  "f89v1",
+  "f89v2"
+ ]
+}

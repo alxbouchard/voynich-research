@@ -1,0 +1,15 @@
+# Quand un auteur écrit deux formes presque identiques de suite
+
+Dans *De medicina*, composé dans l’Antiquité et imprimé à Florence en 1478, une phrase consacrée aux fièvres et une autre aux os du pied mettent des formes très proches côte à côte. L’édition transcrite avait permis de prédire pour la première le verbe *fiunt* et pour la seconde les deux mots *unguibus respondent*. Nous avons ensuite ouvert les deux pages de l’imprimé. Les trois mots annoncés sont lisibles sur les photographies. [Annonce antérieure aux images](AVANT.md) · [Exemplaire de la Bayerische Staatsbibliothek](https://www.digitale-sammlungen.de/en/view/bsb00050602)
+
+## Un accès de fièvre par jour
+
+Au livre III, 3, 5, l’imprimé coupe le premier mot après *ſingu* en fin de ligne et reprend avec **lae ſingulis diebus fiunt**. Le dernier mot est imprimé en entier. *Singulae*, au nominatif féminin pluriel, s’accorde avec *accessiones*, les accès de fièvre. *Singulis* s’accorde avec *diebus*, à l’ablatif pluriel, « chaque jour ». *Fiunt*, troisième personne du pluriel au présent de *fio*, indique que ces accès « se produisent ». L’alternative introduite par *modo* oppose les accès qui se produisent à raison d’un par jour aux deux ou plusieurs accès qui peuvent coïncider. La supposition initiale d’un verbe signifiant « revenir » échoue devant l’édition et le témoin imprimé. [Les deux lignes dans l’imprimé florentin](fievres-1478.jpg) · [Page entière, vue 103](https://www.digitale-sammlungen.de/en/view/bsb00050602?page=103)
+
+## Les orteils répondent aux doigts, les ongles aux ongles
+
+Au livre VIII, 1, 27, Celse compare le pied à la main. La vue 366 porte **digiti / digitis. ungues / unguibus respondent**. Les petits signes obliques sont des séparations typographiques. *Digiti* et *ungues* sont les sujets au nominatif pluriel, *digitis* et *unguibus* leurs correspondants au datif pluriel. Les orteils correspondent aux doigts, leurs ongles à ceux des doigts. Cette énumération offre deux paires successives, chacune composée de deux formes d’un même nom. Le passage sur les fièvres rapprochait au contraire deux formes d’un adjectif appliqué à deux noms différents. [Dernières lignes du chapitre de l’imprimé](orteils-1478.jpg) · [Page entière, vue 366](https://www.digitale-sammlungen.de/en/view/bsb00050602?page=366)
+
+Sur f52v.4 du Voynich, la séquence `ctheor ctheol cheeor cheol` reproduit deux fois l’alternance de crochet et de boucle en finale. Les deux façons dont Celse écrit de tels rapprochements montrent pourquoi une ressemblance formelle laisse plusieurs fonctions grammaticales possibles. Rien dans ces lignes de Celse ne donne une valeur phonétique ou le sens de ces quatre groupes. [La ligne du Voynich et son dessin](../deux-grandes-plantes.jpg) · [Règles du test de lecture de la paire](../../cle/AVANT.md)
+
+Les images sont deux régions natives de la numérisation de Munich. Le manifeste local donne les URL IIIF exactes, les dimensions et les empreintes SHA-256 pour télécharger et comparer les deux fichiers. [Provenance et vérification](SOURCES.json)

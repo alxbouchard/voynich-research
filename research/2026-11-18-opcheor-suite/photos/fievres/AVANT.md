@@ -1,0 +1,5 @@
+# Quatrième mot dans deux passages de Celse
+
+Avant l’ouverture des images de ces deux passages dans l’imprimé florentin de 1478, la transcription électronique de l’édition latine donne au livre III, chapitre 3, section 5, `singulae singulis diebus fiunt`. La suggestion initiale `revertuntur` a déjà été contredite en lisant cette édition. Nous prédisons pour le témoin de Florence le verbe `fiunt`, éventuellement écrit avec une barre abréviative, immédiatement après les trois mots. Il devrait se rapporter grammaticalement aux accès de fièvre.
+
+Dans le livre VIII, chapitre 1, l’édition donne `digiti digitis ungues unguibus respondent`. Pour le témoin de Florence nous prédisons `unguibus` immédiatement après `ungues`, puis `respondent`. Cet exemple indépendant met deux noms d’organes fléchis au même endroit de la phrase. Les prédictions viennent d’un livre dont le latin est déjà connu et ne sont pas des traductions du Voynich. Les photographies ne sont pas encore ouvertes pour ces deux lignes.

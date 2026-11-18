@@ -1,0 +1,228 @@
+{
+ "source_sha256": "5673cd6a8fa25b009754406455d9193f0440ab80b64542698824ff5083b088db",
+ "lignes": {
+  "718": 48,
+  "719": 48
+ },
+ "entrees_admises": {
+  "718": 27,
+  "719": 28
+ },
+ "resultats": [
+  {
+   "chapitre": 53,
+   "vue": "718",
+   "noms": [
+    "betonica",
+    "betonien"
+   ],
+   "tables": [
+    {
+     "o": "",
+     "p": "be",
+     "ch": "to",
+     "e": "ni",
+     "r": "ca",
+     "l": "en"
+    }
+   ],
+   "f100v": [],
+   "f96r": [],
+   "lecture_avec_ou_sans_initiale_restituee": {
+    "betonica": {
+     "nombre_tables": 0,
+     "quatriemes": [],
+     "mot_du_temoin": "latine",
+     "conforme": false
+    },
+    "etonica": {
+     "nombre_tables": 0,
+     "quatriemes": [],
+     "mot_du_temoin": "latine",
+     "conforme": false
+    }
+   }
+  },
+  {
+   "chapitre": 107,
+   "vue": "718",
+   "noms": [
+    "costus",
+    "costen"
+   ],
+   "tables": [
+    {
+     "o": "",
+     "p": "c",
+     "ch": "o",
+     "e": "st",
+     "r": "us",
+     "l": "en"
+    },
+    {
+     "o": "",
+     "p": "c",
+     "ch": "os",
+     "e": "t",
+     "r": "us",
+     "l": "en"
+    },
+    {
+     "o": "",
+     "p": "co",
+     "ch": "s",
+     "e": "t",
+     "r": "us",
+     "l": "en"
+    }
+   ],
+   "f100v": [
+    {
+     "table": 0,
+     "chapitre": 107,
+     "noms": [
+      "costus",
+      "costen"
+     ],
+     "nombre": 1
+    }
+   ],
+   "f96r": [],
+   "apres_reprise_du_nom": {
+    "tables": [
+     {
+      "o": "",
+      "p": "c",
+      "ch": "o",
+      "e": "st",
+      "r": "us",
+      "l": "en",
+      "sh": "co",
+      "d": "st",
+      "y": "us"
+     },
+     {
+      "o": "",
+      "p": "c",
+      "ch": "os",
+      "e": "t",
+      "r": "us",
+      "l": "en",
+      "sh": "co",
+      "d": "st",
+      "y": "us"
+     },
+     {
+      "o": "",
+      "p": "co",
+      "ch": "s",
+      "e": "t",
+      "r": "us",
+      "l": "en",
+      "sh": "co",
+      "d": "st",
+      "y": "us"
+     }
+    ],
+    "sorties": [
+     "coenstus"
+    ],
+    "sorties_si_tous_signes_distincts": []
+   },
+   "lecture_avec_ou_sans_initiale_restituee": {
+    "costus": {
+     "nombre_tables": 3,
+     "quatriemes": [
+      "coenstus"
+     ],
+     "mot_du_temoin": "grece",
+     "conforme": false
+    },
+    "ostus": {
+     "nombre_tables": 9,
+     "quatriemes": [
+      "oenstus",
+      "osentus"
+     ],
+     "mot_du_temoin": "grece",
+     "conforme": false
+    }
+   },
+   "suite_f100v_si_meme_rubrique": {
+    "tables": [
+     {
+      "o": "",
+      "p": "c",
+      "ch": "o",
+      "e": "st",
+      "r": "us",
+      "l": "en",
+      "sh": "co",
+      "d": "st",
+      "y": "us",
+      "k": "co"
+     }
+    ],
+    "lecture_dy": [
+     "stus"
+    ],
+    "prose_attendue": "costus"
+   }
+  },
+  {
+   "chapitre": 130,
+   "vue": "719",
+   "noms": [
+    "corallus",
+    "corallen"
+   ],
+   "tables": [
+    {
+     "o": "",
+     "p": "co",
+     "ch": "ra",
+     "e": "ll",
+     "r": "us",
+     "l": "en"
+    }
+   ],
+   "f100v": [],
+   "f96r": [],
+   "lecture_avec_ou_sans_initiale_restituee": {
+    "corallus": {
+     "nombre_tables": 0,
+     "quatriemes": [],
+     "mot_du_temoin": "latine",
+     "conforme": false
+    },
+    "orallus": {
+     "nombre_tables": 0,
+     "quatriemes": [],
+     "mot_du_temoin": "latine",
+     "conforme": false
+    }
+   }
+  }
+ ],
+ "melanges_des_gloses_dans_chaque_vue": {
+  "observe": 3,
+  "esperance_exacte": "83/756",
+  "histogramme": {
+   "0": 8898,
+   "1": 1061,
+   "2": 40
+  },
+  "melanges_au_moins_aussi_hauts": 0
+ },
+ "controle_artificiel": {
+  "clair": [
+   "asumiara",
+   "asumiali",
+   "aviiara",
+   "aviiali"
+  ],
+  "tables_initiales": 7,
+  "tables_initiales_compatibles": 2,
+  "table_generatrice_retrouvee": true
+ }
+}

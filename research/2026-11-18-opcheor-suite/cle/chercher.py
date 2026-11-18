@@ -1,7 +1,5 @@
 """Ajuster une table commune sur deux triplets, en gardant la suite du témoin cachée."""
-from collections import Counter, defaultdict
 from functools import lru_cache
-from hashlib import sha256
 from itertools import combinations
 from pathlib import Path
 import argparse
@@ -154,7 +152,7 @@ def predictions(body):
 
 
 def control():
-    # Trois digrammes latins distincts sont écrits avec des signes uniques. Le couple de
+    # Une unité écrit deux lettres. Le couple de
     # glyphes o+p forme une seule lettre, sans quoi le premier mot est trop court.
     pairs = (("o","p"),)
     key = {"o+p":"a","ch":"b","e":"c","o":"d","r":"e","l":"f","sh":"gh","d":"i","y":"j","k":"k"}
@@ -165,7 +163,11 @@ def control():
     true_keys = [r for r in pred["deux_passages"] if r["f89"][0]=="A" and r["f100"][0]=="B"
                  and dict(r["table"]) == key and r["suite"] == end and r["fusions"]==pairs]
     no_merge = pred["regles"]['[[],2]']
-    assert true_keys and not no_merge[0] and end != end[::-1]
+    decoys = [r for r in pred["deux_passages"] if r["f89"][0]=="A_leurre" and r["f100"][0]=="B"
+              and r["table"]==key and r["fusions"]==pairs]
+    assert true_keys and not no_merge[0] and decoys
+    assert all(r["suite"]==body["A"][3] for r in true_keys)
+    assert all(r["suite"]!=body["A_leurre"][3] for r in decoys)
     return {"textes":body, "chiffre": [A,B], "fusion_attendue":pairs, "cle_attendue":key,
             "cle_recuperee":True, "quatrieme":end, "contre_exemple":end[::-1],
             "triplets_f89_sans_fusion":no_merge[0]}

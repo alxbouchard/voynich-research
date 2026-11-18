@@ -1,0 +1,534 @@
+{
+ "bilan": {
+  "lr/eo": {
+   "exact": {
+    "attendues_aux_lieux_avec_temoins": 0,
+    "reussites": 0,
+    "reussites_avec_temoins": 0
+   },
+   "finale": {
+    "attendues_aux_lieux_avec_temoins": 0,
+    "reussites": 0,
+    "reussites_avec_temoins": 0
+   },
+   "lieux_temoins": 0,
+   "paires": 0,
+   "tiers_lisibles": 0
+  },
+  "lr/tout": {
+   "exact": {
+    "attendues_aux_lieux_avec_temoins": 0.0,
+    "reussites": 0,
+    "reussites_avec_temoins": 0
+   },
+   "finale": {
+    "attendues_aux_lieux_avec_temoins": 0.9166666666666666,
+    "reussites": 1,
+    "reussites_avec_temoins": 1
+   },
+   "lieux_temoins": 7,
+   "paires": 15,
+   "tiers_lisibles": 10
+  },
+  "rl/eo": {
+   "exact": {
+    "attendues_aux_lieux_avec_temoins": 0.0,
+    "reussites": 0,
+    "reussites_avec_temoins": 0
+   },
+   "finale": {
+    "attendues_aux_lieux_avec_temoins": 0.25,
+    "reussites": 0,
+    "reussites_avec_temoins": 0
+   },
+   "lieux_temoins": 1,
+   "paires": 1,
+   "tiers_lisibles": 1
+  },
+  "rl/tout": {
+   "exact": {
+    "attendues_aux_lieux_avec_temoins": 0.03333333333333333,
+    "reussites": 0,
+    "reussites_avec_temoins": 0
+   },
+   "finale": {
+    "attendues_aux_lieux_avec_temoins": 1.0281209781209781,
+    "reussites": 1,
+    "reussites_avec_temoins": 1
+   },
+   "lieux_temoins": 13,
+   "paires": 16,
+   "tiers_lisibles": 14
+  }
+ },
+ "lieux": {
+  "f105v.26/1/4": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f105v",
+   "finale": "dy",
+   "finale_temoin": 2,
+   "lu": "or",
+   "paire": [
+    "otar",
+    "otal"
+   ],
+   "sens": "rl",
+   "temoins": 21
+  },
+  "f107v.14/1/4": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f107v",
+   "finale": "dy",
+   "finale_temoin": 8,
+   "lu": "qokal",
+   "paire": [
+    "qokar",
+    "qokal"
+   ],
+   "sens": "rl",
+   "temoins": 37
+  },
+  "f112v.8/1/5": {
+   "base_en_eo": false,
+   "exact": "chodar",
+   "face": "f112v",
+   "finale": "ar",
+   "lu": null,
+   "paire": [
+    "okal",
+    "okar"
+   ],
+   "sens": "lr"
+  },
+  "f15v.12/1/3": {
+   "base_en_eo": false,
+   "exact": "chodar",
+   "face": "f15v",
+   "finale": "ar",
+   "lu": null,
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr"
+  },
+  "f16v.5/1/3": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f16v",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "ytchy",
+   "paire": [
+    "chor",
+    "chol"
+   ],
+   "sens": "rl",
+   "temoins": 3
+  },
+  "f16v.9/1/4": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f16v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "cthor",
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr",
+   "temoins": 3
+  },
+  "f18r.6/1/7": {
+   "base_en_eo": false,
+   "exact": "dy",
+   "face": "f18r",
+   "finale": "dy",
+   "lu": null,
+   "paire": [
+    "dar",
+    "dal"
+   ],
+   "sens": "rl"
+  },
+  "f21r.12/1/5": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f21r",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "daiin",
+   "paire": [
+    "chor",
+    "chol"
+   ],
+   "sens": "rl",
+   "temoins": 8
+  },
+  "f23v.9/1/2": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f23v",
+   "finale": "ar",
+   "finale_temoin": 1,
+   "lu": "oldar",
+   "paire": [
+    "dal",
+    "dar"
+   ],
+   "sens": "lr",
+   "temoins": 3
+  },
+  "f28v.3/1/1": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f28v",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "chy",
+   "paire": [
+    "chor",
+    "chol"
+   ],
+   "sens": "rl",
+   "temoins": 3
+  },
+  "f2v.6/1/2": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f2v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "chol",
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr",
+   "temoins": 2
+  },
+  "f2v.6/1/3": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f2v",
+   "finale": "dy",
+   "finale_temoin": 1,
+   "lu": "keol",
+   "paire": [
+    "chor",
+    "chol"
+   ],
+   "sens": "rl",
+   "temoins": 5
+  },
+  "f32v.10/1/3": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f32v",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "daiin",
+   "paire": [
+    "chor",
+    "chol"
+   ],
+   "sens": "rl",
+   "temoins": 1
+  },
+  "f37r.6/1/1": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f37r",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "qokchy",
+   "paire": [
+    "shor",
+    "shol"
+   ],
+   "sens": "rl",
+   "temoins": 0
+  },
+  "f3r.8/1/2": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f3r",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "oky",
+   "paire": [
+    "chor",
+    "chol"
+   ],
+   "sens": "rl",
+   "temoins": 8
+  },
+  "f42r.8/1/4": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f42r",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "ety",
+   "paire": [
+    "shor",
+    "shol"
+   ],
+   "sens": "rl",
+   "temoins": 9
+  },
+  "f42v.1/2/1": {
+   "base_en_eo": false,
+   "bord": "fin",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f42v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "dain",
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr",
+   "temoins": 0
+  },
+  "f45v.4/1/4": {
+   "base_en_eo": false,
+   "bord": "fin",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f45v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "shy",
+   "paire": [
+    "dail",
+    "dair"
+   ],
+   "sens": "lr",
+   "temoins": 0
+  },
+  "f47r.7/1/6": {
+   "base_en_eo": false,
+   "exact": "chodar",
+   "face": "f47r",
+   "finale": "ar",
+   "lu": null,
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr"
+  },
+  "f49v.50/1/1": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f49v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "ches",
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr",
+   "temoins": 4
+  },
+  "f4r.8/1/1": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f4r",
+   "finale": "dy",
+   "finale_temoin": 0,
+   "lu": "shol",
+   "paire": [
+    "shor",
+    "shol"
+   ],
+   "sens": "rl",
+   "temoins": 2
+  },
+  "f52r.5/1/3": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f52r",
+   "finale": "ar",
+   "finale_temoin": 1,
+   "lu": "shor",
+   "paire": [
+    "okchal",
+    "okchar"
+   ],
+   "sens": "lr",
+   "temoins": 4
+  },
+  "f52v.4/1/2": {
+   "base_en_eo": true,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f52v",
+   "finale": "dy",
+   "finale_temoin": 1,
+   "lu": "cheeor",
+   "paire": [
+    "ctheor",
+    "ctheol"
+   ],
+   "sens": "rl",
+   "temoins": 4
+  },
+  "f58r.2/1/7": {
+   "base_en_eo": false,
+   "bord": "fin",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f58r",
+   "finale": "ar",
+   "finale_temoin": 1,
+   "lu": "olchokal",
+   "paire": [
+    "ytal",
+    "ytar"
+   ],
+   "sens": "lr",
+   "temoins": 3
+  },
+  "f58v.1/1/6": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 1,
+   "face": "f58v",
+   "finale": "dy",
+   "finale_temoin": 2,
+   "lu": "opal",
+   "paire": [
+    "ypar",
+    "ypal"
+   ],
+   "sens": "rl",
+   "temoins": 30
+  },
+  "f7v.7/2/2": {
+   "base_en_eo": false,
+   "bord": "fin",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f7v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "aiin",
+   "paire": [
+    "dol",
+    "dor"
+   ],
+   "sens": "lr",
+   "temoins": 0
+  },
+  "f81v.1/1/5": {
+   "base_en_eo": false,
+   "exact": "chodar",
+   "face": "f81v",
+   "finale": "ar",
+   "lu": null,
+   "paire": [
+    "dal",
+    "dar"
+   ],
+   "sens": "lr"
+  },
+  "f81v.19/1/7": {
+   "base_en_eo": false,
+   "exact": "dy",
+   "face": "f81v",
+   "finale": "dy",
+   "lu": null,
+   "paire": [
+    "qokar",
+    "qokal"
+   ],
+   "sens": "rl"
+  },
+  "f86v5.29/1/8": {
+   "base_en_eo": false,
+   "exact": "chodar",
+   "face": "f86v5",
+   "finale": "ar",
+   "lu": null,
+   "paire": [
+    "tal",
+    "tar"
+   ],
+   "sens": "lr"
+  },
+  "f93r.7/1/1": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "dy",
+   "exact_temoin": 0,
+   "face": "f93r",
+   "finale": "dy",
+   "finale_temoin": 2,
+   "lu": "ody",
+   "paire": [
+    "shor",
+    "shol"
+   ],
+   "sens": "rl",
+   "temoins": 10
+  },
+  "f9v.2/1/5": {
+   "base_en_eo": false,
+   "bord": "interieur",
+   "exact": "chodar",
+   "exact_temoin": 0,
+   "face": "f9v",
+   "finale": "ar",
+   "finale_temoin": 0,
+   "lu": "cphol",
+   "paire": [
+    "chol",
+    "chor"
+   ],
+   "sens": "lr",
+   "temoins": 6
+  }
+ }
+}

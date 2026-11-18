@@ -1,0 +1,204 @@
+{
+ "sources": {
+  "f52v": {
+   "vue_yale": "https://collections.library.yale.edu/iiif/2/1006177/full/full/0/default.jpg",
+   "sha256": "9792c5070fa339a220781439d0b8864d48b2e2dc071cd051b24e501d565ddb39",
+   "dimensions": [
+    2935,
+    3769
+   ],
+   "anciennes_lectures": "https://www.voynich.nu/q07/f052v_tr.txt"
+  },
+  "f93r": {
+   "vue_yale": "https://collections.library.yale.edu/iiif/2/1006238/full/full/0/default.jpg",
+   "sha256": "e8ab4d7dcf7d758e2f0e05f9579ef5366a846c273f309ae603616a5e74bbec3a",
+   "dimensions": [
+    2718,
+    3758
+   ],
+   "anciennes_lectures": "https://www.voynich.nu/q17/f093r_tr.txt"
+  },
+  "f89r2": {
+   "vue_yale": "https://collections.library.yale.edu/iiif/2/1006233/full/full/0/default.jpg",
+   "sha256": "3b553c70d0c068cb39a276d391127165c5d9d868ec08e7f5eb2e73b32bb95d1e",
+   "dimensions": [
+    9078,
+    3777
+   ],
+   "anciennes_lectures": "https://www.voynich.nu/q15/f089r2_tr.txt"
+  },
+  "f100v": {
+   "vue_yale": "https://collections.library.yale.edu/iiif/2/1006249/full/full/0/default.jpg",
+   "sha256": "72637b9770f40f7a8ff6b96a551e64775e88994ae69bafec0b43d48974364c33",
+   "dimensions": [
+    7486,
+    3715
+   ],
+   "anciennes_lectures": "https://www.voynich.nu/q19/f100v_tr.txt"
+  },
+  "f81v": {
+   "vue_yale": "https://collections.library.yale.edu/iiif/2/1006221/full/full/0/default.jpg",
+   "sha256": "bb1a2316e7fc2966f5761f591d79339c75dcfbc6c2c9ab2b88a37e800266d4bf",
+   "dimensions": [
+    2835,
+    3705
+   ],
+   "anciennes_lectures": "https://www.voynich.nu/q13/f081v_tr.txt"
+  },
+  "f107v": {
+   "vue_yale": "https://collections.library.yale.edu/iiif/2/1006263/full/full/0/default.jpg",
+   "sha256": "46316d4cb82f2ccdd1c8d414ee99ad60f72d6154c28b888d00c484245d75704c",
+   "dimensions": [
+    2689,
+    3697
+   ],
+   "anciennes_lectures": "https://www.voynich.nu/q20/f107v_tr.txt"
+  }
+ },
+ "cadres_x1_y1_x2_y2": {
+  "f52v.4": [
+   850,
+   607,
+   2300,
+   759
+  ],
+  "f52v.4-detail": [
+   1070,
+   614,
+   1825,
+   741
+  ],
+  "f93r.7": [
+   345,
+   789,
+   1220,
+   940
+  ],
+  "f93r.7-detail": [
+   373,
+   814,
+   819,
+   932
+  ],
+  "f89r2.22": [
+   6680,
+   2362,
+   7550,
+   2515
+  ],
+  "f100v.16": [
+   2186,
+   2594,
+   2760,
+   2740
+  ],
+  "f100v.17": [
+   830,
+   2610,
+   1155,
+   2765
+  ],
+  "f81v.19": [
+   1920,
+   1473,
+   2530,
+   1599
+  ],
+  "f107v.14": [
+   1060,
+   882,
+   1845,
+   1029
+  ]
+ },
+ "espaces_f81v": {
+  "qokar | qokal": {
+   "x": 2147,
+   "y": 1542,
+   "hauteur": 12,
+   "seuils_xmin_xmax_largeur": {
+    "105": [
+     2138,
+     2165,
+     28
+    ],
+    "125": [
+     2138,
+     2160,
+     23
+    ],
+    "145": [
+     2139,
+     2158,
+     20
+    ]
+   }
+  },
+  "qokal | dol": {
+   "x": 2320,
+   "y": 1528,
+   "hauteur": 12,
+   "seuils_xmin_xmax_largeur": {
+    "105": [
+     2302,
+     2338,
+     37
+    ],
+    "125": [
+     2302,
+     2338,
+     37
+    ],
+    "145": [
+     2303,
+     2338,
+     36
+    ]
+   }
+  },
+  "dol | chy": {
+   "x": 2420,
+   "y": 1529,
+   "hauteur": 12,
+   "seuils_xmin_xmax_largeur": {
+    "105": [
+     2414,
+     2439,
+     26
+    ],
+    "125": [
+     2414,
+     2430,
+     17
+    ],
+    "145": [
+     2415,
+     2430,
+     16
+    ]
+   }
+  },
+  "interieur du second qokal": {
+   "x": 2249,
+   "y": 1530,
+   "hauteur": 12,
+   "seuils_xmin_xmax_largeur": {
+    "105": [
+     2239,
+     2259,
+     21
+    ],
+    "125": [
+     2245,
+     2255,
+     11
+    ],
+    "145": [
+     2245,
+     2253,
+     9
+    ]
+   }
+  }
+ }
+}
