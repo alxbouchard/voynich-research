@@ -1,0 +1,681 @@
+{
+ "propositions": {
+  "ducenda": {
+   "ducendi": [
+    "oldas"
+   ],
+   "ducendae": [
+    "oldamd"
+   ],
+   "ducendo": [],
+   "inducendi": [
+    "saldas"
+   ],
+   "inducendae": [
+    "saldamd"
+   ],
+   "inducendo": [],
+   "educendi": [
+    "doldas"
+   ],
+   "educendae": [
+    "doldamd"
+   ],
+   "educendo": []
+  },
+  "ortum": {
+   "orto": [
+    "oldo"
+   ],
+   "orti": [],
+   "orta": [],
+   "curto": [
+    "saldo"
+   ],
+   "curti": [],
+   "curta": [],
+   "torto": [
+    "doldo"
+   ],
+   "torti": [],
+   "torta": []
+  }
+ },
+ "formes_attestees": [
+  "orto"
+ ],
+ "attestations_celse": {
+  "curto": [],
+  "ducendae": [],
+  "ducendi": [],
+  "educendae": [],
+  "educendi": [],
+  "inducendae": [],
+  "inducendi": [],
+  "orto": [
+   [
+    "4.7.p1.4",
+    184
+   ],
+   [
+    "7.2.p1.1",
+    17
+   ],
+   [
+    "7.19.p1.1",
+    361
+   ],
+   [
+    "7.27.p1.1",
+    250
+   ]
+  ],
+  "torto": []
+ },
+ "reserves": {
+  "f55r": {
+   "positions": 84,
+   "occurrences": []
+  },
+  "f56r": {
+   "positions": 53,
+   "occurrences": []
+  },
+  "f56v": {
+   "positions": 46,
+   "occurrences": []
+  },
+  "autres_comparables": {
+   "positions": 1277,
+   "occurrences": []
+  }
+ },
+ "voisins": [
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "alvus",
+   "triple": [
+    "ducenda",
+    "inducenda",
+    "educenda"
+   ],
+   "largeur": 2,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "est",
+   "triple": [
+    "ducere",
+    "carcere",
+    "educere"
+   ],
+   "largeur": 2,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "nihil",
+   "triple": [
+    "actum",
+    "diductum",
+    "tactum"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "misericordiam",
+   "triple": [
+    "discere",
+    "carcere",
+    "ediscere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "misericordiam",
+   "triple": [
+    "discere",
+    "exercere",
+    "ediscere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "alvus",
+   "triple": [
+    "ducenda",
+    "inducenda",
+    "educenda"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "est",
+   "triple": [
+    "ducere",
+    "carcere",
+    "educere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "est",
+   "triple": [
+    "ducere",
+    "exercere",
+    "educere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "coquitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "diluitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "eluitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "expuitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "loquitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "minuitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "suitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f102r2.3",
+   "rang": 6,
+   "ancre": "oldam",
+   "observe": "olaiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "sequitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "alvus",
+   "triple": [
+    "ducenda",
+    "inducenda",
+    "educenda"
+   ],
+   "largeur": 2,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "est",
+   "triple": [
+    "ducere",
+    "carcere",
+    "educere"
+   ],
+   "largeur": 2,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "nihil",
+   "triple": [
+    "actum",
+    "diductum",
+    "tactum"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "misericordiam",
+   "triple": [
+    "discere",
+    "carcere",
+    "ediscere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "misericordiam",
+   "triple": [
+    "discere",
+    "exercere",
+    "ediscere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "alvus",
+   "triple": [
+    "ducenda",
+    "inducenda",
+    "educenda"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "est",
+   "triple": [
+    "ducere",
+    "carcere",
+    "educere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "est",
+   "triple": [
+    "ducere",
+    "exercere",
+    "educere"
+   ],
+   "largeur": 3,
+   "injective": false,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "coquitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "diluitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "eluitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "expuitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "loquitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "minuitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "suitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  },
+  {
+   "loc": "f34v.2",
+   "rang": 11,
+   "ancre": "oldam",
+   "observe": "aiin",
+   "candidat": "subinde",
+   "triple": [
+    "raditur",
+    "sequitur",
+    "traditur"
+   ],
+   "largeur": 3,
+   "injective": true,
+   "exact": false,
+   "compatible_meme_avec_nouveaux_signes": false
+  }
+ ],
+ "projection_homophones": [
+  {
+   "mots": [
+    "discere",
+    "carcere",
+    "ediscere"
+   ],
+   "mode": "homophones admis aussi pour k et r",
+   "largeur": 3,
+   "formes": [
+    {
+     "mot": "discernere",
+     "k": "e",
+     "r": "n"
+    }
+   ]
+  },
+  {
+   "mots": [
+    "discere",
+    "exercere",
+    "ediscere"
+   ],
+   "mode": "homophones admis aussi pour k et r",
+   "largeur": 3,
+   "formes": [
+    {
+     "mot": "discernere",
+     "k": "e",
+     "r": "n"
+    }
+   ]
+  },
+  {
+   "mots": [
+    "ortum",
+    "curtum",
+    "tortum"
+   ],
+   "mode": "homophones admis aussi pour k et r",
+   "largeur": 3,
+   "formes": [
+    {
+     "mot": "orbiculatum",
+     "k": "bic",
+     "r": "la"
+    }
+   ]
+  }
+ ],
+ "temoin_exact": {
+  "mots_chiffres": [
+   "YVZWU",
+   "XWVZWU",
+   "ZYVZWU"
+  ],
+  "cles_compatibles_avec_clair": 1,
+  "mot": "die",
+  "annonce": [
+   "YXZ"
+  ],
+  "observe": [
+   "YXZ"
+  ],
+  "notices_Macer": [
+   "Apium",
+   "Betonica",
+   "Chamomilla",
+   "Cepa",
+   "Caulis",
+   "Violae",
+   "Aloë"
+  ]
+ }
+}
