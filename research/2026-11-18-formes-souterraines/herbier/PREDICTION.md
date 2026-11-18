@@ -1,0 +1,9 @@
+# Prédiction consignée avant la recherche du second témoin
+
+Je connais déjà les deux chapitres X et XI du *Gart der Gesundheit* (Mayence, 1485) par les travaux antérieurs de ce dépôt. Leur prose décrit une racine ronde et une racine longue. La première gravure montre une masse arrondie et la seconde s'arrête aux tiges. Ces chapitres constituent le point de départ.
+
+Je chercherai d'abord un manuscrit français du XVe siècle du *Livre des simples médecines*. À défaut de deux figures consultables, je conserverai l'observation incomplète et examinerai l'*Hortus sanitatis* latin de Mayence (1491). À l'instant de cette inscription je n'ai vu ni les deux images ni les notices visées de ces témoins dans cette enquête. Je connais la paire des noms en latin et la possibilité de sa circulation dans ces traditions. Le choix des documents est guidé par cette connaissance.
+
+Je prédis que les deux désignations auront une base écrite commune et deux qualificatifs opposés dans la rubrique ou la légende. J'attends les formes latines *longa* et *rotunda* ou les formes françaises *longue* et *ronde*, avec une graphie médiévale variable. Je noterai séparément un nom en latin dans un texte français, l'ordre des termes, une rubrique commune et les qualificatifs confinés à la prose.
+
+Je prédis qu'on pourra associer à la forme ronde une base individualisée compacte, arrondie ou ovoïde, et à la forme longue un organe allongé sous le collet, au moins deux fois plus long que large à vue, distinct des petites radicelles et des tiges. Une image sans organe différencié, une figure commune sans attribution des deux organes ou une racine morcelée de forme ambiguë ne valideront pas la prédiction stricte. Des sources introduisant une troisième variété seront conservées. Ce test porte sur le rapport des qualificatifs au dessin d'un herbier lisible.

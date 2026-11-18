@@ -1,0 +1,765 @@
+{
+ "anciens_dessins": [
+  "f21r",
+  "f22r",
+  "f27r",
+  "f28r",
+  "f42v",
+  "f44v",
+  "f53v",
+  "f54v"
+ ],
+ "formes": {
+  "joints_finale": {
+   "apprentissage": {
+    "FN": 5,
+    "FP": 4,
+    "VN": 17,
+    "VP": 6,
+    "score": "82/231"
+   },
+   "forme": "o d",
+   "reserves": {
+    "D": {
+     "FN": 0,
+     "FP": 0,
+     "VN": 3,
+     "VP": 2,
+     "score": "1"
+    },
+    "E": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 2,
+     "VP": 0,
+     "score": "0"
+    },
+    "F": {
+     "FN": 0,
+     "FP": 3,
+     "VN": 4,
+     "VP": 1,
+     "score": "4/7"
+    },
+    "G": {
+     "FN": 3,
+     "FP": 2,
+     "VN": 1,
+     "VP": 0,
+     "score": "-2/3"
+    },
+    "ensemble": {
+     "FN": 5,
+     "FP": 5,
+     "VN": 10,
+     "VP": 3,
+     "permutations": {
+      "au_moins_observe": 3826,
+      "p_plus_un": 0.19135,
+      "tirages": 19999
+     },
+     "score": "1/24"
+    },
+    "hors_anciennes": {
+     "FN": 4,
+     "FP": 3,
+     "VN": 9,
+     "VP": 2,
+     "permutations": {
+      "au_moins_observe": 4597,
+      "p_plus_un": 0.2299,
+      "tirages": 19999
+     },
+     "score": "1/12"
+    }
+   }
+  },
+  "joints_mot": {
+   "apprentissage": {
+    "FN": 6,
+    "FP": 3,
+    "VN": 18,
+    "VP": 5,
+    "score": "24/77"
+   },
+   "forme": "or",
+   "reserves": {
+    "D": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 3,
+     "VP": 0,
+     "score": "0"
+    },
+    "E": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 2,
+     "VP": 0,
+     "score": "0"
+    },
+    "F": {
+     "FN": 1,
+     "FP": 0,
+     "VN": 7,
+     "VP": 0,
+     "score": "0"
+    },
+    "G": {
+     "FN": 3,
+     "FP": 0,
+     "VN": 3,
+     "VP": 0,
+     "score": "0"
+    },
+    "ensemble": {
+     "FN": 8,
+     "FP": 0,
+     "VN": 15,
+     "VP": 0,
+     "permutations": {
+      "au_moins_observe": 11635,
+      "p_plus_un": 0.5818,
+      "tirages": 19999
+     },
+     "score": "0"
+    },
+    "hors_anciennes": {
+     "FN": 6,
+     "FP": 0,
+     "VN": 12,
+     "VP": 0,
+     "permutations": {
+      "au_moins_observe": 11635,
+      "p_plus_un": 0.5818,
+      "tirages": 19999
+     },
+     "score": "0"
+    }
+   }
+  },
+  "joints_otoldy": {
+   "apprentissage": {
+    "FN": 11,
+    "FP": 1,
+    "VN": 20,
+    "VP": 0,
+    "score": "-1/21"
+   },
+   "forme": "otoldy",
+   "reserves": {
+    "D": {
+     "FN": 1,
+     "FP": 0,
+     "VN": 3,
+     "VP": 1,
+     "score": "1/2"
+    },
+    "E": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 2,
+     "VP": 0,
+     "score": "0"
+    },
+    "F": {
+     "FN": 1,
+     "FP": 1,
+     "VN": 6,
+     "VP": 0,
+     "score": "-1/7"
+    },
+    "G": {
+     "FN": 3,
+     "FP": 1,
+     "VN": 2,
+     "VP": 0,
+     "score": "-1/3"
+    },
+    "ensemble": {
+     "FN": 7,
+     "FP": 2,
+     "VN": 13,
+     "VP": 1,
+     "permutations": {
+      "au_moins_observe": 8875,
+      "p_plus_un": 0.4438,
+      "tirages": 19999
+     },
+     "score": "-1/120"
+    },
+    "hors_anciennes": {
+     "FN": 6,
+     "FP": 0,
+     "VN": 12,
+     "VP": 0,
+     "permutations": {
+      "au_moins_observe": 7461,
+      "p_plus_un": 0.3731,
+      "tirages": 19999
+     },
+     "score": "0"
+    }
+   }
+  },
+  "separes_finale": {
+   "apprentissage": {
+    "FN": 6,
+    "FP": 1,
+    "VN": 20,
+    "VP": 5,
+    "score": "94/231"
+   },
+   "forme": "d a l",
+   "reserves": {
+    "D": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 3,
+     "VP": 0,
+     "score": "0"
+    },
+    "E": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 2,
+     "VP": 0,
+     "score": "0"
+    },
+    "F": {
+     "FN": 0,
+     "FP": 2,
+     "VN": 5,
+     "VP": 1,
+     "score": "5/7"
+    },
+    "G": {
+     "FN": 3,
+     "FP": 2,
+     "VN": 1,
+     "VP": 0,
+     "score": "-2/3"
+    },
+    "ensemble": {
+     "FN": 7,
+     "FP": 4,
+     "VN": 11,
+     "VP": 1,
+     "permutations": {
+      "au_moins_observe": 16167,
+      "p_plus_un": 0.8084,
+      "tirages": 19999
+     },
+     "score": "-17/120"
+    },
+    "hors_anciennes": {
+     "FN": 5,
+     "FP": 2,
+     "VN": 10,
+     "VP": 1,
+     "permutations": {
+      "au_moins_observe": 10993,
+      "p_plus_un": 0.5497,
+      "tirages": 19999
+     },
+     "score": "0"
+    }
+   }
+  },
+  "separes_mot": {
+   "apprentissage": {
+    "FN": 6,
+    "FP": 3,
+    "VN": 18,
+    "VP": 5,
+    "score": "24/77"
+   },
+   "forme": "or",
+   "reserves": {
+    "D": {
+     "FN": 2,
+     "FP": 1,
+     "VN": 2,
+     "VP": 0,
+     "score": "-1/3"
+    },
+    "E": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 2,
+     "VP": 0,
+     "score": "0"
+    },
+    "F": {
+     "FN": 1,
+     "FP": 1,
+     "VN": 6,
+     "VP": 0,
+     "score": "-1/7"
+    },
+    "G": {
+     "FN": 3,
+     "FP": 0,
+     "VN": 3,
+     "VP": 0,
+     "score": "0"
+    },
+    "ensemble": {
+     "FN": 8,
+     "FP": 2,
+     "VN": 13,
+     "VP": 0,
+     "permutations": {
+      "au_moins_observe": 17265,
+      "p_plus_un": 0.8633,
+      "tirages": 19999
+     },
+     "score": "-2/15"
+    },
+    "hors_anciennes": {
+     "FN": 6,
+     "FP": 2,
+     "VN": 10,
+     "VP": 0,
+     "permutations": {
+      "au_moins_observe": 18663,
+      "p_plus_un": 0.9332,
+      "tirages": 19999
+     },
+     "score": "-1/6"
+    }
+   }
+  },
+  "separes_otoldy": {
+   "apprentissage": {
+    "FN": 11,
+    "FP": 1,
+    "VN": 20,
+    "VP": 0,
+    "score": "-1/21"
+   },
+   "forme": "otoldy",
+   "reserves": {
+    "D": {
+     "FN": 1,
+     "FP": 0,
+     "VN": 3,
+     "VP": 1,
+     "score": "1/2"
+    },
+    "E": {
+     "FN": 2,
+     "FP": 0,
+     "VN": 2,
+     "VP": 0,
+     "score": "0"
+    },
+    "F": {
+     "FN": 1,
+     "FP": 1,
+     "VN": 6,
+     "VP": 0,
+     "score": "-1/7"
+    },
+    "G": {
+     "FN": 3,
+     "FP": 1,
+     "VN": 2,
+     "VP": 0,
+     "score": "-1/3"
+    },
+    "ensemble": {
+     "FN": 7,
+     "FP": 2,
+     "VN": 13,
+     "VP": 1,
+     "permutations": {
+      "au_moins_observe": 8875,
+      "p_plus_un": 0.4438,
+      "tirages": 19999
+     },
+     "score": "-1/120"
+    },
+    "hors_anciennes": {
+     "FN": 6,
+     "FP": 0,
+     "VN": 12,
+     "VP": 0,
+     "permutations": {
+      "au_moins_observe": 7461,
+      "p_plus_un": 0.3731,
+      "tirages": 19999
+     },
+     "score": "0"
+    }
+   }
+  }
+ },
+ "reserve_primaire": {
+  "f25v": "N",
+  "f28r": "O",
+  "f29r": "N",
+  "f30v": "O",
+  "f32v": "N",
+  "f35v": "N",
+  "f36v": "N",
+  "f37r": "O",
+  "f37v": "O",
+  "f42r": "N",
+  "f42v": "N",
+  "f44r": "N",
+  "f44v": "N",
+  "f45r": "N",
+  "f45v": "N",
+  "f47r": "O",
+  "f47v": "N",
+  "f49r": "O",
+  "f51v": "N",
+  "f52v": "N",
+  "f53v": "N",
+  "f54v": "O",
+  "f56v": "O"
+ },
+ "votes": {
+  "f10r": [
+   "O",
+   "O"
+  ],
+  "f10v": [
+   "?",
+   "?"
+  ],
+  "f11r": [
+   "N",
+   "N"
+  ],
+  "f11v": [
+   "N",
+   "N"
+  ],
+  "f13r": [
+   "O",
+   "O"
+  ],
+  "f13v": [
+   "O",
+   "O"
+  ],
+  "f14r": [
+   "N",
+   "N"
+  ],
+  "f14v": [
+   "N",
+   "N"
+  ],
+  "f15r": [
+   "O",
+   "?"
+  ],
+  "f15v": [
+   "?",
+   "?"
+  ],
+  "f16r": [
+   "?",
+   "?"
+  ],
+  "f16v": [
+   "O",
+   "O"
+  ],
+  "f17r": [
+   "N",
+   "?"
+  ],
+  "f17v": [
+   "O",
+   "O"
+  ],
+  "f18r": [
+   "N",
+   "N"
+  ],
+  "f18v": [
+   "O",
+   "O"
+  ],
+  "f19r": [
+   "N",
+   "N"
+  ],
+  "f19v": [
+   "N",
+   "N"
+  ],
+  "f1v": [
+   "?",
+   "?"
+  ],
+  "f20r": [
+   "?",
+   "?"
+  ],
+  "f20v": [
+   "?",
+   "?"
+  ],
+  "f21r": [
+   "N",
+   "?"
+  ],
+  "f21v": [
+   "?",
+   "?"
+  ],
+  "f22r": [
+   "N",
+   "N"
+  ],
+  "f22v": [
+   "?",
+   "?"
+  ],
+  "f23r": [
+   "N",
+   "N"
+  ],
+  "f23v": [
+   "N",
+   "N"
+  ],
+  "f24r": [
+   "N",
+   "N"
+  ],
+  "f24v": [
+   "O",
+   "O"
+  ],
+  "f25r": [
+   "?",
+   "?"
+  ],
+  "f25v": [
+   "N",
+   "N"
+  ],
+  "f27r": [
+   "?",
+   "?"
+  ],
+  "f27v": [
+   "?",
+   "?"
+  ],
+  "f28r": [
+   "O",
+   "O"
+  ],
+  "f28v": [
+   "N",
+   "?"
+  ],
+  "f29r": [
+   "N",
+   "N"
+  ],
+  "f29v": [
+   "?",
+   "?"
+  ],
+  "f2r": [
+   "N",
+   "N"
+  ],
+  "f2v": [
+   "?",
+   "?"
+  ],
+  "f30r": [
+   "N",
+   "?"
+  ],
+  "f30v": [
+   "O",
+   "O"
+  ],
+  "f32r": [
+   "?",
+   "?"
+  ],
+  "f32v": [
+   "N",
+   "N"
+  ],
+  "f35r": [
+   "?",
+   "?"
+  ],
+  "f35v": [
+   "N",
+   "N"
+  ],
+  "f36r": [
+   "?",
+   "?"
+  ],
+  "f36v": [
+   "N",
+   "N"
+  ],
+  "f37r": [
+   "O",
+   "O"
+  ],
+  "f37v": [
+   "O",
+   "O"
+  ],
+  "f38r": [
+   "N",
+   "?"
+  ],
+  "f38v": [
+   "?",
+   "?"
+  ],
+  "f3r": [
+   "N",
+   "N"
+  ],
+  "f3v": [
+   "N",
+   "N"
+  ],
+  "f42r": [
+   "N",
+   "N"
+  ],
+  "f42v": [
+   "N",
+   "N"
+  ],
+  "f44r": [
+   "N",
+   "N"
+  ],
+  "f44v": [
+   "N",
+   "N"
+  ],
+  "f45r": [
+   "N",
+   "N"
+  ],
+  "f45v": [
+   "N",
+   "N"
+  ],
+  "f47r": [
+   "O",
+   "O"
+  ],
+  "f47v": [
+   "N",
+   "N"
+  ],
+  "f49r": [
+   "O",
+   "O"
+  ],
+  "f49v": [
+   "?",
+   "?"
+  ],
+  "f4r": [
+   "N",
+   "N"
+  ],
+  "f4v": [
+   "O",
+   "O"
+  ],
+  "f51r": [
+   "O",
+   "?"
+  ],
+  "f51v": [
+   "N",
+   "N"
+  ],
+  "f52r": [
+   "N",
+   "?"
+  ],
+  "f52v": [
+   "N",
+   "N"
+  ],
+  "f53r": [
+   "?",
+   "?"
+  ],
+  "f53v": [
+   "N",
+   "N"
+  ],
+  "f54r": [
+   "N",
+   "?"
+  ],
+  "f54v": [
+   "O",
+   "O"
+  ],
+  "f56r": [
+   "?",
+   "?"
+  ],
+  "f56v": [
+   "O",
+   "O"
+  ],
+  "f5r": [
+   "O",
+   "O"
+  ],
+  "f5v": [
+   "O",
+   "O"
+  ],
+  "f6r": [
+   "O",
+   "O"
+  ],
+  "f6v": [
+   "N",
+   "N"
+  ],
+  "f7r": [
+   "N",
+   "N"
+  ],
+  "f7v": [
+   "N",
+   "N"
+  ],
+  "f8r": [
+   "N",
+   "N"
+  ],
+  "f8v": [
+   "N",
+   "N"
+  ],
+  "f9r": [
+   "?",
+   "?"
+  ],
+  "f9v": [
+   "N",
+   "N"
+  ]
+ }
+}

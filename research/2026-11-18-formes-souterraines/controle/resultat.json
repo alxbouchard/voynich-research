@@ -1,0 +1,3477 @@
+{
+  "votes_apprentissage": {
+    "consensus": {
+      "?": 13,
+      "N": 21,
+      "O": 11
+    },
+    "paires": {
+      "N/?": 2,
+      "N/N": 21,
+      "O/O": 11,
+      "?/?": 10,
+      "O/?": 1
+    }
+  },
+  "votes_reserve": {
+    "consensus": {
+      "N": 15,
+      "?": 17,
+      "O": 8
+    },
+    "paires": {
+      "N/N": 15,
+      "?/?": 11,
+      "N/?": 5,
+      "O/O": 8,
+      "O/?": 1
+    }
+  },
+  "anciennes_parmi_85": [
+    "f21r",
+    "f22r",
+    "f27r",
+    "f28r",
+    "f42v",
+    "f44v",
+    "f53v",
+    "f54v"
+  ],
+  "anciennes_parmi_40": [
+    "f27r",
+    "f28r",
+    "f42v",
+    "f44v",
+    "f53v",
+    "f54v"
+  ],
+  "par_cahier": {
+    "D": {
+      "consensus": {
+        "?": 7,
+        "N": 3,
+        "O": 2
+      },
+      "paires": {
+        "?/?": 5,
+        "N/N": 3,
+        "O/O": 2,
+        "N/?": 2
+      }
+    },
+    "E": {
+      "consensus": {
+        "?": 4,
+        "N": 2,
+        "O": 2
+      },
+      "paires": {
+        "?/?": 3,
+        "N/N": 2,
+        "O/O": 2,
+        "N/?": 1
+      }
+    },
+    "F": {
+      "consensus": {
+        "N": 7,
+        "O": 1
+      },
+      "paires": {
+        "N/N": 7,
+        "O/O": 1
+      }
+    },
+    "G": {
+      "consensus": {
+        "O": 3,
+        "?": 6,
+        "N": 3
+      },
+      "paires": {
+        "O/O": 3,
+        "?/?": 3,
+        "O/?": 1,
+        "N/N": 3,
+        "N/?": 2
+      }
+    }
+  },
+  "evaluations": {
+    "joints_mot": {
+      "modele": {
+        "forme": "or",
+        "score": "24/77",
+        "positifs": [
+          "f10r",
+          "f17v",
+          "f18v",
+          "f24v",
+          "f6r"
+        ],
+        "negatifs": [
+          "f19r",
+          "f24r",
+          "f3v"
+        ],
+        "candidats_admissibles": 33,
+        "ex_aequo_avant_ordre_alphabetique": [
+          "or"
+        ]
+      },
+      "apprentissage": {
+        "VP": [
+          "f10r",
+          "f17v",
+          "f18v",
+          "f24v",
+          "f6r"
+        ],
+        "FP": [
+          "f19r",
+          "f24r",
+          "f3v"
+        ],
+        "FN": [
+          "f13r",
+          "f13v",
+          "f16v",
+          "f4v",
+          "f5r",
+          "f5v"
+        ],
+        "VN": [
+          "f11r",
+          "f11v",
+          "f14r",
+          "f14v",
+          "f18r",
+          "f19v",
+          "f22r",
+          "f23r",
+          "f23v",
+          "f2r",
+          "f3r",
+          "f4r",
+          "f6v",
+          "f7r",
+          "f7v",
+          "f8r",
+          "f8v",
+          "f9v"
+        ],
+        "annonces_indecises": [
+          "f15v",
+          "f17r",
+          "f1v",
+          "f20v",
+          "f22v",
+          "f9r"
+        ],
+        "silences_indecis": [
+          "f10v",
+          "f15r",
+          "f16r",
+          "f20r",
+          "f21r",
+          "f21v",
+          "f2v"
+        ]
+      },
+      "tests": {
+        "reserve": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v",
+              "f53v"
+            ],
+            "annonces_indecises": [
+              "f38v",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 174182400,
+            "permutations": 298598400,
+            "p": "7/12",
+            "p_decimal": 0.5833333333333334,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.5818
+        },
+        "hors_anciennes": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f38v",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 174182400,
+            "permutations": 298598400,
+            "p": "7/12",
+            "p_decimal": 0.5833333333333334,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.5818
+        },
+        "lecteur_I": {
+          "faces": {
+            "VP": [],
+            "FP": [
+              "f54r"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f51r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f28v",
+              "f29r",
+              "f30r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f38r",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52r",
+              "f52v",
+              "f53v"
+            ],
+            "annonces_indecises": [
+              "f38v"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f49v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -9,
+            "au_moins_observe": 248832000,
+            "permutations": 298598400,
+            "p": "5/6",
+            "p_decimal": 0.8333333333333334,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "lecteur_II": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v",
+              "f53v"
+            ],
+            "annonces_indecises": [
+              "f38v",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 174182400,
+            "permutations": 298598400,
+            "p": "7/12",
+            "p_decimal": 0.5833333333333334,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "hors_feuillets_anciens": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f38v"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 13824,
+            "permutations": 27648,
+            "p": "1/2",
+            "p_decimal": 0.5,
+            "strates": {
+              "D": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 2,
+                "permutations": 2
+              },
+              "G": {
+                "feuillets": 4,
+                "permutations": 24
+              }
+            }
+          }
+        }
+      },
+      "cahiers": {
+        "D": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f28r",
+            "f30v"
+          ],
+          "VN": [
+            "f25v",
+            "f29r",
+            "f32v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f25r",
+            "f27r",
+            "f27v",
+            "f28v",
+            "f29v",
+            "f30r",
+            "f32r"
+          ]
+        },
+        "E": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f37r",
+            "f37v"
+          ],
+          "VN": [
+            "f35v",
+            "f36v"
+          ],
+          "annonces_indecises": [
+            "f38v"
+          ],
+          "silences_indecis": [
+            "f35r",
+            "f36r",
+            "f38r"
+          ]
+        },
+        "F": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f47r"
+          ],
+          "VN": [
+            "f42r",
+            "f42v",
+            "f44r",
+            "f44v",
+            "f45r",
+            "f45v",
+            "f47v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": []
+        },
+        "G": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f49r",
+            "f54v",
+            "f56v"
+          ],
+          "VN": [
+            "f51v",
+            "f52v",
+            "f53v"
+          ],
+          "annonces_indecises": [
+            "f54r"
+          ],
+          "silences_indecis": [
+            "f49v",
+            "f51r",
+            "f52r",
+            "f53r",
+            "f56r"
+          ]
+        }
+      }
+    },
+    "joints_finale": {
+      "modele": {
+        "forme": "o d",
+        "score": "82/231",
+        "positifs": [
+          "f13v",
+          "f16v",
+          "f18v",
+          "f24v",
+          "f4v",
+          "f5v"
+        ],
+        "negatifs": [
+          "f14r",
+          "f7r",
+          "f7v",
+          "f9v"
+        ],
+        "candidats_admissibles": 46,
+        "ex_aequo_avant_ordre_alphabetique": [
+          "o d"
+        ]
+      },
+      "apprentissage": {
+        "VP": [
+          "f13v",
+          "f16v",
+          "f18v",
+          "f24v",
+          "f4v",
+          "f5v"
+        ],
+        "FP": [
+          "f14r",
+          "f7r",
+          "f7v",
+          "f9v"
+        ],
+        "FN": [
+          "f10r",
+          "f13r",
+          "f17v",
+          "f5r",
+          "f6r"
+        ],
+        "VN": [
+          "f11r",
+          "f11v",
+          "f14v",
+          "f18r",
+          "f19r",
+          "f19v",
+          "f22r",
+          "f23r",
+          "f23v",
+          "f24r",
+          "f2r",
+          "f3r",
+          "f3v",
+          "f4r",
+          "f6v",
+          "f8r",
+          "f8v"
+        ],
+        "annonces_indecises": [
+          "f15v",
+          "f16r",
+          "f17r",
+          "f20r",
+          "f9r"
+        ],
+        "silences_indecis": [
+          "f10v",
+          "f15r",
+          "f1v",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22v",
+          "f2v"
+        ]
+      },
+      "tests": {
+        "reserve": {
+          "faces": {
+            "VP": [
+              "f28r",
+              "f30v",
+              "f47r"
+            ],
+            "FP": [
+              "f44v",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f53v"
+            ],
+            "FN": [
+              "f37r",
+              "f37v",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f38v",
+              "f49v",
+              "f52r",
+              "f53r"
+            ],
+            "silences_indecis": [
+              "f28v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f51r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 5,
+            "au_moins_observe": 57475008,
+            "permutations": 298598400,
+            "p": "11087/57600",
+            "p_decimal": 0.1924826388888889,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.19135
+        },
+        "hors_anciennes": {
+          "faces": {
+            "VP": [
+              "f30v",
+              "f47r"
+            ],
+            "FP": [
+              "f45v",
+              "f47v",
+              "f51v"
+            ],
+            "FN": [
+              "f37r",
+              "f37v",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f45r",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f25r",
+              "f27v",
+              "f29v",
+              "f38v",
+              "f49v",
+              "f52r",
+              "f53r"
+            ],
+            "silences_indecis": [
+              "f28v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f51r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 6,
+            "au_moins_observe": 68575680,
+            "permutations": 298598400,
+            "p": "7937/34560",
+            "p_decimal": 0.2296585648148148,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.2299
+        },
+        "lecteur_I": {
+          "faces": {
+            "VP": [
+              "f28r",
+              "f30v",
+              "f47r"
+            ],
+            "FP": [
+              "f44v",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52r",
+              "f53v"
+            ],
+            "FN": [
+              "f37r",
+              "f37v",
+              "f49r",
+              "f51r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f28v",
+              "f29r",
+              "f30r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f38r",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f52v",
+              "f54r"
+            ],
+            "annonces_indecises": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f38v",
+              "f49v",
+              "f53r"
+            ],
+            "silences_indecis": [
+              "f32r",
+              "f35r",
+              "f36r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 6,
+            "au_moins_observe": 85697280,
+            "permutations": 298598400,
+            "p": "7439/25920",
+            "p_decimal": 0.2869984567901235,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "lecteur_II": {
+          "faces": {
+            "VP": [
+              "f28r",
+              "f30v",
+              "f47r"
+            ],
+            "FP": [
+              "f44v",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f53v"
+            ],
+            "FN": [
+              "f37r",
+              "f37v",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f38v",
+              "f49v",
+              "f52r",
+              "f53r"
+            ],
+            "silences_indecis": [
+              "f28v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f51r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 5,
+            "au_moins_observe": 57475008,
+            "permutations": 298598400,
+            "p": "11087/57600",
+            "p_decimal": 0.1924826388888889,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "hors_feuillets_anciens": {
+          "faces": {
+            "VP": [
+              "f30v",
+              "f47r"
+            ],
+            "FP": [
+              "f45v",
+              "f47v",
+              "f51v"
+            ],
+            "FN": [
+              "f37r",
+              "f37v",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f45r",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f25r",
+              "f29v",
+              "f38v",
+              "f49v",
+              "f52r"
+            ],
+            "silences_indecis": [
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f51r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 2,
+            "au_moins_observe": 5472,
+            "permutations": 27648,
+            "p": "19/96",
+            "p_decimal": 0.19791666666666666,
+            "strates": {
+              "D": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 2,
+                "permutations": 2
+              },
+              "G": {
+                "feuillets": 4,
+                "permutations": 24
+              }
+            }
+          }
+        }
+      },
+      "cahiers": {
+        "D": {
+          "VP": [
+            "f28r",
+            "f30v"
+          ],
+          "FP": [],
+          "FN": [],
+          "VN": [
+            "f25v",
+            "f29r",
+            "f32v"
+          ],
+          "annonces_indecises": [
+            "f25r",
+            "f27r",
+            "f27v",
+            "f29v"
+          ],
+          "silences_indecis": [
+            "f28v",
+            "f30r",
+            "f32r"
+          ]
+        },
+        "E": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f37r",
+            "f37v"
+          ],
+          "VN": [
+            "f35v",
+            "f36v"
+          ],
+          "annonces_indecises": [
+            "f38v"
+          ],
+          "silences_indecis": [
+            "f35r",
+            "f36r",
+            "f38r"
+          ]
+        },
+        "F": {
+          "VP": [
+            "f47r"
+          ],
+          "FP": [
+            "f44v",
+            "f45v",
+            "f47v"
+          ],
+          "FN": [],
+          "VN": [
+            "f42r",
+            "f42v",
+            "f44r",
+            "f45r"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": []
+        },
+        "G": {
+          "VP": [],
+          "FP": [
+            "f51v",
+            "f53v"
+          ],
+          "FN": [
+            "f49r",
+            "f54v",
+            "f56v"
+          ],
+          "VN": [
+            "f52v"
+          ],
+          "annonces_indecises": [
+            "f49v",
+            "f52r",
+            "f53r"
+          ],
+          "silences_indecis": [
+            "f51r",
+            "f54r",
+            "f56r"
+          ]
+        }
+      }
+    },
+    "joints_otoldy": {
+      "modele": {
+        "forme": "otoldy"
+      },
+      "apprentissage": {
+        "VP": [],
+        "FP": [
+          "f22r"
+        ],
+        "FN": [
+          "f10r",
+          "f13r",
+          "f13v",
+          "f16v",
+          "f17v",
+          "f18v",
+          "f24v",
+          "f4v",
+          "f5r",
+          "f5v",
+          "f6r"
+        ],
+        "VN": [
+          "f11r",
+          "f11v",
+          "f14r",
+          "f14v",
+          "f18r",
+          "f19r",
+          "f19v",
+          "f23r",
+          "f23v",
+          "f24r",
+          "f2r",
+          "f3r",
+          "f3v",
+          "f4r",
+          "f6v",
+          "f7r",
+          "f7v",
+          "f8r",
+          "f8v",
+          "f9v"
+        ],
+        "annonces_indecises": [],
+        "silences_indecis": [
+          "f10v",
+          "f15r",
+          "f15v",
+          "f16r",
+          "f17r",
+          "f1v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22v",
+          "f2v",
+          "f9r"
+        ]
+      },
+      "tests": {
+        "reserve": {
+          "faces": {
+            "VP": [
+              "f28r"
+            ],
+            "FP": [
+              "f44v",
+              "f53v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -1,
+            "au_moins_observe": 132710400,
+            "permutations": 298598400,
+            "p": "4/9",
+            "p_decimal": 0.4444444444444444,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.4438
+        },
+        "hors_anciennes": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 111974400,
+            "permutations": 298598400,
+            "p": "3/8",
+            "p_decimal": 0.375,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.3731
+        },
+        "lecteur_I": {
+          "faces": {
+            "VP": [
+              "f28r"
+            ],
+            "FP": [
+              "f44v",
+              "f53v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f51r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f28v",
+              "f29r",
+              "f30r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f38r",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52r",
+              "f52v",
+              "f54r"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38v",
+              "f49v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 2,
+            "au_moins_observe": 132710400,
+            "permutations": 298598400,
+            "p": "4/9",
+            "p_decimal": 0.4444444444444444,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "lecteur_II": {
+          "faces": {
+            "VP": [
+              "f28r"
+            ],
+            "FP": [
+              "f44v",
+              "f53v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -1,
+            "au_moins_observe": 132710400,
+            "permutations": 298598400,
+            "p": "4/9",
+            "p_decimal": 0.4444444444444444,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "hors_feuillets_anciens": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 27648,
+            "permutations": 27648,
+            "p": "1",
+            "p_decimal": 1.0,
+            "strates": {
+              "D": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 2,
+                "permutations": 2
+              },
+              "G": {
+                "feuillets": 4,
+                "permutations": 24
+              }
+            }
+          }
+        }
+      },
+      "cahiers": {
+        "D": {
+          "VP": [
+            "f28r"
+          ],
+          "FP": [],
+          "FN": [
+            "f30v"
+          ],
+          "VN": [
+            "f25v",
+            "f29r",
+            "f32v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f25r",
+            "f27r",
+            "f27v",
+            "f28v",
+            "f29v",
+            "f30r",
+            "f32r"
+          ]
+        },
+        "E": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f37r",
+            "f37v"
+          ],
+          "VN": [
+            "f35v",
+            "f36v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f35r",
+            "f36r",
+            "f38r",
+            "f38v"
+          ]
+        },
+        "F": {
+          "VP": [],
+          "FP": [
+            "f44v"
+          ],
+          "FN": [
+            "f47r"
+          ],
+          "VN": [
+            "f42r",
+            "f42v",
+            "f44r",
+            "f45r",
+            "f45v",
+            "f47v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": []
+        },
+        "G": {
+          "VP": [],
+          "FP": [
+            "f53v"
+          ],
+          "FN": [
+            "f49r",
+            "f54v",
+            "f56v"
+          ],
+          "VN": [
+            "f51v",
+            "f52v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f49v",
+            "f51r",
+            "f52r",
+            "f53r",
+            "f54r",
+            "f56r"
+          ]
+        }
+      }
+    },
+    "separes_mot": {
+      "modele": {
+        "forme": "or",
+        "score": "24/77",
+        "positifs": [
+          "f10r",
+          "f17v",
+          "f18v",
+          "f24v",
+          "f6r"
+        ],
+        "negatifs": [
+          "f19r",
+          "f24r",
+          "f3v"
+        ],
+        "candidats_admissibles": 38,
+        "ex_aequo_avant_ordre_alphabetique": [
+          "or"
+        ]
+      },
+      "apprentissage": {
+        "VP": [
+          "f10r",
+          "f17v",
+          "f18v",
+          "f24v",
+          "f6r"
+        ],
+        "FP": [
+          "f19r",
+          "f24r",
+          "f3v"
+        ],
+        "FN": [
+          "f13r",
+          "f13v",
+          "f16v",
+          "f4v",
+          "f5r",
+          "f5v"
+        ],
+        "VN": [
+          "f11r",
+          "f11v",
+          "f14r",
+          "f14v",
+          "f18r",
+          "f19v",
+          "f22r",
+          "f23r",
+          "f23v",
+          "f2r",
+          "f3r",
+          "f4r",
+          "f6v",
+          "f7r",
+          "f7v",
+          "f8r",
+          "f8v",
+          "f9v"
+        ],
+        "annonces_indecises": [
+          "f15v",
+          "f17r",
+          "f1v",
+          "f20v",
+          "f22v",
+          "f9r"
+        ],
+        "silences_indecis": [
+          "f10v",
+          "f15r",
+          "f16r",
+          "f20r",
+          "f21r",
+          "f21v",
+          "f2v"
+        ]
+      },
+      "tests": {
+        "reserve": {
+          "faces": {
+            "VP": [],
+            "FP": [
+              "f32v",
+              "f45v"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f47v",
+              "f51v",
+              "f52v",
+              "f53v"
+            ],
+            "annonces_indecises": [
+              "f38v",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -16,
+            "au_moins_observe": 257126400,
+            "permutations": 298598400,
+            "p": "31/36",
+            "p_decimal": 0.8611111111111112,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.8633
+        },
+        "hors_anciennes": {
+          "faces": {
+            "VP": [],
+            "FP": [
+              "f32v",
+              "f45v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f45r",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f38v",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -12,
+            "au_moins_observe": 277862400,
+            "permutations": 298598400,
+            "p": "67/72",
+            "p_decimal": 0.9305555555555556,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.9332
+        },
+        "lecteur_I": {
+          "faces": {
+            "VP": [],
+            "FP": [
+              "f32v",
+              "f45v",
+              "f54r"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f51r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f28v",
+              "f29r",
+              "f30r",
+              "f35v",
+              "f36v",
+              "f38r",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f47v",
+              "f51v",
+              "f52r",
+              "f52v",
+              "f53v"
+            ],
+            "annonces_indecises": [
+              "f38v"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f49v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -27,
+            "au_moins_observe": 273715200,
+            "permutations": 298598400,
+            "p": "11/12",
+            "p_decimal": 0.9166666666666666,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "lecteur_II": {
+          "faces": {
+            "VP": [],
+            "FP": [
+              "f32v",
+              "f45v"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f44v",
+              "f45r",
+              "f47v",
+              "f51v",
+              "f52v",
+              "f53v"
+            ],
+            "annonces_indecises": [
+              "f38v",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -16,
+            "au_moins_observe": 257126400,
+            "permutations": 298598400,
+            "p": "31/36",
+            "p_decimal": 0.8611111111111112,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "hors_feuillets_anciens": {
+          "faces": {
+            "VP": [],
+            "FP": [
+              "f32v",
+              "f45v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f35v",
+              "f36v",
+              "f45r",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f38v"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -12,
+            "au_moins_observe": 20736,
+            "permutations": 27648,
+            "p": "3/4",
+            "p_decimal": 0.75,
+            "strates": {
+              "D": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 2,
+                "permutations": 2
+              },
+              "G": {
+                "feuillets": 4,
+                "permutations": 24
+              }
+            }
+          }
+        }
+      },
+      "cahiers": {
+        "D": {
+          "VP": [],
+          "FP": [
+            "f32v"
+          ],
+          "FN": [
+            "f28r",
+            "f30v"
+          ],
+          "VN": [
+            "f25v",
+            "f29r"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f25r",
+            "f27r",
+            "f27v",
+            "f28v",
+            "f29v",
+            "f30r",
+            "f32r"
+          ]
+        },
+        "E": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f37r",
+            "f37v"
+          ],
+          "VN": [
+            "f35v",
+            "f36v"
+          ],
+          "annonces_indecises": [
+            "f38v"
+          ],
+          "silences_indecis": [
+            "f35r",
+            "f36r",
+            "f38r"
+          ]
+        },
+        "F": {
+          "VP": [],
+          "FP": [
+            "f45v"
+          ],
+          "FN": [
+            "f47r"
+          ],
+          "VN": [
+            "f42r",
+            "f42v",
+            "f44r",
+            "f44v",
+            "f45r",
+            "f47v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": []
+        },
+        "G": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f49r",
+            "f54v",
+            "f56v"
+          ],
+          "VN": [
+            "f51v",
+            "f52v",
+            "f53v"
+          ],
+          "annonces_indecises": [
+            "f54r"
+          ],
+          "silences_indecis": [
+            "f49v",
+            "f51r",
+            "f52r",
+            "f53r",
+            "f56r"
+          ]
+        }
+      }
+    },
+    "separes_finale": {
+      "modele": {
+        "forme": "d a l",
+        "score": "94/231",
+        "positifs": [
+          "f13r",
+          "f13v",
+          "f17v",
+          "f18v",
+          "f24v"
+        ],
+        "negatifs": [
+          "f4r"
+        ],
+        "candidats_admissibles": 46,
+        "ex_aequo_avant_ordre_alphabetique": [
+          "d a l"
+        ]
+      },
+      "apprentissage": {
+        "VP": [
+          "f13r",
+          "f13v",
+          "f17v",
+          "f18v",
+          "f24v"
+        ],
+        "FP": [
+          "f4r"
+        ],
+        "FN": [
+          "f10r",
+          "f16v",
+          "f4v",
+          "f5r",
+          "f5v",
+          "f6r"
+        ],
+        "VN": [
+          "f11r",
+          "f11v",
+          "f14r",
+          "f14v",
+          "f18r",
+          "f19r",
+          "f19v",
+          "f22r",
+          "f23r",
+          "f23v",
+          "f24r",
+          "f2r",
+          "f3r",
+          "f3v",
+          "f6v",
+          "f7r",
+          "f7v",
+          "f8r",
+          "f8v",
+          "f9v"
+        ],
+        "annonces_indecises": [
+          "f20r",
+          "f9r"
+        ],
+        "silences_indecis": [
+          "f10v",
+          "f15r",
+          "f15v",
+          "f16r",
+          "f17r",
+          "f1v",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22v",
+          "f2v"
+        ]
+      },
+      "tests": {
+        "reserve": {
+          "faces": {
+            "VP": [
+              "f47r"
+            ],
+            "FP": [
+              "f42v",
+              "f45r",
+              "f51v",
+              "f53v"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f44v",
+              "f45v",
+              "f47v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f32r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -17,
+            "au_moins_observe": 242196480,
+            "permutations": 298598400,
+            "p": "73/90",
+            "p_decimal": 0.8111111111111111,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.8084
+        },
+        "hors_anciennes": {
+          "faces": {
+            "VP": [
+              "f47r"
+            ],
+            "FP": [
+              "f45r",
+              "f51v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f45v",
+              "f47v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f32r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 164782080,
+            "permutations": 298598400,
+            "p": "149/270",
+            "p_decimal": 0.5518518518518518,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.5497
+        },
+        "lecteur_I": {
+          "faces": {
+            "VP": [
+              "f47r",
+              "f51r"
+            ],
+            "FP": [
+              "f42v",
+              "f45r",
+              "f51v",
+              "f52r",
+              "f53v",
+              "f54r"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f28v",
+              "f29r",
+              "f30r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f38r",
+              "f42r",
+              "f44r",
+              "f44v",
+              "f45v",
+              "f47v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f32r",
+              "f49v"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f35r",
+              "f36r",
+              "f38v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -14,
+            "au_moins_observe": 235422720,
+            "permutations": 298598400,
+            "p": "1703/2160",
+            "p_decimal": 0.788425925925926,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "lecteur_II": {
+          "faces": {
+            "VP": [
+              "f47r"
+            ],
+            "FP": [
+              "f42v",
+              "f45r",
+              "f51v",
+              "f53v"
+            ],
+            "FN": [
+              "f28r",
+              "f30v",
+              "f37r",
+              "f37v",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f44v",
+              "f45v",
+              "f47v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f32r",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f54r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -17,
+            "au_moins_observe": 242196480,
+            "permutations": 298598400,
+            "p": "73/90",
+            "p_decimal": 0.8111111111111111,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "hors_feuillets_anciens": {
+          "faces": {
+            "VP": [
+              "f47r"
+            ],
+            "FP": [
+              "f45r",
+              "f51v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f45v",
+              "f47v",
+              "f52v"
+            ],
+            "annonces_indecises": [
+              "f32r",
+              "f49v",
+              "f51r",
+              "f52r"
+            ],
+            "silences_indecis": [
+              "f25r",
+              "f29v",
+              "f30r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -2,
+            "au_moins_observe": 23616,
+            "permutations": 27648,
+            "p": "41/48",
+            "p_decimal": 0.8541666666666666,
+            "strates": {
+              "D": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 2,
+                "permutations": 2
+              },
+              "G": {
+                "feuillets": 4,
+                "permutations": 24
+              }
+            }
+          }
+        }
+      },
+      "cahiers": {
+        "D": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f28r",
+            "f30v"
+          ],
+          "VN": [
+            "f25v",
+            "f29r",
+            "f32v"
+          ],
+          "annonces_indecises": [
+            "f32r"
+          ],
+          "silences_indecis": [
+            "f25r",
+            "f27r",
+            "f27v",
+            "f28v",
+            "f29v",
+            "f30r"
+          ]
+        },
+        "E": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f37r",
+            "f37v"
+          ],
+          "VN": [
+            "f35v",
+            "f36v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f35r",
+            "f36r",
+            "f38r",
+            "f38v"
+          ]
+        },
+        "F": {
+          "VP": [
+            "f47r"
+          ],
+          "FP": [
+            "f42v",
+            "f45r"
+          ],
+          "FN": [],
+          "VN": [
+            "f42r",
+            "f44r",
+            "f44v",
+            "f45v",
+            "f47v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": []
+        },
+        "G": {
+          "VP": [],
+          "FP": [
+            "f51v",
+            "f53v"
+          ],
+          "FN": [
+            "f49r",
+            "f54v",
+            "f56v"
+          ],
+          "VN": [
+            "f52v"
+          ],
+          "annonces_indecises": [
+            "f49v",
+            "f51r",
+            "f52r",
+            "f54r"
+          ],
+          "silences_indecis": [
+            "f53r",
+            "f56r"
+          ]
+        }
+      }
+    },
+    "separes_otoldy": {
+      "modele": {
+        "forme": "otoldy"
+      },
+      "apprentissage": {
+        "VP": [],
+        "FP": [
+          "f22r"
+        ],
+        "FN": [
+          "f10r",
+          "f13r",
+          "f13v",
+          "f16v",
+          "f17v",
+          "f18v",
+          "f24v",
+          "f4v",
+          "f5r",
+          "f5v",
+          "f6r"
+        ],
+        "VN": [
+          "f11r",
+          "f11v",
+          "f14r",
+          "f14v",
+          "f18r",
+          "f19r",
+          "f19v",
+          "f23r",
+          "f23v",
+          "f24r",
+          "f2r",
+          "f3r",
+          "f3v",
+          "f4r",
+          "f6v",
+          "f7r",
+          "f7v",
+          "f8r",
+          "f8v",
+          "f9v"
+        ],
+        "annonces_indecises": [],
+        "silences_indecis": [
+          "f10v",
+          "f15r",
+          "f15v",
+          "f16r",
+          "f17r",
+          "f1v",
+          "f20r",
+          "f20v",
+          "f21r",
+          "f21v",
+          "f22v",
+          "f2v",
+          "f9r"
+        ]
+      },
+      "tests": {
+        "reserve": {
+          "faces": {
+            "VP": [
+              "f28r"
+            ],
+            "FP": [
+              "f44v",
+              "f53v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -1,
+            "au_moins_observe": 132710400,
+            "permutations": 298598400,
+            "p": "4/9",
+            "p_decimal": 0.4444444444444444,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.4438
+        },
+        "hors_anciennes": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 111974400,
+            "permutations": 298598400,
+            "p": "3/8",
+            "p_decimal": 0.375,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          },
+          "p_monte_carlo_publiee": 0.3731
+        },
+        "lecteur_I": {
+          "faces": {
+            "VP": [
+              "f28r"
+            ],
+            "FP": [
+              "f44v",
+              "f53v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f51r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f28v",
+              "f29r",
+              "f30r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f38r",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52r",
+              "f52v",
+              "f54r"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f29v",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38v",
+              "f49v",
+              "f53r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 2,
+            "au_moins_observe": 132710400,
+            "permutations": 298598400,
+            "p": "4/9",
+            "p_decimal": 0.4444444444444444,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "lecteur_II": {
+          "faces": {
+            "VP": [
+              "f28r"
+            ],
+            "FP": [
+              "f44v",
+              "f53v"
+            ],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f54v",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f42r",
+              "f42v",
+              "f44r",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f27r",
+              "f27v",
+              "f28v",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f53r",
+              "f54r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": -1,
+            "au_moins_observe": 132710400,
+            "permutations": 298598400,
+            "p": "4/9",
+            "p_decimal": 0.4444444444444444,
+            "strates": {
+              "D": {
+                "feuillets": 6,
+                "permutations": 720
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "G": {
+                "feuillets": 6,
+                "permutations": 720
+              }
+            }
+          }
+        },
+        "hors_feuillets_anciens": {
+          "faces": {
+            "VP": [],
+            "FP": [],
+            "FN": [
+              "f30v",
+              "f37r",
+              "f37v",
+              "f47r",
+              "f49r",
+              "f56v"
+            ],
+            "VN": [
+              "f25v",
+              "f29r",
+              "f32v",
+              "f35v",
+              "f36v",
+              "f45r",
+              "f45v",
+              "f47v",
+              "f51v",
+              "f52v"
+            ],
+            "annonces_indecises": [],
+            "silences_indecis": [
+              "f25r",
+              "f29v",
+              "f30r",
+              "f32r",
+              "f35r",
+              "f36r",
+              "f38r",
+              "f38v",
+              "f49v",
+              "f51r",
+              "f52r",
+              "f56r"
+            ]
+          },
+          "permutation_exacte": {
+            "seuil": 0,
+            "au_moins_observe": 27648,
+            "permutations": 27648,
+            "p": "1",
+            "p_decimal": 1.0,
+            "strates": {
+              "D": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "E": {
+                "feuillets": 4,
+                "permutations": 24
+              },
+              "F": {
+                "feuillets": 2,
+                "permutations": 2
+              },
+              "G": {
+                "feuillets": 4,
+                "permutations": 24
+              }
+            }
+          }
+        }
+      },
+      "cahiers": {
+        "D": {
+          "VP": [
+            "f28r"
+          ],
+          "FP": [],
+          "FN": [
+            "f30v"
+          ],
+          "VN": [
+            "f25v",
+            "f29r",
+            "f32v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f25r",
+            "f27r",
+            "f27v",
+            "f28v",
+            "f29v",
+            "f30r",
+            "f32r"
+          ]
+        },
+        "E": {
+          "VP": [],
+          "FP": [],
+          "FN": [
+            "f37r",
+            "f37v"
+          ],
+          "VN": [
+            "f35v",
+            "f36v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f35r",
+            "f36r",
+            "f38r",
+            "f38v"
+          ]
+        },
+        "F": {
+          "VP": [],
+          "FP": [
+            "f44v"
+          ],
+          "FN": [
+            "f47r"
+          ],
+          "VN": [
+            "f42r",
+            "f42v",
+            "f44r",
+            "f45r",
+            "f45v",
+            "f47v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": []
+        },
+        "G": {
+          "VP": [],
+          "FP": [
+            "f53v"
+          ],
+          "FN": [
+            "f49r",
+            "f54v",
+            "f56v"
+          ],
+          "VN": [
+            "f51v",
+            "f52v"
+          ],
+          "annonces_indecises": [],
+          "silences_indecis": [
+            "f49v",
+            "f51r",
+            "f52r",
+            "f53r",
+            "f54r",
+            "f56r"
+          ]
+        }
+      }
+    }
+  },
+  "finale_primaire_fixee_espaces_separes": {
+    "forme": "o d",
+    "reserve": {
+      "VP": [
+        "f28r",
+        "f30v",
+        "f37r",
+        "f47r"
+      ],
+      "FP": [
+        "f44v",
+        "f45v",
+        "f47v",
+        "f51v",
+        "f53v"
+      ],
+      "FN": [
+        "f37v",
+        "f49r",
+        "f54v",
+        "f56v"
+      ],
+      "VN": [
+        "f25v",
+        "f29r",
+        "f32v",
+        "f35v",
+        "f36v",
+        "f42r",
+        "f42v",
+        "f44r",
+        "f45r",
+        "f52v"
+      ],
+      "annonces_indecises": [
+        "f25r",
+        "f27r",
+        "f27v",
+        "f29v",
+        "f38v",
+        "f49v",
+        "f52r",
+        "f53r"
+      ],
+      "silences_indecis": [
+        "f28v",
+        "f30r",
+        "f32r",
+        "f35r",
+        "f36r",
+        "f38r",
+        "f51r",
+        "f54r",
+        "f56r"
+      ]
+    },
+    "permutation_exacte": {
+      "seuil": 20,
+      "au_moins_observe": 32061312,
+      "permutations": 298598400,
+      "p": "9277/86400",
+      "p_decimal": 0.10737268518518518,
+      "strates": {
+        "D": {
+          "feuillets": 6,
+          "permutations": 720
+        },
+        "E": {
+          "feuillets": 4,
+          "permutations": 24
+        },
+        "F": {
+          "feuillets": 4,
+          "permutations": 24
+        },
+        "G": {
+          "feuillets": 6,
+          "permutations": 720
+        }
+      }
+    }
+  }
+}
