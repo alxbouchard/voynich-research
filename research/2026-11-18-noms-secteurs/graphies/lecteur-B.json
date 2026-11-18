@@ -1,0 +1,59 @@
+{
+  "source": "/private/tmp/voy-cibles-finales-secteur-18/planche.png",
+  "critere": "Comparaison visuelle de la planche seule. V et P ont tous deux une boucle haute, un retour à gauche et une descendante à droite. Sur les exemplaires de référence, V prolonge et déporte davantage sa queue vers la gauche. Ce critère dépend de la conservation du trait.",
+  "echantillons": [
+    {
+      "id": "B4",
+      "preference": "P",
+      "alternatives": [
+        "V"
+      ],
+      "confiance": "faible",
+      "motif": "Le retour gauche et la petite descendante droite recourbée sont perceptibles. La silhouette compacte évoque P. Le sommet est empâté et la fin du trait peu nette."
+    },
+    {
+      "id": "J7",
+      "preference": "V",
+      "alternatives": [
+        "P"
+      ],
+      "confiance": "assez élevée",
+      "motif": "Boucle haute et retour gauche nets. La longue queue descend très au-dessous du retour gauche puis balaie nettement vers la gauche, comme sur V."
+    },
+    {
+      "id": "N2",
+      "preference": "P",
+      "alternatives": [
+        "V"
+      ],
+      "confiance": "moyenne",
+      "motif": "Boucle haute et large retour gauche. La descendante lisible reste près du flanc droit et s’amincit sur une courte distance. Un prolongement effacé affecterait la distinction."
+    },
+    {
+      "id": "T9",
+      "preference": "F",
+      "alternatives": [],
+      "confiance": "élevée",
+      "motif": "Un crochet ouvert en haut à gauche rejoint par la droite une base pointue et encrée. La forme ouverte correspond à F. Aucun long jambage descendant n’est visible."
+    },
+    {
+      "id": "L3",
+      "preference": null,
+      "alternatives": [
+        "P",
+        "V"
+      ],
+      "confiance": "très faible",
+      "motif": "On devine un retour gauche et un segment sous le corps du signe, mais la boucle et l’extrémité de la descendante se perdent dans le fond. Le segment inférieur apparent rend F moins convaincant."
+    },
+    {
+      "id": "H6",
+      "preference": "V",
+      "alternatives": [
+        "P"
+      ],
+      "confiance": "faible",
+      "motif": "Une boucle haute et une descente à droite paraissent se prolonger par un retour assez ample vers la gauche. La proximité d’autres traits au bord gauche et le faible contraste rendent la continuité du retour incertaine."
+    }
+  ]
+}

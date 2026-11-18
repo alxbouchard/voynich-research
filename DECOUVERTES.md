@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Retrouver le nom de l’image dans son propre paragraphe](research/2026-11-18-noms-secteurs/RAPPORT.md) | Sur f67r2, aucune légende isolée entièrement reprise dans le paragraphe correspondant. Deux passages différents produisent la même légende `ytoaiin` par contraction. Sur les sept notices de Bâle, la table apprise sur quatre en lit deux autres en entier et 17 lettres sur 18. |
 | [Les sept figures du Cancer et les sept inscriptions de f67r2](research/2026-11-18-sept-astres/RAPPORT.md) | Trois débuts communs signalés en 2023 se retrouvent ensemble dans une seule des 259 fenêtres zodiacales. La lecture des noms planétaires échoue aux tables testées. Le début associé au Soleil ou à la Lune manque sur quatre disques lisibles, avec un groupe indéterminé dans ZL. |
 | [Les douze secteurs rouges de f67r2](research/2026-11-18-secteurs-rouges/RAPPORT.md) | Les deux séries de douze inscriptions échouent aux trois tables testées pour les noms de mois ou de signes en latin. Sur une roue autrichienne vers 1425, la balance et son nom *Libra* confirment la prédiction tirée de Chantilly. |
 | [De la légende otoldy au dessin](research/2026-11-18-otoldy-dessin/RAPPORT.md) | La prédiction d’une base renflée réussit dans une seule des cinq paires. Une légende de deux groupes des rosettes correspond à la ligne botanique f48v.9 dans deux éditions. La présence d’une petite barre sur le dépliant reste discutée. |

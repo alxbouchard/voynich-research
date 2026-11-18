@@ -1,0 +1,70 @@
+{
+  "lecture": "Comparaison visuelle sur la seule planche fournie. V, P et F désignent les trois dessins de référence.",
+  "references": {
+    "V": "Boucle supérieure, lobe à gauche au contact médian, longue queue qui revient nettement à gauche.",
+    "P": "Même disposition générale. Queue visible plus courte et plus proche de la verticale, lobe gauche assez serré.",
+    "F": "Petit trait supérieur, retour courbe à droite vers un empattement gauche en bas. Aucune longue queue distincte sur cet exemple."
+  },
+  "echantillons": [
+    {
+      "id": "B4",
+      "premier_choix": "P",
+      "alternatives": [
+        "V"
+      ],
+      "confiance": "faible",
+      "observations": "Lobe gauche au contact d’un trait droit qui se prolonge sous le lobe puis se recourbe vers la gauche. Queue visible courte. La tête forme une masse et son ouverture est incertaine.",
+      "limites": "Petit dessin et contours épais. Une queue pâlie plus longue modifierait la préférence."
+    },
+    {
+      "id": "J7",
+      "premier_choix": "V",
+      "alternatives": [
+        "P"
+      ],
+      "confiance": "assez élevée",
+      "observations": "Boucle haute à centre clair, lobe gauche au contact central et trait descendant à droite. Son long retour progressif vers la gauche est le meilleur indice en faveur de V.",
+      "limites": "La pointe de la queue est pâle et approche du bord inférieur."
+    },
+    {
+      "id": "N2",
+      "premier_choix": "P",
+      "alternatives": [
+        "V"
+      ],
+      "confiance": "moyenne",
+      "observations": "Petite boucle haute, large lobe gauche avec contact central. La hampe droite descend sous le lobe avec une légère inflexion à gauche. Sa portion bien lisible est courte, comme sur P.",
+      "limites": "La disparition progressive du trait rend sa longueur totale incertaine."
+    },
+    {
+      "id": "T9",
+      "premier_choix": "F",
+      "alternatives": [],
+      "confiance": "élevée",
+      "observations": "Crochet supérieur ouvert, grande courbure continue à droite qui revient en bas à gauche sur un empattement épais. Pas de croisement médian ou de longue queue visible. L’organisation correspond à F.",
+      "limites": "Le crochet supérieur de T9 est plus net et courbé que celui de la référence F."
+    },
+    {
+      "id": "L3",
+      "premier_choix": null,
+      "alternatives": [
+        "P",
+        "V",
+        "F"
+      ],
+      "confiance": "très faible",
+      "observations": "Une trace haute apparemment transversale, un court trait gauche et une possible prolongation mince vers le bas sont perceptibles. Ni la fermeture d’une boucle ni le contact entre ces éléments ne sont lisibles.",
+      "limites": "Contraste insuffisant pour juger si la prolongation est de l’encre ou du fond. P et V restent indiscernables. F reste possible si les traits hauts et médians forment un seul crochet."
+    },
+    {
+      "id": "H6",
+      "premier_choix": "V",
+      "alternatives": [
+        "P"
+      ],
+      "confiance": "faible",
+      "observations": "Possible petite boucle supérieure, concentration d’encre au contact à gauche, puis retour oblique apparent vers le bas à gauche. Cette dernière courbure favorise légèrement V.",
+      "limites": "Des traces obliques adjacentes et la texture du fond brouillent la continuité de la queue et l’attribution de son extrémité. La préférence pour V dépend de ce raccord."
+    }
+  ]
+}
