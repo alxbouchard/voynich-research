@@ -1,0 +1,112 @@
+{
+  "eva": {
+    "masques": 38,
+    "lisibles": 27,
+    "annonces": 1,
+    "annonces_verifiables": 1,
+    "indeterminees": 0,
+    "exactes": 0,
+    "erreurs": 1,
+    "abstentions": 37,
+    "abstentions_sur_lisibles": 26,
+    "folios_avec_masque": 8,
+    "folios_annonces": 1,
+    "folios_verifiables": 1,
+    "folios_avec_succes": 0,
+    "base_frequente": "daiin",
+    "base_exactes": 0,
+    "permutations": {
+      "graine": 20261118,
+      "tirages": 5000,
+      "strates_lisibles": 15,
+      "strates_avec_annonce": 1,
+      "strates_avec_annonce_immobiles": 0,
+      "annonces_strates_immobiles": 0,
+      "esperance_exacte": 0.0,
+      "moyenne": 0.0,
+      "p_ge_corrige": 1.0,
+      "histogramme": {
+        "0": 5000
+      }
+    },
+    "detail": [
+      {
+        "id": "f113v.29",
+        "i": 0,
+        "folio": 113,
+        "predit": "qol",
+        "lectures": [
+          "ykeeol",
+          "ykeeol",
+          "9hCoe"
+        ],
+        "attendu": "ykeeol",
+        "exact": false,
+        "base_exacte": false
+      }
+    ]
+  },
+  "croise": {
+    "masques": 38,
+    "lisibles": 25,
+    "annonces": 1,
+    "annonces_verifiables": 1,
+    "indeterminees": 0,
+    "exactes": 0,
+    "erreurs": 1,
+    "abstentions": 37,
+    "abstentions_sur_lisibles": 24,
+    "folios_avec_masque": 8,
+    "folios_annonces": 1,
+    "folios_verifiables": 1,
+    "folios_avec_succes": 0,
+    "base_frequente": [
+      "daiin",
+      "8am"
+    ],
+    "base_exactes": 0,
+    "permutations": {
+      "graine": 20261118,
+      "tirages": 5000,
+      "strates_lisibles": 13,
+      "strates_avec_annonce": 1,
+      "strates_avec_annonce_immobiles": 0,
+      "annonces_strates_immobiles": 0,
+      "esperance_exacte": 0.0,
+      "moyenne": 0.0,
+      "p_ge_corrige": 1.0,
+      "histogramme": {
+        "0": 5000
+      }
+    },
+    "detail": [
+      {
+        "id": "f113v.29",
+        "i": 0,
+        "folio": 113,
+        "predit": [
+          "qol",
+          "4oe"
+        ],
+        "lectures": [
+          "ykeeol",
+          "ykeeol",
+          "9hCoe"
+        ],
+        "attendu": [
+          "ykeeol",
+          "9hCoe"
+        ],
+        "exact": false,
+        "base_exacte": false,
+        "eva_exacte": false,
+        "v101_exacte": false
+      }
+    ]
+  },
+  "sha256": {
+    "reserve": "7ff1ca3b5900faf033a9afc13a095531cfe1b0abba6e0e2d1b8dab3f4f08f2bc",
+    "annonces": "5bbed07f0618a6ec06709a5a2423f2e2f290b7ab39f98dae99f1094d680d0af3",
+    "reponses": "532d4fcb74450fe801b9330487ebd78aef9d02d26d9c91561a5c74189407ef78"
+  }
+}

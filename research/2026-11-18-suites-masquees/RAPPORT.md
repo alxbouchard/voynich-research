@@ -34,6 +34,20 @@ La comparaison directe des trois fichiers a confirmé les quatre réponses et le
 
 Dans les 5 000 redistributions des réponses sur leur propre face et à la même place relative dans la ligne (début, intérieur ou fin), le score attendu et observé pour les quatre annonces EVA reste zéro. Les groupes annoncés étaient absents des réponses masquées disponibles dans les quatre ensembles de comparaison concernés. Ce témoin apporte peu d’information pour départager les méthodes sur un si petit nombre d’annonces. [Résultats et lectures à chaque emplacement](RESULTATS.json)
 
+## Deuxième épreuve sur des passages localement concordants
+
+Pour vérifier un passage où trois transcriptions se rejoignent même en présence d’un espace douteux plus loin dans la ligne, nous avons neutralisé la zone incertaine et gardé les parties alignables de chaque côté. Ce complément, décidé après le premier résultat, utilise **21 autres lignes**, sur huit des feuillets réservés. Les deux réserves ne partagent aucun identifiant de ligne. Le protocole a été fixé en `12e89e2`, le nouvel extracteur en `0f02665` et les [annonces locales](ANNONCES-LOCALES.json) en `390bcfc` avant ouverture. Les critères de répétition et de décision sont ceux du premier calcul.
+
+Dans cette extraction, **cinq triplets distincts** se répètent sur plusieurs feuillets dans les deux alphabets. Une seule prédiction croisée était possible. En f113v.29, nous avons annoncé `qol` en EVA et `4oe` en v101 pour le premier groupe, précédant `chedy qokeey`. Les trois transcriptions ont permis de vérifier chaque passage directement.
+
+| Passage | Rang du premier groupe | Takahashi et Zandbergen–Landini, en EVA | Claston, en v101 |
+|---|---:|---|---|
+| f81r.20, apprentissage | 2 | `qol chedy qokeey` | `4oe 1c89 4ohC9` |
+| f82r.21, apprentissage | 7 | `qol chedy qokeey` | `4oe 1c89 4ohC9` |
+| f113v.29, vérification | 1 | **`ykeeol`** `chedy qokeey` | **`9hCoe`** `1c89 4ohC9` |
+
+La paire finale est bien conservée sur la troisième page. Le groupe masqué diffère dans les deux alphabets. Parmi 38 cases masquées, 25 étaient vérifiables dans les trois relevés. La règle croisée a fait une erreur et s’est abstenue sur les 24 autres cases vérifiables. Le calcul EVA de ce complément a fait la même prédiction au même endroit. La réponse du témoin de fréquence et les 5 000 redistributions obtiennent également zéro succès pour l’annonce croisée. La comparaison dans un dossier neuf a retrouvé les quatre sorties de chaque épreuve à l’octet. [Résultats du complément](RESULTATS-LOCAUX.json) · [Répétitions et emplacements](REPETITIONS-LOCALES.json) · [Exclusions et couverture](EXTRACTION-LOCALE.json)
+
 ## Portée
 
 Les feuillets d’apprentissage et de réserve sont disjoints pour ce calcul. Des pages ont été examinées pendant des travaux antérieurs, notamment `ctheol` sur f100r.25 lors de l’étude des plantes à baies. Le programme de prédiction recevait les seules données d’apprentissage et la réserve expurgée des cibles. Les trois relevés portent sur le même manuscrit. Les lignes dont les espaces sont incertains, les interruptions de dessin, les mots ambigus et de nombreux signes spéciaux de v101 réduisent la couverture. Le test mesure une règle de répétition exacte dans la prose sélectionnée. Il n’attribue aucun son, aucune fonction grammaticale et aucun sens aux groupes. [Périmètre de l’extraction](EXTRACTION.json) · [Étude antérieure sur f100r](../2026-11-18-opcheor-suite/RAPPORT.md)
@@ -52,4 +66,17 @@ python3 -B inventorier.py "$atelier/train.json" "$atelier/repetitions.json"
 cmp "$atelier/annonces.json" ANNONCES.json
 cmp "$atelier/resultats.json" RESULTATS.json
 cmp "$atelier/repetitions.json" REPETITIONS.json
+```
+
+Pour la seconde épreuve, dans le même atelier, avec le fichier de réserve de la première.
+
+```sh
+second="$atelier/local"
+python3 -B preparer_local.py ../../voynich_20261028/data/IT2a-n.txt ../../voynich_20261028/data/ZL3b-n.txt "$atelier/GC2a-n.txt" "$atelier/reserve.json" "$second"
+python3 -B predire.py "$second/train.json" "$second/reserve.json" "$second/annonces.json"
+python3 -B verifier.py "$second/reserve.json" "$second/reponses.json" "$second/annonces.json" 5bbed07f0618a6ec06709a5a2423f2e2f290b7ab39f98dae99f1094d680d0af3 "$second/resultats.json"
+python3 -B inventorier.py "$second/train.json" "$second/repetitions.json"
+cmp "$second/annonces.json" ANNONCES-LOCALES.json
+cmp "$second/resultats.json" RESULTATS-LOCAUX.json
+cmp "$second/repetitions.json" REPETITIONS-LOCALES.json
 ```
