@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "frozen_files": 11,
+  "atomic_dictionary_size": 18947,
+  "max_atom_length": 12,
+  "independently_reconstructed_graph_states": 673,
+  "all_graph_states_reachable_and_coaccessible": true,
+  "positive_controls": {
+    "all_atoms_closed": 18947,
+    "distinct_atom_factors_open": 27106,
+    "concatenation_cut_tests": 2428,
+    "archived_control_lines": 1063,
+    "archived_control_tokens": 34809,
+    "unknown_key_recovery_test": false
+  },
+  "exhaustive_toy_controls": {
+    "grammars": 5,
+    "exhaustive_strings": 18581,
+    "classifications": 37162,
+    "nfa_scope": "Frozen NFA class used only for these micro-toys, never for real-data classifications."
+  },
+  "sources": [
+    {
+      "source": "ZL",
+      "retained_lines_checked": 3151,
+      "excluded_lines_checked": 979,
+      "distinct_token_classifications_checked": 5405,
+      "token_occurrences_checked": 26200,
+      "certificates_checked": 404,
+      "certificate_raw_source_offsets_checked": 404,
+      "certificates_wholly_within_one_input_token": 276,
+      "single_token_certificates_within_inventory_alphabet": 256,
+      "certificates_crossing_input_separators": 128,
+      "intrinsically_open_rejected_token_types": 264,
+      "intrinsically_open_rejected_token_occurrences": 298,
+      "single_token_examples": [
+        {
+          "locus": "f1r.6",
+          "source_line": 29,
+          "factor": "ish",
+          "text_start": 5,
+          "text_end": 8,
+          "raw_start": 5,
+          "raw_end": 8,
+          "containing_token": "ydaraishy",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1r.12",
+          "source_line": 37,
+          "factor": "tairi",
+          "text_start": 11,
+          "text_end": 16,
+          "raw_start": 13,
+          "raw_end": 18,
+          "containing_token": "otairin",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1r.13",
+          "source_line": 38,
+          "factor": "iil",
+          "text_start": 26,
+          "text_end": 29,
+          "raw_start": 30,
+          "raw_end": 33,
+          "containing_token": "cphodaiils",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1v.7",
+          "source_line": 73,
+          "factor": "io",
+          "text_start": 43,
+          "text_end": 45,
+          "raw_start": 69,
+          "raw_end": 71,
+          "containing_token": "lchiody",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f2r.8",
+          "source_line": 94,
+          "factor": "iil",
+          "text_start": 38,
+          "text_end": 41,
+          "raw_start": 51,
+          "raw_end": 54,
+          "containing_token": "daiildy",
+          "all_chars_in_inventory": true
+        }
+      ]
+    },
+    {
+      "source": "IT",
+      "retained_lines_checked": 4051,
+      "excluded_lines_checked": 67,
+      "distinct_token_classifications_checked": 6958,
+      "token_occurrences_checked": 33749,
+      "certificates_checked": 807,
+      "certificate_raw_source_offsets_checked": 807,
+      "certificates_wholly_within_one_input_token": 618,
+      "single_token_certificates_within_inventory_alphabet": 616,
+      "certificates_crossing_input_separators": 189,
+      "intrinsically_open_rejected_token_types": 582,
+      "intrinsically_open_rejected_token_occurrences": 705,
+      "single_token_examples": [
+        {
+          "locus": "f1r.6",
+          "source_line": 11,
+          "factor": "ish",
+          "text_start": 5,
+          "text_end": 8,
+          "raw_start": 5,
+          "raw_end": 8,
+          "containing_token": "ydaraishy",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1r.12",
+          "source_line": 17,
+          "factor": "tairi",
+          "text_start": 11,
+          "text_end": 16,
+          "raw_start": 13,
+          "raw_end": 18,
+          "containing_token": "otairin",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1r.13",
+          "source_line": 18,
+          "factor": "iil",
+          "text_start": 26,
+          "text_end": 29,
+          "raw_start": 30,
+          "raw_end": 33,
+          "containing_token": "cphodaiils",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1r.15",
+          "source_line": 20,
+          "factor": "cke",
+          "text_start": 12,
+          "text_end": 15,
+          "raw_start": 14,
+          "raw_end": 17,
+          "containing_token": "ckeor",
+          "all_chars_in_inventory": true
+        },
+        {
+          "locus": "f1r.17",
+          "source_line": 22,
+          "factor": "ic",
+          "text_start": 36,
+          "text_end": 38,
+          "raw_start": 43,
+          "raw_end": 45,
+          "containing_token": "daicthy",
+          "all_chars_in_inventory": true
+        }
+      ]
+    }
+  ],
+  "real_data_classifier": "Explicit dictionary A* DP; open DP uses Fact(A) union Suffix(A) A* Prefix(A). No NFA real-data classification reused.",
+  "certificate_scope": "Every recorded factor rejected by independent DP; its immediate proper prefix and suffix accepted; first rejected prefix and source-character indices verified.",
+  "interpretation": "Verified rejection of the fixed published glyph repertoire, including arbitrary concatenation and open edges. Not rejection of different glyph inventories, transcription corrections, historical languages or meaning.",
+  "decipherment_goal_achieved": false
+}

@@ -1,0 +1,36 @@
+{
+  "version": "phase26-prospective-next-step-v1",
+  "status": "FROZEN_PREPARATION_ONLY_NO_ASSOCIATION_AUTHORIZED",
+  "boundary": "NOT_TRANSLATION",
+  "decision_reference": "FEASIBILITY_DECISION.json",
+  "unaltered_requirements": {
+    "primary_estimable_types_min": 6,
+    "primary_contributing_physical_folios_min": 6,
+    "primary_strata_min": 2,
+    "primary_assignments_min": 100,
+    "layout_assignments_min": 100,
+    "joint_observed_features_min": 8,
+    "features_per_profile": 12,
+    "primary_T_min": 0.1,
+    "primary_one_sided_p_max": 0.05,
+    "leave_one_contributing_folio_out_positive_fraction_min": 0.8,
+    "layout_positive_T": true,
+    "layout_one_sided_p_max": 0.05
+  },
+  "before_any_future_association": [
+    "Name a new protocol/population version explicitly; retain phase25/26 frozen versions and negative or insufficient outcomes.",
+    "Complete documentary glyph localization and physical-leaf mapping for any proposed additions. Keep multiword, uncertain and conflicting sources explicit; never select a reading using image similarity.",
+    "Define eligible connected motif units and record all alternatives before feature coding. Shared networks, repeated views, r/v faces, panels and f85/f86 composite do not multiply independent leaves.",
+    "Fix any new feature profile and layout rule without consulting an association score. No lowering of phase25 gates to rescue the sample.",
+    "Obtain actual sealed outside-human annotations if claiming independent review. Existing blank packets are preparation, not validation; do not send automatically.",
+    "Establish actual observable feature coverage, duplicate-object exclusions and all unchanged structural gates. Optimistic upper bounds cannot grant GO.",
+    "Freeze sources, geometry, annotations, code and feasibility decision before any new association. Current mandate does not authorize that experiment."
+  ],
+  "current_allowed_completion": "Inventory, source audit, pixel checks, independent combinatorial counting, documentation, local archival delivery only.",
+  "forbidden_shortcuts": [
+    "No retuning attachments, variants or bands for a better score.",
+    "No treating previous reserves or same-operator reinspection as independent validation.",
+    "No interpreting feasibility or geometric attachment as translation.",
+    "No automatic publication, push, deployment or external message."
+  ]
+}

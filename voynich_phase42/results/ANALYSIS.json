@@ -1,0 +1,8392 @@
+[
+  {
+    "source": "ZL",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            9,
+            16
+          ],
+          "symbol": "p",
+          "difference": 7,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            9,
+            16
+          ],
+          "symbol": "p",
+          "difference": 7,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            1,
+            16
+          ],
+          "symbol": "p",
+          "difference": 15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            1,
+            16
+          ],
+          "symbol": "p",
+          "difference": 15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        4,
+        5,
+        5,
+        6,
+        7,
+        6,
+        4,
+        6,
+        8,
+        7,
+        8,
+        9,
+        9,
+        6,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": -2,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": 3,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        4,
+        5,
+        5,
+        6,
+        7,
+        6,
+        4,
+        6,
+        8,
+        7,
+        8,
+        9,
+        9,
+        6,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": -2,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": 3,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        4,
+        5,
+        5,
+        6,
+        7,
+        6,
+        4,
+        6,
+        8,
+        7,
+        8,
+        9,
+        9,
+        6,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        4,
+        5,
+        5,
+        6,
+        7,
+        6,
+        4,
+        6,
+        8,
+        7,
+        8,
+        9,
+        9,
+        6,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            17
+          ],
+          "symbol": "o",
+          "difference": 61,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            17
+          ],
+          "symbol": "o",
+          "difference": 61,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 27,
+          "gcd": 27
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 27,
+          "gcd": 27
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128,
+        132
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 24
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 26,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": 31,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128,
+        132
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 24
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 26,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": 31,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128,
+        132
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": 31,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        52,
+        59,
+        65,
+        69,
+        75,
+        83,
+        90,
+        98,
+        107,
+        116,
+        122,
+        128,
+        132
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": 31,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        0,
+        6,
+        13,
+        19,
+        0,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            17
+          ],
+          "symbol": "o",
+          "difference": 15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        0,
+        6,
+        13,
+        19,
+        0,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            17
+          ],
+          "symbol": "o",
+          "difference": 15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        0,
+        6,
+        13,
+        19,
+        0,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 27,
+          "gcd": 27
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        0,
+        6,
+        13,
+        19,
+        0,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 27,
+          "gcd": 27
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 26,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        6,
+        13,
+        19,
+        23,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59,
+        63
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 24
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 26,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": -15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        6,
+        13,
+        19,
+        23,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59,
+        63
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 24
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 26,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": -15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        6,
+        13,
+        19,
+        23,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59,
+        63
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": -15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 648,
+    "gcd_histogram": {
+      "1": 648
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        32,
+        36,
+        41,
+        46,
+        6,
+        13,
+        19,
+        23,
+        6,
+        14,
+        21,
+        29,
+        38,
+        47,
+        53,
+        59,
+        63
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 26,
+          "gcd": 26
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 24,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            6,
+            14
+          ],
+          "symbol": "@140;",
+          "difference": -15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        23,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 9,
+          "gcd": 9
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 14,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        23,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": -3,
+          "gcd": 3
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 14,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        23,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -7,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 9,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        23,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -7,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": -3,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 161,
+          "gcd": 161
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 161,
+          "gcd": 161
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737,
+        756
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            11,
+            18
+          ],
+          "symbol": "@192;",
+          "difference": 243,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737,
+        756
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737,
+        756
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            11,
+            18
+          ],
+          "symbol": "@192;",
+          "difference": 243,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        318,
+        359,
+        401,
+        421,
+        462,
+        505,
+        542,
+        584,
+        626,
+        663,
+        700,
+        737,
+        756
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 161,
+          "gcd": 161
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 161,
+          "gcd": 161
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            4,
+            19
+          ],
+          "symbol": "y",
+          "difference": -3,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            4,
+            19
+          ],
+          "symbol": "y",
+          "difference": -3,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        68,
+        87,
+        106,
+        124,
+        142,
+        161,
+        179,
+        199,
+        219,
+        247,
+        280,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 154,
+          "gcd": 154
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        16,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        16,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        16,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -2,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        16,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -2,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 127,
+          "gcd": 127
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 127,
+          "gcd": 127
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605,
+        622
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            11,
+            18
+          ],
+          "symbol": "@192;",
+          "difference": 199,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605,
+        622
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            3,
+            18
+          ],
+          "symbol": "r",
+          "difference": 325,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605,
+        622
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        258,
+        291,
+        326,
+        342,
+        373,
+        410,
+        441,
+        478,
+        514,
+        544,
+        575,
+        605,
+        622
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            3,
+            11
+          ],
+          "symbol": "r",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 127,
+          "gcd": 127
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 127,
+          "gcd": 127
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            11,
+            18
+          ],
+          "symbol": "@192;",
+          "difference": -143,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            3,
+            18
+          ],
+          "symbol": "r",
+          "difference": -17,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "ZL",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 2,
+    "gcd_histogram": {
+      "1": 2
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        48,
+        64,
+        80,
+        94,
+        109,
+        127,
+        142,
+        158,
+        174,
+        198,
+        228,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 126,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            9,
+            16
+          ],
+          "symbol": "p",
+          "difference": 7,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            9,
+            16
+          ],
+          "symbol": "p",
+          "difference": 7,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            1,
+            16
+          ],
+          "symbol": "p",
+          "difference": 15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "rows",
+    "mode": "row_index",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 8,
+          "gcd": 8
+        },
+        {
+          "rows": [
+            1,
+            16
+          ],
+          "symbol": "p",
+          "difference": 15,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6,
+        7,
+        6,
+        4,
+        8,
+        10,
+        7,
+        8,
+        9,
+        9,
+        7,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6,
+        7,
+        6,
+        4,
+        8,
+        10,
+        7,
+        8,
+        9,
+        9,
+        7,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6,
+        7,
+        6,
+        4,
+        8,
+        10,
+        7,
+        8,
+        9,
+        9,
+        7,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6,
+        7,
+        6,
+        4,
+        8,
+        10,
+        7,
+        8,
+        9,
+        9,
+        7,
+        6,
+        4
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 29,
+          "gcd": 29
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 29,
+          "gcd": 29
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138,
+        142
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138,
+        142
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138,
+        142
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        57,
+        64,
+        70,
+        74,
+        82,
+        92,
+        99,
+        107,
+        116,
+        125,
+        132,
+        138,
+        142
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        0,
+        6,
+        13,
+        19,
+        0,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        0,
+        6,
+        13,
+        19,
+        0,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        0,
+        6,
+        13,
+        19,
+        0,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 29,
+          "gcd": 29
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        0,
+        6,
+        13,
+        19,
+        0,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 29,
+          "gcd": 29
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        6,
+        13,
+        19,
+        23,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64,
+        68
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        6,
+        13,
+        19,
+        23,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64,
+        68
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        6,
+        13,
+        19,
+        23,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64,
+        68
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "words",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        4,
+        8,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36,
+        40,
+        45,
+        51,
+        6,
+        13,
+        19,
+        23,
+        8,
+        18,
+        25,
+        33,
+        42,
+        51,
+        58,
+        64,
+        68
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 28,
+          "gcd": 28
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 29,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        22,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 9,
+          "gcd": 9
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 14,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        22,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 9,
+          "gcd": 9
+        },
+        {
+          "rows": [
+            5,
+            13
+          ],
+          "symbol": "e",
+          "difference": 14,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        22,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -7,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 9,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        20,
+        22,
+        19,
+        19,
+        18,
+        18,
+        19,
+        18,
+        20,
+        20,
+        28,
+        33,
+        38,
+        41,
+        42,
+        20,
+        41,
+        43,
+        37,
+        42,
+        42,
+        37,
+        37,
+        37,
+        19
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -7,
+          "gcd": 7
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 9,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 160,
+          "gcd": 160
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 160,
+          "gcd": 160
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736,
+        755
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736,
+        755
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736,
+        755
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        317,
+        358,
+        400,
+        420,
+        461,
+        504,
+        541,
+        583,
+        625,
+        662,
+        699,
+        736,
+        755
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 151,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 160,
+          "gcd": 160
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        0,
+        38,
+        79,
+        121,
+        0,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 160,
+          "gcd": 160
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "eva_codes",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        25,
+        45,
+        67,
+        86,
+        105,
+        123,
+        141,
+        160,
+        178,
+        198,
+        218,
+        246,
+        279,
+        38,
+        79,
+        121,
+        141,
+        41,
+        84,
+        121,
+        163,
+        205,
+        242,
+        279,
+        316,
+        335
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 153,
+          "gcd": 153
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 160,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        15,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        15,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        15,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -2,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "local",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        15,
+        15,
+        16,
+        16,
+        14,
+        15,
+        18,
+        15,
+        16,
+        16,
+        24,
+        30,
+        30,
+        33,
+        35,
+        16,
+        31,
+        37,
+        31,
+        37,
+        36,
+        30,
+        31,
+        30,
+        17
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": -2,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 1,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 126,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            4,
+            19
+          ],
+          "symbol": "y",
+          "difference": 325,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 126,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            4,
+            19
+          ],
+          "symbol": "y",
+          "difference": 325,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            4,
+            19
+          ],
+          "symbol": "y",
+          "difference": 325,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            4,
+            19
+          ],
+          "symbol": "y",
+          "difference": 325,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604,
+        621
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604,
+        621
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604,
+        621
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "page_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        257,
+        290,
+        325,
+        341,
+        372,
+        409,
+        440,
+        477,
+        513,
+        543,
+        574,
+        604,
+        621
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 126,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            9,
+            16
+          ],
+          "symbol": "p",
+          "difference": -63,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 126,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            9,
+            16
+          ],
+          "symbol": "p",
+          "difference": -63,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            1,
+            16
+          ],
+          "symbol": "p",
+          "difference": 63,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_before",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        0,
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        0,
+        30,
+        63,
+        98,
+        0,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 126,
+          "gcd": 126
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 124,
+          "gcd": 2
+        },
+        {
+          "rows": [
+            1,
+            16
+          ],
+          "symbol": "p",
+          "difference": 63,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": false,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 125
+        },
+        {
+          "rows": [
+            4,
+            12
+          ],
+          "symbol": "y",
+          "difference": 134,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": false,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  },
+  {
+    "source": "IT",
+    "metric": "bench_units",
+    "mode": "paragraph_after",
+    "merge_fp": true,
+    "merge_r_192": true,
+    "vectors": 1,
+    "gcd_histogram": {
+      "1": 1
+    },
+    "anchored_modular_pass": 0,
+    "anchored_integer_pass": 0,
+    "first_certificate": {
+      "counts": [
+        17,
+        32,
+        47,
+        63,
+        79,
+        93,
+        108,
+        126,
+        141,
+        157,
+        173,
+        197,
+        227,
+        30,
+        63,
+        98,
+        114,
+        31,
+        68,
+        99,
+        136,
+        172,
+        202,
+        233,
+        263,
+        280
+      ],
+      "witness": [
+        {
+          "rows": [
+            1,
+            9
+          ],
+          "symbol": "p",
+          "difference": 124,
+          "gcd": 124
+        },
+        {
+          "rows": [
+            2,
+            10
+          ],
+          "symbol": "o",
+          "difference": 125,
+          "gcd": 1
+        }
+      ],
+      "gcd": 1
+    }
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "corpus": "ZL",
+    "scenario": "JJ",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "path": "variants/ZL_JJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "changed": false
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "JS",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "e43de1815a2ead7d5c3d91c05821d8376c6ed428e9a1009729cfc27c0d81a3cc",
+    "path": "variants/ZL_JS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otal.dar\n",
+        "changed": true
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "SJ",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "84c2807f551afb4ed68af23b75a5485190dbcdcc0b164d9397eb2fdba3bb4ff4",
+    "path": "variants/ZL_SJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otol.chdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "changed": false
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "SS",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "d2d9b7088342fa846c7db146accd006a01ca8203f41bc6cb1cc26ce65a7e3f3c",
+    "path": "variants/ZL_SS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otol.chdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otal.dar\n",
+        "changed": true
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "JJ",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "bac3bcf1f51245330de9a8384b23b04ebeb3d1e589f0517d9c9b8c9bc0fb8c73",
+    "path": "variants/IT_JJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otolchdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otaldar\n",
+        "changed": true
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "JS",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "3616767bdc3a4f662a0ad8bd6f34267828994446336ec856329b83fd54fe63f3",
+    "path": "variants/IT_JS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otolchdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otal.dar\n",
+        "changed": false
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "SJ",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "0443920847e0d0ff9bcc827c32e9b78851a18f5a6b98c50be27e4a57165c3e6c",
+    "path": "variants/IT_SJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otaldar\n",
+        "changed": true
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "SS",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "path": "variants/IT_SS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otal.dar\n",
+        "changed": false
+      }
+    ],
+    "all_other_lines_identical": true,
+    "all_letters_identical": true
+  }
+]

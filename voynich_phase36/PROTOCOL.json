@@ -1,0 +1,55 @@
+{
+  "version": "phase36-line-initial-relative-key-v1",
+  "boundary": "NOT_TRANSLATION",
+  "date_local": "2026-10-31",
+  "baseline_commit": "3f213356f11eb193a1b45d78a9c59df12cfa1701",
+  "question": "Can a partial bijection from line-initial symbols to ordinary symbols be inferred without plaintext and make exact normalization predictions on separate passages?",
+  "novelty": "Exact repeated-tail constraints and a relative symbol map; no language-model optimization. Unlike phases9/10/18 this is line position rather than previous-word final or word-edge phonetic substitution, and unlike phases33-35 it does not vary zodiac labels.",
+  "hypotheses": {
+    "H1": "Only the first symbol of each line-initial word is replaced by a stable injective permutation of the ordinary cipher alphabet; the remainder, word boundaries and within-line text are preserved. Partial relative mapping is the output, not a plaintext key.",
+    "H0": "No special line-initial replacement; relative map is identity.",
+    "competitors": [
+      "Initial key changes between fit and witness/transfer",
+      "A prefix is inserted at line start, changing length rather than replacing the first symbol",
+      "Position-specific generated text can obey the same relative map without a chosen underlying message",
+      "Lexically different words can share the same tail, producing false apparent equations even when H1 is true"
+    ]
+  },
+  "authors": [
+    "doyle",
+    "cervantes",
+    "verne"
+  ],
+  "layouts": [
+    "eight_words",
+    "width42"
+  ],
+  "families": [
+    "allography",
+    "identity",
+    "changed_key",
+    "prefix",
+    "nonce"
+  ],
+  "sources": "Three newly acquired works, not used in the audited prior-source catalogue. Public Gutenberg editions pinned by SHA256. Austen considered but excluded because phase24 already used it. These modern calibration languages are not candidate Voynich languages. Vogt2012 is primary motivation and layout-confound reading, not a replication or independent confirmation.",
+  "normalization": "Strip Gutenberg START/END wrappers; lowercase NFKD; remove combining marks; retain [a-z]+ tokens. Diacritics, punctuation, hyphens and apostrophes are simplified; no claim of historical orthographic realism.",
+  "passages": "For each author, base starts3000 and23000 after normalization, zero-based half-open indexes. Fit offsets[0,6000), witness[6200,8200), transfer[8400,12400). Two nonoverlapping passage triples per author,200-word within-triple gaps. Same triples reused across both layouts and cipher families: six literary triples, not60 independent texts.",
+  "controls": "Each of12 author/block/layout conditions gets five families and fresh independent random keys. allography: random base substitution then deranged first-symbol permutation at line starts. identity: same base key, no initial change. changed_key: fit initial key replaced by a permutation differing at every symbol for witness and transfer. prefix: one base-alphabet symbol prepended to each line-initial word, no replacement. nonce:400 fresh random word forms, uniformly sampled without a target passage, then same allographic encoding; can pass and thereby demonstrate absence of semantic specificity.",
+  "seeds": "360000+100*condition+family_index; condition=4*author_index+2*block+layout_index. Python random.Random; versions archived. Fresh keys and nonce streams generated only after freeze.",
+  "fit_rule": "Use words of3..12 declared units. Compare line-initial words with strictly interior words; final words excluded as anchors. Group by exact entire tail after first unit. A fit anchor needs at least2 initial occurrences and2 interior occurrences and only one observed first-symbol type per role. Each source symbol needs >=3 different anchor tails all pointing to exactly one target. Ambiguous sources abstain; insufficient sources abstain; any targets shared by multiple supported sources are removed to retain injectivity. No frequency ranking, best-score mapping, or tuning.",
+  "witness_rule": "Frozen fit map tested on separate witness. Anchor minimum becomes1 occurrence per role, still singleton sets. ANY contradictory anchor against a fit candidate rejects the whole mapping. Otherwise only candidate pairs supported by >=2 different witness tails may be authorized. Require >=3 authorized pairs and>=25percent of witness line-initial tokens covered. Lack of support causes abstention, not a default identity.",
+  "transfer": "Freeze fit and witness files before transfer. Apply only authorized first-symbol replacements at line start; explicitly abstain on all unmapped initial symbols. No retuning from transfer. Only after predictions exist does evaluation read the actual keys and plaintext. Record exact relative-map correctness, exact normalized whole initial word, coverage and tails not seen as fit anchors. This recovers base ciphertext spelling, not a natural-language reading.",
+  "decisive_calibration": "A successful case requires >=3 authorized pairs,>=100 emitted initial words,>=25percent transfer-initial coverage, zero wrong emitted words and zero wrong authorized pairs. Gate requires>=10/12 successful allography cases,>=3/4 per author,>=10/12 successful identity cases, zero wrong emitted words or authorized pairs across ALL60 cases, and complete abstention in all12 changed_key plus all12 prefix cases. Nonce success is allowed and explicitly prevents interpreting success as evidence of meaning.",
+  "abstention": "Any gate failure stops before manuscript inputs are opened by the study. Preserve all cases and diagnose without changing frozen rules. Unsupported symbols remain unknown even in a successful case. No percentage Voynich decoded.",
+  "manuscript_if_gate_passes": "Only then use archived phase23 ZL/IT literal P0/P1 records. Exclude labels, paragraph-initial @ loci, any raw interruption, segments after an interruption, f85/f86, unknown Currier class/hand. Group by Currier A/B and attributed hand; attributes are conventions, not established authorship. Physical folio SHA256 modulo3 fixes fit/witness/transfer. At least100 retained first tokens per fold, otherwise group abstains. Same rules under phase23 greedy atoms and literal EVA units. Never invent graphemes or repair ambiguous words. Publish mappings and predictions with locus IDs plus transfer contradictions, not semantic or human-validated claims.",
+  "exposure": "All manuscript pages and previous reserves already seen. Synthetic keys withheld from inference-function arguments; same operator owns generator and evaluator, no human blind or operating-system isolation claim. Historical human expertise and trusted clear/Voynich alignment remain unavailable.",
+  "pre_measure_checks": "Toy exact map, identity, conflict, sparse support, ambiguous tails, line-wrap preservation; test inputs deliberately synthetic and not counted as new calibration.",
+  "verification": "Independent reconstruction of encryption and inverses, literal source intervals/nonoverlap, candidate/witness maps and predicted outputs; byte-identical replay from pinned sources. Separate mathematical/technical verification only, not independent historical expertise.",
+  "stop_rules": [
+    "No glossaire central, zodiac translation, marginalia parallel-text assumption or new variants33-35",
+    "No key, language, meaning or true allograph declared from recurrence alone",
+    "No criterion adjustment after results",
+    "No publication, push, deployment or external messages"
+  ],
+  "delivery": "French research report, technical method, all controls and failures, exact source provenance, reproducible software and local archive."
+}

@@ -1,0 +1,137 @@
+{
+  "posthoc": true,
+  "changed_experimental_code": false,
+  "failures": [
+    {
+      "id": "c012",
+      "base_id": "latin2",
+      "verbose_letter_counts": {
+        "a": 555,
+        "b": 89,
+        "f": 56,
+        "g": 71,
+        "h": 49,
+        "j": 0,
+        "m": 413,
+        "o": 317,
+        "t": 500,
+        "u": 491,
+        "v": 69,
+        "z": 1
+      },
+      "positive_counts_below_five": {
+        "z": 1
+      },
+      "selected_model": {
+        "terminal": null,
+        "marker": null,
+        "paired_bases": [],
+        "alphabet": [
+          "0",
+          "1",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "complexity": 0
+      },
+      "diagnosis": "The single z occurrence is excluded by the >=5-per-base rule. Therefore not every marker occurrence has an eligible preceding base. The verbose candidate is rejected; fallback retains the marker as a base symbol. Static trace only; no parameter rerun."
+    },
+    {
+      "id": "c013",
+      "base_id": "latin2",
+      "verbose_letter_counts": {
+        "a": 555,
+        "b": 89,
+        "f": 56,
+        "g": 71,
+        "h": 49,
+        "j": 0,
+        "m": 413,
+        "o": 317,
+        "t": 500,
+        "u": 491,
+        "v": 69,
+        "z": 1
+      },
+      "positive_counts_below_five": {
+        "z": 1
+      },
+      "selected_model": {
+        "terminal": "K",
+        "marker": null,
+        "paired_bases": [],
+        "alphabet": [
+          "0",
+          "1",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I",
+          "J",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "complexity": 1
+      },
+      "diagnosis": "The single z occurrence is excluded by the >=5-per-base rule. Therefore not every marker occurrence has an eligible preceding base. The verbose candidate is rejected; fallback retains the marker as a base symbol. Static trace only; no parameter rerun."
+    }
+  ],
+  "family_counts": {
+    "mono": {
+      "passed": 6,
+      "cases": 6
+    },
+    "terminal": {
+      "passed": 6,
+      "cases": 6
+    },
+    "verbose": {
+      "passed": 5,
+      "cases": 6
+    },
+    "combined": {
+      "passed": 5,
+      "cases": 6
+    }
+  },
+  "false_terminal_letter": "a",
+  "false_terminal_removals_transfer": 800,
+  "literary_fit_words_unique": 6000,
+  "literary_transfer_words_unique": 2400,
+  "literary_transfer_letters_unique": 12903
+}

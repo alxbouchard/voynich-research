@@ -1,0 +1,356 @@
+{
+  "conventions": {
+    "objet": "Groupes entiers oteos des lignes Cc ; champs séparés par points, départ 1, les virgules sont conservées. Toute autre lecture au même endroit figure dans les champs d’édition.",
+    "mesure": "Photographies natives de Yale. Origine en haut à gauche ; x à droite et y vers le bas. Centre du diagramme estimé par le contour du médaillon central ; point du groupe au milieu de la boîte englobante de son encre ; carré ou rectangle défini visuellement. Centre et bord estimés à quelques pixels.",
+    "heure": "Azimut compté dans le sens horaire depuis midi ; heure arrondie à la minute du cadran, à titre de repère.",
+    "quart": "NO de 9 h à 12 h, NE de 12 h à 3 h, SE de 3 h à 6 h, SO de 6 h à 9 h. Quart du milieu. Frontière signalée lorsqu’un groupe s’étend de part et d’autre du méridien.",
+    "rang_radial": "1 = anneau textuel le plus extérieur ; les étiquettes autour des personnages sont exclues.",
+    "extrait": "Les PNG source sont des fenêtres natives sans rééchantillonnage ni correction ; ceux avec repère sont agrandis, à contraste étiré, et le rectangle est placé en dehors du contour graphique. La boîte des extraits a sa borne finale exclue."
+  },
+  "lectures": [
+    {
+      "page": "f72r3",
+      "locus": "f72r3.14,@Cc",
+      "rang_radial": 2,
+      "total_anneaux": 4,
+      "rang_oteos_ZL": 8,
+      "rang_oteos_IT": 9,
+      "statut": "ZL et IT",
+      "candidat_virgule": false,
+      "variant": null,
+      "ZL": {
+        "rang_au_locus": 8,
+        "champ": "oteos",
+        "avant": [
+          "ykeolol",
+          "y,air"
+        ],
+        "apres": [
+          "cheo,l,aiin",
+          "ykeeoly"
+        ]
+      },
+      "IT": {
+        "rang_au_locus": 9,
+        "champ": "oteos",
+        "avant": [
+          "ya",
+          "r"
+        ],
+        "apres": [
+          "cheolaiin",
+          "ykeeoly"
+        ]
+      },
+      "OID": 1006203,
+      "source_native": "yale/images/130_71v_and_72r.jpg",
+      "dimensions": [
+        8865,
+        3018
+      ],
+      "centre_diagramme_xy": [
+        7030,
+        1461
+      ],
+      "boite_encre_native_ltrb": [
+        6860,
+        602,
+        6977,
+        644
+      ],
+      "milieu_groupe_xy": [
+        6918,
+        623
+      ],
+      "azimut_deg": 352.39,
+      "heure": "11 h 45",
+      "quart": "NO",
+      "ambiguite_frontiere": false,
+      "frontiere": null,
+      "justification_visuelle": "En montant depuis 9 h, le groupe au double montant et à la finale recourbée suit le groupe segmenté y,air par ZL. Il précède cheolaiin (IT) et se trouve juste avant le méridien supérieur.",
+      "extrait_source": "f72r3.14-source.png",
+      "boite_extrait_source_ltrb": [
+        6785,
+        527,
+        7053,
+        720
+      ],
+      "extrait_annote": "f72r3.14-repere.png"
+    },
+    {
+      "page": "f72r3",
+      "locus": "f72r3.34,@Cc",
+      "rang_radial": 4,
+      "total_anneaux": 4,
+      "rang_oteos_ZL": 6,
+      "rang_oteos_IT": 8,
+      "statut": "ZL et IT",
+      "candidat_virgule": false,
+      "variant": null,
+      "ZL": {
+        "rang_au_locus": 6,
+        "champ": "oteos",
+        "avant": [
+          "octheolarl",
+          "okeeody"
+        ],
+        "apres": [
+          "aiin,koly"
+        ]
+      },
+      "IT": {
+        "rang_au_locus": 8,
+        "champ": "oteos",
+        "avant": [
+          "arl",
+          "okeeody"
+        ],
+        "apres": [
+          "aiin",
+          "koly"
+        ]
+      },
+      "OID": 1006203,
+      "source_native": "yale/images/130_71v_and_72r.jpg",
+      "dimensions": [
+        8865,
+        3018
+      ],
+      "centre_diagramme_xy": [
+        7030,
+        1461
+      ],
+      "boite_encre_native_ltrb": [
+        6945,
+        1624,
+        7057,
+        1678
+      ],
+      "milieu_groupe_xy": [
+        7001,
+        1651
+      ],
+      "azimut_deg": 188.68,
+      "heure": "6 h 17",
+      "quart": "SO",
+      "ambiguite_frontiere": true,
+      "frontiere": "6 h (SE/SO)",
+      "justification_visuelle": "Texte retourné directement sous les deux crustacés. Le o initial est à droite et la finale s à gauche sur le scan. Le groupe entre okeeody et aiin traverse le méridien inférieur, son milieu est à gauche de ce méridien.",
+      "extrait_source": "f72r3.34-source.png",
+      "boite_extrait_source_ltrb": [
+        6870,
+        1549,
+        7133,
+        1754
+      ],
+      "extrait_annote": "f72r3.34-repere.png"
+    },
+    {
+      "page": "f72v3",
+      "locus": "f72v3.1,@Cc",
+      "rang_radial": 1,
+      "total_anneaux": 3,
+      "rang_oteos_ZL": 5,
+      "rang_oteos_IT": 6,
+      "statut": "ZL et IT",
+      "candidat_virgule": false,
+      "variant": null,
+      "ZL": {
+        "rang_au_locus": 5,
+        "champ": "oteos",
+        "avant": [
+          "oteody",
+          "oteodal"
+        ],
+        "apres": [
+          "oteokchd?",
+          "oteody"
+        ]
+      },
+      "IT": {
+        "rang_au_locus": 6,
+        "champ": "oteos",
+        "avant": [
+          "oteody",
+          "oteodal"
+        ],
+        "apres": [
+          "ote?k??",
+          "?eody"
+        ]
+      },
+      "OID": 1006204,
+      "source_native": "yale/images/131_72v_part.jpg",
+      "dimensions": [
+        5976,
+        3794
+      ],
+      "centre_diagramme_xy": [
+        2278,
+        1766
+      ],
+      "boite_encre_native_ltrb": [
+        1265,
+        950,
+        1347,
+        1066
+      ],
+      "milieu_groupe_xy": [
+        1306,
+        1008
+      ],
+      "azimut_deg": 307.95,
+      "heure": "10 h 16",
+      "quart": "NO",
+      "ambiguite_frontiere": false,
+      "frontiere": null,
+      "justification_visuelle": "Montée extérieure à gauche du grand pli vertical. Le groupe qui suit oteodal et précède un autre groupe débutant par ote se lit après rotation.",
+      "extrait_source": "f72v3.1-source.png",
+      "boite_extrait_source_ltrb": [
+        1190,
+        875,
+        1423,
+        1142
+      ],
+      "extrait_annote": "f72v3.1-repere.png"
+    },
+    {
+      "page": "f72v3",
+      "locus": "f72v3.20,@Cc",
+      "rang_radial": 2,
+      "total_anneaux": 3,
+      "rang_oteos_ZL": null,
+      "rang_oteos_IT": 7,
+      "statut": "IT seule",
+      "candidat_virgule": false,
+      "variant": "ZL lit oteor au champ 9",
+      "ZL": {
+        "rang_au_locus": 9,
+        "champ": "oteor",
+        "avant": [
+          "cheokey",
+          "okeoekol"
+        ],
+        "apres": [
+          "aiin",
+          "yoleeedy"
+        ]
+      },
+      "IT": {
+        "rang_au_locus": 7,
+        "champ": "oteos",
+        "avant": [
+          "cheokey",
+          "okeoekol"
+        ],
+        "apres": [
+          "aiin",
+          "yal"
+        ]
+      },
+      "OID": 1006204,
+      "source_native": "yale/images/131_72v_part.jpg",
+      "dimensions": [
+        5976,
+        3794
+      ],
+      "centre_diagramme_xy": [
+        2278,
+        1766
+      ],
+      "boite_encre_native_ltrb": [
+        2200,
+        829,
+        2323,
+        888
+      ],
+      "milieu_groupe_xy": [
+        2262,
+        858
+      ],
+      "azimut_deg": 358.99,
+      "heure": "11 h 58",
+      "quart": "NO",
+      "ambiguite_frontiere": true,
+      "frontiere": "12 h (NO/NE)",
+      "justification_visuelle": "Au-dessus du lion, sous le pied sombre de la figure extérieure. Le groupe suit okeoekol et précède aiin dans les deux transcriptions. Il traverse le méridien de midi ; son milieu tombe très légèrement à gauche. La finale est transcrite s par IT et r par ZL.",
+      "extrait_source": "f72v3.20-source.png",
+      "boite_extrait_source_ltrb": [
+        2125,
+        754,
+        2399,
+        964
+      ],
+      "extrait_annote": "f72v3.20-repere.png"
+    },
+    {
+      "page": "f72v2",
+      "locus": "f72v2.1,@Cc",
+      "rang_radial": 1,
+      "total_anneaux": 3,
+      "rang_oteos_ZL": 3,
+      "rang_oteos_IT": 3,
+      "statut": "ZL et IT",
+      "candidat_virgule": false,
+      "variant": null,
+      "ZL": {
+        "rang_au_locus": 3,
+        "champ": "oteos",
+        "avant": [
+          "otos,chs",
+          "oty"
+        ],
+        "apres": [
+          "oty",
+          "chotey"
+        ]
+      },
+      "IT": {
+        "rang_au_locus": 3,
+        "champ": "oteos",
+        "avant": [
+          "ataseos",
+          "oty"
+        ],
+        "apres": [
+          "oty",
+          "chotey"
+        ]
+      },
+      "OID": 1006204,
+      "source_native": "yale/images/131_72v_part.jpg",
+      "dimensions": [
+        5976,
+        3794
+      ],
+      "centre_diagramme_xy": [
+        4603,
+        1790
+      ],
+      "boite_encre_native_ltrb": [
+        3648,
+        1077,
+        3729,
+        1201
+      ],
+      "milieu_groupe_xy": [
+        3688,
+        1139
+      ],
+      "azimut_deg": 305.43,
+      "heure": "10 h 11",
+      "quart": "NO",
+      "ambiguite_frontiere": false,
+      "frontiere": null,
+      "justification_visuelle": "Sur la pente extérieure en haut à gauche, entre deux groupes oty. Sur la photographie, le second oty se situe plus haut et à droite.",
+      "extrait_source": "f72v2.1-source.png",
+      "boite_extrait_source_ltrb": [
+        3573,
+        1002,
+        3805,
+        1277
+      ],
+      "extrait_annote": "f72v2.1-repere.png"
+    }
+  ]
+}

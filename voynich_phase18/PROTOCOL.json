@@ -1,0 +1,62 @@
+{
+  "title": "Phase 18: two position-specific permutation families",
+  "written_utc": "2026-10-30T06:06:49.915049+00:00",
+  "timing": "Frozen locally before phase-18 optimization/calibration; not an external preregistration. Prior phases known to analyst.",
+  "base_commit": "db35d1070eb5ffac33151b558b8901926d25f904",
+  "seed": 20261030,
+  "families": [
+    "initial",
+    "final"
+  ],
+  "languages": [
+    "latin",
+    "italian"
+  ],
+  "model": "Two independent permutations of a..z: table 1 for first OR last literal character of each word, table 0 elsewhere. Singleton uses table 1. Spaces fixed. No homophony, sound assignment, resegmentation or combined initial/final model.",
+  "baseline": "One permutation; same data, optimizer proposals/restarts and heldout score. Equal proposal count is not equal search difficulty.",
+  "optimizer": {
+    "restarts": 8,
+    "steps": 60000,
+    "lambda": 4,
+    "temperature": 0.002,
+    "greedy_passes_max": 8,
+    "selection": "maximum training objective only"
+  },
+  "train_letter_cap": 24000,
+  "lm_smoothing": 0.01,
+  "frequency_smoothing": 0.5,
+  "language_models": "Archived phase-10 space-aware training texts: Caesar for Latin; Inferno/Purgatorio for Italian. Controls are Pliny/Paradiso. Frozen models; no fitting on control plaintexts.",
+  "control_sources": {
+    "latin": "Latin_Pliny",
+    "italian": "Italian_Paradiso"
+  },
+  "control_keys_per_language_family": 4,
+  "control_split": "First complete lines up to 24000 letters for fit, all remaining lines for evaluation; split before encryption. Four keys per language/family on the same texts, not independent corpora.",
+  "calibration_gate": {
+    "overall_accuracy": 0.99,
+    "position_accuracy": 0.98,
+    "training_support_coverage": 0.995,
+    "aggregation": "All eight controls must pass for a family. Failure stops that family; no adaptive budget change in this protocol."
+  },
+  "real_cases": [
+    "ZL_A",
+    "ZL_B",
+    "IT_A",
+    "IT_B"
+  ],
+  "real_split": "Same as phase 10: union of physical-leaf identifiers, sorted lexicographically, indices 0,5,10,... held out. Both faces stay together. Training capped in line order. Pages previously inspected, not analyst-unseen.",
+  "barriers": "None tokens and line ends break spans. No quadgram bridges a barrier. Spans shorter than four characters including spaces are dropped for both models and accuracy denominators.",
+  "primary": "ZL A/B separately, both candidate languages, both calibrated families. IT sensitivity on the same manuscript, not independent evidence.",
+  "null_replicates": 19,
+  "null": "Shuffle individual letters within each (physical_leaf, positional_role) pool, separately within the capped training split and full test split. Roles singleton/initial/final/interior. Preserve word lengths, line breaks, unknown positions and positional symbol counts. Same shuffle for both languages and families. Refit each model. ZL only.",
+  "null_limitation": "Destroys many linguistic and nonlinguistic local constraints. Exceeding it detects sequential structure only; does not establish a positional cipher, language or translation. No p-value or multiplicity-adjusted discovery claim.",
+  "score": "Heldout average negative log2 probability per four-character window including spaces; gain=single_bits-position_bits. Frequency penalty used only for training selection. Absolute scores across languages do not identify language.",
+  "provisional_followup_rule": "A positive heldout gain exceeding all 19 same-group null gains in both ZL A and B, with positive IT sensitivities and >=99.5% symbol support, justifies a separate confirmatory study only. A stable legible grammar and external evidence remain required for any translation claim.",
+  "input_sha256": {
+    "voynich_phase10/data/source_inputs.json": "b952a4cbfffa12330b0db72d5600b4fe62f0ab57d483b88adaa1bc83f1a31d28",
+    "voynich_phase10/data/latin_train_boundary.txt": "62310037befd731421d54b07e814bc5d42138248b91ebc933f7ce9284f24c1dd",
+    "voynich_phase10/data/italian_train_boundary.txt": "474e25fbf142b4a060ac345740a6c76f9ac3e1c13cb6656006011275c365151b",
+    "voynich_phase10/src/context_permutation.cpp": "b39cb3c0f707c726b2f40e8835bd7dbeb2db5b45fe388d0d5e8344569e6fe51d"
+  },
+  "audit": "Preserve every fitted key and decoded heldout output marked NOT_TRANSLATION, restart objectives, true-key control scores, hashes and failures. Independent Python rescore before interpretation."
+}

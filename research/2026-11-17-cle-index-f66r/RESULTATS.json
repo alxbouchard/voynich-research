@@ -1,0 +1,2644 @@
+{
+  "commun": {
+    "accord": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 1,
+            "couvertes": 1,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 1,
+            "permutations": 1,
+            "rotations": [
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 1,
+              "permutations_au_moins": 1,
+              "permutations": 1,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 1,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 1,
+            "permutations": 1,
+            "rotations": [
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 1,
+              "permutations_au_moins": 1,
+              "permutations": 1,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 1,
+            "couvertes": 1,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 1,
+            "permutations": 1,
+            "rotations": [
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 1,
+              "permutations_au_moins": 1,
+              "permutations": 1,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 2,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    },
+    "ZL": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": "@172;",
+            "copie": "@172;",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": "@195;",
+            "copie": "@195;",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "d"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 3,
+            "couvertes": 3,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 6,
+            "permutations": 6,
+            "rotations": [
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 3,
+              "permutations_au_moins": 6,
+              "permutations": 6,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 3,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 6,
+            "permutations": 6,
+            "rotations": [
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 3,
+              "permutations_au_moins": 6,
+              "permutations": 6,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 3,
+            "couvertes": 3,
+            "exactes": 1,
+            "p": 1.0,
+            "permutations_au_moins": 6,
+            "permutations": 6,
+            "rotations": [
+              1,
+              1,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 3,
+              "permutations_au_moins": 6,
+              "permutations": 6,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "x"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 2,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    },
+    "IT": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 2,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "q"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 2,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 2,
+            "couvertes": 2,
+            "exactes": 1,
+            "p": 1.0,
+            "permutations_au_moins": 2,
+            "permutations": 2,
+            "rotations": [
+              1,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 2,
+              "permutations_au_moins": 2,
+              "permutations": 2,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "r"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    }
+  },
+  "A": {
+    "accord": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 72,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 25,
+            "locus_cible": 72,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 73,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 28,
+            "locus_cible": 75,
+            "marque": "l",
+            "copie": "l",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 75,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 30,
+            "locus_cible": 76,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 77,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 33,
+            "locus_cible": 79,
+            "marque": "p",
+            "copie": "p",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "sh"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 81,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "l"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 10,
+            "couvertes": 10,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 3628800,
+            "permutations": 3628800,
+            "rotations": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              2,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 8,
+              "permutations_au_moins": 40320,
+              "permutations": 40320,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 10,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 3628800,
+            "permutations": 3628800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 8,
+              "permutations_au_moins": 40320,
+              "permutations": 40320,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 10,
+            "couvertes": 10,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 3628800,
+            "permutations": 3628800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 8,
+              "permutations_au_moins": 40320,
+              "permutations": 40320,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": [
+          26,
+          31,
+          34
+        ]
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 14,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 15,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "r"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 26,
+            "locus_cible": 12,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": null
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 4,
+            "couvertes": 4,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 24,
+            "permutations": 24,
+            "rotations": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 4,
+              "permutations_au_moins": 24,
+              "permutations": 24,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 4,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 24,
+            "permutations": 24,
+            "rotations": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 4,
+              "permutations_au_moins": 24,
+              "permutations": 24,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 4,
+            "couvertes": 4,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 24,
+            "permutations": 24,
+            "rotations": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 4,
+              "permutations_au_moins": 24,
+              "permutations": 24,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    },
+    "ZL": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": "@172;",
+            "copie": "@172;",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 24,
+            "locus_cible": 72,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 25,
+            "locus_cible": 72,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 73,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": "@195;",
+            "copie": "@195;",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 28,
+            "locus_cible": 75,
+            "marque": "l",
+            "copie": "l",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 75,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 30,
+            "locus_cible": 76,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 77,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 33,
+            "locus_cible": 79,
+            "marque": "p",
+            "copie": "p",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "sh"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 81,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "l"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 12,
+            "couvertes": 12,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 479001600,
+            "permutations": 479001600,
+            "rotations": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              2,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 10,
+              "permutations_au_moins": 3628800,
+              "permutations": 3628800,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 12,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 479001600,
+            "permutations": 479001600,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 10,
+              "permutations_au_moins": 3628800,
+              "permutations": 3628800,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 12,
+            "couvertes": 12,
+            "exactes": 2,
+            "p": 1.0,
+            "permutations_au_moins": 479001600,
+            "permutations": 479001600,
+            "rotations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 10,
+              "permutations_au_moins": 3628800,
+              "permutations": 3628800,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "t",
+              "x"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": [
+          26,
+          31,
+          34
+        ]
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 12,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 14,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 15,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "r"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 5,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 1,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "o"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    },
+    "IT": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 24,
+            "locus_cible": 72,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 25,
+            "locus_cible": 72,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 73,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 28,
+            "locus_cible": 75,
+            "marque": "l",
+            "copie": "l",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 75,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 30,
+            "locus_cible": 76,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 77,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 33,
+            "locus_cible": 79,
+            "marque": "p",
+            "copie": "p",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "sh"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 81,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "l"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 11,
+            "couvertes": 11,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 39916800,
+            "permutations": 39916800,
+            "rotations": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 9,
+              "permutations_au_moins": 362880,
+              "permutations": 362880,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 11,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 39916800,
+            "permutations": 39916800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 9,
+              "permutations_au_moins": 362880,
+              "permutations": 362880,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 11,
+            "couvertes": 11,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 39916800,
+            "permutations": 39916800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 9,
+              "permutations_au_moins": 362880,
+              "permutations": 362880,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": [
+          26,
+          31,
+          34
+        ]
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 12,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "r"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 14,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 15,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "r"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 5,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 2,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "o",
+              "r"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    }
+  },
+  "B": {
+    "accord": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 72,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 25,
+            "locus_cible": 72,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 73,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 28,
+            "locus_cible": 75,
+            "marque": "l",
+            "copie": "l",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 75,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 30,
+            "locus_cible": 76,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 77,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 33,
+            "locus_cible": 79,
+            "marque": "p",
+            "copie": "p",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "sh"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 80,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 10,
+            "couvertes": 10,
+            "exactes": 1,
+            "p": 0.5527777777777778,
+            "permutations_au_moins": 2005920,
+            "permutations": 3628800,
+            "rotations": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1
+            ],
+            "p_rotation": 0.6,
+            "controle_par_locus_unique": {
+              "loci_distincts": 8,
+              "permutations_au_moins": 20880,
+              "permutations": 40320,
+              "p": 0.5178571428571429
+            },
+            "marques_distinctes_exactes": [
+              "d"
+            ],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 10,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 3628800,
+            "permutations": 3628800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 8,
+              "permutations_au_moins": 40320,
+              "permutations": 40320,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 10,
+            "couvertes": 10,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 3628800,
+            "permutations": 3628800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 8,
+              "permutations_au_moins": 40320,
+              "permutations": 40320,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": [
+          26,
+          31,
+          34
+        ]
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 14,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 15,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "r"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 26,
+            "locus_cible": 12,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": null
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 4,
+            "couvertes": 4,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 24,
+            "permutations": 24,
+            "rotations": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 4,
+              "permutations_au_moins": 24,
+              "permutations": 24,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 4,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 24,
+            "permutations": 24,
+            "rotations": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 4,
+              "permutations_au_moins": 24,
+              "permutations": 24,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 4,
+            "couvertes": 4,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 24,
+            "permutations": 24,
+            "rotations": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 4,
+              "permutations_au_moins": 24,
+              "permutations": 24,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    },
+    "ZL": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": "@172;",
+            "copie": "@172;",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 24,
+            "locus_cible": 72,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 25,
+            "locus_cible": 72,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 73,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": "@195;",
+            "copie": "@195;",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 28,
+            "locus_cible": 75,
+            "marque": "l",
+            "copie": "l",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 75,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 30,
+            "locus_cible": 76,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 77,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 33,
+            "locus_cible": 79,
+            "marque": "p",
+            "copie": "p",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "sh"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 80,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "d",
+            "initiale_observee": "d"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 12,
+            "couvertes": 12,
+            "exactes": 1,
+            "p": 0.4818181818181818,
+            "permutations_au_moins": 230791680,
+            "permutations": 479001600,
+            "rotations": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1
+            ],
+            "p_rotation": 0.5,
+            "controle_par_locus_unique": {
+              "loci_distincts": 10,
+              "permutations_au_moins": 1572480,
+              "permutations": 3628800,
+              "p": 0.43333333333333335
+            },
+            "marques_distinctes_exactes": [
+              "d"
+            ],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 12,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 479001600,
+            "permutations": 479001600,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 10,
+              "permutations_au_moins": 3628800,
+              "permutations": 3628800,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 12,
+            "couvertes": 12,
+            "exactes": 3,
+            "p": 1.0,
+            "permutations_au_moins": 479001600,
+            "permutations": 479001600,
+            "rotations": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 10,
+              "permutations_au_moins": 3628800,
+              "permutations": 3628800,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "d",
+              "t",
+              "x"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": [
+          26,
+          31,
+          34
+        ]
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 12,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 14,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 15,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "s",
+            "initiale_observee": "r"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 5,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 1,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "o"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    },
+    "IT": {
+      "prose": {
+        "lignes": [
+          {
+            "rang_marque": 23,
+            "locus_cible": 71,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 24,
+            "locus_cible": 72,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 25,
+            "locus_cible": 72,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "s"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 73,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          },
+          {
+            "rang_marque": 28,
+            "locus_cible": 75,
+            "marque": "l",
+            "copie": "l",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 75,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "t"
+          },
+          {
+            "rang_marque": 30,
+            "locus_cible": 76,
+            "marque": "t",
+            "copie": "t",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 77,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 32,
+            "locus_cible": 78,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 33,
+            "locus_cible": 79,
+            "marque": "p",
+            "copie": "p",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "sh"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 80,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "d"
+          }
+        ],
+        "ecartees_lecture": [
+          {
+            "rang_marque": 27,
+            "locus_cible": 74,
+            "marque": null,
+            "copie": null,
+            "table": null,
+            "majorite": "p",
+            "initiale_observee": "y"
+          }
+        ],
+        "scores": {
+          "copie": {
+            "n": 11,
+            "couvertes": 11,
+            "exactes": 1,
+            "p": 0.5151515151515151,
+            "permutations_au_moins": 20563200,
+            "permutations": 39916800,
+            "rotations": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              1
+            ],
+            "p_rotation": 0.5454545454545454,
+            "controle_par_locus_unique": {
+              "loci_distincts": 9,
+              "permutations_au_moins": 171360,
+              "permutations": 362880,
+              "p": 0.4722222222222222
+            },
+            "marques_distinctes_exactes": [
+              "d"
+            ],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 11,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 39916800,
+            "permutations": 39916800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 9,
+              "permutations_au_moins": 362880,
+              "permutations": 362880,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 11,
+            "couvertes": 11,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 39916800,
+            "permutations": 39916800,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 9,
+              "permutations_au_moins": 362880,
+              "permutations": 362880,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": []
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": [
+          26,
+          31,
+          34
+        ]
+      },
+      "mots": {
+        "lignes": [
+          {
+            "rang_marque": 24,
+            "locus_cible": 11,
+            "marque": "x",
+            "copie": "x",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "d"
+          },
+          {
+            "rang_marque": 26,
+            "locus_cible": 12,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "r"
+          },
+          {
+            "rang_marque": 29,
+            "locus_cible": 13,
+            "marque": "r",
+            "copie": "r",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 31,
+            "locus_cible": 14,
+            "marque": "o",
+            "copie": "o",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "q"
+          },
+          {
+            "rang_marque": 34,
+            "locus_cible": 15,
+            "marque": "d",
+            "copie": "d",
+            "table": null,
+            "majorite": "q",
+            "initiale_observee": "r"
+          }
+        ],
+        "ecartees_lecture": [],
+        "scores": {
+          "copie": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "table": {
+            "n": 5,
+            "couvertes": 0,
+            "exactes": 0,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [],
+            "p_holm": 1.0,
+            "regle_retenue": false
+          },
+          "majorite": {
+            "n": 5,
+            "couvertes": 5,
+            "exactes": 2,
+            "p": 1.0,
+            "permutations_au_moins": 120,
+            "permutations": 120,
+            "rotations": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "p_rotation": 1.0,
+            "controle_par_locus_unique": {
+              "loci_distincts": 5,
+              "permutations_au_moins": 120,
+              "permutations": 120,
+              "p": 1.0
+            },
+            "marques_distinctes_exactes": [
+              "o",
+              "r"
+            ]
+          }
+        },
+        "rangs_avec_deux_exemples_ou_plus_en_apprentissage": []
+      }
+    }
+  }
+}

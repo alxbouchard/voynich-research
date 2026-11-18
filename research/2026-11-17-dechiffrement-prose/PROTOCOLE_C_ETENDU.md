@@ -1,0 +1,11 @@
+# Extension du test du code par mots entiers
+
+Les 607 fenêtres des trois extraits initiaux ne comportent aucune réserve prévisible au seuil fixé, d'après deux dénombrements indépendants. Cette extension choisit un ensemble déterminé par la disponibilité d'une édition intégrale déjà archivée. La décision précède l'extraction du nouveau corpus et toute recherche de ses correspondances.
+
+Utiliser tous les chapitres numérotés des livres I à VIII de Celse dans le même XML Perseus, en excluant I.1 déjà étudié, titres, proèmes et apparats. Séparer les chapitres et les éventuelles subdivisions autonomes signalées par l'éditeur. Conserver les variantes de flexion et le même sens de lecture. Garder strictement les fenêtres 10+6 et les minima du test C. Pour limiter le volume, enregistrer seulement les prévisions dont la réserve permet trois positions prédites de deux mots distincts, en comptant au préalable toutes les fenêtres historiques.
+
+La vue commune reste le test principal. Appliquer aussi 99 mélanges avec la même graine sur chacune des deux éditions séparées pour décrire l'effet de la recherche multiple. Compter les occurrences locales avant et après regroupement des fenêtres glissantes pour la description. Un succès local dans une seule édition sera rapporté. Pour envisager un transfert de clé, le premier ancrage doit être confirmé par les deux éditions au même emplacement. Chercher ensuite, sans ajouter aucune correspondance à la table des dix mots, un passage latin de 16 mots sans chevauchement source et un passage sur un autre numéro de feuillet, sur la vue commune. Exiger au moins huit positions connues de trois mots distincts, toutes exactes, et des indices historiques indépendants avant de suggérer une lecture.
+
+Le texte de Celse peut avoir circulé avec d'autres graphies et d'autres formulations. Cette extension examine uniquement l'hypothèse d'une copie littérale avec un substitut stable par mot.
+
+L'édition conserve des citations et termes grecs à l'intérieur de la prose latine. Avant la recherche étendue, chaque mot qui contient une lettre de graphie non latine est déclaré infranchissable. Les coordonnées restent celles du chapitre complet. Le dénominateur distingue les fenêtres brutes, celles en graphie latine et celles permettant les prédictions.

@@ -1,0 +1,100 @@
+{
+  "controls": {
+    "periodic_adversarial": {
+      "identity_pass": 5,
+      "lexicon_alignment": {
+        "max": 0.9989,
+        "mean": 0.9989,
+        "median": 0.9989,
+        "min": 0.9989
+      },
+      "lexicon_ge_0_91": 5,
+      "nonempty": 5,
+      "runs": 5,
+      "sanitized_input_unchanged": 5,
+      "z_ge_18_4": 5,
+      "z_gt_30": 5,
+      "z_score": {
+        "max": 132.327,
+        "mean": 132.327,
+        "median": 132.327,
+        "min": 132.327
+      }
+    },
+    "uniform_eva": {
+      "identity_pass": 100,
+      "lexicon_alignment": {
+        "max": 0.9917,
+        "mean": 0.99042,
+        "median": 0.9904,
+        "min": 0.9889
+      },
+      "lexicon_ge_0_91": 100,
+      "nonempty": 100,
+      "runs": 100,
+      "sanitized_input_unchanged": 100,
+      "z_ge_18_4": 0,
+      "z_gt_30": 0,
+      "z_score": {
+        "max": 2.385,
+        "mean": 0.33215,
+        "median": 0.211,
+        "min": -2.059
+      }
+    },
+    "unit_draws": {
+      "identity_pass": 100,
+      "lexicon_alignment": {
+        "max": 0.8026,
+        "mean": 0.7903,
+        "median": 0.7895,
+        "min": 0.7838
+      },
+      "lexicon_ge_0_91": 0,
+      "nonempty": 100,
+      "runs": 100,
+      "sanitized_input_unchanged": 100,
+      "z_ge_18_4": 0,
+      "z_gt_30": 0,
+      "z_score": {
+        "max": 9.161,
+        "mean": 6.96775,
+        "median": 7.3515,
+        "min": 3.812
+      }
+    }
+  },
+  "distinct_control_inputs": 41,
+  "meaning_recovered": false,
+  "published_identity_pass": 199,
+  "published_rows": 199,
+  "replayed_folios": [
+    {
+      "archived_english_identical": true,
+      "archived_latin_identical": true,
+      "archived_metric_differences": {},
+      "folio_context_input": "1v"
+    },
+    {
+      "archived_english_identical": true,
+      "archived_latin_identical": true,
+      "archived_metric_differences": {},
+      "folio_context_input": "68r"
+    },
+    {
+      "archived_english_identical": true,
+      "archived_latin_identical": true,
+      "archived_metric_differences": {},
+      "folio_context_input": "78r"
+    },
+    {
+      "archived_english_identical": true,
+      "archived_latin_identical": true,
+      "archived_metric_differences": {},
+      "folio_context_input": "99r"
+    }
+  ],
+  "status": "NOT_TRANSLATION",
+  "translation_validated": false,
+  "upstream_commit": "c7c3b66fe6c4e5ea8c172df4c607befeae823740"
+}

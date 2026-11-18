@@ -1,0 +1,182 @@
+{
+  "version": "phase34-sign-and-boundary-factorial-v1",
+  "boundary": "NOT_TRANSLATION",
+  "date_local": "2026-10-31",
+  "question": "Does the local a/o reading at f70v1.11 change April-pair comparisons or interact with the two unresolved separators, with all four boundary assignments retained?",
+  "selection": "Exploratory continuation of exposed phase31-33 data. Freeze before new joint factorial generation/calculation; not blind manuscript validation or external preregistration.",
+  "pages": [
+    "f70v2",
+    "f70v1",
+    "f71r",
+    "f71v",
+    "f72r1",
+    "f72r2",
+    "f72r3",
+    "f72v3",
+    "f72v2",
+    "f72v1",
+    "f73r",
+    "f73v"
+  ],
+  "target_pairs": [
+    [
+      "f70v1",
+      "f71r"
+    ],
+    [
+      "f71v",
+      "f72r1"
+    ]
+  ],
+  "corpora": [
+    "ZL",
+    "IT"
+  ],
+  "modes": [
+    "strict",
+    "expanded"
+  ],
+  "scopes": [
+    "labels",
+    "all"
+  ],
+  "boundary_loci": {
+    "f71r.13": {
+      "joined": "otolchdy",
+      "split": "otol.chdy"
+    },
+    "f71r.17": {
+      "joined": "otaldar",
+      "split": "otal.dar"
+    }
+  },
+  "boundary_scenarios": {
+    "JJ": [
+      "joined",
+      "joined"
+    ],
+    "JS": [
+      "joined",
+      "split"
+    ],
+    "SJ": [
+      "split",
+      "joined"
+    ],
+    "SS": [
+      "split",
+      "split"
+    ]
+  },
+  "sign_locus": "f70v1.11",
+  "sign_bodies": {
+    "a": "otal.ypsharal",
+    "o": "otol.ypsharal"
+  },
+  "sign_index_zero_based": 2,
+  "native_sign": {
+    "ZL": "a",
+    "IT": "o"
+  },
+  "scenarios": {
+    "a_JJ": {
+      "sign": "a",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ]
+    },
+    "a_JS": {
+      "sign": "a",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ]
+    },
+    "a_SJ": {
+      "sign": "a",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ]
+    },
+    "a_SS": {
+      "sign": "a",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ]
+    },
+    "o_JJ": {
+      "sign": "o",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ]
+    },
+    "o_JS": {
+      "sign": "o",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ]
+    },
+    "o_SJ": {
+      "sign": "o",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ]
+    },
+    "o_SS": {
+      "sign": "o",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ]
+    }
+  },
+  "intervention": "Apply phase33 prescribed period replacements at f71r.13 and f71r.17, then optionally change exactly the third character of the first token at f70v1.11 between a and o. Preserve all headers, layout, whitespace, line endings, other letters and other separators. Do not replace a/o anywhere else.",
+  "fixed_nuisances": "f70v1.16 okealar/okeal.ar and all other corpus differences stay fixed. The a and o symbols are alternative transliteration readings of one position, not established phonetic values. No image or sign is adjudicated.",
+  "analysis": "Eight variants per corpus plus each native baseline, two uncertainty modes, two scopes, all66 page pairs:4752 dependent pair records. Native-sign slices reproduce all2640 phase33 records; do not count these recomputations as independent evidence.",
+  "primary_results": [
+    "Display all eight April label intersection sets within each corpus/mode.",
+    "Compute candidate-set intersection/union over all eight cases and separately across four cuts at each sign.",
+    "Contrast a versus o at each fixed cut: added/lost shared types with supporting loci; distinguish changed type presence from changing supporting occurrences.",
+    "Compare ZL and IT at the same sign and cut, without merging sources or asserting full transcription equivalence.",
+    "Report the descriptive interaction: does a change of sign matter only when a given separator is present? All outcomes retained; no outcome-based choice of sign."
+  ],
+  "secondary_results": [
+    "Retain all-locus comparisons and66-pair nonempty counts as descriptive checks, not semantic rescue.",
+    "Compare complete literal labels after removing layout and periods; exclude/count nonliteral uncertainty. These sets must be invariant to cuts at a fixed sign, but may change when the sign changes.",
+    "The phase33 hypothesized shape of the main interaction is an exposed expectation, not new predictive evidence: otol may require both sign o at f70v1.11 and a cut at f71r.13, while otal can remain supported at f70v1.16. Test and report exact sets rather than assuming this formula."
+  ],
+  "controls": [
+    "Preserve and verify all source bytes and frozen helper code.",
+    "Reproduce all2640 phase33 pair records,240 page records,20 whole-label records and80 target-support records on the native-sign slices, including their original baseline.",
+    "The eight native-sign variant files must match phase33 variant hashes; ZL a_JJ and IT o_SS must be byte-identical to original sources.",
+    "Only three designated loci may change: the two exact periods and at most one designated a/o character. Check all other lines and letters, headers and layout.",
+    "At fixed sign, retain phase33 control: all55 pairs without f71r retain shared types across cuts; whole-label sets do not change across cuts.",
+    "At fixed cuts, all55 pairs without f70v1 retain shared types between a and o. Across the entire factorial,45 pairs excluding both edited pages retain shared types. Third-page occurrence metadata can legitimately change.",
+    "The May-pair shared sets and counts remain unchanged throughout; this is a pipeline control, not new historical confirmation.",
+    "All uncertainty-exclusion ledgers remain unchanged.",
+    "Synthetic fixtures cover exact single-position sign swap, reversibility, non-target letters and line endings before manuscript generation."
+  ],
+  "stop_rules": [
+    "No translation, dictionary, source-language or key search",
+    "No sign selection because it improves an overlap",
+    "No global a/o substitution",
+    "No retuning frozen parser or uncertainty handling",
+    "No new visual reading or AI/human adjudication",
+    "No publication, push or external messages"
+  ],
+  "delivery": "French report, complete factorial outputs and support ledger, independent verification, replay, prior preservation and standalone durable archive."
+}

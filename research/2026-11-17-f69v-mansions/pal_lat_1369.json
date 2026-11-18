@@ -1,0 +1,283 @@
+{
+  "status": "bounded_primary_source_visual_inventory_not_critical_transcription",
+  "audit_utc": "2026-11-17T20:28:45.572575+00:00",
+  "scope": "Only BAV Pal. lat. 1369 ff.119rb-119vb; no Voynich inscription, decipherment, alignment, language identification, or model execution.",
+  "reviewer": "single AI visual reader, not an independent palaeographic expert panel",
+  "source_integrity": {
+    "acquisition_sha256": "cd7ac31ba8c9bf28cf095c1a33b69ce6e4b624b71d52776fbf1f5ac3f3f27d28",
+    "manifest_sha256": "406fc4a8af89677e32a5ec6b6e202582f4c3cf1f9326506dd260ccb71c016c94",
+    "download_files_verified_against_acquisition": 4,
+    "canvas_count": 338,
+    "canvases": [
+      {
+        "index_zero_based": 246,
+        "id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1369/canvas/p0247",
+        "label": "119r",
+        "width": 2716,
+        "height": 4234
+      },
+      {
+        "index_zero_based": 247,
+        "id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1369/canvas/p0248",
+        "label": "119v",
+        "width": 2740,
+        "height": 4260
+      }
+    ]
+  },
+  "catalogues": [
+    {
+      "url": "https://ptolemaeus.badw.de/jordanus/ms/9980",
+      "entry": "Work 19",
+      "supports": [
+        "f119rb-vb locus",
+        "rubric Forme et nomina mansionum lune",
+        "incipit",
+        "first name alcha and inline stellar diagram"
+      ],
+      "does_not_supply": "Complete transcription of all28 names or proof of their distinctness."
+    },
+    {
+      "url": "https://ptolemaeus.badw.de/ms/587",
+      "author": "David Juste",
+      "updated": "2025-05-28",
+      "supports": [
+        "f119rb-119vb locus",
+        "same title and incipit",
+        "mid-fifteenth-century southern German manuscript;1444 occurs on Saturn medallion f144v"
+      ],
+      "does_not_supply": "Complete transcription of names. The year1444 is not a colophon for the lunar-mansion list."
+    }
+  ],
+  "visual_observations": {
+    "ordinal_entries_observed": 28,
+    "first_entry_crosses_folio": true,
+    "last_ordinal_phrase": "28 et ultima",
+    "arrangement": "1 begins at foot of119rb; its name and diagram continue at top of119va;2-15 follow in left column119va;16-28 occupy right column119vb.",
+    "ordinal_omission_observed": false,
+    "content": "Entries combine ordinal, zodiacal degree interval, qualitative attributes, name clause and schematic stellar dots; this is not a bare list of one word per item.",
+    "aliases_are_part_of_source": true,
+    "minimum_entries_with_observed_vel_aliases": [
+      19,
+      22,
+      24,
+      25,
+      27,
+      28
+    ],
+    "entry28_has_at_least_three_alternative_name_forms": true,
+    "twenty_eight_distinct_complete_names_verified": false,
+    "distinctness_status": "Not established, not disproved. Names10 and11 especially require careful reading; similarity is not an identity finding.",
+    "entry_inventory": [
+      {
+        "ordinal": 1,
+        "locus": "119rb -> 119va (name and diagram on 119va)",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": "alcha"
+      },
+      {
+        "ordinal": 2,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 3,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 4,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 5,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 6,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 7,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 8,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 9,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 10,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 11,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 12,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 13,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 14,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 15,
+        "locus": "119va",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 16,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 17,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 18,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 19,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": true,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 20,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 21,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 22,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": true,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 23,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 24,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": true,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 25,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": true,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 26,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": false,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 27,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": true,
+        "full_name_transcription": null
+      },
+      {
+        "ordinal": 28,
+        "locus": "119vb",
+        "name_clause_present_by_visual_inspection": true,
+        "conservative_observed_vel_alias": true,
+        "full_name_transcription": null
+      }
+    ]
+  },
+  "limitations": [
+    "This visual inventory is not a critical edition or blind independent transcription.",
+    "Full names and abbreviation expansions are not certified except the short catalogue-supported first name; unresolved readings are null.",
+    "Some native inspection crops cut line ends; whole native images retain them and were viewed.",
+    "No normalization from Arabic, a modern list, or Agrippa was applied.",
+    "No claim that this witness matches Voynich f69v or another witness by count, name, order, imagery, date or language.",
+    "Source acquisition HTTP200 was observed at download, but no exact acquisition timestamp was recorded; audit time is distinct."
+  ],
+  "publication_note": {
+    "url": "https://digi.vatlib.it/view/MSS_Pal.lat.1369",
+    "policy_observed": "Personal study permitted; online/print publication requires rights. Images retained locally for study; no Git publication performed."
+  },
+  "next_falsifiable_source_step": "Obtain two diplomatic transcriptions of the28 complete name clauses with alternatives and line breaks, blind to Voynich and other mansion lists; resolve disagreements against native images. Until then do not use unique-name equality as an established property of this witness."
+}

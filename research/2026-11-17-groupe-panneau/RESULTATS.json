@@ -1,0 +1,84 @@
+{
+  "cible": "f73r",
+  "gel_git": "f76f329",
+  "cliche_yale": "https://collections.library.yale.edu/iiif/2/1006206/full/full/0/default.jpg",
+  "taille_pixels": [
+    2834,
+    3761
+  ],
+  "sha256_cliche_yale": "5bc8e07dbd61cc1f218cfc4449cd527be118aa7884878ec4c8e568e9c2d89bad",
+  "locus_exterieur": "f73r.5,@Cc",
+  "heure_depart_editorial_ZL": "11 h",
+  "positions": [
+    {
+      "horloge_approximative": "9 h 54",
+      "centre_approx_pixels_xy_depuis_coin_superieur_gauche": [
+        380,
+        1300
+      ],
+      "secteur_annonce": true,
+      "ZL": {
+        "rang_champ": 26,
+        "lecture": "ykeydam.oteos.alar",
+        "groupe_entier_certain": true
+      },
+      "IT": {
+        "rang_champ": 32,
+        "lecture": "ykeydom.oteos.alar",
+        "groupe_entier_certain": true
+      }
+    },
+    {
+      "horloge_approximative": "12 h 43",
+      "centre_approx_pixels_xy_depuis_coin_superieur_gauche": [
+        1620,
+        825
+      ],
+      "secteur_annonce": false,
+      "ZL": {
+        "rang_champ": 5,
+        "lecture": "daraly.oteos,air,ar.oteosdal",
+        "groupe_entier_certain": false
+      },
+      "IT": {
+        "rang_champ": 5,
+        "lecture": "daraly.oteos.air.ar.oteosdal",
+        "groupe_entier_certain": true
+      }
+    }
+  ],
+  "strict_cercle_exterieur": {
+    "ZL": 1,
+    "IT": 2,
+    "communes": 1
+  },
+  "autres_cercles": {
+    "loci": [
+      "f73r.22,@Cc",
+      "f73r.33,@Cc"
+    ],
+    "groupes_entiers_ZL": 0,
+    "groupes_entiers_IT": 0
+  },
+  "etiquettes": {
+    "loci_par_edition": 30,
+    "groupes_entiers_ZL": 0,
+    "groupes_entiers_IT": 0
+  },
+  "prediction_principale": "confirmée sur le cliché et dans les deux éditions",
+  "prediction_doublon": "satisfaite dans IT, indécidable dans ZL sous la règle des espaces certains",
+  "prediction_complete": "non validée sous le critère strict commun",
+  "note_positions": "Mesures arrondies sur le cliché, centre approximatif du diagramme (1260,1745) ; les coordonnées de milieu du groupe et l’angle ne sont pas une mesure paléographique au pixel près.",
+  "lectures_aveugles_du_quart": {
+    "J": {
+      "premiere_lecture": "oteos",
+      "dossier": "lecteurs/J.json",
+      "lecture_du_groupe_suivant": "ylar"
+    },
+    "K": {
+      "premiere_lecture": "oteos",
+      "dossier": "lecteurs/K.json",
+      "lecture_du_groupe_suivant": "ylar"
+    }
+  }
+}

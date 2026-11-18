@@ -1,0 +1,77 @@
+{
+  "title": "Phase 19: specificity of the final-position gain on message-free text",
+  "written_utc": "2026-10-30T06:34:00.286140+00:00",
+  "timing": "Frozen locally before any phase-19 study generation or fitting; hypothesis selected from phase 18, not external preregistration.",
+  "base_commit": "23d4eac29ccec8f5f8706d99060bfa283eabcb1c",
+  "seed": 20261030,
+  "languages": [
+    "latin"
+  ],
+  "optimizer": {
+    "restarts": 8,
+    "steps": 60000,
+    "lambda": 4,
+    "temperature": 0.002,
+    "greedy_passes_max": 8,
+    "selection": "maximum training objective only"
+  },
+  "train_letter_cap": 24000,
+  "lm_smoothing": 0.01,
+  "frequency_smoothing": 0.5,
+  "calibration_gate": {
+    "overall_accuracy": 0.99,
+    "position_accuracy": 0.98,
+    "training_support_coverage": 0.995
+  },
+  "calibration": "Rerun all four Latin/final controls from phase 18 with the same exact keys, split and budget. All four must pass. No true key/plaintext passed to optimizer. Compare one permutation versus final-position two permutations.",
+  "primary": "Only the Latin-scored final-position hypothesis selected by phase 18. No Italian or initial-position fitting in this phase.",
+  "real": "ZL_A and ZL_B, exact physical-leaf split and capped lines of phase 18; reserved layouts reused, not new heldout evidence.",
+  "markov": {
+    "order": 2,
+    "alpha": 1.0
+  },
+  "generator_replicates": [
+    1,
+    2,
+    3
+  ],
+  "generation_seed": 20261901,
+  "markov_definition": "A separate order-2 within-word character Markov model is learned from scored TRAINING words of ZL_A and ZL_B. Conditional on initial/interior/final/singleton role. Recursive interpolation toward shorter context with pseudocount alpha=1; empirical role unigram fallback. No plaintext, cipher key or lexicon. Three fixed seeds per template. Training and test text both regenerated with independent RNG streams. Heldout characters never fit the generator; only known/unknown layout and word lengths condition its output.",
+  "generator_limits": "Fresh strings inherit Voynich training statistics and may reproduce source words accidentally. No message is intentionally encoded; this does not prove the manuscript is message-free, nor replicate a historical mechanism. Three draws per training template are not independent corpora.",
+  "timm": "Use the already archived published Timm/Schinner sample from source_inputs.json, whose initial Voynich seed line was removed in phase 6. No new execution of the original Java generator. Reflowed on artificial ZL-like layout; complete artificial pages in chronological order up to 24000 letters for fit, later pages for test. The generator retains seed/parameter influence; different lengths/layout and mechanism from the matched Markov surrogates.",
+  "timm_source": {
+    "repository": "https://github.com/TorstenTimm/SelfCitationTextgenerator",
+    "sample_path": "executable/generate/generated_text.txt",
+    "git_blob_sha": "31b5f847097d6c31e210d1ebc23ea9878f456607",
+    "paper_doi": "10.1080/01611194.2019.1596999",
+    "license": "voynich_phase6/data/LICENSE_TIMM.txt"
+  },
+  "null_replicates": 19,
+  "shuffle_seed": 20361030,
+  "shuffle_case_ids": {
+    "ZL_A": 0,
+    "ZL_B": 1,
+    "Timm_published": 2,
+    "Markov2_ZL_A_1": 3,
+    "Markov2_ZL_A_2": 4,
+    "Markov2_ZL_A_3": 5,
+    "Markov2_ZL_B_1": 6,
+    "Markov2_ZL_B_2": 7,
+    "Markov2_ZL_B_3": 8
+  },
+  "null": "Nineteen refitted shuffles for EACH of the nine base cases. Permute characters only in spans actually scored (length>=4 with spaces), within physical/artificial page-group and four word roles. Freeze excluded short spans, barriers and lengths. Training/test separate. Exact scored role histograms must match; original ZL seed numbers match phase 18 but permutations change with corrected pools.",
+  "signal_rule": "For each base case, G = heldout single-table loss minus final-table loss. Final signal iff G>0, G exceeds every one of its 19 matched shuffle gains, and final-table training-symbol support coverage >=99.5%. Any message-free case satisfying this rule is a counterexample to specificity of this diagnostic within the tested setup. Report all cases, amplitudes and counts; do not select only favorable draws. No p-value or population equivalence claim.",
+  "amplitude": "Report G and G-minus-mean-null, plus ratio of G to matched ZL observed G for Markov cases; no posthoc amplitude threshold. Timm is an unmatched diagnostic.",
+  "budget": "9 base cases * 20 (observed+19 nulls) * 2 models = 360 fits, plus 8 calibration fits; 368 total. No tuning to observed phase-19 results.",
+  "audit": "Preserve source/generator/code hashes, seeds, generated base corpora, fitted keys and all heldout outputs labelled NOT_TRANSLATION. Independently decode/rescore fits; verify exact scored-role histogram preservation and exclusion of test letters from generator training.",
+  "input_sha256": {
+    "voynich_phase10/data/source_inputs.json": "b952a4cbfffa12330b0db72d5600b4fe62f0ab57d483b88adaa1bc83f1a31d28",
+    "voynich_phase10/data/latin_train_boundary.txt": "62310037befd731421d54b07e814bc5d42138248b91ebc933f7ce9284f24c1dd",
+    "voynich_phase18/src/position_permutation.cpp": "0a2eba091ee40331993df958c30b09ae916a20b3fe0f032323398692b8881b23",
+    "voynich_phase18/src/experiment.py": "26c0b79d6452f2090f6a575de2f26f3eb07b288d0cc80eac6487f3bbf870a370",
+    "voynich_phase18/results/real_summary.json": "229be8ff73e0a273505e9aa1eecb3b1085b489531c059241f2299f535a2d0dc0",
+    "voynich_phase18/results/verification.json": "00f13ff461f1cabf4f7c0e62f5f1e4e8f75e1d83efcf3e01be32850c6c45f611",
+    "voynich_phase6/data/timm_generated_text.txt": "75e3bab72b7b9104d43efa048a17d53986df8f54088f9b4a2a9c9fb578c1bce2",
+    "voynich_phase6/data/LICENSE_TIMM.txt": "aef8bd58d15d6d7969d763a5e5a34d53444ede2978662c31517c7b079ca9387b"
+  }
+}

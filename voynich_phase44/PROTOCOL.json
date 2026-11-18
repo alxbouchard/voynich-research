@@ -1,0 +1,21 @@
+{
+  "phase": 44,
+  "boundary": "NOT_TRANSLATION",
+  "question": "Can separate AI image readings support or correct the sole ZL reading of f17r marginal Voynich-script text?",
+  "image_inputs": [
+    "evidence/A_margin.png",
+    "evidence/A_left.png",
+    "evidence/A_right.png",
+    "evidence/B_margin.png",
+    "evidence/B_left.png",
+    "evidence/B_right.png",
+    "evidence/C_margin.png"
+  ],
+  "readers": 3,
+  "blinding": "Fresh no-history agents; supplied only crop paths and generic transcription instructions; no folio, expected transcription, interpretation, web, peer notes, or repository text. Coordinator already knows ZL. Prior model knowledge cannot be excluded.",
+  "instructions": "Inspect all cards, report visible groups left to right, exact reading only if supported, uncertainty as ? and alternatives; indicate Voynich/EVA vs Latin-like shapes, no translation, no language inference; abstain where unreadable. Record card coordinates or relative positions, confidence per group, limitations. Read only permitted image cards. Write only assigned reader JSON and Markdown.",
+  "decision": "Preserve every original response. Compare with ZL only after responses are saved. No majority-vote correction; do not infer a bilingual equation from adjacent writing. A unanimous exact reading with high confidence would be supporting visual evidence, not semantic validation. Any disagreement remains unresolved.",
+  "controls": "No trained OCR calibration or human palaeographer; exploratory reading only, not measured accuracy. MSI products share the same captures and are not independent physical witnesses.",
+  "source_policy": "Original processed MSI provided by Lazarus/RIT retained; only native pixel cropping and overview scaling here. No new enhancement, inpainting or threshold-based lettering.",
+  "next_action": "Use only supported graphical alternatives to constrain future searches; no asserted plaintext."
+}

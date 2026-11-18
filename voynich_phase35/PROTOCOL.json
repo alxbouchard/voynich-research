@@ -1,0 +1,377 @@
+{
+  "boundary": "NOT_TRANSLATION",
+  "pages": [
+    "f70v2",
+    "f70v1",
+    "f71r",
+    "f71v",
+    "f72r1",
+    "f72r2",
+    "f72r3",
+    "f72v3",
+    "f72v2",
+    "f72v1",
+    "f73r",
+    "f73v"
+  ],
+  "target_pairs": [
+    [
+      "f70v1",
+      "f71r"
+    ],
+    [
+      "f71v",
+      "f72r1"
+    ]
+  ],
+  "corpora": [
+    "ZL",
+    "IT"
+  ],
+  "modes": [
+    "strict",
+    "expanded"
+  ],
+  "scopes": [
+    "labels",
+    "all"
+  ],
+  "boundary_loci": {
+    "f71r.13": {
+      "joined": "otolchdy",
+      "split": "otol.chdy"
+    },
+    "f71r.17": {
+      "joined": "otaldar",
+      "split": "otal.dar"
+    }
+  },
+  "boundary_scenarios": {
+    "JJ": [
+      "joined",
+      "joined"
+    ],
+    "JS": [
+      "joined",
+      "split"
+    ],
+    "SJ": [
+      "split",
+      "joined"
+    ],
+    "SS": [
+      "split",
+      "split"
+    ]
+  },
+  "sign_locus": "f70v1.11",
+  "sign_bodies": {
+    "a": "otal.ypsharal",
+    "o": "otol.ypsharal"
+  },
+  "sign_index_zero_based": 2,
+  "native_sign": {
+    "ZL": "a",
+    "IT": "o"
+  },
+  "version": "phase35-third-boundary-factorial-v1",
+  "date_local": "2026-10-31",
+  "question": "Does the okealar/okeal.ar boundary at f70v1.16 change comparisons when crossed with all eight phase34 variants?",
+  "selection": "Exploratory sensitivity on already exposed data; freeze before new factorial calculation, no blind historical validation.",
+  "previous_scenarios": {
+    "a_JJ": {
+      "sign": "a",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ]
+    },
+    "a_JS": {
+      "sign": "a",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ]
+    },
+    "a_SJ": {
+      "sign": "a",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ]
+    },
+    "a_SS": {
+      "sign": "a",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ]
+    },
+    "o_JJ": {
+      "sign": "o",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ]
+    },
+    "o_JS": {
+      "sign": "o",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ]
+    },
+    "o_SJ": {
+      "sign": "o",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ]
+    },
+    "o_SS": {
+      "sign": "o",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ]
+    }
+  },
+  "new_boundary_locus": "f70v1.16",
+  "new_boundary_bodies": {
+    "joined": "oteoeey.otal.okealar",
+    "split": "oteoeey.otal.okeal.ar"
+  },
+  "new_boundary_codes": {
+    "J": "joined",
+    "S": "split"
+  },
+  "native_new_boundary": {
+    "ZL": "J",
+    "IT": "S"
+  },
+  "native_scenario": {
+    "ZL": "a_JJ_J",
+    "IT": "o_SS_S"
+  },
+  "scenarios": {
+    "a_JJ_J": {
+      "sign": "a",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ],
+      "previous_scenario": "a_JJ",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "a_JJ_S": {
+      "sign": "a",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ],
+      "previous_scenario": "a_JJ",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "a_JS_J": {
+      "sign": "a",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ],
+      "previous_scenario": "a_JS",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "a_JS_S": {
+      "sign": "a",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ],
+      "previous_scenario": "a_JS",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "a_SJ_J": {
+      "sign": "a",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ],
+      "previous_scenario": "a_SJ",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "a_SJ_S": {
+      "sign": "a",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ],
+      "previous_scenario": "a_SJ",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "a_SS_J": {
+      "sign": "a",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ],
+      "previous_scenario": "a_SS",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "a_SS_S": {
+      "sign": "a",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ],
+      "previous_scenario": "a_SS",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "o_JJ_J": {
+      "sign": "o",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ],
+      "previous_scenario": "o_JJ",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "o_JJ_S": {
+      "sign": "o",
+      "cuts": "JJ",
+      "states": [
+        "joined",
+        "joined"
+      ],
+      "previous_scenario": "o_JJ",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "o_JS_J": {
+      "sign": "o",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ],
+      "previous_scenario": "o_JS",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "o_JS_S": {
+      "sign": "o",
+      "cuts": "JS",
+      "states": [
+        "joined",
+        "split"
+      ],
+      "previous_scenario": "o_JS",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "o_SJ_J": {
+      "sign": "o",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ],
+      "previous_scenario": "o_SJ",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "o_SJ_S": {
+      "sign": "o",
+      "cuts": "SJ",
+      "states": [
+        "split",
+        "joined"
+      ],
+      "previous_scenario": "o_SJ",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    },
+    "o_SS_J": {
+      "sign": "o",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ],
+      "previous_scenario": "o_SS",
+      "new_boundary": "J",
+      "new_boundary_state": "joined"
+    },
+    "o_SS_S": {
+      "sign": "o",
+      "cuts": "SS",
+      "states": [
+        "split",
+        "split"
+      ],
+      "previous_scenario": "o_SS",
+      "new_boundary": "S",
+      "new_boundary_state": "split"
+    }
+  },
+  "intervention": "Three prescribed period positions (two on f71r, one on f70v1), plus exactly the designated a/o character at f70v1.11. Preserve the two earlier periods in f70v1.16; no global substitutions or extra cuts. Retain every other header, layout marker, whitespace, line ending, letter and separator.",
+  "fixed_nuisances": "All non-target uncertainties and corpus differences stay native. a/o denotes a transliteration choice without established sound value. The new split is not presumed to delimit linguistic words.",
+  "analysis": "16 variants per corpus plus each original:17 x2 corpora x2 uncertainty modes x2 scopes x66 pairs =8976 dependent records. The native-new-boundary slices reproduce all4752 phase34 pair records. No significance testing or count of variants as independent evidence.",
+  "primary_results": [
+    "Retain every old eight-case result under each new cut: show exact April label intersections, not just counts.",
+    "At each fixed old variant, contrast new cut J/S: added and lost types, with supporting source loci. Distinguish local token changes, page-level type presence and support multiplicity.",
+    "Compute robust intersections/unions across all16 and separately across the previous eight at each new boundary.",
+    "Compare ZL/IT at identical factors without merging sources or claiming full corpus equivalence. Do not select the cut with the largest overlap."
+  ],
+  "secondary_results": [
+    "Retain strict/expanded uncertainty treatments and labels/all scopes.",
+    "Recompute all66 pairs, their third-page occurrence metadata, and paired new-cut contrasts for all66 pairs, not just April.",
+    "Retain May target, full literal labels with exclusion ledgers, and descriptive counts/histograms. Whole label sets must be invariant to all three period choices at fixed sign.",
+    "Inspect local tokens at f70v1.16: removing okealar and adding okeal/ar can change source occurrences without changing distinct page sets. This is an exposed structural expectation, not a new blind prediction."
+  ],
+  "controls": [
+    "Verify all frozen inputs and preserved helper code.",
+    "Reproduce all4752 phase34 pairs,432 page records,144 support records,36 whole-label records and16 variant hashes when the new boundary remains native. Original ZL a_JJ_J and IT o_SS_S must be byte-identical to sources.",
+    "Only four prescribed loci may change: three specified period positions plus at most one a/o character. Preserve all non-target lines and all other content including earlier periods at f70v1.16.",
+    "At fixed sign and new cut,55 pairs without f71r retain shared sets across the original four cuts.",
+    "At fixed three cuts,55 pairs without f70v1 retain shared sets between a/o.",
+    "At fixed old eight-case variant,55 pairs without f70v1 retain shared sets between new cut J/S.",
+    "Across all16 variants,45 pairs excluding both edited pages retain shared sets. All unaffected page records remain identical. Third-page metadata may change.",
+    "May shared sets, all uncertainty exclusion ledgers and whole literal labels at fixed sign remain unchanged.",
+    "Synthetic fixture: alter only the final boundary in oteoeey.otal.okealar, preserve preceding separators and a second occurrence elsewhere, verify reverse change and CRLF endings."
+  ],
+  "stop_rules": [
+    "No expected translation, dictionary, language or key search",
+    "No new image reading, readers or sign adjudication",
+    "No outcome-based choice of cut or sign",
+    "No retuning frozen parser, exclusions or comparisons",
+    "No global a/o replacement or unconstrained segmentation",
+    "No publication, push or external messages"
+  ],
+  "delivery": "French report, complete factorial outputs, all-pair new-boundary contrasts, support ledger, independent verification, byte-identical replay, prior preservation and local standalone archive."
+}

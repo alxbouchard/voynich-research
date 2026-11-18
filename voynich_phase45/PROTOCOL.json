@@ -1,0 +1,66 @@
+{
+  "phase": 45,
+  "boundary": "NOT_TRANSLATION",
+  "question": "Do fixed labels beside repeated plant fragments recur in the corresponding distant herbal prose more specifically than in comparable pages?",
+  "sources": [
+    "ZL",
+    "IT"
+  ],
+  "primary_configuration": "ZL/split",
+  "sensitivity_configurations": [
+    "ZL/join",
+    "IT/split",
+    "IT/join"
+  ],
+  "metadata_filter": {
+    "Q": "C",
+    "I": "H",
+    "L": "A",
+    "H": "1"
+  },
+  "expected_pages": [
+    "f17r",
+    "f17v",
+    "f18r",
+    "f18v",
+    "f19r",
+    "f19v",
+    "f20r",
+    "f20v",
+    "f21r",
+    "f21v",
+    "f22r",
+    "f22v",
+    "f23r",
+    "f23v",
+    "f24r",
+    "f24v"
+  ],
+  "parsing": "All prose rows kind[1]==P, excluding ! alternative rows. Drawing gaps <-> delimit words; remove other angle metadata; dots delimit. Two global treatments of comma: split to dot, or join by removal. Admit only entire lowercase a-z tokens; discard uncertain tokens without repairs. Keep loci, split indices, exclusions and duplicates. EVA ASCII codepoints, not asserted glyphs or phonemes.",
+  "label_rule": "All three exact labels as recorded in PAIRS.json, same locus in ZL/IT; no prefix, suffix, synonym, cross-token or normalization search.",
+  "page_length_control": "Per transcription/segmentation K=min retained token count over all 16 eligible pages. Exact presence probability for uniform K-token subset without replacement: 1-C(N-c,K)/C(N,K). No random sampling.",
+  "primary": "Mean of three rarefied exact-presence probabilities under specified assignment. Report raw exact occurrences and locations for every label/page.",
+  "secondary": "Levenshtein edit distance/max(label length, token length), whole EVA tokens only. Report all ties at raw minimum and expected minimum in a uniform K-token subset analytically from sorted distances. Descriptive only, no acceptance threshold.",
+  "reference_assignments": "All 24 permutations of four physical bifolio blocks [[17,24],[18,23],[19,22],[20,21]], retaining member and r/v positions. Apply one permutation jointly to all labels. Real identity assignment included; paired fragments212/213 stay on same bifolio face. Report fraction with primary>=observed, secondary<=observed; these are conditional reference ranks, not calibrated historical p-values.",
+  "bifolios": [
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      23
+    ],
+    [
+      19,
+      22
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "decision": "No semantic inference from a positive association. No exact hits means this small set supplies no exact lexical bridge under these readings/segmentations, not absence of meaning or rejection of all possible inflections. No new rules added after result.",
+  "limitations": "Three labels, two source panels on same physical folio, two target bifolios; nonrandom exposed material and published visual judgements. Prior atlas/source exposure, not historically blind holdout. ZL/IT share manuscript/conventions. Unknown origin of historical visual selection; exploratory not confirmatory.",
+  "prior_work_difference": "Phase14: labels vs own pharmaceutical prose; phase15: learned rewrites; here fixed published fragment-to-distant-herbal association, with no learned rewriting."
+}

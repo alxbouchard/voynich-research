@@ -1,0 +1,158 @@
+{
+  "status": "two_trainings_complete_inference_exports_recovered_original_drivers_failed_user_paused_remainder",
+  "verified_utc": "2026-11-17T21:57:19.636985+00:00",
+  "protocol_sha256": "808f54e4812b46215fec0ae1988e77d049c05d8fa9278f09f7bc5f2532d34550",
+  "frozen_total_trials": 5,
+  "pending_never_started": [
+    51003,
+    51004,
+    51005
+  ],
+  "new_trials_held": true,
+  "global_gate_evaluated": false,
+  "permutation_statistics_computed": false,
+  "voynich_application": false,
+  "trials": [
+    {
+      "seed": 51001,
+      "status": "failed",
+      "jobs": {
+        "train": {
+          "status": "complete",
+          "returncode": 0,
+          "elapsed_seconds": 6010.008629917,
+          "started_utc": "2026-11-17T20:14:48.018925+00:00",
+          "pid": 93930
+        },
+        "initial": {
+          "status": "complete",
+          "returncode": 0,
+          "elapsed_seconds": 14.163841249999678,
+          "started_utc": "2026-11-17T21:54:58.001325+00:00",
+          "pid": 27065
+        },
+        "final": {
+          "status": "failed",
+          "returncode": 1,
+          "elapsed_seconds": 9.320816207999997,
+          "started_utc": "2026-11-17T21:55:12.166061+00:00",
+          "pid": 27093
+        }
+      },
+      "prediction_files": [
+        {
+          "stage": "initial",
+          "partition": "train",
+          "sequences": 46,
+          "relative_path": "export_recovery_two/51001/initial/PREDICTIONS_train.json",
+          "sha256": "41b7802fe185ca708a59b75a67ce9da39103436a3f700e0fa91cfde551aefb56",
+          "checkpoint_sha256": "3595328938449fd6cf1d2a3a09510eb521ce4b95b28186a3690d8e98f4f3cdb9"
+        },
+        {
+          "stage": "initial",
+          "partition": "test",
+          "sequences": 16,
+          "relative_path": "export_recovery_two/51001/initial/PREDICTIONS_test.json",
+          "sha256": "e9a1bb9638d6ffa960c0619687cdc5ef188bc1706680d2efff27704d855c8954",
+          "checkpoint_sha256": "3595328938449fd6cf1d2a3a09510eb521ce4b95b28186a3690d8e98f4f3cdb9"
+        },
+        {
+          "stage": "final",
+          "partition": "train",
+          "sequences": 46,
+          "relative_path": "export_recovery_two/51001/final/PREDICTIONS_train.json",
+          "sha256": "b620121ae4d0d05d13c336367666708e845089710c4993d504f0216a2c8b65a0",
+          "checkpoint_sha256": "9e85b04d1b66f3de54a8a6278c4c8a7505e14f154a4aae272b769c63775e4d4b"
+        },
+        {
+          "stage": "final",
+          "partition": "test",
+          "sequences": 16,
+          "relative_path": "export_recovery_two/51001/final/PREDICTIONS_test.json",
+          "sha256": "1a607caeeceaa1eeb0497a711ce8ea7b83b9ddc326d8ffa99931284d99bc45ba",
+          "checkpoint_sha256": "9e85b04d1b66f3de54a8a6278c4c8a7505e14f154a4aae272b769c63775e4d4b"
+        }
+      ],
+      "training_steps": 3000,
+      "first_failed_export": "final",
+      "original_export_error": "TypeError: Object of type int64 is not JSON serializable",
+      "initial_files_identical_to_original": [
+        "initial/PREDICTIONS_train.json",
+        "initial/PREDICTIONS_test.json"
+      ],
+      "existing_alignment_files_identical": [
+        "initial",
+        "final"
+      ],
+      "stages_exported_without_training": [
+        "initial",
+        "final"
+      ]
+    },
+    {
+      "seed": 51002,
+      "status": "failed",
+      "jobs": {
+        "train": {
+          "status": "complete",
+          "returncode": 0,
+          "elapsed_seconds": 6009.579114709,
+          "started_utc": "2026-11-17T20:14:48.018922+00:00",
+          "pid": 93929
+        },
+        "initial": {
+          "status": "failed",
+          "returncode": 1,
+          "elapsed_seconds": 11.298798040999827,
+          "started_utc": "2026-11-17T21:54:57.573101+00:00",
+          "pid": 27064
+        }
+      },
+      "prediction_files": [
+        {
+          "stage": "initial",
+          "partition": "train",
+          "sequences": 46,
+          "relative_path": "export_recovery_two/51002/initial/PREDICTIONS_train.json",
+          "sha256": "65cf49ab6c62ad3a8948627b48bbd524f68e2173103dda208723599473d6b7c3",
+          "checkpoint_sha256": "90ff588f834e3f23cf072067b12db26624a3b7d0824d78b3400f2f733a4c7503"
+        },
+        {
+          "stage": "initial",
+          "partition": "test",
+          "sequences": 16,
+          "relative_path": "export_recovery_two/51002/initial/PREDICTIONS_test.json",
+          "sha256": "bdabd0353e9f1d12008c044c01a88eb1211827f26683de9ffe387940f2402855",
+          "checkpoint_sha256": "90ff588f834e3f23cf072067b12db26624a3b7d0824d78b3400f2f733a4c7503"
+        },
+        {
+          "stage": "final",
+          "partition": "train",
+          "sequences": 46,
+          "relative_path": "export_recovery_two/51002/final/PREDICTIONS_train.json",
+          "sha256": "02709c62ae2e3068332ebe9e91c6c0cf8a72fcf36bed4357ba472abe2205325f",
+          "checkpoint_sha256": "4d62d5f02266ad00cfeec23bb596d12937e5e63cf138ee9dea74ddb1ded0cba8"
+        },
+        {
+          "stage": "final",
+          "partition": "test",
+          "sequences": 16,
+          "relative_path": "export_recovery_two/51002/final/PREDICTIONS_test.json",
+          "sha256": "fed6901af2219f382eec8a9d1a2b68a4dbf6f10f0ee21bb5cd1e16789056b176",
+          "checkpoint_sha256": "4d62d5f02266ad00cfeec23bb596d12937e5e63cf138ee9dea74ddb1ded0cba8"
+        }
+      ],
+      "training_steps": 3000,
+      "first_failed_export": "initial",
+      "original_export_error": "TypeError: Object of type int64 is not JSON serializable",
+      "initial_files_identical_to_original": [],
+      "existing_alignment_files_identical": [
+        "initial"
+      ],
+      "stages_exported_without_training": [
+        "initial",
+        "final"
+      ]
+    }
+  ]
+}

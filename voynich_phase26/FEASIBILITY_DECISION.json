@@ -1,0 +1,28 @@
+{
+  "version": "phase26-feasibility-decision-v1",
+  "timestamp_utc": "2026-10-31T00:39:44.156910+00:00",
+  "boundary": "NOT_TRANSLATION",
+  "decision": "NO_GO_UNCHANGED_PHASE25_DESIGN",
+  "scope": "Fixed 35-locus text population, fixed source metadata, fixed page/frequency/length/layout blocks and original feature profiles. This is a conditional design decision, not a statement about all manuscript text-image relationships.",
+  "reason": "Even all 35 text-eligible loci with every attachment hypothetically accepted and all twelve traits observable yield only 64 layout-conditioned assignments; phase25 requires at least 100. Native geometry review does not promote any of the six previously excluded cases to actual feature eligibility.",
+  "historical_admissible": 29,
+  "text_population": 35,
+  "all_text_optimistic_layout_assignments": 64,
+  "required_layout_assignments": 100,
+  "all_text_optimistic_layout_contributing_folios": 5,
+  "actual_new_feature_annotations": 0,
+  "newly_admitted_cases": 0,
+  "new_association_performed": false,
+  "old_thresholds_unchanged": true,
+  "external_human_validation": false,
+  "all_previous_reserves_exposed": true,
+  "source_hashes": {
+    "PROTOCOL.json": "61a7ba60d5fe9edf8746a1dd6148d301bef1fb02c3536d25a0decafc3c0ff907",
+    "FREEZE.json": "197853db0c3799c3c97dcab38588001a03d4922102446f332a14c9589de501e5",
+    "data/native_reviews.json": "805b984c8ba565796e3b286be4ad40a23aadf6abca8f95374fb71bcc3961e437",
+    "data/inventory_reviewed.json": "c6cbd57a069956e654dbe03f2cb582b7571efcf2ec5b50c7ac0e26bf5333fe11",
+    "data/coverage_reviewed.json": "74afdf401b2413d8795355e0237e9f86aa7df589111b5d6f003f669bcec0248d",
+    "results/feasibility_reviewed.json": "8776f9ef088dfe1e2014397c798469257943cd88ae80ea1feb08ad87e2584fda"
+  },
+  "next_step_boundary": "Inventory and feasibility complete. No association experiment authorized or run. Further corpus expansion, different bands, feature profiles or inclusion rules require an explicit new protocol version before measurement."
+}

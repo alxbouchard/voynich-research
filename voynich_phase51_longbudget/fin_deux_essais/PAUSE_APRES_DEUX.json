@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-11-17T21:59:04.345430+00:00",
+  "frozen_runs": {
+    "51001": "failed",
+    "51002": "failed"
+  },
+  "observed_scheduler_pid": 93926,
+  "observed_supervisor_pid": 93924,
+  "supervisor_tool_session": 34578,
+  "supervisor_session_exit_code": 143,
+  "administrative_stop": "SIGTERM after both drivers exited and checkpoint exports and copies were verified",
+  "no_target_process_remaining_os_readback": true,
+  "hold_still_set": true,
+  "pending_seeds_with_no_run_directory": [
+    51003,
+    51004,
+    51005
+  ],
+  "full_five_seed_inference_or_score_gate_evaluated": false
+}

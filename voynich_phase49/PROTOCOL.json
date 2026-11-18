@@ -1,0 +1,63 @@
+{
+  "phase": 49,
+  "status": "NOT_TRANSLATION",
+  "purpose": "Execute the published CTTS key-recovery engine, rather than another implementation, on unknown-key letter and homophonic controls.",
+  "upstream_commit": "d8b7d77b4e12e7a22d3980f8b5fb4e44c773287b",
+  "prior_exposure": [
+    "Source inspected, compilation completed, references normalized and controls generated; no optimization run before freeze",
+    "Pliny and Paradiso have been exposed in older project phases; they are separate from the CTTS reference corpora, not blind to the analyst"
+  ],
+  "core": {
+    "ngrams": 5,
+    "max_temperature": 100000,
+    "min_temperature": 0,
+    "restarts": 6,
+    "rounds_per_restart": 250,
+    "max_parallel_processes": 2,
+    "one_jvm_per_case": true,
+    "one_worker_per_case": true,
+    "min_count": 1,
+    "ignore_current_key": true,
+    "initial_forced_values": "All -1",
+    "seeded_instrumentation": "Four Random constructions share a seeded java.util.Random; finite restarts; best-key capture including initial states; score-call counter. No score/acceptance/move change.",
+    "wrapper": "Invokes private SA synchronously after reproducing solve's sorting, capacities, indices and statistics; retains original reference normalization."
+  },
+  "cases": {
+    "file": "data/CASES.json",
+    "count": 8,
+    "languages": [
+      "latin",
+      "italian"
+    ],
+    "max_homophones": [
+      1,
+      3
+    ],
+    "fit_lengths": [
+      1000,
+      3000
+    ],
+    "transfer_length": 1000,
+    "selection": "Four nonoverlapping quarters of each normalized target, start +100, fit then gap250 then transfer1000",
+    "generation": "Homophone counts match CTTS capacity vector derived from reference frequencies; random symbols and per-occurrence homophone draws; key only in truth file",
+    "normalization": "Inherited phase10 target words, then CTTS language substitutions and duplicate removal within words. All spaces removed; no OTHER boundary tokens.",
+    "overlap": "Abort if any target fit/transfer 80-character substring occurs in normalized reference. Shorter similarities not excluded."
+  },
+  "evaluation": {
+    "selection": "Highest CTTS score on fit alone; freeze all eight outputs before reading truth for accuracy.",
+    "metrics": [
+      "Fit character accuracy",
+      "Transfer character accuracy",
+      "Recovered mapping on observed symbol types",
+      "All errors, candidate and true-key reference score"
+    ],
+    "gate": "Each of eight cases must achieve >=0.95 fit and >=0.95 transfer character accuracy. No tuning or extra restarts based on accuracy.",
+    "limits": [
+      "Language and homophone capacity family provided",
+      "No word segmentation or meaning validated",
+      "Eight samples from two target works and two reference works; dependent conditions",
+      "No claim that EVA units are letters or that all substitution families are excluded"
+    ]
+  },
+  "next_step": "If any calibration case fails, preserve results and diagnose score versus search without a Voynich reading. If all pass, define and freeze a separate manuscript/control comparison before running it. Passing is a prerequisite, not a decipherment."
+}

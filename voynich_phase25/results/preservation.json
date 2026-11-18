@@ -1,0 +1,12 @@
+{
+  "prior_results_reexecuted": false,
+  "prior_artifact_integrity": {
+    "initial_phases_1_17": {"passed": true, "logical_files": 1771, "compressed_files": 46, "logical_bytes": 434046453, "reports": 17},
+    "phase22": {"passed": true, "files": 150},
+    "phase23": {"passed": true, "files": 50, "bytes": 37695694},
+    "phase24": {"passed": true, "files": 299, "bytes": 115743542},
+    "atlas": {"passed": true, "files": 684, "bytes": 965685301}
+  },
+  "command_correction": "First phase22 manifest invocation supplied unsupported argument verify and exited 2 without mutation. Re-run using its documented no-argument verification passed.",
+  "no_push_publication_or_deployment": true
+}

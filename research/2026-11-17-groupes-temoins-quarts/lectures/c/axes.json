@@ -1,0 +1,2821 @@
+{
+  "f72v2": {
+    "centre_xy": [
+      4603,
+      1790
+    ],
+    "origine": "angle supérieur gauche du JPEG Yale",
+    "oid": 1006204,
+    "ordre": "horaire",
+    "locus": "f72v2.1",
+    "notes_axes": {
+      "12 h": {
+        "quart_suivant": "HD",
+        "observations": "Le méridien traverse le champ ZL ctheo,l,shey. Son milieu tombe avant midi. IT sépare ctheol puis shey, de part et d’autre de midi.",
+        "contexte": "ZL 8 otychal, 9 ctheo,l,shey, 10 tchol,s. IT 8 otycoyl, 9 ctheol, 10 shey, 11 tchols."
+      },
+      "3 h": {
+        "quart_suivant": "BD",
+        "observations": "La tranche recourbée de la feuille cache l’écriture au droit du rayon. cheockhy avec ses hampes est encore visible en haut, et okedy avec sa finale est retrouvé en bas, suivi de sheos. Des vestiges avant okedy pourraient appartenir à okedl, leur lecture ne suffit pas à fixer la coupure.",
+        "contexte": "Avant le pli : ZL 14 okeedy, 15 cheockhy ; IT 16 oksedy, 17 cseo, 18 cthey. Après le pli : ZL 19 okedy, 20 sheos ; IT 23 okedy, 24 cheos."
+      },
+      "6 h": {
+        "quart_suivant": "BG",
+        "observations": "Le méridien passe dans l’espace après les signes bas de cheeey et avant la hampe du groupe suivant.",
+        "contexte": "ZL 25 cheeey, 26 okeolol, 27 sheeoeky. IT 29 cheeey, 30 ekeolol, 31 sheeoeky."
+      },
+      "9 h": {
+        "quart_suivant": "HG",
+        "observations": "Le dernier champ est visible avant l’axe et le premier après l’axe. La ligne au niveau du pli gauche est peu lisible. Les deux éditions referment la transcription sur ces deux groupes.",
+        "contexte": "ZL 30 okolsaiin puis 1 otos,chs, 2 oty. IT 37 okolraiin puis 1 ataseos, 2 oty."
+      }
+    },
+    "montage": "f72v2-axes.jpg",
+    "ZL": {
+      "HD": 10,
+      "BD": null,
+      "BG": 26,
+      "HG": 1
+    },
+    "IT": {
+      "HD": 10,
+      "BD": null,
+      "BG": 30,
+      "HG": 1
+    },
+    "frontieres_possibles": {
+      "ZL": {
+        "HD": [
+          10
+        ],
+        "BD": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "BG": [
+          26
+        ],
+        "HG": [
+          1
+        ]
+      },
+      "IT": {
+        "HD": [
+          10
+        ],
+        "BD": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "BG": [
+          30
+        ],
+        "HG": [
+          1
+        ]
+      }
+    },
+    "champs": {
+      "ZL": [
+        {
+          "rang": 1,
+          "texte": "otos,chs",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "oty",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "oteos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "oty",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "chotey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "dchy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "chopchy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "otychal",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "ctheo,l,shey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "tchol,s",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "choraiin",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "cheka{iph}y",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "oteeos,aly",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "okeedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "cheockhy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "ar?k?aly",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "che??",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "okedl",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "okedy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "sheos",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "okeeor",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "cheey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "okeey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "teey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "cheeey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "okeolol",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "sheeoeky",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "oekeeo,r,aiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "olalka[in:ir]",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "okolsaiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        }
+      ],
+      "IT": [
+        {
+          "rang": 1,
+          "texte": "ataseos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "oty",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "oteos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "oty",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "chotey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "dchy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "chopchy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "otycoyl",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "ctheol",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "shey",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "tchols",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "choraiin",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "chekaiphy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "oteeos",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "yly",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "oksedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "cseo",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "cthey",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "???eck?y?",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "ge???eem",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "cth???s",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "okeeel",
+          "quart": null,
+          "quarts_possibles": [
+            "BD",
+            "HD"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "okedy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "cheos",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "okeeor",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "cheey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "okeey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "tchy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "cheeey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "ekeolol",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 31,
+          "texte": "sheeoeky",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 32,
+          "texte": "oekeeor",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 33,
+          "texte": "aiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 34,
+          "texte": "olal",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 35,
+          "texte": "olal",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 36,
+          "texte": "kair",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 37,
+          "texte": "okolraiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        }
+      ]
+    },
+    "effectifs_par_scenario": {
+      "ZL": [
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 16,
+            "BG": 26,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 6,
+            "BD": 10,
+            "BG": 5,
+            "HG": 9
+          },
+          "total": 30
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 17,
+            "BG": 26,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 7,
+            "BD": 9,
+            "BG": 5,
+            "HG": 9
+          },
+          "total": 30
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 18,
+            "BG": 26,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 8,
+            "BD": 8,
+            "BG": 5,
+            "HG": 9
+          },
+          "total": 30
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 19,
+            "BG": 26,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 9,
+            "BD": 7,
+            "BG": 5,
+            "HG": 9
+          },
+          "total": 30
+        }
+      ],
+      "IT": [
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 19,
+            "BG": 30,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 9,
+            "BD": 11,
+            "BG": 8,
+            "HG": 9
+          },
+          "total": 37
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 20,
+            "BG": 30,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 10,
+            "BD": 10,
+            "BG": 8,
+            "HG": 9
+          },
+          "total": 37
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 21,
+            "BG": 30,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 11,
+            "BD": 9,
+            "BG": 8,
+            "HG": 9
+          },
+          "total": 37
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 22,
+            "BG": 30,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 12,
+            "BD": 8,
+            "BG": 8,
+            "HG": 9
+          },
+          "total": 37
+        },
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 23,
+            "BG": 30,
+            "HG": 1
+          },
+          "effectifs": {
+            "HD": 13,
+            "BD": 7,
+            "BG": 8,
+            "HG": 9
+          },
+          "total": 37
+        }
+      ]
+    },
+    "lacunes": "Pli à 3 h. ZL 16–18 et IT 19–22 sont conservés dans chaque scénario. Le bord gauche comporte aussi une plage peu lisible entre les extrémités éditoriales."
+  },
+  "f72v1": {
+    "centre_xy": [
+      1650,
+      1690
+    ],
+    "origine": "angle supérieur gauche du JPEG Yale",
+    "oid": 1006205,
+    "ordre": "horaire",
+    "locus": "f72v1.1",
+    "notes_axes": {
+      "12 h": {
+        "quart_suivant": "HD",
+        "observations": "Le méridien partage alshey. Les bords d’encre sont vers x=1574 et 1723, soit un milieu vers x=1648,5 pour un centre à 1650. Classement nominal à gauche, variante à droite.",
+        "contexte": "ZL et IT 8 otear, 9 alshey, 10 oleealy."
+      },
+      "3 h": {
+        "quart_suivant": "BD",
+        "observations": "Le rayon traverse le début du groupe à initiale y, juste après la finale de chotar. La majorité de ce groupe est sous le rayon.",
+        "contexte": "ZL 16 ydaiin, 17 chotar, 18 y,tal, 19 oto. IT 17 ydaiin, 18 chotar, 19 ytal, 20 oto."
+      },
+      "6 h": {
+        "quart_suivant": "BG",
+        "observations": "Le rayon touche la finale de shedy, avant le groupe suivant aux deux hampes saillantes.",
+        "contexte": "ZL 25 otorar, 26 shedy, 27 opsheytey. IT 28 rar, 29 shedy, 30 opsheytey."
+      },
+      "9 h": {
+        "quart_suivant": "HG",
+        "observations": "Sur la bande assombrie on distingue la hampe d’okolar, puis le y initial et la finale descendante du groupe suivant. Le rayon tombe près du premier de ces deux y, le milieu du groupe est après 9 h.",
+        "contexte": "ZL 33 cheeky, 34 okolar, 35 ychey, 36 otechety. IT 36 cheeky, 37 okalar, 38 ysr?y, 39 s."
+      }
+    },
+    "montage": "f72v1-axes.jpg",
+    "ZL": {
+      "HD": 10,
+      "BD": 18,
+      "BG": 27,
+      "HG": 35
+    },
+    "IT": {
+      "HD": 10,
+      "BD": 19,
+      "BG": 30,
+      "HG": 38
+    },
+    "frontieres_possibles": {
+      "ZL": {
+        "HD": [
+          10,
+          9
+        ],
+        "BD": [
+          18
+        ],
+        "BG": [
+          27
+        ],
+        "HG": [
+          35
+        ]
+      },
+      "IT": {
+        "HD": [
+          10,
+          9
+        ],
+        "BD": [
+          19
+        ],
+        "BG": [
+          30
+        ],
+        "HG": [
+          38
+        ]
+      }
+    },
+    "champs": {
+      "ZL": [
+        {
+          "rang": 1,
+          "texte": "oteos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "alar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "otar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "air",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "chpaly",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "oteody",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "okchesal",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "otear",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "alshey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HD",
+            "HG"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "oleealy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "sh?tey",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "oteos",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "alal",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "dals,alchol",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "ytolaiin",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "ydaiin",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "chotar",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "y,tal",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "oto",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "shoty",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "otey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "okchedaly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "chdar,y",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "s,ar,otedy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "otorar",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "shedy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "opsheytey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "opairaly",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "choshydy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "otar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 31,
+          "texte": "cheedy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 32,
+          "texte": "otaraiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 33,
+          "texte": "cheeky",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 34,
+          "texte": "okolar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 35,
+          "texte": "ychey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 36,
+          "texte": "otechety",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        }
+      ],
+      "IT": [
+        {
+          "rang": 1,
+          "texte": "oteos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "alar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "otar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "air",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "chpaly",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "oteody",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "okchesal",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "otear",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "alshey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HD",
+            "HG"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "oleealy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "sh?etey",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "oteos",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "alal",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "dals",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "alchol",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "ytolaiin",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "ydaiin",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "chotar",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "ytal",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "oto",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "shoty",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "otey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "okchedyly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "shdary",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "sar",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "otedy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "oto",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "rar",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "shedy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "opsheytey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 31,
+          "texte": "opairaly",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 32,
+          "texte": "choshydy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 33,
+          "texte": "otar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 34,
+          "texte": "cheedy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 35,
+          "texte": "otalaiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 36,
+          "texte": "cheeky",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 37,
+          "texte": "okalar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 38,
+          "texte": "ysr?y",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 39,
+          "texte": "s",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 40,
+          "texte": "ok?s?t?",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        }
+      ]
+    },
+    "effectifs_par_scenario": {
+      "ZL": [
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 18,
+            "BG": 27,
+            "HG": 35
+          },
+          "effectifs": {
+            "HD": 8,
+            "BD": 9,
+            "BG": 8,
+            "HG": 11
+          },
+          "total": 36
+        },
+        {
+          "premiers": {
+            "HD": 9,
+            "BD": 18,
+            "BG": 27,
+            "HG": 35
+          },
+          "effectifs": {
+            "HD": 9,
+            "BD": 9,
+            "BG": 8,
+            "HG": 10
+          },
+          "total": 36
+        }
+      ],
+      "IT": [
+        {
+          "premiers": {
+            "HD": 10,
+            "BD": 19,
+            "BG": 30,
+            "HG": 38
+          },
+          "effectifs": {
+            "HD": 9,
+            "BD": 11,
+            "BG": 8,
+            "HG": 12
+          },
+          "total": 40
+        },
+        {
+          "premiers": {
+            "HD": 9,
+            "BD": 19,
+            "BG": 30,
+            "HG": 38
+          },
+          "effectifs": {
+            "HD": 10,
+            "BD": 11,
+            "BG": 8,
+            "HG": 11
+          },
+          "total": 40
+        }
+      ]
+    },
+    "lacunes": "Ombre sur le bord gauche ; les groupes restent repérables par leur silhouette."
+  },
+  "f73r": {
+    "centre_xy": [
+      1260,
+      1745
+    ],
+    "origine": "angle supérieur gauche du JPEG Yale",
+    "oid": 1006206,
+    "ordre": "horaire",
+    "locus": "f73r.5",
+    "notes_axes": {
+      "12 h": {
+        "quart_suivant": "HD",
+        "observations": "La hampe double et les signes bas de chepchey précèdent daraly. Le méridien passe dans chepchey après son milieu.",
+        "contexte": "ZL et IT 2 salchedal, 3 chepchey, 4 daraly."
+      },
+      "3 h": {
+        "quart_suivant": "BD",
+        "observations": "Le groupe court à finale s traverse le rayon. Son milieu est avant celui-ci ; al et chees se lisent juste en dessous.",
+        "contexte": "ZL 8 soteees,alshey, 9 [{oh}:ch]es, 10 al,chees. IT 11 alshey, 12 ches, 13 al, 14 chees."
+      },
+      "6 h": {
+        "quart_suivant": "BG",
+        "observations": "Après la suite à terminaison aiin, le rayon coupe la partie initiale du groupe à grande hampe chetchody ; son milieu est après le rayon.",
+        "contexte": "ZL 15 cheteeeos,aiin, 16 chetchody, 17 chedar. IT 19 cheteeeosaiin, 20 chetchody, 21 chedar."
+      },
+      "9 h": {
+        "quart_suivant": "HG",
+        "observations": "Le rayon partage cheody au-dessus de la pointe d’une étoile. La boîte d’encre va de y≈1664 à 1815, milieu y≈1739,5 pour un centre à 1745. Valeur nominale en haut et variante en bas.",
+        "contexte": "ZL 23 yteey, 24 cheody, 25 ykeydam. IT 29 ytchy, 30 cheody, 31 ykeydom."
+      }
+    },
+    "montage": "f73r-axes.jpg",
+    "ZL": {
+      "HD": 4,
+      "BD": 10,
+      "BG": 16,
+      "HG": 24
+    },
+    "IT": {
+      "HD": 4,
+      "BD": 13,
+      "BG": 20,
+      "HG": 30
+    },
+    "frontieres_possibles": {
+      "ZL": {
+        "HD": [
+          4
+        ],
+        "BD": [
+          10
+        ],
+        "BG": [
+          16
+        ],
+        "HG": [
+          24,
+          25
+        ]
+      },
+      "IT": {
+        "HD": [
+          4
+        ],
+        "BD": [
+          13
+        ],
+        "BG": [
+          20
+        ],
+        "HG": [
+          30,
+          31
+        ]
+      }
+    },
+    "champs": {
+      "ZL": [
+        {
+          "rang": 1,
+          "texte": "ypolcheey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "salchedal",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "chepchey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "daraly",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "oteos,air,ar",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "oteosdal",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "chot[oe:ee]y",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "soteees,alshey",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "[{oh}:ch]es",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "al,chees",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "che[o:a]ly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "jeiii?",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "choteey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "cheteey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "cheteeeos,aiin",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "chetchody",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "chedar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "ar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "cheteey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "ote{co}s,ar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "airalor",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "shetee",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "yteey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "cheody",
+          "quart": "HG",
+          "quarts_possibles": [
+            "BG",
+            "HG"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "ykeydam",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "oteos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "alar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "alcheky",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        }
+      ],
+      "IT": [
+        {
+          "rang": 1,
+          "texte": "ypolcheey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "salchedal",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "chepchey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "daraly",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "oteos",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "air",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "ar",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "oteosdal",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "chotchy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "soteees",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "alshey",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "ches",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "al",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "chees",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "cheoly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "leiir?",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "choteey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "cheteey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "cheteeeosaiin",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "chetchody",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "chedar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "ar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "cheteey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "oteor",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "ar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "air",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "alor",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "shetch",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "ytchy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "cheody",
+          "quart": "HG",
+          "quarts_possibles": [
+            "BG",
+            "HG"
+          ]
+        },
+        {
+          "rang": 31,
+          "texte": "ykeydom",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 32,
+          "texte": "oteos",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 33,
+          "texte": "alar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 34,
+          "texte": "alcheky",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        }
+      ]
+    },
+    "effectifs_par_scenario": {
+      "ZL": [
+        {
+          "premiers": {
+            "HD": 4,
+            "BD": 10,
+            "BG": 16,
+            "HG": 24
+          },
+          "effectifs": {
+            "HD": 6,
+            "BD": 6,
+            "BG": 8,
+            "HG": 8
+          },
+          "total": 28
+        },
+        {
+          "premiers": {
+            "HD": 4,
+            "BD": 10,
+            "BG": 16,
+            "HG": 25
+          },
+          "effectifs": {
+            "HD": 6,
+            "BD": 6,
+            "BG": 9,
+            "HG": 7
+          },
+          "total": 28
+        }
+      ],
+      "IT": [
+        {
+          "premiers": {
+            "HD": 4,
+            "BD": 13,
+            "BG": 20,
+            "HG": 30
+          },
+          "effectifs": {
+            "HD": 9,
+            "BD": 7,
+            "BG": 10,
+            "HG": 8
+          },
+          "total": 34
+        },
+        {
+          "premiers": {
+            "HD": 4,
+            "BD": 13,
+            "BG": 20,
+            "HG": 31
+          },
+          "effectifs": {
+            "HD": 9,
+            "BD": 7,
+            "BG": 11,
+            "HG": 7
+          },
+          "total": 34
+        }
+      ]
+    },
+    "lacunes": "Aucune lacune gênant la coupure aux axes."
+  },
+  "f73v": {
+    "centre_xy": [
+      1680,
+      1690
+    ],
+    "origine": "angle supérieur gauche du JPEG Yale",
+    "oid": 1006207,
+    "ordre": "horaire",
+    "locus": "f73v.5",
+    "notes_axes": {
+      "12 h": {
+        "quart_suivant": "HD",
+        "observations": "Le petit groupe dpy est centré avant le méridien. Il est suivi par le groupe commençant par o et la grande hampe.",
+        "contexte": "ZL 6 qoteedy, 7 dpy, 8 otedy,shedy. IT 6 qoteedy, 7 dpy, 8 otedy, 9 csedy."
+      },
+      "3 h": {
+        "quart_suivant": "BD",
+        "observations": "Le rayon coupe la seconde moitié d’otesalod. On reconnaît ensuite air et la finale chy.",
+        "contexte": "ZL 13 shedy, 14 otesalod, 15 air,chy. IT 14 shedy, 15 otesalod, 16 air, 17 chy."
+      },
+      "6 h": {
+        "quart_suivant": "BG",
+        "observations": "La fin du long groupe à deux hampes touche le rayon. Le milieu est avant celui-ci, puis arrive le y de ytedar.",
+        "contexte": "ZL 21 toly, 22 chfaikchy, 23 ytedar. IT 24 toly, 25 chfaikch, 26 ytedar."
+      },
+      "9 h": {
+        "quart_suivant": "HG",
+        "observations": "Après qokalaiin, le méridien coupe l’initiale du groupe suivant à deux hampes. Le milieu de ce groupe se situe après 9 h.",
+        "contexte": "ZL 29 qokalaiin, 30 ykaipy, 31 orary. IT 32 qokalaiin, 33 ykaipy, 34 orary."
+      }
+    },
+    "montage": "f73v-axes.jpg",
+    "ZL": {
+      "HD": 8,
+      "BD": 15,
+      "BG": 23,
+      "HG": 30
+    },
+    "IT": {
+      "HD": 8,
+      "BD": 16,
+      "BG": 26,
+      "HG": 33
+    },
+    "frontieres_possibles": {
+      "ZL": {
+        "HD": [
+          8
+        ],
+        "BD": [
+          15
+        ],
+        "BG": [
+          23
+        ],
+        "HG": [
+          30
+        ]
+      },
+      "IT": {
+        "HD": [
+          8
+        ],
+        "BD": [
+          16
+        ],
+        "BG": [
+          26
+        ],
+        "HG": [
+          33
+        ]
+      }
+    },
+    "champs": {
+      "ZL": [
+        {
+          "rang": 1,
+          "texte": "otoar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "ykeody",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "okodeey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "qopchey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "opaiin",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "qoteedy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "dpy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "otedy,shedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "qokeody",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "cheor,al",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "okegal",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "oteody",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "shedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "otesalod",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "air,chy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "ykeesaly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "y",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "keoly,dys",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "opchey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "dy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "toly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "chfaikchy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "ytedar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "eeey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "qokeey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "oty",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "yteedy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "choldy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "qokalaiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "ykaipy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 31,
+          "texte": "orary",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        }
+      ],
+      "IT": [
+        {
+          "rang": 1,
+          "texte": "otoar",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 2,
+          "texte": "ykeody",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 3,
+          "texte": "okodeey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 4,
+          "texte": "qopchey",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 5,
+          "texte": "opaiin",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 6,
+          "texte": "qoteedy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 7,
+          "texte": "dpy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 8,
+          "texte": "otedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 9,
+          "texte": "csedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 10,
+          "texte": "qokeody",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 11,
+          "texte": "cheoral",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 12,
+          "texte": "okedal",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 13,
+          "texte": "oteody",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 14,
+          "texte": "shedy",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 15,
+          "texte": "otesalod",
+          "quart": "HD",
+          "quarts_possibles": [
+            "HD"
+          ]
+        },
+        {
+          "rang": 16,
+          "texte": "air",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 17,
+          "texte": "chy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 18,
+          "texte": "ykchs",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 19,
+          "texte": "aly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 20,
+          "texte": "ykeol",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 21,
+          "texte": "ydys",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 22,
+          "texte": "opchey",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 23,
+          "texte": "dy",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 24,
+          "texte": "toly",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 25,
+          "texte": "chfaikch",
+          "quart": "BD",
+          "quarts_possibles": [
+            "BD"
+          ]
+        },
+        {
+          "rang": 26,
+          "texte": "ytedar",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 27,
+          "texte": "echy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 28,
+          "texte": "qokeey",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 29,
+          "texte": "oty",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 30,
+          "texte": "yteedy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 31,
+          "texte": "choldy",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 32,
+          "texte": "qokalaiin",
+          "quart": "BG",
+          "quarts_possibles": [
+            "BG"
+          ]
+        },
+        {
+          "rang": 33,
+          "texte": "ykaipy",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        },
+        {
+          "rang": 34,
+          "texte": "orary",
+          "quart": "HG",
+          "quarts_possibles": [
+            "HG"
+          ]
+        }
+      ]
+    },
+    "effectifs_par_scenario": {
+      "ZL": [
+        {
+          "premiers": {
+            "HD": 8,
+            "BD": 15,
+            "BG": 23,
+            "HG": 30
+          },
+          "effectifs": {
+            "HD": 7,
+            "BD": 8,
+            "BG": 7,
+            "HG": 9
+          },
+          "total": 31
+        }
+      ],
+      "IT": [
+        {
+          "premiers": {
+            "HD": 8,
+            "BD": 16,
+            "BG": 26,
+            "HG": 33
+          },
+          "effectifs": {
+            "HD": 8,
+            "BD": 10,
+            "BG": 7,
+            "HG": 9
+          },
+          "total": 34
+        }
+      ]
+    },
+    "lacunes": "Aucune lacune gênant la coupure aux axes."
+  }
+}

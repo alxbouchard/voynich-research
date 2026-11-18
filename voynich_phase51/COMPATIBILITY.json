@@ -1,0 +1,34 @@
+[
+  {
+    "path": "xib/xib/training/manager.py",
+    "old": "from cltk.phonology.old_english.orthophonology import \\\n    OldEnglishOrthophonology as oe\n",
+    "new": "",
+    "reason": "Remove unused optional Old English import; no call to oe exists.",
+    "before_sha256": "1f0edf4f68f881f2385c752b9659437ce49a97e7b9d55e9a1bfa6f68ffbb75f4",
+    "after_sha256": "22a67171474b83849c17a5167db48563f9ed7c7019ce891f08f6cb1005d6a46f"
+  },
+  {
+    "path": "xib/xib/aligned_corpus/data_loader.py",
+    "old": "yield batch.cuda()",
+    "new": "yield batch",
+    "reason": "CPU runner: do not move the aligned batch to CUDA.",
+    "before_sha256": "cf67d679c1ef9fe18f1aadd301fdcee7724205a95b963b0378f1c07c79172998",
+    "after_sha256": "f92c681936ad22add5912cdf8a41927a8a930548fde38893f8bb36b0f64c162a"
+  },
+  {
+    "path": "xib/xib/aligned_corpus/corpus.py",
+    "old": "df.groupby('sentence_idx', sort=True)['word_idx', 'aligned_word']",
+    "new": "df.groupby('sentence_idx', sort=True)[['word_idx', 'aligned_word']]",
+    "reason": "Pandas 2 uses a list for selecting multiple columns.",
+    "before_sha256": "0f9ae0e3a97178a4361a2c476f3a518fe16011040fbc75d48d21f429f2333875",
+    "after_sha256": "cca11a75cb1f66bd199ea8aeee25f9a10ea0f3d9dbde478fccaf933639d29373"
+  },
+  {
+    "path": "xib/xib/main.py",
+    "old": "random_seed=True, commit_id=True)",
+    "new": "random_seed=True, commit_id=False)",
+    "reason": "Sources are authenticated by the blob manifest; temporary runtime is not a git checkout.",
+    "before_sha256": "2fae06bee95eb867bfa0a3071c0b082f0c8ef9fd20d3165c53bc9476eff9ca6b",
+    "after_sha256": "4d0411f918e844b692ee70a394f328b2d117ce48665c651da4af2759d3ed2926"
+  }
+]

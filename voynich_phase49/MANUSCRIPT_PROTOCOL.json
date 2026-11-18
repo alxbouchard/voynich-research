@@ -1,0 +1,32 @@
+{
+  "stage": "Conditional manuscript study, after eight calibration keys were recovered; before manuscript fitting",
+  "sources": [
+    "ZL3b",
+    "IT"
+  ],
+  "groups": [
+    {
+      "Currier": "A",
+      "hand": "1"
+    },
+    {
+      "Currier": "B",
+      "hand": "2"
+    }
+  ],
+  "units": [
+    "literal EVA characters",
+    "greedy cth ckh cph cfh ch sh within original words; remaining individual characters"
+  ],
+  "selection": "Complete clean prose lines; entire uncertain or interrupted lines excluded; metadata L/H; all sides/panels of physical folio share SHA256(numeric folio)%3. Fold0 transfer, others fit. First >=3000 fit and >=1000 transfer units in source order, retain whole last line.",
+  "prior_exposure": "Manuscript corpus and many loci seen in older phases; not a genuinely blind historical reserve. No source readings adjudicated.",
+  "key_fit": "ZL only; two languages; maxHomophones3; same6restarts250rounds as calibration; no lock or crib",
+  "transfer": "Same key on ZL reserve and available clean IT counterparts; missing IT loci listed; ? for units not observed in fit, breaks score windows.",
+  "null": "One order2 Markov stream fitted only to manuscript fit units for each selection; separate fit/transfer seeds; equal lengths and same fixed solver budget. Generated without target plaintext, not a historical origin model. Four draws, not independent across language comparisons. A dead-end state restarts with an observed pair; restart boundaries are not claimed to follow an exact stationary Markov law.",
+  "exploratory_score_floor": {
+    "latin": 12110057.674154855,
+    "italian": 13206513.83522826
+  },
+  "exploratory_screen": "Coverage>=0.95, ZL transfer score>=minimum corresponding-language true calibration transfer score, and greater than matched generated transfer score. No inferential p-value. Passing only warrants further checking; never validates semantics.",
+  "output": "Preserve every key and unsegmented output labeled NOT_TRANSLATION; no English/French paraphrase or inserted lexical words."
+}

@@ -1,0 +1,32 @@
+{
+  "verified": true,
+  "files_byte_identical": 6,
+  "frozen_files_unchanged_after_training": 22,
+  "scope": "Relearn model from train records, predict held-out inputs, score, independently verify and diagnose. Same pinned JSON source; no new historical annotation.",
+  "files": [
+    {
+      "path": "results/COUNTS.json",
+      "sha256": "15cb44d2eb8e08c26a3e96e80f5ebe58d391c4c26964ddbd79c9f4c113b59b82"
+    },
+    {
+      "path": "results/EVALUATED.json",
+      "sha256": "ffb26b3deb30e96fc0efb8a5ebf5030d2041048d794e7b9ab0d5ae33e1c5d9db"
+    },
+    {
+      "path": "results/PREDICTIONS.json",
+      "sha256": "61c98a30e802c643280366171d862070c0dd42b78d42df6dc65353ab94a77b4e"
+    },
+    {
+      "path": "results/SUMMARY.json",
+      "sha256": "e302964fbacdaf0cc05601eea402cbfa2c6b16f19276c317a4576ef7408a1fe2"
+    },
+    {
+      "path": "results/diagnosis.json",
+      "sha256": "e57ef6a0f5d9422bbd00e3479c32fd77b3964526d285014ac6c19233547f3848"
+    },
+    {
+      "path": "results/verification.json",
+      "sha256": "1d87d4eb7a672b0e7ff2055f4358aebdfb2be09008ebb768028805cab8b786d9"
+    }
+  ]
+}

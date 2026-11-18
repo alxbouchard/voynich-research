@@ -1,0 +1,17 @@
+{
+  "scope": "Development on all 24 phase-20 plaintext passages; no new target passages are selected or fitted yet.",
+  "known_dictionary_minimum_training_count": 2,
+  "unknown_word_maximum_letters": 24,
+  "spelling_order": 4,
+  "spelling_type_weighted": true,
+  "spelling_backoff_strength": 5,
+  "spelling_base_pseudocount": 0.1,
+  "length_source": "training hapax word types",
+  "length_pseudocount": 0.5,
+  "beta_grid": [0.25, 0.5, 0.75, 1.0],
+  "penalty_grid": [0, 2, 4, 6],
+  "selection_rule": "Highest macro boundary F1 over all 24 old passages with correct letters; ties prefer larger beta then larger penalty. One shared parameter pair for Latin and Italian.",
+  "verification_seed": 2026103021,
+  "score": "0.95 * lexical_trigram_log_score + 0.05 * boundary_character_log_score + sum_unknown(beta * spelling_log_probability + length_log_prior - penalty)",
+  "probabilistic_interpretation": "Weighted score, not a normalized probability of a whole text. The spelling and length features overlap."
+}

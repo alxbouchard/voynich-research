@@ -1,0 +1,3 @@
+# Correction d'une découpe avant ouverture de la clé
+
+La vérification du cadrage de V09 par le préparateur a détecté un décalage d'un dessin dans la rangée. Les premières réponses à cette carte seront conservées pour traçabilité et exclues du score. Utiliser deux autres lecteurs en contextes vierges pour l'image corrigée, avec un nouvel ordre des choix. La carte V07 inclut possiblement une petite feuille de la plante voisine. Vérifier séparément la délimitation du motif et la proximité des légendes sur les pages entières avant comparaison avec les prévisions textuelles. Exclure une attache ambiguë de l'épreuve principale et conserver les cas du catalogue en sensibilité. Ces décisions sont prises avant les résultats par paire.

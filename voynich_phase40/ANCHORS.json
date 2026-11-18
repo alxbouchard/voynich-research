@@ -1,0 +1,458 @@
+{
+  "boundary": "NOT_TRANSLATION",
+  "anchors": [
+    {
+      "id": "A",
+      "locus": "f68r2.19",
+      "historical_locus": "f68r2.S.11",
+      "proposed": "polar",
+      "claim_status": "author conjecture, not trusted plaintext",
+      "paper_figure": "Figure1A, PDF page4",
+      "forms": [
+        {
+          "text": "cholar",
+          "witness_indices": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "chodar",
+          "witness_indices": [
+            3
+          ]
+        }
+      ],
+      "witnesses": [
+        {
+          "source": "ZL",
+          "source_line": 3138,
+          "locus": "f68r2.19",
+          "kind": "@Ls",
+          "raw": "cholar",
+          "line": "<f68r2.19,@Ls>    cholar",
+          "normalized": "cholar",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "IT",
+          "source_line": 1970,
+          "locus": "f68r2.19",
+          "kind": "@Ls",
+          "raw": "cholar",
+          "line": "<f68r2.19,@Ls>    cholar",
+          "normalized": "cholar",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "f068r2_tr.txt",
+          "transcriber_code": "H",
+          "source_line": 176,
+          "line": "<f68r2.S.11;H>     cholar=",
+          "normalized": "cholar",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r2_tr.txt",
+          "transcriber_code": "R",
+          "source_line": 177,
+          "line": "<f68r2.S.11;R>     chodar=",
+          "normalized": "chodar",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r2_tr.txt",
+          "transcriber_code": "V",
+          "source_line": 178,
+          "line": "<f68r2.S.11;V>     cholar=",
+          "normalized": "cholar",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r2_tr.txt",
+          "transcriber_code": "U",
+          "source_line": 179,
+          "line": "<f68r2.S.11;U>     cholar=",
+          "normalized": "cholar",
+          "extraction": "before =; remove ! alignment padding"
+        }
+      ],
+      "image": {
+        "oid": "1006196",
+        "source": "sources/1006196.jpg",
+        "size": [
+          7993,
+          3828
+        ],
+        "bbox_xyxy": [
+          2690,
+          1790,
+          3050,
+          2010
+        ],
+        "display_rotation_degrees": 0,
+        "crop": "evidence/A.png",
+        "crop_sha256": "d898b4ae832558a561207e015d1cb74745efd43bd7c72307f9a9aee82385b5b8",
+        "assessment": "spatially matched to published figure; no new glyph adjudication"
+      }
+    },
+    {
+      "id": "B",
+      "locus": "f68v2.17",
+      "historical_locus": "f68v2.S.1",
+      "proposed": "expe",
+      "claim_status": "author conjecture, not trusted plaintext",
+      "paper_figure": "Figure1B, PDF page4",
+      "forms": [
+        {
+          "text": "ypchy",
+          "witness_indices": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "yypchy",
+          "witness_indices": [
+            3
+          ]
+        }
+      ],
+      "witnesses": [
+        {
+          "source": "ZL",
+          "source_line": 3257,
+          "locus": "f68v2.17",
+          "kind": "@Ro",
+          "raw": "ykeeepol<!star><->ypchy",
+          "line": "<f68v2.17,@Ro>    ykeeepol<!star><->ypchy",
+          "normalized": "ypchy",
+          "extraction": "word after <->"
+        },
+        {
+          "source": "IT",
+          "source_line": 2043,
+          "locus": "f68v2.17",
+          "kind": "@Ro",
+          "raw": "ykeeepol<->ypchy",
+          "line": "<f68v2.17,@Ro>    ykeeepol<->ypchy",
+          "normalized": "ypchy",
+          "extraction": "word after <->"
+        },
+        {
+          "source": "f068v2_tr.txt",
+          "transcriber_code": "H",
+          "source_line": 203,
+          "line": "<f68v2.S.1;H>      y!keeepol-{star}y!pchy=",
+          "normalized": "ypchy",
+          "extraction": "after {star}, before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068v2_tr.txt",
+          "transcriber_code": "C",
+          "source_line": 204,
+          "line": "<f68v2.S.1;C>      ilkeeepol-{star}yypchy=",
+          "normalized": "yypchy",
+          "extraction": "after {star}, before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068v2_tr.txt",
+          "transcriber_code": "U",
+          "source_line": 205,
+          "line": "<f68v2.S.1;U>      y!keeepol-{star}y!pchy=",
+          "normalized": "ypchy",
+          "extraction": "after {star}, before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068v2_tr.txt",
+          "transcriber_code": "V",
+          "source_line": 206,
+          "line": "<f68v2.S.1;V>      y!keeepol-{star}y!pchy={Grove's L1}",
+          "normalized": "ypchy",
+          "extraction": "after {star}, before =; remove ! alignment padding"
+        }
+      ],
+      "image": {
+        "oid": "1006197",
+        "source": "sources/1006197.jpg",
+        "size": [
+          8135,
+          3843
+        ],
+        "bbox_xyxy": [
+          3870,
+          1090,
+          4240,
+          1400
+        ],
+        "display_rotation_degrees": 180,
+        "crop": "evidence/B.png",
+        "crop_sha256": "39db165c64ec080d5e38c48630024043268c48317b839f0e944fe21c2fbfb3e1",
+        "assessment": "spatially matched to published figure; no new glyph adjudication"
+      }
+    },
+    {
+      "id": "C",
+      "locus": "f68r3.11",
+      "historical_locus": "f68r3.X.1",
+      "proposed": "toare",
+      "claim_status": "author conjecture, not trusted plaintext",
+      "paper_figure": "Figure1C, PDF page4",
+      "forms": [
+        {
+          "text": "doaro",
+          "witness_indices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "doary",
+          "witness_indices": [
+            4
+          ]
+        }
+      ],
+      "witnesses": [
+        {
+          "source": "ZL",
+          "source_line": 3179,
+          "locus": "f68r3.11",
+          "kind": "@Ls",
+          "raw": "doaro",
+          "line": "<f68r3.11,@Ls>    doaro",
+          "normalized": "doaro",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "IT",
+          "source_line": 1994,
+          "locus": "f68r3.11",
+          "kind": "@Ls",
+          "raw": "doaro",
+          "line": "<f68r3.11,@Ls>    doaro",
+          "normalized": "doaro",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "f068r3_tr.txt",
+          "transcriber_code": "H",
+          "source_line": 137,
+          "line": "<f68r3.X.1;H>      doaro=",
+          "normalized": "doaro",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r3_tr.txt",
+          "transcriber_code": "U",
+          "source_line": 138,
+          "line": "<f68r3.X.1;U>      doaro=",
+          "normalized": "doaro",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r3_tr.txt",
+          "transcriber_code": "V",
+          "source_line": 139,
+          "line": "<f68r3.X.1;V>      doary={Grove's L2}",
+          "normalized": "doary",
+          "extraction": "before =; remove ! alignment padding"
+        }
+      ],
+      "image": {
+        "oid": "1006196",
+        "source": "sources/1006196.jpg",
+        "size": [
+          7993,
+          3828
+        ],
+        "bbox_xyxy": [
+          5150,
+          1110,
+          5600,
+          1490
+        ],
+        "display_rotation_degrees": 0,
+        "crop": "evidence/C.png",
+        "crop_sha256": "8d16f738ad5d5c6420226e043a716c868a29d394b530533c2357c6572602c6d3",
+        "assessment": "spatially matched to published figure; no new glyph adjudication"
+      }
+    },
+    {
+      "id": "D",
+      "locus": "f68r1.15",
+      "historical_locus": "f68r1.S.24",
+      "proposed": "ocete",
+      "claim_status": "author conjecture, not trusted plaintext",
+      "paper_figure": "Figure1D, PDF page4",
+      "forms": [
+        {
+          "text": "otydy",
+          "witness_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "witnesses": [
+        {
+          "source": "ZL",
+          "source_line": 3077,
+          "locus": "f68r1.15",
+          "kind": "@Ls",
+          "raw": "otydy",
+          "line": "<f68r1.15,@Ls>    otydy",
+          "normalized": "otydy",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "IT",
+          "source_line": 1928,
+          "locus": "f68r1.15",
+          "kind": "@Ls",
+          "raw": "otydy",
+          "line": "<f68r1.15,@Ls>    otydy",
+          "normalized": "otydy",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "f068r1_tr.txt",
+          "transcriber_code": "H",
+          "source_line": 208,
+          "line": "<f68r1.S.24;H>     otydy=",
+          "normalized": "otydy",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r1_tr.txt",
+          "transcriber_code": "V",
+          "source_line": 209,
+          "line": "<f68r1.S.24;V>     otydy=",
+          "normalized": "otydy",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r1_tr.txt",
+          "transcriber_code": "U",
+          "source_line": 210,
+          "line": "<f68r1.S.24;U>     otydy=",
+          "normalized": "otydy",
+          "extraction": "before =; remove ! alignment padding"
+        }
+      ],
+      "image": {
+        "oid": "1006196",
+        "source": "sources/1006196.jpg",
+        "size": [
+          7993,
+          3828
+        ],
+        "bbox_xyxy": [
+          700,
+          1320,
+          990,
+          1510
+        ],
+        "display_rotation_degrees": 0,
+        "crop": "evidence/D.png",
+        "crop_sha256": "c5f888a56b0756f1eb4f6bc225b4d262a8d0238c60a78ca3a6a639f93e4b4550",
+        "assessment": "spatially matched to published figure; no new glyph adjudication"
+      }
+    },
+    {
+      "id": "E",
+      "locus": "f68r1.26",
+      "historical_locus": "f68r1.S.22",
+      "proposed": "ocor",
+      "claim_status": "author conjecture, not trusted plaintext",
+      "paper_figure": "Figure1E, PDF page4",
+      "forms": [
+        {
+          "text": "otor",
+          "witness_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "witnesses": [
+        {
+          "source": "ZL",
+          "source_line": 3088,
+          "locus": "f68r1.26",
+          "kind": "@Ls",
+          "raw": "otor",
+          "line": "<f68r1.26,@Ls>    otor",
+          "normalized": "otor",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "IT",
+          "source_line": 1939,
+          "locus": "f68r1.26",
+          "kind": "@Ls",
+          "raw": "otor",
+          "line": "<f68r1.26,@Ls>    otor",
+          "normalized": "otor",
+          "extraction": "whole locus"
+        },
+        {
+          "source": "f068r1_tr.txt",
+          "transcriber_code": "H",
+          "source_line": 200,
+          "line": "<f68r1.S.22;H>     otor=",
+          "normalized": "otor",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r1_tr.txt",
+          "transcriber_code": "V",
+          "source_line": 201,
+          "line": "<f68r1.S.22;V>     otor=",
+          "normalized": "otor",
+          "extraction": "before =; remove ! alignment padding"
+        },
+        {
+          "source": "f068r1_tr.txt",
+          "transcriber_code": "U",
+          "source_line": 202,
+          "line": "<f68r1.S.22;U>     otor=",
+          "normalized": "otor",
+          "extraction": "before =; remove ! alignment padding"
+        }
+      ],
+      "image": {
+        "oid": "1006196",
+        "source": "sources/1006196.jpg",
+        "size": [
+          7993,
+          3828
+        ],
+        "bbox_xyxy": [
+          300,
+          1780,
+          600,
+          1985
+        ],
+        "display_rotation_degrees": 0,
+        "crop": "evidence/E.png",
+        "crop_sha256": "f180a19d0dcd2bafe243ab53a5823f1278df1d97176f60fa685b244ddcebaf0c",
+        "assessment": "spatially matched to published figure; no new glyph adjudication"
+      }
+    }
+  ]
+}

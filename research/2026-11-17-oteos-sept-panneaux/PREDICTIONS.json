@@ -1,0 +1,62 @@
+{
+  "consignee_utc": "2026-11-17T23:02:26.542409+00:00",
+  "panels": {
+    "f70v2": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    },
+    "f70v1": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    },
+    "f71r": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    },
+    "f71v": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    },
+    "f72r1": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    },
+    "f72r2": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    },
+    "f73v": {
+      "groupe_entier": "oteos",
+      "ligne": "circonférence textuelle extérieure",
+      "quart": "haut gauche, 9 h inclus à midi exclu",
+      "minimum": 1
+    }
+  },
+  "exclus": [
+    "f72r3",
+    "f72v3",
+    "f72v2",
+    "f72v1",
+    "f73r"
+  ],
+  "regle_commune": "même occurrence entière dans ZL et IT, emplacement vérifié sur image",
+  "tous": 7,
+  "comparaison": "comparer le nombre de panneaux ayant au moins une occurrence dans chacun des quatre quarts, puis les nombres d’occurrences",
+  "protocol_sha256": "ead0d3638347f396a1dc4517e38ee54ae150107c0d082666f4b36c81ad0ec9e5",
+  "hashes": {
+    "ZL": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "IT": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+  }
+}

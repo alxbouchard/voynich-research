@@ -1,0 +1,72 @@
+{
+  "phase": 42,
+  "boundary": "NOT_TRANSLATION",
+  "question": "Do fixed counts explain f49v marginal repetitions and conditionally the adjacent numerals?",
+  "exposure": "Exploratory test fixed after reading sources and image, before calculating results; not blind preregistration.",
+  "sources": [
+    "ZL",
+    "IT"
+  ],
+  "rows": 26,
+  "numeral_anchors": {
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5
+  },
+  "anchor_status": "conditional numeral-to-sign correspondence, not authenticated plaintext; first numeral visually less certain",
+  "metrics": [
+    "physical row index",
+    "word tokens with each ZL comma independently joined or split",
+    "EVA code count with rare @number; counted once",
+    "mechanical bench units: c[ktpf]h, ch, sh each once, other EVA codes once"
+  ],
+  "parsing": {
+    "exclude": "all marginal labels, paragraph markers and nontext annotations",
+    "drawing_gap": "<-> converted to word separator; both sides of plant included in same physical row",
+    "apostrophe": "removed, no word separator",
+    "ligature_braces": "contents retained",
+    "alternatives": "all inline readings expanded; per-row count sets deduplicated",
+    "unknown_margin": "each ? unconstrained; not one shared value",
+    "rare_margin": "retain codes exactly",
+    "bench_units": "Do not form ligature across any recorded certain or uncertain space; no such potential cross-boundary ligature found in these rows."
+  },
+  "spaces": "All combinations of possible per-row word counts; no choice optimized and retained as correct reading. IT has no comma uncertainty.",
+  "origins": [
+    "local line",
+    "cumulative page before row",
+    "cumulative page after row",
+    "cumulative paragraph before row",
+    "cumulative paragraph after row"
+  ],
+  "paragraph_starts": [
+    1,
+    14,
+    18
+  ],
+  "direction": "top to bottom; arbitrary signed offset for ordinary counts; invertible affine step for modular counts",
+  "aliases": {
+    "f_p": [
+      "distinct",
+      "merged"
+    ],
+    "r_192": [
+      "distinct",
+      "merged"
+    ],
+    "other_aliases": false
+  },
+  "unanchored_model": "One fixed value per repeated known marginal sign; different signs may share a value. Equality of counts modulo m requires m to divide every same-sign difference, hence their gcd G. G=1 excludes every modulus m>1 for this count vector and any invertible affine reparameterization. G=0 does not constrain a period. This is a necessary condition, not decipherment.",
+  "anchored_model": "Ordinary affine a*n+b, a nonzero rational, b rational; or (a*n+b) mod m for m=6..64, gcd(a,m)=1. Must satisfy all five adjacent numerals and all repeated-sign equality constraints. Literal case is checked for G=0. No refitting by row/paragraph; reset counts as separately specified.",
+  "success": "Surviving rule is only a candidate. It must predict all repeated values without changing parameters, survive reading sensitivity, and receive independent historical/semantic validation before any decoding claim.",
+  "negative_scope": "Only specified counting families and source readings. No inference of no message; no exclusion of arbitrary arithmetic, other glyph alphabets, unmarked segmentation errors, or a later annotation experiment.",
+  "controls": "Known period7, deliberately contradictory repeated symbol, all-unknown and literal cases; these check arithmetic, not historical decoding.",
+  "outputs": [
+    "ROWS.json",
+    "COUNT_OPTIONS.json",
+    "ANALYSIS.json",
+    "CANDIDATES.json",
+    "SUMMARY.json"
+  ]
+}

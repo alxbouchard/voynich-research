@@ -1,0 +1,99 @@
+[
+  {
+    "algorithm": "proposed",
+    "case": "c10_mixed_key",
+    "scope": "Post-hoc explanation using known answers; never fed back into frozen rules.",
+    "errors": [
+      {
+        "id": "1:0",
+        "correct_plaintext": "elever",
+        "wrong_output_back_in_plaintext_for_explanation_only": "alever"
+      },
+      {
+        "id": "26:0",
+        "correct_plaintext": "et",
+        "wrong_output_back_in_plaintext_for_explanation_only": "at"
+      },
+      {
+        "id": "33:0",
+        "correct_plaintext": "entendre",
+        "wrong_output_back_in_plaintext_for_explanation_only": "antendre"
+      },
+      {
+        "id": "35:0",
+        "correct_plaintext": "ci",
+        "wrong_output_back_in_plaintext_for_explanation_only": "mi"
+      },
+      {
+        "id": "116:0",
+        "correct_plaintext": "et",
+        "wrong_output_back_in_plaintext_for_explanation_only": "at"
+      },
+      {
+        "id": "204:0",
+        "correct_plaintext": "eut",
+        "wrong_output_back_in_plaintext_for_explanation_only": "aut"
+      },
+      {
+        "id": "221:0",
+        "correct_plaintext": "ce",
+        "wrong_output_back_in_plaintext_for_explanation_only": "me"
+      },
+      {
+        "id": "238:0",
+        "correct_plaintext": "comme",
+        "wrong_output_back_in_plaintext_for_explanation_only": "momme"
+      },
+      {
+        "id": "248:0",
+        "correct_plaintext": "ce",
+        "wrong_output_back_in_plaintext_for_explanation_only": "me"
+      },
+      {
+        "id": "305:0",
+        "correct_plaintext": "et",
+        "wrong_output_back_in_plaintext_for_explanation_only": "at"
+      },
+      {
+        "id": "310:0",
+        "correct_plaintext": "et",
+        "wrong_output_back_in_plaintext_for_explanation_only": "at"
+      },
+      {
+        "id": "354:0",
+        "correct_plaintext": "certaine",
+        "wrong_output_back_in_plaintext_for_explanation_only": "mertaine"
+      },
+      {
+        "id": "367:0",
+        "correct_plaintext": "fois",
+        "wrong_output_back_in_plaintext_for_explanation_only": "cois"
+      },
+      {
+        "id": "369:0",
+        "correct_plaintext": "ete",
+        "wrong_output_back_in_plaintext_for_explanation_only": "ate"
+      },
+      {
+        "id": "400:0",
+        "correct_plaintext": "ete",
+        "wrong_output_back_in_plaintext_for_explanation_only": "ate"
+      },
+      {
+        "id": "401:0",
+        "correct_plaintext": "etait",
+        "wrong_output_back_in_plaintext_for_explanation_only": "atait"
+      },
+      {
+        "id": "452:0",
+        "correct_plaintext": "compris",
+        "wrong_output_back_in_plaintext_for_explanation_only": "mompris"
+      },
+      {
+        "id": "464:0",
+        "correct_plaintext": "fogg",
+        "wrong_output_back_in_plaintext_for_explanation_only": "cogg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,875 @@
+{
+  "source_pairs": 68,
+  "study_pairs": 21,
+  "queries": 47,
+  "candidates": 122,
+  "expected_random_first": 0.38524590163934425,
+  "scores": {
+    "longueur": {
+      "first": 1,
+      "top5": 2,
+      "median_rank": 40,
+      "mrr": 0.06275565426972328
+    },
+    "repetitions": {
+      "first": 2,
+      "top5": 4,
+      "median_rank": 35,
+      "mrr": 0.09614287202860552
+    },
+    "ancrages": {
+      "first": 13,
+      "top5": 23,
+      "median_rank": 7,
+      "mrr": 0.36735181273286704
+    }
+  },
+  "rows": [
+    {
+      "s": "S038",
+      "v": "V042",
+      "ref": 47,
+      "s_title": "Perdris",
+      "v_title": "PERDRIZ",
+      "dev": false,
+      "ranks": {
+        "longueur": 91,
+        "repetitions": 93,
+        "ancrages": 80
+      },
+      "choices": {
+        "longueur": "V079",
+        "repetitions": "V033",
+        "ancrages": "V140"
+      }
+    },
+    {
+      "s": "S041",
+      "v": "V045",
+      "ref": 51,
+      "s_title": "Faisans",
+      "v_title": "FAISANS",
+      "dev": false,
+      "ranks": {
+        "longueur": 81,
+        "repetitions": 80,
+        "ancrages": 52
+      },
+      "choices": {
+        "longueur": "V109",
+        "repetitions": "V142",
+        "ancrages": "V003"
+      }
+    },
+    {
+      "s": "S042",
+      "v": "V047",
+      "ref": 53,
+      "s_title": "Herons",
+      "v_title": "HÉRON",
+      "dev": false,
+      "ranks": {
+        "longueur": 47,
+        "repetitions": 47,
+        "ancrages": 41
+      },
+      "choices": {
+        "longueur": "V118",
+        "repetitions": "V118",
+        "ancrages": "V106"
+      }
+    },
+    {
+      "s": "S044",
+      "v": "V049",
+      "ref": 54,
+      "s_title": "Malars de riviere",
+      "v_title": "MALARTZ DE RIVIÈRE",
+      "dev": false,
+      "ranks": {
+        "longueur": 18,
+        "repetitions": 21,
+        "ancrages": 12
+      },
+      "choices": {
+        "longueur": "V109",
+        "repetitions": "V047",
+        "ancrages": "V084"
+      }
+    },
+    {
+      "s": "S048",
+      "v": "V054",
+      "ref": 61,
+      "s_title": "Faux grenon",
+      "v_title": "FAULX GRENON",
+      "dev": false,
+      "ranks": {
+        "longueur": 54,
+        "repetitions": 30,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V078",
+        "repetitions": "V061",
+        "ancrages": "V054"
+      }
+    },
+    {
+      "s": "S049",
+      "v": "V055",
+      "ref": 62,
+      "s_title": "Menus drois , de piés, de foyez et de jusiers",
+      "v_title": "MENUZ PIEZ, FOYES ET JUISIERS",
+      "dev": false,
+      "ranks": {
+        "longueur": 8,
+        "repetitions": 3,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V139",
+        "repetitions": "V026",
+        "ancrages": "V055"
+      }
+    },
+    {
+      "s": "S050",
+      "v": "V056",
+      "ref": 63,
+      "s_title": "Formentée",
+      "v_title": "FROMENTÉE",
+      "dev": false,
+      "ranks": {
+        "longueur": 21,
+        "repetitions": 6,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V058",
+        "repetitions": "V071",
+        "ancrages": "V056"
+      }
+    },
+    {
+      "s": "S052",
+      "v": "V059",
+      "ref": 66,
+      "s_title": "Poulaille farcie",
+      "v_title": "POULLAILLE FARCIE",
+      "dev": false,
+      "ranks": {
+        "longueur": 34,
+        "repetitions": 14,
+        "ancrages": 23
+      },
+      "choices": {
+        "longueur": "V065",
+        "repetitions": "V065",
+        "ancrages": "V014"
+      }
+    },
+    {
+      "s": "S054",
+      "v": "V064",
+      "ref": 69,
+      "s_title": "Lamproie frache a la saulce chaude",
+      "v_title": "LAMPROYE FRESCHE A LA SAULCE CHAUDE",
+      "dev": false,
+      "ranks": {
+        "longueur": 87,
+        "repetitions": 59,
+        "ancrages": 56
+      },
+      "choices": {
+        "longueur": "V071",
+        "repetitions": "V056",
+        "ancrages": "V076"
+      }
+    },
+    {
+      "s": "S055",
+      "v": "V065",
+      "ref": 70,
+      "s_title": "Lamproie a la galentine",
+      "v_title": "LAMPROYE EN GALANTINE",
+      "dev": false,
+      "ranks": {
+        "longueur": 35,
+        "repetitions": 33,
+        "ancrages": 7
+      },
+      "choices": {
+        "longueur": "V108",
+        "repetitions": "V108",
+        "ancrages": "V014"
+      }
+    },
+    {
+      "s": "S058",
+      "v": "V062",
+      "ref": 73,
+      "s_title": "Froide sauge",
+      "v_title": "UNE FROIDE SAUGE",
+      "dev": false,
+      "ranks": {
+        "longueur": 56,
+        "repetitions": 29,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V058",
+        "repetitions": "V151",
+        "ancrages": "V062"
+      }
+    },
+    {
+      "s": "S059",
+      "v": "V066",
+      "ref": 74,
+      "s_title": "Sourps de porcelet",
+      "v_title": "SOUX DE POURCEL",
+      "dev": false,
+      "ranks": {
+        "longueur": 36,
+        "repetitions": 36,
+        "ancrages": 2
+      },
+      "choices": {
+        "longueur": "V133",
+        "repetitions": "V123",
+        "ancrages": "V145"
+      }
+    },
+    {
+      "s": "S060",
+      "v": "V067",
+      "ref": 75,
+      "s_title": "Comminée de poisson",
+      "v_title": "COMMINÉE DE POISSON",
+      "dev": false,
+      "ranks": {
+        "longueur": 10,
+        "repetitions": 1,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V060",
+        "repetitions": "V067",
+        "ancrages": "V067"
+      }
+    },
+    {
+      "s": "S062",
+      "v": "V069",
+      "ref": 77,
+      "s_title": "Grave de loche",
+      "v_title": "GRANE DE LOCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 68,
+        "repetitions": 49,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V124",
+        "repetitions": "V141",
+        "ancrages": "V069"
+      }
+    },
+    {
+      "s": "S065",
+      "v": "V072",
+      "ref": 80,
+      "s_title": "Brouet saraginois",
+      "v_title": "BROUET SARRASINOIS",
+      "dev": false,
+      "ranks": {
+        "longueur": 9,
+        "repetitions": 8,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V110",
+        "repetitions": "V129",
+        "ancrages": "V072"
+      }
+    },
+    {
+      "s": "S066",
+      "v": "V073",
+      "ref": 82,
+      "s_title": "Cyvé d'oittrez",
+      "v_title": "CIVÉ D'OÏSTRES",
+      "dev": false,
+      "ranks": {
+        "longueur": 75,
+        "repetitions": 39,
+        "ancrages": 8
+      },
+      "choices": {
+        "longueur": "V141",
+        "repetitions": "V077",
+        "ancrages": "V070"
+      }
+    },
+    {
+      "s": "S069",
+      "v": "V079",
+      "ref": 89,
+      "s_title": "Grave de parche",
+      "v_title": "GRANE DE PERCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 26,
+        "repetitions": 26,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V093",
+        "repetitions": "V093",
+        "ancrages": "V079"
+      }
+    },
+    {
+      "s": "S070",
+      "v": "V080",
+      "ref": 90,
+      "s_title": "Coulis de poullez",
+      "v_title": "COULEIZ D'UN POULET",
+      "dev": false,
+      "ranks": {
+        "longueur": 55,
+        "repetitions": 71,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V115",
+        "repetitions": "V002",
+        "ancrages": "V080"
+      }
+    },
+    {
+      "s": "S071",
+      "v": "V081",
+      "ref": 91,
+      "s_title": "Eaue rousse de chappon ou de poulle pour malade",
+      "v_title": "EAUE ROSE D'UN CHAPPON OU POULLE",
+      "dev": false,
+      "ranks": {
+        "longueur": 60,
+        "repetitions": 17,
+        "ancrages": 31
+      },
+      "choices": {
+        "longueur": "V076",
+        "repetitions": "V107",
+        "ancrages": "V043"
+      }
+    },
+    {
+      "s": "S072",
+      "v": "V082",
+      "ref": 92,
+      "s_title": "Chaudeau flamen",
+      "v_title": "CHAUDEAU FLAMENT",
+      "dev": false,
+      "ranks": {
+        "longueur": 41,
+        "repetitions": 33,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V117",
+        "repetitions": "V026",
+        "ancrages": "V082"
+      }
+    },
+    {
+      "s": "S074",
+      "v": "V084",
+      "ref": 94,
+      "s_title": "Coulis de perche",
+      "v_title": "UNG COULEIZ DE PERCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 72,
+        "repetitions": 72,
+        "ancrages": 66
+      },
+      "choices": {
+        "longueur": "V106",
+        "repetitions": "V106",
+        "ancrages": "V144"
+      }
+    },
+    {
+      "s": "S075",
+      "v": "V085",
+      "ref": 95,
+      "s_title": "Blanc mengier d'ung chappon pour ung malade",
+      "v_title": "BLANC MENGIER D'UN CHAPPON POUR UNG MALADE",
+      "dev": false,
+      "ranks": {
+        "longueur": 51,
+        "repetitions": 14,
+        "ancrages": 2
+      },
+      "choices": {
+        "longueur": "V058",
+        "repetitions": "V061",
+        "ancrages": "V084"
+      }
+    },
+    {
+      "s": "S076",
+      "v": "V087",
+      "ref": 97,
+      "s_title": "Lux",
+      "v_title": "LUX",
+      "dev": false,
+      "ranks": {
+        "longueur": 20,
+        "repetitions": 21,
+        "ancrages": 5
+      },
+      "choices": {
+        "longueur": "V101",
+        "repetitions": "V140",
+        "ancrages": "V096"
+      }
+    },
+    {
+      "s": "S077",
+      "v": "V088",
+      "ref": 98,
+      "s_title": "Brochet",
+      "v_title": "BROCHET",
+      "dev": false,
+      "ranks": {
+        "longueur": 8,
+        "repetitions": 15,
+        "ancrages": 19
+      },
+      "choices": {
+        "longueur": "V098",
+        "repetitions": "V127",
+        "ancrages": "V146"
+      }
+    },
+    {
+      "s": "S078",
+      "v": "V090",
+      "ref": 99,
+      "s_title": "Barbillons",
+      "v_title": "BARBILLONS",
+      "dev": false,
+      "ranks": {
+        "longueur": 4,
+        "repetitions": 1,
+        "ancrages": 3
+      },
+      "choices": {
+        "longueur": "V093",
+        "repetitions": "V090",
+        "ancrages": "V121"
+      }
+    },
+    {
+      "s": "S080",
+      "v": "V092",
+      "ref": 102,
+      "s_title": "Carpe",
+      "v_title": "CARPES",
+      "dev": false,
+      "ranks": {
+        "longueur": 8,
+        "repetitions": 8,
+        "ancrages": 4
+      },
+      "choices": {
+        "longueur": "V118",
+        "repetitions": "V118",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S081",
+      "v": "V093",
+      "ref": 103,
+      "s_title": "Perche",
+      "v_title": "PERCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 1,
+        "repetitions": 2,
+        "ancrages": 10
+      },
+      "choices": {
+        "longueur": "V093",
+        "repetitions": "V131",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S082",
+      "v": "V094",
+      "ref": 104,
+      "s_title": "Tanchez",
+      "v_title": "TANCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 24,
+        "repetitions": 61,
+        "ancrages": 4
+      },
+      "choices": {
+        "longueur": "V124",
+        "repetitions": "V036",
+        "ancrages": "V129"
+      }
+    },
+    {
+      "s": "S085",
+      "v": "V097",
+      "ref": 107,
+      "s_title": "Anguillez",
+      "v_title": "ANGUILLES",
+      "dev": false,
+      "ranks": {
+        "longueur": 40,
+        "repetitions": 51,
+        "ancrages": 16
+      },
+      "choices": {
+        "longueur": "V079",
+        "repetitions": "V104",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S087",
+      "v": "V098",
+      "ref": 109,
+      "s_title": "Truitez",
+      "v_title": "TRUITE",
+      "dev": false,
+      "ranks": {
+        "longueur": 33,
+        "repetitions": 33,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V003",
+        "repetitions": "V127",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S089",
+      "v": "V100",
+      "ref": 111,
+      "s_title": "Loche",
+      "v_title": "LOCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 102,
+        "repetitions": 104,
+        "ancrages": 52
+      },
+      "choices": {
+        "longueur": "V142",
+        "repetitions": "V025",
+        "ancrages": "V055"
+      }
+    },
+    {
+      "s": "S091",
+      "v": "V104",
+      "ref": 114,
+      "s_title": "Lamproions",
+      "v_title": "LAMPROYONS",
+      "dev": false,
+      "ranks": {
+        "longueur": 35,
+        "repetitions": 35,
+        "ancrages": 4
+      },
+      "choices": {
+        "longueur": "V087",
+        "repetitions": "V127",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S093",
+      "v": "V106",
+      "ref": 117,
+      "s_title": "Eccrevissez ",
+      "v_title": "ESCREVISSES",
+      "dev": false,
+      "ranks": {
+        "longueur": 9,
+        "repetitions": 9,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V118",
+        "repetitions": "V118",
+        "ancrages": "V106"
+      }
+    },
+    {
+      "s": "S094",
+      "v": "V107",
+      "ref": 118,
+      "s_title": "Porc de mer",
+      "v_title": "PORC DE MER",
+      "dev": false,
+      "ranks": {
+        "longueur": 60,
+        "repetitions": 61,
+        "ancrages": 1
+      },
+      "choices": {
+        "longueur": "V043",
+        "repetitions": "V077",
+        "ancrages": "V107"
+      }
+    },
+    {
+      "s": "S097",
+      "v": "V109",
+      "ref": 121,
+      "s_title": "Congre",
+      "v_title": "CONGRE",
+      "dev": false,
+      "ranks": {
+        "longueur": 57,
+        "repetitions": 57,
+        "ancrages": 43
+      },
+      "choices": {
+        "longueur": "V102",
+        "repetitions": "V102",
+        "ancrages": "V101"
+      }
+    },
+    {
+      "s": "S102",
+      "v": "V115",
+      "ref": 126,
+      "s_title": "Morue fraiche",
+      "v_title": "MORUE FRESCHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 23,
+        "repetitions": 39,
+        "ancrages": 14
+      },
+      "choices": {
+        "longueur": "V003",
+        "repetitions": "V090",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S103",
+      "v": "V117",
+      "ref": 127,
+      "s_title": "Grapois",
+      "v_title": "GRAPPOIS",
+      "dev": false,
+      "ranks": {
+        "longueur": 56,
+        "repetitions": 56,
+        "ancrages": 23
+      },
+      "choices": {
+        "longueur": "V101",
+        "repetitions": "V101",
+        "ancrages": "V106"
+      }
+    },
+    {
+      "s": "S107",
+      "v": "V126",
+      "ref": 137,
+      "s_title": "Turbot",
+      "v_title": "TURBOT",
+      "dev": false,
+      "ranks": {
+        "longueur": 44,
+        "repetitions": 44,
+        "ancrages": 32
+      },
+      "choices": {
+        "longueur": "V098",
+        "repetitions": "V098",
+        "ancrages": "V121"
+      }
+    },
+    {
+      "s": "S109",
+      "v": "V130",
+      "ref": 140,
+      "s_title": "Limonde",
+      "v_title": "LYMANDE",
+      "dev": false,
+      "ranks": {
+        "longueur": 26,
+        "repetitions": 26,
+        "ancrages": 3
+      },
+      "choices": {
+        "longueur": "V087",
+        "repetitions": "V087",
+        "ancrages": "V098"
+      }
+    },
+    {
+      "s": "S110",
+      "v": "V128",
+      "ref": 141,
+      "s_title": "Dorée",
+      "v_title": "DORÉE",
+      "dev": false,
+      "ranks": {
+        "longueur": 17,
+        "repetitions": 17,
+        "ancrages": 4
+      },
+      "choices": {
+        "longueur": "V118",
+        "repetitions": "V118",
+        "ancrages": "V144"
+      }
+    },
+    {
+      "s": "S111",
+      "v": "V132",
+      "ref": 143,
+      "s_title": "Alose",
+      "v_title": "ALOSES",
+      "dev": false,
+      "ranks": {
+        "longueur": 18,
+        "repetitions": 18,
+        "ancrages": 59
+      },
+      "choices": {
+        "longueur": "V118",
+        "repetitions": "V118",
+        "ancrages": "V121"
+      }
+    },
+    {
+      "s": "S113",
+      "v": "V135",
+      "ref": 146,
+      "s_title": "Esturgon",
+      "v_title": "ESTURJON",
+      "dev": false,
+      "ranks": {
+        "longueur": 56,
+        "repetitions": 47,
+        "ancrages": 20
+      },
+      "choices": {
+        "longueur": "V142",
+        "repetitions": "V046",
+        "ancrages": "V055"
+      }
+    },
+    {
+      "s": "S114",
+      "v": "V136",
+      "ref": 147,
+      "s_title": "Seiche ",
+      "v_title": "SEICHE",
+      "dev": false,
+      "ranks": {
+        "longueur": 111,
+        "repetitions": 111,
+        "ancrages": 105
+      },
+      "choices": {
+        "longueur": "V142",
+        "repetitions": "V026",
+        "ancrages": "V055"
+      }
+    },
+    {
+      "s": "S115",
+      "v": "V139",
+      "ref": 149,
+      "s_title": "Hanons",
+      "v_title": "HANNONS",
+      "dev": false,
+      "ranks": {
+        "longueur": 39,
+        "repetitions": 42,
+        "ancrages": 30
+      },
+      "choices": {
+        "longueur": "V098",
+        "repetitions": "V144",
+        "ancrages": "V145"
+      }
+    },
+    {
+      "s": "S116",
+      "v": "V138",
+      "ref": 150,
+      "s_title": "Moullez",
+      "v_title": "MOULES",
+      "dev": false,
+      "ranks": {
+        "longueur": 71,
+        "repetitions": 71,
+        "ancrages": 60
+      },
+      "choices": {
+        "longueur": "V118",
+        "repetitions": "V118",
+        "ancrages": "V106"
+      }
+    },
+    {
+      "s": "S118",
+      "v": "V144",
+      "ref": 156,
+      "s_title": "Aulx camelins",
+      "v_title": "AULX CAMELINS",
+      "dev": false,
+      "ranks": {
+        "longueur": 49,
+        "repetitions": 50,
+        "ancrages": 3
+      },
+      "choices": {
+        "longueur": "V093",
+        "repetitions": "V090",
+        "ancrages": "V145"
+      }
+    },
+    {
+      "s": "S129",
+      "v": "V142",
+      "ref": 153,
+      "s_title": "Pour faire porée de cresson",
+      "v_title": "PORÉE DE CRESSON",
+      "dev": false,
+      "ranks": {
+        "longueur": 55,
+        "repetitions": 55,
+        "ancrages": 52
+      },
+      "choices": {
+        "longueur": "V087",
+        "repetitions": "V087",
+        "ancrages": "V145"
+      }
+    }
+  ]
+}

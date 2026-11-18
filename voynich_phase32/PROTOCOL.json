@@ -1,0 +1,105 @@
+{
+  "version": "phase32-boundaries-v1",
+  "boundary": "NOT_TRANSLATION",
+  "status": "Protocol for fresh separate readings prepared; reader type awaiting user preference. Archival branch already exposed and explicitly exploratory.",
+  "question": "Are the disputed graphic separations in f71r.13 and f71r.17 reproducibly perceived without candidate words or month labels? No linguistic boundary or translation assumed.",
+  "prior_exposure": "Coordinator knows phase31 ZL/IT comparisons and has seen all images. GC published target rows were also viewed while preparing this protocol. These are not blind manuscript data.",
+  "archival_branch": "Compare exact archived ZL/IT rows to attributed GC2a-n rows readable through the web tool. Retain v101 strings without automatic EVA conversion. Count explicit periods and uncertain commas only. This is comparison of published human-origin readings, not a newly commissioned or blinded human study. Do not vote corpora as statistically independent.",
+  "fresh_reading_branch": "Three readers, each receiving only packet images/instructions/PANELS/response template and a distinct fixed order. If AI readers are chosen, use separate context with no conversation history, no exchanges, no web or repository searches. Same-model results remain correlated and non-human. There is no OS-enforced isolation or guarantee against training familiarity. If humans are chosen, prepare handoff without sending it to anyone.",
+  "independence_dimensions": [
+    "distinct response sessions",
+    "instructions omit expected words, month and competing transliterations",
+    "no access to other responses requested",
+    "training or prior manuscript exposure cannot be excluded",
+    "shared photographs and coordinator selection remain dependencies",
+    "no independent human expert unless actually involved and documented"
+  ],
+  "selection": "Four exact PNGs from phase31, chosen for the two disputed boundaries and two same-section comparison inscriptions. Original failed crops excluded from packet; original files remain in phase31. Six presentations include two byte-identical repeats, never six independent observations.",
+  "image_policy": "Copy existing exact-pixel excerpts only. No enhancement, inpainting, rotation, resampling, reconstructed letters or synthetic image output.",
+  "primary_targets": [
+    {
+      "locus": "f71r.13",
+      "id": "P68",
+      "repeat_id": "P25",
+      "gap_window": [
+        335,
+        165,
+        365,
+        230
+      ],
+      "anchors": [
+        [
+          320,
+          205
+        ],
+        [
+          380,
+          205
+        ]
+      ]
+    },
+    {
+      "locus": "f71r.17",
+      "id": "P17",
+      "repeat_id": "P81",
+      "gap_window": [
+        130,
+        210,
+        210,
+        245
+      ],
+      "anchors": [
+        [
+          174,
+          260
+        ],
+        [
+          179,
+          195
+        ]
+      ]
+    }
+  ],
+  "comparison_items": {
+    "P42": "f70v1.11; descriptive grouping only, no a/o adjudication",
+    "P93": "f70v1.16; descriptive grouping only, disagreement at an additional final separator retained"
+  },
+  "orders": {
+    "reader_1": [
+      "P42",
+      "P17",
+      "P93",
+      "P25",
+      "P81",
+      "P68"
+    ],
+    "reader_2": [
+      "P25",
+      "P93",
+      "P81",
+      "P42",
+      "P68",
+      "P17"
+    ],
+    "reader_3": [
+      "P81",
+      "P68",
+      "P42",
+      "P17",
+      "P25",
+      "P93"
+    ]
+  },
+  "classification": "Only high-confidence clear gaps in the predefined window count as visible separation. A high-confidence graphic group enclosing both anchors with no gap in the window counts as single group at this image scale. All other cases are uncertain. Graphic classification is not a linguistic fact.",
+  "agreement_rule": "Require all three first presentations to receive the same non-uncertain classification and all repeats to agree with their first presentation. Otherwise unresolved. No majority rescue, statistical significance or selected-reader exclusion. Repeated images check response consistency only.",
+  "response_integrity": "Keep exact submitted JSON and written comments. Hash all responses before opening identities/transcriptions for confrontation. Later localization corrections are separate addenda; no silent edits or consensus negotiation.",
+  "missing_data": "Do not produce AGREEMENT.json without three actual separate readings. Unavailable, unviewed, refused or unparseable readings stay missing. Never fill a response by simulating a human or another model.",
+  "stop_rules": [
+    "No language or plaintext hypothesis",
+    "No new cipher-key search",
+    "No claim that visually separated groups are linguistic words",
+    "No claim that agreement gives a month meaning",
+    "No new contacts, publication or push"
+  ],
+  "delivery": "French result on published evidence, source/provenance ledger, anonymous reusable fresh-reading packet, complete actual reader responses if obtained, otherwise explicit pending status. Preserve earlier phases."
+}

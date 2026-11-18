@@ -1,0 +1,46 @@
+{
+  "coding": "1 visible presence; 0 visible absence with the relevant part sufficiently visible; null if cropped, obscured or ambiguous. These are graphical descriptions, not biological diagnoses or object identities.",
+  "PLANT12": [
+    ["green_blade", "A bounded leaf-like blade visibly filled green."],
+    ["blue_fill", "Any visibly blue filled region within the selected motif."],
+    ["red_brown_fill", "A red/ochre/brown filled region, beyond thin ink outlines."],
+    ["root_fan", "At least three narrow basal strands spreading from a common base."],
+    ["thick_root", "A basal root-like axis with two visible contours and width greater than a thin filament."],
+    ["root_branching", "Basal root-like structure has at least one split into three or more terminal branches."],
+    ["rounded_bulb", "A conspicuous rounded or oval basal swelling with width greater than its connecting stem."],
+    ["toothed_blade", "At least one leaf-like blade has three or more visible edge teeth or lobes."],
+    ["broad_blade", "At least one leaf-like blade has length no more than three times its maximum width."],
+    ["narrow_blade", "At least one leaf-like blade has length more than three times its maximum width."],
+    ["terminal_head", "An upper rounded, cup-like or clustered terminal form distinct from ordinary blades."],
+    ["branched_stem", "The above-base stem visibly divides into at least two branches."]
+  ],
+  "FIGURE12": [
+    ["head_cover", "A separate outlined cap, hat or crown-like contour above the head; hair alone excluded."],
+    ["long_hair", "Drawn hair strands extend below the neck/shoulder line."],
+    ["face_left", "The visible nose/profile points to the left in the delivered unrotated image."],
+    ["face_right", "The visible nose/profile points to the right in the delivered unrotated image."],
+    ["raised_arm", "At least one arm or hand extends above its shoulder level."],
+    ["bent_arm", "At least one visible arm has an elbow angle discernibly less than a straight extension."],
+    ["star_connection", "A star-like radial form is visibly joined to a hand by a stalk/line, or directly held."],
+    ["lower_enclosure", "The lower body is inside an outlined vessel/tub-like enclosure."],
+    ["long_garment", "A continuous outlined garment covers the torso and extends below the hips."],
+    ["two_legs", "Two separate legs are visibly drawn outside any enclosure."],
+    ["hatched_enclosure", "The associated body enclosure contains parallel hatching or repetitive patterned fill."],
+    ["lateral_connector", "A line/tube visibly links the selected figure or its enclosure laterally to another motif, excluding its own star stalk."]
+  ],
+  "VESSEL12": [
+    ["green_fill", "Visible green fill."], ["blue_fill", "Visible blue fill."],
+    ["red_brown_fill", "Visible red/ochre/brown fill beyond outline."],
+    ["upright_body", "Main bounded body is taller than wide."],
+    ["horizontal_body", "Main bounded body is wider than tall."],
+    ["open_rim", "Visible open or double-contour rim."],
+    ["parallel_hatching", "Three or more parallel internal hatch marks."],
+    ["rounded_base", "Rounded/oval main lower contour."],
+    ["pointed_projection", "A conspicuous pointed projection."],
+    ["branched_connector", "A connected conduit visibly branches."],
+    ["figure_contact", "A drawn human-like figure visibly contacts the structure."],
+    ["multiple_compartments", "Two or more bounded connected compartments."]
+  ],
+  "layout_band": "P: discrete horizontal specimen row, numbered top to bottom within page. Z: inner/middle/outer figure ring, based on drawn circles rather than labels. B: upper/middle/lower third of source page by motif centre. Unknown band remains unknown and is excluded from the layout sensitivity.",
+  "human_review": "Read each card without its EVA label or expected match. Record uncertainty rather than guessing. A broad belly or rounded contour has no pregnancy interpretation. Do not infer the meaning of a word. All original pages have previously been exposed to the assistant."
+}

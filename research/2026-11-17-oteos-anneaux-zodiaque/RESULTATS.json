@@ -1,0 +1,548 @@
+{
+  "zones": {
+    "extérieur": {
+      "anneaux": 12,
+      "communes": 6,
+      "anneaux_avec_occurrence": 5,
+      "panneaux_avec_occurrence": [
+        "f72r2",
+        "f72v1",
+        "f72v2",
+        "f72v3",
+        "f73r"
+      ],
+      "quarts_certains": {
+        "HG": 5,
+        "HD": 1,
+        "BD": 0,
+        "BG": 0
+      },
+      "frontieres": [],
+      "editions": {
+        "ZL": {
+          "quarts_certains": {
+            "HG": 5,
+            "HD": 1,
+            "BD": 0,
+            "BG": 0
+          },
+          "frontieres": [],
+          "separateurs_elargis": {
+            "groupes": 474,
+            "occurrences": 7
+          },
+          "champs": 430,
+          "champs_simples": 365,
+          "occurrences": 6,
+          "pour_100_champs": 1.3953488372093024,
+          "pour_100_champs_simples": 1.643835616438356,
+          "champs_a_virgule_candidats": 1
+        },
+        "IT": {
+          "quarts_certains": {
+            "HG": 5,
+            "HD": 2,
+            "BD": 0,
+            "BG": 0
+          },
+          "frontieres": [],
+          "separateurs_elargis": {
+            "groupes": 469,
+            "occurrences": 7
+          },
+          "champs": 466,
+          "champs_simples": 446,
+          "occurrences": 7,
+          "pour_100_champs": 1.502145922746781,
+          "pour_100_champs_simples": 1.5695067264573992,
+          "champs_a_virgule_candidats": 0
+        }
+      }
+    },
+    "intérieur": {
+      "anneaux": 24,
+      "communes": 5,
+      "anneaux_avec_occurrence": 5,
+      "panneaux_avec_occurrence": [
+        "f70v2",
+        "f71r",
+        "f72r1",
+        "f72r3"
+      ],
+      "quarts_certains": {
+        "HG": 2,
+        "HD": 0,
+        "BD": 0,
+        "BG": 2
+      },
+      "frontieres": [
+        {
+          "locus": "f72r1.18",
+          "quarts": [
+            "BD",
+            "BG"
+          ]
+        }
+      ],
+      "editions": {
+        "ZL": {
+          "quarts_certains": {
+            "HG": 2,
+            "HD": 0,
+            "BD": 0,
+            "BG": 2
+          },
+          "frontieres": [
+            {
+              "locus": "f72r1.18",
+              "quarts": [
+                "BD",
+                "BG"
+              ]
+            }
+          ],
+          "separateurs_elargis": {
+            "groupes": 492,
+            "occurrences": 5
+          },
+          "champs": 430,
+          "champs_simples": 360,
+          "occurrences": 5,
+          "pour_100_champs": 1.1627906976744187,
+          "pour_100_champs_simples": 1.3888888888888888,
+          "champs_a_virgule_candidats": 0
+        },
+        "IT": {
+          "quarts_certains": {
+            "HG": 2,
+            "HD": 1,
+            "BD": 0,
+            "BG": 2
+          },
+          "frontieres": [
+            {
+              "locus": "f72r1.18",
+              "quarts": [
+                "BD",
+                "BG"
+              ]
+            },
+            {
+              "locus": "f72v3.20",
+              "quarts": [
+                "HG",
+                "HD"
+              ]
+            }
+          ],
+          "separateurs_elargis": {
+            "groupes": 494,
+            "occurrences": 7
+          },
+          "champs": 489,
+          "champs_simples": 477,
+          "occurrences": 7,
+          "pour_100_champs": 1.4314928425357873,
+          "pour_100_champs_simples": 1.4675052410901468,
+          "champs_a_virgule_candidats": 0
+        }
+      }
+    }
+  },
+  "panneaux_C1_vers_centre": {
+    "f70v2": [
+      0,
+      0,
+      1
+    ],
+    "f70v1": [
+      0,
+      0
+    ],
+    "f71r": [
+      0,
+      1,
+      0
+    ],
+    "f71v": [
+      0,
+      0,
+      0
+    ],
+    "f72r1": [
+      0,
+      0,
+      1
+    ],
+    "f72r2": [
+      1,
+      0,
+      0
+    ],
+    "f72r3": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "f72v3": [
+      1,
+      0,
+      0
+    ],
+    "f72v2": [
+      1,
+      0,
+      0
+    ],
+    "f72v1": [
+      2,
+      0,
+      0
+    ],
+    "f73r": [
+      1,
+      0,
+      0
+    ],
+    "f73v": [
+      0,
+      0,
+      0
+    ]
+  },
+  "par_rang": {
+    "1": {
+      "cercles": 12,
+      "champs_ZL": 430,
+      "occurrences_communes": 6
+    },
+    "2": {
+      "cercles": 12,
+      "champs_ZL": 293,
+      "occurrences_communes": 2
+    },
+    "3": {
+      "cercles": 11,
+      "champs_ZL": 130,
+      "occurrences_communes": 2
+    },
+    "4": {
+      "cercles": 1,
+      "champs_ZL": 7,
+      "occurrences_communes": 1
+    }
+  },
+  "positions": [
+    {
+      "locus": "f70v2.32",
+      "rangs_stricts": {
+        "ZL": 18,
+        "IT": 20
+      },
+      "centre_xy": [
+        2013,
+        1725
+      ],
+      "milieu_xy": [
+        1599,
+        2124
+      ],
+      "oid_yale": 1006200,
+      "releve": "lectures/debut/f70v2-32-natif.jpg",
+      "angle_degres": 226.06,
+      "quart_mesure": "BG",
+      "quarts_possibles": [
+        "BG"
+      ]
+    },
+    {
+      "locus": "f71r.12",
+      "rangs_stricts": {
+        "ZL": 2,
+        "IT": 2
+      },
+      "centre_xy": [
+        1287,
+        1758
+      ],
+      "milieu_xy": [
+        738,
+        1197
+      ],
+      "oid_yale": 1006202,
+      "releve": "lectures/debut/f71r-12-natif.jpg",
+      "angle_degres": 315.62,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f72r1.18",
+      "rangs_stricts": {
+        "ZL": 8,
+        "IT": 8
+      },
+      "centre_xy": [
+        3232,
+        1397
+      ],
+      "milieu_xy": [
+        3235,
+        1661
+      ],
+      "oid_yale": 1006203,
+      "releve": "lectures/debut/f72r1-18-natif.jpg",
+      "angle_degres": 179.35,
+      "quart_mesure": "BD",
+      "quarts_possibles": [
+        "BD",
+        "BG"
+      ]
+    },
+    {
+      "locus": "f72r2.6",
+      "rangs_stricts": {
+        "ZL": 1,
+        "IT": 1
+      },
+      "centre_xy": [
+        5135,
+        1410
+      ],
+      "milieu_xy": [
+        4395,
+        925
+      ],
+      "oid_yale": 1006203,
+      "releve": "lectures/debut/f72r2-6-natif.jpg",
+      "angle_degres": 303.24,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f72r3.14",
+      "rangs_stricts": {
+        "ZL": 8,
+        "IT": 9
+      },
+      "centre_xy": [
+        7030,
+        1461
+      ],
+      "milieu_xy": [
+        6918,
+        623
+      ],
+      "oid_yale": 1006203,
+      "releve": "lectures/milieu/f72r3.14-repere.png",
+      "angle_degres": 352.39,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f72r3.34",
+      "rangs_stricts": {
+        "ZL": 6,
+        "IT": 8
+      },
+      "centre_xy": [
+        7030,
+        1461
+      ],
+      "milieu_xy": [
+        7001,
+        1651
+      ],
+      "oid_yale": 1006203,
+      "releve": "lectures/milieu/f72r3.34-repere.png",
+      "angle_degres": 188.68,
+      "quart_mesure": "BG",
+      "quarts_possibles": [
+        "BG"
+      ]
+    },
+    {
+      "locus": "f72v3.1",
+      "rangs_stricts": {
+        "ZL": 5,
+        "IT": 6
+      },
+      "centre_xy": [
+        2278,
+        1766
+      ],
+      "milieu_xy": [
+        1306,
+        1008
+      ],
+      "oid_yale": 1006204,
+      "releve": "lectures/milieu/f72v3.1-repere.png",
+      "angle_degres": 307.95,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f72v3.20",
+      "rangs_stricts": {
+        "ZL": null,
+        "IT": 7
+      },
+      "centre_xy": [
+        2278,
+        1766
+      ],
+      "milieu_xy": [
+        2262,
+        858
+      ],
+      "oid_yale": 1006204,
+      "releve": "lectures/milieu/f72v3.20-repere.png",
+      "angle_degres": 358.99,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG",
+        "HD"
+      ]
+    },
+    {
+      "locus": "f72v2.1",
+      "rangs_stricts": {
+        "ZL": 3,
+        "IT": 3
+      },
+      "centre_xy": [
+        4603,
+        1790
+      ],
+      "milieu_xy": [
+        3688,
+        1139
+      ],
+      "oid_yale": 1006204,
+      "releve": "lectures/milieu/f72v2.1-repere.png",
+      "angle_degres": 305.43,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f72v1.1",
+      "rangs_stricts": {
+        "ZL": 1,
+        "IT": 1
+      },
+      "centre_xy": [
+        1650,
+        1690
+      ],
+      "milieu_xy": [
+        562,
+        1213
+      ],
+      "oid_yale": 1006205,
+      "releve": "lectures/fin/f72v1_1_1.jpg",
+      "angle_degres": 293.67,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f72v1.1",
+      "rangs_stricts": {
+        "ZL": 12,
+        "IT": 12
+      },
+      "centre_xy": [
+        1650,
+        1690
+      ],
+      "milieu_xy": [
+        2255,
+        655
+      ],
+      "oid_yale": 1006205,
+      "releve": "lectures/fin/f72v1_1_12.jpg",
+      "angle_degres": 30.31,
+      "quart_mesure": "HD",
+      "quarts_possibles": [
+        "HD"
+      ]
+    },
+    {
+      "locus": "f72v1.33",
+      "rangs_stricts": {
+        "ZL": null,
+        "IT": 4
+      },
+      "centre_xy": [
+        1650,
+        1690
+      ],
+      "milieu_xy": [
+        1850,
+        1536
+      ],
+      "oid_yale": 1006205,
+      "releve": "lectures/fin/f72v1_33_4.jpg",
+      "angle_degres": 52.4,
+      "quart_mesure": "HD",
+      "quarts_possibles": [
+        "HD"
+      ]
+    },
+    {
+      "locus": "f73r.5",
+      "rangs_stricts": {
+        "ZL": 26,
+        "IT": 32
+      },
+      "centre_xy": [
+        1260,
+        1745
+      ],
+      "milieu_xy": [
+        379,
+        1297
+      ],
+      "oid_yale": 1006206,
+      "releve": "lectures/fin/f73r_5_32.jpg",
+      "angle_degres": 296.95,
+      "quart_mesure": "HG",
+      "quarts_possibles": [
+        "HG"
+      ]
+    },
+    {
+      "locus": "f73r.5",
+      "rangs_stricts": {
+        "ZL": null,
+        "IT": 5
+      },
+      "centre_xy": [
+        1260,
+        1745
+      ],
+      "milieu_xy": [
+        1630,
+        804
+      ],
+      "oid_yale": 1006206,
+      "releve": "lectures/fin/f73r_5_5.jpg",
+      "angle_degres": 21.46,
+      "quart_mesure": "HD",
+      "quarts_possibles": [
+        "HD"
+      ]
+    }
+  ]
+}

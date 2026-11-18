@@ -1,0 +1,52 @@
+{
+  "max_globally_compatible_loci": 12,
+  "min_global_exceptions": 7,
+  "larger_sizes_exhausted": [
+    {
+      "size": 15,
+      "cliques_tested_and_failed": 2
+    },
+    {
+      "size": 14,
+      "cliques_tested_and_failed": 35
+    },
+    {
+      "size": 13,
+      "cliques_tested_and_failed": 322
+    }
+  ],
+  "tested_at_first_success": 884,
+  "example": {
+    "units": "benches",
+    "silent": "o",
+    "word_backwards": false,
+    "direction": 1,
+    "start": 7,
+    "key_for_this_subset_only": {
+      "y": "a",
+      "t": "l",
+      "d": "h",
+      "k": "a",
+      "e": "l",
+      "l": "a",
+      "ch": "a",
+      "a": "a",
+      "r": "h",
+      "s": "a"
+    },
+    "loci": [
+      6,
+      10,
+      12,
+      14,
+      16,
+      18,
+      19,
+      21,
+      22,
+      24,
+      27,
+      28
+    ]
+  }
+}

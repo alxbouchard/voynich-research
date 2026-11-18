@@ -1,0 +1,850 @@
+{
+  "H_joint": {
+    "bifeuillets": {
+      "26": [
+        "D",
+        "2"
+      ],
+      "31": [
+        "D",
+        "2"
+      ],
+      "33": [
+        "E",
+        "1"
+      ],
+      "34": [
+        "E",
+        "2"
+      ],
+      "39": [
+        "E",
+        "2"
+      ],
+      "40": [
+        "E",
+        "1"
+      ],
+      "43": [
+        "F",
+        "3"
+      ],
+      "46": [
+        "F",
+        "3"
+      ],
+      "50": [
+        "G",
+        "2"
+      ],
+      "55": [
+        "G",
+        "2"
+      ],
+      "75": [
+        "M",
+        "1"
+      ],
+      "76": [
+        "M",
+        "2"
+      ],
+      "77": [
+        "M",
+        "3"
+      ],
+      "78": [
+        "M",
+        "4"
+      ],
+      "79": [
+        "M",
+        "5"
+      ],
+      "82": [
+        "M",
+        "3"
+      ],
+      "83": [
+        "M",
+        "2"
+      ],
+      "84": [
+        "M",
+        "1"
+      ]
+    },
+    "exclusions": {
+      "31": [
+        26
+      ],
+      "34": [
+        39
+      ],
+      "40": [
+        33
+      ],
+      "46": [
+        43
+      ],
+      "55": [
+        50
+      ],
+      "76": [
+        83
+      ],
+      "78": [],
+      "82": [
+        77
+      ],
+      "84": [
+        75
+      ]
+    },
+    "nul": {
+      "au_moins_observe": 1596,
+      "histogramme": {
+        "0": 30,
+        "1": 272,
+        "2": 1056,
+        "3": 2560,
+        "4": 3750,
+        "5": 3960,
+        "6": 2652,
+        "7": 1232,
+        "8": 324,
+        "9": 40
+      },
+      "total": 15876
+    },
+    "resultat": {
+      "31": {
+        "attendu": "herbier",
+        "connus": 20,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -103.78803968840171,
+          "herbier": -103.92197540628828
+        },
+        "prediction": "bain"
+      },
+      "34": {
+        "attendu": "herbier",
+        "connus": 12,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -62.3232576865049,
+          "herbier": -61.2382817537628
+        },
+        "prediction": "herbier"
+      },
+      "40": {
+        "attendu": "herbier",
+        "connus": 20,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -106.63799377703967,
+          "herbier": -103.80012600472627
+        },
+        "prediction": "herbier"
+      },
+      "46": {
+        "attendu": "herbier",
+        "connus": 12,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -59.80673046506084,
+          "herbier": -59.944925388302174
+        },
+        "prediction": "bain"
+      },
+      "55": {
+        "attendu": "herbier",
+        "connus": 19,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -100.35087898783073,
+          "herbier": -96.5363585013555
+        },
+        "prediction": "herbier"
+      },
+      "76": {
+        "attendu": "bain",
+        "connus": 16,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -80.70168355241171,
+          "herbier": -88.97768300276041
+        },
+        "prediction": "bain"
+      },
+      "78": {
+        "attendu": "bain",
+        "connus": 28,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -143.58726264721568,
+          "herbier": -144.48201356699647
+        },
+        "prediction": "bain"
+      },
+      "82": {
+        "attendu": "bain",
+        "connus": 19,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -93.36838126780961,
+          "herbier": -103.19642080724157
+        },
+        "prediction": "bain"
+      },
+      "84": {
+        "attendu": "bain",
+        "connus": 23,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -110.83843216485516,
+          "herbier": -118.57342854341391
+        },
+        "prediction": "bain"
+      }
+    },
+    "succes": 7
+  },
+  "H_separe": {
+    "bifeuillets": {
+      "26": [
+        "D",
+        "2"
+      ],
+      "31": [
+        "D",
+        "2"
+      ],
+      "33": [
+        "E",
+        "1"
+      ],
+      "34": [
+        "E",
+        "2"
+      ],
+      "39": [
+        "E",
+        "2"
+      ],
+      "40": [
+        "E",
+        "1"
+      ],
+      "43": [
+        "F",
+        "3"
+      ],
+      "46": [
+        "F",
+        "3"
+      ],
+      "50": [
+        "G",
+        "2"
+      ],
+      "55": [
+        "G",
+        "2"
+      ],
+      "75": [
+        "M",
+        "1"
+      ],
+      "76": [
+        "M",
+        "2"
+      ],
+      "77": [
+        "M",
+        "3"
+      ],
+      "78": [
+        "M",
+        "4"
+      ],
+      "79": [
+        "M",
+        "5"
+      ],
+      "82": [
+        "M",
+        "3"
+      ],
+      "83": [
+        "M",
+        "2"
+      ],
+      "84": [
+        "M",
+        "1"
+      ]
+    },
+    "exclusions": {
+      "31": [
+        26
+      ],
+      "34": [
+        39
+      ],
+      "40": [
+        33
+      ],
+      "46": [
+        43
+      ],
+      "55": [
+        50
+      ],
+      "76": [
+        83
+      ],
+      "78": [],
+      "82": [
+        77
+      ],
+      "84": [
+        75
+      ]
+    },
+    "nul": {
+      "au_moins_observe": 1596,
+      "histogramme": {
+        "0": 30,
+        "1": 272,
+        "2": 1056,
+        "3": 2560,
+        "4": 3750,
+        "5": 3960,
+        "6": 2652,
+        "7": 1232,
+        "8": 324,
+        "9": 40
+      },
+      "total": 15876
+    },
+    "resultat": {
+      "31": {
+        "attendu": "herbier",
+        "connus": 20,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -103.78803968840171,
+          "herbier": -103.92197540628828
+        },
+        "prediction": "bain"
+      },
+      "34": {
+        "attendu": "herbier",
+        "connus": 12,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -62.3232576865049,
+          "herbier": -61.2382817537628
+        },
+        "prediction": "herbier"
+      },
+      "40": {
+        "attendu": "herbier",
+        "connus": 20,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -106.63799377703967,
+          "herbier": -103.80012600472627
+        },
+        "prediction": "herbier"
+      },
+      "46": {
+        "attendu": "herbier",
+        "connus": 12,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -59.80673046506084,
+          "herbier": -59.944925388302174
+        },
+        "prediction": "bain"
+      },
+      "55": {
+        "attendu": "herbier",
+        "connus": 19,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -100.35087898783073,
+          "herbier": -96.5363585013555
+        },
+        "prediction": "herbier"
+      },
+      "76": {
+        "attendu": "bain",
+        "connus": 16,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -80.70168355241171,
+          "herbier": -88.97768300276041
+        },
+        "prediction": "bain"
+      },
+      "78": {
+        "attendu": "bain",
+        "connus": 28,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -143.58726264721568,
+          "herbier": -144.48201356699647
+        },
+        "prediction": "bain"
+      },
+      "82": {
+        "attendu": "bain",
+        "connus": 19,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -93.36838126780961,
+          "herbier": -103.19642080724157
+        },
+        "prediction": "bain"
+      },
+      "84": {
+        "attendu": "bain",
+        "connus": 23,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -110.83843216485516,
+          "herbier": -118.57342854341391
+        },
+        "prediction": "bain"
+      }
+    },
+    "succes": 7
+  },
+  "ZL_joint": {
+    "bifeuillets": {
+      "26": [
+        "D",
+        "2"
+      ],
+      "31": [
+        "D",
+        "2"
+      ],
+      "33": [
+        "E",
+        "1"
+      ],
+      "34": [
+        "E",
+        "2"
+      ],
+      "39": [
+        "E",
+        "2"
+      ],
+      "40": [
+        "E",
+        "1"
+      ],
+      "43": [
+        "F",
+        "3"
+      ],
+      "46": [
+        "F",
+        "3"
+      ],
+      "50": [
+        "G",
+        "2"
+      ],
+      "55": [
+        "G",
+        "2"
+      ],
+      "75": [
+        "M",
+        "1"
+      ],
+      "76": [
+        "M",
+        "2"
+      ],
+      "77": [
+        "M",
+        "3"
+      ],
+      "78": [
+        "M",
+        "4"
+      ],
+      "79": [
+        "M",
+        "5"
+      ],
+      "82": [
+        "M",
+        "3"
+      ],
+      "83": [
+        "M",
+        "2"
+      ],
+      "84": [
+        "M",
+        "1"
+      ]
+    },
+    "exclusions": {
+      "31": [
+        26
+      ],
+      "34": [
+        39
+      ],
+      "40": [
+        33
+      ],
+      "46": [
+        43
+      ],
+      "55": [
+        50
+      ],
+      "76": [
+        83
+      ],
+      "78": [],
+      "82": [
+        77
+      ],
+      "84": [
+        75
+      ]
+    },
+    "nul": {
+      "au_moins_observe": 1514,
+      "histogramme": {
+        "0": 25,
+        "1": 243,
+        "2": 1040,
+        "3": 2520,
+        "4": 3800,
+        "5": 4086,
+        "6": 2648,
+        "7": 1188,
+        "8": 299,
+        "9": 27
+      },
+      "total": 15876
+    },
+    "resultat": {
+      "31": {
+        "attendu": "herbier",
+        "connus": 16,
+        "exploitables": 35,
+        "log_p": {
+          "bain": -83.8022852064369,
+          "herbier": -82.28850013093019
+        },
+        "prediction": "herbier"
+      },
+      "34": {
+        "attendu": "herbier",
+        "connus": 11,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -55.74768216797211,
+          "herbier": -54.955970078144325
+        },
+        "prediction": "herbier"
+      },
+      "40": {
+        "attendu": "herbier",
+        "connus": 22,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -120.28070480455321,
+          "herbier": -116.1469188955101
+        },
+        "prediction": "herbier"
+      },
+      "46": {
+        "attendu": "herbier",
+        "connus": 12,
+        "exploitables": 36,
+        "log_p": {
+          "bain": -59.61523703979751,
+          "herbier": -60.14643844265884
+        },
+        "prediction": "bain"
+      },
+      "55": {
+        "attendu": "herbier",
+        "connus": 18,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -98.08327211542947,
+          "herbier": -90.72268398654452
+        },
+        "prediction": "herbier"
+      },
+      "76": {
+        "attendu": "bain",
+        "connus": 16,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -80.12451665878204,
+          "herbier": -89.63287049766225
+        },
+        "prediction": "bain"
+      },
+      "78": {
+        "attendu": "bain",
+        "connus": 29,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -152.10175272321945,
+          "herbier": -148.91765190945398
+        },
+        "prediction": "herbier"
+      },
+      "82": {
+        "attendu": "bain",
+        "connus": 21,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -103.30087285708287,
+          "herbier": -116.17981991371927
+        },
+        "prediction": "bain"
+      },
+      "84": {
+        "attendu": "bain",
+        "connus": 18,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -86.87206893102865,
+          "herbier": -92.73209078164427
+        },
+        "prediction": "bain"
+      }
+    },
+    "succes": 7
+  },
+  "ZL_separe": {
+    "bifeuillets": {
+      "26": [
+        "D",
+        "2"
+      ],
+      "31": [
+        "D",
+        "2"
+      ],
+      "33": [
+        "E",
+        "1"
+      ],
+      "34": [
+        "E",
+        "2"
+      ],
+      "39": [
+        "E",
+        "2"
+      ],
+      "40": [
+        "E",
+        "1"
+      ],
+      "43": [
+        "F",
+        "3"
+      ],
+      "46": [
+        "F",
+        "3"
+      ],
+      "50": [
+        "G",
+        "2"
+      ],
+      "55": [
+        "G",
+        "2"
+      ],
+      "75": [
+        "M",
+        "1"
+      ],
+      "76": [
+        "M",
+        "2"
+      ],
+      "77": [
+        "M",
+        "3"
+      ],
+      "78": [
+        "M",
+        "4"
+      ],
+      "79": [
+        "M",
+        "5"
+      ],
+      "82": [
+        "M",
+        "3"
+      ],
+      "83": [
+        "M",
+        "2"
+      ],
+      "84": [
+        "M",
+        "1"
+      ]
+    },
+    "exclusions": {
+      "31": [
+        26
+      ],
+      "34": [
+        39
+      ],
+      "40": [
+        33
+      ],
+      "46": [
+        43
+      ],
+      "55": [
+        50
+      ],
+      "76": [
+        83
+      ],
+      "78": [],
+      "82": [
+        77
+      ],
+      "84": [
+        75
+      ]
+    },
+    "nul": {
+      "au_moins_observe": 337,
+      "histogramme": {
+        "0": 30,
+        "1": 257,
+        "2": 1059,
+        "3": 2475,
+        "4": 3860,
+        "5": 3976,
+        "6": 2689,
+        "7": 1193,
+        "8": 300,
+        "9": 37
+      },
+      "total": 15876
+    },
+    "resultat": {
+      "31": {
+        "attendu": "herbier",
+        "connus": 18,
+        "exploitables": 37,
+        "log_p": {
+          "bain": -91.24933362268871,
+          "herbier": -91.50785913929198
+        },
+        "prediction": "bain"
+      },
+      "34": {
+        "attendu": "herbier",
+        "connus": 11,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -59.35661910028964,
+          "herbier": -54.1169448419978
+        },
+        "prediction": "herbier"
+      },
+      "40": {
+        "attendu": "herbier",
+        "connus": 21,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -112.7398591224754,
+          "herbier": -108.54411566339573
+        },
+        "prediction": "herbier"
+      },
+      "46": {
+        "attendu": "herbier",
+        "connus": 13,
+        "exploitables": 36,
+        "log_p": {
+          "bain": -65.98367651884944,
+          "herbier": -64.37774028731897
+        },
+        "prediction": "herbier"
+      },
+      "55": {
+        "attendu": "herbier",
+        "connus": 19,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -102.14446547822845,
+          "herbier": -93.73626108516082
+        },
+        "prediction": "herbier"
+      },
+      "76": {
+        "attendu": "bain",
+        "connus": 16,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -79.5229571436837,
+          "herbier": -89.69258385644476
+        },
+        "prediction": "bain"
+      },
+      "78": {
+        "attendu": "bain",
+        "connus": 30,
+        "exploitables": 39,
+        "log_p": {
+          "bain": -154.92981987525482,
+          "herbier": -155.76826413030918
+        },
+        "prediction": "bain"
+      },
+      "82": {
+        "attendu": "bain",
+        "connus": 21,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -102.52480989588955,
+          "herbier": -116.05778831715932
+        },
+        "prediction": "bain"
+      },
+      "84": {
+        "attendu": "bain",
+        "connus": 23,
+        "exploitables": 40,
+        "log_p": {
+          "bain": -109.63177408279478,
+          "herbier": -118.27107203045884
+        },
+        "prediction": "bain"
+      }
+    },
+    "succes": 8
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "status": "PASS",
+  "method": "Independent streaming 5-gram scoring; fixed-key decoding and comparisons",
+  "java_executed": false,
+  "evaluators_imported": false,
+  "frozen_hash_counts": {
+    "FREEZE.json": 52,
+    "MANUSCRIPT_FREEZE.json": 34
+  },
+  "startup_correction_scope": {
+    "changed": [
+      "src/manuscript_run.py"
+    ],
+    "added": [
+      "MANUSCRIPT_FREEZE_v1.json",
+      "STARTUP_CORRECTION.md"
+    ]
+  },
+  "toy_tests_passed": 7,
+  "sealed_solver_outputs": 16,
+  "decoded_parts_verified": 40,
+  "maximum_absolute_fit_score_difference_from_java": 3.5390257835388184e-08,
+  "calibration_transfer_scores": {
+    "latin": {
+      "latin_h1_n1000": 13158832.19384483,
+      "latin_h1_n3000": 12110057.674154859,
+      "latin_h3_n1000": 14541964.422859859,
+      "latin_h3_n3000": 13677805.360921018
+    },
+    "italian": {
+      "italian_h1_n1000": 13206513.83522827,
+      "italian_h1_n3000": 14954227.944765609,
+      "italian_h3_n1000": 14153018.374219164,
+      "italian_h3_n3000": 15996934.45805734
+    }
+  },
+  "floors": {
+    "latin": 12110057.674154859,
+    "italian": 13206513.83522827
+  },
+  "rows": [
+    {
+      "id": "A1_eva_manuscript_latin",
+      "sample": "A1_eva",
+      "family": "manuscript",
+      "language": "latin",
+      "key_types": 22,
+      "score_calls_from_sealed_output": 883573,
+      "fit": {
+        "score": 9261960.391925717,
+        "coverage": 1.0,
+        "valid_windows": 3011,
+        "units": 3015,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 6637476.608179862,
+        "coverage": 1.0,
+        "valid_windows": 1000,
+        "units": 1004,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 6937546.878439684,
+        "coverage": 1.0,
+        "valid_windows": 822,
+        "units": 826,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_eva_manuscript_italian",
+      "sample": "A1_eva",
+      "family": "manuscript",
+      "language": "italian",
+      "key_types": 22,
+      "score_calls_from_sealed_output": 928041,
+      "fit": {
+        "score": 8708385.751494614,
+        "coverage": 1.0,
+        "valid_windows": 3011,
+        "units": 3015,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7259752.187350531,
+        "coverage": 1.0,
+        "valid_windows": 1000,
+        "units": 1004,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 7675479.136163995,
+        "coverage": 1.0,
+        "valid_windows": 822,
+        "units": 826,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_eva_markov2_latin",
+      "sample": "A1_eva",
+      "family": "markov2",
+      "language": "latin",
+      "key_types": 22,
+      "score_calls_from_sealed_output": 880131,
+      "fit": {
+        "score": 9679305.90040658,
+        "coverage": 1.0,
+        "valid_windows": 3011,
+        "units": 3015,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 9572341.150684858,
+        "coverage": 1.0,
+        "valid_windows": 1000,
+        "units": 1004,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_eva_markov2_italian",
+      "sample": "A1_eva",
+      "family": "markov2",
+      "language": "italian",
+      "key_types": 22,
+      "score_calls_from_sealed_output": 912894,
+      "fit": {
+        "score": 8217187.829571963,
+        "coverage": 1.0,
+        "valid_windows": 3011,
+        "units": 3015,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7662227.884443901,
+        "coverage": 1.0,
+        "valid_windows": 1000,
+        "units": 1004,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_atoms_manuscript_latin",
+      "sample": "A1_atoms",
+      "family": "manuscript",
+      "language": "latin",
+      "key_types": 26,
+      "score_calls_from_sealed_output": 1040886,
+      "fit": {
+        "score": 8697460.398230668,
+        "coverage": 1.0,
+        "valid_windows": 3025,
+        "units": 3029,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7061309.395237331,
+        "coverage": 1.0,
+        "valid_windows": 1006,
+        "units": 1010,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 7366940.542867569,
+        "coverage": 1.0,
+        "valid_windows": 858,
+        "units": 862,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_atoms_manuscript_italian",
+      "sample": "A1_atoms",
+      "family": "manuscript",
+      "language": "italian",
+      "key_types": 26,
+      "score_calls_from_sealed_output": 1074756,
+      "fit": {
+        "score": 7797991.9375424115,
+        "coverage": 1.0,
+        "valid_windows": 3025,
+        "units": 3029,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 6604532.041254776,
+        "coverage": 1.0,
+        "valid_windows": 1006,
+        "units": 1010,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 6835954.925226549,
+        "coverage": 1.0,
+        "valid_windows": 858,
+        "units": 862,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_atoms_markov2_latin",
+      "sample": "A1_atoms",
+      "family": "markov2",
+      "language": "latin",
+      "key_types": 24,
+      "score_calls_from_sealed_output": 957790,
+      "fit": {
+        "score": 8317557.509779801,
+        "coverage": 1.0,
+        "valid_windows": 3025,
+        "units": 3029,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 8024196.37840286,
+        "coverage": 1.0,
+        "valid_windows": 1006,
+        "units": 1010,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "A1_atoms_markov2_italian",
+      "sample": "A1_atoms",
+      "family": "markov2",
+      "language": "italian",
+      "key_types": 24,
+      "score_calls_from_sealed_output": 1003651,
+      "fit": {
+        "score": 7469822.337055106,
+        "coverage": 1.0,
+        "valid_windows": 3025,
+        "units": 3029,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7490014.19388131,
+        "coverage": 1.0,
+        "valid_windows": 1006,
+        "units": 1010,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_eva_manuscript_latin",
+      "sample": "B2_eva",
+      "family": "manuscript",
+      "language": "latin",
+      "key_types": 20,
+      "score_calls_from_sealed_output": 787801,
+      "fit": {
+        "score": 8299926.9697046345,
+        "coverage": 1.0,
+        "valid_windows": 3013,
+        "units": 3017,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7692549.794847895,
+        "coverage": 1.0,
+        "valid_windows": 1050,
+        "units": 1054,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 7692472.132944987,
+        "coverage": 1.0,
+        "valid_windows": 1050,
+        "units": 1054,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_eva_manuscript_italian",
+      "sample": "B2_eva",
+      "family": "manuscript",
+      "language": "italian",
+      "key_types": 20,
+      "score_calls_from_sealed_output": 825876,
+      "fit": {
+        "score": 7795633.52114345,
+        "coverage": 1.0,
+        "valid_windows": 3013,
+        "units": 3017,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7404358.297859446,
+        "coverage": 1.0,
+        "valid_windows": 1050,
+        "units": 1054,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 7424885.333470591,
+        "coverage": 1.0,
+        "valid_windows": 1050,
+        "units": 1054,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_eva_markov2_latin",
+      "sample": "B2_eva",
+      "family": "markov2",
+      "language": "latin",
+      "key_types": 20,
+      "score_calls_from_sealed_output": 794354,
+      "fit": {
+        "score": 8011764.82973996,
+        "coverage": 1.0,
+        "valid_windows": 3013,
+        "units": 3017,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7328957.173194522,
+        "coverage": 1.0,
+        "valid_windows": 1050,
+        "units": 1054,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_eva_markov2_italian",
+      "sample": "B2_eva",
+      "family": "markov2",
+      "language": "italian",
+      "key_types": 20,
+      "score_calls_from_sealed_output": 829843,
+      "fit": {
+        "score": 8496669.117637098,
+        "coverage": 1.0,
+        "valid_windows": 3013,
+        "units": 3017,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7280976.212449086,
+        "coverage": 1.0,
+        "valid_windows": 1050,
+        "units": 1054,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_atoms_manuscript_latin",
+      "sample": "B2_atoms",
+      "family": "manuscript",
+      "language": "latin",
+      "key_types": 24,
+      "score_calls_from_sealed_output": 956126,
+      "fit": {
+        "score": 7471367.348398908,
+        "coverage": 1.0,
+        "valid_windows": 3006,
+        "units": 3010,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7051412.022820372,
+        "coverage": 1.0,
+        "valid_windows": 1016,
+        "units": 1020,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 7075105.908623066,
+        "coverage": 1.0,
+        "valid_windows": 1017,
+        "units": 1021,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_atoms_manuscript_italian",
+      "sample": "B2_atoms",
+      "family": "manuscript",
+      "language": "italian",
+      "key_types": 24,
+      "score_calls_from_sealed_output": 991845,
+      "fit": {
+        "score": 7487343.251172109,
+        "coverage": 1.0,
+        "valid_windows": 3006,
+        "units": 3010,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7903216.485265065,
+        "coverage": 1.0,
+        "valid_windows": 1016,
+        "units": 1020,
+        "unknown_units": 0
+      },
+      "transfer_IT": {
+        "score": 7779398.913307147,
+        "coverage": 1.0,
+        "valid_windows": 1017,
+        "units": 1021,
+        "unknown_units": 0
+      }
+    },
+    {
+      "id": "B2_atoms_markov2_latin",
+      "sample": "B2_atoms",
+      "family": "markov2",
+      "language": "latin",
+      "key_types": 23,
+      "score_calls_from_sealed_output": 911292,
+      "fit": {
+        "score": 8195137.635825808,
+        "coverage": 1.0,
+        "valid_windows": 3006,
+        "units": 3010,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7486477.251812245,
+        "coverage": 0.9990196078431373,
+        "valid_windows": 1011,
+        "units": 1020,
+        "unknown_units": 1
+      }
+    },
+    {
+      "id": "B2_atoms_markov2_italian",
+      "sample": "B2_atoms",
+      "family": "markov2",
+      "language": "italian",
+      "key_types": 23,
+      "score_calls_from_sealed_output": 937332,
+      "fit": {
+        "score": 7980989.283876165,
+        "coverage": 1.0,
+        "valid_windows": 3006,
+        "units": 3010,
+        "unknown_units": 0
+      },
+      "transfer": {
+        "score": 7353454.686151646,
+        "coverage": 0.9990196078431373,
+        "valid_windows": 1011,
+        "units": 1020,
+        "unknown_units": 1
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "sample": "A1_eva",
+      "language": "latin",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": false,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 6637476.608179862,
+      "generated_transfer_score": 9572341.150684858,
+      "calibration_floor": 12110057.674154859
+    },
+    {
+      "sample": "A1_eva",
+      "language": "italian",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": false,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 7259752.187350531,
+      "generated_transfer_score": 7662227.884443901,
+      "calibration_floor": 13206513.83522827
+    },
+    {
+      "sample": "A1_atoms",
+      "language": "latin",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": false,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 7061309.395237331,
+      "generated_transfer_score": 8024196.37840286,
+      "calibration_floor": 12110057.674154859
+    },
+    {
+      "sample": "A1_atoms",
+      "language": "italian",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": false,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 6604532.041254776,
+      "generated_transfer_score": 7490014.19388131,
+      "calibration_floor": 13206513.83522827
+    },
+    {
+      "sample": "B2_eva",
+      "language": "latin",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": true,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 7692549.794847895,
+      "generated_transfer_score": 7328957.173194522,
+      "calibration_floor": 12110057.674154859
+    },
+    {
+      "sample": "B2_eva",
+      "language": "italian",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": true,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 7404358.297859446,
+      "generated_transfer_score": 7280976.212449086,
+      "calibration_floor": 13206513.83522827
+    },
+    {
+      "sample": "B2_atoms",
+      "language": "latin",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": false,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 7051412.022820372,
+      "generated_transfer_score": 7486477.251812245,
+      "calibration_floor": 12110057.674154859
+    },
+    {
+      "sample": "B2_atoms",
+      "language": "italian",
+      "coverage_pass": true,
+      "calibration_floor_pass": false,
+      "generated_comparison_pass": true,
+      "passes_exploratory_screen": false,
+      "manuscript_transfer_score": 7903216.485265065,
+      "generated_transfer_score": 7353454.686151646,
+      "calibration_floor": 13206513.83522827
+    }
+  ],
+  "screen_pass_count": 0,
+  "translation_validated": false,
+  "verified_result_hashes": {
+    "MANUSCRIPT_OUTPUTS.json": "476367eaffaf0b048d78b5517d0528cbfa3c78813cfa47336b788bcf4b11ec34",
+    "MANUSCRIPT_SUMMARY.json": "eeb59ee2ecac164c290b98525b1490dfe0e481ddb6067fda640f01d9e2928d86"
+  },
+  "limits": [
+    "No semantic truth exists for the manuscript: scores are compatibility measures, not accuracy.",
+    "Source parsing, folio selection and Markov generation are delegated to a separate audit.",
+    "Four generated streams are each reused for two language comparisons; there is no global p-value.",
+    "A failed screen does not prove no message or exclude other cipher, script or language families.",
+    "Solver search traces and score-call counts are not independently rerun by this numerical verifier.",
+    "IT is sensitivity of the same loci to transcription, not an independent manuscript sample.",
+    "Calibration floors derive from only four transfer controls per known language."
+  ]
+}

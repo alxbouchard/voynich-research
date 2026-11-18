@@ -1,0 +1,697 @@
+{
+  "passed": true,
+  "boundary": "NOT_TRANSLATION",
+  "pin_counts": {
+    "FREEZE.json": 33,
+    "ANNOTATION_FREEZE.json": 53
+  },
+  "real_test_checks": [
+    {
+      "test": "primary",
+      "independent_assignments": 64,
+      "T": -0.01903459195125855,
+      "p": 0.625,
+      "complete_repeat_equal": true
+    },
+    {
+      "test": "layout",
+      "independent_assignments": 16,
+      "T": -0.02558922558922553,
+      "p": 0.75,
+      "complete_repeat_equal": true
+    },
+    {
+      "test": "orientation",
+      "independent_assignments": 8,
+      "T": 0.01742424242424251,
+      "p": 0.5,
+      "complete_repeat_equal": true
+    }
+  ],
+  "synthetic_observed_contrasts_checked": 60,
+  "all_synthetic_saved_tail_counts_checked": true,
+  "pixel_identity_cards": 35,
+  "pixel_audit": [
+    {
+      "card_id": "02db392953",
+      "exact_unmasked_pixels": 137050,
+      "white_mask_pixels": 51750,
+      "fraction_masked": 0.2740995762711864
+    },
+    {
+      "card_id": "0d921272d2",
+      "exact_unmasked_pixels": 74975,
+      "white_mask_pixels": 22675,
+      "fraction_masked": 0.2322068612391193
+    },
+    {
+      "card_id": "0e97f49355",
+      "exact_unmasked_pixels": 149900,
+      "white_mask_pixels": 7800,
+      "fraction_masked": 0.04946100190234623
+    },
+    {
+      "card_id": "1359a2e073",
+      "exact_unmasked_pixels": 182625,
+      "white_mask_pixels": 12375,
+      "fraction_masked": 0.06346153846153846
+    },
+    {
+      "card_id": "1a18eb130d",
+      "exact_unmasked_pixels": 62900,
+      "white_mask_pixels": 25450,
+      "fraction_masked": 0.288058856819468
+    },
+    {
+      "card_id": "1b4dee5566",
+      "exact_unmasked_pixels": 102350,
+      "white_mask_pixels": 38450,
+      "fraction_masked": 0.27308238636363635
+    },
+    {
+      "card_id": "1bc720ba7d",
+      "exact_unmasked_pixels": 481550,
+      "white_mask_pixels": 268588,
+      "fraction_masked": 0.35805145186619
+    },
+    {
+      "card_id": "2164a2c06b",
+      "exact_unmasked_pixels": 177600,
+      "white_mask_pixels": 15600,
+      "fraction_masked": 0.08074534161490683
+    },
+    {
+      "card_id": "3bc15c9f4a",
+      "exact_unmasked_pixels": 159400,
+      "white_mask_pixels": 12100,
+      "fraction_masked": 0.07055393586005831
+    },
+    {
+      "card_id": "416af516cc",
+      "exact_unmasked_pixels": 74520,
+      "white_mask_pixels": 13230,
+      "fraction_masked": 0.15076923076923077
+    },
+    {
+      "card_id": "4c8da6c720",
+      "exact_unmasked_pixels": 80925,
+      "white_mask_pixels": 11700,
+      "fraction_masked": 0.12631578947368421
+    },
+    {
+      "card_id": "4fac4fa26c",
+      "exact_unmasked_pixels": 124550,
+      "white_mask_pixels": 48250,
+      "fraction_masked": 0.27922453703703703
+    },
+    {
+      "card_id": "558401ad91",
+      "exact_unmasked_pixels": 218025,
+      "white_mask_pixels": 11100,
+      "fraction_masked": 0.04844517184942717
+    },
+    {
+      "card_id": "55e7038fab",
+      "exact_unmasked_pixels": 64425,
+      "white_mask_pixels": 32775,
+      "fraction_masked": 0.33719135802469136
+    },
+    {
+      "card_id": "573d794046",
+      "exact_unmasked_pixels": 71800,
+      "white_mask_pixels": 38400,
+      "fraction_masked": 0.3484573502722323
+    },
+    {
+      "card_id": "67e94eb6e4",
+      "exact_unmasked_pixels": 180900,
+      "white_mask_pixels": 61100,
+      "fraction_masked": 0.2524793388429752
+    },
+    {
+      "card_id": "87e5def59e",
+      "exact_unmasked_pixels": 276650,
+      "white_mask_pixels": 40750,
+      "fraction_masked": 0.12838689350976687
+    },
+    {
+      "card_id": "890c476667",
+      "exact_unmasked_pixels": 290925,
+      "white_mask_pixels": 49875,
+      "fraction_masked": 0.1463468309859155
+    },
+    {
+      "card_id": "891f45d91c",
+      "exact_unmasked_pixels": 478000,
+      "white_mask_pixels": 58050,
+      "fraction_masked": 0.10829213692752541
+    },
+    {
+      "card_id": "8b1b88c68e",
+      "exact_unmasked_pixels": 359100,
+      "white_mask_pixels": 39375,
+      "fraction_masked": 0.09881422924901186
+    },
+    {
+      "card_id": "9afa5c831a",
+      "exact_unmasked_pixels": 91775,
+      "white_mask_pixels": 36925,
+      "fraction_masked": 0.2869075369075369
+    },
+    {
+      "card_id": "9db538a45d",
+      "exact_unmasked_pixels": 86850,
+      "white_mask_pixels": 7500,
+      "fraction_masked": 0.0794912559618442
+    },
+    {
+      "card_id": "9e144882e7",
+      "exact_unmasked_pixels": 29350,
+      "white_mask_pixels": 9650,
+      "fraction_masked": 0.24743589743589745
+    },
+    {
+      "card_id": "a1f3db5395",
+      "exact_unmasked_pixels": 79300,
+      "white_mask_pixels": 19700,
+      "fraction_masked": 0.198989898989899
+    },
+    {
+      "card_id": "a3858873a0",
+      "exact_unmasked_pixels": 129750,
+      "white_mask_pixels": 18300,
+      "fraction_masked": 0.12360688956433637
+    },
+    {
+      "card_id": "a78182c305",
+      "exact_unmasked_pixels": 134500,
+      "white_mask_pixels": 43950,
+      "fraction_masked": 0.24628747548332866
+    },
+    {
+      "card_id": "c27d010a3d",
+      "exact_unmasked_pixels": 95450,
+      "white_mask_pixels": 39550,
+      "fraction_masked": 0.292962962962963
+    },
+    {
+      "card_id": "cb7fa51e8d",
+      "exact_unmasked_pixels": 96000,
+      "white_mask_pixels": 9000,
+      "fraction_masked": 0.08571428571428572
+    },
+    {
+      "card_id": "d02653a27f",
+      "exact_unmasked_pixels": 54450,
+      "white_mask_pixels": 19050,
+      "fraction_masked": 0.25918367346938775
+    },
+    {
+      "card_id": "dbc36d6936",
+      "exact_unmasked_pixels": 195050,
+      "white_mask_pixels": 25450,
+      "fraction_masked": 0.11541950113378685
+    },
+    {
+      "card_id": "df330f52f4",
+      "exact_unmasked_pixels": 88100,
+      "white_mask_pixels": 23500,
+      "fraction_masked": 0.21057347670250895
+    },
+    {
+      "card_id": "e04e8a7673",
+      "exact_unmasked_pixels": 104000,
+      "white_mask_pixels": 27200,
+      "fraction_masked": 0.2073170731707317
+    },
+    {
+      "card_id": "e47e38c65e",
+      "exact_unmasked_pixels": 147700,
+      "white_mask_pixels": 16300,
+      "fraction_masked": 0.09939024390243903
+    },
+    {
+      "card_id": "eac9eb40f8",
+      "exact_unmasked_pixels": 80300,
+      "white_mask_pixels": 20450,
+      "fraction_masked": 0.20297766749379653
+    },
+    {
+      "card_id": "fa47196e69",
+      "exact_unmasked_pixels": 88200,
+      "white_mask_pixels": 5600,
+      "fraction_masked": 0.05970149253731343
+    }
+  ],
+  "eligibility": [
+    {
+      "card_id": "02db392953",
+      "locus": "f99v.2",
+      "folio": "f99",
+      "section": "P",
+      "type_id": "b4095935",
+      "confidence": "high",
+      "known_features": 10,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "0d921272d2",
+      "locus": "f70v2.18",
+      "folio": "f70",
+      "section": "Z",
+      "type_id": "5730053d",
+      "confidence": "high",
+      "known_features": 11,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "0e97f49355",
+      "locus": "f84r.11",
+      "folio": "f84",
+      "section": "B",
+      "type_id": "b261f4cd",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "1359a2e073",
+      "locus": "f82v.2",
+      "folio": "f82",
+      "section": "B",
+      "type_id": "a7b13098",
+      "confidence": "high",
+      "known_features": 6,
+      "accepted": false,
+      "exclusion_reasons": [
+        "fewer_than_8_observed_features"
+      ],
+      "type_estimable": false
+    },
+    {
+      "card_id": "1a18eb130d",
+      "locus": "f88r.15",
+      "folio": "f88",
+      "section": "P",
+      "type_id": "02a5bb96",
+      "confidence": "uncertain",
+      "known_features": 8,
+      "accepted": false,
+      "exclusion_reasons": [
+        "attachment_uncertain"
+      ],
+      "type_estimable": false
+    },
+    {
+      "card_id": "1b4dee5566",
+      "locus": "f73r.26",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "980f2fa0",
+      "confidence": "high",
+      "known_features": 9,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "1bc720ba7d",
+      "locus": "f75v.54",
+      "folio": "f75",
+      "section": "B",
+      "type_id": "b58b2da5",
+      "confidence": "unresolved",
+      "known_features": 0,
+      "accepted": false,
+      "exclusion_reasons": [
+        "attachment_unresolved",
+        "fewer_than_8_observed_features"
+      ],
+      "type_estimable": false
+    },
+    {
+      "card_id": "2164a2c06b",
+      "locus": "f101v.10",
+      "folio": "f101",
+      "section": "P",
+      "type_id": "02a5bb96",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "3bc15c9f4a",
+      "locus": "f72v3.31",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "38856894",
+      "confidence": "high",
+      "known_features": 6,
+      "accepted": false,
+      "exclusion_reasons": [
+        "fewer_than_8_observed_features"
+      ],
+      "type_estimable": true
+    },
+    {
+      "card_id": "416af516cc",
+      "locus": "f72r2.3",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "242dd5ad",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "4c8da6c720",
+      "locus": "f72r2.9",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "7bdde1c6",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "4fac4fa26c",
+      "locus": "f72v1.5",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "5730053d",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "558401ad91",
+      "locus": "f88r.5",
+      "folio": "f88",
+      "section": "P",
+      "type_id": "d49dfe25",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "55e7038fab",
+      "locus": "f73r.23",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "1d87cef0",
+      "confidence": "high",
+      "known_features": 11,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "573d794046",
+      "locus": "f73r.28",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "f5d7f85a",
+      "confidence": "high",
+      "known_features": 8,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "67e94eb6e4",
+      "locus": "f70v2.27",
+      "folio": "f70",
+      "section": "Z",
+      "type_id": "242dd5ad",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "87e5def59e",
+      "locus": "f99v.9",
+      "folio": "f99",
+      "section": "P",
+      "type_id": "d49dfe25",
+      "confidence": "high",
+      "known_features": 10,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "890c476667",
+      "locus": "f99r.14",
+      "folio": "f99",
+      "section": "P",
+      "type_id": "b4095935",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "891f45d91c",
+      "locus": "f88r.6",
+      "folio": "f88",
+      "section": "P",
+      "type_id": "83c8d7d6",
+      "confidence": "high",
+      "known_features": 11,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "8b1b88c68e",
+      "locus": "f89r1.4",
+      "folio": "f89",
+      "section": "P",
+      "type_id": "b4095935",
+      "confidence": "high",
+      "known_features": 10,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "9afa5c831a",
+      "locus": "f73r.6",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "38856894",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "9db538a45d",
+      "locus": "f84r.8",
+      "folio": "f84",
+      "section": "B",
+      "type_id": "a7b13098",
+      "confidence": "uncertain",
+      "known_features": 11,
+      "accepted": false,
+      "exclusion_reasons": [
+        "attachment_uncertain"
+      ],
+      "type_estimable": false
+    },
+    {
+      "card_id": "9e144882e7",
+      "locus": "f77r.3",
+      "folio": "f77",
+      "section": "B",
+      "type_id": "b58b2da5",
+      "confidence": "high",
+      "known_features": 10,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "a1f3db5395",
+      "locus": "f73r.7",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "9278582e",
+      "confidence": "high",
+      "known_features": 9,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "a3858873a0",
+      "locus": "f72v3.22",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "980f2fa0",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "a78182c305",
+      "locus": "f73v.6",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "9278582e",
+      "confidence": "high",
+      "known_features": 8,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "c27d010a3d",
+      "locus": "f70v2.15",
+      "folio": "f70",
+      "section": "Z",
+      "type_id": "38856894",
+      "confidence": "high",
+      "known_features": 11,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "cb7fa51e8d",
+      "locus": "f72v2.15",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "9278582e",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    },
+    {
+      "card_id": "d02653a27f",
+      "locus": "f72r2.23",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "f5d7f85a",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "dbc36d6936",
+      "locus": "f99v.6",
+      "folio": "f99",
+      "section": "P",
+      "type_id": "83c8d7d6",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "df330f52f4",
+      "locus": "f73v.25",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "980f2fa0",
+      "confidence": "high",
+      "known_features": 11,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "e04e8a7673",
+      "locus": "f73v.27",
+      "folio": "f73",
+      "section": "Z",
+      "type_id": "7bdde1c6",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "e47e38c65e",
+      "locus": "f72v3.27",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "1d87cef0",
+      "confidence": "high",
+      "known_features": 7,
+      "accepted": false,
+      "exclusion_reasons": [
+        "fewer_than_8_observed_features"
+      ],
+      "type_estimable": false
+    },
+    {
+      "card_id": "eac9eb40f8",
+      "locus": "f72r2.11",
+      "folio": "f72",
+      "section": "Z",
+      "type_id": "7bdde1c6",
+      "confidence": "high",
+      "known_features": 12,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": true
+    },
+    {
+      "card_id": "fa47196e69",
+      "locus": "f75v.37",
+      "folio": "f75",
+      "section": "B",
+      "type_id": "b261f4cd",
+      "confidence": "high",
+      "known_features": 11,
+      "accepted": true,
+      "exclusion_reasons": [],
+      "type_estimable": false
+    }
+  ],
+  "attachment_counts": {
+    "high": 32,
+    "uncertain": 2,
+    "unresolved": 1
+  },
+  "contributing_folios": [
+    "f70",
+    "f72",
+    "f73",
+    "f88",
+    "f99"
+  ],
+  "positive_leave_contributing_only": 2,
+  "estimable_leave_contributing_only": 5,
+  "external_human_review_completed": false,
+  "limits": "Independent arithmetic implementation by the same assistant; not an independent researcher. Pixel checks verify exact crop/mask operations, not correctness of attachments or complete glyph removal."
+}

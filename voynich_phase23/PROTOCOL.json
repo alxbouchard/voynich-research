@@ -1,0 +1,36 @@
+{
+  "version": "phase23-label-edges-v1",
+  "status": "Local freeze before calibration and novel manuscript measurements; not external preregistration",
+  "boundary": "NOT_TRANSLATION",
+  "question": "Do label edge distributions transfer between quires after matching page and word length? Do endings still transfer after additionally matching the first unit?",
+  "prior_exposure": "All manuscript views, including former reserves, have been inspected. Phases 14/15 tested pharmaceutical label/prose correspondence. Published o/q observations motivated the initial-edge test. No manuscript data here are historically blind.",
+  "hypotheses": {
+    "H1": "The first-unit label-minus-prose distribution has positive agreement across held-out quires.",
+    "H2": "The last-unit label-minus-prose distribution has positive agreement across held-out quires even after conditioning on first unit.",
+    "deferred": "Specific drawing motifs predicting particular labels requires independent annotations and reserved predictions. The atlas does not supply an adjudicated token-to-object alignment or semantic truth. No semantic test is substituted for that missing evidence."
+  },
+  "sources": ["ZL3b-n.txt", "IT2a-n.txt"],
+  "labels": "Single clean alphabetical word in La,Lc,Lf,Ln,Lp,Ls,Lt,Lz; exclude L0,Lx, non-existent ! loci, uncertain letters/spaces, multiword labels and ligatures. Strip angle-bracket comments only after converting drawing interruptions <-> and <~> into hard barriers. Do not infer a label meaning from its subtype.",
+  "prose": "Only P0/P1, strictly interior tokens of each interruption-delimited segment. Positions refer to original period-separated chunks, including unclear chunks, before filtering. Other paragraph subtypes, circular and radial texts excluded.",
+  "units": "Greedy cth,ckh,cph,cfh,ch,sh followed by single a-z; 3..12 units inclusive. Conventions, not established graphemes or phonemes.",
+  "metadata": "Page metadata Q,I,H,L,C retained. Match exact panel/page, Q,I,H,L,C and exact unit length. Exclude pages/rows with @ metadata, changing inline tags or nonnumeric physical folio. Same page fixes section/hand/quire but does not resolve within-page layout or justify those metadata as historical truth.",
+  "matching": "All clean labels and eligible prose in supported strata. H2 additionally matches first unit. Require both roles in each stratum. Keep physical folios with >=5 matched labels and >=20 distinct matched prose tokens. No duplicated comparator selection; a prose token belongs to one stratum per endpoint.",
+  "weighting": "Within a stratum d = mean(one-hot feature | label) minus mean(one-hot feature | prose). Average strata within a page weighted by label count. Average pages equally within a physical folio, then folios equally within a quire. No feature selection or tuning.",
+  "statistic": "For each quire q, use the mean d of all OTHER quires as weights and compute dot(d_q, weights). T is the mean of these held-out-quire contributions. Directional positive transfer, not classification accuracy or recovered text. Report every feature contribution and quire effect.",
+  "eligibility": "At least 8 physical folios and 3 quires for an inferential endpoint. Otherwise retain descriptive results and mark insufficient support.",
+  "null": "4999 random role reallocations without replacement within each supported page/metadata/length[/first-unit] stratum, preserving original label count. Recompute the full statistic including training-side weights. p=(1+number(null>=observed-1e-12))/5000. This tests conditional exchangeability of tokens, not meaning; serial dependence can violate this null.",
+  "decision": "Two primary ZL/interior endpoints with Bonferroni alpha .025 each. A robust structural result additionally requires positive T for IT/interior and positive held-out contribution for EVERY supported quire in both transcriptions. IT is transcription sensitivity, not independent replication. No semantic inference at any p-value.",
+  "sensitivities": ["first: prose segment-initial words instead of interiors", "last: prose segment-final words instead of interiors", "dedup: interior sample deduplicated by page, role and surface before matching", "eva: interior sample, individual EVA characters instead of greedy units"],
+  "sensitivity_interpretation": "Run all four in ZL and IT regardless of primary results. Report all effects and conditional-null p-values descriptively; no extra discoveries claimed. Even first/last comparisons cannot equate a free-standing label with paragraph layout.",
+  "calibration": {
+    "replicates": 20,
+    "permutations": 199,
+    "synthetic_layout": "4 quires, 3 folios/quire, 2 pages/folio; 12 labels and 60 prose tokens/page, 12 each first/last and 36 interior. Known control uses an explicitly documented plaintext sequence, reversible random substitution and probabilistic edge markers; scorer receives only symbol units and role/layout metadata. Message-free controls use IID interiors and section-specific alphabets.",
+    "families": ["known_markers: reversible plaintext plus probabilistic role markers", "null_iid: no message, same within-page generator for both roles, section confounding retained", "template_iid: no message, probabilistic role-specific edges", "layout_iid: no message, labels and prose first tokens share edge template; interior differs"],
+    "gate": "For each endpoint, known_markers positive/rejecting at .025 in >=18/20; null_iid rejects in <=3/20. First-position layout_iid must reject in <=3/20 for each endpoint. Failed gate stops manuscript significance testing and is reported. template_iid and interior layout_iid are specificity challenges, not prerequisites for claiming a message.",
+    "limitations": "Simple constructed controls calibrate this statistic only, not historical realism, key recovery or ability to decipher arbitrary unknown scripts. Unknown source symbols/units and true label functions remain unresolved."
+  },
+  "seeds": {"controls": 230030001, "real": 230030002},
+  "validation": "Independent implementation of observed weighted statistics, toy exact role-allocation enumeration, cipher round trips, parser barrier/uncertainty/position tests, deterministic rerun hashes and preserved previous-phase/atlas hashes. No outside human replication is claimed.",
+  "next_evidence": "Any selected semantic/motif hypothesis needs an independently annotated or independently acquired source not consulted for selection, with its token/object map and predictions frozen before unblinding. Cross-quire internal transfer alone cannot supply this."
+}

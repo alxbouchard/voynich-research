@@ -1,0 +1,865 @@
+{
+  "methode": "Recomptage indépendant selon PROTOCOLE, quatre fichiers de lecteurs, CLE_H et POSITIONS_V. Noms principaux seuls.",
+  "H_historique": {
+    "details": {
+      "H01": {
+        "folio": "5r",
+        "legende": "Anthora",
+        "groupe_historique": "Aconitum",
+        "reference_evaluable": true,
+        "A": [
+          "Pulsatilla",
+          "faible"
+        ],
+        "B": [
+          "Pulsatilla",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": false,
+        "accord_correct": false
+      },
+      "H02": {
+        "folio": "2v",
+        "legende": "Absinthiu[m] aliud … santoni…",
+        "groupe_historique": "Artemisia",
+        "reference_evaluable": true,
+        "A": [
+          "Cichorium",
+          "faible"
+        ],
+        "B": [
+          "Cichorium",
+          "faible"
+        ],
+        "accord_nomme": true,
+        "accord_decide": false,
+        "accord_correct": false
+      },
+      "H03": {
+        "folio": "4r",
+        "legende": "Ancusa … abugliste [lecture partielle]",
+        "groupe_historique": "Anchusa (sens historique)",
+        "reference_evaluable": true,
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "accord_correct": null
+      },
+      "H04": {
+        "folio": "3v",
+        "legende": "Amomum alio nomi[n]e …",
+        "groupe_historique": null,
+        "reference_evaluable": false,
+        "A": [
+          "Smilax",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "accord_correct": null
+      },
+      "H05": {
+        "folio": "4v",
+        "legende": "Andronica seu …",
+        "groupe_historique": "Verbascum",
+        "reference_evaluable": true,
+        "A": [
+          "Verbascum",
+          "moyenne"
+        ],
+        "B": [
+          "Verbascum",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": true
+      },
+      "H06": {
+        "folio": "3r",
+        "legende": "Ambroxiana",
+        "groupe_historique": null,
+        "reference_evaluable": false,
+        "A": [
+          "Mercurialis",
+          "moyenne"
+        ],
+        "B": [
+          "Mercurialis",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": null
+      },
+      "H07": {
+        "folio": "5v",
+        "legende": "Apium emoroydaru[m] [graphie abrégée]",
+        "groupe_historique": "Ranunculus au sens large, incluant Ficaria",
+        "reference_evaluable": true,
+        "A": [
+          "Ranunculus",
+          "moyenne"
+        ],
+        "B": [
+          "Ranunculus",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": true
+      },
+      "H08": {
+        "folio": "2r",
+        "legende": "Absinthium ortense",
+        "groupe_historique": "Artemisia",
+        "reference_evaluable": true,
+        "A": [
+          "Artemisia",
+          "moyenne"
+        ],
+        "B": [
+          "Artemisia",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": true
+      }
+    },
+    "lecteurs": {
+      "A": {
+        "faible": 3,
+        "nommes": 7,
+        "nommes_evaluables": 5,
+        "nommes_justes": 3,
+        "abstention": 1,
+        "moyenne": 4,
+        "decides": 4,
+        "decides_evaluables": 3,
+        "decides_justes": 3
+      },
+      "B": {
+        "moyenne": 5,
+        "nommes": 6,
+        "nommes_evaluables": 5,
+        "nommes_justes": 3,
+        "decides": 5,
+        "decides_evaluables": 4,
+        "decides_justes": 3,
+        "faible": 1,
+        "abstention": 2
+      }
+    },
+    "accords_decides": [
+      "H05",
+      "H06",
+      "H07",
+      "H08"
+    ],
+    "accords_decides_inevaluables": [
+      "H06"
+    ],
+    "accords_decides_justes": [
+      "H05",
+      "H07",
+      "H08"
+    ],
+    "sur_cartes": [
+      3,
+      8
+    ],
+    "sur_accords_decides_verifiables": [
+      3,
+      3
+    ],
+    "seuil_atteint": true
+  },
+  "H_strict_H07_inevaluable": {
+    "details": {
+      "H01": {
+        "folio": "5r",
+        "legende": "Anthora",
+        "groupe_historique": "Aconitum",
+        "reference_evaluable": true,
+        "A": [
+          "Pulsatilla",
+          "faible"
+        ],
+        "B": [
+          "Pulsatilla",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": false,
+        "accord_correct": false
+      },
+      "H02": {
+        "folio": "2v",
+        "legende": "Absinthiu[m] aliud … santoni…",
+        "groupe_historique": "Artemisia",
+        "reference_evaluable": true,
+        "A": [
+          "Cichorium",
+          "faible"
+        ],
+        "B": [
+          "Cichorium",
+          "faible"
+        ],
+        "accord_nomme": true,
+        "accord_decide": false,
+        "accord_correct": false
+      },
+      "H03": {
+        "folio": "4r",
+        "legende": "Ancusa … abugliste [lecture partielle]",
+        "groupe_historique": "Anchusa (sens historique)",
+        "reference_evaluable": true,
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "accord_correct": null
+      },
+      "H04": {
+        "folio": "3v",
+        "legende": "Amomum alio nomi[n]e …",
+        "groupe_historique": null,
+        "reference_evaluable": false,
+        "A": [
+          "Smilax",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "accord_correct": null
+      },
+      "H05": {
+        "folio": "4v",
+        "legende": "Andronica seu …",
+        "groupe_historique": "Verbascum",
+        "reference_evaluable": true,
+        "A": [
+          "Verbascum",
+          "moyenne"
+        ],
+        "B": [
+          "Verbascum",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": true
+      },
+      "H06": {
+        "folio": "3r",
+        "legende": "Ambroxiana",
+        "groupe_historique": null,
+        "reference_evaluable": false,
+        "A": [
+          "Mercurialis",
+          "moyenne"
+        ],
+        "B": [
+          "Mercurialis",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": null
+      },
+      "H07": {
+        "folio": "5v",
+        "legende": "Apium emoroydaru[m] [graphie abrégée]",
+        "groupe_historique": "Ranunculus au sens large, incluant Ficaria",
+        "reference_evaluable": false,
+        "A": [
+          "Ranunculus",
+          "moyenne"
+        ],
+        "B": [
+          "Ranunculus",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": null
+      },
+      "H08": {
+        "folio": "2r",
+        "legende": "Absinthium ortense",
+        "groupe_historique": "Artemisia",
+        "reference_evaluable": true,
+        "A": [
+          "Artemisia",
+          "moyenne"
+        ],
+        "B": [
+          "Artemisia",
+          "moyenne"
+        ],
+        "accord_nomme": true,
+        "accord_decide": true,
+        "accord_correct": true
+      }
+    },
+    "lecteurs": {
+      "A": {
+        "faible": 3,
+        "nommes": 7,
+        "nommes_evaluables": 4,
+        "nommes_justes": 2,
+        "abstention": 1,
+        "moyenne": 4,
+        "decides": 4,
+        "decides_evaluables": 2,
+        "decides_justes": 2
+      },
+      "B": {
+        "moyenne": 5,
+        "nommes": 6,
+        "nommes_evaluables": 4,
+        "nommes_justes": 2,
+        "decides": 5,
+        "decides_evaluables": 3,
+        "decides_justes": 2,
+        "faible": 1,
+        "abstention": 2
+      }
+    },
+    "accords_decides": [
+      "H05",
+      "H06",
+      "H07",
+      "H08"
+    ],
+    "accords_decides_inevaluables": [
+      "H06",
+      "H07"
+    ],
+    "accords_decides_justes": [
+      "H05",
+      "H08"
+    ],
+    "sur_cartes": [
+      2,
+      8
+    ],
+    "sur_accords_decides_verifiables": [
+      2,
+      2
+    ],
+    "seuil_atteint": false
+  },
+  "V": {
+    "details": {
+      "V01": {
+        "position": [
+          "f88r",
+          1,
+          2
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Aucune ambiguïté majeure du contour observée."
+      },
+      "V02": {
+        "position": [
+          "f88r",
+          2,
+          3
+        ],
+        "A": [
+          "Cyclamen",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Plusieurs filets se croisent avec ceux du grand fragment de droite. Les extrémités de propriété incertaine sont tronquées."
+      },
+      "V03": {
+        "position": [
+          "f88v",
+          1,
+          4
+        ],
+        "A": [
+          "Aconitum",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Extrémité inférieure gauche voisine de la ligne de texte. Quelques pixels retirés."
+      },
+      "V04": {
+        "position": [
+          "f88v",
+          2,
+          2
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          "Aconitum",
+          "faible"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Tiges au-dessus de la couronne pâles et proches de la ligne de texte."
+      },
+      "V05": {
+        "position": [
+          "f88r",
+          1,
+          1
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "La couleur verte diffuse au sommet peut transparaître du verso."
+      },
+      "V06": {
+        "position": [
+          "f88r",
+          1,
+          3
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Contour des pointes pâles et pigment supérieur peu contrasté, qui pourrait transparaître du verso."
+      },
+      "V07": {
+        "position": [
+          "f88v",
+          3,
+          3
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          "Dactylorhiza",
+          "faible"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Partie supérieure voisine de l’écriture, passage vers la feuille incertain. Des couleurs fantômes du revers traversent les branches inférieures."
+      },
+      "V08": {
+        "position": [
+          "f88v",
+          1,
+          1
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Parties pâles des tiges supérieures possiblement écourtées par le haut du parchemin."
+      },
+      "V09": {
+        "position": [
+          "f88r",
+          2,
+          1
+        ],
+        "A": [
+          "Aquilegia",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Contours frôlant le récipient de gauche. Le filet inférieur qui longe le récipient est isolé au mieux."
+      },
+      "V10": {
+        "position": [
+          "f88v",
+          3,
+          1
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Extrémité basse pâle et tronquée par le bord. Petite exclusion près de la ligne au-dessus du sommet."
+      },
+      "V11": {
+        "position": [
+          "f88r",
+          3,
+          1
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Plusieurs filaments inférieurs au contact de la première ligne de texte. Pointes exclues au besoin."
+      },
+      "V12": {
+        "position": [
+          "f88r",
+          4,
+          1
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Partie du limbe inférieur interrompue par le bord physique."
+      },
+      "V13": {
+        "position": [
+          "f88v",
+          2,
+          1
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Un pigment vert diffus sous la couronne peut provenir du revers."
+      },
+      "V14": {
+        "position": [
+          "f88r",
+          2,
+          2
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Le rameau recourbé et son organe vert semblent reliés à la racine sombre."
+      },
+      "V15": {
+        "position": [
+          "f88v",
+          1,
+          2
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Aucune ambiguïté majeure du contour observée."
+      },
+      "V16": {
+        "position": [
+          "f88v",
+          3,
+          2
+        ],
+        "A": [
+          "Cardamine",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Le contour supérieur du bouquet et des pousses verticales est très proche de la ligne précédente."
+      },
+      "V17": {
+        "position": [
+          "f88r",
+          2,
+          4
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Les filets à gauche croisent le fragment voisin. Feuillage de droite et extrémités arrêtés par le bord de la page."
+      },
+      "V18": {
+        "position": [
+          "f88r",
+          1,
+          4
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Une couronne et deux lobes centraux traités comme un seul fragment. Les taches vertes de l’autre face ne sont pas attribuées."
+      },
+      "V19": {
+        "position": [
+          "f88r",
+          3,
+          2
+        ],
+        "A": [
+          "Hydrocotyle",
+          "faible"
+        ],
+        "B": [
+          "Hydrocotyle",
+          "faible"
+        ],
+        "accord_nomme": true,
+        "accord_decide": false,
+        "limite_recadrage": "Les filets sont tronqués par le bord droit médiéval."
+      },
+      "V20": {
+        "position": [
+          "f88r",
+          1,
+          5
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Inscription au contact de la couronne retirée avec quelques pixels du dessin. Feuille isolée à droite reliée par un arc pâle."
+      },
+      "V21": {
+        "position": [
+          "f88v",
+          2,
+          3
+        ],
+        "A": [
+          "Polygonatum",
+          "faible"
+        ],
+        "B": [
+          null,
+          "abstention"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Longs filets contigus à la ligne de texte et aux bords du pli. Pointes proches du texte exclues."
+      },
+      "V22": {
+        "position": [
+          "f88v",
+          1,
+          3
+        ],
+        "A": [
+          null,
+          "abstention"
+        ],
+        "B": [
+          "Aconitum",
+          "faible"
+        ],
+        "accord_nomme": false,
+        "accord_decide": false,
+        "limite_recadrage": "Deux filets voisins en bas à droite. Contour séparé de la figure suivante."
+      }
+    },
+    "lecteurs": {
+      "A": {
+        "abstention": 16,
+        "faible": 6
+      },
+      "B": {
+        "abstention": 18,
+        "faible": 4
+      }
+    },
+    "nommes_par_au_moins_un": [
+      "V02",
+      "V03",
+      "V04",
+      "V07",
+      "V09",
+      "V16",
+      "V19",
+      "V21",
+      "V22"
+    ],
+    "nombre_nommes_par_au_moins_un": 9,
+    "abstention_des_deux": 13,
+    "accord_nomme_toutes_confiances": [
+      "V19"
+    ],
+    "accord_decide": [],
+    "ancres_eligibles": 0,
+    "plantes_distinctes_requises": 3,
+    "seuil_atteint": false
+  },
+  "verification_materielle": {
+    "empreintes_conformes_cartes_et_planches": {
+      "H": 10,
+      "V": 26
+    },
+    "empreintes_conformes_sources_H": 8,
+    "empreintes_conformes_masques_H": 8,
+    "empreintes_conformes_legendes_H": 8,
+    "empreintes_conformes_scans_V": 2,
+    "positions_et_recadrages_concordants": 22
+  },
+  "rattachement": {
+    "rangees_visuelles": {
+      "f88r": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "f88v": [
+        4,
+        3,
+        3
+      ]
+    },
+    "series_identifiants_sans_texte": {
+      "f88r": [
+        [
+          2,
+          6
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "f88v": [
+        [
+          2,
+          5
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          28,
+          30
+        ]
+      ]
+    },
+    "reserve": "Positions des dessins établies ; sur f88r les groupes visuels et les suites d’identifiants ne coïncident pas. V12 au bas de la page semble sans étiquette adjacente. V19 est tronqué par le bord, ses feuilles et son collet restent visibles. Appariement exact des transcriptions non établi."
+  },
+  "limites": "Deux lecteurs IA, dépendance des connaissances ou des erreurs possible. Deux Artemisia et deux Renonculacées dans les huit témoins. Groupe historique H07 plus large que le genre moderne strict. Essais de substitution, f99 et prose non déclenchés."
+}

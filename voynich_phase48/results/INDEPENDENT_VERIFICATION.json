@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "frozen_files": 15,
+  "upstream_code_executed": false,
+  "analysis_code_imported": false,
+  "code_adaptation_hashes_verified": true,
+  "context_vocabularies_checked": 5,
+  "distinct_generated_inputs_reconstructed": 41,
+  "control_runs_checked": 205,
+  "clauses_reconstructed_and_identity_checked": 1635,
+  "control_metric_rows_recomputed": 205,
+  "published_rows_lexical_identity_checked": 199,
+  "published_core_rows_independently_reconstructed": 4,
+  "shuffle_trials_per_metric": 200,
+  "semantic_renaming_cases_checked": 2,
+  "periodic_predictions": [
+    {
+      "context": "botanical",
+      "N": 901,
+      "C": 1,
+      "lexicon_alignment": 0.9989,
+      "z_score": 132.327
+    },
+    {
+      "context": "astral",
+      "N": 901,
+      "C": 1,
+      "lexicon_alignment": 0.9989,
+      "z_score": 132.327
+    },
+    {
+      "context": "baths",
+      "N": 901,
+      "C": 1,
+      "lexicon_alignment": 0.9989,
+      "z_score": 132.327
+    },
+    {
+      "context": "poultice",
+      "N": 901,
+      "C": 1,
+      "lexicon_alignment": 0.9989,
+      "z_score": 132.327
+    },
+    {
+      "context": "closing",
+      "N": 901,
+      "C": 1,
+      "lexicon_alignment": 0.9989,
+      "z_score": 132.327
+    }
+  ],
+  "sensitivity_identity_mapping_drop_pct": 100.0,
+  "summary_exactly_reproduced": true,
+  "limits": [
+    "No independent semantic ground truth or translation verified.",
+    "Generators reconstructed exactly from fixed seeds; they are synthetic controls, not historical manuscript models.",
+    "General English renderer not independently reimplemented; periodic rendering predicted explicitly and archived replay strings checked for consistency.",
+    "BERT, full CLI, plots and general sensitivity behavior remain outside this verification.",
+    "199 published rows are source artifacts, not 199 independent manuscripts."
+  ],
+  "decipherment_goal_achieved": false
+}

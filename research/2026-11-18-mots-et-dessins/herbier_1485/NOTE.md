@@ -1,0 +1,16 @@
+# Quand un herbier écrit-il « herbe » ?
+
+Les douze premiers chapitres numérotés de l'exemplaire de Munich du *Gart der Gesundheit*, imprimé à Mayence le 28 mars 1485, forment la série. Leurs douze titres désignent des végétaux particuliers. Dix pages portent en plus, au-dessus de ce titre, l'image d'une plante. Les pages de titre des chapitres III et IX n'ont pas de vignette. La planche de douze pages conserve ce contrôle visuel. [Exemplaire de la Bayerische Staatsbibliothek](https://www.digitale-sammlungen.de/view/bsb00032739) · [Description de l'édition](https://kdih.badw.de/datenbank/druck/70/3/a)
+
+| Dans la série | Titres donnant le nom particulier | Titres avec un mot autonome pour « plante », « herbe » ou « racine » | Débuts de prose contenant « herbe » (24 mots) |
+| --- | ---: | ---: | ---: |
+| Douze chapitres consécutifs | 12/12 | 0/12 | 5/12 |
+| Image et titre sur la même page | 10/10 | 0/10 | 4/10 |
+
+Au chapitre V, la plante s'élève au-dessus du titre *Agrimonia odermynge*. Dans l'ouverture du paragraphe, on lit *diß krut*, « cette herbe ». Le groupe figure à la troisième ligne sous le titre. Deux autres titres se terminent par un nom composé en *-wortz*, *Stabwortz* (II) et *hoilwortz* (X). Le suffixe reste visible même lorsque le titre entier désigne le végétal. Le chapitre IV montre trois bulbes avec leurs pousses et donne *Allium knobelauch*, l'ail. [Photographie, chapitre V](https://www.digitale-sammlungen.de/view/bsb00032739?page=22) · [Chapitre IV](https://www.digitale-sammlungen.de/view/bsb00032739?page=19)
+
+Le protocole de sélection des titres a précédé le comptage. Le contrôle dans les 24 premiers mots de prose a été ajouté après lecture des titres. On y trouve *herbarum*, *krude* (I) et *krut* (V, VII, VIII, IX). Ces six lectures ne sont pas signalées incertaines dans la transcription de travail du projet. Cette transcription assistée par OCR et revue sur les photos de la bibliothèque peut contenir des erreurs. Le passage clef du chapitre V a aussi été revu sur le scan pour cette étude. Le compte porte sur une série initiale alphabétique d'un ouvrage bilingue latin-allemand, et ne s'étend pas au reste de ses notices.
+
+Reproduction avec la bibliothèque standard Python : `python3 compter.py corpus.json`. Le champ de titre de la transcription contient la rubrique lexicale et omet la numérotation qui se voit sur l'image. Le fichier `compte.json` garde les douze titres, les identifiants, la présence de l'image et le détail des occurrences dans le paragraphe. Les scans proviennent du dossier `research/2026-11-17-plantes-repetees/historique/preuves_gart.zip` du dépôt. Le montage `pages.jpg` et le détail du chapitre V permettent le contrôle visuel.
+
+Comparaison complémentaire dans un autre support. Le catalogue Epact donne vingt désignations d'étoiles gravées sur le réseau d'un astrolabe français conservé au British Museum, daté avec réserve de la fin du XVe siècle. Parmi ces formes, *wega*, *spica* et *rigil* désignent des étoiles particulières. La liste ne comporte aucun mot *stella*. Cet exemple a été trouvé expressément pour illustrer le cas de l'astronomie et ne constitue pas une estimation des pratiques des atlas. [Notice de Silke Ackermann pour le British Museum](https://www.mhs.ox.ac.uk/epact/catalogue.php?ENumber=94204&Level=Detail)

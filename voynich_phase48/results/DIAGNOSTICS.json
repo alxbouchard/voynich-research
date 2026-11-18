@@ -1,0 +1,104 @@
+{
+  "permutation_results": [
+    {
+      "all_metrics_identical": true,
+      "context": "botanical",
+      "family": "uniform_eva",
+      "metrics_after": {
+        "baseline_mean_conc": 0.2744,
+        "baseline_std_conc": 0.023294,
+        "bigram_entropy_bits": 6.056,
+        "clauses_kept": 1,
+        "lexicon_alignment": 0.9905,
+        "p_value_one_tailed": 0.852315,
+        "top10_bigram_conc": 0.25,
+        "type_token_ratio": 0.1619,
+        "unigram_entropy_bits": 3.5211,
+        "z_score": -1.046
+      },
+      "metrics_before": {
+        "baseline_mean_conc": 0.2744,
+        "baseline_std_conc": 0.023294,
+        "bigram_entropy_bits": 6.056,
+        "clauses_kept": 1,
+        "lexicon_alignment": 0.9905,
+        "p_value_one_tailed": 0.852315,
+        "top10_bigram_conc": 0.25,
+        "type_token_ratio": 0.1619,
+        "unigram_entropy_bits": 3.5211,
+        "z_score": -1.046
+      },
+      "sample": 0,
+      "token_labels_changed": 104
+    },
+    {
+      "all_metrics_identical": true,
+      "context": "botanical",
+      "family": "unit_draws",
+      "metrics_after": {
+        "baseline_mean_conc": 0.2644,
+        "baseline_std_conc": 0.028749,
+        "bigram_entropy_bits": 5.1503,
+        "clauses_kept": 15,
+        "lexicon_alignment": 0.7887,
+        "p_value_one_tailed": 0.0,
+        "top10_bigram_conc": 0.4286,
+        "type_token_ratio": 0.2394,
+        "unigram_entropy_bits": 3.8809,
+        "z_score": 5.712
+      },
+      "metrics_before": {
+        "baseline_mean_conc": 0.2644,
+        "baseline_std_conc": 0.028749,
+        "bigram_entropy_bits": 5.1503,
+        "clauses_kept": 15,
+        "lexicon_alignment": 0.7887,
+        "p_value_one_tailed": 0.0,
+        "top10_bigram_conc": 0.4286,
+        "type_token_ratio": 0.2394,
+        "unigram_entropy_bits": 3.8809,
+        "z_score": 5.712
+      },
+      "sample": 0,
+      "token_labels_changed": 56
+    }
+  ],
+  "semantic_label_permutation": {
+    "aqua": "caput",
+    "caput": "clavis",
+    "clavis": "coquere",
+    "coquere": "dare",
+    "dare": "et",
+    "et": "femina",
+    "femina": "herba",
+    "herba": "humus",
+    "humus": "in",
+    "in": "luna",
+    "luna": "lux",
+    "lux": "oleum",
+    "oleum": "pax",
+    "pax": "physis",
+    "physis": "quando",
+    "quando": "radialis",
+    "radialis": "sanguis",
+    "sanguis": "tempus",
+    "tempus": "vitalis",
+    "vitalis": "aqua"
+  },
+  "sensitivity_identity_mapping": {
+    "drop_ratio": 0,
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "number_units_selected": 1,
+    "permutation_of_single_value_is_identity": true,
+    "processed_clauses": [
+      [
+        "aqua",
+        "usa"
+      ]
+    ],
+    "processed_entropy": 0.9999999999971146,
+    "raw_entropy": -1.4428232973175175e-12,
+    "raw_token_count": 100,
+    "reported_drop_pct": 100.0
+  }
+}

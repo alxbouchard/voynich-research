@@ -1,0 +1,331 @@
+{
+  "status": "completed_bounded_visual_inventory_of_printed_arabic_table",
+  "recorded_utc": "2026-11-17T20:45:10.654053+00:00",
+  "edition": "Al-Biruni, Chronologie orientalischer Volker, edited by C.Edward Sachau, Leipzig:F.A.Brockhaus,1878",
+  "scope": "28 rows of the Arabic table on printed pp.347-348; no further search or Voynich comparison.",
+  "transcription_convention": {
+    "script": "Arabic Unicode transcription of nineteenth-century printed Arabic, not Latin transliteration.",
+    "vocalization": "Short-vowel marks, shadda, sukun, superscript vowels and typographic elongation are not encoded; consonant dots are retained.",
+    "hamza_and_alif": "No global folding or restoration rule applied. Standalone hamza in العواء and waw-with-hamza in المؤخر retained; no modern hamza added to الاكليل or الاخبية.",
+    "final_letter": "Dotless final ya-shaped letter at16 encoded ى; see per-entry reservation.",
+    "numeration": "Ordinal1-28 is editorial indexing of physical table rows, not a claim that all prose headings are numbered.",
+    "reader_limit": "One AI visual reader; no independent expert Arabic transcription or diplomatic medieval-manuscript verification."
+  },
+  "source_integrity": {
+    "file": "sources/sachau1878.pdf",
+    "sha256": "debe785f83bbc57c5c488403eb560739a8b738191d6fbaf865306336cd6b3ad8",
+    "bytes": 25385593,
+    "url": "https://www.wilbourhall.org/pdfs/albiruni/albiruni.pdf",
+    "scan_provenance": "PDF metadata says Bibliotheque nationale de France; scan obtained from a public mirror, not directly from a recovered Gallica item URL."
+  },
+  "table_integrity": {
+    "rows": 28,
+    "page347_rows": 11,
+    "page348_rows": 17,
+    "entry18_present": true,
+    "apparatus_note": "The table has a note on p.348: Diese Tabelle fehlt in L. Thus it is absent from witness L according to the editor; this is not an independent medieval manuscript readback."
+  },
+  "other_acquired_source": {
+    "file": "sources/harvard1878.pdf",
+    "sha256": "795198ce6385aa125b4139c1808219c95b8cfd89efb409dcfc56e591db06e502",
+    "url": "https://archive.org/download/chronologieorie00sachgoog/chronologieorie00sachgoog_text.pdf",
+    "catalogue": "https://archive.org/details/chronologieorie00sachgoog",
+    "metadata": "Google scan of Harvard University copy, year1878, NOT_IN_COPYRIGHT; size and MD5 matched downloaded IA metadata.",
+    "verification_limit": "Acquired and OCR inspected for location only. Complete visual collation against the BnF scan was not finished before the pause; this table does not claim two-reader or two-scan validation."
+  },
+  "entries": [
+    {
+      "ordinal": 1,
+      "arabic_unvocalized": "الشرطان",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 1,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 2,
+      "arabic_unvocalized": "البطين",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 2,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 3,
+      "arabic_unvocalized": "الثريا",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 3,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 4,
+      "arabic_unvocalized": "الدبران",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 4,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 5,
+      "arabic_unvocalized": "الهقعة",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 5,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 6,
+      "arabic_unvocalized": "الهنعة",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 6,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 7,
+      "arabic_unvocalized": "الذراع",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 7,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 8,
+      "arabic_unvocalized": "النثرة",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 8,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 9,
+      "arabic_unvocalized": "الطرف",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 9,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 10,
+      "arabic_unvocalized": "الجبهة",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 10,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 11,
+      "arabic_unvocalized": "الزبرة",
+      "printed_page": 347,
+      "source_pdf_page_one_based": 128,
+      "table_row_on_page": 11,
+      "source_image": "rendered/page-128.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 12,
+      "arabic_unvocalized": "الصرفة",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 1,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 13,
+      "arabic_unvocalized": "العواء",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 2,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 14,
+      "arabic_unvocalized": "السماك",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 3,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "text_table_difference": "Table has السماك; the prose heading at p.344 is expanded. This record transcribes the table only."
+    },
+    {
+      "ordinal": 15,
+      "arabic_unvocalized": "الغفر",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 4,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 16,
+      "arabic_unvocalized": "الزبانى",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 5,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "reading_reservation": "Final dotless ya-shaped letter encoded as ى; this Unicode choice is not a claim about the original pronunciation."
+    },
+    {
+      "ordinal": 17,
+      "arabic_unvocalized": "الاكليل",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 6,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "orthography_note": "Bare alif retained as read; no hamza added from modern standard spelling."
+    },
+    {
+      "ordinal": 18,
+      "arabic_unvocalized": "القلب",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 7,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "critical_note": "Present in this table. The prose at printed p.345 omits the corresponding section; apparatus explicitly says: Lücke; fehlt der Abschnitt über القلب. Do not claim28 surviving prose headings."
+    },
+    {
+      "ordinal": 19,
+      "arabic_unvocalized": "الشولة",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 8,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 20,
+      "arabic_unvocalized": "النعائم",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 9,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 21,
+      "arabic_unvocalized": "البلدة",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 10,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 22,
+      "arabic_unvocalized": "سعد الذابح",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 11,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 23,
+      "arabic_unvocalized": "سعد بلع",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 12,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 24,
+      "arabic_unvocalized": "سعد السعود",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 13,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    },
+    {
+      "ordinal": 25,
+      "arabic_unvocalized": "سعد الاخبية",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 14,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "orthography_note": "Bare alif retained as read; no hamza added from modern standard spelling."
+    },
+    {
+      "ordinal": 26,
+      "arabic_unvocalized": "الفرغ المقدم",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 15,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "text_table_difference": "Table uses المقدم / المؤخر; prose p.346 uses الأول / الثاني. These witnesses within the same edition are recorded separately, not silently harmonized."
+    },
+    {
+      "ordinal": 27,
+      "arabic_unvocalized": "الفرغ المؤخر",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 16,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table",
+      "text_table_difference": "Table uses المقدم / المؤخر; prose p.346 uses الأول / الثاني. These witnesses within the same edition are recorded separately, not silently harmonized."
+    },
+    {
+      "ordinal": 28,
+      "arabic_unvocalized": "بطن الحوت",
+      "printed_page": 348,
+      "source_pdf_page_one_based": 127,
+      "table_row_on_page": 17,
+      "source_image": "rendered/page-127.png",
+      "source": "sources/sachau1878.pdf",
+      "status": "visually_read_from_table"
+    }
+  ],
+  "limitations": [
+    "The work is medieval; the source directly read is its1878 Arabic edition. No medieval manuscript spelling is certified.",
+    "The table and surviving prose differ; record18 and26/27 explicitly preserve this distinction.",
+    "No abbreviated Voynich result was consulted. No word-to-word alignment, language attribution, key, decipherment or translation is asserted.",
+    "No further research after the request to finish the begun verification and pause."
+  ]
+}

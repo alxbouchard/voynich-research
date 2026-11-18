@@ -1,0 +1,20 @@
+{
+  "status": "EXACT_GLOBAL_OPTIMUM_INDEPENDENTLY_VERIFIED",
+  "maximum_covered": 12,
+  "minimum_exceptions": 7,
+  "impossible_threshold_checked": 13,
+  "eligible_configurations": 27,
+  "ordinary_subsets_enumerated": 96565,
+  "pairwise_candidates_CSP_checked": 322,
+  "variable_CSP_nodes": 385,
+  "method": "Enumerate ordinary combinations at optimum+1 instead of the producer's clique enumerator; solve using variable-domain branching instead of recursive relation-row joins. All excluded configurations have independently checked stronger clique-cover bounds. Directly apply the constructive map to all original selected labels.",
+  "input_hashes": {
+    "CIRCLE_AUDIT.json.gz": "31dc132d9c4bbc7a3d4b07e0faa51dfca49ff8dc5f5d3dc3f65414b69845c7bc",
+    "CIRCLE_VERIFICATION.json": "87894e2b2b5f393f072024fd883a32b43156c71998e0195878a6213fa85dae10",
+    "EXACT_COVERAGE.json": "b9629548c6d6c81dd78f8038e26af8a84eec9d2842992b51c9f7381ca2b3c825",
+    "verify_circle.py": "b2c6e374ae1081a4f7be5575a7d6e7a21a9f5d2ff372fc6a26344d694b918794",
+    "circle_audit.py": "1928aed1f3861bb41b43303ac8af3d5908270c20af784571e83b60ca1b6b9622"
+  },
+  "verifier_sha256": "e3b0a0cc16fba19acd2046bc6d55a0089486621f2bd0a100f2113c5e808b0a58",
+  "semantic_result": false
+}

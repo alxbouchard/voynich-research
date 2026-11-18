@@ -1,0 +1,276 @@
+{
+  "scope": "After-outcome explanation using known control answers; no parameter change or new validation.",
+  "cases": [
+    {
+      "case": "c00_allography",
+      "fit_pairs": 5,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "m",
+            "i",
+            "z",
+            "a"
+          ],
+          "source_cipher": "m",
+          "target_cipher": "n",
+          "line_initial_plain": "takes",
+          "interior_plain": "makes",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        }
+      ]
+    },
+    {
+      "case": "c01_allography",
+      "fit_pairs": 7,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "w",
+            "k",
+            "w"
+          ],
+          "source_cipher": "x",
+          "target_cipher": "v",
+          "line_initial_plain": "here",
+          "interior_plain": "were",
+          "fit_pair_correct": true,
+          "n_initial": 3,
+          "n_interior": 1
+        }
+      ]
+    },
+    {
+      "case": "c02_allography",
+      "fit_pairs": 9,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "a",
+            "o",
+            "o",
+            "m",
+            "e"
+          ],
+          "source_cipher": "n",
+          "target_cipher": "q",
+          "line_initial_plain": "fellow",
+          "interior_plain": "yellow",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 2
+        }
+      ]
+    },
+    {
+      "case": "c03_allography",
+      "fit_pairs": 8,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "g",
+            "s",
+            "s",
+            "r",
+            "v"
+          ],
+          "source_cipher": "y",
+          "target_cipher": "x",
+          "line_initial_plain": "fellow",
+          "interior_plain": "yellow",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 2
+        },
+        {
+          "tail_cipher": [
+            "o",
+            "i",
+            "g"
+          ],
+          "source_cipher": "h",
+          "target_cipher": "v",
+          "line_initial_plain": "life",
+          "interior_plain": "wife",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        },
+        {
+          "tail_cipher": [
+            "r",
+            "v",
+            "f"
+          ],
+          "source_cipher": "j",
+          "target_cipher": "m",
+          "line_initial_plain": "town",
+          "interior_plain": "down",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 3
+        }
+      ]
+    },
+    {
+      "case": "c04_allography",
+      "fit_pairs": 1,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "insufficient_support_or_coverage",
+      "witness_examples": []
+    },
+    {
+      "case": "c05_allography",
+      "fit_pairs": 7,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "m",
+            "x",
+            "m",
+            "l",
+            "m",
+            "h"
+          ],
+          "source_cipher": "j",
+          "target_cipher": "o",
+          "line_initial_plain": "hazanas",
+          "interior_plain": "fazanas",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        },
+        {
+          "tail_cipher": [
+            "y",
+            "l",
+            "b",
+            "p"
+          ],
+          "source_cipher": "j",
+          "target_cipher": "b",
+          "line_initial_plain": "hinco",
+          "interior_plain": "cinco",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        }
+      ]
+    },
+    {
+      "case": "c06_allography",
+      "fit_pairs": 5,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "supported_partial_normalization",
+      "witness_examples": []
+    },
+    {
+      "case": "c07_allography",
+      "fit_pairs": 8,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "supported_partial_normalization",
+      "witness_examples": []
+    },
+    {
+      "case": "c08_allography",
+      "fit_pairs": 8,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "n",
+            "b",
+            "u"
+          ],
+          "source_cipher": "x",
+          "target_cipher": "l",
+          "line_initial_plain": "pres",
+          "interior_plain": "tres",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        }
+      ]
+    },
+    {
+      "case": "c09_allography",
+      "fit_pairs": 8,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "supported_partial_normalization",
+      "witness_examples": []
+    },
+    {
+      "case": "c10_allography",
+      "fit_pairs": 5,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "k",
+            "y",
+            "o",
+            "k"
+          ],
+          "source_cipher": "u",
+          "target_cipher": "u",
+          "line_initial_plain": "peine",
+          "interior_plain": "veine",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        },
+        {
+          "tail_cipher": [
+            "q",
+            "c"
+          ],
+          "source_cipher": "c",
+          "target_cipher": "w",
+          "line_initial_plain": "cas",
+          "interior_plain": "pas",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 7
+        }
+      ]
+    },
+    {
+      "case": "c11_allography",
+      "fit_pairs": 5,
+      "incorrect_fit_pairs": 0,
+      "witness_reason": "contradiction",
+      "witness_examples": [
+        {
+          "tail_cipher": [
+            "f",
+            "c",
+            "c",
+            "s",
+            "n"
+          ],
+          "source_cipher": "r",
+          "target_cipher": "v",
+          "line_initial_plain": "pommes",
+          "interior_plain": "hommes",
+          "fit_pair_correct": true,
+          "n_initial": 1,
+          "n_interior": 1
+        }
+      ]
+    }
+  ]
+}

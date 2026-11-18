@@ -1,0 +1,104 @@
+[
+  {
+    "name": "f70v1_11",
+    "oid": "1006201",
+    "box_xyxy": [
+      550,
+      1050,
+      1100,
+      1850
+    ],
+    "source_sha256": "c8f24b6be5451aba49eb793784c43cb7fc8341dca8a58ff43fc1eebf4877b60c",
+    "path": "evidence/diagnostic/f70v1_11.png",
+    "sha256": "7a6c3353f1986d38ddefb5718d824a61b95583b205365fe121b98c332a8d66ab",
+    "status": "Exploratory crop selected after seeing divergent token comparisons; no change to frozen results. Clock-based localization to be visually checked.",
+    "localization_readback": "f70v1.11 located; inspection retains a/o uncertainty"
+  },
+  {
+    "name": "f70v1_16",
+    "oid": "1006201",
+    "box_xyxy": [
+      1950,
+      2150,
+      2580,
+      2850
+    ],
+    "source_sha256": "c8f24b6be5451aba49eb793784c43cb7fc8341dca8a58ff43fc1eebf4877b60c",
+    "path": "evidence/diagnostic/f70v1_16.png",
+    "sha256": "218938a44a0ad66c72fa1434a638a52cc0396fde10234f9de0e120c760760473",
+    "status": "Exploratory crop selected after seeing divergent token comparisons; no change to frozen results. Clock-based localization to be visually checked.",
+    "localization_readback": "Initial clock-only crop selected the wrong ring or adjacent area. Retained as an unsuccessful localization attempt; not used to adjudicate this locus."
+  },
+  {
+    "name": "f71r_13",
+    "oid": "1006202",
+    "box_xyxy": [
+      780,
+      650,
+      1200,
+      1050
+    ],
+    "source_sha256": "6405841a75a8fa24dd9e5c93ad090ee56bf26c77757f3b1634487e27b509e61b",
+    "path": "evidence/diagnostic/f71r_13.png",
+    "sha256": "198049148da47db90ce348a192c6221218330945c4be21f11a4741b1c6fac805",
+    "status": "Exploratory crop selected after seeing divergent token comparisons; no change to frozen results. Clock-based localization to be visually checked.",
+    "localization_readback": "Initial clock-only crop selected the wrong ring or adjacent area. Retained as an unsuccessful localization attempt; not used to adjudicate this locus."
+  },
+  {
+    "name": "f71r_17",
+    "oid": "1006202",
+    "box_xyxy": [
+      400,
+      2050,
+      1170,
+      2680
+    ],
+    "source_sha256": "6405841a75a8fa24dd9e5c93ad090ee56bf26c77757f3b1634487e27b509e61b",
+    "path": "evidence/diagnostic/f71r_17.png",
+    "sha256": "51da3dda0adea444dfef1986ed3409686eeb28441514b3858b7f8b9a8abb558e",
+    "status": "Exploratory crop selected after seeing divergent token comparisons; no change to frozen results. Clock-based localization to be visually checked.",
+    "localization_readback": "Initial clock-only crop selected the wrong ring or adjacent area. Retained as an unsuccessful localization attempt; not used to adjudicate this locus."
+  },
+  {
+    "name": "f70v1_16_inner",
+    "oid": "1006201",
+    "box_xyxy": [
+      1250,
+      1970,
+      1950,
+      2300
+    ],
+    "source_sha256": "c8f24b6be5451aba49eb793784c43cb7fc8341dca8a58ff43fc1eebf4877b60c",
+    "path": "evidence/diagnostic/f70v1_16_inner.png",
+    "sha256": "11eaf97a9c8bb9f5a5753d5a869bc4740dd52e0eb13366cf45fffa0da1ae6172",
+    "status": "Exploratory second localization after distinguishing the inner and outer label rings; frozen token results unchanged."
+  },
+  {
+    "name": "f71r_13_inner",
+    "oid": "1006202",
+    "box_xyxy": [
+      900,
+      1000,
+      1500,
+      1400
+    ],
+    "source_sha256": "6405841a75a8fa24dd9e5c93ad090ee56bf26c77757f3b1634487e27b509e61b",
+    "path": "evidence/diagnostic/f71r_13_inner.png",
+    "sha256": "85cdaa8b6877dfec192f70a1e9ebd242f20c025a283d2f96558433dc2cb0e614",
+    "status": "Exploratory second localization after distinguishing the inner and outer label rings; frozen token results unchanged."
+  },
+  {
+    "name": "f71r_17_inner",
+    "oid": "1006202",
+    "box_xyxy": [
+      530,
+      1450,
+      1000,
+      1950
+    ],
+    "source_sha256": "6405841a75a8fa24dd9e5c93ad090ee56bf26c77757f3b1634487e27b509e61b",
+    "path": "evidence/diagnostic/f71r_17_inner.png",
+    "sha256": "69b8aca7c544be37087c253a5e8018fc6827263e9ca9bbb3e02ede20fc3085a7",
+    "status": "Exploratory second localization after distinguishing the inner and outer label rings; frozen token results unchanged."
+  }
+]

@@ -1,0 +1,11 @@
+# Sources et droits
+
+Cette phase conserve les sources et les références linguistiques de phase28 à l’octet près. [Provenance de phase28](../docs/PIECES_REFERENCES.md#piece-768dd918122e54) ; [correspondances et empreintes de phase29](../docs/PIECES_REFERENCES.md#piece-f2709d4fb6b9a1). Aucun nouveau téléchargement ou changement d’édition n’a été effectué.
+
+Apulée, *Metamorphoses*, Stephen Gaselee1915, Perseus Digital Library/Tufts University. En-tête XML et crédits conservés dans [apuleius.xml](../docs/PIECES_REFERENCES.md#piece-96dc6ab686b195), dépôt fixé au commit8b536bdf3ed1f43494055efe112433b4a58eab67. Le [README Perseus conservé](../docs/PIECES_REFERENCES.md#piece-17a408c875d47e) précise CC BY-SA4.0 sauf indication contraire. Les dérivés normalisés restent sous [CC BY-SA4.0](https://creativecommons.org/licenses/by-sa/4.0/) avec les transformations de phase28 déclarées : retrait des notes et normalisation de caractères. Aucune correction éditoriale du texte source n’est proposée et aucun message n’a été envoyé.
+
+Alessandro Manzoni, *I promessi sposi*, Hoepli1905, Project Gutenberg45334. Crédits : Giovanni Fini et Online Distributed Proofreading Team, images Internet Archive/Canadian Libraries. Le téléchargement complet et sa licence sont inclus dans [manzoni.txt](../docs/PIECES_REFERENCES.md#piece-68f2acd1c410c1), avec les éléments exclus des calculs. Les dérivés analytiques accompagnent cette source complète sans frais ni publication externe.
+
+This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at [www.gutenberg.org](https://www.gutenberg.org/policy/license.html). If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
+
+Références linguistiques César et Dante : fichiers historiques de phase10, conservés via les phases27/28. Aucune nouvelle licence globale n’est attribuée aux sources tierces. Les chiffrés, clés et alignements de contrôle sont des constructions expérimentales. Ils ne constituent aucune transcription nouvelle, traduction ou lecture du Voynich.

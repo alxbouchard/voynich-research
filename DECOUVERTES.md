@@ -1,0 +1,55 @@
+# Découvertes et expériences du projet Voynich
+
+Les rapports distinguent les lectures des signes, les ressemblances visuelles et les essais où une règle devait prédire un élément tenu à l’écart. Aucun passage du manuscrit ne dispose encore d’une traduction vérifiée. Les identifiants en caractères latins, tels que `okol`, désignent la forme des signes dans une translittération.
+
+## Phases numérotées
+
+| Phases | Question et résultat | Rapports |
+|---|---|---|
+| 1–3 | Établissement du corpus, comparaison des hypothèses et transcription pilote de douze pages. | [1](docs/phases/01_rapport_integral.txt) · [2](docs/phases/02_rapport_integral.txt) · [3](docs/phases/03_rapport_integral.txt) |
+| 4–6 | Des substitutions homophoniques aux systèmes syllabiques. Les essais produisent des contraintes graphiques sans fixer une langue source. | [4](docs/phases/04_rapport_integral.txt) · [5](docs/phases/05_rapport_integral.txt) · [6](docs/phases/06_rapport_integral.txt) |
+| 7–10 | Frontières de mots, variantes sur les photographies, dépendances entre groupes et substitutions contextuelles. | [7](docs/phases/07_rapport_integral.txt) · [8](docs/phases/08_rapport_integral.txt) · [9](docs/phases/09_rapport_integral.txt) · [10](docs/phases/10_rapport_integral.txt) |
+| 11–13 | Audit de décodeurs, des règles proposées et de l’appariement à des lexiques. | [11](docs/phases/11_rapport_integral.txt) · [12](docs/phases/12_rapport_integral.txt) · [13](docs/phases/13_rapport_integral.txt) |
+| 14–17 | Étiquettes illustrées, variations entre feuillets, annotations historiques et captures multispectrales. | [14](docs/phases/14_rapport_integral.txt) · [15](docs/phases/15_rapport_integral.txt) · [16](docs/phases/16_rapport_integral.txt) · [17](docs/phases/17_rapport_integral.txt) |
+| 18–19 | Le signal latin en finale se reproduit dans quatre des six nouveaux textes de Markov sans message. | [18](voynich_phase18/RAPPORT.md) · [19](voynich_phase19/RAPPORT.md) |
+| 20–22 | En découpant des textes chiffrés à clé inconnue, le dernier correctif restaure zéro frontière et ajoute zéro fausse coupure sur douze nouveaux passages. | [20](voynich_phase20/RAPPORT.md) · [21](voynich_phase21/RAPPORT.md) · [22](voynich_phase22/RAPPORT.md) |
+| 23–27 | Étiquettes et prose ont des débuts différents. Les générateurs, la rareté des dessins indépendants et les invariants de substitution limitent l’interprétation. | [23](voynich_phase23/RAPPORT.md) · [24](voynich_phase24/RAPPORT.md) · [25](voynich_phase25/RAPPORT.md) · [26](voynich_phase26/RAPPORT.md) · [27](voynich_phase27/RAPPORT.md) |
+| 28–30 | Sur contrôles synthétiques, la récupération complète devient possible avec 26 mots clairs alignés et un témoin de 9 mots. Aucun tel alignement historique n’a été établi. | [28](voynich_phase28/RAPPORT.md) · [29](voynich_phase29/RAPPORT.md) · [30](voynich_phase30/RAPPORT.md) |
+| 31–35 | Les noms des mois et les désaccords sur les espaces et le signe a/o ne donnent pas de lecture commune robuste des étiquettes d’avril. | [31](voynich_phase31/RAPPORT.md) · [32](voynich_phase32/RAPPORT.md) · [33](voynich_phase33/RAPPORT.md) · [34](voynich_phase34/RAPPORT.md) · [35](voynich_phase35/RAPPORT.md) |
+| 36–37 | La correction récupère les douze clés stables, mais accepte une clé mélangée et livre dix-huit mots erronés. | [36](voynich_phase36/RAPPORT.md) · [37](voynich_phase37/RAPPORT.md) |
+| 38–40 | Une clé publiée obtient aussi des scores sur des textes sans message. Les développements d’abréviations et cinq lectures astronomiques restent ambigus. | [38](voynich_phase38/RAPPORT.md) · [39](voynich_phase39/RAPPORT.md) · [40](voynich_phase40/RAPPORT.md) |
+| 41–44 | Répétitions de f57v, marques de f49v, décodeur publié et lectures séparées de la marge de f17r. Aucune clé validée. | [41](voynich_phase41/RAPPORT.md) · [42](voynich_phase42/RAPPORT.md) · [43](voynich_phase43/RAPPORT.md) · [44](voynich_phase44/RAPPORT.md) |
+| 45–46 | La proximité approximative entre étiquettes et prose botanique ne se retrouve pas sur les autres rapprochements de plantes. | [45](voynich_phase45/RAPPORT.md) · [46](voynich_phase46/RAPPORT.md) |
+| 47–49 | Limites du répertoire Naibbe, score circulaire du décodeur CMM et moteur CTTS. CTTS récupère huit clés témoins mais ses huit candidats sur le Voynich échouent au filtre fixé. | [47](voynich_phase47/RAPPORT.md) · [48](voynich_phase48/RAPPORT.md) · [49](voynich_phase49/RAPPORT.md) |
+| 50–51 | Le programme de Luo a été exécuté. Deux des cinq essais prévus sur des langues connues ont atteint 3 000 étapes. Le critère exigeant cinq essais reste indéterminé. | [50](voynich_phase50/RAPPORT.md) · [51](voynich_phase51/RAPPORT.md) · [bilan des deux essais longs](voynich_phase51_longbudget/fin_deux_essais/RAPPORT.md) |
+
+## Études thématiques
+
+| Étude | Observation ou état |
+|---|---|
+| [Mots et dessins](research/2026-11-18-mots-et-dessins/RAPPORT.md) | Le texte de 40 positions classe 7/9 feuillets dans les deux éditions après exclusion du parchemin conjugué (8/9 dans une convention). Trois inscriptions botaniques contiennent `okol`. Le dessin ne fixe pas son sens. |
+| [Noms des bains](research/2026-11-18-bains-texte-clair/RAPPORT.md) | Le couple soleil–lune distingue un bain parmi 35 miniatures à Valence. Les deux séries de quatre puis cinq faces du Voynich ne permettent pas d’en attribuer le nom. |
+| [Petit arc de f2r.10](research/2026-11-18-petit-arc/RAPPORT.md) | La photographie confirme une autre occurrence à f49r.15. Aucune des 21 fins de ligne nouvellement prédites ne porte le motif annoncé. |
+| [Abréviations du XVe siècle](research/2026-11-18-abreviations-scribes/RAPPORT.md) | Deux conventions contrôlées sur des textes connus laissent indéterminée la valeur du petit arc dans le Voynich. |
+| [Notices aux étoiles](research/2026-11-18-notices-etoilees/RAPPORT.md) | L’ordre de quatre rubriques d’un livre de santé se retrouve sur des notices réservées de cet ouvrage. Les mêmes exigences ne dégagent pas de formule comparable dans le Voynich. |
+| [Textes parallèles](research/2026-11-18-texte-parallele/METHODE.md) | Méthode proposée pour reconnaître des éléments rares d’une notice avant de chercher la lecture de ses mots. |
+| [Première ligne au verso](research/2026-11-17-verso-premiere-ligne/RAPPORT.md) | Aucune des dix nouvelles paires évaluables ne reproduit la prédiction. Le sous-ensemble remplissant tous les critères est vide. |
+| [Plantes répétées](research/2026-11-17-plantes-repetees/RAPPORT.md) | Sur les témoins historiques l’étiquette retrouve trois notices sur six. Dans le Voynich, `tolsasy` manque à l’identique sur les 126 pages botaniques examinées. |
+| [Fragments de f88](research/2026-11-17-herbier-etiquettes-f88/RAPPORT.md) | Sur 22 dessins, les deux lecteurs ne trouvent aucun nom botanique avec une confiance suffisante. |
+| [Texte clair supposé dans la prose](research/2026-11-17-dechiffrement-prose/RAPPORT.md) | Six rapprochements avec l’ouvrage de Celse engendrent 18 prédictions de mots. Toutes échouent. |
+| [Initiales sur f66r](research/2026-11-17-cle-index-f66r/RAPPORT.md) | Une marque de la colonne marginale peut faire face à des initiales différentes, invalidant la table fixe testée. |
+| [Finales sur f66r](research/2026-11-17-f66r-paires-finales/RAPPORT.md) | Les signes groupés par paires ne prédisent aucune des cinq finales réservées. |
+| [Calendriers et pages entières](research/2026-11-17-pages-en-serie/RAPPORT.md) | Deux livres d’heures permettent d’annoncer la balance à deux plateaux de f72v1. Le succès identifie un dessin. |
+| [Localisation prévue de `oteos`](research/2026-11-17-groupe-panneau/RAPPORT.md) | Le groupe est visible vers 9 h 54 sur f73r. Sa seconde occurrence entière dépend de la lecture d’un blanc. |
+| [Sept nouveaux panneaux](research/2026-11-17-oteos-sept-panneaux/RAPPORT.md) | Une des sept prédictions de position est confirmée, vers 10 h 07 sur f72r2. |
+| [Anneaux zodiacaux](research/2026-11-17-oteos-anneaux-zodiaque/RAPPORT.md) | Cinq occurrences de `oteos` sur les anneaux intérieurs et six sur les cercles extérieurs. |
+| [Quarts et groupes témoins](research/2026-11-17-groupes-temoins-quarts/RAPPORT.md) | Dans ZL, les six `oteos` extérieurs sont en haut, contre quatre des six `oteey`. Le rapport tient compte des quantités de texte. |
+| [Transfert hors du zodiaque](research/2026-11-17-positions-hors-zodiaque/RAPPORT.md) | Aucun des six diagrammes comparables ne remplit la prédiction enregistrée dans les deux éditions. |
+| [Étiquettes et ouvertures](research/2026-11-17-zodiac-paragraphs/RAPPORT.md) | Aucune copie certaine entre les 299 étiquettes zodiacales et le début des 285 paragraphes marqués. |
+| [Stations lunaires de f69v](research/2026-11-17-f69v-mansions/RAPPORT.md) | Trois emplacements distincts portent la même inscription `okeod`, ce qui contraint la lecture par des noms complets différents. |
+| [Noms abrégés de stations](research/2026-11-17-f69v-abbreviations/RAPPORT.md) | Sur 19 inscriptions, le meilleur ajustement de la règle dépend de la liste employée et ne dépasse pas 13. |
+| [Reproduction du moteur](research/2026-11-17-zero-context-equivalence/RAPPORT.md) | Sur une paire de calculs avec une même graine, le critère strict d’équivalence n’est pas satisfait. |
+| [Langues de contrôle](research/2026-11-17-language-controls/README.md) | Inventaire de ressources publiées et recouvrement entre langues avant un éventuel entraînement. |
+| [Compatibilité des transcriptions phonétiques](research/2026-11-17-known-lexicon-preflight/README.md) | Préparation de 799 entrées réparties sur 156 concepts. Il s’agit d’un audit du parseur. |
+| [Panneau linguistique comparatif](research/2026-11-17-known-panel-proposal/PROPOSAL.md) | Proposition et inventaire de candidats pour une calibration ultérieure. |
+| [Méthodes de déchiffrement publiées](research/2026-10-30-methods/README.md) | Recherche de sources et vérifications ciblées après la phase 19. |

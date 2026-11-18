@@ -1,0 +1,638 @@
+{
+  "phase": 46,
+  "boundary": "NOT_TRANSLATION",
+  "configurations": [
+    {
+      "configuration": "ZL/split",
+      "unique_pages": 60,
+      "retained_tokens": 5080,
+      "excluded_tokens": 260,
+      "exact_target_fragments": [],
+      "all_labels": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "13/28",
+            "approximate_rank": "3/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "1/4",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f37r",
+            "fragments": [
+              188
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "1/16"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "13/24"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 8,
+        "mean": {
+          "exact_rank": "409/896",
+          "approximate_rank": "113/336"
+        },
+        "approximate_target_directions": {
+          "above": 1,
+          "equal": 1,
+          "below": 6
+        }
+      },
+      "strict_agreement": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "13/28",
+            "approximate_rank": "3/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "1/4",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "1/16"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "13/24"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 7,
+        "mean": {
+          "exact_rank": "353/784",
+          "approximate_rank": "757/2352"
+        },
+        "approximate_target_directions": {
+          "above": 1,
+          "equal": 1,
+          "below": 5
+        }
+      }
+    },
+    {
+      "configuration": "ZL/join",
+      "unique_pages": 60,
+      "retained_tokens": 4696,
+      "excluded_tokens": 259,
+      "exact_target_fragments": [],
+      "all_labels": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "13/28",
+            "approximate_rank": "5/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "5/16",
+            "approximate_rank": "9/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f37r",
+            "fragments": [
+              188
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "1/8"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "11/24"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 8,
+        "mean": {
+          "exact_rank": "13/28",
+          "approximate_rank": "321/896"
+        },
+        "approximate_target_directions": {
+          "above": 1,
+          "equal": 1,
+          "below": 6
+        }
+      },
+      "strict_agreement": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "13/28",
+            "approximate_rank": "5/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "5/16",
+            "approximate_rank": "9/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "1/8"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "11/24"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 7,
+        "mean": {
+          "exact_rank": "45/98",
+          "approximate_rank": "17/49"
+        },
+        "approximate_target_directions": {
+          "above": 1,
+          "equal": 1,
+          "below": 5
+        }
+      }
+    },
+    {
+      "configuration": "IT/split",
+      "unique_pages": 60,
+      "retained_tokens": 5241,
+      "excluded_tokens": 6,
+      "exact_target_fragments": [],
+      "all_labels": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "3/7",
+            "approximate_rank": "5/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "1/4",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f37r",
+            "fragments": [
+              188
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "9/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "13/16"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/8"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 8,
+        "mean": {
+          "exact_rank": "405/896",
+          "approximate_rank": "583/1344"
+        },
+        "approximate_target_directions": {
+          "above": 2,
+          "equal": 1,
+          "below": 5
+        }
+      },
+      "strict_agreement": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "3/7",
+            "approximate_rank": "5/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "1/4",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "13/16"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/8"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 7,
+        "mean": {
+          "exact_rank": "349/784",
+          "approximate_rank": "977/2352"
+        },
+        "approximate_target_directions": {
+          "above": 1,
+          "equal": 1,
+          "below": 5
+        }
+      }
+    },
+    {
+      "configuration": "IT/join",
+      "unique_pages": 60,
+      "retained_tokens": 5241,
+      "excluded_tokens": 6,
+      "exact_target_fragments": [],
+      "all_labels": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "3/7",
+            "approximate_rank": "5/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "1/4",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f37r",
+            "fragments": [
+              188
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "9/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "13/16"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/8"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 8,
+        "mean": {
+          "exact_rank": "405/896",
+          "approximate_rank": "583/1344"
+        },
+        "approximate_target_directions": {
+          "above": 2,
+          "equal": 1,
+          "below": 5
+        }
+      },
+      "strict_agreement": {
+        "targets": [
+          {
+            "target": "f13v",
+            "fragments": [
+              133
+            ],
+            "exact_rank": "3/7",
+            "approximate_rank": "5/28"
+          },
+          {
+            "target": "f34v",
+            "fragments": [
+              110
+            ],
+            "exact_rank": "1/4",
+            "approximate_rank": "7/16"
+          },
+          {
+            "target": "f36r",
+            "fragments": [
+              225
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/16"
+          },
+          {
+            "target": "f44r",
+            "fragments": [
+              95
+            ],
+            "exact_rank": "7/16",
+            "approximate_rank": "13/16"
+          },
+          {
+            "target": "f51r",
+            "fragments": [
+              80
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "3/8"
+          },
+          {
+            "target": "f90v2",
+            "fragments": [
+              136
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "5/12"
+          },
+          {
+            "target": "f96v",
+            "fragments": [
+              94,
+              116
+            ],
+            "exact_rank": "1/2",
+            "approximate_rank": "1/2"
+          }
+        ],
+        "n_targets": 7,
+        "mean": {
+          "exact_rank": "349/784",
+          "approximate_rank": "977/2352"
+        },
+        "approximate_target_directions": {
+          "above": 1,
+          "equal": 1,
+          "below": 5
+        }
+      }
+    }
+  ],
+  "approximate_direction_maintained": false,
+  "direction_is_significance_test": false,
+  "new_plaintext_verified": false,
+  "decipherment_goal_achieved": false
+}

@@ -1,0 +1,196 @@
+{
+  "phase": 45,
+  "boundary": "NOT_TRANSLATION",
+  "configurations": [
+    {
+      "configuration": "ZL/split",
+      "K": 58,
+      "pages": 16,
+      "retained_tokens": 1384,
+      "discarded_tokens": 63,
+      "target_exact_counts": [
+        0,
+        0,
+        0
+      ],
+      "target_minimum_distances": [
+        "1/2",
+        "4/9",
+        "3/8"
+      ],
+      "target_nearest_words": [
+        [
+          "daror"
+        ],
+        [
+          "dalory"
+        ],
+        [
+          "qolody"
+        ]
+      ],
+      "observed": {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "pages": [
+          "f18v",
+          "f23r",
+          "f19r"
+        ],
+        "primary": "0",
+        "secondary": "36480790267369281106709/75942235142621062877376"
+      },
+      "reference_assignments": 24,
+      "primary_reference_at_least": 24,
+      "secondary_reference_at_most": 2,
+      "reference_is_calibrated_p_value": false
+    },
+    {
+      "configuration": "ZL/join",
+      "K": 55,
+      "pages": 16,
+      "retained_tokens": 1302,
+      "discarded_tokens": 63,
+      "target_exact_counts": [
+        0,
+        0,
+        0
+      ],
+      "target_minimum_distances": [
+        "1/2",
+        "4/9",
+        "3/8"
+      ],
+      "target_nearest_words": [
+        [
+          "daror"
+        ],
+        [
+          "dalory"
+        ],
+        [
+          "qolody"
+        ]
+      ],
+      "observed": {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "pages": [
+          "f18v",
+          "f23r",
+          "f19r"
+        ],
+        "primary": "0",
+        "secondary": "289133564109249713923267001/602316739365492333953088864"
+      },
+      "reference_assignments": 24,
+      "primary_reference_at_least": 24,
+      "secondary_reference_at_most": 2,
+      "reference_is_calibrated_p_value": false
+    },
+    {
+      "configuration": "IT/split",
+      "K": 56,
+      "pages": 16,
+      "retained_tokens": 1401,
+      "discarded_tokens": 3,
+      "target_exact_counts": [
+        0,
+        0,
+        0
+      ],
+      "target_minimum_distances": [
+        "1/2",
+        "4/9",
+        "3/8"
+      ],
+      "target_nearest_words": [
+        [
+          "daror"
+        ],
+        [
+          "dalory"
+        ],
+        [
+          "qolody"
+        ]
+      ],
+      "observed": {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "pages": [
+          "f18v",
+          "f23r",
+          "f19r"
+        ],
+        "primary": "0",
+        "secondary": "271290413115925160493882847/554971477543619826083242680"
+      },
+      "reference_assignments": 24,
+      "primary_reference_at_least": 24,
+      "secondary_reference_at_most": 2,
+      "reference_is_calibrated_p_value": false
+    },
+    {
+      "configuration": "IT/join",
+      "K": 56,
+      "pages": 16,
+      "retained_tokens": 1401,
+      "discarded_tokens": 3,
+      "target_exact_counts": [
+        0,
+        0,
+        0
+      ],
+      "target_minimum_distances": [
+        "1/2",
+        "4/9",
+        "3/8"
+      ],
+      "target_nearest_words": [
+        [
+          "daror"
+        ],
+        [
+          "dalory"
+        ],
+        [
+          "qolody"
+        ]
+      ],
+      "observed": {
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "pages": [
+          "f18v",
+          "f23r",
+          "f19r"
+        ],
+        "primary": "0",
+        "secondary": "271290413115925160493882847/554971477543619826083242680"
+      },
+      "reference_assignments": 24,
+      "primary_reference_at_least": 24,
+      "secondary_reference_at_most": 2,
+      "reference_is_calibrated_p_value": false
+    }
+  ],
+  "new_plaintext_verified": false,
+  "decipherment_goal_achieved": false
+}

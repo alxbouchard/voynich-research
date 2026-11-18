@@ -1,0 +1,722 @@
+[
+  {
+    "corpus": "ZL",
+    "scenario": "a_JJ",
+    "sign": "a",
+    "cuts": "JJ",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "path": "variants/ZL_a_JJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "a_JS",
+    "sign": "a",
+    "cuts": "JS",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "e43de1815a2ead7d5c3d91c05821d8376c6ed428e9a1009729cfc27c0d81a3cc",
+    "path": "variants/ZL_a_JS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otal.dar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "a_SJ",
+    "sign": "a",
+    "cuts": "SJ",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "84c2807f551afb4ed68af23b75a5485190dbcdcc0b164d9397eb2fdba3bb4ff4",
+    "path": "variants/ZL_a_SJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otol.chdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "a_SS",
+    "sign": "a",
+    "cuts": "SS",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "d2d9b7088342fa846c7db146accd006a01ca8203f41bc6cb1cc26ce65a7e3f3c",
+    "path": "variants/ZL_a_SS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otol.chdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otal.dar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "o_JJ",
+    "sign": "o",
+    "cuts": "JJ",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "536df13094b1144aa0c32dea4da5411c49213f5bb784b24e3ae3fc24c5bd9d08",
+    "path": "variants/ZL_o_JJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otol.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "o_JS",
+    "sign": "o",
+    "cuts": "JS",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "5be16f0dd87263336350158389f29de1dbb797856b86b374ffe06dc1cc85fd60",
+    "path": "variants/ZL_o_JS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otal.dar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otol.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "o_SJ",
+    "sign": "o",
+    "cuts": "SJ",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "fdceb739532175e6f5ab5eecd9cbc051e29d1bba4c7469d877f12d64e89e69f5",
+    "path": "variants/ZL_o_SJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otol.chdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otol.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "ZL",
+    "scenario": "o_SS",
+    "sign": "o",
+    "cuts": "SS",
+    "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "variant_sha256": "13f313259ecfb87953443e80212e249b6af82d709116011fb339758b17ccf19e",
+    "path": "variants/ZL_o_SS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 3566,
+        "before_body": "otolchdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     <!11:00>otolchdy\n",
+        "after_line": "<f71r.13,@Lz>     <!11:00>otol.chdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 3570,
+        "before_body": "otaldar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     <!08:00>otaldar\n",
+        "after_line": "<f71r.17,&Lz>     <!08:00>otal.dar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 3530,
+        "before_body": "otal.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    <!09:00>otal.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    <!09:00>otol.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "a_JJ",
+    "sign": "a",
+    "cuts": "JJ",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "539e62950b3401493310e15ad938f176f15f5240291125952ab2e092d5cd0fba",
+    "path": "variants/IT_a_JJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otolchdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otaldar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otal.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "a_JS",
+    "sign": "a",
+    "cuts": "JS",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "a0d4369871a439bc3c262d3692487740d821b96d4ea602fa7bf848f92a163221",
+    "path": "variants/IT_a_JS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otolchdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otal.dar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otal.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "a_SJ",
+    "sign": "a",
+    "cuts": "SJ",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "ffedd3783ba1783b6e5eef2ec047490da7294ca96321efdfa50896d682350382",
+    "path": "variants/IT_a_SJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otaldar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otal.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "a_SS",
+    "sign": "a",
+    "cuts": "SS",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "c2a1becd71a8fc62e69fac79a25b204244b8649c15c177f1b06884e4712148e3",
+    "path": "variants/IT_a_SS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otal.dar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "a",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otal.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otal.ypsharal\n",
+        "changed": true,
+        "changed_character_indices": [
+          2
+        ]
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "o_JJ",
+    "sign": "o",
+    "cuts": "JJ",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "bac3bcf1f51245330de9a8384b23b04ebeb3d1e589f0517d9c9b8c9bc0fb8c73",
+    "path": "variants/IT_o_JJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otolchdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otaldar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "o_JS",
+    "sign": "o",
+    "cuts": "JS",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "3616767bdc3a4f662a0ad8bd6f34267828994446336ec856329b83fd54fe63f3",
+    "path": "variants/IT_o_JS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "joined",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otolchdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otolchdy\n",
+        "changed": true
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otal.dar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "o_SJ",
+    "sign": "o",
+    "cuts": "SJ",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "0443920847e0d0ff9bcc827c32e9b78851a18f5a6b98c50be27e4a57165c3e6c",
+    "path": "variants/IT_o_SJ.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "joined",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otaldar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otaldar\n",
+        "changed": true
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  },
+  {
+    "corpus": "IT",
+    "scenario": "o_SS",
+    "sign": "o",
+    "cuts": "SS",
+    "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "variant_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "path": "variants/IT_o_SS.txt",
+    "loci": [
+      {
+        "locus": "f71r.13",
+        "state": "split",
+        "source_line": 2243,
+        "before_body": "otol.chdy",
+        "after_body": "otol.chdy",
+        "before_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "after_line": "<f71r.13,@Lz>     otol.chdy\n",
+        "changed": false
+      },
+      {
+        "locus": "f71r.17",
+        "state": "split",
+        "source_line": 2247,
+        "before_body": "otal.dar",
+        "after_body": "otal.dar",
+        "before_line": "<f71r.17,&Lz>     otal.dar\n",
+        "after_line": "<f71r.17,&Lz>     otal.dar\n",
+        "changed": false
+      },
+      {
+        "locus": "f70v1.11",
+        "state": "o",
+        "source_line": 2223,
+        "before_body": "otol.ypsharal",
+        "after_body": "otol.ypsharal",
+        "before_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "after_line": "<f70v1.11,&Lz>    otol.ypsharal\n",
+        "changed": false,
+        "changed_character_indices": []
+      }
+    ],
+    "all_other_lines_identical": true,
+    "only_prescribed_letters_and_periods_changed": true
+  }
+]

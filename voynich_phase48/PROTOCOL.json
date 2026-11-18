@@ -1,0 +1,85 @@
+{
+  "phase": 48,
+  "status": "NOT_TRANSLATION",
+  "purpose": "Audit whether published CMM validation can distinguish a recovered message from inputs generated without a message.",
+  "upstream_commit": "c7c3b66fe6c4e5ea8c172df4c607befeae823740",
+  "prior_exposure": [
+    "README claims and static code inspected before this protocol",
+    "Existing public tables have been inspected for schema and folio availability only; no new metric execution",
+    "Analytic metric identity and likely negative result predicted before execution"
+  ],
+  "execution": {
+    "core": "Execute original source after replacing its sole invalid UTF-8 byte 0x92 in a comment with ASCII apostrophe in memory only.",
+    "environment": "Temporary working directory, MPL Agg, no network, no BERT, no full CLI or plots.",
+    "functions": [
+      "sanitize_eva_field",
+      "context_for_folio",
+      "decode_eva_to_latin_clauses",
+      "select_concise",
+      "compute_metrics"
+    ],
+    "excluded": [
+      "sensitivity except separately identified diagnostic",
+      "BERT perplexity",
+      "translation interpretation"
+    ]
+  },
+  "controls": {
+    "seed_base": 48000,
+    "samples_per_family": 20,
+    "words_per_sample": 40,
+    "uniform_eva": {
+      "alphabet": "acdefghiklmnopqrsty",
+      "word_lengths": [
+        3,
+        8
+      ],
+      "generation": "Independent uniform characters; lengths uniform integers; no plaintext supplied"
+    },
+    "unit_draws": {
+      "inventory": "Sorted BASE_UNITS keys passing EVA_WORD.fullmatch",
+      "generation": "Independent uniform choice of units; no plaintext supplied",
+      "limitation": "Targeted null reusing mapped word inventory, not claimed to model the historical manuscript"
+    },
+    "contexts": [
+      "1v",
+      "68r",
+      "78r",
+      "99r",
+      "116v"
+    ],
+    "total_runs": 205,
+    "distinct_inputs": 41,
+    "periodic_adversarial": {
+      "cycle": "qkeitlfpd",
+      "repeats": 100,
+      "samples": 1,
+      "limitation": "Adversarial periodic counterexample suggested by static independent code audit, not a realistic historical null or random input."
+    }
+  },
+  "archived_results": {
+    "check_all_rows": true,
+    "identity": "round(1 - clauses_kept / len(latin.split()), 4)",
+    "metric_recompute": "direct lexicon membership on archived Latin",
+    "core_replay_folios": [
+      "1v",
+      "68r",
+      "78r",
+      "99r"
+    ],
+    "limitation": "Published CSV is an aggregate of parallel transcriptions, not a canonical independent manuscript corpus."
+  },
+  "primary_checks": [
+    "Output vocabulary from all context maps is included in MED_LEX",
+    "Every nonempty generated result obeys 1-C/N identity",
+    "Save every control input, clauses, rendered output and metrics; no selection by score",
+    "Count lexicon_alignment>=0.91, z_score>=18.4 and z_score>30 as descriptive benchmarks of README claims, not inferential p-values"
+  ],
+  "secondary_diagnostics": {
+    "semantic_relabel": "For first sample in each family, cyclically permute MED_LEX token names; check all compute_metrics fields invariant. No new decoder or claimed alternate translation.",
+    "sensitivity_zero": "Use a repeated 100 times and drop_ratio=0; published code still permutes one mapping to itself. Record raw-token and processed-token entropy plus returned sensitivity.",
+    "encoding": "Record exact raw bytes, SHA and one-comment adaptation."
+  },
+  "decision": "A high lexical score on message-free inputs, or proof that the score is entailed by output construction, disqualifies that score as evidence of translation. This does not decide whether Voynich has a message or reject every possible Latin hypothesis.",
+  "scope": "One public implementation and its archived artifacts. No claim of historical authorship, intent or complete replication of unprovided external research."
+}

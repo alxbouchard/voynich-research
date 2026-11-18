@@ -1,0 +1,705 @@
+{
+  "status": "PASS",
+  "scope": "Independent reconstruction of source parsing, selection, folio partition, symbol encoding and Markov2 input generation only; not solver, score, decipherment or semantic validation.",
+  "implementation": "Stdlib, independent parser/scanner and greedy tokenizer; cumulative-weight draws use random.Random directly, without importing manuscript_prepare.py or any project module.",
+  "verifier_sha256": "8cdb87712884731083d780cceaa38440f1f62fe783ec1e3ca8493e56f528c7bb",
+  "manuscript_freeze_sha256": "b7f2204846dad0e34f7711e94e12c11d17a64651cd5b8226d78d943a1e3780ca",
+  "sources": {
+    "ZL": {
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "bytes": 411671,
+      "header": [
+        "#=IVTFF Eva- 2.0 M 5",
+        "# ZL transliteration file, updated from EVMT project",
+        "# Version 3b of 13/05/2025",
+        "#"
+      ],
+      "identical_local_prior_phases": {
+        "44": true,
+        "45": true,
+        "47": true
+      },
+      "clean_prose_rows": 2726,
+      "excluded_prose_rows": 1393,
+      "candidate_prose_rows": 4119,
+      "interrupted_rows": 616,
+      "non_literal_or_uncertain_rows": 975,
+      "scope": "Local byte provenance, not new visual adjudication or live source authenticity verification."
+    },
+    "IT": {
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "bytes": 342104,
+      "header": [
+        "#=IVTFF EvaT 2.0 M 3",
+        "# Extracted from LSI_ivtff_0d.txt",
+        "# Version 2a of 02/02/2023 modified 25/06/2025",
+        "#"
+      ],
+      "identical_local_prior_phases": {
+        "44": true,
+        "45": true,
+        "47": true
+      },
+      "clean_prose_rows": 3438,
+      "excluded_prose_rows": 680,
+      "candidate_prose_rows": 4118,
+      "interrupted_rows": 636,
+      "non_literal_or_uncertain_rows": 67,
+      "scope": "Local byte provenance, not new visual adjudication or live source authenticity verification."
+    }
+  },
+  "samples": [
+    {
+      "sample": "A1_eva",
+      "group_clean_prose_rows": 792,
+      "fit_lines": 109,
+      "transfer_lines": 36,
+      "IT_lines": 32,
+      "fit_units": 3015,
+      "transfer_units": 1004,
+      "IT_units": 826,
+      "fit_physical_folios": [
+        "10",
+        "14",
+        "15",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "transfer_physical_folios": [
+        "1",
+        "2",
+        "4"
+      ],
+      "folds": {
+        "1": 0,
+        "10": 1,
+        "14": 2,
+        "15": 1,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "8": 1,
+        "9": 2
+      },
+      "IT_missing_or_uncertain": [
+        "f1r.11",
+        "f1r.22",
+        "f1r.23",
+        "f1r.26"
+      ],
+      "retained_nonstructural_annotations": {
+        "f1r.11": [
+          "!@253;"
+        ]
+      },
+      "IT_units_unseen_in_manuscript_fit": [],
+      "f1r_in_reserve": true,
+      "whole_last_line_retained": true
+    },
+    {
+      "sample": "A1_atoms",
+      "group_clean_prose_rows": 792,
+      "fit_lines": 129,
+      "transfer_lines": 43,
+      "IT_lines": 39,
+      "fit_units": 3029,
+      "transfer_units": 1010,
+      "IT_units": 862,
+      "fit_physical_folios": [
+        "10",
+        "14",
+        "15",
+        "19",
+        "20",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "transfer_physical_folios": [
+        "1",
+        "11",
+        "2",
+        "4"
+      ],
+      "folds": {
+        "1": 0,
+        "10": 1,
+        "11": 0,
+        "14": 2,
+        "15": 1,
+        "19": 2,
+        "2": 0,
+        "20": 2,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "8": 1,
+        "9": 2
+      },
+      "IT_missing_or_uncertain": [
+        "f1r.11",
+        "f1r.22",
+        "f1r.23",
+        "f1r.26"
+      ],
+      "retained_nonstructural_annotations": {
+        "f1r.11": [
+          "!@253;"
+        ]
+      },
+      "IT_units_unseen_in_manuscript_fit": [],
+      "f1r_in_reserve": true,
+      "whole_last_line_retained": true
+    },
+    {
+      "sample": "B2_eva",
+      "group_clean_prose_rows": 874,
+      "fit_lines": 74,
+      "transfer_lines": 24,
+      "IT_lines": 24,
+      "fit_units": 3017,
+      "transfer_units": 1054,
+      "IT_units": 1054,
+      "fit_physical_folios": [
+        "26",
+        "31",
+        "34",
+        "39",
+        "40",
+        "43",
+        "46"
+      ],
+      "transfer_physical_folios": [
+        "33",
+        "50",
+        "55",
+        "75"
+      ],
+      "folds": {
+        "26": 1,
+        "31": 2,
+        "33": 0,
+        "34": 1,
+        "39": 2,
+        "40": 1,
+        "43": 2,
+        "46": 1,
+        "50": 0,
+        "55": 0,
+        "75": 0
+      },
+      "IT_missing_or_uncertain": [],
+      "retained_nonstructural_annotations": {},
+      "IT_units_unseen_in_manuscript_fit": [],
+      "f1r_in_reserve": false,
+      "whole_last_line_retained": true
+    },
+    {
+      "sample": "B2_atoms",
+      "group_clean_prose_rows": 874,
+      "fit_lines": 81,
+      "transfer_lines": 25,
+      "IT_lines": 25,
+      "fit_units": 3010,
+      "transfer_units": 1020,
+      "IT_units": 1021,
+      "fit_physical_folios": [
+        "26",
+        "31",
+        "34",
+        "39",
+        "40",
+        "43",
+        "46"
+      ],
+      "transfer_physical_folios": [
+        "33",
+        "50",
+        "55",
+        "75"
+      ],
+      "folds": {
+        "26": 1,
+        "31": 2,
+        "33": 0,
+        "34": 1,
+        "39": 2,
+        "40": 1,
+        "43": 2,
+        "46": 1,
+        "50": 0,
+        "55": 0,
+        "75": 0
+      },
+      "IT_missing_or_uncertain": [],
+      "retained_nonstructural_annotations": {},
+      "IT_units_unseen_in_manuscript_fit": [],
+      "f1r_in_reserve": false,
+      "whole_last_line_retained": true
+    }
+  ],
+  "markov_replays": [
+    {
+      "sample": "A1_eva",
+      "fit": {
+        "seed": 69000,
+        "length": 3015,
+        "training_triples": 3013,
+        "states": 167,
+        "dead_end_restarts": 0
+      },
+      "transfer": {
+        "seed": 79000,
+        "length": 1004,
+        "training_triples": 3013,
+        "states": 167,
+        "dead_end_restarts": 0
+      },
+      "transfer_unseen_in_generated_fit": []
+    },
+    {
+      "sample": "A1_atoms",
+      "fit": {
+        "seed": 69001,
+        "length": 3029,
+        "training_triples": 3027,
+        "states": 204,
+        "dead_end_restarts": 0
+      },
+      "transfer": {
+        "seed": 79001,
+        "length": 1010,
+        "training_triples": 3027,
+        "states": 204,
+        "dead_end_restarts": 0
+      },
+      "transfer_unseen_in_generated_fit": []
+    },
+    {
+      "sample": "B2_eva",
+      "fit": {
+        "seed": 69100,
+        "length": 3017,
+        "training_triples": 3015,
+        "states": 154,
+        "dead_end_restarts": 0
+      },
+      "transfer": {
+        "seed": 79100,
+        "length": 1054,
+        "training_triples": 3015,
+        "states": 154,
+        "dead_end_restarts": 0
+      },
+      "transfer_unseen_in_generated_fit": []
+    },
+    {
+      "sample": "B2_atoms",
+      "fit": {
+        "seed": 69101,
+        "length": 3010,
+        "training_triples": 3008,
+        "states": 188,
+        "dead_end_restarts": 0
+      },
+      "transfer": {
+        "seed": 79101,
+        "length": 1020,
+        "training_triples": 3008,
+        "states": 188,
+        "dead_end_restarts": 0
+      },
+      "transfer_unseen_in_generated_fit": [
+        "x"
+      ]
+    }
+  ],
+  "input_files": [
+    {
+      "path": "data/manuscript/A1_atoms_manuscript/fit.txt",
+      "bytes": 15145,
+      "tokens": 3029,
+      "sha256": "8221ee393993f2257cb30126c481f0a2a68685693eb70a397299c6c0e6c2acfb",
+      "reconstructed_sha256": "8221ee393993f2257cb30126c481f0a2a68685693eb70a397299c6c0e6c2acfb",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_atoms_manuscript/transfer.txt",
+      "bytes": 5050,
+      "tokens": 1010,
+      "sha256": "0667def08ebfb27c7da98194046e9bdb8ab4a7f722ee8cc3fc92edaac1428f27",
+      "reconstructed_sha256": "0667def08ebfb27c7da98194046e9bdb8ab4a7f722ee8cc3fc92edaac1428f27",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_atoms_manuscript/transfer_IT.txt",
+      "bytes": 4310,
+      "tokens": 862,
+      "sha256": "5cf27a6183d2cd98381c28c00112f1ac520aa433eeba6f9fd33d6712b495579b",
+      "reconstructed_sha256": "5cf27a6183d2cd98381c28c00112f1ac520aa433eeba6f9fd33d6712b495579b",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_atoms_markov2/fit.txt",
+      "bytes": 15145,
+      "tokens": 3029,
+      "sha256": "60f1ea9ea535221fe9c2e06c1e8f317cf1af665f051ae70186a8646baeb1a6ae",
+      "reconstructed_sha256": "60f1ea9ea535221fe9c2e06c1e8f317cf1af665f051ae70186a8646baeb1a6ae",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_atoms_markov2/transfer.txt",
+      "bytes": 5050,
+      "tokens": 1010,
+      "sha256": "d0fdb1e3e8aecfe83e1d6941b7985e2fa1af1b6e9e67cb8ddfb9900d1ce6f45e",
+      "reconstructed_sha256": "d0fdb1e3e8aecfe83e1d6941b7985e2fa1af1b6e9e67cb8ddfb9900d1ce6f45e",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_eva_manuscript/fit.txt",
+      "bytes": 15075,
+      "tokens": 3015,
+      "sha256": "86d071aacfea147fcd6d4c5ebcb035a2a532e16fca7714a0ef4d7883ba4f20cc",
+      "reconstructed_sha256": "86d071aacfea147fcd6d4c5ebcb035a2a532e16fca7714a0ef4d7883ba4f20cc",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_eva_manuscript/transfer.txt",
+      "bytes": 5020,
+      "tokens": 1004,
+      "sha256": "28595ace0ff407c58344c2398ed537862aa508af37fe74f442cfdb21d0c2fc13",
+      "reconstructed_sha256": "28595ace0ff407c58344c2398ed537862aa508af37fe74f442cfdb21d0c2fc13",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_eva_manuscript/transfer_IT.txt",
+      "bytes": 4130,
+      "tokens": 826,
+      "sha256": "649264ea18383a257ea222dc2092341df2d7c3d9cd8a070a6c4e47023f763702",
+      "reconstructed_sha256": "649264ea18383a257ea222dc2092341df2d7c3d9cd8a070a6c4e47023f763702",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_eva_markov2/fit.txt",
+      "bytes": 15075,
+      "tokens": 3015,
+      "sha256": "48ec37ab5b9fd576e5e4800fb4886d338c18a07a174217da0c6c36161ffe092c",
+      "reconstructed_sha256": "48ec37ab5b9fd576e5e4800fb4886d338c18a07a174217da0c6c36161ffe092c",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/A1_eva_markov2/transfer.txt",
+      "bytes": 5020,
+      "tokens": 1004,
+      "sha256": "1d716c684d0d31382849cd2cad6985f595cb383e7a42be62ac9d6ceda752519b",
+      "reconstructed_sha256": "1d716c684d0d31382849cd2cad6985f595cb383e7a42be62ac9d6ceda752519b",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_atoms_manuscript/fit.txt",
+      "bytes": 15050,
+      "tokens": 3010,
+      "sha256": "9689e413506bd9215e891bbb2ff87764741d33279b45bf84a0d14c37f86bd815",
+      "reconstructed_sha256": "9689e413506bd9215e891bbb2ff87764741d33279b45bf84a0d14c37f86bd815",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_atoms_manuscript/transfer.txt",
+      "bytes": 5100,
+      "tokens": 1020,
+      "sha256": "e79e5507a32e1f42738dd9733d0d5e8ff551f46c8a9acbf52e7744d3aca28eed",
+      "reconstructed_sha256": "e79e5507a32e1f42738dd9733d0d5e8ff551f46c8a9acbf52e7744d3aca28eed",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_atoms_manuscript/transfer_IT.txt",
+      "bytes": 5105,
+      "tokens": 1021,
+      "sha256": "d546adaa7abb388d25f116c6cf36eec08908b91741431fbdbb615222b3204b26",
+      "reconstructed_sha256": "d546adaa7abb388d25f116c6cf36eec08908b91741431fbdbb615222b3204b26",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_atoms_markov2/fit.txt",
+      "bytes": 15050,
+      "tokens": 3010,
+      "sha256": "201de9b56ce76ff6a11b1f7c3f6047f783d74f8476800f86fe2bb1584d404631",
+      "reconstructed_sha256": "201de9b56ce76ff6a11b1f7c3f6047f783d74f8476800f86fe2bb1584d404631",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_atoms_markov2/transfer.txt",
+      "bytes": 5100,
+      "tokens": 1020,
+      "sha256": "ac832f99de865b07fb5c399515b687a370871d0b64250ad632929100260591cc",
+      "reconstructed_sha256": "ac832f99de865b07fb5c399515b687a370871d0b64250ad632929100260591cc",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_eva_manuscript/fit.txt",
+      "bytes": 15085,
+      "tokens": 3017,
+      "sha256": "aa0fef7a1d6c63ac003bbe37895b03c31787aa6c551ac70a7aee806152cc4858",
+      "reconstructed_sha256": "aa0fef7a1d6c63ac003bbe37895b03c31787aa6c551ac70a7aee806152cc4858",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_eva_manuscript/transfer.txt",
+      "bytes": 5270,
+      "tokens": 1054,
+      "sha256": "35cbb18073d69b6605e405495a6ae2625967f9aed5f24c6a1570ba22db75543c",
+      "reconstructed_sha256": "35cbb18073d69b6605e405495a6ae2625967f9aed5f24c6a1570ba22db75543c",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_eva_manuscript/transfer_IT.txt",
+      "bytes": 5270,
+      "tokens": 1054,
+      "sha256": "3c56aee7b564fca8812a4017d76f645d2287477d6666b85ca04579875b6798b7",
+      "reconstructed_sha256": "3c56aee7b564fca8812a4017d76f645d2287477d6666b85ca04579875b6798b7",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_eva_markov2/fit.txt",
+      "bytes": 15085,
+      "tokens": 3017,
+      "sha256": "d822636eb9a900204b9555147813fee482c39dea192150ba5058325ce2170d72",
+      "reconstructed_sha256": "d822636eb9a900204b9555147813fee482c39dea192150ba5058325ce2170d72",
+      "byte_identical": true
+    },
+    {
+      "path": "data/manuscript/B2_eva_markov2/transfer.txt",
+      "bytes": 5270,
+      "tokens": 1054,
+      "sha256": "40b5e1746062fe8978026fd8d3698f6d30205fba9a4f6e8998fbac222bc8a078",
+      "reconstructed_sha256": "40b5e1746062fe8978026fd8d3698f6d30205fba9a4f6e8998fbac222bc8a078",
+      "byte_identical": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "current manuscript freeze",
+      "passed": true,
+      "details": {
+        "entries": 34,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "startup correction does not alter selection or input hashes",
+      "passed": true,
+      "details": {
+        "changed": [
+          "src/manuscript_run.py"
+        ],
+        "added": [
+          "MANUSCRIPT_FREEZE_v1.json",
+          "STARTUP_CORRECTION.md"
+        ]
+      }
+    },
+    {
+      "check": "ZL: inherited source identity",
+      "passed": true,
+      "details": {
+        "44": true,
+        "45": true,
+        "47": true
+      }
+    },
+    {
+      "check": "sources/ZL.txt: unique prose loci",
+      "passed": true
+    },
+    {
+      "check": "ZL: complete exclusion inventory",
+      "passed": true
+    },
+    {
+      "check": "IT: inherited source identity",
+      "passed": true,
+      "details": {
+        "44": true,
+        "45": true,
+        "47": true
+      }
+    },
+    {
+      "check": "sources/IT.txt: unique prose loci",
+      "passed": true
+    },
+    {
+      "check": "IT: complete exclusion inventory",
+      "passed": true
+    },
+    {
+      "check": "A1_eva: disjoint physical folios",
+      "passed": true
+    },
+    {
+      "check": "A1_eva: IT counterpart group metadata",
+      "passed": true
+    },
+    {
+      "check": "A1_eva: no selected interruption or hidden hand override",
+      "passed": true
+    },
+    {
+      "check": "A1_atoms: disjoint physical folios",
+      "passed": true
+    },
+    {
+      "check": "A1_atoms: IT counterpart group metadata",
+      "passed": true
+    },
+    {
+      "check": "A1_atoms: no selected interruption or hidden hand override",
+      "passed": true
+    },
+    {
+      "check": "B2_eva: disjoint physical folios",
+      "passed": true
+    },
+    {
+      "check": "B2_eva: IT counterpart group metadata",
+      "passed": true
+    },
+    {
+      "check": "B2_eva: no selected interruption or hidden hand override",
+      "passed": true
+    },
+    {
+      "check": "B2_atoms: disjoint physical folios",
+      "passed": true
+    },
+    {
+      "check": "B2_atoms: IT counterpart group metadata",
+      "passed": true
+    },
+    {
+      "check": "B2_atoms: no selected interruption or hidden hand override",
+      "passed": true
+    },
+    {
+      "check": "four selections independently reconstructed",
+      "passed": true
+    },
+    {
+      "check": "sixteen cases independently reconstructed",
+      "passed": true
+    },
+    {
+      "check": "global physical folio separation",
+      "passed": true
+    },
+    {
+      "check": "exactly twenty input files",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_atoms_manuscript/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_atoms_manuscript/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_atoms_manuscript/transfer_IT.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_atoms_markov2/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_atoms_markov2/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_eva_manuscript/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_eva_manuscript/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_eva_manuscript/transfer_IT.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_eva_markov2/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/A1_eva_markov2/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_atoms_manuscript/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_atoms_manuscript/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_atoms_manuscript/transfer_IT.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_atoms_markov2/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_atoms_markov2/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_eva_manuscript/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_eva_manuscript/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_eva_manuscript/transfer_IT.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_eva_markov2/fit.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "data/manuscript/B2_eva_markov2/transfer.txt: exact independent byte reconstruction",
+      "passed": true
+    },
+    {
+      "check": "historical prior exposure explicitly acknowledged",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "The inherited ZL/IT readings and their page metadata are not independently authenticated against manuscript images in this verification.",
+    "A1 reserve includes f1r, historically exposed; folio separation is real but is not historical blinding.",
+    "The symbol-ID alphabet is defined over fit plus both reserves; no symbol frequencies, reference score or plaintext from reserves enters key fitting. This is not a completely sealed alphabet holdout.",
+    "Each selection concatenates words and lines; Markov training includes transitions across those joins. Atomic parsing is performed inside the original words before concatenation.",
+    "Four matched Markov draws are reused for the two language comparisons, not eight independent null experiments. Dead-end restarts and final truncation reproduce the declared generator.",
+    "The retained ZL comment !@253; at f1r.11 is dropped as an annotation. This does not assert a reading for that non-Voynich mark.",
+    "The source-order, minimum-length sample is not a random representative sample of either manuscript group."
+  ]
+}

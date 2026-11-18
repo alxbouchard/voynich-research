@@ -1,0 +1,3 @@
+# Séparation des valeurs lors de l’exécution
+
+Les lectures géométriques peuvent attribuer un même champ aux marques 22 et 23 de part et d’autre de la séparation. Toute ligne cible classée dans la réserve par au moins un des alignements nominaux est réservée pour tous. Si cette ligne est aussi associée à une marque d’apprentissage dans une autre vue, cette association d’apprentissage est retirée. Les deux éditions sont dévoilées ensemble. Les réponses de réserve restent hors des fichiers d’apprentissage. Les articles historiques et l’atlas antérieur sont accessibles au projet, il ne s’agit pas d’un double aveugle.

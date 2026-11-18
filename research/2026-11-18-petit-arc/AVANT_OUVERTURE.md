@@ -1,0 +1,9 @@
+# Prédictions scellées sur la réserve
+
+Critère principal : arc attendu sur les 21 groupes exactement `saiin` ou `daiin` qui terminent une ligne de prose de Takahashi entre f13r et f24v. Absence attendue sur les 86 groupes de même transcription à l'intérieur d'une ligne. Le groupe précédent a aussi une terminaison `aiin` sur les deux exemples de découverte f2r.10 et f49r.15. La même configuration est présente sans arc à f8v.1. À titre secondaire, prévoir l'arc uniquement quand ce contexte supplémentaire est réuni, aux trois emplacements f19v.4 #5, f21v.6 #6 et f22v.9 #6.
+
+Les 107 groupes comprennent 101 `daiin` et six `saiin` sur 22 des 24 faces. Deux faces ne présentent aucune des deux graphies. Examiner la totalité des 107 sans filtrer d'après le résultat visuel. En complément, chaque fin de ligne a un témoin intérieur distinct de la même graphie, choisi automatiquement par proximité, sans remplacement. Dix-neuf des 21 paires appartiennent à la même face. Les vignettes impossibles à caler ou impossibles à lire échappent au dénominateur évaluable et seront comptées séparément. Dans un autre calcul, examiner l'effet maximal des lectures incertaines.
+
+Le critère de réussite d'une prédiction positive individuelle est l’accord des deux lecteurs sur un arc au-dessus du corps arrondi, à l’entrée des jambages. Comparer la fréquence observée entre fins et intérieurs et rapporter les erreurs individuelles, pas seulement le nombre de bonnes prédictions sur tous les groupes. Les deux exemples connus, plusieurs témoins sans arc et les coiffes sur traverse servent uniquement à contrôler la lecture des cartes. Un exemple connu déjà présenté comme étalon n’est pas une nouvelle découverte.
+
+La liste a été produite par `predire.py` à partir de la seule transcription IT2a-n.txt. Empreinte SHA-256 de PREDICTIONS.json : `da4c56fea51ef765b556e76b94e545cf74e57f2e40ac013fc06847778ccfeac9`. Les lecteurs n'en reçoivent pas le contenu.

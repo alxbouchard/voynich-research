@@ -1,0 +1,334 @@
+{
+  "boundary": "NOT_TRANSLATION",
+  "archived_readers": [
+    {
+      "file": "readers/reader1.json",
+      "sha256": "63e964d07fd32ebb5db6f9c1c9392cb974802b1ba35e0188c770ce9436cab436",
+      "response": {
+        "reader": "reader1 — lecteur IA, non expert paléographe humain",
+        "images_seen": [
+          "A_margin.png",
+          "A_left.png",
+          "A_right.png",
+          "B_margin.png",
+          "B_left.png",
+          "B_right.png",
+          "C_margin.png"
+        ],
+        "groups": [
+          {
+            "position": "x ≈ 10,5–19,3 % de B_margin, ligne principale",
+            "reading": "m? [deux hampes] ?r?",
+            "alternatives": [
+              "départ : m / plusieurs petits traits liés",
+              "forme ronde : a / o",
+              "hampes : l / autre caractère ascendant / ligature",
+              "fin : r / trait terminal"
+            ],
+            "confidence": 0.3,
+            "notes": "Départ bas à plusieurs jambages, forme arrondie, deux traits hauts dont au moins un semble bouclé, puis petites formes basses. Aucun mot complet assuré."
+          },
+          {
+            "position": "x ≈ 20,2–25,2 % de B_margin",
+            "reading": "? [forme haute avec traverse] ?",
+            "alternatives": [
+              "formes initiales : a / u / jambages liés",
+              "un signe haut / plusieurs traits superposés"
+            ],
+            "confidence": 0.2,
+            "notes": "Formes basses à gauche, élément ascendant avec segment supérieur horizontal, petite boucle et trait terminal. Nombre de caractères indéterminé."
+          },
+          {
+            "position": "x ≈ 27,2–31,9 % de B_margin",
+            "reading": "?u? [barre au-dessus de la fin]",
+            "alternatives": [
+              "centre : u / deux jambages liés",
+              "fin : forme rappelant q / signe non latin",
+              "barre indépendante / partie du graphème"
+            ],
+            "confidence": 0.4,
+            "notes": "Grande hampe avec boucle haute à gauche, petite cuvette au centre, forme finale anguleuse ou bouclée avec retour descendant. Construction éventuellement comparable à des formes Voynich, sans transcription EVA assurée."
+          },
+          {
+            "position": "x ≈ 33,2–37,4 % de B_margin",
+            "reading": "?c?",
+            "alternatives": [
+              "centre : c / e / portion de boucle",
+              "départ : trait haut / courbe verticale"
+            ],
+            "confidence": 0.15,
+            "notes": "Petit groupe moins net, suivi d'un ou deux traits bas. Abstention sur une lecture de mot."
+          },
+          {
+            "position": "x ≈ 39,0–51,7 % de B_margin",
+            "reading": "[boucle ouverte] ? [hampe haute] ? [jambages] ?",
+            "alternatives": [
+              "départ : p / u / boucle non attribuée",
+              "éléments bas : m / n / i / traits liés"
+            ],
+            "confidence": 0.2,
+            "notes": "Groupe dense avec forme initiale ouverte en haut ou portée par un trait, petits éléments joints, hampe à sommet bouclé ou recourbé et plusieurs petites arches. Segmentation alphabétique instable ; aucun mot complet ne s'impose."
+          },
+          {
+            "position": "x ≈ 53,1–60,8 % de B_margin",
+            "reading": "o? [hampe] ???",
+            "alternatives": [
+              "départ : o / boucle fermée non attribuée",
+              "hampe : t / caractère à traverse / signe non latin"
+            ],
+            "confidence": 0.25,
+            "notes": "Petite forme ronde fermée, longue hampe surmontée ou traversée d'une courbe horizontale, suite de faibles arches basses. Pas d'identification EVA assurée."
+          },
+          {
+            "position": "x ≈ 61,3–65,1 % de B_margin",
+            "reading": "?u?",
+            "alternatives": [
+              "départ : a / o / boucle non alphabétique",
+              "centre : u / deux traits liés",
+              "fin : caractère à boucle / terminaison"
+            ],
+            "confidence": 0.2,
+            "notes": "Petit départ rond ou anguleux, forme basse incurvée, trait final montant puis revenant en courbe vers le bas."
+          }
+        ],
+        "complete_reading_supported": false,
+        "limitations": [
+          "Lecteur IA, non expert paléographe humain ; aucune traduction ni attribution de langue.",
+          "Seules les sept images listées ont été consultées ; aucune source extérieure ni autre transcription.",
+          "A et B sont des traitements corrélés du même objet ; les détails gauche/droite ne sont pas des preuves indépendantes.",
+          "Positions et segmentation provisoires ; les groupes ne sont pas nécessairement des mots.",
+          "Confiance subjective portant sur la transcription partielle, non calibrée ; les descriptions entre crochets ne sont pas des caractères transcrits.",
+          "Des formes peuvent évoquer la cursive latine ; certaines constructions pourraient rappeler des signes Voynich, sans attribution EVA fiable.",
+          "Les traitements peuvent renforcer le fond, épaissir ou fusionner les traits. La partie droite reste peu lisible en C.",
+          "Après environ 65 % de la largeur, pas de suite de caractères identifiable ; fragments du bas coupés par le cadrage exclus.",
+          "Absence d'examen du support original, des données d'acquisition et d'autres lignes pour comparer les allographes."
+        ]
+      }
+    },
+    {
+      "file": "readers/reader2.json",
+      "sha256": "cc1eee595a77e9be99095a2943a64cc3a43e1360c4e7b947a0f5e0f05d75e295",
+      "response": {
+        "reader": "reader2 — lecteur IA, non un expert paléographe humain",
+        "images_seen": [
+          "A_margin.png",
+          "A_left.png",
+          "A_right.png",
+          "B_margin.png",
+          "B_left.png",
+          "B_right.png",
+          "C_margin.png"
+        ],
+        "groups": [
+          {
+            "position": "G1 ; x ≈ 11–19,5 % de la largeur de A_margin/B_margin",
+            "reading": "m? a? ? ? a? r?",
+            "alternatives": [
+              "Deux éléments hauts : l?/h?/éléments liés non identifiés",
+              "Dernier élément : r?/v?/non identifié"
+            ],
+            "confidence": 0.25,
+            "notes": "Début bas à plusieurs arches, petit élément bouclé, deux éléments montants, fin basse arrondie suivie d'un petit trait. Nombre exact de lettres incertain. Les espaces séparent des propositions graphiques, pas des mots."
+          },
+          {
+            "position": "G2 ; x ≈ 20–25,5 % de la largeur de A_margin/B_margin",
+            "reading": "a? ? a? r?",
+            "alternatives": [
+              "Partie médiane : lettre complexe ou plusieurs lettres liées",
+              "Dernier élément : r?/v?/non identifié"
+            ],
+            "confidence": 0.25,
+            "notes": "Élément arrondi initial, partie médiane haute et épaisse avec trait supérieur presque horizontal, fin basse. Aucun mot normalisé proposé."
+          },
+          {
+            "position": "G3 ; x ≈ 27–32 % de la largeur de A_margin/B_margin",
+            "reading": "? u? ?",
+            "alternatives": [
+              "Premier signe : l?/autre signe à haute boucle",
+              "Milieu : u?/v?",
+              "Dernier signe : non identifié, avec barre supérieure"
+            ],
+            "confidence": 0.3,
+            "notes": "Premier signe à haute boucle et retour inférieur ; élément médian en creux ; dernier signe recourbé vers le bas et surmonté d'une barre horizontale visible. La barre n'est pas traitée comme une lettre autonome."
+          },
+          {
+            "position": "G4 ; x ≈ 33–37,5 % de la largeur de A_margin/B_margin",
+            "reading": null,
+            "alternatives": [
+              "Petites courbes locales : c?/e?/traces non identifiées"
+            ],
+            "confidence": 0.1,
+            "notes": "Pas de transcription soutenue. Signe vertical partiellement bouclé, puis deux ou trois petites courbes affaiblies ; raccords brouillés par la texture du support."
+          },
+          {
+            "position": "G5 ; x ≈ 39–51,5 % de la largeur de A_margin/B_margin",
+            "reading": "p? …",
+            "alternatives": [
+              "Initiale : p?/autre signe à boucle",
+              "Suite : non transcrite"
+            ],
+            "confidence": 0.15,
+            "notes": "Groupe long ; entrée sombre arrondie avec prolongement inférieur possible, éléments serrés, parties hautes, puis petites arches/traits. L'ellipse ne fixe pas le nombre de signes."
+          },
+          {
+            "position": "G6 ; x ≈ 53–61 % de la largeur de A_margin/B_margin",
+            "reading": "o? …",
+            "alternatives": [
+              "Après la boucle : t?/signe composé/non identifié",
+              "Relation entre boucle et hampe : signes séparés ou parties d'un même signe"
+            ],
+            "confidence": 0.25,
+            "notes": "Petite boucle fermée initiale, haute hampe avec trait transversal ou sommet recourbé, puis petits éléments bas non transcrits."
+          },
+          {
+            "position": "G7 ; x ≈ 61,5–65,5 % de la largeur de A_margin/B_margin",
+            "reading": "a? u? ?",
+            "alternatives": [
+              "Premier élément : a?/o?",
+              "Second : u?/n?/v?",
+              "Trait final : partie du signe précédent ou signe distinct"
+            ],
+            "confidence": 0.2,
+            "notes": "Petit élément arrondi initial, forme centrale en creux, trait terminal montant et recourbé. Segmentation incertaine."
+          },
+          {
+            "position": "Marques à droite ; x ≈ 73–81 % et bord droit de A_margin/B_margin",
+            "reading": null,
+            "alternatives": [],
+            "confidence": 0,
+            "notes": "Tache en forme de goutte, petit point sombre et contours du support. Aucune transcription ; non intégrés comme lettres ou ponctuation."
+          }
+        ],
+        "complete_reading_supported": false,
+        "limitations": [
+          "Lecteur IA, non expert paléographe humain ; confiance subjective non calibrée.",
+          "A et B sont des traitements corrélés de la même marge ; leurs détails gauche/droite sont des reprises, pas des témoins indépendants.",
+          "C permet surtout de voir les premières formes ; la suite est très pâle.",
+          "Usure, résolution, texture accentuée et raccords ambigus empêchent une lecture continue.",
+          "Segmentation, nombre de signes et positions approximatifs ; positions calculées visuellement sur la bande A/B, non directement sur le cadrage C.",
+          "Plusieurs formes sont compatibles avec des lettres latines cursives, sans classification assurée de toute la ligne. Aucune transcription EVA stable proposée.",
+          "Aucune langue, traduction, lecture lexicale normalisée ou source externe utilisée. Seules les sept images autorisées ont été consultées."
+        ]
+      }
+    },
+    {
+      "file": "readers/reader3.json",
+      "sha256": "610f5cde8d1d9ae6863d7c91782df5884879e23ed23b91e080b72abcfa0d5863",
+      "response": {
+        "reader": "reader3 — lecteur IA, non expert paléographe humain",
+        "images_seen": [
+          "A_margin.png",
+          "A_left.png",
+          "A_right.png",
+          "B_margin.png",
+          "B_left.png",
+          "B_right.png",
+          "C_margin.png"
+        ],
+        "position_reference": "Pourcentage approximatif de la largeur totale de A_margin/B_margin, de gauche à droite. Les groupes suivent les blancs visibles et ne sont pas nécessairement des mots.",
+        "confidence_definition": "Confiance de 0 à 1 dans la lecture partielle proposée ; ne mesure pas la simple présence de traces.",
+        "groups": [
+          {
+            "position": "11–19 %",
+            "reading": "m? a? l? ? a? r?",
+            "alternatives": [
+              "Départ rn? ou jambages non séparables",
+              "Quatrième signe : l? ou h?",
+              "Finale v?"
+            ],
+            "confidence": 0.3,
+            "notes": "Départ bas à plusieurs jambages, petite forme fermée, deux formes hautes successives dont une boucle/haste, puis fin basse courbe. Allure compatible avec une cursive latine ; alphabet non établi."
+          },
+          {
+            "position": "20–25 %",
+            "reading": "a? ? a? r?",
+            "alternatives": [
+              "Départ o?",
+              "Ensemble haut composé de plusieurs caractères",
+              "Finale i? ou simple trait"
+            ],
+            "confidence": 0.25,
+            "notes": "Départ arrondi, ensemble haut portant un trait supérieur épais et oblique, puis formes basses. Nombre de signes incertain."
+          },
+          {
+            "position": "27–32 %",
+            "reading": "l? u? [q?/g?]",
+            "alternatives": [
+              "Centre v?",
+              "Dernier signe abréviatif sans équivalent alphabétique simple"
+            ],
+            "confidence": 0.35,
+            "notes": "Boucle/haste haute à gauche, cuvette centrale, signe droit avec retour inférieur. Barre horizontale détachée visible au-dessus du dernier signe ; valeur abréviative non établie."
+          },
+          {
+            "position": "33–37 %",
+            "reading": "? e? ?",
+            "alternatives": [
+              "Initiale h?",
+              "Nombre de caractères indéterminé"
+            ],
+            "confidence": 0.15,
+            "notes": "Tracé initial haut et faible, petite boucle ou ouverture médiane, un ou deux traits pâles finaux."
+          },
+          {
+            "position": "39–52 %",
+            "reading": "[p?/v?] r? ? ? m? i? n? ?",
+            "alternatives": [
+              "Autre découpage des jambages bas",
+              "Départ non alphabétique ou non identifiable"
+            ],
+            "confidence": 0.2,
+            "notes": "Départ sombre arrondi avec pointe/retombée, petit épaulement, ensemble haut croisé ou bouclé, série de jambages bas. Les identifications m/i/n dépendent fortement du découpage. Aucun mot établi."
+          },
+          {
+            "position": "53–60 %",
+            "reading": "o [t?/glyphe à potence?] ? ? ?",
+            "alternatives": [
+              "Signe haut de type Voynich/EVA sans classe déterminée",
+              "Signe haut alphabétique ressemblant à t"
+            ],
+            "confidence": 0.3,
+            "notes": "Ovale initial fermé assez net, signe haut à sommet transversal incurvé, puis formes basses liées. Aucune translittération EVA complète proposée."
+          },
+          {
+            "position": "61–65 %",
+            "reading": "a? u? [y?/d?]",
+            "alternatives": [
+              "Premier signe o?",
+              "Deuxième signe non séparable en lettre certaine"
+            ],
+            "confidence": 0.3,
+            "notes": "Petit arrondi, cuvette, signe terminal plus haut portant courbe et prolongement inférieur. Finale indécidable."
+          },
+          {
+            "position": "66–100 %",
+            "reading": "—",
+            "alternatives": [],
+            "confidence": 0.0,
+            "notes": "Aucun groupe textuel suffisamment délimité. Points, taches, défaut sombre vers 74 %, variations de surface et traits au bord droit non transcrits ; leur caractère textuel n'est pas établi."
+          }
+        ],
+        "complete_reading_supported": false,
+        "limitations": [
+          "Lecteur IA et non expert paléographe humain.",
+          "A et B sont des traitements corrélés d'une même marge ; les détails gauche/droite répètent ces mêmes données.",
+          "C est une vue du même support, pas un témoin textuel indépendant ; plusieurs contours y sont trop faibles pour arbitrer les lettres.",
+          "Les espaces visibles ne prouvent pas les frontières de mots ; le nombre de signes de plusieurs groupes reste incertain.",
+          "Usure, taches, liaisons, texture, résolution et transformations de contraste limitent la discrimination entre lettres et accidents du support.",
+          "Les lectures proposées sont des ressemblances graphiques partielles ; elles ne fixent ni alphabet global, ni langue, ni sens.",
+          "Aucune traduction et aucune translittération EVA complète ne sont soutenues.",
+          "Seules les sept images autorisées ont été consultées ; aucune autre source ou réponse d'agent."
+        ]
+      }
+    }
+  ],
+  "published_locus": {
+    "ZL": [
+      "<f17r.13,@Lx>     oteeeon.oiil"
+    ],
+    "IT": []
+  },
+  "reading_truth_verified": false,
+  "language_identified": false,
+  "decipherment_goal_achieved": false
+}

@@ -1,0 +1,346 @@
+{
+  "boundary": "NOT_TRANSLATION",
+  "upstream_commit": "60536d3d425b1e1d9d25a0d9bff2cd145be7205b",
+  "original_wheel": {
+    "_note": "Crib convergence test: 9 independent class-marker constraints, all satisfied uniquely at R=14. p=(1/17)^9=8.43e-12 (combinatorial). See paper §4 and cornerstone_audit_2026-05-10.md for derivation.",
+    "peak_R": 14,
+    "peak_match_rate": 1.0,
+    "baseline_mean": 0.0,
+    "n_cribs": 9,
+    "n_rotations": 17,
+    "permutation_p_value": 8.432565195863825e-12,
+    "reference_p_value": 8.43e-12,
+    "rates_by_R": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "14": 1.0,
+      "15": 0.0,
+      "16": 0.0
+    },
+    "PASS": true
+  },
+  "original_syllabary": {
+    "T1_confirmed": 19,
+    "T2_strong": 1,
+    "marginal": 5,
+    "effective_units": 23,
+    "corpus_coverage_pct": 97.0,
+    "anchor_tests": [
+      {
+        "token": "tsheos",
+        "N": 1,
+        "phoneme": "/e/",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "sar",
+        "N": 76,
+        "phoneme": "/sar/",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "daiin",
+        "N": 801,
+        "phoneme": "/dayin/",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "pchedar",
+        "N": 11,
+        "phoneme": "/phedar/",
+        "criterion_4_pass": true
+      }
+    ],
+    "all_anchors_pass": true,
+    "PASS": true
+  },
+  "independent_rates": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 1.0,
+    "15": 0.0,
+    "16": 0.0
+  },
+  "supplied_offsets": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "constructed_rotation_checks": [
+    {
+      "imposed_rotation": 0,
+      "peak_rotation": 0,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 1,
+      "peak_rotation": 1,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 2,
+      "peak_rotation": 2,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 3,
+      "peak_rotation": 3,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 4,
+      "peak_rotation": 4,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 5,
+      "peak_rotation": 5,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 6,
+      "peak_rotation": 6,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 7,
+      "peak_rotation": 7,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 8,
+      "peak_rotation": 8,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 9,
+      "peak_rotation": 9,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 10,
+      "peak_rotation": 10,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 11,
+      "peak_rotation": 11,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 12,
+      "peak_rotation": 12,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 13,
+      "peak_rotation": 13,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 14,
+      "peak_rotation": 14,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 15,
+      "peak_rotation": 15,
+      "perfect_rotations": 1
+    },
+    {
+      "imposed_rotation": 16,
+      "peak_rotation": 16,
+      "perfect_rotations": 1
+    }
+  ],
+  "wheel_arbitrary_phonemes_result": {
+    "_note": "Crib convergence test: 9 independent class-marker constraints, all satisfied uniquely at R=14. p=(1/17)^9=8.43e-12 (combinatorial). See paper §4 and cornerstone_audit_2026-05-10.md for derivation.",
+    "peak_R": 14,
+    "peak_match_rate": 1.0,
+    "baseline_mean": 0.0,
+    "n_cribs": 9,
+    "n_rotations": 17,
+    "permutation_p_value": 8.432565195863825e-12,
+    "reference_p_value": 8.43e-12,
+    "rates_by_R": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "14": 1.0,
+      "15": 0.0,
+      "16": 0.0
+    },
+    "PASS": true
+  },
+  "syllabary_arbitrary_terms_known_alternatives_result": {
+    "T1_confirmed": 19,
+    "T2_strong": 1,
+    "marginal": 5,
+    "effective_units": 23,
+    "corpus_coverage_pct": 97.0,
+    "anchor_tests": [
+      {
+        "token": "tsheos",
+        "N": 1,
+        "phoneme": "AUDIT_UNSUPPORTED_0",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "sar",
+        "N": 76,
+        "phoneme": "AUDIT_UNSUPPORTED_1",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "daiin",
+        "N": 801,
+        "phoneme": "AUDIT_UNSUPPORTED_2",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "pchedar",
+        "N": 11,
+        "phoneme": "AUDIT_UNSUPPORTED_3",
+        "criterion_4_pass": true
+      }
+    ],
+    "all_anchors_pass": true,
+    "PASS": true
+  },
+  "syllabary_one_false_input_flag_result": {
+    "T1_confirmed": 19,
+    "T2_strong": 1,
+    "marginal": 5,
+    "effective_units": 23,
+    "corpus_coverage_pct": 97.0,
+    "anchor_tests": [
+      {
+        "token": "tsheos",
+        "N": 1,
+        "phoneme": "AUDIT_UNSUPPORTED_0",
+        "criterion_4_pass": false
+      },
+      {
+        "token": "sar",
+        "N": 76,
+        "phoneme": "AUDIT_UNSUPPORTED_1",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "daiin",
+        "N": 801,
+        "phoneme": "AUDIT_UNSUPPORTED_2",
+        "criterion_4_pass": true
+      },
+      {
+        "token": "pchedar",
+        "N": 11,
+        "phoneme": "AUDIT_UNSUPPORTED_3",
+        "criterion_4_pass": true
+      }
+    ],
+    "all_anchors_pass": false,
+    "PASS": false
+  },
+  "selected_raw_source_lines": {
+    "ZL": [
+      "<f2v.1,@P0>       <%>kooiin.cheo,pchor.otaiin,odain.chor<->dair.shty",
+      "<f3r.1,@P0>       <%>tsheos.qopal.chol.cthol.daimg",
+      "<f29v.1,@P0>      <%>kooiin.shor.chetchy.ol,ls.shytchy.cthy,shy<->cho.shy.daiin"
+    ],
+    "IT": [
+      "<f2v.1,@P0>       <%>kooiin.cheo.pchor.otaiin.o.dain.chor<->dair.shty",
+      "<f3r.1,@P0>       <%>tsheos.qopal.chol.cthol.daimm",
+      "<f29v.1,@P0>      <%>kooiin.shor.chetchy.olals.shytchy.cth.y.shy<->cho.shy.daiin"
+    ]
+  },
+  "pinned_tree_entries": 61,
+  "named_decoder_absent_from_pinned_tree": true,
+  "public_botanical_file": {
+    "records": 109,
+    "f2v": {
+      "identification": "Nelumbo nucifera (sacred lotus) — LEAF VIEW",
+      "status": "CONFIRMED",
+      "warm_cold": "WARM",
+      "rlung_tier": "EXTREME",
+      "quire": "A",
+      "CTH_pct": 1.6,
+      "CH_pct": 44.3,
+      "QO_pct": 4.9,
+      "notes": "EXTREME rlung: CH=44.3%"
+    },
+    "record_fields": [
+      "CH_pct",
+      "CTH_pct",
+      "QO_pct",
+      "identification",
+      "notes",
+      "quire",
+      "rlung_tier",
+      "status",
+      "warm_cold"
+    ]
+  },
+  "cached_f108r_table": {
+    "rows": 494,
+    "columns": [
+      "line_n",
+      "position_in_line",
+      "token",
+      "decoded",
+      "class"
+    ],
+    "program_reexecuted": false
+  },
+  "provided_simplified_function_kooiin": "kaa-in",
+  "author_claimed_full_phonemic_output": "aanar",
+  "full_decoder_reproduced": false,
+  "probabilities_under_hypothetical_iid_null": {
+    "one_prespecified_rotation": "1/118587876497",
+    "any_common_rotation_after_search": "1/6975757441",
+    "independence_of_historical_cribs_established_here": false
+  },
+  "new_plaintext_verified": false,
+  "decipherment_goal_achieved": false
+}

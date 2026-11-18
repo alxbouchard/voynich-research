@@ -1,0 +1,45 @@
+{
+  "native_msi_size": [
+    6132,
+    8176
+  ],
+  "sources": {
+    "A": "sources/msi_color.jpg",
+    "B": "sources/msi_gray.jpg"
+  },
+  "boxes": {
+    "margin": [
+      1000,
+      980,
+      4200,
+      1300
+    ],
+    "left": [
+      1000,
+      980,
+      2600,
+      1300
+    ],
+    "right": [
+      2600,
+      980,
+      4200,
+      1300
+    ]
+  },
+  "overview_resampling": "Pillow thumbnail default BICUBIC; native crop cards have no resampling",
+  "yale": {
+    "source": "sources/1006106.jpg",
+    "size": [
+      2649,
+      3743
+    ],
+    "box": [
+      650,
+      130,
+      1780,
+      310
+    ],
+    "card": "C_margin.png"
+  }
+}

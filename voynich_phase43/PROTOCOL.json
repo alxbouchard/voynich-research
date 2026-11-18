@@ -1,0 +1,31 @@
+{
+  "phase": 43,
+  "boundary": "NOT_TRANSLATION",
+  "upstream_commit": "60536d3d425b1e1d9d25a0d9bff2cd145be7205b",
+  "exposure": "Source code and stated outcomes already inspected; dependency audit, not blind confirmation.",
+  "questions": [
+    "Does module1 infer target positions from manuscript data or test supplied positions?",
+    "Does its score depend on supplied phonemes?",
+    "Does module2 recompute no-alternative lexical tests?",
+    "Is the named kooiin-to-aanar decoder available and executable at the inspected pin?"
+  ],
+  "tests": [
+    "Execute unchanged module1 and2 in temporary output locations without a corpus",
+    "Recompute all17 rotation scores independently",
+    "For each of17 constructed target rotations, change positions only and call run_crib_test; distinguish score from hardcoded PASS rule",
+    "Replace OUTER meanings and expected_phoneme fields while leaving positions unchanged; compare rates",
+    "Change syllabary proposed meanings/phonemes and mark alternatives known_term=True while retaining criterion_4_pass; compare PASS",
+    "Flip one criterion_4_pass to False; check dependence on flag",
+    "Locate published anchors in both transcriptions without assigning meanings",
+    "Inspect named decoder availability in complete pinned tree and documented fallbacks",
+    "Inventory public botanical file schema and cached f108r table; distinguish stored results from executed decoder",
+    "Execute only apply_r14 pure function with its literal tables from provided simplified verifier; no main/database I/O; full decoder absence remains explicit"
+  ],
+  "limits": [
+    "Only these reproduction modules and stated worked example are audited; not all corpus statistics or all possible Mongolian/Tibetan ciphers",
+    "No proposed semantics are accepted as authenticated plaintext",
+    "Successful structural/module tests are not continuous-text decipherment",
+    "No counterfactual data replace upstream source files"
+  ],
+  "decision": "Do not use wheel/phoneme assignments as validated key unless external grounding and continuous predictions are reproducible."
+}

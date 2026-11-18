@@ -1,0 +1,9 @@
+# Comparaison secondaire avec l’édition de Sachau
+
+Avant le calcul sur cette liste, nous avons lu les résultats sur Agrippa et les indications de provenance. Le témoin d’al-Bīrūnī avait été choisi par un autre agent avant qu’il reçoive ces résultats. Les deux ouvrages décrivent une même tradition astronomique. Leur ressemblance ne constituerait pas deux confirmations historiques indépendantes.
+
+Employer l’en-tête principal de chacune des 28 entrées de NAMES.json, toutes ses variantes expressément classées sous foreign_name_variants_ascii et, lorsqu’elle existe, la variante tabulaire de la même entrée. Garder la forme entre crochets au numéro 18, attestée également dans la table. Exclure les noms d’étoiles voisines ou constituantes, les explications anglaises et l’identification expressément contestée de l’entrée 14. Ne jamais mélanger dans un calcul les graphies d’Agrippa et celles de Sachau.
+
+Utiliser les graphies de travail ASCII du relevé visuel de l’imprimé de 1879, avec diacritiques déjà omis. Enlever les espaces et traits d’union. Tester le triplet avec l’apostrophe conservée comme caractère, puis supprimée. Pour l’ensemble des 19 inscriptions, tester la variante la plus permissive qui conserve l’apostrophe et autorise son omission comme celle de tout autre caractère. Garder les mêmes conventions de signes, omissions, lettre muette globale, correspondance plusieurs-vers-un, sens de lecture et orientations du cercle que pour Agrippa. Si le maximum de couverture est calculé, appliquer le même calcul exact de sous-ensemble.
+
+Cette comparaison porte sur des graphies de translittération modernes. L’œuvre remonte à l’an 1000, le manuscrit d’Édimbourg de 1307 est documenté et les feuillets arabes contenant cette liste n’ont pas été directement lus. Aucun effet constaté sur des lettres latines ne sera attribué à l’écriture arabe de ces feuillets.

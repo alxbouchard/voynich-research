@@ -1,0 +1,116 @@
+{
+  "herbier": {
+    "cartes": 8,
+    "au_moins_un_nom": [
+      "H01",
+      "H02",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08"
+    ],
+    "meme_nom_toute_confiance": [
+      "H01",
+      "H02",
+      "H05",
+      "H06",
+      "H07",
+      "H08"
+    ],
+    "decisions_individuelles": [
+      {
+        "faible": 3,
+        "nom_propose_toute_confiance": 7,
+        "abstention": 1,
+        "moyenne": 4,
+        "nom_juste_toute_confiance": 3,
+        "decision": 4,
+        "decisions_verifiables": 3,
+        "juste": 3
+      },
+      {
+        "moyenne": 5,
+        "nom_propose_toute_confiance": 6,
+        "decision": 5,
+        "decisions_verifiables": 4,
+        "faible": 1,
+        "abstention": 2,
+        "nom_juste_toute_confiance": 3,
+        "juste": 3
+      }
+    ],
+    "accords_moyens_ou_hauts": [
+      "H05",
+      "H06",
+      "H07",
+      "H08"
+    ],
+    "accords_confirmes": [
+      "H05",
+      "H07",
+      "H08"
+    ],
+    "accords_non_verifiables": [
+      "H06"
+    ],
+    "accords_verifiables": 3,
+    "accords_verifiables_exacts": 3,
+    "fraction": 1.0,
+    "seuil_atteint": true,
+    "genre_moderne_strict": {
+      "accords_verifiables": [
+        "H05",
+        "H08"
+      ],
+      "confirmes": [
+        "H05",
+        "H08"
+      ],
+      "seuil_atteint": false
+    }
+  },
+  "fragments": {
+    "cartes": 22,
+    "au_moins_un_nom": [
+      "V02",
+      "V03",
+      "V04",
+      "V07",
+      "V09",
+      "V16",
+      "V19",
+      "V21",
+      "V22"
+    ],
+    "meme_nom_toute_confiance": [
+      "V19"
+    ],
+    "decisions_individuelles": [
+      {
+        "abstention": 16,
+        "faible": 6,
+        "nom_propose_toute_confiance": 6
+      },
+      {
+        "abstention": 18,
+        "faible": 4,
+        "nom_propose_toute_confiance": 4
+      }
+    ],
+    "accords_moyens_ou_hauts": [],
+    "accords_confirmes": [],
+    "accords_non_verifiables": [],
+    "noms_historiques_distincts": [],
+    "seuil_atteint": false
+  },
+  "ajustement_autorise_par_protocole": false,
+  "lecture": {
+    "etat": "arrêt avant ajustement",
+    "regle": null,
+    "predictions_f99": [],
+    "f99": "non testé",
+    "permutation": "non applicable",
+    "prose": "non testée"
+  }
+}

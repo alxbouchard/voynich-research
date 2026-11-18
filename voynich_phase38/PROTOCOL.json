@@ -1,0 +1,24 @@
+{
+  "version": "phase38-published-key-ambiguity-v1",
+  "boundary": "NOT_TRANSLATION",
+  "date_local": "2026-11-17",
+  "objective": "Attempt to operationalize a previously unaudited proposed Italian key on actual manuscript records, preserving ambiguity and comparing lexical compatibility to rival keys and generated text. Never equate lexical hits with translated words.",
+  "prior_exposure": "Source paper/table fully consulted and star-label loci inspected before freeze. Third-party critique was encountered in web search but its scores/code are not used. No corpus-wide decoding or lexicon score measured yet. Earlier lexical audits concerned other proposals.",
+  "hypothesis": "The declared partial EVA-to-Latin table is informative enough to constrain lexical readings beyond arbitrary letter relabelings. This is a formalization of readable Table1, not a full image-based replication of all author judgments.",
+  "key": "KEY.json. Every complete segmentation retained. No guessed symbols, dynamic key optimization, or manual vocabulary expansion. Long strings with>4096 unique literal readings explicitly overflow and are excluded from compatibility scoring, with counts retained.",
+  "lexica": "For each language, types of length2..14 from the pinned normalized reference. Per length sample the same count from each language, the minimum available, with deterministic seed380100+length. This controls dictionary size and exact length distribution, not genre or complete historical spelling. No author-supplement words added.",
+  "matching": {
+    "literal": "Exact full string, or exact removal of ONE explicitly declared attached prefix o,qo,d,ex,ol followed by a nonempty dictionary word.",
+    "vowels": "As literal, but permit insertion of vowels aeiou anywhere. Observed consonants remain in exact order and multiplicity. No deletion or substitution.",
+    "insert2": "As literal, but permit insertion of at most2 letters of any kind anywhere. Includes zero insertions. No deletion or substitution. Does not model unlimited contractions."
+  },
+  "prefix_limit": "Same five prefixes for both languages and all keys. They are hypotheses from the paper, not established articles. No recursive stripping, no inserted prefix letters, no word reordering or across-space resegmentation.",
+  "rivals": "99 independent permutations of the active output alphabet;99 permutations separately within vowels and consonants. Seed380200+i and380400+i. Preserve rule inputs, lengths, overlap, equality structure, all variants. These are diagnostics, not formal significance tests for a key developed on this manuscript.",
+  "corpora": "All pinned literal ZL and IT records pooled, and6 generated3000word samples. Corpus denominators include unparsed tokens; report covered share, literal ambiguity, lexical compatibility and singleton lexical candidates separately. ZL and IT are not independent manuscripts. Record role/Currier summaries for proposed key only.",
+  "mechanical_checks": "Toy segmentations, exact dictionary hits, insertion witnesses checked against direct subsequence tests; encode100 available dictionary words per language with known fixed table and retain the true spelling in its output lattice. These are software checks using known keys, not unknown-key decipherment calibration.",
+  "outcomes": "Full table and lexical evidence; candidate strings explicitly UNVALIDATED. Rank proposed-key lexical compatibility among both sets of rivals. Any competing lexical readings or generator compatibility forbids interpreting that metric as a semantic validator. Even a unique lexical match under this small lexicon does not prove meaning.",
+  "stopping": "No automatic French translation or linguistic key confirmation from this audit. No rescue with different rules, dictionaries or thresholds after results. Preserve all outputs and unsupported inputs.",
+  "limits": "Partial glyph table; rare G unresolved; EVA may miss distinctions claimed from handwriting; only two incomplete normalized lexicons; contractions>2 letters and syntactic disambiguation not implemented; no independent human expertise. This cannot refute every version of the original hypothesis.",
+  "verification": "Independent segmentation and lexical witness checks, weighted count/rank recalculation, frozen hashes, byte-identical replay; same operator, no claim of external replication.",
+  "delivery": "Local research dossier, all source provenance, code, outcome; no push or external message. Full decipherment goal remains active unless actual validated plaintext obtained."
+}

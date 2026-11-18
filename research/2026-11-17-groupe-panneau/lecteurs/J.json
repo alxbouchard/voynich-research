@@ -1,0 +1,153 @@
+{
+  "source": "Q.jpg, 2834 × 3761 px",
+  "protocole": "Lecture visuelle libre de la ligne écrite circulaire la plus extérieure. Quart parcouru en sens horaire de 9 h à 12 h sur la photographie. Seul autre support lu en détail : la planche de signes générique EVA Alphabet Font Version 2 Reference de G. Landini, p. 1. Aucune transcription de la page consultée.",
+  "ref_alphabet": "https://www.voynich.nu/hist/gabriel/eva2_reference.pdf",
+  "secteur": "sector-color.png",
+  "repere": "Angles approximatifs en degrés du déroulement : 0 = 9 h et 90 = 12 h. Centre utilisé (1268,1729) px, demi-axes (978,984) px. Les extrémités recoupent l'écriture. Des extraits voisins de moins de 10° permettent de voir les groupes de bord en entier.",
+  "description": "L'écriture suit deux règles circulaires légères. Plusieurs étoiles, têtes et traits du dessin se trouvent juste en dessous dans le sens du déroulement, notamment sous le raccord du premier groupe et après la longue hampe terminale du deuxième. La place libre entre groupes varie. Aucun signe de ponctuation sûr dans cet arc.",
+  "lecture_de_travail": "cheody | ykey,dam | oteos | ylar | olcheky | ypolcheey | dalchedal | chctheey",
+  "conventions": "La barre représente une séparation plausible du texte visible, la virgule un petit espace d'interprétation incertaine. Le premier groupe commence avant 9 h, le dernier finit après 12 h. Les variantes et espaces sont non normalisés.",
+  "groupes": [
+    {
+      "deg": [
+        -5,
+        3.7
+      ],
+      "eva": "cheody",
+      "variantes": [
+        "cheo?y"
+      ],
+      "confiance": "faible à moyenne",
+      "observation": "Deux petites courbes reliées en haut, petite courbe, ovale, signe anguleux ou bouclé bas, crochet descendant. Le repère 9 h traverse l'ovale."
+    },
+    {
+      "deg": [
+        6.1,
+        18.8
+      ],
+      "eva": "ykey,dam",
+      "variantes": [
+        "ykydam",
+        "ytey,dam"
+      ],
+      "confiance": "faible",
+      "observation": "Premier signe à queue, longue paire de hampes puis petit signe et nouvelle queue. Petit jour vers 13°, avant un signe en huit, une forme basse et une finale sombre descendante touchant presque le dessin. Lecture m très incertaine. Possible division en deux groupes."
+    },
+    {
+      "deg": [
+        21.4,
+        30.6
+      ],
+      "eva": "oteos",
+      "variantes": [
+        "otees"
+      ],
+      "confiance": "moyenne à bonne",
+      "observation": "Ovale isolé, haute hampe à large boucle de chaque côté, petite courbe, petit ovale puis crochet large ouvert."
+    },
+    {
+      "deg": [
+        31.2,
+        39.1
+      ],
+      "eva": "ylar",
+      "variantes": [
+        "ylar",
+        "ylas"
+      ],
+      "confiance": "moyenne",
+      "observation": "Forme initiale à queue prolongée dans un signe en boucle. Autre petite forme basse plus isolée et crochet de fin à retour anguleux."
+    },
+    {
+      "deg": [
+        40,
+        51.2
+      ],
+      "eva": "olcheky",
+      "variantes": [
+        "olchek?",
+        "oecheky"
+      ],
+      "confiance": "moyenne",
+      "observation": "Ovale, signe court bouclé, deux petites courbes jointes par le toit, courbe basse, haute hampe avec large boucle à droite, crochet terminal descendant. Espace net à droite."
+    },
+    {
+      "deg": [
+        53.8,
+        66.7
+      ],
+      "eva": "ypolcheey",
+      "variantes": [
+        "ypolcheeey",
+        "ypolchey"
+      ],
+      "confiance": "moyenne",
+      "observation": "Forme à queue, grande hampe formant deux boucles en haut et une barre plus basse, ovale, boucle fine descendant vers la gauche, série de courbes et queue. Nombre de courbes libres incertain."
+    },
+    {
+      "deg": [
+        68.7,
+        80.9
+      ],
+      "eva": "dalchedal",
+      "variantes": [
+        "lalchedal",
+        "lalcheda?",
+        "salchedal"
+      ],
+      "confiance": "faible à moyenne",
+      "observation": "Première forme avec une boucle haute sur un pied arrondi, puis petite forme et boucle à longue diagonale. Milieu à toit et courbe basse. La forme en huit à droite précède deux petits signes, dont le dernier porte une boucle inclinée. Premier signe difficile."
+    },
+    {
+      "deg": [
+        83.1,
+        94.4
+      ],
+      "eva": "chctheey",
+      "variantes": [
+        "chcthey",
+        "chctheeey"
+      ],
+      "confiance": "faible à moyenne",
+      "observation": "Au début deux petites formes jointes, suivies d'une construction à traverses et haute double boucle. La verticale de midi traverse cette construction ou son bord droit. Suite de courbes et queue visibles au-delà du quart."
+    }
+  ],
+  "coupures": {
+    "nettes_degres": [
+      [
+        3.7,
+        6.1
+      ],
+      [
+        18.8,
+        21.4
+      ],
+      [
+        51.2,
+        53.8
+      ],
+      [
+        66.7,
+        68.7
+      ],
+      [
+        80.9,
+        83.1
+      ]
+    ],
+    "plus_etroites_degres": [
+      [
+        30.6,
+        31.2
+      ],
+      [
+        39.1,
+        40.0
+      ]
+    ],
+    "interne_possible_degres": [
+      13.2
+    ]
+  },
+  "limite": "Lecture visuelle par un seul modèle, assimilations EVA de confiance variable. Les angles sont estimés au degré près. Aucun sens linguistique attribué."
+}

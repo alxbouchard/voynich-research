@@ -1,0 +1,1455 @@
+{
+  "historical": {
+    "assumption": "Actual historical known/unknown masks and eligibility, no new observation",
+    "primary": {
+      "motifs": 29,
+      "admissible_edges": 38,
+      "estimable_types": 8,
+      "eligible_strata": 2,
+      "contributing_folios": [
+        "f70",
+        "f72",
+        "f73",
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 5,
+      "possible_assignments": 64,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "Z|4|Lz": 6,
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 7
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 6
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f73"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 3
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    },
+    "layout": {
+      "motifs": 29,
+      "admissible_edges": 19,
+      "estimable_types": 5,
+      "eligible_strata": 2,
+      "contributing_folios": [
+        "f70",
+        "f72",
+        "f73",
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 5,
+      "possible_assignments": 16,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "Z|4|Lz": 3,
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72",
+              "outer"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 1
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    },
+    "orientation": {
+      "motifs": 29,
+      "admissible_edges": 12,
+      "estimable_types": 2,
+      "eligible_strata": 1,
+      "contributing_folios": [
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 2,
+      "possible_assignments": 8,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    }
+  },
+  "text_optimistic": {
+    "assumption": "Hypothetical all twelve traits observable; not a measured usable sample",
+    "primary": {
+      "motifs": 35,
+      "admissible_edges": 53,
+      "estimable_types": 12,
+      "eligible_strata": 3,
+      "contributing_folios": [
+        "f101",
+        "f70",
+        "f72",
+        "f73",
+        "f75",
+        "f82",
+        "f84",
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 9,
+      "possible_assignments": 768,
+      "structural_gate_passed": true,
+      "layout_assignment_gate_passed": true,
+      "by_stratum": {
+        "Z|4|Lz": 7,
+        "B|2|Ln": 2,
+        "P|1|Lf": 3
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 8
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f101",
+              "f88"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 8
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 3
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ],
+            [
+              "f70",
+              "f73"
+            ],
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 3,
+          "different_edges": 12
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otedy|B|2|Ln",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f82",
+              "f84"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 3
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f75",
+              "f84"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    },
+    "layout": {
+      "motifs": 35,
+      "admissible_edges": 26,
+      "estimable_types": 6,
+      "eligible_strata": 2,
+      "contributing_folios": [
+        "f70",
+        "f72",
+        "f73",
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 5,
+      "possible_assignments": 64,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "Z|4|Lz": 4,
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72",
+              "outer"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 3
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otedy|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [
+            [
+              "f82",
+              "f84",
+              "upper"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    },
+    "orientation": {
+      "motifs": 35,
+      "admissible_edges": 14,
+      "estimable_types": 2,
+      "eligible_strata": 1,
+      "contributing_folios": [
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 2,
+      "possible_assignments": 16,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otedy|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [
+            [
+              "f82",
+              "f84",
+              "upper"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    }
+  },
+  "geometry": {
+    "assumption": "Hypothetical all twelve traits observable; not a measured usable sample",
+    "primary": {
+      "motifs": 32,
+      "admissible_edges": 47,
+      "estimable_types": 9,
+      "eligible_strata": 2,
+      "contributing_folios": [
+        "f70",
+        "f72",
+        "f73",
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 5,
+      "possible_assignments": 128,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": true,
+      "by_stratum": {
+        "Z|4|Lz": 7,
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 8
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 8
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72"
+            ],
+            [
+              "f70",
+              "f73"
+            ],
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 3,
+          "different_edges": 12
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otedy|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    },
+    "layout": {
+      "motifs": 32,
+      "admissible_edges": 25,
+      "estimable_types": 6,
+      "eligible_strata": 2,
+      "contributing_folios": [
+        "f70",
+        "f72",
+        "f73",
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 5,
+      "possible_assignments": 32,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "Z|4|Lz": 4,
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f70",
+              "f72",
+              "outer"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 1
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 2,
+          "different_edges": 3
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f72",
+              "f73",
+              "inner"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otedy|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    },
+    "orientation": {
+      "motifs": 32,
+      "admissible_edges": 13,
+      "estimable_types": 2,
+      "eligible_strata": 1,
+      "contributing_folios": [
+        "f88",
+        "f99"
+      ],
+      "n_contributing_folios": 2,
+      "possible_assignments": 8,
+      "structural_gate_passed": false,
+      "layout_assignment_gate_passed": false,
+      "by_stratum": {
+        "P|1|Lf": 2
+      },
+      "by_type": [
+        {
+          "type": "okal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okaram|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okary|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeody|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okeoly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "okol|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "oky|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otaly|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otaly|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otal|Z|4|Lz",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otedy|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otedy|B|2|Lt",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoky|P|1|Lf",
+          "included": true,
+          "matched_folio_pairs": [
+            [
+              "f88",
+              "f99",
+              "row1"
+            ]
+          ],
+          "same_edges": 1,
+          "different_edges": 2
+        },
+        {
+          "type": "otoldy|P|1|Lf",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        },
+        {
+          "type": "otoly|B|2|Ln",
+          "included": false,
+          "matched_folio_pairs": [],
+          "same_edges": 0,
+          "different_edges": 0
+        }
+      ],
+      "scope": "Combinatorial support only. No feature values, similarities, null draws or p-values calculated."
+    }
+  }
+}

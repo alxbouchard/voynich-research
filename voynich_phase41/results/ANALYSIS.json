@@ -1,0 +1,1796 @@
+[
+  {
+    "source": "ZL",
+    "cycle_lengths": [
+      17,
+      17,
+      17,
+      17
+    ],
+    "total_entries": 68,
+    "cycles": [
+      {
+        "cycle": 1,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 1,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 2,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 3,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 4,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      }
+    ],
+    "pairwise_alignment": [
+      {
+        "cycles": [
+          1,
+          2
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          3
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          4
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "minimum_edits": 0,
+        "optimal_alignment_paths": 1
+      }
+    ],
+    "conditional_alias_graph": {
+      "premise": "Corresponding positions represent the same item; NOT established globally.",
+      "admitted_cycle_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "positions": [
+            1
+          ],
+          "signs": [
+            "o"
+          ]
+        },
+        {
+          "positions": [
+            2
+          ],
+          "signs": [
+            "l"
+          ]
+        },
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "d"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            5
+          ],
+          "signs": [
+            "v"
+          ]
+        },
+        {
+          "positions": [
+            6
+          ],
+          "signs": [
+            "x"
+          ]
+        },
+        {
+          "positions": [
+            7
+          ],
+          "signs": [
+            "k"
+          ]
+        },
+        {
+          "positions": [
+            8
+          ],
+          "signs": [
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            10
+          ],
+          "signs": [
+            "@169;v"
+          ]
+        },
+        {
+          "positions": [
+            11
+          ],
+          "signs": [
+            "t"
+          ]
+        },
+        {
+          "positions": [
+            13
+          ],
+          "signs": [
+            "@170;"
+          ]
+        },
+        {
+          "positions": [
+            14
+          ],
+          "signs": [
+            "@171;"
+          ]
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "I",
+            "c"
+          ]
+        },
+        {
+          "positions": [
+            17
+          ],
+          "signs": [
+            "@172;"
+          ]
+        }
+      ],
+      "position_class_count": 16,
+      "cross_position_merges": [
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        }
+      ],
+      "multiple_form_components": [
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "I",
+            "c"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source": "IT",
+    "cycle_lengths": [
+      17,
+      17,
+      17,
+      18
+    ],
+    "total_entries": 69,
+    "cycles": [
+      {
+        "cycle": 1,
+        "entries": 17,
+        "unknown_entries": 4,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "k": [
+            7,
+            8
+          ],
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 2,
+        "entries": 17,
+        "unknown_entries": 4,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 3,
+        "entries": 17,
+        "unknown_entries": 4,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "k": [
+            7,
+            8
+          ],
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 4,
+        "entries": 18,
+        "unknown_entries": 3,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "k": [
+            7,
+            8
+          ],
+          "r": [
+            4,
+            12,
+            17
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      }
+    ],
+    "pairwise_alignment": [
+      {
+        "cycles": [
+          1,
+          2
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          3
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          4
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 2
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "minimum_edits": 3,
+        "optimal_alignment_paths": 2
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 2
+      }
+    ],
+    "conditional_alias_graph": {
+      "premise": "Corresponding positions represent the same item; NOT established globally.",
+      "admitted_cycle_numbers": [
+        1,
+        2,
+        3
+      ],
+      "components": [
+        {
+          "positions": [
+            1
+          ],
+          "signs": [
+            "o"
+          ]
+        },
+        {
+          "positions": [
+            2
+          ],
+          "signs": [
+            "l"
+          ]
+        },
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "d"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            5
+          ],
+          "signs": [
+            "v"
+          ]
+        },
+        {
+          "positions": [
+            6
+          ],
+          "signs": [
+            "x"
+          ]
+        },
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "signs": [
+            "k",
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            10
+          ],
+          "signs": []
+        },
+        {
+          "positions": [
+            11
+          ],
+          "signs": [
+            "t"
+          ]
+        },
+        {
+          "positions": [
+            13
+          ],
+          "signs": []
+        },
+        {
+          "positions": [
+            14
+          ],
+          "signs": []
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "c"
+          ]
+        },
+        {
+          "positions": [
+            17
+          ],
+          "signs": []
+        }
+      ],
+      "position_class_count": 15,
+      "cross_position_merges": [
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "signs": [
+            "k",
+            "m"
+          ]
+        }
+      ],
+      "multiple_form_components": [
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "signs": [
+            "k",
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source": "GC",
+    "cycle_lengths": [
+      17,
+      17,
+      17,
+      16
+    ],
+    "total_entries": 67,
+    "cycles": [
+      {
+        "cycle": 1,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {},
+        "injective_list_once_rejected_on_observed_units": false
+      },
+      {
+        "cycle": 2,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "y": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 3,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "y": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 4,
+        "entries": 16,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "y": [
+            3,
+            11
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      }
+    ],
+    "pairwise_alignment": [
+      {
+        "cycles": [
+          1,
+          2
+        ],
+        "minimum_edits": 5,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          3
+        ],
+        "minimum_edits": 5,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          4
+        ],
+        "minimum_edits": 7,
+        "optimal_alignment_paths": 3
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "minimum_edits": 3,
+        "optimal_alignment_paths": 2
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 2
+      }
+    ],
+    "conditional_alias_graph": {
+      "premise": "Corresponding positions represent the same item; NOT established globally.",
+      "admitted_cycle_numbers": [
+        1,
+        2,
+        3
+      ],
+      "components": [
+        {
+          "positions": [
+            1
+          ],
+          "signs": [
+            "o"
+          ]
+        },
+        {
+          "positions": [
+            2
+          ],
+          "signs": [
+            "e"
+          ]
+        },
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "&",
+            "8"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "x",
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            5
+          ],
+          "signs": [
+            "^"
+          ]
+        },
+        {
+          "positions": [
+            6
+          ],
+          "signs": [
+            "|"
+          ]
+        },
+        {
+          "positions": [
+            7
+          ],
+          "signs": [
+            "h"
+          ]
+        },
+        {
+          "positions": [
+            8
+          ],
+          "signs": [
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "g",
+            "w"
+          ]
+        },
+        {
+          "positions": [
+            10
+          ],
+          "signs": [
+            "@204;"
+          ]
+        },
+        {
+          "positions": [
+            11
+          ],
+          "signs": [
+            "k"
+          ]
+        },
+        {
+          "positions": [
+            13
+          ],
+          "signs": [
+            "@201;"
+          ]
+        },
+        {
+          "positions": [
+            14
+          ],
+          "signs": [
+            "@236;"
+          ]
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "(",
+            "9"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "@200;",
+            "E"
+          ]
+        },
+        {
+          "positions": [
+            17
+          ],
+          "signs": [
+            "@202;"
+          ]
+        }
+      ],
+      "position_class_count": 16,
+      "cross_position_merges": [
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "x",
+            "y"
+          ]
+        }
+      ],
+      "multiple_form_components": [
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "&",
+            "8"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "x",
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "g",
+            "w"
+          ]
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "(",
+            "9"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "@200;",
+            "E"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source": "LSI_H",
+    "cycle_lengths": [
+      17,
+      17,
+      17,
+      18
+    ],
+    "total_entries": 69,
+    "cycles": [
+      {
+        "cycle": 1,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "k": [
+            7,
+            8
+          ],
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 2,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 3,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "k": [
+            7,
+            8
+          ],
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 4,
+        "entries": 18,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "*{&169}": [
+            10,
+            13
+          ],
+          "k": [
+            7,
+            8
+          ],
+          "r": [
+            4,
+            12,
+            17
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      }
+    ],
+    "pairwise_alignment": [
+      {
+        "cycles": [
+          1,
+          2
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          3
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          4
+        ],
+        "minimum_edits": 4,
+        "optimal_alignment_paths": 2
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "minimum_edits": 5,
+        "optimal_alignment_paths": 2
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "minimum_edits": 3,
+        "optimal_alignment_paths": 2
+      }
+    ],
+    "conditional_alias_graph": {
+      "premise": "Corresponding positions represent the same item; NOT established globally.",
+      "admitted_cycle_numbers": [
+        1,
+        2,
+        3
+      ],
+      "components": [
+        {
+          "positions": [
+            1
+          ],
+          "signs": [
+            "o"
+          ]
+        },
+        {
+          "positions": [
+            2
+          ],
+          "signs": [
+            "l"
+          ]
+        },
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "d"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            5
+          ],
+          "signs": [
+            "v"
+          ]
+        },
+        {
+          "positions": [
+            6
+          ],
+          "signs": [
+            "x"
+          ]
+        },
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "signs": [
+            "k",
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            10
+          ],
+          "signs": [
+            "*{&169}"
+          ]
+        },
+        {
+          "positions": [
+            11
+          ],
+          "signs": [
+            "t"
+          ]
+        },
+        {
+          "positions": [
+            13
+          ],
+          "signs": [
+            "*{&170}"
+          ]
+        },
+        {
+          "positions": [
+            14
+          ],
+          "signs": [
+            "*{&171}"
+          ]
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "c"
+          ]
+        },
+        {
+          "positions": [
+            17
+          ],
+          "signs": [
+            "*{&172}"
+          ]
+        }
+      ],
+      "position_class_count": 15,
+      "cross_position_merges": [
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "signs": [
+            "k",
+            "m"
+          ]
+        }
+      ],
+      "multiple_form_components": [
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "signs": [
+            "k",
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source": "LSI_V",
+    "cycle_lengths": [
+      17,
+      17,
+      17,
+      17
+    ],
+    "total_entries": 68,
+    "cycles": [
+      {
+        "cycle": 1,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 2,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 3,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 4,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      }
+    ],
+    "pairwise_alignment": [
+      {
+        "cycles": [
+          1,
+          2
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          3
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          4
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "minimum_edits": 0,
+        "optimal_alignment_paths": 1
+      }
+    ],
+    "conditional_alias_graph": {
+      "premise": "Corresponding positions represent the same item; NOT established globally.",
+      "admitted_cycle_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "positions": [
+            1
+          ],
+          "signs": [
+            "o"
+          ]
+        },
+        {
+          "positions": [
+            2
+          ],
+          "signs": [
+            "l"
+          ]
+        },
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "d"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            5
+          ],
+          "signs": [
+            "v"
+          ]
+        },
+        {
+          "positions": [
+            6
+          ],
+          "signs": [
+            "x"
+          ]
+        },
+        {
+          "positions": [
+            7
+          ],
+          "signs": [
+            "k"
+          ]
+        },
+        {
+          "positions": [
+            8
+          ],
+          "signs": [
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            10
+          ],
+          "signs": [
+            "*{&169}"
+          ]
+        },
+        {
+          "positions": [
+            11
+          ],
+          "signs": [
+            "t"
+          ]
+        },
+        {
+          "positions": [
+            13
+          ],
+          "signs": [
+            "*{&170}"
+          ]
+        },
+        {
+          "positions": [
+            14
+          ],
+          "signs": [
+            "*{&171}"
+          ]
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "*{&I}",
+            "c"
+          ]
+        },
+        {
+          "positions": [
+            17
+          ],
+          "signs": [
+            "*{&172}"
+          ]
+        }
+      ],
+      "position_class_count": 16,
+      "cross_position_merges": [
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        }
+      ],
+      "multiple_form_components": [
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "*{&I}",
+            "c"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source": "LSI_U",
+    "cycle_lengths": [
+      17,
+      17,
+      17,
+      17
+    ],
+    "total_entries": 68,
+    "cycles": [
+      {
+        "cycle": 1,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 2,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 3,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      },
+      {
+        "cycle": 4,
+        "entries": 17,
+        "unknown_entries": 0,
+        "alternative_entries": 0,
+        "definite_duplicate_positions": {
+          "r": [
+            4,
+            12
+          ]
+        },
+        "injective_list_once_rejected_on_observed_units": true
+      }
+    ],
+    "pairwise_alignment": [
+      {
+        "cycles": [
+          1,
+          2
+        ],
+        "minimum_edits": 2,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          3
+        ],
+        "minimum_edits": 3,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          1,
+          4
+        ],
+        "minimum_edits": 3,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "minimum_edits": 1,
+        "optimal_alignment_paths": 1
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "minimum_edits": 0,
+        "optimal_alignment_paths": 1
+      }
+    ],
+    "conditional_alias_graph": {
+      "premise": "Corresponding positions represent the same item; NOT established globally.",
+      "admitted_cycle_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "positions": [
+            1
+          ],
+          "signs": [
+            "o"
+          ]
+        },
+        {
+          "positions": [
+            2
+          ],
+          "signs": [
+            "l"
+          ]
+        },
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "d",
+            "j"
+          ]
+        },
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        },
+        {
+          "positions": [
+            5
+          ],
+          "signs": [
+            "v"
+          ]
+        },
+        {
+          "positions": [
+            6
+          ],
+          "signs": [
+            "x"
+          ]
+        },
+        {
+          "positions": [
+            7
+          ],
+          "signs": [
+            "k"
+          ]
+        },
+        {
+          "positions": [
+            8
+          ],
+          "signs": [
+            "m"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            10
+          ],
+          "signs": [
+            "*{&169}"
+          ]
+        },
+        {
+          "positions": [
+            11
+          ],
+          "signs": [
+            "t"
+          ]
+        },
+        {
+          "positions": [
+            13
+          ],
+          "signs": [
+            "*{&170}"
+          ]
+        },
+        {
+          "positions": [
+            14
+          ],
+          "signs": [
+            "*{&171}"
+          ]
+        },
+        {
+          "positions": [
+            15
+          ],
+          "signs": [
+            "y"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "*{&I}",
+            "c"
+          ]
+        },
+        {
+          "positions": [
+            17
+          ],
+          "signs": [
+            "*{&172}"
+          ]
+        }
+      ],
+      "position_class_count": 16,
+      "cross_position_merges": [
+        {
+          "positions": [
+            4,
+            12
+          ],
+          "signs": [
+            "r"
+          ]
+        }
+      ],
+      "multiple_form_components": [
+        {
+          "positions": [
+            3
+          ],
+          "signs": [
+            "d",
+            "j"
+          ]
+        },
+        {
+          "positions": [
+            9
+          ],
+          "signs": [
+            "f",
+            "p"
+          ]
+        },
+        {
+          "positions": [
+            16
+          ],
+          "signs": [
+            "*{&I}",
+            "c"
+          ]
+        }
+      ]
+    }
+  }
+]

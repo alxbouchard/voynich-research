@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "frozen_files": 19,
+  "source_configurations": 4,
+  "parsed_page_configurations": 64,
+  "retained_token_slots_checked": 5488,
+  "score_rows_checked": 192,
+  "full_edit_matrices": 16464,
+  "assignment_rows_checked": 96,
+  "formula_controls": {
+    "distance_assertions": 4,
+    "formula_cases": 12,
+    "subsets_enumerated": 29
+  },
+  "image_metadata_checked": 5,
+  "native_crops_checked": 3,
+  "native_crop_pixels_checked": 2959000,
+  "distinct_assignment_counts": {
+    "ZL/split": 12,
+    "ZL/join": 12,
+    "IT/split": 12,
+    "IT/join": 12
+  },
+  "assignment_multiplicities": {
+    "ZL/split": [
+      2
+    ],
+    "ZL/join": [
+      2
+    ],
+    "IT/split": [
+      2
+    ],
+    "IT/join": [
+      2
+    ]
+  },
+  "distinct_reference_counts": {
+    "ZL/split": {
+      "total": 12,
+      "primary_at_least": 12,
+      "secondary_at_most": 1
+    },
+    "ZL/join": {
+      "total": 12,
+      "primary_at_least": 12,
+      "secondary_at_most": 1
+    },
+    "IT/split": {
+      "total": 12,
+      "primary_at_least": 12,
+      "secondary_at_most": 1
+    },
+    "IT/join": {
+      "total": 12,
+      "primary_at_least": 12,
+      "secondary_at_most": 1
+    }
+  },
+  "duplicated_rank_note": "Each of24 permutations represents one of12 distinct assignments twice because two unused blocks can swap. Secondary rank2/24 equals1/12, not two independent favorable assignments.",
+  "freeze_scope": "The19 frozen files are protocol, pair mapping, sources and images; analyse.py is not included in FREEZE.json.",
+  "independence": "Separate agent, explicit source scanner, full edit matrix, order-statistic rarefaction, exhaustive small subsets and native pixel row slices; technical verification, not independent botanical or historical confirmation.",
+  "decipherment_goal_achieved": false
+}

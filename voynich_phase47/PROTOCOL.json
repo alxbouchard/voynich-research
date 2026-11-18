@@ -1,0 +1,23 @@
+{
+  "phase": 47,
+  "boundary": "NOT_TRANSLATION",
+  "question": "Can any assignment of plaintext letters to the fixed published Naibbe glyph repertoire generate clean Voynich prose when spaces and line boundaries are unconstrained?",
+  "scope": "Fixed published U/P/S glyph strings. Unknown plaintext mappings may be arbitrary. This does NOT include invented glyph codewords, substitutions of EVA signs, glyph aliases or transcription repairs.",
+  "necessary_language": "A=U union all pairwise concatenations P S, including ambiguous/rejected combinations; L=A*. Superset of native encryption, including arbitrary table draws and aligned reuse. After arbitrary space deletion words are in L; after arbitrary boundary insertions and line truncation every contiguous observed line must be a factor of L.",
+  "algorithm": "Epsilon NFA with separate U/P/S tries, root\u2192Uroot orProot, Uterm\u2192root, Pterm\u2192Sroot, Sterm\u2192root. Closed start=root, accept root. Open start=ALL reachable/coaccessible states, accept any nonempty final state. Assert every state is reachable and coaccessible.",
+  "parsing": "All non-! prose loci kind[1]==P in ZL and IT. Replace <-> with dot; remove other angle metadata; trim whitespace. Retain a line only when all remaining characters are lowercase a-z, dot or comma and at least one letter. Exclude entire uncertain lines; never delete an unknown sign and join its neighbors. Split dot/comma for diagnostic tokens; concatenate all clean tokens for line tests.",
+  "reports": [
+    "token membership in A",
+    "token segmentation in A*",
+    "closed line segmentation in A* after removing all separators",
+    "open line factor of A* allowing truncated first/last atoms"
+  ],
+  "primary": "Open line compatibility, most permissive. At least one verified counterexample invalidates an error-free full-corpus reading within this fixed glyph family, regardless of unknown letter key. Report acceptance and exclusions, not percent decoded.",
+  "certificates": "For each rejected open line, find first prefix with empty active state, then shortest suffix of that prefix still rejected. Record locus, start/end EVA indices, factor and whether factor uses only codebook alphabet. Verify factor rejected and its proper one-character prefix/suffix accepted.",
+  "controls": "All A atoms accepted closed; every nonempty substring of every atom accepted open; all archived phase1 generated ciphertext lines accepted closed/open. Positive long concatenations with all possible cuts in bounded deterministic examples; small toy grammar exhaustive negatives. Independent explicit-dictionary segmentation/factor DP. No language model or plaintext values used in classifier.",
+  "known_control": "Archived phase1 Greshko-generated Pliny ciphertext, with known tables. Reused solely as parser positive control; not a fresh unknown-key calibration.",
+  "decision": "If primary has counterexamples, do not run unknown plaintext-key search under unchanged repertoire as a decipherment of the complete manuscript. Passing would only permit further key work, not validate meaning. No failing case deleted after results.",
+  "historical_status": "Naibbe is modern Greshko construction with period-compatible materials, not an established historical cipher used for Voynich.",
+  "prior_difference": "Phase1 addendum tested fixed maps at supplied token boundaries, compound disabled. Here key-independent support, unlimited concatenation and open line ends; no new alphabet inferred.",
+  "limits": "Transcription errors, allographs and alternative codeword inventories remain outside this family. ZL/IT correlated, corpus exposed; clean subset excludes uncertain lines. Constraint is structural, not evidence of absence of meaning."
+}

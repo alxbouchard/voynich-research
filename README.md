@@ -1,5 +1,7 @@
 # Voynich : carnet de recherche et expériences
 
+**Mise à jour du 18 novembre 2026.** Le carnet couvre les 51 phases et les expériences sur les dessins, les plantes, les bains et les diagrammes. [Consulter les découvertes et leurs rapports](DECOUVERTES.md).
+
 **État : aucun déchiffrement, aucune langue et aucune traduction validés dans ce projet.**
 
 **Documentation sur Google Drive : [ouvrir le dossier partagé](https://drive.google.com/drive/folders/1bHdug2Ng5kM1uNuCQiDq9LqFK9kDE2hm?usp=sharing).** Ce dossier a été fourni par Alex pour centraliser la documentation de recherche. Ses autorisations de partage sont gérées dans Google Drive.

@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "freeze_files_verified": 26,
+  "documentary_rows": 1030,
+  "csv_source_record_roundtrips": 1030,
+  "native_crop_pixel_checks": 25,
+  "native_sources_used": 16,
+  "review_attempts": 31,
+  "independent_combinatorial_checks": [
+    {
+      "scenario": "historical",
+      "mode": "primary",
+      "counts": {
+        "motifs": 29,
+        "admissible_edges": 38,
+        "estimable_types": 8,
+        "eligible_strata": 2,
+        "contributing_folios": [
+          "f70",
+          "f72",
+          "f73",
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 5,
+        "possible_assignments": 64
+      }
+    },
+    {
+      "scenario": "historical",
+      "mode": "layout",
+      "counts": {
+        "motifs": 29,
+        "admissible_edges": 19,
+        "estimable_types": 5,
+        "eligible_strata": 2,
+        "contributing_folios": [
+          "f70",
+          "f72",
+          "f73",
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 5,
+        "possible_assignments": 16
+      }
+    },
+    {
+      "scenario": "historical",
+      "mode": "orientation",
+      "counts": {
+        "motifs": 29,
+        "admissible_edges": 12,
+        "estimable_types": 2,
+        "eligible_strata": 1,
+        "contributing_folios": [
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 2,
+        "possible_assignments": 8
+      }
+    },
+    {
+      "scenario": "text_optimistic",
+      "mode": "primary",
+      "counts": {
+        "motifs": 35,
+        "admissible_edges": 53,
+        "estimable_types": 12,
+        "eligible_strata": 3,
+        "contributing_folios": [
+          "f101",
+          "f70",
+          "f72",
+          "f73",
+          "f75",
+          "f82",
+          "f84",
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 9,
+        "possible_assignments": 768
+      }
+    },
+    {
+      "scenario": "text_optimistic",
+      "mode": "layout",
+      "counts": {
+        "motifs": 35,
+        "admissible_edges": 26,
+        "estimable_types": 6,
+        "eligible_strata": 2,
+        "contributing_folios": [
+          "f70",
+          "f72",
+          "f73",
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 5,
+        "possible_assignments": 64
+      }
+    },
+    {
+      "scenario": "text_optimistic",
+      "mode": "orientation",
+      "counts": {
+        "motifs": 35,
+        "admissible_edges": 14,
+        "estimable_types": 2,
+        "eligible_strata": 1,
+        "contributing_folios": [
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 2,
+        "possible_assignments": 16
+      }
+    },
+    {
+      "scenario": "geometry",
+      "mode": "primary",
+      "counts": {
+        "motifs": 32,
+        "admissible_edges": 47,
+        "estimable_types": 9,
+        "eligible_strata": 2,
+        "contributing_folios": [
+          "f70",
+          "f72",
+          "f73",
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 5,
+        "possible_assignments": 128
+      }
+    },
+    {
+      "scenario": "geometry",
+      "mode": "layout",
+      "counts": {
+        "motifs": 32,
+        "admissible_edges": 25,
+        "estimable_types": 6,
+        "eligible_strata": 2,
+        "contributing_folios": [
+          "f70",
+          "f72",
+          "f73",
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 5,
+        "possible_assignments": 32
+      }
+    },
+    {
+      "scenario": "geometry",
+      "mode": "orientation",
+      "counts": {
+        "motifs": 32,
+        "admissible_edges": 13,
+        "estimable_types": 2,
+        "eligible_strata": 1,
+        "contributing_folios": [
+          "f88",
+          "f99"
+        ],
+        "n_contributing_folios": 2,
+        "possible_assignments": 8
+      }
+    }
+  ],
+  "feature_value_comparisons": 0,
+  "new_association_tests": 0,
+  "external_human_validation": false
+}

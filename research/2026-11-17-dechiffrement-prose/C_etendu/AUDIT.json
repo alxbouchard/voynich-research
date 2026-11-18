@@ -1,0 +1,182 @@
+{
+  "denombrement_source": {
+    "windows": 90944,
+    "two_repeat_positions": 4644,
+    "previsible": 143
+  },
+  "motifs_informatifs_distincts": 106,
+  "editions": {
+    "commun": {
+      "windows": 625,
+      "predictions": 6,
+      "distribution": [
+        [
+          3,
+          0,
+          6
+        ]
+      ],
+      "premier_au_meilleur_score_brut": {
+        "source": "celsus_5_26",
+        "mot_source": 1294,
+        "segment": 506,
+        "debut_segment": 8,
+        "site_initial": [
+          "f76v.31",
+          8
+        ],
+        "site_final": [
+          "f76v.33",
+          3
+        ],
+        "exactes": 0,
+        "annonces": [
+          [
+            1,
+            "chedy"
+          ],
+          [
+            3,
+            "otedy"
+          ],
+          [
+            6,
+            "chedy"
+          ]
+        ],
+        "lecture_observee": [
+          "chckhedy",
+          "otol",
+          "oty",
+          "saiin",
+          "otaiin",
+          "shckhedy"
+        ]
+      },
+      "succes": []
+    },
+    "ZL": {
+      "windows": 3809,
+      "predictions": 33,
+      "distribution": [
+        [
+          3,
+          0,
+          25
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          0,
+          7
+        ]
+      ],
+      "premier_au_meilleur_score_brut": {
+        "source": "celsus_5_26",
+        "mot_source": 1294,
+        "segment": 1746,
+        "debut_segment": 19,
+        "site_initial": [
+          "f75v.46",
+          5
+        ],
+        "site_final": [
+          "f75v.47",
+          10
+        ],
+        "exactes": 1,
+        "annonces": [
+          [
+            1,
+            "qokain"
+          ],
+          [
+            3,
+            "qokedy"
+          ],
+          [
+            6,
+            "qokain"
+          ]
+        ],
+        "lecture_observee": [
+          "ol",
+          "shedy",
+          "qokedy",
+          "qokeedy",
+          "qotar",
+          "olshedy"
+        ]
+      },
+      "succes": []
+    },
+    "IT": {
+      "windows": 18083,
+      "predictions": 207,
+      "distribution": [
+        [
+          3,
+          0,
+          157
+        ],
+        [
+          3,
+          1,
+          13
+        ],
+        [
+          4,
+          0,
+          35
+        ],
+        [
+          4,
+          1,
+          2
+        ]
+      ],
+      "premier_au_meilleur_score_brut": {
+        "source": "celsus_5_21",
+        "mot_source": 97,
+        "segment": 537,
+        "debut_segment": 17,
+        "site_initial": [
+          "f37v.18",
+          4
+        ],
+        "site_final": [
+          "f37v.22",
+          3
+        ],
+        "exactes": 1,
+        "annonces": [
+          [
+            2,
+            "daiin"
+          ],
+          [
+            3,
+            "s"
+          ],
+          [
+            6,
+            "daiin"
+          ]
+        ],
+        "lecture_observee": [
+          "do",
+          "daiin",
+          "cthols",
+          "qotol",
+          "ytoiin",
+          "chocthey"
+        ]
+      },
+      "succes": []
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utc_before_replay": "2026-11-17T21:56:42.860500+00:00",
+  "reason": "Two frozen trial drivers hit TypeError: Object of type int64 is not JSON serializable.",
+  "scope": "Separate inference-only export; official failed run records retained. No optimization, changed score, or training.",
+  "changes": [
+    [
+      "import hashlib, json, os, sys",
+      "import hashlib, json, operator, os, sys"
+    ],
+    [
+      "assert MODE in ('train', 'initial', 'final')",
+      "assert MODE in ('initial', 'final')"
+    ],
+    [
+      "'start':ss.start,'end':ss.end",
+      "'start':operator.index(ss.start),'end':operator.index(ss.end)"
+    ]
+  ],
+  "original_worker_sha256": "9e7aec7ce3f9008492a923f2403323c35fc6b0f0048accecc8831c10b1a2a94f",
+  "export_worker_sha256": "261a18cf48c9ab3ea8161383ed9f53960e6d2f1f264774f02c53e3bdc40c4146",
+  "protocol_sha256": "808f54e4812b46215fec0ae1988e77d049c05d8fa9278f09f7bc5f2532d34550",
+  "frozen_checkpoint_hashes": {
+    "51001": {
+      "saved.init": "3595328938449fd6cf1d2a3a09510eb521ce4b95b28186a3690d8e98f4f3cdb9",
+      "saved.0_3000.latest": "9e85b04d1b66f3de54a8a6278c4c8a7505e14f154a4aae272b769c63775e4d4b"
+    },
+    "51002": {
+      "saved.init": "90ff588f834e3f23cf072067b12db26624a3b7d0824d78b3400f2f733a4c7503",
+      "saved.0_3000.latest": "4d62d5f02266ad00cfeec23bb596d12937e5e63cf138ee9dea74ddb1ded0cba8"
+    }
+  },
+  "training_steps_verified": {
+    "51001": 3000,
+    "51002": 3000
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "phase": 46,
+  "boundary": "NOT_TRANSLATION",
+  "question": "Does the approximate correspondence seen in phase45 persist descriptively for all weaker published q19 fragment-to-herbal associations with isolated labels?",
+  "prior_result": "phase45 exact test negative; approximate result first of12 distinct assignments. Phase46 explicitly promotes approximate association to a prospective descriptive transfer outcome; no rescue of the phase45 exact test.",
+  "configurations": [
+    "ZL/split",
+    "ZL/join",
+    "IT/split",
+    "IT/join"
+  ],
+  "primary_configuration": "ZL/split",
+  "pairs": "PAIRS.json, nine fragments/eight targets, per-source label variants retained",
+  "group_rule": "GROUPS.json: same Q/I/L/H metadata as target, include target; no widening, no botanical negative labels asserted",
+  "parsing": "All non-! prose rows with kind[1]==P. <-> becomes dot; remove other angle markup. Dot splits; comma globally split or joined. Only whole lowercase a-z tokens accepted; no repairs or cross-token search; duplicates retained. EVA ASCII codepoints only.",
+  "estimands": "Same phase45 formulas: exact presence probability in uniform K-subset and expected normalized Levenshtein minimum. K is minimum accepted-token count in each group/config. No random draws.",
+  "ranks": "Higher favorable. Exact=(number lower rarefied-presence + half tied)/group size. Approximate=(number larger expected distance + half tied)/group size. All ties give0.5.",
+  "aggregation": "Average label ranks within target first (94/116 both f96v), then equal target weights. Report each target and count above/equal/below0.5. Singleton groups retained but excluded from aggregate; none are expanded.",
+  "subsets": [
+    "all nine isolated labels",
+    "strict ZL/IT agreement excluding188, fixed in advance"
+  ],
+  "directional_rule": "Approximate direction maintained only if mean rank>0.5 in ALL four configurations of primary all-label subset. This is a descriptive directional criterion, not significance or decipherment validation. Strict-agreement subset always reported, never substituted to rescue primary.",
+  "controls": "Independent parser/distance/rarefaction checks; exhaustive small known-answer toy cases; tie handling; metric invariance to word order. Page comparators preserve each label and its frequency; related pages and overlapping groups are dependent. No inferential global p-value.",
+  "limitations": "Weaker visual proposals than phase45, possible historical text-informed selection, exposed corpus, same manuscripts/conventions, unequal groups4-14pages. No calibrated botanical truth. Phase45 joint permutation rank not numerically comparable to mean page ranks here.",
+  "decision": "No morphology, stripping, phonetics, language or translation inferred from nearest words. If criterion fails retain failed transfer; if passes require different evidence for semantics."
+}

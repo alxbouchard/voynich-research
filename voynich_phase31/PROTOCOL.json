@@ -1,0 +1,53 @@
+{
+  "version": "phase31-zodiac-alignment-audit-v1",
+  "boundary": "NOT_TRANSLATION",
+  "date_local": "2026-10-31",
+  "question": "Do the twelve surviving zodiac diagrams provide a recurrent, visibly identifiable one-to-one spatial pairing between an ordinary month annotation and a separate short Voynich label in the central compartment? This tests an alignment prerequisite, not a translation.",
+  "selection_status": "Exploratory choice after phases16/17/30, previously exposed atlas images and present primary-source review. All pages have already been seen. Freeze before the new systematic twelve-panel annotation and token-intersection calculation. Not external preregistration, independent human review or blind manuscript validation.",
+  "selection_reason": "f1r already has partial substitution trials and ambiguous purpose; f116v already has22-band processing with unresolved reading and no authenticated parallel text. The zodiac supplies twelve spatial comparators and two repeated ordinary month annotations, allowing a bounded necessary-condition test without inventing a plaintext equivalent.",
+  "pages": [
+    "f70v2",
+    "f70v1",
+    "f71r",
+    "f71v",
+    "f72r1",
+    "f72r2",
+    "f72r3",
+    "f72v3",
+    "f72v2",
+    "f72v1",
+    "f73r",
+    "f73v"
+  ],
+  "duplicate_pairs": [
+    [
+      "f70v1",
+      "f71r"
+    ],
+    [
+      "f71v",
+      "f72r1"
+    ]
+  ],
+  "primary_sources": "Yale2014 native JPEGs freshly reacquired from the exact public URLs and checked against archived original source hashes. Atlas campaign JPEGs are reduced derivatives, despite source metadata describing native originals; do not confuse the two. Davis2024 multispectral article and its published figures for f1r/f116v; Zandbergen writing and quire descriptions as attributed readings, not accepted cipher keys. Record unavailable raw/processed originals separately from available derivatives and metadata.",
+  "layers": {
+    "form": "Describe visible marks and script class. Record doubtful or faded strokes; do not infer letters from a desired word. Ordinary month reading is attributed to its published source, not newly certified by this operator.",
+    "grouping": "Record separate short marks versus running circular text; uncertain gaps stay unresolved. EVA is a transliteration convention, not established alphabet or codeword boundaries.",
+    "alignment": "Central compartment means the area inside the innermost circular running-text band enclosing the central emblem. Record all separate Voynich-like labels in that area, including those near stars; do not count ordinary-script month text, continuous ring text, figure contours or damage. Record a conservative lower/upper candidate count and coordinate boxes. If a boundary or mark is doubtful, uncertainty must widen the interval rather than force zero or one.",
+    "semantics": "No central sign, fish, month annotation or nearby label is declared semantically equivalent. No plaintext month string is given to a solver. A successful spatial criterion would still not authenticate meaning."
+  },
+  "hypotheses": {
+    "H_pair_visible": "Every selected panel contains exactly one visibly separate short Voynich label inside the central compartment, spatially eligible to pair with the ordinary month annotation. Necessary spatial condition only; not asserted as an actual historical claim.",
+    "H_label_star": "A central short label may belong to a star or other graphical element rather than the ordinary month annotation. Record geometric association; it cannot alone establish lexical meaning.",
+    "H_month_word_fixed": "Conditionally, the duplicated ordinary month names correspond to the same single plaintext word form, encoded by a fixed deterministic word rule. Then the two respective candidate sets must share at least one ciphertext token. No claim that this premise actually holds.",
+    "H_unpaired_annotation": "Ordinary month additions label the diagram without a demonstrated parallel Voynich word. Absence of a recurrent central slot is compatible with this hypothesis but does not prove the annotator's intention."
+  },
+  "visual_test": "Inspect all8 native images covering12 panels, preserve sources unchanged, and describe central compartments with source coordinates. Also record a visible ordinary-script annotation and circular Voynich text as visibility comparators; these are observation checks, not semantic or independent historical witnesses. No image enhancement or generative reconstruction. Reopen region crops if native resolution warrants it, retaining exact pixel coordinates and provenance. This is scientific inspection, not creation of new glyphs.",
+  "refutation": "One clear panel with upper candidate count0 or lower count>1 contradicts the universal visible one-label condition. Uncertain counts do not become absent labels. If all panels allow1 but some remain uncertain, inconclusive; even12 exact single labels would only satisfy a spatial prerequisite. Restrict any negative result to visible evidence, this region and this hypothesis; do not exclude faded writing or month references elsewhere.",
+  "transcription_test": "Using fixed ZL3b-n and IT2a-n snapshots, collect unambiguous lowercase a-z tokens from zodiac label loci, separately from all loci. Strip layout angle tags; split spaces/dots but preserve comma/bracket/brace/question uncertainty by exclusion and count it. Compute all66 page-pair intersections for each corpus/scope. Report the two predefined duplicate-month pairs, the full candidate lists and every other page containing each candidate. Nonempty intersections are compatibility only, not recovery. Empty intersections with excluded uncertain tokens cannot refute unrestricted variants.",
+  "sensitivity": "A second deterministic pass splits commas as alternative spaces and expands only bracket alternatives containing literal a-z strings. All unresolved tokens stay excluded and counted. No edit-distance search, phonetic matching, dictionary or manual favoring of a token. Broader all-locus results remain a separate scope and do not rescue the central-slot hypothesis.",
+  "controls": "Parser fixtures verify label/ring separation, excluded unknowns, uncertainty expansion and known token intersections before the real calculation. Two transcriptions are robustness views, not independent witnesses; shared history is acknowledged. All66 intersections are descriptive with no p-value or inference from66 independent samples. Twelve panels occupy four physical folios; observations are dependent.",
+  "freeze_sequence": "Freeze this protocol, source inventory, exact transcription files and analysis code before new annotations and counts. Annotations and chosen spatial boxes are observations made after freeze, not pre-existing labels. Hash and commit them before deriving aggregate visual verdict. Later changes must be addenda, not silent replacement.",
+  "stop_rule": "No actual key search, guessed word alignment, source-language selection or translation claim. Phase30 required26 exact aligned words and9 checking words spanning the alphabet; none of those information conditions can be transferred to an isolated uncertain historical clue. Continue useful source verification, then document any exact missing source or authentication prerequisite.",
+  "delivery": "French synthesis, English methods, source/provenance register, all12 annotation records, all66 comparisons per corpus/scope/mode, negative and uncertain results, local commits and verified durable copy. Preserve earlier phases. No push, publication, deployment or external messages."
+}

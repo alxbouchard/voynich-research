@@ -1,0 +1,9 @@
+# Orientation diagnostic — added before feature coding and manuscript measurement
+
+The frozen main protocol and scorer are unchanged. During spatial linkage, after synthetic calibration, radial rotation of zodiac figures was directly visible. Ring alone does not control azimuth. In particular, delivered-image left/right profiles are not invariant to this rotation. This limitation was not sufficiently controlled in the frozen primary design.
+
+An additional, explicitly post-protocol diagnostic will reuse the unchanged scorer, adding an orientation quadrant to the ring band for zodiac occurrences: [00:00,03:00), [03:00,06:00), [06:00,09:00), [09:00,12:00), using the preserved documentary clock hint. These are approximate label positions, not measured head angles. Other profiles retain their existing layout bands. Apply the existing layout restriction and permutation machinery to these combined bands. No rotation, feature redefinition, threshold adjustment, or primary-result replacement is permitted. Report lost exchangeability and unestimable contrasts, including a null result.
+
+On pages with an additional partial row outside two complete figure circles, outer denotes that partial row, middle the larger complete ring, inner the small ring. On two-ring pages use outer and inner. This follows actual drawn nested levels; cross-page equivalence remains imperfect.
+
+This diagnostic cannot establish orientation invariance. A failure or insufficient conditional permutations will be reported as an additional limitation even if the frozen test passes. It is not external preregistration or an independent replication. It was written before any feature vectors or real association scores existed, but after the same operator had inspected source images for attachment. Masking cannot undo that exposure.

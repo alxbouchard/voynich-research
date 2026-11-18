@@ -1,0 +1,206 @@
+{
+  "sources_sha256": {
+    "ZL": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "IT": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+  },
+  "names_sha256": "11d714687c70baebaf762c5fca95377302607c8b0e0fb035d902794778cc20ed",
+  "control_circles": [
+    {
+      "trial": 0,
+      "planted_zero_based": [
+        1,
+        -1
+      ],
+      "all_solutions_orientation": [
+        [
+          1,
+          -1
+        ]
+      ]
+    },
+    {
+      "trial": 1,
+      "planted_zero_based": [
+        4,
+        1
+      ],
+      "all_solutions_orientation": [
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "trial": 2,
+      "planted_zero_based": [
+        7,
+        -1
+      ],
+      "all_solutions_orientation": [
+        [
+          7,
+          -1
+        ]
+      ]
+    },
+    {
+      "trial": 3,
+      "planted_zero_based": [
+        2,
+        1
+      ],
+      "all_solutions_orientation": [
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "trial": 4,
+      "planted_zero_based": [
+        5,
+        -1
+      ],
+      "all_solutions_orientation": [
+        [
+          5,
+          -1
+        ]
+      ]
+    },
+    {
+      "trial": 5,
+      "planted_zero_based": [
+        0,
+        1
+      ],
+      "all_solutions_orientation": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "loci": {
+    "6": "ochoyk",
+    "7": "ykeey",
+    "10": "ytody",
+    "11": "okody",
+    "12": "otody",
+    "14": "okeod",
+    "15": "oteeys",
+    "16": "oteol",
+    "17": "ykeydy",
+    "18": "okeod",
+    "19": "saral",
+    "20": "saiir",
+    "21": "okolar",
+    "22": "ykeody",
+    "23": "sarydy",
+    "24": "otchy",
+    "27": "okeod",
+    "28": "okodchy",
+    "29": "okeody"
+  },
+  "triple_lcs_length_distribution": {
+    "2": 12,
+    "3": 26,
+    "4": 17,
+    "5": 1
+  },
+  "triple_orientations_by_motif": {
+    "forward": {
+      "repeat_only": 0,
+      "four_distinct": 0
+    },
+    "backwards": {
+      "repeat_only": 0,
+      "four_distinct": 0
+    }
+  },
+  "row_filter": [
+    {
+      "units": "eva",
+      "at_most_one_null": false,
+      "injective": true,
+      "configurations": 112,
+      "least_incompatible_rows": 2,
+      "most_locally_compatible_rows": 17,
+      "all_rows_locally_possible_count": 0,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "eva",
+      "at_most_one_null": false,
+      "injective": false,
+      "configurations": 112,
+      "least_incompatible_rows": 1,
+      "most_locally_compatible_rows": 18,
+      "all_rows_locally_possible_count": 0,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "eva",
+      "at_most_one_null": true,
+      "injective": true,
+      "configurations": 1568,
+      "least_incompatible_rows": 0,
+      "most_locally_compatible_rows": 19,
+      "all_rows_locally_possible_count": 2,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "eva",
+      "at_most_one_null": true,
+      "injective": false,
+      "configurations": 1568,
+      "least_incompatible_rows": 0,
+      "most_locally_compatible_rows": 19,
+      "all_rows_locally_possible_count": 5,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "benches",
+      "at_most_one_null": false,
+      "injective": true,
+      "configurations": 112,
+      "least_incompatible_rows": 2,
+      "most_locally_compatible_rows": 17,
+      "all_rows_locally_possible_count": 0,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "benches",
+      "at_most_one_null": false,
+      "injective": false,
+      "configurations": 112,
+      "least_incompatible_rows": 1,
+      "most_locally_compatible_rows": 18,
+      "all_rows_locally_possible_count": 0,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "benches",
+      "at_most_one_null": true,
+      "injective": true,
+      "configurations": 1456,
+      "least_incompatible_rows": 0,
+      "most_locally_compatible_rows": 19,
+      "all_rows_locally_possible_count": 4,
+      "joint_solution_count": 0
+    },
+    {
+      "units": "benches",
+      "at_most_one_null": true,
+      "injective": false,
+      "configurations": 1456,
+      "least_incompatible_rows": 0,
+      "most_locally_compatible_rows": 19,
+      "all_rows_locally_possible_count": 8,
+      "joint_solution_count": 0
+    }
+  ]
+}

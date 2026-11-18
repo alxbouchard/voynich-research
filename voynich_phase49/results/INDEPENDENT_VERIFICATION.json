@@ -1,0 +1,331 @@
+{
+  "status": "PASS",
+  "method": "Independent Python reconstruction; no evaluator import or Java execution",
+  "frozen_files_checked": 52,
+  "upstream_git_blobs_checked": 12,
+  "generation_cases_reconstructed": 8,
+  "solver_outputs_hash_checked": 8,
+  "reference_normalization_and_capacities": {
+    "latin": {
+      "reference_characters": 699570,
+      "reference_types": 20,
+      "target_words": 8954,
+      "target_characters": 51668,
+      "capacity1": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 1,
+        "f": 1,
+        "g": 1,
+        "h": 1,
+        "i": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1,
+        "q": 1,
+        "r": 1,
+        "s": 1,
+        "t": 1,
+        "v": 1,
+        "x": 1
+      },
+      "capacity3": {
+        "a": 3,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 3,
+        "f": 2,
+        "g": 2,
+        "h": 1,
+        "i": 3,
+        "l": 2,
+        "m": 3,
+        "n": 3,
+        "o": 3,
+        "p": 2,
+        "q": 2,
+        "r": 3,
+        "s": 3,
+        "t": 3,
+        "v": 3,
+        "x": 1
+      },
+      "capacity3_total_symbols": 48
+    },
+    "italian": {
+      "reference_characters": 772688,
+      "reference_types": 21,
+      "target_words": 32824,
+      "target_characters": 127938,
+      "capacity1": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 1,
+        "f": 1,
+        "g": 1,
+        "h": 1,
+        "i": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1,
+        "q": 1,
+        "r": 1,
+        "s": 1,
+        "t": 1,
+        "v": 1,
+        "x": 1
+      },
+      "capacity3": {
+        "a": 3,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 3,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 3,
+        "k": 1,
+        "l": 3,
+        "m": 2,
+        "n": 3,
+        "o": 3,
+        "p": 2,
+        "q": 1,
+        "r": 3,
+        "s": 3,
+        "t": 3,
+        "v": 3,
+        "x": 1
+      },
+      "capacity3_total_symbols": 49
+    }
+  },
+  "score_toy_tests": 5,
+  "evaluation_sha256": "9ae7aca2917d0b806288b19bb6a63a68430b2c60b6101512ecc84c5192c8771d",
+  "summary_sha256": "7d25ee7aa38fa6c5c48fa9cb00e7ab3ff9dea44dbc0fd06eeffdc3fc645768e9",
+  "rows": [
+    {
+      "id": "latin_h1_n1000",
+      "fit": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 20,
+      "correct_key_types": 20,
+      "unobserved_key_types": 0,
+      "transfer_unseen_types": [],
+      "candidate_score": 13900787.102425542,
+      "true_key_score": 13900787.102425542,
+      "java_score_difference": 3.725290298461914e-09,
+      "score_calls": 285006,
+      "passed": true
+    },
+    {
+      "id": "latin_h1_n3000",
+      "fit": {
+        "characters": 3000,
+        "correct": 3000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 20,
+      "correct_key_types": 20,
+      "unobserved_key_types": 0,
+      "transfer_unseen_types": [],
+      "candidate_score": 12615140.20278556,
+      "true_key_score": 12615140.20278556,
+      "java_score_difference": 2.7939677238464355e-08,
+      "score_calls": 285006,
+      "passed": true
+    },
+    {
+      "id": "latin_h3_n1000",
+      "fit": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 48,
+      "correct_key_types": 48,
+      "unobserved_key_types": 0,
+      "transfer_unseen_types": [],
+      "candidate_score": 13740250.05280613,
+      "true_key_score": 13740250.05280613,
+      "java_score_difference": 2.2351741790771484e-08,
+      "score_calls": 1634898,
+      "passed": true
+    },
+    {
+      "id": "latin_h3_n3000",
+      "fit": {
+        "characters": 3000,
+        "correct": 3000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 48,
+      "correct_key_types": 48,
+      "unobserved_key_types": 0,
+      "transfer_unseen_types": [],
+      "candidate_score": 12894610.702259636,
+      "true_key_score": 12894610.702259636,
+      "java_score_difference": 2.60770320892334e-08,
+      "score_calls": 1634856,
+      "passed": true
+    },
+    {
+      "id": "italian_h1_n1000",
+      "fit": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 19,
+      "correct_key_types": 19,
+      "unobserved_key_types": 2,
+      "transfer_unseen_types": [],
+      "candidate_score": 13977501.83339135,
+      "true_key_score": 13977501.83339135,
+      "java_score_difference": 3.166496753692627e-08,
+      "score_calls": 313797,
+      "passed": true
+    },
+    {
+      "id": "italian_h1_n3000",
+      "fit": {
+        "characters": 3000,
+        "correct": 3000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 19,
+      "correct_key_types": 19,
+      "unobserved_key_types": 2,
+      "transfer_unseen_types": [],
+      "candidate_score": 14432005.925157933,
+      "true_key_score": 14432005.925157933,
+      "java_score_difference": -2.60770320892334e-08,
+      "score_calls": 313578,
+      "passed": true
+    },
+    {
+      "id": "italian_h3_n1000",
+      "fit": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 47,
+      "correct_key_types": 47,
+      "unobserved_key_types": 2,
+      "transfer_unseen_types": [],
+      "candidate_score": 14702488.395200927,
+      "true_key_score": 14702488.395200927,
+      "java_score_difference": 4.0978193283081055e-08,
+      "score_calls": 1706944,
+      "passed": true
+    },
+    {
+      "id": "italian_h3_n3000",
+      "fit": {
+        "characters": 3000,
+        "correct": 3000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "transfer": {
+        "characters": 1000,
+        "correct": 1000,
+        "accuracy": 1.0,
+        "error_positions": []
+      },
+      "observed_key_types": 47,
+      "correct_key_types": 47,
+      "unobserved_key_types": 2,
+      "transfer_unseen_types": [],
+      "candidate_score": 15144191.022960432,
+      "true_key_score": 15144191.022960432,
+      "java_score_difference": -7.636845111846924e-08,
+      "score_calls": 1705778,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "cases": 8,
+    "passed": 8,
+    "gate_passed": true,
+    "fit_characters": 16000,
+    "fit_errors": 0,
+    "transfer_characters": 8000,
+    "transfer_errors": 0,
+    "observed_key_types_across_cases": 268,
+    "correct_key_types_across_cases": 268
+  },
+  "limits": [
+    "Mapping precision concerns observed symbol types, not unobserved secret symbols.",
+    "Normalization removes information; accuracy is on normalized letters, not original orthography or spaces.",
+    "Language and reference-derived homophone capacities are supplied; this is an informed cipher family.",
+    "Static argument inspection supports input isolation; this verifier does not rerun or trace the optimizer.",
+    "Phase10 provenance is checked against the archived source, not re-downloaded historical editions.",
+    "Two languages and two target works do not validate unknown languages, arbitrary encodings or Voynich.",
+    "Java score-call totals are read back from sealed outputs, not independently recounted by execution."
+  ]
+}

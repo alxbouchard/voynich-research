@@ -1,0 +1,161 @@
+{
+  "proposed": {
+    "families": {
+      "allography": {
+        "cases": 12,
+        "authorized": 12,
+        "successes": 12,
+        "emitted_tokens": 3273,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "identity": {
+        "cases": 12,
+        "authorized": 12,
+        "successes": 12,
+        "emitted_tokens": 3273,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "changed_key": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "prefix": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "nonce": {
+        "cases": 12,
+        "authorized": 12,
+        "successes": 12,
+        "emitted_tokens": 6895,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "mixed_key": {
+        "cases": 12,
+        "authorized": 1,
+        "successes": 0,
+        "emitted_tokens": 127,
+        "wrong_tokens": 18,
+        "invalid_pairs": 4
+      },
+      "random_initial": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      }
+    },
+    "positive_by_author": {
+      "doyle": 4,
+      "cervantes": 4,
+      "verne": 4
+    },
+    "gate_checks": {
+      "positive_10_of_12": true,
+      "positive_3_of_4_each_author": true,
+      "identity_10_of_12": true,
+      "zero_errors_all_cases": false,
+      "changed_key_complete_abstention": true,
+      "mixed_key_complete_abstention": false,
+      "prefix_complete_abstention": true,
+      "random_initial_complete_abstention": true
+    },
+    "gate_passed": false
+  },
+  "baseline36": {
+    "families": {
+      "allography": {
+        "cases": 12,
+        "authorized": 1,
+        "successes": 1,
+        "emitted_tokens": 290,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "identity": {
+        "cases": 12,
+        "authorized": 1,
+        "successes": 1,
+        "emitted_tokens": 290,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "changed_key": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "prefix": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "nonce": {
+        "cases": 12,
+        "authorized": 12,
+        "successes": 12,
+        "emitted_tokens": 6895,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "mixed_key": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      },
+      "random_initial": {
+        "cases": 12,
+        "authorized": 0,
+        "successes": 0,
+        "emitted_tokens": 0,
+        "wrong_tokens": 0,
+        "invalid_pairs": 0
+      }
+    },
+    "positive_by_author": {
+      "doyle": 1,
+      "cervantes": 0,
+      "verne": 0
+    },
+    "gate_checks": {
+      "positive_10_of_12": false,
+      "positive_3_of_4_each_author": false,
+      "identity_10_of_12": false,
+      "zero_errors_all_cases": true,
+      "changed_key_complete_abstention": true,
+      "mixed_key_complete_abstention": true,
+      "prefix_complete_abstention": true,
+      "random_initial_complete_abstention": true
+    },
+    "gate_passed": false
+  },
+  "boundary": "NOT_TRANSLATION",
+  "translation_validated": false,
+  "manuscript": {
+    "run": false,
+    "reason": "Complete calibration gate failed. Input bytes hashed for integrity, but no manuscript inference run.",
+    "translation_validated": false
+  }
+}

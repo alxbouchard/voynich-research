@@ -1,0 +1,254 @@
+{
+  "note": "Coordonnées dans le scan isolé du folio, origine en haut à gauche. Horloge calculée sur le milieu approximatif. Les traits rouges sous les extraits indiquent les groupements étudiés. La fourchette des centres raisonnables conserve les cinq quarts. Le rang ZL vaut null si le groupe demandé est absent dans ZL, même si la position du champ homologue y est connue.",
+  "panneaux": {
+    "f72v1": {
+      "loci_Cc": [
+        "f72v1.1,@Cc",
+        "f72v1.22,@Cc",
+        "f72v1.33,@Cc"
+      ],
+      "oid_yale": 1006205,
+      "fichier": "yale/images/132_72v_part.jpg",
+      "dimensions_xy": [
+        2979,
+        3712
+      ],
+      "sha256": "c0ac0dbc3e4b4a6eb2b8edf26dc762a7f9bf26ac9c385fa6bdc770725622b1e7",
+      "groupes_par_anneau_exterieur_vers_interieur": [
+        2,
+        0,
+        1
+      ]
+    },
+    "f73r": {
+      "loci_Cc": [
+        "f73r.5,@Cc",
+        "f73r.22,@Cc",
+        "f73r.33,@Cc"
+      ],
+      "oid_yale": 1006206,
+      "fichier": "yale/images/133_73r.jpg",
+      "dimensions_xy": [
+        2834,
+        3761
+      ],
+      "sha256": "5bc8e07dbd61cc1f218cfc4449cd527be118aa7884878ec4c8e568e9c2d89bad",
+      "groupes_par_anneau_exterieur_vers_interieur": [
+        2,
+        0,
+        0
+      ]
+    },
+    "f73v": {
+      "loci_Cc": [
+        "f73v.5,@Cc",
+        "f73v.22,@Cc",
+        "f73v.33,@Cc"
+      ],
+      "oid_yale": 1006207,
+      "fichier": "yale/images/134_73v.jpg",
+      "dimensions_xy": [
+        2979,
+        3724
+      ],
+      "sha256": "4227e5261bb5986e605ddb4f58fa1526640955d778c06916a1c34734bb431141",
+      "groupes_par_anneau_exterieur_vers_interieur": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "occurrences": [
+    {
+      "page": "f72v1",
+      "locus": "f72v1.1,@Cc",
+      "anneau": "exterieur",
+      "rang_radial_depuis_exterieur": 1,
+      "ZL": 1,
+      "IT": 1,
+      "statut": "strict_commun",
+      "statut_par_edition": {
+        "ZL": "strict",
+        "IT": "strict"
+      },
+      "centre_xy": [
+        1650,
+        1690
+      ],
+      "milieu_xy": [
+        562,
+        1213
+      ],
+      "oid_yale": 1006205,
+      "quart": "HG",
+      "heure": "9 h 47",
+      "azimut_deg": 293.7,
+      "frontiere_quart": false,
+      "voisins": {
+        "ZL": "otechety | oteos | alar | otar",
+        "IT": "ok?s?t? | oteos | alar | otar"
+      },
+      "lecture_photo": "Sur la portion gauche, le groupe au grand signe à deux boucles est suivi de deux groupes distincts. Le groupe précédent est le dernier de la transcription circulaire et son déchiffrement varie.",
+      "extrait": "f72v1_1_1.jpg"
+    },
+    {
+      "page": "f72v1",
+      "locus": "f72v1.1,@Cc",
+      "anneau": "exterieur",
+      "rang_radial_depuis_exterieur": 1,
+      "ZL": 12,
+      "IT": 12,
+      "statut": "strict_commun",
+      "statut_par_edition": {
+        "ZL": "strict",
+        "IT": "strict"
+      },
+      "centre_xy": [
+        1650,
+        1690
+      ],
+      "milieu_xy": [
+        2255,
+        655
+      ],
+      "oid_yale": 1006205,
+      "quart": "HD",
+      "heure": "1 h 01",
+      "azimut_deg": 30.3,
+      "frontiere_quart": false,
+      "voisins": {
+        "ZL": "sh?tey | oteos | alal | dals,alchol",
+        "IT": "sh?etey | oteos | alal | dals"
+      },
+      "lecture_photo": "Sur la portion supérieure droite, le groupe se voit immédiatement après le secteur maculé, avant alal. L’ordre des voisins le distingue du premier.",
+      "extrait": "f72v1_1_12.jpg"
+    },
+    {
+      "page": "f72v1",
+      "locus": "f72v1.33,@Cc",
+      "anneau": "interieur",
+      "rang_radial_depuis_exterieur": 3,
+      "ZL": null,
+      "IT": 4,
+      "statut": "IT_seul",
+      "statut_par_edition": {
+        "ZL": "oteo,r,aiin (champ 4), séquence et séparation différentes",
+        "IT": "strict"
+      },
+      "centre_xy": [
+        1650,
+        1690
+      ],
+      "milieu_xy": [
+        1850,
+        1536
+      ],
+      "oid_yale": 1006205,
+      "quart": "HD",
+      "heure": "1 h 45",
+      "azimut_deg": 52.4,
+      "frontiere_quart": false,
+      "voisins": {
+        "ZL": "ykeols | oteo,r,aiin | yotoam",
+        "IT": "ykeols | oteos | aiin | yotoam"
+      },
+      "lecture_photo": "Sur le petit anneau entourant la balance, après ykeols, le signe à hampe et les deux signes arrondis sont suivis d’une trace recourbée avant aiin. La position est repérable, la valeur s/r et la coupure restent disputées.",
+      "extrait": "f72v1_33_4.jpg"
+    },
+    {
+      "page": "f73r",
+      "locus": "f73r.5,@Cc",
+      "anneau": "exterieur",
+      "rang_radial_depuis_exterieur": 1,
+      "ZL": 26,
+      "IT": 32,
+      "statut": "strict_commun",
+      "statut_par_edition": {
+        "ZL": "strict",
+        "IT": "strict"
+      },
+      "centre_xy": [
+        1260,
+        1745
+      ],
+      "milieu_xy": [
+        379,
+        1297
+      ],
+      "oid_yale": 1006206,
+      "quart": "HG",
+      "heure": "9 h 54",
+      "azimut_deg": 297.0,
+      "frontiere_quart": false,
+      "voisins": {
+        "ZL": "ykeydam | oteos | alar",
+        "IT": "ykeydom | oteos | alar"
+      },
+      "lecture_photo": "Dans le quart supérieur gauche, le groupe entre la finale haute du groupe précédent et alar est séparé de part et d’autre.",
+      "extrait": "f73r_5_32.jpg"
+    },
+    {
+      "page": "f73r",
+      "locus": "f73r.5,@Cc",
+      "anneau": "exterieur",
+      "rang_radial_depuis_exterieur": 1,
+      "ZL": 5,
+      "IT": 5,
+      "statut": "IT_strict_ZL_virgule",
+      "statut_par_edition": {
+        "ZL": "oteos,air,ar (champ 5), coupure incertaine après oteos",
+        "IT": "strict"
+      },
+      "centre_xy": [
+        1260,
+        1745
+      ],
+      "milieu_xy": [
+        1630,
+        804
+      ],
+      "oid_yale": 1006206,
+      "quart": "HD",
+      "heure": "12 h 43",
+      "azimut_deg": 21.5,
+      "frontiere_quart": false,
+      "voisins": {
+        "ZL": "daraly | oteos,air,ar | oteosdal",
+        "IT": "daraly | oteos | air | ar | oteosdal"
+      },
+      "lecture_photo": "Sur le bord supérieur droit, daraly précède le groupe recherché et la suite air/ar se lit juste après sa finale. Le petit espace après cette finale explique la prudence éditoriale de ZL.",
+      "extrait": "f73r_5_5.jpg"
+    }
+  ],
+  "formes_proches_exclues": [
+    {
+      "page": "f72v1",
+      "locus": 33,
+      "ZL": "oteeos,am (champ 8)",
+      "IT": "oteoos (champ 9)",
+      "motif": "signe supplémentaire dans les deux lectures"
+    },
+    {
+      "page": "f73r",
+      "locus": 5,
+      "ZL": "oteosdal (champ 6)",
+      "IT": "oteosdal (champ 8)",
+      "motif": "groupe plus long dans les deux éditions"
+    },
+    {
+      "page": "f73r",
+      "locus": 5,
+      "ZL": "ote{co}s,ar (champ 20)",
+      "IT": "oteor (champ 24)",
+      "motif": "graphie composée distincte de la chaîne littérale oteos dans ZL, finale r dans IT"
+    },
+    {
+      "page": "f73v",
+      "locus": 22,
+      "ZL": "oteoto[s:r] (champ 1)",
+      "IT": "oteotor (champ 1)",
+      "motif": "suite plus longue, y compris dans la variante ZL"
+    }
+  ]
+}

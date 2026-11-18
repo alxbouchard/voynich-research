@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "frozen_files": 21,
+  "metadata_groups_reconstructed": 16,
+  "distinct_union_pages": 60,
+  "parsed_page_configurations": 240,
+  "retained_token_slots_checked": 20258,
+  "label_checks_in_configurations": 36,
+  "score_rows_checked": 288,
+  "target_rows_checked": 36,
+  "full_edit_matrices": 24029,
+  "word_order_invariance_cases": 288,
+  "target_aggregations_checked": 8,
+  "formula_and_rank_controls": {
+    "formula_cases": 12,
+    "subsets_enumerated": 29,
+    "tie_and_singleton_rank_checks": 4,
+    "ordered_rank_checks": 3,
+    "injected_link_checks": 2,
+    "word_order_control_pages": 3
+  },
+  "image_metadata_and_full_hashes_checked": 6,
+  "supplemental_crops_checked": 8,
+  "crop_pixels_checked": 2201626,
+  "crop_scope": "Eight post-scoring archival crops verified against frozen full images by native row slices. Geometry and crop files are supplemental, not among the21 frozen inputs. Pixel identity does not independently verify their inspection date.",
+  "interlinear_reference_scope": "JSON note of web-extracted text; HTTP406 prevented archiving the complete original file. Not a byte-level original-source archive.",
+  "approximate_direction_maintained": false,
+  "all_label_mean_approximate_ranks": {
+    "ZL/split": "113/336",
+    "ZL/join": "321/896",
+    "IT/split": "583/1344",
+    "IT/join": "583/1344"
+  },
+  "strict_mean_approximate_ranks": {
+    "ZL/split": "757/2352",
+    "ZL/join": "17/49",
+    "IT/split": "977/2352",
+    "IT/join": "977/2352"
+  },
+  "independence": "Separate agent; explicit source scanner, full edit matrices, order-statistic rarefaction, sorted-position midranks and exhaustive tiny subsets. Technical audit, not independent botanical or linguistic confirmation.",
+  "decipherment_goal_achieved": false
+}

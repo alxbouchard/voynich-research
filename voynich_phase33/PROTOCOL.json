@@ -1,0 +1,104 @@
+{
+  "version": "phase33-segmentation-sensitivity-v1",
+  "boundary": "NOT_TRANSLATION",
+  "date_local": "2026-10-31",
+  "question": "Do the descriptive April-pair token comparisons and their robustness conclusions depend on either of the two unresolved separators?",
+  "selection": "Exploratory continuation on previously exposed data; phase31 token results and phase32 ambiguous readings already known. Local freeze before new scenario generation/comparison, not a blind test or external preregistration.",
+  "pages": [
+    "f70v2",
+    "f70v1",
+    "f71r",
+    "f71v",
+    "f72r1",
+    "f72r2",
+    "f72r3",
+    "f72v3",
+    "f72v2",
+    "f72v1",
+    "f73r",
+    "f73v"
+  ],
+  "target_pairs": [
+    [
+      "f70v1",
+      "f71r"
+    ],
+    [
+      "f71v",
+      "f72r1"
+    ]
+  ],
+  "corpora": [
+    "ZL",
+    "IT"
+  ],
+  "modes": [
+    "strict",
+    "expanded"
+  ],
+  "scopes": [
+    "labels",
+    "all"
+  ],
+  "primary_loci": {
+    "f71r.13": {
+      "joined": "otolchdy",
+      "split": "otol.chdy"
+    },
+    "f71r.17": {
+      "joined": "otaldar",
+      "split": "otal.dar"
+    }
+  },
+  "scenarios": {
+    "JJ": [
+      "joined",
+      "joined"
+    ],
+    "JS": [
+      "joined",
+      "split"
+    ],
+    "SJ": [
+      "split",
+      "joined"
+    ],
+    "SS": [
+      "split",
+      "split"
+    ]
+  },
+  "baseline": "Each corpus original; expected identical to JJ for ZL and SS for IT. All other letters, spaces, alternatives and loci remain exactly as published in the pinned source.",
+  "fixed_nuisances": "Keep the a/o difference at f70v1.11 and the additional possible separator at f70v1.16 unchanged within each corpus. They explain residual corpus differences and are not varied or resolved here.",
+  "intervention": "At each predefined locus replace only the literal period at the stated position. Preserve layout tags, locus header, whitespace, line endings and all letters. Materialize eight variant files, log original and replacement body and line number; verify the full file is identical after ignoring periods and every non-target line is byte-identical.",
+  "analysis": "Reuse byte-identical phase31 parsing/tokenization, recompute all page token sets and all66 pairs for each baseline/scenario, corpus/mode/scope. Strict and expanded exclusions preserved. Five versions x two corpora x two modes x two scopes x66 =2640 descriptive records, including528 original baseline records. These are dependent recomputations, not2640 independent trials.",
+  "primary_results": [
+    "For each corpus/mode, display April label shared types for all four separator assignments, with their supporting loci.",
+    "Compute intersection and union of candidate sets across all four scenarios, whether the exact set changes, and whether existence of any overlap changes. Empty common intersection means no candidate shared form survives all tested separator choices; it does not establish linguistic boundaries or absence of meaning.",
+    "Report both same-direction and mixed cases; do not choose a more favorable variant."
+  ],
+  "secondary_results": [
+    "Repeat pair comparisons in all-locus scope, without using them to rescue a spatial or semantic claim.",
+    "Compute nonempty-pair counts across all66 pairs, keeping corpus/mode/scenario separate. No p-values or rankings interpreted as language.",
+    "For the two target pairs only, compare complete literal label strings with layout and periods removed; accept only original literal a-z plus periods, exclude and count uncertain labels. This segmentation-invariant whole-label comparator is not a claim that a label is one word."
+  ],
+  "controls": [
+    "Reproduce all528 original phase31 comparison rows and48 page records exactly before interpreting variants.",
+    "ZL JJ and IT SS must reproduce their original source bytes and baseline parsed data.",
+    "For the55 pairs not containing f71r, shared type sets and counts must not change. Third-page occurrence lists may change when f71r gains or loses a form; do not demand these metadata remain unchanged.",
+    "The May pair shared types and counts must remain unchanged; a pipeline control, not new historical evidence.",
+    "All exclusions must remain unchanged because only explicit separators in literal strings are varied.",
+    "All complete-label comparator sets must be invariant to inserted/removed periods.",
+    "Synthetic parser and locus-replacement fixtures must pass before manuscript scenario calculation."
+  ],
+  "prior_conclusions": "The phase31 spatial central-label audit is not re-observed here, and the phase32 visual judgments are not rerun. Segmentation changes cannot authenticate a historical plaintext/ciphertext equivalence. Record which descriptive claims are stable and which change; do not label every prior conclusion automatically invariant.",
+  "expected_direction_not_new_evidence": "Known phase31 data suggest boundary-sensitive April matches, since IT splits the two target strings and ZL does not. The exact factorial recomputation remains to be run; no outcome-dependent threshold or selection.",
+  "stop_rules": [
+    "No letter substitutions or a/o adjudication",
+    "No corpus merging or GC-to-EVA guess",
+    "No key search, dictionary, language scoring or translation",
+    "No new reader recruitment required",
+    "No publication, push or external messages"
+  ],
+  "delivery": "French report, full scenario results, source/patch ledger, independent arithmetic verification, fresh-directory replay, immutable earlier phases, local commits and verified durable archive."
+}

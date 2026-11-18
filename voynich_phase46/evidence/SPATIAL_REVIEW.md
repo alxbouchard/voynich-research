@@ -1,0 +1,18 @@
+# Phase 46 — contrôle spatial non aveugle
+
+Inspection IA des cinq vues d'ensemble fournies, puis de huit recadrages natifs issus des JPEG de mêmes identifiants. Aucun fichier de prose cible ni transcription externe n'a été lu. Les chaînes ci-dessous sont les identifiants fournis dans la consigne : elles ne constituent pas une nouvelle lecture EVA.
+
+| Fragment / identifiant fourni | Observation spatiale | Limite |
+|---|---|---|
+| 80 / oaro — f99r, premier fragment du troisième rang | Des inscriptions courtes se trouvent immédiatement au-dessus du départ de cette racine bouclée, à l'extérieur du récipient placé à gauche. La zone fournie correspond bien à un dessin végétal. | Le voisinage est dense : fin du bloc de prose au-dessus et plusieurs inscriptions voisines. Le contrôle confirme la proximité avec le fragment, pas l'identité exacte de la chaîne ni une attribution exclusive. |
+| 94 / tolsasy — f99r, plante seule du bas | Une inscription isolée est immédiatement au-dessus et à gauche de la jonction entre la longue tige et le grand organe racinaire. Elle est extérieure au récipient, situé plus à gauche. | Proximité nette; aucune portée sémantique établie. |
+| 95 / otoldy — f99v, premier fragment du haut | Une inscription courte se trouve au-dessus et à gauche du fragment rouge allongé, dans l'espace entre ce dessin et le récipient. Elle n'est pas écrite sur le récipient. | Le récipient reste proche; absence de trait de renvoi. La position soutient la proximité au fragment, sans démontrer seule l'objet exact nommé. |
+| 110 / otal — f99v, deuxième fragment du troisième rang | Une inscription courte est au-dessus et à gauche du col de la racine orange recourbée. Une autre inscription en deux groupes se trouve au-dessus et à droite, dans l'espace allant vers le fragment suivant. Ces inscriptions sont nettement éloignées du récipient de gauche. | L'autre inscription signalée comme chor.olekor n'est pas re-transcrite ni fusionnée avec otal. Sa position entre fragments appelle une réserve sur l'attribution exclusive. |
+| 116 / sochorcfhy — f100r, deuxième fragment du haut | L'inscription est immédiatement au-dessus de la plante enroulée portant de petites feuilles pointues. Le récipient est éloigné à gauche. | Attribution spatiale claire; transcription non validée. |
+| 133 / opchor — f100v, panneau gauche, troisième fragment du haut | Une inscription se situe à droite de la petite racine brune et sous le feuillage arrondi. Elle est séparée du récipient situé à l'extrême gauche du panneau. | Attribution spatiale claire; transcription non validée. |
+| 136 / ykchochdy — f100v, panneau gauche, deuxième fragment du deuxième rang | Une inscription est placée immédiatement à droite de la partie basse de la plante ramifiée et de son départ de racine. Aucun récipient n'occupe cette zone. | Attribution spatiale claire; transcription non validée. |
+| 225 / sarol — f102v2, cinquième fragment du deuxième rang | Une inscription est immédiatement sous et à droite du petit fragment vert lobé, près de sa partie basse. Le récipient est bien plus à gauche. | Proximité claire; traces brunes locales et trait végétal voisin, sans effet sur la distinction fragment/récipient. |
+
+Bilan limité : aucune substitution manifeste « inscription sur récipient » au lieu de « inscription près d'un fragment » n'a été observée aux huit positions. Les cas 80, 95 et surtout l'inscription supplémentaire de 110 nécessitent de conserver la différence entre proximité spatiale et rattachement exclusif. Aucun nom, langue, sens, main ou date n'est inféré. Ce contrôle est non aveugle, effectué par IA, et ne remplace pas une lecture paléographique.
+
+Recadrages natifs non retouchés : chemin-local/{80,94,95,110,116,133,136,225}.png

@@ -1,0 +1,61 @@
+{
+  "version": "phase37-tail-consensus-v1",
+  "date_local": "2026-11-17",
+  "boundary": "NOT_TRANSLATION",
+  "question": "Does independent repeated-tail consensus repair phase36 false witness vetoes while abstaining on unstable or length-changing encodings?",
+  "hypothesis": "A single injective permutation acts on the first unit of line-initial words, leaving tails and supplied boundaries unchanged. Output is normalization to a base cipher alphabet, not plaintext.",
+  "development": "Phase36 known cases used openly, not counted as new evidence. First majority-consensus version produced 10/12 allography and identity successes, zero errors, versus 3/12 previously. Adding repeated split-source evidence left these results unchanged. No other parameter search performed.",
+  "authors": [
+    "doyle",
+    "cervantes",
+    "verne"
+  ],
+  "layouts": [
+    "eight_words",
+    "width42"
+  ],
+  "families": [
+    "allography",
+    "identity",
+    "changed_key",
+    "prefix",
+    "nonce",
+    "mixed_key",
+    "random_initial"
+  ],
+  "passages": {
+    "starts": [
+      36000,
+      54000
+    ],
+    "fit": [
+      0,
+      8000
+    ],
+    "witness": [
+      8200,
+      11200
+    ],
+    "transfer": [
+      11400,
+      15400
+    ],
+    "prior_phase36_last_used_index_exclusive": 35400,
+    "claim": "Six disjoint fresh passage triples from previously used works; not fresh authors. Families and layouts share passages, not 84 independent texts."
+  },
+  "normalization": "Same pinned Gutenberg bytes and NFKD a-z tokenization as phase36. Eight words per line or greedy width42, retaining original layout after ciphering.",
+  "seeds": "370000+100*condition+family_index; condition=4*author_index+2*block+layout_index. Generated only after freeze. Solver receives no family, seed, key, plaintext or source work.",
+  "controls": "First five families unchanged from phase36. mixed_key chooses an alternative deranged-relative key with probability0.25 at each line start in all three stages. random_initial replaces the first unit uniformly from a-z on every line in all stages. Both are outside the stable-key model and must abstain completely.",
+  "fit_rule": "Words3..12units; line-initial vs strictly interior; exact tail after first unit. An anchor requires singleton observed first-symbol sets in both roles and >=2 occurrences per role. Distinct tails vote once each. Candidate needs>=3 agreeing tails and>=80percent of all its votes. Remove all candidates sharing a target; no greedy tie breaking.",
+  "witness_rule": "Same consensus fitted independently to separate witness, anchor minimum1 per role and>=3 tails,>=80percent. Retain only pairs identical to fit. An independently supported different target for any fit source vetoes entire map. At least3 retained pairs and>=25percent witness first-word coverage required.",
+  "split_rule": "In either fit or witness, reject entire map if one pair of initial symbols each occurs>=2 times with each of>=3 distinct shared tails, while each corresponding interior tail has a single observed initial symbol repeated>=2 times. Possible lexical confound remains; calibration tests this diagnostic rather than presuming word identity.",
+  "prediction": "Only authorized sources normalized at line starts; all other words explicitly abstain. Freeze fit/witness bytes before predicting transfer, then read answers only after both proposed and baseline predictions are saved. No update from transfer.",
+  "case_success": "At least3 authorized pairs,100 emitted first words,25percent transfer coverage; zero wrong emitted words and zero invalid authorized pairs.",
+  "gate": "At least10/12 allography successes,>=3/4 each author,>=10/12 identity successes; zero wrong emitted words or invalid authorized pairs in all84 cases; complete abstention on all12 cases of EACH changed_key,prefix,mixed_key,random_initial. Nonce may pass; that supplies no semantic evidence.",
+  "baseline": "Frozen phase36 model run on exactly the same84 cases, only as a paired comparator. New larger fitting and witness passages preclude attributing all improvements to code using cross-phase raw counts.",
+  "manuscript_if_gate_passes": "Only if the complete gate passes: apply fixed model to archived phase23 ZL and IT records; exclude labels, paragraph-initial @, interruptions <-> or <~>, nonzero segments, f85/f86, unknown Currier A/B or hand. Group Currier and attributed hand, physical-folio SHA256 mod3 fixes fit/witness/transfer. Require100 line-initial records each fold. Both literal EVA and phase23 greedy atoms. Save IDs, mappings, abstentions and independent transfer recheck, never phonetics or translation.",
+  "historical_exposure": "All manuscript pages already exposed. Copied files read for integrity hashes before gate, no pre-gate fitting or prediction. Same operator owns generation and checking; function-argument separation is not OS or human blinding.",
+  "stop": "A single gate violation prevents manuscript inference. No post-result threshold changes. Do not claim failed detection refutes allography or proves no message.",
+  "verification": "Separate mathematical implementation of anchors, consensus, split diagnostic and normalization; reconstruct every ciphertext from pinned sources and seeded keys; byte-identical replay; manifest and ZIP verification.",
+  "publication": "Local only; no push, deployment or external messages."
+}

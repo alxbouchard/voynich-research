@@ -1,0 +1,190 @@
+{
+  "status": "LIMITED_HISTORICAL_ABBREVIATION_SOURCE_NOT_A_DECIPHERMENT_TEST",
+  "source": {
+    "manuscript": "Walters W.73",
+    "folio": "5v",
+    "date_catalogue": "Late 12th century CE",
+    "language": "Latin",
+    "repository": "The Walters Art Museum",
+    "catalogue_principal_cataloger": "Kathryn Smith",
+    "catalogue_editors": [
+      "Lynley Herbert",
+      "William Noel"
+    ],
+    "catalogue_url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+    "tei_url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/ManuscriptDescriptions/W73_tei.xml",
+    "editorial_node_xml_id": "n329.007239",
+    "editorial_node_local_line": 207,
+    "surface_xml_id": "n329.006994",
+    "surface_local_lines": [
+      826,
+      829
+    ],
+    "image_official_url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/sap/W73_000012_sap.jpg",
+    "image_high_resolution_url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W73/data/W.73/300/W73_000012_300.tif",
+    "source_tiff_dimensions": [
+      2007,
+      3439
+    ],
+    "band_source_box_pixels": [
+      271,
+      2803,
+      1806,
+      3044
+    ],
+    "box_convention": "x0,y0,x1,y1; top-left origin; excluded right and bottom bounds",
+    "verified_utc": "2026-11-17T20:42:35.738291+00:00",
+    "licence_caveat": "Browse page says CC BY 3.0; downloaded TEI availability states CC BY-NC-SA 3.0. Preserve both; no claim of one uniform licence.",
+    "files": [
+      {
+        "file": "W73_tei.xml",
+        "bytes": 101403,
+        "sha256": "27df87ec0cb663d7a22cd97f0ce21ba7865c2fe2ca8cfffe104c089bb188e40f"
+      },
+      {
+        "file": "W73_f5v.jpg",
+        "bytes": 723897,
+        "sha256": "a53316bbeb92ce6d3d6d76b1e94a6bc082041a055fb3e99e43600bba7c762dc5"
+      },
+      {
+        "file": "W73_f5v_300.tif",
+        "bytes": 20710871,
+        "sha256": "ab9c9d9320204af0117ba2cc27af6e2de20a7b1e62ba40ed89e5151788d0c3e1"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "semiton",
+      "visible_letters_reading": "Semiton",
+      "visible_letters_transcription_policy": "Alphabetic reading with case and u/v aligned to the editorial Latin; not a facsimile encoding. No letters from the expansion are included. Original shapes remain in the linked image.",
+      "mark": {
+        "present": true,
+        "visual_description": "Small suprascript terminal abbreviation mark; exact palaeographic glyph is preserved by the image, not approximated by an ASCII character.",
+        "encoded_unicode_glyph": null,
+        "developed_letters_editorial": "ium"
+      },
+      "editorial_exact": "Semiton(ium)",
+      "expanded_latin": "Semitonium",
+      "spaces_and_accents": "All ordinary spaces in editorial_exact and expanded_latin are preserved; no lexical accent is present. Abbreviation strokes are recorded separately, not as added Latin accents.",
+      "location": "Red interval label immediately above Mercuri in the rotated inspection view; in page orientation, the red interval cell immediately right of Mercuri.",
+      "source_tiff_box_pixels": [
+        1238,
+        2803,
+        1283,
+        3044
+      ],
+      "case_image_file": "case_semiton.png",
+      "case_image_sha256": "f1b10fb5d8c260978d55fda81c04d8de3bfec3e5cf47316615b7fcd9f0d5c4ec",
+      "image_operation": "Crop from original TIFF and rotate 90 degrees counterclockwise; no image enhancement, interpolation, retouching or generated content.",
+      "visual_reading_status": "Checked by one AI agent against pixels after seeing editorial expansion; not blind, not a human-certified diplomatic transcription."
+    },
+    {
+      "id": "mercuri",
+      "visible_letters_reading": "Mercuri",
+      "visible_letters_transcription_policy": "Alphabetic reading with case and u/v aligned to the editorial Latin; not a facsimile encoding. No letters from the expansion are included. Original shapes remain in the linked image.",
+      "mark": {
+        "present": true,
+        "visual_description": "Raised hooked terminal sign above/after the final retained i; not the ordinary written letters u and s.",
+        "encoded_unicode_glyph": null,
+        "developed_letters_editorial": "us"
+      },
+      "editorial_exact": "Mercuri(us)",
+      "expanded_latin": "Mercurius",
+      "spaces_and_accents": "All ordinary spaces in editorial_exact and expanded_latin are preserved; no lexical accent is present. Abbreviation strokes are recorded separately, not as added Latin accents.",
+      "location": "Planet label between two interval cells; immediately below the selected red Semiton in the rotated view.",
+      "source_tiff_box_pixels": [
+        1188,
+        2803,
+        1237,
+        3044
+      ],
+      "case_image_file": "case_mercuri.png",
+      "case_image_sha256": "8c0e772b29c44a2c75b049e814197d7bd2691077a1b4fb44184802f2cabf7057",
+      "image_operation": "Crop from original TIFF and rotate 90 degrees counterclockwise; no image enhancement, interpolation, retouching or generated content.",
+      "visual_reading_status": "Checked by one AI agent against pixels after seeing editorial expansion; not blind, not a human-certified diplomatic transcription."
+    },
+    {
+      "id": "tria_semi",
+      "visible_letters_reading": "Tria Semi",
+      "visible_letters_transcription_policy": "Alphabetic reading with case and u/v aligned to the editorial Latin; not a facsimile encoding. No letters from the expansion are included. Original shapes remain in the linked image.",
+      "mark": {
+        "present": true,
+        "visual_description": "Suprascript abbreviation stroke at the end of Semi; no lexical accent is supplied.",
+        "encoded_unicode_glyph": null,
+        "developed_letters_editorial": "tonia"
+      },
+      "editorial_exact": "Tria Semi(tonia)",
+      "expanded_latin": "Tria Semitonia",
+      "spaces_and_accents": "All ordinary spaces in editorial_exact and expanded_latin are preserved; no lexical accent is present. Abbreviation strokes are recorded separately, not as added Latin accents.",
+      "location": "Green interval label between Sol and Venus; one ordinary word space is preserved in the editorial transcription.",
+      "source_tiff_box_pixels": [
+        1339,
+        2803,
+        1385,
+        3044
+      ],
+      "case_image_file": "case_tria_semi.png",
+      "case_image_sha256": "1d51d7232cb54e2cd83a88ab984995ebe1837f5cc40705714abd4a660563b0b7",
+      "image_operation": "Crop from original TIFF and rotate 90 degrees counterclockwise; no image enhancement, interpolation, retouching or generated content.",
+      "visual_reading_status": "Checked by one AI agent against pixels after seeing editorial expansion; not blind, not a human-certified diplomatic transcription."
+    },
+    {
+      "id": "sole",
+      "visible_letters_reading": "Sole",
+      "visible_letters_transcription_policy": "Alphabetic reading with case and u/v aligned to the editorial Latin; not a facsimile encoding. No letters from the expansion are included. Original shapes remain in the linked image.",
+      "mark": {
+        "present": true,
+        "visual_description": "Visible suprascript stroke over the end of Sole, corresponding to the editorial omitted m.",
+        "encoded_unicode_glyph": null,
+        "developed_letters_editorial": "m"
+      },
+      "editorial_exact": "Sole(m)",
+      "expanded_latin": "Solem",
+      "spaces_and_accents": "All ordinary spaces in editorial_exact and expanded_latin are preserved; no lexical accent is present. Abbreviation strokes are recorded separately, not as added Latin accents.",
+      "location": "First word of the shared Sole/duplu cell in the Earth-Moon-Sun distance statement; left word after rotating the band 90 degrees counterclockwise.",
+      "source_tiff_box_pixels": [
+        618,
+        2803,
+        668,
+        3044
+      ],
+      "case_image_file": "case_sole.png",
+      "case_image_sha256": "62bc72ad082273113b8ccdc87c604b8ab939224247e6b9f56abcb0f57cfbf0c1",
+      "image_operation": "Crop from original TIFF and rotate 90 degrees counterclockwise; no image enhancement, interpolation, retouching or generated content.",
+      "visual_reading_status": "Checked by one AI agent against pixels after seeing editorial expansion; not blind, not a human-certified diplomatic transcription."
+    },
+    {
+      "id": "duplu",
+      "visible_letters_reading": "duplu",
+      "visible_letters_transcription_policy": "Alphabetic reading with case and u/v aligned to the editorial Latin; not a facsimile encoding. No letters from the expansion are included. Original shapes remain in the linked image.",
+      "mark": {
+        "present": true,
+        "visual_description": "Visible suprascript stroke over the final u, corresponding to the editorial omitted m.",
+        "encoded_unicode_glyph": null,
+        "developed_letters_editorial": "m"
+      },
+      "editorial_exact": "duplu(m)",
+      "expanded_latin": "duplum",
+      "spaces_and_accents": "All ordinary spaces in editorial_exact and expanded_latin are preserved; no lexical accent is present. Abbreviation strokes are recorded separately, not as added Latin accents.",
+      "location": "Second word of the same Sole/duplu cell; right word in the rotated inspection view.",
+      "source_tiff_box_pixels": [
+        618,
+        2803,
+        668,
+        3044
+      ],
+      "case_image_file": "case_duplu.png",
+      "case_image_sha256": "62bc72ad082273113b8ccdc87c604b8ab939224247e6b9f56abcb0f57cfbf0c1",
+      "image_operation": "Crop from original TIFF and rotate 90 degrees counterclockwise; no image enhancement, interpolation, retouching or generated content.",
+      "visual_reading_status": "Checked by one AI agent against pixels after seeing editorial expansion; not blind, not a human-certified diplomatic transcription."
+    }
+  ],
+  "limitations": [
+    "Five selected known abbreviations, not a random sample and not five independent observations. Sole and duplu share one cell.",
+    "Editorial expansions were known before visual checking; this is not blind recovery.",
+    "The catalogue is not a complete diplomatic transcription: the lower band visibly includes Iuppiter between intervals, omitted by the editorial lower-band list. Do not use that entire list as an exact gold sequence.",
+    "The twelve zodiac headings have an independently published order, but their compressed written forms were not transcribed with sufficient certainty here and are excluded from these five cases.",
+    "No model, hidden key, inference on Voynich, or statistical performance claim."
+  ]
+}

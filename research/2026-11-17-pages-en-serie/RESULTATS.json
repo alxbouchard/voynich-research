@@ -1,0 +1,76 @@
+{
+  "verification_utc": "2026-11-17T22:38:59.577959+00:00",
+  "protocole_commit": "d9441ede29d2b4d5733b66775bcf81531e3946eb",
+  "prediction_commit": "f84d70d2dd5abf24893eee8ac900e05eef0424fd",
+  "prediction_sha256": "126662684a3defb2094898942cf4d99dd52cfa3fdd1362878f65a0089e7b33be",
+  "cible": "f72v1",
+  "lecture_independante_sha256": {
+    "observations/cible_lecteur_J.json": "d86e7ee248b891bf0eaf9f300d0d3fe95884e319cb771d7219d361ee9664077a",
+    "observations/cible_lecteur_K.json": "ba11abfade9b60db09f9859a56a107c326171f0cfa600dec736f18ebd7de2edb"
+  },
+  "confrontation": [
+    {
+      "prediction": "Motif suivant",
+      "attendu": "Un instrument de pesée à fléau et deux plateaux suspendus est le motif zodiacal suivant.",
+      "observe": "Traverse centrale, deux coupelles suspendues, une de chaque côté.",
+      "verdict": "confirmée"
+    },
+    {
+      "prediction": "Emplacement selon les deux calendriers",
+      "attendu": "Le motif des plateaux se trouve dans une vignette en bordure de la page, hors du centre de la composition principale.",
+      "observe": "Le fléau est dans le disque central.",
+      "verdict": "infirmée"
+    },
+    {
+      "prediction": "Emplacement et entourage selon les trois panneaux du Voynich",
+      "attendu": "Le motif des plateaux se trouve dans le disque central d’un grand diagramme. Il est entouré de plusieurs figures humaines et de motifs étoilés en couronne.",
+      "observe": "Deux couronnes de figures humaines et des étoiles entourent le petit disque de la balance.",
+      "verdict": "confirmée"
+    },
+    {
+      "prediction": "Porteur de la balance",
+      "attendu": "Abstention. Les deux calendriers diffèrent sur le fait que la balance est tenue par une personne.",
+      "observe": "Aucune figure humaine distincte dans le disque central.",
+      "verdict": "abstention avant ouverture"
+    }
+  ],
+  "herbiers": {
+    "direct": {
+      "comparaisons": 36,
+      "par_temoin": {
+        "LJS419": 15,
+        "Sloane4016": 21
+      },
+      "suites_retenues": 0,
+      "sans_contradiction_sur_les_champs_lisibles": 0
+    },
+    "inverse": {
+      "comparaisons": 36,
+      "par_temoin": {
+        "LJS419": 15,
+        "Sloane4016": 21
+      },
+      "suites_retenues": 0,
+      "sans_contradiction_sur_les_champs_lisibles": 0
+    }
+  },
+  "calendriers": {
+    "direct": {
+      "fenetres": 24,
+      "comptes_par_temoin": {
+        "M1000": 1,
+        "W196": 1
+      }
+    },
+    "inverse": {
+      "fenetres": 24,
+      "comptes_par_temoin": {}
+    }
+  },
+  "cibles_botaniques_restees_fermees": [
+    "f14v",
+    "f21v",
+    "f24v"
+  ],
+  "interpretation": "Un seul motif suivant vérifié. Le cycle zodiacal usuel donne la même prédiction. Deux lectures IA concordent sur le dessin et sa disposition. Une source précise, une langue et un sens des groupes de signes restent indéterminés."
+}

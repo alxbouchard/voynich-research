@@ -1,0 +1,444 @@
+{
+  "sources": {
+    "images": {
+      "f88r": {
+        "source_oid": "1037112",
+        "sha256": "a1d21ccad0df430b47f3b3df2829bbefb8c4d1644cb70310e6d1de4b01c20013",
+        "dimensions_originales": [
+          2714,
+          3735
+        ],
+        "origine_du_repere": "angle supérieur gauche de la photo Yale entière"
+      },
+      "f88v": {
+        "source_oid": "1006233",
+        "sha256": "3b553c70d0c068cb39a276d391127165c5d9d868ec08e7f5eb2e73b32bb95d1e",
+        "dimensions_originales": [
+          9078,
+          3777
+        ],
+        "origine_du_repere": "angle supérieur gauche de la photo Yale entière"
+      }
+    },
+    "notices": {
+      "fichier": "LSI_ivtff_0d_original.txt",
+      "sha256": "ab6f89c1e33352c030e9c9a81ff494b1743e9af3a3a59b95e37c979e39267f21",
+      "utilisation": "Seules les notices et lignes f88r et f88v ont été consultées. Les localisations ont été confrontées aux photographies."
+    }
+  },
+  "portee": "Audit du placement des légendes. La clé V et les rangées de geometry.json sont conservées. Les mentions LSI sont des rapprochements éditoriaux, pas des traits de liaison du manuscrit.",
+  "regle": {
+    "unique locale": "Un seul motif représenté dans l’environnement immédiat du libellé, dans son contour, entre ses propres parties ou à son extrémité extérieure. Ce statut ne démontre ni le référent historique ni la valeur du mot.",
+    "ambiguë": "Inscription intercalée entre deux motifs ou entre les parties de motifs voisins, sans trait de renvoi. Les candidats ne sont pas exclus par la photographie. Le premier candidat n’est pas nécessairement privilégié.",
+    "absente": "Aucune légende de la classe Lf contiguë à la figure."
+  },
+  "locaux_par_locus": [
+    {
+      "locus": "f88r.2",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        994,
+        422
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre la partie supérieure du premier motif et la tige du deuxième, sous les pousses du premier.",
+      "candidats_locaux": [
+        "V05",
+        "V01"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V05"
+    },
+    {
+      "locus": "f88r.3",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        1197,
+        436
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Dans l’intervalle des tiges des deuxième et troisième motifs.",
+      "candidats_locaux": [
+        "V01",
+        "V06"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V01"
+    },
+    {
+      "locus": "f88r.4",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        1437,
+        461
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "À droite de la tige du troisième motif et à gauche des lobes du quatrième.",
+      "candidats_locaux": [
+        "V06",
+        "V18"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V06"
+    },
+    {
+      "locus": "f88r.5",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        1786,
+        447
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre les lobes du quatrième motif et les filets du cinquième.",
+      "candidats_locaux": [
+        "V18",
+        "V20"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V18"
+    },
+    {
+      "locus": "f88r.6",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        2131,
+        422
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Au-dessous de l’arc qui rattache la feuille droite au cinquième motif, à droite de son faisceau.",
+      "candidats_locaux": [
+        "V20"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "V20"
+    },
+    {
+      "locus": "f88r.13",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        910,
+        1431
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Inscription basse sous le feuillage du premier motif, à gauche des filets montants du deuxième. Le rapprochement avec le premier est le plus immédiat.",
+      "candidats_locaux": [
+        "V09",
+        "V14"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V09"
+    },
+    {
+      "locus": "f88r.14",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        1102,
+        1326
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre le feuillage du premier motif et la base sombre du deuxième, plus haut que le locus précédent.",
+      "candidats_locaux": [
+        "V09",
+        "V14"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V14"
+    },
+    {
+      "locus": "f88r.15",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        1371,
+        1292
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre le petit organe vertical relié au deuxième motif par une tige recourbée et la couronne du troisième. La notice distingue la base et cet organe.",
+      "candidats_locaux": [
+        "V14",
+        "V02"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V14, organe vertical"
+    },
+    {
+      "locus": "f88r.16",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        1709,
+        1452
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Sous la grande feuille du troisième motif, à gauche de la partie ponctuée du quatrième et au-dessus de filets qui se croisent.",
+      "candidats_locaux": [
+        "V02",
+        "V17"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V02"
+    },
+    {
+      "locus": "f88r.17",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        2431,
+        1302
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "À droite, dans le feuillage du grand quatrième motif à deux types de feuilles.",
+      "candidats_locaux": [
+        "V17"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "V17"
+    },
+    {
+      "locus": "f88r.24",
+      "classe": "Lf",
+      "rangee": 3,
+      "ancre_native_xy": [
+        851,
+        2398
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Sous la feuille gauche du premier motif, au-dessus du libellé du récipient et à gauche de la couronne.",
+      "candidats_locaux": [
+        "V11"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "Non explicitée en amont du locus dans LSI ; le commentaire correspondant au premier motif suit."
+    },
+    {
+      "locus": "f88r.25",
+      "classe": "Lf",
+      "rangee": 3,
+      "ancre_native_xy": [
+        2058,
+        2251
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre les petites formes supérieures et les longs filets du second motif, dans la moitié droite de la rangée.",
+      "candidats_locaux": [
+        "V19"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "V19"
+    },
+    {
+      "locus": "f88v.2",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        1154,
+        423
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Sous le feuillage du premier motif et à gauche de l’axe du deuxième.",
+      "candidats_locaux": [
+        "V08",
+        "V15"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V08"
+    },
+    {
+      "locus": "f88v.3",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        1566,
+        419
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Sous la feuille du deuxième motif, dans l’intervalle précédant la couronne du troisième.",
+      "candidats_locaux": [
+        "V15",
+        "V22"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V15"
+    },
+    {
+      "locus": "f88v.4",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        2084,
+        469
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre le feuillage du troisième motif et la racine rouge dédoublée du quatrième.",
+      "candidats_locaux": [
+        "V22",
+        "V03"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V22"
+    },
+    {
+      "locus": "f88v.5",
+      "classe": "Lf",
+      "rangee": 1,
+      "ancre_native_xy": [
+        2335,
+        286
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Au-dessus et à gauche des pousses de la quatrième figure. Le feuillage de la troisième s’achève plus à gauche.",
+      "candidats_locaux": [
+        "V03"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "V03"
+    },
+    {
+      "locus": "f88v.12",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        1451,
+        1330
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Dans l’intervalle entre le petit feuillage droit du premier motif et la couronne du deuxième.",
+      "candidats_locaux": [
+        "V13",
+        "V04"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V13"
+    },
+    {
+      "locus": "f88v.13",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        1855,
+        1342
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Sous l’extrémité étoilée du deuxième motif et juste au-dessus du bord gauche de la grande feuille du troisième.",
+      "candidats_locaux": [
+        "V04",
+        "V21"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V04"
+    },
+    {
+      "locus": "f88v.14",
+      "classe": "Lf",
+      "rangee": 2,
+      "ancre_native_xy": [
+        2587,
+        1277
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Au-dessus de la feuille droite et à droite des pointes axiales du troisième motif.",
+      "candidats_locaux": [
+        "V21"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "V21"
+    },
+    {
+      "locus": "f88v.28",
+      "classe": "Lf",
+      "rangee": 3,
+      "ancre_native_xy": [
+        1436,
+        2820
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "À droite du feuillage du premier motif et à gauche du pétiole de la feuille inférieure du deuxième.",
+      "candidats_locaux": [
+        "V10",
+        "V16"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V10"
+    },
+    {
+      "locus": "f88v.29",
+      "classe": "Lf",
+      "rangee": 3,
+      "ancre_native_xy": [
+        2187,
+        2851
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Dans l’intervalle entre le feuillage droit du deuxième motif et la couronne du troisième.",
+      "candidats_locaux": [
+        "V16",
+        "V07"
+      ],
+      "statut": "ambiguë",
+      "rapprochement_editorial_lsi": "V16"
+    },
+    {
+      "locus": "f88v.30",
+      "classe": "Lf",
+      "rangee": 3,
+      "ancre_native_xy": [
+        2697,
+        2851
+      ],
+      "ancre_interpretation": "centre approximatif de l’inscription",
+      "position": "Entre la couronne du troisième motif et le bord droit de ce panneau.",
+      "candidats_locaux": [
+        "V07"
+      ],
+      "statut": "unique locale",
+      "rapprochement_editorial_lsi": "V07"
+    }
+  ],
+  "absences": [
+    {
+      "figure": "V12",
+      "folio": "f88r",
+      "rangee": 4,
+      "colonne": 1,
+      "locus": null,
+      "statut": "absente",
+      "justification": "La figure horizontale se trouve seule au-dessous du troisième paragraphe. Aucune inscription adjacente visible ; la notice de la rangée précédente relève expressément cette figure non légendée."
+    }
+  ],
+  "recipients_exclus": [
+    "f88r.1",
+    "f88r.12",
+    "f88r.23",
+    "f88v.1",
+    "f88v.11",
+    "f88v.27"
+  ],
+  "constats": {
+    "comptage_par_locus": {
+      "ambiguë": 15,
+      "unique locale": 7
+    },
+    "total_loci_Lf": 22,
+    "total_motifs": 22,
+    "motifs_a_legende_unique_locale": [
+      "V20",
+      "V17",
+      "V11",
+      "V19",
+      "V03",
+      "V21",
+      "V07"
+    ],
+    "f88r_r2": "4 dessins continus et 5 loci Lf ; le motif V14 associe une base renflée à un organe vertical vert par une tige recourbée. Les numéros de cinq motifs dans les commentaires de détail entrent en tension avec la note de rangée dénombrant quatre dessins et six libellés en incluant celui du récipient.",
+    "f88r_r1": "La notice signale aussi l’incertitude du côté d’attache dans cette rangée.",
+    "f88v": "Les trois notices décrivent des alternances de libellés et dessins ; l’alignement après chaque dessin sert de convention éditoriale.",
+    "bijection_complete": false
+  }
+}

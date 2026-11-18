@@ -1,0 +1,198 @@
+{
+  "aggregate": {
+    "initializer": {
+      "correct_letters": 6014,
+      "total_letters": 6024,
+      "accuracy": 0.998339973439575,
+      "boundary_f1_macro": 0.8940956831960459,
+      "boundary_f1_micro": 0.9024780175859313,
+      "boundary_tp": 1129,
+      "boundary_fp": 104,
+      "boundary_fn": 140,
+      "passes_both": 5,
+      "all_letters_correct_cases": 7
+    },
+    "closed": {
+      "correct_letters": 5978,
+      "total_letters": 6024,
+      "accuracy": 0.9923638778220452,
+      "boundary_f1_macro": 0.6555705484027774,
+      "boundary_f1_micro": 0.6357123905545238,
+      "boundary_tp": 1198,
+      "boundary_fp": 1302,
+      "boundary_fn": 71,
+      "passes_both": 0,
+      "all_letters_correct_cases": 6
+    },
+    "open": {
+      "correct_letters": 6015,
+      "total_letters": 6024,
+      "accuracy": 0.9985059760956175,
+      "boundary_f1_macro": 0.8940956831960459,
+      "boundary_f1_micro": 0.9024780175859313,
+      "boundary_tp": 1129,
+      "boundary_fp": 104,
+      "boundary_fn": 140,
+      "passes_both": 5,
+      "all_letters_correct_cases": 8
+    },
+    "oracle_closed": {
+      "correct_letters": 6024,
+      "total_letters": 6024,
+      "accuracy": 1.0,
+      "boundary_f1_macro": 0.6639583276892153,
+      "boundary_f1_micro": 0.6465841850457235,
+      "boundary_tp": 1202,
+      "boundary_fp": 1247,
+      "boundary_fn": 67,
+      "passes_both": 0,
+      "all_letters_correct_cases": 12
+    },
+    "oracle_open": {
+      "correct_letters": 6024,
+      "total_letters": 6024,
+      "accuracy": 1.0,
+      "boundary_f1_macro": 0.8955829914985314,
+      "boundary_f1_micro": 0.9042298483639266,
+      "boundary_tp": 1133,
+      "boundary_fp": 104,
+      "boundary_fn": 136,
+      "passes_both": 6,
+      "all_letters_correct_cases": 12
+    }
+  },
+  "observed_key_successes": 12,
+  "improved_boundary_cases": 12,
+  "diagnostics": [
+    {
+      "case": "latin_250_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 1,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "latin_500_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 0,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "latin_1000_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 3,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "latin_250_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "n",
+          "predicted": "y",
+          "true": "z",
+          "fit_count": 0,
+          "transfer_count": 1
+        },
+        {
+          "cipher": "p",
+          "predicted": "w",
+          "true": "y",
+          "fit_count": 0,
+          "transfer_count": 1
+        }
+      ],
+      "transfer_positions_with_unobserved_cipher_symbol": 2,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "latin_500_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "t",
+          "predicted": "k",
+          "true": "y",
+          "fit_count": 0,
+          "transfer_count": 1
+        }
+      ],
+      "transfer_positions_with_unobserved_cipher_symbol": 1,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "latin_1000_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "c",
+          "predicted": "z",
+          "true": "y",
+          "fit_count": 0,
+          "transfer_count": 1
+        },
+        {
+          "cipher": "e",
+          "predicted": "j",
+          "true": "z",
+          "fit_count": 0,
+          "transfer_count": 1
+        }
+      ],
+      "transfer_positions_with_unobserved_cipher_symbol": 2,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "italian_250_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [
+        {
+          "cipher": "o",
+          "predicted": "x",
+          "true": "q",
+          "fit_count": 0,
+          "transfer_count": 4
+        }
+      ],
+      "transfer_positions_with_unobserved_cipher_symbol": 4,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "italian_500_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 0,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "italian_1000_1",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 0,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "italian_250_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 0,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "italian_500_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 0,
+      "open_fit_minus_oracle_score": 0.0
+    },
+    {
+      "case": "italian_1000_2",
+      "all_fit_observed_mappings_correct": true,
+      "wrong_mappings": [],
+      "transfer_positions_with_unobserved_cipher_symbol": 0,
+      "open_fit_minus_oracle_score": 0.0
+    }
+  ]
+}
