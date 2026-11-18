@@ -1,0 +1,5 @@
+# Une racine visible sur les pages qui contiennent otoldy ?
+
+Cette analyse secondaire utilise les cinq paires botaniques et les trois vignettes déjà publiées dans l’essai sur une base renflée. Nous connaissons la sélection des pages, les résultats antérieurs et leur description. Deux nouveaux lecteurs IA rendent leurs votes séparément. Chacun reçoit seulement les treize images anonymes pour cette question.
+
+Le critère est un prolongement individualisé sous le point d’attache de l’axe, ramifié ou simple, ou un organe à pointes ou fibres évoquant une racine dans un fragment isolé. Une couleur ou un renflement unique ne suffit pas. L’absence exige de pouvoir suivre la tige jusqu’à sa terminaison. Quand le cadrage ou le trait est insuffisant, le vote est indéterminé. Compter séparément les cinq pages avec le groupe, leurs cinq témoins et les trois vignettes. La discrimination porte sur les différences à l’intérieur de chaque paire. Une page avec une racine dessinée et sans le groupe est une limite à la prédiction réciproque « racine visible implique groupe écrit ».

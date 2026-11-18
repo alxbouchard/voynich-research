@@ -1,0 +1,5 @@
+# Prédiction avant la consultation de la seconde roue
+
+Dans un autre manuscrit latin du XVe siècle contenant un zodiaque circulaire figuré et légendé, je prédis qu'une balance à fléau et deux plateaux aura pour légende *Libra*. Le support peut être une main ou un personnage. La prédiction porte uniquement sur ces deux plateaux et le mot contigu qui les nomme. La casse et le point final sont indifférents. Une légende fléchie, abrégée, vernaculaire, distante, difficile à lire ou manquante sera distinguée d'un succès exact. Les signes voisins et les autres roues ne remplaceront pas la première roue datée et pertinente dont le feuillet complet sera rendu lisible.
+
+La consultation préalable de Chantilly a fourni le couple. Aucun pixel du nouveau témoin n’a été consulté au moment de rédiger cette prédiction. Des descriptions de manuscrits différents, dont le calendrier Penn LJS 420, ont déjà été aperçues pendant la recherche des premiers témoins. Les figures et les légendes de la nouvelle roue restent à vérifier. La présence probable d'un zodiaque peut servir à choisir le document.

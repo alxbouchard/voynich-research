@@ -1,0 +1,186 @@
+{
+  "simple": {
+    "scan": {
+      "apprentissage_evaluable": 8,
+      "reserve_evaluable": 4,
+      "maximum_compatible_avec_une_table_par_secteur": 12,
+      "orientations_apprentissage": [
+        {
+          "first_name_at": 5,
+          "clockwise": false,
+          "validation_individuelle": {
+            "3": true,
+            "6": true,
+            "9": true,
+            "12": true
+          },
+          "serie_compatible": true
+        }
+      ]
+    },
+    "decodages_avant_comparaison": {
+      "3": [
+        "martius"
+      ],
+      "6": [
+        "?ecember"
+      ],
+      "9": [
+        "september"
+      ],
+      "12": [
+        "iunius"
+      ]
+    },
+    "verification_des_vrais_groupes": {
+      "3": "martius",
+      "6": "?ecember",
+      "9": "september",
+      "12": "iunius"
+    },
+    "noms_masques": {
+      "3": "martius",
+      "6": "december",
+      "9": "september",
+      "12": "iunius"
+    },
+    "exact_sur_vrais_groupes": 3,
+    "positions_connues_sur_vrais_groupes": 29,
+    "positions_totales_sur_vrais_groupes": 30
+  },
+  "avec_remplissage": {
+    "scan": {
+      "apprentissage_evaluable": 8,
+      "reserve_evaluable": 4,
+      "maximum_compatible_avec_une_table_par_secteur": 12,
+      "orientations_apprentissage": [
+        {
+          "first_name_at": 5,
+          "clockwise": false,
+          "validation_individuelle": {
+            "3": true,
+            "6": true,
+            "9": true,
+            "12": true
+          },
+          "serie_compatible": true
+        }
+      ]
+    },
+    "decodages_avant_comparaison": {
+      "3": [
+        "?",
+        "?ma",
+        "?martius",
+        "?martius??",
+        "ma",
+        "martius",
+        "martius??",
+        "rtius",
+        "rtius??",
+        "??"
+      ],
+      "6": [
+        "?",
+        "??ecember",
+        "??ecember??",
+        "?ecember",
+        "?ecember??",
+        "??"
+      ],
+      "9": [
+        "?",
+        "?se",
+        "?september",
+        "?september??",
+        "se",
+        "september",
+        "september??",
+        "ptember",
+        "ptember??",
+        "??"
+      ],
+      "12": [
+        "?",
+        "?iunius",
+        "?iunius??",
+        "iunius",
+        "iunius??",
+        "??"
+      ]
+    },
+    "verification_des_vrais_groupes": {
+      "3": "martius",
+      "6": "?ecember",
+      "9": "september",
+      "12": "iunius"
+    },
+    "noms_masques": {
+      "3": "martius",
+      "6": "december",
+      "9": "september",
+      "12": "iunius"
+    },
+    "exact_sur_vrais_groupes": 3,
+    "positions_connues_sur_vrais_groupes": 29,
+    "positions_totales_sur_vrais_groupes": 30
+  },
+  "ordre_melange": {
+    "apprentissage_evaluable": 8,
+    "reserve_evaluable": 4,
+    "maximum_compatible_avec_une_table_par_secteur": 4,
+    "orientations_apprentissage": []
+  },
+  "glyph_to_letters": {
+    "scan": {
+      "apprentissage_evaluable": 8,
+      "reserve_evaluable": 4,
+      "maximum_compatible_avec_une_table_par_secteur": 12,
+      "orientations_apprentissage": [
+        {
+          "first_name_at": 5,
+          "clockwise": false,
+          "validation_individuelle": {
+            "3": true,
+            "6": true,
+            "9": true,
+            "12": true
+          },
+          "serie_compatible": true
+        }
+      ]
+    },
+    "controle_bijection": {
+      "apprentissage_evaluable": 8,
+      "reserve_evaluable": 4,
+      "maximum_compatible_avec_une_table_par_secteur": 6,
+      "orientations_apprentissage": []
+    }
+  },
+  "letter_to_glyphs": {
+    "scan": {
+      "apprentissage_evaluable": 8,
+      "reserve_evaluable": 4,
+      "maximum_compatible_avec_une_table_par_secteur": 12,
+      "orientations_apprentissage": [
+        {
+          "first_name_at": 5,
+          "clockwise": false,
+          "validation_individuelle": {
+            "3": true,
+            "6": true,
+            "9": true,
+            "12": true
+          },
+          "serie_compatible": true
+        }
+      ]
+    },
+    "controle_bijection": {
+      "apprentissage_evaluable": 8,
+      "reserve_evaluable": 4,
+      "maximum_compatible_avec_une_table_par_secteur": 2,
+      "orientations_apprentissage": []
+    }
+  }
+}

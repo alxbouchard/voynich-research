@@ -1,0 +1,12 @@
+# Une figure portant une étoile fait-elle le lien entre deux vocabulaires ?
+
+Sur les panneaux zodiacaux, une même image comporte une figure et une étoile. Si un terme stable nomme fréquemment l’un de ces éléments, il pourrait suivre cet élément dans deux mises en page. Cette comparaison est décidée avant le calcul des intersections. Les corpus, certaines fréquences et certains candidats avaient déjà été examinés séparément. Il s’agit d’une nouvelle comparaison de données déjà utilisées.
+
+1. Relever les mots entiers des légendes voisines d’une étoile sur f68r1 et f68r2 et des figures des bains des feuillets 75–84. Pour les bains, ne retenir que les faces qui portent également des légendes de cuve, de conduit ou autre élément (témoins Lt). Un groupe compte au plus une fois par ligne.
+2. Choisir dans chaque catégorie toutes les formes présentes sur deux panneaux astronomiques ou deux faces des bains distinctes. Garder les ex æquo. À titre descriptif, donner aussi les intersections sans ce critère. Le recto de f68 est une seule pièce de parchemin.
+3. Pour chaque candidat, annoncer sa présence près des personnages porteurs d’étoile de f71v et f72r1 puis sur une autre face zodiacale parmi les dix autres panneaux. Donner le nombre de légendes, les témoins et les lieux. Comparer à chaque fois les deux éditions, espaces incertains joints et séparés. Le résultat robuste exige la même lecture au même lieu dans les quatre traitements. Indiquer si les formes trouvées reviennent aussi près des récipients et des conduits.
+4. Parmi les autres panneaux, exclure avant le calcul f73v et les autres faces sans étiquettes zodiacales. Publier tous les témoins. Le classement éditorial d’une légende de figure ou du zodiaque décrit sa position. Une telle inscription peut concerner un individu, une date, un astre ou une autre notion. L’objet grammatical, le sexe de chaque figure et le sens des mots restent ouverts.
+
+La règle cherche un groupe entier stable, y compris dans une inscription de plusieurs mots. Une alternance grammaticale ou un élément à l’intérieur d’un mot peut lui échapper.
+
+**Correction de périmètre avant l’intersection.** Le simple décompte des lieux Lz dans l’inventaire montre 30 étiquettes à f73v. Cette face est donc incluse. Le critère opératoire est de conserver les douze panneaux étiquetés, dont dix en vérification complémentaire. Aucun texte d’étiquette de f73v n’a été lu pour cette correction.

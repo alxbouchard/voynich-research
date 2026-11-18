@@ -1,0 +1,22 @@
+# Repérage photographique de f67r2
+
+La photographie Yale 1006194 présente f67r1 à gauche et f67r2 à droite. Sur le panneau droit, chaque rubrique rouge surmonte une case à parois radiales contenant un court paragraphe sombre. Un visage dessiné à l’extrémité intérieure de la case a sa propre légende, encore plus proche du centre. La légende .52 est alignée avec la rubrique .1. Les légendes .53–.63 progressent dans le même sens horaire que les rubriques .2–.12, respectivement. Les douze alignements apparaissent sur les quatre bandes successives qui se chevauchent. Le premier secteur se trouve vers 9 h 40 sur la vue originale. La numérotation avance dans le sens horaire. C’est une convention de repérage. Le dessin n’impose pas que le copiste ait commencé par ce secteur. [Photographie originale de la Beinecke](https://collections.library.yale.edu/catalog/2002046?child_oid=1006194) · [Notice de f67r2](https://www.voynich.nu/q09/index.html#f67r2) · [Vue d’ensemble numérotée](vue-native-annotee.jpg)
+
+L’[inventaire exhaustif](secteurs.csv) donne les indices de chaque rubrique, les lignes du paragraphe, l’inscription sombre isolée éventuelle, la légende du visage et les graphies intégrales des deux éditions. Les positions 1, 3, 5, 6, 7, 8 et 11 ont une inscription isolée du côté du visage. Aux positions 2, 4, 9, 10 et 12 l’espace correspondant est libre. Une tache recouvre une partie de la dernière ligne du paragraphe 12. L’écriture rouge de la rubrique 12 est pâle au voisinage du pli. La rubrique 4 a une trace d’encre épaisse au début de son second groupe. Les intervalles de mots et plusieurs signes ont des lectures différentes dans les deux éditions. Les signes alternatifs, virgules et lacunes restent visibles tels qu’édités. Les références .64–.71 suivent le motif central à huit pointes, et les lignes .72–.74 figurent sous le cercle. [Bande NO](secteurs-1.jpg) · [Bande NE](secteurs-2.jpg) · [Bande SE](secteurs-3.jpg) · [Bande SO](secteurs-4.jpg) · [Takahashi](https://www.voynich.nu/data/IT2a-n.txt) · [Zandbergen–Landini](https://www.voynich.nu/data/ZL3b-n.txt)
+
+Les repères du CSV sont des points arrondis pour retrouver le dessin, en pixels depuis le coin supérieur gauche du JPEG natif 4972 × 3738, avec x vers la droite et y vers le bas. Le centre utilisé pour redresser les bandes est (3660, 1490). Les angles croissent dans le sens horaire et valent zéro au sommet. Les bords ont été relevés approximativement et les rayons du dessin sont irréguliers. Le script redresse les images par interpolation bilinéaire sans miroir. La vue d’ensemble conserve la géométrie originale. La teinte latérale apparente des visages est décrite en deux catégories visuelles. Le mot « visage » désigne ici seulement la forme dessinée.
+
+Les cartes rouges préservent les douze rubriques, auxquelles F7 et M4 ajoutent deux fragments de la ligne rouge .73 sous le diagramme. Ces deux témoins partagent le support et la couleur, avec une écriture horizontale. Les cartes noires couvrent les douze cases. Les deux jeux utilisent des identifiants distincts. Les cadres coupent parfois le voisinage, et les cartes ne fournissent aucune lecture certaine de signes effacés. [Cartes rouges A](rouge-1.jpg) · [Cartes rouges B](rouge-2.jpg)
+
+## Reproduction
+
+Exécuter depuis ce dossier avec Python, NumPy, SciPy et Pillow. Le fichier original utilisé a l’empreinte SHA-256 `0518312a566ee713a46c9887d8b8b9d7141d14095e360661789c1dad9b5c0d1c`. Les fichiers locaux IT2a-n et ZL3b-n ont respectivement les empreintes `7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5` et `bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc`. [Image Yale IIIF](https://collections.library.yale.edu/iiif/2/1006194/full/full/0/default.jpg)
+
+```sh
+curl --fail --location --output original.jpg https://collections.library.yale.edu/iiif/2/1006194/full/full/0/default.jpg
+python3 -B prepare_cards.py original.jpg cartes-rouges
+python3 -B prepare_sectors.py original.jpg bandes cartes-noires
+python3 -B inventaire.py ../../../voynich_20261028/data secteurs.csv
+```
+
+Les coordonnées des cartes rouges et des témoins sont dans `prepare_cards.py`. Les limites de secteur et les codes des cartes noires sont dans `prepare_sectors.py`. L’adjudication physique reprend les deux éditions pour nommer les loci et provient d’une inspection des photographies en connaissant la page. Elle doit être distinguée d’une lecture indépendante sur cartes masquées.

@@ -1,0 +1,1226 @@
+{
+  "sha256": {
+    "H": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "ZL": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "lectures": {
+    "H_joint": {
+      "denominateurs": {
+        "etoiles": {
+          "toutes": 53,
+          "lisibles": 53,
+          "groupes": 54
+        },
+        "zodiaque_dix": {
+          "toutes": 269,
+          "lisibles": 265,
+          "groupes": 316
+        },
+        "zodiaque_deux": {
+          "toutes": 30,
+          "lisibles": 30,
+          "groupes": 46
+        },
+        "figures_bains": {
+          "toutes": 53,
+          "lisibles": 53,
+          "groupes": 58
+        },
+        "objets_bains": {
+          "toutes": 36,
+          "lisibles": 36,
+          "groupes": 42
+        }
+      },
+      "faces_bains_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "tests": {
+        "etoiles": {
+          "candidats_deux_faces": {},
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "odair": {
+              "etoiles": [
+                "f68r2.25"
+              ],
+              "figures_bains": [],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.26"
+              ]
+            },
+            "otol": {
+              "etoiles": [
+                "f68r1.25"
+              ],
+              "figures_bains": [],
+              "objets_bains": [
+                "f77r.5",
+                "f77v.2"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.11",
+                "f71r.13"
+              ]
+            }
+          }
+        },
+        "figures_bains": {
+          "candidats_deux_faces": {
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.10",
+                "f72v3.32",
+                "f73r.1"
+              ]
+            }
+          },
+          "intersections_sans_seuil_deux": {
+            "okar": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.34"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [
+                "f71v.9"
+              ],
+              "zodiaque_dix": [
+                "f72r2.31"
+              ]
+            }
+          },
+          "intersections_sans_seuil_dix": {
+            "dy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.22"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.2",
+                "f70v2.17",
+                "f72r2.14"
+              ]
+            },
+            "okal": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.36"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.11",
+                "f72r2.9",
+                "f73v.27"
+              ]
+            },
+            "okar": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.34"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [
+                "f71v.9"
+              ],
+              "zodiaque_dix": [
+                "f72r2.31"
+              ]
+            },
+            "okedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.4"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v1.28",
+                "f73r.3"
+              ]
+            },
+            "okol": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.44"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.1"
+              ]
+            },
+            "okolshy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.10"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.9"
+              ]
+            },
+            "or": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.2"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.7",
+                "f72r3.15",
+                "f72r3.4"
+              ]
+            },
+            "ory": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.27"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r3.18"
+              ]
+            },
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.10",
+                "f72v3.32",
+                "f73r.1"
+              ]
+            },
+            "oty": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.28"
+              ],
+              "objets_bains": [
+                "f82v.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.5",
+                "f70v2.7"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ZL_joint": {
+      "denominateurs": {
+        "etoiles": {
+          "toutes": 53,
+          "lisibles": 50,
+          "groupes": 51
+        },
+        "zodiaque_dix": {
+          "toutes": 269,
+          "lisibles": 244,
+          "groupes": 266
+        },
+        "zodiaque_deux": {
+          "toutes": 30,
+          "lisibles": 27,
+          "groupes": 36
+        },
+        "figures_bains": {
+          "toutes": 53,
+          "lisibles": 50,
+          "groupes": 51
+        },
+        "objets_bains": {
+          "toutes": 36,
+          "lisibles": 33,
+          "groupes": 37
+        }
+      },
+      "faces_bains_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "tests": {
+        "etoiles": {
+          "candidats_deux_faces": {},
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "otcheody": {
+              "etoiles": [
+                "f68r1.10"
+              ],
+              "figures_bains": [],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.6"
+              ]
+            }
+          }
+        },
+        "figures_bains": {
+          "candidats_deux_faces": {
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73r.3",
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": []
+            }
+          },
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "okal": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.36"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.11",
+                "f72r2.9",
+                "f72v1.16",
+                "f73v.27"
+              ]
+            },
+            "okaldy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.37"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.27",
+                "f72v3.18"
+              ]
+            },
+            "okedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.4"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v1.28"
+              ]
+            },
+            "okol": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.44"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.1"
+              ]
+            },
+            "okolshy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.10"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.9"
+              ]
+            },
+            "ory": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.27"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r3.18"
+              ]
+            },
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73r.3",
+                "f73v.23"
+              ]
+            },
+            "oty": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.28"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.5",
+                "f70v2.7"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "accord_joint": {
+      "denominateurs": {
+        "etoiles": {
+          "toutes": 53,
+          "lisibles": 40,
+          "groupes": 41
+        },
+        "zodiaque_dix": {
+          "toutes": 269,
+          "lisibles": 162,
+          "groupes": 170
+        },
+        "zodiaque_deux": {
+          "toutes": 30,
+          "lisibles": 18,
+          "groupes": 23
+        },
+        "figures_bains": {
+          "toutes": 51,
+          "lisibles": 41,
+          "groupes": 42
+        },
+        "objets_bains": {
+          "toutes": 30,
+          "lisibles": 24,
+          "groupes": 26
+        }
+      },
+      "faces_bains_mixtes": [
+        "f75v",
+        "f77r",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "tests": {
+        "etoiles": {
+          "candidats_deux_faces": {},
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {}
+        },
+        "figures_bains": {
+          "candidats_deux_faces": {
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": []
+            }
+          },
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "okal": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.36"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.11",
+                "f72r2.9",
+                "f73v.27"
+              ]
+            },
+            "okedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.4"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v1.28"
+              ]
+            },
+            "okol": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.44"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.1"
+              ]
+            },
+            "okolshy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.10"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.9"
+              ]
+            },
+            "ory": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.27"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r3.18"
+              ]
+            },
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "oty": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.28"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.5"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "H_separe": {
+      "denominateurs": {
+        "etoiles": {
+          "toutes": 53,
+          "lisibles": 53,
+          "groupes": 54
+        },
+        "zodiaque_dix": {
+          "toutes": 269,
+          "lisibles": 265,
+          "groupes": 316
+        },
+        "zodiaque_deux": {
+          "toutes": 30,
+          "lisibles": 30,
+          "groupes": 46
+        },
+        "figures_bains": {
+          "toutes": 53,
+          "lisibles": 53,
+          "groupes": 58
+        },
+        "objets_bains": {
+          "toutes": 36,
+          "lisibles": 36,
+          "groupes": 42
+        }
+      },
+      "faces_bains_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "tests": {
+        "etoiles": {
+          "candidats_deux_faces": {},
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "odair": {
+              "etoiles": [
+                "f68r2.25"
+              ],
+              "figures_bains": [],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.26"
+              ]
+            },
+            "otol": {
+              "etoiles": [
+                "f68r1.25"
+              ],
+              "figures_bains": [],
+              "objets_bains": [
+                "f77r.5",
+                "f77v.2"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.11",
+                "f71r.13"
+              ]
+            }
+          }
+        },
+        "figures_bains": {
+          "candidats_deux_faces": {
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.10",
+                "f72v3.32",
+                "f73r.1"
+              ]
+            }
+          },
+          "intersections_sans_seuil_deux": {
+            "okar": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.34"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [
+                "f71v.9"
+              ],
+              "zodiaque_dix": [
+                "f72r2.31"
+              ]
+            }
+          },
+          "intersections_sans_seuil_dix": {
+            "dy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.22"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.2",
+                "f70v2.17",
+                "f72r2.14"
+              ]
+            },
+            "okal": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.36"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.11",
+                "f72r2.9",
+                "f73v.27"
+              ]
+            },
+            "okar": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.34"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [
+                "f71v.9"
+              ],
+              "zodiaque_dix": [
+                "f72r2.31"
+              ]
+            },
+            "okedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.4"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v1.28",
+                "f73r.3"
+              ]
+            },
+            "okol": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.44"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.1"
+              ]
+            },
+            "okolshy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.10"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.9"
+              ]
+            },
+            "or": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.2"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.7",
+                "f72r3.15",
+                "f72r3.4"
+              ]
+            },
+            "ory": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.27"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r3.18"
+              ]
+            },
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.10",
+                "f72v3.32",
+                "f73r.1"
+              ]
+            },
+            "oty": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.28"
+              ],
+              "objets_bains": [
+                "f82v.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.5",
+                "f70v2.7"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ZL_separe": {
+      "denominateurs": {
+        "etoiles": {
+          "toutes": 53,
+          "lisibles": 50,
+          "groupes": 51
+        },
+        "zodiaque_dix": {
+          "toutes": 269,
+          "lisibles": 244,
+          "groupes": 274
+        },
+        "zodiaque_deux": {
+          "toutes": 30,
+          "lisibles": 27,
+          "groupes": 41
+        },
+        "figures_bains": {
+          "toutes": 53,
+          "lisibles": 50,
+          "groupes": 52
+        },
+        "objets_bains": {
+          "toutes": 36,
+          "lisibles": 33,
+          "groupes": 39
+        }
+      },
+      "faces_bains_mixtes": [
+        "f75v",
+        "f77r",
+        "f77v",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "tests": {
+        "etoiles": {
+          "candidats_deux_faces": {},
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "otcheody": {
+              "etoiles": [
+                "f68r1.10"
+              ],
+              "figures_bains": [],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v3.6"
+              ]
+            }
+          }
+        },
+        "figures_bains": {
+          "candidats_deux_faces": {
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73r.3",
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": []
+            }
+          },
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "okal": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.36"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.11",
+                "f72r2.9",
+                "f72v1.16",
+                "f73v.27"
+              ]
+            },
+            "okaldy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.37"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.27",
+                "f72v3.18"
+              ]
+            },
+            "okedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.4"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v1.28"
+              ]
+            },
+            "okol": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.44"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.1"
+              ]
+            },
+            "okolshy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.10"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.9"
+              ]
+            },
+            "ory": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.27"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r3.18"
+              ]
+            },
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73r.3",
+                "f73v.23"
+              ]
+            },
+            "oty": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.28"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.5",
+                "f70v2.7"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "accord_separe": {
+      "denominateurs": {
+        "etoiles": {
+          "toutes": 53,
+          "lisibles": 40,
+          "groupes": 41
+        },
+        "zodiaque_dix": {
+          "toutes": 269,
+          "lisibles": 165,
+          "groupes": 177
+        },
+        "zodiaque_deux": {
+          "toutes": 30,
+          "lisibles": 19,
+          "groupes": 26
+        },
+        "figures_bains": {
+          "toutes": 51,
+          "lisibles": 42,
+          "groupes": 44
+        },
+        "objets_bains": {
+          "toutes": 30,
+          "lisibles": 23,
+          "groupes": 25
+        }
+      },
+      "faces_bains_mixtes": [
+        "f75v",
+        "f77r",
+        "f82r",
+        "f82v",
+        "f83v",
+        "f84r"
+      ],
+      "tests": {
+        "etoiles": {
+          "candidats_deux_faces": {},
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {}
+        },
+        "figures_bains": {
+          "candidats_deux_faces": {
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "otoly": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.37",
+                "f84r.11"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": []
+            }
+          },
+          "intersections_sans_seuil_deux": {},
+          "intersections_sans_seuil_dix": {
+            "okal": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82r.36"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r2.11",
+                "f72r2.9",
+                "f73v.27"
+              ]
+            },
+            "okedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.4"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72v1.28"
+              ]
+            },
+            "okol": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.44"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.1"
+              ]
+            },
+            "okolshy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f84r.10"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v1.9"
+              ]
+            },
+            "ory": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.27"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f72r3.18"
+              ]
+            },
+            "otedy": {
+              "etoiles": [],
+              "figures_bains": [
+                "f82v.2",
+                "f84r.8"
+              ],
+              "objets_bains": [
+                "f75v.54",
+                "f77r.3"
+              ],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f73v.23"
+              ]
+            },
+            "oty": {
+              "etoiles": [],
+              "figures_bains": [
+                "f75v.28"
+              ],
+              "objets_bains": [],
+              "zodiaque_deux": [],
+              "zodiaque_dix": [
+                "f70v2.5"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

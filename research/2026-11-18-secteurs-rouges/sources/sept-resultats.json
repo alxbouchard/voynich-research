@@ -1,0 +1,110 @@
+{
+  "secteurs_observes": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11
+  ],
+  "modeles": {
+    "exaltations": {
+      "score": 6,
+      "placements_testes": 24,
+      "masques_distincts": 24,
+      "ex_aequo": [
+        {
+          "origine": 2,
+          "sens": 1,
+          "secteurs": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            11
+          ],
+          "attendus_absents": [
+            2
+          ],
+          "presents_imprevus": [
+            6
+          ]
+        }
+      ],
+      "distribution_des_maxima": {
+        "5": 264,
+        "6": 504,
+        "7": 24
+      },
+      "au_moins_aussi_bon_sur_792": 528
+    },
+    "mois_de_31_jours": {
+      "score": 6,
+      "placements_testes": 24,
+      "masques_distincts": 12,
+      "ex_aequo": [
+        {
+          "origine": 11,
+          "sens": 1,
+          "secteurs": [
+            1,
+            3,
+            5,
+            6,
+            8,
+            10,
+            11
+          ],
+          "attendus_absents": [
+            10
+          ],
+          "presents_imprevus": [
+            7
+          ]
+        },
+        {
+          "origine": 5,
+          "sens": -1,
+          "secteurs": [
+            1,
+            3,
+            5,
+            6,
+            8,
+            10,
+            11
+          ],
+          "attendus_absents": [
+            10
+          ],
+          "presents_imprevus": [
+            7
+          ]
+        }
+      ],
+      "distribution_des_maxima": {
+        "5": 516,
+        "6": 264,
+        "7": 12
+      },
+      "au_moins_aussi_bon_sur_792": 276
+    }
+  },
+  "distribution_ecart_exaltations_moins_mois": {
+    "-2": 12,
+    "-1": 108,
+    "0": 300,
+    "1": 348,
+    "2": 24
+  },
+  "ecart_observe": 0,
+  "ecart_absolu_au_moins_aussi_grand_sur_792": 792,
+  "distribution_meilleur_des_deux": {
+    "5": 144,
+    "6": 612,
+    "7": 36
+  }
+}

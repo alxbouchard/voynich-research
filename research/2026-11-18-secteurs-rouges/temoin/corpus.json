@@ -1,0 +1,438 @@
+{
+  "statut": "Lecture de témoins historiques, indépendante de la cible.",
+  "conventions": {
+    "lettres": "Les deux témoins ont une transcription alphabétique semi-diplomatique. Casse régularisée avec capitale initiale, variantes de s et r réunies, ponctuation et fleurons écartés. Seuls les mots effectivement visibles sont transcrits.",
+    "iu": "Les graphies initiales de Ianuarius, Iunius, Iulius sont codées avec I. La forme médiane arrondie de Nouember est conservée en u. On écrit Virgo avec V initial. Le calcul peut réunir j/i et v/u ; conserver y distinct de i dans la lecture de base.",
+    "abreviations": "Aucun développement de mots abrégés dans les deux séries de Chantilly ni dans les douze titres du Walters. Maius et Marcius sont des lectures alternatives de caractères à Chantilly, pas des développements ; elles ne constituent pas des lectures supplémentaires indépendantes.",
+    "rang": "Rang du mois de janvier à décembre ou du signe du Bélier aux Poissons, respectant les deux ordres cycliques sans préjuger d’un couplage mois/signe sur une autre page."
+  },
+  "chantilly": {
+    "titre": "CHANTILLY, Bibliothèque du château, 0065 (1284) (Reproduction intégrale)",
+    "cote": "CHANTILLY, Bibliothèque du château, 0065 (1284), f. 14v",
+    "datation_du_manuscrit": "XVe siècle, vers 1416 selon la notice IRHT ; ne date pas individuellement la pose de chaque inscription.",
+    "manifeste": "https://bvmm.irht.cnrs.fr/iiif/22470/manifest",
+    "canvas": "https://bvmm.irht.cnrs.fr/iiif/22470/canvas/canvas-2045982",
+    "label_canvas": "f. 014v - 015",
+    "url_notice_musee": "https://les-tres-riches-heures.chateaudechantilly.fr/explication34.html",
+    "service_images": "https://iiif.irht.cnrs.fr/iiif/France/Chantilly/Bibliotheque_du_chateau/M601415401_MS0065/DEPOT/M601415401_MS0065_0019",
+    "vue_ensemble": {
+      "url": "https://iiif.irht.cnrs.fr/iiif/France/Chantilly/Bibliotheque_du_chateau/M601415401_MS0065/DEPOT/M601415401_MS0065_0019/full/3200,/0/default.jpg",
+      "sha256": "723b6c01c9fc85eb5369fe67dbaba5dd93a6103e36bb0dd477f70f072d0348bd",
+      "dimensions": [
+        3000,
+        2139
+      ]
+    },
+    "attribution": "Bibliothèque du château de CHANTILLY",
+    "licence": "http://creativecommons.org/licenses/by-nc/3.0/deed.fr",
+    "dimensions_image_entiere": [
+      6584,
+      4694
+    ],
+    "extraits_originaux": [
+      {
+        "region": "0,0,1900,2450",
+        "url": "https://iiif.irht.cnrs.fr/iiif/France/Chantilly/Bibliotheque_du_chateau/M601415401_MS0065/DEPOT/M601415401_MS0065_0019/0,0,1900,2450/full/0/default.jpg",
+        "sha256": "0b2ddcdd0bfe8f347f41dc3cf524cc718caf2b26b74282cd073fdeb083894b4a",
+        "dimensions": [
+          1899,
+          2449
+        ]
+      },
+      {
+        "region": "1700,0,1950,2450",
+        "url": "https://iiif.irht.cnrs.fr/iiif/France/Chantilly/Bibliotheque_du_chateau/M601415401_MS0065/DEPOT/M601415401_MS0065_0019/1700,0,1950,2450/full/0/default.jpg",
+        "sha256": "95433e957362d610cd166edcafbe1db5fc356585272958374b3b5fa331137a85",
+        "dimensions": [
+          1949,
+          2449
+        ]
+      },
+      {
+        "region": "0,2250,1900,2444",
+        "url": "https://iiif.irht.cnrs.fr/iiif/France/Chantilly/Bibliotheque_du_chateau/M601415401_MS0065/DEPOT/M601415401_MS0065_0019/0,2250,1900,2444/full/0/default.jpg",
+        "sha256": "083177133c46c646dfe55bfcada0d68dadff91b042aae7159a6daeab76162191",
+        "dimensions": [
+          1899,
+          2443
+        ]
+      },
+      {
+        "region": "1700,2250,1950,2444",
+        "url": "https://iiif.irht.cnrs.fr/iiif/France/Chantilly/Bibliotheque_du_chateau/M601415401_MS0065/DEPOT/M601415401_MS0065_0019/1700,2250,1950,2444/full/0/default.jpg",
+        "sha256": "58dd14fdf88b22aa6363ce9a69c483288c3b137468751fbd1ebf52dba1c14d53",
+        "dimensions": [
+          1949,
+          2443
+        ]
+      }
+    ],
+    "signes": [
+      {
+        "rang": 1,
+        "lecture": "Aries",
+        "centre_xy_pixels_original": [
+          1995,
+          839
+        ],
+        "rotation_de_lecture_degres_antihoraire": 38
+      },
+      {
+        "rang": 2,
+        "lecture": "Taurus",
+        "centre_xy_pixels_original": [
+          1378,
+          1187
+        ],
+        "rotation_de_lecture_degres_antihoraire": 9
+      },
+      {
+        "rang": 3,
+        "lecture": "Gemini",
+        "centre_xy_pixels_original": [
+          1004,
+          1708
+        ],
+        "rotation_de_lecture_degres_antihoraire": -4
+      },
+      {
+        "rang": 4,
+        "lecture": "Cancer",
+        "centre_xy_pixels_original": [
+          882,
+          2369
+        ],
+        "rotation_de_lecture_degres_antihoraire": -24
+      },
+      {
+        "rang": 5,
+        "lecture": "Leo",
+        "centre_xy_pixels_original": [
+          995,
+          3038
+        ],
+        "rotation_de_lecture_degres_antihoraire": -45
+      },
+      {
+        "rang": 6,
+        "lecture": "Virgo",
+        "centre_xy_pixels_original": [
+          1404,
+          3525
+        ],
+        "rotation_de_lecture_degres_antihoraire": -69
+      },
+      {
+        "rang": 7,
+        "lecture": "Libra",
+        "centre_xy_pixels_original": [
+          2021,
+          3838
+        ],
+        "rotation_de_lecture_degres_antihoraire": -145
+      },
+      {
+        "rang": 8,
+        "lecture": "Scorpius",
+        "centre_xy_pixels_original": [
+          2612,
+          3486
+        ],
+        "rotation_de_lecture_degres_antihoraire": -165
+      },
+      {
+        "rang": 9,
+        "lecture": "Sagittarius",
+        "centre_xy_pixels_original": [
+          2982,
+          2969
+        ],
+        "rotation_de_lecture_degres_antihoraire": 179
+      },
+      {
+        "rang": 10,
+        "lecture": "Capricornus",
+        "centre_xy_pixels_original": [
+          3108,
+          2364
+        ],
+        "rotation_de_lecture_degres_antihoraire": 157
+      },
+      {
+        "rang": 11,
+        "lecture": "Aquarius",
+        "centre_xy_pixels_original": [
+          3008,
+          1730
+        ],
+        "rotation_de_lecture_degres_antihoraire": 135
+      },
+      {
+        "rang": 12,
+        "lecture": "Pisces",
+        "centre_xy_pixels_original": [
+          2643,
+          1182
+        ],
+        "rotation_de_lecture_degres_antihoraire": 106
+      }
+    ],
+    "mois": [
+      {
+        "rang": 1,
+        "lecture": "Ianuarius",
+        "centre_xy_pixels_original": [
+          2725,
+          1782
+        ],
+        "rotation_de_lecture_degres_antihoraire": -110
+      },
+      {
+        "rang": 2,
+        "lecture": "Februarius",
+        "centre_xy_pixels_original": [
+          2451,
+          1369
+        ],
+        "rotation_de_lecture_degres_antihoraire": -138
+      },
+      {
+        "rang": 3,
+        "lecture": "Martius",
+        "centre_xy_pixels_original": [
+          1999,
+          1143
+        ],
+        "rotation_de_lecture_degres_antihoraire": 180,
+        "lecture_alternative": "Marcius",
+        "observation": "c/t difficile à distinguer dans le pigment sombre sur fond bleu. Les deux lectures sont comparées."
+      },
+      {
+        "rang": 4,
+        "lecture": "Aprilis",
+        "centre_xy_pixels_original": [
+          1543,
+          1360
+        ],
+        "rotation_de_lecture_degres_antihoraire": 137
+      },
+      {
+        "rang": 5,
+        "lecture": "Mayus",
+        "centre_xy_pixels_original": [
+          1230,
+          1778
+        ],
+        "rotation_de_lecture_degres_antihoraire": 110,
+        "lecture_alternative": "Maius",
+        "observation": "Une haste plonge sous la ligne, avec un point supérieur. La transcription de base encode y. Une lecture i long, transcrit j ou i, donne Maius après j → i."
+      },
+      {
+        "rang": 6,
+        "lecture": "Iunius",
+        "centre_xy_pixels_original": [
+          1139,
+          2325
+        ],
+        "rotation_de_lecture_degres_antihoraire": 90
+      },
+      {
+        "rang": 7,
+        "lecture": "Iulius",
+        "centre_xy_pixels_original": [
+          1230,
+          2882
+        ],
+        "rotation_de_lecture_degres_antihoraire": 70
+      },
+      {
+        "rang": 8,
+        "lecture": "Augustus",
+        "centre_xy_pixels_original": [
+          1573,
+          3290
+        ],
+        "rotation_de_lecture_degres_antihoraire": 37
+      },
+      {
+        "rang": 9,
+        "lecture": "September",
+        "centre_xy_pixels_original": [
+          1995,
+          3542
+        ],
+        "rotation_de_lecture_degres_antihoraire": 0
+      },
+      {
+        "rang": 10,
+        "lecture": "October",
+        "centre_xy_pixels_original": [
+          2390,
+          3303
+        ],
+        "rotation_de_lecture_degres_antihoraire": -37
+      },
+      {
+        "rang": 11,
+        "lecture": "Nouember",
+        "centre_xy_pixels_original": [
+          2695,
+          2877
+        ],
+        "rotation_de_lecture_degres_antihoraire": -70
+      },
+      {
+        "rang": 12,
+        "lecture": "December",
+        "centre_xy_pixels_original": [
+          2869,
+          2325
+        ],
+        "rotation_de_lecture_degres_antihoraire": -90
+      }
+    ]
+  },
+  "walters": {
+    "titre": "Book of Hours",
+    "cote": "Walters Art Museum, W.196",
+    "datation_origine": "Bruges, vers 1470 (datation de catalogue).",
+    "url_notice": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W196/description.html",
+    "url_facsimile": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W196/",
+    "serie": "Le premier mot après KL sur chaque verso de 1v à 12v. Les médaillons zodiacaux des rectos ne sont pas traités comme des inscriptions.",
+    "source_images": "The Walters Art Museum, Baltimore",
+    "mois": [
+      {
+        "rang": 1,
+        "folio": "1v",
+        "lecture": "Ianuarius",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000008_sap.jpg",
+        "sha256": "15df3cd507a4a2b3f7b58c9e4ca80914798ce8ac971c3c0faf3d189b10102bee",
+        "dimensions": [
+          1150,
+          1800
+        ]
+      },
+      {
+        "rang": 2,
+        "folio": "2v",
+        "lecture": "Februarius",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000010_sap.jpg",
+        "sha256": "eca9e945680e47056181caf6f4697b78fab1f86b7420196a8cd62efc46584977",
+        "dimensions": [
+          1135,
+          1800
+        ]
+      },
+      {
+        "rang": 3,
+        "folio": "3v",
+        "lecture": "Marcius",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000012_sap.jpg",
+        "sha256": "9073d349ab847be0ad64bb31b2bb9a359fdee3c96adb7a704c18ffff96d88586",
+        "dimensions": [
+          1146,
+          1800
+        ]
+      },
+      {
+        "rang": 4,
+        "folio": "4v",
+        "lecture": "Aprilis",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000014_sap.jpg",
+        "sha256": "f5520ef13bfd6a8481a7cafe3bcd6bbd0f5c60ffef373525055c81fb23baac58",
+        "dimensions": [
+          1158,
+          1800
+        ]
+      },
+      {
+        "rang": 5,
+        "folio": "5v",
+        "lecture": "Mayus",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000016_sap.jpg",
+        "sha256": "a455278370555d969e2d044caeabc3d640d1d863fd118c45b5e65b233ca4af99",
+        "dimensions": [
+          1103,
+          1800
+        ]
+      },
+      {
+        "rang": 6,
+        "folio": "6v",
+        "lecture": "Iunius",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000018_sap.jpg",
+        "sha256": "c98ce33f5660977f3cf36293b397fbb5f7aeb362aa625571e89cde0ff2f69c6d",
+        "dimensions": [
+          1123,
+          1800
+        ]
+      },
+      {
+        "rang": 7,
+        "folio": "7v",
+        "lecture": "Iulius",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000020_sap.jpg",
+        "sha256": "19d0ee2de441226347b5ef56872424894a542cdd262c8a28db54e83b4a6d1fa5",
+        "dimensions": [
+          1107,
+          1800
+        ]
+      },
+      {
+        "rang": 8,
+        "folio": "8v",
+        "lecture": "Augustus",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000022_sap.jpg",
+        "sha256": "f7d248ca9cf3fd970ff02120463eba5519b8ea26c6ae44ec2a41727d18c2c119",
+        "dimensions": [
+          1115,
+          1800
+        ]
+      },
+      {
+        "rang": 9,
+        "folio": "9v",
+        "lecture": "September",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000024_sap.jpg",
+        "sha256": "c7a9369db49cb3c3cd70e701718ff3e7ecf3d572b7f31ff1c122d9d6b2b5675c",
+        "dimensions": [
+          1094,
+          1800
+        ]
+      },
+      {
+        "rang": 10,
+        "folio": "10v",
+        "lecture": "October",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000026_sap.jpg",
+        "sha256": "455ea5c07818072e4547a0d782db1512ce1724c625b88b6938e4a319687c9b8f",
+        "dimensions": [
+          1096,
+          1800
+        ]
+      },
+      {
+        "rang": 11,
+        "folio": "11v",
+        "lecture": "Nouember",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000028_sap.jpg",
+        "sha256": "e4fe30b314290806b1b072362628f9d09bd7536915dfeb22706766501c227b26",
+        "dimensions": [
+          1098,
+          1800
+        ]
+      },
+      {
+        "rang": 12,
+        "folio": "12v",
+        "lecture": "December",
+        "url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/W196/data/W.196/sap/W196_000030_sap.jpg",
+        "sha256": "2983847c2052f965263fd0297a30ff1d2752abbe725655b71619a9d0adfbfb9d",
+        "dimensions": [
+          1114,
+          1800
+        ]
+      }
+    ]
+  }
+}
