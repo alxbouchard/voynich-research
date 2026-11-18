@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Fréquence de qokeey après chedy sur d’autres feuillets](research/2026-11-18-chedy-qokeey/RAPPORT.md) | Zéro succès sur onze annonces vérifiables dans le lot principal. La paire est confirmée à f111v et f116r dans le complément (2/72, pour 0,975 attendu par redistribution sur les mêmes faces). |
 | [Suites répétées et groupes masqués sur d’autres feuillets](research/2026-11-18-suites-masquees/RAPPORT.md) | Onze triplets se répètent en EVA dans le premier lot. Les quatre prédictions échouent. Dans le second test, la paire `chedy qokeey` revient sur f113v.29, mais le groupe annoncé devant elle, `qol`, se lit `ykeeol` dans les deux relevés EVA. Le relevé v101 confirme le changement. |
 | [Abréviations en contexte sur un manuscrit connu](research/2026-11-18-formes-abregees/RAPPORT.md) | Dans le *Piers Plowman* de la Huntington Library, 1 développement exact sur 23 annonces. Les 22 autres allongent un mot déjà complet. Le seuil pour essayer cette règle sur le Voynich est manqué. |
 | [Peut-on prévoir le mot suivant à partir de deux racines dessinées ?](research/2026-11-18-dar-et-daiin/RAPPORT.md) | Aucune des 58 suites lisibles sur les autres feuillets ne donne le mot annoncé. Six rapprochements chez Celse retrouvent un premier voisin, mais leurs lectures divergent au retour de `daiin` sur f23r.7 lorsque la comparaison s’étend au paragraphe. |

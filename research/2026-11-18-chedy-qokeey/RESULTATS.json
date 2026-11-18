@@ -1,0 +1,2766 @@
+{
+  "principal": {
+    "annonces": 11,
+    "verifiables": 11,
+    "succes": 0,
+    "echecs": 11,
+    "indeterminees": 0,
+    "feuillets_avec_annonce": 4,
+    "feuillets_avec_succes": 0,
+    "succes_possibles_sur_toutes_annonces": [
+      0,
+      0
+    ],
+    "par_feuillet_avec_annonce": {
+      "26": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "83": {
+        "annonces": 7,
+        "verifiables": 7,
+        "succes": 0,
+        "echecs": 7,
+        "indeterminees": 0
+      },
+      "84": {
+        "annonces": 2,
+        "verifiables": 2,
+        "succes": 0,
+        "echecs": 2,
+        "indeterminees": 0
+      },
+      "95": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      }
+    },
+    "par_releve_sur_les_annonces": {
+      "IT": {
+        "lisibles": 11,
+        "conformes": 0
+      },
+      "ZL": {
+        "lisibles": 11,
+        "conformes": 0
+      },
+      "GC": {
+        "lisibles": 11,
+        "conformes": 0
+      }
+    },
+    "hasard_par_face": {
+      "strate": "face",
+      "positions_lisibles": 1257,
+      "annonces_total": 11,
+      "annonces_lisibles": 11,
+      "annonces_indeterminees": 0,
+      "succes_observes": 0,
+      "total_qokeey": 10,
+      "positions_non_annoncees_lisibles": 1246,
+      "qokeey_non_annonces": 10,
+      "positions_chedy_fixes": 11,
+      "annonces_chedy_fixes": 0,
+      "positions_permutables": 1246,
+      "annonces_permutables": 11,
+      "attendus": 0.18416510318949345,
+      "esperance_exacte": "2454/13325",
+      "p_unilateral": 1.0,
+      "p_exacte": "1",
+      "support_min": 0,
+      "support_max": 6,
+      "loi_constante": false,
+      "histogramme": {
+        "0": 0.8276776077375136,
+        "1": 0.16084155151335297,
+        "2": 0.011124291879533642,
+        "3": 0.0003512620756951095,
+        "4": 5.252358696945774e-06,
+        "5": 3.435604633721878e-08,
+        "6": 7.916139709036585e-11
+      },
+      "nombre_strates_lisibles": 86,
+      "nombre_strates_avec_annonce": 6,
+      "nombre_strates_informatives": 3,
+      "strates": [
+        {
+          "bloc": "f26v",
+          "position": "interieur",
+          "n": 30,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83r",
+          "position": "fin",
+          "n": 12,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83r",
+          "position": "interieur",
+          "n": 82,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.04878048780487805
+        },
+        {
+          "bloc": "f83v",
+          "position": "interieur",
+          "n": 78,
+          "k_qokeey": 3,
+          "m_annonces_permutables": 3,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.11538461538461539
+        },
+        {
+          "bloc": "f84v",
+          "position": "interieur",
+          "n": 100,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.02
+        },
+        {
+          "bloc": "f95r2",
+          "position": "interieur",
+          "n": 21,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        }
+      ]
+    },
+    "hasard_par_ligne": {
+      "strate": "ligne",
+      "positions_lisibles": 1257,
+      "annonces_total": 11,
+      "annonces_lisibles": 11,
+      "annonces_indeterminees": 0,
+      "succes_observes": 0,
+      "total_qokeey": 10,
+      "positions_non_annoncees_lisibles": 1246,
+      "qokeey_non_annonces": 10,
+      "positions_chedy_fixes": 11,
+      "annonces_chedy_fixes": 0,
+      "positions_permutables": 1246,
+      "annonces_permutables": 11,
+      "attendus": 0.2857142857142857,
+      "esperance_exacte": "2/7",
+      "p_unilateral": 1.0,
+      "p_exacte": "1",
+      "support_min": 0,
+      "support_max": 1,
+      "loi_constante": false,
+      "histogramme": {
+        "0": 0.7142857142857143,
+        "1": 0.2857142857142857
+      },
+      "nombre_strates_lisibles": 466,
+      "nombre_strates_avec_annonce": 11,
+      "nombre_strates_informatives": 1,
+      "strates": [
+        {
+          "bloc": "f26v.3",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83r.2",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83r.22",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83r.6",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83r.8",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83v.16",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.2857142857142857
+        },
+        {
+          "bloc": "f83v.5",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f83v.7",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f84v.13",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f84v.38",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f95r2.5",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        }
+      ]
+    },
+    "detail": [
+      {
+        "id": "f26v.3",
+        "folio": 26,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "ytedy",
+          "ZL": "ytedy",
+          "GC": "9kc89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83r.2",
+        "folio": 83,
+        "rang_cible_base_1": 11,
+        "lectures": {
+          "IT": "dor",
+          "ZL": "dor",
+          "GC": "8Ay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83r.6",
+        "folio": 83,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "qokeedy",
+          "ZL": "qokeedy",
+          "GC": "4ohC89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83r.8",
+        "folio": 83,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "chary",
+          "ZL": "chary",
+          "GC": "1ay9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83r.22",
+        "folio": 83,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "qotedaiin",
+          "ZL": "qotedaiin",
+          "GC": "4okc7am"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83v.5",
+        "folio": 83,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "chedol",
+          "ZL": "chedol",
+          "GC": "1c8oe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83v.7",
+        "folio": 83,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "dy",
+          "ZL": "dy",
+          "GC": "89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f83v.16",
+        "folio": 83,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "sar",
+          "ZL": "sar",
+          "GC": "say"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f84v.13",
+        "folio": 84,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "okedy",
+          "ZL": "okedy",
+          "GC": "ohc79"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f84v.38",
+        "folio": 84,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "oteol",
+          "ZL": "oteol",
+          "GC": "okcoe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f95r2.5",
+        "folio": 95,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "dalshdy",
+          "ZL": "dalshdy",
+          "GC": "8ae269"
+        },
+        "etat": "echec",
+        "raison": null
+      }
+    ]
+  },
+  "complement": {
+    "annonces": 85,
+    "verifiables": 72,
+    "succes": 2,
+    "echecs": 70,
+    "indeterminees": 13,
+    "feuillets_avec_annonce": 21,
+    "feuillets_avec_succes": 2,
+    "succes_possibles_sur_toutes_annonces": [
+      2,
+      15
+    ],
+    "par_feuillet_avec_annonce": {
+      "31": {
+        "annonces": 2,
+        "verifiables": 2,
+        "succes": 0,
+        "echecs": 2,
+        "indeterminees": 0
+      },
+      "43": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "50": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "66": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "75": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "76": {
+        "annonces": 12,
+        "verifiables": 10,
+        "succes": 0,
+        "echecs": 10,
+        "indeterminees": 2
+      },
+      "77": {
+        "annonces": 10,
+        "verifiables": 9,
+        "succes": 0,
+        "echecs": 9,
+        "indeterminees": 1
+      },
+      "78": {
+        "annonces": 6,
+        "verifiables": 2,
+        "succes": 0,
+        "echecs": 2,
+        "indeterminees": 4
+      },
+      "79": {
+        "annonces": 2,
+        "verifiables": 2,
+        "succes": 0,
+        "echecs": 2,
+        "indeterminees": 0
+      },
+      "80": {
+        "annonces": 4,
+        "verifiables": 4,
+        "succes": 0,
+        "echecs": 4,
+        "indeterminees": 0
+      },
+      "86": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "89": {
+        "annonces": 1,
+        "verifiables": 1,
+        "succes": 0,
+        "echecs": 1,
+        "indeterminees": 0
+      },
+      "104": {
+        "annonces": 5,
+        "verifiables": 5,
+        "succes": 0,
+        "echecs": 5,
+        "indeterminees": 0
+      },
+      "105": {
+        "annonces": 4,
+        "verifiables": 3,
+        "succes": 0,
+        "echecs": 3,
+        "indeterminees": 1
+      },
+      "106": {
+        "annonces": 2,
+        "verifiables": 2,
+        "succes": 0,
+        "echecs": 2,
+        "indeterminees": 0
+      },
+      "107": {
+        "annonces": 3,
+        "verifiables": 3,
+        "succes": 0,
+        "echecs": 3,
+        "indeterminees": 0
+      },
+      "108": {
+        "annonces": 7,
+        "verifiables": 7,
+        "succes": 0,
+        "echecs": 7,
+        "indeterminees": 0
+      },
+      "111": {
+        "annonces": 9,
+        "verifiables": 8,
+        "succes": 1,
+        "echecs": 7,
+        "indeterminees": 1
+      },
+      "114": {
+        "annonces": 3,
+        "verifiables": 3,
+        "succes": 0,
+        "echecs": 3,
+        "indeterminees": 0
+      },
+      "115": {
+        "annonces": 3,
+        "verifiables": 2,
+        "succes": 0,
+        "echecs": 2,
+        "indeterminees": 1
+      },
+      "116": {
+        "annonces": 7,
+        "verifiables": 4,
+        "succes": 1,
+        "echecs": 3,
+        "indeterminees": 3
+      }
+    },
+    "par_releve_sur_les_annonces": {
+      "IT": {
+        "lisibles": 81,
+        "conformes": 3
+      },
+      "ZL": {
+        "lisibles": 77,
+        "conformes": 3
+      },
+      "GC": {
+        "lisibles": 78,
+        "conformes": 2
+      }
+    },
+    "hasard_par_face": {
+      "strate": "face",
+      "positions_lisibles": 5616,
+      "annonces_total": 85,
+      "annonces_lisibles": 72,
+      "annonces_indeterminees": 13,
+      "succes_observes": 2,
+      "total_qokeey": 48,
+      "positions_non_annoncees_lisibles": 5544,
+      "qokeey_non_annonces": 46,
+      "positions_chedy_fixes": 77,
+      "annonces_chedy_fixes": 1,
+      "positions_permutables": 5539,
+      "annonces_permutables": 71,
+      "attendus": 0.9747800085374013,
+      "esperance_exacte": "898556648647433984389/921804551568167737470",
+      "p_unilateral": 0.25457725657266106,
+      "p_exacte": "41050178770666970548180397725/161248413638044262382782725341",
+      "support_min": 0,
+      "support_max": 28,
+      "loi_constante": false,
+      "histogramme": {
+        "0": 0.3679668248271221,
+        "1": 0.3774559186002168,
+        "2": 0.18361434637296484,
+        "3": 0.05638338824731616,
+        "4": 0.01227378131025377,
+        "5": 0.0020164200798578843,
+        "6": 0.0002598865146818288,
+        "7": 2.696753715193431e-05,
+        "8": 2.294267254479539e-06,
+        "9": 1.6213289253425607e-07,
+        "10": 9.608339133545902e-09,
+        "11": 4.807788023808059e-10,
+        "12": 2.040914734463055e-11,
+        "13": 7.372248344957666e-13,
+        "14": 2.2694969999408e-14,
+        "15": 5.954834638914795e-16,
+        "16": 1.3301077848832992e-17,
+        "17": 2.52253616713768e-19,
+        "18": 4.0449106429233786e-21,
+        "19": 5.451484073932047e-23,
+        "20": 6.125259317957527e-25,
+        "21": 5.675425653044123e-27,
+        "22": 4.27333236731183e-29,
+        "23": 2.5629353046132504e-31,
+        "24": 1.190404516350998e-33,
+        "25": 4.1078178566564965e-36,
+        "26": 9.856555753782835e-39,
+        "27": 1.4571287594413574e-41,
+        "28": 9.897851869860912e-45
+      },
+      "nombre_strates_lisibles": 248,
+      "nombre_strates_avec_annonce": 37,
+      "nombre_strates_informatives": 17,
+      "strates": [
+        {
+          "bloc": "f104r",
+          "position": "interieur",
+          "n": 79,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f104v",
+          "position": "interieur",
+          "n": 101,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 4,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.07920792079207921
+        },
+        {
+          "bloc": "f105r",
+          "position": "interieur",
+          "n": 70,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.02857142857142857
+        },
+        {
+          "bloc": "f105v",
+          "position": "interieur",
+          "n": 80,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f106r",
+          "position": "interieur",
+          "n": 72,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 1,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f107r",
+          "position": "interieur",
+          "n": 76,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f107v",
+          "position": "interieur",
+          "n": 117,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.017094017094017096
+        },
+        {
+          "bloc": "f108r",
+          "position": "fin",
+          "n": 16,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108r",
+          "position": "interieur",
+          "n": 124,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 3,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.04838709677419355
+        },
+        {
+          "bloc": "f108v",
+          "position": "interieur",
+          "n": 133,
+          "k_qokeey": 3,
+          "m_annonces_permutables": 3,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.06766917293233082
+        },
+        {
+          "bloc": "f111r",
+          "position": "fin",
+          "n": 12,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111r",
+          "position": "interieur",
+          "n": 139,
+          "k_qokeey": 7,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.10071942446043165
+        },
+        {
+          "bloc": "f111v",
+          "position": "fin",
+          "n": 16,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111v",
+          "position": "interieur",
+          "n": 131,
+          "k_qokeey": 3,
+          "m_annonces_permutables": 4,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 1,
+          "attendus": 0.0916030534351145
+        },
+        {
+          "bloc": "f114r",
+          "position": "fin",
+          "n": 15,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f114r",
+          "position": "interieur",
+          "n": 80,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f114v",
+          "position": "interieur",
+          "n": 152,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f115r",
+          "position": "interieur",
+          "n": 109,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f116r",
+          "position": "interieur",
+          "n": 138,
+          "k_qokeey": 6,
+          "m_annonces_permutables": 4,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 1,
+          "attendus": 0.17391304347826086
+        },
+        {
+          "bloc": "f31r",
+          "position": "interieur",
+          "n": 17,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f31v",
+          "position": "interieur",
+          "n": 18,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f43r",
+          "position": "interieur",
+          "n": 38,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f50r",
+          "position": "interieur",
+          "n": 45,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f66r",
+          "position": "interieur",
+          "n": 69,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.014492753623188406
+        },
+        {
+          "bloc": "f75v",
+          "position": "interieur",
+          "n": 31,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.06451612903225806
+        },
+        {
+          "bloc": "f76r",
+          "position": "interieur",
+          "n": 143,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 6,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.04195804195804196
+        },
+        {
+          "bloc": "f76v",
+          "position": "interieur",
+          "n": 90,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 4,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.044444444444444446
+        },
+        {
+          "bloc": "f77r",
+          "position": "interieur",
+          "n": 98,
+          "k_qokeey": 3,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.061224489795918366
+        },
+        {
+          "bloc": "f77v",
+          "position": "interieur",
+          "n": 90,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 7,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f78r",
+          "position": "interieur",
+          "n": 71,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.014084507042253521
+        },
+        {
+          "bloc": "f78v",
+          "position": "interieur",
+          "n": 58,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f79r",
+          "position": "fin",
+          "n": 14,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.07142857142857142
+        },
+        {
+          "bloc": "f79r",
+          "position": "interieur",
+          "n": 80,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f80r",
+          "position": "interieur",
+          "n": 134,
+          "k_qokeey": 2,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.014925373134328358
+        },
+        {
+          "bloc": "f80v",
+          "position": "interieur",
+          "n": 74,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 3,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.04054054054054054
+        },
+        {
+          "bloc": "f86v6",
+          "position": "interieur",
+          "n": 90,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f89r1",
+          "position": "interieur",
+          "n": 21,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        }
+      ]
+    },
+    "hasard_par_ligne": {
+      "strate": "ligne",
+      "positions_lisibles": 5616,
+      "annonces_total": 85,
+      "annonces_lisibles": 72,
+      "annonces_indeterminees": 13,
+      "succes_observes": 2,
+      "total_qokeey": 48,
+      "positions_non_annoncees_lisibles": 5544,
+      "qokeey_non_annonces": 46,
+      "positions_chedy_fixes": 77,
+      "annonces_chedy_fixes": 1,
+      "positions_permutables": 5539,
+      "annonces_permutables": 71,
+      "attendus": 1.0134920634920634,
+      "esperance_exacte": "1277/1260",
+      "p_unilateral": 0.2680272108843537,
+      "p_exacte": "197/735",
+      "support_min": 0,
+      "support_max": 6,
+      "loi_constante": false,
+      "histogramme": {
+        "0": 0.32653061224489793,
+        "1": 0.4054421768707483,
+        "2": 0.20521541950113378,
+        "3": 0.05427059712773998,
+        "4": 0.00791761148904006,
+        "5": 0.0006046863189720333,
+        "6": 1.889644746787604e-05
+      },
+      "nombre_strates_lisibles": 1825,
+      "nombre_strates_avec_annonce": 67,
+      "nombre_strates_informatives": 6,
+      "strates": [
+        {
+          "bloc": "f104r.7",
+          "position": "interieur",
+          "n": 8,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f104v.15",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f104v.3",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f104v.4",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f104v.6",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f105r.25",
+          "position": "interieur",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f105r.36",
+          "position": "interieur",
+          "n": 8,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f105v.5",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f106r.2",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 1,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f107r.35",
+          "position": "interieur",
+          "n": 3,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f107r.5",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f107v.35",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108r.17",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108r.17",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108r.32",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108r.41",
+          "position": "interieur",
+          "n": 4,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108v.16",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108v.17",
+          "position": "interieur",
+          "n": 8,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f108v.32",
+          "position": "interieur",
+          "n": 4,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111r.14",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111r.47",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.16666666666666666
+        },
+        {
+          "bloc": "f111r.6",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111v.24",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111v.3",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111v.39",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111v.4",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f111v.5",
+          "position": "interieur",
+          "n": 9,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 1,
+          "attendus": 0.1111111111111111
+        },
+        {
+          "bloc": "f114r.45",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f114r.6",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f114v.5",
+          "position": "interieur",
+          "n": 3,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f115r.11",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f115r.22",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f116r.22",
+          "position": "interieur",
+          "n": 8,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f116r.5",
+          "position": "interieur",
+          "n": 10,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f116r.6",
+          "position": "interieur",
+          "n": 3,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f116r.8",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 1,
+          "attendus": 0.14285714285714285
+        },
+        {
+          "bloc": "f31r.14",
+          "position": "interieur",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f31v.11",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f43r.8",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f50r.4",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f66r.63",
+          "position": "interieur",
+          "n": 3,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f75v.48",
+          "position": "interieur",
+          "n": 9,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76r.16",
+          "position": "interieur",
+          "n": 4,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.25
+        },
+        {
+          "bloc": "f76r.17",
+          "position": "interieur",
+          "n": 9,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76r.19",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76r.30",
+          "position": "interieur",
+          "n": 8,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76r.35",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76r.49",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76v.32",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f76v.41",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f77r.21",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.2
+        },
+        {
+          "bloc": "f77r.35",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f77v.10",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f77v.12",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f77v.13",
+          "position": "interieur",
+          "n": 8,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 2,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f77v.22",
+          "position": "interieur",
+          "n": 4,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f77v.27",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f78r.9",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f78v.13",
+          "position": "interieur",
+          "n": 3,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f79r.41",
+          "position": "fin",
+          "n": 1,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f79r.42",
+          "position": "interieur",
+          "n": 4,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f80r.45",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f80v.24",
+          "position": "interieur",
+          "n": 7,
+          "k_qokeey": 1,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.14285714285714285
+        },
+        {
+          "bloc": "f80v.4",
+          "position": "interieur",
+          "n": 3,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f80v.40",
+          "position": "interieur",
+          "n": 5,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f86v6.2",
+          "position": "interieur",
+          "n": 9,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        },
+        {
+          "bloc": "f89r1.7",
+          "position": "interieur",
+          "n": 6,
+          "k_qokeey": 0,
+          "m_annonces_permutables": 1,
+          "annonces_chedy_fixes": 0,
+          "succes_observes": 0,
+          "attendus": 0.0
+        }
+      ]
+    },
+    "detail": [
+      {
+        "id": "f31r.14",
+        "folio": 31,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "daiin",
+          "ZL": "daiin",
+          "GC": "8am"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f31v.11",
+        "folio": 31,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "okeey",
+          "ZL": "okeey",
+          "GC": "ohC9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f43r.8",
+        "folio": 43,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "cheody",
+          "ZL": "cheody",
+          "GC": "1co89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f50r.4",
+        "folio": 50,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "qokchdy",
+          "ZL": "qokchdy",
+          "GC": "4oh179"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f66r.63",
+        "folio": 66,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "dar",
+          "ZL": "dar",
+          "GC": "8ay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f75v.48",
+        "folio": 75,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "shckhy",
+          "ZL": "shckhy",
+          "GC": "2H9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76r.16",
+        "folio": 76,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "shckhy",
+          "ZL": "shckhy",
+          "GC": "2H9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76r.17",
+        "folio": 76,
+        "rang_cible_base_1": 11,
+        "lectures": {
+          "IT": "okeed",
+          "ZL": "okeed",
+          "GC": "ohcc8"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76r.19",
+        "folio": 76,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "qokar",
+          "ZL": "qokar",
+          "GC": "4ohay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76r.30",
+        "folio": 76,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "qo",
+          "ZL": "qo",
+          "GC": "4o"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76r.35",
+        "folio": 76,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "qol",
+          "ZL": "qol",
+          "GC": "4oe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76r.49",
+        "folio": 76,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "lkar",
+          "ZL": "lkar",
+          "GC": "ehay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76v.13",
+        "folio": 76,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qotedy",
+          "ZL": "qotedy",
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_GC"
+      },
+      {
+        "id": "f76v.23",
+        "folio": 76,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "olchedr",
+          "ZL": null,
+          "GC": "oe1c7Y"
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_ZL"
+      },
+      {
+        "id": "f76v.32",
+        "folio": 76,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "qokaiin",
+          "ZL": "qokaiin",
+          "GC": "4oham"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76v.32",
+        "folio": 76,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "taiin",
+          "ZL": "taiin",
+          "GC": "kam"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76v.41",
+        "folio": 76,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "qokedy",
+          "ZL": "qokedy",
+          "GC": "4ohc89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f76v.41",
+        "folio": 76,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "qol",
+          "ZL": "qol",
+          "GC": "4oe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77r.21",
+        "folio": 77,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "shear",
+          "ZL": "shear",
+          "GC": "2cay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77r.23",
+        "folio": 77,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qokol",
+          "ZL": null,
+          "GC": "4ohae"
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_ZL"
+      },
+      {
+        "id": "f77r.35",
+        "folio": 77,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "qokain",
+          "ZL": "qokain",
+          "GC": "4ohan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.10",
+        "folio": 77,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qokedy",
+          "ZL": "qokedy",
+          "GC": "4ohc89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.12",
+        "folio": 77,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "qokal",
+          "ZL": "qokal",
+          "GC": "4ohae"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.12",
+        "folio": 77,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "qol",
+          "ZL": "qol",
+          "GC": "4oe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.13",
+        "folio": 77,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qokal",
+          "ZL": "qokal",
+          "GC": "4ohae"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.13",
+        "folio": 77,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "qokey",
+          "ZL": "qokey",
+          "GC": "4ohc9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.22",
+        "folio": 77,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "oqokain",
+          "ZL": "oqokain",
+          "GC": "o4ohan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f77v.27",
+        "folio": 77,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qokain",
+          "ZL": "qokain",
+          "GC": "4ohan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f78r.9",
+        "folio": 78,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "qotedy",
+          "ZL": "qotedy",
+          "GC": "4okc89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f78r.30",
+        "folio": 78,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": null,
+          "ZL": null,
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_IT_ZL_GC"
+      },
+      {
+        "id": "f78r.32",
+        "folio": 78,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": null,
+          "ZL": null,
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_IT_ZL_GC"
+      },
+      {
+        "id": "f78v.13",
+        "folio": 78,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "qokedy",
+          "ZL": "qokedy",
+          "GC": "4ohc89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f78v.13",
+        "folio": 78,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "qokeedy",
+          "ZL": "qokeedy",
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_GC"
+      },
+      {
+        "id": "f78v.21",
+        "folio": 78,
+        "rang_cible_base_1": 2,
+        "lectures": {
+          "IT": null,
+          "ZL": null,
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_IT_ZL_GC"
+      },
+      {
+        "id": "f79r.41",
+        "folio": 79,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "oly",
+          "ZL": "oly",
+          "GC": "oe9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f79r.42",
+        "folio": 79,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "lkchedy",
+          "ZL": "lkchedy",
+          "GC": "eh1c89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f80r.45",
+        "folio": 80,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "qotain",
+          "ZL": "qotain",
+          "GC": "4okan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f80v.4",
+        "folio": 80,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "qol",
+          "ZL": "qol",
+          "GC": "4oe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f80v.24",
+        "folio": 80,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "qoky",
+          "ZL": "qoky",
+          "GC": "4oh9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f80v.40",
+        "folio": 80,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "qotal",
+          "ZL": "qotal",
+          "GC": "4okae"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f86v6.2",
+        "folio": 86,
+        "rang_cible_base_1": 11,
+        "lectures": {
+          "IT": "qokol",
+          "ZL": "qokol",
+          "GC": "4ohoe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f89r1.7",
+        "folio": 89,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "qokeody",
+          "ZL": "qokeody",
+          "GC": "4ohco89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f104r.7",
+        "folio": 104,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qodain",
+          "ZL": "qodain",
+          "GC": "4o8an"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f104v.3",
+        "folio": 104,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "qotaiin",
+          "ZL": "qotaiin",
+          "GC": "4okam"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f104v.4",
+        "folio": 104,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "qoeeey",
+          "ZL": "qoeeey",
+          "GC": "4od9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f104v.6",
+        "folio": 104,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "shedy",
+          "ZL": "shedy",
+          "GC": "3c89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f104v.15",
+        "folio": 104,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "tchdy",
+          "ZL": "tchdy",
+          "GC": "k189"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f105r.13",
+        "folio": 105,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "dol",
+          "ZL": "dal",
+          "GC": "8ae"
+        },
+        "etat": "indetermine",
+        "raison": "desaccord_entre_releves_EVA"
+      },
+      {
+        "id": "f105r.25",
+        "folio": 105,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "decthdy",
+          "ZL": "decthdy",
+          "GC": "8cK89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f105r.36",
+        "folio": 105,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "ted",
+          "ZL": "ted",
+          "GC": "kc8"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f105v.5",
+        "folio": 105,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "daiin",
+          "ZL": "daiin",
+          "GC": "8am"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f106r.2",
+        "folio": 106,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "chedy",
+          "ZL": "chedy",
+          "GC": "1c89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f106r.2",
+        "folio": 106,
+        "rang_cible_base_1": 11,
+        "lectures": {
+          "IT": "qotar",
+          "ZL": "qotar",
+          "GC": "4okay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f107r.5",
+        "folio": 107,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "chokchedy",
+          "ZL": "chokchedy",
+          "GC": "1oh1c79"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f107r.35",
+        "folio": 107,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "qotaiin",
+          "ZL": "qotaiin",
+          "GC": "4okam"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f107v.35",
+        "folio": 107,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "qokeedy",
+          "ZL": "qokeedy",
+          "GC": "4ohC79"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108r.17",
+        "folio": 108,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "qokeed",
+          "ZL": "qokeed",
+          "GC": "4ohC8"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108r.17",
+        "folio": 108,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "tedam",
+          "ZL": "tedam",
+          "GC": "kc8ap"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108r.32",
+        "folio": 108,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "qokey",
+          "ZL": "qokey",
+          "GC": "4ohc9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108r.41",
+        "folio": 108,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "keedal",
+          "ZL": "keedal",
+          "GC": "hC8ae"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108v.16",
+        "folio": 108,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "qokain",
+          "ZL": "qokain",
+          "GC": "4ohan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108v.17",
+        "folio": 108,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "qokeeos",
+          "ZL": "qokeeos",
+          "GC": "4ohCos"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f108v.32",
+        "folio": 108,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": "oteedy",
+          "ZL": "oteedy",
+          "GC": "okC89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111r.6",
+        "folio": 111,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "qok",
+          "ZL": "qok",
+          "GC": "4oh"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111r.14",
+        "folio": 111,
+        "rang_cible_base_1": 12,
+        "lectures": {
+          "IT": "lchedy",
+          "ZL": "lchedy",
+          "GC": "e1c69"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111r.30",
+        "folio": 111,
+        "rang_cible_base_1": 10,
+        "lectures": {
+          "IT": "qokeey",
+          "ZL": "qokeey",
+          "GC": "4ohcc9"
+        },
+        "etat": "indetermine",
+        "raison": "desaccord_sur_statut_qokeey"
+      },
+      {
+        "id": "f111r.47",
+        "folio": 111,
+        "rang_cible_base_1": 8,
+        "lectures": {
+          "IT": "okeey",
+          "ZL": "okeey",
+          "GC": "okcc9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111v.3",
+        "folio": 111,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "shedal",
+          "ZL": "shedal",
+          "GC": "2c8ae"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111v.4",
+        "folio": 111,
+        "rang_cible_base_1": 11,
+        "lectures": {
+          "IT": "lkam",
+          "ZL": "lkam",
+          "GC": "ehap"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111v.5",
+        "folio": 111,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "qokeey",
+          "ZL": "qokeey",
+          "GC": "4ohC9"
+        },
+        "etat": "succes",
+        "raison": null
+      },
+      {
+        "id": "f111v.24",
+        "folio": 111,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "lkain",
+          "ZL": "lkain",
+          "GC": "ehan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f111v.39",
+        "folio": 111,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "chcthy",
+          "ZL": "chcthy",
+          "GC": "1K9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f114r.6",
+        "folio": 114,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "daiin",
+          "ZL": "daiin",
+          "GC": "8am"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f114r.45",
+        "folio": 114,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "chocthy",
+          "ZL": "chocthy",
+          "GC": "1oK9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f114v.5",
+        "folio": 114,
+        "rang_cible_base_1": 2,
+        "lectures": {
+          "IT": "qokeedy",
+          "ZL": "qokeedy",
+          "GC": "4ohC89"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f115r.11",
+        "folio": 115,
+        "rang_cible_base_1": 3,
+        "lectures": {
+          "IT": "chol",
+          "ZL": "chol",
+          "GC": "1oe"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f115r.11",
+        "folio": 115,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "qokaiin",
+          "ZL": null,
+          "GC": "4oham"
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_ZL"
+      },
+      {
+        "id": "f115r.22",
+        "folio": 115,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "okchdar",
+          "ZL": "okchdar",
+          "GC": "oW18ay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f116r.5",
+        "folio": 116,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "lkain",
+          "ZL": "lkain",
+          "GC": "ehan"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f116r.6",
+        "folio": 116,
+        "rang_cible_base_1": 5,
+        "lectures": {
+          "IT": "otey",
+          "ZL": "otey",
+          "GC": "okc9"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f116r.6",
+        "folio": 116,
+        "rang_cible_base_1": 7,
+        "lectures": {
+          "IT": "ykoloin",
+          "ZL": null,
+          "GC": "4hoean"
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_ZL"
+      },
+      {
+        "id": "f116r.8",
+        "folio": 116,
+        "rang_cible_base_1": 4,
+        "lectures": {
+          "IT": "qokeey",
+          "ZL": "qokeey",
+          "GC": "4ohC9"
+        },
+        "etat": "succes",
+        "raison": null
+      },
+      {
+        "id": "f116r.11",
+        "folio": 116,
+        "rang_cible_base_1": 9,
+        "lectures": {
+          "IT": null,
+          "ZL": null,
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_IT_ZL_GC"
+      },
+      {
+        "id": "f116r.22",
+        "folio": 116,
+        "rang_cible_base_1": 6,
+        "lectures": {
+          "IT": "otar",
+          "ZL": "otar",
+          "GC": "okay"
+        },
+        "etat": "echec",
+        "raison": null
+      },
+      {
+        "id": "f116r.22",
+        "folio": 116,
+        "rang_cible_base_1": 12,
+        "lectures": {
+          "IT": "lg",
+          "ZL": "lg",
+          "GC": null
+        },
+        "etat": "indetermine",
+        "raison": "lecture_non_disponible_GC"
+      }
+    ]
+  },
+  "sha256": {
+    "annonces": "5fd3bb5f6ff63236a78d62abb1220137e11ef85bd2a8e30ee49485cb14fa462a",
+    "lignes_privees": "04440c3d3cb7888fad80c2db8a0a6ae3d44b18815e3b62465d5994b9d9a793b7"
+  }
+}
