@@ -1,0 +1,3 @@
+# Vérification photographique de la reprise attendue
+
+Avant d'afficher la photographie, le calcul transmis signale six groupes et deux alignements français prédisent le retour du premier groupe, conventionnellement noté `dain`, au septième ou au huitième emplacement. Les éditions signalent une interruption après le sixième groupe. L'examen porte sur la cause matérielle de l'intervalle, sur la reprise de la ligne à droite et sur la ressemblance éventuelle de ses deux premiers groupes avec les deux occurrences déjà lues à gauche. Un groupe occulté ou un ordre de lecture incertain reste indéterminé. La valeur de `dain` demeure inconnue.

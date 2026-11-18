@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Que peut-on lire à partir du geste d’une figure ?](research/2026-11-18-gestes-des-bains/RAPPORT.md) | L’inscription `okchdy`, près d’une figure qui touche une ouverture, revient à côté d’un dispositif sans main voisine. Deux passages d’une liste française d’eaux minérales reproduisent les répétitions de dix mots sur f84r.32. Tous deux échouent au onzième mot sur le parchemin. |
 | [Que nomme le texte près des baigneuses et des conduits ?](research/2026-11-18-baigneuses-et-conduits/RAPPORT.md) | Dans le témoin de Valence, le poète explique à quoi servent les eaux. Dans le Voynich, le groupe prévu pour *aqua* se retrouve sous un dispositif. Deux clés donnent ensuite *aquas aqua* à f76r.36, mais contredisent les deux mots voisins. |
 | [Les légendes suivent-elles l’ordre des noms d’un herbier ?](research/2026-11-18-ordre-des-noms/RAPPORT.md) | Dans le registre de 1485, 47 initiales latines sur 48 sont prédites. Dans les rangées réservées du Voynich, 9 sur 29 pour 9,37 attendues. Deux clés ajustées sur des noms de plantes échouent au troisième dessin. |
 | [Une formule peut-elle prédire la place du nom de plante ?](research/2026-11-18-formule-et-nom/RAPPORT.md) | Le romarin confirme une formule réelle de 1485. Aucune reprise exacte aux 24 positions de contrôle lisibles du Voynich. Une lecture latine prédit un mot de Celse puis échoue à la répétition suivante. |

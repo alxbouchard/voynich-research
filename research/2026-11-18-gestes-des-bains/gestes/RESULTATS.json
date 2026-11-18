@@ -1,0 +1,167 @@
+{
+ "sha256_prediction": "88c192f714e06ad191c513bb8e80e47acb5cce40844c4b10b8c614f0b941a116",
+ "cas": [
+  {
+   "objet": "f75v.26+27",
+   "face": "f75v",
+   "bifeuillet": "75/84",
+   "geste": "N",
+   "quatre_lectures": [
+    "dly",
+    "dly",
+    "dly",
+    "dly"
+   ],
+   "mot": "dly",
+   "unite": "d"
+  },
+  {
+   "objet": "f80r.2",
+   "face": "f80r",
+   "bifeuillet": "79/80",
+   "geste": "C",
+   "quatre_lectures": [
+    "olchdy",
+    "olchdy",
+    "olchdy",
+    "olchdy"
+   ],
+   "mot": "olchdy",
+   "unite": "o"
+  },
+  {
+   "objet": "f80r.3",
+   "face": "f80r",
+   "bifeuillet": "79/80",
+   "geste": "N",
+   "quatre_lectures": [
+    "okaly",
+    "okaly",
+    "okaly",
+    "okaly"
+   ],
+   "mot": "okaly",
+   "unite": "o"
+  },
+  {
+   "objet": "f80r.4",
+   "face": "f80r",
+   "bifeuillet": "79/80",
+   "geste": "N",
+   "quatre_lectures": [
+    "okolo",
+    "okolo",
+    "okolo",
+    "okolo"
+   ],
+   "mot": "okolo",
+   "unite": "o"
+  },
+  {
+   "objet": "f83v.34",
+   "face": "f83v",
+   "bifeuillet": "76/83",
+   "geste": "C",
+   "quatre_lectures": [
+    "okchdy",
+    "okchdy",
+    "okchdy",
+    "okchdy"
+   ],
+   "mot": "okchdy",
+   "unite": "o"
+  },
+  {
+   "objet": "f84r.5",
+   "face": "f84r",
+   "bifeuillet": "75/84",
+   "geste": "N",
+   "quatre_lectures": [
+    "oloy",
+    "oloy",
+    "loly",
+    "loly"
+   ],
+   "mot": null,
+   "unite": null
+  },
+  {
+   "objet": "f84r.12",
+   "face": "f84r",
+   "bifeuillet": "75/84",
+   "geste": "N",
+   "quatre_lectures": [
+    "dshedy",
+    "dshedy",
+    "dshedy",
+    "dshedy"
+   ],
+   "mot": "dshedy",
+   "unite": "d"
+  }
+ ],
+ "tests": {
+  "unite": {
+   "candidat": "o",
+   "faces": {
+    "f75v": {
+     "C": {
+      "oui": 0,
+      "n": 0
+     },
+     "N": {
+      "oui": 0,
+      "n": 1
+     }
+    },
+    "f80r": {
+     "C": {
+      "oui": 1,
+      "n": 1
+     },
+     "N": {
+      "oui": 2,
+      "n": 2
+     }
+    },
+    "f83v": {
+     "C": {
+      "oui": 1,
+      "n": 1
+     },
+     "N": {
+      "oui": 0,
+      "n": 0
+     }
+    },
+    "f84r": {
+     "C": {
+      "oui": 0,
+      "n": 0
+     },
+     "N": {
+      "oui": 0,
+      "n": 1
+     }
+    }
+   },
+   "denominateurs": {
+    "C": {
+     "oui": 2,
+     "n": 2
+    },
+    "N": {
+     "oui": 2,
+     "n": 4
+    }
+   },
+   "difference": "1/2",
+   "faces_deux_gestes": 1,
+   "distribution": {
+    "1": "1"
+   },
+   "p_unilateral": "1"
+  },
+  "mot": null
+ }
+}

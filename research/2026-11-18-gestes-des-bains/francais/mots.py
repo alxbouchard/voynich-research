@@ -168,6 +168,8 @@ def summarize(rows,checks,section,t):
                 c["positions_avec_consensus"]+=1
                 c["positions_justes"]+=int(ver["cible"][k] in known)
         for opt,check in opts:
+            if check["compatible"]:
+                c["alignements_integraux"]+=1
             if check["compatible"] and any(ok is True for ok in check["justes"]):
                 c["alignements_confirmes_avec_prevision"]+=1
                 candidates.append(dict(lieu=row["lieu"],rang=row["rang"],n=row["n"],fr=opt["fr"],suite=opt["suite"],
