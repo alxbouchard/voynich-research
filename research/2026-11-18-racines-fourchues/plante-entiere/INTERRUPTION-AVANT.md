@@ -1,0 +1,5 @@
+# Que traverse l'interruption qui suit le mot en f40v.18 ?
+
+L’examen des deux transcriptions a révélé que le sixième mot `arol` précède la marque éditoriale d'interruption du texte par un espace physique et que `qokey` lui succède. Cette information provient de la transcription. Avant de recevoir l’examen photographique de ce passage, formuler une nouvelle prévision, distincte de celle sur l’ensemble de la plante. **Si le mot pointe localement vers une fourche, l'interruption doit coïncider dans l’image avec une jonction d'où divergent deux bras principaux.** Compter aussi les cas où le passage croise seulement une tige, des feuilles, un seul bras ou un blanc sans contact. Si la photographie ne tranche pas, le dire.
+
+Donner la lecture et l’écart jusqu’au mot suivant, indiquer si les tracés touchent effectivement le dessin, et compter dans les deux transcriptions les lignes de cette page et leurs autres interruptions. Le mot `qokey`, placé à droite du même intervalle, fournit le témoin géométrique immédiat. La sélection après constat du signe éditorial limite cette vérification à une nouvelle propriété de ce seul site.
