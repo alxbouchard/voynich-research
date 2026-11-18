@@ -1,0 +1,322 @@
+{
+ "latin": {
+  "scores": {
+   "un": {
+    "appels": 48,
+    "justes": 47
+   },
+   "deux": {
+    "appels": 48,
+    "justes": 5
+   },
+   "mot": {
+    "appels": 48,
+    "justes": 0
+   },
+   "majoritaire": {
+    "appels": 48,
+    "justes": 21
+   },
+   "deux_voisins": {
+    "appels": 41,
+    "justes": 41
+   }
+  },
+  "ordre": {
+   "adjacentes": 92,
+   "croissant_ou_egal": 53,
+   "initiale_non_decroissante": 92,
+   "initiales_identiques": 89,
+   "meme_initiale_croissant_ou_egal": 50
+  },
+  "erreurs_initiale": [
+   {
+    "chapitre": 53,
+    "predit": "a",
+    "lu": "betonica"
+   }
+  ],
+  "initiales_reserve": {
+   "a": 5,
+   "b": 7,
+   "c": 21,
+   "d": 3,
+   "e": 2,
+   "f": 10
+  }
+ },
+ "german": {
+  "scores": {
+   "un": {
+    "appels": 46,
+    "justes": 1
+   },
+   "deux": {
+    "appels": 46,
+    "justes": 0
+   },
+   "mot": {
+    "appels": 46,
+    "justes": 0
+   },
+   "majoritaire": {
+    "appels": 47,
+    "justes": 5
+   },
+   "deux_voisins": {
+    "appels": 2,
+    "justes": 0
+   }
+  },
+  "ordre": {
+   "adjacentes": 88,
+   "croissant_ou_egal": 40,
+   "initiale_non_decroissante": 41,
+   "initiales_identiques": 2,
+   "meme_initiale_croissant_ou_egal": 1
+  },
+  "erreurs_initiale": [
+   {
+    "chapitre": 43,
+    "predit": "k",
+    "lu": "spießglaß"
+   },
+   {
+    "chapitre": 45,
+    "predit": "e",
+    "lu": "alun"
+   },
+   {
+    "chapitre": 47,
+    "predit": "w",
+    "lu": "eyn"
+   },
+   {
+    "chapitre": 49,
+    "predit": "o",
+    "lu": "essig"
+   },
+   {
+    "chapitre": 51,
+    "predit": "w",
+    "lu": "dannen"
+   },
+   {
+    "chapitre": 53,
+    "predit": "s",
+    "lu": "betonien"
+   },
+   {
+    "chapitre": 55,
+    "predit": "o",
+    "lu": "versig"
+   },
+   {
+    "chapitre": 57,
+    "predit": "p",
+    "lu": "muscheln"
+   },
+   {
+    "chapitre": 59,
+    "predit": "h",
+    "lu": "eyn"
+   },
+   {
+    "chapitre": 61,
+    "predit": "b",
+    "lu": "wasserwegerich"
+   },
+   {
+    "chapitre": 63,
+    "predit": "m",
+    "lu": "romsch"
+   },
+   {
+    "chapitre": 65,
+    "predit": "w",
+    "lu": "basilien"
+   },
+   {
+    "chapitre": 85,
+    "predit": "c",
+    "lu": "schelwortz"
+   },
+   {
+    "chapitre": 87,
+    "predit": "k",
+    "lu": "wontzerling"
+   },
+   {
+    "chapitre": 89,
+    "predit": "m",
+    "lu": "naterwortz"
+   },
+   {
+    "chapitre": 91,
+    "predit": "h",
+    "lu": "kurbyß"
+   },
+   {
+    "chapitre": 93,
+    "predit": "f",
+    "lu": "wegwarten"
+   },
+   {
+    "chapitre": 95,
+    "predit": "k",
+    "lu": "walwortz"
+   },
+   {
+    "chapitre": 97,
+    "predit": "r",
+    "lu": "bornwortz"
+   },
+   {
+    "chapitre": 99,
+    "predit": "r",
+    "lu": "hundes"
+   },
+   {
+    "chapitre": 101,
+    "predit": "q",
+    "lu": "disteln"
+   },
+   {
+    "chapitre": 103,
+    "predit": "y",
+    "lu": "czwobeln"
+   },
+   {
+    "chapitre": 105,
+    "predit": "c",
+    "lu": "gelfyoln"
+   },
+   {
+    "chapitre": 107,
+    "predit": "h",
+    "lu": "costen"
+   },
+   {
+    "chapitre": 129,
+    "predit": "w",
+    "lu": "kellershalß"
+   },
+   {
+    "chapitre": 131,
+    "predit": "c",
+    "lu": "merdisteln"
+   },
+   {
+    "chapitre": 133,
+    "predit": "b",
+    "lu": "wilder"
+   },
+   {
+    "chapitre": 135,
+    "predit": "g",
+    "lu": "cappern"
+   },
+   {
+    "chapitre": 137,
+    "predit": "k",
+    "lu": "wachs"
+   },
+   {
+    "chapitre": 139,
+    "predit": "c",
+    "lu": "geyßblat"
+   },
+   {
+    "chapitre": 141,
+    "predit": "w",
+    "lu": "springwortz"
+   },
+   {
+    "chapitre": 143,
+    "predit": "g",
+    "lu": "krebs"
+   },
+   {
+    "chapitre": 145,
+    "predit": "d",
+    "lu": "kese"
+   },
+   {
+    "chapitre": 147,
+    "predit": "d",
+    "lu": "wilde"
+   },
+   {
+    "chapitre": 149,
+    "predit": "s",
+    "lu": "eyn"
+   },
+   {
+    "chapitre": 172,
+    "predit": "g",
+    "lu": "elephanten"
+   },
+   {
+    "chapitre": 176,
+    "predit": "f",
+    "lu": "ertrauch"
+   },
+   {
+    "chapitre": 178,
+    "predit": "s",
+    "lu": "asch"
+   },
+   {
+    "chapitre": 182,
+    "predit": "g",
+    "lu": "roitsteynbrech"
+   },
+   {
+    "chapitre": 184,
+    "predit": "f",
+    "lu": "brenkrut"
+   },
+   {
+    "chapitre": 186,
+    "predit": "c",
+    "lu": "meter"
+   },
+   {
+    "chapitre": 188,
+    "predit": "b",
+    "lu": "wuntkrut"
+   },
+   {
+    "chapitre": 190,
+    "predit": "k",
+    "lu": "ertbern"
+   },
+   {
+    "chapitre": 192,
+    "predit": "f",
+    "lu": "korn"
+   },
+   {
+    "chapitre": 194,
+    "predit": "i",
+    "lu": "hirten"
+   }
+  ],
+  "initiales_reserve": {
+   "s": 3,
+   "a": 2,
+   "e": 7,
+   "d": 3,
+   "b": 5,
+   "v": 1,
+   "m": 3,
+   "w": 8,
+   "r": 2,
+   "n": 1,
+   "k": 5,
+   "h": 2,
+   "c": 3,
+   "g": 2
+  }
+ }
+}

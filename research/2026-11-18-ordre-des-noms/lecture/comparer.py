@@ -1,6 +1,5 @@
 """Cherche deux titres contigus à clé inconnue et conserve les prédictions pour le troisième."""
 from collections import Counter
-from itertools import chain
 import gzip
 import json
 from pathlib import Path

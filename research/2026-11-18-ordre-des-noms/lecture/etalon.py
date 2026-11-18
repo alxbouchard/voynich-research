@@ -1,6 +1,5 @@
 """Récupération à l'aveugle de positions et lectures sur des listes médiévales chiffrées."""
 import json
-from pathlib import Path
 from random import Random
 from string import ascii_lowercase
 from comparer import HERE, maps, permit, predict, save, titles

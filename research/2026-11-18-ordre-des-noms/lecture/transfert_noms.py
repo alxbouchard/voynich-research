@@ -4,9 +4,7 @@ from itertools import permutations
 import gzip
 import json
 import sys
-from comparer import HERE, RESEARCH, permit, read, save, titles, units
-sys.path.insert(0,str(RESEARCH/"2026-11-18-legendes-et-paragraphes"))
-from comparer import corpus, tokens
+from comparer import HERE, corpus, permit, read, save, titles, units
 from transfert import labels
 
 def forecasts():

@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Les légendes suivent-elles l’ordre des noms d’un herbier ?](research/2026-11-18-ordre-des-noms/RAPPORT.md) | Dans le registre de 1485, 47 initiales latines sur 48 sont prédites. Dans les rangées réservées du Voynich, 9 sur 29 pour 9,37 attendues. Deux clés ajustées sur des noms de plantes échouent au troisième dessin. |
 | [Une formule peut-elle prédire la place du nom de plante ?](research/2026-11-18-formule-et-nom/RAPPORT.md) | Le romarin confirme une formule réelle de 1485. Aucune reprise exacte aux 24 positions de contrôle lisibles du Voynich. Une lecture latine prédit un mot de Celse puis échoue à la répétition suivante. |
 | [Le mot sous le fragment 222](research/2026-11-18-cheor-en-contexte/RAPPORT.md) | Les trois reprises de cheor sont sous un autre récipient. Dans un herbier de 1485, une phrase distingue la racine de la plante. Les lectures proposées sur trois mots latins ou allemands échouent au mot de contrôle. |
 | [Le dessin de cheor et la phrase de f89r2](research/2026-11-18-phrase-et-doublets/RAPPORT.md) | Le mot de la légende se répète trois fois sur sa page. Deux lecteurs préfèrent un autre fragment, légendé opchy. Les lectures latines et allemandes de trois groupes échouent au quatrième, vérifié sur deux imprimés du XVe siècle. |

@@ -1,0 +1,32 @@
+# Une légende commence-t-elle comme sa voisine de gauche ?
+
+Dans le cahier 19 du Voynich, prédire l'initiale visible à gauche a donné **9 réponses justes sur 29 couples lisibles**. Une répartition aléatoire des mêmes initiales à l'intérieur de leurs rangées en donne 9,37 en moyenne. Une réponse constante, `o`, choisie dans le seul cahier 15, réussit 11 fois sur ces 29 couples. La lecture du voisin n’apporte donc ici aucun avantage constaté. [Prédiction fixée avant le contrôle](PREDICTIONS.json) · [Résultats et lectures par dessin](RESULTATS.json)
+
+Les 239 dessins du catalogue sont inventoriés dans les cahiers 15 et 19. Un locus a pu être affecté à 141 d'entre eux pour cette étude. Plusieurs rangées supplémentaires ont trop peu d’inscriptions ou des attributions conflictuelles. L’épreuve principale lit les emplacements impairs et tente de prévoir ceux de droite, 1→2 puis 3→4, à l’intérieur de chaque rangée. Aucune étiquette n’entre dans deux couples de ce calcul. Les dessins gardent des dépendances communes sur la même rangée, le même panneau et le même feuillet. Les couples ne sont donc pas 29 expériences historiquement indépendantes. Les quatre conventions sont deux éditions d’un même manuscrit, les blancs faibles étant joints ou séparés. [Inventaire géométrique](GEOMETRIE.md) · [Protocole](PROTOCOLE.md)
+
+| Cahier et longueur du début | Couples physiques | Appels | Cibles vérifiables | Justes | Attente pour une permutation dans la rangée | Proportion des permutations au moins aussi bonnes |
+|---|---:|---:|---:|---:|---:|---:|
+| 15, une unité | 26 | 25 | 23 | 9 | 9,27 | 67,85 % |
+| 19, une unité | 35 | 32 | 29 | 9 | 9,37 | 69,02 % |
+| 15, deux unités | 26 | 24 | 21 | 3 | 2,53 | 48,84 % |
+| 19, deux unités | 35 | 27 | 25 | 3 | 4,15 | 89,82 % |
+
+La vérification du cahier 19 porte sur sept panneaux étiquetés des feuillets physiques 99, 100 et 102. Quinze rangées du lot contiennent un couple comparable pour l’initiale, et neuf une répartition permettant au score de changer lorsque l’on permute. Une rangée contenant deux dessins de même initiale réussira toujours avec ce témoin. L'attente est donc calculée avec ses fréquences propres, y compris quand un seul signe domine. Le nombre d'appels inclut les trois cibles dont l'initiale se révèle incertaine. [Internes et inventaire des appels](RESULTATS.json)
+
+**Trois cas concrets.** Les fragments 68 et 70 de la première rangée de f99r commencent par `ok`. Ils font prédire ce même début aux dessins immédiatement suivants. Or le 69 commence par `da` et le 71 par `sa`. Sur f99v, en revanche, le 95 prédit correctement `ot` au 96. Les deux autres prédictions justes de deux unités sont `so` de 122 à 123 sur f100r et `ok` de 231 à 232 sur f102v2. L'unité `ch` ou `sh` compte comme un signe, tout comme les bancs composés. Les transcriptions autorisent une prédiction d’initiale quand la suite du mot reste incertaine. [Cahier 19 et repères des dessins](https://www.voynich.nu/q19/index.html)
+
+## Ce que le résultat permet d’écarter
+
+Un classement strict par initiale impose une propriété qui ne dépend pas de l’ordre de l'alphabet : au sein d'une série triée, toutes les occurrences de la même initiale se touchent si l’on ignore les légendes illisibles. Les dessins **68, 69 et 70** portent successivement `o, d, o`. De même, 221, 222 et 223 donnent `o, ch, o` au deuxième rang de f102v2. La présence matérielle d’un tel retour interdit que la rangée entière ait été rangée en blocs d’initiales EVA identiques. Parmi les rangées inventoriées, cinq du cahier 15 et huit du cahier 19 contiennent au moins un retour. Une orientation droite-gauche au lieu de gauche-droite laisse ce constat identique. Il reste possible de trier sur un autre mot de la légende, un nom dans une autre langue, un organe, la prononciation, ou une unité que l’EVA représente par plusieurs signes. Ce petit inventaire ne vérifie pas ces possibilités. [Rangées et triplets témoins](TRI-TEMOIN.json)
+
+Pour savoir si les trous et la petite taille des rangées empêchaient le test de détecter un ordre réel, nous avons trié les mêmes initiales, en laissant chaque trou à sa position, selon un alphabet commun tiré au hasard. Sur le cahier 19, 19 126 des 19 999 alphabets tirés dépassent ou égalent le seuil critique de 13. L’énumération complémentaire de **tous les 362 880 alphabets** possibles sur les neuf initiales observées donne 347 760 cas au seuil, soit **95,83 %**. Les scores de tri vont de 11 à 18, tous au-dessus des 9 du manuscrit. Dans le cahier 15, la même épreuve est moins sensible, 39,52 % des alphabets possibles au seuil. Ce complément a été conçu après lecture des scores réels. [Définition du témoin](TRI-TEMOIN.md) · [Résultats exhaustifs](TRI-TEMOIN.json)
+
+## Contrôles et sensibilités
+
+Sur trois rangées témoins de huit noms construits avec quatre initiales A et quatre initiales B chaque fois, le regroupement par initiale donne 12/12 et l’alternance donne 0/12. Les deux témoins contiennent les mêmes effectifs. Le premier dépasse le score de 99,94 % des réaffectations sous le modèle nul. Ce test vérifie le comportement du calcul sur un regroupement simple. [Étalons de construction](RESULTATS.json)
+
+Sur le manuscrit, quand chaque relation adjacente compte, y compris 2→3, la réserve donne 15/53 initiales identiques, pour 16,90 attendues. Après retrait des rangées discutées dans la géométrie et des attaches faibles ou partagées du registre antérieur, elle donne 6/22 couples disjoints pour 5,46 attendues, avec une proportion de 47,72 % au niveau de la rangée. Aucun couple de mots de départ intégralement identiques et concordants n'explique une réussite parmi les 29. En conservant l'ensemble des mots de chaque panneau et en les répartissant entre ses emplacements lisibles, 13 342 des 19 999 tirages égalent ou dépassent 9 dans la réserve, soit une proportion corrigée de 66,72 %. Le critère déposé n'est atteint dans aucun des deux cahiers. [Calculs et histogrammes](RESULTATS.json)
+
+## Reproduction
+
+Depuis ce répertoire, exécuter `python3 -B voisins.py predire`, puis `python3 -B voisins.py verifier` et `python3 -B tri.py`. La dernière commande recoupe la distribution principale avec une seconde méthode qui tire successivement deux initiales sans remise et combine les rangées, puis construit les témoins triés. Les tailles de mots ne sont pas interprétées comme des longueurs phonétiques. [Calcul principal](voisins.py) · [Recoupement et tris](tri.py)

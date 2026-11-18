@@ -1,0 +1,1552 @@
+{
+ "apprentissage": {
+  "tous_les_couples": 17,
+  "appels": 17,
+  "frequences_droite": {
+   "k": 3,
+   "t": 3,
+   "f": 2,
+   "p": 9
+  },
+  "mesures": {
+   "debut": {
+    "succes": 7,
+    "testables": 17,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.38235294117647056,
+    "egale_ou_superieure": 429,
+    "probabilite": 0.4965277777777778,
+    "histogramme": {
+     "3/17": 30,
+     "4/17": 71,
+     "5/17": 152,
+     "6/17": 182,
+     "7/17": 188,
+     "8/17": 136,
+     "9/17": 72,
+     "10/17": 26,
+     "11/17": 6,
+     "12/17": 1
+    }
+   },
+   "deuxieme_mot": {
+    "succes": 0,
+    "testables": 12,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.2115870240870241,
+    "egale_ou_superieure": 864,
+    "probabilite": 1.0,
+    "histogramme": {
+     "0/11": 12,
+     "0/12": 16,
+     "0/13": 4,
+     "1/11": 52,
+     "1/12": 72,
+     "1/13": 20,
+     "2/11": 88,
+     "2/12": 128,
+     "2/13": 40,
+     "3/11": 84,
+     "3/12": 128,
+     "3/13": 44,
+     "4/11": 44,
+     "4/12": 72,
+     "4/13": 28,
+     "5/11": 8,
+     "5/12": 16,
+     "5/13": 8
+    }
+   },
+   "deuxieme_ligne": {
+    "succes": 7,
+    "testables": 16,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.23529411764705882,
+    "egale_ou_superieure": 30,
+    "probabilite": 0.034722222222222224,
+    "histogramme": {
+     "0/16": 14,
+     "1/16": 22,
+     "1/17": 28,
+     "2/16": 66,
+     "2/17": 16,
+     "3/16": 118,
+     "3/17": 88,
+     "4/16": 126,
+     "4/17": 104,
+     "5/16": 122,
+     "5/17": 44,
+     "6/16": 78,
+     "6/17": 8,
+     "7/16": 26,
+     "8/16": 4
+    }
+   },
+   "sans_potence": {
+    "succes": 5,
+    "testables": 16,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.24409722222222222,
+    "egale_ou_superieure": 246,
+    "probabilite": 0.2847222222222222,
+    "histogramme": {
+     "0/15": 2,
+     "1/15": 26,
+     "1/16": 2,
+     "2/15": 98,
+     "2/16": 22,
+     "3/15": 160,
+     "3/16": 58,
+     "4/15": 166,
+     "4/16": 84,
+     "5/15": 94,
+     "5/16": 74,
+     "6/15": 30,
+     "6/16": 38,
+     "7/16": 10
+    }
+   }
+  },
+  "joint": {
+   "debut": {
+    "succes": 5,
+    "testables": 11,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.38361013986013986,
+    "egale_ou_superieure": 288,
+    "probabilite": 0.3333333333333333,
+    "histogramme": {
+     "2/10": 8,
+     "2/11": 28,
+     "2/12": 24,
+     "3/10": 20,
+     "3/11": 76,
+     "3/12": 64,
+     "4/10": 24,
+     "4/11": 112,
+     "4/12": 96,
+     "4/13": 12,
+     "5/10": 16,
+     "5/11": 92,
+     "5/12": 92,
+     "5/13": 20,
+     "6/10": 4,
+     "6/11": 44,
+     "6/12": 56,
+     "6/13": 24,
+     "7/11": 8,
+     "7/12": 24,
+     "7/13": 12,
+     "8/12": 4,
+     "8/13": 4
+    }
+   },
+   "deuxieme_mot": {
+    "succes": 0,
+    "testables": 11,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.21712153587153588,
+    "egale_ou_superieure": 864,
+    "probabilite": 1.0,
+    "histogramme": {
+     "0/10": 4,
+     "0/11": 16,
+     "0/12": 12,
+     "1/10": 16,
+     "1/11": 68,
+     "1/12": 56,
+     "1/13": 4,
+     "2/10": 24,
+     "2/11": 112,
+     "2/12": 104,
+     "2/13": 16,
+     "3/10": 20,
+     "3/11": 104,
+     "3/12": 108,
+     "3/13": 24,
+     "4/10": 8,
+     "4/11": 52,
+     "4/12": 64,
+     "4/13": 20,
+     "5/11": 8,
+     "5/12": 16,
+     "5/13": 8
+    }
+   },
+   "deuxieme_ligne": {
+    "succes": 4,
+    "testables": 11,
+    "configurations": 864,
+    "avec_denominateur": 864,
+    "moyenne_nulle": 0.19759615384615384,
+    "egale_ou_superieure": 100,
+    "probabilite": 0.11574074074074074,
+    "histogramme": {
+     "0/11": 40,
+     "0/12": 32,
+     "1/11": 68,
+     "1/12": 84,
+     "1/13": 16,
+     "2/10": 20,
+     "2/11": 108,
+     "2/12": 112,
+     "2/13": 24,
+     "3/10": 24,
+     "3/11": 80,
+     "3/12": 88,
+     "3/13": 24,
+     "4/10": 24,
+     "4/11": 52,
+     "4/12": 36,
+     "4/13": 8,
+     "5/10": 4,
+     "5/11": 12,
+     "5/12": 8
+    }
+   }
+  },
+  "affectations_par_cahier": {
+   "A": [
+    1,
+    3
+   ],
+   "B": [
+    3,
+    1
+   ],
+   "C": [
+    4
+   ]
+  },
+  "controle_artificiel": {
+   "succes": 11,
+   "testables": 17,
+   "configurations": 864,
+   "avec_denominateur": 864,
+   "moyenne_nulle": 0.3333333333333333,
+   "egale_ou_superieure": 32,
+   "probabilite": 0.037037037037037035,
+   "histogramme": {
+    "0/17": 32,
+    "2/17": 96,
+    "3/17": 32,
+    "4/17": 160,
+    "5/17": 64,
+    "6/17": 160,
+    "7/17": 96,
+    "8/17": 96,
+    "9/17": 64,
+    "10/17": 32,
+    "11/17": 32
+   }
+  },
+  "cibles": [
+   {
+    "source": "f1v",
+    "destination": "f2r",
+    "cahier": "A",
+    "droite": {
+     "debut": {
+      "signe": "k",
+      "loci": [
+       "f2r.1"
+      ],
+      "mots": [
+       "kydainy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "y",
+      "loci": [
+       "f2r.1"
+      ],
+      "mots": [
+       "ypchol"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "d",
+      "loci": [
+       "f2r.2"
+      ],
+      "mots": [
+       "dorchory"
+      ]
+     },
+     "sans_potence": {
+      "signe": "y",
+      "loci": [
+       "f2r.1"
+      ],
+      "mots": [
+       "kydainy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f2v",
+    "destination": "f3r",
+    "cahier": "A",
+    "droite": {
+     "debut": {
+      "signe": "t",
+      "loci": [
+       "f3r.1"
+      ],
+      "mots": [
+       "tsheos"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "q",
+      "loci": [
+       "f3r.1"
+      ],
+      "mots": [
+       "qopal"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "y",
+      "loci": [
+       "f3r.2"
+      ],
+      "mots": [
+       "ycheor"
+      ]
+     },
+     "sans_potence": {
+      "signe": "sh",
+      "loci": [
+       "f3r.1"
+      ],
+      "mots": [
+       "tsheos"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f3v",
+    "destination": "f4r",
+    "cahier": "A",
+    "droite": {
+     "debut": {
+      "signe": "k",
+      "loci": [
+       "f4r.1"
+      ],
+      "mots": [
+       "kodalchy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "ch",
+      "loci": [
+       "f4r.1"
+      ],
+      "mots": [
+       "chpady"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "d",
+      "loci": [
+       "f4r.2"
+      ],
+      "mots": [
+       "dchor"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f4r.1"
+      ],
+      "mots": [
+       "kodalchy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f5v",
+    "destination": "f6r",
+    "cahier": "A",
+    "droite": {
+     "debut": {
+      "signe": "f",
+      "loci": [
+       "f6r.1"
+      ],
+      "mots": [
+       "foar"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "y",
+      "loci": [
+       "f6r.1"
+      ],
+      "mots": [
+       "y"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "d",
+      "loci": [
+       "f6r.2"
+      ],
+      "mots": [
+       "daiin"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f6r.1"
+      ],
+      "mots": [
+       "foar"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f6v",
+    "destination": "f7r",
+    "cahier": "A",
+    "droite": {
+     "debut": {
+      "signe": "f",
+      "loci": [
+       "f7r.1"
+      ],
+      "mots": [
+       "fchodaiin"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "sh",
+      "loci": [
+       "f7r.1"
+      ],
+      "mots": [
+       "shopchey"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "d",
+      "loci": [
+       "f7r.2"
+      ],
+      "mots": [
+       "dcheey"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f7r.1"
+      ],
+      "mots": [
+       "fchodaiin"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f7v",
+    "destination": "f8r",
+    "cahier": "A",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f8r.1"
+      ],
+      "mots": [
+       "pshol"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "ch",
+      "loci": [
+       "f8r.1"
+      ],
+      "mots": [
+       "chor"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "t",
+      "loci": [
+       "f8r.2"
+      ],
+      "mots": [
+       "tchty"
+      ]
+     },
+     "sans_potence": {
+      "signe": "sh",
+      "loci": [
+       "f8r.1"
+      ],
+      "mots": [
+       "pshol"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f9v",
+    "destination": "f10r",
+    "cahier": "B",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f10r.1"
+      ],
+      "mots": [
+       "pchocthy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "sh",
+      "loci": [
+       "f10r.1"
+      ],
+      "mots": [
+       "shor"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "d",
+      "loci": [
+       "f10r.2"
+      ],
+      "mots": [
+       "dchey"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f10r.1"
+      ],
+      "mots": [
+       "pchocthy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f10v",
+    "destination": "f11r",
+    "cahier": "B",
+    "droite": {
+     "debut": {
+      "signe": "t",
+      "loci": [
+       "f11r.1"
+      ],
+      "mots": [
+       "tshol"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "s",
+      "loci": [
+       "f11r.1"
+      ],
+      "mots": [
+       "schoal"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "s",
+      "loci": [
+       "f11r.2"
+      ],
+      "mots": [
+       "socthody"
+      ]
+     },
+     "sans_potence": {
+      "signe": "sh",
+      "loci": [
+       "f11r.1"
+      ],
+      "mots": [
+       "tshol"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f13v",
+    "destination": "f14r",
+    "cahier": "B",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f14r.1"
+      ],
+      "mots": [
+       "pcho",
+       "pchodaiin"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": null,
+      "loci": [
+       "f14r.1"
+      ],
+      "mots": [
+       "chopol",
+       "daiin"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f14r.2"
+      ],
+      "mots": [
+       "o",
+       "oykeey"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f14r.1"
+      ],
+      "mots": [
+       "pcho",
+       "pchodaiin"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f14v",
+    "destination": "f15r",
+    "cahier": "B",
+    "droite": {
+     "debut": {
+      "signe": "t",
+      "loci": [
+       "f15r.1"
+      ],
+      "mots": [
+       "tshor"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "sh",
+      "loci": [
+       "f15r.1"
+      ],
+      "mots": [
+       "shey"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f15r.2"
+      ],
+      "mots": [
+       "otchor"
+      ]
+     },
+     "sans_potence": {
+      "signe": "sh",
+      "loci": [
+       "f15r.1"
+      ],
+      "mots": [
+       "tshor"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f15v",
+    "destination": "f16r",
+    "cahier": "B",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f16r.1"
+      ],
+      "mots": [
+       "pocheody"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "q",
+      "loci": [
+       "f16r.1"
+      ],
+      "mots": [
+       "qopchey"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "y",
+      "loci": [
+       "f16r.2"
+      ],
+      "mots": [
+       "ychykchy"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f16r.1"
+      ],
+      "mots": [
+       "pocheody"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f17v",
+    "destination": "f18r",
+    "cahier": "C",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f18r.1"
+      ],
+      "mots": [
+       "pdrairdy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "d",
+      "loci": [
+       "f18r.1"
+      ],
+      "mots": [
+       "darodcf",
+       "darodsf"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f18r.2"
+      ],
+      "mots": [
+       "otshol"
+      ]
+     },
+     "sans_potence": {
+      "signe": "d",
+      "loci": [
+       "f18r.1"
+      ],
+      "mots": [
+       "pdrairdy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f18v",
+    "destination": "f19r",
+    "cahier": "C",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f19r.1"
+      ],
+      "mots": [
+       "pchor"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "q",
+      "loci": [
+       "f19r.1"
+      ],
+      "mots": [
+       "qodchy"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "d",
+      "loci": [
+       "f19r.2"
+      ],
+      "mots": [
+       "dshy"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f19r.1"
+      ],
+      "mots": [
+       "pchor"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f19v",
+    "destination": "f20r",
+    "cahier": "C",
+    "droite": {
+     "debut": {
+      "signe": "k",
+      "loci": [
+       "f20r.1"
+      ],
+      "mots": [
+       "kdchody"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "ch",
+      "loci": [
+       "f20r.1"
+      ],
+      "mots": [
+       "chopy"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "ch",
+      "loci": [
+       "f20r.2"
+      ],
+      "mots": [
+       "chod",
+       "chodey"
+      ]
+     },
+     "sans_potence": {
+      "signe": "d",
+      "loci": [
+       "f20r.1"
+      ],
+      "mots": [
+       "kdchody"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f21v",
+    "destination": "f22r",
+    "cahier": "C",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f22r.1"
+      ],
+      "mots": [
+       "pol"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "o",
+      "loci": [
+       "f22r.1"
+      ],
+      "mots": [
+       "olshy"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f22r.2"
+      ],
+      "mots": [
+       "ol"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f22r.1"
+      ],
+      "mots": [
+       "pol"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f22v",
+    "destination": "f23r",
+    "cahier": "C",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f23r.1"
+      ],
+      "mots": [
+       "pydchdom"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "ch",
+      "loci": [
+       "f23r.1"
+      ],
+      "mots": [
+       "chy"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "t",
+      "loci": [
+       "f23r.2"
+      ],
+      "mots": [
+       "to"
+      ]
+     },
+     "sans_potence": {
+      "signe": "y",
+      "loci": [
+       "f23r.1"
+      ],
+      "mots": [
+       "pydchdom"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f23v",
+    "destination": "f24r",
+    "cahier": "C",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f24r.1"
+      ],
+      "mots": [
+       "por",
+       "porory"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": null,
+      "loci": [
+       "f24r.1"
+      ],
+      "mots": [
+       "chor",
+       "or"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "q",
+      "loci": [
+       "f24r.2"
+      ],
+      "mots": [
+       "qotaiin"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f24r.1"
+      ],
+      "mots": [
+       "por",
+       "porory"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "reserve": {
+  "tous_les_couples": 8,
+  "appels": 6,
+  "frequences_droite": {
+   "o": 1,
+   "p": 3,
+   "t": 1
+  },
+  "mesures": {
+   "debut": {
+    "succes": 1,
+    "testables": 5,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.2571428571428571,
+    "egale_ou_superieure": 206,
+    "probabilite": 0.7152777777777778,
+    "histogramme": {
+     "0/3": 18,
+     "0/4": 30,
+     "0/5": 14,
+     "0/6": 2,
+     "1/3": 18,
+     "1/4": 48,
+     "1/5": 44,
+     "1/6": 16,
+     "1/7": 2,
+     "2/3": 4,
+     "2/4": 26,
+     "2/5": 34,
+     "2/6": 14,
+     "2/7": 2,
+     "3/4": 4,
+     "3/5": 8,
+     "3/6": 4
+    }
+   },
+   "deuxieme_mot": {
+    "succes": 0,
+    "testables": 6,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.16038359788359788,
+    "egale_ou_superieure": 288,
+    "probabilite": 1.0,
+    "histogramme": {
+     "0/4": 20,
+     "0/5": 40,
+     "0/6": 20,
+     "1/4": 40,
+     "1/5": 84,
+     "1/6": 48,
+     "1/7": 4,
+     "2/5": 8,
+     "2/6": 16,
+     "2/7": 8
+    }
+   },
+   "deuxieme_ligne": {
+    "succes": 0,
+    "testables": 8,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.125,
+    "egale_ou_superieure": 288,
+    "probabilite": 1.0,
+    "histogramme": {
+     "0/8": 80,
+     "1/8": 136,
+     "2/8": 64,
+     "3/8": 8
+    }
+   },
+   "sans_potence": {
+    "succes": 1,
+    "testables": 6,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.15160383597883598,
+    "egale_ou_superieure": 162,
+    "probabilite": 0.5625,
+    "histogramme": {
+     "0/2": 16,
+     "0/3": 44,
+     "0/4": 38,
+     "0/5": 16,
+     "0/6": 6,
+     "1/3": 24,
+     "1/4": 54,
+     "1/5": 42,
+     "1/6": 18,
+     "1/7": 6,
+     "2/4": 8,
+     "2/5": 10,
+     "2/6": 4,
+     "2/7": 2
+    }
+   }
+  },
+  "joint": {
+   "debut": {
+    "succes": 1,
+    "testables": 3,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.34421296296296294,
+    "egale_ou_superieure": 172,
+    "probabilite": 0.5972222222222222,
+    "histogramme": {
+     "0/2": 24,
+     "0/3": 32,
+     "0/4": 8,
+     "1/2": 20,
+     "1/3": 56,
+     "1/4": 44,
+     "1/5": 8,
+     "2/2": 4,
+     "2/3": 28,
+     "2/4": 36,
+     "2/5": 12,
+     "3/3": 4,
+     "3/4": 8,
+     "3/5": 4
+    }
+   },
+   "deuxieme_mot": {
+    "succes": 0,
+    "testables": 3,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.10208333333333333,
+    "egale_ou_superieure": 288,
+    "probabilite": 1.0,
+    "histogramme": {
+     "0/2": 36,
+     "0/3": 84,
+     "0/4": 60,
+     "0/5": 12,
+     "1/2": 12,
+     "1/3": 36,
+     "1/4": 36,
+     "1/5": 12
+    }
+   },
+   "deuxieme_ligne": {
+    "succes": 0,
+    "testables": 3,
+    "configurations": 288,
+    "avec_denominateur": 288,
+    "moyenne_nulle": 0.10208333333333333,
+    "egale_ou_superieure": 288,
+    "probabilite": 1.0,
+    "histogramme": {
+     "0/2": 36,
+     "0/3": 84,
+     "0/4": 60,
+     "0/5": 12,
+     "1/2": 12,
+     "1/3": 36,
+     "1/4": 36,
+     "1/5": 12
+    }
+   }
+  },
+  "affectations_par_cahier": {
+   "D": [
+    3,
+    1
+   ],
+   "E": [
+    2,
+    2
+   ],
+   "F": [
+    1,
+    2,
+    1
+   ],
+   "G": [
+    3,
+    1
+   ]
+  },
+  "controle_artificiel": {
+   "succes": 8,
+   "testables": 8,
+   "configurations": 288,
+   "avec_denominateur": 288,
+   "moyenne_nulle": 0.6666666666666666,
+   "egale_ou_superieure": 32,
+   "probabilite": 0.1111111111111111,
+   "histogramme": {
+    "4/8": 128,
+    "6/8": 128,
+    "8/8": 32
+   }
+  },
+  "cibles": [
+   {
+    "source": "f27v",
+    "destination": "f28r",
+    "cahier": "D",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f28r.1"
+      ],
+      "mots": [
+       "pchodar"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "sh",
+      "loci": [
+       "f28r.1"
+      ],
+      "mots": [
+       "shod"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f28r.2"
+      ],
+      "mots": [
+       "otchor"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f28r.1"
+      ],
+      "mots": [
+       "pchodar"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f29v",
+    "destination": "f30r",
+    "cahier": "D",
+    "droite": {
+     "debut": {
+      "signe": "o",
+      "loci": [
+       "f30r.1"
+      ],
+      "mots": [
+       "okchesy",
+       "okeeesy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "ch",
+      "loci": [
+       "f30r.1"
+      ],
+      "mots": [
+       "chey"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "y",
+      "loci": [
+       "f30r.2"
+      ],
+      "mots": [
+       "ychody"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f30r.1"
+      ],
+      "mots": [
+       "okchesy",
+       "okeeesy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f33v",
+    "destination": "f34r",
+    "cahier": "E",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f34r.1"
+      ],
+      "mots": [
+       "pcheoepchy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "o",
+      "loci": [
+       "f34r.1"
+      ],
+      "mots": [
+       "olar"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "y",
+      "loci": [
+       "f34r.2"
+      ],
+      "mots": [
+       "ytar"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f34r.1"
+      ],
+      "mots": [
+       "pcheoepchy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f35v",
+    "destination": "f36r",
+    "cahier": "E",
+    "droite": {
+     "debut": {
+      "signe": null,
+      "loci": [
+       "f36r.1"
+      ],
+      "mots": [
+       "pchafdan"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "q",
+      "loci": [
+       "f36r.1"
+      ],
+      "mots": [
+       "qorain"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f36r.2"
+      ],
+      "mots": [
+       "oral"
+      ]
+     },
+     "sans_potence": {
+      "signe": null,
+      "loci": [
+       "f36r.1"
+      ],
+      "mots": [
+       "pchafdan"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f37v",
+    "destination": "f38r",
+    "cahier": "E",
+    "droite": {
+     "debut": {
+      "signe": "t",
+      "loci": [
+       "f38r.1"
+      ],
+      "mots": [
+       "tolor"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "ch",
+      "loci": [
+       "f38r.1"
+      ],
+      "mots": [
+       "chockhy"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f38r.2"
+      ],
+      "mots": [
+       "okseey",
+       "okshey"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f38r.1"
+      ],
+      "mots": [
+       "tolor"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f39v",
+    "destination": "f40r",
+    "cahier": "E",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f40r.1"
+      ],
+      "mots": [
+       "pchey"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "k",
+      "loci": [
+       "f40r.1"
+      ],
+      "mots": [
+       "k",
+       "keodar"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "q",
+      "loci": [
+       "f40r.2"
+      ],
+      "mots": [
+       "qokar"
+      ]
+     },
+     "sans_potence": {
+      "signe": "ch",
+      "loci": [
+       "f40r.1"
+      ],
+      "mots": [
+       "pchey"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f51v",
+    "destination": "f52r",
+    "cahier": "G",
+    "droite": {
+     "debut": {
+      "signe": "t",
+      "loci": [
+       "f52r.1"
+      ],
+      "mots": [
+       "tdokchcfhy"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "y",
+      "loci": [
+       "f52r.1"
+      ],
+      "mots": [
+       "ycphko"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "o",
+      "loci": [
+       "f52r.2"
+      ],
+      "mots": [
+       "oty"
+      ]
+     },
+     "sans_potence": {
+      "signe": "d",
+      "loci": [
+       "f52r.1"
+      ],
+      "mots": [
+       "tdokchcfhy"
+      ]
+     }
+    }
+   },
+   {
+    "source": "f53v",
+    "destination": "f54r",
+    "cahier": "G",
+    "droite": {
+     "debut": {
+      "signe": "p",
+      "loci": [
+       "f54r.1"
+      ],
+      "mots": [
+       "podaiin"
+      ]
+     },
+     "deuxieme_mot": {
+      "signe": "sh",
+      "loci": [
+       "f54r.1"
+      ],
+      "mots": [
+       "shodal"
+      ]
+     },
+     "deuxieme_ligne": {
+      "signe": "y",
+      "loci": [
+       "f54r.2"
+      ],
+      "mots": [
+       "ytodaiin"
+      ]
+     },
+     "sans_potence": {
+      "signe": "o",
+      "loci": [
+       "f54r.1"
+      ],
+      "mots": [
+       "podaiin"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "controle_macer": {
+  "ordre_du_poeme": {
+   "prefixe_1": 10,
+   "prefixe_2": 3
+  },
+  "ordre_alphabetique": {
+   "prefixe_1": 57,
+   "prefixe_2": 25
+  },
+  "transitions": 76,
+  "accord_initial_aleatoire": 0.08680792891319207
+ }
+}
