@@ -1,0 +1,3 @@
+# Périmètre de la lecture de la prose
+
+Les rubriques des chapitres CXXV et CXXVI du *Gart der Gesundheit* ont déjà été vues avec les bois et les toutes premières lignes. Le registre et les titres donnent *Cassia fistula* et *Cassia lignea*. Je ne connais pas les graphies prédites par le calcul sur les légendes. Relever les noms répétés dans la prose entière des vues 237 (f. 117r), 238 (f. 117v) et 239 (f. 118r), en distinguant la tête seule, les expressions complètes, les variantes de s ou d’initiale, le contexte et les mots incertains. Contrôler le début de la vue 240 si nécessaire pour borner la fin du deuxième chapitre. Les titres et le registre restent à part.

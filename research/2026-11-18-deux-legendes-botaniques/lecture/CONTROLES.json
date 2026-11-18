@@ -1,0 +1,63 @@
+{
+ "deux_chiffres": [
+  "avbcad",
+  "atbcad"
+ ],
+ "mot_reserve": "atcad",
+ "localisation_unique": {
+  "A": "avbcad",
+  "B": "atbcad",
+  "pred": "atcad",
+  "copie": false,
+  "notice_attendue": "atbcad",
+  "retenue_dans_sa_notice": true,
+  "lieux": {
+   "atbcad": [
+    [
+     2,
+     1
+    ]
+   ]
+  }
+ },
+ "contre_exemple_non_unique": {
+  "A": "avbcad",
+  "B": "atbcad",
+  "pred": "atcad",
+  "copie": false,
+  "notice_attendue": "atbcad",
+  "retenue_dans_sa_notice": true,
+  "lieux": {
+   "atbcad": [
+    [
+     2,
+     1
+    ]
+   ],
+   "temoin": [
+    [
+     1,
+     1
+    ]
+   ]
+  }
+ },
+ "macer_sans_muet": {
+  "banc/direct/2/0": {
+   "paires_apres_condition_sur_les_bords": 2,
+   "resultats": []
+  },
+  "banc/direct/libre/0": {
+   "paires_apres_condition_sur_les_bords": 2,
+   "resultats": []
+  },
+  "banc/inverse/2/0": {
+   "paires_apres_condition_sur_les_bords": 0,
+   "resultats": []
+  },
+  "banc/inverse/libre/0": {
+   "paires_apres_condition_sur_les_bords": 0,
+   "resultats": []
+  }
+ }
+}

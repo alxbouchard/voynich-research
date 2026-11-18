@@ -19,12 +19,10 @@ def read(word, table, reverse=False):
     units=re.findall(r'c[ptfk]h|ch|sh|iin|in|.',word)
     if reverse:
         units.reverse()
-    alphabet=list(dict.fromkeys(units))
-    result=set()
-    for subset in product(*(table.get(s,['['+s+']']) for s in alphabet)):
-        mapping=dict(zip(alphabet,subset))
-        result.add(''.join(mapping[s] for s in units))
-    return sorted(result)
+    # La table ne précise pas de règle pour choisir une alternative selon le contexte.
+    choices = (table.get(s,['['+s+']']) for s in units)
+    return sorted({''.join(values) for values in product(*choices)})
+
 
 def main():
     source=json.loads((STUDY/'histoire/table.json').read_text())

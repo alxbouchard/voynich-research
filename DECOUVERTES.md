@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Deux fragments aux légendes presque identiques](research/2026-11-18-deux-legendes-botaniques/RAPPORT.md) | Deux lecteurs rapprochent les fragments 36 et 140 à partir des dessins. Aucune nouvelle paire p/k en réserve. La table de Tucker et Janick produit deux formes lexicales isolées sur dix mots de f100v.16. Les prédictions tirées des noms de deux cassies manquent les mentions dans les chapitres de 1485. |
 | [Le mot de la plante et la ligne de f89r2](research/2026-11-18-opcheor-paralleles/RAPPORT.md) | Deux fragments végétaux sur f89r2 et f100v portent des légendes voisines dont la prose reprend la forme. Une même table donne *herba herbae tam*, mais prédit ensuite *taeam*. La copie de 1478 porte *similis*. |
 | [Les quatre mois d’automne et la finale eody](research/2026-11-18-mois-automne/RAPPORT.md) | La finale est certaine à 11 des 120 emplacements des figures de septembre à décembre et à 1 des 179 autres, en août. Les règles testées manquent octobre. Une table ajustée aux quatre réponses fonctionne aussi pour les 24 ordres possibles des mois. |
 | [Des légendes de plantes à une phrase de quatre mots](research/2026-11-18-legendes-et-paragraphes/RAPPORT.md) | À f89r2, un essai calé sur quatre mots d’un herbier français échoue au cinquième, `sheol`. Au verso, ce groupe accompagne un fragment et revient dans le paragraphe sous sa rangée. Hors du panneau d’origine, les légendes ne désignent seules aucune de leurs 14 pages. |
