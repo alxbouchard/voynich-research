@@ -1,0 +1,5 @@
+# Reprendre le latin réellement écrit en 1478
+
+Au feuillet 39v du Macer de 1478, le copiste écrit « cum baccis lauri vel … » dans la notice du poivre. L’édition de calcul donne « cum lauri baccis vel … ». Notre liste issue de cette seule édition ignorait donc une suite historiquement attestée, baccis lauri. Reprendre toutes les tables déjà déposées qui donnent précisément baccis pour ctheol. Une attribution par les mots qui entourent l’ingrédient donne la prédiction cum … lauri selon la copie ou lauri … vel selon l’édition.
+
+À f99r.29 et f100r.25, l'essai est rétrospectif : les voisins de droite sont connus. À f88r.7, seuls le second rang de ctheol et le compte des finales voisines ont été consultés pour ces expériences. Avant d’ouvrir ses voisins par le programme, annoncer « cum / lauri » en lecture principale et « lauri / vel » en lecture secondaire de part et d’autre du mot. Pour chaque table, chercher une seule extension d’une à deux lettres par signe permettant de lire les trois groupes avec les deux voisins attestés. Consigner les variantes de transcription si les rangs ne sont pas certains et la compatibilité de chaque côté séparément.
