@@ -1,0 +1,7 @@
+# Deux mentions de la même légende sur f99r
+
+Avant d’ouvrir la photographie pour cette épreuve, la transcription ZL et sa numérotation Petersen placent `oky` au-dessus ou près des fragments 70 et 84. Les deux mots entiers sont identiques dans ZL3b et IT2a. Le premier appartient à la rangée supérieure, le second à la suivante.
+
+**Prédiction.** Si cette répétition désigne ici une forme de plante reconnaissable sur le dessin, un lecteur ignorant la page, les inscriptions et ces numéros devrait classer le fragment 84 en premier pour sa ressemblance avec le fragment 70. La deuxième rangée offre les fragments 80b, 81, 82, 83, 84, 85a, 85b et 86a. Nous montrerons tous les dessins de cette série dont le contour est séparable et l'attache défendable. Les numéros 80a et 86b désignent d'autres objets ou loci et ne font pas partie de la liste des étiquettes Lf de cette rangée. Les exclusions et les rattachements douteux seront justifiés avant la lecture. Si un candidat correspond en fait à un deuxième mot sur le même dessin, les deux seront comptés comme un objet dont l’attache est précisée.
+
+Les inscriptions seront masquées. Le lecteur classera les dessins et indiquera aussi les différences, le degré de confiance et son éventuelle abstention. Une attache douteuse de la cible rendrait le test conditionnel. La comparaison porte sur deux objets d’un seul feuillet. Elle ne peut établir seule le sens de la légende ni identifier une espèce. [Transcription ZL](https://www.voynich.nu/data/ZL3b-n.txt) · [Transcription IT](https://www.voynich.nu/data/IT2a-n.txt)
