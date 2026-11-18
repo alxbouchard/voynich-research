@@ -1,0 +1,949 @@
+{
+  "sources_sha256": {
+    "research/2026-11-18-deux-legendes-botaniques/lecture/tucker/prefixe/resultats.json": "ebe5e0c5a9eb6ac7e2cfc840d5f4be87b85bf9933c979bec8cb69a66d5e4727d",
+    "voynich_phase17/data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "methode": "Seules les faces mixtes contribuent. Toutes les faces du même couple ZL Q/B sont exclues de l'apprentissage. Deux pondérations descriptives, sans nouvelle permutation.",
+  "epreuves": {
+    "fragments_recipients_entier": {
+      "faces": {
+        "f88r": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            10,
+            3
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 6,
+          "erreurs": 0,
+          "egalites": 24,
+          "score_exact": "3/5"
+        },
+        "f88v": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            7,
+            2
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 14,
+          "score_exact": "1/2"
+        },
+        "f89r1": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            6,
+            3
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 3,
+          "erreurs": 0,
+          "egalites": 15,
+          "score_exact": "7/12"
+        },
+        "f89r2": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            10,
+            1
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 10,
+          "score_exact": "1/2"
+        },
+        "f89v1": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            3,
+            2
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 6,
+          "score_exact": "1/2"
+        },
+        "f89v2": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            5,
+            2
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 10,
+          "score_exact": "1/2"
+        },
+        "f99r": {
+          "Q/B": "S/1",
+          "reserve_mixe": [
+            "f99"
+          ],
+          "effectifs": [
+            21,
+            3
+          ],
+          "apprentissage": [
+            41,
+            13
+          ],
+          "justes": 3,
+          "erreurs": 0,
+          "egalites": 60,
+          "score_exact": "11/21"
+        },
+        "f99v": {
+          "Q/B": "S/1",
+          "reserve_mixe": [
+            "f99"
+          ],
+          "effectifs": [
+            16,
+            2
+          ],
+          "apprentissage": [
+            41,
+            13
+          ],
+          "justes": 6,
+          "erreurs": 0,
+          "egalites": 26,
+          "score_exact": "19/32"
+        }
+      },
+      "groupes_mixtes": {
+        "O/2": [
+          "f88",
+          "f89"
+        ],
+        "S/1": [
+          "f99"
+        ]
+      },
+      "n_faces": 8,
+      "n_feuillets": 3,
+      "n_bifeuillets": 2,
+      "effectifs": [
+        78,
+        18
+      ],
+      "justes": 18,
+      "erreurs": 0,
+      "egalites": 165,
+      "score_meme_poids_par_feuillet": 0.5432043650793651,
+      "exact_par_feuillet": "10951/20160",
+      "score_meme_poids_par_bifeuillet": 0.5470982142857143,
+      "exact_par_bifeuillet": "2451/4480",
+      "scores_par_bifeuillet": {
+        "O/2": "257/480",
+        "S/1": "751/1344"
+      }
+    },
+    "fragments_recipients_sans_derniere_unite": {
+      "faces": {
+        "f88r": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            10,
+            3
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 9,
+          "erreurs": 0,
+          "egalites": 21,
+          "score_exact": "13/20"
+        },
+        "f88v": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            7,
+            2
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 14,
+          "score_exact": "1/2"
+        },
+        "f89r1": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            6,
+            3
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 3,
+          "erreurs": 0,
+          "egalites": 15,
+          "score_exact": "7/12"
+        },
+        "f89r2": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            10,
+            1
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 10,
+          "score_exact": "1/2"
+        },
+        "f89v1": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            3,
+            2
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 6,
+          "score_exact": "1/2"
+        },
+        "f89v2": {
+          "Q/B": "O/2",
+          "reserve_mixe": [
+            "f88",
+            "f89"
+          ],
+          "effectifs": [
+            5,
+            2
+          ],
+          "apprentissage": [
+            37,
+            5
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 10,
+          "score_exact": "1/2"
+        },
+        "f99r": {
+          "Q/B": "S/1",
+          "reserve_mixe": [
+            "f99"
+          ],
+          "effectifs": [
+            21,
+            3
+          ],
+          "apprentissage": [
+            41,
+            13
+          ],
+          "justes": 9,
+          "erreurs": 0,
+          "egalites": 54,
+          "score_exact": "4/7"
+        },
+        "f99v": {
+          "Q/B": "S/1",
+          "reserve_mixe": [
+            "f99"
+          ],
+          "effectifs": [
+            16,
+            2
+          ],
+          "apprentissage": [
+            41,
+            13
+          ],
+          "justes": 6,
+          "erreurs": 0,
+          "egalites": 26,
+          "score_exact": "19/32"
+        }
+      },
+      "groupes_mixtes": {
+        "O/2": [
+          "f88",
+          "f89"
+        ],
+        "S/1": [
+          "f99"
+        ]
+      },
+      "n_faces": 8,
+      "n_feuillets": 3,
+      "n_bifeuillets": 2,
+      "effectifs": [
+        78,
+        18
+      ],
+      "justes": 27,
+      "erreurs": 0,
+      "egalites": 156,
+      "score_meme_poids_par_feuillet": 0.5594742063492063,
+      "exact_par_feuillet": "11279/20160",
+      "score_meme_poids_par_bifeuillet": 0.5652529761904762,
+      "exact_par_bifeuillet": "7597/13440",
+      "scores_par_bifeuillet": {
+        "O/2": "263/480",
+        "S/1": "261/448"
+      }
+    },
+    "personnages_lignes_bains_entier": {
+      "faces": {
+        "f75v": {
+          "Q/B": "M/1",
+          "reserve_mixe": [
+            "f75",
+            "f84"
+          ],
+          "effectifs": [
+            18,
+            5
+          ],
+          "apprentissage": [
+            15,
+            15
+          ],
+          "justes": 0,
+          "erreurs": 5,
+          "egalites": 85,
+          "score_exact": "17/36"
+        },
+        "f77r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            3,
+            6
+          ],
+          "apprentissage": [
+            26,
+            9
+          ],
+          "justes": 3,
+          "erreurs": 0,
+          "egalites": 15,
+          "score_exact": "7/12"
+        },
+        "f82r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            5,
+            1
+          ],
+          "apprentissage": [
+            26,
+            9
+          ],
+          "justes": 0,
+          "erreurs": 5,
+          "egalites": 0,
+          "score_exact": "0"
+        },
+        "f82v": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            6,
+            5
+          ],
+          "apprentissage": [
+            26,
+            9
+          ],
+          "justes": 0,
+          "erreurs": 5,
+          "egalites": 25,
+          "score_exact": "5/12"
+        },
+        "f83v": {
+          "Q/B": "M/2",
+          "reserve_mixe": [
+            "f83"
+          ],
+          "effectifs": [
+            1,
+            3
+          ],
+          "apprentissage": [
+            39,
+            18
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 3,
+          "score_exact": "1/2"
+        },
+        "f84r": {
+          "Q/B": "M/1",
+          "reserve_mixe": [
+            "f75",
+            "f84"
+          ],
+          "effectifs": [
+            7,
+            1
+          ],
+          "apprentissage": [
+            15,
+            15
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 7,
+          "score_exact": "1/2"
+        }
+      },
+      "groupes_mixtes": {
+        "M/1": [
+          "f75",
+          "f84"
+        ],
+        "M/2": [
+          "f83"
+        ],
+        "M/3": [
+          "f77",
+          "f82"
+        ]
+      },
+      "n_faces": 6,
+      "n_feuillets": 5,
+      "n_bifeuillets": 3,
+      "effectifs": [
+        40,
+        21
+      ],
+      "justes": 3,
+      "erreurs": 15,
+      "egalites": 135,
+      "score_meme_poids_par_feuillet": 0.4527777777777778,
+      "exact_par_feuillet": "163/360",
+      "score_meme_poids_par_bifeuillet": 0.46064814814814814,
+      "exact_par_bifeuillet": "199/432",
+      "scores_par_bifeuillet": {
+        "M/1": "35/72",
+        "M/2": "1/2",
+        "M/3": "19/48"
+      }
+    },
+    "personnages_lignes_bains_sans_derniere_unite": {
+      "faces": {
+        "f75v": {
+          "Q/B": "M/1",
+          "reserve_mixe": [
+            "f75",
+            "f84"
+          ],
+          "effectifs": [
+            18,
+            5
+          ],
+          "apprentissage": [
+            15,
+            15
+          ],
+          "justes": 0,
+          "erreurs": 10,
+          "egalites": 80,
+          "score_exact": "4/9"
+        },
+        "f77r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            3,
+            6
+          ],
+          "apprentissage": [
+            26,
+            9
+          ],
+          "justes": 3,
+          "erreurs": 3,
+          "egalites": 12,
+          "score_exact": "1/2"
+        },
+        "f82r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            5,
+            1
+          ],
+          "apprentissage": [
+            26,
+            9
+          ],
+          "justes": 0,
+          "erreurs": 5,
+          "egalites": 0,
+          "score_exact": "0"
+        },
+        "f82v": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            6,
+            5
+          ],
+          "apprentissage": [
+            26,
+            9
+          ],
+          "justes": 0,
+          "erreurs": 5,
+          "egalites": 25,
+          "score_exact": "5/12"
+        },
+        "f83v": {
+          "Q/B": "M/2",
+          "reserve_mixe": [
+            "f83"
+          ],
+          "effectifs": [
+            1,
+            3
+          ],
+          "apprentissage": [
+            39,
+            18
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 3,
+          "score_exact": "1/2"
+        },
+        "f84r": {
+          "Q/B": "M/1",
+          "reserve_mixe": [
+            "f75",
+            "f84"
+          ],
+          "effectifs": [
+            7,
+            1
+          ],
+          "apprentissage": [
+            15,
+            15
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 7,
+          "score_exact": "1/2"
+        }
+      },
+      "groupes_mixtes": {
+        "M/1": [
+          "f75",
+          "f84"
+        ],
+        "M/2": [
+          "f83"
+        ],
+        "M/3": [
+          "f77",
+          "f82"
+        ]
+      },
+      "n_faces": 6,
+      "n_feuillets": 5,
+      "n_bifeuillets": 3,
+      "effectifs": [
+        40,
+        21
+      ],
+      "justes": 3,
+      "erreurs": 23,
+      "egalites": 127,
+      "score_meme_poids_par_feuillet": 0.4305555555555556,
+      "exact_par_feuillet": "31/72",
+      "score_meme_poids_par_bifeuillet": 0.44212962962962965,
+      "exact_par_bifeuillet": "191/432",
+      "scores_par_bifeuillet": {
+        "M/1": "17/36",
+        "M/2": "1/2",
+        "M/3": "17/48"
+      }
+    },
+    "personnages_objets_bains_entier": {
+      "faces": {
+        "f77r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            3,
+            6
+          ],
+          "apprentissage": [
+            8,
+            4
+          ],
+          "justes": 0,
+          "erreurs": 3,
+          "egalites": 15,
+          "score_exact": "5/12"
+        },
+        "f82r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            5,
+            1
+          ],
+          "apprentissage": [
+            8,
+            4
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 5,
+          "score_exact": "1/2"
+        },
+        "f82v": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            6,
+            5
+          ],
+          "apprentissage": [
+            8,
+            4
+          ],
+          "justes": 5,
+          "erreurs": 0,
+          "egalites": 25,
+          "score_exact": "7/12"
+        },
+        "f83v": {
+          "Q/B": "M/2",
+          "reserve_mixe": [
+            "f83"
+          ],
+          "effectifs": [
+            1,
+            3
+          ],
+          "apprentissage": [
+            21,
+            13
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 3,
+          "score_exact": "1/2"
+        },
+        "f84r": {
+          "Q/B": "M/1",
+          "reserve_mixe": [
+            "f84"
+          ],
+          "effectifs": [
+            7,
+            1
+          ],
+          "apprentissage": [
+            15,
+            15
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 7,
+          "score_exact": "1/2"
+        }
+      },
+      "groupes_mixtes": {
+        "M/1": [
+          "f84"
+        ],
+        "M/2": [
+          "f83"
+        ],
+        "M/3": [
+          "f77",
+          "f82"
+        ]
+      },
+      "n_faces": 5,
+      "n_feuillets": 4,
+      "n_bifeuillets": 3,
+      "effectifs": [
+        22,
+        16
+      ],
+      "justes": 5,
+      "erreurs": 3,
+      "egalites": 55,
+      "score_meme_poids_par_feuillet": 0.4895833333333333,
+      "exact_par_feuillet": "47/96",
+      "score_meme_poids_par_bifeuillet": 0.4930555555555556,
+      "exact_par_bifeuillet": "71/144",
+      "scores_par_bifeuillet": {
+        "M/1": "1/2",
+        "M/2": "1/2",
+        "M/3": "23/48"
+      }
+    },
+    "personnages_objets_bains_sans_derniere_unite": {
+      "faces": {
+        "f77r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            3,
+            6
+          ],
+          "apprentissage": [
+            8,
+            4
+          ],
+          "justes": 0,
+          "erreurs": 3,
+          "egalites": 15,
+          "score_exact": "5/12"
+        },
+        "f82r": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            5,
+            1
+          ],
+          "apprentissage": [
+            8,
+            4
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 5,
+          "score_exact": "1/2"
+        },
+        "f82v": {
+          "Q/B": "M/3",
+          "reserve_mixe": [
+            "f77",
+            "f82"
+          ],
+          "effectifs": [
+            6,
+            5
+          ],
+          "apprentissage": [
+            8,
+            4
+          ],
+          "justes": 5,
+          "erreurs": 0,
+          "egalites": 25,
+          "score_exact": "7/12"
+        },
+        "f83v": {
+          "Q/B": "M/2",
+          "reserve_mixe": [
+            "f83"
+          ],
+          "effectifs": [
+            1,
+            3
+          ],
+          "apprentissage": [
+            21,
+            13
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 3,
+          "score_exact": "1/2"
+        },
+        "f84r": {
+          "Q/B": "M/1",
+          "reserve_mixe": [
+            "f84"
+          ],
+          "effectifs": [
+            7,
+            1
+          ],
+          "apprentissage": [
+            15,
+            15
+          ],
+          "justes": 0,
+          "erreurs": 0,
+          "egalites": 7,
+          "score_exact": "1/2"
+        }
+      },
+      "groupes_mixtes": {
+        "M/1": [
+          "f84"
+        ],
+        "M/2": [
+          "f83"
+        ],
+        "M/3": [
+          "f77",
+          "f82"
+        ]
+      },
+      "n_faces": 5,
+      "n_feuillets": 4,
+      "n_bifeuillets": 3,
+      "effectifs": [
+        22,
+        16
+      ],
+      "justes": 5,
+      "erreurs": 3,
+      "egalites": 55,
+      "score_meme_poids_par_feuillet": 0.4895833333333333,
+      "exact_par_feuillet": "47/96",
+      "score_meme_poids_par_bifeuillet": 0.4930555555555556,
+      "exact_par_bifeuillet": "71/144",
+      "scores_par_bifeuillet": {
+        "M/1": "1/2",
+        "M/2": "1/2",
+        "M/3": "23/48"
+      }
+    }
+  },
+  "otoly": {
+    "personnages_lignes_bains": {
+      "inscriptions_Ln": 47,
+      "otoly_Ln": {
+        "f75v.37": "M/1",
+        "f84r.11": "M/1"
+      },
+      "nombre_bifeuillets_avec_otoly": 1,
+      "loci_sur_faces_mixtes": [
+        "f75v.37",
+        "f84r.11"
+      ]
+    },
+    "personnages_objets_bains": {
+      "inscriptions_Ln": 29,
+      "otoly_Ln": {
+        "f84r.11": "M/1"
+      },
+      "nombre_bifeuillets_avec_otoly": 1,
+      "loci_sur_faces_mixtes": [
+        "f84r.11"
+      ]
+    }
+  }
+}
