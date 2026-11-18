@@ -1,0 +1,421 @@
+{
+  "matrice_affine_recto_miroir_vers_verso": [
+    [
+      1.015662552064616,
+      -0.02237608417316805
+    ],
+    [
+      0.020486394779835992,
+      1.0030484599133163
+    ],
+    [
+      -5.246093811135805,
+      72.13597502291302
+    ]
+  ],
+  "calage": [
+    {
+      "nom": "Coin supérieur gauche de la feuille active",
+      "prediction": [
+        123.08979881319192,
+        286.0645600950628
+      ],
+      "ecart_px": 3.0904732181134835
+    },
+    {
+      "nom": "Coin inférieur gauche de la feuille active",
+      "prediction": [
+        451.3569075272217,
+        3721.840300677666
+      ],
+      "ecart_px": 7.644760717052814
+    },
+    {
+      "nom": "Pointe supérieure de la grande encoche au bord inférieur",
+      "prediction": [
+        1791.4578571986794,
+        3664.2185126915115
+      ],
+      "ecart_px": 10.460139816671818
+    },
+    {
+      "nom": "Premier grand trou ovale au-dessus de la couture",
+      "prediction": [
+        2653.095436460903,
+        1821.8766265357622
+      ],
+      "ecart_px": 5.905852317736469
+    }
+  ],
+  "reserve": [
+    {
+      "nom": "Décrochement du bord gauche, angle au-dessus de la petite marche",
+      "prediction": [
+        239.81631806763855,
+        3264.890849868001
+      ],
+      "ecart_px": 7.27832215879417
+    },
+    {
+      "nom": "Coin du premier trou triangulaire au début de la couture",
+      "prediction": [
+        2578.0593259768,
+        1829.5507475240565
+      ],
+      "ecart_px": 8.951953964149999
+    },
+    {
+      "nom": "Extrémité droite de la fente cousue",
+      "prediction": [
+        2879.9159678877895,
+        1832.9355351237589
+      ],
+      "ecart_px": 4.2065425649220805
+    },
+    {
+      "nom": "Seconde petite entaille du bord inférieur vers la droite",
+      "prediction": [
+        2207.82670154776,
+        3702.2099718806116
+      ],
+      "ecart_px": 29.334253324300636
+    }
+  ],
+  "bord_superieur": [
+    {
+      "recto_miroir": [
+        1300,
+        208
+      ],
+      "x_verso_lu": 1319,
+      "y_verso_lu": 245,
+      "prediction": [
+        1319.376393987071,
+        251.68114525976432
+      ],
+      "erreur_y_px": 6.681145259764321
+    },
+    {
+      "recto_miroir": [
+        1800,
+        188
+      ],
+      "x_verso_lu": 1827,
+      "y_verso_lu": 231,
+      "prediction": [
+        1826.7979421237824,
+        220.43213397491397
+      ],
+      "erreur_y_px": -10.567866025086033
+    },
+    {
+      "recto_miroir": [
+        2200,
+        180
+      ],
+      "x_verso_lu": 2233,
+      "y_verso_lu": 213,
+      "prediction": [
+        2232.89907179139,
+        203.45731262634024
+      ],
+      "erreur_y_px": -9.54268737365976
+    }
+  ],
+  "vert": [
+    {
+      "seuil_a_recto": 123,
+      "seuil_a_verso": 124,
+      "pixels_verts_region_verso": 140022,
+      "deplacements_x": {
+        "-500": {
+          "pixels_predits": 222595,
+          "pixels_communs": 32366,
+          "couverture": 0.1454030863226937
+        },
+        "-250": {
+          "pixels_predits": 222596,
+          "pixels_communs": 54173,
+          "couverture": 0.24336915308451185
+        },
+        "0": {
+          "pixels_predits": 222596,
+          "pixels_communs": 86352,
+          "couverture": 0.38793149921831477
+        },
+        "250": {
+          "pixels_predits": 222596,
+          "pixels_communs": 60557,
+          "couverture": 0.272048913727111
+        },
+        "500": {
+          "pixels_predits": 222596,
+          "pixels_communs": 52837,
+          "couverture": 0.23736724828837893
+        }
+      }
+    },
+    {
+      "seuil_a_recto": 125,
+      "seuil_a_verso": 126,
+      "pixels_verts_region_verso": 291190,
+      "deplacements_x": {
+        "-500": {
+          "pixels_predits": 228942,
+          "pixels_communs": 66311,
+          "couverture": 0.2896410444566746
+        },
+        "-250": {
+          "pixels_predits": 228942,
+          "pixels_communs": 129506,
+          "couverture": 0.5656716548296075
+        },
+        "0": {
+          "pixels_predits": 228941,
+          "pixels_communs": 205824,
+          "couverture": 0.8990263867109867
+        },
+        "250": {
+          "pixels_predits": 228941,
+          "pixels_communs": 147296,
+          "couverture": 0.6433797353903408
+        },
+        "500": {
+          "pixels_predits": 228942,
+          "pixels_communs": 104439,
+          "couverture": 0.45618104148649
+        }
+      }
+    },
+    {
+      "seuil_a_recto": 127,
+      "seuil_a_verso": 128,
+      "pixels_verts_region_verso": 323812,
+      "deplacements_x": {
+        "-500": {
+          "pixels_predits": 236648,
+          "pixels_communs": 76721,
+          "couverture": 0.32419881004698964
+        },
+        "-250": {
+          "pixels_predits": 236648,
+          "pixels_communs": 146096,
+          "couverture": 0.6173557351002332
+        },
+        "0": {
+          "pixels_predits": 236648,
+          "pixels_communs": 226439,
+          "couverture": 0.956859977688381
+        },
+        "250": {
+          "pixels_predits": 236648,
+          "pixels_communs": 161787,
+          "couverture": 0.6836609648084919
+        },
+        "500": {
+          "pixels_predits": 236648,
+          "pixels_communs": 117360,
+          "couverture": 0.4959264392684493
+        }
+      }
+    }
+  ],
+  "complement_suggere_apres_inspection": {
+    "feuille_dentee_basse": [
+      {
+        "seuil_a_recto": 123,
+        "seuil_a_verso": 124,
+        "pixels_verts_region_verso": 139974,
+        "deplacements_x": {
+          "-500": {
+            "pixels_predits": 28287,
+            "pixels_communs": 7143,
+            "couverture": 0.2525188249018984
+          },
+          "-250": {
+            "pixels_predits": 28287,
+            "pixels_communs": 8103,
+            "couverture": 0.28645667621168736
+          },
+          "0": {
+            "pixels_predits": 28287,
+            "pixels_communs": 15806,
+            "couverture": 0.558772581044296
+          },
+          "250": {
+            "pixels_predits": 28287,
+            "pixels_communs": 736,
+            "couverture": 0.02601901933750486
+          },
+          "500": {
+            "pixels_predits": 28287,
+            "pixels_communs": 608,
+            "couverture": 0.021493972496199668
+          }
+        }
+      },
+      {
+        "seuil_a_recto": 125,
+        "seuil_a_verso": 126,
+        "pixels_verts_region_verso": 264363,
+        "deplacements_x": {
+          "-500": {
+            "pixels_predits": 29063,
+            "pixels_communs": 15929,
+            "couverture": 0.5480851942332174
+          },
+          "-250": {
+            "pixels_predits": 29063,
+            "pixels_communs": 15457,
+            "couverture": 0.5318446134260055
+          },
+          "0": {
+            "pixels_predits": 29063,
+            "pixels_communs": 25040,
+            "couverture": 0.8615765750266662
+          },
+          "250": {
+            "pixels_predits": 29063,
+            "pixels_communs": 1970,
+            "couverture": 0.0677837800639989
+          },
+          "500": {
+            "pixels_predits": 29063,
+            "pixels_communs": 723,
+            "couverture": 0.024876991363589444
+          }
+        }
+      },
+      {
+        "seuil_a_recto": 127,
+        "seuil_a_verso": 128,
+        "pixels_verts_region_verso": 289285,
+        "deplacements_x": {
+          "-500": {
+            "pixels_predits": 30163,
+            "pixels_communs": 19991,
+            "couverture": 0.6627656400225441
+          },
+          "-250": {
+            "pixels_predits": 30163,
+            "pixels_communs": 18128,
+            "couverture": 0.6010012266684348
+          },
+          "0": {
+            "pixels_predits": 30160,
+            "pixels_communs": 27202,
+            "couverture": 0.9019230769230769
+          },
+          "250": {
+            "pixels_predits": 30161,
+            "pixels_communs": 2518,
+            "couverture": 0.08348529558038527
+          },
+          "500": {
+            "pixels_predits": 30163,
+            "pixels_communs": 865,
+            "couverture": 0.028677518814441534
+          }
+        }
+      }
+    ],
+    "feuille_dentee_haute": [
+      {
+        "seuil_a_recto": 123,
+        "seuil_a_verso": 124,
+        "pixels_verts_region_verso": 139974,
+        "deplacements_x": {
+          "-500": {
+            "pixels_predits": 27181,
+            "pixels_communs": 9514,
+            "couverture": 0.3500239137632905
+          },
+          "-250": {
+            "pixels_predits": 27181,
+            "pixels_communs": 2374,
+            "couverture": 0.08734042161804201
+          },
+          "0": {
+            "pixels_predits": 27181,
+            "pixels_communs": 16617,
+            "couverture": 0.6113461609212317
+          },
+          "250": {
+            "pixels_predits": 27181,
+            "pixels_communs": 0,
+            "couverture": 0.0
+          },
+          "500": {
+            "pixels_predits": 27180,
+            "pixels_communs": 4281,
+            "couverture": 0.1575055187637969
+          }
+        }
+      },
+      {
+        "seuil_a_recto": 125,
+        "seuil_a_verso": 126,
+        "pixels_verts_region_verso": 264363,
+        "deplacements_x": {
+          "-500": {
+            "pixels_predits": 27977,
+            "pixels_communs": 27155,
+            "couverture": 0.9706187225220717
+          },
+          "-250": {
+            "pixels_predits": 27977,
+            "pixels_communs": 3485,
+            "couverture": 0.12456660828537727
+          },
+          "0": {
+            "pixels_predits": 27977,
+            "pixels_communs": 25140,
+            "couverture": 0.8985952746899238
+          },
+          "250": {
+            "pixels_predits": 27977,
+            "pixels_communs": 0,
+            "couverture": 0.0
+          },
+          "500": {
+            "pixels_predits": 27977,
+            "pixels_communs": 5155,
+            "couverture": 0.18425849805197125
+          }
+        }
+      },
+      {
+        "seuil_a_recto": 127,
+        "seuil_a_verso": 128,
+        "pixels_verts_region_verso": 289285,
+        "deplacements_x": {
+          "-500": {
+            "pixels_predits": 29222,
+            "pixels_communs": 29222,
+            "couverture": 1.0
+          },
+          "-250": {
+            "pixels_predits": 29222,
+            "pixels_communs": 4468,
+            "couverture": 0.15289850112928616
+          },
+          "0": {
+            "pixels_predits": 29221,
+            "pixels_communs": 26830,
+            "couverture": 0.9181752848978474
+          },
+          "250": {
+            "pixels_predits": 29221,
+            "pixels_communs": 0,
+            "couverture": 0.0
+          },
+          "500": {
+            "pixels_predits": 29221,
+            "pixels_communs": 6089,
+            "couverture": 0.20837753670305603
+          }
+        }
+      }
+    ]
+  }
+}

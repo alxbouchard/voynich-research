@@ -1,0 +1,169 @@
+{
+  "coordinate_system": "x, y en pixels natifs, origine haut gauche. Recto déjà retourné (9077 moins x original).",
+  "recto": {
+    "oid": "1006233",
+    "size": [
+      9078,
+      3777
+    ],
+    "sha256": "3b553c70d0c068cb39a276d391127165c5d9d868ec08e7f5eb2e73b32bb95d1e"
+  },
+  "verso": {
+    "size": [
+      4204,
+      3809
+    ],
+    "sha256": "b6b0dd8ba7cd316f3b09a8b156d1eed0eb36ad8ec9086b975969f4f8f7dd5406",
+    "oid": "1006234"
+  },
+  "training": [
+    {
+      "nom": "Coin supérieur gauche de la feuille active",
+      "recto_miroir": [
+        122,
+        216
+      ],
+      "verso": [
+        120,
+        286
+      ]
+    },
+    {
+      "nom": "Coin inférieur gauche de la feuille active",
+      "recto_miroir": [
+        376,
+        3647
+      ],
+      "verso": [
+        459,
+        3722
+      ]
+    },
+    {
+      "nom": "Pointe supérieure de la grande encoche au bord inférieur",
+      "recto_miroir": [
+        1696,
+        3619
+      ],
+      "verso": [
+        1781,
+        3664
+      ]
+    },
+    {
+      "nom": "Premier grand trou ovale au-dessus de la couture",
+      "recto_miroir": [
+        2581,
+        1802
+      ],
+      "verso": [
+        2659,
+        1822
+      ]
+    }
+  ],
+  "reserve": [
+    {
+      "nom": "Décrochement du bord gauche, angle au-dessus de la petite marche",
+      "recto_miroir": [
+        177,
+        3187
+      ],
+      "verso": [
+        245,
+        3270
+      ]
+    },
+    {
+      "nom": "Coin du premier trou triangulaire au début de la couture",
+      "recto_miroir": [
+        2507,
+        1808
+      ],
+      "verso": [
+        2587,
+        1830
+      ]
+    },
+    {
+      "nom": "Extrémité droite de la fente cousue",
+      "recto_miroir": [
+        2804,
+        1818
+      ],
+      "verso": [
+        2881,
+        1837
+      ]
+    },
+    {
+      "nom": "Seconde petite entaille du bord inférieur vers la droite",
+      "recto_miroir": [
+        2105,
+        3666
+      ],
+      "verso": [
+        2221,
+        3676
+      ]
+    }
+  ],
+  "bord_superieur": [
+    {
+      "recto_miroir": [
+        1300,
+        208
+      ],
+      "x_verso_lu": 1319,
+      "y_verso_lu": 245
+    },
+    {
+      "recto_miroir": [
+        1800,
+        188
+      ],
+      "x_verso_lu": 1827,
+      "y_verso_lu": 231
+    },
+    {
+      "recto_miroir": [
+        2200,
+        180
+      ],
+      "x_verso_lu": 2233,
+      "y_verso_lu": 213
+    }
+  ],
+  "region_grande_couronne_recto_miroir": [
+    1470,
+    155,
+    2430,
+    640
+  ],
+  "region_recherche_verso": [
+    930,
+    185,
+    3010,
+    680
+  ],
+  "apres_inspection_petites_feuilles_recto_miroir": {
+    "feuille_dentee_basse": [
+      2394,
+      376,
+      2626,
+      588
+    ],
+    "feuille_dentee_haute": [
+      2600,
+      224,
+      2830,
+      439
+    ]
+  },
+  "region_recherche_feuilles_verso": [
+    1800,
+    150,
+    3500,
+    780
+  ]
+}
