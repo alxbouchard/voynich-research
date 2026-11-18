@@ -1,0 +1,1807 @@
+{
+ "source_sha256": "ebe5e0c5a9eb6ac7e2cfc840d5f4be87b85bf9933c979bec8cb69a66d5e4727d",
+ "temoin_macer": {
+  "source_sha256": "588ce763b6194f18b5aae2c8976052bc165b57a7aefa25310d35060175c45bc4",
+  "lemmes": {
+   "radix": {
+    "emplois": 67,
+    "formes": [
+     "radice",
+     "radicem",
+     "radices",
+     "radicibus",
+     "radicis",
+     "radicum",
+     "radix"
+    ],
+    "notices": 29,
+    "paires_dans_toutes_les_formes": [
+     "ad",
+     "di",
+     "ra"
+    ]
+   },
+   "folium": {
+    "emplois": 39,
+    "formes": [
+     "foliis",
+     "foliorum",
+     "foliumve"
+    ],
+    "notices": 23,
+    "paires_dans_toutes_les_formes": [
+     "fo",
+     "li",
+     "ol"
+    ]
+   },
+   "flos": {
+    "emplois": 26,
+    "formes": [
+     "flore",
+     "florem",
+     "flores",
+     "floribus",
+     "floris",
+     "florum",
+     "flos"
+    ],
+    "notices": 12,
+    "paires_dans_toutes_les_formes": [
+     "fl",
+     "lo"
+    ]
+   }
+  }
+ },
+ "etiquettes": 445,
+ "feuillets": 19,
+ "essais": {
+  "1_signes_4_lieux": {
+   "Ls": {
+    "feuillets": [
+     67,
+     68
+    ],
+    "etiquettes": 48,
+    "meilleur_minimum": [
+     40,
+     43
+    ],
+    "motifs_communs": 11,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o"
+      ],
+      "par_feuillet": {
+       "67": [
+        5,
+        5
+       ],
+       "68": [
+        40,
+        43
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        45,
+        48
+       ],
+       "Lf": [
+        116,
+        130
+       ],
+       "Ln": [
+        35,
+        47
+       ],
+       "Lz": [
+        151,
+        171
+       ],
+       "Lt": [
+        28,
+        31
+       ],
+       "Lc": [
+        16,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lf": {
+    "feuillets": [
+     88,
+     89,
+     99,
+     100,
+     101,
+     102
+    ],
+    "etiquettes": 130,
+    "meilleur_minimum": [
+     18,
+     23
+    ],
+    "motifs_communs": 10,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o"
+      ],
+      "par_feuillet": {
+       "88": [
+        16,
+        17
+       ],
+       "89": [
+        21,
+        24
+       ],
+       "99": [
+        33,
+        37
+       ],
+       "100": [
+        18,
+        23
+       ],
+       "101": [
+        10,
+        10
+       ],
+       "102": [
+        18,
+        19
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        45,
+        48
+       ],
+       "Lf": [
+        116,
+        130
+       ],
+       "Ln": [
+        35,
+        47
+       ],
+       "Lz": [
+        151,
+        171
+       ],
+       "Lt": [
+        28,
+        31
+       ],
+       "Lc": [
+        16,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        88,
+        89,
+        99
+       ],
+       "cible": [
+        70,
+        78
+       ],
+       "temoin": [
+        16,
+        18
+       ],
+       "type_temoin": "Lc"
+      }
+     }
+    ]
+   },
+   "Ln": {
+    "feuillets": [
+     75,
+     80,
+     82,
+     84
+    ],
+    "etiquettes": 43,
+    "meilleur_minimum": [
+     1,
+     2
+    ],
+    "motifs_communs": 7,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o"
+      ],
+      "par_feuillet": {
+       "75": [
+        9,
+        18
+       ],
+       "80": [
+        7,
+        7
+       ],
+       "82": [
+        11,
+        11
+       ],
+       "84": [
+        5,
+        7
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        45,
+        48
+       ],
+       "Lf": [
+        116,
+        130
+       ],
+       "Ln": [
+        35,
+        47
+       ],
+       "Lz": [
+        151,
+        171
+       ],
+       "Lt": [
+        28,
+        31
+       ],
+       "Lc": [
+        16,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        75,
+        82
+       ],
+       "cible": [
+        20,
+        29
+       ],
+       "temoin": [
+        10,
+        11
+       ],
+       "type_temoin": "Lt"
+      }
+     }
+    ]
+   },
+   "Lz": {
+    "feuillets": [
+     70,
+     71,
+     72,
+     73
+    ],
+    "etiquettes": 171,
+    "meilleur_minimum": [
+     28,
+     39
+    ],
+    "motifs_communs": 14,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o"
+      ],
+      "par_feuillet": {
+       "70": [
+        22,
+        23
+       ],
+       "71": [
+        17,
+        18
+       ],
+       "72": [
+        84,
+        91
+       ],
+       "73": [
+        28,
+        39
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        45,
+        48
+       ],
+       "Lf": [
+        116,
+        130
+       ],
+       "Ln": [
+        35,
+        47
+       ],
+       "Lz": [
+        151,
+        171
+       ],
+       "Lt": [
+        28,
+        31
+       ],
+       "Lc": [
+        16,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lt": {
+    "feuillets": [
+     75,
+     77,
+     78,
+     82,
+     83
+    ],
+    "etiquettes": 30,
+    "meilleur_minimum": [
+     3,
+     4
+    ],
+    "motifs_communs": 4,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o"
+      ],
+      "par_feuillet": {
+       "75": [
+        4,
+        5
+       ],
+       "77": [
+        8,
+        9
+       ],
+       "78": [
+        3,
+        4
+       ],
+       "82": [
+        6,
+        6
+       ],
+       "83": [
+        6,
+        6
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        45,
+        48
+       ],
+       "Lf": [
+        116,
+        130
+       ],
+       "Ln": [
+        35,
+        47
+       ],
+       "Lz": [
+        151,
+        171
+       ],
+       "Lt": [
+        28,
+        31
+       ],
+       "Lc": [
+        16,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lc": {
+    "feuillets": [
+     88,
+     89,
+     99
+    ],
+    "etiquettes": 18,
+    "meilleur_minimum": [
+     4,
+     5
+    ],
+    "motifs_communs": 8,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o"
+      ],
+      "par_feuillet": {
+       "88": [
+        4,
+        5
+       ],
+       "89": [
+        7,
+        8
+       ],
+       "99": [
+        5,
+        5
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        45,
+        48
+       ],
+       "Lf": [
+        116,
+        130
+       ],
+       "Ln": [
+        35,
+        47
+       ],
+       "Lz": [
+        151,
+        171
+       ],
+       "Lt": [
+        28,
+        31
+       ],
+       "Lc": [
+        16,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   }
+  },
+  "2_signes_4_lieux": {
+   "Ls": {
+    "feuillets": [
+     67,
+     68
+    ],
+    "etiquettes": 48,
+    "meilleur_minimum": [
+     10,
+     43
+    ],
+    "motifs_communs": 14,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "t"
+      ],
+      "par_feuillet": {
+       "67": [
+        2,
+        5
+       ],
+       "68": [
+        10,
+        43
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        12,
+        48
+       ],
+       "Lf": [
+        26,
+        130
+       ],
+       "Ln": [
+        10,
+        47
+       ],
+       "Lz": [
+        45,
+        171
+       ],
+       "Lt": [
+        11,
+        31
+       ],
+       "Lc": [
+        3,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lf": {
+    "feuillets": [
+     88,
+     89,
+     99,
+     100,
+     101,
+     102
+    ],
+    "etiquettes": 130,
+    "meilleur_minimum": [
+     3,
+     17
+    ],
+    "motifs_communs": 9,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "l"
+      ],
+      "par_feuillet": {
+       "88": [
+        3,
+        17
+       ],
+       "89": [
+        6,
+        24
+       ],
+       "99": [
+        14,
+        37
+       ],
+       "100": [
+        8,
+        23
+       ],
+       "101": [
+        4,
+        10
+       ],
+       "102": [
+        4,
+        19
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        13,
+        48
+       ],
+       "Lf": [
+        39,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        30,
+        171
+       ],
+       "Lt": [
+        12,
+        31
+       ],
+       "Lc": [
+        4,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        88,
+        89,
+        99
+       ],
+       "cible": [
+        23,
+        78
+       ],
+       "temoin": [
+        4,
+        18
+       ],
+       "type_temoin": "Lc"
+      }
+     }
+    ]
+   },
+   "Ln": {
+    "feuillets": [
+     75,
+     80,
+     82,
+     84
+    ],
+    "etiquettes": 43,
+    "meilleur_minimum": [
+     1,
+     6
+    ],
+    "motifs_communs": 7,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "k"
+      ],
+      "par_feuillet": {
+       "75": [
+        3,
+        18
+       ],
+       "80": [
+        3,
+        7
+       ],
+       "82": [
+        5,
+        11
+       ],
+       "84": [
+        2,
+        7
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        9,
+        48
+       ],
+       "Lf": [
+        28,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        56,
+        171
+       ],
+       "Lt": [
+        7,
+        31
+       ],
+       "Lc": [
+        3,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        75,
+        82
+       ],
+       "cible": [
+        8,
+        29
+       ],
+       "temoin": [
+        1,
+        11
+       ],
+       "type_temoin": "Lt"
+      }
+     },
+     {
+      "unites": [
+       "o",
+       "l"
+      ],
+      "par_feuillet": {
+       "75": [
+        3,
+        18
+       ],
+       "80": [
+        3,
+        7
+       ],
+       "82": [
+        5,
+        11
+       ],
+       "84": [
+        3,
+        7
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        13,
+        48
+       ],
+       "Lf": [
+        39,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        30,
+        171
+       ],
+       "Lt": [
+        12,
+        31
+       ],
+       "Lc": [
+        4,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        75,
+        82
+       ],
+       "cible": [
+        8,
+        29
+       ],
+       "temoin": [
+        4,
+        11
+       ],
+       "type_temoin": "Lt"
+      }
+     }
+    ]
+   },
+   "Lz": {
+    "feuillets": [
+     70,
+     71,
+     72,
+     73
+    ],
+    "etiquettes": 171,
+    "meilleur_minimum": [
+     2,
+     9
+    ],
+    "motifs_communs": 22,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "k"
+      ],
+      "par_feuillet": {
+       "70": [
+        8,
+        23
+       ],
+       "71": [
+        4,
+        18
+       ],
+       "72": [
+        33,
+        91
+       ],
+       "73": [
+        11,
+        39
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        9,
+        48
+       ],
+       "Lf": [
+        28,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        56,
+        171
+       ],
+       "Lt": [
+        7,
+        31
+       ],
+       "Lc": [
+        3,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lt": {
+    "feuillets": [
+     75,
+     77,
+     78,
+     82,
+     83
+    ],
+    "etiquettes": 30,
+    "meilleur_minimum": [
+     0,
+     1
+    ],
+    "motifs_communs": 0,
+    "ex_aequo": []
+   },
+   "Lc": {
+    "feuillets": [
+     88,
+     89,
+     99
+    ],
+    "etiquettes": 18,
+    "meilleur_minimum": [
+     1,
+     4
+    ],
+    "motifs_communs": 4,
+    "ex_aequo": [
+     {
+      "unites": [
+       "a",
+       "l"
+      ],
+      "par_feuillet": {
+       "88": [
+        3,
+        5
+       ],
+       "89": [
+        2,
+        8
+       ],
+       "99": [
+        2,
+        5
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        5,
+        48
+       ],
+       "Lf": [
+        19,
+        130
+       ],
+       "Ln": [
+        11,
+        47
+       ],
+       "Lz": [
+        56,
+        171
+       ],
+       "Lt": [
+        7,
+        31
+       ],
+       "Lc": [
+        7,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   }
+  },
+  "3_signes_4_lieux": {
+   "Ls": {
+    "feuillets": [
+     67,
+     68
+    ],
+    "etiquettes": 48,
+    "meilleur_minimum": [
+     6,
+     43
+    ],
+    "motifs_communs": 8,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "d",
+       "a"
+      ],
+      "par_feuillet": {
+       "67": [
+        1,
+        5
+       ],
+       "68": [
+        6,
+        43
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        7,
+        48
+       ],
+       "Lf": [
+        4,
+        130
+       ],
+       "Ln": [
+        0,
+        47
+       ],
+       "Lz": [
+        3,
+        171
+       ],
+       "Lt": [
+        0,
+        31
+       ],
+       "Lc": [
+        0,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lf": {
+    "feuillets": [
+     88,
+     89,
+     99,
+     100,
+     101,
+     102
+    ],
+    "etiquettes": 130,
+    "meilleur_minimum": [
+     1,
+     24
+    ],
+    "motifs_communs": 1,
+    "ex_aequo": [
+     {
+      "unites": [
+       "k",
+       "o",
+       "l"
+      ],
+      "par_feuillet": {
+       "88": [
+        2,
+        17
+       ],
+       "89": [
+        1,
+        24
+       ],
+       "99": [
+        2,
+        37
+       ],
+       "100": [
+        1,
+        23
+       ],
+       "101": [
+        1,
+        10
+       ],
+       "102": [
+        1,
+        19
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        2,
+        48
+       ],
+       "Lf": [
+        8,
+        130
+       ],
+       "Ln": [
+        5,
+        47
+       ],
+       "Lz": [
+        6,
+        171
+       ],
+       "Lt": [
+        1,
+        31
+       ],
+       "Lc": [
+        1,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        88,
+        89,
+        99
+       ],
+       "cible": [
+        5,
+        78
+       ],
+       "temoin": [
+        1,
+        18
+       ],
+       "type_temoin": "Lc"
+      }
+     }
+    ]
+   },
+   "Ln": {
+    "feuillets": [
+     75,
+     80,
+     82,
+     84
+    ],
+    "etiquettes": 43,
+    "meilleur_minimum": [
+     1,
+     18
+    ],
+    "motifs_communs": 1,
+    "ex_aequo": [
+     {
+      "unites": [
+       "e",
+       "d",
+       "y"
+      ],
+      "par_feuillet": {
+       "75": [
+        1,
+        18
+       ],
+       "80": [
+        1,
+        7
+       ],
+       "82": [
+        2,
+        11
+       ],
+       "84": [
+        3,
+        7
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        2,
+        48
+       ],
+       "Lf": [
+        0,
+        130
+       ],
+       "Ln": [
+        8,
+        47
+       ],
+       "Lz": [
+        6,
+        171
+       ],
+       "Lt": [
+        5,
+        31
+       ],
+       "Lc": [
+        0,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        75,
+        82
+       ],
+       "cible": [
+        3,
+        29
+       ],
+       "temoin": [
+        4,
+        11
+       ],
+       "type_temoin": "Lt"
+      }
+     }
+    ]
+   },
+   "Lz": {
+    "feuillets": [
+     70,
+     71,
+     72,
+     73
+    ],
+    "etiquettes": 171,
+    "meilleur_minimum": [
+     2,
+     39
+    ],
+    "motifs_communs": 14,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "k",
+       "a"
+      ],
+      "par_feuillet": {
+       "70": [
+        3,
+        23
+       ],
+       "71": [
+        1,
+        18
+       ],
+       "72": [
+        17,
+        91
+       ],
+       "73": [
+        2,
+        39
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        1,
+        48
+       ],
+       "Lf": [
+        5,
+        130
+       ],
+       "Ln": [
+        7,
+        47
+       ],
+       "Lz": [
+        23,
+        171
+       ],
+       "Lt": [
+        4,
+        31
+       ],
+       "Lc": [
+        0,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     },
+     {
+      "unites": [
+       "o",
+       "t",
+       "a"
+      ],
+      "par_feuillet": {
+       "70": [
+        5,
+        23
+       ],
+       "71": [
+        6,
+        18
+       ],
+       "72": [
+        7,
+        91
+       ],
+       "73": [
+        2,
+        39
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        0,
+        48
+       ],
+       "Lf": [
+        7,
+        130
+       ],
+       "Ln": [
+        1,
+        47
+       ],
+       "Lz": [
+        20,
+        171
+       ],
+       "Lt": [
+        1,
+        31
+       ],
+       "Lc": [
+        1,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     },
+     {
+      "unites": [
+       "t",
+       "a",
+       "l"
+      ],
+      "par_feuillet": {
+       "70": [
+        5,
+        23
+       ],
+       "71": [
+        5,
+        18
+       ],
+       "72": [
+        5,
+        91
+       ],
+       "73": [
+        2,
+        39
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        0,
+        48
+       ],
+       "Lf": [
+        6,
+        130
+       ],
+       "Ln": [
+        1,
+        47
+       ],
+       "Lz": [
+        17,
+        171
+       ],
+       "Lt": [
+        1,
+        31
+       ],
+       "Lc": [
+        1,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lt": {
+    "feuillets": [
+     75,
+     77,
+     78,
+     82,
+     83
+    ],
+    "etiquettes": 30,
+    "meilleur_minimum": [
+     0,
+     1
+    ],
+    "motifs_communs": 0,
+    "ex_aequo": []
+   },
+   "Lc": {
+    "feuillets": [
+     88,
+     89,
+     99
+    ],
+    "etiquettes": 18,
+    "meilleur_minimum": [
+     1,
+     8
+    ],
+    "motifs_communs": 1,
+    "ex_aequo": [
+     {
+      "unites": [
+       "l",
+       "d",
+       "y"
+      ],
+      "par_feuillet": {
+       "88": [
+        1,
+        5
+       ],
+       "89": [
+        1,
+        8
+       ],
+       "99": [
+        2,
+        5
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        2,
+        48
+       ],
+       "Lf": [
+        6,
+        130
+       ],
+       "Ln": [
+        1,
+        47
+       ],
+       "Lz": [
+        7,
+        171
+       ],
+       "Lt": [
+        0,
+        31
+       ],
+       "Lc": [
+        4,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   }
+  },
+  "2_signes_1_lieux": {
+   "Ls": {
+    "feuillets": [
+     67,
+     68
+    ],
+    "etiquettes": 48,
+    "meilleur_minimum": [
+     10,
+     43
+    ],
+    "motifs_communs": 14,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "t"
+      ],
+      "par_feuillet": {
+       "67": [
+        2,
+        5
+       ],
+       "68": [
+        10,
+        43
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        12,
+        48
+       ],
+       "Lf": [
+        26,
+        130
+       ],
+       "Ln": [
+        10,
+        47
+       ],
+       "Lz": [
+        45,
+        171
+       ],
+       "Lt": [
+        11,
+        31
+       ],
+       "Lc": [
+        3,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lf": {
+    "feuillets": [
+     88,
+     89,
+     99,
+     100,
+     101,
+     102
+    ],
+    "etiquettes": 130,
+    "meilleur_minimum": [
+     3,
+     17
+    ],
+    "motifs_communs": 9,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "l"
+      ],
+      "par_feuillet": {
+       "88": [
+        3,
+        17
+       ],
+       "89": [
+        6,
+        24
+       ],
+       "99": [
+        14,
+        37
+       ],
+       "100": [
+        8,
+        23
+       ],
+       "101": [
+        4,
+        10
+       ],
+       "102": [
+        4,
+        19
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        13,
+        48
+       ],
+       "Lf": [
+        39,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        30,
+        171
+       ],
+       "Lt": [
+        12,
+        31
+       ],
+       "Lc": [
+        4,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        88,
+        89,
+        99
+       ],
+       "cible": [
+        23,
+        78
+       ],
+       "temoin": [
+        4,
+        18
+       ],
+       "type_temoin": "Lc"
+      }
+     }
+    ]
+   },
+   "Ln": {
+    "feuillets": [
+     75,
+     77,
+     80,
+     82,
+     83,
+     84
+    ],
+    "etiquettes": 47,
+    "meilleur_minimum": [
+     1,
+     9
+    ],
+    "motifs_communs": 1,
+    "ex_aequo": [
+     {
+      "unites": [
+       "d",
+       "y"
+      ],
+      "par_feuillet": {
+       "75": [
+        2,
+        18
+       ],
+       "77": [
+        2,
+        3
+       ],
+       "80": [
+        2,
+        7
+       ],
+       "82": [
+        3,
+        11
+       ],
+       "83": [
+        1,
+        1
+       ],
+       "84": [
+        4,
+        7
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        8,
+        48
+       ],
+       "Lf": [
+        17,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        32,
+        171
+       ],
+       "Lt": [
+        7,
+        31
+       ],
+       "Lc": [
+        5,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": {
+       "feuillets": [
+        75,
+        77,
+        82,
+        83,
+        84
+       ],
+       "cible": [
+        12,
+        40
+       ],
+       "temoin": [
+        6,
+        27
+       ],
+       "type_temoin": "Lt"
+      }
+     }
+    ]
+   },
+   "Lz": {
+    "feuillets": [
+     70,
+     71,
+     72,
+     73
+    ],
+    "etiquettes": 171,
+    "meilleur_minimum": [
+     2,
+     9
+    ],
+    "motifs_communs": 22,
+    "ex_aequo": [
+     {
+      "unites": [
+       "o",
+       "k"
+      ],
+      "par_feuillet": {
+       "70": [
+        8,
+        23
+       ],
+       "71": [
+        4,
+        18
+       ],
+       "72": [
+        33,
+        91
+       ],
+       "73": [
+        11,
+        39
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        9,
+        48
+       ],
+       "Lf": [
+        28,
+        130
+       ],
+       "Ln": [
+        14,
+        47
+       ],
+       "Lz": [
+        56,
+        171
+       ],
+       "Lt": [
+        7,
+        31
+       ],
+       "Lc": [
+        3,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   },
+   "Lt": {
+    "feuillets": [
+     75,
+     77,
+     78,
+     82,
+     83,
+     84
+    ],
+    "etiquettes": 31,
+    "meilleur_minimum": [
+     0,
+     1
+    ],
+    "motifs_communs": 0,
+    "ex_aequo": []
+   },
+   "Lc": {
+    "feuillets": [
+     88,
+     89,
+     99
+    ],
+    "etiquettes": 18,
+    "meilleur_minimum": [
+     1,
+     4
+    ],
+    "motifs_communs": 4,
+    "ex_aequo": [
+     {
+      "unites": [
+       "a",
+       "l"
+      ],
+      "par_feuillet": {
+       "88": [
+        3,
+        5
+       ],
+       "89": [
+        2,
+        8
+       ],
+       "99": [
+        2,
+        5
+       ]
+      },
+      "tous_lieux_admis_par_categorie": {
+       "Ls": [
+        5,
+        48
+       ],
+       "Lf": [
+        19,
+        130
+       ],
+       "Ln": [
+        11,
+        47
+       ],
+       "Lz": [
+        56,
+        171
+       ],
+       "Lt": [
+        7,
+        31
+       ],
+       "Lc": [
+        7,
+        18
+       ]
+      },
+      "comparaison_sur_memes_feuillets": null
+     }
+    ]
+   }
+  }
+ }
+}

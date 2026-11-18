@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Les mots des dessins et leur suite dans la prose](research/2026-11-18-d-initial-et-formules/RAPPORT.md) | Sur 48 légendes d’étoiles, 12 contiennent `ot`, également présent près de 26 fragments végétaux sur 130. Sous les figures de f84r, un modèle retrouve le mot masqué `qokedy`. Une clé qui lit trois mots de Celse échoue sur leur suite et sur 1 826 paires ailleurs. [Test des quatre noms communs](research/2026-11-18-d-initial-et-formules/objets/RAPPORT.md) |
 | [Peut-on distinguer le mot de la figure et le mot de l’étoile ?](research/2026-11-18-etoile-ou-figure/RAPPORT.md) | La place initiale de `dshedy`, inscrit près d’une figure, est confirmée aux cinq emplois de prose réservés. Les huit prédictions de mots voisins tirées d’Hygin échouent. |
 | [La finale des trois légendes de racines aide-t-elle à les lire ?](research/2026-11-18-dam-en-fin-de-ligne/RAPPORT.md) | En fin de ligne, une règle retrouve le signe caché dans 25 cas sur 34 du dernier cahier. Deux clés latines compatibles avec les trois étiquettes échouent sur les paires de mots de la prose. |
 | [Quels signes permettent de prévoir une racine fourchue ?](research/2026-11-18-racines-fourchues/RAPPORT.md) | Après `oldam` et `saldam`, la finale commune prédit correctement les deux bras du fragment 113 près de `doldam`. Deux dessins du rang sur cinq ont cette forme. Dans la prose, `oldam` figure aussi sur deux pages dont les racines ont plus de deux bras. |
