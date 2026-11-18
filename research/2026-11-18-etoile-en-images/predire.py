@@ -93,7 +93,14 @@ def main():
         for cut in ('joints','separes'):
             r[ed][cut] = radial_prediction(rows,cut)
             q[ed][cut] = quire(rows,faces,cut)
-    out={'rayons':r,'paires_marge':comparison(q),'faces':sorted(faces),'exposition':{}}
+    counts = {}
+    for ed,rows in eds.items():
+        counts[ed] = {}
+        for cut in ('joints','separes'):
+            counts[ed][cut] = {loc:{'groupes':tokens(raw,cut),'nombre':len(tokens(raw,cut))}
+                                for loc,(page,kind,_,raw) in rows.items() if page=='f67r1' and kind=='Ri'}
+            assert len(counts[ed][cut]) == 12
+    out={'multiplicite':counts,'rayons':r,'paires_marge':comparison(q),'faces':sorted(faces),'exposition':{}}
     for ed,convs in q.items():
         for cut,ps in convs.items():
             out['exposition'][ed+'_'+cut] = {
