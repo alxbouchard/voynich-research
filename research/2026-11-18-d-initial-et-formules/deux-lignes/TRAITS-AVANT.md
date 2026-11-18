@@ -1,0 +1,3 @@
+# Prédiction supplémentaire indépendante de l’espace
+
+À f108r.20, l’annonce principale s’abstient aux quatrième et cinquième mots. Takahashi lit `chol.cheey`, Zandbergen–Landini `cholcheey` après le troisième mot. Les deux s’accordent sur l’ordre de tous les signes. Avant d’ouvrir la suite de f116r.17, prédire **la suite entière des unités ch, o, l, ch, e, e, y** immédiatement après `dain chey qokeey`, avec un espace facultatif seulement après l. Une concordance du seul premier signe ne suffit pas. Comparer aussi les deux lectures de la séparation sur le cliché de la ligne source et à des espaces voisins du même scribe.
