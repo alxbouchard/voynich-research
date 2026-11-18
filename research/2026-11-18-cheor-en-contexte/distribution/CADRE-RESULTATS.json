@@ -1,0 +1,1239 @@
+{
+  "depart": {
+    "panneaux": [
+      "f102v2"
+    ],
+    "1": {
+      "cheor": {
+        "f102v2.32": 1,
+        "f102v2.33": 1,
+        "f102v2.39": 1
+      },
+      "cheor_avec_voisin": 2,
+      "cheor_avec_voisin_admissible": 2,
+      "par_cote": {
+        "gauche": {
+          "lus": 2,
+          "admissibles": 2,
+          "reprises": 0
+        },
+        "droite": {
+          "lus": 1,
+          "admissibles": 1,
+          "reprises": 0
+        }
+      },
+      "voisins": [
+        {
+          "panneau": "f102v2",
+          "lieu": "f102v2.32",
+          "cote": "gauche",
+          "sequence": [
+            "dar",
+            "cheor"
+          ],
+          "voisin": "dar",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v2",
+          "lieu": "f102v2.39",
+          "cote": "gauche",
+          "sequence": [
+            "yotaiin",
+            "cheor"
+          ],
+          "voisin": "yotaiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v2",
+          "lieu": "f102v2.39",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "cheekey"
+          ],
+          "voisin": "cheekey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        }
+      ],
+      "reprises": 0,
+      "feuillets_reprises": [],
+      "histogramme": {
+        "0": 1
+      },
+      "au_moins_observe": 1,
+      "permutations": 1,
+      "p": "1"
+    },
+    "2": {
+      "cheor": {
+        "f102v2.32": 1,
+        "f102v2.33": 1,
+        "f102v2.39": 1
+      },
+      "cheor_avec_voisin": 1,
+      "cheor_avec_voisin_admissible": 1,
+      "par_cote": {
+        "gauche": {
+          "lus": 0,
+          "admissibles": 0,
+          "reprises": 0
+        },
+        "droite": {
+          "lus": 1,
+          "admissibles": 1,
+          "reprises": 0
+        }
+      },
+      "voisins": [
+        {
+          "panneau": "f102v2",
+          "lieu": "f102v2.39",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "cheekey",
+            "orain"
+          ],
+          "voisin": "orain",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        }
+      ],
+      "reprises": 0,
+      "feuillets_reprises": [],
+      "histogramme": {
+        "0": 1
+      },
+      "au_moins_observe": 1,
+      "permutations": 1,
+      "p": "1"
+    }
+  },
+  "transfert": {
+    "panneaux": [
+      "f100r",
+      "f100v",
+      "f101v",
+      "f102r1",
+      "f102r2",
+      "f102v1",
+      "f88r",
+      "f88v",
+      "f89r1",
+      "f89r2",
+      "f89v1",
+      "f89v2",
+      "f99r",
+      "f99v"
+    ],
+    "1": {
+      "cheor": {
+        "f100v.20": 1,
+        "f101v.23": 1,
+        "f101v.26": 1,
+        "f102v1.12": 1,
+        "f102v1.14": 1,
+        "f102v1.8": 1,
+        "f88r.22": 1,
+        "f88r.30": 1,
+        "f88v.21": 1,
+        "f88v.26": 1,
+        "f89r2.26": 1,
+        "f89r2.27": 1,
+        "f89r2.8": 1,
+        "f89v2.9": 1
+      },
+      "cheor_avec_voisin": 13,
+      "cheor_avec_voisin_admissible": 12,
+      "par_cote": {
+        "gauche": {
+          "lus": 10,
+          "admissibles": 10,
+          "reprises": 1
+        },
+        "droite": {
+          "lus": 9,
+          "admissibles": 6,
+          "reprises": 0
+        }
+      },
+      "voisins": [
+        {
+          "panneau": "f100v",
+          "lieu": "f100v.20",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol"
+          ],
+          "voisin": "ol",
+          "n": 1,
+          "admissible": false,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f101v",
+          "lieu": "f101v.23",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "okeey"
+          ],
+          "voisin": "okeey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f101v",
+          "lieu": "f101v.26",
+          "cote": "gauche",
+          "sequence": [
+            "qokeody",
+            "cheor"
+          ],
+          "voisin": "qokeody",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v1",
+          "lieu": "f102v1.14",
+          "cote": "gauche",
+          "sequence": [
+            "chor",
+            "cheor"
+          ],
+          "voisin": "chor",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f99v": [
+              "f99v.28"
+            ]
+          },
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v1",
+          "lieu": "f102v1.14",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ckhey"
+          ],
+          "voisin": "ckhey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v1",
+          "lieu": "f102v1.8",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "qokey"
+          ],
+          "voisin": "qokey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "gauche",
+          "sequence": [
+            "chol",
+            "cheor"
+          ],
+          "voisin": "chol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol"
+          ],
+          "voisin": "ol",
+          "n": 1,
+          "admissible": false,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.30",
+          "cote": "gauche",
+          "sequence": [
+            "ykeeey",
+            "cheor"
+          ],
+          "voisin": "ykeeey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.30",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "cheotey"
+          ],
+          "voisin": "cheotey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.21",
+          "cote": "gauche",
+          "sequence": [
+            "dam",
+            "cheor"
+          ],
+          "voisin": "dam",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.26",
+          "cote": "gauche",
+          "sequence": [
+            "choky",
+            "cheor"
+          ],
+          "voisin": "choky",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.26",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "shy"
+          ],
+          "voisin": "shy",
+          "n": 1,
+          "admissible": false,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.26",
+          "cote": "gauche",
+          "sequence": [
+            "dol",
+            "cheor"
+          ],
+          "voisin": "dol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.27",
+          "cote": "gauche",
+          "sequence": [
+            "qokol",
+            "cheor"
+          ],
+          "voisin": "qokol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.27",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "okoiin"
+          ],
+          "voisin": "okoiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.8",
+          "cote": "gauche",
+          "sequence": [
+            "qody",
+            "cheor"
+          ],
+          "voisin": "qody",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "gauche",
+          "sequence": [
+            "chody",
+            "cheor"
+          ],
+          "voisin": "chody",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f89v2": [
+              "f89v2.12"
+            ]
+          },
+          "correspondance_locale": true
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "chey"
+          ],
+          "voisin": "chey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        }
+      ],
+      "reprises": 1,
+      "feuillets_reprises": [
+        "f89"
+      ],
+      "histogramme": {
+        "0": 21168000,
+        "1": 7257600,
+        "2": 604800
+      },
+      "au_moins_observe": 7862400,
+      "permutations": 29030400,
+      "p": "13/48"
+    },
+    "2": {
+      "cheor": {
+        "f100v.20": 1,
+        "f101v.23": 1,
+        "f101v.26": 1,
+        "f102v1.12": 1,
+        "f102v1.14": 1,
+        "f102v1.8": 1,
+        "f88r.22": 1,
+        "f88r.30": 1,
+        "f88v.21": 1,
+        "f88v.26": 1,
+        "f89r2.26": 1,
+        "f89r2.27": 1,
+        "f89r2.8": 1,
+        "f89v2.9": 1
+      },
+      "cheor_avec_voisin": 12,
+      "cheor_avec_voisin_admissible": 12,
+      "par_cote": {
+        "gauche": {
+          "lus": 7,
+          "admissibles": 7,
+          "reprises": 0
+        },
+        "droite": {
+          "lus": 7,
+          "admissibles": 7,
+          "reprises": 0
+        }
+      },
+      "voisins": [
+        {
+          "panneau": "f100v",
+          "lieu": "f100v.20",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol",
+            "chockhar"
+          ],
+          "voisin": "chockhar",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f101v",
+          "lieu": "f101v.26",
+          "cote": "gauche",
+          "sequence": [
+            "qoor",
+            "qokeody",
+            "cheor"
+          ],
+          "voisin": "qoor",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v1",
+          "lieu": "f102v1.14",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ckhey",
+            "oteol"
+          ],
+          "voisin": "oteol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f100r": [
+              "f100r.20"
+            ]
+          },
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f102v1",
+          "lieu": "f102v1.8",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "qokey",
+            "choky"
+          ],
+          "voisin": "choky",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f99r": [
+              "f99r.23"
+            ]
+          },
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "gauche",
+          "sequence": [
+            "okaiin",
+            "chol",
+            "cheor"
+          ],
+          "voisin": "okaiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f88v": [
+              "f88v.14"
+            ]
+          },
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol",
+            "chorcholsal"
+          ],
+          "voisin": "chorcholsal",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.30",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "cheotey",
+            "cheol"
+          ],
+          "voisin": "cheol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.21",
+          "cote": "gauche",
+          "sequence": [
+            "ykchey",
+            "dam",
+            "cheor"
+          ],
+          "voisin": "ykchey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.26",
+          "cote": "gauche",
+          "sequence": [
+            "saiin",
+            "choky",
+            "cheor"
+          ],
+          "voisin": "saiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.26",
+          "cote": "gauche",
+          "sequence": [
+            "sorcheey",
+            "dol",
+            "cheor"
+          ],
+          "voisin": "sorcheey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.27",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "okoiin",
+            "okeoy"
+          ],
+          "voisin": "okeoy",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.8",
+          "cote": "gauche",
+          "sequence": [
+            "cheoldy",
+            "qody",
+            "cheor"
+          ],
+          "voisin": "cheoldy",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "gauche",
+          "sequence": [
+            "dal",
+            "chody",
+            "cheor"
+          ],
+          "voisin": "dal",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "chey",
+            "qoaiin"
+          ],
+          "voisin": "qoaiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        }
+      ],
+      "reprises": 0,
+      "feuillets_reprises": [],
+      "histogramme": {
+        "0": 18144000,
+        "1": 9676800,
+        "2": 1209600
+      },
+      "au_moins_observe": 29030400,
+      "permutations": 29030400,
+      "p": "1"
+    }
+  },
+  "hors_feuillet_102": {
+    "panneaux": [
+      "f100r",
+      "f100v",
+      "f101v",
+      "f88r",
+      "f88v",
+      "f89r1",
+      "f89r2",
+      "f89v1",
+      "f89v2",
+      "f99r",
+      "f99v"
+    ],
+    "1": {
+      "cheor": {
+        "f100v.20": 1,
+        "f101v.23": 1,
+        "f101v.26": 1,
+        "f88r.22": 1,
+        "f88r.30": 1,
+        "f88v.21": 1,
+        "f88v.26": 1,
+        "f89r2.26": 1,
+        "f89r2.27": 1,
+        "f89r2.8": 1,
+        "f89v2.9": 1
+      },
+      "cheor_avec_voisin": 11,
+      "cheor_avec_voisin_admissible": 10,
+      "par_cote": {
+        "gauche": {
+          "lus": 9,
+          "admissibles": 9,
+          "reprises": 1
+        },
+        "droite": {
+          "lus": 7,
+          "admissibles": 4,
+          "reprises": 0
+        }
+      },
+      "voisins": [
+        {
+          "panneau": "f100v",
+          "lieu": "f100v.20",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol"
+          ],
+          "voisin": "ol",
+          "n": 1,
+          "admissible": false,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f101v",
+          "lieu": "f101v.23",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "okeey"
+          ],
+          "voisin": "okeey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f101v",
+          "lieu": "f101v.26",
+          "cote": "gauche",
+          "sequence": [
+            "qokeody",
+            "cheor"
+          ],
+          "voisin": "qokeody",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "gauche",
+          "sequence": [
+            "chol",
+            "cheor"
+          ],
+          "voisin": "chol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol"
+          ],
+          "voisin": "ol",
+          "n": 1,
+          "admissible": false,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.30",
+          "cote": "gauche",
+          "sequence": [
+            "ykeeey",
+            "cheor"
+          ],
+          "voisin": "ykeeey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.30",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "cheotey"
+          ],
+          "voisin": "cheotey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.21",
+          "cote": "gauche",
+          "sequence": [
+            "dam",
+            "cheor"
+          ],
+          "voisin": "dam",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.26",
+          "cote": "gauche",
+          "sequence": [
+            "choky",
+            "cheor"
+          ],
+          "voisin": "choky",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.26",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "shy"
+          ],
+          "voisin": "shy",
+          "n": 1,
+          "admissible": false,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.26",
+          "cote": "gauche",
+          "sequence": [
+            "dol",
+            "cheor"
+          ],
+          "voisin": "dol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.27",
+          "cote": "gauche",
+          "sequence": [
+            "qokol",
+            "cheor"
+          ],
+          "voisin": "qokol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.27",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "okoiin"
+          ],
+          "voisin": "okoiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.8",
+          "cote": "gauche",
+          "sequence": [
+            "qody",
+            "cheor"
+          ],
+          "voisin": "qody",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "gauche",
+          "sequence": [
+            "chody",
+            "cheor"
+          ],
+          "voisin": "chody",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f89v2": [
+              "f89v2.12"
+            ]
+          },
+          "correspondance_locale": true
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "chey"
+          ],
+          "voisin": "chey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        }
+      ],
+      "reprises": 1,
+      "feuillets_reprises": [
+        "f89"
+      ],
+      "histogramme": {
+        "0": 72000,
+        "1": 14400
+      },
+      "au_moins_observe": 14400,
+      "permutations": 86400,
+      "p": "1/6"
+    },
+    "2": {
+      "cheor": {
+        "f100v.20": 1,
+        "f101v.23": 1,
+        "f101v.26": 1,
+        "f88r.22": 1,
+        "f88r.30": 1,
+        "f88v.21": 1,
+        "f88v.26": 1,
+        "f89r2.26": 1,
+        "f89r2.27": 1,
+        "f89r2.8": 1,
+        "f89v2.9": 1
+      },
+      "cheor_avec_voisin": 10,
+      "cheor_avec_voisin_admissible": 10,
+      "par_cote": {
+        "gauche": {
+          "lus": 7,
+          "admissibles": 7,
+          "reprises": 0
+        },
+        "droite": {
+          "lus": 5,
+          "admissibles": 5,
+          "reprises": 0
+        }
+      },
+      "voisins": [
+        {
+          "panneau": "f100v",
+          "lieu": "f100v.20",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol",
+            "chockhar"
+          ],
+          "voisin": "chockhar",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f101v",
+          "lieu": "f101v.26",
+          "cote": "gauche",
+          "sequence": [
+            "qoor",
+            "qokeody",
+            "cheor"
+          ],
+          "voisin": "qoor",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "gauche",
+          "sequence": [
+            "okaiin",
+            "chol",
+            "cheor"
+          ],
+          "voisin": "okaiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {
+            "f88v": [
+              "f88v.14"
+            ]
+          },
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.22",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "ol",
+            "chorcholsal"
+          ],
+          "voisin": "chorcholsal",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88r",
+          "lieu": "f88r.30",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "cheotey",
+            "cheol"
+          ],
+          "voisin": "cheol",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.21",
+          "cote": "gauche",
+          "sequence": [
+            "ykchey",
+            "dam",
+            "cheor"
+          ],
+          "voisin": "ykchey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f88v",
+          "lieu": "f88v.26",
+          "cote": "gauche",
+          "sequence": [
+            "saiin",
+            "choky",
+            "cheor"
+          ],
+          "voisin": "saiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.26",
+          "cote": "gauche",
+          "sequence": [
+            "sorcheey",
+            "dol",
+            "cheor"
+          ],
+          "voisin": "sorcheey",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.27",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "okoiin",
+            "okeoy"
+          ],
+          "voisin": "okeoy",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89r2",
+          "lieu": "f89r2.8",
+          "cote": "gauche",
+          "sequence": [
+            "cheoldy",
+            "qody",
+            "cheor"
+          ],
+          "voisin": "cheoldy",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "gauche",
+          "sequence": [
+            "dal",
+            "chody",
+            "cheor"
+          ],
+          "voisin": "dal",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        },
+        {
+          "panneau": "f89v2",
+          "lieu": "f89v2.9",
+          "cote": "droite",
+          "sequence": [
+            "cheor",
+            "chey",
+            "qoaiin"
+          ],
+          "voisin": "qoaiin",
+          "n": 1,
+          "admissible": true,
+          "legendes_compatibles": {},
+          "correspondance_locale": false
+        }
+      ],
+      "reprises": 0,
+      "feuillets_reprises": [],
+      "histogramme": {
+        "0": 72000,
+        "1": 14400
+      },
+      "au_moins_observe": 86400,
+      "permutations": 86400,
+      "p": "1"
+    }
+  }
+}

@@ -1,0 +1,1158 @@
+{
+  "synthetique": {
+    "table_de_construction": {
+      "d": "pi",
+      "a": "c",
+      "r": "k",
+      "ch": "p",
+      "e": "e",
+      "o": "a",
+      "sh": "b",
+      "s": "t",
+      "l": "an",
+      "y": "r",
+      "t": "c",
+      "i": "o",
+      "n": "n",
+      "k": "l"
+    },
+    "essais": [
+      {
+        "edition": "H",
+        "cas": "positif",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "H",
+          "counts": {
+            "predicted_anywhere_right": 2,
+            "predicted_forward_right": 2,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "beak"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "peeler"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "predicted"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "positif",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "H",
+          "counts": {
+            "predicted_anywhere_right": 2,
+            "predicted_forward_right": 2,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "beak"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "peeler"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "predicted"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "droite_deplacee",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "pelere"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "H",
+          "counts": {
+            "control_anywhere_right": 2,
+            "control_forward_right": 2,
+            "control_anywhere_two_sides_keys": 1,
+            "control_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "beak"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "pelere"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "control"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "droite_deplacee",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "pelere"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "H",
+          "counts": {
+            "control_anywhere_right": 2,
+            "control_forward_right": 2,
+            "control_anywhere_two_sides_keys": 1,
+            "control_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "beak"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "pelere"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "control"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "gauche_alteree",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccogn",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "H",
+          "counts": {
+            "predicted_anywhere_right": 2,
+            "predicted_forward_right": 2
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "gauche_alteree",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccogn",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "H",
+          "counts": {
+            "predicted_anywhere_right": 2,
+            "predicted_forward_right": 2
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "milieu_altere",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "dog",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "H",
+          "counts": {
+            "predicted_anywhere_right": 2,
+            "predicted_forward_right": 2,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "H",
+        "cas": "milieu_altere",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "beak",
+          "then",
+          "peak",
+          "at",
+          "dog",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "beak"
+        ],
+        "tables_amorce": 2,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "H",
+          "counts": {
+            "predicted_anywhere_right": 2,
+            "predicted_forward_right": 2,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "positif",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "ZL",
+          "counts": {
+            "predicted_anywhere_right": 1,
+            "predicted_forward_right": 1,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "back"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "peeler"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "predicted"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "positif",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "ZL",
+          "counts": {
+            "predicted_anywhere_right": 1,
+            "predicted_forward_right": 1,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "back"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "peeler"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "predicted"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "droite_deplacee",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "pelere"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "ZL",
+          "counts": {
+            "control_anywhere_right": 1,
+            "control_forward_right": 1,
+            "control_anywhere_two_sides_keys": 1,
+            "control_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "back"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "pelere"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "control"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "droite_deplacee",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccoon",
+          "peak",
+          "pelere"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "ZL",
+          "counts": {
+            "control_anywhere_right": 1,
+            "control_forward_right": 1,
+            "control_anywhere_two_sides_keys": 1,
+            "control_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": [
+            {
+              "seed": [
+                "pick",
+                "peak",
+                "back"
+              ],
+              "section": "passage",
+              "centers": [
+                1,
+                4,
+                9
+              ],
+              "neighbors": [
+                "raccoon",
+                "peak",
+                "pelere"
+              ],
+              "middle": [
+                "at",
+                "can"
+              ],
+              "spelling": [
+                "os",
+                "al"
+              ],
+              "key": {
+                "ch": "p",
+                "e": "e",
+                "o": "a",
+                "r": "k",
+                "d": "pi",
+                "a": "c",
+                "sh": "b",
+                "k": "l",
+                "y": "r",
+                "t": "c",
+                "i": "o",
+                "n": "n",
+                "s": "t",
+                "l": "an"
+              },
+              "test": "control"
+            }
+          ]
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "gauche_alteree",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccogn",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "ZL",
+          "counts": {
+            "predicted_anywhere_right": 1,
+            "predicted_forward_right": 1
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "gauche_alteree",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "can",
+          "and",
+          "raccogn",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "ZL",
+          "counts": {
+            "predicted_anywhere_right": 1,
+            "predicted_forward_right": 1
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "milieu_altere",
+        "largeur": 2,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "dog",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 2,
+          "edition": "ZL",
+          "counts": {
+            "predicted_anywhere_right": 1,
+            "predicted_forward_right": 1,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": []
+        }
+      },
+      {
+        "edition": "ZL",
+        "cas": "milieu_altere",
+        "largeur": 3,
+        "passage": [
+          "pick",
+          "peak",
+          "back",
+          "then",
+          "peak",
+          "at",
+          "dog",
+          "and",
+          "raccoon",
+          "peak",
+          "peeler"
+        ],
+        "amorce": [
+          "pick",
+          "peak",
+          "back"
+        ],
+        "tables_amorce": 1,
+        "predictions_lexique": [
+          "peeler"
+        ],
+        "concurrent_lexique": [
+          "pelere"
+        ],
+        "verification": {
+          "width": 3,
+          "edition": "ZL",
+          "counts": {
+            "predicted_anywhere_right": 1,
+            "predicted_forward_right": 1,
+            "predicted_anywhere_two_sides_keys": 1,
+            "predicted_forward_two_sides_keys": 1
+          },
+          "local_three_occurrences": []
+        }
+      }
+    ]
+  },
+  "macer": {
+    "notice": "Artemisia",
+    "longueur": 184,
+    "rangs": [
+      27,
+      35,
+      141
+    ],
+    "amorce": [
+      "quae",
+      "dicitur",
+      "indeque"
+    ],
+    "vocabulaire_notice": 157,
+    "vocabulaire_autres_notices": 3874,
+    "radix_illustration_exploratoire": {
+      "rang": 136,
+      "chiffre": "NIPAY",
+      "cle_seule": "radi?",
+      "candidats_notice": [
+        "radix"
+      ],
+      "candidats_autres_notices": [
+        "radix"
+      ]
+    },
+    "rng": 102222,
+    "sha256_chiffre": "94dc0ec3f7cd159c17b4bc24c7f9bc6b8b1bd6e82b634d26530edca8e7577d89",
+    "contre_exemple_et_inverses": {
+      "propose": "te",
+      "compatible": false
+    },
+    "cle_apprise": {
+      "E": "q",
+      "C": "u",
+      "I": "a",
+      "F": "e",
+      "P": "d",
+      "A": "i",
+      "Q": "c",
+      "D": "t",
+      "N": "r",
+      "J": "n"
+    },
+    "triplets_reserves": [
+      [
+        {
+          "rang": 34,
+          "chiffre": "AJMFJDNAY",
+          "cle_seule": "in?entri?",
+          "candidats_notice": [
+            "inventrix"
+          ],
+          "candidats_autres_notices": [],
+          "devoile": "inventrix"
+        },
+        {
+          "rang": 35,
+          "chiffre": "PAQADCN",
+          "cle_seule": "dicitur",
+          "candidats_notice": [
+            "dicitur"
+          ],
+          "candidats_autres_notices": [
+            "dicitur"
+          ],
+          "devoile": "dicitur"
+        },
+        {
+          "rang": 36,
+          "chiffre": "FKCG",
+          "cle_seule": "e?u?",
+          "candidats_notice": [
+            "ejus"
+          ],
+          "candidats_autres_notices": [
+            "ejus"
+          ],
+          "devoile": "ejus"
+        }
+      ],
+      [
+        {
+          "rang": 140,
+          "chiffre": "NCUFDAG",
+          "cle_seule": "ru?eti?",
+          "candidats_notice": [
+            "rubetis"
+          ],
+          "candidats_autres_notices": [],
+          "devoile": "rubetis"
+        },
+        {
+          "rang": 141,
+          "chiffre": "PAQADCN",
+          "cle_seule": "dicitur",
+          "candidats_notice": [
+            "dicitur"
+          ],
+          "candidats_autres_notices": [
+            "dicitur"
+          ],
+          "devoile": "dicitur"
+        },
+        {
+          "rang": 142,
+          "chiffre": "FD",
+          "cle_seule": "et",
+          "candidats_notice": [
+            "et"
+          ],
+          "candidats_autres_notices": [
+            "et"
+          ],
+          "devoile": "et"
+        }
+      ]
+    ],
+    "lectures_entieres_hors_amorce": {
+      "ad": 1,
+      "atque": 1,
+      "aut": 1,
+      "ciet": 1,
+      "cruda": 1,
+      "cui": 1,
+      "dedit": 1,
+      "deducit": 1,
+      "diana": 1,
+      "dicitur": 2,
+      "et": 5,
+      "quia": 1,
+      "reddit": 1,
+      "tenet": 1,
+      "trita": 1
+    }
+  }
+}

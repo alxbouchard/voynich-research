@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Le mot sous le fragment 222](research/2026-11-18-cheor-en-contexte/RAPPORT.md) | Les trois reprises de cheor sont sous un autre récipient. Dans un herbier de 1485, une phrase distingue la racine de la plante. Les lectures proposées sur trois mots latins ou allemands échouent au mot de contrôle. |
 | [Le dessin de cheor et la phrase de f89r2](research/2026-11-18-phrase-et-doublets/RAPPORT.md) | Le mot de la légende se répète trois fois sur sa page. Deux lecteurs préfèrent un autre fragment, légendé opchy. Les lectures latines et allemandes de trois groupes échouent au quatrième, vérifié sur deux imprimés du XVe siècle. |
 | [Les mots près des plantes, des étoiles et des baigneuses](research/2026-11-18-finale-au-dessin/RAPPORT.md) | Même inscription près de deux baigneuses sur un même bifeuillet. Trois lectures zodiacales divergent selon l’édition. Dix tables pour « femme » aboutissent à zéro paire attestée dans le Macer sur 52 occurrences de prose. |
 | [Deux paires aux mêmes lignes et la formule « sa racine »](research/2026-11-18-racine-et-possessif/RAPPORT.md) | Les mêmes groupes occupent les lignes 3 et 5 de f11r et f15r. Les trois autres départs ne reproduisent pas la suite entière. Les six clés ajustées sur les mots latins échouent au groupe suivant de f15r. La prédiction sur la notice de l’ortie est confirmée par la copie de 1478. |
