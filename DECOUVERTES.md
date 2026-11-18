@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Abréviations en contexte sur un manuscrit connu](research/2026-11-18-formes-abregees/RAPPORT.md) | Dans le *Piers Plowman* de la Huntington Library, 1 développement exact sur 23 annonces. Les 22 autres allongent un mot déjà complet. Le seuil pour essayer cette règle sur le Voynich est manqué. |
 | [Peut-on prévoir le mot suivant à partir de deux racines dessinées ?](research/2026-11-18-dar-et-daiin/RAPPORT.md) | Aucune des 58 suites lisibles sur les autres feuillets ne donne le mot annoncé. Six rapprochements chez Celse retrouvent un premier voisin, mais leurs lectures divergent au retour de `daiin` sur f23r.7 lorsque la comparaison s’étend au paragraphe. |
 | [Deux racines, deux légendes et deux phrases au même endroit](research/2026-11-18-renvois-entre-plantes/RAPPORT.md) | À partir des dessins et des légendes, le groupe annoncé `dar` est retrouvé trois fois sur f23r. Sur deux grandes plantes du même bifeuillet, les mots 4 et 6 de la septième ligne se répètent. La séquence attendue échoue sur f14r. Aucune traduction validée. |
 | [Deux plantes à baies permettent de retrouver un mot dans deux panneaux](research/2026-11-18-opcheor-suite/RAPPORT.md) | `ctheol` apparaît au cinquième rang sur f99r et f100r, dans les deux panneaux annoncés ; les fragments portent deux autres légendes. La lecture « feuilles de violette » échoue au troisième mot. Une copie de 1478 inverse aussi deux mots de la formule de la rose testée sur f52v. |
