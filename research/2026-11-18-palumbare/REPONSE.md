@@ -1,0 +1,5 @@
+# Corrigé à ouvrir après la réponse du lecteur
+
+P10 correspond au f. 40r original (numéro 28 écrit en haut de la peinture, f. 40r dans la foliation de la bibliothèque), page 0083 du fac-similé. Le titre latin placé directement au-dessus du cadre porte *Balneū palumbare*, suivi d'une proposition mentionnant la *cripta*. Le poème en regard commence par la rubrique vernaculaire *de lo bagno de la grotta palombara*. La séquence des noms confirme le référent de la miniature même sans interpréter les oiseaux. [Rubrique vernaculaire, f. 39v](https://digi.vatlib.it/view/MSS_Ross.379/0082) · [Titre et peinture, f. 40r](https://digi.vatlib.it/view/MSS_Ross.379/0083) · [Photographie IIIF officielle](https://digi.vatlib.it/iiifimage/MSS_Ross.379/Ross.379_0083_fa_0040r.jp2/full/1200,/0/default.jpg)
+
+Le préparateur voit trois silhouettes d'oiseaux à la crête du rocher, à l'air libre. Le groupe de baigneurs au-dessous occupe une cavité. Cette observation du préparateur est faite en sachant le nom et ne constitue pas la réponse du ou des lecteurs. Juger séparément l'attribution de la peinture et l'exactitude du détail spatial fixé à l'avance.

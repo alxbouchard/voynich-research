@@ -1,0 +1,9 @@
+# Troisième témoin des bains de Pouzzoles
+
+**Rome, Biblioteca Angelica, manuscrit 1474.** Le projet Codex4D documente les déplacements de feuillets. Dans l'ouverture 9v–10r, le texte sur De Prato fait face à une illustration de Tripergula. Les chercheurs indiquent avoir numérisé en 4D trois ouvertures, 9v–10r, 12v–13r et 19v–20r. Ces données ne suffisent pas à attribuer ou à exclure une miniature de Palumbare dans le manuscrit conservé. [Notice du projet](https://codex4d.it/en/collection/de-balneis-en/) · [Publication de l'équipe](https://iris.cnr.it/retrieve/c6716237-00f2-4a19-9ff2-f16b4d52d849/heritage-07-00131.pdf)
+
+**Paris, BnF, Latin 8161.** La notice de la BnF décrit vingt-trois miniatures en pleine page et date le volume du milieu du XIVe siècle. Le service d'images de Gallica a retourné HTTP 403 lors de cette consultation. Nous n'avons pas utilisé ces vues pour le contrôle. [Notice](https://archivesetmanuscrits.bnf.fr/ark:/12148/cc67428r) · [Fac-similé](https://gallica.bnf.fr/ark:/12148/btv1b8454698g)
+
+**Cité du Vatican, Biblioteca Apostolica Vaticana, Ross.379.** Le manifeste de la bibliothèque date ce témoin du milieu du XIVe siècle et distingue deux ensembles, f. 2r–11r puis f. 12r–48r. Les cartes proviennent du second ensemble. Les images conservent le filigrane de la bibliothèque. Le lot des douze peintures appartenait à un même volume avant l'expérience. La comparaison porte sur la transmission illustrée d'un même texte, dont le lien généalogique précis entre ces copies reste ici indéterminé. [Fac-similé](https://digi.vatlib.it/view/MSS_Ross.379) · [Manifeste et cotes](https://digi.vatlib.it/iiif/MSS_Ross.379/manifest.json)
+
+La bibliothèque fournit les reproductions depuis son afficheur. La publication du projet de recherche peut réunir protocole, coordonnées de recadrage, empreintes, décisions et liens vers les originaux. Les JPEG et les planches de consultation restent dans le dossier local.

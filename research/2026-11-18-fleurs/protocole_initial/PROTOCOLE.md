@@ -1,0 +1,25 @@
+# Prédire une fleur visible à partir des signes de la prose
+
+Ce test cherche une forme écrite qui, apprise dans le cahier B, annoncerait la présence d'une fleur visible sur une face du cahier C. Une bonne prédiction permettrait d'examiner une association avec le dessin. Le nom de la fleur, sa couleur, la présence de pétales, les usages de la plante et les habitudes de copie sont des explications concurrentes d'une telle association.
+
+## Corpus et réponse visuelle
+
+Les deux fichiers IVTFF du dépôt sont IT2a-n.txt (Takahashi, H) et ZL3b-n.txt (Zandbergen–Landini, ZL). Les métadonnées seules délimitent 14 faces dans B (f9 à f16, f12 absent) et 16 dans C (f17 à f24). Elles doivent porter les attributs I=H, H=1, L=A et contenir de la prose P0 dans les deux éditions. La première moitié B est réservée à l'apprentissage du mot. Le lot C a une feuille physique et un cahier distincts. Deux lecteurs examinent les photos sans connaître les mots retenus par le modèle. On analyse les jugements oui ou non communs aux deux. Une hésitation de l'un ou un désaccord exclut la face des dénominateurs pour la vérité de référence. Toutes les exclusions et tous les jugements sont conservés. La proposition testée porte sur ce qui est dessiné et reconnaissable sur la photographie.
+
+## Lire la prose
+
+Prendre les quarante premières positions des seules lignes P0 de chaque face, ou toutes si la face en contient moins. Les positions incertaines ou comportant des signes complexes restent dans la limite de quarante et n'alimentent pas les comptages. Les séparateurs éditoriaux après interruption et les points délimitent les positions. L'analyse principale utilise H avec espaces incertains joints. La sensibilité répète l'expérience avec ZL joint, ainsi qu'avec les virgules séparées dans chaque édition. Une forme entière lisible est une suite de lettres EVA minuscules. Rapporter pour chaque face le nombre de positions et le nombre de mots utilisables.
+
+## Fixer la prédiction sans réponse de C
+
+Il faut des réponses visuelles concordantes sur au moins deux feuillets physiques différents dans chacune des deux classes d'apprentissage. Une forme candidate doit apparaître sur au moins deux faces positives de feuillets différents. Classer les formes admissibles selon la différence entre proportion des faces positives et proportion des faces négatives avec ce mot, puis selon le nombre de feuillets positifs distincts le contenant, puis alphabétiquement en EVA. Enregistrer les ex æquo avant le départage alphabétique. Une forme doit avoir une différence strictement positive pour être retenue. Pour chacune des 16 faces de C, prédire oui si ce mot y est présent dans la fenêtre fixée, non autrement. Si aucun mot ne satisfait les conditions, le modèle s'abstient sur tout le lot. Sauvegarder le mot et les prédictions (y compris celles de faces qui pourront avoir une image ambiguë) avant d'accéder au corrigé de C.
+
+A titre de comparaison prédéfini, classifier aussi les pages avec le modèle de vocabulaire entier utilisé dans l'expérience précédente sur l'herbier et les bains. Une probabilité multinomiale par classe est estimée sur les jetons d'apprentissage avec lissage +1 et prior égal. On somme les logarithmes pour les mots déjà vus. Aucun mot connu ou égalité à 1e-10 près entraîne une abstention. Le même minimum de deux feuillets par classe s'applique. Un résultat de ce modèle n'attribue de sens à aucun mot particulier.
+
+## Réponses, contrôles et limites
+
+Les matrices de confusion détaillent séparément les oui, les non et les abstentions. Rapporter les prédictions correctes sur toutes les faces concordantes, la couverture, le rappel des deux classes et leur moyenne lorsque toutes deux existent. Une abstention ne compte jamais comme réponse correcte. Le comparateur prédit partout la classe majoritaire d'apprentissage (non en cas d'égalité). Indiquer aussi les résultats des deux stratégies constantes oui et non pour rendre visible le déséquilibre des classes.
+
+Une vérification interne à chaque cahier met à l'écart tour à tour toutes les faces partageant Q et B (numéro de cahier et du bifeuillet). Modèle et vocabulaire sont réappris après chaque retrait. Il peut donc y avoir plusieurs candidats différents. Comptabiliser explicitement les cas ne laissant pas assez de données en apprentissage. Cette vérification peut sonder la sensibilité au parchemin sans constituer une reproduction indépendante de l'expérience B vers C.
+
+Pour l'épreuve principale B vers C seulement, calculer un contrôle conditionnel sur les feuillets de C dont les deux faces sont classées avec certitude et en sens opposés. Énumérer toutes les permutations qui échangent ou conservent ces deux réponses de référence, en gardant les autres réponses et les prédictions fixes. Donner la fraction des permutations atteignant le score observé et le nombre de couples informatifs. Si aucun couple ne peut varier le score, le contrôle est indéterminé. Cette comparaison conditionnelle ne teste que les différences entre les deux faces d'un même feuillet. Les petits effectifs et la sélection sur B seront considérés dans toute interprétation.

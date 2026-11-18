@@ -1,0 +1,2582 @@
+{
+  "H_joint": {
+    "B_vers_C": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 10
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "10": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 1.0
+        },
+        "reponses": 10
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      }
+    },
+    "exclusions": {
+      "B": {
+        "f13v": [
+          "incertain",
+          "incertain"
+        ],
+        "f14v": [
+          "incertain",
+          "oui"
+        ],
+        "f15v": [
+          "incertain",
+          "incertain"
+        ],
+        "f16r": [
+          "incertain",
+          "oui"
+        ],
+        "f9r": [
+          "incertain",
+          "oui"
+        ]
+      },
+      "C": {
+        "f17v": [
+          "incertain",
+          "incertain"
+        ],
+        "f19v": [
+          "incertain",
+          "incertain"
+        ],
+        "f20r": [
+          "incertain",
+          "incertain"
+        ],
+        "f21r": [
+          "incertain",
+          "incertain"
+        ],
+        "f22r": [
+          "incertain",
+          "oui"
+        ],
+        "f22v": [
+          "incertain",
+          "incertain"
+        ]
+      }
+    },
+    "interne": {
+      "B": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 9,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 9
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 9
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f16v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f9v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f10r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f10v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f15r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f11r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f11v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f14r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f13r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      },
+      "C": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 10,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 10
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 10
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f17r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f18r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f18v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 9
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f19r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f20v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f21v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sha256_avis_controle": "e3e813ae7d9eead5704c17bc54098a767ed380dc581085cee29b217a5259cd6c"
+  },
+  "H_separe": {
+    "B_vers_C": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 10
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "10": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 1.0
+        },
+        "reponses": 10
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      }
+    },
+    "exclusions": {
+      "B": {
+        "f13v": [
+          "incertain",
+          "incertain"
+        ],
+        "f14v": [
+          "incertain",
+          "oui"
+        ],
+        "f15v": [
+          "incertain",
+          "incertain"
+        ],
+        "f16r": [
+          "incertain",
+          "oui"
+        ],
+        "f9r": [
+          "incertain",
+          "oui"
+        ]
+      },
+      "C": {
+        "f17v": [
+          "incertain",
+          "incertain"
+        ],
+        "f19v": [
+          "incertain",
+          "incertain"
+        ],
+        "f20r": [
+          "incertain",
+          "incertain"
+        ],
+        "f21r": [
+          "incertain",
+          "incertain"
+        ],
+        "f22r": [
+          "incertain",
+          "oui"
+        ],
+        "f22v": [
+          "incertain",
+          "incertain"
+        ]
+      }
+    },
+    "interne": {
+      "B": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 9,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 9
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 9
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f16v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f9v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f10r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f10v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f15r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f11r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f11v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f14r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f13r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      },
+      "C": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 10,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 10
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 10
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f17r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f18r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f18v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 9
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f19r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f20v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f21v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sha256_avis_controle": "e3e813ae7d9eead5704c17bc54098a767ed380dc581085cee29b217a5259cd6c"
+  },
+  "ZL_joint": {
+    "B_vers_C": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 10
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "10": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 1.0
+        },
+        "reponses": 10
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      }
+    },
+    "exclusions": {
+      "B": {
+        "f13v": [
+          "incertain",
+          "incertain"
+        ],
+        "f14v": [
+          "incertain",
+          "oui"
+        ],
+        "f15v": [
+          "incertain",
+          "incertain"
+        ],
+        "f16r": [
+          "incertain",
+          "oui"
+        ],
+        "f9r": [
+          "incertain",
+          "oui"
+        ]
+      },
+      "C": {
+        "f17v": [
+          "incertain",
+          "incertain"
+        ],
+        "f19v": [
+          "incertain",
+          "incertain"
+        ],
+        "f20r": [
+          "incertain",
+          "incertain"
+        ],
+        "f21r": [
+          "incertain",
+          "incertain"
+        ],
+        "f22r": [
+          "incertain",
+          "oui"
+        ],
+        "f22v": [
+          "incertain",
+          "incertain"
+        ]
+      }
+    },
+    "interne": {
+      "B": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 9,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 9
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 9
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f16v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f9v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f10r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f10v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f15r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f11r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f11v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f14r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f13r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      },
+      "C": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 10,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 10
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 10
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f17r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 36,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f18r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f18v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 9
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f19r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f20v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f21v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sha256_avis_controle": "e3e813ae7d9eead5704c17bc54098a767ed380dc581085cee29b217a5259cd6c"
+  },
+  "ZL_separe": {
+    "B_vers_C": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 10
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "10": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 1.0
+        },
+        "reponses": 10
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 0,
+          "oui": 10
+        },
+        "corrects": 0,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 0,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 10,
+            "non": 0,
+            "oui": 0
+          }
+        },
+        "n": 10,
+        "permutation_recto_verso": {
+          "au_moins_observe": null,
+          "combinaisons": 1,
+          "histogramme": {
+            "0": 1
+          },
+          "informatives": 0,
+          "paires_opposees": []
+        },
+        "rappel_moyen": null,
+        "rappels": {
+          "non": null,
+          "oui": 0.0
+        },
+        "reponses": 0
+      }
+    },
+    "exclusions": {
+      "B": {
+        "f13v": [
+          "incertain",
+          "incertain"
+        ],
+        "f14v": [
+          "incertain",
+          "oui"
+        ],
+        "f15v": [
+          "incertain",
+          "incertain"
+        ],
+        "f16r": [
+          "incertain",
+          "oui"
+        ],
+        "f9r": [
+          "incertain",
+          "oui"
+        ]
+      },
+      "C": {
+        "f17v": [
+          "incertain",
+          "incertain"
+        ],
+        "f19v": [
+          "incertain",
+          "incertain"
+        ],
+        "f20r": [
+          "incertain",
+          "incertain"
+        ],
+        "f21r": [
+          "incertain",
+          "incertain"
+        ],
+        "f22r": [
+          "incertain",
+          "oui"
+        ],
+        "f22v": [
+          "incertain",
+          "incertain"
+        ]
+      }
+    },
+    "interne": {
+      "B": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 9,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 9
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 9
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 9
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 9,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 9,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f16v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f9v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f10r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f10v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f15r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f11r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f11v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f14r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f13r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      },
+      "C": {
+        "bilan": {
+          "majorite": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 10,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 10
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 1.0
+            },
+            "reponses": 10
+          },
+          "mot": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          },
+          "vocabulaire": {
+            "constante_corrects": {
+              "non": 0,
+              "oui": 10
+            },
+            "corrects": 0,
+            "matrice": {
+              "non": {
+                "abstention": 0,
+                "non": 0,
+                "oui": 0
+              },
+              "oui": {
+                "abstention": 10,
+                "non": 0,
+                "oui": 0
+              }
+            },
+            "n": 10,
+            "rappel_moyen": null,
+            "rappels": {
+              "non": null,
+              "oui": 0.0
+            },
+            "reponses": 0
+          }
+        },
+        "plis": [
+          {
+            "bifeuillet_reserve": "1",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 7
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f17r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f24v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 36,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "2",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 6
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f18r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f18v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 39,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f23v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 38,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "3",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 9
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 6
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f19r": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 37,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          },
+          {
+            "bifeuillet_reserve": "4",
+            "modele": {
+              "candidat": null,
+              "ex_aequo": [],
+              "faces": {
+                "non": 0,
+                "oui": 8
+              },
+              "feuillets": {
+                "non": 0,
+                "oui": 5
+              },
+              "motif_abstention": "moins de deux feuillets distincts dans une classe"
+            },
+            "predictions": {
+              "f20v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              },
+              "f21v": {
+                "jetons_connus": 0,
+                "majorite": "oui",
+                "marge_vocabulaire": null,
+                "mot": "abstention",
+                "mots_lisibles": 40,
+                "positions": 40,
+                "vocabulaire": "abstention"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sha256_avis_controle": "e3e813ae7d9eead5704c17bc54098a767ed380dc581085cee29b217a5259cd6c"
+  }
+}

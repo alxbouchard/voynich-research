@@ -1,0 +1,5 @@
+# Un autre nom prédit à partir d'une miniature masquée
+
+Pendant la recherche d'oiseaux, les deux lecteurs ont spontanément décrit deux astres au-dessus des baigneurs sur la carte P03. Le lecteur A relève un soleil et un croissant, le lecteur B un motif rayonnant et un croissant. Le numéro de la carte renvoie au f. 42r. La prédiction est que sa rubrique ou le texte en regard désignera ce bain par le soleil et la lune, par exemple « Sol et Luna », avec les variantes de langue et de cas attendues dans le volume.
+
+Cette vérification secondaire a été décidée après les descriptions des images, avant la lecture ciblée de la rubrique par le responsable de l'essai. Le motif et le nom avaient déjà été associés dans deux autres copies. Le préparateur des miniatures avait vu des rubriques pendant leur préparation. Ceci distingue une prédiction à partir d’un motif historique connu d'un test en double aveugle. Enregistrer la réponse même si le texte donne un autre nom, et conserver les mots incertains.

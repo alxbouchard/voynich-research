@@ -27,6 +27,8 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Fleurs dans les trois premiers cahiers](research/2026-11-18-fleurs/RAPPORT.md) | Sur les pages réservées, `qotor` annonce une corolle sur f5v et à tort sur f8r. Les deux occurrences ouvrent la quatrième ligne. Un contrôle sur d’autres feuillets montre une tendance initiale aussi présente pour `qotol`. |
+| [Palumbare et le bain du Soleil et de la Lune](research/2026-11-18-palumbare/RAPPORT.md) | Les rubriques du Vatican permettent de vérifier deux noms proposés à partir d’images. Aucun des deux lecteurs ne retrouve la scène des oiseaux au-dessus des baigneurs sur les 16 faces du Voynich examinées. |
 | [Mots et dessins](research/2026-11-18-mots-et-dessins/RAPPORT.md) | Le texte de 40 positions classe 7/9 feuillets dans les deux éditions après exclusion du parchemin conjugué (8/9 dans une convention). Trois inscriptions botaniques contiennent `okol`. Le dessin ne fixe pas son sens. |
 | [Noms des bains](research/2026-11-18-bains-texte-clair/RAPPORT.md) | Le couple soleil–lune distingue un bain parmi 35 miniatures à Valence. Les deux séries de quatre puis cinq faces du Voynich ne permettent pas d’en attribuer le nom. |
 | [Petit arc de f2r.10](research/2026-11-18-petit-arc/RAPPORT.md) | La photographie confirme une autre occurrence à f49r.15. Aucune des 21 fins de ligne nouvellement prédites ne porte le motif annoncé. |

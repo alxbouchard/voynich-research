@@ -1,0 +1,7 @@
+# Cartes anonymisées des cahiers B et C
+
+Le critère de sélection est la catégorie éditoriale botanique H, jointe à la main 1, variété de Currier A et au moins une ligne de prose P0. Les deux transcriptions du projet donnent les mêmes faces, les mêmes assignations de cahier et de bifeuillet ainsi que les mêmes comptes de P0. La catégorie botanique ne dénombre pas les plantes dessinées. La sélection a été effectuée sans consulter les illustrations ni lire le contenu des lignes transcrites.
+
+Les 30 faces appartiennent à 15 feuillets et à huit bifeuillets. Le cahier B en fournit 14 et le cahier C en fournit 16. Le feuillet 12 est absent de l'inventaire. Chaque carte conserve toutes les marges et toute la page, réduite à 1 200 pixels de hauteur. Les ajouts anciens sur l’original, notamment d'éventuels numéros de folio visibles, sont conservés. Les lecteurs reçoivent les codes fictifs V01 à V30 dans un ordre mélangé et les images de la Beinecke, sans titre ni cote ajoutés.
+
+Les photographies des collections numériques de l’université Yale ont été vérifiées d’après leur empreinte SHA-256 avant redimensionnement. La correspondance, les URL IIIF et les dimensions sont dans `prive/correspondance.json`, la graine et la composition des six planches dans `prive/selection.json`. La génération s’effectue avec `preparer_cartes.py`, Python 3 et Pillow, en prenant comme entrées le dépôt et les originaux Yale nommés par face. Les planches contiennent cinq cartes chacune, en deux lots de trois planches.

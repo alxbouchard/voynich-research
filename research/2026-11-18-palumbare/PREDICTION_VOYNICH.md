@@ -1,0 +1,7 @@
+# Rechercher le motif transmis par les trois copies
+
+Les lecteurs ont examiné douze miniatures du Vatican. Le nom de leur unique meilleur choix relatif, P10, vient d'être confirmé sur le titre et sur le texte en regard. Les oiseaux de ce témoin se trouvent sur la crête du rocher. Nous fixons donc une seconde hypothèse, dérivée des trois témoins, avant de l’évaluer sur les photos du Voynich.
+
+Prédiction sur les seize faces des feuillets 75 à 79 et 82 à 84 : sur au moins l'une de ces faces, deux oiseaux reconnaissables seront groupés dans, à l'entrée ou sur le dessus du rocher qui abrite au-dessous un même groupe de baigneurs. L'unité est la scène. La ressemblance limitée à des personnages, des points, des toits ou des silhouettes en forme de bec sans autre caractère aviaire ne suffit pas. Les deux lecteurs devront choisir de façon indépendante la même scène. Ils peuvent retenir plusieurs scènes ou aucune. Les verdicts partiels et les différences de jugement seront conservés. Une ressemblance lointaine ne déclenche aucune proposition du nom ni de valeurs pour les signes. Si le motif complet apparaît, vérifier sur la photographie si une inscription peut désigner matériellement le lieu entier. Les feuillets 80 et 81 restent entièrement réservés.
+
+Les cartes sont nouvelles dans cette expérience, mais plusieurs de ces images ont déjà servi à tester d'autres détails (soleil, lune, tentes). Les deux essais, le choix historique à titre masqué et la recherche de ce lieu dans le Voynich, auront des résultats séparés.

@@ -1,0 +1,677 @@
+{
+  "H_joint": {
+    "accord_positif_negatif": {
+      "f1v": "non",
+      "f2r": "non",
+      "f2v": "non",
+      "f3r": "non",
+      "f4r": "non",
+      "f5r": "non",
+      "f5v": "oui",
+      "f6r": "non",
+      "f6v": "oui",
+      "f7v": "non",
+      "f8r": "non",
+      "f8v": "non"
+    },
+    "controle": {
+      "majorite": {
+        "au_moins_observe": null,
+        "combinaisons": 4,
+        "histogramme": {
+          "10": 4
+        },
+        "informatives": 0,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "mot": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "8": 2,
+          "10": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "vocabulaire": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "8": 2,
+          "10": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      }
+    },
+    "exclusions": {
+      "f3v": [
+        "non",
+        "incertain"
+      ],
+      "f4v": [
+        "oui",
+        "incertain"
+      ],
+      "f7r": [
+        "incertain",
+        "oui"
+      ]
+    },
+    "mesures": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 10,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 2,
+            "oui": 0
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.5,
+        "rappels": {
+          "non": 1.0,
+          "oui": 0.0
+        },
+        "reponses": 12
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 9,
+            "oui": 1
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.7,
+        "rappels": {
+          "non": 0.9,
+          "oui": 0.5
+        },
+        "reponses": 12
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 9,
+            "oui": 1
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.7,
+        "rappels": {
+          "non": 0.9,
+          "oui": 0.5
+        },
+        "reponses": 12
+      }
+    },
+    "sha256_avis_epreuve": "a34f1a87b9f634c744df83f223eb23a1e9fd94501967ec310f091e1d7e7274d8"
+  },
+  "H_separe": {
+    "accord_positif_negatif": {
+      "f1v": "non",
+      "f2r": "non",
+      "f2v": "non",
+      "f3r": "non",
+      "f4r": "non",
+      "f5r": "non",
+      "f5v": "oui",
+      "f6r": "non",
+      "f6v": "oui",
+      "f7v": "non",
+      "f8r": "non",
+      "f8v": "non"
+    },
+    "controle": {
+      "majorite": {
+        "au_moins_observe": null,
+        "combinaisons": 4,
+        "histogramme": {
+          "10": 4
+        },
+        "informatives": 0,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "mot": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "8": 2,
+          "10": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "vocabulaire": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "8": 2,
+          "10": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      }
+    },
+    "exclusions": {
+      "f3v": [
+        "non",
+        "incertain"
+      ],
+      "f4v": [
+        "oui",
+        "incertain"
+      ],
+      "f7r": [
+        "incertain",
+        "oui"
+      ]
+    },
+    "mesures": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 10,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 2,
+            "oui": 0
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.5,
+        "rappels": {
+          "non": 1.0,
+          "oui": 0.0
+        },
+        "reponses": 12
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 9,
+            "oui": 1
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.7,
+        "rappels": {
+          "non": 0.9,
+          "oui": 0.5
+        },
+        "reponses": 12
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 9,
+            "oui": 1
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.7,
+        "rappels": {
+          "non": 0.9,
+          "oui": 0.5
+        },
+        "reponses": 12
+      }
+    },
+    "sha256_avis_epreuve": "a34f1a87b9f634c744df83f223eb23a1e9fd94501967ec310f091e1d7e7274d8"
+  },
+  "ZL_joint": {
+    "accord_positif_negatif": {
+      "f1v": "non",
+      "f2r": "non",
+      "f2v": "non",
+      "f3r": "non",
+      "f4r": "non",
+      "f5r": "non",
+      "f5v": "oui",
+      "f6r": "non",
+      "f6v": "oui",
+      "f7v": "non",
+      "f8r": "non",
+      "f8v": "non"
+    },
+    "controle": {
+      "majorite": {
+        "au_moins_observe": null,
+        "combinaisons": 4,
+        "histogramme": {
+          "10": 4
+        },
+        "informatives": 0,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "mot": {
+        "au_moins_observe": null,
+        "combinaisons": 4,
+        "histogramme": {
+          "10": 4
+        },
+        "informatives": 0,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "vocabulaire": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "8": 2,
+          "10": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      }
+    },
+    "exclusions": {
+      "f3v": [
+        "non",
+        "incertain"
+      ],
+      "f4v": [
+        "oui",
+        "incertain"
+      ],
+      "f7r": [
+        "incertain",
+        "oui"
+      ]
+    },
+    "mesures": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 10,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 2,
+            "oui": 0
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.5,
+        "rappels": {
+          "non": 1.0,
+          "oui": 0.0
+        },
+        "reponses": 12
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 10,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 2,
+            "oui": 0
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.5,
+        "rappels": {
+          "non": 1.0,
+          "oui": 0.0
+        },
+        "reponses": 12
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 9,
+            "oui": 1
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.7,
+        "rappels": {
+          "non": 0.9,
+          "oui": 0.5
+        },
+        "reponses": 12
+      }
+    },
+    "sha256_avis_epreuve": "a34f1a87b9f634c744df83f223eb23a1e9fd94501967ec310f091e1d7e7274d8"
+  },
+  "ZL_separe": {
+    "accord_positif_negatif": {
+      "f1v": "non",
+      "f2r": "non",
+      "f2v": "non",
+      "f3r": "non",
+      "f4r": "non",
+      "f5r": "non",
+      "f5v": "oui",
+      "f6r": "non",
+      "f6v": "oui",
+      "f7v": "non",
+      "f8r": "non",
+      "f8v": "non"
+    },
+    "controle": {
+      "majorite": {
+        "au_moins_observe": null,
+        "combinaisons": 4,
+        "histogramme": {
+          "10": 4
+        },
+        "informatives": 0,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "mot": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "6": 2,
+          "8": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      },
+      "vocabulaire": {
+        "au_moins_observe": 2,
+        "combinaisons": 4,
+        "histogramme": {
+          "8": 2,
+          "10": 2
+        },
+        "informatives": 1,
+        "paires_opposees": [
+          [
+            "f5r",
+            "f5v"
+          ],
+          [
+            "f6r",
+            "f6v"
+          ]
+        ]
+      }
+    },
+    "exclusions": {
+      "f3v": [
+        "non",
+        "incertain"
+      ],
+      "f4v": [
+        "oui",
+        "incertain"
+      ],
+      "f7r": [
+        "incertain",
+        "oui"
+      ]
+    },
+    "mesures": {
+      "majorite": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 10,
+            "oui": 0
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 2,
+            "oui": 0
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.5,
+        "rappels": {
+          "non": 1.0,
+          "oui": 0.0
+        },
+        "reponses": 12
+      },
+      "mot": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 8,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 7,
+            "oui": 3
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.6,
+        "rappels": {
+          "non": 0.7,
+          "oui": 0.5
+        },
+        "reponses": 12
+      },
+      "vocabulaire": {
+        "constante_corrects": {
+          "non": 10,
+          "oui": 2
+        },
+        "corrects": 10,
+        "matrice": {
+          "non": {
+            "abstention": 0,
+            "non": 9,
+            "oui": 1
+          },
+          "oui": {
+            "abstention": 0,
+            "non": 1,
+            "oui": 1
+          }
+        },
+        "n": 12,
+        "rappel_moyen": 0.7,
+        "rappels": {
+          "non": 0.9,
+          "oui": 0.5
+        },
+        "reponses": 12
+      }
+    },
+    "sha256_avis_epreuve": "a34f1a87b9f634c744df83f223eb23a1e9fd94501967ec310f091e1d7e7274d8"
+  }
+}
