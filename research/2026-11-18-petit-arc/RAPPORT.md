@@ -10,6 +10,10 @@ Ce parallèle a été découvert en cherchant, dans la transcription de Zandberg
 
 Dans le premier ensemble de découverte, f3r à f11v (f12 manque), les deux autres `saiin` transcrits par Takahashi, f8v.1 et f9r.9, ont été examinés. Tous deux ont le site découvert. Deux `shaiin` de ces mêmes feuillets portent un petit arc plus à gauche, sur la traverse. Ainsi, la place du trait et son indépendance par rapport à la courbe finale comptent autant que sa silhouette. [Douze exemples sur photo](../../docs/PIECES_REFERENCES.md#piece-0bce8363505df3)
 
+### Un trait du dessin passe près du dernier mot de f49r.14
+
+Sur un détail limité au dernier groupe de la ligne 14, un trait oblique apparaît juste au-dessus des jambages, à droite. En élargissant le cadre, on peut suivre ce trait jusqu’au contour de la tige de la plante. À la ligne 15, une petite marque pâle se trouve plus à gauche, au-dessus de la jonction du corps arrondi et des jambages. Sa fonction reste indéterminée. Cette comparaison de trois exemples déjà étudiés montre pourquoi il faut garder les signes voisins et le dessin dans le champ avant de décider quels traits appartiennent au groupe. [Détail des lignes 13 à 15](https://collections.library.yale.edu/iiif/2/1006170/1007,2287,568,272/full/0/default.jpg) · [Feuillet entier](https://collections.library.yale.edu/iiif/2/1006170/full/800,/0/default.jpg)
+
 ## Prédire avant d’ouvrir les autres pages
 
 Les deux cas positifs connus terminaient leur ligne et suivaient un autre groupe en `-aiin`. Ces points communs ont motivé deux prédictions enregistrées avant la lecture des photos de f13r à f24v. Le repérage utilise les noms de signes de Takahashi (H), sans leur attribuer de son.
