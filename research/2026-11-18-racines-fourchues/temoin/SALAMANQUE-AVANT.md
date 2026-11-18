@@ -1,0 +1,3 @@
+# Un second contrôle dans un manuscrit grec
+
+La notice universitaire situe à la fin du XVe siècle la copie de Dioscoride conservée à Salamanque, ms. 2659. Le texte imprimé moderne du livre III, chapitre 126 (*Orchis*), décrit précisément une racine double. Avant d'ouvrir le feuillet manuscrit ou l'illustration associée, je prédis que le manuscrit conserve le mot grec διπλῆν, « double », qualifiant ῥίζαν, « racine », et qu'une peinture d'*Orchis*, si elle existe à cet endroit, représente deux renflements distinguables sous la tige. Une absence de peinture sera comptée comme échec de la prédiction visuelle. Le texte classique de référence avait déjà été consulté, mais pas cette copie grecque ni la photographie.
