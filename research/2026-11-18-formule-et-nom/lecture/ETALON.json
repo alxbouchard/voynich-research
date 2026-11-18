@@ -1,0 +1,1746 @@
+{
+ "synthetique": [
+  {
+   "marque": false,
+   "largeur": 2,
+   "cas": "intact",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "maroon",
+    "bail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_i+i": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroon",
+       "bail"
+      ]
+     }
+    ],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroon",
+       "bail"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_i+i": [
+       {
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 2,
+   "cas": "dernier_corrompu",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "maroon",
+    "faux"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_with_left": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroon",
+       "faux"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 2,
+   "cas": "II_distinct",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "maroxn",
+    "bail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroxn",
+       "bail"
+      ]
+     }
+    ],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroxn",
+       "bail"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "xn",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "ox",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 2,
+   "cas": "retour_deplace",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "bail",
+    "maroon"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_5": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_5_i+i": 1,
+     "predicted_full_repeat_at_5_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "bail",
+       "maroon"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_5_i+i": [
+       {
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_5_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 3,
+   "cas": "intact",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "maroon",
+    "bail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_i+i": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroon",
+       "bail"
+      ]
+     }
+    ],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroon",
+       "bail"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_i+i": [
+       {
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 3,
+   "cas": "dernier_corrompu",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "maroon",
+    "faux"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_with_left": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroon",
+       "faux"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 3,
+   "cas": "II_distinct",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "maroxn",
+    "bail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroxn",
+       "bail"
+      ]
+     }
+    ],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "maroxn",
+       "bail"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "xn",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "ox",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": false,
+   "largeur": 3,
+   "cas": "retour_deplace",
+   "mots": [
+    "ire",
+    "bail",
+    "beat",
+    "bel",
+    "bail",
+    "maroon"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "bail",
+      "beat"
+     ],
+     "keys": [
+      [
+       "b",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "bel"
+     ],
+     "displaced": [
+      "ble"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 1,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_5": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_5_i+i": 1,
+     "predicted_full_repeat_at_5_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "bail",
+       "beat",
+       "bel",
+       "bail",
+       "maroon"
+      ],
+      "predictions": [
+       "bel"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_5_i+i": [
+       {
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_5_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "b",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 2,
+   "cas": "intact",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "maroon",
+    "ail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_i+i": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "maroon",
+       "ail"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_i+i": [
+       {
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 2,
+   "cas": "dernier_corrompu",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "maroon",
+    "faux"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_with_left": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "maroon",
+       "faux"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 2,
+   "cas": "II_distinct",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "maroxn",
+    "ail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "maroxn",
+       "ail"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "xn",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "ox",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 2,
+   "cas": "retour_deplace",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "ail",
+    "maroon"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_5": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_5_i+i": 1,
+     "predicted_full_repeat_at_5_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "ail",
+       "maroon"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_5_i+i": [
+       {
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_5_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 3,
+   "cas": "intact",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "maroon",
+    "ail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_i+i": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "maroon",
+       "ail"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_i+i": [
+       {
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 3,
+   "cas": "dernier_corrompu",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "maroon",
+    "faux"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_with_left": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "maroon",
+       "faux"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 3,
+   "cas": "II_distinct",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "maroxn",
+    "ail"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 1,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_6": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_6_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "maroxn",
+       "ail"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": true,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_6_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "xn",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "ox",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "marque": true,
+   "largeur": 3,
+   "cas": "retour_deplace",
+   "mots": [
+    "ire",
+    "ail",
+    "eat",
+    "el",
+    "ail",
+    "maroon"
+   ],
+   "catalogue": [
+    {
+     "seed": [
+      "ail",
+      "eat"
+     ],
+     "keys": [
+      [
+       "",
+       "a",
+       "i",
+       "l",
+       "e",
+       "t"
+      ]
+     ],
+     "predicted": [
+      "el"
+     ],
+     "displaced": [
+      "le"
+     ]
+    }
+   ],
+   "verification": {
+    "counts": {
+     "windows": 1,
+     "triple_initial": 0,
+     "repeat": 0,
+     "fit_two": 1,
+     "unique_prediction": 1,
+     "predicted_right": 1,
+     "predicted_repeat_at_5": 1,
+     "predicted_with_left": 1,
+     "predicted_full_repeat_at_5_i+i": 1,
+     "predicted_full_repeat_at_5_II": 1
+    },
+    "only_initials_and_repeat": [],
+    "third_word_recovered": [
+     {
+      "section": "six",
+      "index": 0,
+      "words": [
+       "ire",
+       "ail",
+       "eat",
+       "el",
+       "ail",
+       "maroon"
+      ],
+      "predictions": [
+       "el"
+      ],
+      "repeat": false,
+      "preceding_initial_possible": true,
+      "fixed_left": true,
+      "macer_title": false,
+      "repeat_at_5_i+i": [
+       {
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "i": "o",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ],
+      "repeat_at_5_II": [
+       {
+        "II": "o",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "on",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       },
+       {
+        "II": "oo",
+        "a": "r",
+        "ch": "",
+        "d": "i",
+        "e": "e",
+        "l": "e",
+        "n": "n",
+        "o": "a",
+        "q": "m",
+        "r": "t",
+        "y": "l"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "macer": {
+  "notice": "Artemisia",
+  "rang_initial": 59,
+  "chiffre": [
+   "KQBQHOJ",
+   "IPIWKLB",
+   "WLK"
+  ],
+  "vrai_triplet": [
+   "terendo",
+   "bibatur",
+   "aut"
+  ],
+  "controle_inversion": {
+   "chiffre": [
+    "KQBQHOJ",
+    "IPIWKLB",
+    "KLW"
+   ],
+   "propositions": [
+    "tua"
+   ],
+   "concordances": 0
+  },
+  "rng": 89092,
+  "positions_interrogees": 13813,
+  "positions_avant": 1,
+  "positions_apres": 1,
+  "lectures_distinctes_avant": {
+   "aut": 1
+  },
+  "candidats": [
+   {
+    "notice": "Artemisia",
+    "index": 58,
+    "amorce": [
+     "terendo",
+     "bibatur"
+    ],
+    "cle": {
+     "K": "t",
+     "Q": "e",
+     "B": "r",
+     "H": "n",
+     "O": "d",
+     "J": "o",
+     "I": "b",
+     "P": "i",
+     "W": "a",
+     "L": "u"
+    },
+    "predit": "aut",
+    "observé": "aut",
+    "conforme": true
+   }
+  ],
+  "paires_apres": [
+   [
+    "Artemisia",
+    59
+   ]
+  ],
+  "cle_partielle": {
+   "K": "t",
+   "Q": "e",
+   "B": "r",
+   "H": "n",
+   "O": "d",
+   "J": "o",
+   "I": "b",
+   "P": "i",
+   "W": "a",
+   "L": "u"
+  },
+  "lettres_inconnues": 16,
+  "controle_mot_suivant": {
+   "chiffre": "AP",
+   "cle_seule": "?i",
+   "vrai": "si"
+  },
+  "sha256_notice_chiffree": "b322f5eede92f1ef27aa8e1ff9611c944afee4f4277c1b2651b2258c03d3778e"
+ }
+}

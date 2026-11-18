@@ -1,0 +1,434 @@
+{
+ "apprentissage": [
+  "f100r",
+  "f100v",
+  "f101v",
+  "f102r1",
+  "f102r2",
+  "f102v1",
+  "f102v2",
+  "f99r",
+  "f99v"
+ ],
+ "distances": {
+  "1": {
+   "depots": {
+    "principal": {
+     "choix": null,
+     "ex_aequo": [],
+     "positions": []
+    },
+    "un_exemple": {
+     "choix": {
+      "apprentissage": {
+       "appels": 1,
+       "feuillets": [
+        "f102"
+       ],
+       "graphies": [
+        "cheor"
+       ],
+       "justes": 1,
+       "lisibles": 1
+      },
+      "depuis": [
+       {
+        "cible": "cheor",
+        "interpose": null,
+        "legendes": [
+         "f102v2.11"
+        ],
+        "locus": "f102v2.39"
+       }
+      ],
+      "regle": [
+       "cheekey",
+       -1
+      ]
+     },
+     "ex_aequo": [
+      [
+       "cheekey",
+       -1
+      ],
+      [
+       "dar",
+       1
+      ],
+      [
+       "deody",
+       -1
+      ],
+      [
+       "ychey",
+       1
+      ],
+      [
+       "yotaiin",
+       1
+      ]
+     ],
+     "positions": []
+    }
+   },
+   "modeles": [
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "cheor"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "cheor",
+       "interpose": null,
+       "legendes": [
+        "f102v2.11"
+       ],
+       "locus": "f102v2.39"
+      }
+     ],
+     "regle": [
+      "cheekey",
+      -1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "cheor"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "cheor",
+       "interpose": null,
+       "legendes": [
+        "f102v2.11"
+       ],
+       "locus": "f102v2.32"
+      }
+     ],
+     "regle": [
+      "dar",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "okeody"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "okeody",
+       "interpose": null,
+       "legendes": [
+        "f102v1.3"
+       ],
+       "locus": "f102v1.21"
+      }
+     ],
+     "regle": [
+      "deody",
+      -1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "okeody"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "okeody",
+       "interpose": null,
+       "legendes": [
+        "f102v1.3"
+       ],
+       "locus": "f102v1.21"
+      }
+     ],
+     "regle": [
+      "ychey",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "cheor"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "cheor",
+       "interpose": null,
+       "legendes": [
+        "f102v2.11"
+       ],
+       "locus": "f102v2.39"
+      }
+     ],
+     "regle": [
+      "yotaiin",
+      1
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 9,
+      "feuillets": [
+       "f99"
+      ],
+      "graphies": [
+       "okor"
+      ],
+      "justes": 1,
+      "lisibles": 7
+     },
+     "depuis": [
+      {
+       "cible": "okor",
+       "interpose": null,
+       "legendes": [
+        "f99r.8"
+       ],
+       "locus": "f99r.51"
+      }
+     ],
+     "regle": [
+      "okeey",
+      -1
+     ]
+    }
+   ]
+  },
+  "2": {
+   "depots": {
+    "principal": {
+     "choix": null,
+     "ex_aequo": [],
+     "positions": []
+    },
+    "un_exemple": {
+     "choix": {
+      "apprentissage": {
+       "appels": 1,
+       "feuillets": [
+        "f99"
+       ],
+       "graphies": [
+        "okeoly"
+       ],
+       "justes": 1,
+       "lisibles": 1
+      },
+      "depuis": [
+       {
+        "cible": "okeoly",
+        "interpose": "daiin",
+        "legendes": [
+         "f99r.25"
+        ],
+        "locus": "f99r.18"
+       }
+      ],
+      "regle": [
+       "ckhy",
+       -2
+      ]
+     },
+     "ex_aequo": [
+      [
+       "ckhy",
+       -2
+      ],
+      [
+       "qoeeody",
+       2
+      ]
+     ],
+     "positions": []
+    }
+   },
+   "modeles": [
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f99"
+      ],
+      "graphies": [
+       "okeoly"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "okeoly",
+       "interpose": "daiin",
+       "legendes": [
+        "f99r.25"
+       ],
+       "locus": "f99r.18"
+      }
+     ],
+     "regle": [
+      "ckhy",
+      -2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 1,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "okeody"
+      ],
+      "justes": 1,
+      "lisibles": 1
+     },
+     "depuis": [
+      {
+       "cible": "okeody",
+       "interpose": "ychey",
+       "legendes": [
+        "f102v1.3"
+       ],
+       "locus": "f102v1.21"
+      }
+     ],
+     "regle": [
+      "qoeeody",
+      2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 2,
+      "feuillets": [
+       "f99"
+      ],
+      "graphies": [
+       "okeoly"
+      ],
+      "justes": 1,
+      "lisibles": 2
+     },
+     "depuis": [
+      {
+       "cible": "okeoly",
+       "interpose": "daiin",
+       "legendes": [
+        "f99r.25"
+       ],
+       "locus": "f99r.18"
+      }
+     ],
+     "regle": [
+      "ckhol",
+      2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 2,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "okeody"
+      ],
+      "justes": 1,
+      "lisibles": 2
+     },
+     "depuis": [
+      {
+       "cible": "okeody",
+       "interpose": "deody",
+       "legendes": [
+        "f102v1.3"
+       ],
+       "locus": "f102v1.21"
+      }
+     ],
+     "regle": [
+      "okody",
+      -2
+     ]
+    },
+    {
+     "apprentissage": {
+      "appels": 2,
+      "feuillets": [
+       "f102"
+      ],
+      "graphies": [
+       "cheor"
+      ],
+      "justes": 1,
+      "lisibles": 2
+     },
+     "depuis": [
+      {
+       "cible": "cheor",
+       "interpose": "cheekey",
+       "legendes": [
+        "f102v2.11"
+       ],
+       "locus": "f102v2.39"
+      }
+     ],
+     "regle": [
+      "orain",
+      -2
+     ]
+    }
+   ]
+  }
+ },
+ "reserve": [
+  "f88r",
+  "f88v",
+  "f89r1",
+  "f89r2",
+  "f89v1",
+  "f89v2"
+ ]
+}

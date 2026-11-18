@@ -1,0 +1,300 @@
+{
+ "apprentissage": 15,
+ "distances": {
+  "1": {
+   "diagnostic_permutations_toutes_regles": {
+    "histogramme": {
+     "0": 282240,
+     "1": 80640
+    },
+    "nombre_zero": 282240,
+    "p_au_moins_une": "2/9",
+    "reprises_nouvelles_reelles": 0,
+    "total": 362880
+   },
+   "diagnostic_regles": [
+    {
+     "appels": 0,
+     "details": [],
+     "lisibles": 0,
+     "nouveaux": 0,
+     "regle": [
+      "kosar",
+      1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 0,
+     "details": [],
+     "lisibles": 0,
+     "nouveaux": 0,
+     "regle": [
+      "opcheol",
+      -1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 1,
+     "details": [],
+     "lisibles": 1,
+     "nouveaux": 0,
+     "regle": [
+      "oky",
+      1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 0,
+     "details": [],
+     "lisibles": 0,
+     "nouveaux": 0,
+     "regle": [
+      "cheoky",
+      -1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 0,
+     "details": [],
+     "lisibles": 0,
+     "nouveaux": 0,
+     "regle": [
+      "qoaiin",
+      1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 6,
+     "details": [],
+     "lisibles": 5,
+     "nouveaux": 0,
+     "regle": [
+      "sheey",
+      1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 8,
+     "details": [],
+     "lisibles": 4,
+     "nouveaux": 0,
+     "regle": [
+      "cheor",
+      -1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 15,
+     "details": [],
+     "lisibles": 12,
+     "nouveaux": 0,
+     "regle": [
+      "cheol",
+      -1
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 2,
+     "details": [],
+     "lisibles": 2,
+     "nouveaux": 0,
+     "regle": [
+      "dal",
+      1
+     ],
+     "tous": 0
+    }
+   ],
+   "epreuves": {
+    "principal": {
+     "decision": "abstention"
+    },
+    "un_exemple": {
+     "appels": [],
+     "critere_rempli": false,
+     "nouveaux": {
+      "appels": 0,
+      "feuillets": [],
+      "graphies": [],
+      "justes": 0,
+      "lisibles": 0
+     },
+     "permutations": {
+      "nouveaux": {
+       "attendus": "0",
+       "egal_ou_plus": 362880,
+       "histogramme": {
+        "0": 362880
+       },
+       "observe": 0,
+       "total": 362880
+      },
+      "tous": {
+       "attendus": "0",
+       "egal_ou_plus": 362880,
+       "histogramme": {
+        "0": 362880
+       },
+       "observe": 0,
+       "total": 362880
+      }
+     },
+     "predictions_nom_unique": [],
+     "regle": [
+      "kosar",
+      1
+     ],
+     "reserve": {
+      "appels": 0,
+      "feuillets": [],
+      "graphies": [],
+      "justes": 0,
+      "lisibles": 0
+     }
+    }
+   },
+   "fond": {
+    "appels_-1": 691,
+    "appels_1": 702,
+    "lisibles_-1": 574,
+    "lisibles_1": 573,
+    "locaux_-1": 3,
+    "locaux_1": 3
+   },
+   "maximum_exploratoire": 0
+  },
+  "2": {
+   "diagnostic_permutations_toutes_regles": {
+    "histogramme": {
+     "0": 362880
+    },
+    "nombre_zero": 362880,
+    "p_au_moins_une": "0",
+    "reprises_nouvelles_reelles": 0,
+    "total": 362880
+   },
+   "diagnostic_regles": [
+    {
+     "appels": 0,
+     "details": [],
+     "lisibles": 0,
+     "nouveaux": 0,
+     "regle": [
+      "qokeoefy",
+      2
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 1,
+     "details": [],
+     "lisibles": 0,
+     "nouveaux": 0,
+     "regle": [
+      "shody",
+      -2
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 9,
+     "details": [],
+     "lisibles": 6,
+     "nouveaux": 0,
+     "regle": [
+      "chey",
+      -2
+     ],
+     "tous": 0
+    },
+    {
+     "appels": 8,
+     "details": [],
+     "lisibles": 4,
+     "nouveaux": 0,
+     "regle": [
+      "chey",
+      2
+     ],
+     "tous": 0
+    }
+   ],
+   "epreuves": {
+    "principal": {
+     "decision": "abstention"
+    },
+    "un_exemple": {
+     "appels": [],
+     "critere_rempli": false,
+     "nouveaux": {
+      "appels": 0,
+      "feuillets": [],
+      "graphies": [],
+      "justes": 0,
+      "lisibles": 0
+     },
+     "permutations": {
+      "nouveaux": {
+       "attendus": "0",
+       "egal_ou_plus": 362880,
+       "histogramme": {
+        "0": 362880
+       },
+       "observe": 0,
+       "total": 362880
+      },
+      "tous": {
+       "attendus": "0",
+       "egal_ou_plus": 362880,
+       "histogramme": {
+        "0": 362880
+       },
+       "observe": 0,
+       "total": 362880
+      }
+     },
+     "predictions_nom_unique": [],
+     "regle": [
+      "qokeoefy",
+      2
+     ],
+     "reserve": {
+      "appels": 0,
+      "feuillets": [],
+      "graphies": [],
+      "justes": 0,
+      "lisibles": 0
+     }
+    }
+   },
+   "fond": {
+    "appels_-2": 591,
+    "appels_2": 608,
+    "lisibles_-2": 415,
+    "lisibles_2": 413,
+    "locaux_-2": 3,
+    "locaux_2": 2
+   },
+   "maximum_exploratoire": 0
+  }
+ },
+ "tailles_legendes": {
+  "f100r": 14,
+  "f100v": 11,
+  "f101v": 10,
+  "f102r1": 1,
+  "f102r2": 2,
+  "f102v1": 5,
+  "f102v2": 11,
+  "f99r": 21,
+  "f99v": 21
+ }
+}

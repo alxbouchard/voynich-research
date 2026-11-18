@@ -1,0 +1,130 @@
+{
+ "forms": [
+  {
+   "voynich": "cheody",
+   "read": "culcera",
+   "occurrences": 1,
+   "after_cleaning": false
+  },
+  {
+   "voynich": "cheor",
+   "read": "cum",
+   "occurrences": 2,
+   "after_cleaning": true
+  },
+  {
+   "voynich": "chey",
+   "read": "cera",
+   "occurrences": 1,
+   "after_cleaning": true
+  },
+  {
+   "voynich": "chody",
+   "read": "ulcera",
+   "occurrences": 1,
+   "after_cleaning": true
+  },
+  {
+   "voynich": "chor",
+   "read": "um",
+   "occurrences": 17,
+   "after_cleaning": false
+  },
+  {
+   "voynich": "dor",
+   "read": "lcum",
+   "occurrences": 1,
+   "after_cleaning": false
+  },
+  {
+   "voynich": "eey",
+   "read": "ccera",
+   "occurrences": 1,
+   "after_cleaning": false
+  },
+  {
+   "voynich": "ydy",
+   "read": "eralcera",
+   "occurrences": 1,
+   "after_cleaning": false
+  },
+  {
+   "voynich": "yor",
+   "read": "eraum",
+   "occurrences": 1,
+   "after_cleaning": false
+  }
+ ],
+ "recheck": [
+  {
+   "initial_marker": false,
+   "width": 2,
+   "summary": {
+    "windows": 97629,
+    "triple_initial": 459,
+    "repeat": 1056,
+    "fit_two": 118,
+    "unique_prediction": 78
+   },
+   "matches": []
+  },
+  {
+   "initial_marker": false,
+   "width": 3,
+   "summary": {
+    "windows": 97629,
+    "triple_initial": 459,
+    "repeat": 1056,
+    "fit_two": 340,
+    "unique_prediction": 112
+   },
+   "matches": []
+  },
+  {
+   "initial_marker": true,
+   "width": 2,
+   "summary": {
+    "windows": 97629,
+    "triple_initial": 459,
+    "repeat": 1056,
+    "fit_two": 1110,
+    "unique_prediction": 839
+   },
+   "matches": []
+  },
+  {
+   "initial_marker": true,
+   "width": 3,
+   "summary": {
+    "windows": 97629,
+    "triple_initial": 459,
+    "repeat": 1056,
+    "fit_two": 3775,
+    "unique_prediction": 1500,
+    "predicted_right": 1
+   },
+   "matches": [
+    {
+     "section": "5.22.p1.1",
+     "index": 42,
+     "words": [
+      "purgant",
+      "ulcera",
+      "cum",
+      "cera",
+      "implent",
+      "misy"
+     ],
+     "predictions": [
+      "cera",
+      "cra"
+     ],
+     "repeat": false,
+     "preceding_initial_possible": false,
+     "fixed_left": false,
+     "macer_title": false
+    }
+   ]
+  }
+ ]
+}

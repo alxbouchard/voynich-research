@@ -27,6 +27,7 @@ Les rapports distinguent les lectures des signes, les ressemblances visuelles et
 
 | Étude | Observation ou état |
 |---|---|
+| [Une formule peut-elle prédire la place du nom de plante ?](research/2026-11-18-formule-et-nom/RAPPORT.md) | Le romarin confirme une formule réelle de 1485. Aucune reprise exacte aux 24 positions de contrôle lisibles du Voynich. Une lecture latine prédit un mot de Celse puis échoue à la répétition suivante. |
 | [Le mot sous le fragment 222](research/2026-11-18-cheor-en-contexte/RAPPORT.md) | Les trois reprises de cheor sont sous un autre récipient. Dans un herbier de 1485, une phrase distingue la racine de la plante. Les lectures proposées sur trois mots latins ou allemands échouent au mot de contrôle. |
 | [Le dessin de cheor et la phrase de f89r2](research/2026-11-18-phrase-et-doublets/RAPPORT.md) | Le mot de la légende se répète trois fois sur sa page. Deux lecteurs préfèrent un autre fragment, légendé opchy. Les lectures latines et allemandes de trois groupes échouent au quatrième, vérifié sur deux imprimés du XVe siècle. |
 | [Les mots près des plantes, des étoiles et des baigneuses](research/2026-11-18-finale-au-dessin/RAPPORT.md) | Même inscription près de deux baigneuses sur un même bifeuillet. Trois lectures zodiacales divergent selon l’édition. Dix tables pour « femme » aboutissent à zéro paire attestée dans le Macer sur 52 occurrences de prose. |

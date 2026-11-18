@@ -1,0 +1,1233 @@
+{
+ "exact": {
+  "appels": [
+   {
+    "positions": [],
+    "regle": [
+     "cheekey",
+     -1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f88r.31",
+      "panneau": "f88r",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "locus": "f88r.9",
+      "panneau": "f88r",
+      "rangs": {
+       "H_joints": [
+        8,
+        9
+       ],
+       "H_separes": [
+        8,
+        9
+       ],
+       "ZL_joints": [
+        8,
+        9
+       ],
+       "ZL_separes": [
+        8,
+        9
+       ]
+      }
+     },
+     {
+      "locus": "f88v.10",
+      "panneau": "f88v",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "locus": "f89v2.18",
+      "panneau": "f89v2",
+      "rangs": {
+       "H_joints": [
+        7,
+        8
+       ],
+       "H_separes": [
+        7,
+        8
+       ],
+       "ZL_joints": [
+        7,
+        8
+       ],
+       "ZL_separes": [
+        7,
+        8
+       ]
+      }
+     },
+     {
+      "locus": "f89v2.21",
+      "panneau": "f89v2",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "dar",
+     1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "deody",
+     -1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f89v2.9",
+      "panneau": "f89v2",
+      "rangs": {
+       "H_joints": [
+        2,
+        1
+       ],
+       "H_separes": [
+        2,
+        1
+       ],
+       "ZL_joints": [
+        2,
+        1
+       ],
+       "ZL_separes": [
+        2,
+        1
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "okeey",
+     -1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f88r.22",
+      "panneau": "f88r",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "ychey",
+     1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "yotaiin",
+     1
+    ]
+   }
+  ],
+  "choix": {
+   "permissif": {
+    "ex_aequo": [
+     [
+      "cheekey",
+      -1
+     ],
+     [
+      "dar",
+      1
+     ],
+     [
+      "deody",
+      -1
+     ],
+     [
+      "ychey",
+      1
+     ],
+     [
+      "yotaiin",
+      1
+     ]
+    ],
+    "modele": {
+     "admis": false,
+     "appels": 1,
+     "exemples": [
+      {
+       "legendes": {
+        "cheor": [
+         "f102v2.11"
+        ]
+       },
+       "lieu": "f102v2.39",
+       "mot": "cheor"
+      }
+     ],
+     "feuillets": [
+      "f102"
+     ],
+     "justes": 1,
+     "mots": [
+      "cheor"
+     ],
+     "noms": [
+      "cheor"
+     ],
+     "regle": [
+      "cheekey",
+      -1
+     ]
+    }
+   },
+   "strict": {
+    "ex_aequo": [],
+    "modele": null
+   }
+  },
+  "modeles": [
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "cheor": [
+        "f102v2.11"
+       ]
+      },
+      "lieu": "f102v2.39",
+      "mot": "cheor"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "cheor"
+    ],
+    "noms": [
+     "cheor"
+    ],
+    "regle": [
+     "cheekey",
+     -1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "cheor": [
+        "f102v2.11"
+       ]
+      },
+      "lieu": "f102v2.32",
+      "mot": "cheor"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "cheor"
+    ],
+    "noms": [
+     "cheor"
+    ],
+    "regle": [
+     "dar",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "okeody": [
+        "f102v1.3"
+       ]
+      },
+      "lieu": "f102v1.21",
+      "mot": "okeody"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeody"
+    ],
+    "noms": [
+     "okeody"
+    ],
+    "regle": [
+     "deody",
+     -1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "okeody": [
+        "f102v1.3"
+       ]
+      },
+      "lieu": "f102v1.21",
+      "mot": "okeody"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeody"
+    ],
+    "noms": [
+     "okeody"
+    ],
+    "regle": [
+     "ychey",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "cheor": [
+        "f102v2.11"
+       ]
+      },
+      "lieu": "f102v2.39",
+      "mot": "cheor"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "cheor"
+    ],
+    "noms": [
+     "cheor"
+    ],
+    "regle": [
+     "yotaiin",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 9,
+    "exemples": [
+     {
+      "legendes": {
+       "okor": [
+        "f99r.8"
+       ]
+      },
+      "lieu": "f99r.51",
+      "mot": "okor"
+     }
+    ],
+    "feuillets": [
+     "f99"
+    ],
+    "justes": 1,
+    "mots": [
+     "okor"
+    ],
+    "noms": [
+     "okor"
+    ],
+    "regle": [
+     "okeey",
+     -1
+    ]
+   }
+  ]
+ },
+ "variation": {
+  "appels": [
+   {
+    "positions": [],
+    "regle": [
+     "cheekey",
+     -1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "ches",
+     1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f88r.31",
+      "panneau": "f88r",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "locus": "f88r.9",
+      "panneau": "f88r",
+      "rangs": {
+       "H_joints": [
+        8,
+        9
+       ],
+       "H_separes": [
+        8,
+        9
+       ],
+       "ZL_joints": [
+        8,
+        9
+       ],
+       "ZL_separes": [
+        8,
+        9
+       ]
+      }
+     },
+     {
+      "locus": "f88v.10",
+      "panneau": "f88v",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "locus": "f89v2.18",
+      "panneau": "f89v2",
+      "rangs": {
+       "H_joints": [
+        7,
+        8
+       ],
+       "H_separes": [
+        7,
+        8
+       ],
+       "ZL_joints": [
+        7,
+        8
+       ],
+       "ZL_separes": [
+        7,
+        8
+       ]
+      }
+     },
+     {
+      "locus": "f89v2.21",
+      "panneau": "f89v2",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "dar",
+     1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "deody",
+     -1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "deody",
+     1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f89r2.13",
+      "panneau": "f89r2",
+      "rangs": {
+       "H_joints": [
+        5,
+        6
+       ],
+       "H_separes": [
+        5,
+        6
+       ],
+       "ZL_joints": [
+        5,
+        6
+       ],
+       "ZL_separes": [
+        5,
+        6
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "okeeol",
+     1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f89v2.9",
+      "panneau": "f89v2",
+      "rangs": {
+       "H_joints": [
+        2,
+        1
+       ],
+       "H_separes": [
+        2,
+        1
+       ],
+       "ZL_joints": [
+        2,
+        1
+       ],
+       "ZL_separes": [
+        2,
+        1
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "okeey",
+     -1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f89v1.15",
+      "panneau": "f89v1",
+      "rangs": {
+       "H_joints": [
+        6,
+        5
+       ],
+       "H_separes": [
+        6,
+        5
+       ],
+       "ZL_joints": [
+        6,
+        5
+       ],
+       "ZL_separes": [
+        6,
+        5
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "okeor",
+     -1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "okoldy",
+     -1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f89r2.14",
+      "panneau": "f89r2",
+      "rangs": {
+       "H_joints": [
+        14,
+        15
+       ],
+       "H_separes": [
+        14,
+        15
+       ],
+       "ZL_joints": [
+        14,
+        15
+       ],
+       "ZL_separes": [
+        14,
+        15
+       ]
+      }
+     },
+     {
+      "locus": "f89r2.27",
+      "panneau": "f89r2",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "locus": "f89v1.10",
+      "panneau": "f89v1",
+      "rangs": {
+       "H_joints": [
+        5,
+        6
+       ],
+       "H_separes": [
+        5,
+        6
+       ],
+       "ZL_joints": [
+        5,
+        6
+       ],
+       "ZL_separes": [
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "locus": "f89v1.6",
+      "panneau": "f89v1",
+      "rangs": {
+       "H_joints": [
+        3,
+        4
+       ],
+       "H_separes": [
+        3,
+        4
+       ],
+       "ZL_joints": [
+        3,
+        4
+       ],
+       "ZL_separes": [
+        3,
+        4
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "qokol",
+     1
+    ]
+   },
+   {
+    "positions": [
+     {
+      "locus": "f88r.22",
+      "panneau": "f88r",
+      "rangs": {
+       "H_joints": [
+        1,
+        2
+       ],
+       "H_separes": [
+        1,
+        2
+       ],
+       "ZL_joints": [
+        1,
+        2
+       ],
+       "ZL_separes": [
+        1,
+        2
+       ]
+      }
+     }
+    ],
+    "regle": [
+     "ychey",
+     1
+    ]
+   },
+   {
+    "positions": [],
+    "regle": [
+     "yotaiin",
+     1
+    ]
+   }
+  ],
+  "choix": {
+   "permissif": {
+    "ex_aequo": [
+     [
+      "cheekey",
+      -1
+     ],
+     [
+      "dar",
+      1
+     ],
+     [
+      "deody",
+      -1
+     ],
+     [
+      "deody",
+      1
+     ],
+     [
+      "ychey",
+      1
+     ],
+     [
+      "yotaiin",
+      1
+     ]
+    ],
+    "modele": {
+     "admis": false,
+     "appels": 1,
+     "exemples": [
+      {
+       "legendes": {
+        "cheor": [
+         "f102v2.11"
+        ]
+       },
+       "lieu": "f102v2.39",
+       "mot": "cheor"
+      }
+     ],
+     "feuillets": [
+      "f102"
+     ],
+     "justes": 1,
+     "mots": [
+      "cheor"
+     ],
+     "noms": [
+      "cheor"
+     ],
+     "regle": [
+      "cheekey",
+      -1
+     ]
+    }
+   },
+   "strict": {
+    "ex_aequo": [],
+    "modele": null
+   }
+  },
+  "modeles": [
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "cheor": [
+        "f102v2.11"
+       ]
+      },
+      "lieu": "f102v2.39",
+      "mot": "cheor"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "cheor"
+    ],
+    "noms": [
+     "cheor"
+    ],
+    "regle": [
+     "cheekey",
+     -1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "cheor": [
+        "f102v2.11"
+       ]
+      },
+      "lieu": "f102v2.32",
+      "mot": "cheor"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "cheor"
+    ],
+    "noms": [
+     "cheor"
+    ],
+    "regle": [
+     "dar",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "okeody": [
+        "f102v1.3"
+       ]
+      },
+      "lieu": "f102v1.21",
+      "mot": "okeody"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeody"
+    ],
+    "noms": [
+     "okeody"
+    ],
+    "regle": [
+     "deody",
+     -1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "okeody": [
+        "f102v1.3"
+       ]
+      },
+      "lieu": "f102v1.21",
+      "mot": "okody"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "okody"
+    ],
+    "noms": [
+     "okeody"
+    ],
+    "regle": [
+     "deody",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "okeody": [
+        "f102v1.3"
+       ]
+      },
+      "lieu": "f102v1.21",
+      "mot": "okeody"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeody"
+    ],
+    "noms": [
+     "okeody"
+    ],
+    "regle": [
+     "ychey",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 1,
+    "exemples": [
+     {
+      "legendes": {
+       "cheor": [
+        "f102v2.11"
+       ]
+      },
+      "lieu": "f102v2.39",
+      "mot": "cheor"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "cheor"
+    ],
+    "noms": [
+     "cheor"
+    ],
+    "regle": [
+     "yotaiin",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 2,
+    "exemples": [
+     {
+      "legendes": {
+       "okcheor": [
+        "f100v.10"
+       ]
+      },
+      "lieu": "f100v.16",
+      "mot": "okeor"
+     }
+    ],
+    "feuillets": [
+     "f100"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeor"
+    ],
+    "noms": [
+     "okcheor"
+    ],
+    "regle": [
+     "ches",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 2,
+    "exemples": [
+     {
+      "legendes": {
+       "okeoly": [
+        "f99r.25"
+       ]
+      },
+      "lieu": "f99r.30",
+      "mot": "okoly"
+     }
+    ],
+    "feuillets": [
+     "f99"
+    ],
+    "justes": 1,
+    "mots": [
+     "okoly"
+    ],
+    "noms": [
+     "okeoly"
+    ],
+    "regle": [
+     "okoldy",
+     -1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 3,
+    "exemples": [
+     {
+      "legendes": {
+       "okeodor": [
+        "f99v.29"
+       ]
+      },
+      "lieu": "f99v.33",
+      "mot": "okeor"
+     }
+    ],
+    "feuillets": [
+     "f99"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeor"
+    ],
+    "noms": [
+     "okeodor"
+    ],
+    "regle": [
+     "okeeol",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 3,
+    "exemples": [
+     {
+      "legendes": {
+       "okody": [
+        "f102v2.10"
+       ]
+      },
+      "lieu": "f102v2.22",
+      "mot": "okeody"
+     }
+    ],
+    "feuillets": [
+     "f102"
+    ],
+    "justes": 1,
+    "mots": [
+     "okeody"
+    ],
+    "noms": [
+     "okody"
+    ],
+    "regle": [
+     "okeor",
+     -1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 8,
+    "exemples": [
+     {
+      "legendes": {
+       "okeoly": [
+        "f99r.25"
+       ]
+      },
+      "lieu": "f99r.30",
+      "mot": "okoly"
+     }
+    ],
+    "feuillets": [
+     "f99"
+    ],
+    "justes": 1,
+    "mots": [
+     "okoly"
+    ],
+    "noms": [
+     "okeoly"
+    ],
+    "regle": [
+     "qokol",
+     1
+    ]
+   },
+   {
+    "admis": false,
+    "appels": 9,
+    "exemples": [
+     {
+      "legendes": {
+       "okor": [
+        "f99r.8"
+       ]
+      },
+      "lieu": "f99r.51",
+      "mot": "okor"
+     }
+    ],
+    "feuillets": [
+     "f99"
+    ],
+    "justes": 1,
+    "mots": [
+     "okor"
+    ],
+    "noms": [
+     "okor"
+    ],
+    "regle": [
+     "okeey",
+     -1
+    ]
+   }
+  ]
+ }
+}

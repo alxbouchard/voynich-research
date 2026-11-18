@@ -1,0 +1,19 @@
+# La cire dans le livre V de Celse, à Florence en 1478
+
+**Le témoin du XVe siècle confirme qu'il s'agit de cire, avec la graphie `caera`.** Le mot suivant *implent* est imprimé *Myſi*, qu'on peut transcrire *Mysi* avec un s court. Le mot *ulcera* prédit à cette seconde place ne se répète pas. Dans l'exemplaire numérisé par Munich, les mots recherchés figurent sur la même ligne au f. 91r, sous l'en-tête du livre V. [Agrandissement du feuillet](celse-91r.jpg) · [Vue 207 dans l'exemplaire de la BSB](https://www.digitale-sammlungen.de/view/bsb00050602?page=207)
+
+| Emplacement | Daremberg (édition employée pour le calcul) | Florence, 1478 |
+|---|---|---|
+| Fin de la proposition avec le miel | *purgant ulcera;* | *purgant ulcera:* |
+| Proposition avec la cire | *cum cera, implent.* | *cum caera implent.* |
+| Début de la phrase suivante | *Misy quoque et galla* | *Myſi* puis *quoque* abrégé, esperluette et *galla* |
+
+L'imprimé porte cinq lettres dans *caera*, dont le *a* entre *c* et *e*. Le point après *implent* et la majuscule de *Myſi* sont visibles. Celse compare ce que font les mêmes substances lorsqu’on les associe à deux ingrédients différents. Avec le miel, elles nettoient les plaies. Avec la cire, elles les comblent. Le latin sous-entend le complément de *implent*, les plaies nommées dans la proposition précédente. Le terme du début de la nouvelle phrase, *Myſi*, est coordonné à *galla* par l’esperluette. Une machine peut raisonnablement attendre des plaies comme objet de « combler », mais le mot correspondant est absent à cet endroit. [Ligne de l'incunable en pleine résolution](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00050602_00207/320,695,1850,285/full/0/default.jpg)
+
+Le chapitre XXII commence au f. 90v sous la rubrique *De medicamentis quibus aridis utimur*, sur les médicaments utilisés à sec. Elle est suivie d'un sous-titre sur la chair qui croît en excès. Il s'agit d'une notice sur des préparations et leurs effets. L'édition Daremberg classe ce développement dans *De medicina*, V, 22, 1, p. 179. Son point-virgule après *ulcera* et le deux-points de l'imprimé séparent les deux usages. Une fenêtre numérique de mots consécutifs peut donc franchir à la fois une limite de proposition et une fin de phrase. [Rubrique du f. 90v](celse-90v-rubrique.jpg) · [Vue 206](https://www.digitale-sammlungen.de/view/bsb00050602?page=206) · [XML de l'édition de calcul](https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/669d3657637ee44fb0aed2c37dd0f95c2b062193/data/phi0836/phi002/phi0836.phi002.perseus-lat5.xml)
+
+Le succès lexical *cera* correspond au texte de l'édition moderne qui figurait dans le vocabulaire d'essai. Le témoin de 1478 conserve le même mot avec une lettre supplémentaire. Cette relecture laisse ouverte la langue du Voynich et ne transforme pas la cire de Celse en traduction d'un groupe du manuscrit.
+
+## Source et méthode de repérage
+
+Aulus Cornelius Celsus, *De medicina*, Florence, Nicolaus Laurentii, 1478. Bayerische Staatsbibliothek, 2 Inc.c.a. 716, GW 6456. La ligne a été retrouvée en croisant les résultats OCR de *purgant* et *implent*, puis relue sur la photographie avec la fin de la page précédente. Le mot attendu était connu du lecteur à cette étape. Le manifeste IIIF nomme les vues « 90v (0206) » et « 91r (0207) ». La photographie de la rubrique utilise le rectangle (858, 2820, 1865, 355) ramené à 1 330 pixels de large. Celle du texte utilise (320, 365, 2040, 780) ramené à 1 700 pixels. Les coordonnées sont exprimées en pixels de l'original, depuis le coin supérieur gauche. [Manifeste de l'incunable](https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00050602/manifest) · [Photographie source de la rubrique](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00050602_00206/858,2820,1865,355/1330,/0/default.jpg) · [Photographie source du texte](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00050602_00207/320,365,2040,780/1700,/0/default.jpg)
