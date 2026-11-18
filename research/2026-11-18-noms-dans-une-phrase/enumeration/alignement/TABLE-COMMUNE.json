@@ -1,0 +1,756 @@
+{
+ "X_est_une_legende_locale": false,
+ "fenetre_autre_panneau": {
+  "lieu": "f89r1.9",
+  "dans_panneaux": true,
+  "mots": [
+   "oiiin",
+   "daiin",
+   "qokeey",
+   "daiin",
+   "ckhol"
+  ],
+  "positions": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "prevision": "daiin",
+  "observes": {
+   "avant_W": null,
+   "apres_Y": "qokain",
+   "deux_apres_Y": "cheamy"
+  }
+ },
+ "comptes": {
+  "macer": {
+   "combinaisons_de_positions": 9,
+   "compatibles": 0,
+   "tables_distinctes": 0
+  },
+  "cuisine": {
+   "combinaisons_de_positions": 7225,
+   "compatibles": 23,
+   "tables_distinctes": 22
+  }
+ },
+ "lectures_possibles": {
+  "macer": [],
+  "cuisine": [
+   {
+    "origine": "24.162v",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "sale",
+     "et",
+     "pone"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "sale",
+     "ckhy": "pone",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "30.163v",
+    "cible": "39.164v",
+    "latin_origine": [
+     "sale",
+     "et",
+     "oleo",
+     "et",
+     "ovis"
+    ],
+    "latin_cible": [
+     "safrano",
+     "et",
+     "speciebus",
+     "et",
+     "sale"
+    ],
+    "table": {
+     "ckhol": "sale",
+     "daiin": "et",
+     "okeoly": "oleo",
+     "ckhy": "ovis",
+     "oiiin": "safrano",
+     "qokeey": "speciebus"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "30.163v",
+    "cible": "46.165v",
+    "latin_origine": [
+     "sale",
+     "et",
+     "oleo",
+     "et",
+     "ovis"
+    ],
+    "latin_cible": [
+     "porro",
+     "et",
+     "speciebus",
+     "et",
+     "sale"
+    ],
+    "table": {
+     "ckhol": "sale",
+     "daiin": "et",
+     "okeoly": "oleo",
+     "ckhy": "ovis",
+     "oiiin": "porro",
+     "qokeey": "speciebus"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "39.164v",
+    "cible": "106.178r",
+    "latin_origine": [
+     "lacte",
+     "et",
+     "safrano",
+     "et",
+     "speciebus"
+    ],
+    "latin_cible": [
+     "ovis",
+     "et",
+     "caseo",
+     "et",
+     "lacte"
+    ],
+    "table": {
+     "ckhol": "lacte",
+     "daiin": "et",
+     "okeoly": "safrano",
+     "ckhy": "speciebus",
+     "oiiin": "ovis",
+     "qokeey": "caseo"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": "ckhy"
+    }
+   },
+   {
+    "origine": "41.165r",
+    "cible": "39.164v",
+    "latin_origine": [
+     "sale",
+     "et",
+     "zafrano",
+     "et",
+     "cum"
+    ],
+    "latin_cible": [
+     "safrano",
+     "et",
+     "speciebus",
+     "et",
+     "sale"
+    ],
+    "table": {
+     "ckhol": "sale",
+     "daiin": "et",
+     "okeoly": "zafrano",
+     "ckhy": "cum",
+     "oiiin": "safrano",
+     "qokeey": "speciebus"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "41.165r",
+    "cible": "46.165v",
+    "latin_origine": [
+     "sale",
+     "et",
+     "zafrano",
+     "et",
+     "cum"
+    ],
+    "latin_cible": [
+     "porro",
+     "et",
+     "speciebus",
+     "et",
+     "sale"
+    ],
+    "table": {
+     "ckhol": "sale",
+     "daiin": "et",
+     "okeoly": "zafrano",
+     "ckhy": "cum",
+     "oiiin": "porro",
+     "qokeey": "speciebus"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "46.165v",
+    "cible": "39.164v",
+    "latin_origine": [
+     "speciebus",
+     "et",
+     "sale",
+     "et",
+     "da"
+    ],
+    "latin_cible": [
+     "lacte",
+     "et",
+     "safrano",
+     "et",
+     "speciebus"
+    ],
+    "table": {
+     "ckhol": "speciebus",
+     "daiin": "et",
+     "okeoly": "sale",
+     "ckhy": "da",
+     "oiiin": "lacte",
+     "qokeey": "safrano"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": "okeoly"
+    }
+   },
+   {
+    "origine": "46.165v",
+    "cible": "106.178r",
+    "latin_origine": [
+     "speciebus",
+     "et",
+     "sale",
+     "et",
+     "da"
+    ],
+    "latin_cible": [
+     "caseo",
+     "et",
+     "lacte",
+     "et",
+     "speciebus"
+    ],
+    "table": {
+     "ckhol": "speciebus",
+     "daiin": "et",
+     "okeoly": "sale",
+     "ckhy": "da",
+     "oiiin": "caseo",
+     "qokeey": "lacte"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": "daiin"
+    }
+   },
+   {
+    "origine": "51.166v",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "cepis",
+     "et",
+     "pone"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "cepis",
+     "ckhy": "pone",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "69.170r",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "cepis",
+     "et",
+     "amigdale"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "cepis",
+     "ckhy": "amigdale",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "71.170v",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "cepis",
+     "et",
+     "terantur"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "cepis",
+     "ckhy": "terantur",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "77.171v",
+    "cible": "39.164v",
+    "latin_origine": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "latin_cible": [
+     "lacte",
+     "et",
+     "safrano",
+     "et",
+     "speciebus"
+    ],
+    "table": {
+     "ckhol": "speciebus",
+     "daiin": "et",
+     "okeoly": "ovis",
+     "ckhy": "lardo",
+     "oiiin": "lacte",
+     "qokeey": "safrano"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "77.171v",
+    "cible": "106.178r",
+    "latin_origine": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "latin_cible": [
+     "caseo",
+     "et",
+     "lacte",
+     "et",
+     "speciebus"
+    ],
+    "table": {
+     "ckhol": "speciebus",
+     "daiin": "et",
+     "okeoly": "ovis",
+     "ckhy": "lardo",
+     "oiiin": "caseo",
+     "qokeey": "lacte"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": "daiin"
+    }
+   },
+   {
+    "origine": "94.175v",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "cepis",
+     "et",
+     "cum"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "cepis",
+     "ckhy": "cum",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "105.178r",
+    "cible": "39.164v",
+    "latin_origine": [
+     "speciebus",
+     "et",
+     "melle",
+     "et",
+     "riso"
+    ],
+    "latin_cible": [
+     "lacte",
+     "et",
+     "safrano",
+     "et",
+     "speciebus"
+    ],
+    "table": {
+     "ckhol": "speciebus",
+     "daiin": "et",
+     "okeoly": "melle",
+     "ckhy": "riso",
+     "oiiin": "lacte",
+     "qokeey": "safrano"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "105.178r",
+    "cible": "106.178r",
+    "latin_origine": [
+     "speciebus",
+     "et",
+     "melle",
+     "et",
+     "riso"
+    ],
+    "latin_cible": [
+     "caseo",
+     "et",
+     "lacte",
+     "et",
+     "speciebus"
+    ],
+    "table": {
+     "ckhol": "speciebus",
+     "daiin": "et",
+     "okeoly": "melle",
+     "ckhy": "riso",
+     "oiiin": "caseo",
+     "qokeey": "lacte"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": "daiin"
+    }
+   },
+   {
+    "origine": "106.178r",
+    "cible": "30.163v",
+    "latin_origine": [
+     "ovis",
+     "et",
+     "caseo",
+     "et",
+     "lacte"
+    ],
+    "latin_cible": [
+     "sale",
+     "et",
+     "oleo",
+     "et",
+     "ovis"
+    ],
+    "table": {
+     "ckhol": "ovis",
+     "daiin": "et",
+     "okeoly": "caseo",
+     "ckhy": "lacte",
+     "oiiin": "sale",
+     "qokeey": "oleo"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "106.178r",
+    "cible": "32.163v",
+    "latin_origine": [
+     "ovis",
+     "et",
+     "caseo",
+     "et",
+     "lacte"
+    ],
+    "latin_cible": [
+     "bria",
+     "et",
+     "oleo",
+     "et",
+     "ovis"
+    ],
+    "table": {
+     "ckhol": "ovis",
+     "daiin": "et",
+     "okeoly": "caseo",
+     "ckhy": "lacte",
+     "oiiin": "bria",
+     "qokeey": "oleo"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "106.178r",
+    "cible": "77.171v",
+    "latin_origine": [
+     "ovis",
+     "et",
+     "caseo",
+     "et",
+     "lacte"
+    ],
+    "latin_cible": [
+     "batutis",
+     "et",
+     "speciebus",
+     "et",
+     "ovis"
+    ],
+    "table": {
+     "ckhol": "ovis",
+     "daiin": "et",
+     "okeoly": "caseo",
+     "ckhy": "lacte",
+     "oiiin": "batutis",
+     "qokeey": "speciebus"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "109.178v",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "sale",
+     "et",
+     "cipola"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "sale",
+     "ckhy": "cipola",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "114.179v",
+    "cible": "77.171v",
+    "latin_origine": [
+     "lardo",
+     "et",
+     "cepis",
+     "et",
+     "pone"
+    ],
+    "latin_cible": [
+     "speciebus",
+     "et",
+     "ovis",
+     "et",
+     "lardo"
+    ],
+    "table": {
+     "ckhol": "lardo",
+     "daiin": "et",
+     "okeoly": "cepis",
+     "ckhy": "pone",
+     "oiiin": "speciebus",
+     "qokeey": "ovis"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": "daiin",
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "121.181r",
+    "cible": "28.163v",
+    "latin_origine": [
+     "zafrano",
+     "et",
+     "pipere",
+     "et",
+     "distempera"
+    ],
+    "latin_cible": [
+     "amigdalarum",
+     "et",
+     "speciebus",
+     "et",
+     "zafrano"
+    ],
+    "table": {
+     "ckhol": "zafrano",
+     "daiin": "et",
+     "okeoly": "pipere",
+     "ckhy": "distempera",
+     "oiiin": "amigdalarum",
+     "qokeey": "speciebus"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": null,
+     "deux_apres_Y": null
+    }
+   },
+   {
+    "origine": "121.181r",
+    "cible": "41.165r",
+    "latin_origine": [
+     "zafrano",
+     "et",
+     "pipere",
+     "et",
+     "distempera"
+    ],
+    "latin_cible": [
+     "oleo",
+     "et",
+     "sale",
+     "et",
+     "zafrano"
+    ],
+    "table": {
+     "ckhol": "zafrano",
+     "daiin": "et",
+     "okeoly": "pipere",
+     "ckhy": "distempera",
+     "oiiin": "oleo",
+     "qokeey": "sale"
+    },
+    "voisins_que_la_table_peut_lire": {
+     "avant_W": null,
+     "apres_Y": "daiin",
+     "deux_apres_Y": null
+    }
+   }
+  ]
+ }
+}

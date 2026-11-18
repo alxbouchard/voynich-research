@@ -1,0 +1,3 @@
+# Sensibilité aux espaces discutés avant l'amorce
+
+L’alignement au même rang sur l’intégralité du locus peut perdre une fenêtre à cause d’un espace discuté situé bien avant elle. Après lecture de f105v.5, chercher à nouveau sur toute la prose P0, en excluant le feuillet 99, les cinq groupes entiers W daiin X daiin Y. Exiger que la suite exacte se retrouve une seule fois dans la ligne de chacune des quatre lectures, sans interruption de dessin entre ses mots. Les rangs de début dans les quatre lectures peuvent différer. Les graphies prédites restent celles du vote culinaire déjà figé. Déposer d’abord les fenêtres trouvées. Un voisin sera vérifiable seulement s’il est identique au même côté de l’amorce dans les quatre lectures sans traverser la ligne ni une interruption.

@@ -1,0 +1,52 @@
+{
+ "comptes": {
+  "depart": {
+   "fenetres": 1,
+   "voisins_lisibles": 1,
+   "votes_testables": 1,
+   "votes_corrects": 0,
+   "un_ou_plus_testables": 1,
+   "au_moins_une_table_correcte": 0
+  }
+ },
+ "cibles": [
+  {
+   "lieu": "f99r.18",
+   "segment": 0,
+   "rang": 6,
+   "rang_ligne": 6,
+   "mode": "depart",
+   "dans_panneaux": true,
+   "X_legende_locale": true,
+   "cadre": [
+    "ckhol",
+    "daiin",
+    "okeoly",
+    "daiin",
+    "ckhy"
+   ],
+   "graphies_par_vote": {
+    "avant_W": "daiin",
+    "apres_Y": "daiin",
+    "deux_apres_Y": "daiin"
+   },
+   "graphies_au_moins_une_table": {
+    "avant_W": [
+     "ckhy",
+     "daiin"
+    ],
+    "apres_Y": [
+     "daiin"
+    ],
+    "deux_apres_Y": [
+     "daiin"
+    ]
+   },
+   "observes": {
+    "avant_W": "chody",
+    "apres_Y": null,
+    "deux_apres_Y": null
+   }
+  }
+ ]
+}

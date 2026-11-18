@@ -1,0 +1,852 @@
+{
+ "couverture": {
+  "lignes_P0": 213,
+  "etiquettes_concordantes": 130,
+  "formes_etiquettes": 124,
+  "panneaux_P0": 15
+ },
+ "latin": {
+  "source": "vers.tsv",
+  "sha256": "ccbb4145e1e00f3f5a55259a47e661da39d514ebe53618eacf98f956db4c6b34",
+  "vers": [
+   {
+    "notice": "Urtica",
+    "vers": 115,
+    "texte": "Dicimus urticam, quam Graecus acalyphe dicit,"
+   },
+   {
+    "notice": "Acidula",
+    "vers": 711,
+    "texte": "Dicimus acidulam, quam Graecus dicit aizon;"
+   },
+   {
+    "notice": "Enula",
+    "vers": 1489,
+    "texte": "Enula, quam Graecus elnam vocat eleniumque"
+   }
+  ],
+  "calibration": [
+   {
+    "apprentissage": "Acidula",
+    "nom_reserve": "Urtica",
+    "rubrique_flechie_donnee": "urticam",
+    "avec_ancre": {
+     "annonces": 1,
+     "graecus": 1
+    },
+    "sans_ancre": {
+     "annonces": 25,
+     "graecus": 2
+    },
+    "lieux": [
+     {
+      "notice": "Urtica",
+      "vers": 115,
+      "forme_chiffree": "enrqpbh",
+      "observe": "enrqpbh",
+      "exact": true
+     }
+    ]
+   },
+   {
+    "apprentissage": "Urtica",
+    "nom_reserve": "Acidula",
+    "rubrique_flechie_donnee": "acidulam",
+    "avec_ancre": {
+     "annonces": 1,
+     "graecus": 1
+    },
+    "sans_ancre": {
+     "annonces": 25,
+     "graecus": 2
+    },
+    "lieux": [
+     {
+      "notice": "Acidula",
+      "vers": 711,
+      "forme_chiffree": "enrqpbh",
+      "observe": "enrqpbh",
+      "exact": true
+     }
+    ]
+   },
+   {
+    "apprentissage": "Urtica",
+    "nom_reserve": "Enula",
+    "rubrique_flechie_donnee": "enula",
+    "avec_ancre": {
+     "annonces": 1,
+     "graecus": 1
+    },
+    "sans_ancre": {
+     "annonces": 25,
+     "graecus": 2
+    },
+    "lieux": [
+     {
+      "notice": "Enula",
+      "vers": 1489,
+      "forme_chiffree": "enrqpbh",
+      "observe": "enrqpbh",
+      "exact": true
+     }
+    ]
+   }
+  ]
+ },
+ "experiences": {
+  "1": {
+   "appels": [
+    {
+     "id": "f102v1.13#1:qkol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "qkol",
+     "suivant": "cheol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88r.19#1:okol",
+     "cahier": "O",
+     "locale": true,
+     "ancre": "okol",
+     "suivant": "cheol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88v.21#1:dam",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "dam",
+     "suivant": "cheor",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88v.26#1:choky",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "choky",
+     "suivant": "cheor",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v1.14#1:okol",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "chody",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "o": "u",
+       "d": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v1.16#1:okaiin",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okaiin",
+     "suivant": "dalg",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "d": "q",
+       "a": "u",
+       "l": "a",
+       "g": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v1.19#1:okol",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "ycheo",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "y": "q",
+       "ch": "u",
+       "e": "a",
+       "o": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v2.20#1:odor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "odor",
+     "suivant": "sheos",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "q",
+       "e": "u",
+       "o": "a",
+       "s": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v2.8#1:okor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okor",
+     "suivant": "chear",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "a": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f99v.13#1:okol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "shocthy",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "q",
+       "o": "u",
+       "cth": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f99v.33#1:okaiin",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okaiin",
+     "suivant": "ckheol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ckh": "q",
+       "e": "u",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    }
+   ],
+   "cles_de_transfert": []
+  },
+  "2": {
+   "appels": [
+    {
+     "id": "f100v.17#1:okol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "chol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "o": "u",
+       "l": "am"
+      },
+      {
+       "ch": "q",
+       "o": "ua",
+       "l": "m"
+      },
+      {
+       "ch": "qu",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f100v.20#1:cheor",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "cheor",
+     "suivant": "ol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "o": "qu",
+       "l": "am"
+      }
+     ]
+    },
+    {
+     "id": "f100v.21#1:okor",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okor",
+     "suivant": "ol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "o": "qu",
+       "l": "am"
+      }
+     ]
+    },
+    {
+     "id": "f101v.20#1:okody",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okody",
+     "suivant": "dar",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "d": "q",
+       "a": "u",
+       "r": "am"
+      },
+      {
+       "d": "q",
+       "a": "ua",
+       "r": "m"
+      },
+      {
+       "d": "qu",
+       "a": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f101v.22#1:otal",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "otal",
+     "suivant": "or",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "o": "qu",
+       "r": "am"
+      }
+     ]
+    },
+    {
+     "id": "f102r1.14#1:okol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "chos",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "o": "u",
+       "s": "am"
+      },
+      {
+       "ch": "q",
+       "o": "ua",
+       "s": "m"
+      },
+      {
+       "ch": "qu",
+       "o": "a",
+       "s": "m"
+      }
+     ]
+    },
+    {
+     "id": "f102r1.5#1:sheol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "sheol",
+     "suivant": "she",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "qu",
+       "e": "am"
+      }
+     ]
+    },
+    {
+     "id": "f102r2.18#1:oky",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "oky",
+     "suivant": "oky",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "o": "q",
+       "k": "u",
+       "y": "am"
+      },
+      {
+       "o": "q",
+       "k": "ua",
+       "y": "m"
+      },
+      {
+       "o": "qu",
+       "k": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f102v1.11#1:cheody",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "cheody",
+     "suivant": "dy",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "d": "qu",
+       "y": "am"
+      }
+     ]
+    },
+    {
+     "id": "f102v1.13#1:qkol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "qkol",
+     "suivant": "cheol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f102v1.14#1:cheor",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "cheor",
+     "suivant": "ckhey",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ckh": "q",
+       "e": "u",
+       "y": "am"
+      },
+      {
+       "ckh": "q",
+       "e": "ua",
+       "y": "m"
+      },
+      {
+       "ckh": "qu",
+       "e": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f102v2.35#1:sheol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "sheol",
+     "suivant": "por",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "p": "q",
+       "o": "u",
+       "r": "am"
+      },
+      {
+       "p": "q",
+       "o": "ua",
+       "r": "m"
+      },
+      {
+       "p": "qu",
+       "o": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88r.19#1:okol",
+     "cahier": "O",
+     "locale": true,
+     "ancre": "okol",
+     "suivant": "cheol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88r.22#1:cheor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "cheor",
+     "suivant": "ol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "o": "qu",
+       "l": "am"
+      }
+     ]
+    },
+    {
+     "id": "f88r.22#1:okaiin",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okaiin",
+     "suivant": "chol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "o": "u",
+       "l": "am"
+      },
+      {
+       "ch": "q",
+       "o": "ua",
+       "l": "m"
+      },
+      {
+       "ch": "qu",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88r.8#1:oky",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "oky",
+     "suivant": "sam",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "s": "q",
+       "a": "u",
+       "m": "am"
+      },
+      {
+       "s": "q",
+       "a": "ua",
+       "m": "m"
+      },
+      {
+       "s": "qu",
+       "a": "a",
+       "m": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88v.21#1:dam",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "dam",
+     "suivant": "cheor",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f88v.26#1:cheor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "cheor",
+     "suivant": "shy",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "qu",
+       "y": "am"
+      }
+     ]
+    },
+    {
+     "id": "f88v.26#1:choky",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "choky",
+     "suivant": "cheor",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "o": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v1.14#1:okol",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "chody",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "o": "u",
+       "d": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v1.16#1:okaiin",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okaiin",
+     "suivant": "dalg",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "d": "q",
+       "a": "u",
+       "l": "a",
+       "g": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v1.19#1:okol",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "ycheo",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "y": "q",
+       "ch": "u",
+       "e": "a",
+       "o": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v2.20#1:odor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "odor",
+     "suivant": "sheos",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "q",
+       "e": "u",
+       "o": "a",
+       "s": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v2.20#1:okaiin",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okaiin",
+     "suivant": "shy",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "qu",
+       "y": "am"
+      }
+     ]
+    },
+    {
+     "id": "f89v2.8#1:okor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "okor",
+     "suivant": "chear",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "a": "a",
+       "r": "m"
+      }
+     ]
+    },
+    {
+     "id": "f89v2.9#1:cheor",
+     "cahier": "O",
+     "locale": false,
+     "ancre": "cheor",
+     "suivant": "chey",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ch": "q",
+       "e": "u",
+       "y": "am"
+      },
+      {
+       "ch": "q",
+       "e": "ua",
+       "y": "m"
+      },
+      {
+       "ch": "qu",
+       "e": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f99v.13#1:okol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "shocthy",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "sh": "q",
+       "o": "u",
+       "cth": "a",
+       "y": "m"
+      }
+     ]
+    },
+    {
+     "id": "f99v.33#1:okaiin",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okaiin",
+     "suivant": "ckheol",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "ckh": "q",
+       "e": "u",
+       "o": "a",
+       "l": "m"
+      }
+     ]
+    },
+    {
+     "id": "f99v.42#1:okol",
+     "cahier": "S",
+     "locale": false,
+     "ancre": "okol",
+     "suivant": "or",
+     "attendu_deuxieme_droite": "graecus",
+     "attendu_gauche": "dicimus",
+     "cles_quam": [
+      {
+       "o": "qu",
+       "r": "am"
+      }
+     ]
+    }
+   ],
+   "cles_de_transfert": []
+  }
+ }
+}

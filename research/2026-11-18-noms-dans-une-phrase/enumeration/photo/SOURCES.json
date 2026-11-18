@@ -1,0 +1,136 @@
+{
+ "photo": {
+  "source": "https://collections.library.yale.edu/iiif/2/1006246/full/full/0/default.jpg",
+  "source_visualiseur": "https://www.voynichese.com/2/data/folio/script/f99r.js",
+  "calage": {
+   "xml_to_yale": [
+    [
+     3.7290662961288845,
+     0.07485146697597087,
+     151.12511625850232
+    ],
+    [
+     -0.06713871130169714,
+     3.740128598557884,
+     159.6349594142766
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "n_feature_matches": 2777,
+   "n_inliers": 2617,
+   "median_feature_error_yale_px": 1.6670116121254475,
+   "p95_feature_error_yale_px": 4.160742347484105,
+   "ref_size": [
+    636,
+    900
+   ],
+   "native_size": [
+    2702,
+    3765
+   ],
+   "ref_sha256": "905935a44ffea72ae2acddc13f2ae6add4c0d65af4804e51f2bf655488e8026b",
+   "yale_sha256": "f17eba5496a1b1d92f589c33ee9be256a379ec8d2bba3da1ebe2ff5a2e3e2901"
+  },
+  "boites": {
+   "f99r.18/7": {
+    "eva": "daiin",
+    "index_visualiseur": 50,
+    "boite": [
+     1534,
+     1074,
+     1682,
+     1134
+    ]
+   },
+   "f99r.18/8": {
+    "eva": "okeoly",
+    "index_visualiseur": 51,
+    "boite": [
+     1702,
+     1059,
+     1906,
+     1142
+    ]
+   },
+   "f99r.18/9": {
+    "eva": "daiin",
+    "index_visualiseur": 52,
+    "boite": [
+     1948,
+     1078,
+     2096,
+     1138
+    ]
+   },
+   "f99r.18/10": {
+    "eva": "ckhy",
+    "index_visualiseur": 53,
+    "boite": [
+     2127,
+     1053,
+     2264,
+     1135
+    ]
+   },
+   "f99r.25": {
+    "eva": "okeoly",
+    "index_visualiseur": 60,
+    "boite": [
+     1759,
+     1127,
+     1907,
+     1220
+    ]
+   }
+  },
+  "sha256_visualiseur": "7213252ab1d0d110241d9ddbb33338df7534401c735e23f4abbf0c7837fe7b88"
+ },
+ "transcriptions": {
+  "H": {
+   "fichier": "IT2a-n.txt",
+   "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+   "lignes": [
+    "<f99r.18,+P0>     qokeor.chol.ykol.cheey.chody.ckhol.daiin.okeoly.daiin.ckhy<$>",
+    "<f99r.25,@Lf>     okeoly"
+   ]
+  },
+  "ZL": {
+   "fichier": "ZL3b-n.txt",
+   "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+   "lignes": [
+    "<f99r.18,+P0>     qokeor.chol.ykol.cheey.chody.ckhol.daiin.okeoly.daiin.ckhy<$>",
+    "<f99r.25,@Lf>     <!85a>okeoly"
+   ]
+  },
+  "FSG": {
+   "fichier": "FG2a-n.txt",
+   "sha256": "a1460a05ff610a406e62b4095a8f8e88c04653c1ef4aa5ad6428ddb1ac01fe06",
+   "lignes": [
+    "<f99r.18,+P0>     4ODCOR.TOE.GDOE.TCCG.TO8G.DZOE.8AM.ODCOEG.8AM.DZG<$>"
+   ]
+  },
+  "v101": {
+   "fichier": "GC2a-n.txt",
+   "sha256": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+   "lignes": [
+    "<f99r.18,+P0>     4ohcoy.1oe.9,hoe.1C9.1o89.Hoe.8am.ohcoe9.8am.H9<$>",
+    "<f99r.25,@Lf>     ohcoe9"
+   ]
+  },
+  "interlineaire": {
+   "url": "https://www.voynich.nu/q19/f099r_tr.txt",
+   "sha256": "083f727c734b41cfe84d283a97b67975eec92bd328cc8cca38ebed4a79476678",
+   "lignes": [
+    "<f99r.P1.4;H>      qokeor.chol.ykol.cheey.chody.ckhol.daiin.okeoly.daiin.ckhy=",
+    "<f99r.P1.4;F>      qokeor.chol.ykol.cheey.chody.ckhol.daiin.okeoly.daiin.ckhy=",
+    "<f99r.L2.5a;H>     okeoly=",
+    "<f99r.L2.5a;V>     okeoly=",
+    "<f99r.L2.5a;U>     okeoly="
+   ]
+  }
+ }
+}

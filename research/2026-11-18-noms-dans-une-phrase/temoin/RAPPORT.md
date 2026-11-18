@@ -1,0 +1,35 @@
+# Quel mot, près du verbe, reprend le nom de la plante ?
+
+Sur les seize notices réservées d’un herbier latin, les mots voisins ont permis de retrouver **une reprise du nom sur trente**. Le programme a fait 23 annonces. En les déplaçant toutes d’un mot vers la droite dans leur vers, il retrouve également un nom. Un exemple juste est lisible sur une copie de 1478. Dès le vers suivant, le même indice désigne un autre type de mot. [Prédictions conservées avant lecture](PREDICTIONS.json) · [Résultats par notice, vers et mot](RESULTATS.json) · [Photographie du passage](piretro-f40r.jpg)
+
+## Ce que l’on pouvait prédire
+
+Le *De viribus herbarum* est un herbier composé en hexamètres latins à la fin du XIᵉ siècle et encore copié à la fin du XVᵉ. Les rubriques de l’édition donnent le nom de chaque plante. La question posée est précise. Si l’on couvre un mot du corps, ses voisins annoncent-ils que ce mot reprend le nom indiqué dans la rubrique ? On peut répondre à n’importe quelle place dans un vers. Le premier passage testé s’étend des notices XLV à LX, le second des notices LXI à LXXVI. Le projet avait déjà employé les rubriques de cet ouvrage et la même transcription pour d’autres questions. Cette séparation, les règles et les deux décalages ont été enregistrés avant lecture des vers de cette expérience. [Protocole](PROTOCOLE.md) · [Texte latin de l’édition de Baudet, Paris, 1845](https://la.wikisource.org/w/index.php?title=De_viribus_herbarum&oldid=272959) · [Notice du manuscrit Wellcome](https://wellcomecollection.org/works/cfqd658f)
+
+Dans les seize notices d’apprentissage, 30 des 2 623 mots correspondent au premier mot du titre selon la règle graphique annoncée. Six indices ont atteint le seuil de deux notices et de 5 % d’annonces justes. Ainsi, deux fois le nom précède immédiatement *medici* (« les médecins ») et deux fois il précède *graece* (« en grec »). Aucun couple composé d’un indice de chaque côté du mot masqué n’a atteint le seuil. Deux notices d’apprentissage sur les hellébores partagent le premier mot du titre, *Elleborus*, et le voisin *nigri*. Ce sont deux chapitres, mais la même désignation de genre. [Les six indices et leurs supports](INDICES.json)
+
+| Ensemble réservé | Places possibles | Reprises de la rubrique | Annonces | Justes | Justes après décalage d’un mot | Justes avec la rubrique suivante |
+|---|---:|---:|---:|---:|---:|---:|
+| Deux premiers vers de chaque chapitre | 200 | 15 | 13 | 1 | 1 | 0 |
+| Du troisième vers à la fin | 1 628 | 15 | 10 | 0 | 0 | 0 |
+| **Ensemble des 300 vers** | **1 828** | **30** | **23** | **1** | **1** | **0** |
+
+Chaque notice réservée contient au moins une reprise mesurée. Les 23 annonces se trouvent dans neuf notices, aux rangs 1 à 9 de leur vers. Le résultat brut est de 4,35 % de justes parmi les annonces, contre 1,64 % parmi l’ensemble des mots. Treize annonces tombent dans les deux premiers vers, où le taux de base atteint déjà 7,5 %. La comparaison à une place voisine conserve le nombre d’annonces dans chaque vers. Elle trouve *cicutae* au lieu de *natura* dans le chapitre de la ciguë et aboutit au même score global. Le remplacement du titre par le suivant donne 0/23. Ces comptages descriptifs n’établissent aucun avantage du voisinage appris sur le déplacement d’un mot. [Mots atteints, vraies reprises et contrôles](RESULTATS.json)
+
+## Le nom masqué dans une copie de 1478
+
+Dans le chapitre LXVII de l’édition, l’indice *est* à gauche a désigné la deuxième place du premier vers. La lecture donne *Est pyrethrum calidum*, « le pyrèthre est chaud ». La même règle désigne la deuxième place au vers suivant. Le texte y donne *est gradus*. La proposition qui enjambe les deux vers en précise le sens, « le degré de ces qualités est le quatrième ». Le degré de la qualité attribuée au simple fournit ici un exemple de vocabulaire qui décrit la plante sans la nommer. Le poète déplace également le nom au sein du vers. Dans le chapitre LXIX, *medici* suit le verbe *putant*, et *cyminum*, le nom du cumin, est le dernier mot. [Édition latine](https://la.wikisource.org/w/index.php?title=De_viribus_herbarum&oldid=272959) · [Concordance exacte des annonces](RESULTATS.json)
+
+Au feuillet **40r** du manuscrit Wellcome MS.458, la rubrique se lit *De piretro*. L’initiale bleue ouvre le vers. Les trois premiers mots se lisent *Est piretrū calidū*. Avec le développement des traits abréviatifs, cela donne *Est piretrum calidum*. L’écriture du nom diffère de *pyrethrum* dans l’édition. Au-dessous, *Est gradus* correspond également à la seconde place annoncée. Le feuillet, écrit en Italie du Nord en 1478, a été recherché **après** le calcul pour vérifier la transmission du passage. Le folio et le texte ont été relus sur la photographie par un agent IA. Crédit de l’image, Wellcome Collection, MS.458, domaine public, Public Domain Mark. [Cadrage de la rubrique et des deux vers](piretro-f40r.jpg) · [Même cadrage sur le serveur IIIF](https://iiif.wellcomecollection.org/image/b19209113_ms_458_0083.JP2/510,1370,2650,460/1650,/0/default.jpg) · [Feuillet entier](https://iiif.wellcomecollection.org/image/b19209113_ms_458_0083.JP2/full/1800,/0/default.jpg)
+
+## Portée du test et reproduction
+
+La règle graphique reconnaît des mots qui gardent au moins quatre premières lettres, avec au plus deux lettres finales restantes de chaque côté, ou un mot identique. Elle peut confondre des mots apparentés et omettre un synonyme. Ainsi *nardi*, explicitement associé à *spica* dans un vers sur les variétés de nard, est une des fausses alertes selon le critère du titre. Le système savait déjà quel nom appartenait à chaque rubrique. Même dans le cas du pyrèthre, il identifie une reprise sans prédire son orthographe dans la copie. Les vers viennent du même poème. Un vers sans équivalent récurrent ne fournit aucun modèle transférable. En particulier, une image de plante ne suffit pas pour lire un mot qui se trouve après un signe récurrent du Voynich. [Données de la seule annonce juste et des 22 autres](RESULTATS.json)
+
+Depuis ce répertoire, les trois commandes ci-dessous régénèrent dans l’ordre les indices, les annonces contenant les coordonnées de chaque mot masqué, et les résultats après dévoilement. Le programme utilise la bibliothèque standard de Python et vérifie l’empreinte de la [source archivée](../../2026-11-18-noms-dans-les-notices/historique/source.wiki.gz). Les positions sont comptées à partir de 1, à l’intérieur des vers édités. L’empreinte SHA-256 des annonces communiquée avant l’ouverture des mots est `a2ff362e8a3413806de684fc0c28dba3666e441f059ad686cda543c72b8a8d27`. Le texte de travail provient de l’édition Baudet, transcrite par Corpus Corporum puis diffusée sur Wikisource, révision 272959. Les modifications comprennent le découpage en mots et la suppression des marques de vers, des majuscules et des accents pour le calcul. [Programme](comparer.py) · [Crédits complets de la transcription](../../2026-11-18-noms-dans-les-notices/historique/README.md)
+
+```sh
+python3 comparer.py apprendre
+python3 comparer.py predire
+python3 comparer.py verifier
+```
