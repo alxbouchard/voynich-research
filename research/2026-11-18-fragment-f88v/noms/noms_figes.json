@@ -1,0 +1,277 @@
+{
+  "enregistre_utc": "2026-11-18T11:08:21.973242+00:00",
+  "exposition": "Aucun mot-cible reconnu, aucune longueur ou comparaison reçue. Un extrait accidentel de concordance EVA a été affiché. Voir provenance-avant-comparaison.md.",
+  "sources": {
+    "E4": "https://drive.google.com/file/d/1W96-uKaLTFO4lFRanOs2UChFL037L-oR/view",
+    "E3": "https://drive.google.com/file/d/1WTySlevfdBfpMXj-PAm-2na2Bz-a2Swi/view",
+    "P": "https://www.voynich.nu/extra/herb_oldid.html",
+    "S": "https://voynichbotany.wordpress.com/2012/09/15/voynich-manuscript-botanical-list/",
+    "SH": "https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=8",
+    "K": "https://voynichportal.com/2013/07/page/2/",
+    "WC": "https://wellcomecollection.org/works/eu3ym7su",
+    "W": "https://iiif.wellcomecollection.org/presentation/b32892366",
+    "G": "https://www.digitale-sammlungen.de/view/bsb00032739",
+    "PARIS": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2685323/"
+  },
+  "cibles": {
+    "f88v.3": {
+      "localisation": "haut, deuxième plante hors vase suivant la désignation de travail",
+      "temoignage_direct": [],
+      "hypotheses_via_f96r": [
+        "aristoloche",
+        "gourde"
+      ],
+      "alternatives_via_f96r": [
+        "cardère",
+        "souci",
+        "hellébore",
+        "aconit"
+      ],
+      "observation": "Aucun nom direct pour cet endroit précis retrouvé dans le carnet. Pages manuscrites 58-59 du cahier 3 absentes de la série numérisée et relevées comme possiblement blanches par les éditeurs."
+    },
+    "f89r2.fragment36": {
+      "localisation": "coin supérieur droit de 89³, cahier 3 p.63",
+      "temoignage_direct": [
+        "aristoloche, probable au genre",
+        "aristoloche longue, hypothèse de Fischer à vérifier selon Ethel"
+      ],
+      "faiblement_envisage": [
+        "Calamentha officinalis",
+        "Ambrosia artemisiifolia"
+      ],
+      "rejete_par_ethel": [
+        "Melilotus officinalis",
+        "Plantago lanceolata"
+      ],
+      "controle_seul": [
+        "morelle"
+      ]
+    }
+  },
+  "formes": [
+    {
+      "cibles": [
+        "f88v.3",
+        "f89r2.fragment36"
+      ],
+      "statut": "principal",
+      "forme": "aristologia",
+      "source": "W",
+      "lieu": "17r, image 37",
+      "justification": "Vedette latine de la notice générale, dont la plante longue est un des deux types. Aussi imprimée dans G 31/33."
+    },
+    {
+      "cibles": [
+        "f88v.3",
+        "f89r2.fragment36"
+      ],
+      "statut": "principal",
+      "forme": "aristologe",
+      "source": "W",
+      "lieu": "2r, image 7; 17r, image 37",
+      "justification": "Table du A et forme dans le corps relatif à la variété ronde; graphie générique de table."
+    },
+    {
+      "cibles": [
+        "f88v.3",
+        "f89r2.fragment36"
+      ],
+      "statut": "principal",
+      "forme": "aristologie",
+      "source": "W",
+      "lieu": "17v, image 38",
+      "justification": "Vedette composée de la longue et reprise dans le texte."
+    },
+    {
+      "cibles": [
+        "f89r2.fragment36"
+      ],
+      "statut": "principal",
+      "forme": "aristologia longa",
+      "source": "G",
+      "lieu": "vue 33, cap. XI",
+      "justification": "Double rubrique latine et allemande de la longue."
+    },
+    {
+      "cibles": [
+        "f89r2.fragment36"
+      ],
+      "statut": "principal",
+      "forme": "osterlutzye",
+      "source": "G",
+      "lieu": "vue 33, cap. XI",
+      "justification": "Double rubrique latine et allemande de la longue."
+    },
+    {
+      "cibles": [
+        "f89r2.fragment36"
+      ],
+      "statut": "principal",
+      "forme": "aristologie longue",
+      "source": "W",
+      "lieu": "17v, image 38",
+      "justification": "Dénomination composée dans le manuscrit."
+    },
+    {
+      "cibles": [
+        "f89r2.fragment36"
+      ],
+      "statut": "secondaire",
+      "forme": "osterlucien",
+      "source": "G",
+      "lieu": "vue 33, cap. XI",
+      "justification": "Forme fléchie dans la même notice."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "principal",
+      "forme": "cucurbita",
+      "source": "W",
+      "lieu": "65r, image 133",
+      "justification": "Rubrique et entrée bilingue. Figure de la gourde. Même mot dans le Gart, vue 180."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "principal",
+      "forme": "courge",
+      "source": "W",
+      "lieu": "43v, image 90; 65r-65v, images 133-134",
+      "justification": "Table, comparaison avec les citrulli et tête de propositions. Nom français au singulier."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "principal",
+      "forme": "corges",
+      "source": "W",
+      "lieu": "65r col. 2 et 65v col. 1, images 133-134",
+      "justification": "Pluriel visible dans la même notice. Conserve la graphie sans u du manuscrit."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "principal",
+      "forme": "kurbiß",
+      "source": "G",
+      "lieu": "vue 180, cap. XCI",
+      "justification": "Nom allemand en rubrique à côté de Cucurbita."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "principal",
+      "forme": "kurbyß",
+      "source": "G",
+      "lieu": "vue 718, table, col. droite",
+      "justification": "Graphie du même nom dans la table."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "secondaire",
+      "forme": "cucurbite",
+      "source": "PARIS",
+      "lieu": "Table 2, Paris latin 9333, 19v",
+      "justification": "Latin pluriel transcrit dans la publication sur une autre tradition, le Tacuinum. Cette entrée n’est pas la même notice que le Wellcome ou le Gart."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "secondaire",
+      "forme": "calendule",
+      "source": "W",
+      "lieu": "43v, image 90",
+      "justification": "Vedette de table pour le souci, rapprochement conditionnel de la note de Petersen."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "secondaire",
+      "forme": "calendula",
+      "source": "W",
+      "lieu": "76v, image 156",
+      "justification": "Incipit et dessin pour le souci. Le même mot apparaît dans la note O’Neill rapportée par Petersen."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "secondaire",
+      "forme": "cardo",
+      "source": "G",
+      "lieu": "vue 195, cap. CI, et table vue 718",
+      "justification": "Rubrique latine et allemande associée au bois de cardère. Cardo est aussi un nom plus large de chardons."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "secondaire",
+      "forme": "disteln",
+      "source": "G",
+      "lieu": "vue 195, cap. CI, et table vue 718",
+      "justification": "Rubrique latine et allemande associée au bois de cardère. Cardo est aussi un nom plus large de chardons."
+    },
+    {
+      "cibles": [
+        "f88v.3"
+      ],
+      "statut": "controle_seul",
+      "forme": "elleborus niger",
+      "source": "G",
+      "lieu": "vue 719, table, CLXVI",
+      "justification": "Nom du type noir; permet une comparaison au niveau du genre, sans établir la synonymie avec H. foetidus proposé en 2012."
+    },
+    {
+      "cibles": [
+        "f89r2.fragment36"
+      ],
+      "statut": "controle_seul",
+      "forme": "solatrum",
+      "source": "G",
+      "lieu": "vue 721, table, col. droite, CCCXLIX",
+      "justification": "Solatrū, abréviation latine développée. Aucun rattachement direct au fragment 36 chez Ethel."
+    },
+    {
+      "cibles": [
+        "f89r2.fragment36"
+      ],
+      "statut": "controle_seul",
+      "forme": "nachtschade",
+      "source": "G",
+      "lieu": "vue 721, même ligne",
+      "justification": "Nom allemand dans la table du Gart, contrôle seulement."
+    }
+  ],
+  "controles_positifs": [
+    {
+      "source": "W",
+      "table": "courge",
+      "vue_table": 90,
+      "notice_singulier": "courge",
+      "vue_singulier": 134,
+      "notice_pluriel": "corges",
+      "vue_pluriel": 134,
+      "reference": "f43v vers f65; figure de gourde visible f65r"
+    },
+    {
+      "source": "W",
+      "table": "calendule",
+      "vue_table": 90,
+      "notice": "calendula",
+      "vue_notice": 156,
+      "reference": "f43v vers f76; dessin et définition dans le texte"
+    }
+  ],
+  "regle": "Conserver les espaces des composés. Les adjectifs isolés ne sont pas des noms complets. Les alternatives et contrôles se rapportent séparément. Une éventuelle normalisation de ß en ss est une transformation de calcul à décrire."
+}
