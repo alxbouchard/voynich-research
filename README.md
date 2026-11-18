@@ -1,6 +1,6 @@
 # Voynich : carnet de recherche et expériences
 
-**Mise à jour du 18 novembre 2026.** Le carnet couvre les 51 phases et 44 études sur les signes, les plantes, les bains et les diagrammes. [Consulter les découvertes et leurs rapports](DECOUVERTES.md).
+**Mise à jour du 18 novembre 2026.** Le carnet couvre les 51 phases et 45 études sur les signes, les plantes, les bains et les diagrammes. [Consulter les découvertes et leurs rapports](DECOUVERTES.md).
 
 **État : aucun déchiffrement, aucune langue et aucune traduction validés dans ce projet.**
 

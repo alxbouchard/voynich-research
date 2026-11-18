@@ -1,0 +1,1975 @@
+{
+  "latin": {
+    "sha256": "c251598bbab3f9f93de40a72d4e039c17f52ce079dd95e86c7322f9a2283893b",
+    "resultats": {
+      "unites_1_corpus_1": {
+        "fenetres": 13736,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 3
+        },
+        "occurrences_apres_trois": [
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 19,
+            "mots": [
+              "herba",
+              "herbae",
+              "tam",
+              "similis"
+            ],
+            "tables": [
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "h",
+                  "ch": "e",
+                  "e": "rb",
+                  "r": "a",
+                  "l": "ae",
+                  "sh": "t",
+                  "d": "a",
+                  "y": "m"
+                },
+                "prediction": "taeam",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "h",
+                  "ch": "er",
+                  "e": "b",
+                  "r": "a",
+                  "l": "ae",
+                  "sh": "t",
+                  "d": "a",
+                  "y": "m"
+                },
+                "prediction": "taeam",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "he",
+                  "ch": "r",
+                  "e": "b",
+                  "r": "a",
+                  "l": "ae",
+                  "sh": "t",
+                  "d": "a",
+                  "y": "m"
+                },
+                "prediction": "taeam",
+                "exacte": false
+              }
+            ]
+          },
+          {
+            "notice": "Satureia",
+            "rang_depart": 75,
+            "mots": [
+              "somnum",
+              "somno",
+              "gravat",
+              "hic"
+            ],
+            "tables": [
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "o",
+                  "e": "mn",
+                  "r": "um",
+                  "l": "o",
+                  "sh": "gr",
+                  "d": "av",
+                  "y": "at"
+                },
+                "prediction": "groavat",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "om",
+                  "e": "n",
+                  "r": "um",
+                  "l": "o",
+                  "sh": "gr",
+                  "d": "av",
+                  "y": "at"
+                },
+                "prediction": "groavat",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "so",
+                  "ch": "m",
+                  "e": "n",
+                  "r": "um",
+                  "l": "o",
+                  "sh": "gr",
+                  "d": "av",
+                  "y": "at"
+                },
+                "prediction": "groavat",
+                "exacte": false
+              }
+            ]
+          }
+        ],
+        "diagnostic_insertion": {
+          "tout_ajout": 38,
+          "ajout_une_ou_deux_lettres": 30,
+          "repetition": 0
+        },
+        "lieux_insertion": [
+          {
+            "notice": "Abrotanum",
+            "rang_depart": 20,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 21,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 83,
+            "paire": [
+              "si",
+              "siler"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 385,
+            "paire": [
+              "pretio",
+              "pretiosior"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Urtica",
+            "rang_depart": 96,
+            "paire": [
+              "et",
+              "solet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Plantago",
+            "rang_depart": 166,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ruta",
+            "rang_depart": 108,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Althaea",
+            "rang_depart": 148,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Betonica",
+            "rang_depart": 241,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Betonica",
+            "rang_depart": 258,
+            "paire": [
+              "bis",
+              "binas"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 17,
+            "paire": [
+              "herba",
+              "herbae"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Pulegium",
+            "rang_depart": 261,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Feniculum",
+            "rang_depart": 184,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Lilium",
+            "rang_depart": 206,
+            "paire": [
+              "illis",
+              "illitus"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Salvia",
+            "rang_depart": 63,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Coriandrum",
+            "rang_depart": 126,
+            "paire": [
+              "et",
+              "cedet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Eruca",
+            "rang_depart": 11,
+            "paire": [
+              "et",
+              "valet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Papaver",
+            "rang_depart": 268,
+            "paire": [
+              "et",
+              "solet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cepa",
+            "rang_depart": 226,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Sinapi",
+            "rang_depart": 261,
+            "paire": [
+              "vim",
+              "vinum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Caulis",
+            "rang_depart": 140,
+            "paire": [
+              "de",
+              "laude"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Caulis",
+            "rang_depart": 187,
+            "paire": [
+              "sumptus",
+              "assumptus"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Iris",
+            "rang_depart": 135,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Iris",
+            "rang_depart": 173,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Asarum",
+            "rang_depart": 82,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Chelidonia",
+            "rang_depart": 81,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Centaurea",
+            "rang_depart": 51,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Colubrina",
+            "rang_depart": 94,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Colubrina",
+            "rang_depart": 131,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Colubrina",
+            "rang_depart": 184,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Elleborus albus",
+            "rang_depart": 311,
+            "paire": [
+              "bis",
+              "binas"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Elleborus niger",
+            "rang_depart": 143,
+            "paire": [
+              "bis",
+              "binos"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Verbena",
+            "rang_depart": 108,
+            "paire": [
+              "bis",
+              "binis"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Verbena",
+            "rang_depart": 118,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cicuta",
+            "rang_depart": 96,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Piper",
+            "rang_depart": 182,
+            "paire": [
+              "in",
+              "innumeris"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Costus",
+            "rang_depart": 80,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Thus",
+            "rang_depart": 119,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          }
+        ],
+        "lieux_apres_deux": [
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 19,
+            "mots": [
+              "herba",
+              "herbae",
+              "tam",
+              "similis"
+            ],
+            "nombre_tables": 3
+          },
+          {
+            "notice": "Satureia",
+            "rang_depart": 75,
+            "mots": [
+              "somnum",
+              "somno",
+              "gravat",
+              "hic"
+            ],
+            "nombre_tables": 3
+          },
+          {
+            "notice": "Maurella",
+            "rang_depart": 52,
+            "mots": [
+              "succo",
+              "succus",
+              "suppositus",
+              "fluxum"
+            ],
+            "nombre_tables": 3
+          }
+        ]
+      },
+      "unites_1_corpus_-1": {
+        "fenetres": 13736,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 3
+        },
+        "occurrences_apres_trois": [
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 20,
+            "mots": [
+              "herbae",
+              "herba",
+              "brevis",
+              "et"
+            ],
+            "tables": [
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "h",
+                  "ch": "e",
+                  "e": "rb",
+                  "r": "ae",
+                  "l": "a",
+                  "sh": "br",
+                  "d": "ev",
+                  "y": "is"
+                },
+                "prediction": "braevis",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "h",
+                  "ch": "er",
+                  "e": "b",
+                  "r": "ae",
+                  "l": "a",
+                  "sh": "br",
+                  "d": "ev",
+                  "y": "is"
+                },
+                "prediction": "braevis",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "he",
+                  "ch": "r",
+                  "e": "b",
+                  "r": "ae",
+                  "l": "a",
+                  "sh": "br",
+                  "d": "ev",
+                  "y": "is"
+                },
+                "prediction": "braevis",
+                "exacte": false
+              }
+            ]
+          },
+          {
+            "notice": "Satureia",
+            "rang_depart": 76,
+            "mots": [
+              "somno",
+              "somnum",
+              "haec",
+              "vetat"
+            ],
+            "tables": [
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "o",
+                  "e": "mn",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "h",
+                  "d": "a",
+                  "y": "ec"
+                },
+                "prediction": "humaec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "o",
+                  "e": "mn",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "h",
+                  "d": "ae",
+                  "y": "c"
+                },
+                "prediction": "humaec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "o",
+                  "e": "mn",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "ha",
+                  "d": "e",
+                  "y": "c"
+                },
+                "prediction": "haumec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "om",
+                  "e": "n",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "h",
+                  "d": "a",
+                  "y": "ec"
+                },
+                "prediction": "humaec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "om",
+                  "e": "n",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "h",
+                  "d": "ae",
+                  "y": "c"
+                },
+                "prediction": "humaec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "om",
+                  "e": "n",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "ha",
+                  "d": "e",
+                  "y": "c"
+                },
+                "prediction": "haumec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "so",
+                  "ch": "m",
+                  "e": "n",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "h",
+                  "d": "a",
+                  "y": "ec"
+                },
+                "prediction": "humaec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "so",
+                  "ch": "m",
+                  "e": "n",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "h",
+                  "d": "ae",
+                  "y": "c"
+                },
+                "prediction": "humaec",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "so",
+                  "ch": "m",
+                  "e": "n",
+                  "r": "o",
+                  "l": "um",
+                  "sh": "ha",
+                  "d": "e",
+                  "y": "c"
+                },
+                "prediction": "haumec",
+                "exacte": false
+              }
+            ]
+          },
+          {
+            "notice": "Maurella",
+            "rang_depart": 53,
+            "mots": [
+              "succus",
+              "succo",
+              "illita",
+              "depellitur"
+            ],
+            "tables": [
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "u",
+                  "e": "cc",
+                  "r": "us",
+                  "l": "o",
+                  "sh": "il",
+                  "d": "li",
+                  "y": "ta"
+                },
+                "prediction": "ilolita",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "s",
+                  "ch": "uc",
+                  "e": "c",
+                  "r": "us",
+                  "l": "o",
+                  "sh": "il",
+                  "d": "li",
+                  "y": "ta"
+                },
+                "prediction": "ilolita",
+                "exacte": false
+              },
+              {
+                "valeurs": {
+                  "o": "",
+                  "p": "su",
+                  "ch": "c",
+                  "e": "c",
+                  "r": "us",
+                  "l": "o",
+                  "sh": "il",
+                  "d": "li",
+                  "y": "ta"
+                },
+                "prediction": "ilolita",
+                "exacte": false
+              }
+            ]
+          }
+        ],
+        "diagnostic_insertion": {
+          "tout_ajout": 35,
+          "ajout_une_ou_deux_lettres": 17,
+          "repetition": 0
+        },
+        "lieux_insertion": [
+          {
+            "notice": "Artemisia",
+            "rang_depart": 171,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Abrotanum",
+            "rang_depart": 43,
+            "paire": [
+              "cum",
+              "crudum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 252,
+            "paire": [
+              "si",
+              "supponi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 148,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Allium",
+            "rang_depart": 106,
+            "paire": [
+              "cum",
+              "comestum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Allium",
+            "rang_depart": 97,
+            "paire": [
+              "cum",
+              "coctum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Plantago",
+            "rang_depart": 58,
+            "paire": [
+              "si",
+              "siccat"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Apium",
+            "rang_depart": 155,
+            "paire": [
+              "a",
+              "cruda"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Apium",
+            "rang_depart": 146,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Anethum",
+            "rang_depart": 93,
+            "paire": [
+              "et",
+              "nocet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Sabina",
+            "rang_depart": 28,
+            "paire": [
+              "et",
+              "exsiccat"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Sabina",
+            "rang_depart": 14,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 19,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Nepeta",
+            "rang_depart": 20,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Portulaca",
+            "rang_depart": 49,
+            "paire": [
+              "ut",
+              "aut"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Rosa",
+            "rang_depart": 125,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Rosa",
+            "rang_depart": 37,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Lilium",
+            "rang_depart": 52,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ligusticum",
+            "rang_depart": 137,
+            "paire": [
+              "a",
+              "aut"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ligusticum",
+            "rang_depart": 60,
+            "paire": [
+              "et",
+              "movet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ligusticum",
+            "rang_depart": 27,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Nasturtium",
+            "rang_depart": 65,
+            "paire": [
+              "in",
+              "infusus"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Nasturtium",
+            "rang_depart": 62,
+            "paire": [
+              "dens",
+              "dolens"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Violae",
+            "rang_depart": 280,
+            "paire": [
+              "e",
+              "atque"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Violae",
+            "rang_depart": 155,
+            "paire": [
+              "si",
+              "spleni"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ysopum",
+            "rang_depart": 116,
+            "paire": [
+              "si",
+              "sicca"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Mentha",
+            "rang_depart": 33,
+            "paire": [
+              "qua",
+              "aqua"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cyperus",
+            "rang_depart": 30,
+            "paire": [
+              "qua",
+              "aqua"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Paeonia",
+            "rang_depart": 131,
+            "paire": [
+              "de",
+              "dempsit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Elleborus albus",
+            "rang_depart": 141,
+            "paire": [
+              "se",
+              "septem"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cyminum",
+            "rang_depart": 32,
+            "paire": [
+              "et",
+              "excitat"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Zedoar",
+            "rang_depart": 20,
+            "paire": [
+              "et",
+              "commovet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Costus",
+            "rang_depart": 68,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Costus",
+            "rang_depart": 11,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Spica",
+            "rang_depart": 50,
+            "paire": [
+              "in",
+              "interiorum"
+            ],
+            "premieres_formes_ajustables": false
+          }
+        ],
+        "lieux_apres_deux": [
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 20,
+            "mots": [
+              "herbae",
+              "herba",
+              "brevis",
+              "et"
+            ],
+            "nombre_tables": 3
+          },
+          {
+            "notice": "Satureia",
+            "rang_depart": 76,
+            "mots": [
+              "somno",
+              "somnum",
+              "haec",
+              "vetat"
+            ],
+            "nombre_tables": 3
+          },
+          {
+            "notice": "Maurella",
+            "rang_depart": 53,
+            "mots": [
+              "succus",
+              "succo",
+              "illita",
+              "depellitur"
+            ],
+            "nombre_tables": 3
+          }
+        ]
+      },
+      "unites_-1_corpus_1": {
+        "fenetres": 13736,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 1
+        },
+        "occurrences_apres_trois": [],
+        "diagnostic_insertion": {
+          "tout_ajout": 38,
+          "ajout_une_ou_deux_lettres": 30,
+          "repetition": 0
+        },
+        "lieux_insertion": [
+          {
+            "notice": "Abrotanum",
+            "rang_depart": 20,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 21,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 83,
+            "paire": [
+              "si",
+              "siler"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 385,
+            "paire": [
+              "pretio",
+              "pretiosior"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Urtica",
+            "rang_depart": 96,
+            "paire": [
+              "et",
+              "solet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Plantago",
+            "rang_depart": 166,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ruta",
+            "rang_depart": 108,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Althaea",
+            "rang_depart": 148,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Betonica",
+            "rang_depart": 241,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Betonica",
+            "rang_depart": 258,
+            "paire": [
+              "bis",
+              "binas"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 17,
+            "paire": [
+              "herba",
+              "herbae"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Pulegium",
+            "rang_depart": 261,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Feniculum",
+            "rang_depart": 184,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Lilium",
+            "rang_depart": 206,
+            "paire": [
+              "illis",
+              "illitus"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Salvia",
+            "rang_depart": 63,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Coriandrum",
+            "rang_depart": 126,
+            "paire": [
+              "et",
+              "cedet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Eruca",
+            "rang_depart": 11,
+            "paire": [
+              "et",
+              "valet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Papaver",
+            "rang_depart": 268,
+            "paire": [
+              "et",
+              "solet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cepa",
+            "rang_depart": 226,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Sinapi",
+            "rang_depart": 261,
+            "paire": [
+              "vim",
+              "vinum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Caulis",
+            "rang_depart": 140,
+            "paire": [
+              "de",
+              "laude"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Caulis",
+            "rang_depart": 187,
+            "paire": [
+              "sumptus",
+              "assumptus"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Iris",
+            "rang_depart": 135,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Iris",
+            "rang_depart": 173,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Asarum",
+            "rang_depart": 82,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Chelidonia",
+            "rang_depart": 81,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Centaurea",
+            "rang_depart": 51,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Colubrina",
+            "rang_depart": 94,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Colubrina",
+            "rang_depart": 131,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Colubrina",
+            "rang_depart": 184,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Elleborus albus",
+            "rang_depart": 311,
+            "paire": [
+              "bis",
+              "binas"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Elleborus niger",
+            "rang_depart": 143,
+            "paire": [
+              "bis",
+              "binos"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Verbena",
+            "rang_depart": 108,
+            "paire": [
+              "bis",
+              "binis"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Verbena",
+            "rang_depart": 118,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cicuta",
+            "rang_depart": 96,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Piper",
+            "rang_depart": 182,
+            "paire": [
+              "in",
+              "innumeris"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Costus",
+            "rang_depart": 80,
+            "paire": [
+              "si",
+              "sint"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Thus",
+            "rang_depart": 119,
+            "paire": [
+              "si",
+              "sit"
+            ],
+            "premieres_formes_ajustables": false
+          }
+        ],
+        "lieux_apres_deux": [
+          {
+            "notice": "Caulis",
+            "rang_depart": 189,
+            "mots": [
+              "sumptus",
+              "assumptus",
+              "crudus",
+              "sic"
+            ],
+            "nombre_tables": 3
+          }
+        ]
+      },
+      "unites_-1_corpus_-1": {
+        "fenetres": 13736,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 1
+        },
+        "occurrences_apres_trois": [],
+        "diagnostic_insertion": {
+          "tout_ajout": 35,
+          "ajout_une_ou_deux_lettres": 17,
+          "repetition": 0
+        },
+        "lieux_insertion": [
+          {
+            "notice": "Artemisia",
+            "rang_depart": 171,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Abrotanum",
+            "rang_depart": 43,
+            "paire": [
+              "cum",
+              "crudum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 252,
+            "paire": [
+              "si",
+              "supponi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Absinthium",
+            "rang_depart": 148,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Allium",
+            "rang_depart": 106,
+            "paire": [
+              "cum",
+              "comestum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Allium",
+            "rang_depart": 97,
+            "paire": [
+              "cum",
+              "coctum"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Plantago",
+            "rang_depart": 58,
+            "paire": [
+              "si",
+              "siccat"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Apium",
+            "rang_depart": 155,
+            "paire": [
+              "a",
+              "cruda"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Apium",
+            "rang_depart": 146,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Anethum",
+            "rang_depart": 93,
+            "paire": [
+              "et",
+              "nocet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Sabina",
+            "rang_depart": 28,
+            "paire": [
+              "et",
+              "exsiccat"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Sabina",
+            "rang_depart": 14,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Chamomilla",
+            "rang_depart": 19,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Nepeta",
+            "rang_depart": 20,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Portulaca",
+            "rang_depart": 49,
+            "paire": [
+              "ut",
+              "aut"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Rosa",
+            "rang_depart": 125,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Rosa",
+            "rang_depart": 37,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Lilium",
+            "rang_depart": 52,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ligusticum",
+            "rang_depart": 137,
+            "paire": [
+              "a",
+              "aut"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ligusticum",
+            "rang_depart": 60,
+            "paire": [
+              "et",
+              "movet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ligusticum",
+            "rang_depart": 27,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Nasturtium",
+            "rang_depart": 65,
+            "paire": [
+              "in",
+              "infusus"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Nasturtium",
+            "rang_depart": 62,
+            "paire": [
+              "dens",
+              "dolens"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Violae",
+            "rang_depart": 280,
+            "paire": [
+              "e",
+              "atque"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Violae",
+            "rang_depart": 155,
+            "paire": [
+              "si",
+              "spleni"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Ysopum",
+            "rang_depart": 116,
+            "paire": [
+              "si",
+              "sicca"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Mentha",
+            "rang_depart": 33,
+            "paire": [
+              "qua",
+              "aqua"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cyperus",
+            "rang_depart": 30,
+            "paire": [
+              "qua",
+              "aqua"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Paeonia",
+            "rang_depart": 131,
+            "paire": [
+              "de",
+              "dempsit"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Elleborus albus",
+            "rang_depart": 141,
+            "paire": [
+              "se",
+              "septem"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Cyminum",
+            "rang_depart": 32,
+            "paire": [
+              "et",
+              "excitat"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Zedoar",
+            "rang_depart": 20,
+            "paire": [
+              "et",
+              "commovet"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Costus",
+            "rang_depart": 68,
+            "paire": [
+              "si",
+              "sibi"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Costus",
+            "rang_depart": 11,
+            "paire": [
+              "et",
+              "est"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "Spica",
+            "rang_depart": 50,
+            "paire": [
+              "in",
+              "interiorum"
+            ],
+            "premieres_formes_ajustables": false
+          }
+        ],
+        "lieux_apres_deux": [
+          {
+            "notice": "Caulis",
+            "rang_depart": 190,
+            "mots": [
+              "assumptus",
+              "sumptus",
+              "solvere",
+              "illam"
+            ],
+            "nombre_tables": 3
+          }
+        ]
+      }
+    }
+  },
+  "francais": {
+    "sha256": "feb55ae6ee199ae076e98c52175e071a951b92a9db99a21bc29334087019dc3f",
+    "resultats": {
+      "unites_1_corpus_1": {
+        "fenetres": 102,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 0
+        },
+        "occurrences_apres_trois": [],
+        "diagnostic_insertion": {
+          "tout_ajout": 3,
+          "ajout_une_ou_deux_lettres": 1,
+          "repetition": 0
+        },
+        "lieux_insertion": [
+          {
+            "notice": "17r_aristologia_3",
+            "rang_depart": 2,
+            "paire": [
+              "les",
+              "feulles"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "17r_aristologia_4",
+            "rang_depart": 4,
+            "paire": [
+              "les",
+              "feules"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "17v_longue_1",
+            "rang_depart": 7,
+            "paire": [
+              "a",
+              "la"
+            ],
+            "premieres_formes_ajustables": false
+          }
+        ],
+        "lieux_apres_deux": []
+      },
+      "unites_1_corpus_-1": {
+        "fenetres": 102,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 0
+        },
+        "occurrences_apres_trois": [],
+        "diagnostic_insertion": {
+          "tout_ajout": 0,
+          "ajout_une_ou_deux_lettres": 0,
+          "repetition": 0
+        },
+        "lieux_insertion": [],
+        "lieux_apres_deux": []
+      },
+      "unites_-1_corpus_1": {
+        "fenetres": 102,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 0
+        },
+        "occurrences_apres_trois": [],
+        "diagnostic_insertion": {
+          "tout_ajout": 3,
+          "ajout_une_ou_deux_lettres": 1,
+          "repetition": 0
+        },
+        "lieux_insertion": [
+          {
+            "notice": "17r_aristologia_3",
+            "rang_depart": 2,
+            "paire": [
+              "les",
+              "feulles"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "17r_aristologia_4",
+            "rang_depart": 4,
+            "paire": [
+              "les",
+              "feules"
+            ],
+            "premieres_formes_ajustables": false
+          },
+          {
+            "notice": "17v_longue_1",
+            "rang_depart": 7,
+            "paire": [
+              "a",
+              "la"
+            ],
+            "premieres_formes_ajustables": false
+          }
+        ],
+        "lieux_apres_deux": []
+      },
+      "unites_-1_corpus_-1": {
+        "fenetres": 102,
+        "paires_ajustees": {
+          "sans_muet": 0,
+          "avec_au_plus_un_muet": 0
+        },
+        "occurrences_apres_trois": [],
+        "diagnostic_insertion": {
+          "tout_ajout": 0,
+          "ajout_une_ou_deux_lettres": 0,
+          "repetition": 0
+        },
+        "lieux_insertion": [],
+        "lieux_apres_deux": []
+      }
+    }
+  }
+}
