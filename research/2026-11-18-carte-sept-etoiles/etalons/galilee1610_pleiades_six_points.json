@@ -1,0 +1,72 @@
+{
+  "witness": "Galileo Galilei, Sidereus nuncius, Venise, Tomaso Baglioni, 1610, Pleiadum constellatio. ETH-Bibliothek Zürich, Rar 4342: 1.",
+  "image": "galilee1610_pleiades_ETH_227792.jpg",
+  "source_sha256": "1dd93211e6490277abae4ce6f4538ab5774195cc260382b04993dcfa9be873e8",
+  "width": 2082,
+  "height": 2544,
+  "coordinate_system": "Indices des centres de pixels à partir de zéro dans le JPEG original complet, x vers la droite et y vers le bas.",
+  "crop": "galilee1610_pleiades_crop.png",
+  "crop_box_left_top_right_bottom_exclusive": [
+    190,
+    180,
+    1640,
+    1250
+  ],
+  "points": [
+    {
+      "id": "Atlas",
+      "x": 661,
+      "y": 558,
+      "localization_estimate_px": 3
+    },
+    {
+      "id": "Alcyone",
+      "x": 929,
+      "y": 740,
+      "localization_estimate_px": 3
+    },
+    {
+      "id": "Maia",
+      "x": 1295,
+      "y": 672,
+      "localization_estimate_px": 3
+    },
+    {
+      "id": "Taygeta",
+      "x": 1469,
+      "y": 689,
+      "localization_estimate_px": 3
+    },
+    {
+      "id": "Merope",
+      "x": 1036,
+      "y": 965,
+      "localization_estimate_px": 3
+    },
+    {
+      "id": "Electra",
+      "x": 1497,
+      "y": 993,
+      "localization_estimate_px": 3
+    }
+  ],
+  "selection": "Les six grandes étoiles à contour ouvert et point central, toutes et seulement celles distinguées par l’auteur. Les autres étoiles sont représentées plus petites par des traits simples. Le texte dit « dico autem sex, quandoquidem septima ferè nunquam apparet » (je dis six, puisque la septième ne se montre presque jamais).",
+  "identity_basis": "Correspondances indépendantes publiées par Andrea Longhin, arXiv:2503.12543v1, fig. 17, p. 25. Les panneaux originaux et modernes ont les six grandes étoiles entourées, le panneau moderne les nomme et le panneau inférieur apparie les couples dans des ellipses. La figure du premier tirage ne porte aucun nom. Les six noms modernes et les six positions ont été relevés dans les figures, sans tenter un ajustement sur le catalogue ou sur un autre manuscrit. Longhin déduit lui-même les correspondances par superposition sur le ciel moderne ; il ne s’agit pas de six inscriptions sur la planche de 1610.",
+  "magnitude_check": "Ces six étoiles ont les six plus faibles magnitudes V parmi les neuf noms classiques des Pléiades dans l’archive du catalogue WGSN. En particulier, Taygeta (4,30) est l’une des six; Celaeno (5,45, 16 Tauri) et Pleione (5,05, 28 Tauri) apparaissent comme petites marques dans le rapprochement publié.",
+  "measurement": "Extraction visuelle de la petite tache d’encre au centre de chaque grande étoile, puis barycentre arrondi des poids max(175 − intensité 8 bits, 0) dans une fenêtre de 19 × 19 pixels autour de la sélection. Incertitude de lecture estimée de ±3 pixels par axe; les distorsions astronomiques du dessin dépassent cette marge instrumentale.",
+  "sources": {
+    "book": "https://doi.org/10.3931/e-rara-695",
+    "plate_viewer": "https://www.e-rara.ch/zut/content/zoom/227792",
+    "plate_image": "https://www.e-rara.ch/i3f/v20/227792/full/full/0/default.jpg",
+    "text_viewer": "https://www.e-rara.ch/zut/content/zoom/227790",
+    "text_local": "galilee1610_texte_ETH_227790.jpg",
+    "text_image": "https://www.e-rara.ch/i3f/v20/227790/full/full/0/default.jpg",
+    "identification_panels": "https://arxiv.org/pdf/2503.12543v1#page=25",
+    "comparison_later_version": "https://arxiv.org/pdf/2503.12543v3#page=42",
+    "catalog": "https://exopla.net/wp-content/uploads/2025/10/2022_oldIAU-CSN.pdf",
+    "independent_copy_caltech": "https://digital.archives.caltech.edu/collections/Images/RB-GG1610a-2/",
+    "caltech_image": "https://img.archives.caltech.edu/iiif/2/collections/Images/RB-GG1610a-2/RB-GG1610a-2/full/max/0/default.jpg"
+  },
+  "license": "ETH e-rara: Public Domain Mark.",
+  "measured_utc": "2026-11-18T11:32:58.152372+00:00"
+}

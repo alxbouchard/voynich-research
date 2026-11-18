@@ -1,0 +1,91 @@
+{
+  "source": {
+    "institution": "Beinecke Rare Book and Manuscript Library, Yale University",
+    "shelfmark": "Beinecke MS 408",
+    "yale_image_id": 1006196,
+    "folio": "f68r3, partie droite du dépliant 68r",
+    "image_url": "https://collections.library.yale.edu/iiif/2/1006196/full/full/0/default.jpg",
+    "sha256": "4b0f31d1e08b8f026886aa599232b7dfcd33417b1eef43a44e619c3ebd21faa5",
+    "size_px": [
+      7993,
+      3828
+    ],
+    "size_bytes": 7286292,
+    "index": "voynich_resources/yale/image_index.json, order=123"
+  },
+  "coordinate_system": "Pixels du JPEG natif du dépliant entier, origine (0,0) au coin supérieur gauche, x vers la droite et y vers le bas. Les nombres entiers désignent les centres des pixels.",
+  "order": "x croissant, puis y croissant en cas d’égalité. Les identifiants restent attachés aux motifs des figures. Les paires 3–4 et 6–7 ont des intervalles de x qui se chevauchent.",
+  "center_method": "Pointage visuel sur le noyau du motif, au point de convergence des branches dessinées, vérifié sur une vue agrandie avec réticules. Les pointes sont irrégulières et les contours discontinus. Aucune carte du ciel consultée pour le pointage.",
+  "uncertainty_definition": "Demi-largeur estimée visuellement, en pixels natifs, séparément sur chaque axe. Elle traduit l’ambiguïté du noyau et des départs des branches du dessin. Il s’agit d’une tolérance de lecture, sans niveau de confiance statistique.",
+  "local_label": "Une seule inscription jouxte les sept motifs, à droite du groupe (repère généralement transcrit « doaro »). Aucun texte individuel visible auprès de chacun des sept. Le dessin seul ne fixe pas le sens de l’inscription.",
+  "native_crop": {
+    "file": "f68r3-amas-natif.png",
+    "bounds_xyxy_exclusive": [
+      4800,
+      1120,
+      5620,
+      1610
+    ]
+  },
+  "annotated_plate": {
+    "file": "f68r3-amas-centres.png",
+    "detail_bounds_xyxy_exclusive": [
+      5168,
+      1243,
+      5370,
+      1423
+    ],
+    "detail_scale": 3
+  },
+  "points": [
+    {
+      "id": 1,
+      "x": 5210,
+      "y": 1379,
+      "uncertainty_x_px": 4,
+      "uncertainty_y_px": 4
+    },
+    {
+      "id": 2,
+      "x": 5231,
+      "y": 1328,
+      "uncertainty_x_px": 5,
+      "uncertainty_y_px": 5
+    },
+    {
+      "id": 3,
+      "x": 5259,
+      "y": 1379,
+      "uncertainty_x_px": 5,
+      "uncertainty_y_px": 5
+    },
+    {
+      "id": 4,
+      "x": 5262,
+      "y": 1284,
+      "uncertainty_x_px": 4,
+      "uncertainty_y_px": 4
+    },
+    {
+      "id": 5,
+      "x": 5273,
+      "y": 1338,
+      "uncertainty_x_px": 5,
+      "uncertainty_y_px": 5
+    },
+    {
+      "id": 6,
+      "x": 5316,
+      "y": 1316,
+      "uncertainty_x_px": 4,
+      "uncertainty_y_px": 4
+    },
+    {
+      "id": 7,
+      "x": 5317,
+      "y": 1385,
+      "uncertainty_x_px": 4,
+      "uncertainty_y_px": 4
+    }
+  ]
+}

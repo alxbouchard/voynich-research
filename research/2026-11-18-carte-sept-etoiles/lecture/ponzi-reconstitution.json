@@ -1,0 +1,120 @@
+{
+  "hypothese_publiee_separee": {
+    "Grove": [
+      "doary",
+      "dchol!day"
+    ],
+    "sorties": [
+      "taurn",
+      "tebartun"
+    ]
+  },
+  "caractères": {
+    "X1_vers_X3": {
+      "n_fit": 1,
+      "exact_frozen": 0,
+      "known_test_positions": 5,
+      "n_test_positions": 8,
+      "unseen": [
+        "c",
+        "h",
+        "l"
+      ],
+      "forced_by_train": {
+        "d": "t",
+        "o": "a",
+        "a": "u",
+        "r": "r",
+        "y": "n"
+      },
+      "partial_predictions": {
+        "t[c][h]a[l]tun": 1
+      }
+    },
+    "X3_vers_X1": {
+      "n_fit": 1,
+      "exact_frozen": 0,
+      "known_test_positions": 4,
+      "n_test_positions": 5,
+      "unseen": [
+        "r"
+      ],
+      "forced_by_train": {
+        "d": "t",
+        "c": "e",
+        "h": "b",
+        "o": "a",
+        "l": "r",
+        "a": "u",
+        "y": "n"
+      },
+      "partial_predictions": {
+        "tau[r]n": 1
+      }
+    },
+    "communes": [
+      {
+        "a": "u",
+        "c": "e",
+        "d": "t",
+        "h": "b",
+        "l": "r",
+        "o": "a",
+        "r": "r",
+        "y": "n"
+      }
+    ]
+  },
+  "ch_composé": {
+    "X1_vers_X3": {
+      "n_fit": 1,
+      "exact_frozen": 0,
+      "known_test_positions": 5,
+      "n_test_positions": 7,
+      "unseen": [
+        "ch",
+        "l"
+      ],
+      "forced_by_train": {
+        "d": "t",
+        "o": "a",
+        "a": "u",
+        "r": "r",
+        "y": "n"
+      },
+      "partial_predictions": {
+        "t[ch]a[l]tun": 1
+      }
+    },
+    "X3_vers_X1": {
+      "n_fit": 3,
+      "exact_frozen": 0,
+      "known_test_positions": 4,
+      "n_test_positions": 5,
+      "unseen": [
+        "r"
+      ],
+      "forced_by_train": {
+        "d": "t",
+        "a": "u",
+        "y": "n"
+      },
+      "partial_predictions": {
+        "tau[r]n": 1,
+        "tbau[r]n": 1,
+        "tbu[r]n": 1
+      }
+    },
+    "communes": [
+      {
+        "a": "u",
+        "ch": "eb",
+        "d": "t",
+        "l": "r",
+        "o": "a",
+        "r": "r",
+        "y": "n"
+      }
+    ]
+  }
+}

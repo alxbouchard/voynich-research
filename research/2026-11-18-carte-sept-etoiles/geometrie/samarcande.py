@@ -2,7 +2,7 @@
 import json
 import sys
 from prevoir import HERE, PRIMARY, charts, complex_xy
-from six import predict
+from galilee import predict
 from evaluer import evaluate
 from global7 import prepare, classify, known
 

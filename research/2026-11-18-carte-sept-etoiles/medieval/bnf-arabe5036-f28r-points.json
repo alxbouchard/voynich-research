@@ -1,0 +1,100 @@
+{
+  "witness": "BnF, Arabe 5036, fol. 28r. Kitāb ṣuwar al-kawākib al-ṯābita, copie pour Ulugh Beg, Samarcande, vers 1430–1440, d’après la BnF. Vue de la Grande Ourse sur le globe.",
+  "file": "bnf-arabe5036-f28r.jpg",
+  "source_sha256": "ffa29005cefbbc3bc807e969442afd59f292f85876f1842401bc040f9688c7ba",
+  "width": 1023,
+  "height": 1374,
+  "coordinate_system": "Pixels de la reproduction JPEG entière ci-jointe, base zéro, origine en haut à gauche, x à droite, y vers le bas.",
+  "selection": "Première des deux vues figurées du chapitre de la Grande Ourse, fixée avant pointage, à partir de la date et de la provenance.",
+  "uncertainty": "±2 px sur chaque axe. Demi-largeur conservatrice du choix de centre des disques dorés dans ce JPEG. Incertitudes propres à la forme du dessin ou à la page non comprises.",
+  "association": "Le texte du même manuscrit énumère 16–19 pour le quadrilatère et 25–27 pour les trois astres de la queue. Correspondance sur image par emplacement anatomique et inscriptions. Les lettres abjad indiquées sont les valeurs normalisées attendues, et non une transcription diplomatique de chaque tracé.",
+  "points": [
+    {
+      "id": "Dubhe",
+      "bayer": "α",
+      "numero_sufi": 16,
+      "abjad_normalise": "يو",
+      "x": 691,
+      "y": 687,
+      "anatomie": "dos, première étoile du quadrilatère",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    },
+    {
+      "id": "Merak",
+      "bayer": "β",
+      "numero_sufi": 17,
+      "abjad_normalise": "يز",
+      "x": 611,
+      "y": 726,
+      "anatomie": "flanc, deuxième étoile du quadrilatère",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    },
+    {
+      "id": "Megrez",
+      "bayer": "δ",
+      "numero_sufi": 18,
+      "abjad_normalise": "يح",
+      "x": 717,
+      "y": 851,
+      "anatomie": "racine de la queue",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    },
+    {
+      "id": "Phecda",
+      "bayer": "γ",
+      "numero_sufi": 19,
+      "abjad_normalise": "يط",
+      "x": 641,
+      "y": 843,
+      "anatomie": "cuisse postérieure, quatrième angle",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    },
+    {
+      "id": "Alioth",
+      "bayer": "ε",
+      "numero_sufi": 25,
+      "abjad_normalise": "كه",
+      "x": 766,
+      "y": 892,
+      "anatomie": "première des trois marques sur la queue",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    },
+    {
+      "id": "Mizar",
+      "bayer": "ζ",
+      "numero_sufi": 26,
+      "abjad_normalise": "كو",
+      "x": 820,
+      "y": 979,
+      "anatomie": "milieu de la queue",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    },
+    {
+      "id": "Alkaid",
+      "bayer": "η",
+      "numero_sufi": 27,
+      "abjad_normalise": "كز",
+      "x": 830,
+      "y": 1097,
+      "anatomie": "extrémité de la queue",
+      "uncertainty_x_px": 2,
+      "uncertainty_y_px": 2
+    }
+  ],
+  "sources": {
+    "manuscript": "https://gallica.bnf.fr/ark:/12148/btv1b104627753",
+    "notice": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc20999x",
+    "date": "https://expositions.bnf.fr/monde-en-spheres/grand/arabe_5036_001.php",
+    "image_credits": "Source gallica.bnf.fr / Bibliothèque nationale de France ; reproduction universitaire de Robert H. van Gent (Utrecht)",
+    "image": "https://webspace.science.uu.nl/~gent0113/alsufi/images/bnf/uma_1.jpg",
+    "image_index": "https://webspace.science.uu.nl/~gent0113/alsufi/alsufi_constellations.htm",
+    "traduction_texte": "https://researchonline.jcu.edu.au/28854/14/JCU_28854_Hafez_2010_thesis.pdf"
+  },
+  "utc": "2026-11-18T11:34:30.872171+00:00"
+}

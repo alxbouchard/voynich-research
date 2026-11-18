@@ -1,0 +1,91 @@
+{
+  "witness": "Paris, BnF, Arabe 5036, f. 118v, Taureau vu dans le ciel, vers 1430–1440",
+  "source_file": "bnf-arabe5036-f118v.jpg",
+  "source_sha256": "69f71e2ac709d198935e437d1346138dd5def2bb105da8f7b616b98eae0c4477",
+  "dimensions_xy": [
+    1023,
+    1390
+  ],
+  "crop_convention": "x ou y de début inclus, bord droit et bord inférieur exclus ; aucune rotation ni interpolation sur les PNG archivés",
+  "names": {
+    "pleiades": {
+      "normalized": "الثريا",
+      "base_letters": [
+        "ا",
+        "ل",
+        "ث",
+        "ر",
+        "ي",
+        "ا"
+      ],
+      "n_base_letters": 6,
+      "crop_xyxy": [
+        470,
+        740,
+        626,
+        870
+      ],
+      "crop": "bnf-arabe5036-f118v-pleiades.png",
+      "notes": "Article al-. Trois points sur le ṯāʾ ; une marque en forme de šadda et deux points sous le yāʾ à la fin ; alif final dressé. Quatre disques d’or voisins visibles dans le recadrage."
+    },
+    "aldebaran": {
+      "normalized": "الدبران",
+      "base_letters": [
+        "ا",
+        "ل",
+        "د",
+        "ب",
+        "ر",
+        "ا",
+        "ن"
+      ],
+      "n_base_letters": 7,
+      "crop_xyxy": [
+        324,
+        624,
+        421,
+        713
+      ],
+      "crop": "bnf-arabe5036-f118v-aldebaran.png",
+      "notes": "Article al-. Dāl, bāʾ, rāʾ puis alif et nūn ; point du nūn clair. Le point sous le bāʾ ne se distingue pas avec assurance de la peinture dans ce JPEG. Un petit signe suscrit en forme de šadda est visible. Pas de lecture exhaustive des voyelles brèves."
+    }
+  },
+  "star_count": {
+    "visible_disks_in_labeled_group": 4,
+    "catalog_numbers_from_text": [
+      29,
+      30,
+      31,
+      32
+    ],
+    "additional_unlisted_from_text": [
+      2,
+      3
+    ],
+    "derived_possible_total": [
+      6,
+      7
+    ],
+    "text_witness": "Oxford, Bodleian Library, Marsh 144 ; figure et foliation de Paris distinctes. Hafez, 2010, p. 164, « Folio 193 », PDF p. 177.",
+    "text_fragment_normalized": "وداخلها كوكبان أو ثلاثة",
+    "count_text_crop": "oxford-marsh144-hafez-193-detail.png",
+    "embedded_page_image_xy": [
+      698,
+      1030
+    ],
+    "crop_xyxy": [
+      25,
+      220,
+      580,
+      443
+    ]
+  },
+  "sources": {
+    "manuscript": "https://gallica.bnf.fr/ark:/12148/btv1b104627753",
+    "notice": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc20999x",
+    "full_jpeg": "https://www.cosmosophie.fr/uploads/medias/abd-al-ra-m-n-ibn-umar-taureau-69064813a537d443850082.jpg",
+    "photo_credit": "Source gallica.bnf.fr / Bibliothèque nationale de France. Département des Manuscrits. Arabe 5036.",
+    "folio_confirmation": "https://archiv.badw.de/en/049926764/049926764%5BCC%20BY-NC%5D.pdf#page=5",
+    "oxford_text_and_english_translation": "https://researchonline.jcu.edu.au/28854/14/JCU_28854_Hafez_2010_thesis.pdf#page=177"
+  }
+}

@@ -1,0 +1,178 @@
+{
+ "choix": "pleiades_bright7",
+ "reserve": {
+  "pleiades_bright7": {
+   "noms_calage": [
+    "Atlas",
+    "Merope",
+    "Maia",
+    "Electra"
+   ],
+   "rms_calage": 0.06540349441119535,
+   "diametre_calage_pixels": 942.4017190137124,
+   "distances_pixels": [
+    35.62106330376001,
+    55.20016242993169
+   ],
+   "erreur_max_relative": 0.05857391950399074,
+   "rms_reserve_relatif": 0.04929303163560062,
+   "passe": true,
+   "etoiles": [
+    {
+     "predite": "Alcyone",
+     "observee": "Alcyone",
+     "coord_pred": [
+      948.5512783163915,
+      710.2240421298411
+     ],
+     "coord_observee": [
+      929.0,
+      740.0
+     ]
+    },
+    {
+     "predite": "Taygeta",
+     "observee": "Taygeta",
+     "coord_pred": [
+      1520.409752498694,
+      668.8978787110943
+     ],
+     "coord_observee": [
+      1469.0,
+      689.0
+     ]
+    }
+   ],
+   "identites_calage_correctes": 4,
+   "identites_reserve_correctes": 2
+  },
+  "grande_ourse": {
+   "noms_calage": [
+    "Alkaid",
+    "Alioth",
+    "Phecda",
+    "Dubhe"
+   ],
+   "rms_calage": 0.10246291565355851,
+   "diametre_calage_pixels": 942.4017190137124,
+   "distances_pixels": [
+    97.01316601100744,
+    181.74924807898304
+   ],
+   "erreur_max_relative": 0.19285750907712265,
+   "rms_reserve_relatif": 0.15458197194392914,
+   "passe": false,
+   "etoiles": [
+    {
+     "predite": "Mizar",
+     "observee": "Alcyone",
+     "coord_pred": [
+      852.4016993581324,
+      799.5336435829133
+     ],
+     "coord_observee": [
+      929.0,
+      740.0
+     ]
+    },
+    {
+     "predite": "Merak",
+     "observee": "Taygeta",
+     "coord_pred": [
+      1562.5528296948905,
+      844.8225183770129
+     ],
+     "coord_observee": [
+      1469.0,
+      689.0
+     ]
+    }
+   ],
+   "identites_calage_correctes": 0,
+   "identites_reserve_correctes": 0
+  },
+  "petite_ourse": {
+   "noms_calage": [
+    "Yildun",
+    "Zeta UMi",
+    "Kochab",
+    "Pherkad"
+   ],
+   "rms_calage": 0.11353857485916426,
+   "diametre_calage_pixels": 942.4017190137124,
+   "distances_pixels": [
+    561.007674246882,
+    670.0506197114532
+   ],
+   "erreur_max_relative": 0.7110031806952845,
+   "rms_reserve_relatif": 0.6557066692623484,
+   "passe": false,
+   "etoiles": [
+    {
+     "predite": "Polaris",
+     "observee": "Alcyone",
+     "coord_pred": [
+      477.5444749431098,
+      406.9571807417202
+     ],
+     "coord_observee": [
+      929.0,
+      740.0
+     ]
+    },
+    {
+     "predite": "Epsilon UMi",
+     "observee": "Taygeta",
+     "coord_pred": [
+      805.9080581332089,
+      785.3167150967612
+     ],
+     "coord_observee": [
+      1469.0,
+      689.0
+     ]
+    }
+   ],
+   "identites_calage_correctes": 0,
+   "identites_reserve_correctes": 0
+  }
+ },
+ "six": {
+  "pleiades_bright7": {
+   "rms": 0.057765353675813,
+   "noms": [
+    "Atlas",
+    "Alcyone",
+    "Merope",
+    "Maia",
+    "Taygeta",
+    "Electra"
+   ],
+   "identites_confirmees": 6
+  },
+  "grande_ourse": {
+   "rms": 0.10927600675121864,
+   "noms": [
+    "Alkaid",
+    "Mizar",
+    "Alioth",
+    "Phecda",
+    "Merak",
+    "Dubhe"
+   ],
+   "identites_confirmees": 0
+  },
+  "petite_ourse": {
+   "rms": 0.11877329049204759,
+   "noms": [
+    "Polaris",
+    "Yildun",
+    "Epsilon UMi",
+    "Zeta UMi",
+    "Kochab",
+    "Pherkad"
+   ],
+   "identites_confirmees": 0
+  }
+ }
+}

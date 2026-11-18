@@ -1,0 +1,113 @@
+{
+ "disque": {
+  "bilan": {
+   "essais": 2000,
+   "passes": 0,
+   "par_carte": {
+    "pleiades_bright7": {
+     "choix": 1230,
+     "passes": 0
+    },
+    "grande_ourse": {
+     "choix": 376,
+     "passes": 0
+    },
+    "petite_ourse": {
+     "choix": 394,
+     "passes": 0
+    }
+   }
+  },
+  "max_au_plus_voynich": 1769,
+  "distribution_erreur": {
+   "min": 0.1331525213301166,
+   "p05": 0.3979051140617778,
+   "mediane": 0.9083214265815563,
+   "p95": 1.7348857601482004,
+   "max": 2.824836885026577
+  }
+ },
+ "carre": {
+  "bilan": {
+   "essais": 2000,
+   "passes": 0,
+   "par_carte": {
+    "pleiades_bright7": {
+     "choix": 1163,
+     "passes": 0
+    },
+    "grande_ourse": {
+     "choix": 434,
+     "passes": 0
+    },
+    "petite_ourse": {
+     "choix": 403,
+     "passes": 0
+    }
+   }
+  },
+  "max_au_plus_voynich": 1830,
+  "distribution_erreur": {
+   "min": 0.16625963879068223,
+   "p05": 0.3772833361549864,
+   "mediane": 0.8496825521293933,
+   "p95": 1.6489308532815643,
+   "max": 2.8524643766584883
+  }
+ },
+ "tolerance": {
+  "bilan": {
+   "essais": 1000,
+   "passes": 0,
+   "par_carte": {
+    "pleiades_bright7": {
+     "choix": 544,
+     "passes": 0
+    },
+    "grande_ourse": {
+     "choix": 164,
+     "passes": 0
+    },
+    "petite_ourse": {
+     "choix": 292,
+     "passes": 0
+    }
+   }
+  },
+  "erreurs_max_reserve": {
+   "min": 0.5075583105395339,
+   "p05": 0.5440517493862859,
+   "mediane": 0.8639234847592228,
+   "p95": 1.5280423704254265,
+   "max": 1.869289450728857
+  },
+  "rms_7_par_carte": {
+   "pleiades_bright7": {
+    "min": 0.18098379678995216,
+    "p05": 0.19032717626750817,
+    "mediane": 0.2020038876836313,
+    "p95": 0.21265868949993144,
+    "max": 0.22135398981785506
+   },
+   "grande_ourse": {
+    "min": 0.19708936383576703,
+    "p05": 0.2128234533178894,
+    "mediane": 0.2286935106234132,
+    "p95": 0.24237505569790457,
+    "max": 0.25294062442081094
+   },
+   "petite_ourse": {
+    "min": 0.19243989767878364,
+    "p05": 0.2088213804142389,
+    "mediane": 0.22485099730892305,
+    "p95": 0.23872557030298108,
+    "max": 0.24904379870189405
+   }
+  },
+  "choix_7": {
+   "pleiades_bright7": 1000,
+   "grande_ourse": 0,
+   "petite_ourse": 0
+  }
+ }
+}

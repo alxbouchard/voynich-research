@@ -1,0 +1,2160 @@
+{
+ "empreinte_predictions": "ae693e046d65b827207a1fb1df09edcfa25ed24b32840660294885c1170b8ba6",
+ "choix_initiaux": {
+  "voynich": "petite_ourse",
+  "bayer": "pleiades_bright7"
+ },
+ "controle_synthetique": {
+  "choix": "petite_ourse",
+  "rms_calage": 6.959601114229586e-16,
+  "max_reserve": 9.842362284450383e-16,
+  "passe": true,
+  "identites": [
+   "Polaris",
+   "Kochab",
+   "Yildun",
+   "Zeta UMi",
+   "Pherkad",
+   "Epsilon UMi",
+   "Eta UMi"
+  ]
+ },
+ "resultats": {
+  "voynich": {
+   "pleiades_bright7": {
+    "noms_calage": [
+     "Atlas",
+     "Alcyone",
+     "Merope",
+     "Maia"
+    ],
+    "rms_calage": 0.05809622508825343,
+    "diametre_calage_pixels": 107.16809226630843,
+    "distances_pixels": [
+     88.00645322294503,
+     75.33903304706425,
+     69.22703521791952
+    ],
+    "erreur_max_relative": 0.8212001479344477,
+    "rms_reserve_relatif": 0.7270603081965169,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Electra",
+      "observee": 4,
+      "coord_pred": [
+       5326.738449261255,
+       1343.6160129170878
+      ],
+      "coord_observee": [
+       5262.0,
+       1284.0
+      ]
+     },
+     {
+      "predite": "Taygeta",
+      "observee": 6,
+      "coord_pred": [
+       5335.08688926446,
+       1388.8811399380722
+      ],
+      "coord_observee": [
+       5316.0,
+       1316.0
+      ]
+     },
+     {
+      "predite": "Pleione",
+      "observee": 2,
+      "coord_pred": [
+       5212.521502266494,
+       1394.7152720640177
+      ],
+      "coord_observee": [
+       5231.0,
+       1328.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": null,
+    "identites_reserve_correctes": null
+   },
+   "grande_ourse": {
+    "noms_calage": [
+     "Mizar",
+     "Megrez",
+     "Phecda",
+     "Dubhe"
+    ],
+    "rms_calage": 0.063454891573753,
+    "diametre_calage_pixels": 107.16809226630843,
+    "distances_pixels": [
+     38.47015728143859,
+     95.54440651402363,
+     71.06187715766778
+    ],
+    "erreur_max_relative": 0.8915378121745379,
+    "rms_reserve_relatif": 0.6741377268199851,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Merak",
+      "observee": 6,
+      "coord_pred": [
+       5317.092815340045,
+       1354.4546324373434
+      ],
+      "coord_observee": [
+       5316.0,
+       1316.0
+      ]
+     },
+     {
+      "predite": "Alioth",
+      "observee": 4,
+      "coord_pred": [
+       5231.421495952906,
+       1374.5189963839573
+      ],
+      "coord_observee": [
+       5262.0,
+       1284.0
+      ]
+     },
+     {
+      "predite": "Alkaid",
+      "observee": 2,
+      "coord_pred": [
+       5171.450771508546,
+       1366.7773100052598
+      ],
+      "coord_observee": [
+       5231.0,
+       1328.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": null,
+    "identites_reserve_correctes": null
+   },
+   "petite_ourse": {
+    "noms_calage": [
+     "Epsilon UMi",
+     "Zeta UMi",
+     "Eta UMi",
+     "Kochab"
+    ],
+    "rms_calage": 0.04673197750866691,
+    "diametre_calage_pixels": 107.16809226630843,
+    "distances_pixels": [
+     152.05147404570326,
+     40.949654288232885,
+     160.25092393470794
+    ],
+    "erreur_max_relative": 1.495323099869043,
+    "rms_reserve_relatif": 1.2103755432399186,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Polaris",
+      "observee": 2,
+      "coord_pred": [
+       5139.232024468481,
+       1449.2365020376192
+      ],
+      "coord_observee": [
+       5231.0,
+       1328.0
+      ]
+     },
+     {
+      "predite": "Pherkad",
+      "observee": 6,
+      "coord_pred": [
+       5331.377107017052,
+       1353.9528492489287
+      ],
+      "coord_observee": [
+       5316.0,
+       1316.0
+      ]
+     },
+     {
+      "predite": "Yildun",
+      "observee": 4,
+      "coord_pred": [
+       5167.480905448174,
+       1413.408266301
+      ],
+      "coord_observee": [
+       5262.0,
+       1284.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": null,
+    "identites_reserve_correctes": null
+   },
+   "pleiades_sisters": {
+    "noms_calage": [
+     "Celaeno",
+     "Taygeta",
+     "Maia",
+     "Asterope"
+    ],
+    "rms_calage": 0.07961822375813536,
+    "diametre_calage_pixels": 107.16809226630843,
+    "distances_pixels": [
+     105.69671029155114,
+     54.10727554456174,
+     71.75505971811727
+    ],
+    "erreur_max_relative": 0.9862703352869158,
+    "rms_reserve_relatif": 0.7474268815173027,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Alcyone",
+      "observee": 6,
+      "coord_pred": [
+       5300.869160467797,
+       1211.3919111086202
+      ],
+      "coord_observee": [
+       5316.0,
+       1316.0
+      ]
+     },
+     {
+      "predite": "Electra",
+      "observee": 2,
+      "coord_pred": [
+       5176.9840245259375,
+       1331.1419198654012
+      ],
+      "coord_observee": [
+       5231.0,
+       1328.0
+      ]
+     },
+     {
+      "predite": "Merope",
+      "observee": 4,
+      "coord_pred": [
+       5214.001360303644,
+       1230.6622161835535
+      ],
+      "coord_observee": [
+       5262.0,
+       1284.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": null,
+    "identites_reserve_correctes": null
+   },
+   "pleiades_blend": {
+    "noms_calage": [
+     "Atlas+Pleione",
+     "Alcyone",
+     "Merope",
+     "Taygeta"
+    ],
+    "rms_calage": 0.06164301108141499,
+    "diametre_calage_pixels": 107.16809226630843,
+    "distances_pixels": [
+     81.49635258184047,
+     88.59668969509922,
+     48.69285133584032
+    ],
+    "erreur_max_relative": 0.8267077244870608,
+    "rms_reserve_relatif": 0.6995660217495299,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Electra",
+      "observee": 4,
+      "coord_pred": [
+       5313.612824623834,
+       1347.069579184366
+      ],
+      "coord_observee": [
+       5262.0,
+       1284.0
+      ]
+     },
+     {
+      "predite": "Maia",
+      "observee": 2,
+      "coord_pred": [
+       5301.666791557253,
+       1381.437608441372
+      ],
+      "coord_observee": [
+       5231.0,
+       1328.0
+      ]
+     },
+     {
+      "predite": "Celaeno",
+      "observee": 6,
+      "coord_pred": [
+       5322.218593812908,
+       1364.2941286514656
+      ],
+      "coord_observee": [
+       5316.0,
+       1316.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": null,
+    "identites_reserve_correctes": null
+   }
+  },
+  "bayer": {
+   "pleiades_bright7": {
+    "noms_calage": [
+     "Atlas",
+     "Alcyone",
+     "Merope",
+     "Electra"
+    ],
+    "rms_calage": 0.03215468211034455,
+    "diametre_calage_pixels": 1619.5616690944498,
+    "distances_pixels": [
+     554.7338635975833,
+     923.5290475141824,
+     433.10834597227057
+    ],
+    "erreur_max_relative": 0.5702339498010951,
+    "rms_reserve_relatif": 0.4139253341947506,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Maia",
+      "observee": "Megrez",
+      "coord_pred": [
+       2971.3217781066373,
+       930.4803355535032
+      ],
+      "coord_observee": [
+       2543.0,
+       1283.0
+      ]
+     },
+     {
+      "predite": "Taygeta",
+      "observee": "Merak",
+      "coord_pred": [
+       3242.811701032744,
+       838.3248186880853
+      ],
+      "coord_observee": [
+       3030.0,
+       1737.0
+      ]
+     },
+     {
+      "predite": "Pleione",
+      "observee": "Mizar",
+      "coord_pred": [
+       1641.1095709528122,
+       932.2626134152944
+      ],
+      "coord_observee": [
+       2074.0,
+       946.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": 0,
+    "identites_reserve_correctes": 0
+   },
+   "grande_ourse": {
+    "noms_calage": [
+     "Alkaid",
+     "Alioth",
+     "Phecda",
+     "Dubhe"
+    ],
+    "rms_calage": 0.0348633333159588,
+    "diametre_calage_pixels": 1619.5616690944498,
+    "distances_pixels": [
+     54.55832547785162,
+     64.30211439871276,
+     81.64995152389763
+    ],
+    "erreur_max_relative": 0.05041484562273618,
+    "rms_reserve_relatif": 0.041844304173956605,
+    "passe": true,
+    "etoiles": [
+     {
+      "predite": "Merak",
+      "observee": "Merak",
+      "coord_pred": [
+       3066.8149685518883,
+       1696.7350155908305
+      ],
+      "coord_observee": [
+       3030.0,
+       1737.0
+      ]
+     },
+     {
+      "predite": "Megrez",
+      "observee": "Megrez",
+      "coord_pred": [
+       2547.554595549045,
+       1347.140607851265
+      ],
+      "coord_observee": [
+       2543.0,
+       1283.0
+      ]
+     },
+     {
+      "predite": "Mizar",
+      "observee": "Mizar",
+      "coord_pred": [
+       2041.4584655055394,
+       1020.884999276228
+      ],
+      "coord_observee": [
+       2074.0,
+       946.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": 4,
+    "identites_reserve_correctes": 3
+   },
+   "petite_ourse": {
+    "noms_calage": [
+     "Epsilon UMi",
+     "Zeta UMi",
+     "Eta UMi",
+     "Pherkad"
+    ],
+    "rms_calage": 0.05169040874386057,
+    "diametre_calage_pixels": 1619.5616690944498,
+    "distances_pixels": [
+     1566.0353108625957,
+     783.1292066765936,
+     1592.5388365764843
+    ],
+    "erreur_max_relative": 0.9833147245741652,
+    "rms_reserve_relatif": 0.8437446420024681,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Polaris",
+      "observee": "Mizar",
+      "coord_pred": [
+       686.2479191127209,
+       220.3204861224665
+      ],
+      "coord_observee": [
+       2074.0,
+       946.0
+      ]
+     },
+     {
+      "predite": "Kochab",
+      "observee": "Merak",
+      "coord_pred": [
+       3033.4672095767455,
+       953.8784686859506
+      ],
+      "coord_observee": [
+       3030.0,
+       1737.0
+      ]
+     },
+     {
+      "predite": "Yildun",
+      "observee": "Megrez",
+      "coord_pred": [
+       1070.6305981482003,
+       676.1159167559624
+      ],
+      "coord_observee": [
+       2543.0,
+       1283.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": 0,
+    "identites_reserve_correctes": 0
+   },
+   "pleiades_sisters": {
+    "noms_calage": [
+     "Asterope",
+     "Maia",
+     "Celaeno",
+     "Electra"
+    ],
+    "rms_calage": 0.04889797261278256,
+    "diametre_calage_pixels": 1619.5616690944498,
+    "distances_pixels": [
+     1396.7787877423607,
+     1437.5106384661553,
+     556.3286465001389
+    ],
+    "erreur_max_relative": 0.8875924059563072,
+    "rms_reserve_relatif": 0.7415352260136104,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Alcyone",
+      "observee": "Mizar",
+      "coord_pred": [
+       2678.7475997696292,
+       -313.07558250483567
+      ],
+      "coord_observee": [
+       2074.0,
+       946.0
+      ]
+     },
+     {
+      "predite": "Merope",
+      "observee": "Merak",
+      "coord_pred": [
+       3358.323132864852,
+       337.4855284316699
+      ],
+      "coord_observee": [
+       3030.0,
+       1737.0
+      ]
+     },
+     {
+      "predite": "Taygeta",
+      "observee": "Megrez",
+      "coord_pred": [
+       2036.3543445565106,
+       1512.8080562924492
+      ],
+      "coord_observee": [
+       2543.0,
+       1283.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": 0,
+    "identites_reserve_correctes": 0
+   },
+   "pleiades_blend": {
+    "noms_calage": [
+     "Atlas+Pleione",
+     "Alcyone",
+     "Merope",
+     "Electra"
+    ],
+    "rms_calage": 0.03481061545428684,
+    "diametre_calage_pixels": 1619.5616690944498,
+    "distances_pixels": [
+     888.6639668520139,
+     823.0195566961296,
+     639.056250663628
+    ],
+    "erreur_max_relative": 0.5487064702814899,
+    "rms_reserve_relatif": 0.48820007145326233,
+    "passe": false,
+    "etoiles": [
+     {
+      "predite": "Maia",
+      "observee": "Mizar",
+      "coord_pred": [
+       2962.5044924495915,
+       929.1651291050034
+      ],
+      "coord_observee": [
+       2074.0,
+       946.0
+      ]
+     },
+     {
+      "predite": "Taygeta",
+      "observee": "Megrez",
+      "coord_pred": [
+       3231.925266359749,
+       832.7298943129329
+      ],
+      "coord_observee": [
+       2543.0,
+       1283.0
+      ]
+     },
+     {
+      "predite": "Celaeno",
+      "observee": "Merak",
+      "coord_pred": [
+       3300.392572817725,
+       1157.9656762528969
+      ],
+      "coord_observee": [
+       3030.0,
+       1737.0
+      ]
+     }
+    ],
+    "identites_calage_correctes": 0,
+    "identites_reserve_correctes": 0
+   }
+  }
+ },
+ "partages_quatre_trois": {
+  "voynich": {
+   "bilan": {
+    "essais": 35,
+    "passes": 0,
+    "par_carte": {
+     "pleiades_bright7": {
+      "choix": 27,
+      "passes": 0
+     },
+     "grande_ourse": {
+      "choix": 2,
+      "passes": 0
+     },
+     "petite_ourse": {
+      "choix": 6,
+      "passes": 0
+     }
+    }
+   },
+   "details": [
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.07145925175882309,
+     "max_reserve": 0.7012828189317111,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Alcyone",
+      "Taygeta",
+      "Pleione",
+      "Merope",
+      "Atlas",
+      "Maia"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.05662615708193491,
+     "max_reserve": 2.047677984531626,
+     "passe": false,
+     "identites": [
+      "Alcyone",
+      "Maia",
+      "Merope",
+      "Pleione",
+      "Electra",
+      "Taygeta",
+      "Atlas"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      5
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.05370905690940728,
+     "max_reserve": 0.6186137570502094,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Maia",
+      "Merope",
+      "Taygeta",
+      "Alcyone",
+      "Pleione",
+      "Atlas"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.06918902166560446,
+     "max_reserve": 0.8304842037161511,
+     "passe": false,
+     "identites": [
+      "Merope",
+      "Maia",
+      "Alcyone",
+      "Taygeta",
+      "Electra",
+      "Atlas",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      7
+     ]
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.0670791907462062,
+     "max_reserve": 1.3373958538360096,
+     "passe": false,
+     "identites": [
+      "Epsilon UMi",
+      "Zeta UMi",
+      "Polaris",
+      "Pherkad",
+      "Eta UMi",
+      "Kochab",
+      "Yildun"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      4,
+      5
+     ]
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.05223760654653112,
+     "max_reserve": 0.8554669995151033,
+     "passe": false,
+     "identites": [
+      "Yildun",
+      "Epsilon UMi",
+      "Polaris",
+      "Eta UMi",
+      "Zeta UMi",
+      "Kochab",
+      "Pherkad"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      4,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.1448826043589663,
+     "max_reserve": 1.1053651335640649,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Merope",
+      "Maia",
+      "Alcyone",
+      "Atlas",
+      "Pleione",
+      "Taygeta"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      4,
+      7
+     ]
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.020037171086302166,
+     "max_reserve": 0.5294713634281372,
+     "passe": false,
+     "identites": [
+      "Dubhe",
+      "Phecda",
+      "Merak",
+      "Megrez",
+      "Alioth",
+      "Alkaid",
+      "Mizar"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      5,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.06056184534472243,
+     "max_reserve": 0.8153682352624553,
+     "passe": false,
+     "identites": [
+      "Taygeta",
+      "Electra",
+      "Maia",
+      "Alcyone",
+      "Merope",
+      "Pleione",
+      "Atlas"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      5,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.050650997275085125,
+     "max_reserve": 1.533419254145046,
+     "passe": false,
+     "identites": [
+      "Alcyone",
+      "Merope",
+      "Pleione",
+      "Atlas",
+      "Taygeta",
+      "Electra",
+      "Maia"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.05509486082506594,
+     "max_reserve": 0.8661833534643899,
+     "passe": false,
+     "identites": [
+      "Kochab",
+      "Zeta UMi",
+      "Eta UMi",
+      "Polaris",
+      "Epsilon UMi",
+      "Yildun",
+      "Pherkad"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      4,
+      5
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.0666394959274682,
+     "max_reserve": 1.4884566569696664,
+     "passe": false,
+     "identites": [
+      "Alcyone",
+      "Pleione",
+      "Merope",
+      "Maia",
+      "Taygeta",
+      "Electra",
+      "Atlas"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      4,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.15166094673780062,
+     "max_reserve": 0.8364613303327171,
+     "passe": false,
+     "identites": [
+      "Merope",
+      "Electra",
+      "Alcyone",
+      "Taygeta",
+      "Maia",
+      "Atlas",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      4,
+      7
+     ]
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.014686045287125192,
+     "max_reserve": 0.5636270361003183,
+     "passe": false,
+     "identites": [
+      "Dubhe",
+      "Merak",
+      "Phecda",
+      "Mizar",
+      "Alioth",
+      "Alkaid",
+      "Megrez"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      5,
+      6
+     ]
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.04673197750866691,
+     "max_reserve": 1.495323099869043,
+     "passe": false,
+     "identites": [
+      "Epsilon UMi",
+      "Polaris",
+      "Zeta UMi",
+      "Yildun",
+      "Eta UMi",
+      "Pherkad",
+      "Kochab"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      5,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.04966269536878525,
+     "max_reserve": 0.6965980041482924,
+     "passe": false,
+     "identites": [
+      "Pleione",
+      "Atlas",
+      "Alcyone",
+      "Taygeta",
+      "Electra",
+      "Maia",
+      "Merope"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.05509745904563344,
+     "max_reserve": 1.1770011264477442,
+     "passe": false,
+     "identites": [
+      "Alcyone",
+      "Merope",
+      "Atlas",
+      "Electra",
+      "Maia",
+      "Taygeta",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      1,
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.14351146570019696,
+     "max_reserve": 1.2283387773594092,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Merope",
+      "Atlas",
+      "Taygeta",
+      "Maia",
+      "Pleione",
+      "Alcyone"
+     ],
+     "rangs_entrainement": [
+      1,
+      4,
+      5,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.12528317847510045,
+     "max_reserve": 1.1494140510316486,
+     "passe": false,
+     "identites": [
+      "Taygeta",
+      "Pleione",
+      "Maia",
+      "Alcyone",
+      "Atlas",
+      "Merope",
+      "Electra"
+     ],
+     "rangs_entrainement": [
+      1,
+      4,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.04853740952080866,
+     "max_reserve": 1.2278022129163457,
+     "passe": false,
+     "identites": [
+      "Alcyone",
+      "Atlas",
+      "Merope",
+      "Pleione",
+      "Maia",
+      "Taygeta",
+      "Electra"
+     ],
+     "rangs_entrainement": [
+      1,
+      5,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.07146825114390497,
+     "max_reserve": 1.415271171847056,
+     "passe": false,
+     "identites": [
+      "Alcyone",
+      "Electra",
+      "Taygeta",
+      "Merope",
+      "Maia",
+      "Atlas",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.06754936565972747,
+     "max_reserve": 0.8856916994479089,
+     "passe": false,
+     "identites": [
+      "Atlas",
+      "Merope",
+      "Alcyone",
+      "Electra",
+      "Taygeta",
+      "Maia",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      4,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.04248614949371255,
+     "max_reserve": 1.0845929043233984,
+     "passe": false,
+     "identites": [
+      "Maia",
+      "Electra",
+      "Merope",
+      "Taygeta",
+      "Atlas",
+      "Pleione",
+      "Alcyone"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      4,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.07399117795455208,
+     "max_reserve": 0.8382035735666652,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Maia",
+      "Merope",
+      "Taygeta",
+      "Alcyone",
+      "Pleione",
+      "Atlas"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      5,
+      6
+     ]
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.06528790712727736,
+     "max_reserve": 0.921290094253657,
+     "passe": false,
+     "identites": [
+      "Yildun",
+      "Epsilon UMi",
+      "Eta UMi",
+      "Polaris",
+      "Zeta UMi",
+      "Kochab",
+      "Pherkad"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      5,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.05004239465240922,
+     "max_reserve": 0.891590644592107,
+     "passe": false,
+     "identites": [
+      "Atlas",
+      "Alcyone",
+      "Merope",
+      "Pleione",
+      "Taygeta",
+      "Maia",
+      "Electra"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.057679428024525886,
+     "max_reserve": 1.504250746146611,
+     "passe": false,
+     "identites": [
+      "Taygeta",
+      "Electra",
+      "Pleione",
+      "Maia",
+      "Merope",
+      "Alcyone",
+      "Atlas"
+     ],
+     "rangs_entrainement": [
+      2,
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.04291783953721744,
+     "max_reserve": 0.8567075048788774,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Merope",
+      "Atlas",
+      "Maia",
+      "Alcyone",
+      "Taygeta",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      2,
+      4,
+      5,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.06178568082647141,
+     "max_reserve": 1.1577826322147287,
+     "passe": false,
+     "identites": [
+      "Taygeta",
+      "Maia",
+      "Pleione",
+      "Electra",
+      "Atlas",
+      "Merope",
+      "Alcyone"
+     ],
+     "rangs_entrainement": [
+      2,
+      4,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.05282362454841499,
+     "max_reserve": 1.118786809993953,
+     "passe": false,
+     "identites": [
+      "Atlas",
+      "Pleione",
+      "Taygeta",
+      "Electra",
+      "Alcyone",
+      "Merope",
+      "Maia"
+     ],
+     "rangs_entrainement": [
+      2,
+      5,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.054962131278990044,
+     "max_reserve": 1.2294156204212217,
+     "passe": false,
+     "identites": [
+      "Atlas",
+      "Taygeta",
+      "Pleione",
+      "Maia",
+      "Alcyone",
+      "Merope",
+      "Electra"
+     ],
+     "rangs_entrainement": [
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.015174926504647468,
+     "max_reserve": 0.7788314465179564,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Pleione",
+      "Merope",
+      "Atlas",
+      "Alcyone",
+      "Taygeta",
+      "Maia"
+     ],
+     "rangs_entrainement": [
+      3,
+      4,
+      5,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.027664430526873063,
+     "max_reserve": 1.1032986185855063,
+     "passe": false,
+     "identites": [
+      "Taygeta",
+      "Pleione",
+      "Maia",
+      "Alcyone",
+      "Atlas",
+      "Merope",
+      "Electra"
+     ],
+     "rangs_entrainement": [
+      3,
+      4,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.06373997676734544,
+     "max_reserve": 1.5888647076870406,
+     "passe": false,
+     "identites": [
+      "Taygeta",
+      "Pleione",
+      "Electra",
+      "Atlas",
+      "Merope",
+      "Alcyone",
+      "Maia"
+     ],
+     "rangs_entrainement": [
+      3,
+      5,
+      6,
+      7
+     ]
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.07198385456457553,
+     "max_reserve": 1.230524127287639,
+     "passe": false,
+     "identites": [
+      "Polaris",
+      "Yildun",
+      "Kochab",
+      "Epsilon UMi",
+      "Zeta UMi",
+      "Eta UMi",
+      "Pherkad"
+     ],
+     "rangs_entrainement": [
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  "bayer": {
+   "bilan": {
+    "essais": 35,
+    "passes": 8,
+    "par_carte": {
+     "pleiades_bright7": {
+      "choix": 2,
+      "passes": 0
+     },
+     "grande_ourse": {
+      "choix": 28,
+      "passes": 8
+     },
+     "petite_ourse": {
+      "choix": 5,
+      "passes": 0
+     }
+    }
+   },
+   "details": [
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.034124567669277774,
+     "max_reserve": 0.9968776894073773,
+     "passe": false,
+     "identites": [
+      "Polaris",
+      "Epsilon UMi",
+      "Zeta UMi",
+      "Kochab",
+      "Yildun",
+      "Pherkad",
+      "Eta UMi"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.05236531359951174,
+     "max_reserve": 0.1158064420322083,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.04266215896330353,
+     "max_reserve": 0.03733382198290397,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.016627009530276064,
+     "max_reserve": 0.42091172948646144,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Dubhe",
+      "Merak"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      3,
+      7
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.04776229810090321,
+     "max_reserve": 0.11303150445480227,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      4,
+      5
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.017870266215394788,
+     "max_reserve": 0.3800077071930598,
+     "passe": false,
+     "identites": [
+      "Pherkad",
+      "Eta UMi",
+      "Kochab",
+      "Epsilon UMi",
+      "Zeta UMi",
+      "Polaris",
+      "Yildun"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      4,
+      6
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.027811969299672803,
+     "max_reserve": 0.6790768147598851,
+     "passe": false,
+     "identites": [
+      "Yildun",
+      "Epsilon UMi",
+      "Polaris",
+      "Zeta UMi",
+      "Eta UMi",
+      "Kochab",
+      "Pherkad"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      4,
+      7
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.0366868703275538,
+     "max_reserve": 0.05129964529994797,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      5,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.0352019050837303,
+     "max_reserve": 0.04660434829821631,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      5,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.034496864544345605,
+     "max_reserve": 0.05389135094611821,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      2,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.03993159740876399,
+     "max_reserve": 0.1337597537302793,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      4,
+      5
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.03823935849318382,
+     "max_reserve": 0.7401826936544235,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Megrez",
+      "Mizar",
+      "Alioth",
+      "Merak",
+      "Phecda",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      4,
+      6
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.009093765948825694,
+     "max_reserve": 0.5127958629066528,
+     "passe": false,
+     "identites": [
+      "Dubhe",
+      "Merak",
+      "Megrez",
+      "Alioth",
+      "Phecda",
+      "Mizar",
+      "Alkaid"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      4,
+      7
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.03605146663134305,
+     "max_reserve": 0.5930478140032145,
+     "passe": false,
+     "identites": [
+      "Electra",
+      "Taygeta",
+      "Merope",
+      "Maia",
+      "Alcyone",
+      "Atlas",
+      "Pleione"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      5,
+      6
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "pleiades_bright7",
+     "rms_calage": 0.03215468211034455,
+     "max_reserve": 0.5702339498010951,
+     "passe": false,
+     "identites": [
+      "Atlas",
+      "Pleione",
+      "Alcyone",
+      "Maia",
+      "Merope",
+      "Taygeta",
+      "Electra"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      5,
+      7
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.03509659324287916,
+     "max_reserve": 0.0548475448311057,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      3,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.03107554890634651,
+     "max_reserve": 0.06732704659102465,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      4,
+      5,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.027017075416313582,
+     "max_reserve": 0.4901017517404363,
+     "passe": false,
+     "identites": [
+      "Yildun",
+      "Polaris",
+      "Epsilon UMi",
+      "Zeta UMi",
+      "Eta UMi",
+      "Kochab",
+      "Pherkad"
+     ],
+     "rangs_entrainement": [
+      1,
+      4,
+      5,
+      7
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.03206990208829152,
+     "max_reserve": 0.06401733948576654,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      4,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.022601628177141925,
+     "max_reserve": 0.07207810171303719,
+     "passe": true,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      1,
+      5,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "petite_ourse",
+     "rms_calage": 0.01831102698332293,
+     "max_reserve": 1.0029476266953863,
+     "passe": false,
+     "identites": [
+      "Polaris",
+      "Yildun",
+      "Epsilon UMi",
+      "Eta UMi",
+      "Pherkad",
+      "Kochab",
+      "Zeta UMi"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "sept_identites_vraies": false
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.015588564308120343,
+     "max_reserve": 0.16435821981147294,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      4,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.015372151115462689,
+     "max_reserve": 0.16390319603691825,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      4,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.008512361009594457,
+     "max_reserve": 0.15863201028652552,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      5,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.008033143162569372,
+     "max_reserve": 0.15851752253322904,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      5,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.009060056798754207,
+     "max_reserve": 0.15858254104700287,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      3,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.01545462413912332,
+     "max_reserve": 0.15832143207152227,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      4,
+      5,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.015147013917104712,
+     "max_reserve": 0.15943065540564808,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      4,
+      5,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.016128213643537365,
+     "max_reserve": 0.16236293010011954,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      4,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.006532016609855435,
+     "max_reserve": 0.15082154727721372,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      2,
+      5,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.014127171801620677,
+     "max_reserve": 0.23703585157751858,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.013316887147817475,
+     "max_reserve": 0.2345061418043809,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      3,
+      4,
+      5,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.012483203393325534,
+     "max_reserve": 0.2447404485284855,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      3,
+      4,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.00527166315108462,
+     "max_reserve": 0.22425528243544623,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      3,
+      5,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    },
+    {
+     "choix": "grande_ourse",
+     "rms_calage": 0.017769943113746297,
+     "max_reserve": 0.3813915303940419,
+     "passe": false,
+     "identites": [
+      "Alkaid",
+      "Mizar",
+      "Alioth",
+      "Megrez",
+      "Phecda",
+      "Merak",
+      "Dubhe"
+     ],
+     "rangs_entrainement": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "sept_identites_vraies": true
+    }
+   ],
+   "sept_identites_vraies": 25
+  }
+ }
+}

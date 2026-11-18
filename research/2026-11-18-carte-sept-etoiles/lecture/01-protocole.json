@@ -1,0 +1,20 @@
+{
+  "hypothese": "Dans le secteur à dix heures, la seule étiquette de l’amas X.1 pourrait correspondre au nom de la troisième mansion, et celle de l’étoile solitaire X.3 au nom de la quatrième, dans un même témoin. X.2 oalcheol accompagne le trait. Aucun nom cible n’est fourni pour X.2.",
+  "lectures": {
+    "H": ["doaro", "dchol.dal"],
+    "U": ["doaro", "dchol!day"],
+    "V": ["doary", "dchol!day"],
+    "ZL": ["doaro", "dchol,day"]
+  },
+  "temoins": {
+    "castillan": {"principales": ["açoraya", "addauaran"], "autres_3": ["annexni", "las estrellas dell Açoraya"], "autres_4": ["la siguiente dell Açoraya", "alfanic", "mistah açoraya"]},
+    "latin": {"principales": ["Athoraye", "Aldebaran"], "autres_3": ["pleiades", "pluuiales"], "autres_4": ["Aldelamen", "caput Thauri"]}
+  },
+  "conventions": [
+    "Tester séparément la paire principale de chaque témoin puis tous les couples 3 × 4 du même témoin incluant les appellations et gloses énumérées. Aucun mélange entre témoins et aucun nom tiré d’une liste contemporaine. Les traductions explicatives du castillan comme çaguero et les noms d’étoiles voisines ne sont pas des appellations cibles.",
+    "Comparer sans distinction de capitales. Garder ç, u et v distincts et les espaces des noms composés. Les segments de sortie sont des suites de lettres sans espaces. Un espace source correspond uniquement à un espace cible. Le point de H marque l’espace certain : seconde branche déclarée avec soudure. La virgule de ZL a deux lectures déclarées, séparée et soudée. Le ! de U et V relève de l’alignement, sans lettre ni espace. Aucune retouche à la graphie ni aux sons.",
+    "Deux tokenisations indépendantes : ch comme signe composé, tous les autres signes à l’unité ; puis caractères EVA simples. Sens uniforme des deux étiquettes, direct ou inverse (inverser les signes, en gardant ch entier en mode composé). Fonctions constantes de signe à sortie non vide. Énumérer à la fois longueur fixe 1 et toute expansion possible jusqu’à la longueur de la cible. Homophones permis, tables injectives identifiées séparément. Aucun signe nul, saut, anagramme ou entrelacement.",
+    "Apprendre sur X.1 seul et appliquer à X.3, puis l’inverse. Pour chaque table d’apprentissage, recopier les valeurs apprises ; tout nouveau signe demeure marqué comme inconnu. Mesurer les sorties entièrement couvertes et exactes sans apprentissage additionnel. À part, énumérer les complétions compatibles avec le second nom révélé, distinguer valeurs partagées et nouvelles et inventorier les tables communes. Les résultats de ce dernier ajustement ne sont pas un transfert indépendant.",
+    "Prévoir un contrôle positif sur les graphies castillanes réelles : chiffre monoalphabétique par rang dans l’alphabet trié de la paire et sous-épreuve sur un second mot couvert intégralement par le premier. Tester aussi l’ordre inverse et une fausse cible de même longueur avec répétitions incompatibles. Ne pas attribuer un nom au trait avec des signes manquants."
+  ]
+}

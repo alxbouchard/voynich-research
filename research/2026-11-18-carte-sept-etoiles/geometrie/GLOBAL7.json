@@ -1,0 +1,711 @@
+{
+  "unite": "fraction du diamètre des sept centres du dessin",
+  "bijections_par_sens": 5040,
+  "nombre_sens": 2,
+  "cartes_primaires": [
+    "pleiades_bright7",
+    "grande_ourse",
+    "petite_ourse"
+  ],
+  "images": {
+    "voynich": {
+      "diametre_px": 123.30855606972293,
+      "modeles": {
+        "pleiades_bright7": {
+          "meilleure": {
+            "noms": [
+              "Taygeta",
+              "Electra",
+              "Maia",
+              "Merope",
+              "Alcyone",
+              "Atlas",
+              "Pleione"
+            ],
+            "miroir": false,
+            "rms": 0.2032298333738739,
+            "maximum": 0.28464177637967875,
+            "distances_par_point": [
+              0.12233120430092838,
+              0.09439176997488495,
+              0.22674606275793247,
+              0.2786386564813839,
+              0.08306283420088463,
+              0.21970018952987552,
+              0.28464177637967875
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Taygeta",
+              "Maia",
+              "Electra",
+              "Pleione",
+              "Alcyone",
+              "Atlas",
+              "Merope"
+            ],
+            "miroir": true,
+            "rms": 0.2077473798320934,
+            "maximum": 0.3119304198025009,
+            "distances_par_point": [
+              0.12376666526061893,
+              0.26041331067360796,
+              0.11092762952414031,
+              0.25511170471282174,
+              0.06498802011171302,
+              0.20017139294725833,
+              0.3119304198025009
+            ]
+          },
+          "ecart_rms": 0.004517546458219501
+        },
+        "grande_ourse": {
+          "meilleure": {
+            "noms": [
+              "Alkaid",
+              "Mizar",
+              "Alioth",
+              "Dubhe",
+              "Megrez",
+              "Merak",
+              "Phecda"
+            ],
+            "miroir": false,
+            "rms": 0.22933421983876187,
+            "maximum": 0.36874899257670146,
+            "distances_par_point": [
+              0.09232695884443846,
+              0.2641638678573116,
+              0.2315225561165793,
+              0.3140046460624017,
+              0.022163065413939226,
+              0.03440699897075475,
+              0.36874899257670146
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Alkaid",
+              "Alioth",
+              "Mizar",
+              "Dubhe",
+              "Megrez",
+              "Merak",
+              "Phecda"
+            ],
+            "miroir": false,
+            "rms": 0.23071968282786814,
+            "maximum": 0.3822832058707676,
+            "distances_par_point": [
+              0.1420955577134937,
+              0.2600106132459354,
+              0.24745029226792467,
+              0.27406293654804625,
+              0.02286683186160715,
+              0.04264804759739741,
+              0.3822832058707676
+            ]
+          },
+          "ecart_rms": 0.001385462989106273
+        },
+        "petite_ourse": {
+          "meilleure": {
+            "noms": [
+              "Polaris",
+              "Epsilon UMi",
+              "Yildun",
+              "Eta UMi",
+              "Zeta UMi",
+              "Pherkad",
+              "Kochab"
+            ],
+            "miroir": true,
+            "rms": 0.22448662301080957,
+            "maximum": 0.35737620661985864,
+            "distances_par_point": [
+              0.05260398443863218,
+              0.17717659640173616,
+              0.29782082139370036,
+              0.31215227844034926,
+              0.04842467175580702,
+              0.04901013569130915,
+              0.35737620661985864
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Polaris",
+              "Yildun",
+              "Epsilon UMi",
+              "Kochab",
+              "Zeta UMi",
+              "Pherkad",
+              "Eta UMi"
+            ],
+            "miroir": false,
+            "rms": 0.22961727875394286,
+            "maximum": 0.3532033996191765,
+            "distances_par_point": [
+              0.10147241694314002,
+              0.32689978112578255,
+              0.14346080199116948,
+              0.3190055766458369,
+              0.05757043027966959,
+              0.03867801742555829,
+              0.3532033996191765
+            ]
+          },
+          "ecart_rms": 0.005130655743133289
+        },
+        "pleiades_sisters": {
+          "meilleure": {
+            "noms": [
+              "Celaeno",
+              "Taygeta",
+              "Electra",
+              "Asterope",
+              "Maia",
+              "Alcyone",
+              "Merope"
+            ],
+            "miroir": true,
+            "rms": 0.15388614835097086,
+            "maximum": 0.23860958092197512,
+            "distances_par_point": [
+              0.23860958092197512,
+              0.010076662778273333,
+              0.07030643602582823,
+              0.2001644447748358,
+              0.13866848540207266,
+              0.19766287073671415,
+              0.07363556293880988
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Celaeno",
+              "Electra",
+              "Taygeta",
+              "Merope",
+              "Maia",
+              "Alcyone",
+              "Asterope"
+            ],
+            "miroir": false,
+            "rms": 0.15713231396219576,
+            "maximum": 0.23780480118073882,
+            "distances_par_point": [
+              0.23780480118073882,
+              0.07252608571180659,
+              0.04300202890512334,
+              0.036272931013423236,
+              0.17424033762249344,
+              0.18031900602058828,
+              0.21209255730269344
+            ]
+          },
+          "ecart_rms": 0.0032461656112248993
+        },
+        "pleiades_blend": {
+          "meilleure": {
+            "noms": [
+              "Atlas+Pleione",
+              "Merope",
+              "Alcyone",
+              "Electra",
+              "Maia",
+              "Celaeno",
+              "Taygeta"
+            ],
+            "miroir": true,
+            "rms": 0.2105595356192206,
+            "maximum": 0.3363304651316092,
+            "distances_par_point": [
+              0.125705333254328,
+              0.102959663423447,
+              0.2230567725864365,
+              0.2768431948480294,
+              0.16013411938877978,
+              0.13706606758062306,
+              0.3363304651316092
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Atlas+Pleione",
+              "Alcyone",
+              "Merope",
+              "Taygeta",
+              "Maia",
+              "Celaeno",
+              "Electra"
+            ],
+            "miroir": false,
+            "rms": 0.2160329767361715,
+            "maximum": 0.3196488713525962,
+            "distances_par_point": [
+              0.15720153071067292,
+              0.2591093584537228,
+              0.09688097374619604,
+              0.2957813166202777,
+              0.12505060513567579,
+              0.14197247349023928,
+              0.3196488713525962
+            ]
+          },
+          "ecart_rms": 0.005473441116950889
+        }
+      },
+      "classement_primaire": [
+        "pleiades_bright7",
+        "petite_ourse",
+        "grande_ourse"
+      ],
+      "ecart_entre_les_deux_premieres_cartes": 0.02125678963693567,
+      "deuxieme_solution_toutes_affectations_primaires": {
+        "carte": "pleiades_bright7",
+        "rang_dans_carte": "deuxieme",
+        "ecart_rms_au_premier": 0.004517546458219501
+      },
+      "ordre_points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bayer": {
+      "diametre_px": 1619.5616690944498,
+      "modeles": {
+        "pleiades_bright7": {
+          "meilleure": {
+            "noms": [
+              "Pleione",
+              "Atlas",
+              "Alcyone",
+              "Merope",
+              "Maia",
+              "Taygeta",
+              "Electra"
+            ],
+            "miroir": true,
+            "rms": 0.11726927516800323,
+            "maximum": 0.16207116541182287,
+            "distances_par_point": [
+              0.1255227577728589,
+              0.14240533334434724,
+              0.054027960662526235,
+              0.16207116541182287,
+              0.09465151470522369,
+              0.12214531382112302,
+              0.08464554618780487
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Electra",
+              "Taygeta",
+              "Maia",
+              "Alcyone",
+              "Merope",
+              "Atlas",
+              "Pleione"
+            ],
+            "miroir": true,
+            "rms": 0.12404359260820541,
+            "maximum": 0.19607680499731597,
+            "distances_par_point": [
+              0.19607680499731597,
+              0.06719723471167179,
+              0.0728122240536725,
+              0.1070054824315433,
+              0.18712266826824792,
+              0.09867043618444415,
+              0.05695232269622805
+            ]
+          },
+          "ecart_rms": 0.006774317440202182
+        },
+        "grande_ourse": {
+          "meilleure": {
+            "noms": [
+              "Alkaid",
+              "Mizar",
+              "Alioth",
+              "Megrez",
+              "Phecda",
+              "Merak",
+              "Dubhe"
+            ],
+            "miroir": false,
+            "rms": 0.0351170866873422,
+            "maximum": 0.06311366454417003,
+            "distances_par_point": [
+              0.06311366454417003,
+              0.03223561582232248,
+              0.03483882508204545,
+              0.03249756872688155,
+              0.012313886749737858,
+              0.025767207863047425,
+              0.022903762747791916
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Alkaid",
+              "Alioth",
+              "Mizar",
+              "Megrez",
+              "Phecda",
+              "Merak",
+              "Dubhe"
+            ],
+            "miroir": false,
+            "rms": 0.09341090987374774,
+            "maximum": 0.18041213501987097,
+            "distances_par_point": [
+              0.06212493430020428,
+              0.18041213501987097,
+              0.1472937907693067,
+              0.032019258478464756,
+              0.007249148801733676,
+              0.028943480302529842,
+              0.032560278512037556
+            ]
+          },
+          "ecart_rms": 0.05829382318640554
+        },
+        "petite_ourse": {
+          "meilleure": {
+            "noms": [
+              "Polaris",
+              "Yildun",
+              "Epsilon UMi",
+              "Zeta UMi",
+              "Kochab",
+              "Pherkad",
+              "Eta UMi"
+            ],
+            "miroir": true,
+            "rms": 0.12082727928660965,
+            "maximum": 0.23656241291880364,
+            "distances_par_point": [
+              0.08941546118612638,
+              0.05117473212600307,
+              0.0523808186247536,
+              0.08454294738925522,
+              0.15871515632892105,
+              0.02317554451987288,
+              0.23656241291880364
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Polaris",
+              "Yildun",
+              "Epsilon UMi",
+              "Eta UMi",
+              "Zeta UMi",
+              "Kochab",
+              "Pherkad"
+            ],
+            "miroir": true,
+            "rms": 0.12100041637715607,
+            "maximum": 0.17806252761391042,
+            "distances_par_point": [
+              0.028959457446198354,
+              0.119966891940321,
+              0.026924482090205433,
+              0.17806252761391042,
+              0.1619355565249457,
+              0.11855143686822796,
+              0.12061608881103467
+            ]
+          },
+          "ecart_rms": 0.00017313709054642135
+        },
+        "pleiades_sisters": {
+          "meilleure": {
+            "noms": [
+              "Alcyone",
+              "Merope",
+              "Electra",
+              "Maia",
+              "Asterope",
+              "Taygeta",
+              "Celaeno"
+            ],
+            "miroir": true,
+            "rms": 0.1808987138450808,
+            "maximum": 0.29210758968167777,
+            "distances_par_point": [
+              0.12894983751845263,
+              0.056092619889385034,
+              0.29210758968167777,
+              0.12974679390148655,
+              0.13002913528870583,
+              0.176745137305812,
+              0.24287543315660287
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Celaeno",
+              "Taygeta",
+              "Asterope",
+              "Maia",
+              "Electra",
+              "Merope",
+              "Alcyone"
+            ],
+            "miroir": true,
+            "rms": 0.18295557000340051,
+            "maximum": 0.35324930039324365,
+            "distances_par_point": [
+              0.35324930039324365,
+              0.08024855972304393,
+              0.17750214236403453,
+              0.11492536430543841,
+              0.21075443386841744,
+              0.1065202658598478,
+              0.05104347423849369
+            ]
+          },
+          "ecart_rms": 0.0020568561583197142
+        },
+        "pleiades_blend": {
+          "meilleure": {
+            "noms": [
+              "Atlas+Pleione",
+              "Alcyone",
+              "Merope",
+              "Electra",
+              "Maia",
+              "Taygeta",
+              "Celaeno"
+            ],
+            "miroir": true,
+            "rms": 0.14391163474039909,
+            "maximum": 0.22671284790651447,
+            "distances_par_point": [
+              0.05183354979177842,
+              0.15169952361284664,
+              0.1277642051622219,
+              0.22671284790651447,
+              0.04141489128735636,
+              0.14666256669351582,
+              0.16830608643512174
+            ]
+          },
+          "deuxieme": {
+            "noms": [
+              "Atlas+Pleione",
+              "Alcyone",
+              "Merope",
+              "Maia",
+              "Taygeta",
+              "Celaeno",
+              "Electra"
+            ],
+            "miroir": true,
+            "rms": 0.14909379595618186,
+            "maximum": 0.1947701693316961,
+            "distances_par_point": [
+              0.08065973606689412,
+              0.10682056490584214,
+              0.16296414774610543,
+              0.17741012421077457,
+              0.13120612448836053,
+              0.1565374148608926,
+              0.1947701693316961
+            ]
+          },
+          "ecart_rms": 0.005182161215782771
+        }
+      },
+      "classement_primaire": [
+        "grande_ourse",
+        "pleiades_bright7",
+        "petite_ourse"
+      ],
+      "ecart_entre_les_deux_premieres_cartes": 0.08215218848066103,
+      "deuxieme_solution_toutes_affectations_primaires": {
+        "carte": "grande_ourse",
+        "rang_dans_carte": "deuxieme",
+        "ecart_rms_au_premier": 0.05829382318640554
+      },
+      "ordre_points": [
+        "Alkaid",
+        "Mizar",
+        "Alioth",
+        "Megrez",
+        "Phecda",
+        "Merak",
+        "Dubhe"
+      ],
+      "lettres": [
+        "η",
+        "ζ",
+        "ε",
+        "δ",
+        "γ",
+        "β",
+        "α"
+      ],
+      "verite_gravee": {
+        "noms": [
+          "Alkaid",
+          "Mizar",
+          "Alioth",
+          "Megrez",
+          "Phecda",
+          "Merak",
+          "Dubhe"
+        ],
+        "miroir": false,
+        "rms": 0.0351170866873422,
+        "maximum": 0.06311366454417003,
+        "distances_par_point": [
+          0.06311366454417003,
+          0.03223561582232248,
+          0.03483882508204545,
+          0.03249756872688155,
+          0.012313886749737858,
+          0.025767207863047425,
+          0.022903762747791916
+        ]
+      },
+      "identites_vraies_retrouvees_par_la_meilleure_grande_ourse": 7,
+      "ecart_rms_verite_moins_optimum_grande_ourse": 0.0
+    }
+  },
+  "synthetique": {
+    "carte": "petite_ourse",
+    "construction": "ciel centré conjugué × 217 exp(0,73i) + 460 + 783i, puis tri x,y",
+    "noms_vrais": [
+      "Pherkad",
+      "Kochab",
+      "Zeta UMi",
+      "Eta UMi",
+      "Epsilon UMi",
+      "Yildun",
+      "Polaris"
+    ],
+    "classement_primaire": [
+      "petite_ourse",
+      "grande_ourse",
+      "pleiades_bright7"
+    ],
+    "solution": {
+      "noms": [
+        "Pherkad",
+        "Kochab",
+        "Zeta UMi",
+        "Eta UMi",
+        "Epsilon UMi",
+        "Yildun",
+        "Polaris"
+      ],
+      "miroir": true,
+      "rms": 0.0,
+      "maximum": 0.0,
+      "distances_par_point": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "nuls": {
+    "disque": {
+      "n": 2000,
+      "graine": 1492,
+      "quantiles_meilleur_rms_primaire": {
+        "p01": 0.08924779645530113,
+        "p05": 0.10812013490303282,
+        "p25": 0.1384625758313566,
+        "p50": 0.16299709391744935,
+        "p75": 0.1876322350862804,
+        "p95": 0.21629313676033216
+      },
+      "comptes_premier": {
+        "pleiades_bright7": 1218,
+        "grande_ourse": 302,
+        "petite_ourse": 480
+      },
+      "comparaisons": {
+        "voynich": {
+          "meilleur_rms_observe": 0.2032298333738739,
+          "n_meilleur_rms_inferieur_ou_egal": 1761,
+          "frequence": 0.8805,
+          "p_monte_carlo_plus_un": 0.88055972013993,
+          "n_inferieur_ou_egal_meme_carte": {
+            "pleiades_bright7": 1722,
+            "grande_ourse": 1712,
+            "petite_ourse": 1763
+          }
+        },
+        "bayer": {
+          "meilleur_rms_observe": 0.0351170866873422,
+          "n_meilleur_rms_inferieur_ou_egal": 0,
+          "frequence": 0.0,
+          "p_monte_carlo_plus_un": 0.0004997501249375312,
+          "n_inferieur_ou_egal_meme_carte": {
+            "pleiades_bright7": 99,
+            "grande_ourse": 0,
+            "petite_ourse": 108
+          }
+        }
+      }
+    },
+    "carre": {
+      "n": 2000,
+      "graine": 1453,
+      "quantiles_meilleur_rms_primaire": {
+        "p01": 0.08737037886274722,
+        "p05": 0.10394264496188824,
+        "p25": 0.13672656635040437,
+        "p50": 0.16351989398564917,
+        "p75": 0.18910607762954162,
+        "p95": 0.21712849853264338
+      },
+      "comptes_premier": {
+        "pleiades_bright7": 1208,
+        "grande_ourse": 334,
+        "petite_ourse": 458
+      },
+      "comparaisons": {
+        "voynich": {
+          "meilleur_rms_observe": 0.2032298333738739,
+          "n_meilleur_rms_inferieur_ou_egal": 1750,
+          "frequence": 0.875,
+          "p_monte_carlo_plus_un": 0.8750624687656172,
+          "n_inferieur_ou_egal_meme_carte": {
+            "pleiades_bright7": 1714,
+            "grande_ourse": 1722,
+            "petite_ourse": 1748
+          }
+        },
+        "bayer": {
+          "meilleur_rms_observe": 0.0351170866873422,
+          "n_meilleur_rms_inferieur_ou_egal": 0,
+          "frequence": 0.0,
+          "p_monte_carlo_plus_un": 0.0004997501249375312,
+          "n_inferieur_ou_egal_meme_carte": {
+            "pleiades_bright7": 102,
+            "grande_ourse": 0,
+            "petite_ourse": 136
+          }
+        }
+      }
+    }
+  }
+}

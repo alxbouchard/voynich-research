@@ -1,0 +1,86 @@
+{
+  "witness": "Johann Bayer, Uranometria, Augsbourg, 1603, Tabula secunda, Ursa maior. ETH-Bibliothek Zürich, Rar 8931; e-rara.",
+  "image": "bayer1603_UMA_ETH_77430.jpg",
+  "source_sha256": "dd22e85c736ba2b6af970a40e14f221cc563c4b2bfd05c38aa03e82576698568",
+  "width": 6087,
+  "height": 4361,
+  "coordinate_system": "Indices des centres de pixels à partir de zéro dans le JPEG original complet de l’ETH, origine en haut à gauche, x vers la droite, y vers le bas.",
+  "crop": "bayer1603_UMA_crop.png",
+  "crop_box_left_top_right_bottom_exclusive": [
+    1480,
+    825,
+    3360,
+    1870
+  ],
+  "points": [
+    {
+      "id": "Dubhe",
+      "bayer": "α",
+      "bayer_latin": "alpha",
+      "x": 3196,
+      "y": 1424,
+      "localization_estimate_px": 5
+    },
+    {
+      "id": "Merak",
+      "bayer": "β",
+      "bayer_latin": "beta",
+      "x": 3030,
+      "y": 1737,
+      "localization_estimate_px": 5
+    },
+    {
+      "id": "Phecda",
+      "bayer": "γ",
+      "bayer_latin": "gamma",
+      "x": 2556,
+      "y": 1598,
+      "localization_estimate_px": 5
+    },
+    {
+      "id": "Megrez",
+      "bayer": "δ",
+      "bayer_latin": "delta",
+      "x": 2543,
+      "y": 1283,
+      "localization_estimate_px": 5
+    },
+    {
+      "id": "Alioth",
+      "bayer": "ε",
+      "bayer_latin": "epsilon",
+      "x": 2280,
+      "y": 1102,
+      "localization_estimate_px": 5
+    },
+    {
+      "id": "Mizar",
+      "bayer": "ζ",
+      "bayer_latin": "zeta",
+      "x": 2074,
+      "y": 946,
+      "localization_estimate_px": 5
+    },
+    {
+      "id": "Alkaid",
+      "bayer": "η",
+      "bayer_latin": "eta",
+      "x": 1610,
+      "y": 1096,
+      "localization_estimate_px": 5
+    }
+  ],
+  "uncertainty": "±5 pixels par axe comme marge conservatrice de lecture de la convergence des rayons gravés; ce chiffre est une estimation visuelle, pas un intervalle statistique. L’exactitude géométrique du ciel dessiné et les déformations du papier sont distinctes.",
+  "method": "Lecture visuelle indépendante, grossissement jusqu’aux pixels; centres des rayons gravés. Les sept lettres ont été lues à côté de chaque marque. La table contemporaine intitule leur groupe «Septem Triones». Pour ζ, la grande rosette accompagnée de la lettre est choisie; une seconde étoile plus petite est visible à proximité. Aucun recalage sur le catalogue ni sur aucune autre figure n’a servi à déplacer un point. Les noms modernes traduisent les désignations Bayer, sans interpréter les variantes de noms arabes de sa table.",
+  "sources": {
+    "book": "https://doi.org/10.3931/e-rara-309",
+    "manifest": "https://www.e-rara.ch/i3f/v20/77412/manifest",
+    "plate_viewer": "https://www.e-rara.ch/zut/content/zoom/77430",
+    "plate_image": "https://www.e-rara.ch/i3f/v20/77430/full/full/0/default.jpg",
+    "table_image": "https://www.e-rara.ch/i3f/v20/77429/full/1500,/0/default.jpg",
+    "table_file": "bayer1603_UMA_table1_ETH_77429.jpg",
+    "modern_designations": "https://iauarchive.eso.org/public/themes/naming_stars/"
+  },
+  "license": "Public Domain Mark, selon la notice de l’ETH.",
+  "measured_utc": "2026-11-18T11:29:10.775358+00:00"
+}
