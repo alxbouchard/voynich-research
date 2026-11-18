@@ -1,0 +1,205 @@
+{
+ "cas": [
+  {
+   "objet": "f77r.49",
+   "face": "f77r",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "otchdy",
+    "otchdy",
+    "otchdy",
+    "otchdy"
+   ],
+   "mot": "otchdy",
+   "unite": "o"
+  },
+  {
+   "objet": "f82r.34",
+   "face": "f82r",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "okar",
+    "okar",
+    "okor",
+    "okor"
+   ],
+   "mot": null,
+   "unite": null
+  },
+  {
+   "objet": "f82r.39",
+   "face": "f82r",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "okairady",
+    "okairady",
+    "okaira[d:j]y",
+    "okaira[d:j]y"
+   ],
+   "mot": null,
+   "unite": null
+  },
+  {
+   "objet": "f82r.40",
+   "face": "f82r",
+   "bifeuillet": "77/82",
+   "geste": "N",
+   "quatre_lectures": [
+    "sororl",
+    "sororl",
+    "sororl",
+    "sororl"
+   ],
+   "mot": "sororl",
+   "unite": "s"
+  },
+  {
+   "objet": "f82r.41",
+   "face": "f82r",
+   "bifeuillet": "77/82",
+   "geste": "N",
+   "quatre_lectures": [
+    "olko",
+    "olko",
+    "olk[o:a]ky",
+    "olk[o:a]ky"
+   ],
+   "mot": null,
+   "unite": null
+  },
+  {
+   "objet": "f82v.1",
+   "face": "f82v",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "otechdy",
+    "otechdy",
+    "otechdy",
+    "otechdy"
+   ],
+   "mot": "otechdy",
+   "unite": "o"
+  },
+  {
+   "objet": "f82v.2",
+   "face": "f82v",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "otedy",
+    "otedy",
+    "otedy",
+    "otedy"
+   ],
+   "mot": "otedy",
+   "unite": "o"
+  },
+  {
+   "objet": "f82v.39",
+   "face": "f82v",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "olkeedy",
+    "olkeedy",
+    "olkeedy",
+    "olkeedy"
+   ],
+   "mot": "olkeedy",
+   "unite": "o"
+  },
+  {
+   "objet": "f82v.41",
+   "face": "f82v",
+   "bifeuillet": "77/82",
+   "geste": "N",
+   "quatre_lectures": [
+    "okain",
+    "okain",
+    "okain",
+    "okain"
+   ],
+   "mot": "okain",
+   "unite": "o"
+  },
+  {
+   "objet": "f82v.44",
+   "face": "f82v",
+   "bifeuillet": "77/82",
+   "geste": "C",
+   "quatre_lectures": [
+    "okol",
+    "okol",
+    "okol",
+    "okol"
+   ],
+   "mot": "okol",
+   "unite": "o"
+  }
+ ],
+ "denominateurs": {
+  "C": 5,
+  "N": 2
+ },
+ "regles": {
+  "unite": {
+   "candidat": "o",
+   "table": {
+    "o": {
+     "C": 5,
+     "N": 1,
+     "difference": "1/2"
+    },
+    "s": {
+     "C": 0,
+     "N": 1,
+     "difference": "-1/2"
+    }
+   }
+  },
+  "mot": {
+   "candidat": null,
+   "table": {
+    "okain": {
+     "C": 0,
+     "N": 1,
+     "difference": "-1/2"
+    },
+    "okol": {
+     "C": 1,
+     "N": 0,
+     "difference": "1/5"
+    },
+    "olkeedy": {
+     "C": 1,
+     "N": 0,
+     "difference": "1/5"
+    },
+    "otchdy": {
+     "C": 1,
+     "N": 0,
+     "difference": "1/5"
+    },
+    "otechdy": {
+     "C": 1,
+     "N": 0,
+     "difference": "1/5"
+    },
+    "otedy": {
+     "C": 1,
+     "N": 0,
+     "difference": "1/5"
+    },
+    "sororl": {
+     "C": 0,
+     "N": 1,
+     "difference": "-1/2"
+    }
+   }
+  }
+ }
+}
