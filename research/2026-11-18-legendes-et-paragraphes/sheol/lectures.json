@@ -1,0 +1,42 @@
+{
+  "planche_sha256": "05897358259a01ae686cba53057bf4787d2e03e6f89bf98df3f76d56eae25ecc",
+  "attendu": 4,
+  "lectures_IA_resumées": [
+    {
+      "id": "A",
+      "choix": 2,
+      "confiance": "faible",
+      "critères": "Prolongements ocres recourbés et plage verte large et émoussée. Ni renflement fermé ni jonction tige/feuille assurés. Un motif très pâle superposé est possible.",
+      "autres": "1 partiellement compatible, 4 indécidable, 3 et 5 plus éloignés."
+    },
+    {
+      "id": "B",
+      "choix": 2,
+      "confiance": "faible",
+      "critères": "Coude ocre, prolongement latéral et remontée de traits courbes. Renflement indistinct, tiges plus épaisses, lobes difficiles à suivre.",
+      "autres": "4 reste possible. 1 retombe, 3 présente des renflements multiples, 5 des feuilles découpées."
+    }
+  ],
+  "lecteur_de_la_photo_non_masquee": {
+    "instruction": "Retrouver, sans transcription, la forme du deuxième groupe du premier paragraphe dans les inscriptions supérieures.",
+    "rang": "avant-dernière, quatrième des cinq légendes de plantes",
+    "confiance": "élevée",
+    "texte_xyxy": [
+      867,
+      1140,
+      1008,
+      1216
+    ],
+    "legende_xyxy": [
+      2573,
+      880,
+      2743,
+      983
+    ],
+    "observation": "Le lecteur dénombre en plus une inscription à gauche, placée plus haut près du vase."
+  },
+  "photographies": {
+    "recto": "https://collections.library.yale.edu/iiif/2/1006233/full/full/0/default.jpg",
+    "verso": "https://collections.library.yale.edu/iiif/2/1006234/full/full/0/default.jpg"
+  }
+}

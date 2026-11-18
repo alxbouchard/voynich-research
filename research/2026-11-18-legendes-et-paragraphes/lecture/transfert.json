@@ -1,0 +1,1183 @@
+{
+ "protocole_sha256": "105007ec73b90b7cf5d7855c26181dc4a60c5e60543cea227afe2ead0b2992ff",
+ "controle": {
+  "mots": [
+   "aristologie",
+   "longue",
+   "est",
+   "ainsi",
+   "appellee",
+   "pour"
+  ],
+  "chiffre": [
+   [
+    "g0",
+    "g8",
+    "g3",
+    "g9",
+    "g10",
+    "g6",
+    "g4",
+    "g6",
+    "g2",
+    "g3",
+    "g1"
+   ],
+   [
+    "g4",
+    "g6",
+    "g5",
+    "g2",
+    "g11",
+    "g1"
+   ],
+   [
+    "g1",
+    "g9",
+    "g10"
+   ],
+   [
+    "g0",
+    "g3",
+    "g5",
+    "g9",
+    "g3"
+   ],
+   [
+    "g0",
+    "g7",
+    "g7",
+    "g1",
+    "g4",
+    "g4",
+    "g1",
+    "g1"
+   ],
+   [
+    "g7",
+    "g6",
+    "g11",
+    "g8"
+   ]
+  ],
+  "sorties": [
+   "a[g7][g7]ellee",
+   "[g7]our"
+  ],
+  "nouvelles_lettres": [
+   "p"
+  ],
+  "extension_unique": {
+   "g0": "a",
+   "g8": "r",
+   "g3": "i",
+   "g9": "s",
+   "g10": "t",
+   "g6": "o",
+   "g4": "l",
+   "g2": "g",
+   "g1": "e",
+   "g5": "n",
+   "g11": "u",
+   "g7": "p"
+  }
+ },
+ "cibles": [
+  "appellee",
+  "pour"
+ ],
+ "bilan_par_edition": {
+  "IT2a-n": {
+   "tables_distinctes": 183,
+   "configurations_avec_table": 189,
+   "sorties_distinctes_cinquieme_mot": 3,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aristologieest": 42,
+    "aristologiest": 105,
+    "estaristologie": 42
+   }
+  },
+  "ZL3b-n": {
+   "tables_distinctes": 183,
+   "configurations_avec_table": 189,
+   "sorties_distinctes_cinquieme_mot": 3,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aristologieest": 42,
+    "aristologiest": 105,
+    "estaristologie": 42
+   }
+  },
+  "H": {
+   "tables_distinctes": 183,
+   "configurations_avec_table": 189,
+   "sorties_distinctes_cinquieme_mot": 3,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aristologieest": 42,
+    "aristologiest": 105,
+    "estaristologie": 42
+   }
+  },
+  "F": {
+   "tables_distinctes": 1206,
+   "configurations_avec_table": 1218,
+   "sorties_distinctes_cinquieme_mot": 3,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aristologieest": 294,
+    "aristologiest": 630,
+    "estaristologie": 294
+   }
+  },
+  "L": {
+   "tables_distinctes": 10056,
+   "configurations_avec_table": 10080,
+   "sorties_distinctes_cinquieme_mot": 23,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aest": 567,
+    "arest": 567,
+    "ariest": 567,
+    "arisest": 567,
+    "aristest": 567,
+    "aristoest": 567,
+    "aristolest": 567,
+    "aristoloest": 567,
+    "aristologest": 567,
+    "aristologieest": 315,
+    "aristologiest": 567,
+    "est": 861,
+    "estaristologie": 294,
+    "este": 294,
+    "estgie": 294,
+    "estie": 294,
+    "estistologie": 294,
+    "estlogie": 294,
+    "estogie": 294,
+    "estologie": 294,
+    "estristologie": 294,
+    "eststologie": 294,
+    "esttologie": 294
+   }
+  },
+  "U": {
+   "tables_distinctes": 301,
+   "configurations_avec_table": 308,
+   "sorties_distinctes_cinquieme_mot": 3,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aristologieest": 77,
+    "aristologiest": 154,
+    "estaristologie": 77
+   }
+  },
+  "L+8H": {
+   "tables_distinctes": 10056,
+   "configurations_avec_table": 10080,
+   "sorties_distinctes_cinquieme_mot": 23,
+   "lectures_du_cinquieme_et_effectifs": {
+    "aest": 567,
+    "arest": 567,
+    "ariest": 567,
+    "arisest": 567,
+    "aristest": 567,
+    "aristoest": 567,
+    "aristolest": 567,
+    "aristoloest": 567,
+    "aristologest": 567,
+    "aristologieest": 315,
+    "aristologiest": 567,
+    "est": 861,
+    "estaristologie": 294,
+    "este": 294,
+    "estgie": 294,
+    "estie": 294,
+    "estistologie": 294,
+    "estlogie": 294,
+    "estogie": 294,
+    "estologie": 294,
+    "estristologie": 294,
+    "eststologie": 294,
+    "esttologie": 294
+   }
+  }
+ },
+ "essais": [
+  {
+   "edition": "IT2a-n",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologie[s]"
+    ]
+   }
+  },
+  {
+   "edition": "IT2a-n",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 63,
+   "premier_lisible": 63,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "ch": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "[s]aristologi"
+    ]
+   }
+  },
+  {
+   "edition": "IT2a-n",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 21,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "c": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologieest"
+    ]
+   }
+  },
+  {
+   "edition": "IT2a-n",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 84,
+   "premier_lisible": 84,
+   "second_lisible": 84,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "c": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "estaristologi"
+    ]
+   }
+  },
+  {
+   "edition": "ZL3b-n",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologie[s]"
+    ]
+   }
+  },
+  {
+   "edition": "ZL3b-n",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 63,
+   "premier_lisible": 63,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "ch": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "[s]aristologi"
+    ]
+   }
+  },
+  {
+   "edition": "ZL3b-n",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 21,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "c": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologieest"
+    ]
+   }
+  },
+  {
+   "edition": "ZL3b-n",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 84,
+   "premier_lisible": 84,
+   "second_lisible": 84,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "c": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "estaristologi"
+    ]
+   }
+  },
+  {
+   "edition": "H",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologie[s]"
+    ]
+   }
+  },
+  {
+   "edition": "H",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 63,
+   "premier_lisible": 63,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "ch": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "[s]aristologi"
+    ]
+   }
+  },
+  {
+   "edition": "H",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 21,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "c": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologieest"
+    ]
+   }
+  },
+  {
+   "edition": "H",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 84,
+   "premier_lisible": 84,
+   "second_lisible": 84,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "c": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "estaristologi"
+    ]
+   }
+  },
+  {
+   "edition": "F",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 147,
+   "premier_lisible": 147,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "a": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologie[s]"
+    ]
+   }
+  },
+  {
+   "edition": "F",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 399,
+   "premier_lisible": 399,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "",
+     "a": "longu",
+     "ch": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "[s]aristologi"
+    ]
+   }
+  },
+  {
+   "edition": "F",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 147,
+   "premier_lisible": 147,
+   "second_lisible": 147,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "c": "",
+     "a": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "aristologieest"
+    ]
+   }
+  },
+  {
+   "edition": "F",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 525,
+   "premier_lisible": 525,
+   "second_lisible": 525,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "",
+     "a": "longu",
+     "c": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "estaristologi"
+    ]
+   }
+  },
+  {
+   "edition": "L",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 1764,
+   "premier_lisible": 1764,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 72,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "r": "longue",
+     "i": "",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "[d][s]"
+    ]
+   }
+  },
+  {
+   "edition": "L",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 3150,
+   "premier_lisible": 3150,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 204,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "",
+     "ch": "longu",
+     "p": "e",
+     "l": "",
+     "i": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "est",
+     "[s]longu[d]"
+    ]
+   }
+  },
+  {
+   "edition": "L",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 1764,
+   "premier_lisible": 1764,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "c": "",
+     "r": "longue",
+     "i": "",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "[d]est"
+    ]
+   }
+  },
+  {
+   "edition": "L",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 3402,
+   "premier_lisible": 3402,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "",
+     "c": "longu",
+     "p": "e",
+     "l": "",
+     "i": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "est",
+     "estlongu[d]"
+    ]
+   }
+  },
+  {
+   "edition": "U",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 56,
+   "premier_lisible": 56,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "c": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "[t]aristologie[s]"
+    ]
+   }
+  },
+  {
+   "edition": "U",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 168,
+   "premier_lisible": 168,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "c": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "ch": "",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "[s]aristologi[t]"
+    ]
+   }
+  },
+  {
+   "edition": "U",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 21,
+   "premier_lisible": 21,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "c": "",
+     "f": "ainsi",
+     "p": "",
+     "r": "longue",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "[t]aristologieest"
+    ]
+   }
+  },
+  {
+   "edition": "U",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 63,
+   "premier_lisible": 63,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "c": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "longu",
+     "p": "e",
+     "l": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "aristologiest",
+     "estaristologi[t]"
+    ]
+   }
+  },
+  {
+   "edition": "L+8H",
+   "composes": true,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 1764,
+   "premier_lisible": 1764,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 72,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "sh": "est",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "ch": "",
+     "r": "longue",
+     "i": "",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "[d][s]"
+    ]
+   }
+  },
+  {
+   "edition": "L+8H",
+   "composes": true,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 3150,
+   "premier_lisible": 3150,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 204,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "sh": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "",
+     "ch": "longu",
+     "p": "e",
+     "l": "",
+     "i": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "est",
+     "[s]longu[d]"
+    ]
+   }
+  },
+  {
+   "edition": "L+8H",
+   "composes": false,
+   "signes_inverses": false,
+   "ordre_inverse": true,
+   "n_tables": 1764,
+   "premier_lisible": 1764,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "s": "est",
+     "h": "",
+     "e": "",
+     "y": "",
+     "q": "",
+     "o": "",
+     "k": "",
+     "f": "ainsi",
+     "p": "",
+     "c": "",
+     "r": "longue",
+     "i": "",
+     "l": "aristologie"
+    },
+    "lectures_des_deux_mots": [
+     "estaristologie",
+     "[d]est"
+    ]
+   }
+  },
+  {
+   "edition": "L+8H",
+   "composes": false,
+   "signes_inverses": true,
+   "ordre_inverse": true,
+   "n_tables": 3402,
+   "premier_lisible": 3402,
+   "second_lisible": 0,
+   "premier_exact": 0,
+   "second_exact": 0,
+   "paire_exacte": 0,
+   "premier_prolongeable": 0,
+   "second_prolongeable": 0,
+   "deux_prolongeables": 0,
+   "exemple": {
+    "table": {
+     "y": "",
+     "e": "",
+     "h": "",
+     "s": "est",
+     "f": "",
+     "o": "",
+     "k": "",
+     "q": "ainsi",
+     "r": "",
+     "c": "longu",
+     "p": "e",
+     "l": "",
+     "i": "aristologi"
+    },
+    "lectures_des_deux_mots": [
+     "est",
+     "estlongu[d]"
+    ]
+   }
+  }
+ ]
+}

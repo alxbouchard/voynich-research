@@ -1,0 +1,9788 @@
+{
+ "tous": {
+  "resume": {
+   "faces": 60,
+   "seules": 21,
+   "premieres_ex_aequo_positives": 19,
+   "requete_vide": 3,
+   "aucun_mot_commun_sur_place": 13,
+   "proportion_moyenne_battue": 0.8064814814814815,
+   "deux_termes_ou_plus": 54,
+   "seules_parmi_deux_termes_ou_plus": 21,
+   "blocs": {
+    "observé": 871,
+    "attributions": 2283380023591730815784976384000000000000,
+    "au_moins_observe": 475240332615296,
+    "fraction_au_moins_observe": "3712815098557/17838906434310396998320128000000000000",
+    "proportion_au_moins_observe": 2.081301963340068e-25,
+    "score_moyen": 540.0
+   },
+   "recto_verso": {
+    "observé": 871,
+    "attributions": 1073741824,
+    "au_moins_observe": 128,
+    "fraction_au_moins_observe": "1/8388608",
+    "proportion_au_moins_observe": 1.1920928955078125e-07,
+    "score_moyen": 758.0
+   }
+  },
+  "faces": {
+   "160r": {
+    "requete": [
+     "albi",
+     "caules"
+    ],
+    "titres": [
+     1,
+     2,
+     3
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "caules"
+     ],
+     "160v": [
+      "caules"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "caules"
+    ]
+   },
+   "160v": {
+    "requete": [
+     "aliis",
+     "caules",
+     "gallicos",
+     "oleribus",
+     "secundum"
+    ],
+    "titres": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "caules",
+      "secundum"
+     ],
+     "160v": [
+      "aliis",
+      "caules"
+     ],
+     "161r": [
+      "aliis",
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [
+      "secundum"
+     ],
+     "163r": [],
+     "163v": [
+      "aliis"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "aliis",
+     "caules"
+    ]
+   },
+   "161r": {
+    "requete": [
+     "diebus",
+     "ieiunii",
+     "minutis",
+     "oleribus"
+    ],
+    "titres": [
+     10,
+     11,
+     12
+    ],
+    "longueur": 153,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "diebus",
+      "ieiunii",
+      "minutis",
+      "oleribus"
+     ],
+     "161v": [
+      "diebus",
+      "ieiunii",
+      "oleribus"
+     ],
+     "162r": [
+      "diebus"
+     ],
+     "162v": [],
+     "163r": [
+      "diebus",
+      "ieiunii"
+     ],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "diebus",
+     "ieiunii",
+     "minutis",
+     "oleribus"
+    ]
+   },
+   "161v": {
+    "requete": [
+     "foliis",
+     "minutis",
+     "oleribus",
+     "spinargiis"
+    ],
+    "titres": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "longueur": 135,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "minutis",
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "oleribus"
+    ]
+   },
+   "162r": {
+    "requete": [
+     "feniculo",
+     "foliis",
+     "minutis"
+    ],
+    "titres": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [
+      "feniculo"
+     ],
+     "161r": [
+      "minutis"
+     ],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "feniculo"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 6,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "162v": {
+    "requete": [
+     "campanie",
+     "feniculo",
+     "usum"
+    ],
+    "titres": [
+     22,
+     23,
+     24
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "usum"
+     ],
+     "160v": [
+      "feniculo",
+      "usum"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "campanie",
+      "feniculo",
+      "usum"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "campanie",
+     "feniculo",
+     "usum"
+    ]
+   },
+   "163r": {
+    "requete": [
+     "cicera",
+     "ciceribus",
+     "leguminibus",
+     "primo"
+    ],
+    "titres": [
+     25,
+     26,
+     27,
+     28
+    ],
+    "longueur": 165,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [
+      "cicera"
+     ],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "163v": {
+    "requete": [
+     "cicera",
+     "docet",
+     "pisis",
+     "preparandis"
+    ],
+    "titres": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "longueur": 151,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [
+      "cicera"
+     ],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "164r": {
+    "requete": [
+     "fabis",
+     "floribus",
+     "novellis",
+     "pisis",
+     "primo"
+    ],
+    "titres": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "164v": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     38,
+     39,
+     40,
+     41
+    ],
+    "longueur": 149,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "165r": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     42,
+     43
+    ],
+    "longueur": 153,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "fabis"
+     ],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "fabis"
+    ]
+   },
+   "165v": {
+    "requete": [
+     "cibum",
+     "composito",
+     "fasseolis",
+     "fungo",
+     "lampardico",
+     "montano"
+    ],
+    "titres": [
+     44,
+     45,
+     46,
+     47,
+     48
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166r": {
+    "requete": [
+     "composito"
+    ],
+    "titres": [
+     49
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166v": {
+    "requete": [
+     "aliter",
+     "animalibus",
+     "appetitu",
+     "brodio",
+     "brodium",
+     "cum",
+     "granato",
+     "primo",
+     "pro",
+     "pullis"
+    ],
+    "titres": [
+     50,
+     51
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "aliter",
+      "cum"
+     ],
+     "166v": [
+      "appetitu",
+      "brodio",
+      "brodium",
+      "cum",
+      "pro"
+     ],
+     "167r": [
+      "brodio",
+      "brodium",
+      "cum"
+     ],
+     "167v": [
+      "aliter",
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum",
+      "pro"
+     ],
+     "169r": [
+      "brodio",
+      "cum",
+      "pro"
+     ],
+     "169v": [
+      "brodio",
+      "brodium",
+      "cum",
+      "pullis"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "appetitu",
+     "brodio",
+     "brodium",
+     "cum",
+     "pro"
+    ]
+   },
+   "167r": {
+    "requete": [
+     "brodio",
+     "cum",
+     "martino",
+     "pullis",
+     "theutonico"
+    ],
+    "titres": [
+     52,
+     53
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "cum",
+      "pullis"
+     ]
+    },
+    "points_doubles": 12,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "167v": {
+    "requete": [
+     "galatina",
+     "piscium",
+     "scubetia"
+    ],
+    "titres": [
+     54,
+     55
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [
+      "piscium"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "piscium"
+    ]
+   },
+   "168r": {
+    "requete": [
+     "ansere",
+     "pavone",
+     "vel"
+    ],
+    "titres": [
+     56
+    ],
+    "longueur": 142,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "vel"
+     ],
+     "165v": [
+      "vel"
+     ],
+     "166r": [
+      "vel"
+     ],
+     "166v": [],
+     "167r": [
+      "vel"
+     ],
+     "167v": [],
+     "168r": [
+      "vel"
+     ],
+     "168v": [
+      "vel"
+     ],
+     "169r": [
+      "vel"
+     ],
+     "169v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 11,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "168v": {
+    "requete": [
+     "aliis",
+     "brodium",
+     "caponibus",
+     "carnibus",
+     "fieri",
+     "gallina",
+     "gallinis",
+     "grua",
+     "potest",
+     "similiter"
+    ],
+    "titres": [
+     57,
+     58,
+     59,
+     60
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "aliis",
+      "carnibus"
+     ],
+     "166r": [
+      "fieri",
+      "potest",
+      "similiter"
+     ],
+     "166v": [
+      "brodium",
+      "carnibus"
+     ],
+     "167r": [
+      "aliis",
+      "brodium",
+      "carnibus"
+     ],
+     "167v": [
+      "aliis"
+     ],
+     "168r": [],
+     "168v": [
+      "caponibus",
+      "gallinis"
+     ],
+     "169r": [
+      "gallina"
+     ],
+     "169v": [
+      "brodium"
+     ]
+    },
+    "points_doubles": 12,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "caponibus",
+     "gallinis"
+    ]
+   },
+   "169r": {
+    "requete": [
+     "aliis",
+     "brodio",
+     "cum",
+     "gallinis",
+     "granato",
+     "sarracenico"
+    ],
+    "titres": [
+     61,
+     62,
+     63
+    ],
+    "longueur": 138,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum",
+      "gallinis"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "cum"
+     ]
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "169v": {
+    "requete": [
+     "brodio",
+     "brodium",
+     "granato",
+     "ispanicum",
+     "sumac",
+     "sumachia"
+    ],
+    "titres": [
+     64,
+     65,
+     66,
+     67,
+     68
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "brodio"
+     ],
+     "166r": [],
+     "166v": [
+      "brodio",
+      "brodium"
+     ],
+     "167r": [
+      "brodio",
+      "brodium"
+     ],
+     "167v": [
+      "brodio"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [
+      "brodio"
+     ],
+     "169v": [
+      "brodio",
+      "brodium",
+      "sumac"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "brodium",
+     "sumac"
+    ]
+   },
+   "170r": {
+    "requete": [
+     "cum",
+     "gratonia",
+     "limonia",
+     "pullis"
+    ],
+    "titres": [
+     69,
+     70
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "cum",
+      "pullis"
+     ],
+     "170v": [
+      "cum",
+      "pullis"
+     ],
+     "171r": [
+      "cum"
+     ],
+     "171v": [
+      "cum",
+      "pullis"
+     ],
+     "172r": [
+      "cum",
+      "pullis"
+     ],
+     "172v": [
+      "cum"
+     ],
+     "173r": [
+      "cum"
+     ],
+     "173v": [
+      "cum"
+     ],
+     "174r": [
+      "cum",
+      "pullis"
+     ],
+     "174v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "pullis"
+    ]
+   },
+   "170v": {
+    "requete": [
+     "alleata",
+     "blancha",
+     "festigia",
+     "romania"
+    ],
+    "titres": [
+     71,
+     72,
+     73
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [
+      "alleata"
+     ],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "alleata"
+    ]
+   },
+   "171r": {
+    "requete": [
+     "albo",
+     "cibo",
+     "preparando",
+     "prius",
+     "riso"
+    ],
+    "titres": [
+     74,
+     75
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [
+      "riso"
+     ],
+     "171v": [
+      "prius"
+     ],
+     "172r": [],
+     "172v": [
+      "prius"
+     ],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "riso"
+    ]
+   },
+   "171v": {
+    "requete": [
+     "gallina",
+     "implenda",
+     "pullis"
+    ],
+    "titres": [
+     76,
+     77,
+     78
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "pullis"
+     ],
+     "170v": [
+      "pullis"
+     ],
+     "171r": [],
+     "171v": [
+      "pullis"
+     ],
+     "172r": [
+      "gallina",
+      "pullis"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [
+      "pullis"
+     ],
+     "174v": []
+    },
+    "points_doubles": 13,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pullis"
+    ]
+   },
+   "172r": {
+    "requete": [
+     "gallina",
+     "implenda",
+     "parmesana",
+     "torta"
+    ],
+    "titres": [
+     79,
+     80
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [
+      "gallina"
+     ],
+     "172v": [],
+     "173r": [
+      "torta"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "172v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 163,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "173r": {
+    "requete": [
+     "aliter",
+     "facta",
+     "torta"
+    ],
+    "titres": [
+     81
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [
+      "aliter"
+     ],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [
+      "torta"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "torta"
+    ]
+   },
+   "173v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 164,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "174r": {
+    "requete": [
+     "avibus",
+     "copo",
+     "faxsanis",
+     "pastillo",
+     "pullorum",
+     "silvestribus",
+     "vel"
+    ],
+    "titres": [
+     82,
+     83,
+     84
+    ],
+    "longueur": 146,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "vel"
+     ],
+     "170v": [],
+     "171r": [
+      "vel"
+     ],
+     "171v": [
+      "vel"
+     ],
+     "172r": [
+      "vel"
+     ],
+     "172v": [],
+     "173r": [
+      "pullorum"
+     ],
+     "173v": [
+      "vel"
+     ],
+     "174r": [
+      "vel"
+     ],
+     "174v": [
+      "avibus",
+      "pastillo",
+      "vel"
+     ]
+    },
+    "points_doubles": 10,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "174v": {
+    "requete": [
+     "auro",
+     "avibus",
+     "cibo",
+     "faxsanis",
+     "pastillum",
+     "posito",
+     "silvestribus",
+     "vel",
+     "vivis"
+    ],
+    "titres": [
+     85,
+     86,
+     87
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "vel"
+     ],
+     "170v": [],
+     "171r": [
+      "vel"
+     ],
+     "171v": [
+      "vel"
+     ],
+     "172r": [
+      "vel"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [
+      "vel"
+     ],
+     "174r": [
+      "vel"
+     ],
+     "174v": [
+      "avibus",
+      "pastillum",
+      "vel",
+      "vivis"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "avibus",
+     "pastillum",
+     "vel",
+     "vivis"
+    ]
+   },
+   "175r": {
+    "requete": [
+     "avium",
+     "columbis",
+     "grua",
+     "pro",
+     "pullis",
+     "salsa",
+     "salsis",
+     "sapor"
+    ],
+    "titres": [
+     88,
+     89,
+     90,
+     91
+    ],
+    "longueur": 148,
+    "plafond": null,
+    "intersections": {
+     "175r": [
+      "columbis",
+      "grua",
+      "pro",
+      "pullis",
+      "salsa",
+      "sapor"
+     ],
+     "175v": [
+      "grua",
+      "pro",
+      "salsa",
+      "sapor"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [
+      "avium"
+     ],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "columbis",
+     "grua",
+     "pro",
+     "pullis",
+     "salsa",
+     "sapor"
+    ]
+   },
+   "175v": {
+    "requete": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "malardo",
+     "mustarda",
+     "musto",
+     "omnibus",
+     "pavone",
+     "pro",
+     "riparia",
+     "salsa"
+    ],
+    "titres": [
+     92,
+     93,
+     94
+    ],
+    "longueur": 148,
+    "plafond": null,
+    "intersections": {
+     "175r": [
+      "avibus",
+      "pro",
+      "salsa"
+     ],
+     "175v": [
+      "anate",
+      "ansere",
+      "avibus",
+      "cigno",
+      "mustarda",
+      "musto",
+      "omnibus",
+      "pavone",
+      "pro",
+      "salsa"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "omnibus"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "mustarda",
+     "musto",
+     "omnibus",
+     "pavone",
+     "pro",
+     "salsa"
+    ]
+   },
+   "176r": {
+    "requete": [
+     "gallina",
+     "implenda"
+    ],
+    "titres": [
+     95
+    ],
+    "longueur": 142,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "gallina"
+     ],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "176v": {
+    "requete": [
+     "carnibus",
+     "cume",
+     "edulo",
+     "gianieto",
+     "grossis"
+    ],
+    "titres": [
+     96,
+     97
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "carnibus"
+     ],
+     "176v": [],
+     "177r": [
+      "carnibus"
+     ],
+     "177v": [
+      "carnibus"
+     ],
+     "178r": [
+      "carnibus"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "carnibus"
+     ]
+    },
+    "points_doubles": 4,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177r": {
+    "requete": [
+     "castratina",
+     "implenda",
+     "spatula"
+    ],
+    "titres": [
+     98
+    ],
+    "longueur": 137,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177v": {
+    "requete": [
+     "farsandis",
+     "farsando",
+     "indulgiis",
+     "intestinis",
+     "langorista",
+     "porci",
+     "ventre"
+    ],
+    "titres": [
+     99,
+     100,
+     101,
+     102
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [
+      "langorista",
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "langorista",
+     "porci"
+    ]
+   },
+   "178r": {
+    "requete": [
+     "aresmessia",
+     "landoliis",
+     "mamonia",
+     "porci",
+     "torta",
+     "ventresca"
+    ],
+    "titres": [
+     103,
+     104,
+     105,
+     106
+    ],
+    "longueur": 135,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [
+      "ventresca"
+     ],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "porci"
+    ]
+   },
+   "178v": {
+    "requete": [
+     "foliata",
+     "galdaffra",
+     "implendo",
+     "porci",
+     "tortam",
+     "ventre"
+    ],
+    "titres": [
+     107,
+     108,
+     109,
+     110
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [
+      "galdaffra",
+      "tortam"
+     ],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "galdaffra",
+     "tortam"
+    ]
+   },
+   "179r": {
+    "requete": [
+     "animalibus",
+     "conatis",
+     "galdaffra",
+     "silvestris"
+    ],
+    "titres": [
+     111,
+     112,
+     113
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [
+      "galdaffra"
+     ],
+     "179r": [
+      "animalibus",
+      "silvestris"
+     ],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "animalibus",
+     "silvestris"
+    ]
+   },
+   "179v": {
+    "requete": [
+     "mortarolio",
+     "mortarolium"
+    ],
+    "titres": [
+     114,
+     115
+    ],
+    "longueur": 140,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180r": {
+    "requete": [
+     "raviolis"
+    ],
+    "titres": [
+     116
+    ],
+    "longueur": 136,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180v": {
+    "requete": [
+     "assatis",
+     "ianuensi",
+     "lasanis",
+     "pro",
+     "salsa",
+     "torta",
+     "tria"
+    ],
+    "titres": [
+     117,
+     118,
+     119
+    ],
+    "longueur": 127,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "pro"
+     ],
+     "181v": [
+      "pro",
+      "salsa",
+      "torta"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [
+      "tria"
+     ],
+     "183r": [
+      "pro"
+     ],
+     "183v": [],
+     "184r": [
+      "pro"
+     ],
+     "184v": [
+      "assatis",
+      "pro",
+      "salsa"
+     ]
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pro"
+    ]
+   },
+   "181r": {
+    "requete": [
+     "alba",
+     "alleata",
+     "carnibus",
+     "piperata",
+     "salsa"
+    ],
+    "titres": [
+     120,
+     121,
+     122
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "carnibus"
+     ],
+     "181v": [
+      "salsa"
+     ],
+     "182r": [],
+     "182v": [
+      "alba"
+     ],
+     "183r": [
+      "carnibus"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus"
+    ]
+   },
+   "181v": {
+    "requete": [
+     "camelina",
+     "gratonea",
+     "montano",
+     "salsa",
+     "torta",
+     "viridis"
+    ],
+    "titres": [
+     123,
+     124,
+     125,
+     126
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [
+      "camelina",
+      "gratonea",
+      "montano",
+      "salsa",
+      "torta"
+     ],
+     "182r": [
+      "gratonea"
+     ],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "camelina",
+     "gratonea",
+     "montano",
+     "salsa",
+     "torta"
+    ]
+   },
+   "182r": {
+    "requete": [
+     "alius",
+     "crispellis",
+     "fristellis",
+     "gratonea",
+     "vel"
+    ],
+    "titres": [
+     127,
+     128,
+     129,
+     130
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "180r": [
+      "vel"
+     ],
+     "180v": [
+      "vel"
+     ],
+     "181r": [
+      "vel"
+     ],
+     "181v": [
+      "gratonea",
+      "vel"
+     ],
+     "182r": [
+      "fristellis",
+      "gratonea",
+      "vel"
+     ],
+     "182v": [
+      "vel"
+     ],
+     "183r": [
+      "vel"
+     ],
+     "183v": [],
+     "184r": [
+      "vel"
+     ],
+     "184v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "fristellis",
+     "gratonea",
+     "vel"
+    ]
+   },
+   "182v": {
+    "requete": [
+     "apula",
+     "copo",
+     "crispellis",
+     "cum",
+     "guanto",
+     "lacte",
+     "simula"
+    ],
+    "titres": [
+     131,
+     132,
+     133,
+     134
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "180r": [
+      "cum"
+     ],
+     "180v": [
+      "cum"
+     ],
+     "181r": [
+      "cum"
+     ],
+     "181v": [
+      "cum"
+     ],
+     "182r": [
+      "cum"
+     ],
+     "182v": [
+      "cum",
+      "lacte"
+     ],
+     "183r": [
+      "copo",
+      "cum"
+     ],
+     "183v": [
+      "cum"
+     ],
+     "184r": [
+      "cum"
+     ],
+     "184v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "lacte"
+    ]
+   },
+   "183r": {
+    "requete": [
+     "brustinga",
+     "carnibus",
+     "galatina",
+     "pantossa",
+     "pro"
+    ],
+    "titres": [
+     135,
+     136,
+     137
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "carnibus",
+      "pro"
+     ],
+     "181v": [
+      "pro"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [],
+     "183r": [
+      "carnibus",
+      "pro"
+     ],
+     "183v": [],
+     "184r": [
+      "pro"
+     ],
+     "184v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus",
+     "pro"
+    ]
+   },
+   "183v": {
+    "requete": [
+     "implendis",
+     "integris",
+     "ovis"
+    ],
+    "titres": [
+     138,
+     139
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "ovis"
+     ],
+     "181v": [
+      "ovis"
+     ],
+     "182r": [
+      "ovis"
+     ],
+     "182v": [],
+     "183r": [
+      "ovis"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 5,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "184r": {
+    "requete": [
+     "brodio",
+     "pro",
+     "pulpis",
+     "sipiis",
+     "sive",
+     "trillis"
+    ],
+    "titres": [
+     152,
+     153
+    ],
+    "longueur": 128,
+    "plafond": null,
+    "intersections": {
+     "180r": [
+      "brodio"
+     ],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "brodio",
+      "pro"
+     ],
+     "181v": [
+      "pro"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [
+      "sive"
+     ],
+     "183r": [
+      "pro"
+     ],
+     "183v": [
+      "brodio"
+     ],
+     "184r": [
+      "pro",
+      "pulpis",
+      "sipiis",
+      "sive"
+     ],
+     "184v": [
+      "pro",
+      "sipiis",
+      "sive",
+      "trillis"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "pro",
+     "pulpis",
+     "sipiis",
+     "sive"
+    ]
+   },
+   "184v": {
+    "requete": [
+     "gamaris",
+     "grillis",
+     "pro",
+     "sapore",
+     "sipiis",
+     "testitudine"
+    ],
+    "titres": [
+     154,
+     155,
+     156,
+     157,
+     158
+    ],
+    "longueur": 118,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "pro"
+     ],
+     "181v": [
+      "pro"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [],
+     "183r": [
+      "pro"
+     ],
+     "183v": [
+      "sapore"
+     ],
+     "184r": [
+      "pro",
+      "sipiis"
+     ],
+     "184v": [
+      "pro",
+      "sapore",
+      "sipiis"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pro",
+     "sapore",
+     "sipiis"
+    ]
+   },
+   "185r": {
+    "requete": [
+     "gamaris",
+     "interioribus",
+     "langustis",
+     "piscium",
+     "salciciis"
+    ],
+    "titres": [
+     159,
+     160,
+     161,
+     162
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "gamaris",
+      "langustis",
+      "piscium"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [
+      "piscium"
+     ],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gamaris",
+     "langustis",
+     "piscium"
+    ]
+   },
+   "185v": {
+    "requete": [
+     "batutis",
+     "piscibus",
+     "pro",
+     "sapore"
+    ],
+    "titres": [
+     163,
+     164,
+     165
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [
+      "batutis",
+      "pro"
+     ],
+     "186r": [
+      "batutis"
+     ],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [
+      "piscibus",
+      "pro"
+     ],
+     "189r": [
+      "pro"
+     ],
+     "189v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "batutis",
+     "pro"
+    ]
+   },
+   "186r": {
+    "requete": [
+     "capite",
+     "monachi"
+    ],
+    "titres": [
+     166
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [
+      "monachi"
+     ],
+     "186v": [],
+     "187r": [],
+     "187v": [
+      "capite"
+     ],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "monachi"
+    ]
+   },
+   "186v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 137,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "187r": {
+    "requete": [
+     "cum",
+     "lampreda",
+     "lamprede",
+     "ovis",
+     "pastillis",
+     "perditis",
+     "piperata",
+     "piscibus",
+     "primo"
+    ],
+    "titres": [
+     140,
+     141,
+     142,
+     143
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "cum",
+      "piscibus"
+     ],
+     "185v": [
+      "cum"
+     ],
+     "186r": [
+      "cum"
+     ],
+     "186v": [
+      "cum",
+      "primo"
+     ],
+     "187r": [
+      "cum",
+      "lampreda",
+      "piperata"
+     ],
+     "187v": [
+      "cum",
+      "lampreda",
+      "piperata"
+     ],
+     "188r": [
+      "cum"
+     ],
+     "188v": [
+      "cum",
+      "piscibus"
+     ],
+     "189r": [
+      "cum"
+     ],
+     "189v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "lampreda",
+     "piperata"
+    ]
+   },
+   "187v": {
+    "requete": [
+     "aurata",
+     "pastillis",
+     "troctis"
+    ],
+    "titres": [
+     144,
+     145
+    ],
+    "longueur": 146,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [
+      "troctis"
+     ],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "troctis"
+    ]
+   },
+   "188r": {
+    "requete": [
+     "alleciis",
+     "implendis",
+     "pastillo",
+     "sardellis",
+     "sardis",
+     "vel"
+    ],
+    "titres": [
+     146,
+     147
+    ],
+    "longueur": 125,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "vel"
+     ],
+     "185v": [
+      "vel"
+     ],
+     "186r": [
+      "vel"
+     ],
+     "186v": [
+      "vel"
+     ],
+     "187r": [
+      "vel"
+     ],
+     "187v": [
+      "vel"
+     ],
+     "188r": [
+      "alleciis",
+      "pastillo",
+      "sardis",
+      "vel"
+     ],
+     "188v": [
+      "alleciis",
+      "sardis",
+      "vel"
+     ],
+     "189r": [
+      "vel"
+     ],
+     "189v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "alleciis",
+     "pastillo",
+     "sardis",
+     "vel"
+    ]
+   },
+   "188v": {
+    "requete": [
+     "assatis",
+     "brodio",
+     "frissis",
+     "piscibus",
+     "pro",
+     "pulpis",
+     "sardis"
+    ],
+    "titres": [
+     148,
+     149,
+     150,
+     151
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [
+      "brodio",
+      "pro"
+     ],
+     "186r": [],
+     "186v": [],
+     "187r": [
+      "brodio"
+     ],
+     "187v": [],
+     "188r": [
+      "sardis"
+     ],
+     "188v": [
+      "piscibus",
+      "pro",
+      "pulpis",
+      "sardis"
+     ],
+     "189r": [
+      "pro"
+     ],
+     "189v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "piscibus",
+     "pro",
+     "pulpis",
+     "sardis"
+    ]
+   },
+   "189r": {
+    "requete": [
+     "mustarda"
+    ],
+    "titres": [
+     167
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [
+      "mustarda"
+     ],
+     "189v": [
+      "mustarda"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "mustarda"
+    ]
+   },
+   "189v": {
+    "requete": [
+     "musto",
+     "servando"
+    ],
+    "titres": [
+     168
+    ],
+    "longueur": 104,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [
+      "musto"
+     ],
+     "189v": [
+      "musto"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "musto"
+    ]
+   }
+  }
+ },
+ "ingredients": {
+  "resume": {
+   "faces": 60,
+   "seules": 15,
+   "premieres_ex_aequo_positives": 17,
+   "requete_vide": 13,
+   "aucun_mot_commun_sur_place": 27,
+   "proportion_moyenne_battue": 0.725925925925926,
+   "deux_termes_ou_plus": 27,
+   "seules_parmi_deux_termes_ou_plus": 8,
+   "blocs": {
+    "observé": 784,
+    "attributions": 2283380023591730815784976384000000000000,
+    "au_moins_observe": 5365802784057175572480,
+    "fraction_au_moins_observe": "4874664973/2074379746889318400000000000",
+    "proportion_au_moins_observe": 2.349938568533515e-18,
+    "score_moyen": 540.0
+   },
+   "recto_verso": {
+    "observé": 784,
+    "attributions": 1073741824,
+    "au_moins_observe": 65536,
+    "fraction_au_moins_observe": "1/16384",
+    "proportion_au_moins_observe": 6.103515625e-05,
+    "score_moyen": 718.0
+   }
+  },
+  "faces": {
+   "160r": {
+    "requete": [
+     "caules"
+    ],
+    "titres": [
+     1,
+     2,
+     3
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "caules"
+     ],
+     "160v": [
+      "caules"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "caules"
+    ]
+   },
+   "160v": {
+    "requete": [
+     "caules",
+     "oleribus"
+    ],
+    "titres": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "caules"
+     ],
+     "160v": [
+      "caules"
+     ],
+     "161r": [
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "caules"
+    ]
+   },
+   "161r": {
+    "requete": [
+     "oleribus"
+    ],
+    "titres": [
+     10,
+     11,
+     12
+    ],
+    "longueur": 153,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "oleribus"
+    ]
+   },
+   "161v": {
+    "requete": [
+     "foliis",
+     "oleribus",
+     "spinargiis"
+    ],
+    "titres": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "longueur": 135,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "oleribus"
+    ]
+   },
+   "162r": {
+    "requete": [
+     "feniculo",
+     "foliis"
+    ],
+    "titres": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [
+      "feniculo"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "feniculo"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 7,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "162v": {
+    "requete": [
+     "feniculo"
+    ],
+    "titres": [
+     22,
+     23,
+     24
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [
+      "feniculo"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "feniculo"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "feniculo"
+    ]
+   },
+   "163r": {
+    "requete": [
+     "cicera",
+     "ciceribus",
+     "leguminibus"
+    ],
+    "titres": [
+     25,
+     26,
+     27,
+     28
+    ],
+    "longueur": 165,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [
+      "cicera"
+     ],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "163v": {
+    "requete": [
+     "cicera",
+     "pisis"
+    ],
+    "titres": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "longueur": 151,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [
+      "cicera"
+     ],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "164r": {
+    "requete": [
+     "fabis",
+     "floribus",
+     "pisis"
+    ],
+    "titres": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "164v": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     38,
+     39,
+     40,
+     41
+    ],
+    "longueur": 149,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "165r": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     42,
+     43
+    ],
+    "longueur": 153,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "fabis"
+     ],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "fabis"
+    ]
+   },
+   "165v": {
+    "requete": [
+     "fasseolis",
+     "fungo"
+    ],
+    "titres": [
+     44,
+     45,
+     46,
+     47,
+     48
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166r": {
+    "requete": [],
+    "titres": [
+     49
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166v": {
+    "requete": [
+     "animalibus",
+     "pullis"
+    ],
+    "titres": [
+     50,
+     51
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": [
+      "pullis"
+     ]
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "167r": {
+    "requete": [
+     "pullis"
+    ],
+    "titres": [
+     52,
+     53
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": [
+      "pullis"
+     ]
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "167v": {
+    "requete": [
+     "piscium"
+    ],
+    "titres": [
+     54,
+     55
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [
+      "piscium"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "piscium"
+    ]
+   },
+   "168r": {
+    "requete": [
+     "ansere",
+     "pavone"
+    ],
+    "titres": [
+     56
+    ],
+    "longueur": 142,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "168v": {
+    "requete": [
+     "caponibus",
+     "carnibus",
+     "gallina",
+     "gallinis",
+     "grua"
+    ],
+    "titres": [
+     57,
+     58,
+     59,
+     60
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "carnibus"
+     ],
+     "166r": [],
+     "166v": [
+      "carnibus"
+     ],
+     "167r": [
+      "carnibus"
+     ],
+     "167v": [],
+     "168r": [],
+     "168v": [
+      "caponibus",
+      "gallinis"
+     ],
+     "169r": [
+      "gallina"
+     ],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "caponibus",
+     "gallinis"
+    ]
+   },
+   "169r": {
+    "requete": [
+     "gallinis"
+    ],
+    "titres": [
+     61,
+     62,
+     63
+    ],
+    "longueur": 138,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [
+      "gallinis"
+     ],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "169v": {
+    "requete": [
+     "sumac"
+    ],
+    "titres": [
+     64,
+     65,
+     66,
+     67,
+     68
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": [
+      "sumac"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "sumac"
+    ]
+   },
+   "170r": {
+    "requete": [
+     "pullis"
+    ],
+    "titres": [
+     69,
+     70
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "pullis"
+     ],
+     "170v": [
+      "pullis"
+     ],
+     "171r": [],
+     "171v": [
+      "pullis"
+     ],
+     "172r": [
+      "pullis"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [
+      "pullis"
+     ],
+     "174v": []
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "pullis"
+    ]
+   },
+   "170v": {
+    "requete": [],
+    "titres": [
+     71,
+     72,
+     73
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "171r": {
+    "requete": [
+     "riso"
+    ],
+    "titres": [
+     74,
+     75
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [
+      "riso"
+     ],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "riso"
+    ]
+   },
+   "171v": {
+    "requete": [
+     "gallina",
+     "pullis"
+    ],
+    "titres": [
+     76,
+     77,
+     78
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "pullis"
+     ],
+     "170v": [
+      "pullis"
+     ],
+     "171r": [],
+     "171v": [
+      "pullis"
+     ],
+     "172r": [
+      "gallina",
+      "pullis"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [
+      "pullis"
+     ],
+     "174v": []
+    },
+    "points_doubles": 13,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pullis"
+    ]
+   },
+   "172r": {
+    "requete": [
+     "gallina"
+    ],
+    "titres": [
+     79,
+     80
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [
+      "gallina"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "172v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 163,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "173r": {
+    "requete": [],
+    "titres": [
+     81
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "173v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 164,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "174r": {
+    "requete": [
+     "avibus",
+     "faxsanis",
+     "pullorum"
+    ],
+    "titres": [
+     82,
+     83,
+     84
+    ],
+    "longueur": 146,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [
+      "pullorum"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": [
+      "avibus"
+     ]
+    },
+    "points_doubles": 7,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "174v": {
+    "requete": [
+     "auro",
+     "avibus",
+     "faxsanis"
+    ],
+    "titres": [
+     85,
+     86,
+     87
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": [
+      "avibus"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "avibus"
+    ]
+   },
+   "175r": {
+    "requete": [
+     "avium",
+     "columbis",
+     "grua",
+     "pullis"
+    ],
+    "titres": [
+     88,
+     89,
+     90,
+     91
+    ],
+    "longueur": 148,
+    "plafond": null,
+    "intersections": {
+     "175r": [
+      "columbis",
+      "grua",
+      "pullis"
+     ],
+     "175v": [
+      "grua"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [
+      "avium"
+     ],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "columbis",
+     "grua",
+     "pullis"
+    ]
+   },
+   "175v": {
+    "requete": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "malardo",
+     "musto",
+     "pavone"
+    ],
+    "titres": [
+     92,
+     93,
+     94
+    ],
+    "longueur": 148,
+    "plafond": null,
+    "intersections": {
+     "175r": [
+      "avibus"
+     ],
+     "175v": [
+      "anate",
+      "ansere",
+      "avibus",
+      "cigno",
+      "musto",
+      "pavone"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "musto",
+     "pavone"
+    ]
+   },
+   "176r": {
+    "requete": [
+     "gallina"
+    ],
+    "titres": [
+     95
+    ],
+    "longueur": 142,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "gallina"
+     ],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "176v": {
+    "requete": [
+     "carnibus"
+    ],
+    "titres": [
+     96,
+     97
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "carnibus"
+     ],
+     "176v": [],
+     "177r": [
+      "carnibus"
+     ],
+     "177v": [
+      "carnibus"
+     ],
+     "178r": [
+      "carnibus"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "carnibus"
+     ]
+    },
+    "points_doubles": 4,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177r": {
+    "requete": [
+     "spatula"
+    ],
+    "titres": [
+     98
+    ],
+    "longueur": 137,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177v": {
+    "requete": [
+     "intestinis",
+     "porci",
+     "ventre"
+    ],
+    "titres": [
+     99,
+     100,
+     101,
+     102
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "porci"
+    ]
+   },
+   "178r": {
+    "requete": [
+     "porci",
+     "ventresca"
+    ],
+    "titres": [
+     103,
+     104,
+     105,
+     106
+    ],
+    "longueur": 135,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [
+      "ventresca"
+     ],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "porci"
+    ]
+   },
+   "178v": {
+    "requete": [
+     "porci",
+     "ventre"
+    ],
+    "titres": [
+     107,
+     108,
+     109,
+     110
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 6,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "179r": {
+    "requete": [
+     "animalibus"
+    ],
+    "titres": [
+     111,
+     112,
+     113
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [
+      "animalibus"
+     ],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "animalibus"
+    ]
+   },
+   "179v": {
+    "requete": [],
+    "titres": [
+     114,
+     115
+    ],
+    "longueur": 140,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180r": {
+    "requete": [],
+    "titres": [
+     116
+    ],
+    "longueur": 136,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180v": {
+    "requete": [],
+    "titres": [
+     117,
+     118,
+     119
+    ],
+    "longueur": 127,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "181r": {
+    "requete": [
+     "carnibus"
+    ],
+    "titres": [
+     120,
+     121,
+     122
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "carnibus"
+     ],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [
+      "carnibus"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus"
+    ]
+   },
+   "181v": {
+    "requete": [],
+    "titres": [
+     123,
+     124,
+     125,
+     126
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "182r": {
+    "requete": [],
+    "titres": [
+     127,
+     128,
+     129,
+     130
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "182v": {
+    "requete": [
+     "lacte"
+    ],
+    "titres": [
+     131,
+     132,
+     133,
+     134
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [
+      "lacte"
+     ],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "lacte"
+    ]
+   },
+   "183r": {
+    "requete": [
+     "carnibus"
+    ],
+    "titres": [
+     135,
+     136,
+     137
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "carnibus"
+     ],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [
+      "carnibus"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus"
+    ]
+   },
+   "183v": {
+    "requete": [
+     "ovis"
+    ],
+    "titres": [
+     138,
+     139
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "ovis"
+     ],
+     "181v": [
+      "ovis"
+     ],
+     "182r": [
+      "ovis"
+     ],
+     "182v": [],
+     "183r": [
+      "ovis"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 5,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "184r": {
+    "requete": [
+     "pulpis",
+     "sipiis",
+     "trillis"
+    ],
+    "titres": [
+     152,
+     153
+    ],
+    "longueur": 128,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [
+      "pulpis",
+      "sipiis"
+     ],
+     "184v": [
+      "sipiis",
+      "trillis"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "pulpis",
+     "sipiis"
+    ]
+   },
+   "184v": {
+    "requete": [
+     "gamaris",
+     "grillis",
+     "sipiis",
+     "testitudine"
+    ],
+    "titres": [
+     154,
+     155,
+     156,
+     157,
+     158
+    ],
+    "longueur": 118,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [
+      "sipiis"
+     ],
+     "184v": [
+      "sipiis"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "sipiis"
+    ]
+   },
+   "185r": {
+    "requete": [
+     "gamaris",
+     "interioribus",
+     "langustis",
+     "piscium",
+     "salciciis"
+    ],
+    "titres": [
+     159,
+     160,
+     161,
+     162
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "gamaris",
+      "langustis",
+      "piscium"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [
+      "piscium"
+     ],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gamaris",
+     "langustis",
+     "piscium"
+    ]
+   },
+   "185v": {
+    "requete": [
+     "piscibus"
+    ],
+    "titres": [
+     163,
+     164,
+     165
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [
+      "piscibus"
+     ],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 7,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "186r": {
+    "requete": [],
+    "titres": [
+     166
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "186v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 137,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "187r": {
+    "requete": [
+     "lampreda",
+     "lamprede",
+     "ovis",
+     "piscibus"
+    ],
+    "titres": [
+     140,
+     141,
+     142,
+     143
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [
+      "lampreda"
+     ],
+     "187v": [
+      "lampreda"
+     ],
+     "188r": [],
+     "188v": [
+      "piscibus"
+     ],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "lampreda"
+    ]
+   },
+   "187v": {
+    "requete": [
+     "aurata",
+     "troctis"
+    ],
+    "titres": [
+     144,
+     145
+    ],
+    "longueur": 146,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [
+      "troctis"
+     ],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "troctis"
+    ]
+   },
+   "188r": {
+    "requete": [
+     "alleciis",
+     "sardellis",
+     "sardis"
+    ],
+    "titres": [
+     146,
+     147
+    ],
+    "longueur": 125,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [
+      "alleciis",
+      "sardis"
+     ],
+     "188v": [
+      "alleciis",
+      "sardis"
+     ],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "alleciis",
+     "sardis"
+    ]
+   },
+   "188v": {
+    "requete": [
+     "piscibus",
+     "pulpis",
+     "sardis"
+    ],
+    "titres": [
+     148,
+     149,
+     150,
+     151
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [
+      "sardis"
+     ],
+     "188v": [
+      "piscibus",
+      "pulpis",
+      "sardis"
+     ],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "piscibus",
+     "pulpis",
+     "sardis"
+    ]
+   },
+   "189r": {
+    "requete": [],
+    "titres": [
+     167
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "189v": {
+    "requete": [
+     "musto"
+    ],
+    "titres": [
+     168
+    ],
+    "longueur": 104,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [
+      "musto"
+     ],
+     "189v": [
+      "musto"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "musto"
+    ]
+   }
+  }
+ },
+ "apres_huit_mots": {
+  "resume": {
+   "faces": 60,
+   "seules": 10,
+   "premieres_ex_aequo_positives": 17,
+   "requete_vide": 3,
+   "aucun_mot_commun_sur_place": 25,
+   "proportion_moyenne_battue": 0.6842592592592592,
+   "deux_termes_ou_plus": 54,
+   "seules_parmi_deux_termes_ou_plus": 10,
+   "blocs": {
+    "observé": 739,
+    "attributions": 2283380023591730815784976384000000000000,
+    "au_moins_observe": 89957798104956390306783313920,
+    "fraction_au_moins_observe": "1506334228598619254269/38234967494663916748800000000000",
+    "proportion_au_moins_observe": 3.9396770215872256e-11,
+    "score_moyen": 540.0
+   },
+   "recto_verso": {
+    "observé": 739,
+    "attributions": 1073741824,
+    "au_moins_observe": 339968,
+    "fraction_au_moins_observe": "83/262144",
+    "proportion_au_moins_observe": 0.000316619873046875,
+    "score_moyen": 663.0
+   }
+  },
+  "faces": {
+   "160r": {
+    "requete": [
+     "albi",
+     "caules"
+    ],
+    "titres": [
+     1,
+     2,
+     3
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "caules"
+     ],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "caules"
+    ]
+   },
+   "160v": {
+    "requete": [
+     "aliis",
+     "caules",
+     "gallicos",
+     "oleribus",
+     "secundum"
+    ],
+    "titres": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "160r": [
+      "caules"
+     ],
+     "160v": [
+      "aliis"
+     ],
+     "161r": [
+      "aliis",
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [
+      "secundum"
+     ],
+     "163r": [],
+     "163v": [
+      "aliis"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 12,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "aliis"
+    ]
+   },
+   "161r": {
+    "requete": [
+     "diebus",
+     "ieiunii",
+     "minutis",
+     "oleribus"
+    ],
+    "titres": [
+     10,
+     11,
+     12
+    ],
+    "longueur": 153,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "minutis",
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [
+      "diebus"
+     ],
+     "162v": [],
+     "163r": [
+      "diebus",
+      "ieiunii"
+     ],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "minutis",
+     "oleribus"
+    ]
+   },
+   "161v": {
+    "requete": [
+     "foliis",
+     "minutis",
+     "oleribus",
+     "spinargiis"
+    ],
+    "titres": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "longueur": 135,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "minutis",
+      "oleribus"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "oleribus"
+    ]
+   },
+   "162r": {
+    "requete": [
+     "feniculo",
+     "foliis",
+     "minutis"
+    ],
+    "titres": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [
+      "feniculo"
+     ],
+     "161r": [
+      "minutis"
+     ],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "feniculo"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 6,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "162v": {
+    "requete": [
+     "campanie",
+     "feniculo",
+     "usum"
+    ],
+    "titres": [
+     22,
+     23,
+     24
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [
+      "feniculo"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "feniculo"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "feniculo"
+    ]
+   },
+   "163r": {
+    "requete": [
+     "cicera",
+     "ciceribus",
+     "leguminibus",
+     "primo"
+    ],
+    "titres": [
+     25,
+     26,
+     27,
+     28
+    ],
+    "longueur": 165,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "163v": {
+    "requete": [
+     "cicera",
+     "docet",
+     "pisis",
+     "preparandis"
+    ],
+    "titres": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "longueur": 151,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "164r": {
+    "requete": [
+     "fabis",
+     "floribus",
+     "novellis",
+     "pisis",
+     "primo"
+    ],
+    "titres": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "164v": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     38,
+     39,
+     40,
+     41
+    ],
+    "longueur": 149,
+    "plafond": null,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "165r": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     42,
+     43
+    ],
+    "longueur": 153,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "fabis"
+     ],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "fabis"
+    ]
+   },
+   "165v": {
+    "requete": [
+     "cibum",
+     "composito",
+     "fasseolis",
+     "fungo",
+     "lampardico",
+     "montano"
+    ],
+    "titres": [
+     44,
+     45,
+     46,
+     47,
+     48
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166r": {
+    "requete": [
+     "composito"
+    ],
+    "titres": [
+     49
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166v": {
+    "requete": [
+     "aliter",
+     "animalibus",
+     "appetitu",
+     "brodio",
+     "brodium",
+     "cum",
+     "granato",
+     "primo",
+     "pro",
+     "pullis"
+    ],
+    "titres": [
+     50,
+     51
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "brodium",
+      "cum",
+      "pullis"
+     ]
+    },
+    "points_doubles": 12,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "167r": {
+    "requete": [
+     "brodio",
+     "cum",
+     "martino",
+     "pullis",
+     "theutonico"
+    ],
+    "titres": [
+     52,
+     53
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "cum",
+      "pullis"
+     ]
+    },
+    "points_doubles": 12,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "167v": {
+    "requete": [
+     "galatina",
+     "piscium",
+     "scubetia"
+    ],
+    "titres": [
+     54,
+     55
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "168r": {
+    "requete": [
+     "ansere",
+     "pavone",
+     "vel"
+    ],
+    "titres": [
+     56
+    ],
+    "longueur": 142,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "vel"
+     ],
+     "165v": [
+      "vel"
+     ],
+     "166r": [
+      "vel"
+     ],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [
+      "vel"
+     ],
+     "168v": [],
+     "169r": [],
+     "169v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "168v": {
+    "requete": [
+     "aliis",
+     "brodium",
+     "caponibus",
+     "carnibus",
+     "fieri",
+     "gallina",
+     "gallinis",
+     "grua",
+     "potest",
+     "similiter"
+    ],
+    "titres": [
+     57,
+     58,
+     59,
+     60
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "aliis",
+      "carnibus"
+     ],
+     "166r": [
+      "fieri",
+      "potest",
+      "similiter"
+     ],
+     "166v": [
+      "carnibus"
+     ],
+     "167r": [
+      "aliis",
+      "carnibus"
+     ],
+     "167v": [
+      "aliis"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [
+      "gallina"
+     ],
+     "169v": [
+      "brodium"
+     ]
+    },
+    "points_doubles": 2,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "169r": {
+    "requete": [
+     "aliis",
+     "brodio",
+     "cum",
+     "gallinis",
+     "granato",
+     "sarracenico"
+    ],
+    "titres": [
+     61,
+     62,
+     63
+    ],
+    "longueur": 138,
+    "plafond": null,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "cum"
+     ]
+    },
+    "points_doubles": 10,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "169v": {
+    "requete": [
+     "brodio",
+     "brodium",
+     "granato",
+     "ispanicum",
+     "sumac",
+     "sumachia"
+    ],
+    "titres": [
+     64,
+     65,
+     66,
+     67,
+     68
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "brodio"
+     ],
+     "166r": [],
+     "166v": [
+      "brodio"
+     ],
+     "167r": [
+      "brodio"
+     ],
+     "167v": [
+      "brodio"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [
+      "brodio"
+     ],
+     "169v": [
+      "brodio",
+      "brodium",
+      "sumac"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "brodium",
+     "sumac"
+    ]
+   },
+   "170r": {
+    "requete": [
+     "cum",
+     "gratonia",
+     "limonia",
+     "pullis"
+    ],
+    "titres": [
+     69,
+     70
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "cum",
+      "pullis"
+     ],
+     "170v": [
+      "cum",
+      "pullis"
+     ],
+     "171r": [
+      "cum"
+     ],
+     "171v": [
+      "cum",
+      "pullis"
+     ],
+     "172r": [
+      "cum",
+      "pullis"
+     ],
+     "172v": [
+      "cum"
+     ],
+     "173r": [
+      "cum"
+     ],
+     "173v": [
+      "cum"
+     ],
+     "174r": [
+      "cum"
+     ],
+     "174v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "pullis"
+    ]
+   },
+   "170v": {
+    "requete": [
+     "alleata",
+     "blancha",
+     "festigia",
+     "romania"
+    ],
+    "titres": [
+     71,
+     72,
+     73
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [
+      "alleata"
+     ],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "alleata"
+    ]
+   },
+   "171r": {
+    "requete": [
+     "albo",
+     "cibo",
+     "preparando",
+     "prius",
+     "riso"
+    ],
+    "titres": [
+     74,
+     75
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [
+      "riso"
+     ],
+     "171v": [],
+     "172r": [],
+     "172v": [
+      "prius"
+     ],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "riso"
+    ]
+   },
+   "171v": {
+    "requete": [
+     "gallina",
+     "implenda",
+     "pullis"
+    ],
+    "titres": [
+     76,
+     77,
+     78
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "pullis"
+     ],
+     "170v": [
+      "pullis"
+     ],
+     "171r": [],
+     "171v": [
+      "pullis"
+     ],
+     "172r": [
+      "pullis"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "pullis"
+    ]
+   },
+   "172r": {
+    "requete": [
+     "gallina",
+     "implenda",
+     "parmesana",
+     "torta"
+    ],
+    "titres": [
+     79,
+     80
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [
+      "torta"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "172v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 163,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "173r": {
+    "requete": [
+     "aliter",
+     "facta",
+     "torta"
+    ],
+    "titres": [
+     81
+    ],
+    "longueur": 152,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [
+      "aliter"
+     ],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [
+      "torta"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "torta"
+    ]
+   },
+   "173v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 164,
+    "plafond": null,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "174r": {
+    "requete": [
+     "avibus",
+     "copo",
+     "faxsanis",
+     "pastillo",
+     "pullorum",
+     "silvestribus",
+     "vel"
+    ],
+    "titres": [
+     82,
+     83,
+     84
+    ],
+    "longueur": 146,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "vel"
+     ],
+     "170v": [],
+     "171r": [
+      "vel"
+     ],
+     "171v": [
+      "vel"
+     ],
+     "172r": [
+      "vel"
+     ],
+     "172v": [],
+     "173r": [
+      "pullorum"
+     ],
+     "173v": [
+      "vel"
+     ],
+     "174r": [
+      "vel"
+     ],
+     "174v": [
+      "pastillo",
+      "vel"
+     ]
+    },
+    "points_doubles": 10,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "174v": {
+    "requete": [
+     "auro",
+     "avibus",
+     "cibo",
+     "faxsanis",
+     "pastillum",
+     "posito",
+     "silvestribus",
+     "vel",
+     "vivis"
+    ],
+    "titres": [
+     85,
+     86,
+     87
+    ],
+    "longueur": 139,
+    "plafond": null,
+    "intersections": {
+     "170r": [
+      "vel"
+     ],
+     "170v": [],
+     "171r": [
+      "vel"
+     ],
+     "171v": [
+      "vel"
+     ],
+     "172r": [
+      "vel"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [
+      "vel"
+     ],
+     "174r": [
+      "vel"
+     ],
+     "174v": [
+      "pastillum",
+      "vel"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pastillum",
+     "vel"
+    ]
+   },
+   "175r": {
+    "requete": [
+     "avium",
+     "columbis",
+     "grua",
+     "pro",
+     "pullis",
+     "salsa",
+     "salsis",
+     "sapor"
+    ],
+    "titres": [
+     88,
+     89,
+     90,
+     91
+    ],
+    "longueur": 148,
+    "plafond": null,
+    "intersections": {
+     "175r": [
+      "pro"
+     ],
+     "175v": [
+      "grua",
+      "pro",
+      "salsa"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pro"
+    ]
+   },
+   "175v": {
+    "requete": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "malardo",
+     "mustarda",
+     "musto",
+     "omnibus",
+     "pavone",
+     "pro",
+     "riparia",
+     "salsa"
+    ],
+    "titres": [
+     92,
+     93,
+     94
+    ],
+    "longueur": 148,
+    "plafond": null,
+    "intersections": {
+     "175r": [
+      "avibus",
+      "pro"
+     ],
+     "175v": [
+      "avibus",
+      "musto",
+      "omnibus",
+      "pavone",
+      "pro",
+      "salsa"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "omnibus"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "avibus",
+     "musto",
+     "omnibus",
+     "pavone",
+     "pro",
+     "salsa"
+    ]
+   },
+   "176r": {
+    "requete": [
+     "gallina",
+     "implenda"
+    ],
+    "titres": [
+     95
+    ],
+    "longueur": 142,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "gallina"
+     ],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "176v": {
+    "requete": [
+     "carnibus",
+     "cume",
+     "edulo",
+     "gianieto",
+     "grossis"
+    ],
+    "titres": [
+     96,
+     97
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "carnibus"
+     ],
+     "176v": [],
+     "177r": [
+      "carnibus"
+     ],
+     "177v": [
+      "carnibus"
+     ],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 6,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177r": {
+    "requete": [
+     "castratina",
+     "implenda",
+     "spatula"
+    ],
+    "titres": [
+     98
+    ],
+    "longueur": 137,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177v": {
+    "requete": [
+     "farsandis",
+     "farsando",
+     "indulgiis",
+     "intestinis",
+     "langorista",
+     "porci",
+     "ventre"
+    ],
+    "titres": [
+     99,
+     100,
+     101,
+     102
+    ],
+    "longueur": 144,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "178r": {
+    "requete": [
+     "aresmessia",
+     "landoliis",
+     "mamonia",
+     "porci",
+     "torta",
+     "ventresca"
+    ],
+    "titres": [
+     103,
+     104,
+     105,
+     106
+    ],
+    "longueur": 135,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [
+      "ventresca"
+     ],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 7,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "178v": {
+    "requete": [
+     "foliata",
+     "galdaffra",
+     "implendo",
+     "porci",
+     "tortam",
+     "ventre"
+    ],
+    "titres": [
+     107,
+     108,
+     109,
+     110
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [
+      "galdaffra",
+      "tortam"
+     ],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "galdaffra",
+     "tortam"
+    ]
+   },
+   "179r": {
+    "requete": [
+     "animalibus",
+     "conatis",
+     "galdaffra",
+     "silvestris"
+    ],
+    "titres": [
+     111,
+     112,
+     113
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [
+      "galdaffra"
+     ],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "179v": {
+    "requete": [
+     "mortarolio",
+     "mortarolium"
+    ],
+    "titres": [
+     114,
+     115
+    ],
+    "longueur": 140,
+    "plafond": null,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180r": {
+    "requete": [
+     "raviolis"
+    ],
+    "titres": [
+     116
+    ],
+    "longueur": 136,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180v": {
+    "requete": [
+     "assatis",
+     "ianuensi",
+     "lasanis",
+     "pro",
+     "salsa",
+     "torta",
+     "tria"
+    ],
+    "titres": [
+     117,
+     118,
+     119
+    ],
+    "longueur": 127,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [
+      "tria"
+     ],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "pro"
+    ]
+   },
+   "181r": {
+    "requete": [
+     "alba",
+     "alleata",
+     "carnibus",
+     "piperata",
+     "salsa"
+    ],
+    "titres": [
+     120,
+     121,
+     122
+    ],
+    "longueur": 141,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "carnibus"
+     ],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus"
+    ]
+   },
+   "181v": {
+    "requete": [
+     "camelina",
+     "gratonea",
+     "montano",
+     "salsa",
+     "torta",
+     "viridis"
+    ],
+    "titres": [
+     123,
+     124,
+     125,
+     126
+    ],
+    "longueur": 143,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [
+      "gratonea"
+     ],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 7,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "182r": {
+    "requete": [
+     "alius",
+     "crispellis",
+     "fristellis",
+     "gratonea",
+     "vel"
+    ],
+    "titres": [
+     127,
+     128,
+     129,
+     130
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "180r": [
+      "vel"
+     ],
+     "180v": [
+      "vel"
+     ],
+     "181r": [
+      "vel"
+     ],
+     "181v": [
+      "vel"
+     ],
+     "182r": [
+      "gratonea",
+      "vel"
+     ],
+     "182v": [
+      "vel"
+     ],
+     "183r": [
+      "vel"
+     ],
+     "183v": [],
+     "184r": [
+      "vel"
+     ],
+     "184v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gratonea",
+     "vel"
+    ]
+   },
+   "182v": {
+    "requete": [
+     "apula",
+     "copo",
+     "crispellis",
+     "cum",
+     "guanto",
+     "lacte",
+     "simula"
+    ],
+    "titres": [
+     131,
+     132,
+     133,
+     134
+    ],
+    "longueur": 145,
+    "plafond": null,
+    "intersections": {
+     "180r": [
+      "cum"
+     ],
+     "180v": [
+      "cum"
+     ],
+     "181r": [
+      "cum"
+     ],
+     "181v": [
+      "cum"
+     ],
+     "182r": [
+      "cum"
+     ],
+     "182v": [
+      "cum",
+      "lacte"
+     ],
+     "183r": [
+      "copo",
+      "cum"
+     ],
+     "183v": [
+      "cum"
+     ],
+     "184r": [
+      "cum"
+     ],
+     "184v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "lacte"
+    ]
+   },
+   "183r": {
+    "requete": [
+     "brustinga",
+     "carnibus",
+     "galatina",
+     "pantossa",
+     "pro"
+    ],
+    "titres": [
+     135,
+     136,
+     137
+    ],
+    "longueur": 134,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "carnibus"
+     ],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 7,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "183v": {
+    "requete": [
+     "implendis",
+     "integris",
+     "ovis"
+    ],
+    "titres": [
+     138,
+     139
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "ovis"
+     ],
+     "181v": [
+      "ovis"
+     ],
+     "182r": [
+      "ovis"
+     ],
+     "182v": [],
+     "183r": [
+      "ovis"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 5,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "184r": {
+    "requete": [
+     "brodio",
+     "pro",
+     "pulpis",
+     "sipiis",
+     "sive",
+     "trillis"
+    ],
+    "titres": [
+     152,
+     153
+    ],
+    "longueur": 128,
+    "plafond": null,
+    "intersections": {
+     "180r": [
+      "brodio"
+     ],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "brodio"
+     ],
+     "181v": [],
+     "182r": [],
+     "182v": [
+      "sive"
+     ],
+     "183r": [],
+     "183v": [
+      "brodio"
+     ],
+     "184r": [],
+     "184v": [
+      "sive"
+     ]
+    },
+    "points_doubles": 3,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "184v": {
+    "requete": [
+     "gamaris",
+     "grillis",
+     "pro",
+     "sapore",
+     "sipiis",
+     "testitudine"
+    ],
+    "titres": [
+     154,
+     155,
+     156,
+     157,
+     158
+    ],
+    "longueur": 118,
+    "plafond": null,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [
+      "sapore"
+     ],
+     "184r": [],
+     "184v": [
+      "sapore"
+     ]
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "sapore"
+    ]
+   },
+   "185r": {
+    "requete": [
+     "gamaris",
+     "interioribus",
+     "langustis",
+     "piscium",
+     "salciciis"
+    ],
+    "titres": [
+     159,
+     160,
+     161,
+     162
+    ],
+    "longueur": 131,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "piscium"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [
+      "piscium"
+     ],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "piscium"
+    ]
+   },
+   "185v": {
+    "requete": [
+     "batutis",
+     "piscibus",
+     "pro",
+     "sapore"
+    ],
+    "titres": [
+     163,
+     164,
+     165
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [
+      "batutis"
+     ],
+     "186r": [
+      "batutis"
+     ],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [
+      "piscibus"
+     ],
+     "189r": [
+      "pro"
+     ],
+     "189v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "batutis"
+    ]
+   },
+   "186r": {
+    "requete": [
+     "capite",
+     "monachi"
+    ],
+    "titres": [
+     166
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [
+      "capite"
+     ],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "186v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 137,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "187r": {
+    "requete": [
+     "cum",
+     "lampreda",
+     "lamprede",
+     "ovis",
+     "pastillis",
+     "perditis",
+     "piperata",
+     "piscibus",
+     "primo"
+    ],
+    "titres": [
+     140,
+     141,
+     142,
+     143
+    ],
+    "longueur": 133,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "cum"
+     ],
+     "185v": [
+      "cum"
+     ],
+     "186r": [
+      "cum"
+     ],
+     "186v": [
+      "cum",
+      "primo"
+     ],
+     "187r": [
+      "cum",
+      "lampreda"
+     ],
+     "187v": [
+      "cum",
+      "lampreda",
+      "piperata"
+     ],
+     "188r": [
+      "cum"
+     ],
+     "188v": [
+      "cum",
+      "piscibus"
+     ],
+     "189r": [
+      "cum"
+     ],
+     "189v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "cum",
+     "lampreda"
+    ]
+   },
+   "187v": {
+    "requete": [
+     "aurata",
+     "pastillis",
+     "troctis"
+    ],
+    "titres": [
+     144,
+     145
+    ],
+    "longueur": 146,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "188r": {
+    "requete": [
+     "alleciis",
+     "implendis",
+     "pastillo",
+     "sardellis",
+     "sardis",
+     "vel"
+    ],
+    "titres": [
+     146,
+     147
+    ],
+    "longueur": 125,
+    "plafond": null,
+    "intersections": {
+     "185r": [
+      "vel"
+     ],
+     "185v": [
+      "vel"
+     ],
+     "186r": [
+      "vel"
+     ],
+     "186v": [
+      "vel"
+     ],
+     "187r": [
+      "vel"
+     ],
+     "187v": [
+      "vel"
+     ],
+     "188r": [
+      "vel"
+     ],
+     "188v": [
+      "vel"
+     ],
+     "189r": [
+      "vel"
+     ],
+     "189v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "188v": {
+    "requete": [
+     "assatis",
+     "brodio",
+     "frissis",
+     "piscibus",
+     "pro",
+     "pulpis",
+     "sardis"
+    ],
+    "titres": [
+     148,
+     149,
+     150,
+     151
+    ],
+    "longueur": 129,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [
+      "brodio"
+     ],
+     "186r": [],
+     "186v": [],
+     "187r": [
+      "brodio"
+     ],
+     "187v": [],
+     "188r": [],
+     "188v": [
+      "piscibus"
+     ],
+     "189r": [
+      "pro"
+     ],
+     "189v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "piscibus"
+    ]
+   },
+   "189r": {
+    "requete": [
+     "mustarda"
+    ],
+    "titres": [
+     167
+    ],
+    "longueur": 130,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [
+      "mustarda"
+     ],
+     "189v": [
+      "mustarda"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "mustarda"
+    ]
+   },
+   "189v": {
+    "requete": [
+     "musto",
+     "servando"
+    ],
+    "titres": [
+     168
+    ],
+    "longueur": 104,
+    "plafond": null,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [
+      "musto"
+     ],
+     "189v": [
+      "musto"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "musto"
+    ]
+   }
+  }
+ },
+ "longueurs_egales": {
+  "resume": {
+   "faces": 60,
+   "seules": 18,
+   "premieres_ex_aequo_positives": 18,
+   "requete_vide": 3,
+   "aucun_mot_commun_sur_place": 16,
+   "proportion_moyenne_battue": 0.7768518518518519,
+   "deux_termes_ou_plus": 54,
+   "seules_parmi_deux_termes_ou_plus": 18,
+   "blocs": {
+    "observé": 839,
+    "attributions": 2283380023591730815784976384000000000000,
+    "au_moins_observe": 778660716134840064,
+    "fraction_au_moins_observe": "1013881140800573/2973151072385066166386688000000000000",
+    "proportion_au_moins_observe": 3.4101231861966437e-22,
+    "score_moyen": 540.0
+   },
+   "recto_verso": {
+    "observé": 839,
+    "attributions": 1073741824,
+    "au_moins_observe": 5888,
+    "fraction_au_moins_observe": "23/4194304",
+    "proportion_au_moins_observe": 5.4836273193359375e-06,
+    "score_moyen": 744.0
+   }
+  },
+  "faces": {
+   "160r": {
+    "requete": [
+     "albi",
+     "caules"
+    ],
+    "titres": [
+     1,
+     2,
+     3
+    ],
+    "longueur": 131,
+    "plafond": 130,
+    "intersections": {
+     "160r": [
+      "caules"
+     ],
+     "160v": [
+      "caules"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "caules"
+    ]
+   },
+   "160v": {
+    "requete": [
+     "aliis",
+     "caules",
+     "gallicos",
+     "oleribus",
+     "secundum"
+    ],
+    "titres": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "longueur": 143,
+    "plafond": 130,
+    "intersections": {
+     "160r": [
+      "caules",
+      "secundum"
+     ],
+     "160v": [
+      "aliis",
+      "caules"
+     ],
+     "161r": [
+      "aliis"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [
+      "secundum"
+     ],
+     "163r": [],
+     "163v": [
+      "aliis"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "aliis",
+     "caules"
+    ]
+   },
+   "161r": {
+    "requete": [
+     "diebus",
+     "ieiunii",
+     "minutis",
+     "oleribus"
+    ],
+    "titres": [
+     10,
+     11,
+     12
+    ],
+    "longueur": 153,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "diebus",
+      "ieiunii",
+      "minutis"
+     ],
+     "161v": [
+      "diebus",
+      "ieiunii",
+      "oleribus"
+     ],
+     "162r": [
+      "diebus"
+     ],
+     "162v": [],
+     "163r": [
+      "diebus",
+      "ieiunii"
+     ],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "diebus",
+     "ieiunii",
+     "minutis"
+    ]
+   },
+   "161v": {
+    "requete": [
+     "foliis",
+     "minutis",
+     "oleribus",
+     "spinargiis"
+    ],
+    "titres": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "longueur": 135,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [
+      "minutis"
+     ],
+     "161v": [
+      "oleribus"
+     ],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "oleribus"
+    ]
+   },
+   "162r": {
+    "requete": [
+     "feniculo",
+     "foliis",
+     "minutis"
+    ],
+    "titres": [
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "longueur": 130,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [
+      "feniculo"
+     ],
+     "161r": [
+      "minutis"
+     ],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "feniculo"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 6,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "162v": {
+    "requete": [
+     "campanie",
+     "feniculo",
+     "usum"
+    ],
+    "titres": [
+     22,
+     23,
+     24
+    ],
+    "longueur": 145,
+    "plafond": 130,
+    "intersections": {
+     "160r": [
+      "usum"
+     ],
+     "160v": [
+      "feniculo",
+      "usum"
+     ],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [
+      "campanie",
+      "feniculo",
+      "usum"
+     ],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "campanie",
+     "feniculo",
+     "usum"
+    ]
+   },
+   "163r": {
+    "requete": [
+     "cicera",
+     "ciceribus",
+     "leguminibus",
+     "primo"
+    ],
+    "titres": [
+     25,
+     26,
+     27,
+     28
+    ],
+    "longueur": 165,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [
+      "cicera"
+     ],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "163v": {
+    "requete": [
+     "cicera",
+     "docet",
+     "pisis",
+     "preparandis"
+    ],
+    "titres": [
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "longueur": 151,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [
+      "cicera"
+     ],
+     "163v": [
+      "cicera"
+     ],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cicera"
+    ]
+   },
+   "164r": {
+    "requete": [
+     "fabis",
+     "floribus",
+     "novellis",
+     "pisis",
+     "primo"
+    ],
+    "titres": [
+     34,
+     35,
+     36,
+     37
+    ],
+    "longueur": 141,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "164v": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     38,
+     39,
+     40,
+     41
+    ],
+    "longueur": 149,
+    "plafond": 130,
+    "intersections": {
+     "160r": [],
+     "160v": [],
+     "161r": [],
+     "161v": [],
+     "162r": [],
+     "162v": [],
+     "163r": [],
+     "163v": [],
+     "164r": [],
+     "164v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "165r": {
+    "requete": [
+     "fabis",
+     "lenticulis"
+    ],
+    "titres": [
+     42,
+     43
+    ],
+    "longueur": 153,
+    "plafond": 134,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "165v": {
+    "requete": [
+     "cibum",
+     "composito",
+     "fasseolis",
+     "fungo",
+     "lampardico",
+     "montano"
+    ],
+    "titres": [
+     44,
+     45,
+     46,
+     47,
+     48
+    ],
+    "longueur": 141,
+    "plafond": 134,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166r": {
+    "requete": [
+     "composito"
+    ],
+    "titres": [
+     49
+    ],
+    "longueur": 145,
+    "plafond": 134,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "166v": {
+    "requete": [
+     "aliter",
+     "animalibus",
+     "appetitu",
+     "brodio",
+     "brodium",
+     "cum",
+     "granato",
+     "primo",
+     "pro",
+     "pullis"
+    ],
+    "titres": [
+     50,
+     51
+    ],
+    "longueur": 152,
+    "plafond": 134,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "aliter",
+      "cum"
+     ],
+     "166v": [
+      "appetitu",
+      "brodio",
+      "brodium",
+      "cum",
+      "pro"
+     ],
+     "167r": [
+      "brodio",
+      "brodium",
+      "cum"
+     ],
+     "167v": [
+      "aliter",
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum",
+      "pro"
+     ],
+     "169r": [
+      "brodio",
+      "cum",
+      "pro"
+     ],
+     "169v": [
+      "brodio",
+      "brodium",
+      "cum",
+      "pullis"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "appetitu",
+     "brodio",
+     "brodium",
+     "cum",
+     "pro"
+    ]
+   },
+   "167r": {
+    "requete": [
+     "brodio",
+     "cum",
+     "martino",
+     "pullis",
+     "theutonico"
+    ],
+    "titres": [
+     52,
+     53
+    ],
+    "longueur": 139,
+    "plafond": 134,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "cum",
+      "pullis"
+     ]
+    },
+    "points_doubles": 12,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "167v": {
+    "requete": [
+     "galatina",
+     "piscium",
+     "scubetia"
+    ],
+    "titres": [
+     54,
+     55
+    ],
+    "longueur": 145,
+    "plafond": 134,
+    "intersections": {
+     "165r": [],
+     "165v": [],
+     "166r": [],
+     "166v": [],
+     "167r": [],
+     "167v": [
+      "piscium"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [],
+     "169v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "piscium"
+    ]
+   },
+   "168r": {
+    "requete": [
+     "ansere",
+     "pavone",
+     "vel"
+    ],
+    "titres": [
+     56
+    ],
+    "longueur": 142,
+    "plafond": 134,
+    "intersections": {
+     "165r": [
+      "vel"
+     ],
+     "165v": [
+      "vel"
+     ],
+     "166r": [
+      "vel"
+     ],
+     "166v": [],
+     "167r": [
+      "vel"
+     ],
+     "167v": [],
+     "168r": [
+      "vel"
+     ],
+     "168v": [
+      "vel"
+     ],
+     "169r": [
+      "vel"
+     ],
+     "169v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 11,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "168v": {
+    "requete": [
+     "aliis",
+     "brodium",
+     "caponibus",
+     "carnibus",
+     "fieri",
+     "gallina",
+     "gallinis",
+     "grua",
+     "potest",
+     "similiter"
+    ],
+    "titres": [
+     57,
+     58,
+     59,
+     60
+    ],
+    "longueur": 134,
+    "plafond": 134,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "aliis",
+      "carnibus"
+     ],
+     "166r": [
+      "fieri",
+      "potest",
+      "similiter"
+     ],
+     "166v": [
+      "brodium"
+     ],
+     "167r": [
+      "aliis",
+      "brodium",
+      "carnibus"
+     ],
+     "167v": [
+      "aliis"
+     ],
+     "168r": [],
+     "168v": [
+      "caponibus",
+      "gallinis"
+     ],
+     "169r": [
+      "gallina"
+     ],
+     "169v": [
+      "brodium"
+     ]
+    },
+    "points_doubles": 13,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "caponibus",
+     "gallinis"
+    ]
+   },
+   "169r": {
+    "requete": [
+     "aliis",
+     "brodio",
+     "cum",
+     "gallinis",
+     "granato",
+     "sarracenico"
+    ],
+    "titres": [
+     61,
+     62,
+     63
+    ],
+    "longueur": 138,
+    "plafond": 134,
+    "intersections": {
+     "165r": [
+      "cum"
+     ],
+     "165v": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "166r": [
+      "cum"
+     ],
+     "166v": [
+      "brodio",
+      "cum"
+     ],
+     "167r": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "167v": [
+      "aliis",
+      "brodio",
+      "cum"
+     ],
+     "168r": [
+      "cum"
+     ],
+     "168v": [
+      "cum",
+      "gallinis"
+     ],
+     "169r": [
+      "brodio",
+      "cum"
+     ],
+     "169v": [
+      "brodio",
+      "cum"
+     ]
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "cum"
+    ]
+   },
+   "169v": {
+    "requete": [
+     "brodio",
+     "brodium",
+     "granato",
+     "ispanicum",
+     "sumac",
+     "sumachia"
+    ],
+    "titres": [
+     64,
+     65,
+     66,
+     67,
+     68
+    ],
+    "longueur": 143,
+    "plafond": 134,
+    "intersections": {
+     "165r": [],
+     "165v": [
+      "brodio"
+     ],
+     "166r": [],
+     "166v": [
+      "brodio",
+      "brodium"
+     ],
+     "167r": [
+      "brodio",
+      "brodium"
+     ],
+     "167v": [
+      "brodio"
+     ],
+     "168r": [],
+     "168v": [],
+     "169r": [
+      "brodio"
+     ],
+     "169v": [
+      "brodio",
+      "brodium",
+      "sumac"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "brodio",
+     "brodium",
+     "sumac"
+    ]
+   },
+   "170r": {
+    "requete": [
+     "cum",
+     "gratonia",
+     "limonia",
+     "pullis"
+    ],
+    "titres": [
+     69,
+     70
+    ],
+    "longueur": 141,
+    "plafond": 134,
+    "intersections": {
+     "170r": [
+      "cum",
+      "pullis"
+     ],
+     "170v": [
+      "cum",
+      "pullis"
+     ],
+     "171r": [
+      "cum"
+     ],
+     "171v": [
+      "cum",
+      "pullis"
+     ],
+     "172r": [
+      "cum",
+      "pullis"
+     ],
+     "172v": [
+      "cum"
+     ],
+     "173r": [
+      "cum"
+     ],
+     "173v": [
+      "cum"
+     ],
+     "174r": [
+      "cum",
+      "pullis"
+     ],
+     "174v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "pullis"
+    ]
+   },
+   "170v": {
+    "requete": [
+     "alleata",
+     "blancha",
+     "festigia",
+     "romania"
+    ],
+    "titres": [
+     71,
+     72,
+     73
+    ],
+    "longueur": 139,
+    "plafond": 134,
+    "intersections": {
+     "170r": [],
+     "170v": [
+      "alleata"
+     ],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "alleata"
+    ]
+   },
+   "171r": {
+    "requete": [
+     "albo",
+     "cibo",
+     "preparando",
+     "prius",
+     "riso"
+    ],
+    "titres": [
+     74,
+     75
+    ],
+    "longueur": 152,
+    "plafond": 134,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [
+      "riso"
+     ],
+     "171v": [
+      "prius"
+     ],
+     "172r": [],
+     "172v": [
+      "prius"
+     ],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 16,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "riso"
+    ]
+   },
+   "171v": {
+    "requete": [
+     "gallina",
+     "implenda",
+     "pullis"
+    ],
+    "titres": [
+     76,
+     77,
+     78
+    ],
+    "longueur": 144,
+    "plafond": 134,
+    "intersections": {
+     "170r": [
+      "pullis"
+     ],
+     "170v": [
+      "pullis"
+     ],
+     "171r": [],
+     "171v": [
+      "pullis"
+     ],
+     "172r": [
+      "gallina",
+      "pullis"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [
+      "pullis"
+     ],
+     "174v": []
+    },
+    "points_doubles": 13,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pullis"
+    ]
+   },
+   "172r": {
+    "requete": [
+     "gallina",
+     "implenda",
+     "parmesana",
+     "torta"
+    ],
+    "titres": [
+     79,
+     80
+    ],
+    "longueur": 134,
+    "plafond": 134,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [
+      "gallina"
+     ],
+     "172v": [],
+     "173r": [
+      "torta"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "172v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 163,
+    "plafond": 134,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "173r": {
+    "requete": [
+     "aliter",
+     "facta",
+     "torta"
+    ],
+    "titres": [
+     81
+    ],
+    "longueur": 152,
+    "plafond": 134,
+    "intersections": {
+     "170r": [],
+     "170v": [
+      "aliter"
+     ],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [
+      "torta"
+     ],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "torta"
+    ]
+   },
+   "173v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 164,
+    "plafond": 134,
+    "intersections": {
+     "170r": [],
+     "170v": [],
+     "171r": [],
+     "171v": [],
+     "172r": [],
+     "172v": [],
+     "173r": [],
+     "173v": [],
+     "174r": [],
+     "174v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "174r": {
+    "requete": [
+     "avibus",
+     "copo",
+     "faxsanis",
+     "pastillo",
+     "pullorum",
+     "silvestribus",
+     "vel"
+    ],
+    "titres": [
+     82,
+     83,
+     84
+    ],
+    "longueur": 146,
+    "plafond": 134,
+    "intersections": {
+     "170r": [
+      "vel"
+     ],
+     "170v": [],
+     "171r": [
+      "vel"
+     ],
+     "171v": [
+      "vel"
+     ],
+     "172r": [
+      "vel"
+     ],
+     "172v": [],
+     "173r": [
+      "pullorum"
+     ],
+     "173v": [
+      "vel"
+     ],
+     "174r": [
+      "vel"
+     ],
+     "174v": [
+      "avibus",
+      "pastillo",
+      "vel"
+     ]
+    },
+    "points_doubles": 10,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "vel"
+    ]
+   },
+   "174v": {
+    "requete": [
+     "auro",
+     "avibus",
+     "cibo",
+     "faxsanis",
+     "pastillum",
+     "posito",
+     "silvestribus",
+     "vel",
+     "vivis"
+    ],
+    "titres": [
+     85,
+     86,
+     87
+    ],
+    "longueur": 139,
+    "plafond": 134,
+    "intersections": {
+     "170r": [
+      "vel"
+     ],
+     "170v": [],
+     "171r": [
+      "vel"
+     ],
+     "171v": [
+      "vel"
+     ],
+     "172r": [
+      "vel"
+     ],
+     "172v": [],
+     "173r": [],
+     "173v": [
+      "vel"
+     ],
+     "174r": [
+      "vel"
+     ],
+     "174v": [
+      "avibus",
+      "pastillum",
+      "vel",
+      "vivis"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "avibus",
+     "pastillum",
+     "vel",
+     "vivis"
+    ]
+   },
+   "175r": {
+    "requete": [
+     "avium",
+     "columbis",
+     "grua",
+     "pro",
+     "pullis",
+     "salsa",
+     "salsis",
+     "sapor"
+    ],
+    "titres": [
+     88,
+     89,
+     90,
+     91
+    ],
+    "longueur": 148,
+    "plafond": 129,
+    "intersections": {
+     "175r": [
+      "columbis",
+      "pro",
+      "pullis",
+      "salsa"
+     ],
+     "175v": [
+      "grua",
+      "pro",
+      "salsa",
+      "sapor"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [
+      "avium"
+     ],
+     "179v": []
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "columbis",
+     "pro",
+     "pullis",
+     "salsa"
+    ]
+   },
+   "175v": {
+    "requete": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "malardo",
+     "mustarda",
+     "musto",
+     "omnibus",
+     "pavone",
+     "pro",
+     "riparia",
+     "salsa"
+    ],
+    "titres": [
+     92,
+     93,
+     94
+    ],
+    "longueur": 148,
+    "plafond": 129,
+    "intersections": {
+     "175r": [
+      "avibus",
+      "pro",
+      "salsa"
+     ],
+     "175v": [
+      "anate",
+      "ansere",
+      "avibus",
+      "cigno",
+      "mustarda",
+      "musto",
+      "omnibus",
+      "pavone",
+      "pro",
+      "salsa"
+     ],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "omnibus"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "anate",
+     "ansere",
+     "avibus",
+     "cigno",
+     "mustarda",
+     "musto",
+     "omnibus",
+     "pavone",
+     "pro",
+     "salsa"
+    ]
+   },
+   "176r": {
+    "requete": [
+     "gallina",
+     "implenda"
+    ],
+    "titres": [
+     95
+    ],
+    "longueur": 142,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [
+      "gallina"
+     ],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gallina"
+    ]
+   },
+   "176v": {
+    "requete": [
+     "carnibus",
+     "cume",
+     "edulo",
+     "gianieto",
+     "grossis"
+    ],
+    "titres": [
+     96,
+     97
+    ],
+    "longueur": 144,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [
+      "carnibus"
+     ],
+     "177v": [
+      "carnibus"
+     ],
+     "178r": [
+      "carnibus"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "carnibus"
+     ]
+    },
+    "points_doubles": 5,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177r": {
+    "requete": [
+     "castratina",
+     "implenda",
+     "spatula"
+    ],
+    "titres": [
+     98
+    ],
+    "longueur": 137,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "177v": {
+    "requete": [
+     "farsandis",
+     "farsando",
+     "indulgiis",
+     "intestinis",
+     "langorista",
+     "porci",
+     "ventre"
+    ],
+    "titres": [
+     99,
+     100,
+     101,
+     102
+    ],
+    "longueur": 144,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [
+      "langorista",
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "langorista",
+     "porci"
+    ]
+   },
+   "178r": {
+    "requete": [
+     "aresmessia",
+     "landoliis",
+     "mamonia",
+     "porci",
+     "torta",
+     "ventresca"
+    ],
+    "titres": [
+     103,
+     104,
+     105,
+     106
+    ],
+    "longueur": 135,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [
+      "ventresca"
+     ],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 15,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "porci"
+    ]
+   },
+   "178v": {
+    "requete": [
+     "foliata",
+     "galdaffra",
+     "implendo",
+     "porci",
+     "tortam",
+     "ventre"
+    ],
+    "titres": [
+     107,
+     108,
+     109,
+     110
+    ],
+    "longueur": 131,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [
+      "porci"
+     ],
+     "178r": [
+      "porci"
+     ],
+     "178v": [
+      "galdaffra",
+      "tortam"
+     ],
+     "179r": [],
+     "179v": [
+      "porci"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "galdaffra",
+     "tortam"
+    ]
+   },
+   "179r": {
+    "requete": [
+     "animalibus",
+     "conatis",
+     "galdaffra",
+     "silvestris"
+    ],
+    "titres": [
+     111,
+     112,
+     113
+    ],
+    "longueur": 129,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [
+      "galdaffra"
+     ],
+     "179r": [
+      "animalibus",
+      "silvestris"
+     ],
+     "179v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "animalibus",
+     "silvestris"
+    ]
+   },
+   "179v": {
+    "requete": [
+     "mortarolio",
+     "mortarolium"
+    ],
+    "titres": [
+     114,
+     115
+    ],
+    "longueur": 140,
+    "plafond": 129,
+    "intersections": {
+     "175r": [],
+     "175v": [],
+     "176r": [],
+     "176v": [],
+     "177r": [],
+     "177v": [],
+     "178r": [],
+     "178v": [],
+     "179r": [],
+     "179v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180r": {
+    "requete": [
+     "raviolis"
+    ],
+    "titres": [
+     116
+    ],
+    "longueur": 136,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [],
+     "182r": [],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "180v": {
+    "requete": [
+     "assatis",
+     "ianuensi",
+     "lasanis",
+     "pro",
+     "salsa",
+     "torta",
+     "tria"
+    ],
+    "titres": [
+     117,
+     118,
+     119
+    ],
+    "longueur": 127,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "pro"
+     ],
+     "181v": [
+      "pro",
+      "salsa",
+      "torta"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [
+      "tria"
+     ],
+     "183r": [
+      "pro"
+     ],
+     "183v": [],
+     "184r": [
+      "pro"
+     ],
+     "184v": [
+      "assatis",
+      "pro",
+      "salsa"
+     ]
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pro"
+    ]
+   },
+   "181r": {
+    "requete": [
+     "alba",
+     "alleata",
+     "carnibus",
+     "piperata",
+     "salsa"
+    ],
+    "titres": [
+     120,
+     121,
+     122
+    ],
+    "longueur": 141,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "carnibus"
+     ],
+     "181v": [
+      "salsa"
+     ],
+     "182r": [],
+     "182v": [
+      "alba"
+     ],
+     "183r": [
+      "carnibus"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 14,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus"
+    ]
+   },
+   "181v": {
+    "requete": [
+     "camelina",
+     "gratonea",
+     "montano",
+     "salsa",
+     "torta",
+     "viridis"
+    ],
+    "titres": [
+     123,
+     124,
+     125,
+     126
+    ],
+    "longueur": 143,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [],
+     "181v": [
+      "camelina",
+      "montano",
+      "salsa",
+      "torta"
+     ],
+     "182r": [
+      "gratonea"
+     ],
+     "182v": [],
+     "183r": [],
+     "183v": [],
+     "184r": [],
+     "184v": [
+      "salsa"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "camelina",
+     "montano",
+     "salsa",
+     "torta"
+    ]
+   },
+   "182r": {
+    "requete": [
+     "alius",
+     "crispellis",
+     "fristellis",
+     "gratonea",
+     "vel"
+    ],
+    "titres": [
+     127,
+     128,
+     129,
+     130
+    ],
+    "longueur": 133,
+    "plafond": 118,
+    "intersections": {
+     "180r": [
+      "vel"
+     ],
+     "180v": [
+      "vel"
+     ],
+     "181r": [
+      "vel"
+     ],
+     "181v": [
+      "vel"
+     ],
+     "182r": [
+      "fristellis",
+      "gratonea",
+      "vel"
+     ],
+     "182v": [
+      "vel"
+     ],
+     "183r": [
+      "vel"
+     ],
+     "183v": [],
+     "184r": [
+      "vel"
+     ],
+     "184v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "fristellis",
+     "gratonea",
+     "vel"
+    ]
+   },
+   "182v": {
+    "requete": [
+     "apula",
+     "copo",
+     "crispellis",
+     "cum",
+     "guanto",
+     "lacte",
+     "simula"
+    ],
+    "titres": [
+     131,
+     132,
+     133,
+     134
+    ],
+    "longueur": 145,
+    "plafond": 118,
+    "intersections": {
+     "180r": [
+      "cum"
+     ],
+     "180v": [
+      "cum"
+     ],
+     "181r": [
+      "cum"
+     ],
+     "181v": [
+      "cum"
+     ],
+     "182r": [
+      "cum"
+     ],
+     "182v": [
+      "cum",
+      "lacte"
+     ],
+     "183r": [
+      "copo",
+      "cum"
+     ],
+     "183v": [
+      "cum"
+     ],
+     "184r": [
+      "cum"
+     ],
+     "184v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "cum",
+     "lacte"
+    ]
+   },
+   "183r": {
+    "requete": [
+     "brustinga",
+     "carnibus",
+     "galatina",
+     "pantossa",
+     "pro"
+    ],
+    "titres": [
+     135,
+     136,
+     137
+    ],
+    "longueur": 134,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "carnibus",
+      "pro"
+     ],
+     "181v": [
+      "pro"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [],
+     "183r": [
+      "carnibus",
+      "pro"
+     ],
+     "183v": [],
+     "184r": [
+      "pro"
+     ],
+     "184v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "carnibus",
+     "pro"
+    ]
+   },
+   "183v": {
+    "requete": [
+     "implendis",
+     "integris",
+     "ovis"
+    ],
+    "titres": [
+     138,
+     139
+    ],
+    "longueur": 133,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [],
+     "181r": [
+      "ovis"
+     ],
+     "181v": [],
+     "182r": [
+      "ovis"
+     ],
+     "182v": [],
+     "183r": [
+      "ovis"
+     ],
+     "183v": [],
+     "184r": [],
+     "184v": []
+    },
+    "points_doubles": 6,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "184r": {
+    "requete": [
+     "brodio",
+     "pro",
+     "pulpis",
+     "sipiis",
+     "sive",
+     "trillis"
+    ],
+    "titres": [
+     152,
+     153
+    ],
+    "longueur": 128,
+    "plafond": 118,
+    "intersections": {
+     "180r": [
+      "brodio"
+     ],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "brodio",
+      "pro"
+     ],
+     "181v": [
+      "pro"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [
+      "sive"
+     ],
+     "183r": [
+      "pro"
+     ],
+     "183v": [
+      "brodio"
+     ],
+     "184r": [
+      "pro",
+      "pulpis",
+      "sipiis",
+      "sive"
+     ],
+     "184v": [
+      "pro",
+      "sipiis",
+      "sive",
+      "trillis"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "pro",
+     "pulpis",
+     "sipiis",
+     "sive"
+    ]
+   },
+   "184v": {
+    "requete": [
+     "gamaris",
+     "grillis",
+     "pro",
+     "sapore",
+     "sipiis",
+     "testitudine"
+    ],
+    "titres": [
+     154,
+     155,
+     156,
+     157,
+     158
+    ],
+    "longueur": 118,
+    "plafond": 118,
+    "intersections": {
+     "180r": [],
+     "180v": [
+      "pro"
+     ],
+     "181r": [
+      "pro"
+     ],
+     "181v": [
+      "pro"
+     ],
+     "182r": [
+      "pro"
+     ],
+     "182v": [],
+     "183r": [
+      "pro"
+     ],
+     "183v": [
+      "sapore"
+     ],
+     "184r": [
+      "pro",
+      "sipiis"
+     ],
+     "184v": [
+      "pro",
+      "sapore",
+      "sipiis"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pro",
+     "sapore",
+     "sipiis"
+    ]
+   },
+   "185r": {
+    "requete": [
+     "gamaris",
+     "interioribus",
+     "langustis",
+     "piscium",
+     "salciciis"
+    ],
+    "titres": [
+     159,
+     160,
+     161,
+     162
+    ],
+    "longueur": 131,
+    "plafond": 104,
+    "intersections": {
+     "185r": [
+      "gamaris",
+      "langustis",
+      "piscium"
+     ],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "gamaris",
+     "langustis",
+     "piscium"
+    ]
+   },
+   "185v": {
+    "requete": [
+     "batutis",
+     "piscibus",
+     "pro",
+     "sapore"
+    ],
+    "titres": [
+     163,
+     164,
+     165
+    ],
+    "longueur": 130,
+    "plafond": 104,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [
+      "pro"
+     ],
+     "186r": [
+      "batutis"
+     ],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [
+      "piscibus",
+      "pro"
+     ],
+     "189r": [],
+     "189v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 13,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "pro"
+    ]
+   },
+   "186r": {
+    "requete": [
+     "capite",
+     "monachi"
+    ],
+    "titres": [
+     166
+    ],
+    "longueur": 129,
+    "plafond": 104,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [
+      "capite"
+     ],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "186v": {
+    "requete": [],
+    "titres": [],
+    "longueur": 137,
+    "plafond": 104,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 9,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "187r": {
+    "requete": [
+     "cum",
+     "lampreda",
+     "lamprede",
+     "ovis",
+     "pastillis",
+     "perditis",
+     "piperata",
+     "piscibus",
+     "primo"
+    ],
+    "titres": [
+     140,
+     141,
+     142,
+     143
+    ],
+    "longueur": 133,
+    "plafond": 104,
+    "intersections": {
+     "185r": [
+      "cum",
+      "piscibus"
+     ],
+     "185v": [
+      "cum"
+     ],
+     "186r": [
+      "cum"
+     ],
+     "186v": [
+      "cum",
+      "primo"
+     ],
+     "187r": [
+      "cum",
+      "lampreda"
+     ],
+     "187v": [
+      "cum",
+      "lampreda",
+      "piperata"
+     ],
+     "188r": [
+      "cum"
+     ],
+     "188v": [
+      "cum",
+      "piscibus"
+     ],
+     "189r": [
+      "cum"
+     ],
+     "189v": [
+      "cum"
+     ]
+    },
+    "points_doubles": 13,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "cum",
+     "lampreda"
+    ]
+   },
+   "187v": {
+    "requete": [
+     "aurata",
+     "pastillis",
+     "troctis"
+    ],
+    "titres": [
+     144,
+     145
+    ],
+    "longueur": 146,
+    "plafond": 104,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [
+      "troctis"
+     ],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": []
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "troctis"
+    ]
+   },
+   "188r": {
+    "requete": [
+     "alleciis",
+     "implendis",
+     "pastillo",
+     "sardellis",
+     "sardis",
+     "vel"
+    ],
+    "titres": [
+     146,
+     147
+    ],
+    "longueur": 125,
+    "plafond": 104,
+    "intersections": {
+     "185r": [
+      "vel"
+     ],
+     "185v": [
+      "vel"
+     ],
+     "186r": [
+      "vel"
+     ],
+     "186v": [
+      "vel"
+     ],
+     "187r": [
+      "vel"
+     ],
+     "187v": [
+      "vel"
+     ],
+     "188r": [
+      "alleciis",
+      "pastillo",
+      "sardis",
+      "vel"
+     ],
+     "188v": [
+      "alleciis",
+      "sardis",
+      "vel"
+     ],
+     "189r": [
+      "vel"
+     ],
+     "189v": [
+      "vel"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "alleciis",
+     "pastillo",
+     "sardis",
+     "vel"
+    ]
+   },
+   "188v": {
+    "requete": [
+     "assatis",
+     "brodio",
+     "frissis",
+     "piscibus",
+     "pro",
+     "pulpis",
+     "sardis"
+    ],
+    "titres": [
+     148,
+     149,
+     150,
+     151
+    ],
+    "longueur": 129,
+    "plafond": 104,
+    "intersections": {
+     "185r": [
+      "piscibus"
+     ],
+     "185v": [
+      "pro"
+     ],
+     "186r": [],
+     "186v": [],
+     "187r": [
+      "brodio"
+     ],
+     "187v": [],
+     "188r": [
+      "sardis"
+     ],
+     "188v": [
+      "piscibus",
+      "pro",
+      "pulpis",
+      "sardis"
+     ],
+     "189r": [],
+     "189v": [
+      "pro"
+     ]
+    },
+    "points_doubles": 18,
+    "seule": true,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": [
+     "piscibus",
+     "pro",
+     "pulpis",
+     "sardis"
+    ]
+   },
+   "189r": {
+    "requete": [
+     "mustarda"
+    ],
+    "titres": [
+     167
+    ],
+    "longueur": 130,
+    "plafond": 104,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [],
+     "189v": [
+      "mustarda"
+     ]
+    },
+    "points_doubles": 8,
+    "seule": false,
+    "premiere_ex_aequo": false,
+    "partages_sur_place": []
+   },
+   "189v": {
+    "requete": [
+     "musto",
+     "servando"
+    ],
+    "titres": [
+     168
+    ],
+    "longueur": 104,
+    "plafond": 104,
+    "intersections": {
+     "185r": [],
+     "185v": [],
+     "186r": [],
+     "186v": [],
+     "187r": [],
+     "187v": [],
+     "188r": [],
+     "188v": [],
+     "189r": [
+      "musto"
+     ],
+     "189v": [
+      "musto"
+     ]
+    },
+    "points_doubles": 17,
+    "seule": false,
+    "premiere_ex_aequo": true,
+    "partages_sur_place": [
+     "musto"
+    ]
+   }
+  }
+ }
+}
